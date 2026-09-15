@@ -1,0 +1,26 @@
+# secrets — NEVER commit
+.env
+
+# python
+__pycache__/
+*.pyc
+
+# R
+.Rproj.user/
+.Rhistory
+
+# runtime artifacts
+*.log
+*_progress.json
+*.tmp
+app/RCDome_V026_distribution.zip
+
+# distribution + legacy ZIP packages — Drive-only, never commit
+app/RCDome_V026_update*.zip
+docs/decoder/*.zip
+*.zip
+
+# secrets — NEVER commit
+.Renviron
+email_creds.txt
+.env

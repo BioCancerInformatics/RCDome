@@ -1,0 +1,154 @@
+entity,field,check,status,evidence
+Anoikis,galluzzi_nccd_definition,C1_NCCD_verbatim_integrity,PASS,verbatim match to NCCD Box1 (Anoikis)
+Apoptosis (extrinsic),galluzzi_nccd_definition,C1_NCCD_verbatim_integrity,PASS,verbatim match to NCCD Box1 (Extrinsic apoptosis)
+Apoptosis (intrinsic),galluzzi_nccd_definition,C1_NCCD_verbatim_integrity,PASS,verbatim match to NCCD Box1 (Intrinsic apoptosis)
+Autophagy-dependent cell death,galluzzi_nccd_definition,C1_NCCD_verbatim_integrity,PASS,verbatim match to NCCD Box1 (Autophagy-dependent cell death)
+Autosis,galluzzi_nccd_definition,C1_NCCD_verbatim_integrity,PASS,verbatim match to NCCD Box1 (Autosis)
+Cellular senescence,galluzzi_nccd_definition,C1_NCCD_verbatim_integrity,PASS,verbatim match to NCCD Box1 (Cellular senescence)
+Efferocytosis,galluzzi_nccd_definition,C1_NCCD_verbatim_integrity,PASS,verbatim match to NCCD Box1 (Efferocytosis)
+Entosis,galluzzi_nccd_definition,C1_NCCD_verbatim_integrity,PASS,verbatim match to NCCD Box1 (Entotic cell death)
+Ferroptosis,galluzzi_nccd_definition,C1_NCCD_verbatim_integrity,PASS,verbatim match to NCCD Box1 (Ferroptosis)
+Immunogenic cell death,galluzzi_nccd_definition,C1_NCCD_verbatim_integrity,PASS,verbatim match to NCCD Box1 (Immunogenic cell death)
+Lysosomal cell death,galluzzi_nccd_definition,C1_NCCD_verbatim_integrity,PASS,verbatim match to NCCD Box1 (Lysosome-dependent cell death)
+Lysosome-dependent cell death,galluzzi_nccd_definition,C1_NCCD_verbatim_integrity,PASS,verbatim match to NCCD Box1 (Lysosome-dependent cell death)
+Mitotic catastrophe,galluzzi_nccd_definition,C1_NCCD_verbatim_integrity,PASS,verbatim match to NCCD Box1 (Mitotic catastrophe)
+Mitotic death,galluzzi_nccd_definition,C1_NCCD_verbatim_integrity,PASS,verbatim match to NCCD Box1 (Mitotic death)
+MPT-driven necrosis,galluzzi_nccd_definition,C1_NCCD_verbatim_integrity,PASS,verbatim match to NCCD Box1 (Mitochondrial permeability transition (MPT)-driven necrosis)
+Necroptosis,galluzzi_nccd_definition,C1_NCCD_verbatim_integrity,PASS,verbatim match to NCCD Box1 (Necroptosis)
+NETosis,galluzzi_nccd_definition,C1_NCCD_verbatim_integrity,PASS,verbatim match to NCCD Box1 (NETotic cell death)
+Parthanatos,galluzzi_nccd_definition,C1_NCCD_verbatim_integrity,PASS,verbatim match to NCCD Box1 (Parthanatos)
+Programmed cell death,galluzzi_nccd_definition,C1_NCCD_verbatim_integrity,PASS,verbatim match to NCCD Box1 (Programmed cell death (PCD))
+Pyroptosis,galluzzi_nccd_definition,C1_NCCD_verbatim_integrity,PASS,verbatim match to NCCD Box1 (Pyroptosis)
+Ammonia-induced cell death,founding_pmid,C2_founding_PMID_corroboration,PASS,'ammonia' found in PMID 12388179 title/abstract
+Aponecrosis,founding_pmid,C2_founding_PMID_corroboration,PASS,'aponecrosis' found in PMID 10567915 title/abstract
+Apoptosis (extrinsic),founding_pmid,C2_founding_PMID_corroboration,PASS,'extrinsic apoptosis' found in PMID 15451440 title/abstract
+Apoptosis (intrinsic),founding_pmid,C2_founding_PMID_corroboration,PASS,'intrinsic apoptosis' found in PMID 12186923 title/abstract
+Autophagy-dependent cell death,founding_pmid,C2_founding_PMID_corroboration,PASS,'autophagy-dependent' found in PMID 18942750 title/abstract
+Cornification,founding_pmid,C2_founding_PMID_corroboration,PASS,'cornification' found in PMID 20293116 title/abstract
+Eryptosis,founding_pmid,C2_founding_PMID_corroboration,PASS,'eryptosis' found in PMID 16910766 title/abstract
+Floatptosis,founding_pmid,C2_founding_PMID_corroboration,PASS,'floatptosis' found in PMID 41115953 title/abstract
+Hypersensitive response,founding_pmid,C2_founding_PMID_corroboration,PASS,'hypersensitive' found in PMID 4977772 title/abstract
+Linker cell-type death,founding_pmid,C2_founding_PMID_corroboration,PASS,'linker cell' found in PMID 17199042 title/abstract
+Lysoptosis,founding_pmid,C2_founding_PMID_corroboration,PASS,'lysoptosis' found in PMID 35022507 title/abstract
+Lysosomal cell death,founding_pmid,C2_founding_PMID_corroboration,PASS,'lysosomal cell death' found in PMID 15289336 title/abstract
+Lysozincrosis,founding_pmid,C2_founding_PMID_corroboration,PASS,'lysozincrosis' found in PMID 37550363 title/abstract
+Metalloptosis,founding_pmid,C2_founding_PMID_corroboration,PASS,'metalloptosis' found in PMID 41094656 title/abstract
+Mitotic death,founding_pmid,C2_founding_PMID_corroboration,PASS,'mitotic death' found in PMID 6027879 title/abstract
+Mitoxyperilysis,founding_pmid,C2_founding_PMID_corroboration,PASS,'mitoxyperi' found in PMID 41317732 title/abstract
+MPT-driven necrosis,founding_pmid,C2_founding_PMID_corroboration,FLAG,'mpt-driven necrosis' NOT in PMID 27161573 title/abstract
+NECSO,founding_pmid,C2_founding_PMID_corroboration,PASS,'necro' found in PMID 39915626 title/abstract
+Oncosis,founding_pmid,C2_founding_PMID_corroboration,PASS,'oncosis' found in PMID 7856735 title/abstract
+PANoptosis,founding_pmid,C2_founding_PMID_corroboration,PASS,'pan-optosis' found in PMID 31850239 title/abstract
+Phagoptosis,founding_pmid,C2_founding_PMID_corroboration,PASS,'phagoptosis' found in PMID 22682109 title/abstract
+Programmed cell death,founding_pmid,C2_founding_PMID_corroboration,PASS,'programmed cell death' found in PMID 14287218 title/abstract
+Pyronecrosis,founding_pmid,C2_founding_PMID_corroboration,PASS,'pyronecrosis' found in PMID 18005730 title/abstract
+Regulated Necrosis,founding_pmid,C2_founding_PMID_corroboration,PASS,'regulated necrosis' found in PMID 21894190 title/abstract
+Spectosis,founding_pmid,C2_founding_PMID_corroboration,PASS,'spectosis' found in PMID 40499516 title/abstract
+Triaptosis,founding_pmid,C2_founding_PMID_corroboration,PASS,'triaptosis' found in PMID 39638924 title/abstract
+Vacuolar cell death,founding_pmid,C2_founding_PMID_corroboration,PASS,'vacuolar' found in PMID 15358773 title/abstract
+Alkaliptosis,C1,C3_C1_objective_inputs,INFO,C1=5 (draft); n_genes=24; gene-based reference=6
+Alkaliptosis,C2,C3_C2_objective_inputs,INFO,"C2=6 (draft); mech_ratio=0.00 (n_mech=0, n_ctx=13)"
+Ammonia-induced cell death,C1,C3_C1_objective_inputs,INFO,C1=4 (draft); n_genes=20; gene-based reference=6
+Ammonia-induced cell death,C2,C3_C2_objective_inputs,INFO,"C2=3 (draft); mech_ratio=0.00 (n_mech=0, n_ctx=0)"
+Anoikis,C1,C3_C1_objective_inputs,INFO,C1=6 (draft); n_genes=488; gene-based reference=8
+Anoikis,C2,C3_C2_objective_inputs,INFO,"C2=5 (draft); mech_ratio=0.16 (n_mech=52, n_ctx=280)"
+Aponecrosis,C1,C3_C1_objective_inputs,INFO,C1=4 (draft); n_genes=61; gene-based reference=7
+Aponecrosis,C2,C3_C2_objective_inputs,INFO,"C2=4 (draft); mech_ratio=0.00 (n_mech=0, n_ctx=0)"
+Apoptosis,C1,C3_C1_objective_inputs,INFO,C1=10 (draft); n_genes=5897; gene-based reference=10
+Apoptosis,C2,C3_C2_objective_inputs,INFO,"C2=10 (draft); mech_ratio=0.55 (n_mech=1741, n_ctx=1443)"
+Apoptosis (extrinsic),C1,C3_C1_objective_inputs,INFO,C1=6 (draft); n_genes=270; gene-based reference=8
+Apoptosis (extrinsic),C2,C3_C2_objective_inputs,INFO,"C2=7 (draft); mech_ratio=0.72 (n_mech=76, n_ctx=29)"
+Apoptosis (intrinsic),C1,C3_C1_objective_inputs,INFO,C1=6 (draft); n_genes=374; gene-based reference=8
+Apoptosis (intrinsic),C2,C3_C2_objective_inputs,INFO,"C2=7 (draft); mech_ratio=0.98 (n_mech=212, n_ctx=4)"
+Autophagy,C1,C3_C1_objective_inputs,INFO,C1=8 (draft); n_genes=4634; gene-based reference=10
+Autophagy,C2,C3_C2_objective_inputs,INFO,"C2=7 (draft); mech_ratio=0.08 (n_mech=164, n_ctx=1778)"
+Autophagy-dependent cell death,C1,C3_C1_objective_inputs,INFO,C1=5 (draft); n_genes=110; gene-based reference=7
+Autophagy-dependent cell death,C2,C3_C2_objective_inputs,INFO,"C2=5 (draft); mech_ratio=0.97 (n_mech=28, n_ctx=1)"
+Autosis,C1,C3_C1_objective_inputs,INFO,C1=6 (draft); n_genes=1105; gene-based reference=9
+Autosis,C2,C3_C2_objective_inputs,INFO,"C2=6 (draft); mech_ratio=0.82 (n_mech=33, n_ctx=7)"
+Cellular senescence,C1,C3_C1_objective_inputs,INFO,C1=5 (draft); n_genes=482; gene-based reference=8
+Cellular senescence,C2,C3_C2_objective_inputs,INFO,"C2=5 (draft); mech_ratio=0.12 (n_mech=41, n_ctx=309)"
+Cornification,C1,C3_C1_objective_inputs,INFO,C1=4 (draft); n_genes=4; gene-based reference=5
+Cornification,C2,C3_C2_objective_inputs,INFO,"C2=3 (draft); mech_ratio=1.00 (n_mech=4, n_ctx=0)"
+Cuproptosis,C1,C3_C1_objective_inputs,INFO,C1=7 (draft); n_genes=77; gene-based reference=7
+Cuproptosis,C2,C3_C2_objective_inputs,INFO,"C2=8 (draft); mech_ratio=0.14 (n_mech=3, n_ctx=19)"
+Disulfidptosis,C1,C3_C1_objective_inputs,INFO,C1=6 (draft); n_genes=103; gene-based reference=7
+Disulfidptosis,C2,C3_C2_objective_inputs,INFO,"C2=5 (draft); mech_ratio=0.06 (n_mech=2, n_ctx=31)"
+Efferocytosis,C1,C3_C1_objective_inputs,INFO,C1=5 (draft); n_genes=95; gene-based reference=7
+Efferocytosis,C2,C3_C2_objective_inputs,INFO,"C2=4 (draft); mech_ratio=0.08 (n_mech=3, n_ctx=36)"
+Entosis,C1,C3_C1_objective_inputs,INFO,C1=6 (draft); n_genes=77; gene-based reference=7
+Entosis,C2,C3_C2_objective_inputs,INFO,"C2=5 (draft); mech_ratio=0.00 (n_mech=0, n_ctx=34)"
+Erebosis,C1,C3_C1_objective_inputs,INFO,C1=5 (draft); n_genes=6; gene-based reference=5
+Erebosis,C2,C3_C2_objective_inputs,INFO,"C2=4 (draft); mech_ratio=0.00 (n_mech=0, n_ctx=0)"
+Eryptosis,C1,C3_C1_objective_inputs,INFO,C1=4 (draft); n_genes=5; gene-based reference=5
+Eryptosis,C2,C3_C2_objective_inputs,INFO,"C2=4 (draft); mech_ratio=0.00 (n_mech=0, n_ctx=5)"
+Ferroptosis,C1,C3_C1_objective_inputs,INFO,C1=8 (draft); n_genes=1724; gene-based reference=9
+Ferroptosis,C2,C3_C2_objective_inputs,INFO,"C2=8 (draft); mech_ratio=0.16 (n_mech=186, n_ctx=984)"
+Floatptosis,C1,C3_C1_objective_inputs,INFO,C1=3 (draft); n_genes=28; gene-based reference=6
+Floatptosis,C2,C3_C2_objective_inputs,INFO,"C2=4 (draft); mech_ratio=0.00 (n_mech=0, n_ctx=0)"
+Hypersensitive response,C1,C3_C1_objective_inputs,INFO,C1=4 (draft); n_genes=21; gene-based reference=6
+Hypersensitive response,C2,C3_C2_objective_inputs,INFO,"C2=4 (draft); mech_ratio=0.33 (n_mech=1, n_ctx=2)"
+Immunogenic cell death,C1,C3_C1_objective_inputs,INFO,C1=6 (draft); n_genes=535; gene-based reference=8
+Immunogenic cell death,C2,C3_C2_objective_inputs,INFO,"C2=6 (draft); mech_ratio=0.20 (n_mech=20, n_ctx=82)"
+Linker cell-type death,C1,C3_C1_objective_inputs,INFO,C1=3 (draft); n_genes=6; gene-based reference=5
+Linker cell-type death,C2,C3_C2_objective_inputs,INFO,"C2=4 (draft); mech_ratio=0.00 (n_mech=0, n_ctx=5)"
+Lysoptosis,C1,C3_C1_objective_inputs,INFO,C1=4 (draft); n_genes=33; gene-based reference=6
+Lysoptosis,C2,C3_C2_objective_inputs,INFO,"C2=5 (draft); mech_ratio=0.50 (n_mech=1, n_ctx=1)"
+Lysosomal cell death,C1,C3_C1_objective_inputs,INFO,C1=4 (draft); n_genes=37; gene-based reference=7
+Lysosomal cell death,C2,C3_C2_objective_inputs,INFO,"C2=5 (draft); mech_ratio=1.00 (n_mech=3, n_ctx=0)"
+Lysosome-dependent cell death,C1,C3_C1_objective_inputs,INFO,C1=6 (draft); n_genes=248; gene-based reference=8
+Lysosome-dependent cell death,C2,C3_C2_objective_inputs,INFO,"C2=5 (draft); mech_ratio=0.65 (n_mech=39, n_ctx=21)"
+Lysozincrosis,C1,C3_C1_objective_inputs,INFO,C1=3 (draft); n_genes=8; gene-based reference=6
+Lysozincrosis,C2,C3_C2_objective_inputs,INFO,"C2=3 (draft); mech_ratio=0.00 (n_mech=0, n_ctx=0)"
+Metalloptosis,C1,C3_C1_objective_inputs,INFO,C1=4 (draft); n_genes=36; gene-based reference=6
+Metalloptosis,C2,C3_C2_objective_inputs,INFO,"C2=4 (draft); mech_ratio=0.00 (n_mech=0, n_ctx=0)"
+Methuosis,C1,C3_C1_objective_inputs,INFO,C1=4 (draft); n_genes=2; gene-based reference=5
+Methuosis,C2,C3_C2_objective_inputs,INFO,"C2=4 (draft); mech_ratio=0.00 (n_mech=0, n_ctx=1)"
+Mitochondrial permeability transition,C1,C3_C1_objective_inputs,INFO,C1=5 (draft); n_genes=45; gene-based reference=7
+Mitochondrial permeability transition,C2,C3_C2_objective_inputs,INFO,"C2=4 (draft); mech_ratio=0.25 (n_mech=5, n_ctx=15)"
+Mitoptosis,C1,C3_C1_objective_inputs,INFO,C1=5 (draft); n_genes=5; gene-based reference=5
+Mitoptosis,C2,C3_C2_objective_inputs,INFO,"C2=4 (draft); mech_ratio=0.00 (n_mech=0, n_ctx=1)"
+Mitotic catastrophe,C1,C3_C1_objective_inputs,INFO,C1=7 (draft); n_genes=117; gene-based reference=7
+Mitotic catastrophe,C2,C3_C2_objective_inputs,INFO,"C2=7 (draft); mech_ratio=0.03 (n_mech=2, n_ctx=56)"
+Mitotic death,C1,C3_C1_objective_inputs,INFO,C1=5 (draft); n_genes=233; gene-based reference=8
+Mitotic death,C2,C3_C2_objective_inputs,INFO,"C2=3 (draft); mech_ratio=0.00 (n_mech=0, n_ctx=4)"
+Mitoxyperilysis,C1,C3_C1_objective_inputs,INFO,C1=3 (draft); n_genes=13; gene-based reference=6
+Mitoxyperilysis,C2,C3_C2_objective_inputs,INFO,"C2=4 (draft); mech_ratio=0.00 (n_mech=0, n_ctx=3)"
+MPT-driven necrosis,C1,C3_C1_objective_inputs,INFO,C1=5 (draft); n_genes=67; gene-based reference=7
+MPT-driven necrosis,C2,C3_C2_objective_inputs,INFO,"C2=5 (draft); mech_ratio=0.89 (n_mech=8, n_ctx=1)"
+Necroptosis,C1,C3_C1_objective_inputs,INFO,C1=9 (draft); n_genes=575; gene-based reference=8
+Necroptosis,C2,C3_C2_objective_inputs,INFO,"C2=9 (draft); mech_ratio=0.15 (n_mech=24, n_ctx=139)"
+Necrosis,C1,C3_C1_objective_inputs,INFO,C1=4 (draft); n_genes=1092; gene-based reference=9
+Necrosis,C2,C3_C2_objective_inputs,INFO,"C2=4 (draft); mech_ratio=0.41 (n_mech=9, n_ctx=13)"
+NECSO,C1,C3_C1_objective_inputs,INFO,C1=3 (draft); n_genes=27; gene-based reference=6
+NECSO,C2,C3_C2_objective_inputs,INFO,"C2=4 (draft); mech_ratio=0.00 (n_mech=0, n_ctx=1)"
+NETosis,C1,C3_C1_objective_inputs,INFO,C1=6 (draft); n_genes=36; gene-based reference=6
+NETosis,C2,C3_C2_objective_inputs,INFO,"C2=6 (draft); mech_ratio=0.50 (n_mech=11, n_ctx=11)"
+Oncosis,C1,C3_C1_objective_inputs,INFO,C1=4 (draft); n_genes=17; gene-based reference=6
+Oncosis,C2,C3_C2_objective_inputs,INFO,"C2=4 (draft); mech_ratio=0.00 (n_mech=0, n_ctx=10)"
+Oxeiptosis,C1,C3_C1_objective_inputs,INFO,C1=5 (draft); n_genes=18; gene-based reference=6
+Oxeiptosis,C2,C3_C2_objective_inputs,INFO,"C2=5 (draft); mech_ratio=0.30 (n_mech=3, n_ctx=7)"
+PANoptosis,C1,C3_C1_objective_inputs,INFO,C1=5 (draft); n_genes=41; gene-based reference=7
+PANoptosis,C2,C3_C2_objective_inputs,INFO,"C2=6 (draft); mech_ratio=0.23 (n_mech=7, n_ctx=24)"
+Paraptosis,C1,C3_C1_objective_inputs,INFO,C1=5 (draft); n_genes=5; gene-based reference=5
+Paraptosis,C2,C3_C2_objective_inputs,INFO,"C2=5 (draft); mech_ratio=0.00 (n_mech=0, n_ctx=5)"
+Parthanatos,C1,C3_C1_objective_inputs,INFO,C1=7 (draft); n_genes=129; gene-based reference=7
+Parthanatos,C2,C3_C2_objective_inputs,INFO,"C2=6 (draft); mech_ratio=0.16 (n_mech=7, n_ctx=38)"
+Phagoptosis,C1,C3_C1_objective_inputs,INFO,C1=5 (draft); n_genes=67; gene-based reference=7
+Phagoptosis,C2,C3_C2_objective_inputs,INFO,"C2=5 (draft); mech_ratio=0.00 (n_mech=0, n_ctx=1)"
+Programmed cell death,C1,C3_C1_objective_inputs,INFO,C1=10 (draft); n_genes=1710; gene-based reference=9
+Programmed cell death,C2,C3_C2_objective_inputs,INFO,"C2=3 (draft); mech_ratio=0.40 (n_mech=294, n_ctx=445)"
+Pyronecrosis,C1,C3_C1_objective_inputs,INFO,C1=3 (draft); n_genes=1; gene-based reference=4
+Pyronecrosis,C2,C3_C2_objective_inputs,INFO,"C2=4 (draft); mech_ratio=0.00 (n_mech=0, n_ctx=0)"
+Pyroptosis,C1,C3_C1_objective_inputs,INFO,C1=9 (draft); n_genes=618; gene-based reference=8
+Pyroptosis,C2,C3_C2_objective_inputs,INFO,"C2=8 (draft); mech_ratio=0.08 (n_mech=26, n_ctx=302)"
+Regulated Necrosis,C1,C3_C1_objective_inputs,INFO,C1=6 (draft); n_genes=108; gene-based reference=7
+Regulated Necrosis,C2,C3_C2_objective_inputs,INFO,"C2=4 (draft); mech_ratio=0.70 (n_mech=19, n_ctx=8)"
+Senescence and Autophagy in Cancer,C1,C3_C1_objective_inputs,INFO,C1=4 (draft); n_genes=105; gene-based reference=7
+Senescence and Autophagy in Cancer,C2,C3_C2_objective_inputs,INFO,"C2=3 (draft); mech_ratio=1.00 (n_mech=39, n_ctx=0)"
+Spectosis,C1,C3_C1_objective_inputs,INFO,C1=3 (draft); n_genes=2; gene-based reference=5
+Spectosis,C2,C3_C2_objective_inputs,INFO,"C2=4 (draft); mech_ratio=0.00 (n_mech=0, n_ctx=1)"
+Triaptosis,C1,C3_C1_objective_inputs,INFO,C1=3 (draft); n_genes=3; gene-based reference=5
+Triaptosis,C2,C3_C2_objective_inputs,INFO,"C2=3 (draft); mech_ratio=0.00 (n_mech=0, n_ctx=0)"
+Vacuolar cell death,C1,C3_C1_objective_inputs,INFO,C1=3 (draft); n_genes=24; gene-based reference=6
+Vacuolar cell death,C2,C3_C2_objective_inputs,INFO,"C2=3 (draft); mech_ratio=0.00 (n_mech=0, n_ctx=0)"
