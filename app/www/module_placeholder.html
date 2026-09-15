@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RCDome — Module</title>
+<style>
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:'Segoe UI',system-ui,sans-serif; background:#f5f5f4; color:#1c1917; }
+  .header { display:flex; justify-content:space-between; align-items:center;
+            padding:14px 24px; background:#fff; border-bottom:1px solid #e7e5e4; }
+  .logo { font-size:1.4rem; font-weight:800; }
+  .logo .rust { color:#b45309; }
+  .back { color:#c2410c; text-decoration:none; font-size:0.9rem; font-weight:600; }
+  .body { max-width:700px; margin:60px auto; text-align:center; padding:0 20px; }
+  .body h1 { font-size:1.8rem; margin-bottom:10px; }
+  .body .soon { color:#78716c; margin-bottom:24px; }
+  .body .desc { color:#57534e; font-size:0.95rem; margin-bottom:28px; }
+  .body .backbtn { display:inline-block; padding:10px 20px; background:#c2410c; color:#fff;
+                   border-radius:8px; text-decoration:none; font-weight:600; }
+</style>
+</head>
+<body>
+  <div class="header">
+    <div class="logo">RCD<span class="rust">ome</span></div>
+    <a class="back" href="landing_page.html">← Back to the dome</a>
+  </div>
+  <div class="body">
+    <h1 id="modName">Module</h1>
+    <p class="soon">Coming soon — this module is under construction.</p>
+    <p class="desc" id="modDesc"></p>
+    <a class="backbtn" href="landing_page.html">← Back to the dome</a>
+  </div>
+<script>
+  const MODULES = {
+    "1": {name:"RCD Compendium Browser", desc:"Interactive filtering + direct PMID hyperlinks for every gene-RCD association."},
+    "2": {name:"Gene-Centric Explorer", desc:"Omic layer toggle: mRNA, isoform, miRNA, methylation, mutation, CNV, protein."},
+    "3": {name:"AI Pathway Diagrams", desc:"AI-generated, manually curated pathway diagrams (STRING PPI → Mermaid.js)."},
+    "4": {name:"LLM Literature Consultation", desc:"Retrieval-Augmented Generation over a ChromaDB vector store of RCD literature."},
+    "5": {name:"Operational Definition Comparator", desc:"Side-by-side comparison of RCD forms' operational definitions."},
+    "6": {name:"Discovery Timeline & Evidence Dashboard", desc:"Timeline of RCD discovery + evidence dashboard."},
+    "7": {name:"Manuscript Integration Toolkit", desc:"Export in .docx, .csv, and .ris formats."},
+    "about": {name:"About RCDome", desc:"A multi-database human gene atlas of regulated cell death — 9,265 HGNC-validated genes · 53 entities · 21,568 associations · 20 resources."}
+  };
+  const m = new URLSearchParams(window.location.search).get("m") || "1";
+  const mod = MODULES[m] || MODULES["1"];
+  document.getElementById("modName").textContent = (m === "about" ? "" : "Module " + m + " — ") + mod.name;
+  document.getElementById("modDesc").textContent = mod.desc;
+</script>
+</body>
+</html>

@@ -1,0 +1,1054 @@
+entity,evidence,current_pmid,response
+Alkaliptosis,FULL TEXT + ABSTRACT,29248440,"```json
+{
+  ""claims"": {
+    ""mechanism"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""NF-κB activation and CA9 repression supported; direct pH dependence shown.""
+    },
+    ""trigger"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Alkaline pH and JTC801 induce pH-dependent death in cancer cells.""
+    },
+    ""key_molecules"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""NF-κB, CA9, and IkB involvement are explicitly described in text.""
+    },
+    ""morphology"": {
+      ""status"": ""NOT_SUPPORTED"",
+      ""note"": ""No morphological features described in provided excerpts.""
+    }
+  },
+  ""best_reference_pmid"": ""29248440"",
+  ""hallucinations"": [
+    ""No explicit mention of IkB in provided excerpts."",
+    ""Morphological characterization absent from text.""
+  ],
+  ""verdict"": ""MINOR_ISSUE""
+}
+```"
+Ammonia-induced cell death,ABSTRACT,12388179,"{
+  ""claims"": {
+    ""mechanism"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""Detoxification via arginase supported; modality mechanism unspecified.""
+    },
+    ""trigger"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Ammonia induces cell death in gastric epithelial cells.""
+    },
+    ""key_molecules"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Arginase and L-glutamine explicitly shown protective.""
+    },
+    ""morphology"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Cytoplasmic vacuolation observed and quantified.""
+    }
+  },
+  ""best_reference_pmid"": ""12388179"",
+  ""hallucinations"": [
+    ""OD implies a distinct modality but abstract only describes cytotoxicity."",
+    ""OD states 'contextual cell death modality' without mechanistic definition.""
+  ],
+  ""verdict"": ""MINOR_ISSUE""
+}"
+Aponecrosis,ABSTRACT,10567915,"{
+  ""claims"": {
+    ""mechanism"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Incomplete apoptosis followed by necrosis supported.""
+    },
+    ""trigger"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""High-dose mitochondrial insult with Antimycin A.""
+    },
+    ""key_molecules"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""Caspase-3 supported; complex III inferred only.""
+    },
+    ""morphology"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Shares dynamic, molecular, morphological features both.""
+    }
+  },
+  ""best_reference_pmid"": ""10567915"",
+  ""hallucinations"": [],
+  ""verdict"": ""VALIDATED""
+}"
+Apoptosis,FULL TEXT + ABSTRACT,17562483,"```json
+{
+  ""claims"": {
+    ""mechanism"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""Energy-dependent biochemical mechanisms stated, not autonomous lysis.""
+    },
+    ""trigger"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""Chemical-induced death mentioned, but not tumor-specific balance.""
+    },
+    ""key_molecules"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""Caspases and BCL-2 implied, cytochrome c not explicit.""
+    },
+    ""morphology"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Distinct morphological characteristics including shrinkage and chromatin condensation.""
+    }
+  },
+  ""best_reference_pmid"": ""17562483"",
+  ""hallucinations"": [
+    ""Autonomous cell lysis without causing inflammation"",
+    ""Involved in life and death balance of tumor cells"",
+    ""Key molecules: Caspases (3,8,9), BCL-2 family, cytochrome c""
+  ],
+  ""verdict"": ""MAJOR_ISSUE""
+}
+```"
+Apoptosis (extrinsic),ABSTRACT,15451440,"{
+  ""claims"": {
+    ""mechanism"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""CASP8 activation shown, but CASP3 not mentioned.""
+    },
+    ""trigger"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Extracellular CD95/Fas ligand triggers extrinsic apoptosis.""
+    },
+    ""key_molecules"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""CD95/Fas, FADD, and caspase-8 are explicitly described.""
+    },
+    ""morphology"": {
+      ""status"": ""NOT_SUPPORTED"",
+      ""note"": ""No morphological features of apoptosis are described.""
+    }
+  },
+  ""best_reference_pmid"": ""15451440"",
+  ""hallucinations"": [
+    ""CASP3 as executioner caspase is not mentioned in abstract."",
+    ""Plasma membrane receptor perturbation is not explicitly stated as initiator.""
+  ],
+  ""verdict"": ""MINOR_ISSUE""
+}"
+Apoptosis (intrinsic),FULL TEXT + ABSTRACT,12186923,"{
+  ""claims"": {
+    ""mechanism"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""MOMP not explicitly stated; intrinsic pathway implied""
+    },
+    ""trigger"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""Microenvironment perturbation via HIV/glutamate supported""
+    },
+    ""key_molecules"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Bcl-2, Bcl-xL, Bax contextually supported""
+    },
+    ""morphology"": {
+      ""status"": ""NOT_SUPPORTED"",
+      ""note"": ""No morphological features described in text""
+    }
+  },
+  ""best_reference_pmid"": ""12186923"",
+  ""hallucinations"": [
+    ""MOMP as demarcating event not mentioned"",
+    ""Executioner caspases CASP3 not mentioned"",
+    ""Morphological features of apoptosis not described""
+  ],
+  ""verdict"": ""MINOR_ISSUE""
+}"
+Autophagy,FULL TEXT + ABSTRACT,36864290,"```json
+{
+  ""claims"": {
+    ""mechanism"": {
+      ""level"": ""SUPPORTED"",
+      ""note"": ""Lysosomal degradation and recycling of cellular cargoes.""
+    },
+    ""trigger"": {
+      ""level"": ""PARTIAL"",
+      ""note"": ""Homeostasis maintenance stated, but triggers not detailed.""
+    },
+    ""key_molecules"": {
+      ""level"": ""SUPPORTED"",
+      ""note"": ""ATG proteins, LC3, and related machinery explicitly mentioned.""
+    },
+    ""morphology"": {
+      ""level"": ""NOT_SUPPORTED"",
+      ""note"": ""No morphological features described in provided text.""
+    }
+  },
+  ""best_reference_pmid"": ""36864290"",
+  ""hallucinations"": [
+    ""OD states 'Phagocytic biological process' - text describes autophagy as a lysosomal degradation pathway, not phagocytic."",
+    ""OD lists 'Beclin-1' and 'p62/SQSTM1' as key molecules - these are not mentioned in the provided excerpts.""
+  ],
+  ""verdict"": ""MINOR_ISSUE""
+}
+```"
+Autophagy-dependent cell death,ABSTRACT,18942750,"{
+  ""claims"": {
+    ""mechanism"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""Autophagy machinery implicated but mechanistic dependence not fully proven.""
+    },
+    ""trigger"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Activated microglia supernatant triggers death in glioma cells.""
+    },
+    ""key_molecules"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""Autophagy machinery mentioned but no specific components identified.""
+    },
+    ""morphology"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Double-membrane vesicles, acidic vesicles, zeiosis observed.""
+    }
+  },
+  ""best_reference_pmid"": ""18942750"",
+  ""hallucinations"": [],
+  ""verdict"": ""MINOR_ISSUE""
+}"
+Cornification,ABSTRACT,15803139,"{
+  ""claims"": {
+    ""mechanism"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""Terminal differentiation and crosslinking implied, but no molecular mechanism.""
+    },
+    ""trigger"": {
+      ""status"": ""NOT_SUPPORTED"",
+      ""note"": ""No trigger described in abstract or excerpts.""
+    },
+    ""key_molecules"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""Abstract mentions keratins, transglutaminases, lipids, but OD says none.""
+    },
+    ""morphology"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Cornified layer and envelope replacement of plasma membrane described.""
+    }
+  },
+  ""best_reference_pmid"": ""15803139"",
+  ""hallucinations"": [
+    ""OD states key molecules as 'nan', but abstract lists keratins, transglutaminases, lipids."",
+    ""OD implies a specific programmed cell death endpoint, but abstract describes dead keratinocytes and cornified envelope, not explicit cell death form.""
+  ],
+  ""verdict"": ""MINOR_ISSUE""
+}"
+Cuproptosis,FULL TEXT + ABSTRACT,35298263,"```json
+{
+  ""claims"": {
+    ""mechanism"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""Mitochondrial stress not explicitly stated; TCA lipoylation central""
+    },
+    ""trigger"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Copper accumulation induces death via ionophore and excess""
+    },
+    ""key_molecules"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""FDX1, LIAS, DLAT, copper all confirmed""
+    },
+    ""morphology"": {
+      ""status"": ""NOT_SUPPORTED"",
+      ""note"": ""No morphological features described in excerpts""
+    }
+  },
+  ""best_reference_pmid"": ""35298263"",
+  ""hallucinations"": [
+    ""Associated mitochondrial stress is not explicitly defined in text"",
+    ""Morphological characterization absent from provided full text""
+  ],
+  ""verdict"": ""MINOR_ISSUE""
+}
+```"
+Disulfidptosis,FULL TEXT + ABSTRACT,36747082,"```json
+{
+  ""claims"": {
+    ""mechanism"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""Disulfide stress causes actin collapse, not just stress""
+    },
+    ""trigger"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Glucose starvation with SLC7A11 high cells triggers death""
+    },
+    ""key_molecules"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""SLC7A11, NADPH, disulfide bonds all confirmed""
+    },
+    ""morphology"": {
+      ""status"": ""NOT_SUPPORTED"",
+      ""note"": ""No morphology described in provided text""
+    }
+  },
+  ""best_reference_pmid"": ""36747082"",
+  ""hallucinations"": [
+    ""OD states 'abnormal expression of SLC7A11' but text specifies high SLC7A11 expression"",
+    ""OD omits actin cytoskeleton collapse as key mechanistic feature""
+  ],
+  ""verdict"": ""MINOR_ISSUE""
+}
+```"
+Erebosis,FULL TEXT + ABSTRACT,35468130,"{
+  ""claims"": {
+    ""mechanism"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""Novel death mechanism proposed, not fully characterized.""
+    },
+    ""trigger"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Occurs during homeostatic turnover of gut enterocytes.""
+    },
+    ""key_molecules"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""Ance accumulates, but no key molecular pathway.""
+    },
+    ""morphology"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Loss of cytoskeleton, adhesion, organelles, flat nuclei.""
+    }
+  },
+  ""best_reference_pmid"": ""35468130"",
+  ""hallucinations"": [],
+  ""verdict"": ""VALIDATED""
+}"
+Eryptosis,ABSTRACT,16910766,"{
+  ""claims"": {
+    ""mechanism"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Abstract describes both signaling pathways exactly as stated.""
+    },
+    ""trigger"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Oxidative stress and prostaglandin/ceramide pathways confirmed.""
+    },
+    ""key_molecules"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""Ca2+ channels, ceramide, calpain supported; erythropoietin inhibitory.""
+    },
+    ""morphology"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Shrinkage, blebbing, and phosphatidylserine exposure explicitly described.""
+    }
+  },
+  ""best_reference_pmid"": ""16910766"",
+  ""hallucinations"": [],
+  ""verdict"": ""VALIDATED""
+}"
+Floatptosis,FULL TEXT + ABSTRACT,41115953,"{
+  ""claims"": {
+    ""mechanism"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""Fused lysosome termination stated, but mechanism incomplete.""
+    },
+    ""trigger"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Bergeyella cardium variant triggers floatptosis in macrophages.""
+    },
+    ""key_molecules"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""SLC9A9 supported; sodium channels only via amiloride.""
+    },
+    ""morphology"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Cytoplasmic vacuolization is defining morphological feature.""
+    }
+  },
+  ""best_reference_pmid"": ""41115953"",
+  ""hallucinations"": [
+    ""Sodium-channel blockade as specific inhibition is not directly evidenced; amiloride is a sodium channel inhibitor but mechanism not detailed."",
+    ""Fused-lysosome-associated termination is named but not fully described in excerpts.""
+  ],
+  ""verdict"": ""MINOR_ISSUE""
+}"
+Hypersensitive response,ABSTRACT,9809204,"{
+  ""claims"": {
+    ""mechanism"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""OD says taxon-specific PCD; abstract describes HR as PCD but not taxon-specific.""
+    },
+    ""trigger"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Abstract states HR occurs in response to pathogen attack.""
+    },
+    ""key_molecules"": {
+      ""status"": ""NOT_SUPPORTED"",
+      ""note"": ""OD lists none; abstract mentions avirulence/resistance genes but not as key molecules.""
+    },
+    ""morphology"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""OD says at infection sites restricting spread; abstract says rapid cell death related to resistance.""
+    }
+  },
+  ""best_reference_pmid"": ""9809204"",
+  ""hallucinations"": [
+    ""Taxon-specific claim not supported by abstract."",
+    ""Restricting pathogen spread not explicitly stated in abstract.""
+  ],
+  ""verdict"": ""MINOR_ISSUE""
+}"
+Linker cell-type death,ABSTRACT,17199042,"{
+  ""claims"": {
+    ""mechanism"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Caspase-independent and ced-3-independent death confirmed.""
+    },
+    ""trigger"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Developmental timing controlled by let-7 and LIN-29.""
+    },
+    ""key_molecules"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""let-7 and LIN-29 explicitly implicated in abstract.""
+    },
+    ""morphology"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Nuclear crenellation and organelle swelling described.""
+    }
+  },
+  ""best_reference_pmid"": ""17199042"",
+  ""hallucinations"": [],
+  ""verdict"": ""VALIDATED""
+}"
+Lysoptosis,FULL TEXT + ABSTRACT,35022507,"{
+  ""claims"": {
+    ""mechanism"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""LMP and cathepsin-dependent proteolysis confirmed.""
+    },
+    ""trigger"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""Absence of serpin inhibition is context, not trigger.""
+    },
+    ""key_molecules"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Cathepsin L and SERPINB3 explicitly mentioned.""
+    },
+    ""morphology"": {
+      ""status"": ""NOT_SUPPORTED"",
+      ""note"": ""No morphological features described in excerpts.""
+    }
+  },
+  ""best_reference_pmid"": ""35022507"",
+  ""hallucinations"": [
+    ""Morphology claims not present in text."",
+    ""Trigger implied as absence of serpin inhibition.""
+  ],
+  ""verdict"": ""MINOR_ISSUE""
+}"
+Lysosomal cell death,ABSTRACT,15289336,"{
+  ""claims"": {
+    ""mechanism"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""LMP not explicitly stated; cathepsin mediation supported""
+    },
+    ""trigger"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""TNF triggers death but primary LMP not shown""
+    },
+    ""key_molecules"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Cathepsin B and L required; D not""
+    },
+    ""morphology"": {
+      ""status"": ""NOT_SUPPORTED"",
+      ""note"": ""No morphology described in abstract""
+    }
+  },
+  ""best_reference_pmid"": ""15289336"",
+  ""hallucinations"": [
+    ""Primary LMP as initiating event not demonstrated"",
+    ""Optional MOMP and caspases involvement not mentioned""
+  ],
+  ""verdict"": ""MINOR_ISSUE""
+}"
+Lysozincrosis,FULL TEXT + ABSTRACT,34686351,"```json
+{
+  ""claims"": {
+    ""mechanism"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""Regulated non-apoptotic, but exact regulatory pathway unspecified.""
+    },
+    ""trigger"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Lysosomal Zn2+ release via TRPML1 triggers death.""
+    },
+    ""key_molecules"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Lysosomal zinc and TRPML1 are central.""
+    },
+    ""morphology"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""Necrotic morphology stated, but not detailed.""
+    }
+  },
+  ""best_reference_pmid"": ""34686351"",
+  ""hallucinations"": [],
+  ""verdict"": ""MINOR_ISSUE""
+}
+```"
+Metalloptosis,FULL TEXT + ABSTRACT,41094656,"{
+  ""claims"": {
+    ""mechanism"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""Defined as metal-ion-based RCD, but umbrella scope unclear.""
+    },
+    ""trigger"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""Metal ions trigger, but specific overload conditions not detailed.""
+    },
+    ""key_molecules"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""Text lists many metals, but OD omits K, Mg, Co, Mo.""
+    },
+    ""morphology"": {
+      ""status"": ""NOT_SUPPORTED"",
+      ""note"": ""No distinct morphology described in provided excerpts.""
+    }
+  },
+  ""best_reference_pmid"": ""41094656"",
+  ""hallucinations"": [
+    ""OD includes 'lysozincrosis', 'manganism', 'calcicoptosis', 'necrosis by sodium overload' as subtypes, but these terms are not found in the provided text."",
+    ""OD claims 'umbrella term' encompassing ferroptosis and cuproptosis, but text only states metalloptosis is metal-ion-based RCD without explicit subsumption.""
+  ],
+  ""verdict"": ""MAJOR_ISSUE""
+}"
+Methuosis,FULL TEXT + ABSTRACT,24726643,"```json
+{
+  ""claims"": {
+    ""mechanism"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""Mechanism not fully detailed in excerpts""
+    },
+    ""trigger"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Activated Ras and small molecules trigger""
+    },
+    ""key_molecules"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""Ras supported; Rac1 and macropinocytosis implied""
+    },
+    ""morphology"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Vacuolization from macropinosomes and endosomes""
+    }
+  },
+  ""best_reference_pmid"": ""24726643"",
+  ""hallucinations"": [
+    ""Rac1 explicitly mentioned as key molecule"",
+    ""Macropinocytosis explicitly named as mechanism""
+  ],
+  ""verdict"": ""MINOR_ISSUE""
+}
+```"
+Mitochondrial permeability transition,FULL TEXT + ABSTRACT,23483560,"{
+  ""claims"": {
+    ""mechanism"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""Pore opening implied but not explicitly described""
+    },
+    ""trigger"": {
+      ""status"": ""NOT_SUPPORTED"",
+      ""note"": ""No trigger conditions mentioned in text""
+    },
+    ""key_molecules"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""MPTP named but Cyclophilin D/ANT absent""
+    },
+    ""morphology"": {
+      ""status"": ""NOT_SUPPORTED"",
+      ""note"": ""No morphological features described in text""
+    }
+  },
+  ""best_reference_pmid"": ""23483560"",
+  ""hallucinations"": [
+    ""Cyclophilin D as key molecule not in text"",
+    ""ANT as key molecule not in text"",
+    ""Loss of membrane potential not mentioned"",
+    ""Non-selective pore opening not explicitly stated""
+  ],
+  ""verdict"": ""MINOR_ISSUE""
+}"
+Mitoptosis,ABSTRACT,33705288,"```json
+{
+  ""claims"": {
+    ""mechanism"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""Abstract describes programmed elimination, not solely selective damaged mitochondria.""
+    },
+    ""trigger"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""Oxidative stress mentioned, but permeability transition not explicitly stated.""
+    },
+    ""key_molecules"": {
+      ""status"": ""NOT_SUPPORTED"",
+      ""note"": ""No mention of mPTP, ROS, or fission proteins.""
+    },
+    ""morphology"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""Perinuclear cluster and mitoptotic body described, not selective.""
+    }
+  },
+  ""best_reference_pmid"": ""33705288"",
+  ""hallucinations"": [
+    ""mPTP as key molecule"",
+    ""mitochondrial fission proteins as key molecules"",
+    ""trigger specifically via mitochondrial permeability transition""
+  ],
+  ""verdict"": ""MAJOR_ISSUE""
+}
+```"
+Mitotic death,ABSTRACT,6027879,"{
+  ""claims"": {
+    ""mechanism"": {
+      ""status"": ""NOT_SUPPORTED"",
+      ""note"": ""No mechanism described in abstract.""
+    },
+    ""trigger"": {
+      ""status"": ""NOT_SUPPORTED"",
+      ""note"": ""Radiation/drugs but no mitotic catastrophe.""
+    },
+    ""key_molecules"": {
+      ""status"": ""NOT_SUPPORTED"",
+      ""note"": ""No molecules mentioned in abstract.""
+    },
+    ""morphology"": {
+      ""status"": ""NOT_SUPPORTED"",
+      ""note"": ""No morphology described in abstract.""
+    }
+  },
+  ""best_reference_pmid"": ""6027879"",
+  ""hallucinations"": [
+    ""OD claims mitotic catastrophe as driver, absent in abstract."",
+    ""OD claims intrinsic apoptosis variant, absent in abstract."",
+    ""OD implies specific RCD variant, abstract only delayed death.""
+  ],
+  ""verdict"": ""MAJOR_ISSUE""
+}"
+Mitoxyperilysis,FULL TEXT + ABSTRACT,41317732,"```json
+{
+  ""claims"": {
+    ""mechanism"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Mitochondria-dependent membrane lysis via BAX/BAK1/BID oxidative stress.""
+    },
+    ""trigger"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Innate immune and metabolic signals synergistically induce this death.""
+    },
+    ""key_molecules"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""BAX, BAK1, BID, and mTORC2 all explicitly mentioned.""
+    },
+    ""morphology"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Lytic cell death culminating in plasma membrane lysis.""
+    }
+  },
+  ""best_reference_pmid"": ""41317732"",
+  ""hallucinations"": [],
+  ""verdict"": ""VALIDATED""
+}
+```"
+MPT-driven necrosis,ABSTRACT,27161573,"{
+  ""claims"": {
+    ""mechanism"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""Abstract discusses MPT but not explicitly necrosis mechanism""
+    },
+    ""trigger"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""Perturbations implied but not specifically stated as trigger""
+    },
+    ""key_molecules"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""CYPD and PTPC are central in abstract""
+    },
+    ""morphology"": {
+      ""status"": ""NOT_SUPPORTED"",
+      ""note"": ""No morphological description of necrosis in abstract""
+    }
+  },
+  ""best_reference_pmid"": ""27161573"",
+  ""hallucinations"": [
+    ""OD claims 'MPT-driven necrosis' but abstract focuses on MPT itself"",
+    ""OD claims 'relying on CYPD' but abstract mentions CYPD only indirectly"",
+    ""OD claims 'permeability transition pore complex' as key molecule, abstract discusses MPT but not pore complex explicitly""
+  ],
+  ""verdict"": ""MINOR_ISSUE""
+}"
+Necrosis,FULL TEXT + ABSTRACT,31827074,"```json
+{
+  ""claims"": {
+    ""mechanism"": {
+      ""status"": ""NOT_SUPPORTED"",
+      ""note"": ""No mechanism of necrosis described in text.""
+    },
+    ""trigger"": {
+      ""status"": ""NOT_SUPPORTED"",
+      ""note"": ""No triggers for necrosis mentioned in text.""
+    },
+    ""key_molecules"": {
+      ""status"": ""NOT_SUPPORTED"",
+      ""note"": ""No molecules related to necrosis appear in text.""
+    },
+    ""morphology"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""Necrosis mentioned as accompanying feature, no morphology details.""
+    }
+  },
+  ""best_reference_pmid"": ""31827074"",
+  ""hallucinations"": [
+    ""Accidental and unregulated form of cell death resulting in cell lysis and inflammation."",
+    ""Programmed necrosis regulated by intracellular signal transduction pathways."",
+    ""ATP depletion, Ca overload (accidental); RIPK1/RIPK3 (programmed).""
+  ],
+  ""verdict"": ""MAJOR_ISSUE""
+}
+```"
+NECSO,ABSTRACT,39915626,"{
+  ""claims"": {
+    ""mechanism"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Persistent TRPM4 activation triggers necrotic death.""
+    },
+    ""trigger"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Sodium overload is characterized as key feature.""
+    },
+    ""key_molecules"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""TRPM4 and sodium supported; necrocide 1 absent.""
+    },
+    ""morphology"": {
+      ""status"": ""NOT_SUPPORTED"",
+      ""note"": ""No morphological details provided in abstract.""
+    }
+  },
+  ""best_reference_pmid"": ""39915626"",
+  ""hallucinations"": [
+    ""Necrocide 1 is not mentioned in the abstract."",
+    ""Operational definition names entity NECSO, not in abstract.""
+  ],
+  ""verdict"": ""MINOR_ISSUE""
+}"
+Oncosis,FULL TEXT + ABSTRACT,7856735,"```json
+{
+  ""claims"": {
+    ""mechanism"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Accidental cell death from ionic pump failure""
+    },
+    ""trigger"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Ischemic cell death explicitly linked to oncosis""
+    },
+    ""key_molecules"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""Ionic pumps mentioned, Na+/K+-ATPase not specified""
+    },
+    ""morphology"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Swelling leading to necrosis with karyolysis""
+    }
+  },
+  ""best_reference_pmid"": ""7856735"",
+  ""hallucinations"": [
+    ""Na+/K+-ATPase specifically named as key molecule""
+  ],
+  ""verdict"": ""MINOR_ISSUE""
+}
+```"
+Oxeiptosis,FULL TEXT + ABSTRACT,29255269,"```json
+{
+  ""claims"": {
+    ""mechanism"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""Caspase-independent, KEAP1-PGAM5-AIFM1 pathway, but NRF2 not central""
+    },
+    ""trigger"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""ROS-induced cell death confirmed in abstract and full text""
+    },
+    ""key_molecules"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""KEAP1 and ROS supported; NRF2 not mechanistically implicated""
+    },
+    ""morphology"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""Apoptosis-like but non-inflammatory; no detailed morphology provided""
+    }
+  },
+  ""best_reference_pmid"": ""29255269"",
+  ""hallucinations"": [
+    ""OD states NRF2 is a key molecule, but full text indicates KEAP1 degradation of NRF2 is not part of oxeiptosis signaling"",
+    ""OD implies NRF2 involvement in the cell death mechanism, whereas text focuses on KEAP1-PGAM5-AIFM1""
+  ],
+  ""verdict"": ""MINOR_ISSUE""
+}
+```"
+PANoptosis,FULL TEXT + ABSTRACT,31850239,"```json
+{
+  ""claims"": {
+    ""mechanism"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Integrated modality engaging pyroptosis, apoptosis, necroptosis via complex""
+    },
+    ""trigger"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""ZBP1 and TAK1 regulation stated, but no specific trigger""
+    },
+    ""key_molecules"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""All listed molecules appear in the original text""
+    },
+    ""morphology"": {
+      ""status"": ""NOT_SUPPORTED"",
+      ""note"": ""No morphological description provided in the source""
+    }
+  },
+  ""best_reference_pmid"": ""31850239"",
+  ""hallucinations"": [
+    ""NLRP3 is not explicitly named as a key molecule in the provided excerpts"",
+    ""No morphological features are described for PANoptosis""
+  ],
+  ""verdict"": ""MINOR_ISSUE""
+}
+```"
+Paraptosis,FULL TEXT + ABSTRACT,11121041,"{
+  ""claims"": {
+    ""mechanism"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""Caspase-9 alternative activity mentioned, not ER stress""
+    },
+    ""trigger"": {
+      ""status"": ""NOT_SUPPORTED"",
+      ""note"": ""No trigger specified in abstract or excerpts""
+    },
+    ""key_molecules"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""Caspase-9, Bcl-xL, Apaf-1, not ER stress""
+    },
+    ""morphology"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""Distinct from apoptosis but vacuolation not explicitly stated""
+    }
+  },
+  ""best_reference_pmid"": ""11121041"",
+  ""hallucinations"": [
+    ""Cytoplasmic vacuolation as defining morphology not in source"",
+    ""ER stress as key molecular feature not in source"",
+    ""MAPK involvement not in source"",
+    ""Calcium involvement not in source""
+  ],
+  ""verdict"": ""MAJOR_ISSUE""
+}"
+Phagoptosis,ABSTRACT,22682109,"{
+  ""claims"": {
+    ""mechanism"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Caused by phagocytosis of viable cells.""
+    },
+    ""trigger"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Exposure of eat-me or loss of don't-eat-me.""
+    },
+    ""key_molecules"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""Abstract mentions signals but not PS or CD47.""
+    },
+    ""morphology"": {
+      ""status"": ""NOT_SUPPORTED"",
+      ""note"": ""No morphological description in abstract.""
+    }
+  },
+  ""best_reference_pmid"": ""22682109"",
+  ""hallucinations"": [
+    ""Specific molecules PS and CD47 not named in abstract.""
+  ],
+  ""verdict"": ""MINOR_ISSUE""
+}"
+Programmed cell death,ABSTRACT,14287218,"{
+  ""claims"": {
+    ""mechanism"": {
+      ""status"": ""NOT_SUPPORTED"",
+      ""note"": ""No mechanism described in abstract or excerpts.""
+    },
+    ""trigger"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""Physiological muscle degeneration implied but not explicitly stated.""
+    },
+    ""key_molecules"": {
+      ""status"": ""NOT_SUPPORTED"",
+      ""note"": ""No molecules mentioned in abstract or excerpts.""
+    },
+    ""morphology"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Cytology of degeneration described in title and abstract.""
+    }
+  },
+  ""best_reference_pmid"": ""14287218"",
+  ""hallucinations"": [
+    ""OD claims strictly physiological scenarios not supported by abstract."",
+    ""OD claims no perturbation of homeostasis not addressed in abstract."",
+    ""OD claims failing adaptation to stress not mentioned in abstract.""
+  ],
+  ""verdict"": ""MAJOR_ISSUE""
+}"
+Pyronecrosis,FULL TEXT + ABSTRACT,18005730,"{
+  ""claims"": {
+    ""mechanism"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Caspase-1 independent, ASC and cathepsin B dependent.""
+    },
+    ""trigger"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Shigella infection or mutant CIAS1 triggers death.""
+    },
+    ""key_molecules"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""NLRP3, ASC, cathepsin B, HMGB1 all mentioned.""
+    },
+    ""morphology"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Necrosis-like death with HMGB1 release confirmed.""
+    }
+  },
+  ""best_reference_pmid"": ""18005730"",
+  ""hallucinations"": [],
+  ""verdict"": ""VALIDATED""
+}"
+Regulated Necrosis,FULL TEXT + ABSTRACT,21894190,"{
+  ""claims"": {
+    ""mechanism"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""Genetic control implied but not detailed""
+    },
+    ""trigger"": {
+      ""status"": ""NOT_SUPPORTED"",
+      ""note"": ""No specific trigger mentioned in text""
+    },
+    ""key_molecules"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""RIP3 and FADD mentioned, but FADD inhibitor""
+    },
+    ""morphology"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""Necrosis named but morphology not described""
+    }
+  },
+  ""best_reference_pmid"": ""21894190"",
+  ""hallucinations"": [
+    ""OD claims FADD as key molecule, but text shows FADD inhibits RIP3-driven necrosis, not a driver"",
+    ""OD implies FADD is a positive mediator, whereas it is an endogenous inhibitor""
+  ],
+  ""verdict"": ""MINOR_ISSUE""
+}"
+Senescence and Autophagy in Cancer,ABSTRACT,nan,"{
+  ""claims"": {
+    ""mechanism"": {
+      ""status"": ""NOT_SUPPORTED"",
+      ""note"": ""No abstract or text provided.""
+    },
+    ""trigger"": {
+      ""status"": ""NOT_SUPPORTED"",
+      ""note"": ""No abstract or text provided.""
+    },
+    ""key_molecules"": {
+      ""status"": ""NOT_SUPPORTED"",
+      ""note"": ""No molecules listed or described.""
+    },
+    ""morphology"": {
+      ""status"": ""NOT_SUPPORTED"",
+      ""note"": ""No morphological features described.""
+    }
+  },
+  ""best_reference_pmid"": null,
+  ""hallucinations"": [
+    ""Operational definition implies senescence and autophagy composite without evidence."",
+    ""Key molecules 'nan' is not a valid molecular identifier."",
+    ""Founding reference 'PMID nan' is not a real PubMed identifier.""
+  ],
+  ""verdict"": ""MAJOR_ISSUE""
+}"
+Spectosis,ABSTRACT,40252640,"{
+  ""claims"": {
+    ""mechanism"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""Complement initiates miniNLRP3-caspase-8, but OD omits ASC.""
+    },
+    ""trigger"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Complement activation triggers spectosis as stated in abstract.""
+    },
+    ""key_molecules"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""Complement, NLRP3, caspase-8 supported; ASC missing from OD.""
+    },
+    ""morphology"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Hemolysis and spectrin proteolysis match lytic programmed death.""
+    }
+  },
+  ""best_reference_pmid"": ""40252640"",
+  ""hallucinations"": [
+    ""OD states 'culminating in hemolysis' but abstract specifies spectrin proteolysis leading to hemolysis, not direct hemolysis."",
+    ""OD implies NLRP3-caspase-8 complexes without ASC, but abstract includes ASC in complex.""
+  ],
+  ""verdict"": ""MINOR_ISSUE""
+}"
+Triaptosis,FULL TEXT + ABSTRACT,39638924,"{
+  ""claims"": {
+    ""mechanism"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Endosome-dependent modality explicitly stated in title.""
+    },
+    ""trigger"": {
+      ""status"": ""NOT_SUPPORTED"",
+      ""note"": ""No trigger described in abstract or excerpts.""
+    },
+    ""key_molecules"": {
+      ""status"": ""PARTIAL"",
+      ""note"": ""Endosomal machinery implied but not named specifically.""
+    },
+    ""morphology"": {
+      ""status"": ""NOT_SUPPORTED"",
+      ""note"": ""No morphological features mentioned in provided text.""
+    }
+  },
+  ""best_reference_pmid"": ""39638924"",
+  ""hallucinations"": [
+    ""No specific endosomal proteins or machinery components are identified."",
+    ""No upstream triggers or signaling pathways are described."",
+    ""No morphological hallmarks (e.g., vesicle size, membrane changes) are provided.""
+  ],
+  ""verdict"": ""MINOR_ISSUE""
+}"
+Vacuolar cell death,ABSTRACT,15358773,"{
+  ""claims"": {
+    ""mechanism"": {
+      ""status"": ""NOT_SUPPORTED"",
+      ""note"": ""No mechanistic pathway beyond gene disruption described.""
+    },
+    ""trigger"": {
+      ""status"": ""NOT_SUPPORTED"",
+      ""note"": ""No specific trigger mentioned in operational definition.""
+    },
+    ""key_molecules"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""atg1 disruption reveals non-vacuolar death pathway.""
+    },
+    ""morphology"": {
+      ""status"": ""SUPPORTED"",
+      ""note"": ""Conspicuous vacuolization and hidden non-vacuolar morphology.""
+    }
+  },
+  ""best_reference_pmid"": ""15358773"",
+  ""hallucinations"": [
+    ""Operational definition implies vacuolar cell death is a modality, but abstract describes a model with hidden alternative pathway."",
+    ""Term 'modality' not used in abstract; abstract calls it 'autophagic vacuolar cell death'.""
+  ],
+  ""verdict"": ""MINOR_ISSUE""
+}"

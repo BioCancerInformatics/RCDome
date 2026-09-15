@@ -1,0 +1,27 @@
+gene,form,true_role,true_mech,query,n_papers,n_support,top_title,top_doi
+BAX,Apoptosis,EXECUTOR,YES,BAX Apoptosis cell death,10,10,Physiologic and Pharmacologic Modulation of BAX,10.1016/j.tips.2021.11.001
+CASP3,Apoptosis,EXECUTOR,YES,CASP3 Apoptosis cell death,10,10,Inhibition of Caspase 3 and Caspase 9 Mediated Apoptosis: A Multimodal Therapeut,10.2174/1570159x20666220327222921
+CASP8,Apoptosis,EXECUTOR,YES,CASP8 Apoptosis cell death,10,10,Caspase-8; regulating life and death,10.1111/imr.12541
+CASP9,Apoptosis,EXECUTOR,YES,CASP9 Apoptosis cell death,10,10,A Review on Caspases: Key Regulators of Biological Activities and Apoptosis,10.1007/s12035-023-03433-5
+CYCS,Apoptosis,EXECUTOR,YES,CYCS Apoptosis cell death,10,9,Cytosolic cytochrome c represses ferroptosis,10.1016/j.cmet.2025.03.014
+MLKL,Necroptosis,EXECUTOR,YES,MLKL Necroptosis cell death,10,10,Gasdermin and MLKL necrotic cell death effectors: Signaling and diseases.,10.1016/j.immuni.2024.02.011
+RIPK3,Necroptosis,EXECUTOR,YES,RIPK3 Necroptosis cell death,10,10,RIPK3 signaling and its role in regulated cell death and diseases,10.1038/s41420-024-01957-w
+GSDMD,Pyroptosis,EXECUTOR,YES,GSDMD Pyroptosis cell death,10,9,Cleavage of GSDMD by inflammatory caspases determines pyroptotic cell death,10.1038/nature15514
+GSDME,Pyroptosis,EXECUTOR,YES,GSDME Pyroptosis cell death,10,10,Full-length GSDME mediates pyroptosis independent from cleavage,10.1038/s41556-024-01463-2
+CASP1,Pyroptosis,EXECUTOR,YES,CASP1 Pyroptosis cell death,10,9,Caspase-1 induced pyroptotic cell death,10.1111/j.1600-065x.2011.01044.x
+BCL2,Apoptosis,REGULATOR,YES,BCL2 Apoptosis cell death,10,1,Mechanisms of BCL-2 family proteins in mitochondrial apoptosis,10.1038/s41580-023-00629-4
+BCL2L1,Apoptosis,REGULATOR,YES,BCL2L1 Apoptosis cell death,10,8,The BCL2 family: from apoptosis mechanisms to new advances in targeted therapy,10.1038/s41392-025-02176-0
+XIAP,Apoptosis,REGULATOR,YES,XIAP Apoptosis cell death,10,10,XIAP as a multifaceted molecule in Cellular Signaling,10.1007/s10495-022-01734-z
+TP53,Apoptosis,REGULATOR,YES,TP53 Apoptosis cell death,9,9,How does p53 induce apoptosis and how does this relate to p53-mediated tumour su,10.1038/cdd.2017.169
+GPX4,Ferroptosis,REGULATOR,YES,GPX4 Ferroptosis cell death,10,10,Role of GPX4 in ferroptosis and its pharmacological implication.,10.1016/j.freeradbiomed.2018.09.014
+ACSL4,Ferroptosis,REGULATOR,YES,ACSL4 Ferroptosis cell death,10,10,Identification of a targeted ACSL4 inhibitor to treat ferroptosis-related diseas,10.1126/sciadv.adk1200
+AIFM2,Ferroptosis,REGULATOR,YES,AIFM2 Ferroptosis cell death,10,9,AIFM2 blocks ferroptosis independent of ubiquinol metabolism.,10.1016/j.bbrc.2020.01.066
+BECN1,Autophagy,REGULATOR,YES,BECN1 Autophagy cell death,10,9,Ferroptosis is a type of autophagy-dependent cell death.,10.1016/j.semcancer.2019.03.002
+GPX4,Pyroptosis,NEGATIVE,NO,GPX4 Pyroptosis cell death,10,3,"GPX4 in cell death, autophagy, and disease",10.1080/15548627.2023.2218764
+MLKL,Ferroptosis,NEGATIVE,NO,MLKL Ferroptosis cell death,10,10,"The biochemical pathways of apoptotic, necroptotic, pyroptotic, and ferroptotic ",10.1016/j.molcel.2023.11.040
+CASP3,Necroptosis,NEGATIVE,NO,CASP3 Necroptosis cell death,10,3,A guide to cell death pathways,10.1038/s41580-023-00689-6
+BAX,Necroptosis,NEGATIVE,NO,BAX Necroptosis cell death,10,7,Necroptosis Interfaces with MOMP and the MPTP in Mediating Cell Death,10.1371/journal.pone.0130520
+GSDMD,Ferroptosis,NEGATIVE,NO,GSDMD Ferroptosis cell death,10,4,Gasdermin D permeabilization of mitochondrial inner and outer membranes accelera,10.1016/j.immuni.2023.10.004
+CASP1,Apoptosis,NEGATIVE,NO,CASP1 Apoptosis cell death,10,7,Caspase-1 initiates apoptosis in the absence of gasdermin D,10.1038/s41467-019-09753-2
+MLKL,Apoptosis,NEGATIVE,NO,MLKL Apoptosis cell death,10,4,"The biochemical pathways of apoptotic, necroptotic, pyroptotic, and ferroptotic ",10.1016/j.molcel.2023.11.040
+GSDMD,Necroptosis,NEGATIVE,NO,GSDMD Necroptosis cell death,10,2,Pyroptosis: Gasdermin-Mediated Programmed Necrotic Cell Death.,10.1016/j.tibs.2016.10.004

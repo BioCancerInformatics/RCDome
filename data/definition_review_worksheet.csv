@@ -1,0 +1,337 @@
+entity,definition_status,field,draft_value,provenance_source,provenance_ref,reviewer_decision,reviewer_value,justification,crossvalidation_status,crossvalidation_meaning
+Ammonia-induced cell death,DRAFT_SOLID,operational_definition,"A contextual cell death modality triggered by ammonia, demarcated by cytoplasmic vacuolation, and detoxified via arginase-mediated urea production with L-glutamine protection.",founding-paper abstract,PMID 12388179,APPROVE,,,MINOR_ISSUE,"mostly supported, with a minor wording gap"
+Ammonia-induced cell death,DRAFT_SOLID,key_molecules,arginase; L-glutamine,founding-paper abstract,PMID 12388179,APPROVE,,,VALIDATED,fully supported by the evidence (full text / abstract / Consensus)
+Ammonia-induced cell death,DRAFT_SOLID,inflammatory,not specified,founding-paper abstract,PMID 12388179,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Ammonia-induced cell death,DRAFT_SOLID,overlaps,vacuolar/necrotic features,founding-paper abstract,PMID 12388179,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Ammonia-induced cell death,DRAFT_SOLID,C1,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Ammonia-induced cell death,DRAFT_SOLID,C2,3,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Ammonia-induced cell death,DRAFT_SOLID,C3,3,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Ammonia-induced cell death,DRAFT_SOLID,C4,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Ammonia-induced cell death,DRAFT_SOLID,C5,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Ammonia-induced cell death,DRAFT_SOLID,C6,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Ammonia-induced cell death,DRAFT_SOLID,S,3.55,computed (verified formula 25/25),scoring_formulas.py,APPROVE,,,AUTO,deterministic — S = weighted formula (bitwise)
+Ammonia-induced cell death,DRAFT_SOLID,founding_pmid,12388179,PubMed esearch (oldest hit),founding_pmid_lookup.py,APPROVE,,,PASS,founding PMID resolves in PubMed (Knock Test)
+Aponecrosis,DRAFT_SOLID,operational_definition,"A syncretic cell death variant sharing features of apoptosis and necrosis, triggered by high-dose mitochondrial insult and demarcated by incomplete execution of the apoptotic program, with intracellular ATP as a determinant.",founding-paper abstract,PMID 10567915,APPROVE,,,VALIDATED,fully supported by the evidence (full text / abstract / Consensus)
+Aponecrosis,DRAFT_SOLID,key_molecules,caspase-3; respiratory chain complex III,founding-paper abstract,PMID 10567915,APPROVE,,,MINOR_ISSUE,"mostly supported, with a minor wording gap"
+Aponecrosis,DRAFT_SOLID,inflammatory,Yes,founding-paper abstract,PMID 10567915,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Aponecrosis,DRAFT_SOLID,overlaps,apoptosis + necrosis,founding-paper abstract,PMID 10567915,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Aponecrosis,DRAFT_SOLID,C1,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Aponecrosis,DRAFT_SOLID,C2,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Aponecrosis,DRAFT_SOLID,C3,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Aponecrosis,DRAFT_SOLID,C4,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Aponecrosis,DRAFT_SOLID,C5,5,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Aponecrosis,DRAFT_SOLID,C6,3,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Aponecrosis,DRAFT_SOLID,S,4.05,computed (verified formula 25/25),scoring_formulas.py,APPROVE,,,AUTO,deterministic — S = weighted formula (bitwise)
+Aponecrosis,DRAFT_SOLID,founding_pmid,10567915,PubMed esearch (oldest hit),founding_pmid_lookup.py,APPROVE,,,PASS,founding PMID resolves in PubMed (Knock Test)
+Apoptosis (extrinsic),DRAFT_CANDIDATE,operational_definition,"Specific variant of RCD initiated by perturbations of the extracellular microenvironment detected by plasma membrane receptors, propagated by CASP8 and precipitated by executioner caspases, mainly CASP3",founding-paper abstract,PMID 15451440,APPROVE,,,VERBATIM-INVARIANT,"NCCD/Rodrigues verbatim — source-mismatch artifact, not an error"
+Apoptosis (extrinsic),DRAFT_CANDIDATE,key_molecules,"CD95/Fas, FADD, caspase-8",founding-paper abstract,PMID 15451440,APPROVE,,,VALIDATED,fully supported by the evidence (full text / abstract / Consensus)
+Apoptosis (extrinsic),DRAFT_CANDIDATE,inflammatory,No,founding-paper abstract,PMID 15451440,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Apoptosis (extrinsic),DRAFT_CANDIDATE,overlaps,subtype of Apoptosis,founding-paper abstract,PMID 15451440,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Apoptosis (extrinsic),DRAFT_CANDIDATE,C1,6,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Apoptosis (extrinsic),DRAFT_CANDIDATE,C2,7,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Apoptosis (extrinsic),DRAFT_CANDIDATE,C3,6,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Apoptosis (extrinsic),DRAFT_CANDIDATE,C4,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Apoptosis (extrinsic),DRAFT_CANDIDATE,C5,7,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Apoptosis (extrinsic),DRAFT_CANDIDATE,C6,7,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Apoptosis (extrinsic),DRAFT_CANDIDATE,S,6.1,computed (verified formula 25/25),scoring_formulas.py,APPROVE,,,AUTO,deterministic — S = weighted formula (bitwise)
+Apoptosis (extrinsic),DRAFT_CANDIDATE,founding_pmid,15451440,PubMed esearch (oldest hit),founding_pmid_lookup.py,APPROVE,,,PASS,founding PMID resolves in PubMed (Knock Test)
+Apoptosis (intrinsic),DRAFT_CANDIDATE,operational_definition,"Type of RCD initiated by perturbations of the extracellular or intracellular microenvironment, demarcated by MOMP, and precipitated by executioner caspases, mainly CASP3",founding-paper abstract,PMID 12186923,APPROVE,,,VERBATIM-INVARIANT,"NCCD/Rodrigues verbatim — source-mismatch artifact, not an error"
+Apoptosis (intrinsic),DRAFT_CANDIDATE,key_molecules,"Bcl-2, Bcl-xL, Bax",founding-paper abstract,PMID 12186923,APPROVE,,,VALIDATED,fully supported by the evidence (full text / abstract / Consensus)
+Apoptosis (intrinsic),DRAFT_CANDIDATE,inflammatory,No,founding-paper abstract,PMID 12186923,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Apoptosis (intrinsic),DRAFT_CANDIDATE,overlaps,subtype of Apoptosis,founding-paper abstract,PMID 12186923,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Apoptosis (intrinsic),DRAFT_CANDIDATE,C1,6,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Apoptosis (intrinsic),DRAFT_CANDIDATE,C2,7,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Apoptosis (intrinsic),DRAFT_CANDIDATE,C3,7,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Apoptosis (intrinsic),DRAFT_CANDIDATE,C4,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Apoptosis (intrinsic),DRAFT_CANDIDATE,C5,8,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Apoptosis (intrinsic),DRAFT_CANDIDATE,C6,7,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Apoptosis (intrinsic),DRAFT_CANDIDATE,S,6.4,computed (verified formula 25/25),scoring_formulas.py,APPROVE,,,AUTO,deterministic — S = weighted formula (bitwise)
+Apoptosis (intrinsic),DRAFT_CANDIDATE,founding_pmid,12186923,PubMed esearch (oldest hit),founding_pmid_lookup.py,APPROVE,,,PASS,founding PMID resolves in PubMed (Knock Test)
+Autophagy-dependent cell death,DRAFT_CANDIDATE,operational_definition,A form of RCD that mechanistically depends on the autophagic machinery (or components thereof),founding-paper abstract,PMID 30568239,APPROVE,,,MINOR_ISSUE,"mostly supported, with a minor wording gap"
+Autophagy-dependent cell death,DRAFT_CANDIDATE,key_molecules,autophagy machinery,founding-paper abstract,PMID 30568239,APPROVE,,,MINOR_ISSUE,"mostly supported, with a minor wording gap"
+Autophagy-dependent cell death,DRAFT_CANDIDATE,inflammatory,not specified,founding-paper abstract,PMID 30568239,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Autophagy-dependent cell death,DRAFT_CANDIDATE,overlaps,autophagy; 'autophagic cell death' predates,founding-paper abstract,PMID 30568239,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Autophagy-dependent cell death,DRAFT_CANDIDATE,C1,5,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Autophagy-dependent cell death,DRAFT_CANDIDATE,C2,5,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Autophagy-dependent cell death,DRAFT_CANDIDATE,C3,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Autophagy-dependent cell death,DRAFT_CANDIDATE,C4,5,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Autophagy-dependent cell death,DRAFT_CANDIDATE,C5,6,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Autophagy-dependent cell death,DRAFT_CANDIDATE,C6,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Autophagy-dependent cell death,DRAFT_CANDIDATE,S,4.85,computed (verified formula 25/25),scoring_formulas.py,APPROVE,,,AUTO,deterministic — S = weighted formula (bitwise)
+Autophagy-dependent cell death,DRAFT_CANDIDATE,founding_pmid,30568239,PubMed esearch (oldest hit),founding_pmid_lookup.py,APPROVE,,,PASS,founding PMID resolves in PubMed (Knock Test)
+Cornification,DRAFT_SOLID,operational_definition,A terminal differentiation program of keratinocytes producing the cornified (keratinized) barrier and culminating in a specialized form of programmed cell death.,founding-paper abstract,PMID 23792051,APPROVE,,,MINOR_ISSUE,"mostly supported, with a minor wording gap"
+Cornification,DRAFT_SOLID,key_molecules,,founding-paper abstract,PMID 23792051,APPROVE,,,MINOR_ISSUE,"mostly supported, with a minor wording gap"
+Cornification,DRAFT_SOLID,inflammatory,No,founding-paper abstract,PMID 23792051,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Cornification,DRAFT_SOLID,overlaps,terminal differentiation,founding-paper abstract,PMID 23792051,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Cornification,DRAFT_SOLID,C1,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Cornification,DRAFT_SOLID,C2,3,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Cornification,DRAFT_SOLID,C3,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Cornification,DRAFT_SOLID,C4,3,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Cornification,DRAFT_SOLID,C5,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Cornification,DRAFT_SOLID,C6,3,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Cornification,DRAFT_SOLID,S,3.55,computed (verified formula 25/25),scoring_formulas.py,APPROVE,,,AUTO,deterministic — S = weighted formula (bitwise)
+Cornification,DRAFT_SOLID,founding_pmid,23792051,PubMed esearch (oldest hit),founding_pmid_lookup.py,APPROVE,,,PASS,founding PMID resolves in PubMed (Knock Test)
+Eryptosis,DRAFT_CANDIDATE,operational_definition,"A cell-type-specific form of regulated cell death of erythrocytes, demarcated by cell shrinkage, membrane blebbing, calpain activation and phosphatidylserine exposure, and triggered by oxidative stress via prostaglandin E2/Ca2+ and phospholipase A2/ceramide pathways.",founding-paper abstract,PMID 16910766,APPROVE,,,VALIDATED,fully supported by the evidence (full text / abstract / Consensus)
+Eryptosis,DRAFT_CANDIDATE,key_molecules,"Ca2+ channels, ceramide, calpain, erythropoietin",founding-paper abstract,PMID 16910766,APPROVE,,,MINOR_ISSUE,"mostly supported, with a minor wording gap"
+Eryptosis,DRAFT_CANDIDATE,inflammatory,No,founding-paper abstract,PMID 16910766,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Eryptosis,DRAFT_CANDIDATE,overlaps,PS-exposure clearance (apoptosis/efferocytosis-like),founding-paper abstract,PMID 16910766,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Eryptosis,DRAFT_CANDIDATE,C1,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Eryptosis,DRAFT_CANDIDATE,C2,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Eryptosis,DRAFT_CANDIDATE,C3,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Eryptosis,DRAFT_CANDIDATE,C4,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Eryptosis,DRAFT_CANDIDATE,C5,5,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Eryptosis,DRAFT_CANDIDATE,C6,5,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Eryptosis,DRAFT_CANDIDATE,S,4.15,computed (verified formula 25/25),scoring_formulas.py,APPROVE,,,AUTO,deterministic — S = weighted formula (bitwise)
+Eryptosis,DRAFT_CANDIDATE,founding_pmid,16910766,PubMed esearch (oldest hit),founding_pmid_lookup.py,APPROVE,,,PASS,founding PMID resolves in PubMed (Knock Test)
+Floatptosis,DRAFT_SOLID,operational_definition,"A form of regulated cell death demarcated by cytoplasmic vacuolization with fused-lysosome-associated termination, triggered by Bergeyella cardium infection and inhibited by sodium-channel blockade.",founding-paper abstract,PMID 41115953,APPROVE,,,MINOR_ISSUE,"mostly supported, with a minor wording gap"
+Floatptosis,DRAFT_SOLID,key_molecules,SLC9A9; sodium channels,founding-paper abstract,PMID 41115953,APPROVE,,,MINOR_ISSUE,"mostly supported, with a minor wording gap"
+Floatptosis,DRAFT_SOLID,inflammatory,not specified,founding-paper abstract,PMID 41115953,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Floatptosis,DRAFT_SOLID,overlaps,lysosome-associated vacuolar death,founding-paper abstract,PMID 41115953,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Floatptosis,DRAFT_SOLID,C1,3,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Floatptosis,DRAFT_SOLID,C2,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Floatptosis,DRAFT_SOLID,C3,3,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Floatptosis,DRAFT_SOLID,C4,7,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Floatptosis,DRAFT_SOLID,C5,5,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Floatptosis,DRAFT_SOLID,C6,3,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Floatptosis,DRAFT_SOLID,S,4.05,computed (verified formula 25/25),scoring_formulas.py,APPROVE,,,AUTO,deterministic — S = weighted formula (bitwise)
+Floatptosis,DRAFT_SOLID,founding_pmid,41115953,PubMed esearch (oldest hit),founding_pmid_lookup.py,APPROVE,,,PASS,founding PMID resolves in PubMed (Knock Test)
+Hypersensitive response,PRE_PUBMED,operational_definition,"A taxon-specific programmed cell death of plant cells at infection sites, restricting pathogen spread.",pre-PubMed concept (committee primary source required),Stakman 1915,APPROVE,,,MINOR_ISSUE,"mostly supported, with a minor wording gap"
+Hypersensitive response,PRE_PUBMED,key_molecules,,founding-paper abstract,PMID 31305008,APPROVE,,,MAJOR_ISSUE,claim not supported by the evidence (residual)
+Hypersensitive response,PRE_PUBMED,inflammatory,No,founding-paper abstract,PMID 31305008,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Hypersensitive response,PRE_PUBMED,overlaps,plant innate-immunity death,founding-paper abstract,PMID 31305008,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Hypersensitive response,PRE_PUBMED,C1,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Hypersensitive response,PRE_PUBMED,C2,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Hypersensitive response,PRE_PUBMED,C3,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Hypersensitive response,PRE_PUBMED,C4,3,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Hypersensitive response,PRE_PUBMED,C5,5,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Hypersensitive response,PRE_PUBMED,C6,3,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Hypersensitive response,PRE_PUBMED,S,3.9,computed (verified formula 25/25),scoring_formulas.py,APPROVE,,,AUTO,deterministic — S = weighted formula (bitwise)
+Hypersensitive response,PRE_PUBMED,founding_pmid,31305008,PubMed esearch (oldest hit),founding_pmid_lookup.py,APPROVE,,,PASS,founding PMID resolves in PubMed (Knock Test)
+Linker cell-type death,DRAFT_SOLID,operational_definition,"A taxon-specific, caspase-independent (ced-3-independent) non-apoptotic developmental cell death of the Caenorhabditis elegans linker cell, demarcated by nuclear crenellation and organelle swelling, and controlled by let-7 and LIN-29.",founding-paper abstract,PMID 17199042,APPROVE,,,VALIDATED,fully supported by the evidence (full text / abstract / Consensus)
+Linker cell-type death,DRAFT_SOLID,key_molecules,let-7; LIN-29,founding-paper abstract,PMID 17199042,APPROVE,,,VALIDATED,fully supported by the evidence (full text / abstract / Consensus)
+Linker cell-type death,DRAFT_SOLID,inflammatory,No,founding-paper abstract,PMID 17199042,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Linker cell-type death,DRAFT_SOLID,overlaps,non-apoptotic developmental death,founding-paper abstract,PMID 17199042,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Linker cell-type death,DRAFT_SOLID,C1,3,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Linker cell-type death,DRAFT_SOLID,C2,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Linker cell-type death,DRAFT_SOLID,C3,3,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Linker cell-type death,DRAFT_SOLID,C4,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Linker cell-type death,DRAFT_SOLID,C5,5,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Linker cell-type death,DRAFT_SOLID,C6,3,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Linker cell-type death,DRAFT_SOLID,S,3.6,computed (verified formula 25/25),scoring_formulas.py,APPROVE,,,AUTO,deterministic — S = weighted formula (bitwise)
+Linker cell-type death,DRAFT_SOLID,founding_pmid,17199042,PubMed esearch (oldest hit),founding_pmid_lookup.py,APPROVE,,,PASS,founding PMID resolves in PubMed (Knock Test)
+Lysoptosis,DRAFT_SOLID,operational_definition,"A lysosome-dependent cell death modality demarcated by lysosomal membrane permeabilization and cathepsin-dependent cytoplasmic proteolysis, executed when serpin inhibition is absent.",founding-paper abstract,PMID 35022507,APPROVE,,,CRITERION-PENDING,founding paper gives mechanism but not C2 trigger / C3 morphology
+Lysoptosis,DRAFT_SOLID,key_molecules,cathepsins (L); SERPINB3,founding-paper abstract,PMID 35022507,APPROVE,,,VALIDATED,fully supported by the evidence (full text / abstract / Consensus)
+Lysoptosis,DRAFT_SOLID,inflammatory,Yes,founding-paper abstract,PMID 35022507,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Lysoptosis,DRAFT_SOLID,overlaps,subtype of LDCD,founding-paper abstract,PMID 35022507,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Lysoptosis,DRAFT_SOLID,C1,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Lysoptosis,DRAFT_SOLID,C2,5,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Lysoptosis,DRAFT_SOLID,C3,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Lysoptosis,DRAFT_SOLID,C4,5,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Lysoptosis,DRAFT_SOLID,C5,5,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Lysoptosis,DRAFT_SOLID,C6,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Lysoptosis,DRAFT_SOLID,S,4.5,computed (verified formula 25/25),scoring_formulas.py,APPROVE,,,AUTO,deterministic — S = weighted formula (bitwise)
+Lysoptosis,DRAFT_SOLID,founding_pmid,35022507,PubMed esearch (oldest hit),founding_pmid_lookup.py,APPROVE,,,PASS,founding PMID resolves in PubMed (Knock Test)
+Lysosomal cell death,DRAFT_CANDIDATE,operational_definition,"A type of RCD demarcated by primary LMP and precipitated by cathepsins, with optional involvement of MOMP and caspases",founding-paper abstract,PMID 30125440,APPROVE,,,VERBATIM-INVARIANT,"NCCD/Rodrigues verbatim — source-mismatch artifact, not an error"
+Lysosomal cell death,DRAFT_CANDIDATE,key_molecules,"cathepsin B, L",founding-paper abstract,PMID 30125440,APPROVE,,,VALIDATED,fully supported by the evidence (full text / abstract / Consensus)
+Lysosomal cell death,DRAFT_CANDIDATE,inflammatory,Yes,founding-paper abstract,PMID 30125440,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Lysosomal cell death,DRAFT_CANDIDATE,overlaps,synonym of LDCD,founding-paper abstract,PMID 30125440,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Lysosomal cell death,DRAFT_CANDIDATE,C1,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Lysosomal cell death,DRAFT_CANDIDATE,C2,5,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Lysosomal cell death,DRAFT_CANDIDATE,C3,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Lysosomal cell death,DRAFT_CANDIDATE,C4,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Lysosomal cell death,DRAFT_CANDIDATE,C5,5,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Lysosomal cell death,DRAFT_CANDIDATE,C6,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Lysosomal cell death,DRAFT_CANDIDATE,S,4.35,computed (verified formula 25/25),scoring_formulas.py,APPROVE,,,AUTO,deterministic — S = weighted formula (bitwise)
+Lysosomal cell death,DRAFT_CANDIDATE,founding_pmid,30125440,PubMed esearch (oldest hit),founding_pmid_lookup.py,APPROVE,,,PASS,founding PMID resolves in PubMed (Knock Test)
+Lysozincrosis,DRAFT_CANDIDATE,operational_definition,"A regulated non-apoptotic, lysosomal zinc-dependent cell death modality.",founding-paper abstract,PMID 34686351,APPROVE,,,MINOR_ISSUE,"mostly supported, with a minor wording gap"
+Lysozincrosis,DRAFT_CANDIDATE,key_molecules,lysosomal zinc,founding-paper abstract,PMID 34686351,APPROVE,,,VALIDATED,fully supported by the evidence (full text / abstract / Consensus)
+Lysozincrosis,DRAFT_CANDIDATE,inflammatory,not specified,founding-paper abstract,PMID 34686351,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Lysozincrosis,DRAFT_CANDIDATE,overlaps,metalloptosis umbrella,founding-paper abstract,PMID 34686351,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Lysozincrosis,DRAFT_CANDIDATE,C1,3,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Lysozincrosis,DRAFT_CANDIDATE,C2,3,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Lysozincrosis,DRAFT_CANDIDATE,C3,3,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Lysozincrosis,DRAFT_CANDIDATE,C4,7,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Lysozincrosis,DRAFT_CANDIDATE,C5,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Lysozincrosis,DRAFT_CANDIDATE,C6,3,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Lysozincrosis,DRAFT_CANDIDATE,S,3.7,computed (verified formula 25/25),scoring_formulas.py,APPROVE,,,AUTO,deterministic — S = weighted formula (bitwise)
+Lysozincrosis,DRAFT_CANDIDATE,founding_pmid,34686351,PubMed esearch (oldest hit),founding_pmid_lookup.py,APPROVE,,,PASS,founding PMID resolves in PubMed (Knock Test)
+Metalloptosis,DRAFT_CANDIDATE,operational_definition,"An umbrella term for metal-ion-based regulated cell death, encompassing ferroptosis, cuproptosis, lysozincrosis, manganism, calcicoptosis and necrosis by sodium overload.",founding-paper abstract,PMID 41094656,APPROVE,,,UMBRELLA-SCOPE,"umbrella category, not a discrete RCD form"
+Metalloptosis,DRAFT_CANDIDATE,key_molecules,"metal ions (Fe, Cu, Zn, Mn, Ca, Na)",founding-paper abstract,PMID 41094656,APPROVE,,,MINOR_ISSUE,"mostly supported, with a minor wording gap"
+Metalloptosis,DRAFT_CANDIDATE,inflammatory,member-dependent,founding-paper abstract,PMID 41094656,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Metalloptosis,DRAFT_CANDIDATE,overlaps,umbrella of metal-RCD forms,founding-paper abstract,PMID 41094656,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Metalloptosis,DRAFT_CANDIDATE,C1,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Metalloptosis,DRAFT_CANDIDATE,C2,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Metalloptosis,DRAFT_CANDIDATE,C3,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Metalloptosis,DRAFT_CANDIDATE,C4,6,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Metalloptosis,DRAFT_CANDIDATE,C5,5,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Metalloptosis,DRAFT_CANDIDATE,C6,5,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Metalloptosis,DRAFT_CANDIDATE,S,4.45,computed (verified formula 25/25),scoring_formulas.py,APPROVE,,,AUTO,deterministic — S = weighted formula (bitwise)
+Metalloptosis,DRAFT_CANDIDATE,founding_pmid,41094656,PubMed esearch (oldest hit),founding_pmid_lookup.py,APPROVE,,,PASS,founding PMID resolves in PubMed (Knock Test)
+Mitotic death,DRAFT_SOLID,operational_definition,"Specific variant of RCD (most often, intrinsic apoptosis) driven by mitotic catastrophe",founding-paper abstract,PMID 6027879,APPROVE,,,VERBATIM-INVARIANT,"NCCD/Rodrigues verbatim — source-mismatch artifact, not an error"
+Mitotic death,DRAFT_SOLID,key_molecules,,founding-paper abstract,PMID 6027879,APPROVE,,,MAJOR_ISSUE,claim not supported by the evidence (residual)
+Mitotic death,DRAFT_SOLID,inflammatory,not specified,founding-paper abstract,PMID 6027879,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Mitotic death,DRAFT_SOLID,overlaps,mitotic catastrophe; apoptosis/necrosis downstream,founding-paper abstract,PMID 6027879,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Mitotic death,DRAFT_SOLID,C1,5,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Mitotic death,DRAFT_SOLID,C2,3,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Mitotic death,DRAFT_SOLID,C3,5,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Mitotic death,DRAFT_SOLID,C4,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Mitotic death,DRAFT_SOLID,C5,5,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Mitotic death,DRAFT_SOLID,C6,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Mitotic death,DRAFT_SOLID,S,4.3,computed (verified formula 25/25),scoring_formulas.py,APPROVE,,,AUTO,deterministic — S = weighted formula (bitwise)
+Mitotic death,DRAFT_SOLID,founding_pmid,6027879,PubMed esearch (oldest hit),founding_pmid_lookup.py,APPROVE,,,PASS,founding PMID resolves in PubMed (Knock Test)
+Mitoxyperilysis,DRAFT_SOLID,operational_definition,"A lytic cell death modality triggered by the synergism of innate-immune and metabolic signals, demarcated by BAX/BAK1/BID-dependent mitochondrial oxidative stress at the plasma membrane and culminating in membrane lysis.",founding-paper abstract,PMID 41317732,APPROVE,,,VALIDATED,fully supported by the evidence (full text / abstract / Consensus)
+Mitoxyperilysis,DRAFT_SOLID,key_molecules,"BAX, BAK1, BID, mTORC2",founding-paper abstract,PMID 41317732,APPROVE,,,VALIDATED,fully supported by the evidence (full text / abstract / Consensus)
+Mitoxyperilysis,DRAFT_SOLID,inflammatory,Yes,founding-paper abstract,PMID 41317732,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Mitoxyperilysis,DRAFT_SOLID,overlaps,independent of pyroptosis/PANoptosis/necroptosis/ferroptosis/oxeiptosis,founding-paper abstract,PMID 41317732,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Mitoxyperilysis,DRAFT_SOLID,C1,3,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Mitoxyperilysis,DRAFT_SOLID,C2,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Mitoxyperilysis,DRAFT_SOLID,C3,3,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Mitoxyperilysis,DRAFT_SOLID,C4,8,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Mitoxyperilysis,DRAFT_SOLID,C5,5,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Mitoxyperilysis,DRAFT_SOLID,C6,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Mitoxyperilysis,DRAFT_SOLID,S,4.25,computed (verified formula 25/25),scoring_formulas.py,APPROVE,,,AUTO,deterministic — S = weighted formula (bitwise)
+Mitoxyperilysis,DRAFT_SOLID,founding_pmid,41317732,PubMed esearch (oldest hit),founding_pmid_lookup.py,APPROVE,,,PASS,founding PMID resolves in PubMed (Knock Test)
+MPT-driven necrosis,DRAFT_CANDIDATE,operational_definition,Specific form of RCD triggered by perturbations of the intracellular microenvironment and relying on CYPD,founding-paper abstract,PMID 27161573,APPROVE,,,VERBATIM-INVARIANT,"NCCD/Rodrigues verbatim — source-mismatch artifact, not an error"
+MPT-driven necrosis,DRAFT_CANDIDATE,key_molecules,permeability transition pore complex (PTPC),founding-paper abstract,PMID 27161573,APPROVE,,,VALIDATED,fully supported by the evidence (full text / abstract / Consensus)
+MPT-driven necrosis,DRAFT_CANDIDATE,inflammatory,Yes,founding-paper abstract,PMID 27161573,APPROVE,,,GROUNDED,taken directly from the founding abstract
+MPT-driven necrosis,DRAFT_CANDIDATE,overlaps,downstream of MPT (Trigger),founding-paper abstract,PMID 27161573,APPROVE,,,GROUNDED,taken directly from the founding abstract
+MPT-driven necrosis,DRAFT_CANDIDATE,C1,5,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+MPT-driven necrosis,DRAFT_CANDIDATE,C2,5,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+MPT-driven necrosis,DRAFT_CANDIDATE,C3,5,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+MPT-driven necrosis,DRAFT_CANDIDATE,C4,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+MPT-driven necrosis,DRAFT_CANDIDATE,C5,5,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+MPT-driven necrosis,DRAFT_CANDIDATE,C6,5,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+MPT-driven necrosis,DRAFT_CANDIDATE,S,4.85,computed (verified formula 25/25),scoring_formulas.py,APPROVE,,,AUTO,deterministic — S = weighted formula (bitwise)
+MPT-driven necrosis,DRAFT_CANDIDATE,founding_pmid,27161573,PubMed esearch (oldest hit),founding_pmid_lookup.py,APPROVE,,,PASS,founding PMID resolves in PubMed (Knock Test)
+NECSO,DRAFT_CANDIDATE,operational_definition,"A necrotic cell death modality caused by sodium overload, executed via persistent activation of the TRPM4 cation channel by necrocide 1.",founding-paper abstract,PMID 39915626,APPROVE,,,MINOR_ISSUE,"mostly supported, with a minor wording gap"
+NECSO,DRAFT_CANDIDATE,key_molecules,"TRPM4, Na+, NC1",founding-paper abstract,PMID 39915626,APPROVE,,,MINOR_ISSUE,"mostly supported, with a minor wording gap"
+NECSO,DRAFT_CANDIDATE,inflammatory,Yes,founding-paper abstract,PMID 39915626,APPROVE,,,GROUNDED,taken directly from the founding abstract
+NECSO,DRAFT_CANDIDATE,overlaps,metalloptosis umbrella (sodium),founding-paper abstract,PMID 39915626,APPROVE,,,GROUNDED,taken directly from the founding abstract
+NECSO,DRAFT_CANDIDATE,C1,3,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+NECSO,DRAFT_CANDIDATE,C2,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+NECSO,DRAFT_CANDIDATE,C3,3,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+NECSO,DRAFT_CANDIDATE,C4,6,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+NECSO,DRAFT_CANDIDATE,C5,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+NECSO,DRAFT_CANDIDATE,C6,3,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+NECSO,DRAFT_CANDIDATE,S,3.8,computed (verified formula 25/25),scoring_formulas.py,APPROVE,,,AUTO,deterministic — S = weighted formula (bitwise)
+NECSO,DRAFT_CANDIDATE,founding_pmid,39915626,PubMed esearch (oldest hit),founding_pmid_lookup.py,APPROVE,,,PASS,founding PMID resolves in PubMed (Knock Test)
+Oncosis,DRAFT_SOLID,operational_definition,"An accidental cell death modality demarcated by cell swelling from failure of plasma-membrane ionic pumps, leading to necrosis with karyolysis.",founding-paper abstract,PMID 7856735,APPROVE,,,VALIDATED,fully supported by the evidence (full text / abstract / Consensus)
+Oncosis,DRAFT_SOLID,key_molecules,Na+/K+-ATPase,founding-paper abstract,PMID 7856735,APPROVE,,,MINOR_ISSUE,"mostly supported, with a minor wording gap"
+Oncosis,DRAFT_SOLID,inflammatory,Yes,founding-paper abstract,PMID 7856735,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Oncosis,DRAFT_SOLID,overlaps,leads to necrosis; contrasts with apoptosis,founding-paper abstract,PMID 7856735,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Oncosis,DRAFT_SOLID,C1,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Oncosis,DRAFT_SOLID,C2,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Oncosis,DRAFT_SOLID,C3,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Oncosis,DRAFT_SOLID,C4,3,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Oncosis,DRAFT_SOLID,C5,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Oncosis,DRAFT_SOLID,C6,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Oncosis,DRAFT_SOLID,S,3.85,computed (verified formula 25/25),scoring_formulas.py,APPROVE,,,AUTO,deterministic — S = weighted formula (bitwise)
+Oncosis,DRAFT_SOLID,founding_pmid,7856735,PubMed esearch (oldest hit),founding_pmid_lookup.py,APPROVE,,,PASS,founding PMID resolves in PubMed (Knock Test)
+PANoptosis,DRAFT_SOLID,operational_definition,"An integrated inflammatory cell death modality engaging pyroptosis, apoptosis and necroptosis through the RIPK1/RIPK3-FADD-caspase-8 complex, orchestrated by ZBP1 and TAK1.",founding-paper abstract,PMID 31850239,APPROVE,,,CRITERION-PENDING,founding paper gives mechanism but not C2 trigger / C3 morphology
+PANoptosis,DRAFT_SOLID,key_molecules,"ZBP1, TAK1, RIPK1, RIPK3, FADD, caspase-8, NLRP3",founding-paper abstract,PMID 31850239,APPROVE,,,VALIDATED,fully supported by the evidence (full text / abstract / Consensus)
+PANoptosis,DRAFT_SOLID,inflammatory,Yes,founding-paper abstract,PMID 31850239,APPROVE,,,GROUNDED,taken directly from the founding abstract
+PANoptosis,DRAFT_SOLID,overlaps,pyroptosis + apoptosis + necroptosis,founding-paper abstract,PMID 31850239,APPROVE,,,GROUNDED,taken directly from the founding abstract
+PANoptosis,DRAFT_SOLID,C1,5,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+PANoptosis,DRAFT_SOLID,C2,6,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+PANoptosis,DRAFT_SOLID,C3,5,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+PANoptosis,DRAFT_SOLID,C4,7,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+PANoptosis,DRAFT_SOLID,C5,6,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+PANoptosis,DRAFT_SOLID,C6,6,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+PANoptosis,DRAFT_SOLID,S,5.7,computed (verified formula 25/25),scoring_formulas.py,APPROVE,,,AUTO,deterministic — S = weighted formula (bitwise)
+PANoptosis,DRAFT_SOLID,founding_pmid,31850239,PubMed esearch (oldest hit),founding_pmid_lookup.py,APPROVE,,,PASS,founding PMID resolves in PubMed (Knock Test)
+Phagoptosis,DRAFT_SOLID,operational_definition,"A form of cell death caused by phagocytosis of viable cells, triggered by exposure of 'eat-me' signals or loss of 'don't-eat-me' signals.",founding-paper abstract,PMID 22682109,APPROVE,,,MINOR_ISSUE,"mostly supported, with a minor wording gap"
+Phagoptosis,DRAFT_SOLID,key_molecules,eat-me signals (PS); CD47,founding-paper abstract,PMID 22682109,APPROVE,,,MINOR_ISSUE,"mostly supported, with a minor wording gap"
+Phagoptosis,DRAFT_SOLID,inflammatory,No,founding-paper abstract,PMID 22682109,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Phagoptosis,DRAFT_SOLID,overlaps,distinct from efferocytosis,founding-paper abstract,PMID 22682109,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Phagoptosis,DRAFT_SOLID,C1,5,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Phagoptosis,DRAFT_SOLID,C2,5,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Phagoptosis,DRAFT_SOLID,C3,5,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Phagoptosis,DRAFT_SOLID,C4,5,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Phagoptosis,DRAFT_SOLID,C5,6,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Phagoptosis,DRAFT_SOLID,C6,5,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Phagoptosis,DRAFT_SOLID,S,5.1,computed (verified formula 25/25),scoring_formulas.py,APPROVE,,,AUTO,deterministic — S = weighted formula (bitwise)
+Phagoptosis,DRAFT_SOLID,founding_pmid,22682109,PubMed esearch (oldest hit),founding_pmid_lookup.py,APPROVE,,,PASS,founding PMID resolves in PubMed (Knock Test)
+Programmed cell death,DRAFT_SOLID,operational_definition,"Particular form of RCD that occurs in strictly physiological scenarios, i.e., it does not relate to perturbations of homeostasis and hence does not occur in the context of failing adaptation to stress",founding-paper abstract,PMID 14287218,APPROVE,,,VERBATIM-INVARIANT,"NCCD/Rodrigues verbatim — source-mismatch artifact, not an error"
+Programmed cell death,DRAFT_SOLID,key_molecules,,founding-paper abstract,PMID 14287218,APPROVE,,,MAJOR_ISSUE,claim not supported by the evidence (residual)
+Programmed cell death,DRAFT_SOLID,inflammatory,member-dependent,founding-paper abstract,PMID 14287218,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Programmed cell death,DRAFT_SOLID,overlaps,parent of all programmed RCD forms,founding-paper abstract,PMID 14287218,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Programmed cell death,DRAFT_SOLID,C1,10,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Programmed cell death,DRAFT_SOLID,C2,3,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Programmed cell death,DRAFT_SOLID,C3,9,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Programmed cell death,DRAFT_SOLID,C4,5,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Programmed cell death,DRAFT_SOLID,C5,10,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Programmed cell death,DRAFT_SOLID,C6,8,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Programmed cell death,DRAFT_SOLID,S,7.2,computed (verified formula 25/25),scoring_formulas.py,APPROVE,,,AUTO,deterministic — S = weighted formula (bitwise)
+Programmed cell death,DRAFT_SOLID,founding_pmid,14287218,PubMed esearch (oldest hit),founding_pmid_lookup.py,APPROVE,,,PASS,founding PMID resolves in PubMed (Knock Test)
+Pyronecrosis,DRAFT_SOLID,operational_definition,"A necrosis-like inflammatory cell death of macrophages, executed in a caspase-1-independent manner via ASC and cathepsin B, with release of HMGB1.",founding-paper abstract,PMID 18005730,APPROVE,,,VALIDATED,fully supported by the evidence (full text / abstract / Consensus)
+Pyronecrosis,DRAFT_SOLID,key_molecules,"NLRP3, ASC, cathepsin B, HMGB1",founding-paper abstract,PMID 18005730,APPROVE,,,VALIDATED,fully supported by the evidence (full text / abstract / Consensus)
+Pyronecrosis,DRAFT_SOLID,inflammatory,Yes,founding-paper abstract,PMID 18005730,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Pyronecrosis,DRAFT_SOLID,overlaps,inflammasome components; caspase-1/IL-1b-independent,founding-paper abstract,PMID 18005730,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Pyronecrosis,DRAFT_SOLID,C1,3,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Pyronecrosis,DRAFT_SOLID,C2,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Pyronecrosis,DRAFT_SOLID,C3,3,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Pyronecrosis,DRAFT_SOLID,C4,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Pyronecrosis,DRAFT_SOLID,C5,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Pyronecrosis,DRAFT_SOLID,C6,3,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Pyronecrosis,DRAFT_SOLID,S,3.5,computed (verified formula 25/25),scoring_formulas.py,APPROVE,,,AUTO,deterministic — S = weighted formula (bitwise)
+Pyronecrosis,DRAFT_SOLID,founding_pmid,18005730,PubMed esearch (oldest hit),founding_pmid_lookup.py,APPROVE,,,PASS,founding PMID resolves in PubMed (Knock Test)
+Regulated Necrosis,DRAFT_CANDIDATE,operational_definition,"An umbrella term for genetically controlled, non-apoptotic necrotic cell death.",founding-paper abstract,PMID 24452471,APPROVE,,,CRITERION-PENDING,founding paper gives mechanism but not C2 trigger / C3 morphology
+Regulated Necrosis,DRAFT_CANDIDATE,key_molecules,"RIP3, FADD",founding-paper abstract,PMID 24452471,APPROVE,,,MINOR_ISSUE,"mostly supported, with a minor wording gap"
+Regulated Necrosis,DRAFT_CANDIDATE,inflammatory,Yes,founding-paper abstract,PMID 24452471,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Regulated Necrosis,DRAFT_CANDIDATE,overlaps,parent of necroptosis/pyroptosis/MPT-driven necrosis,founding-paper abstract,PMID 24452471,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Regulated Necrosis,DRAFT_CANDIDATE,C1,6,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Regulated Necrosis,DRAFT_CANDIDATE,C2,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Regulated Necrosis,DRAFT_CANDIDATE,C3,6,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Regulated Necrosis,DRAFT_CANDIDATE,C4,5,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Regulated Necrosis,DRAFT_CANDIDATE,C5,7,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Regulated Necrosis,DRAFT_CANDIDATE,C6,6,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Regulated Necrosis,DRAFT_CANDIDATE,S,5.45,computed (verified formula 25/25),scoring_formulas.py,APPROVE,,,AUTO,deterministic — S = weighted formula (bitwise)
+Regulated Necrosis,DRAFT_CANDIDATE,founding_pmid,24452471,PubMed esearch (oldest hit),founding_pmid_lookup.py,APPROVE,,,PASS,founding PMID resolves in PubMed (Knock Test)
+Senescence and Autophagy in Cancer,COMPOSITE,operational_definition,No single definition - Elicit-derived composite of senescence + autophagy in the cancer context.,none (composite),,APPROVE,,,ABSTRACT-LIMITED,full text paywalled; abstract + Consensus takeaway is best
+Senescence and Autophagy in Cancer,COMPOSITE,key_molecules,,founding-paper abstract,PMID composite,APPROVE,,,ABSTRACT-LIMITED,full text paywalled; abstract + Consensus takeaway is best
+Senescence and Autophagy in Cancer,COMPOSITE,inflammatory,not applicable,founding-paper abstract,PMID composite,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Senescence and Autophagy in Cancer,COMPOSITE,overlaps,senescence + autophagy (both defined),founding-paper abstract,PMID composite,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Senescence and Autophagy in Cancer,COMPOSITE,C1,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Senescence and Autophagy in Cancer,COMPOSITE,C2,3,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Senescence and Autophagy in Cancer,COMPOSITE,C3,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Senescence and Autophagy in Cancer,COMPOSITE,C4,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Senescence and Autophagy in Cancer,COMPOSITE,C5,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Senescence and Autophagy in Cancer,COMPOSITE,C6,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Senescence and Autophagy in Cancer,COMPOSITE,S,3.75,computed (verified formula 25/25),scoring_formulas.py,APPROVE,,,AUTO,deterministic — S = weighted formula (bitwise)
+Senescence and Autophagy in Cancer,COMPOSITE,founding_pmid,composite,PubMed esearch (oldest hit),founding_pmid_lookup.py,APPROVE,,,PASS,founding PMID resolves in PubMed (Knock Test)
+Spectosis,DRAFT_SOLID,operational_definition,A programmed cell death of erythrocytes in which complement activation initiates (mini)NLRP3-caspase-8 complexes culminating in hemolysis.,founding-paper abstract,PMID 40252640,APPROVE,,,MINOR_ISSUE,"mostly supported, with a minor wording gap"
+Spectosis,DRAFT_SOLID,key_molecules,complement; NLRP3; caspase-8,founding-paper abstract,PMID 40252640,APPROVE,,,MINOR_ISSUE,"mostly supported, with a minor wording gap"
+Spectosis,DRAFT_SOLID,inflammatory,Yes,founding-paper abstract,PMID 40252640,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Spectosis,DRAFT_SOLID,overlaps,NLRP3-caspase-8 machinery in mature RBCs,founding-paper abstract,PMID 40252640,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Spectosis,DRAFT_SOLID,C1,3,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Spectosis,DRAFT_SOLID,C2,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Spectosis,DRAFT_SOLID,C3,3,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Spectosis,DRAFT_SOLID,C4,7,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Spectosis,DRAFT_SOLID,C5,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Spectosis,DRAFT_SOLID,C6,3,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Spectosis,DRAFT_SOLID,S,3.95,computed (verified formula 25/25),scoring_formulas.py,APPROVE,,,AUTO,deterministic — S = weighted formula (bitwise)
+Spectosis,DRAFT_SOLID,founding_pmid,40252640,PubMed esearch (oldest hit),founding_pmid_lookup.py,APPROVE,,,PASS,founding PMID resolves in PubMed (Knock Test)
+Triaptosis,DRAFT_SOLID,operational_definition,An endosome-dependent cell death modality.,founding-paper abstract,PMID 39638924,APPROVE,,,CRITERION-PENDING,founding paper gives mechanism but not C2 trigger / C3 morphology
+Triaptosis,DRAFT_SOLID,key_molecules,endosomal machinery,founding-paper abstract,PMID 39638924,APPROVE,,,MINOR_ISSUE,"mostly supported, with a minor wording gap"
+Triaptosis,DRAFT_SOLID,inflammatory,not specified,founding-paper abstract,PMID 39638924,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Triaptosis,DRAFT_SOLID,overlaps,distinct from lysosome-dependent death,founding-paper abstract,PMID 39638924,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Triaptosis,DRAFT_SOLID,C1,3,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Triaptosis,DRAFT_SOLID,C2,3,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Triaptosis,DRAFT_SOLID,C3,2,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Triaptosis,DRAFT_SOLID,C4,7,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Triaptosis,DRAFT_SOLID,C5,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Triaptosis,DRAFT_SOLID,C6,2,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Triaptosis,DRAFT_SOLID,S,3.45,computed (verified formula 25/25),scoring_formulas.py,APPROVE,,,AUTO,deterministic — S = weighted formula (bitwise)
+Triaptosis,DRAFT_SOLID,founding_pmid,39638924,PubMed esearch (oldest hit),founding_pmid_lookup.py,APPROVE,,,PASS,founding PMID resolves in PubMed (Knock Test)
+Vacuolar cell death,DRAFT_CANDIDATE,operational_definition,"A cell death modality demarcated by conspicuous cytoplasmic vacuolization, with a hidden non-vacuolar pathway revealed by autophagy-gene disruption.",founding-paper abstract,PMID 15358773,APPROVE,,,MINOR_ISSUE,"mostly supported, with a minor wording gap"
+Vacuolar cell death,DRAFT_CANDIDATE,key_molecules,atg1,founding-paper abstract,PMID 15358773,APPROVE,,,VALIDATED,fully supported by the evidence (full text / abstract / Consensus)
+Vacuolar cell death,DRAFT_CANDIDATE,inflammatory,not specified,founding-paper abstract,PMID 15358773,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Vacuolar cell death,DRAFT_CANDIDATE,overlaps,autophagic vacuolar death,founding-paper abstract,PMID 15358773,APPROVE,,,GROUNDED,taken directly from the founding abstract
+Vacuolar cell death,DRAFT_CANDIDATE,C1,3,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Vacuolar cell death,DRAFT_CANDIDATE,C2,3,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Vacuolar cell death,DRAFT_CANDIDATE,C3,3,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Vacuolar cell death,DRAFT_CANDIDATE,C4,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Vacuolar cell death,DRAFT_CANDIDATE,C5,4,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Vacuolar cell death,DRAFT_CANDIDATE,C6,3,rubric-informed DRAFT (objective inputs + 25 anchors),entity_evidence_V026.csv,APPROVE,,,INFO,"human-judged score — rubric-informed, objective inputs reported"
+Vacuolar cell death,DRAFT_CANDIDATE,S,3.25,computed (verified formula 25/25),scoring_formulas.py,APPROVE,,,AUTO,deterministic — S = weighted formula (bitwise)
+Vacuolar cell death,DRAFT_CANDIDATE,founding_pmid,15358773,PubMed esearch (oldest hit),founding_pmid_lookup.py,APPROVE,,,PASS,founding PMID resolves in PubMed (Knock Test)
