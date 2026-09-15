@@ -1,0 +1,147 @@
+{
+  "run": "2026-09-09T01:28:37.859157",
+  "seed": 42,
+  "temperature": 0.7,
+  "prompt_version": "v2-smoke-aligned",
+  "T1_golden": {
+    "correct": 26,
+    "n": 26,
+    "p": 1.0,
+    "ci95": [
+      0.8712669561953784,
+      1.0
+    ],
+    "binomial_p_vs_0.95": 0.6393935549416159
+  },
+  "T2_census": {
+    "correct": 53,
+    "n": 53,
+    "p": 1.0,
+    "ci95": [
+      0.9324156955469234,
+      1.0
+    ],
+    "binomial_p_vs_0.95": 0.11415069680613649
+  },
+  "T5_antihallucination": {
+    "caught": 4,
+    "n": 4,
+    "p": 1.0,
+    "ci95": [
+      0.5100999795960008,
+      1.0
+    ],
+    "binomial_p_vs_0.95": 1.0
+  },
+  "T6_articulation": {
+    "conform": 78,
+    "n": 79,
+    "p": 0.9873417721518988,
+    "ci95": [
+      0.9317226395682229,
+      0.9977620637692307
+    ],
+    "failures": [
+      {
+        "pair": "MLKL-Necroptosis",
+        "issues": [
+          "no numbered queries"
+        ]
+      }
+    ]
+  },
+  "violation_details": [
+    {
+      "pair": "MLKL-Necroptosis",
+      "check": "G12",
+      "name": "exactly 3 numbered queries",
+      "detail": ""
+    }
+  ],
+  "T4_governance": {
+    "violations_by_type": {
+      "causality": 0,
+      "hedge": 0,
+      "disclaimer": 0,
+      "queries": 1,
+      "terminology": 0,
+      "accuracy": 0
+    },
+    "total_violations": 1,
+    "total_checks": 2142,
+    "violation_rate": 0.00046685340802987864,
+    "violation_rate_ci95": [
+      8.241372419319276e-05,
+      0.002639874817514639
+    ],
+    "note": "violations across T1 (26) + T2 (53) reports"
+  },
+  "T7_version": {
+    "status": "pending",
+    "note": "requires two prompt versions",
+    "sample_size_for_delta_90_95": 436
+  },
+  "terminology_normalization": {
+    "raw_bare_terms_corrected": 55,
+    "scrub_actions_applied": 163,
+    "note": "deterministic post-generation scrub (causal verbs + bare database/decoder + relationship terms + bold) applied before audit; the audited text is the FINAL reader-facing text"
+  },
+  "T9_chat": {
+    "genes_associated": {
+      "ok": 2,
+      "n": 2,
+      "p": 1.0,
+      "ci95": [
+        0.34237195288961925,
+        1.0
+      ],
+      "binomial_p_vs_0.95": 1.0
+    },
+    "lethal_genes": {
+      "ok": 2,
+      "n": 2,
+      "p": 1.0,
+      "ci95": [
+        0.34237195288961925,
+        1.0
+      ],
+      "binomial_p_vs_0.95": 1.0
+    },
+    "maturity": {
+      "ok": 2,
+      "n": 2,
+      "p": 1.0,
+      "ci95": [
+        0.34237195288961925,
+        1.0
+      ],
+      "binomial_p_vs_0.95": 1.0
+    },
+    "key_molecules": {
+      "ok": 2,
+      "n": 2,
+      "p": 1.0,
+      "ci95": [
+        0.34237195288961925,
+        1.0
+      ],
+      "binomial_p_vs_0.95": 1.0
+    },
+    "relationship": {
+      "ok": 2,
+      "n": 2,
+      "p": 1.0,
+      "ci95": [
+        0.34237195288961925,
+        1.0
+      ],
+      "binomial_p_vs_0.95": 1.0
+    }
+  },
+  "sample_sizes": {
+    "golden_to_tighten_5pct": 73,
+    "fact_stability_73": 73,
+    "governance_1pct": 381,
+    "version_delta_290": 436
+  }
+}

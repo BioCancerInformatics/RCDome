@@ -1,0 +1,8 @@
+=== RCDome Decoder — citation/PMID/year systematic audit (53 records, FINAL) ===
+records: 53 | unique rcd_form: 53
+distinct citations: 25 | citation->PMID 1:1: True | inconsistent: 0
+founding_pmid == primary_discovery_reference: True
+malformed reference_pmid: 0
+Rodrigues rows: 12 | citation: ['Rodrigues et al. 2025 (Dataset S1A)'] | pmid: ['41048343']
+Rodrigues reference_citation == od_author (2025): True
+Wang disambiguated rows: 2 -> ['Wang et al. 2025 (Metalloptosis umbrella)', 'Wang et al. 2025 (Mitoxyperilysis)']
