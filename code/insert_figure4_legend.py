@@ -6,7 +6,7 @@ PATH = 'D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_ma
 doc = docx.Document(PATH)
 
 fig4 = ("Figure 4. The RCDome web application. (A) The interactive Home dome, the primary entry point, "
-"which renders the 53 canonical entities, 9,265 genes and 21,569 association pairs as an explorable dome "
+"which renders the 53 canonicalized RCD-related entities, 9,265 genes and 21,568 association pairs as an explorable dome "
 "with animated counters. (B) The Explore RCDome guide, an educational overview of the modules, the "
 "benchmark results and the governance principles. (C) The Gene Catalog, the searchable 22,474-row matrix "
 "browser with a Direction/Role source selector that switches the displayed annotation between the DeepSeek "

@@ -132,7 +132,7 @@ def extract_one_form(form_name, search_term, hgnc_symbols, hgnc_enrich):
         5. Enrich: add biotype, UniProt ID, Ensembl ID from HGNC
     
     Args:
-        form_name: canonical RCD form name
+        form_name: canonicalized RCD form name
         search_term: NCBI Gene query string
         hgnc_symbols: set of approved HGNC symbols
         hgnc_enrich: dict of HGNC enrichment data

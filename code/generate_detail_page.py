@@ -598,7 +598,7 @@ if (entityJump) {
     } else if (raw) {
       document.getElementById("pmidModalTitle").textContent = "RCD entity not found";
       document.getElementById("pmidModalBody").innerHTML =
-        `<p>Sorry, <b>${esc(raw)}</b> is not in the RCDome database (${entityNames.length} canonical entities).</p>`;
+        `<p>Sorry, <b>${esc(raw)}</b> is not in the RCDome database (${entityNames.length} canonicalized RCD-related entities).</p>`;
       document.getElementById("pmidModal").style.display = "flex";
     }
   });
