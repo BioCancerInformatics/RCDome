@@ -41,7 +41,7 @@ def arrow(x1, y1, x2, y2):
 # node layout (top -> bottom)
 box(50, 95, 66, 12, wrap('20 source databases (FerrDB v3, RCDdb, iPCD, LncRCD, iLIR, HADb, HAMdb, ATD, AMT-DB, ncFO, KEGG, Reactome, GO, MSigDB, WikiPathways, NCBI Gene, Rodrigues 2025, XDeathDB, Elicit Phase 3, Elicit Alert)'), '#AED6F1')
 box(50, 80, 66, 12, wrap('Four compilation channels: A: PubMed Boolean (recall), B: curated databases (precision), C: AI-assisted screening, D: manual curation (arbiter)'), '#48C9B0')
-box(50, 65, 66, 11, wrap('Consolidation: 53 canonical entities (62 name strings), 22,473 rows, 9,265 genes'), '#F9E79F')
+box(50, 65, 66, 11, wrap('Consolidation: 53 canonicalized RCD-related entities (62 name strings), 22,473 rows, 9,265 genes'), '#F9E79F')
 box(50, 50, 30, 8, 'INDEPENDENT\nVALIDATION', '#EBDEF0', fc_text='#D32F2F', fs=9, bold=True)
 box(18, 35, 27, 14, wrap('DeepSeek (Phases 2A/D, 2B, 2C, 2D/2E, 2F): two-call validation, deep RAG, recovery, CoT full-matrix (cot_role, cot_direction, cot_mechanistic, cot_evidence)'), '#ABEBC6', fs=7)
 box(50, 35, 27, 14, wrap('Elicit (Phase 3): AI-assisted extraction, role + direction'), '#F1948A', fs=8)

@@ -35,7 +35,7 @@ PAIR_RESULTS = os.path.join(OUTPUT_DIR, 'phase2b_pair_results.json')  # Per-pair
 PMID_CACHE = os.path.join(OUTPUT_DIR, 'phase2b_pmid_cache.json')  # PMID->PMCID mapping
 AUDIT_REPORT = os.path.join(OUTPUT_DIR, 'phase2b_audit_report.json')
 
-# RCD form vocabulary (54 canonical forms)
+# RCD form vocabulary (53 canonicalized forms)
 RCD_FORMS = [
     "Apoptosis", "Necroptosis", "Pyroptosis", "Ferroptosis",
     "Autophagy-dependent cell death", "Necrosis", "Anoikis", "Cuproptosis",

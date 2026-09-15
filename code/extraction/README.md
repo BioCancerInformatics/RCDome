@@ -19,7 +19,7 @@ Python scripts used to extract gene-RCD associations from 15 independent databas
 | `channel_b_reactome.py` | 2 | Reactome | Queries ContentService API for Programmed Cell Death hierarchy (R-HSA-5357801) |
 | `channel_b_go.py` | 2 | GO (QuickGO) | Queries 7 RCD-specific GO terms via QuickGO REST API |
 | `channel_b_msigdb.py` | 2 | MSigDB/GSEA | Downloads 12 RCD-relevant gene sets in GMT format |
-| `channel_b_ncbi_gene.py` | 3 | NCBI Gene | Queries all 32 canonical RCD forms via E-utilities API |
+| `channel_b_ncbi_gene.py` | 3 | NCBI Gene | Queries all 32 RCD forms via E-utilities API |
 | `master_extract.py` | — | Orchestrator | Runs all channel scripts in sequence |
 | `merge_engine.py` | — | Integration | Merges outputs into unified matrix with evidence quality and confidence tiers |
 | `utility_map_uniprot.py` | — | Utility | Converts UniProt accession IDs to HGNC gene symbols via UniProt REST API |

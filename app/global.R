@@ -101,7 +101,7 @@ canonical_pathways <- canonical_pathways[!is.na(canonical_pathways) & nzchar(can
 if (length(canonical_pathways) != expected_canonical_pathways) {
   warning(
     "Fingerprint expected ", expected_canonical_pathways,
-    " canonical pathways, but rcd_form_canonical currently contains ",
+    " RCD-related pathways, but rcd_form_canonical currently contains ",
     length(canonical_pathways), ". All pathways present in that canonical column will be shown."
   )
 }
@@ -141,7 +141,7 @@ if (fingerprint_cache_valid) {
   message("Building fingerprint cache (vectorized)...")
 
   fingerprint_df <- tryCatch({
-    # One row per unique gene × canonical pathway association.
+    # One row per unique gene × RCD-related pathway association.
     gene_pathway_pairs <- genes_df %>%
       transmute(
         gene = trimws(as.character(name)),
@@ -150,7 +150,7 @@ if (fingerprint_cache_valid) {
       filter(!is.na(gene), nzchar(gene), !is.na(pathway), nzchar(pathway)) %>%
       distinct(gene, pathway)
 
-    # A gene is Exclusive when it occurs in exactly one canonical RCD pathway;
+    # A gene is Exclusive when it occurs in exactly one RCD-related pathway;
     # otherwise it is Shared.
     gene_membership <- gene_pathway_pairs %>%
       count(gene, name = "n_pathways")
@@ -165,7 +165,7 @@ if (fingerprint_cache_valid) {
         .groups   = "drop"
       )
 
-    # Unique databases and article PMIDs per canonical pathway.
+    # Unique databases and article PMIDs per RCD-related pathway.
     refs_per_pathway <- genes_df %>%
       filter(!is.na(Pathway_Categorization), nzchar(trimws(Pathway_Categorization))) %>%
       group_by(pathway = trimws(as.character(Pathway_Categorization))) %>%

@@ -52,7 +52,7 @@ mechanistic class, role, direction, evidence tier, and PMID) exceeds the model
 context, so the Q&A uses a retrieval-augmented strategy that never deletes data.
 A static layer always injects the complete gene–entity index (all 22,473
 associations, names only) and the full 53-entity decoder. A dynamic layer then
-detects, for each question, the entities mentioned (by canonical name or its
+detects, for each question, the entities mentioned (by canonicalized name or its
 stem, so "apoptotic" matches Apoptosis) and any gene symbols, and injects the
 full four-dimension records for exactly those rows. Genes named explicitly in the
 question are always placed first so the budget can never displace them. The

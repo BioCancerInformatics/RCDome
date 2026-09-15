@@ -2,7 +2,7 @@
 """
 XDeathDB extraction. Victor to provide: XDeathDB.csv (downloaded from Shiny app)
 1. Read CSV, normalize gene symbols to HGNC approved
-2. Map 12 RCD forms to RCDome canonical forms
+2. Map 12 RCD forms to RCDome canonicalized RCD-related forms
 3. Append to unified_gene_rcd_matrix
 Source: https://pcm2019.shinyapps.io/XDeathDB/
 """
