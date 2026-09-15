@@ -35,7 +35,7 @@ Before ending, scan the whole report and remove every causal verb.
   Do not infer, speculate, or invent an association.
 - If the gene symbol is not a valid human gene symbol, reply ONLY with the
   OUT-OF-SCOPE template.
-- If the entity is not one of the 53 canonical RCD entities, reply ONLY with the
+- If the entity is not one of the 53 canonicalized RCD-related entities, reply ONLY with the
   OUT-OF-SCOPE template.
 
 ## CLINICAL/TREATMENT (Category 4 rejection)

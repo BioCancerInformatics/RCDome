@@ -4,7 +4,7 @@ from openpyxl.styles import Font, Alignment, PatternFill
 COLS = [
     ("gene_symbol", "Identifiers", "Official HGNC gene symbol for the gene in the association.", "HGNC-approved symbol"),
     ("rcd_form", "Identifiers", "The RCD form name exactly as recorded by the source database (original, unnormalized).", "free text"),
-    ("rcd_form_canonical", "Identifiers", "The normalized canonical RCD form name (one of 53 canonical forms).", "53 canonical forms"),
+    ("rcd_form_canonical", "Identifiers", "The canonicalized RCD-related form name (one of 53 canonicalized forms).", "53 canonicalized forms"),
     ("rcdome_level", "Identifiers", "The ontological level code of the RCD entity: L1 Modalities, L2 Subtypes, L3 Triggers, L4 Functional/conceptual, L5 Generic/composite.", "L1->Modalities, L2->Subtypes, L3->Triggers, L4->Functional/conceptual, L5->Generic/composite"),
     ("rcdome_level_name", "Identifiers", "The label of the ontological level the RCD entity belongs to (paired with the rcdome_level code).", "L1 Modalities, L2 Subtypes, L3 Triggers, L4 Functional/conceptual, L5 Generic/composite"),
     ("source_databases", "Source provenance", "Semicolon-separated list of the source databases that contributed this association (joined provenance, not a single base ID).", "combinations of the 19 base database identifiers (828 distinct combinations)"),

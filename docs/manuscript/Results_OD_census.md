@@ -1,6 +1,6 @@
 # The RCD entity census and operational definitions
 
-**The 53-entity census.** The RCDome identified 53 canonical RCD entities,
+**The 53-entity census.** The RCDome identified 53 canonicalized RCD-related entities,
 represented by 22,473 gene–RCD pairs in the unified evidence matrix (V026). Of
 these, 20 carried the verbatim operational definitions of the Nomenclature
 Committee on Cell Death (NCCD; Galluzzi *et al.* 2018), 12 carried the expanded

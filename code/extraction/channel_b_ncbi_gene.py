@@ -1,7 +1,7 @@
 """
 channel_b_ncbi_gene.py — Extract genes from NCBI Gene via E-utilities
 ========================================================================
-Searches NCBI Gene for all 32 canonical RCD forms, fetches gene symbols.
+Searches NCBI Gene for all 32 RCD forms, fetches gene symbols.
 Uses NCBI API key for higher rate limits.
 Output: gene_rcd_ncbi_gene.csv
 API: https://eutils.ncbi.nlm.nih.gov/

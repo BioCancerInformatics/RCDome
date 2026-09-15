@@ -428,7 +428,7 @@ mod_network_server <- function(
     
     # ── Build gene ↔ entity edges with evidence attributes ───────────────────
     #
-    # One edge per (gene, canonical entity). Duplicate rows from distinct
+    # One edge per (gene, canonicalized RCD-related entity). Duplicate rows from distinct
     # original forms are aggregated. The kept row is the one with the
     # strongest role (EXECUTOR > REGULATOR > MARKER > UNCERTAIN), then the
     # strongest direction (PROMOTES/PROTECTS > UNCLEAR), then the strongest

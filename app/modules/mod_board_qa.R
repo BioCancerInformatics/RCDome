@@ -38,7 +38,7 @@ build_rag_records <- function(question, default_entity = NULL, max_chars = 60000
 
   q <- tolower(question)
 
-  # 1) Entity match: canonical name or its stem (so "apoptotic" matches Apoptosis)
+  # 1) Entity match: canonicalized name or its stem (so "apoptotic" matches Apoptosis)
   ents <- sort(unique(genes_df$rcd_form_canonical))
   matched_ents <- ents[sapply(ents, function(e) {
     le <- tolower(e)

@@ -15,7 +15,7 @@ M = pd.read_csv(BASE + r"/output databases/Phase 2C output/unified_gene_rcd_matr
 ev = pd.read_csv(DEC + "/entity_evidence_V026.csv")
 df = pd.read_csv(DEC + "/RCDome_Decoder_53.csv")
 
-# aggregate source databases + channels per canonical entity
+# aggregate source databases + channels per canonicalized RCD-related entity
 PROV = {}
 for ent, g in M.groupby("rcd_form_canonical"):
     dbs = sorted({x for v in g["source_databases"].dropna() for x in str(v).split(";") if x.strip()})

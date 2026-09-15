@@ -14,7 +14,7 @@ fig1 = ("Figure 1. RCDome compilation and validation pipeline. RCDome is a human
 "PubMed Boolean searches) maximizes recall; Channel B (topic-specific database extraction) provides "
 "precision; Channel C (generative-AI-assisted literature screening) captures recent discoveries; and "
 "Channel D (manual expert curation) serves as the final arbiter. Consolidation normalizes the 62 original "
-"database name strings into 53 canonical RCD entities, yielding 22,474 gene\u2013RCD association rows across "
+"database name strings into 53 canonicalized RCD-related entities, yielding 22,473 gene\u2013RCD association rows across "
 "9,265 unique human genes. The consolidated matrix then enters an independent validation stage in which "
 "three mutually independent analyses are applied in execution order. The first is the DeepSeek "
 "chain-of-thought classifier (Phases 2A through 2F), which performs two-call abstract validation, "
@@ -25,7 +25,7 @@ fig1 = ("Figure 1. RCDome compilation and validation pipeline. RCDome is a human
 "third is the Consensus evidence-channel classification (Phase 2G), which queries each pair with a neutral "
 "formulation \u2014 the gene symbol followed only by \u201ccell death\u201d \u2014 so that evidence is retrieved without "
 "form-name priming. The three analyses are preserved in separate columns and are never conflated. The "
-"resulting consolidated matrix (22,474 rows and 67 columns) powers the RCDome web application, whose "
+"resulting consolidated matrix (22,473 rows and 71 columns) powers the RCDome web application, whose "
 "interface comprises the interactive dome, the Explore RCDome guide, the Gene Catalog, the RCD entities "
 "browser, the Network module and RCDchat. Boxes are colour-coded for visual distinction, and arrows "
 "indicate the flow of data through the pipeline.")

@@ -1,8 +1,8 @@
 # Operational definitions of RCD entities
 
-**Vocabulary and scope.** The RCDome canon comprises 53 canonical RCD entities,
+**Vocabulary and scope.** The RCDome canon comprises 53 canonicalized RCD-related entities,
 derived from the unified gene–RCD evidence matrix (version V026; 22,473 rows;
-21,568 gene–RCD pairs). The canonical vocabulary is fixed at V026 and is not
+21,568 gene–RCD pairs). The canonicalized vocabulary is fixed at V026 and is not
 modified by downstream definition work.
 
 **Three-tier definition hierarchy.** Each entity's operational definition (OD)
