@@ -103,7 +103,7 @@ for r in ws.iter_rows(min_row=2, values_only=True):
         continue
     s1a_fresh[norm(r[1])] = norm(r[3])  # Operational Definition column
 
-# S1A name -> decoder canonical name
+# S1A name -> decoder canonicalized name
 CANON = {
     "Apoptosis": "Apoptosis", "Necroptosis": "Necroptosis", "Pyroptosis": "Pyroptosis",
     "Ferroptosis": "Ferroptosis", "Autophagy": "Autophagy", "Cuproptosis": "Cuproptosis",
