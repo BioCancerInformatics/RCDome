@@ -29,7 +29,7 @@ note = '''
    - NLRX1 \u2192 **CONTEXT_GAP** (PubMed confirms via PMID 41739553; LLM training does not recognize the gene in this form).
    - PPIF \u2192 **MECHANISTIC** (LLM knowledge + PubMed both confirm via PMID 15800627).
 
-   *Method deviation (transparency):* for these two pairs, call B used the known PMIDs from `pmid_list` instead of the standard esearch query, because the canonical form name "MPT-driven necrosis" does not match PubMed terminology ("mitochondrial permeability transition"). Call A used the clarified descriptor "MPT-driven necrosis (necrosis driven by the mitochondrial permeability transition, mPTP)".
+   *Method deviation (transparency):* for these two pairs, call B used the known PMIDs from `pmid_list` instead of the standard esearch query, because the canonicalized form name "MPT-driven necrosis" does not match PubMed terminology ("mitochondrial permeability transition"). Call A used the clarified descriptor "MPT-driven necrosis (necrosis driven by the mitochondrial permeability transition, mPTP)".
 
 '''
 txt = txt.replace('\n## File Inventory', note + '\n## File Inventory')
