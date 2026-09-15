@@ -40,3 +40,5 @@ Adjudication rule: canonicalized-vocabulary membership ≠ biological canonicali
 **Addendum (literal – escape):** 3 fixes re-applied with raw-string matching.
 
 **Addendum 2:** 5 residual fixes (global.R comments, MandM line 5, Results_OD_census line 3).
+
+**Addendum 3:** update_traceability.py + Example_RCDome_Board_BAX_Apoptosis.html.
