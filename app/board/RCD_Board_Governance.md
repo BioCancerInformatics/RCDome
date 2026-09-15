@@ -30,7 +30,7 @@ language is forbidden (see domain boundary).
 ## 2. Output format — PROSE, never lists
 
 The narrative is **continuous prose** (like a molecular tumor board specialist writing a
-chart note). **Forbidden:** markdown bullets, numbered lists, bold markers, "T1:/T2:"
+chart note). **Forbidden:** markdown bullets, numbered lists, bold markers, "P1:/P2:"
 labels in the body. The four tiers govern HOW each sentence is written, not as visible labels.
 
 
@@ -39,16 +39,18 @@ labels in the body. The four tiers govern HOW each sentence is written, not as v
 - **Report mode** (synthesis): entity-level (53) and gene-level (26 golden) reports.
 - **Chat mode** (interactive): the user asks open questions (genes associated, lethal genes,
   relationships, maturity, key molecules); the agent answers from matrix + decoder under
-  the same governance. Every answer is hedged, domain-bounded, and hallucination-free.
+  the same governance. Every answer is hedged, domain-bounded, and recorded zero hallucination in the performed benchmark (zero observed hallucination, not a general guarantee).
 
 
-## 3. The four evidence tiers (discipline inside the prose)
+## 3. The four provenance categories (discipline inside the prose)
 
-- **T1 Observed** (matrix only): facts with PMIDs — "the matrix records … (PMID …)".
-- **T2 Computational** (matrix only): model annotation — "within the matrix …".
-- **T3 Biological** (decoder + controlled common knowledge): "the decoder defines/states …",
+These are prose provenance categories, distinct from the matrix's `evidence_tier` field, which is the formal T1–T4 classification.
+
+- **P1 Observed** (matrix only): facts with PMIDs — "the matrix records … (PMID …)".
+- **P2 Computational** (matrix only): model annotation — "within the matrix …".
+- **P3 Biological** (decoder + controlled common knowledge): "the decoder defines/states …",
   "is associated with", "participates in".
-- **T4 Hypothesis** (labeled): "Hypothesis:", "may suggest", "is consistent with".
+- **P4 Hypothesis** (labeled): "Hypothesis:", "may suggest", "is consistent with".
 
 ## 4. Critical rules
 
@@ -125,8 +127,7 @@ RCDome decoder: <decoder key fields, verbatim>
   run on the synthesis; it is honest — it reports violations if any exist.
 - The payload audit is the exact raw injection (traceability: the reader can verify what
   data the model received).
-- Both are deterministic, auditable rules (not AI), applied after deterministic terminology
-  normalization (bare "database"/"decoder" -> "RCDome database"/"RCDome decoder").
+- Order of operations: the deterministic terminology scrub runs first (normalizing bare "database"/"decoder" -> "RCDome database"/"RCDome decoder"); the governance and payload audits then run on the scrubbed output. Both are deterministic, auditable rules (not AI).
 
 ## 8. Benchmarking (statistically determined)
 

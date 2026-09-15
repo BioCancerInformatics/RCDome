@@ -1,0 +1,11 @@
+## Autophagy-Dependent Cell Death — Mechanistic Pathway
+
+Autophagy-dependent cell death (ACD) is a regulated cell-death category in which the autophagic machinery is causally required for cell death. Because autophagy is normally cytoprotective, the presence of autophagosomes, LC3 puncta, lysosomal activity, or vacuolization alone does not establish ACD. Mechanistic classification requires that inhibition of essential autophagy components significantly prevents or delays death.
+
+The common upstream pathway begins with nutrient, energetic, oxidative, or organellar stress. Reduced mTORC1 restraint and context-dependent AMPK signaling activate the ULK1–ATG13–FIP200–ATG101 complex, which stimulates the Beclin 1–VPS34 complex and PI3P production. PI3P recruits WIPI proteins, followed by ATG12–ATG5–ATG16L1- and ATG7/ATG3-dependent LC3/GABARAP lipidation. This drives phagophore expansion, autophagosome formation, and RAB7/EPG5/SNARE-mediated fusion with lysosomes.
+
+These events are not intrinsically lethal. Death occurs only when excessive or dysregulated autophagy generates a specific downstream lethal lesion. The best-defined mammalian example is autosis, in which strong autophagy induction becomes coupled to Na+,K+-ATPase activity through Beclin 1, producing ionic and membrane dysregulation, nuclear convolution, perinuclear swelling, and irreversible cellular collapse.
+
+Other proposed ACD mechanisms include excessive mitophagy, where persistent mitochondrial elimination causes respiratory insufficiency and ATP depletion, and autophagy-associated lysosomal injury, where lysosomal overload leads to membrane permeabilization, cathepsin release, and secondary cellular damage.
+
+Thus, ACD has no universal terminal executor. Its defining feature is the causal requirement for autophagic machinery in producing the lethal lesion, with autosis currently representing its most mechanistically resolved mammalian form.

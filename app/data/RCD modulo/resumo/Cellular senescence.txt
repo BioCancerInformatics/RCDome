@@ -1,0 +1,11 @@
+## Cellular Senescence — Mechanistic State Pathway
+
+Cellular senescence is a stress-induced cell-fate program characterized by durable withdrawal from the cell cycle while cellular viability and metabolic activity are maintained. Unlike regulated cell-death modalities, senescence has no dedicated molecular executor and does not intrinsically culminate in cell destruction.
+
+Senescence can be initiated by telomere dysfunction, persistent DNA damage, oncogene activation, oxidative or metabolic stress, mitochondrial dysfunction, defective autophagy–lysosomal function, or inflammatory signaling. These diverse stimuli commonly converge on the p53–p21 and/or p16–RB pathways. ATM/ATR-dependent DNA-damage signaling activates p53 and induces p21, while p16 inhibits CDK4/6. Both routes suppress CDK activity, maintain RB in its hypophosphorylated state, and repress E2F- and DREAM-dependent proliferation genes, establishing cell-cycle arrest.
+
+The transition from transient arrest to stable senescence involves persistent DNA-damage signaling, p16–RB reinforcement, chromatin remodeling, repression of proliferative transcription, mitochondrial and lysosomal remodeling, and, in some contexts, sustained MYC degradation. No single universal molecular point of irreversible commitment has been identified.
+
+Senescent cells can also develop the senescence-associated secretory phenotype (SASP). Cytoplasmic chromatin fragments activate cGAS–STING signaling, which promotes NF-κB-dependent secretion of cytokines, chemokines, growth factors, and matrix-remodeling proteins. These signals can reinforce senescence in the same cell and induce paracrine senescence in neighboring cells.
+
+Thus, the endpoint of senescence is a metabolically active, frequently apoptosis-resistant cell with stable loss of proliferative competence—not cell death. Subsequent elimination by senolytics or immune cells represents a separate death mechanism, such as BAX/BAK-dependent apoptosis, rather than an intrinsic execution phase of senescence.

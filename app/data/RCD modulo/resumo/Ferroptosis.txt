@@ -1,0 +1,11 @@
+## Ferroptosis — Mechanistic Pathway
+
+Ferroptosis is an established form of regulated necrotic cell death defined by iron-dependent accumulation of oxidized phospholipids until antioxidant and membrane-protective systems can no longer prevent catastrophic membrane damage. Its central biochemical event is uncontrolled peroxidation of polyunsaturated fatty acid-containing phospholipids rather than caspase activation, MLKL oligomerization, or gasdermin pore formation.
+
+A major initiating pathway involves inhibition of system xc−, composed of SLC7A11 and SLC3A2. Reduced cystine uptake limits intracellular cysteine and glutathione synthesis, thereby compromising GPX4 activity. Alternatively, compounds such as RSL3 directly inhibit GPX4. In both cases, phospholipid hydroperoxides accumulate because the GSH–GPX4 antioxidant system becomes insufficient.
+
+Ferroptosis also requires oxidizable membrane substrates and redox-active iron. ACSL4 activates polyunsaturated fatty acids, while LPCAT3 incorporates them into membrane phospholipids. Increased labile Fe²⁺, including through NCOA4-mediated ferritinophagy, promotes radical formation and lipid-peroxidation chain reactions.
+
+Several parallel defense systems counteract this process, including FSP1–CoQH₂, mitochondrial DHODH–CoQH₂, GCH1–BH4, and NRF2-dependent antioxidant programs. Ferroptosis occurs when phospholipid peroxide production exceeds the combined capacity of these protective networks.
+
+At late stages, extensive lipid oxidation disrupts membrane permeability, causing Ca²⁺ influx and activation of ESCRT-III-mediated membrane repair. Persistent damage overwhelms repair, promotes osmotic swelling, and can culminate in NINJ1-assisted plasma-membrane rupture and DAMP release. Thus, ferroptosis is fundamentally defined by failure to control iron-dependent phospholipid peroxidation, with irreversible membrane failure as its terminal consequence.

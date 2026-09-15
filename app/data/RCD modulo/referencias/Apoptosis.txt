@@ -1,0 +1,105 @@
+1. Ai Y, Meng Y, Yan B, Zhou Q, Wang X. **The biochemical pathways of apoptotic, necroptotic, pyroptotic, and ferroptotic cell death.** *Molecular Cell*. 2024;84:170–179. **DOI: 10.1016/j.molcel.2023.11.040**
+
+2. Yuan J, Ofengeim D. **A guide to cell death pathways.** *Nature Reviews Molecular Cell Biology*. 2024;25:379–395. **DOI: 10.1038/s41580-023-00689-6**
+
+3. Tummers B, Green DR. **Caspase-8: regulating life and death.** *Immunological Reviews*. 2017;277:76–89. **DOI: 10.1111/imr.12541**
+
+4. Lossi L. **The concept of intrinsic versus extrinsic apoptosis.** *The Biochemical Journal*. 2022;479:357–384. **DOI: 10.1042/BCJ20210854**
+
+5. Costigan A, Hollville E, Martin SJ. **Discriminating Between Apoptosis, Necrosis, Necroptosis, and Ferroptosis by Microscopy and Flow Cytometry.** *Current Protocols*. 2023;3. **DOI: 10.1002/cpz1.951**
+
+6. Mirzayans R, Murray D. **Do TUNEL and Other Apoptosis Assays Detect Cell Death in Preclinical Studies?** *International Journal of Molecular Sciences*. 2020;21. **DOI: 10.3390/ijms21239090**
+
+7. Caulfield AJ, Lathem WW. **Disruption of Fas-Fas Ligand Signaling, Apoptosis, and Innate Immunity by Bacterial Pathogens.** *PLoS Pathogens*. 2014;10. **DOI: 10.1371/journal.ppat.1004252**
+
+8. Scott FL, Stec B, Pop C, et al. **The Fas/FADD death domain complex structure unravels signalling by receptor clustering.** *Nature*. 2009;457:1019–1022. **DOI: 10.1038/nature07606**
+
+9. Hillert-Richter LK, Lavrik IN. **Measuring Composition of CD95 Death-Inducing Signaling Complex and Processing of Procaspase-8 in this Complex.** *Journal of Visualized Experiments*. 2021;174. **DOI: 10.3791/62842**
+
+10. Mahdizadeh SJ, Thomas MK, Eriksson LA. **Reconstruction of the Fas-Based Death-Inducing Signaling Complex Using a Protein–Protein Docking Meta-Approach.** *Journal of Chemical Information and Modeling*. 2021;61:3543–3558. **DOI: 10.1021/acs.jcim.1c00301**
+
+11. Fosuah E, Shen Z, Xie J, Wang C, Lin Q, Fu TM. **Assembly and activation of the death-inducing signaling complex.** *Proceedings of the National Academy of Sciences USA*. 2025;122. **DOI: 10.1073/pnas.2504819122**
+
+12. Chen Y, Huynh V, Lai L, et al. **FADD DED filaments coordinate complex IIa assembly during TNF-induced apoptosis.** *Proceedings of the National Academy of Sciences USA*. 2025;122. **DOI: 10.1073/pnas.2425802122**
+
+13. Li H, Zhu H, Xu CJ, Yuan J. **Cleavage of BID by caspase 8 mediates the mitochondrial damage in the Fas pathway of apoptosis.** *Cell*. 1998;94:491–501. **DOI: 10.1016/S0092-8674(00)81590-1**
+
+14. Kantari C, Walczak H. **Caspase-8 and BID: caught in the act between death receptors and mitochondria.** *Biochimica et Biophysica Acta*. 2011;1813:558–563. **DOI: 10.1016/j.bbamcr.2011.01.026**
+
+15. Barnhart BC, Alappat EC, Peter ME. **The CD95 type I/type II model.** *Seminars in Immunology*. 2003;15:185–193. **DOI: 10.1016/S1044-5323(03)00031-9**
+
+16. Hafner A, Bulyk ML, Jambhekar A, Lahav G. **The multiple mechanisms that regulate p53 activity and cell fate.** *Nature Reviews Molecular Cell Biology*. 2019;20:199–210. **DOI: 10.1038/s41580-019-0110-x**
+
+17. Roufayel R, Younes K, Al-Sabi A, Murshid N. **BH3-Only Proteins Noxa and Puma Are Key Regulators of Induced Apoptosis.** *Life*. 2022;12:256. **DOI: 10.3390/life12020256**
+
+18. Wang J, Thomas HR, Li Z, et al. **Puma, noxa, p53, and p63 differentially mediate stress pathway induced apoptosis.** *Cell Death & Disease*. 2021;12. **DOI: 10.1038/s41419-021-03902-6**
+
+19. Dadsena S, King LE, García-Sáez AJ. **Apoptosis regulation at the mitochondria membrane level.** *Biochimica et Biophysica Acta - Biomembranes*. 2021:183716. **DOI: 10.1016/j.bbamem.2021.183716**
+
+20. Kim H, Tu HC, Ren D, et al. **Stepwise Activation of BAX and BAK by tBID, BIM, and PUMA Initiates Mitochondrial Apoptosis.** *Molecular Cell*. 2009;36:487–499. **DOI: 10.1016/j.molcel.2009.09.030**
+
+21. Huang K, O'Neill KL, Li J, et al. **BH3-only proteins target BCL-xL/MCL-1, not BAX/BAK, to initiate apoptosis.** *Cell Research*. 2019;29:942–952. **DOI: 10.1038/s41422-019-0231-y**
+
+22. O'Neill KL, Huang K, Zhang J, Chen Y, Luo X. **Inactivation of prosurvival Bcl-2 proteins activates Bax/Bak through the outer mitochondrial membrane.** *Genes & Development*. 2016;30:973–988. **DOI: 10.1101/gad.276725.115**
+
+23. Adams JM. **BAX and BAK become killers without a BH3 trigger.** *Cell Research*. 2019;29:967–968. **DOI: 10.1038/s41422-019-0253-5**
+
+24. Grosse L, Wurm CA, Brüser C, Neumann D, Jans DC, Jakobs S. **Bax assembles into large ring-like structures remodeling the mitochondrial outer membrane in apoptosis.** *The EMBO Journal*. 2016;35:402–413. **DOI: 10.15252/embj.201592789**
+
+25. Suzuki Y, Imai Y, Nakayama H, Takahashi K, Takio K, Takahashi R. **A serine protease, HtrA2, is released from the mitochondria and interacts with XIAP, inducing cell death.** *Molecular Cell*. 2001;8:613–621. **DOI: 10.1016/S1097-2765(01)00341-0**
+
+26. Hegde R, Srinivasula SM, Zhang Z, et al. **Identification of Omi/HtrA2 as a Mitochondrial Apoptotic Serine Protease That Disrupts Inhibitor of Apoptosis Protein-Caspase Interaction.** *Journal of Biological Chemistry*. 2002;277:432–438. **DOI: 10.1074/jbc.M109721200**
+
+27. Susin SA, Lorenzo HK, Zamzami N, et al. **Molecular characterization of mitochondrial apoptosis-inducing factor.** *Nature*. 1999;397:441–446. **DOI: 10.1038/17135**
+
+28. Cande C, Cohen I, Daugas E, et al. **Apoptosis-inducing factor: a novel caspase-independent death effector released from mitochondria.** *Biochimie*. 2002;84:215–222. **DOI: 10.1016/S0300-9084(02)01374-3**
+
+29. Jiang X, Jiang H, Shen Z, Wang X. **Activation of mitochondrial protease OMA1 by Bax and Bak promotes cytochrome c release during apoptosis.** *Proceedings of the National Academy of Sciences USA*. 2014;111:14782–14787. **DOI: 10.1073/pnas.1417253111**
+
+30. Yamaguchi R, Lartigue L, Perkins G, et al. **OPA1-mediated cristae opening is Bax/Bak- and BH3-dependent, required for apoptosis, and independent of Bak oligomerization.** *Molecular Cell*. 2008;31:557–569. **DOI: 10.1016/j.molcel.2008.07.010**
+
+31. Zhang D, Lu C, Whiteman M, Chance B, Armstrong JS. **The Mitochondrial Permeability Transition Regulates Cytochrome c Release for Apoptosis during Endoplasmic Reticulum Stress by Remodeling the Cristae Junction.** *Journal of Biological Chemistry*. 2008;283:3476–3486. **DOI: 10.1074/jbc.M707528200**
+
+32. Li P, Nijhawan D, Budihardjo I, et al. **Cytochrome c and dATP-dependent formation of Apaf-1/caspase-9 complex initiates an apoptotic protease cascade.** *Cell*. 1997;91:479–489. **DOI: 10.1016/S0092-8674(00)80434-1**
+
+33. Zou H, Li Y, Liu X, Wang X. **An APAF-1·Cytochrome c Multimeric Complex Is a Functional Apoptosome That Activates Procaspase-9.** *Journal of Biological Chemistry*. 1999;274:11549–11556. **DOI: 10.1074/jbc.274.17.11549**
+
+34. Cain K, Bratton SB, Cohen GM. **The Apaf-1 apoptosome: a large caspase-activating complex.** *Biochimie*. 2002;84:203–214. **DOI: 10.1016/S0300-9084(02)01376-7**
+
+35. Abbas R, Larisch S. **Targeting XIAP for Promoting Cancer Cell Death—The Story of ARTS and SMAC.** *Cells*. 2020;9:663. **DOI: 10.3390/cells9030663**
+
+36. McComb S, Chan PK, Guinot A, et al. **Efficient apoptosis requires feedback amplification of upstream apoptotic signals by effector caspase-3 or -7.** *Science Advances*. 2019;5. **DOI: 10.1126/sciadv.aau9433**
+
+37. Slee EA, Harte MT, Kluck RM, et al. **Ordering the Cytochrome c-initiated Caspase Cascade: Hierarchical Activation of Caspases-2, -3, -6, -7, -8, and -10 in a Caspase-9-dependent Manner.** *The Journal of Cell Biology*. 1999;144:281–292. **DOI: 10.1083/jcb.144.2.281**
+
+38. Kalkavan H, Green DR. **MOMP, cell suicide as a BCL-2 family business.** *Cell Death & Differentiation*. 2018;25:46–55. **DOI: 10.1038/cdd.2017.179**
+
+39. Kalkavan H, Chen MJ, Crawford JC, et al. **Sublethal Cytochrome-c release generates drug-tolerant persister cells.** *Cell*. 2022;185:3356–3374.e22. **DOI: 10.1016/j.cell.2022.07.025**
+
+40. Zaitceva V, Kopeina GS, Zhivotovsky B. **Anastasis: Return Journey from Cell Death.** *Cancers*. 2021;13:3671. **DOI: 10.3390/cancers13153671**
+
+41. Seervi M, Sumi S, Chandrasekharan A, Sharma A, Santhoshkumar TR. **Molecular profiling of anastatic cancer cells: potential role of the nuclear export pathway.** *Cellular Oncology*. 2019;42:645–661. **DOI: 10.1007/s13402-019-00451-1**
+
+42. Slee EA, Adrain C, Martin SJ. **Executioner Caspase-3, -6, and -7 Perform Distinct, Non-redundant Roles during the Demolition Phase of Apoptosis.** *Journal of Biological Chemistry*. 2001;276:7320–7326. **DOI: 10.1074/jbc.M008363200**
+
+43. Sakahira H, Enari M, Nagata S. **Cleavage of CAD inhibitor in CAD activation and DNA degradation during apoptosis.** *Nature*. 1998;391:96–99. **DOI: 10.1038/34214**
+
+44. Nagata S. **Apoptotic DNA fragmentation.** *Experimental Cell Research*. 2000;256:12–18. **DOI: 10.1006/excr.2000.4834**
+
+45. Coleman ML, Sahai EA, Yeo M, Bosch M, Dewar A, Olson MF. **Membrane blebbing during apoptosis results from caspase-mediated activation of ROCK I.** *Nature Cell Biology*. 2001;3:339–345. **DOI: 10.1038/35070009**
+
+46. Chen Q, Gong B, Almasan A. **Distinct stages of cytochrome c release from mitochondria: evidence for a feedback amplification loop linking caspase activation to mitochondrial dysfunction in genotoxic stress induced apoptosis.** *Cell Death & Differentiation*. 2000;7:227–233. **DOI: 10.1038/sj.cdd.4400629**
+
+47. Seo J, Lee EW, Shin J, et al. **K6-linked polyubiquitylation of FADD by CHIP prevents death-inducing signaling complex formation suppressing cell death.** *Oncogene*. 2018;37:4994–5006. **DOI: 10.1038/s41388-018-0323-z**
+
+48. Fritsch M, Günther SD, Schwarzer R, et al. **Caspase-8 is the molecular switch for apoptosis, necroptosis and pyroptosis.** *Nature*. 2019;575:683–687. **DOI: 10.1038/s41586-019-1770-6**
+
+49. Orning P, Lien E. **Multiple roles of caspase-8 in cell death, inflammation, and innate immunity.** *Journal of Leukocyte Biology*. 2021;109:121–141. **DOI: 10.1002/JLB.3MR0420-305R**
+
+50. Nadendla EK, Tweedell RE, Kasof G, Kanneganti TD. **Caspases: structural and molecular mechanisms and functions in cell death, innate immunity, and disease.** *Cell Discovery*. 2025;11. **DOI: 10.1038/s41421-025-00791-3**
+
+51. Lorenzo HK, Susin SA, Penninger J, Kroemer G. **Apoptosis-inducing factor: a phylogenetically old, caspase-independent effector of cell death.** *Cell Death & Differentiation*. 1999;6:516–524. **DOI: 10.1038/sj.cdd.4400527**
+
+52. Norberg E, Orrenius S, Zhivotovsky B. **Mitochondrial regulation of cell death: processing of apoptosis-inducing factor.** *Biochemical and Biophysical Research Communications*. 2010;396:95–100. **DOI: 10.1016/j.bbrc.2010.02.163**
+
+53. Finucane DM, Bossy-Wetzel E, Waterhouse NJ, Cotter TG, Green DR. **Bax-induced Caspase Activation and Apoptosis via Cytochrome c Release from Mitochondria Is Inhibitable by Bcl-xL.** *Journal of Biological Chemistry*. 1999;274:2225–2233. **DOI: 10.1074/jbc.274.4.2225**

@@ -1,0 +1,91 @@
+1. Kumari R, Jat P. **Mechanisms of Cellular Senescence: Cell Cycle Arrest and Senescence Associated Secretory Phenotype.** *Frontiers in Cell and Developmental Biology*. 2021;9. **DOI: 10.3389/fcell.2021.645593**
+
+2. Roger L, Tomas F, Gire V. **Mechanisms and Regulation of Cellular Senescence.** *International Journal of Molecular Sciences*. 2021;22. **DOI: 10.3390/ijms222313173**
+
+3. Wang B, Han J, Elisseeff JH, Demaria M. **The senescence-associated secretory phenotype and its physiological and pathological implications.** *Nature Reviews Molecular Cell Biology*. 2024;25:958–978. **DOI: 10.1038/s41580-024-00727-x**
+
+4. Yuan J, Ofengeim D. **A guide to cell death pathways.** *Nature Reviews Molecular Cell Biology*. 2024;25:379–395. **DOI: 10.1038/s41580-023-00689-6**
+
+5. He R, Liu Y, Fu W, et al. **Mechanisms and cross-talk of regulated cell death and their epigenetic modifications in tumor progression.** *Molecular Cancer*. 2024;23. **DOI: 10.1186/s12943-024-02172-y**
+
+6. Huang Y, Xu W, Zhou R. **NLRP3 inflammasome activation and cell death.** *Cellular & Molecular Immunology*. 2021;18:2114–2127. **DOI: 10.1038/s41423-021-00740-6**
+
+7. Ben-Porath I, Weinberg RA. **The signals and pathways activating cellular senescence.** *International Journal of Biochemistry & Cell Biology*. 2005;37:961–976. **DOI: 10.1016/j.biocel.2004.10.013**
+
+8. Herbig U, Jobling WA, Chen BPC, Chen DJ, Sedivy JM. **Telomere shortening triggers senescence of human cells through a pathway involving ATM, p53, and p21CIP1, but not p16INK4a.** *Molecular Cell*. 2004;14:501–513. **DOI: 10.1016/S1097-2765(04)00256-4**
+
+9. Denchi EL, de Lange T. **Protection of telomeres through independent control of ATM and ATR by TRF2 and POT1.** *Nature*. 2007;448:1068–1071. **DOI: 10.1038/nature06065**
+
+10. von Zglinicki T, Saretzki G, Ladhoff J, d'Adda di Fagagna F, Jackson SP. **Human cell senescence as a DNA damage response.** *Mechanisms of Ageing and Development*. 2005;126:111–117. **DOI: 10.1016/j.mad.2004.09.034**
+
+11. Maréchal A, Zou L. **DNA damage sensing by the ATM and ATR kinases.** *Cold Spring Harbor Perspectives in Biology*. 2013;5. **DOI: 10.1101/cshperspect.a012716**
+
+12. Barnes RP, De Rosa M, Thosar SA, et al. **Telomeric 8-oxo-guanine drives rapid premature senescence in the absence of telomere shortening.** *Nature Structural & Molecular Biology*. 2022;29:639–652. **DOI: 10.1038/s41594-022-00790-y**
+
+13. Kandhaya-Pillai R, Miró-Mur F, Alijotas-Reig J, et al. **Key elements of cellular senescence involve transcriptional repression of mitotic and DNA repair genes through the p53-p16/RB-E2F-DREAM complex.** *Aging*. 2023;15:4012–4034. **DOI: 10.18632/aging.204743**
+
+14. Rayess H, Wang MB, Srivatsan ES. **Cellular senescence and tumor suppressor gene p16.** *International Journal of Cancer*. 2012;130:1715–1725. **DOI: 10.1002/ijc.27316**
+
+15. Zhu J, Woods D, McMahon M, Bishop JM. **Senescence of human fibroblasts induced by oncogenic Raf.** *Genes & Development*. 1998;12:2997–3007. **DOI: 10.1101/gad.12.19.2997**
+
+16. Courtois-Cox S, Williams SMG, Reczek EE, et al. **A negative feedback signaling network underlies oncogene-induced senescence.** *Cancer Cell*. 2006;10:459–472. **DOI: 10.1016/j.ccr.2006.10.003**
+
+17. Cisowski J, Sayin VI, Liu M, Karlsson C, Bergo MO. **Oncogene-induced senescence underlies the mutual exclusive nature of oncogenic KRAS and BRAF.** *Oncogene*. 2016;35:1328–1333. **DOI: 10.1038/onc.2015.186**
+
+18. Chapman J, Fielder E, Passos JF. **Mitochondrial dysfunction and cell senescence: deciphering a complex relationship.** *FEBS Letters*. 2019;593. **DOI: 10.1002/1873-3468.13498**
+
+19. Miwa S, Kashyap S, Chini E, von Zglinicki T. **Mitochondrial dysfunction in cell senescence and aging.** *Journal of Clinical Investigation*. 2022;132. **DOI: 10.1172/JCI158447**
+
+20. Yamauchi S, Sugiura Y, Yamaguchi J, et al. **Mitochondrial fatty acid oxidation drives senescence.** *Science Advances*. 2024;10. **DOI: 10.1126/sciadv.ado5887**
+
+21. Kang HT, Lee KB, Kim SY, Choi HR, Park SC. **Autophagy Impairment Induces Premature Senescence in Primary Human Fibroblasts.** *PLoS ONE*. 2011;6. **DOI: 10.1371/journal.pone.0023367**
+
+22. Tai H, Wang Z, Gong H, et al. **Autophagy impairment with lysosomal and mitochondrial dysfunction is an important characteristic of oxidative stress-induced senescence.** *Autophagy*. 2017;13. **DOI: 10.1080/15548627.2016.1247143**
+
+23. Zhang R, Chen W, Adams PD. **Molecular Dissection of Formation of Senescence-Associated Heterochromatin Foci.** *Molecular and Cellular Biology*. 2007;27:2343–2358. **DOI: 10.1128/MCB.02019-06**
+
+24. Zhang R, Poustovoitov MV, Ye X, et al. **Formation of MacroH2A-containing senescence-associated heterochromatin foci and senescence driven by ASF1a and HIRA.** *Developmental Cell*. 2005;8:19–30. **DOI: 10.1016/j.devcel.2004.10.019**
+
+25. Banumathy G, Somaiah N, Zhang R, et al. **Human UBN1 Is an Ortholog of Yeast Hpc2p and Has an Essential Role in the HIRA/ASF1a Chromatin-Remodeling Pathway in Senescent Cells.** *Molecular and Cellular Biology*. 2009;29:758–770. **DOI: 10.1128/MCB.01047-08**
+
+26. Olan I, Handa T, Narita M. **Beyond SAHF: An integrative view of chromatin compartmentalization during senescence.** *Current Opinion in Cell Biology*. 2023;83:102206. **DOI: 10.1016/j.ceb.2023.102206**
+
+27. Zhang X, Liu X, Du Z, et al. **The loss of heterochromatin is associated with multiscale three-dimensional genome reorganization and aberrant transcription during cellular senescence.** *Genome Research*. 2021;31:1121–1135. **DOI: 10.1101/gr.275235.121**
+
+28. Afifi M, Crncec A, Cornwell J, et al. **Irreversible cell cycle exit associated with senescence is mediated by constitutive MYC degradation.** *Cell Reports*. 2023;42:113079. **DOI: 10.1016/j.celrep.2023.113079**
+
+29. Lossaint G, Horvat A, Gire V, et al. **Reciprocal regulation of p21 and Chk1 controls the Cyclin D1-RB pathway to mediate senescence onset after G2 arrest.** *Journal of Cell Science*. 2022. **DOI: 10.1242/jcs.259114**
+
+30. Yang H, Wang H, Ren J, Chen Q, Chen ZJ. **cGAS is essential for cellular senescence.** *Proceedings of the National Academy of Sciences USA*. 2017;114:E4612–E4620. **DOI: 10.1073/pnas.1705499114**
+
+31. Glück S, Guey B, Gulen MF, et al. **Innate immune sensing of cytosolic chromatin fragments through cGAS promotes senescence.** *Nature Cell Biology*. 2017;19:1061–1070. **DOI: 10.1038/ncb3586**
+
+32. Dou Z, Ghosh K, Vizioli MG, et al. **Cytoplasmic chromatin triggers inflammation in senescence and cancer.** *Nature*. 2017;550:402–406. **DOI: 10.1038/nature24050**
+
+33. Hao X, Zhao B, Towers M, et al. **TXNRD1 drives innate immune response in senescent cells with implications in age-associated inflammation.** *Nature Aging*. 2024;4:185–197. **DOI: 10.1038/s43587-023-00564-1**
+
+34. Laberge RM, Sun Y, Orjalo AV, et al. **MTOR regulates the pro-tumorigenic senescence-associated secretory phenotype by promoting IL1A translation.** *Nature Cell Biology*. 2015;17:1049–1061. **DOI: 10.1038/ncb3195**
+
+35. Salminen A, Kauppinen A, Kaarniranta K. **Emerging role of NF-κB signaling in the induction of senescence-associated secretory phenotype.** *Cellular Signalling*. 2012;24:835–845. **DOI: 10.1016/j.cellsig.2011.12.006**
+
+36. Lopes-Paciencia S, Saint-Germain E, Rowell MC, Fernández-Ruiz A, Kalegari P, Ferbeyre G. **The senescence-associated secretory phenotype and its regulation.** *Cytokine*. 2019;117:15–22. **DOI: 10.1016/j.cyto.2019.01.013**
+
+37. Herbstein F, Sapochnik M, Attorresi A, et al. **The SASP factor IL-6 sustains cell-autonomous senescent cells via a cGAS-STING-NFκB intracrine senescent noncanonical pathway.** *Aging Cell*. 2024;23. **DOI: 10.1111/acel.14258**
+
+38. Chou L, Ho CT, Hung SC. **Paracrine Senescence of Mesenchymal Stromal Cells Involves Inflammatory Cytokines and the NF-κB Pathway.** *Cells*. 2022;11. **DOI: 10.3390/cells11203324**
+
+39. Song S, Shim W, Hwang ES. **Lipofuscin Granule Accumulation Requires Autophagy Activation.** *Molecules and Cells*. 2023;46:486–495. **DOI: 10.14348/molcells.2023.0019**
+
+40. Billimoria R, Bhatt P. **Senescence in Cancer: Advances in Detection and Treatment Modalities.** *Biochemical Pharmacology*. 2023. **DOI: 10.1016/j.bcp.2023.115739**
+
+41. Zhu Y, Tchkonia T, Fuhrmann-Stroissnigg H, et al. **Identification of a novel senolytic agent, navitoclax, targeting the Bcl-2 family of anti-apoptotic factors.** *Aging Cell*. 2016;15:428–435. **DOI: 10.1111/acel.12445**
+
+42. Saleh T, Carpenter VJ, Tyutyunyk-Massey L, et al. **Clearance of therapy-induced senescent tumor cells by the senolytic ABT-263 via interference with BCL-XL–BAX interaction.** *Molecular Oncology*. 2020;14:2504–2519. **DOI: 10.1002/1878-0261.12761**
+
+43. Jia Y, Han L, Ramage CL, et al. **Co-targeting BCL-XL and BCL-2 by PROTAC 753B eliminates leukemia cells and enhances efficacy of chemotherapy by targeting senescent cells.** *Haematologica*. 2023;108:2626–2638. **DOI: 10.3324/haematol.2022.281915**
+
+44. MacDonald JA, Bradshaw GA, Jochems F, Bernards R, Letai A. **Apoptotic priming in senescence predicts specific senolysis by quantitative analysis of mitochondrial dependencies.** *Cell Death & Differentiation*. 2025;32:802–817. **DOI: 10.1038/s41418-024-01431-1**
+
+45. Baldensperger T, Jung T, Heinze T, Schwerdtle T, Höhn A, Grune T. **The age pigment lipofuscin causes oxidative stress, lysosomal dysfunction, and pyroptotic cell death.** *Free Radical Biology and Medicine*. 2024. **DOI: 10.1016/j.freeradbiomed.2024.10.311**
+
+46. Li J, Wang X, Yao Z, et al. **NLRP3-Dependent Crosstalk between Pyroptotic Macrophage and Senescent Cell Orchestrates Trauma-Induced Heterotopic Ossification During Aberrant Wound Healing.** *Advanced Science*. 2023;10. **DOI: 10.1002/advs.202207383**
