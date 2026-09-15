@@ -1,0 +1,11 @@
+## Apoptosis — Mechanistic Pathway
+
+Apoptosis is a canonical form of regulated cell death in which the cell is dismantled through a coordinated proteolytic program driven mainly by caspases. It proceeds through two interconnected pathways: the extrinsic pathway, initiated by death receptors, and the intrinsic mitochondrial pathway, activated by intracellular stress. Both converge on executioner caspases-3 and -7.
+
+In the extrinsic pathway, ligands such as FasL or TRAIL bind death receptors, promoting receptor clustering and recruitment of FADD. FADD recruits procaspase-8 to form the death-inducing signaling complex (DISC), where caspase-8 becomes activated. Caspase-8 can directly activate caspase-3/7 or cleave BID into tBID, thereby engaging mitochondrial apoptosis through BAX and BAK.
+
+The intrinsic pathway is triggered by stresses such as DNA damage, oxidative stress, growth-factor withdrawal, ER stress, or metabolic stress. These signals activate BH3-only proteins, including PUMA, NOXA, BIM, and BID, which neutralize anti-apoptotic BCL-2, BCL-xL, and MCL-1 and promote BAX/BAK oligomerization. This causes mitochondrial outer membrane permeabilization (MOMP) and release of cytochrome c, SMAC/DIABLO, and other mitochondrial proteins. Cytochrome c binds APAF1 to assemble the apoptosome, activating caspase-9 and subsequently caspase-3/7.
+
+Executioner caspases then cleave numerous substrates, including ICAD, PARP, lamins, cytoskeletal proteins, and ROCK1. These events produce DNA fragmentation, chromatin condensation, cell shrinkage, membrane blebbing, and apoptotic-body formation. Phosphatidylserine exposure facilitates phagocytic clearance while the plasma membrane generally remains intact during most of the process.
+
+Thus, apoptosis is fundamentally a caspase-driven cellular demolition program, with MOMP representing the major commitment checkpoint of the intrinsic pathway and caspase-3/7 serving as the principal executioners.

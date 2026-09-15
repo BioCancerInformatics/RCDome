@@ -1,0 +1,67 @@
+1. Dixon SJ, Lemberg KM, Lamprecht MR, et al. **Ferroptosis: an iron-dependent form of nonapoptotic cell death.** *Cell*. 2012;149:1060–1072. **DOI: 10.1016/j.cell.2012.03.042**
+
+2. Stockwell BR, Friedmann Angeli JP, Bayır H, et al. **Ferroptosis: A Regulated Cell Death Nexus Linking Metabolism, Redox Biology, and Disease.** *Cell*. 2017;171:273–285. **DOI: 10.1016/j.cell.2017.09.021**
+
+3. Jiang X, Stockwell BR, Conrad M. **Ferroptosis: mechanisms, biology and role in disease.** *Nature Reviews Molecular Cell Biology*. 2021;22:266–282. **DOI: 10.1038/s41580-020-00324-8**
+
+4. Stockwell BR. **Ferroptosis turns 10: Emerging Mechanisms, Physiological Functions, and Therapeutic Applications.** *Cell*. 2022;185:2401–2421. **DOI: 10.1016/j.cell.2022.06.003**
+
+5. Chen X, Li J, Kang R, Klionsky DJ, Tang D. **Ferroptosis: machinery and regulation.** *Autophagy*. 2021;17:2054–2081. **DOI: 10.1080/15548627.2020.1810918**
+
+6. Dixon SJ, Olzmann JA. **The cell biology of ferroptosis.** *Nature Reviews Molecular Cell Biology*. 2024;25:424–442. **DOI: 10.1038/s41580-024-00703-5**
+
+7. Li FJ, Long HZ, Zhou ZW, Luo HY, Xu SG, Gao LC. **System Xc−/GSH/GPX4 axis: An important antioxidant system for the ferroptosis in drug-resistant solid tumor therapy.** *Frontiers in Pharmacology*. 2022;13. **DOI: 10.3389/fphar.2022.910292**
+
+8. Friedmann Angeli JP, Schneider M, Proneth B, et al. **Inactivation of the ferroptosis regulator Gpx4 triggers acute renal failure in mice.** *Nature Cell Biology*. 2014;16:1180–1191. **DOI: 10.1038/ncb3064**
+
+9. Ingold I, Berndt C, Schmitt S, et al. **Selenium Utilization by GPX4 Is Required to Prevent Hydroperoxide-Induced Ferroptosis.** *Cell*. 2018;172:409–422.e21. **DOI: 10.1016/j.cell.2017.11.048**
+
+10. Ursini F, Maiorino M. **Lipid peroxidation and ferroptosis: The role of GSH and GPx4.** *Free Radical Biology and Medicine*. 2020. **DOI: 10.1016/j.freeradbiomed.2020.02.027**
+
+11. Zhang Y, Swanda RV, Nie L, et al. **mTORC1 couples cyst(e)ine availability with GPX4 protein synthesis and ferroptosis regulation.** *Nature Communications*. 2021;12. **DOI: 10.1038/s41467-021-21841-w**
+
+12. Liang D, Minikes AM, Jiang X. **Ferroptosis at the intersection of lipid metabolism and cellular signaling.** *Molecular Cell*. 2022;82:2215–2227. **DOI: 10.1016/j.molcel.2022.03.022**
+
+13. Cui J, Wang Y, Tian X, et al. **LPCAT3 Is Transcriptionally Regulated by YAP/ZEB/EP300 and Collaborates with ACSL4 and YAP to Determine Ferroptosis Sensitivity.** *Antioxidants & Redox Signaling*. 2023;39:491–511. **DOI: 10.1089/ars.2023.0237**
+
+14. Liu J, Kang R, Tang D. **Signaling pathways and defense mechanisms of ferroptosis.** *The FEBS Journal*. 2022;289. **DOI: 10.1111/febs.16059**
+
+15. Gao M, Monian P, Pan Q, Zhang W, Xiang J, Jiang X. **Ferroptosis is an autophagic cell death process.** *Cell Research*. 2016;26:1021–1032. **DOI: 10.1038/cr.2016.95**
+
+16. Jiang L, Kon N, Li T, et al. **Ferroptosis as a p53-mediated activity during tumour suppression.** *Nature*. 2015;520:57–62. **DOI: 10.1038/nature14344**
+
+17. Wang SJ, Li D, Ou Y, et al. **Acetylation Is Crucial for p53-mediated Ferroptosis and Tumor Suppression.** *Cell Reports*. 2016;17:366–373. **DOI: 10.1016/j.celrep.2016.09.022**
+
+18. Chu B, Kon N, Chen D, et al. **ALOX12 is required for p53-mediated tumor suppression through a distinct ferroptosis pathway.** *Nature Cell Biology*. 2019;21:579–591. **DOI: 10.1038/s41556-019-0305-6**
+
+19. Bersuker K, Hendricks JM, Li Z, et al. **The CoQ oxidoreductase FSP1 acts in parallel to GPX4 to inhibit ferroptosis.** *Nature*. 2019;575:688–692. **DOI: 10.1038/s41586-019-1705-2**
+
+20. Doll S, Freitas FP, Shah R, et al. **FSP1 is a glutathione-independent ferroptosis suppressor.** *Nature*. 2019;575:693–698. **DOI: 10.1038/s41586-019-1707-0**
+
+21. Mao C, Liu X, Zhang Y, et al. **DHODH-mediated ferroptosis defense is a targetable vulnerability in cancer.** *Nature*. 2021;593:586–590. **DOI: 10.1038/s41586-021-03539-7**
+
+22. Anandhan A, Dodson M, Shakya A, et al. **NRF2 controls iron homeostasis and ferroptosis through HERC2 and VAMP8.** *Science Advances*. 2023;9. **DOI: 10.1126/sciadv.ade9585**
+
+23. Koppula P, Lei G, Zhang Y, et al. **A targetable CoQ-FSP1 axis drives ferroptosis- and radiation-resistance in KEAP1 inactive lung cancers.** *Nature Communications*. 2022;13. **DOI: 10.1038/s41467-022-29905-1**
+
+24. Pope LE, Dixon SJ. **Regulation of Ferroptosis by Lipid Metabolism.** *Trends in Cell Biology*. 2023;33:1077–1087. **DOI: 10.1016/j.tcb.2023.05.003**
+
+25. Pedrera L, Espiritu RA, Ros U, et al. **Ferroptotic pores induce Ca2+ fluxes and ESCRT-III activation to modulate cell death kinetics.** *Cell Death & Differentiation*. 2021;28:1644–1657. **DOI: 10.1038/s41418-020-00691-x**
+
+26. Dai E, Meng L, Kang R, Wang X, Tang D. **ESCRT-III–Dependent Membrane Repair Blocks Ferroptosis.** *Biochemical and Biophysical Research Communications*. 2020;522:415–421. **DOI: 10.1016/j.bbrc.2019.11.110**
+
+27. Riegman M, Sagie L, Galed C, et al. **Ferroptosis occurs through an osmotic mechanism and propagates independently of cell rupture.** *Nature Cell Biology*. 2020;22:1042–1048. **DOI: 10.1038/s41556-020-0565-1**
+
+28. Ramos S, Hartenian E, Santos JC, Walch P, Broz P. **NINJ1 induces plasma membrane rupture and release of damage-associated molecular pattern molecules during ferroptosis.** *The EMBO Journal*. 2024;43. **DOI: 10.1038/s44318-024-00055-y**
+
+29. Xie Y, Hou W, Song X, et al. **Ferroptosis: process and function.** *Cell Death & Differentiation*. 2016;23:369–379. **DOI: 10.1038/cdd.2015.158**
+
+30. Gan B. **Mitochondrial regulation of ferroptosis.** *The Journal of Cell Biology*. 2021;220. **DOI: 10.1083/jcb.202105043**
+
+31. Müller T, Dewitz C, Schmitz J, et al. **Necroptosis and ferroptosis are alternative cell death pathways that operate in acute kidney failure.** *Cellular and Molecular Life Sciences*. 2017;74:3631–3645. **DOI: 10.1007/s00018-017-2547-4**
+
+32. Rühl S, Shkarina K, Demarco B, Heilig R, Santos JC, Brož P. **ESCRT-dependent membrane repair negatively regulates pyroptosis downstream of GSDMD activation.** *Science*. 2018;362:956–960. **DOI: 10.1126/science.aar7607**
+
+33. Wiernicki B, Dubois H, Tyurina YY, et al. **Excessive phospholipid peroxidation distinguishes ferroptosis from other cell death modes including pyroptosis.** *Cell Death & Disease*. 2020;11. **DOI: 10.1038/s41419-020-03118-0**
+
+34. Lei G, Li Z, Gan B. **Targeting ferroptosis as a vulnerability in cancer.** *Nature Reviews Cancer*. 2022;22:381–396. **DOI: 10.1038/s41568-022-00459-0**

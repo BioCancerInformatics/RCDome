@@ -1,0 +1,48 @@
+1. Song X, Zhu S, Xie Y, et al. **JTC801 Induces pH-dependent Death Specifically in Cancer Cells and Slows Growth of Tumors in Mice.** *Gastroenterology*. 2018;154:1480–1493. **DOI: 10.1053/j.gastro.2017.12.004**
+
+2. Tang D, Kang R, Berghe TV, Vandenabeele P, Kroemer G. **The molecular machinery of regulated cell death.** *Cell Research*. 2019;29:347–364. **DOI: 10.1038/s41422-019-0164-5**
+
+3. Chen F, Kang R, Liu J, Tang D. **Mechanisms of alkaliptosis.** *Frontiers in Cell and Developmental Biology*. 2023;11:1213995. **DOI: 10.3389/fcell.2023.1213995**
+
+4. Chen F, Zhu S, Kang R, Tang D, Liu J. **ATP6V0D1 promotes alkaliptosis by blocking STAT3-mediated lysosomal pH homeostasis.** *Cell Reports*. 2023;42:111911. **DOI: 10.1016/j.celrep.2022.111911**
+
+5. Liu B, Palmfeldt J, Lin L, et al. **STAT3 associates with vacuolar H+-ATPase and regulates cytosolic and lysosomal pH.** *Cell Research*. 2018;28:996–1012. **DOI: 10.1038/s41422-018-0080-0**
+
+6. Que D, Kuang F, Kang R, Tang D, Liu J. **ACSS2-mediated NF-κB activation promotes alkaliptosis in human pancreatic cancer cells.** *Scientific Reports*. 2023;13. **DOI: 10.1038/s41598-023-28261-4**
+
+7. Cai X, Chen F, Tang H, et al. **ITCH inhibits alkaliptosis in human pancreatic cancer cells through YAP1-dependent SLC16A1 activation.** *International Journal of Biochemistry & Cell Biology*. 2024:106646. **DOI: 10.1016/j.biocel.2024.106646**
+
+8. Chen F, Tang H, Lin J, et al. **Macropinocytosis inhibits alkaliptosis in pancreatic cancer cells through fatty acid uptake.** *Carcinogenesis*. 2024. **DOI: 10.1093/carcin/bgae045**
+
+9. Chen F, Tang H, Li C, et al. **CYP51A1 drives resistance to pH-dependent cell death in pancreatic cancer.** *Nature Communications*. 2025;16. **DOI: 10.1038/s41467-025-57583-2**
+
+10. Fang X, Dai E, Bai L, et al. **The HMGB1-AGER-STING1 pathway mediates the sterile inflammatory response to alkaliptosis.** *Biochemical and Biophysical Research Communications*. 2021;560:165–171. **DOI: 10.1016/j.bbrc.2021.05.003**
+
+11. Guo J, Mai FY, Li XY, et al. **Establishment of RpHluorin2-expressing cell and its application in monitoring JTC-801-induced alkaliptosis via multi-dimensional fluorescence detection approaches.** *Frontiers in Cell and Developmental Biology*. 2025;13. **DOI: 10.3389/fcell.2025.1727740**
+
+12. Chen F, Kang R, Liu J, Tang D. **Methodologies for monitoring alkaliptosis in cancer cells.** *Methods in Cell Biology*. 2026;205:107–124. **DOI: 10.1016/bs.mcb.2026.01.011**
+
+13. Chen F, Cai X, Zhou Q, et al. **Compartmental pH regulation in cancer and antitumor immunity: therapeutic opportunities and challenges.** *Apoptosis*. 2026;31. **DOI: 10.1007/s10495-026-02408-w**
+
+14. Liu J, Kuang F, Kang R, Tang D. **Alkaliptosis: a new weapon for cancer therapy.** *Cancer Gene Therapy*. 2020;27:267–269. **DOI: 10.1038/s41417-019-0134-6**
+
+15. Bartoszewska E, Florek K, Zagórski K, et al. **Methuosis, Alkaliptosis, and Oxeiptosis and Their Significance in Anticancer Therapy.** *Cells*. 2024;13:2095. **DOI: 10.3390/cells13242095**
+
+16. Jin X, Jin W, Tong L, Zhao J, Zhang L, Lin N. **Therapeutic strategies of targeting non-apoptotic regulated cell death with small-molecule compounds in cancer.** *Acta Pharmaceutica Sinica B*. 2024;14:2815–2853. **DOI: 10.1016/j.apsb.2024.04.020**
+
+17. Zhu S, Liu J, Kang R, Yang M, Tang D. **Targeting NF-κB-dependent alkaliptosis for the treatment of venetoclax-resistant acute myeloid leukemia cells.** *Biochemical and Biophysical Research Communications*. 2021;562:55–61. **DOI: 10.1016/j.bbrc.2021.05.049**
+
+18. Chen F, Lin J, Kang R, Tang D, Liu J. **Alkaliptosis induction counteracts paclitaxel-resistant ovarian cancer cells via ATP6V0D1-mediated ABCB1 inhibition.** *Molecular Carcinogenesis*. 2024;63:1515–1527. **DOI: 10.1002/mc.23741**
+
+19. Li Y, Li C. **ZACN Associated with Poor Prognosis Promotes Proliferation of Kidney Renal Clear Cell Carcinoma Cells by Inhibiting JTC801-Induced Alkaliptosis.** *Applied Biochemistry and Biotechnology*. 2025;197:3346–3362. **DOI: 10.1007/s12010-025-05197-1**
+
+20. Dondelinger Y, Priem D, Huyghe J, Delanghe T, Vandenabeele P, Bertrand MJM. **NINJ1 is activated by cell swelling to regulate plasma membrane permeabilization during regulated necrosis.** *Cell Death & Disease*. 2023;14. **DOI: 10.1038/s41419-023-06284-z**
+
+21. Ying C, Jin C, Zeng S, Chao M, Hu X. **Alkalization of cellular pH leads to cancer cell death by disrupting autophagy and mitochondrial function.** *Oncogene*. 2022;41:3886–3897. **DOI: 10.1038/s41388-022-02396-6**
+
+22. Ying C, Wang D, Zeng S, Jin C, Ying M, Hu X. **Alkalization of the intracellular pH reprograms TNF-α signaling from inflammatory NF-κB activation to tumoricidal RIP kinase-dependent necroptosis in cancer cells.** *Acta Pharmacologica Sinica*. 2026;47:2240–2253. **DOI: 10.1038/s41401-026-01786-w**
+
+23. Galenkamp KMO, Sosicka P, Jung M, et al. **Golgi Acidification by NHE7 Regulates Cytosolic pH Homeostasis in Pancreatic Cancer Cells.** *Cancer Discovery*. 2020;10:822–835. **DOI: 10.1158/2159-8290.CD-19-1007**
+
+24. Galenkamp KMO, Commisso C. **The Golgi as a “Proton Sink” in Cancer.** *Frontiers in Cell and Developmental Biology*. 2021;9:664295. **DOI: 10.3389/fcell.2021.664295**
+

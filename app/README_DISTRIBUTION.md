@@ -1,0 +1,46 @@
+# RCDome — Collaborator Distribution (copy-only, intentional files only)
+
+This folder reproduces the **live** RCDome Shiny app (the 9 visible tabs), assembled by **copying** from the developer's reference app. The developer's original app was **not** modified. Vestigial signatures/omics/papers/bodymap leftovers are excluded.
+
+## 1. What you received
+
+- `ui.R`, `server.R`, `global.R`, `run.R` — Shiny entry points
+- `R/` — helpers (utils, pathways, rcd_modal + legacy helpers kept because global.R sources them)
+- `modules/` — all 13 module files (only 6 are live; the rest are sourced but unrendered)
+- `www/` — landing, explore, detail, logos, JS
+- `board/` — Digital Molecular Board (DeepSeek) prompt, governance, benchmarks
+- `data/` — matrix, decoder, HGNC set, RCD modulo (logos/figures/videos/descriptions/references), about (photos/data-sources/see-also), omic (3 lazy sub-tab tables)
+
+## 2. Already configured — just run
+
+The DeepSeek API key is already present in `.Renviron`, and the email credentials in `data/email_creds.txt`, so the app runs immediately after unzipping. To use your own key instead, edit `.Renviron` (a template is kept at `.Renviron.example`).
+
+## 3. R packages
+
+```r
+install.packages(c("shiny","readxl","dplyr","DT","httr","jsonlite","visNetwork",
+                   "shinycssloaders","shinyjs","emayili","tidyr","plotly","magick"))
+```
+
+## 4. Run
+
+```r
+setwd(".../RCDome_distribution")
+shiny::runApp(appDir = ".", port = 8890, launch.browser = TRUE)
+```
+
+## 5. What was excluded (vestigial files)
+
+| Excluded | Why |
+|---|---|
+| `data/signatures.tsv/cache` | old signatures app (network only used it for an optional "nomenclature" search) |
+| `data/papers/`, `data/disease_terms.tsv`, `www/bodymap/` | dead modules (paper manifest / body map — no UI) |
+| `data/gene.xlsx`, `genes_simplificado…`, `data/logo.png`, `www/video_logo.mp4`, `pmid_title_lookup.*` | not referenced by the live app |
+| `data/omic/` legacy (gene.xlsx, gene_with_ncbi_info.csv, genes_df_cache.rds) | not referenced; only the 3 lazy sub-tab xlsx are kept |
+| old `*.zip`, `.Rhistory`, `_archive_preV024`, `CHANGELOG_*.docx` | non-runtime |
+
+## 6. Traceability
+
+- Reference: `Shiny app/RCDome_Atlas/APP` (untouched).
+- Audit: `Shiny app/Emanuell versions/RCDome_App_LineByLine_INTENTIONAL_vs_VESTIGIAL.md`.
+- ZIP: `RCDome_V026_distribution.zip`.

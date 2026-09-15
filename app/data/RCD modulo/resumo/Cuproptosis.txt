@@ -1,0 +1,11 @@
+## Cuproptosis — Mechanistic Pathway
+
+Cuproptosis is a copper-dependent, mitochondria-centered form of regulated cell death in which excessive bioavailable copper targets the lipoylated mitochondrial metabolic proteome. Its defining features are FDX1 dependence, functional protein lipoylation, aggregation of lipoylated mitochondrial enzymes, destabilization of iron–sulfur proteins, and progressive mitochondrial proteotoxic stress.
+
+The pathway begins with increased intracellular and mitochondrial copper availability, which can result from altered copper transport, impaired export, or copper ionophores such as elesclomol. FDX1 acts as a central metabolic determinant by supporting both the appropriate copper redox state and the mitochondrial lipoylation machinery. Proteins such as LIAS and LIPT1 maintain lipoylation of mitochondrial targets, particularly DLAT and DLST.
+
+Cu⁺ directly interacts with lipoylated DLAT, DLST, and related proteins, promoting abnormal oligomerization and insoluble aggregation. In parallel, Fe–S-containing proteins become destabilized. These two lesions disrupt mitochondrial proteostasis, TCA-cycle-associated metabolism, electron transfer, and respiratory function. Cells that strongly depend on oxidative phosphorylation are therefore generally more susceptible, whereas glycolytic reprogramming can confer resistance.
+
+Copper export through ATP7A/ATP7B and glutathione-mediated copper buffering act as protective mechanisms, while GSH depletion can enhance cuproptosis by increasing bioavailable copper.
+
+Thus, cuproptosis is best understood as FDX1- and lipoylation-dependent copper poisoning of the mitochondrial proteome. The terminal mechanism remains incompletely resolved, but current evidence supports a transition from lipoylated-protein aggregation and Fe–S destabilization to irreversible mitochondrial proteostatic and bioenergetic collapse. No dedicated pore-forming or proteolytic executor has yet been identified.

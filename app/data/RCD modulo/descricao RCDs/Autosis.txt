@@ -1,0 +1,175 @@
+## Autosis — Mechanistic Pathway
+
+Autosis is a specialized form of autophagy-dependent, non-apoptotic regulated cell death characterized by a causal requirement for the core autophagy machinery and for Na+,K+-ATPase activity. It was originally identified in mammalian cells exposed to strong autophagy-inducing conditions, including starvation, autophagy-inducing Beclin 1-derived peptides, and hypoxia–ischemia, and was distinguished from conventional apoptosis and necroptosis through genetic and pharmacological rescue experiments [1,2]. Autosis should therefore not be defined simply by the presence of autophagosomes, LC3 accumulation, extensive cytoplasmic vacuolization, or lysosomal activity. Its defining mechanistic features are that autophagic machinery contributes causally to death and that inhibition of Na+,K+-ATPase can prevent or markedly reduce the lethal phenotype [1–6].
+
+Autosis is best considered a mechanistically distinct subtype within the broader category of autophagy-dependent cell death rather than a completely independent autophagy-unrelated death program. This distinction is important because macroautophagy normally performs a cytoprotective function by recycling cytoplasmic material, eliminating damaged organelles, and sustaining metabolism during nutrient or energetic stress. In autosis, however, a normally adaptive autophagic response becomes coupled to a Na+,K+-ATPase-dependent membrane-remodeling process that ultimately becomes incompatible with cellular survival [1–6].
+
+Unlike apoptosis, autosis is not defined by activation of executioner caspases. Unlike necroptosis, it does not require RIPK3-dependent MLKL activation. Unlike pyroptosis, no gasdermin pore-forming executor has been identified. Likewise, the available evidence does not define ferroptotic phospholipid peroxidation as its central lethal chemistry [1–4,7]. Instead, the current model places excessive or dysregulated autophagic activity upstream of a progressive failure of intracellular membrane homeostasis, particularly involving the endoplasmic reticulum and nuclear envelope, with Na+,K+-ATPase and its interaction with Beclin 1 representing the most specific molecular connection to the death process.
+
+Autosis also displays a highly characteristic ultrastructural phenotype. Early cells contain abundant autophagosomes and autolysosomes, increased substrate adhesion, nuclear convolution, and alterations of the endoplasmic reticulum. A particularly distinctive intermediate event is focal separation of the inner and outer nuclear membranes, resulting in localized swelling of the perinuclear space. During advanced autosis, this region can develop into a large empty balloon-like structure accompanied by disappearance or degeneration of intracellular organelles and eventual loss of plasma-membrane integrity [1–5].
+
+These morphological features are diagnostically useful but are not sufficient on their own. The mechanistic classification of autosis requires demonstration that blocking autophagy or Na+,K+-ATPase protects the cells. This causal criterion prevents ordinary adaptive autophagy, blocked autophagic flux, or autophagosome accumulation secondary to another form of cell death from being misclassified as autosis.
+
+The initiating conditions capable of producing autosis are heterogeneous but share the ability to generate strong or maladaptive activation of autophagy. The best-established triggers include prolonged nutrient deprivation, Tat-Beclin 1 or related autophagy-inducing peptides, hypoxia–ischemia, and ischemia–reperfusion injury [1–6]. Additional experimental contexts have been reported, including selected cancer therapies, HIV-infected macrophages, and severe cellular stress, but the exact upstream signaling route depends substantially on the inducing condition.
+
+During starvation-induced autosis, nutrient deprivation is first interpreted by the nutrient-sensing machinery controlling mTORC1 and the ULK autophagy-initiation complex. Under nutrient-rich conditions, active mTORC1 suppresses autophagy by phosphorylating components of the ULK machinery. Nutrient withdrawal reduces this inhibitory signal and permits activation of the ULK1–ATG13–FIP200–ATG101 complex [8–10].
+
+Activated ULK1 then stimulates the autophagy-specific class III phosphatidylinositol 3-kinase complex I. This complex contains VPS34/PIK3C3, VPS15/PIK3R4, Beclin 1/BECN1, ATG14L and additional regulatory proteins. ULK1 phosphorylates ATG14 and Beclin 1, thereby promoting VPS34 activity and generation of phosphatidylinositol-3-phosphate, or PI3P, at sites of autophagosome nucleation [8–11].
+
+One experimentally characterized phosphorylation event occurs at Beclin 1 Ser30. ULK1-dependent phosphorylation of this residue promotes activation of the ATG14-containing VPS34 complex and stimulates autophagy [10]. This mechanism is engaged not only after nutrient deprivation but also in conditions including hypoxia, glutamine deprivation and mTORC1 inhibition.
+
+Additional kinases can converge on Beclin 1 during stress. During amino-acid starvation, MAPKAPK2 and MAPKAPK3 phosphorylate Beclin 1 at Ser90 and promote starvation-induced autophagy [12]. Thus, stress-activated MAPK signaling can reinforce the autophagic response independently of the canonical ULK phosphorylation sites.
+
+DAPK provides another regulatory route. DAPK phosphorylates Beclin 1 at Thr119 within its BH3 domain. This modification weakens the interaction between Beclin 1 and anti-autophagic BCL-xL, releasing Beclin 1 from inhibitory sequestration and facilitating activation of the autophagy machinery [13].
+
+Hypoxia and glutamine deprivation can additionally couple metabolic signaling to Beclin 1 through phosphoglycerate kinase 1. Under these conditions, PGK1 can phosphorylate Beclin 1 at Ser30 and increase activity of the ATG14L-containing VPS34 complex [14]. Thus, several independent stress pathways converge mechanistically on Beclin 1 and VPS34 to increase autophagosome biogenesis.
+
+The VPS34 complex is therefore one of the principal biochemical engines driving the upstream autophagic arm of autosis. VPS34 phosphorylates phosphatidylinositol within ER-associated membrane domains, creating PI3P-rich sites that recruit autophagy effectors and support formation of the phagophore [15–17].
+
+Beclin 1 operates as a central scaffold within this machinery. Its molecular partners determine which class III PI3K complex is formed and what function the complex performs. Interaction with ATG14 favors the autophagy-initiation complex, whereas association with UVRAG contributes to other autophagy and membrane-trafficking functions [18,19].
+
+After PI3P generation, canonical downstream autophagy machinery expands and closes the phagophore. This includes recruitment of WIPI proteins and activation of the ATG12–ATG5–ATG16L1 and LC3/GABARAP conjugation systems. LC3-family proteins become conjugated to phosphatidylethanolamine on autophagic membranes, supporting membrane expansion, cargo recruitment and eventual formation of mature double-membrane autophagosomes.
+
+These early events are not specific to autosis. They also occur during ordinary cytoprotective autophagy. The mechanistic transition toward autosis therefore occurs downstream of autophagy induction and involves both the magnitude or regulation of autophagic activity and engagement of Na+,K+-ATPase-dependent processes.
+
+Na+,K+-ATPase is the most specific non-autophagic molecular requirement currently identified for autosis. The Na+,K+-ATPase is an ATP-consuming membrane protein complex that maintains Na+ and K+ gradients across biological membranes. Through these gradients, the pump contributes to membrane potential, osmotic balance, cellular volume regulation, ion-dependent transport, and multiple signaling processes.
+
+The original description of autosis demonstrated that cardiac glycosides, which inhibit Na+,K+-ATPase, could strongly protect against death induced by starvation or autophagy-inducing peptides [1]. Genetic reduction of Na+,K+-ATPase subunits also reduced autotic death, establishing the pump as a functional requirement rather than merely a morphological or biochemical correlate.
+
+Subsequent studies extended this principle to several biological systems. Na+,K+-ATPase dependence has been observed in neuronal autosis, cardiomyocyte autosis and additional in vivo injury models [3–6]. In neurons subjected to hypoxic–ischemic injury, recent evidence indicates that the α3 isoform ATP1A3 plays a particularly important role [4].
+
+Thus, the relevant pump isoform may depend on tissue identity. ATP1A1 is broadly expressed and has been implicated in several cellular models, whereas ATP1A3 is especially important in neuronal autosis. The Na+,K+-ATPase requirement should therefore be interpreted at the level of the relevant α-subunit composition rather than assuming that one ATP1 isoform universally executes autosis in every tissue.
+
+A major mechanistic advance was the demonstration that Beclin 1 physically interacts with Na+,K+-ATPase during autosis-inducing stress [5]. Increased Beclin 1–Na+,K+-ATPase association has been detected following starvation, exercise and ischemic stress, as well as in several tissue contexts associated with excessive autophagy.
+
+Importantly, cardiac glycosides reduce both the Beclin 1–Na+,K+-ATPase interaction and autotic death [5]. These observations provide a direct molecular bridge between the upstream autophagy machinery and the Na+,K+-ATPase-dependent branch that distinguishes autosis from conventional autophagy.
+
+The interaction is not restricted to the plasma membrane. Beclin 1 and Na+,K+-ATPase have been detected together at intracellular compartments including the endoplasmic reticulum, perinuclear membranes, mitochondria and endosomal structures [5,6]. This localization is particularly important because the characteristic structural injury of autosis begins within intracellular membrane systems rather than through an established plasma-membrane pore-forming executor.
+
+The leading mechanistic model therefore proposes that excessive or dysregulated autophagy increases Beclin 1 engagement with Na+,K+-ATPase-containing intracellular membranes and thereby alters the control of ion, osmolyte and fluid distribution across the ER and nuclear envelope. Progressive imbalance within these membrane compartments could account for ER dilation, nuclear-envelope deformation and focal expansion of the perinuclear space [2,5,6].
+
+However, this model remains incomplete. Direct evidence establishes the Beclin 1–Na+,K+-ATPase interaction and the requirement for Na+,K+-ATPase activity, but the precise molecular sequence connecting the interaction to changes in membrane permeability, osmotic pressure, ion composition and membrane architecture has not yet been resolved.
+
+Na+,K+-ATPase should therefore be described as a required regulator or component of autotic execution rather than as a proven pore-forming executioner. No autosis-specific macromolecular pore equivalent to MLKL oligomers or gasdermin pores has been identified.
+
+Autosis can also emerge when autophagosome production becomes mismatched with autophagosome clearance. This phenomenon is particularly well characterized during cardiac ischemia–reperfusion injury. During late reperfusion, Rubicon expression increases, autophagic flux becomes impaired, and autophagosomes accumulate [20,21].
+
+Rubicon associates with Beclin 1-containing complexes and functions as a negative regulator of autophagosome maturation. Increased Rubicon therefore allows autophagosome generation to continue while limiting efficient completion of the degradative pathway. In cardiac ischemia–reperfusion models, reducing Rubicon decreases autophagosome accumulation and suppresses autosis [20,21].
+
+This finding changes the interpretation of autosis from simply “excessive autophagic degradation” to a more complex disturbance of autophagic dynamics. In some settings the lethal state may result from excessive autophagy initiation, whereas in others it may arise from continued autophagosome production combined with inadequate clearance.
+
+TFEB provides an additional amplification mechanism during cardiac reperfusion. TFEB is a transcription factor that promotes expression of lysosomal and autophagy-associated genes. During reperfusion, TFEB translocates to the nucleus and increases expression of targets including Beclin 1 and components of the lysosomal trafficking machinery [22].
+
+Experimentally reducing TFEB activity decreases autosis, whereas increased TFEB activity can aggravate injury in this setting [22]. Thus, transcriptional expansion of the autophagy–lysosome system can become maladaptive when late flux is simultaneously compromised.
+
+The cardiac model can therefore be represented as ischemia–reperfusion stress → increased autophagy signaling and TFEB-dependent transcription → increased autophagosome production together with Rubicon-mediated impairment of maturation → autophagosome accumulation → enhanced Beclin 1/Na+,K+-ATPase-dependent membrane remodeling → autosis.
+
+Importantly, the same relationship is not universal. Productive autophagic flux can be protective during other phases or forms of ischemic injury [34,35]. The outcome therefore depends on timing, tissue context, magnitude of autophagy induction and the balance between autophagosome formation and lysosomal clearance.
+
+Several molecular checkpoints normally restrain progression toward autosis. One of the best characterized is the interaction between Beclin 1 and anti-apoptotic BCL-2-family proteins. BCL-2 and BCL-xL can bind the BH3 domain of Beclin 1 and suppress Beclin 1-dependent autophagy [23,24].
+
+Under unstressed conditions, this interaction limits activation of VPS34 complex I and prevents excessive autophagic activity. Stress-dependent phosphorylation events or competitive displacement by BH3-containing proteins can release Beclin 1 from BCL-2 or BCL-xL and increase autophagy.
+
+Conversely, MST1/STK4 can phosphorylate Beclin 1 at Thr108, strengthening its interaction with BCL-2 or BCL-xL and suppressing autophagy [25]. This represents a potential anti-autosis checkpoint because it decreases availability of Beclin 1 for autophagy initiation.
+
+The BCL-2/Beclin 1 axis also creates direct crosstalk between autosis and apoptosis. Although BCL-2 and BCL-xL are best known as inhibitors of mitochondrial apoptosis, their binding to Beclin 1 independently restrains autophagy. Changes in this interaction can therefore alter both apoptotic susceptibility and autophagic activity.
+
+BH3-only proteins and BH3 mimetics can disrupt Beclin 1–BCL-2/BCL-xL binding and stimulate autophagy. Thus, a signaling component traditionally associated with apoptosis can indirectly increase the autophagic arm required for autosis.
+
+Apoptotic caspases can push the system in the opposite direction. Caspase-mediated cleavage of Beclin 1 inhibits Beclin 1-dependent autophagy and can generate fragments that favor mitochondrial apoptosis [26,27]. This creates a mechanistic branch point at which strong caspase activation terminates the autophagic program and redirects the cell toward apoptosis.
+
+Consequently, autosis is favored when the Beclin 1-dependent autophagic machinery remains active while canonical apoptotic execution remains absent or insufficient.
+
+A second major checkpoint is the maintenance of balanced autophagic flux. High initiation coupled to efficient lysosomal degradation may remain protective, whereas high initiation coupled to impaired maturation can produce pathological membrane accumulation and increase autosis susceptibility [20–22].
+
+A third regulatory layer involves endogenous modulators of Na+,K+-ATPase. Experimental evidence suggests that endogenous digitalis-like compounds can restrain Beclin 1–Na+,K+-ATPase interaction under some physiological conditions. Interfering with this endogenous regulation increases the interaction and promotes autotic death [5].
+
+These observations support a model in which cells possess regulatory mechanisms that prevent ordinary adaptive autophagy from becoming coupled to the Na+,K+-ATPase-dependent death program.
+
+There is currently no single experimentally established molecular point of no return for autosis. Early autophagy induction remains reversible because inhibition of essential autophagy components can rescue cells. Similarly, inhibition of Na+,K+-ATPase can prevent autotic death when applied before terminal structural failure [1–6].
+
+The best candidate transition toward irreversible commitment corresponds morphologically to progression from the early phase of autosis into the stage characterized by focal separation of the inner and outer nuclear membranes, progressive ER depletion and severe intracellular membrane remodeling [2].
+
+However, direct experiments demonstrating that interventions applied before but not after this precise ultrastructural transition can rescue viability remain limited. It is therefore more accurate to describe this stage as a candidate commitment transition rather than a proven universal point of no return.
+
+The terminal execution phase is the least fully understood part of autosis. Current evidence supports a sequence in which persistent or dysregulated autophagosome formation progressively remodels intracellular membranes while the Beclin 1–Na+,K+-ATPase axis perturbs ionic and fluid homeostasis in ER and nuclear-envelope compartments [2,5,6].
+
+The endoplasmic reticulum appears particularly important because it provides membrane material for autophagosome biogenesis and is physically continuous with the outer nuclear membrane. Excessive recruitment or remodeling of ER-derived membrane during sustained autophagy could therefore directly affect nuclear-envelope architecture.
+
+During early autosis, the ER becomes dilated and fragmented while numerous autophagosomes and autolysosomes accumulate. The nucleus begins to develop an irregular or convoluted contour [1,2].
+
+As the pathway progresses, focal separation appears between the inner and outer nuclear membranes. Membrane-containing material may initially accumulate within these regions. This represents one of the most distinctive ultrastructural transitions observed during autosis.
+
+Later, these focal regions become increasingly devoid of material and develop into large balloon-like expansions of the perinuclear space. At the same time, ER structures and autophagic compartments progressively disappear, and other organelles become swollen, damaged or depleted [1–4].
+
+Emerging evidence has raised the possibility that preservation of nuclear-envelope structural integrity may oppose autosis. Preliminary work implicating LINC-associated nuclear-envelope architecture is consistent with the idea that disruption of the nuclear envelope participates directly in progression toward death [30]. However, this evidence remains substantially less established than the Beclin 1–Na+,K+-ATPase pathway and should be considered emerging rather than canonical.
+
+The precise physical force generating perinuclear ballooning remains unresolved. One hypothesis is that Na+,K+-ATPase-dependent perturbation of ion and osmolyte distribution alters local osmotic pressure and drives fluid movement into the ER/nuclear-envelope lumen. Another possibility is that extreme membrane turnover changes the mechanical properties of these compartments. These models are compatible with current observations but have not yet been fully demonstrated at molecular resolution.
+
+The role of mitochondrial dysfunction is also likely to be secondary or context dependent. Mitochondria become structurally abnormal during advanced autosis, and selected cancer models demonstrate substantial mitochondrial dysfunction during autotic death [29]. However, mitochondrial outer membrane permeabilization through BAX and BAK is not considered the defining execution mechanism of autosis.
+
+Accordingly, mitochondrial damage may reinforce energetic and metabolic collapse once intracellular membrane homeostasis has become severely compromised rather than functioning as the universal initiating event.
+
+Reactive oxygen species should also not be presented as a canonical autosis executor. Oxidative stress can regulate autophagy-associated proteins and may participate in particular pathological contexts, but the original mechanistic characterization of autosis did not demonstrate rescue through ROS-targeted interventions [2,31]. Current evidence therefore supports a context-dependent regulatory role rather than a universal ROS execution mechanism.
+
+Calcium signaling is similarly context dependent. ER Ca2+ release can contribute to severe ER stress and autosis-like phenotypes in selected experimental systems, but calcium chelation does not universally prevent autosis. Calcium should therefore not be inserted into the core autosis pathway as an obligatory executor.
+
+One recent model using thapsigargin-associated ER stress produced a non-apoptotic, caspase-independent death phenotype with autosis-like ultrastructural characteristics [28]. Such observations suggest that strong ER stress may converge on membrane events resembling autosis, but this route remains less established than starvation-, peptide-, and ischemia-associated autosis.
+
+The terminal cause of death is therefore best described as irreversible failure of intracellular membrane and ionic homeostasis rather than activation of a known dedicated pore-forming protein. Progressive ER fragmentation, nuclear-envelope separation, perinuclear ballooning, organelle deterioration and metabolic dysfunction eventually culminate in loss of cellular integrity.
+
+Unlike apoptosis, autosis does not primarily kill through executioner-caspase-mediated proteolysis and ordered formation of apoptotic bodies. Unlike necroptosis, no RIPK3–MLKL pore-forming sequence defines execution. Unlike pyroptosis, there is no established gasdermin pore. Unlike ferroptosis, iron-dependent phospholipid peroxidation is not the defining lethal chemistry [1–4,7].
+
+Plasma-membrane disruption can occur late in autosis, but available evidence does not indicate that the plasma membrane is the primary site at which the lethal program begins. Rather, the characteristic structural sequence points to progressive dysfunction of intracellular membranes, particularly the ER and nuclear envelope, before terminal plasma-membrane failure.
+
+This distinction is critical when defining the hierarchy of autosis proteins. mTORC1 and nutrient-sensing pathways function upstream as regulators of autophagy. ULK1, ATG13, FIP200 and ATG101 initiate the autophagic machinery. The VPS34–VPS15–Beclin 1–ATG14 complex generates PI3P and nucleates autophagosomes. Downstream ATG proteins build and mature the autophagosome.
+
+These factors are required for the autophagic arm of autosis but should not automatically be described as terminal death executioners because they also function in normal cytoprotective autophagy.
+
+Beclin 1 occupies a particularly important position because it simultaneously functions as a core autophagy regulator and as the molecular link to Na+,K+-ATPase during autosis. It therefore acts as a convergence node between the generic autophagy machinery and the autosis-specific branch.
+
+Na+,K+-ATPase represents the strongest currently validated autosis-specific functional requirement. ATP1A-family α subunits should therefore be considered core autosis-associated effectors or regulators, with the specific isoform determined by cellular context. ATP1A3 has particularly strong evidence in neurons [4].
+
+Rubicon and TFEB are important context-dependent amplifiers, especially in cardiac ischemia–reperfusion. Rubicon limits autophagic maturation, while TFEB increases transcriptional capacity for autophagy and lysosomal biogenesis. Together, they can generate conditions in which production and clearance of autophagic structures become severely imbalanced [20–22].
+
+BCL-2 and BCL-xL act as negative regulators by restraining Beclin 1-dependent autophagy. MST1 can reinforce this inhibition through phosphorylation of Beclin 1, whereas DAPK, MAPKAPK2/3 and PGK1 can promote Beclin 1 activation under selected stress conditions [12–14,23–25].
+
+The experimental demonstration of autosis therefore requires multiple complementary forms of evidence. Increased autophagic activity must first be established. LC3 puncta or LC3-II accumulation alone are not sufficient because these phenomena can also result from blocked autophagosome degradation.
+
+Autophagic flux should therefore be assessed using approaches capable of distinguishing increased autophagosome production from impaired clearance. Measurements can include tandem fluorescent LC3 reporters, lysosomal inhibitor experiments, degradation of autophagic substrates and ultrastructural analysis.
+
+Second, autophagy must be shown to be causally required. Genetic inhibition of components such as ATG5, ATG7, ATG13, ATG14 or Beclin 1 should reduce or prevent death in the relevant experimental system [1,2].
+
+Third, Na+,K+-ATPase dependence should be demonstrated. Protection by cardiac glycosides or appropriate genetic manipulation of Na+,K+-ATPase subunits provides one of the strongest mechanistic features distinguishing autosis from generic autophagy-associated death [1,3–6].
+
+In neuronal systems, demonstrating ATP1A3 dependence provides particularly specific support for autosis [4].
+
+Fourth, competing regulated cell-death mechanisms should be evaluated. In the classical experimental definition, inhibition of caspase-dependent apoptosis or RIPK1/RIPK3-dependent necroptosis does not eliminate autotic death [1,2]. Similarly, BAX/BAK-mediated mitochondrial apoptosis is not required in the canonical systems tested.
+
+Fifth, ultrastructural morphology provides important corroborating evidence. Electron microscopy remains especially valuable because the focal separation of the inner and outer nuclear membranes, perinuclear ballooning, ER fragmentation and characteristic sequence of organelle changes are considerably more informative than simple vacuolization [1–4].
+
+No single soluble biomarker has yet replaced this combination of causal and ultrastructural criteria. LC3, Beclin 1 abundance, autophagosome number or Na+,K+-ATPase expression alone cannot diagnose autosis.
+
+Clonogenic survival experiments can further distinguish true rescue from temporary delay of death. This is important because some inhibitors may alter death kinetics without restoring long-term cellular viability.
+
+Autosis also interacts with apoptosis at several molecular nodes. The Beclin 1–BCL-2/BCL-xL interaction represents the most direct interface. BCL-2-family binding restrains Beclin 1-dependent autophagy, whereas BH3-dependent displacement can increase autophagy [23,24].
+
+Conversely, when apoptosis becomes strongly activated, caspases can cleave Beclin 1, suppress the autophagic pathway and favor mitochondrial apoptotic signaling [26,27]. This creates a regulatory competition between maintenance of the autophagic program and conversion toward conventional apoptosis.
+
+Nevertheless, direct execution-level crosstalk between canonical autosis and necroptosis, pyroptosis or ferroptosis has not been established as a defining feature. Autosis should therefore not be represented as a hybrid pathway containing MLKL, gasdermins or ferroptotic lipid-peroxidation machinery unless a specific experimental model demonstrates such switching.
+
+The biological effects of Na+,K+-ATPase-dependent autophagy are themselves context dependent. Na+,K+-ATPase-related autophagy can be protective in some ischemic settings [32], emphasizing that the mere combination of autophagy and pump signaling is not automatically lethal. Autosis emerges when this machinery operates within a particular level, duration and spatial organization of stress that produces characteristic membrane collapse.
+
+Similarly, Beclin 1-dependent autophagy can protect cells in many physiological and pathological settings. Therefore, Beclin 1 activation should not be interpreted as intrinsically pro-autotic. The lethal phenotype depends on the transition from adaptive Beclin 1-mediated autophagy to persistent or dysregulated autophagy coupled to Na+,K+-ATPase-dependent membrane remodeling.
+
+The canonical starvation-induced autosis sequence can therefore be represented as severe nutrient deprivation → suppression of mTORC1-mediated inhibition → activation of ULK1–ATG13–FIP200–ATG101 → phosphorylation and activation of the ATG14–Beclin 1–VPS34 complex → PI3P production and phagophore nucleation → ATG-dependent autophagosome formation → sustained high autophagic activity → increased Beclin 1 interaction with Na+,K+-ATPase → progressive disturbance of ER and nuclear-envelope membrane homeostasis → ER dilation and fragmentation → nuclear convolution → focal separation of the inner and outer nuclear membranes → perinuclear swelling and ballooning → progressive organelle deterioration and loss of cellular homeostasis → terminal plasma-membrane failure → autotic cell death.
+
+The ischemia–reperfusion route can be represented as ischemic/metabolic stress → strong autophagy activation → reperfusion-associated TFEB activation and increased autophagy-related transcription → Rubicon-dependent reduction of autophagosome maturation → continued autophagosome formation combined with impaired clearance → severe autophagic structural accumulation → Beclin 1–Na+,K+-ATPase engagement → ER and nuclear-envelope remodeling → perinuclear ballooning and organellar collapse → autotic death.
+
+The Beclin 1 regulatory branch can be represented as stress signaling → disruption of inhibitory BCL-2/BCL-xL–Beclin 1 complexes through phosphorylation or competitive displacement → increased availability of Beclin 1 → ATG14–VPS34 activation → increased autophagy → increased probability of engagement of the Na+,K+-ATPase autosis branch when stress is sufficiently severe or persistent.
+
+The most integrated mechanistic sequence is therefore strong or dysregulated autophagy-inducing stress → nutrient/stress sensing through mTORC1, ULK1 and context-dependent kinases → activation of Beclin 1–ATG14–VPS34 complex I → PI3P production and ATG-dependent autophagosome biogenesis → sustained or imbalanced autophagic activity → Beclin 1 association with Na+,K+-ATPase at plasma and intracellular membranes → progressive disruption of ion, osmolyte, fluid and membrane homeostasis, particularly within the ER and nuclear envelope → ER fragmentation and nuclear convolution → focal inner/outer nuclear membrane separation → characteristic perinuclear ballooning → progressive loss or degeneration of intracellular organelles and metabolic homeostasis → terminal loss of plasma-membrane integrity → autotic cell death.
+
+Thus, autosis should not be described simply as “cell death caused by too much autophagy.” The defining model is a two-component system in which the canonical autophagic machinery generates a sustained or dysregulated autophagic state that becomes coupled to Beclin 1–Na+,K+-ATPase-dependent membrane remodeling. The autophagy machinery is necessary, Na+,K+-ATPase activity is necessary, and the interaction between these systems provides the strongest mechanistic bridge currently identified.
+
+The major unresolved issue is the final execution chemistry. Current evidence strongly supports progressive disruption of ER and nuclear-envelope architecture, ion/fluid homeostasis and organellar integrity, but no dedicated autosis-specific pore-forming or proteolytic executioner has been established. Consequently, Na+,K+-ATPase should be considered an essential regulator of autotic execution rather than a fully defined terminal executioner. The precise biophysical process by which Beclin 1–Na+,K+-ATPase coupling converts intracellular membrane remodeling into irreversible cellular collapse remains the central mechanistic question in the autosis field.

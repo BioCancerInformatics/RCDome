@@ -1,0 +1,9 @@
+## Alkaliptosis — Mechanistic Pathway
+
+Alkaliptosis is an emerging form of regulated cell death characterized by a pathological and sustained increase in intracellular pH, ultimately leading to necrosis-like lytic cell death. It was initially described in cancer cells exposed to JTC801, whose cytotoxic effect is independent of the OPRL1 receptor. Current evidence indicates that alkaliptosis is mainly controlled by two interconnected pathways: IKK–NF-κB–CA9 and ATP6V0D1–STAT3.
+
+In the first pathway, JTC801 activates IKKβ, promotes IκBα degradation, and induces nuclear NF-κB activity, resulting in suppression of carbonic anhydrase IX (CA9). Because CA9 contributes to tumor acid–base homeostasis, its inhibition reduces the cell’s ability to control intracellular pH. ACSS2 can further enhance this pathway by promoting NF-κB activity. In parallel, JTC801 interacts with ATP6V0D1, a component of lysosomal V-ATPase, altering its association with STAT3 and disrupting proton distribution between lysosomes and the cytosol. Together, these processes produce progressive cytosolic alkalinization and compartmental pH imbalance.
+
+The causal role of alkalinization is supported by experiments showing that preventing or reversing the rise in intracellular pH markedly reduces cell death. Resistance mechanisms, including ITCH–YAP1–SLC16A1 signaling, macropinocytosis, and CYP51A1–SREBF2–TMEM175 regulation, can modify susceptibility but are not core execution pathways.
+
+Once pH dysregulation exceeds cellular adaptive capacity, metabolic and organellar dysfunction, cell swelling, plasma membrane rupture, HMGB1 release, and lysis occur. Unlike apoptosis, necroptosis, or pyroptosis, no dedicated terminal molecular executor has yet been identified. Thus, sustained intracellular alkalinization and disruption of proton homeostasis remain the defining mechanistic features of alkaliptosis.

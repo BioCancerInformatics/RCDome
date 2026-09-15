@@ -1,0 +1,69 @@
+1. Liu Y, Shoji-Kawata S, Sumpter RM, et al. **Autosis is a Na+,K+-ATPase-regulated form of cell death triggered by autophagy-inducing peptides, starvation, and hypoxia–ischemia.** *Proceedings of the National Academy of Sciences USA*. 2013;110:20364–20371. **DOI: 10.1073/pnas.1319661110**
+
+2. Liu Y, Levine B. **Autosis and autophagic cell death: the dark side of autophagy.** *Cell Death & Differentiation*. 2015;22:367–376. **DOI: 10.1038/cdd.2014.143**
+
+3. Bai L, Wu Q, Zhang X, Zhao Y. **Autosis as a selective type of cell death.** *Frontiers in Cell and Developmental Biology*. 2023;11. **DOI: 10.3389/fcell.2023.1164681**
+
+4. Depierre P, Ginet V, Truttmann AC, Puyal J. **Neuronal autosis is Na+/K+-ATPase alpha 3-dependent and involved in hypoxic-ischemic neuronal death.** *Cell Death & Disease*. 2024;15. **DOI: 10.1038/s41419-024-06750-2**
+
+5. Fernández ÁF, Liu Y, Ginet V, et al. **Interaction between the autophagy protein Beclin 1 and Na+,K+-ATPase during starvation, exercise, and ischemia.** *JCI Insight*. 2020;5. **DOI: 10.1172/jci.insight.133282**
+
+6. Nah J, Zablocki DK, Sadoshima J. **Autosis: A New Target to Prevent Cell Death.** *JACC: Basic to Translational Science*. 2020;5:857–869. **DOI: 10.1016/j.jacbts.2020.04.014**
+
+7. Tang D, Kang R, Vanden Berghe T, Vandenabeele P, Kroemer G. **The molecular machinery of regulated cell death.** *Cell Research*. 2019;29:347–364. **DOI: 10.1038/s41422-019-0164-5**
+
+8. Park JM, Jung CH, Seo M, et al. **The ULK1 complex mediates MTORC1 signaling to the autophagy initiation machinery via binding and phosphorylating ATG14.** *Autophagy*. 2016;12:547–564. **DOI: 10.1080/15548627.2016.1140293**
+
+9. Russell RC, Tian Y, Yuan H, et al. **ULK1 induces autophagy by phosphorylating Beclin-1 and activating Vps34 lipid kinase.** *Nature Cell Biology*. 2013;15:741–750. **DOI: 10.1038/ncb2757**
+
+10. Park JM, Seo M, Jung CH, et al. **ULK1 phosphorylates Ser30 of BECN1 in association with ATG14 to stimulate autophagy induction.** *Autophagy*. 2018;14:584–597. **DOI: 10.1080/15548627.2017.1422851**
+
+11. Funderburk SF, Wang QJ, Yue Z. **The Beclin 1-VPS34 complex – at the crossroads of autophagy and beyond.** *Trends in Cell Biology*. 2010;20:355–362. **DOI: 10.1016/j.tcb.2010.03.002**
+
+12. Wei Y, An Z, Zou Z, et al. **The stress-responsive kinases MAPKAPK2/MAPKAPK3 activate starvation-induced autophagy through Beclin 1 phosphorylation.** *eLife*. 2015;4. **DOI: 10.7554/eLife.05289**
+
+13. Zalckvar E, Berissi H, Mizrachy L, et al. **DAP-kinase-mediated phosphorylation on the BH3 domain of Beclin 1 promotes dissociation of Beclin 1 from Bcl-XL and induction of autophagy.** *EMBO Reports*. 2009;10. **DOI: 10.1038/embor.2008.246**
+
+14. Qian X, Li X, Cai Q, et al. **Phosphoglycerate kinase 1 phosphorylates Beclin1 to induce autophagy.** *Molecular Cell*. 2017;65:917–931.e6. **DOI: 10.1016/j.molcel.2017.01.027**
+
+15. Ohashi Y. **Activation Mechanisms of the VPS34 Complexes.** *Cells*. 2021;10. **DOI: 10.3390/cells10113124**
+
+16. Birgisdottir ÅB, Mouilleron S, Bhujabal Z, et al. **Members of the autophagy class III phosphatidylinositol 3-kinase complex I interact with GABARAP and GABARAPL1 via LIR motifs.** *Autophagy*. 2019;15:1333–1355. **DOI: 10.1080/15548627.2019.1581009**
+
+17. Nascimbeni AC, Codogno P, Morel E. **Phosphatidylinositol-3-phosphate in the regulation of autophagy membrane dynamics.** *The FEBS Journal*. 2017;284. **DOI: 10.1111/febs.13987**
+
+18. Kang R, Zeh HJ, Lotze MT, Tang D. **The Beclin 1 network regulates autophagy and apoptosis.** *Cell Death & Differentiation*. 2011;18:571–580. **DOI: 10.1038/cdd.2010.191**
+
+19. Itakura E, Kishi C, Inoue K, Mizushima N. **Beclin 1 forms two distinct phosphatidylinositol 3-kinase complexes with mammalian Atg14 and UVRAG.** *Molecular Biology of the Cell*. 2008;19:5360–5372. **DOI: 10.1091/mbc.E08-01-0080**
+
+20. Zhong Y, Wang QJ, Li X, et al. **Distinct regulation of autophagic activity by Atg14L and Rubicon associated with Beclin 1-phosphatidylinositol-3-kinase complex.** *Nature Cell Biology*. 2009;11:468–476. **DOI: 10.1038/ncb1854**
+
+21. Nah J, Zhai P, Huang CY, et al. **Upregulation of Rubicon promotes autosis during myocardial ischemia/reperfusion injury.** *Journal of Clinical Investigation*. 2020. **DOI: 10.1172/JCI132366**
+
+22. Nah J, Sung EA, Zhai P, Zablocki DK, Sadoshima J. **TFEB-Mediated Transcriptional Regulation of Autophagy Induces Autosis during Ischemia/Reperfusion in the Heart.** *Cells*. 2022;11:258. **DOI: 10.3390/cells11020258**
+
+23. Pattingre S, Tassa A, Qu X, et al. **Bcl-2 antiapoptotic proteins inhibit Beclin 1-dependent autophagy.** *Cell*. 2005;122:927–939. **DOI: 10.1016/j.cell.2005.07.002**
+
+24. Maiuri MC, Le Toumelin G, Criollo A, et al. **Functional and physical interaction between Bcl-XL and a BH3-like domain in Beclin-1.** *The EMBO Journal*. 2007;26. **DOI: 10.1038/sj.emboj.7601689**
+
+25. Maejima Y, Kyoi S, Zhai P, et al. **Mst1 inhibits autophagy by promoting Beclin1-Bcl-2 interaction.** *Nature Medicine*. 2013;19:1478–1488. **DOI: 10.1038/nm.3322**
+
+26. Cho DH, Jo YK, Hwang JJ, Lee YM, Roh SA, Kim JC. **Caspase-mediated cleavage of ATG6/Beclin-1 links apoptosis to autophagy in HeLa cells.** *Cancer Letters*. 2009;274:95–100. **DOI: 10.1016/j.canlet.2008.09.004**
+
+27. Wirawan E, Vande Walle L, Kersse K, et al. **Caspase-mediated cleavage of Beclin-1 inactivates Beclin-1-induced autophagy and enhances apoptosis by promoting the release of proapoptotic factors from mitochondria.** *Cell Death & Disease*. 2010;1. **DOI: 10.1038/cddis.2009.16**
+
+28. Steiner P, Melek K, Andosch A, et al. **Thapsigargin triggers a non-apoptotic, caspase-independent programmed cell death in basophilic leukaemia cells.** *Cell Death Discovery*. 2025;11. **DOI: 10.1038/s41420-025-02602-w**
+
+29. Zhang X, Shan G, Li N, et al. **An autophagy-inducing stapled peptide induces mitochondria dysfunction and triggers autotic cell death in triple-negative breast cancer.** *Cell Death Discovery*. 2023;9. **DOI: 10.1038/s41420-023-01600-0**
+
+30. Jung S, Nah J. **Preserving Nuclear Envelope Integrity Prevents Autosis.** *Circulation Research*. 2025;137(Suppl 1). **DOI: 10.1161/res.137.suppl_1.thu079**
+
+31. Guerra-Andrés M, Martínez-Rojo I, Piedra-Macías A, Lavado-Fernández E, García-Macia M, Fernández ÁF. **Oxidative Stress in the Regulation of Autosis-Related Proteins.** *Antioxidants*. 2025;14. **DOI: 10.3390/antiox14080958**
+
+32. Zhu M, Cao L, Xiong S, et al. **Na+/K+-ATPase-dependent autophagy protects brain against ischemic injury.** *Signal Transduction and Targeted Therapy*. 2020;5. **DOI: 10.1038/s41392-020-0153-7**
+
+33. Zhang G, Luk BT, Hamidy M, Zhang L, Spector SA. **Induction of a Na+/K+-ATPase-dependent form of autophagy triggers preferential cell death of human immunodeficiency virus type-1-infected macrophages.** *Autophagy*. 2018;14:1359–1375. **DOI: 10.1080/15548627.2018.1476014**
+
+34. He L, Chu YW, Yang J, et al. **Activation of Autophagic Flux Maintains Mitochondrial Homeostasis during Cardiac Ischemia/Reperfusion Injury.** *Cells*. 2022;11:2111. **DOI: 10.3390/cells11132111**
+
+35. Costigan A, Hollville E, Martin SJ. **Discriminating Between Apoptosis, Necrosis, Necroptosis, and Ferroptosis by Microscopy and Flow Cytometry.** *Current Protocols*. 2023;3. **DOI: 10.1002/cpz1.951**
