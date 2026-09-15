@@ -1,0 +1,12 @@
+## Autosis — Mechanistic Pathway
+
+
+Autosis is a specialized form of autophagy-dependent, non-apoptotic regulated cell death that requires both the core autophagic machinery and Na+,K+-ATPase activity. It is induced by severe or prolonged stresses such as starvation, Beclin 1-derived autophagy-inducing peptides, hypoxia–ischemia, and ischemia–reperfusion. Unlike apoptosis, necroptosis, pyroptosis, or ferroptosis, autosis is not defined by caspases, MLKL, gasdermins, or lipid peroxidation.
+
+The pathway begins with strong autophagy induction. Reduced mTORC1 activity activates the ULK1–ATG13–FIP200–ATG101 complex, which stimulates the Beclin 1–ATG14–VPS34 complex. PI3P production then recruits downstream ATG machinery, promoting LC3/GABARAP lipidation, phagophore expansion, and sustained autophagosome formation.
+
+The defining transition toward autosis occurs when this persistent or dysregulated autophagic state becomes coupled to Na+,K+-ATPase. Beclin 1 physically associates with Na+,K+-ATPase at plasma and intracellular membranes, providing the main mechanistic bridge between conventional autophagy and autotic death. This interaction is proposed to disturb ion, osmolyte, fluid, and membrane homeostasis, particularly within the endoplasmic reticulum and nuclear envelope.
+
+Progressive membrane dysfunction produces ER dilation and fragmentation, nuclear convolution, focal separation of the inner and outer nuclear membranes, and characteristic perinuclear ballooning. Organelles subsequently deteriorate, cellular homeostasis collapses, and plasma-membrane integrity is eventually lost.
+
+Thus, autosis is best understood as sustained autophagy coupled to Beclin 1–Na+,K+-ATPase-dependent membrane remodeling. Na+,K+-ATPase is essential for autotic execution, although the precise terminal biophysical mechanism producing irreversible cellular collapse remains unresolved.

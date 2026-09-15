@@ -62,7 +62,7 @@ ui <- navbarPage(
     title = "Gene Catalog",
     div(class = "wrap",
       style = "max-width: 1100px; margin: 0 auto; padding: 20px;",
-      mod_omic_ui("omic")
+      mod_gene_catalog_ui("gene_catalog")
     )
   ),
 

@@ -1,0 +1,11 @@
+## Anoikis — Mechanistic Pathway
+
+Anoikis is a specialized form of apoptosis triggered when anchorage-dependent cells lose appropriate interaction with the extracellular matrix (ECM). Its defining feature is therefore the initiating stimulus—loss of matrix attachment—rather than a unique execution mechanism. Under normal conditions, integrin engagement activates focal adhesion signaling through FAK, Src, ILK, PI3K–AKT, and ERK, maintaining survival, metabolism, and cytoskeletal organization. ECM detachment disrupts these signals and shifts the cell toward apoptosis.
+
+Loss of AKT and ERK activity promotes activation or accumulation of BH3-only proteins, particularly BIM and BMF. Cytoskeletal disruption, together with stress signaling through JNK and p38 MAPK and, in many contexts, Hippo/LATS-mediated inhibition of YAP, further enhances apoptotic priming. BIM and BMF neutralize anti-apoptotic BCL-2-family proteins and promote BAX/BAK activation.
+
+Activated BAX and BAK oligomerize at the mitochondrial outer membrane, inducing mitochondrial outer membrane permeabilization (MOMP). Cytochrome c is then released and binds APAF1 to form the apoptosome, activating caspase-9 and subsequently the executioner caspases-3 and -7. These caspases drive cell shrinkage, membrane blebbing, chromatin condensation, nuclear fragmentation, and apoptotic-body formation.
+
+In some cell types, death-receptor signaling provides an additional pathway through FAS or DR5, FADD recruitment, and caspase-8 activation. Caspase-8 can directly activate executioner caspases or amplify mitochondrial apoptosis through BID.
+
+Thus, anoikis is fundamentally matrix-detachment-induced apoptosis: integrins and focal adhesions act as anchorage sensors, BIM/BMF and BAX/BAK connect adhesion loss to mitochondrial commitment, and caspases execute the terminal death program. Resistance to anoikis is particularly important in cancer because it enables detached tumor cells to survive dissemination and contribute to metastasis.

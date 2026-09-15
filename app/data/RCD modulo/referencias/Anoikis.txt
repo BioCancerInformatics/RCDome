@@ -1,0 +1,89 @@
+1. Frisch SM, Francis H. **Disruption of epithelial cell-matrix interactions induces apoptosis.** *The Journal of Cell Biology*. 1994;124:619–626. **DOI: 10.1083/jcb.124.4.619**
+
+2. Frisch SM, Screaton RA. **Anoikis mechanisms.** *Current Opinion in Cell Biology*. 2001;13:555–562. **DOI: 10.1016/S0955-0674(00)00251-9**
+
+3. Paoli P, Giannoni E, Chiarugi P. **Anoikis molecular pathways and its role in cancer progression.** *Biochimica et Biophysica Acta*. 2013;1833:3481–3498. **DOI: 10.1016/j.bbamcr.2013.06.026**
+
+4. Taddei ML, Giannoni E, Fiaschi T, Chiarugi P. **Anoikis: an emerging hallmark in health and diseases.** *The Journal of Pathology*. 2012;226. **DOI: 10.1002/path.3000**
+
+5. Mei J, Jiang X, Tian HX, et al. **Anoikis in cell fate, physiopathology, and therapeutic interventions.** *MedComm*. 2024;5. **DOI: 10.1002/mco2.718**
+
+6. Simpson CD, Anyiwe K, Schimmer AD. **Anoikis resistance and tumor metastasis.** *Cancer Letters*. 2008;272:177–185. **DOI: 10.1016/j.canlet.2008.05.029**
+
+7. Horbinski C, Mojesky C, Kyprianou N. **Live free or die: tales of homeless cells in cancer.** *The American Journal of Pathology*. 2010;177:1044–1052. **DOI: 10.2353/ajpath.2010.091270**
+
+8. Liu B, Wu Q, Xuan Z, et al. **Mechanisms Involved in Focal Adhesion Signaling Regulating Tumor Anoikis Resistance.** *Cancer Science*. 2025;116:2640–2648. **DOI: 10.1111/cas.70154**
+
+9. Valencia-Expósito A, Gomez-Lamarca M, Widmann TJ, Martín-Bermudo MD. **Integrins Cooperate With the EGFR/Ras Pathway to Preserve Epithelia Survival and Architecture in Development and Oncogenesis.** *Frontiers in Cell and Developmental Biology*. 2022;10. **DOI: 10.3389/fcell.2022.892691**
+
+10. Liu GZ, Meng X, Jin Y, et al. **Inhibitory role of focal adhesion kinase on anoikis in the lung cancer cell A549.** *Cell Biology International*. 2008;32. **DOI: 10.1016/j.cellbi.2008.01.292**
+
+11. Alanko J, Mai A, Jacquemet G, et al. **Integrin endosomal signalling suppresses anoikis.** *Nature Cell Biology*. 2015;17:1412–1421. **DOI: 10.1038/ncb3250**
+
+12. Lossi L. **The concept of intrinsic versus extrinsic apoptosis.** *The Biochemical Journal*. 2022;479:357–384. **DOI: 10.1042/BCJ20210854**
+
+13. Guadamillas MC, Cerezo A, del Pozo MA. **Overcoming anoikis – pathways to anchorage-independent growth in cancer.** *Journal of Cell Science*. 2011;124:3189–3197. **DOI: 10.1242/jcs.072165**
+
+14. Puthalakath H, Villunger A, O'Reilly LA, et al. **Bmf: A Proapoptotic BH3-Only Protein Regulated by Interaction with the Myosin V Actin Motor Complex, Activated by Anoikis.** *Science*. 2001;293:1829–1832. **DOI: 10.1126/science.1062257**
+
+15. Girnius N, Davis RJ. **JNK promotes epithelial cell anoikis by transcriptional and post-translational regulation of BH3-only proteins.** *Cell Reports*. 2017;21:1910–1921. **DOI: 10.1016/j.celrep.2017.10.067**
+
+16. Zhi Z, Ouyang Z, Ren Y, et al. **Non-canonical phosphorylation of Bmf by p38 MAPK promotes its apoptotic activity in anoikis.** *Cell Death & Differentiation*. 2022;29:323–336. **DOI: 10.1038/s41418-021-00855-3**
+
+17. Haun F, Neumann S, Peintner L, et al. **Identification of a novel anoikis signalling pathway using the fungal virulence factor gliotoxin.** *Nature Communications*. 2018;9. **DOI: 10.1038/s41467-018-05850-w**
+
+18. Zhao B, Li L, Wang LH, Wang CY, Yu J, Guan KL. **Cell detachment activates the Hippo pathway via cytoskeleton reorganization to induce anoikis.** *Genes & Development*. 2012;26:54–68. **DOI: 10.1101/gad.173435.111**
+
+19. Czabotar PE, García-Sáez AJ. **Mechanisms of BCL-2 family proteins in mitochondrial apoptosis.** *Nature Reviews Molecular Cell Biology*. 2023;24:732–748. **DOI: 10.1038/s41580-023-00629-4**
+
+20. Kalkavan H, Green DR. **MOMP, cell suicide as a BCL-2 family business.** *Cell Death & Differentiation*. 2018;25:46–55. **DOI: 10.1038/cdd.2017.179**
+
+21. Wolf P, Schoeniger A, Edlich F. **Pro-apoptotic complexes of BAX and BAK on the outer mitochondrial membrane.** *Biochimica et Biophysica Acta - Molecular Cell Research*. 2022:119317. **DOI: 10.1016/j.bbamcr.2022.119317**
+
+22. Bock FJ, Tait SWG. **Mitochondria as multifaceted regulators of cell death.** *Nature Reviews Molecular Cell Biology*. 2020;21:85–100. **DOI: 10.1038/s41580-019-0173-8**
+
+23. Aoudjit F, Vuori K. **Matrix Attachment Regulates FAS-Induced Apoptosis in Endothelial Cells.** *The Journal of Cell Biology*. 2001;152:633–644. **DOI: 10.1083/jcb.152.3.633**
+
+24. Rosen K, Shi W, Calabretta B, Filmus J. **Cell Detachment Triggers p38 Mitogen-activated Protein Kinase-dependent Overexpression of Fas Ligand.** *Journal of Biological Chemistry*. 2002;277:46123–46130. **DOI: 10.1074/jbc.M207883200**
+
+25. Laguinge L, Samara RN, Wang W, et al. **DR5 receptor mediates anoikis in human colorectal carcinoma cell lines.** *Cancer Research*. 2008;68:909–917. **DOI: 10.1158/0008-5472.CAN-06-1806**
+
+26. Rytömaa M, Martins LM, Downward J. **Involvement of FADD and caspase-8 signalling in detachment-induced apoptosis.** *Current Biology*. 1999;9:1043–1046. **DOI: 10.1016/S0960-9822(99)80454-0**
+
+27. Valentijn AJ, Gilmore AP. **Translocation of Full-length Bid to Mitochondria during Anoikis.** *Journal of Biological Chemistry*. 2004;279:32848–32857. **DOI: 10.1074/jbc.M313375200**
+
+28. Miyazaki T, Shen M, Fujikura D, et al. **Functional Role of Death-associated Protein 3 (DAP3) in Anoikis.** *Journal of Biological Chemistry*. 2004;279:44667–44672. **DOI: 10.1074/jbc.M408101200**
+
+29. Frisch SM, Vuori K, Ruoslahti E, Chan-Hui PY. **A role for Jun-N-terminal kinase in anoikis; suppression by Bcl-2 and crmA.** *The Journal of Cell Biology*. 1996;135:1377–1382. **DOI: 10.1083/jcb.135.5.1377**
+
+30. Li AE, Ito H, Rovira II, et al. **A role for reactive oxygen species in endothelial cell anoikis.** *Circulation Research*. 1999;85:304–310. **DOI: 10.1161/01.RES.85.4.304**
+
+31. Davison CA, Durbin SM, Thau MR, et al. **Antioxidant enzymes mediate survival of breast cancer cells deprived of extracellular matrix.** *Cancer Research*. 2013;73:3704–3715. **DOI: 10.1158/0008-5472.CAN-12-2482**
+
+32. Avivar-Valderas A, Salas E, Bobrovnikova-Marjon E, et al. **PERK Integrates Autophagy and Oxidative Stress Responses To Promote Survival during Extracellular Matrix Detachment.** *Molecular and Cellular Biology*. 2011;31:3616–3629. **DOI: 10.1128/MCB.05164-11**
+
+33. Avivar-Valderas A, Bobrovnikova-Marjon E, Diehl JA, Bardeesy N, Debnath J, Aguirre-Ghiso JA. **Regulation of autophagy during ECM detachment is linked to a selective inhibition of mTORC1 by PERK.** *Oncogene*. 2013;32:4932–4940. **DOI: 10.1038/onc.2012.512**
+
+34. Chen N, Debnath J. **IκB kinase complex (IKK) triggers detachment-induced autophagy in mammary epithelial cells independently of the PI3K-AKT-MTORC1 pathway.** *Autophagy*. 2013;9:1214–1227. **DOI: 10.4161/auto.24870**
+
+35. Mason JA, Davison-Versagli CA, Leliaert AK, et al. **Oncogenic Ras differentially regulates metabolism and anoikis in extracellular matrix-detached cells.** *Cell Death & Differentiation*. 2016;23:1271–1282. **DOI: 10.1038/cdd.2016.15**
+
+36. Kalkavan H, Chen MJ, Crawford JC, et al. **Sublethal Cytochrome-c release generates drug-tolerant persister cells.** *Cell*. 2022;185:3356–3374.e22. **DOI: 10.1016/j.cell.2022.07.025**
+
+37. Costigan A, Hollville E, Martin SJ. **Discriminating Between Apoptosis, Necrosis, Necroptosis, and Ferroptosis by Microscopy and Flow Cytometry.** *Current Protocols*. 2023;3. **DOI: 10.1002/cpz1.951**
+
+38. Overholtzer M, Mailleux AA, Mouneimne G, et al. **A nonapoptotic cell death process, entosis, that occurs by cell-in-cell invasion.** *Cell*. 2007;131:966–979. **DOI: 10.1016/j.cell.2007.10.040**
+
+39. Ishikawa F, Ushida K, Mori K, Shibanuma M. **Loss of anchorage primarily induces non-apoptotic cell death in a human mammary epithelial cell line under atypical focal adhesion kinase signaling.** *Cell Death & Disease*. 2015;6. **DOI: 10.1038/cddis.2014.583**
+
+40. Hawk MA, Gorsuch CL, Fagan P, et al. **RIPK1-mediated induction of mitophagy compromises the viability of extracellular-matrix-detached cells.** *Nature Cell Biology*. 2018;20:272–284. **DOI: 10.1038/s41556-018-0034-2**
+
+41. Nardone G, Oliver-De La Cruz J, Vrbsky J, et al. **YAP regulates cell mechanics by controlling focal adhesion assembly.** *Nature Communications*. 2017;8. **DOI: 10.1038/ncomms15321**
+
+42. Leng C, Zhang Z, Chen WX, et al. **An integrin beta4-EGFR unit promotes hepatocellular carcinoma lung metastases by enhancing anchorage independence through activation of FAK-AKT pathway.** *Cancer Letters*. 2016;376:188–196. **DOI: 10.1016/j.canlet.2016.03.023**
+
+43. Rajkarnikar R, Monavarian M, Mythreye K. **Generation and Characterization of Adaptive Anoikis-Resistant Cells Using Cyclic Attachment-Detachment Culture of Cancer Cells.** *Bio-protocol*. 2026;16. **DOI: 10.21769/BioProtoc.5736**
+
+44. Alshiraihi IM, Kato TA. **Apoptosis Detection Assays.** *Methods in Molecular Biology*. 2022;2519:53–63. **DOI: 10.1007/978-1-0716-2433-3_6**
+
+45. Henery S, George T, Hall B, et al. **Quantitative image based apoptotic index measurement using multispectral imaging flow cytometry: a comparison with standard photometric methods.** *Apoptosis*. 2008;13:1054–1063. **DOI: 10.1007/s10495-008-0227-4**

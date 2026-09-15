@@ -36,7 +36,7 @@ server <- function(input, output, session) {
   mod_od_compare_server("od_compare")
 
   # ── Omic module (Aba Omic) ──────────────────────────────────────
-  mod_omic_server("omic")
+  mod_gene_catalog_server("gene_catalog")
 
   # ── Chat module (RCDchat tab) — standalone (context wired to V026 later) ──
   # ── Digital Molecular RCD Board (synthesis) + nested RCDome Q&A AI submodule ──
@@ -654,7 +654,5 @@ server <- function(input, output, session) {
     }
   })
 
-  # ── Body map (Home page) ──────────────────────────────────────────
-  mod_bodymap_server("bodymap", parent_session = session,
-                     disease_filter_input_id = "disease_filter")
+
 }

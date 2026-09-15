@@ -19,7 +19,6 @@ if (!nzchar(Sys.getenv("DEEPSEEK_API_KEY"))) {
 }
 
 # Ensure data directories exist
-dir.create("data/papers/Overall", showWarnings = FALSE, recursive = TRUE)
 
 # Serve RCD module static files (match reference app paths)
 addResourcePath("rcd_logos", "data/RCD modulo/logo RCDs/thumbs")
@@ -31,46 +30,20 @@ addResourcePath("see_also", "data/about/see also")
 
 # Source helpers and API wrappers (non-reactive)
 source("R/utils.R")
-source("R/pathways.R")     # get_pathways_for_gene() — lê do Excel, sem inventar
-source("R/pmc_api.R")       # build_query + search_europe_pmc
-source("R/deepseek_api.R")  # extract_claims + verify_claim
-source("R/rcd_modal.R")      # show_rcd_modal — shared RCD pop-up
-source("R/paper_manifest.R") # manifest tracking
-source("R/paper_downloader.R") # download + load papers
-source("R/organ_disease_map.R") # body map organ ⇄ disease
+source("R/pathways.R")     # get_pathways_for_gene() — from the matrix
+source("R/rcd_modal.R")    # show_rcd_modal — shared RCD pop-up
 
 # Source Shiny modules
-source("modules/mod_gene_list.R")
-source("modules/mod_gene_info.R")
-source("modules/mod_omic.R")
-source("modules/mod_live_search.R")
-source("modules/mod_signatures.R")
+source("modules/mod_gene_catalog.R")
 source("modules/mod_network.R")
 source("modules/mod_rcd_grid.R")
 source("modules/mod_od.R")
 source("modules/mod_od_compare.R")
-source("modules/mod_results.R")
 source("modules/mod_board_qa.R")
 source("modules/mod_board.R")
-source("modules/mod_bodymap.R")
 
-# Load signatures data (RDS cache — 1.2s vs 10.5s for the raw TSV)
-signatures_cache_file <- "data/signatures_cache.rds"
-signatures_tsv_file   <- "data/signatures.tsv"
-if (file.exists(signatures_cache_file) &&
-    file.info(signatures_cache_file)$mtime > file.info(signatures_tsv_file)$mtime) {
-  signatures_df <- tryCatch(readRDS(signatures_cache_file), error = function(e) NULL)
-} else {
-  signatures_df <- NULL
-}
-if (is.null(signatures_df)) {
-  signatures_df <- tryCatch({
-    read.delim(signatures_tsv_file, sep = "\t", stringsAsFactors = FALSE, check.names = FALSE)
-  }, error = function(e) {
-    data.frame(Rank = integer(0), Signature = character(0), stringsAsFactors = FALSE)
-  })
-  tryCatch(saveRDS(signatures_df, signatures_cache_file), error = function(e) NULL)
-}
+# Signatures removed (vestigial legacy module).
+signatures_df <- NULL
 
 # Load gene reference data (from omic directory) — with RDS cache
 # Fingerprint v2: sourced from the V026 matrix (the truth).

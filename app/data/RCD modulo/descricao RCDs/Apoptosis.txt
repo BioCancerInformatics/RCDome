@@ -1,0 +1,150 @@
+## Apoptosis — Mechanistic Pathway
+
+Apoptosis is a canonical form of regulated cell death in which specialized proteolytic signaling cascades dismantle a cell in a coordinated and generally non-lytic manner. In mammalian cells, apoptosis is principally initiated through two interconnected pathways: the extrinsic pathway, which begins with activation of cell-surface death receptors, and the intrinsic or mitochondrial pathway, which is activated by intracellular stresses and converges on BAX/BAK-dependent mitochondrial outer membrane permeabilization (MOMP). Both pathways ultimately activate executioner caspases, particularly caspase-3 and caspase-7, which cleave numerous structural, signaling, DNA-repair, and cytoskeletal proteins and thereby generate the characteristic biochemical and morphological features of apoptotic cell death [1–4].
+
+Apoptosis participates in embryonic development, tissue remodeling, adult tissue homeostasis, immune-cell selection, elimination of infected or damaged cells, and responses to numerous pathological stresses. It can be triggered by extracellular death ligands, DNA damage, oncogenic stress, growth-factor withdrawal, oxidative stress, endoplasmic reticulum stress, hypoxia, metabolic deprivation, toxins, radiation, and many anticancer therapies [1–5]. Despite this diversity of initiating stimuli, most apoptotic signals converge on a relatively restricted molecular machinery composed of initiator caspases, BCL-2-family proteins, mitochondrial permeabilization mechanisms, apoptosome formation, and executioner caspases.
+
+The most important mechanistic distinction between apoptosis and several other regulated cell-death modalities lies in the nature of execution. Necroptosis relies principally on RIPK3-dependent activation of MLKL and subsequent membrane disruption, pyroptosis commonly involves gasdermin pore formation, and ferroptosis results from catastrophic iron-dependent phospholipid peroxidation. By contrast, canonical apoptosis is primarily a protease-driven demolition program in which cellular components are systematically dismantled while the plasma membrane usually remains intact during most of the execution phase [1,2,4].
+
+Morphological characteristics such as cell shrinkage, chromatin condensation, membrane blebbing, phosphatidylserine exposure, DNA fragmentation, and apoptotic-body formation are strongly associated with apoptosis but are not individually sufficient to define the mechanism. Some of these events may occur in non-apoptotic contexts or may occasionally be reversible. Therefore, mechanistic demonstration of apoptosis requires evidence for activation of the apoptotic machinery rather than morphology alone [5,6].
+
+The extrinsic apoptotic pathway begins when extracellular death ligands bind members of the tumor necrosis factor receptor superfamily that contain intracellular death domains. Among the best-characterized systems are Fas ligand binding to Fas/CD95 and TRAIL binding to TRAIL receptors. Ligand engagement promotes receptor clustering and rearrangement of intracellular death domains, creating a platform for recruitment of downstream adaptor proteins [7–10].
+
+The first major intracellular event is recruitment of FADD through homotypic death-domain interactions between the activated receptor and the death domain of FADD. FADD contains an additional death-effector domain that recruits procaspase-8 molecules through death-effector-domain interactions. This produces the death-inducing signaling complex, or DISC [8–11].
+
+The DISC therefore consists functionally of activated death receptors, FADD, procaspase-8, and regulatory proteins such as cFLIP. Receptor clustering generates a highly organized molecular platform that concentrates procaspase-8 molecules sufficiently to permit proximity-induced dimerization, conformational activation, and subsequent proteolytic maturation [8–12].
+
+Modern structural studies indicate that DISC assembly is more complex than a simple receptor–FADD–caspase complex. FADD death-effector domains can nucleate higher-order assemblies that organize procaspase-8-containing filaments or chains. Within these structures, proximity between procaspase-8 molecules promotes dimerization and catalytic activation, after which autoproteolytic processing generates mature caspase-8 species capable of cleaving downstream substrates [10–12].
+
+cFLIP provides an important regulatory checkpoint at this stage. Because cFLIP resembles caspase-8 structurally but lacks equivalent protease activity, it can modify caspase-8 recruitment, filament composition, and activation at the DISC. Depending on isoform, abundance, and molecular context, cFLIP can restrain efficient caspase-8 activation and thereby protect cells from death-receptor-mediated apoptosis [3,12].
+
+Activated caspase-8 can promote apoptosis through two related mechanisms. The first is direct cleavage of executioner procaspase-3 and procaspase-7, producing active caspase-3 and caspase-7. When the DISC generates sufficiently strong caspase-8 activity, this direct pathway may be capable of driving extensive apoptotic execution without requiring strong mitochondrial amplification [3].
+
+The second mechanism connects the extrinsic pathway to the mitochondrial pathway. Caspase-8 cleaves the BH3-only protein BID, generating truncated BID, or tBID. tBID translocates to mitochondria, where it promotes BAX/BAK-dependent mitochondrial outer membrane permeabilization. Thus, death-receptor signaling can recruit the mitochondrial apoptotic machinery to amplify an initially extracellular signal [13,14].
+
+This difference historically contributed to the classification of death-receptor-responsive cells as type I or type II. Type I cells generate sufficiently strong DISC-derived caspase activity to activate executioner caspases relatively directly. Type II cells require mitochondrial amplification because direct executioner-caspase activity is restrained, frequently by inhibitor-of-apoptosis proteins such as XIAP [15]. However, this classification is not absolute, and mitochondrial involvement can remain important even in cellular systems traditionally classified as type I.
+
+The canonical extrinsic sequence can therefore be represented as death ligand → Fas/CD95 or TRAIL receptor clustering → FADD recruitment → DISC formation → procaspase-8 recruitment and dimerization → caspase-8 activation → direct caspase-3/7 activation and/or BID cleavage → tBID-mediated mitochondrial amplification → apoptotic execution.
+
+The intrinsic pathway begins with intracellular stress rather than extracellular death-receptor activation. DNA damage, oncogene activation, replication stress, growth-factor withdrawal, oxidative stress, ER stress, metabolic stress, hypoxia, and cytotoxic agents can all activate this pathway [1,2,16].
+
+One of the best-characterized initiating mechanisms involves DNA damage and p53. Under non-stressed conditions, p53 abundance and activity are strongly restrained by regulatory proteins including MDM2. DNA-damage signaling alters this regulatory network, resulting in stabilization and activation of p53 [16].
+
+Activated p53 can promote apoptosis by inducing transcription of pro-apoptotic BCL-2-family proteins, particularly the BH3-only proteins PUMA and NOXA. These proteins reduce the ability of anti-apoptotic BCL-2-family members to restrain mitochondrial apoptosis and thereby lower the threshold required for BAX and BAK activation [17,18].
+
+PUMA, NOXA, BIM, BID, BAD, BMF and related BH3-only proteins therefore function as stress-responsive upstream regulators of the mitochondrial apoptotic machinery. They convert diverse intracellular stresses into changes in the balance between pro-survival and pro-apoptotic BCL-2-family proteins.
+
+The mitochondrial decision is governed by interactions among three major functional groups of BCL-2-family proteins. Anti-apoptotic members such as BCL-2, BCL-xL and MCL-1 preserve mitochondrial outer membrane integrity. BH3-only proteins sense cellular stress and antagonize these anti-apoptotic proteins and/or facilitate activation of BAX and BAK. BAX and BAK then act as the principal pore-forming effectors responsible for MOMP [19–23].
+
+The precise physiological mechanism through which BH3-only proteins activate BAX and BAK remains an area of mechanistic debate. One model proposes that activator BH3-only proteins such as BID, BIM and PUMA directly interact with BAX or BAK and drive their conformational activation [20].
+
+An alternative model proposes that the primary role of BH3-only proteins is to neutralize anti-apoptotic BCL-2-family members such as BCL-xL and MCL-1. Once this inhibition is removed, BAX and BAK can become activated through membrane-dependent processes without requiring obligatory direct activation by an individual BH3-only ligand [21–23].
+
+These models should not be treated as completely mutually exclusive across all biological contexts. The relative importance of direct activation, derepression of BAX/BAK, mitochondrial membrane composition, and interactions among individual BCL-2-family proteins appears to vary according to cell type and apoptotic stimulus.
+
+Regardless of the precise upstream activation model, mitochondrial commitment converges on conformational activation and oligomerization of BAX and BAK at the outer mitochondrial membrane. BAX is largely cytosolic or loosely membrane associated before activation in many cells, whereas BAK is constitutively associated with mitochondria. During apoptosis, these proteins undergo major structural rearrangements and assemble into oligomeric structures capable of permeabilizing the outer mitochondrial membrane [19,24].
+
+Structural imaging has demonstrated that BAX can organize into arcs, rings, and other supramolecular assemblies surrounding large openings in the mitochondrial outer membrane. These structures appear to generate protein–lipid pores rather than conventional rigid protein channels. The precise molecular architecture of BAX/BAK pores remains incompletely resolved [24].
+
+Once BAX/BAK activity reaches a sufficient threshold, MOMP occurs. This event permits proteins located within the mitochondrial intermembrane space to escape into the cytoplasm. Among the most important released factors are cytochrome c, SMAC/DIABLO, HtrA2/Omi, apoptosis-inducing factor, and endonuclease G [19,25–28].
+
+Cytochrome c release is especially important because it provides the molecular connection between mitochondrial permeabilization and activation of the canonical intrinsic caspase cascade. However, efficient mobilization of cytochrome c can require remodeling of mitochondrial cristae in addition to formation of pores in the outer membrane.
+
+A substantial fraction of mitochondrial cytochrome c is normally located within cristae. BAX/BAK activation can stimulate the mitochondrial protease OMA1, which processes the inner-membrane fusion protein OPA1. OPA1 remodeling destabilizes crista-junction organization and facilitates mobilization of cytochrome c from cristae toward the intermembrane space, from which it can escape through BAX/BAK-dependent outer-membrane pores [29,30].
+
+Thus, efficient cytochrome c release can involve two coordinated mitochondrial events: BAX/BAK-dependent permeabilization of the outer mitochondrial membrane and OMA1–OPA1-associated remodeling of mitochondrial cristae.
+
+The mitochondrial permeability transition pore can influence apoptosis under particular stress conditions, especially certain forms of severe ER or mitochondrial stress. However, mitochondrial permeability transition should not be considered the canonical defining mechanism of intrinsic apoptosis. It is mechanistically distinct from BAX/BAK-driven MOMP and contributes in a context-dependent manner [31].
+
+Once cytochrome c reaches the cytoplasm, it binds APAF1. In the presence of ATP or dATP, this interaction induces conformational changes and oligomerization of APAF1 into the apoptosome, a large multimeric caspase-activating complex [32–34].
+
+The mature apoptosome is typically described as a heptameric APAF1 platform organized around cytochrome c. Procaspase-9 is recruited to this structure through CARD–CARD interactions between APAF1 and procaspase-9. Concentration of procaspase-9 at the apoptosome promotes its catalytic activation [32–34].
+
+Active caspase-9 then cleaves and activates the executioner procaspases-3 and -7. The intrinsic pathway can therefore be represented as cellular stress → BH3-only protein activation → neutralization of anti-apoptotic BCL-2 proteins and BAX/BAK activation → MOMP → cytochrome c release → APAF1 apoptosome formation → caspase-9 activation → caspase-3/7 activation.
+
+MOMP also releases SMAC/DIABLO and HtrA2/Omi, which reinforce caspase signaling by antagonizing inhibitor-of-apoptosis proteins. XIAP constitutes a particularly important brake because it can directly inhibit caspase-9, caspase-3 and caspase-7 [25,26,35].
+
+SMAC/DIABLO and HtrA2/Omi reduce this inhibition following mitochondrial permeabilization. Their release therefore ensures that MOMP does not simply activate the apoptosome but also removes important restraints on downstream executioner caspases, allowing the apoptotic protease cascade to become stronger and more persistent [25,26].
+
+The caspase cascade is further reinforced by feedback amplification. Caspase-3 and caspase-7 are not merely passive terminal outputs. Efficient executioner-caspase activity can reinforce upstream apoptotic signaling, increase initiator-caspase activation, and promote additional mitochondrial dysfunction [36,37].
+
+This positive feedback helps transform gradual upstream stress into a comparatively switch-like cellular response. A cell can therefore tolerate a degree of pro-apoptotic signaling while protective systems remain dominant, but once mitochondrial and caspase thresholds are exceeded, feedback amplification rapidly drives the system toward extensive execution.
+
+MOMP is consequently considered the major commitment event of canonical intrinsic apoptosis. Once widespread BAX/BAK-mediated mitochondrial permeabilization occurs, cytochrome c, SMAC, HtrA2 and other intermembrane-space proteins become available to activate or reinforce apoptotic signaling, while mitochondrial function progressively deteriorates [19,25,38].
+
+Nevertheless, MOMP is not absolutely irreversible in every conceivable cellular context. Sublethal or incomplete MOMP can involve only a fraction of the mitochondrial population, allowing limited cytochrome c release without immediate complete cell death. Such cells can survive and may acquire altered phenotypes, including drug-tolerant states [39].
+
+A broader phenomenon termed anastasis describes recovery of cells after apparently advanced apoptotic events when the initiating stimulus is removed. Experimental observations suggest that cells can occasionally recover after caspase activation, phosphatidylserine exposure, cytochrome c release, and even considerable morphological changes [40,41].
+
+These observations do not eliminate MOMP as the principal apoptotic commitment checkpoint. Rather, they show that commitment is quantitative. Extensive MOMP combined with sustained caspase-3/7 activity makes survival overwhelmingly unlikely, whereas limited mitochondrial permeabilization or transient caspase activation can occasionally remain reversible.
+
+Once executioner caspase activity becomes widespread, apoptosis enters its demolition phase. Caspase-3 is the dominant executioner in many mammalian systems, with caspase-7 providing partially overlapping functions and caspase-6 contributing to selected substrates and cellular contexts [42].
+
+The terminal apoptotic phenotype does not result from cleavage of a single protein. Instead, caspases coordinately target hundreds of substrates involved in nuclear architecture, chromatin regulation, DNA repair, cytoskeletal structure, signal transduction, adhesion, metabolism, and membrane organization.
+
+One major execution branch targets chromosomal DNA. In healthy cells, caspase-activated DNase, or CAD, is bound and inhibited by its partner ICAD/DFF45. During apoptosis, caspase-3 cleaves ICAD, releasing active CAD [43,44].
+
+CAD then enters or acts within the nucleus and cleaves chromosomal DNA preferentially within linker regions between nucleosomes, producing the characteristic internucleosomal fragmentation associated with apoptotic DNA laddering. This process contributes to chromatin condensation and nuclear fragmentation [43,44].
+
+DNA fragmentation should not, however, be interpreted as the single lethal event of apoptosis. Experimental blockade of CAD can strongly reduce apoptotic DNA fragmentation without necessarily preventing the cell from dying. CAD activity is therefore an execution subprogram downstream of the apoptotic decision rather than the universal proximate cause of death [43,44].
+
+A second major execution program remodels the actin cortex. Caspase cleavage of ROCK1 generates a constitutively active kinase fragment. Activated ROCK1 increases myosin light-chain phosphorylation and actomyosin contractility, producing the dynamic membrane blebbing characteristic of apoptosis [45].
+
+Continued actomyosin contraction, combined with cytoskeletal cleavage, contributes to cell shrinkage, cell rounding, membrane blebbing, and segmentation of cellular material into membrane-bound apoptotic bodies.
+
+Executioner caspases also cleave major structural proteins, including nuclear lamins, fodrin, vimentin, gelsolin and other components of the cytoskeleton and nuclear scaffold [42]. Destruction of these systems produces progressive collapse of nuclear and cellular architecture.
+
+A third execution branch disables cellular repair and recovery pathways. Caspases cleave proteins such as PARP and additional DNA-repair and signaling molecules. PARP cleavage prevents sustained consumption of cellular NAD+ and ATP by a repair program that is no longer useful while simultaneously eliminating a major DNA-damage response pathway.
+
+Other substrates include topoisomerases, signaling proteins, cytoskeletal regulators and transcriptional components. The cumulative result is loss of DNA-repair capacity, disruption of signal transduction, destruction of nuclear structure, collapse of cytoskeletal integrity and inability to restore cellular homeostasis [42–44].
+
+At the same time, MOMP progressively compromises mitochondrial physiology. Mitochondrial membrane potential declines, oxidative phosphorylation becomes impaired, ATP availability falls, and further feedback between mitochondria and activated caspases reinforces cellular collapse [46].
+
+The proximate cause of apoptotic loss of viability is therefore not catastrophic plasma-membrane rupture, lipid peroxidation, or osmotic explosion. It is the combined failure of essential cellular systems produced by executioner-caspase proteolysis together with MOMP-associated mitochondrial dysfunction.
+
+This distinction explains why the plasma membrane generally remains intact through much of canonical apoptosis. Instead of immediately releasing intracellular contents, apoptotic cells package cellular material into membrane-bound structures that can be recognized and removed by neighboring cells or professional phagocytes.
+
+A particularly important surface change is redistribution of phosphatidylserine from the inner to the outer leaflet of the plasma membrane. Externalized phosphatidylserine functions as an engulfment signal that facilitates recognition of apoptotic cells and apoptotic bodies by phagocytic cells.
+
+Efficient clearance, or efferocytosis, prevents uncontrolled release of intracellular damage-associated molecules and contributes to the characteristically low inflammatory profile of physiological apoptosis. When clearance is delayed, apoptotic cells may eventually undergo secondary membrane breakdown, but secondary lysis is not the primary execution mechanism of apoptosis.
+
+The morphological progression of canonical apoptosis therefore consists of cell shrinkage, loss of adhesion, chromatin condensation, nuclear margination and fragmentation, membrane blebbing, formation of apoptotic bodies, phosphatidylserine exposure and eventual phagocytic clearance. These features arise downstream of the molecular execution machinery and should not be used independently to assign the mechanism.
+
+Several protective systems regulate the apoptotic threshold before commitment occurs. In extrinsic apoptosis, cFLIP restrains caspase-8 activation at the DISC. Post-translational regulation of FADD can also alter DISC formation; for example, CHIP-dependent K6-linked polyubiquitylation of FADD can inhibit efficient death-inducing complex assembly [12,47].
+
+At mitochondria, BCL-2, BCL-xL and MCL-1 constitute central protective factors. These proteins preserve mitochondrial outer membrane integrity by binding pro-apoptotic BH3-only proteins and/or restraining BAX and BAK [19–23].
+
+The relative dependence on individual anti-apoptotic BCL-2 proteins varies among tissues and cellular states. In a cell primarily dependent on BCL-xL, for example, neutralization of BCL-xL can substantially lower the threshold for MOMP. Other cells may depend more strongly on MCL-1 or BCL-2.
+
+This principle explains the effectiveness of BH3 mimetics in selected cancers. These compounds inhibit individual anti-apoptotic BCL-2-family proteins and thereby release pre-existing mitochondrial apoptotic pressure. If sufficient BH3-only activity is already present, neutralization of the dominant pro-survival proteins can permit BAX/BAK activation and trigger MOMP.
+
+XIAP represents another protective checkpoint downstream of mitochondria. Even after cytochrome c has triggered apoptosome formation, XIAP can suppress caspase-9 and executioner caspases. Release of SMAC and HtrA2 during MOMP reduces this restraint and helps ensure efficient completion of apoptosis [25,26,35].
+
+Apoptotic pathways also interact extensively with other forms of regulated cell death. Caspase-8 occupies a particularly important position at the interface between apoptosis and necroptosis. In addition to initiating extrinsic apoptosis, active caspase-8 suppresses formation or activity of RIPK1–RIPK3-dependent necroptotic signaling complexes [3,48].
+
+Consequently, death-receptor stimulation in a cell with functional caspase-8 can favor apoptosis, whereas inhibition or loss of caspase-8 can permit RIPK3 activation, MLKL phosphorylation and necroptosis. Caspase-8 therefore operates as an important molecular switch determining the outcome of several death-receptor pathways [48].
+
+Apoptosis can also transition toward pyroptotic or other lytic outputs when apoptotic caspases cleave specific gasdermins. In selected contexts, caspase-3 or caspase-8 can activate gasdermin-family proteins, converting an initially apoptotic signaling program into a membrane-permeabilizing phenotype [49,50]. This represents pathway crosstalk rather than canonical apoptosis.
+
+Mitochondrial proteins AIF and ENDOG provide another layer of complexity. Both can be released following mitochondrial permeabilization and have been associated with caspase-independent nuclear changes and DNA degradation [51,52]. However, they should be considered accessory or alternative mitochondrial death effectors rather than the central execution machinery of canonical mammalian apoptosis, which is dominated by apoptosome formation and executioner caspases.
+
+Experimentally, apoptosis is most convincingly demonstrated through causal perturbation of its machinery. Extrinsic apoptosis should display dependence on relevant death receptors, FADD or caspase-8 when those components initiate the pathway. Intrinsic apoptosis should exhibit dependence on BAX/BAK-mediated MOMP, cytochrome c–APAF1 signaling and caspase-9 [32–34,53].
+
+Execution can be evaluated through activation or cleavage of caspase-3 and caspase-7 and through characteristic substrate cleavage, including PARP and ICAD. Genetic deletion or effective inhibition of caspase-3/7 can markedly reduce efficient apoptotic demolition, demonstrating that these proteases are causal execution components rather than simply biomarkers [36,42].
+
+Cytochrome c redistribution from mitochondria to the cytoplasm provides direct evidence for MOMP-associated signaling. DISC immunoprecipitation and measurement of procaspase-8 processing can establish extrinsic pathway initiation, while apoptosome-dependent caspase-9 activation can establish intrinsic pathway propagation.
+
+Annexin V staining is useful for detecting phosphatidylserine exposure, and combination with membrane-impermeant dyes can distinguish early membrane-intact populations from later membrane-compromised cells. TUNEL and related assays can detect DNA fragmentation, while microscopy reveals cell shrinkage, chromatin condensation, blebbing and apoptotic-body formation.
+
+However, no single one of these measurements is sufficient to prove completed apoptosis. Annexin V positivity, TUNEL staining, caspase activity and individual morphological features can sometimes occur transiently or in non-classical contexts [5,6]. The strongest experimental classification therefore combines pathway-specific molecular perturbation with several independent biochemical and morphological readouts.
+
+The canonical extrinsic apoptotic sequence can be summarized as FasL, TRAIL or another death-receptor ligand → receptor clustering → FADD recruitment → DISC assembly → procaspase-8 dimerization and activation → caspase-8-mediated activation of caspase-3/7 and/or cleavage of BID → tBID-mediated activation of mitochondrial BAX/BAK → MOMP → mitochondrial amplification → sustained executioner-caspase activation → proteolytic cellular dismantling → apoptotic death.
+
+The canonical intrinsic sequence can be summarized as DNA damage, oxidative stress, ER stress, oncogenic stress, nutrient deprivation, growth-factor withdrawal or cytotoxic injury → activation of stress-responsive pathways such as p53 → induction or activation of BH3-only proteins including PUMA, NOXA, BIM and related factors → neutralization of BCL-2/BCL-xL/MCL-1 and activation of BAX/BAK → BAX/BAK oligomerization and MOMP → OMA1/OPA1-associated crista remodeling and release of cytochrome c and additional mitochondrial proteins → cytochrome c binding to APAF1 → apoptosome assembly → caspase-9 activation → caspase-3/7 activation → caspase-mediated nuclear, cytoskeletal, signaling and repair-system destruction → apoptotic death.
+
+The most integrated mechanistic sequence is therefore extracellular death-receptor stimulation or intracellular cellular stress → activation of caspase-8 or BH3-only/BCL-2-family signaling → direct executioner-caspase activation and/or BAX/BAK-dependent MOMP → cytochrome c, SMAC and other mitochondrial protein release → APAF1 apoptosome formation and relief of XIAP-mediated caspase inhibition → caspase-9 and caspase-3/7 activation → positive feedback amplification → ICAD cleavage and CAD activation, ROCK1 activation, cleavage of PARP, lamins and cytoskeletal proteins, mitochondrial energetic deterioration, cell shrinkage, chromatin condensation, membrane blebbing and apoptotic-body formation → phosphatidylserine-dependent clearance → irreversible loss of cellular viability.
+
+Thus, apoptosis is fundamentally a regulated proteolytic demolition program rather than a primary membrane-destruction process. Death receptors and FADD–caspase-8 complexes define the canonical extrinsic route, whereas the BH3-only/BCL-2/BAX/BAK network and MOMP define the mitochondrial route. Cytochrome c–APAF1–caspase-9 signaling links mitochondrial permeabilization to the executioner proteases, and caspase-3/7 then dismantle the cell through multiple coordinated biochemical modules. MOMP remains the strongest classical commitment point of intrinsic apoptosis, although sublethal MOMP and anastasis demonstrate that apoptotic commitment can be quantitative rather than absolutely binary. The major unresolved mechanistic questions now concern the precise molecular organization of BAX/BAK membrane pores, the relative contribution of competing models of BAX/BAK activation, and the conditions that determine whether an apoptotic signal remains apoptotic or is redirected toward necroptotic, pyroptotic or other regulated cell-death programs.
+
+
+

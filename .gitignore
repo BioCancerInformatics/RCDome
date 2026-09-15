@@ -24,3 +24,7 @@ docs/decoder/*.zip
 .Renviron
 email_creds.txt
 .env
+
+# internal communications — never commit
+comms/
+docs/decoder/email_resposta_victor_curadoria.*

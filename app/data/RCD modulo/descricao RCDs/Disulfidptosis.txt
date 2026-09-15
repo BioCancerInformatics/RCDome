@@ -1,0 +1,1 @@
+Disulfidoptose: condição na qual a expressão anormal de SLC7A11 sob privação de glicose causa acúmulo de dissulfetos e estresse celular, levando à morte celular. É desencadeada pelo acúmulo de dissulfetos e se sobrepõe às vias de estresse oxidativo. Representa uma área emergente voltada para explorar vulnerabilidades metabólicas de células cancerosas sob estresse nutricional.

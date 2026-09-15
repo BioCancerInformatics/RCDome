@@ -1,0 +1,208 @@
+# Regulated Cell Death Mechanism: [PATHWAY NAME]
+
+Provide a comprehensive, mechanistically detailed, evidence-based description of **[PATHWAY NAME]**, reconstructing the process from the earliest initiating signal to the final irreversible death of the cell.
+
+The objective is to explain **how the cell dies as a continuous molecular cause-and-effect sequence**, not merely to list genes, proteins, biomarkers, morphological features, or associated pathways.
+
+Base the answer on peer-reviewed primary studies, authoritative reviews, and established regulated cell death consensus. Prioritize recent evidence when it updates previous models, but include landmark discoveries when necessary. Clearly distinguish established mechanisms, context-dependent findings, hypotheses, and controversies.
+
+## 1. Definition and classification
+
+Define **[PATHWAY NAME]** and explain:
+
+* what distinguishes it from other regulated cell death mechanisms;
+* whether it is an established modality, subtype, or emerging/proposed mechanism;
+* its accepted biological definition and main diagnostic criteria;
+* the biological contexts in which it occurs.
+
+Separate mechanistically defining features from associated biomarkers or morphology.
+
+## 2. Initiating signals and sensing
+
+Describe the earliest extracellular or intracellular stimuli that can initiate **[PATHWAY NAME]**.
+
+Include, when relevant, receptor ligands, cellular or oxidative stress, DNA damage, infection, immune signaling, metabolic perturbation, nutrient deprivation, organelle dysfunction, mechanical stress, ion imbalance, and toxic stimuli.
+
+For each major trigger, explain **how the cell senses it** and how the stimulus connects molecularly to downstream death signaling.
+
+Use:
+**trigger → sensor/receptor → first intracellular signaling event.**
+
+## 3. Pathway initiation and propagation
+
+Trace the mechanism step by step after sensing.
+
+Identify the important receptors, adaptor proteins, enzymes, kinases/phosphatases, proteases, transcription factors, metabolites, lipids, ions, organelles, and multiprotein complexes.
+
+For each major component explain:
+
+* what activates or inhibits it;
+* its molecular function;
+* relevant post-translational modifications;
+* changes in localization, oligomerization, or complex formation;
+* substrates or interacting partners;
+* immediate downstream consequence.
+
+Do not state that a protein simply “regulates” the pathway. Explain **what it physically or biochemically does**.
+
+## 4. Molecular complexes and biochemical reactions
+
+Describe the central molecular complexes or biochemical reactions required for the pathway.
+
+For each one explain:
+
+* composition;
+* cellular location;
+* trigger for assembly or activation;
+* biochemical activity;
+* substrates or targets;
+* how the reaction advances the cell toward death.
+
+If multiple complexes form sequentially, describe their chronological and causal relationship.
+
+## 5. Regulatory checkpoints and protective systems
+
+Identify mechanisms that normally prevent inappropriate activation of **[PATHWAY NAME]**, including relevant endogenous inhibitors, anti-death proteins, antioxidant systems, metabolic defenses, repair systems, degradation pathways, and feedback loops.
+
+For each, explain:
+
+**protective factor → molecular target → inhibitory mechanism → consequence of failure.**
+
+State whether loss of the protective mechanism directly triggers death or only sensitizes the cell.
+
+## 6. Commitment and reversibility
+
+Identify the known or proposed **point of no return**.
+
+Explain:
+
+* which stages represent reversible stress or pathway activation;
+* which events represent commitment to death;
+* evidence that cells can or cannot recover after these events;
+* genetic or pharmacological interventions that rescue cells before or after commitment.
+
+If no single commitment point is known, state this explicitly.
+
+## 7. Execution phase
+
+Describe the execution phase in greatest mechanistic detail.
+
+Answer:
+
+**What molecular process physically causes the cell to lose viability in [PATHWAY NAME]?**
+
+Explain sequentially all relevant events, such as plasma membrane permeabilization or rupture, pore formation, proteolysis, mitochondrial dysfunction, ATP depletion, metabolic collapse, lipid peroxidation, ROS accumulation, ion dysregulation, osmotic imbalance, lysosomal or ER damage, DNA/chromatin alterations, cytoskeletal collapse, and organelle failure.
+
+Include only processes supported for this mechanism and explain how one event causes the next.
+
+## 8. Terminal cause of death
+
+Explicitly identify the **proximate cause of cellular death**.
+
+Explain what ultimately makes recovery impossible.
+
+Distinguish:
+
+* molecular execution mechanism;
+* irreversible loss of homeostasis;
+* morphological consequences;
+* biomarkers;
+* events occurring after commitment or death.
+
+Clarify whether the terminal event is membrane rupture, catastrophic lipid damage, proteolytic dismantling, energetic failure, osmotic collapse, organelle failure, or another mechanism.
+
+## 9. Morphological progression
+
+Describe morphology chronologically and connect each feature to its molecular cause:
+
+**healthy cell → early response → commitment → execution → terminal morphology.**
+
+Include relevant features such as swelling or shrinkage, membrane blebbing, chromatin condensation, nuclear fragmentation, vacuolization, mitochondrial or other organelle changes, apoptotic bodies, and membrane rupture.
+
+State which features are characteristic and which are shared with other death mechanisms.
+
+## 10. Canonical and alternative routes
+
+If more than one molecular route leads to **[PATHWAY NAME]**, describe each separately using:
+
+**trigger → sensor → signaling intermediates → molecular complex/reaction → executioner → terminal event.**
+
+Explain where routes diverge and converge and whether they are cell-type-, stimulus-, or context-dependent.
+
+Use “canonical” or “non-canonical” only when supported by the literature.
+
+## 11. Crosstalk with other regulated cell death mechanisms
+
+Describe experimentally demonstrated crosstalk with other death modalities.
+
+Focus on shared signaling proteins, enzymes, metabolites, organelles, stress responses, or execution machinery.
+
+For each connection, specify whether it represents pathway switching, shared upstream signaling, shared execution machinery, reciprocal inhibition, or simultaneous activation.
+
+Do not treat correlation or co-occurrence as mechanistic crosstalk.
+
+## 12. Experimental evidence
+
+Explain how researchers demonstrate that death occurs specifically through **[PATHWAY NAME]**.
+
+Discuss the strongest relevant approaches, including:
+
+* genetic knockout/knockdown;
+* gain-of-function;
+* pathway-specific inhibitors;
+* rescue experiments;
+* biochemical assays;
+* microscopy;
+* membrane integrity assays;
+* organelle-specific assays;
+* metabolomics, lipidomics, or proteomics when relevant.
+
+Explain which experiments distinguish this pathway from alternative death mechanisms.
+
+Separate causal evidence from biomarkers and morphology.
+
+## 13. Molecular hierarchy
+
+Classify the principal molecules as:
+
+1. **Initiators/sensors** – detect the stimulus.
+2. **Signal transducers** – propagate signaling.
+3. **Core machinery** – required molecular components.
+4. **Executioners** – directly produce lethal damage.
+5. **Negative regulators/protective factors** – suppress the pathway.
+6. **Biomarkers** – indicate activation but may not be causal.
+7. **Context-dependent regulators** – important only in specific systems.
+
+For every core molecule, state its precise mechanistic role.
+
+## 14. Final integrated mechanistic sequence
+
+Conclude with one continuous chronological causal chain:
+
+**Initiating stimulus
+→ cellular sensor/receptor
+→ proximal signaling
+→ molecular complex or biochemical reaction
+→ amplification/regulatory events
+→ commitment to death
+→ executioner mechanism
+→ structural/metabolic failure
+→ irreversible loss of cellular homeostasis
+→ cell death.**
+
+This final sequence must be detailed enough to be converted directly into a **scientific pathway diagram, mechanistic figure, or biological animation**.
+
+## Evidence standards
+
+Throughout the answer:
+
+* cite major mechanistic claims;
+* prioritize primary experimental evidence;
+* distinguish established facts from proposed mechanisms;
+* identify unresolved or controversial steps;
+* do not infer causality from gene-expression correlations alone;
+* state when evidence is species-, cell-type-, or stimulus-specific;
+* prioritize mammalian and human evidence when available;
+* do not describe biomarkers as causal machinery without experimental support.
+
+The final objective is to reconstruct **[PATHWAY NAME] from the first biological signal to the physical and irreversible death of the cell, explaining every major causal molecular step in between**.

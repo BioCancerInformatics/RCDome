@@ -1,0 +1,41 @@
+1. Chen L, Min J, Wang F. **Copper homeostasis and cuproptosis in health and disease.** *Signal Transduction and Targeted Therapy*. 2022;7. **DOI: 10.1038/s41392-022-01229-y**
+
+2. Li S, Bu L, Cai L. **Cuproptosis: lipoylated TCA cycle proteins-mediated novel cell death pathway.** *Signal Transduction and Targeted Therapy*. 2022;7:1254–1261. **DOI: 10.1038/s41392-022-01014-x**
+
+3. Hsiao J, Warui DM, Kwon JJ, et al. **Deep Mutational Scanning of FDX1 Identifies Key Structural Determinants of Lipoylation and Cuproptosis.** *Nature Communications*. 2025. **DOI: 10.1038/s41467-025-67869-0**
+
+4. Jiao Y, Wang H, Zhu M, et al. **Copper-induced cell death mechanisms and their role in the tumor microenvironment.** *Frontiers in Cell Death*. 2025. **DOI: 10.3389/fceld.2025.1628470**
+
+5. Hao Q, Gan Y, Zhou X. **Tackling cuproptosis: from metabolic rewiring to therapeutic exploitation in cancer.** *Cellular and Molecular Immunology*. 2026;23:239–260. **DOI: 10.1038/s41423-026-01387-x**
+
+6. Xie J, Yang Y, Gao Y, He J. **Cuproptosis: mechanisms and links with cancers.** *Molecular Cancer*. 2023;22. **DOI: 10.1186/s12943-023-01732-y**
+
+7. Liu W, Lin W, Yan L, Xu W, Yang J. **Copper homeostasis and cuproptosis in cancer immunity and therapy.** *Immunological Reviews*. 2023;321:211–227. **DOI: 10.1111/imr.13276**
+
+8. Lu Y, Wu Y, Yang C, et al. **Ferredoxins: master regulators in mitochondrial redox homeostasis and programmed cell death.** *Redox Biology*. 2025;88. **DOI: 10.1016/j.redox.2025.103930**
+
+9. Song XH, Ding Y, Chen JS. **Tumor glucose reprogramming suppresses cuproptosis: A review.** *Biomolecules and Biomedicine*. 2025;26:251–261. **DOI: 10.17305/bb.2025.12751**
+
+10. Zhang C, Huang T, Li L. **Targeting cuproptosis for cancer therapy: mechanistic insights and clinical perspectives.** *Journal of Hematology & Oncology*. 2024;17. **DOI: 10.1186/s13045-024-01589-8**
+
+11. Xiong C, Ling H, Hao Q, Zhou X. **Cuproptosis: p53-regulated metabolic cell death?** *Cell Death & Differentiation*. 2023;30:876–884. **DOI: 10.1038/s41418-023-01125-0**
+
+12. Wang W, Lu K, Jiang X, et al. **Ferroptosis inducers enhanced cuproptosis induced by copper ionophores in primary liver cancer.** *Journal of Experimental & Clinical Cancer Research*. 2023;42. **DOI: 10.1186/s13046-023-02720-2**
+
+13. Wang S, Zhang J, Zhou Y. **Cuproptosis: Biomarkers, Mechanisms and Treatments in Diseases.** *Molecules*. 2026;31. **DOI: 10.3390/molecules31030394**
+
+14. Xiong C, Ling H, Hao Q, Zhou X. **Cuproptosis: p53-regulated metabolic cell death?** *Cell Death & Differentiation*. 2023;30:876–884. **DOI: 10.1038/s41418-023-01125-0**
+
+15. Lv D, Yu Y. **Copper-Induced Cell Death in Renal Diseases: Molecular Mechanisms and Therapeutic Implications.** *Drug Design, Development and Therapy*. 2025;19:11849–11861. **DOI: 10.2147/DDDT.S562664**
+
+16. Lei G, Lu Z, Xu Z, et al. **Cuproptosis-immunity crosstalk informs strategy to overcome immunotherapy resistance.** *Cell*. 2026. **DOI: 10.1016/j.cell.2026.05.036**
+
+17. Luo Y, Luo X, Ru Y, et al. **Copper(II)-Based Nano-Regulator Correlates Cuproptosis Burst and Sequential Immunogenic Cell Death for Synergistic Cancer Immunotherapy.** *Biomaterials Research*. 2024;28. **DOI: 10.34133/bmr.0039**
+
+18. Trivedi A, Bakhasha J, Saxena V, et al. **Understanding cuproptosis through FDX1-mediated lipoylation and proteotoxic stress in Channa punctatus.** *Journal of Hazardous Materials Advances*. 2025. **DOI: 10.1016/j.hazadv.2025.100788**
+
+19. Zhong G, Li L, Li Y, et al. **Cuproptosis is involved in copper-induced hepatotoxicity in chickens.** *Science of the Total Environment*. 2023. **DOI: 10.1016/j.scitotenv.2023.161458**
+
+20. Tsvetkov P, Bick NR, Dreishpoon MB, Warui DM, Kanarek N, Santagata S, Booker SJ, Golub TR. **Mechanisms regulating copper-dependent cell death.** *Journal of Biological Chemistry*. 2024. **DOI: 10.1016/j.jbc.2024.106499**
+
+21. Zhao R, Sukocheva O, Tse E, et al. **Cuproptosis, the novel type of oxidation-induced cell death in thoracic cancers: can it enhance the success of immunotherapy?** *Cell Communication and Signaling*. 2024;22. **DOI: 10.1186/s12964-024-01743-2**
