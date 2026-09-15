@@ -1,0 +1,227 @@
+"""
+phase3b_p2.py — Phase 3B P2 Production Runner (14 forms, 25-99 genes each).
+
+Configuration:
+  maxResults = 1000 per search (Pro plan ceiling), 4 searches per form.
+  Extraction = 6 governed columns (generate: False).
+  Governance  = HGNC + allow-list (parse_elicit_response) + post-export rules.
+
+Output per form (43-column matrix schema) saved to phase3b_p2_output/.
+Progress saved after EVERY form (resume-safe, nohup-safe).
+
+Audit per form: papers screened, governed records, unique genes, roles.
+"""
+import csv, os, json, time, io, subprocess, urllib.request
+from collections import Counter, defaultdict
+from datetime import datetime
+
+import channel_e_elicit_extract as ce   # production (maxResults=1000)
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MATRIX_FILE = '/mnt/sharefiles/medina/students/aluno0549-6/RCDome/output databases/unified_gene_rcd_matrix_V014.csv'
+OUTPUT_DIR = os.path.join(BASE_DIR, 'phase3b_p2_output')
+PROGRESS_FILE = os.path.join(OUTPUT_DIR, 'phase3b_p2_progress.json')
+COMBINED_FILE = os.path.join(OUTPUT_DIR, 'phase3b_p2_combined.csv')
+
+# P2 forms (25-99 unique genes), sorted descending by gene count — verified V014.
+P2_FORMS = [
+    'Efferocytosis', 'Entosis', 'Cuproptosis', 'Phagoptosis',
+    'MPT-driven necrosis', 'Aponecrosis', 'Mitochondrial permeability transition',
+    'PANoptosis', 'Lysosomal cell death', 'NETosis', 'Metalloptosis',
+    'Lysoptosis', 'Floatptosis', 'NECSO',
+]
+
+# 43-column schema (V014)
+MATRIX_COLUMNS = [
+    'gene_symbol', 'rcd_form', 'rcd_form_canonical', 'rcdome_level',
+    'rcdome_level_name', 'source_databases', 'source_channels', 'num_sources',
+    'evidence_quality', 'evidence_types', 'pmid_list', 'confidence_score',
+    'confidence_tier', 'uniprot_id', 'ensembl_id', 'cancer_gene_type',
+    'rcd_gene_type', 'role_direction', 'required_for_death', 'evidence_type',
+    'gene_symbol_status', 'gene_biotype', 'evidence_tier',
+    'evidence_basis', 'llm_status', 'llm_pmids', 'llm_evidence_force',
+    'mechanistic_class', 'epmc_hits', 'epmc_status', 'epmc_pmids',
+    'phase2c_mechanistic_class', 'elicit_pmids', 'elic_onto_rcd_id',
+    'elic_onto_rcd_name', 'elic_onto_inventory', 'elic_onto_rcd_type',
+    'elic_onto_parent_rcd_id', 'elic_onto_relationship',
+    'elic_onto_ontology_status', 'elic_onto_operational_note',
+    'rodr_category', 'rodr_core_mechanism', 'rodr_key_molecules',
+    'rodr_primary_refs', 'rodr_secondary_refs',
+]
+
+FORM_LEVEL_COLS = [
+    'rcdome_level', 'rcdome_level_name',
+    'elic_onto_rcd_id', 'elic_onto_rcd_name', 'elic_onto_inventory',
+    'elic_onto_rcd_type', 'elic_onto_parent_rcd_id', 'elic_onto_relationship',
+    'elic_onto_ontology_status', 'elic_onto_operational_note',
+    'rodr_category', 'rodr_core_mechanism', 'rodr_key_molecules',
+    'rodr_primary_refs', 'rodr_secondary_refs',
+]
+
+def log(msg):
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] {msg}", flush=True)
+
+def load_matrix():
+    """Load V014 matrix: rows + form-level attribute lookup + allow-lists."""
+    rows = list(csv.DictReader(open(MATRIX_FILE, encoding='utf-8-sig')))
+    form_attrs = {}
+    allow_lists = defaultdict(set)
+    for r in rows:
+        form = r['rcd_form_canonical']
+        if form not in form_attrs:
+            form_attrs[form] = {c: r.get(c, '') for c in FORM_LEVEL_COLS}
+        allow_lists[form].add(r['gene_symbol'])
+    return rows, form_attrs, allow_lists
+
+def load_progress():
+    if os.path.exists(PROGRESS_FILE):
+        with open(PROGRESS_FILE) as f:
+            return json.load(f)
+    return {'completed': {}, 'started_at': datetime.now().isoformat()}
+
+def save_progress(progress):
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    with open(PROGRESS_FILE, 'w') as f:
+        json.dump(progress, f, indent=2)
+
+def apply_post_export(records):
+    """Role normalization + EXECUTOR validation (no dedup removal)."""
+    log_out = []
+    for r in records:
+        role = r.get('rcd_gene_type', '')
+        if role in ('SENSITIZER', 'RESISTANCE', 'PROTECTIVE'):
+            r['rcd_gene_type'] = 'REGULATOR'
+            log_out.append(('NORMALIZED', role, r['gene_symbol']))
+        if role == 'EXECUTOR' and r.get('required_for_death', '') != 'YES':
+            r['rcd_gene_type'] = 'REGULATOR'
+            log_out.append(('DOWNGRADED', 'EXECUTOR', r['gene_symbol']))
+    return records, log_out
+
+def fill_43_columns(records, form, form_attrs):
+    """Map parse output to the full 43-column schema."""
+    out = []
+    for r in records:
+        row = {c: '' for c in MATRIX_COLUMNS}
+        # Core from parse
+        for k, v in r.items():
+            if k in MATRIX_COLUMNS:
+                row[k] = v
+        # Form-level attributes
+        for c in FORM_LEVEL_COLS:
+            row[c] = form_attrs.get(form, {}).get(c, '')
+        # rcd_form / rcd_form_canonical
+        row['rcd_form'] = form
+        row['rcd_form_canonical'] = form
+        # Elicit PMIDs = DOI-resolved PMID
+        row['elicit_pmids'] = row['pmid_list']
+        out.append(row)
+    return out
+
+def process_form(form, form_attrs, hgnc_symbols, hgnc_enrich):
+    """Full pipeline for one form. Returns (records_43col, audit)."""
+    log(f"=== {form} ===")
+    sid = ce.call_elicit(form)
+    if not sid:
+        log(f"  FAIL: no session"); return [], {'error': 'no_session'}
+    log(f"  session={sid}")
+
+    resp, csv_data = ce.poll_elicit(sid, max_wait=3600)
+    if not csv_data:
+        log(f"  FAIL: no CSV"); return [], {'error': 'no_csv'}
+
+    # Save raw CSV
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    raw_path = os.path.join(OUTPUT_DIR, f'{form.replace(" ", "_").replace("(", "").replace(")", "")}_raw.csv')
+    with open(raw_path, 'w', encoding='utf-8') as f:
+        f.write(csv_data)
+
+    rows = list(csv.DictReader(io.StringIO(csv_data)))
+    papers = len(set(r.get('Title', '').strip() for r in rows if r.get('Title', '').strip()))
+
+    records = ce.parse_elicit_response(csv_data, hgnc_symbols, hgnc_enrich, form)
+    records, log_out = apply_post_export(records)
+    records43 = fill_43_columns(records, form, form_attrs)
+
+    # Save per-form governed CSV
+    form_path = os.path.join(OUTPUT_DIR, f'{form.replace(" ", "_").replace("(", "").replace(")", "")}_governed.csv')
+    with open(form_path, 'w', encoding='utf-8', newline='') as f:
+        w = csv.DictWriter(f, fieldnames=MATRIX_COLUMNS)
+        w.writeheader(); w.writerows(records43)
+
+    unique_genes = set(r['gene_symbol'] for r in records43)
+    roles = Counter(r['rcd_gene_type'] for r in records43)
+
+    audit = {
+        'papers': papers,
+        'rows': len(rows),
+        'records': len(records43),
+        'unique_genes': len(unique_genes),
+        'roles': dict(roles),
+        'post_export_actions': len(log_out),
+        'raw_csv': os.path.basename(raw_path),
+        'governed_csv': os.path.basename(form_path),
+    }
+    log(f"  papers={papers} records={len(records43)} genes={len(unique_genes)} actions={len(log_out)}")
+    return records43, audit
+
+def main():
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    rows, form_attrs, allow_lists = load_matrix()
+    log(f"Matrix loaded: {len(rows)} rows, {len(form_attrs)} forms")
+
+    hgnc_symbols, hgnc_enrich = ce.load_hgnc()
+    log(f"HGNC loaded: {len(hgnc_symbols)}")
+
+    progress = load_progress()
+    log(f"Already completed: {len(progress['completed'])} forms")
+
+    all_records = []
+    consecutive_failures = 0
+    for form in P2_FORMS:
+        # Skip only SUCCESSFUL forms; retry failed/errored forms
+        prev = progress['completed'].get(form)
+        if prev and 'error' not in prev and 'records' in prev:
+            log(f"SKIP {form} (done: {prev.get('records', 0)} records)")
+            continue
+        if form not in form_attrs:
+            log(f"SKIP {form} (not in matrix)"); continue
+        try:
+            records, audit = process_form(form, form_attrs, hgnc_symbols, hgnc_enrich)
+        except Exception as e:
+            audit = {'error': str(e)[:200]}
+            records = []
+            log(f"  ERROR {form}: {e}")
+        if 'error' in audit:
+            consecutive_failures += 1
+            if consecutive_failures >= 3:
+                log("")
+                log("=" * 70)
+                log(f"RUN HALTED — 3 consecutive form failures (last error: {audit.get('error', 'unknown')}).")
+                log("Progress is saved. Re-run to resume from the first failed form:")
+                log("  nohup python3 -u phase3b_p2.py >> phase3b_p2.log 2>&1 &")
+                log("=" * 70)
+                break
+        else:
+            consecutive_failures = 0
+        progress['completed'][form] = audit
+        progress['completed'][form]['finished_at'] = datetime.now().isoformat()
+        save_progress(progress)
+        all_records.extend(records)
+        log(f"  Saved progress ({len(progress['completed'])}/{len(P2_FORMS)})")
+
+    # Combined output
+    if all_records:
+        with open(COMBINED_FILE, 'w', encoding='utf-8', newline='') as f:
+            w = csv.DictWriter(f, fieldnames=MATRIX_COLUMNS)
+            w.writeheader(); w.writerows(all_records)
+        log(f"Combined output: {COMBINED_FILE} ({len(all_records)} records)")
+
+    # Audit summary
+    log("\n=== PHASE 3B P2 AUDIT SUMMARY ===")
+    for form in P2_FORMS:
+        a = progress['completed'].get(form, {})
+        if 'papers' in a:
+            log(f"  {form}: papers={a['papers']} records={a['records']} genes={a['unique_genes']}")
+
+if __name__ == '__main__':
+    main()
