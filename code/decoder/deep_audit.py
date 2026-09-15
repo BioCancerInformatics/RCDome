@@ -116,7 +116,7 @@ for r in ws.iter_rows(min_row=2, values_only=True):
     if r[1] is not None:
         s1a_names.append(str(r[1]).strip())
 aligned = all((CANON_EXPECT.get(n, n)) in set(df["rcd_form"]) for n in s1a_names)
-check("all 25 S1A names resolve to a matrix canonical entity", aligned)
+check("all 25 S1A names resolve to a matrix canonicalized entity", aligned)
 matrix_entities = set(df["rcd_form"])
 check("25 Rodrigues rows present in decoder", int(R.sum()) == 25)
 
