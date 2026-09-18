@@ -275,7 +275,7 @@ mod_chat_server <- function(id, context_reactive) {
         if (is_user) {
           tags$div(
             class = "rcdchat-row rcdchat-row-user",
-            tags$div(class = "rcdchat-bubble-user", HTML(gsub("\n", "<br>", m$content)))
+            tags$div(class = "rcdchat-bubble-user", HTML(gsub("\n", "<br>", htmltools::htmlEscape(m$content))))
           )
         } else {
           tags$div(
@@ -287,7 +287,7 @@ mod_chat_server <- function(id, context_reactive) {
                 tags$span(class = "dot"), tags$span(class = "dot"), tags$span(class = "dot")
               )
             } else {
-              tags$div(class = "rcdchat-assistant-text", HTML(gsub("\n", "<br>", m$content)))
+              tags$div(class = "rcdchat-assistant-text", HTML(gsub("\n", "<br>", htmltools::htmlEscape(m$content))))
             }
           )
         }

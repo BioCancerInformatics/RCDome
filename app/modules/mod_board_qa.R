@@ -424,7 +424,7 @@ mod_board_qa_server <- function(id, board_reactive, pending_query = NULL) {
         if (is_user) {
           tags$div(
             class = "rcdchat-row rcdchat-row-user",
-            tags$div(class = "rcdchat-bubble-user", HTML(gsub("\n", "<br>", m$content)))
+            tags$div(class = "rcdchat-bubble-user", HTML(gsub("\n", "<br>", htmltools::htmlEscape(m$content))))
           )
         } else {
           tags$div(
@@ -440,7 +440,7 @@ mod_board_qa_server <- function(id, board_reactive, pending_query = NULL) {
                 style = "flex:1; min-width:0;",
                 tags$div(id = mid, class = "rcdchat-assistant-text",
                          `data-query` = htmltools::htmlEscape(q),
-                         HTML(gsub("\n", "<br>", m$content))),
+                         HTML(gsub("\n", "<br>", htmltools::htmlEscape(m$content)))),
                 tags$button(
                   class = "btn rcdchat-copy-btn",
                   onclick = sprintf("copyQAText('%s')", mid),
