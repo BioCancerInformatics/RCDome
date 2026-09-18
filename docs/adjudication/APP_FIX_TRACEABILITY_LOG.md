@@ -24,3 +24,5 @@ toks <- toks[nchar(toks) >= 3]                                 # filter rest
 ```
 
 Propagation: RCDome_distribution/modules/mod_board_qa.R → GitHub app/modules/mod_board_qa.R → RCDome_V026_distribution.zip.
+
+| 2 | `app/modules/mod_board.R` | Green “No violations detected” box rendered unconditionally — showed “passed all automated checks” even when the DeepSeek API failed (res = "Error: HTTP \<status\>") | Added `api_ok = !grepl("^Error:", res)` to `report()`; UI + downloaded HTML green box now gated on `isTRUE(r$api_ok)`, with an amber “Generation failed” box otherwise | Higor's finding #1 (partially valid — API-failure edge case) | APPLIED |
