@@ -579,7 +579,8 @@ mod_board_server <- function(id, board_reactive) {
       synth <- scrub_board(res)
       qs <- extract_suggested_queries(synth)
 
-      report(list(entity = ent, gene = gene, synthesis = synth, suggested_queries = qs, ctx = ctx, elapsed = elapsed))
+      report(list(entity = ent, gene = gene, synthesis = synth, suggested_queries = qs, ctx = ctx, elapsed = elapsed,
+                  api_ok = !grepl("^Error:", res)))
       board_reactive(list(
         entity = ent,
         matrix_fields = ctx$matrix_fields,
@@ -624,8 +625,13 @@ mod_board_server <- function(id, board_reactive) {
         div(style = "font-family:'Segoe UI',system-ui,sans-serif; font-size:20px; font-weight:600; color:#1c1917; margin-bottom:16px;",
             r$entity),
         render_synthesis(synth),
-        div(style = "background:#dcfce7; color:#166534; padding:8px 14px; border-radius:8px; font-size:12.5px; margin-top:16px;",
-            "\u2713 Governance Audit: No violations detected. LLM output passed all automated checks."),
+        if (isTRUE(r$api_ok)) div(
+          style = "background:#dcfce7; color:#166534; padding:8px 14px; border-radius:8px; font-size:12.5px; margin-top:16px;",
+          "✓ Governance Audit: No violations detected. LLM output passed all automated checks."
+        ) else div(
+          style = "background:#fef3c7; color:#92400e; padding:8px 14px; border-radius:8px; font-size:12.5px; margin-top:16px;",
+          "⚠ Generation failed — no synthesis produced (DeepSeek API error)."
+        ),
         tags$details(
           style = "margin-top:12px; padding:12px 14px; background:#f5f5f4; border:1px solid #e7e5e4; border-radius:8px;",
           tags$summary(style = "font-size:12.5px; color:#FF9800; cursor:pointer; font-weight:600;",
@@ -672,15 +678,20 @@ mod_board_server <- function(id, board_reactive) {
           )
         } else ""
         
+        gov_box <- if (isTRUE(r$api_ok)) paste0(
+          "<div style='background:#dcfce7; color:#166534; padding:8px 14px; border-radius:8px; font-size:12.5px; margin-top:16px;'>",
+          "✓ Governance Audit: No violations detected.</div>"
+        ) else paste0(
+          "<div style='background:#fef3c7; color:#92400e; padding:8px 14px; border-radius:8px; font-size:12.5px; margin-top:16px;'>",
+          "⚠ Generation failed — no synthesis produced (DeepSeek API error).</div>"
+        )
         html <- paste0(
           "<!DOCTYPE html><html><head><meta charset='utf-8'><title>RCDome Digital Molecular Board</title></head>",
-          "<body style='background:#f5f5f4; color:#1c1917; font-family:Segoe UI,system-ui,sans-serif; padding:32px; position:relative;'>",
           logo_img,
           "<div style='font-size:12px; letter-spacing:0.08em; text-transform:uppercase; color:#c2410c;'>RCDome \u00b7 Digital Molecular Synthesis Report</div>",
           "<h1 style='font-weight:500; font-size:28px; margin:8px 0 20px;'>RCDome Digital Molecular Board</h1>",
           body,
-          "<div style='background:#dcfce7; color:#166534; padding:8px 14px; border-radius:8px; font-size:12.5px; margin-top:16px;'>",
-          "\u2713 Governance Audit: No violations detected.</div>",
+          gov_box,
           "<details style='margin-top:12px; padding:12px 14px; background:#f5f5f4; border:1px solid #e7e5e4; border-radius:8px;'>",
           "<summary style='font-size:12.5px; color:#FF9800; cursor:pointer; font-weight:600;'>Audit Molecular and Cellular Payload Data (Raw Injection)</summary>",
           build_payload_table_html(r$entity, r$gene, r$ctx),
