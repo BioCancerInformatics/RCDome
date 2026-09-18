@@ -38,7 +38,7 @@ build_rag_records <- function(question, default_entity = NULL, max_chars = 60000
 
   q <- tolower(question)
 
-  # 1) Entity match: canonicalized name or its stem (so "apoptotic" matches Apoptosis)
+  # 1) Entity match: canonical name or its stem (so "apoptotic" matches Apoptosis)
   ents <- sort(unique(genes_df$rcd_form_canonical))
   matched_ents <- ents[sapply(ents, function(e) {
     le <- tolower(e)
@@ -50,14 +50,17 @@ build_rag_records <- function(question, default_entity = NULL, max_chars = 60000
   #    compounds such as "XIAP-Apoptosis" are split so the gene is still matched.
   raw <- unique(unlist(strsplit(question, "[^A-Za-z0-9-]+")))
   toks <- unique(unlist(lapply(raw, function(t) strsplit(t, "-", fixed = TRUE)[[1]])))
+  # Match against the controlled gene vocabulary FIRST, so 1-2 character
+  # symbols (e.g., TF, AR, C3, KL) are recognized before any length filter.
+  genes_all <- unique(genes_df$gene_symbol)
+  matched_genes <- toks[toupper(toks) %in% toupper(genes_all)]
+  toks <- toks[!toupper(toks) %in% toupper(genes_all)]
   toks <- toks[nchar(toks) >= 3]
   stopwords <- c("THE", "AND", "FOR", "ARE", "WAS", "WERE", "WITH", "WHAT",
                  "WHICH", "GENE", "GENES", "FORM", "FORMS", "THAT", "THIS",
                  "THESE", "THOSE", "HOW", "WHY", "WHO", "WHOM", "YOU", "YOUR",
                  "FROM", "HAVE", "HAS", "ITS", "NOT", "RCD", "RCDOME")
   toks <- toks[!toupper(toks) %in% stopwords]
-  genes_all <- unique(genes_df$gene_symbol)
-  matched_genes <- toks[toupper(toks) %in% toupper(genes_all)]
 
   # 3) Fall back to the current entity when nothing matched
   if (length(matched_ents) == 0 && length(matched_genes) == 0) {
