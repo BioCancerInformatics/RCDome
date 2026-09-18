@@ -370,6 +370,7 @@ mod_board_qa_server <- function(id, board_reactive, pending_query = NULL) {
         }
       }, error = function(e) paste0("Error: ", conditionMessage(e)))
 
+      reply <- htmltools::htmlEscape(reply)
       # markdown bold -> HTML strong; PMIDs -> clickable
       reply <- gsub("\\*\\*(.+?)\\*\\*", "<strong>\\1</strong>", reply, perl = TRUE)
       reply <- gsub("PMID:(\\d+)",
@@ -440,7 +441,7 @@ mod_board_qa_server <- function(id, board_reactive, pending_query = NULL) {
                 style = "flex:1; min-width:0;",
                 tags$div(id = mid, class = "rcdchat-assistant-text",
                          `data-query` = htmltools::htmlEscape(q),
-                         HTML(gsub("\n", "<br>", htmltools::htmlEscape(m$content)))),
+                         HTML(gsub("\n", "<br>", m$content))),
                 tags$button(
                   class = "btn rcdchat-copy-btn",
                   onclick = sprintf("copyQAText('%s')", mid),
