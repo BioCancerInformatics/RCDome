@@ -248,6 +248,7 @@ mod_chat_server <- function(id, context_reactive) {
 
       # Replace typing indicator with real reply
       msgs <- messages()
+      reply <- htmltools::htmlEscape(reply)
       # Strip markdown bold and convert to HTML
       reply <- gsub("\\*\\*(.+?)\\*\\*", "<strong>\\1</strong>", reply, perl = TRUE)
       # Make PMIDs clickable
@@ -287,7 +288,7 @@ mod_chat_server <- function(id, context_reactive) {
                 tags$span(class = "dot"), tags$span(class = "dot"), tags$span(class = "dot")
               )
             } else {
-              tags$div(class = "rcdchat-assistant-text", HTML(gsub("\n", "<br>", htmltools::htmlEscape(m$content))))
+              tags$div(class = "rcdchat-assistant-text", HTML(gsub("\n", "<br>", m$content)))
             }
           )
         }
