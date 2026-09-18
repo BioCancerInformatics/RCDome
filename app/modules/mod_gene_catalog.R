@@ -147,7 +147,7 @@ mod_gene_catalog_server <- function(id) {
         } else {
           readxl::read_excel(file.path(omic_dir, file), sheet = sheet)
         }
-      }, error = function(e) data.frame(gene_symbol = character(0)))
+      }, error = function(e) { message("RCDome load error: ", file, " - ", conditionMessage(e)); data.frame(gene_symbol = character(0)) })
       rv(df)
       df
     }
@@ -155,7 +155,7 @@ mod_gene_catalog_server <- function(id) {
     get_genes <- function() {
       if (is.null(genes_rv())) {
         genes_rv(tryCatch(readRDS("data/unified_gene_rcd_matrix_V026.rds"),
-                          error = function(e) data.frame(gene_symbol = character(0))))
+                          error = function(e) { message("RCDome load error: unified_gene_rcd_matrix_V026.rds - ", conditionMessage(e)); data.frame(gene_symbol = character(0)) }))
       }
       genes_rv()
     }
