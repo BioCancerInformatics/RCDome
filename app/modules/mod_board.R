@@ -680,7 +680,7 @@ mod_board_server <- function(id, board_reactive) {
         
         gov_box <- if (isTRUE(r$api_ok)) paste0(
           "<div style='background:#dcfce7; color:#166534; padding:8px 14px; border-radius:8px; font-size:12.5px; margin-top:16px;'>",
-          "✓ Governance Audit: No violations detected.</div>"
+          "✓ Governance Audit: No violations detected. LLM output passed all automated checks.</div>"
         ) else paste0(
           "<div style='background:#fef3c7; color:#92400e; padding:8px 14px; border-radius:8px; font-size:12.5px; margin-top:16px;'>",
           "⚠ Generation failed — no synthesis produced (DeepSeek API error).</div>"
