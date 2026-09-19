@@ -54,3 +54,9 @@ Current §9 state: L1=16, L2=6, L3=2, L4=11, L5=18 (was 16/5/2/11/19).
 - Primary curator (EM-A): read, inspected, approved each of the 53 entities separately in a single curation session (no unattended batch approval).
 - 28 drafted definitions: EM-A validated each against founding evidence before APPROVED; 25 committee definitions byte-identical (LOCKED-VERBATIM).
 - Second curator (VdSL): independently assessed each classification entity-by-entity; disagreements jointly adjudicated by both curators; consensus recorded as final.
+
+## §25 human review — FINAL (three curators)
+
+- Primary curator (EM-A): read, inspected, approved each of the 53 separately in one curation session.
+- 28 drafted approved after validation; 25 committee definitions LOCKED-VERBATIM.
+- Two additional curators (VdSL + HACN) independently assessed all 53 entity-by-entity; disagreements jointly adjudicated; consensus = final.
