@@ -32,6 +32,16 @@ addResourcePath("see_also", "data/about/see also")
 source("R/utils.R")
 source("R/pathways.R")     # get_pathways_for_gene() — from the matrix
 source("R/rcd_modal.R")    # show_rcd_modal — shared RCD pop-up
+source("R/validate_data_files.R")
+
+# Pre-flight data validation — fail fast if any bundled asset is missing/invalid.
+# Proactive: the error is caught + fixed at startup/build time, never shown to the user.
+v <- validate_data_files()
+if (!v$ok) {
+  stop(paste("RCDome data validation failed:
+", paste0("- ", v$issues, collapse = "
+")))
+}
 
 # Source Shiny modules
 source("modules/mod_gene_catalog.R")
