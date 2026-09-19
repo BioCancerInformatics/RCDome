@@ -1,0 +1,49 @@
+# Ocean-deep compliance audit — Victor app-report fixes (2026-09-19)
+
+**Result: 45 checks, 0 FAIL**
+
+- [PASS] decoder rows = 53 (expect 53)
+- [PASS] decoder cols = 39 (expect 39)
+- [PASS] Oxeiptosis: primary_refs=29255269 (no 29362479)
+- [PASS] Methuosis: primary_refs=24726643 (no 29362479)
+- [PASS] Mitoptosis: primary_refs=33705288 (no 29362479)
+- [PASS] Paraptosis: primary_refs=11121041 (no 29362479)
+- [PASS] Mitochondrial permeability transition: primary_refs=23483560 (no 29362479)
+- [PASS] Apoptosis: primary_refs=17562483 (no 29362479)
+- [PASS] Necrosis: primary_refs=31827074 (no 29362479)
+- [PASS] Autophagy: primary_refs=36864290 (no 29362479)
+- [PASS] composite category='COMPOSITE' (expect COMPOSITE)
+- [PASS] composite definition_status='COMPOSITE' (expect COMPOSITE)
+- [PASS] composite galluzzi_nccd_status='COMPOSITE' (expect COMPOSITE)
+- [PASS] composite founding_pmid='composite'
+- [PASS] composite reference_pmid=29362479;36864290
+- [PASS] composite citation has 'NCCD_2018' + 'not a distinct NCCD entity'
+- [PASS] VCD category=TAXON
+- [PASS] VCD founding_pmid=15358773
+- [PASS] VCD secondary=24344187;35390283
+- [PASS] VCD citation has Dictyostelium + plant context + both plant PMIDs
+- [PASS] COMPOSITE status only on composite entity (['Senescence and Autophagy in Cancer'])
+- [PASS] no NOT_IN_NCCD_2018 entity (non-composite) still lists 29362479 in primary_refs
+- [PASS] mod_od.R: composite founding branch present
+- [PASS] mod_od.R: reference_pmid uses render_pmids (multi-PMID)
+- [PASS] mod_od.R: reference_citation links first PMID
+- [PASS] mod_rcd_grid.R: collapse="\n\n" in build_decoder_desc
+- [PASS] mod_board.R: NCCD status desc includes / COMPOSITE
+- [PASS] RCDome_distribution/www/explore.html: 2 back-links, 2 Home-clicks, 0 stale hrefs
+- [PASS] RCDome_distribution/www/detail_page_wireframe.html: 1 back-links, 1 Home-clicks, 0 stale hrefs
+- [PASS] RCDome_distribution/www/module_placeholder.html: 2 back-links, 2 Home-clicks, 0 stale hrefs
+- [PASS] generate_detail_page.py: Home-click, no landing_page href
+- [PASS] decoder CSV: all 3 copies identical
+- [PASS] decoder XLSX: all 1 copies identical
+- [PASS] mod_od.R: all 1 copies identical
+- [PASS] mod_rcd_grid.R: all 1 copies identical
+- [PASS] mod_board.R: all 1 copies identical
+- [PASS] explore.html: all 2 copies identical
+- [PASS] detail_page_wireframe.html: all 2 copies identical
+- [PASS] module_placeholder.html: all 1 copies identical
+- [PASS] mod_od.R parses
+- [PASS] mod_rcd_grid.R parses
+- [PASS] mod_board.R parses
+- [PASS] matrix VCD decoder_category = {'TAXON'} (expect TAXON)
+- [PASS] matrix does not mirror decoder primary_refs/citation/nccd_status (no propagation needed)
+- [PASS] board prompt has no hardcoded stale PMIDs (29362479/15358773) in decoder-reference role
