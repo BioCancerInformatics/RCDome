@@ -5,7 +5,8 @@ This folder reproduces the **live** RCDome Shiny app (the 9 visible tabs), assem
 ## 1. What you received
 
 - `ui.R`, `server.R`, `global.R`, `run.R` — Shiny entry points
-- `R/` — helpers (utils, pathways, rcd_modal + legacy helpers kept because global.R sources them)
+- `R/` — helpers (utils, pathways, rcd_modal) + `R/validate_data_files.R` (pre-flight validation)
+- `data/gene_info_lookup.json` — 9,264 NCBI Gene summaries for the gene-page "Gene information" block
 - `modules/` — all 13 module files (only 6 are live; the rest are sourced but unrendered)
 - `www/` — landing, explore, detail, logos, JS
 - `board/` — Digital Molecular Board (DeepSeek) prompt, governance, benchmarks
@@ -39,7 +40,11 @@ shiny::runApp(appDir = ".", port = 8890, launch.browser = TRUE)
 | `data/omic/` legacy (gene.xlsx, gene_with_ncbi_info.csv, genes_df_cache.rds) | not referenced; only the 3 lazy sub-tab xlsx are kept |
 | old `*.zip`, `.Rhistory`, `_archive_preV024`, `CHANGELOG_*.docx` | non-runtime |
 
-## 6. Traceability
+## 6. Pre-flight validation
+
+The app runs `validate_data_files()` at startup — it verifies every bundled asset (matrix, decoder, HGNC, omic tables, NCBI summaries, board prompt, www pages) before serving anything. A broken asset stops the app with a precise message, so it is fixed by the developer before it reaches a user.
+
+## 7. Traceability
 
 - Reference: `Shiny app/RCDome_Atlas/APP` (untouched).
 - Audit: `Shiny app/Emanuell versions/RCDome_App_LineByLine_INTENTIONAL_vs_VESTIGIAL.md`.

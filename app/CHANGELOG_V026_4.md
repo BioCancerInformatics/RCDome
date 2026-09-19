@@ -2,6 +2,17 @@
 
 **Download (zip):** https://drive.google.com/drive/folders/1J8NO3U88GpAeIkdG2Bfo7lXLqu-aHykl?usp=sharing
 
+## V026_5 — Higor + Emanuell app-review fixes (Board · Q&A · Gene Catalog · Network · Comparator · detail page)
+
+- **Board**: green "No violations" badge gated on `api_ok` (no false "passed" on API failure); `scrub_board` word-boundary hedging (no "Because"→"Beis associated with"); structured fields fed into the context (T06); PMIDs hyperlinked (`PMID:123` and `PMID 123`); `withProgress` loading indicator (RCDome-styled, centered); English-only policy (non-English → exact refusal).
+- **Q&A**: short gene symbols (TF/AR/C3/KL…) matched before the length filter (T05); `confidence_tier` + `confidence_score` + `evidence_basis` in the RAG records (T04); gene context propagated from Board (T10); reference discipline (gene PMID vs entity founding PMID never interchanged).
+- **Gene Catalog**: load errors logged; pre-flight validation prevents them from reaching the user.
+- **Network**: searched gene emphasized (other nodes opacity 0.35); "Search gene:" (nomenclature vestige removed).
+- **Comparator**: legend (yellow = differing fields, grey = identical) + grey background for identical fields.
+- **Detail page**: "Gene information" block (name, aliases, type, location, NCBI summary + link — 9,264 NCBI summaries pre-fetched into `data/gene_info_lookup.json`); context-dependent level-pill contrast (light text on dark hero, dark text on white table); vestigial "Jump to modules" removed.
+- **Pre-flight validation** (`R/validate_data_files.R`): verifies all bundled assets (matrix 22,473×71, decoder 53×39, HGNC, omic xlsx, gene_info_lookup 9,265, board prompt, www pages) at startup and before the ZIP build (`code/build_distribution.py`).
+- **Benchmarks (n=100)**: English-only 100% (95% CI 96.4–100%); reference discipline 100% (CI 96.4–100%); T06 context fidelity 100% (CI 96.4–100%); minimal-source 96%; insufficient-data 96%.
+
 ## V026_4 — Governance + RCD Network ontology layer
 - **RCD Network ontology layer** (`modules/mod_network.R`): RCD entity nodes colored by ontological level (L1–L5 level colors, ring on logos / fill on dots); gene nodes colored by dominant mechanistic role (EXECUTOR / REGULATOR / MARKER / UNCERTAIN); compact legend (entity levels + gene roles + edge direction badges); rich hover — gene → symbol + HGNC name, entity → name + level + first sentence of the operational definition, edge → role · direction · tier · PMID count; per-edge evidence attributes aggregated from the V026 matrix (role/direction prefer the strongest value, tier, unique PMID count).
 - **Response Protocol** (`governance/Protocolo_de_Resposta.md/.docx`): enumerated-response protocol sent to Emanuell, Victor and Higor. Preamble sets the standard (my e-mails are structured, itemized and carefully edited; responses must match that level); item-by-item format (copy each item, then "Resposta:"); 7 rules — no generic/ambiguous responses (with concrete rejected examples), no grouping of items (verified solutions in the record, not guesswork), declare what is missing, real item-by-item progress, substandard responses rejected, no student-to-advisor role reversal (with offensive-phrase example; use statistical data and benchmark instead), cited evidence traceable via a Google Drive folder holding all codes/prompts/comparative analyses + its URL.
