@@ -57,6 +57,15 @@ build_entity_context <- function(ent, gene = NULL) {
 
   if (!is.null(gene) && nrow(mrows) == 0) {
     matrix_txt <- paste0("not recorded (no association for ", gene, " - ", ent, ")")
+  } else if (!is.null(gene)) {
+    fld <- function(col) ifelse(is.na(col), "NA", as.character(col))
+    pair_txt <- unique(paste0(mrows$gene_symbol, ": role=", fld(mrows$cot_role),
+                              " direction=", fld(mrows$cot_direction),
+                              " mechanistic=", fld(mrows$mechanistic_class),
+                              " evidence_tier=", fld(mrows$evidence_tier),
+                              " confidence_tier=", fld(mrows$confidence_tier),
+                              " PMID=", fld(mrows$pmid_list)))
+    matrix_txt <- paste(pair_txt, collapse = "; ")
   } else {
     gene_hits <- if (nrow(mrows) == 0) character(0) else unique(mrows$gene_symbol)
     matrix_txt <- if (length(gene_hits) == 0) "not recorded" else paste0(sort(gene_hits), collapse = ", ")
@@ -583,6 +592,7 @@ mod_board_server <- function(id, board_reactive) {
                   api_ok = !grepl("^Error:", res)))
       board_reactive(list(
         entity = ent,
+        gene = gene,
         matrix_fields = ctx$matrix_fields,
         decoder_fields = ctx$decoder_fields,
         suggested_queries = qs
@@ -601,6 +611,7 @@ mod_board_server <- function(id, board_reactive) {
                              server = TRUE)
         board_reactive(list(
           entity = ent,
+          gene = NULL,
           matrix_fields = ctx$matrix_fields,
           decoder_fields = ctx$decoder_fields,
           suggested_queries = character(0)

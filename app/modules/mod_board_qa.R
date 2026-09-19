@@ -95,9 +95,10 @@ build_rag_records <- function(question, default_entity = NULL, max_chars = 60000
   rl <- ifelse(is.na(rows$cot_role), "NA", as.character(rows$cot_role))
   dr <- ifelse(is.na(rows$cot_direction), "NA", as.character(rows$cot_direction))
   ti <- ifelse(is.na(rows$evidence_tier), "NA", as.character(rows$evidence_tier))
+  ct <- ifelse(is.na(rows$confidence_tier), "NA", as.character(rows$confidence_tier))
   pm <- ifelse(is.na(rows$pmid_list), "NA", as.character(rows$pmid_list))
   lines <- paste0("- ", rows$gene_symbol, " (", rows$rcd_form_canonical, ": ",
-                  mc, " | ", rl, " | ", dr, " | ", ti, " | PMID:", pm, ")")
+                  mc, " | ", rl, " | ", dr, " | ET:", ti, " | CT:", ct, " | PMID:", pm, ")")
 
   # 7) Budget cap (most informative records first, within the budget)
   txt <- ""
@@ -148,6 +149,9 @@ build_board_qa_prompt <- function(b, question = NULL) {
     "must be traceable to the provided RCDome data. Never invent a gene, PMID, or fact. ",
     "Cite only PMIDs present in the data. If a specific fact is not in the data, say so ",
     "honestly rather than fabricate it.\n\n",
+    "NOTE: Evidence Tier (ET) and Confidence Tier (CT) are DIFFERENT metrics: ET ",
+    "combines source count and LLM validation; CT derives from the weighted ",
+    "source-channel confidence score. Both coexist per record; never conflate them.\n\n",
     "STYLE: hedge all interpretations (\u201cmay suggest\u201d, \u201cis consistent ",
     "with\u201d, \u201crequires validation\u201d). Name the source in every factual claim ",
     "(\u201cthe RCDome database records\u2026\u201d, \u201cthe RCDome decoder ",
@@ -164,10 +168,11 @@ build_board_qa_prompt <- function(b, question = NULL) {
     "RCDome database (ALL genes per entity):\n", full_genes, "\n\n",
     if (nzchar(rag)) paste0(
       "RCDome database (FULL records for the entities/genes mentioned in the question; ",
-      "format: gene(form: mechanistic_class | role | direction | tier | PMID)):\n",
+      "format: gene(form: mechanistic_class | role | direction | ET:evidence_tier | CT:confidence_tier | PMID)):\n",
       rag, "\n\n"
     ) else "",
     "Current entity on the board: ", entity, "\n",
+    "Current gene on the board: ", if (is.null(b$gene) || b$gene == "") "(none selected)" else b$gene, "\n",
     "RCDome decoder (current entity ontology):\n", decoder_fields
   )
 }
