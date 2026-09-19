@@ -48,3 +48,16 @@ Re-run with the DeepSeek API key in `RCDome_distribution/.Renviron`:
 Rscript code/benchmark_reference_discipline.R
 Rscript code/benchmark_t06_context_fidelity.R
 ```
+
+## Held-out validation (2026-09-19) — Victor §23
+
+Fresh held-out sample (seed 20260919, n = 100 each, **excluding** the dev cases: reference seed 2026, T06 seed 7). Same DeepSeek calls + same scoring.
+
+| Benchmark | n | Pass | Rate | Exact binomial 95% CI |
+|---|---|---|---|---|
+| Reference discipline (held-out) | 100 | 100/100 | 100% | **96.4–100%** |
+| T06 context fidelity (held-out) | 100 | 100/100 | 100% | **96.4–100%** |
+
+**Conclusion:** dev and held-out agree at 100% → the "≥96% with 95% confidence" claim is **generalization-validated**, not a dev-only artifact.
+
+Script: `code/benchmark_heldout_20260919.R`.
