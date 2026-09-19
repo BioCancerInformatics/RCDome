@@ -96,9 +96,11 @@ build_rag_records <- function(question, default_entity = NULL, max_chars = 60000
   dr <- ifelse(is.na(rows$cot_direction), "NA", as.character(rows$cot_direction))
   ti <- ifelse(is.na(rows$evidence_tier), "NA", as.character(rows$evidence_tier))
   ct <- ifelse(is.na(rows$confidence_tier), "NA", as.character(rows$confidence_tier))
+  eb <- ifelse(is.na(rows$evidence_basis), "NA", as.character(rows$evidence_basis))
+  cs <- ifelse(is.na(rows$confidence_score), "NA", as.character(rows$confidence_score))
   pm <- ifelse(is.na(rows$pmid_list), "NA", as.character(rows$pmid_list))
   lines <- paste0("- ", rows$gene_symbol, " (", rows$rcd_form_canonical, ": ",
-                  mc, " | ", rl, " | ", dr, " | ET:", ti, " | CT:", ct, " | PMID:", pm, ")")
+                  mc, " | ", rl, " | ", dr, " | ET:", ti, " | CT:", ct, " | EB:", eb, " | CS:", cs, " | PMID:", pm, ")")
 
   # 7) Budget cap (most informative records first, within the budget)
   txt <- ""
