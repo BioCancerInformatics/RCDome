@@ -938,6 +938,8 @@ mod_network_server <- function(
         
         borderWidth = ifelse(has_logo, 3, 2),
         
+        opacity = 1,
+        
         font.color = "#1c1917",
         
         stringsAsFactors = FALSE
