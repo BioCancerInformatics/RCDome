@@ -47,7 +47,7 @@ box(18, 35, 27, 14, wrap('DeepSeek (Phases 2A/D, 2B, 2C, 2D/2E, 2F): two-call va
 box(50, 35, 27, 14, wrap('Elicit (Phase 3): AI-assisted extraction, role + direction'), '#F1948A', fs=8)
 box(82, 35, 27, 14, wrap('Consensus (Phase 2G): evidence-channel classification, neutral query'), '#EB984E', fs=8)
 box(50, 18, 66, 10, 'Consolidated matrix: 22,473 rows x 71 columns', '#FCBB18', fs=10, bold=True)
-box(50, 4, 66, 7, 'RCDome web application (dome, Explore RCDome, Gene Catalog, RCD entities, Network, RCDchat)', '#D32F2F', fc_text='white', fs=8)
+box(50, 4, 66, 7, wrap('RCDome web application (dome, Explore RCDome, Operational Definitions, Compare Definitions, Gene Catalog, RCD entities, RCDome Board, Network)'), '#D32F2F', fc_text='white', fs=8)
 
 # arrows
 arrow(50, 89, 50, 86)
