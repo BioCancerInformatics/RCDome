@@ -10,7 +10,7 @@
 - **GROUP G**: 9 ontological relationships registered (12-value relationship vocabulary + outcome_of).
 - **Matrix**: V026 → V026 (22,473 × 67; levels recalibrated per G0–G6).
 - **Decoder**: 39 columns; 7 category corrections; hard_gate_status 16/37.
-- **Manuscript**: version-free content; matrix named **Database S1** (22,473 rows × 67 columns); 381 paragraphs.
+- **Manuscript**: version-free content; matrix named **Database S1** (22,473 rows × 71 columns); 381 paragraphs.
 - **Supplementary**: S1–S15 + Database S1; D1 registered as Table S12; Variable Descriptor 144 entries.
 - **Figure 4**: regenerated with V026 level colors.
 - **App**: loads V026 matrix.
