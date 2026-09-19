@@ -115,7 +115,7 @@ DATA = {'entities': entities, 'genes': gene_data}
 DATA_JSON = json.dumps(DATA, ensure_ascii=False)
 
 # verified PMID -> title lookup (for hover tooltips)
-with open('RCDome_Atlas/APP/data/pmid_title_lookup.json', encoding='utf-8') as _f:
+with open(BASE + '/RCDome_distribution/data/pmid_title_lookup.json', encoding='utf-8') as _f:
     PMID_TITLES = json.load(_f)
 PMID_TITLES_JSON = json.dumps(PMID_TITLES, ensure_ascii=False)
 
@@ -650,7 +650,7 @@ else showEntity("Apoptosis");
 """
 
 html = html.replace("__DATA__", DATA_JSON).replace("__PMID_TITLES__", PMID_TITLES_JSON)
-open(BASE + "/Shiny app/detail_page_wireframe.html", "w", encoding="utf-8").write(html)
+open(BASE + "/RCDome_distribution/detail_page_wireframe.html", "w", encoding="utf-8").write(html)
 print("generated detail_page_wireframe.html with", len(entities), "entities and", len(gene_data), "genes")
 print("sample entity Apoptosis:", entities.get('Apoptosis', {}).get('definition', '')[:80])
 print("sample gene BAX:", gene_data.get('BAX', {}))
