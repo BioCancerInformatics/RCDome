@@ -392,8 +392,8 @@ mod_board_qa_server <- function(id, board_reactive, pending_query = NULL) {
       reply <- htmltools::htmlEscape(reply)
       # markdown bold -> HTML strong; PMIDs -> clickable
       reply <- gsub("\\*\\*(.+?)\\*\\*", "<strong>\\1</strong>", reply, perl = TRUE)
-      reply <- gsub("PMID:(\\d+)",
-                    "<a href='https://pubmed.ncbi.nlm.nih.gov/\\1' target='_blank'>PMID:\\1</a>",
+      reply <- gsub("PMID[ :](\\d+)",
+                    "<a href='https://pubmed.ncbi.nlm.nih.gov/\\1' target='_blank'>PMID \\1</a>",
                     reply, perl = TRUE)
 
       msgs <- messages()
