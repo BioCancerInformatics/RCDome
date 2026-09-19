@@ -36,6 +36,14 @@ except Exception as _e:
 # manual aliases (symbols not matching the HGNC file)
 hgnc_map['CBSL'] = {'hgnc': 'HGNC:55459', 'entrez': '124904470'}  # CBS-like readthrough (HGNC symbol: CBSLR)
 
+# NCBI Gene summaries + HGNC fields for the Gene information block
+gene_info_map = {}
+try:
+    with open(BASE + '/RCDome_distribution/data/gene_info_lookup.json', encoding='utf-8') as _f:
+        gene_info_map = json.load(_f)
+except Exception as _e:
+    print('WARN: gene info lookup failed:', _e)
+
 # ---- entity data ----
 entities = {}
 for form, grp in v23.groupby('rcd_form_canonical'):
@@ -95,9 +103,13 @@ for sym, grp in v23.groupby('gene_symbol'):
                      'role_ds': fg['cot_role'].iloc[0], 'mech': fg['mechanistic_class'].iloc[0]})
     ents.sort(key=lambda e: (-(e['mech'] == 'MECHANISTIC'), e['name']))
     h = hgnc_map.get(sym, {})
+    info = gene_info_map.get(sym, {})
     gene_data[sym] = {'ensembl': grp['ensembl_id'].iloc[0], 'biotype': grp['gene_biotype'].iloc[0],
                       'n_entities': len(ents), 'entities': ents,
-                      'hgnc': h.get('hgnc', ''), 'entrez': h.get('entrez', '')}
+                      'hgnc': h.get('hgnc', ''), 'entrez': h.get('entrez', ''),
+                      'info': {'name': info.get('name', ''), 'alias': info.get('alias', ''),
+                               'type': info.get('locus_type', ''), 'location': info.get('location', ''),
+                               'summary': info.get('summary', '')}}
 
 DATA = {'entities': entities, 'genes': gene_data}
 DATA_JSON = json.dumps(DATA, ensure_ascii=False)
@@ -272,6 +284,7 @@ html = """<!DOCTYPE html>
       <h1 id="geneTitle" style="font-style:italic;">…</h1>
       <p class="meta" id="geneMeta"></p>
     </div>
+    <div id="geneInfo"></div>
     <div class="section">
       <h2>Associated RCD entities</h2>
       <table>
@@ -554,6 +567,20 @@ function showGene(name) {
   if (g.entrez) ext.push(`<a href="https://www.ncbi.nlm.nih.gov/gene/${g.entrez}" target="_blank">NCBI Gene ↗</a>`);
   document.getElementById("geneMeta").innerHTML =
     `${g.ensembl ? "<b>" + g.ensembl + "</b> · " : ""}${g.biotype || "—"} · <b>${g.n_entities}</b> RCD entities · ${ext.join(" · ")}`;
+  const gi = g.info || {};
+  let infoBlock = "";
+  if (gi.name || gi.alias || gi.type || gi.location || gi.summary) {
+    infoBlock = `<div style="background:#f8fafc; border:1px solid #e7e5e4; border-radius:10px; padding:12px 14px; margin:12px 0; font-size:13.5px; line-height:1.55; color:#1c1917;">
+      <div style="font-size:12px; letter-spacing:0.06em; color:#c2410c; margin-bottom:6px; font-weight:600;">Gene information</div>
+      ${gi.name ? `<div style="font-weight:600;">${gi.name}</div>` : ""}
+      ${gi.alias ? `<div>Aliases: ${gi.alias}</div>` : ""}
+      ${gi.type ? `<div>Type: ${gi.type}</div>` : ""}
+      ${gi.location ? `<div>Location: ${gi.location}</div>` : ""}
+      ${gi.summary ? `<div style="margin-top:6px;">${gi.summary}</div>` : ""}
+      ${g.entrez ? `<div style="margin-top:6px;"><a href="https://www.ncbi.nlm.nih.gov/gene/${g.entrez}" target="_blank">NCBI Gene ↗</a></div>` : ""}
+    </div>`;
+  }
+  document.getElementById("geneInfo").innerHTML = infoBlock;
   document.getElementById("geneEntities").innerHTML = g.entities.map(en => `
     <tr>
       <td class="ent-link" data-name="${en.name}" style="cursor:pointer;"><b style="color:#1d4ed8;">${en.name}</b></td>
