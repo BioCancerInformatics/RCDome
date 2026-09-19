@@ -98,7 +98,13 @@ build_rag_records <- function(question, default_entity = NULL, max_chars = 60000
   ct <- ifelse(is.na(rows$confidence_tier), "NA", as.character(rows$confidence_tier))
   eb <- ifelse(is.na(rows$evidence_basis), "NA", as.character(rows$evidence_basis))
   cs <- ifelse(is.na(rows$confidence_score), "NA", as.character(rows$confidence_score))
-  pm <- ifelse(is.na(rows$pmid_list), "NA", as.character(rows$pmid_list))
+  pm <- vapply(rows$pmid_list, function(p) {
+    ps <- strsplit(as.character(p), ";", fixed=TRUE)[[1]]
+    ps <- ps[!is.na(ps) & ps != ""]
+    if (length(ps) == 0) return("NA")
+    if (length(ps) <= 2) return(paste(ps, collapse=";"))
+    paste0(paste(ps[1:2], collapse=";"), "; +", length(ps)-2, " more")
+  }, character(1))
   lines <- paste0("- ", rows$gene_symbol, " (", rows$rcd_form_canonical, ": ",
                   mc, " | ", rl, " | ", dr, " | ET:", ti, " | CT:", ct, " | EB:", eb, " | CS:", cs, " | PMID:", pm, ")")
 
@@ -156,7 +162,7 @@ build_board_qa_prompt <- function(b, question = NULL) {
     "source-channel confidence score. Both coexist per record; never conflate them.\n\n",
     "REFERENCE DISCIPLINE: a gene\u2013RCD association citation must use the ",
     "gene-specific association PMID, never the entity founding PMID; an entity ",
-    "definition citation must use the entity founding PMID. Never interchange them.\n\n",
+    "definition citation must use the entity founding PMID. Never interchange them. If a record lists multiple PMIDs, cite the first one.\n\n",
     "STYLE: hedge all interpretations (\u201cmay suggest\u201d, \u201cis consistent ",
     "with\u201d, \u201crequires validation\u201d). Name the source in every factual claim ",
     "(\u201cthe RCDome database records\u2026\u201d, \u201cthe RCDome decoder ",
