@@ -56,7 +56,7 @@ mod_rcd_grid_server <- function(id) {
         paste0("C1=", p(dr$C1), "  C2=", p(dr$C2), "  C3=", p(dr$C3), "  C4=", p(dr$C4), "  C5=", p(dr$C5), "  C6=", p(dr$C6), "  →  S = ", p(dr$S)),
         "## Provenance",
         paste0("Founding PMID: ", p(dr$founding_pmid), "  ·  Review: ", p(dr$review_status), "  ·  Verdict: ", p(dr$validation_verdict))
-      ), collapse = "\n")
+      ), collapse = "\n\n")
     }
 
     # Render **bold** / *italic* markers from reference files as HTML.
