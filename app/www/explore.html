@@ -75,7 +75,7 @@
 <body>
 
 <div class="wrap">
-  <a class="back" href="#" onclick="(function(){var l=window.parent.document.querySelectorAll('a[data-toggle=tab]');for(var i=0;i<l.length;i++){if(l[i].textContent.replace(/\s+/g,' ').trim().indexOf('Home')===0){l[i].click();return;}}})();return false;" style="display:inline-block; margin-top:20px;">&larr; Back to the dome</a>
+  <a class="back" href="#" onclick="(function(){var f=window.parent.document.getElementById('home_iframe');if(f){f.src='landing_page.html';}var l=window.parent.document.querySelectorAll('a[data-toggle=tab]');for(var i=0;i<l.length;i++){if(l[i].textContent.replace(/\s+/g,' ').trim().indexOf('Home')===0){l[i].click();return;}}})();return false;" style="display:inline-block; margin-top:20px;">&larr; Back to the dome</a>
   <div class="hero">
     <h1>Explore RCD<span class="gold">ome</span></h1>
 
@@ -182,7 +182,7 @@
   </div>
 
   <div class="footer">
-    <a class="back" href="#" onclick="(function(){var l=window.parent.document.querySelectorAll('a[data-toggle=tab]');for(var i=0;i<l.length;i++){if(l[i].textContent.replace(/\s+/g,' ').trim().indexOf('Home')===0){l[i].click();return;}}})();return false;">← Back to the dome</a><br><br>
+    <a class="back" href="#" onclick="(function(){var f=window.parent.document.getElementById('home_iframe');if(f){f.src='landing_page.html';}var l=window.parent.document.querySelectorAll('a[data-toggle=tab]');for(var i=0;i<l.length;i++){if(l[i].textContent.replace(/\s+/g,' ').trim().indexOf('Home')===0){l[i].click();return;}}})();return false;">← Back to the dome</a><br><br>
     RCDome &middot; a multi-database human gene atlas of regulated cell death
   </div>
 </div>

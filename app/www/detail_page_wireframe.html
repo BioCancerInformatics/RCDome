@@ -76,7 +76,7 @@
 <div class="frame">
 
   <div class="header">
-    <a class="back" href="#" onclick="(function(){var l=window.parent.document.querySelectorAll('a[data-toggle=tab]');for(var i=0;i<l.length;i++){if(l[i].textContent.replace(/\s+/g,' ').trim().indexOf('Home')===0){l[i].click();return;}}})();return false;">← Back to the dome</a>
+    <a class="back" href="#" onclick="(function(){var f=window.parent.document.getElementById('home_iframe');if(f){f.src='landing_page.html';}var l=window.parent.document.querySelectorAll('a[data-toggle=tab]');for(var i=0;i<l.length;i++){if(l[i].textContent.replace(/\s+/g,' ').trim().indexOf('Home')===0){l[i].click();return;}}})();return false;">← Back to the dome</a>
     <div class="logo">RCD<span class="rust">ome</span></div>
     <div class="crumb">Home / <span id="crumbName">…</span></div>
   </div>
