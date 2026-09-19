@@ -252,7 +252,7 @@ mod_chat_server <- function(id, context_reactive) {
       # Strip markdown bold and convert to HTML
       reply <- gsub("\\*\\*(.+?)\\*\\*", "<strong>\\1</strong>", reply, perl = TRUE)
       # Make PMIDs clickable
-      reply <- gsub("PMID:(\\d+)", "<a href='https://pubmed.ncbi.nlm.nih.gov/\\1' target='_blank'>PMID:\\1</a>", reply, perl = TRUE)
+      reply <- gsub("PMID[ :](\\d+)", "<a href='https://pubmed.ncbi.nlm.nih.gov/\\1' target='_blank'>PMID \\1</a>", reply, perl = TRUE)
       # Make DOIs clickable — exclude trailing punctuation
       reply <- gsub("DOI:([^\\s]+[^\\s.,;:!?)\"'])", "<a href='https://doi.org/\\1' target='_blank'>DOI:\\1</a>", reply, perl = TRUE)
       msgs[[length(msgs)]] <- list(role = "assistant", content = reply)
