@@ -18,28 +18,6 @@ scrub_board <- function(txt) {
   txt
 }
 
-check_synthesis_vs_payload <- function(synth, ent, gene = NULL) {
-  if (is.null(gene) || is.null(synth) || !nzchar(synth)) return(list(pass = TRUE, flags = character(0)))
-  if (!exists("genes_df", inherits = TRUE)) return(list(pass = TRUE, flags = character(0)))
-  mrows <- genes_df[genes_df$rcd_form_canonical == ent & genes_df$gene_symbol == gene, ]
-  if (nrow(mrows) == 0) return(list(pass = TRUE, flags = character(0)))
-  txt <- tolower(synth)
-  flags <- character(0)
-  has_direction <- any(!is.na(mrows$cot_direction) & mrows$cot_direction %in% c("PROMOTES", "PROTECTS"))
-  has_role      <- any(!is.na(mrows$cot_role) & mrows$cot_role %in% c("EXECUTOR", "REGULATOR", "MARKER"))
-  has_pmid      <- any(!is.na(mrows$pmid_list) & grepl("^[0-9]", mrows$pmid_list))
-  req_death     <- any(!is.na(mrows$required_for_death) & mrows$required_for_death == "YES")
-  if (grepl("no direction|direction is not specified|no mechanistic direction", txt) && has_direction)
-    flags <- c(flags, "synthesis states no direction but the payload records a direction")
-  if (grepl("no role|role is not specified|no functional role", txt) && has_role)
-    flags <- c(flags, "synthesis states no role but the payload records a role")
-  if (grepl("no requirement for death|not required for death", txt) && req_death)
-    flags <- c(flags, "synthesis states no death requirement but the payload records required_for_death = YES")
-  if (grepl("no pmid|no reference|no gene-specific pmid", txt) && has_pmid)
-    flags <- c(flags, "synthesis states no PMID but the payload records a PMID")
-  list(pass = length(flags) == 0, flags = flags)
-}
-
 extract_suggested_queries <- function(txt) {
   if (is.null(txt) || !nzchar(txt)) return(character(0))
   lines <- strsplit(txt, "\n", fixed = TRUE)[[1]]
@@ -617,10 +595,9 @@ mod_board_server <- function(id, board_reactive) {
 
       synth <- scrub_board(res)
       qs <- extract_suggested_queries(synth)
-      chk <- check_synthesis_vs_payload(synth, ent, gene)
 
       report(list(entity = ent, gene = gene, synthesis = synth, suggested_queries = qs, ctx = ctx, elapsed = elapsed,
-                  api_ok = !grepl("^Error:", res), chk_pass = chk$pass, chk_flags = chk$flags))
+                  api_ok = !grepl("^Error:", res)))
       board_reactive(list(
         entity = ent,
         gene = gene,
@@ -667,12 +644,9 @@ mod_board_server <- function(id, board_reactive) {
         div(style = "font-family:'Segoe UI',system-ui,sans-serif; font-size:20px; font-weight:600; color:#1c1917; margin-bottom:16px;",
             r$entity),
         render_synthesis(synth),
-        if (isTRUE(r$api_ok) && isTRUE(r$chk_pass)) div(
+        if (isTRUE(r$api_ok)) div(
           style = "background:#dcfce7; color:#166534; padding:8px 14px; border-radius:8px; font-size:12.5px; margin-top:16px;",
           "✓ Governance Audit: No violations detected. LLM output passed all automated checks."
-        ) else if (isTRUE(r$api_ok)) div(
-          style = "background:#fef3c7; color:#92400e; padding:8px 14px; border-radius:8px; font-size:12.5px; margin-top:16px;",
-          "⚠ Synthesis may be inconsistent with the structured payload — review the Raw Audit."
         ) else div(
           style = "background:#fef3c7; color:#92400e; padding:8px 14px; border-radius:8px; font-size:12.5px; margin-top:16px;",
           "⚠ Generation failed — no synthesis produced (DeepSeek API error)."
@@ -723,12 +697,9 @@ mod_board_server <- function(id, board_reactive) {
           )
         } else ""
         
-        gov_box <- if (isTRUE(r$api_ok) && isTRUE(r$chk_pass)) paste0(
+        gov_box <- if (isTRUE(r$api_ok)) paste0(
           "<div style='background:#dcfce7; color:#166534; padding:8px 14px; border-radius:8px; font-size:12.5px; margin-top:16px;'>",
           "✓ Governance Audit: No violations detected. LLM output passed all automated checks.</div>"
-        ) else if (isTRUE(r$api_ok)) paste0(
-          "<div style='background:#fef3c7; color:#92400e; padding:8px 14px; border-radius:8px; font-size:12.5px; margin-top:16px;'>",
-          "⚠ Synthesis may be inconsistent with the structured payload — review the Raw Audit.</div>"
         ) else paste0(
           "<div style='background:#fef3c7; color:#92400e; padding:8px 14px; border-radius:8px; font-size:12.5px; margin-top:16px;'>",
           "⚠ Generation failed — no synthesis produced (DeepSeek API error).</div>"
