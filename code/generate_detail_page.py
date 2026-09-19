@@ -311,6 +311,7 @@ html = """<!DOCTYPE html>
 const DATA = __DATA__;
 const PMID_TITLES = __PMID_TITLES__;
 const LEVEL_COLORS = {L1:"#FFD700", L2:"#00B0FF", L3:"#00E676", L4:"#E040FB", L5:"#FF6D00"};
+const LEVEL_TEXT_COLORS = {L1:"#8a6d00", L2:"#006f9e", L3:"#007a4d", L4:"#7b1fa2", L5:"#c2410c"};
 const LEVEL_NAMES = {L1:"L1 modality", L2:"L2 subtype", L3:"L3 trigger", L4:"L4 Functional/contextual", L5:"L5 Generic/umbrella/legacy/taxon/emerging"};
 const MECH_PILL = {MECHANISTIC:"p-mech", CONTEXT_GAP:"p-context", CO_OCCURRENCE:"p-coocc",
                    LITERATURE_GAP:"p-litgap", INSUFFICIENT_DATA:"p-insuf", DATABASE_ONLY:"p-dbonly"};
@@ -511,7 +512,7 @@ function showEntity(name) {
   const nReg = e.genes.filter(g => g.role_ds === "REGULATOR").length;
   const dsStats = (nExec + nReg > 0) ? ` · <b style="color:#FF9800;">${nExec}</b> <span style="color:#FF9800;">executors</span> · <b style="color:#FF9800;">${nReg}</b> <span style="color:#FF9800;">regulators</span> <span style="color:#a8a29e;">(DeepSeek)</span>` : "";
   document.getElementById("entityMeta").innerHTML =
-    `<span class="pill" style="background:${LEVEL_COLORS[e.level]}33;color:${LEVEL_COLORS[e.level]}">${LEVEL_NAMES[e.level]}</span> · <b style="color:#FFD700;">${e.n.toLocaleString('en-US')}</b> <span style="color:#FFD700;">associated genes</span>${dsStats}`;
+    `<span class="pill" style="background:${LEVEL_COLORS[e.level]}33;color:${LEVEL_TEXT_COLORS[e.level]}">${LEVEL_NAMES[e.level]}</span> · <b style="color:#FFD700;">${e.n.toLocaleString('en-US')}</b> <span style="color:#FFD700;">associated genes</span>${dsStats}`;
   document.getElementById("entityDef").textContent = e.definition || "No operational definition recorded in the matrix.";
   document.getElementById("entityKey").textContent = e.key ? ("Key molecules: " + e.key) : "";
   curGenes = e.genes;
@@ -556,7 +557,7 @@ function showGene(name) {
   document.getElementById("geneEntities").innerHTML = g.entities.map(en => `
     <tr>
       <td class="ent-link" data-name="${en.name}" style="cursor:pointer;"><b style="color:#1d4ed8;">${en.name}</b></td>
-      <td><span class="pill" style="background:${LEVEL_COLORS[en.level]}33;color:${LEVEL_COLORS[en.level]}">${en.level}</span></td>
+      <td><span class="pill" style="background:${LEVEL_COLORS[en.level]}33;color:${LEVEL_TEXT_COLORS[en.level]}">${en.level}</span></td>
       <td>${DIR(en) ? `<span class="pill ${dirPill(DIR(en))}">${DIR(en)}</span>` : "—"}</td>
       <td><span class="pill ${MECH_PILL[en.mech] || "p-insuf"}">${en.mech || "—"}</span></td>
     </tr>`).join("");
