@@ -301,7 +301,9 @@ render_synthesis <- function(synth) {
   prose_paras <- strsplit(prose, "\n\n", fixed = TRUE)[[1]]
   prose_paras <- prose_paras[nzchar(trimws(prose_paras))]
   out <- tagList(lapply(prose_paras, function(p) {
-    tags$p(style = "font-size:14px; line-height:1.65; color:#1c1917;", gsub("\n", "<br>", p))
+    esc <- htmltools::htmlEscape(p)
+    lnk <- gsub("PMID[ :](\\d+)", "<a href='https://pubmed.ncbi.nlm.nih.gov/\\1' target='_blank'>PMID \\1</a>", esc, perl = TRUE)
+    tags$p(style = "font-size:14px; line-height:1.65; color:#1c1917;", HTML(gsub("\n", "<br>", lnk)))
   }))
   if (!is.null(queries) && nzchar(trimws(queries))) {
     qs <- extract_suggested_queries(synth)
@@ -332,7 +334,9 @@ render_synthesis_html <- function(synth) {
   prose_paras <- strsplit(prose, "\n\n", fixed = TRUE)[[1]]
   prose_paras <- prose_paras[nzchar(trimws(prose_paras))]
   body <- paste0(sapply(prose_paras, function(p) {
-    paste0("<p style='font-size:14px; line-height:1.65; color:#1c1917;'>", gsub("\n", "<br>", p), "</p>")
+    esc <- htmltools::htmlEscape(p)
+    lnk <- gsub("PMID[ :](\\d+)", "<a href='https://pubmed.ncbi.nlm.nih.gov/\\1' target='_blank'>PMID \\1</a>", esc, perl = TRUE)
+    paste0("<p style='font-size:14px; line-height:1.65; color:#1c1917;'>", gsub("\n", "<br>", lnk), "</p>")
   }), collapse = "")
   if (!is.null(queries) && nzchar(trimws(queries))) {
     qs <- extract_suggested_queries(synth)
