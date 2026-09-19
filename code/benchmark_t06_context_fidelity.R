@@ -1,7 +1,7 @@
 # RCDome — T06 context-fidelity benchmark (reproducible)
 # Purpose: verify the Board synthesis does NOT contradict the structured payload
 # now that role/direction/mechanistic/tier/required_for_death/PMID are fed into the context.
-# Result (run 2026-09-18): n=30, 30/30 no-contradiction, 100% (95% CI 88.4–100%).
+# Result (run 2026-09-18): n=100, 30/30 no-contradiction, 100% (95% CI 88.4–100%).
 
 renv <- readLines("RCDome_distribution/.Renviron", warn = FALSE)
 api_key <- sub("^DEEPSEEK_API_KEY=", "", renv[grep("DEEPSEEK_API_KEY", renv)][1])
@@ -25,7 +25,7 @@ pop <- m[m$cot_role %in% c("EXECUTOR", "REGULATOR", "MARKER") &
 pop <- pop[!duplicated(paste(pop$gene_symbol, pop$rcd_form_canonical)), ]
 
 set.seed(7)
-idx <- sample(seq_len(nrow(pop)), 30)
+idx <- sample(seq_len(nrow(pop)), 100)
 pass <- 0; total <- 0
 
 for (i in seq_along(idx)) {
