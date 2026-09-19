@@ -267,15 +267,6 @@ html = """<!DOCTYPE html>
         <button id="entityDownloadForce">Download .txt</button>
       </div>
     </div>
-    <div class="section">
-      <h2>Jump to modules</h2>
-      <div class="modlinks">
-        <a href="module_placeholder.html?m=3">Pathway diagram</a>
-        <a href="module_placeholder.html?m=6">Discovery timeline</a>
-        <a href="module_placeholder.html?m=5">Operational comparator</a>
-        <a href="module_placeholder.html?m=7">Export .csv</a>
-      </div>
-    </div>
   </div>
 
   <!-- ============ GENE VIEW ============ -->
@@ -297,14 +288,6 @@ html = """<!DOCTYPE html>
         <tbody id="geneEntities"></tbody>
       </table>
       <p class="note">Direction source: DeepSeek (complete) vs Elicit (original).</p>
-    </div>
-    <div class="section">
-      <h2>Jump to modules</h2>
-      <div class="modlinks">
-        <a href="module_placeholder.html?m=2">Gene-centric explorer (omic layers)</a>
-        <a href="module_placeholder.html?m=3">Pathway diagram</a>
-        <a href="module_placeholder.html?m=7">Export .csv</a>
-      </div>
     </div>
   </div>
 
