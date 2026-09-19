@@ -139,7 +139,7 @@ This project follows **Medina's AI Governance Rules in Writing Scientific Manusc
 | Manuscript, figures, supplementaries | ✅ complete (V026) |
 | DeepSeek CoT (full matrix) | ✅ complete (21,568 pairs) |
 | Elicit (Phase 3) | ✅ complete |
-| **Consensus full run** | 🔄 **in progress** (9,634 / 21,568 pairs recorded at V026 (partial) — resumes on the V026 matrix on Zima) |
+| **Consensus full run** | 🔄 **in progress** (19,443 / 21,569 pairs recorded — token quota reached, resumable; re-run after topping up tokens) |
 | App modules | ✅ complete (9 tabs: Home, Explore RCDome, Operational Definitions, Compare Definitions, RCD entities 53/53, Gene Catalog, RCDome Board + Q&A, Network, About) |
 
 ## 📄 How to cite
