@@ -1,5 +1,20 @@
 # RCDome Traceability & Governance Contract
 
+## Benchmark Statistical Standard (2026-09-18)
+
+Every AI-output benchmark (e.g., the Digital Molecular RCD Board / Q&A) must be reported with a statistically defensible sample size and confidence interval.
+
+- **Minimum sample size: n = 100** per benchmark (random, seed-reproducible sample).
+- **Report the exact binomial 95% CI** (Clopper–Pearson).
+- **Claim standard:** with n = 100 and 100% pass, the CI lower bound is **96.4%**, so the permitted wording is **“100% (100/100), 95% CI [96.4%, 100%]”** — i.e., “≥96% with 95% confidence.”
+- Pilot runs (n < 100) are admissible only as pilots and must be labeled as such.
+- Benchmarks must be reproducible: fixed seed, real model calls, documented prompt + context.
+
+Current benchmark results (2026-09-18, n = 100):
+- Reference discipline (gene vs entity PMID): 100/100, 95% CI 96.4–100%.
+- T06 context fidelity (no payload contradiction): 100/100, 95% CI 96.4–100%.
+
+
 ## Principles
 
 0. **NEVER ASSUME, NEVER IMAGINE, NEVER EXTRAPOLATE, NEVER SPECULATE.** State only what is verified against the data. A relationship, count, or equivalence (e.g., "316 CSV rows = 316 papers") is a claim that must be programmatically verified before it is written or spoken as fact. No projection, no inference-as-fact, no guessed numbers, no speculation about what "should" be true. If a number or relationship has not been checked against the actual data, it is an open question, and it must be labelled as such — never asserted. **External-service status (e.g., "Elicit's servers are recovering", "an outage", "a backlog") is a factual claim that MUST be cited from the provider's own status page or documentation — never asserted from symptoms. A cost figure (e.g., "~$2") MUST be cited from an invoice or usage record — never estimated. An unknown cause MUST be labelled "UNKNOWN", not filled with a guessed explanation.**
