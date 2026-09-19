@@ -48,3 +48,9 @@ Current §9 state: L1=16, L2=6, L3=2, L4=11, L5=18 (was 16/5/2/11/19).
 ## §25 human review — documented
 - Actual process (from curator): per-entity review — Enrique read and validated each of the 28 drafted definitions individually against its founding evidence before approving; the shared 2026-09-05 timestamp is a single curation session in which each entity was checked separately, not an unattended batch approval.
 - Manuscript: added "Human review granularity" paragraph after the human-supervision paragraph (governance docx).
+
+## §25 human review — final wording (two-curator process)
+
+- Primary curator (EM-A): read, inspected, approved each of the 53 entities separately in a single curation session (no unattended batch approval).
+- 28 drafted definitions: EM-A validated each against founding evidence before APPROVED; 25 committee definitions byte-identical (LOCKED-VERBATIM).
+- Second curator (VdSL): independently assessed each classification entity-by-entity; disagreements jointly adjudicated by both curators; consensus recorded as final.
