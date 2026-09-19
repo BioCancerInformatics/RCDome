@@ -6,7 +6,7 @@ OD_LEVEL_COLORS <- c(L1 = "#FFD700", L2 = "#00B0FF", L3 = "#00E676",
                      L4 = "#E040FB", L5 = "#FF6D00")
 OD_LEVEL_NAMES <- c(L1 = "L1 modality", L2 = "L2 subtype", L3 = "L3 trigger",
                     L4 = "L4 Functional/contextual",
-                    L5 = "L5 Generic/umbrella/legacy/taxon/emerging")
+                    L5 = "L5 Generic/umbrella/taxon")
 
 OD_LEGEND <- list(
   L1 = list(label = "L1 modality",
@@ -17,7 +17,7 @@ OD_LEGEND <- list(
             desc = "a trigger or mechanism (e.g., MPT)"),
   L4 = list(label = "L4 Functional/contextual",
             desc = "context-dependent or functional forms"),
-  L5 = list(label = "L5 Generic/umbrella/legacy/taxon/emerging",
+  L5 = list(label = "L5 Generic/umbrella/taxon",
             desc = "generic, umbrella, legacy, taxon, or emerging terms")
 )
 OD_LEGEND_ORDER <- c("L1", "L2", "L3", "L4", "L5")
