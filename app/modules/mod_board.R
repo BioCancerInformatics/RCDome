@@ -583,6 +583,7 @@ mod_board_server <- function(id, board_reactive) {
       )
 
       generating(TRUE)
+      withProgress(message = "Generating synthesis...", value = 0, {
       start_t <- Sys.time()
       res <- tryCatch({
         resp <- httr::POST(
@@ -619,6 +620,7 @@ mod_board_server <- function(id, board_reactive) {
         decoder_fields = ctx$decoder_fields,
         suggested_queries = qs
       ))
+      })
       generating(FALSE)
     })
 
