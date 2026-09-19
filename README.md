@@ -112,7 +112,7 @@ The app loads `data/unified_gene_rcd_matrix_V026.csv` (place a copy in `app/data
 
 1. **Secrets** — copy `.env.example` to `.env` and add your own keys (`DEEPSEEK_KEY`, `CONSENSUS_API_KEY`, `ELICIT_API_KEY`, `NCBI_KEY`). **Keys are never committed.**
 2. **Execution order** — sources → channels (`code/extraction`) → Phase 2A/D & CoT & Consensus (`code/validation`) → merge (`code/merge`) → benchmarks (`code/benchmarks`) → figures (`code/figures`).
-3. **Benchmarks** — the four benchmark families are agnostic (fixed ground-truth sets defined independently of the classifiers): DeepSeek model-selection (26 pairs), Elicit governance (784 records), Consensus query (26 pairs), and the PMID title validation (10,141 titles).
+3. **Benchmarks** — the benchmark families are agnostic (fixed ground-truth sets defined independently of the classifiers): DeepSeek model-selection (26 pairs), Elicit governance (784 records), Consensus query (26 pairs), PMID title validation (10,141 titles), and the Digital Molecular RCD Board & Q&A regression suite (five checks, n = 100 each).
 4. **Smoke tests** —  contains automated checks (run by GitHub Actions on every push) that verify the mechanistic classification mapping, the chain-of-thought governance rules, and the benchmark scoring.
 
 ## 🏆 Benchmarks (headline)
