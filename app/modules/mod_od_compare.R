@@ -113,15 +113,13 @@ mod_od_compare_server <- function(id) {
           val <- values[i]
           diff <- length(unique(values)) > 1
           cells <- c(cells, paste0(
-            "<td style='", if (diff) "background:#fffbeb;" else "",
+            "<td style='", if (diff) "background:#fffbeb;" else "background:#f5f5f4;",
             "font-size:13px; line-height:1.5; vertical-align:top;'>", if (nzchar(val)) val else "—", "</td>"
           ))
         }
         body_rows <- c(body_rows, paste0("<tr>", paste(cells, collapse = ""), "</tr>"))
       }
-      paste0("<table style='width:100%; border-collapse:collapse;'>",
-             "<thead><tr>", paste(header_cells, collapse = ""), "</tr></thead>",
-             "<tbody>", paste(body_rows, collapse = ""), "</tbody></table>")
+      paste0("<div style='font-size:12px; color:#57534e; margin-bottom:8px;'>","<span style='display:inline-block; width:12px; height:12px; border-radius:3px; background:#fffbeb; border:1px solid #f59e0b; margin-right:6px; vertical-align:-1px;'></span> fields that differ · ","<span style='display:inline-block; width:12px; height:12px; border-radius:3px; background:#f5f5f4; border:1px solid #d6d3d1; margin:0 6px 0 12px; vertical-align:-1px;'></span> identical fields","</div>","<table style='width:100%; border-collapse:collapse;'>","<thead><tr>", paste(header_cells, collapse = ""), "</tr></thead>","<tbody>", paste(body_rows, collapse = ""), "</tbody></table>")
     }
 
     output$cmp_table <- renderUI({
