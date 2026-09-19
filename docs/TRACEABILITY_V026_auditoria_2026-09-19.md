@@ -44,3 +44,7 @@ Current §9 state: L1=16, L2=6, L3=2, L4=11, L5=18 (was 16/5/2/11/19).
 - Reference discipline held-out: 100/100, 95% CI 96.4-100%.
 - T06 context fidelity held-out: 100/100, 95% CI 96.4-100%.
 - Result doc updated (dev + held-out).
+
+## §25 human review — documented
+- Actual process (from curator): per-entity review — Enrique read and validated each of the 28 drafted definitions individually against its founding evidence before approving; the shared 2026-09-05 timestamp is a single curation session in which each entity was checked separately, not an unattended batch approval.
+- Manuscript: added "Human review granularity" paragraph after the human-supervision paragraph (governance docx).
