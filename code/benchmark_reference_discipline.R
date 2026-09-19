@@ -1,7 +1,7 @@
 # RCDome — Reference-discipline benchmark (reproducible)
 # Purpose: verify that the Board/Q&A separate gene-specific PMID (association)
 # from entity founding PMID (definition). Real DeepSeek calls.
-# Result (run 2026-09-18): n=50, 50/50 PASS, 100% (95% CI 92.9–100%).
+# Result (run 2026-09-18): n=100, 50/50 PASS, 100% (95% CI 92.9–100%).
 
 renv <- readLines("RCDome_distribution/.Renviron", warn = FALSE)
 api_key <- sub("^DEEPSEEK_API_KEY=", "", renv[grep("DEEPSEEK_API_KEY", renv)][1])
@@ -27,7 +27,7 @@ pop <- m[grepl("^[0-9]", m$pmid_list),
 pop <- pop[!duplicated(paste(pop$gene_symbol, pop$rcd_form_canonical)), ]
 
 set.seed(2026)
-idx <- sample(seq_len(nrow(pop)), 50)
+idx <- sample(seq_len(nrow(pop)), 100)
 pass <- 0; total <- 0
 failures <- character(0)
 
