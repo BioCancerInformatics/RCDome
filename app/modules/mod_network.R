@@ -877,6 +877,8 @@ mod_network_server <- function(
           1
         ),
         
+        opacity = ifelse(any(is_hit), ifelse(is_hit, 1, 0.35), 1),
+        
         font.color = ifelse(
           is_hit,
           "#c0392b",

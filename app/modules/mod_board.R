@@ -445,12 +445,7 @@ mod_board_ui <- function(id) {
               width = "100%",
               options = list(placeholder = "All genes for this entity", create = rcdome_create_js)
             ),
-            actionButton(
-              ns("btn_generate"),
-              "Generate Synthesis",
-              class = "btn primary",
-              style = "width:100%; margin-top:8px;"
-            ),
+            uiOutput(ns("generate_btn")),
             uiOutput(ns("download_ui"))
           ),
           column(8,
@@ -527,7 +522,21 @@ mod_board_server <- function(id, board_reactive) {
     }, ignoreNULL = TRUE)
 
     report <- reactiveVal(NULL)
+    generating <- reactiveVal(FALSE)
     pending_query <- reactiveVal(NULL)
+
+    output$generate_btn <- renderUI({
+      if (isTRUE(generating())) {
+        tags$button(
+          class = "btn primary",
+          style = "width:100%; margin-top:8px; opacity:0.65; cursor:wait;",
+          disabled = NA,
+          "Generating synthesis…"
+        )
+      } else {
+        actionButton(ns("btn_generate"), "Generate Synthesis", class = "btn primary", style = "width:100%; margin-top:8px;")
+      }
+    })
 
     observeEvent(input$btn_generate, {
       ent <- input$board_entity
@@ -573,6 +582,7 @@ mod_board_server <- function(id, board_reactive) {
         ))
       )
 
+      generating(TRUE)
       start_t <- Sys.time()
       res <- tryCatch({
         resp <- httr::POST(
@@ -609,6 +619,7 @@ mod_board_server <- function(id, board_reactive) {
         decoder_fields = ctx$decoder_fields,
         suggested_queries = qs
       ))
+      generating(FALSE)
     })
 
     # Example-query clicks: load the entity context + hand the question to the Q&A
