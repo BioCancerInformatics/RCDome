@@ -23,13 +23,13 @@
 <body>
   <div class="header">
     <div class="logo">RCD<span class="rust">ome</span></div>
-    <a class="back" href="#" onclick="(function(){var l=window.parent.document.querySelectorAll('a[data-toggle=tab]');for(var i=0;i<l.length;i++){if(l[i].textContent.replace(/\s+/g,' ').trim().indexOf('Home')===0){l[i].click();return;}}})();return false;">← Back to the dome</a>
+    <a class="back" href="#" onclick="(function(){var f=window.parent.document.getElementById('home_iframe');if(f){f.src='landing_page.html';}var l=window.parent.document.querySelectorAll('a[data-toggle=tab]');for(var i=0;i<l.length;i++){if(l[i].textContent.replace(/\s+/g,' ').trim().indexOf('Home')===0){l[i].click();return;}}})();return false;">← Back to the dome</a>
   </div>
   <div class="body">
     <h1 id="modName">Module</h1>
     <p class="soon">Coming soon — this module is under construction.</p>
     <p class="desc" id="modDesc"></p>
-    <a class="backbtn" href="#" onclick="(function(){var l=window.parent.document.querySelectorAll('a[data-toggle=tab]');for(var i=0;i<l.length;i++){if(l[i].textContent.replace(/\s+/g,' ').trim().indexOf('Home')===0){l[i].click();return;}}})();return false;">← Back to the dome</a>
+    <a class="backbtn" href="#" onclick="(function(){var f=window.parent.document.getElementById('home_iframe');if(f){f.src='landing_page.html';}var l=window.parent.document.querySelectorAll('a[data-toggle=tab]');for(var i=0;i<l.length;i++){if(l[i].textContent.replace(/\s+/g,' ').trim().indexOf('Home')===0){l[i].click();return;}}})();return false;">← Back to the dome</a>
   </div>
 <script>
   const MODULES = {
