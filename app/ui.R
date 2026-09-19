@@ -228,6 +228,16 @@ ui <- navbarPage(
       .btn.primary { background: var(--rust); border-color: var(--rust); color: var(--paper); }
       .btn.primary:hover { background: var(--ink); border-color: var(--ink); }
       .btn:not(.primary):hover { background: var(--ink); color: var(--paper); }
+      .shiny-progress-notification {
+        position: fixed !important; top: 50% !important; left: 50% !important;
+        transform: translate(-50%, -50%) !important; right: auto !important; bottom: auto !important;
+        width: 340px !important; max-width: 86vw;
+        background: #fff7ed !important; border: 2px solid #FF9800 !important; border-radius: 12px !important;
+        padding: 18px 22px !important; z-index: 9999 !important;
+        box-shadow: 0 14px 40px rgba(0,0,0,0.28) !important;
+      }
+      .shiny-progress .bar { background: #FF9800 !important; height: 8px !important; border-radius: 6px !important; }
+      .shiny-progress .progress-text { color: #c2410c !important; font-weight: 700 !important; font-size: 14px !important; font-family: 'Segoe UI', system-ui, sans-serif !important; }
       .hero-visual {
         display: flex; align-items: center; justify-content: center;
         width: 100%; overflow: hidden;
