@@ -24,7 +24,7 @@ def short(l):
 # HGNC + Entrez lookup (for external gene links)
 hgnc_map = {}
 try:
-    with open(BASE + '/Victor_analysis/V022_fixes/hgnc_complete_set.txt', encoding='utf-8', errors='ignore') as _f:
+    with open(BASE + '/analysis/Victor_analysis/V022_fixes/hgnc_complete_set.txt', encoding='utf-8', errors='ignore') as _f:
         for _row in csv.DictReader(_f, delimiter='\t'):
             _sym = (_row.get('symbol') or '').strip()
             if _sym:
@@ -119,8 +119,11 @@ html = """<!DOCTYPE html>
   * { box-sizing:border-box; margin:0; padding:0; }
   body { font-family:'Segoe UI',system-ui,sans-serif; background:#f5f5f4; color:#1c1917; }
   .frame { max-width:1100px; margin:0 auto; padding:20px; }
-  .header { display:flex; justify-content:space-between; align-items:center;
+  .header { display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;
             padding:14px 20px; background:#fff; border:1px solid #e7e5e4; border-radius:10px; }
+  .jumpbar { display:flex; gap:8px; align-items:center; flex-wrap:wrap;
+             margin:12px 0 14px; padding:10px 14px; background:#0b1020; border-radius:10px; }
+  #geneJump::placeholder, #entityJump::placeholder { color:#d6d3d1; opacity:1; }
   .back { color:#c2410c; text-decoration:none; font-size:0.9rem; font-weight:600; cursor:pointer; }
   .logo { font-size:1.4rem; font-weight:800; }
   .logo .rust { color:#c2410c; }
@@ -185,17 +188,14 @@ html = """<!DOCTYPE html>
     <a class="back" href="landing_page.html">← Back to the dome</a>
     <div class="logo">RCD<span class="rust">ome</span></div>
     <div class="crumb">Home / <span id="crumbName">…</span></div>
-    <div style="margin-top:10px;">
-      <style>
-        @keyframes jumpPulse {
-          0%, 100% { border-color:#FFD700; box-shadow:0 0 4px 1px rgba(255,215,0,0.5); }
-          50% { border-color:#FFC107; box-shadow:0 0 16px 5px rgba(255,215,0,0.9); }
-        }
-      </style>
-      <select id="entityJump" style="max-width:320px; padding:8px 10px; border:2px solid #FFD700; border-radius:8px; font-size:14px; color:#FFD700; background:#0b1020; font-weight:700; animation:jumpPulse 1.8s ease-in-out infinite;">
-        <option value="">Jump to an RCD entity…</option>
-      </select>
-    </div>
+  </div>
+
+  <div class="jumpbar">
+    <span style="color:#a8a29e; font-size:13px; font-weight:600;">Jump to:</span>
+    <input id="geneJump" list="geneList" placeholder="type a gene, press Enter…" style="width:240px; padding:8px 10px; border:2px solid #FF9800; border-radius:8px; font-size:14px; color:#FF9800; background:#0b1020; font-weight:700;">
+    <datalist id="geneList"></datalist>
+    <input id="entityJump" list="entityList" placeholder="type an RCD entity, press Enter…" style="width:280px; padding:8px 10px; border:2px solid #FFD700; border-radius:8px; font-size:14px; color:#FFD700; background:#0b1020; font-weight:700;">
+    <datalist id="entityList"></datalist>
   </div>
 
   <!-- navigation: clickable rows (entity <-> gene) -->
@@ -276,7 +276,7 @@ html = """<!DOCTYPE html>
       <h2>Associated RCD entities</h2>
       <table>
         <thead><tr>
-          <th class="has-tip" data-tip="Canonicalized RCD-related entity name. Click to open the entity detail page.">RCD entity</th>
+          <th class="has-tip" data-tip="Canonical RCD form name. Click to open the entity detail page.">RCD entity</th>
           <th class="has-tip" data-tip="Ontological level of the RCD entity: L1 modality, L2 subtype, L3 trigger, L4 Functional/contextual, L5 Generic/umbrella/legacy/taxon/emerging.">Level</th>
           <th id="thGeneDirection" class="has-tip" data-tip="Direction of the gene's effect on this RCD entity, from the selected analysis (DeepSeek = complete; Elicit = original).">Direction (DeepSeek)</th>
           <th class="has-tip" data-tip="Seven-class mechanistic classification: MECHANISTIC = validated by both LLM knowledge and PubMed abstracts; LITERATURE_GAP = LLM training recognizes but abstracts lack explicit statements; CONTEXT_GAP = PubMed confirms but LLM training does not recognize; CO_OCCURRENCE = high paper counts but no mechanistic evidence; INSUFFICIENT_DATA = few papers, LLM cannot determine involvement; DATABASE_ONLY = gene and RCD term never co-occur in PubMed; TECHNICAL_FAILURE = API failure (0 in final run).">Mechanistic class</th>
@@ -311,6 +311,7 @@ html = """<!DOCTYPE html>
 const DATA = __DATA__;
 const PMID_TITLES = __PMID_TITLES__;
 const LEVEL_COLORS = {L1:"#FFD700", L2:"#00B0FF", L3:"#00E676", L4:"#E040FB", L5:"#FF6D00"};
+const LEVEL_TEXT_COLORS = {L1:"#8a6d00", L2:"#006f9e", L3:"#007a4d", L4:"#7b1fa2", L5:"#c2410c"};
 const LEVEL_NAMES = {L1:"L1 modality", L2:"L2 subtype", L3:"L3 trigger", L4:"L4 Functional/contextual", L5:"L5 Generic/umbrella/legacy/taxon/emerging"};
 const MECH_PILL = {MECHANISTIC:"p-mech", CONTEXT_GAP:"p-context", CO_OCCURRENCE:"p-coocc",
                    LITERATURE_GAP:"p-litgap", INSUFFICIENT_DATA:"p-insuf", DATABASE_ONLY:"p-dbonly"};
@@ -378,6 +379,26 @@ function applyFilters() {
   renderGenes();
 }
 document.getElementById("entitySearch").addEventListener("input", applyFilters);
+document.getElementById("entitySearch").addEventListener("keydown", ev => {
+  if (ev.key !== "Enter") return;
+  const raw = document.getElementById("entitySearch").value.trim();
+  if (!raw) return;
+  const key = raw.toUpperCase();
+  const inEntity = curGenes.some(g => String(g.symbol).toUpperCase() === key);
+  if (inEntity) return;
+  const body = document.getElementById("pmidModalBody");
+  const title = document.getElementById("pmidModalTitle");
+  if (DATA.genes[key]) {
+    title.textContent = "Gene not associated";
+    body.innerHTML =
+      `<p><b>${esc(raw)}</b> is in the RCDome database but is not associated with <b>${esc(crumb.textContent)}</b>.</p>` +
+      `<p><a href="#" onclick="event.preventDefault(); document.getElementById('pmidModal').style.display='none'; showGene('${esc(key)}');">Open ${esc(raw)} gene page</a></p>`;
+  } else {
+    title.textContent = "Gene not found";
+    body.innerHTML = `<p>Sorry, <b>${esc(raw)}</b> is not in the RCDome database (9,265 HGNC-validated genes).</p>`;
+  }
+  document.getElementById("pmidModal").style.display = "flex";
+});
 document.getElementById("fDirection").addEventListener("change", applyFilters);
 document.getElementById("fRole").addEventListener("change", applyFilters);
 document.getElementById("fMech").addEventListener("change", applyFilters);
@@ -491,7 +512,7 @@ function showEntity(name) {
   const nReg = e.genes.filter(g => g.role_ds === "REGULATOR").length;
   const dsStats = (nExec + nReg > 0) ? ` · <b style="color:#FF9800;">${nExec}</b> <span style="color:#FF9800;">executors</span> · <b style="color:#FF9800;">${nReg}</b> <span style="color:#FF9800;">regulators</span> <span style="color:#a8a29e;">(DeepSeek)</span>` : "";
   document.getElementById("entityMeta").innerHTML =
-    `<span class="pill" style="background:${LEVEL_COLORS[e.level]}33;color:${LEVEL_COLORS[e.level]}">${LEVEL_NAMES[e.level]}</span> · <b style="color:#FFD700;">${e.n.toLocaleString('en-US')}</b> <span style="color:#FFD700;">associated genes</span>${dsStats}`;
+    `<span class="pill" style="background:${LEVEL_COLORS[e.level]}33;color:${LEVEL_TEXT_COLORS[e.level]}">${LEVEL_NAMES[e.level]}</span> · <b style="color:#FFD700;">${e.n.toLocaleString('en-US')}</b> <span style="color:#FFD700;">associated genes</span>${dsStats}`;
   document.getElementById("entityDef").textContent = e.definition || "No operational definition recorded in the matrix.";
   document.getElementById("entityKey").textContent = e.key ? ("Key molecules: " + e.key) : "";
   curGenes = e.genes;
@@ -536,7 +557,7 @@ function showGene(name) {
   document.getElementById("geneEntities").innerHTML = g.entities.map(en => `
     <tr>
       <td class="ent-link" data-name="${en.name}" style="cursor:pointer;"><b style="color:#1d4ed8;">${en.name}</b></td>
-      <td><span class="pill" style="background:${LEVEL_COLORS[en.level]}33;color:${LEVEL_COLORS[en.level]}">${en.level}</span></td>
+      <td><span class="pill" style="background:${LEVEL_COLORS[en.level]}33;color:${LEVEL_TEXT_COLORS[en.level]}">${en.level}</span></td>
       <td>${DIR(en) ? `<span class="pill ${dirPill(DIR(en))}">${DIR(en)}</span>` : "—"}</td>
       <td><span class="pill ${MECH_PILL[en.mech] || "p-insuf"}">${en.mech || "—"}</span></td>
     </tr>`).join("");
@@ -567,9 +588,42 @@ document.addEventListener("mouseout", ev => {
 const entityJump = document.getElementById("entityJump");
 if (entityJump) {
   const entityNames = Object.keys(DATA.entities).sort();
-  entityJump.innerHTML = '<option value="">Jump to an RCD entity…</option>' + entityNames.map(n => `<option value="${n}">${n}</option>`).join("");
-  entityJump.addEventListener("change", () => {
-    if (entityJump.value) showEntity(entityJump.value);
+  const entityList = document.getElementById("entityList");
+  if (entityList) entityList.innerHTML = entityNames.map(n => `<option value="${n}">`).join("");
+  entityJump.addEventListener("keydown", ev => {
+    if (ev.key !== "Enter") return;
+    const raw = entityJump.value.trim();
+    const match = entityNames.find(n => n.toLowerCase() === raw.toLowerCase());
+    if (match) {
+      showEntity(match);
+    } else if (raw) {
+      document.getElementById("pmidModalTitle").textContent = "RCD entity not found";
+      document.getElementById("pmidModalBody").innerHTML =
+        `<p>Sorry, <b>${esc(raw)}</b> is not in the RCDome database (${entityNames.length} canonicalized RCD-related entities).</p>`;
+      document.getElementById("pmidModal").style.display = "flex";
+    }
+  });
+}
+
+// gene jump (free text; type a gene + Enter; not-found -> pop-up)
+const geneJump = document.getElementById("geneJump");
+if (geneJump) {
+  const geneNames = Object.keys(DATA.genes).sort();
+  const geneList = document.getElementById("geneList");
+  if (geneList) geneList.innerHTML = geneNames.map(n => `<option value="${n}">`).join("");
+  geneJump.addEventListener("keydown", ev => {
+    if (ev.key !== "Enter") return;
+    const raw = geneJump.value.trim();
+    const key = raw.toUpperCase();
+    if (DATA.genes[key]) {
+      showGene(key);
+      geneJump.value = "";
+    } else if (raw) {
+      document.getElementById("pmidModalTitle").textContent = "Gene not found";
+      document.getElementById("pmidModalBody").innerHTML =
+        `<p>Sorry, <b>${esc(raw)}</b> is not in the RCDome database (${geneNames.length.toLocaleString('en-US')} HGNC-validated genes).</p>`;
+      document.getElementById("pmidModal").style.display = "flex";
+    }
   });
 }
 
