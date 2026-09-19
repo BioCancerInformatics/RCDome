@@ -161,14 +161,25 @@ mod_od_server <- function(id) {
           } else if (f %in% c("source_databases", "source_channels")) {
             val <- render_pills(v)
             if (!nzchar(val)) return(NULL)
-          } else if (f %in% c("founding_pmid", "reference_pmid", "primary_discovery_reference")) {
-            val <- paste0("<a href='https://pubmed.ncbi.nlm.nih.gov/", as.character(v),
-                          "/' target='_blank'>PMID ", as.character(v), "</a>")
+          } else if (f == "founding_pmid") {
+            fv <- as.character(v)
+            if (grepl("[0-9]", fv) && !grepl("[^0-9; ]", fv)) {
+              val <- render_pmids(fv)
+              if (!nzchar(val)) return(NULL)
+            } else {
+              rp <- as.character(r$reference_pmid %||% "")
+              links <- render_pmids(rp)
+              val <- if (nzchar(links)) paste0("Composite — ", links) else fv
+            }
+          } else if (f %in% c("reference_pmid", "primary_discovery_reference")) {
+            val <- render_pmids(v)
+            if (!nzchar(val)) return(NULL)
           } else if (f == "reference_citation") {
-            pmid <- r$reference_pmid %||% ""
-            if (!nzchar(pmid)) pmid <- r$founding_pmid %||% ""
-            if (nzchar(pmid)) {
-              val <- paste0("<a href='https://pubmed.ncbi.nlm.nih.gov/", pmid,
+            pmid <- as.character(r$reference_pmid %||% "")
+            if (!nzchar(pmid)) pmid <- as.character(r$founding_pmid %||% "")
+            if (nzchar(pmid) && grepl("[0-9]", pmid)) {
+              first <- trimws(strsplit(pmid, ";")[[1]])[1]
+              val <- paste0("<a href='https://pubmed.ncbi.nlm.nih.gov/", first,
                             "/' target='_blank'>", as.character(v), "</a>")
             } else {
               val <- as.character(v)
