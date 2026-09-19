@@ -123,6 +123,7 @@ The app loads `data/unified_gene_rcd_matrix_V026.csv` (place a copy in `app/data
 | Consensus neutral query (26-pair) | **100% accuracy · 0% false positives** |
 | Elicit post-export governance | 5/5 gates passed (allow-list 75.4→100% · EXECUTOR precision 47→100% · traceability 24→98%) |
 | PMID title validation | **10,141/10,141 (100%; 95% CI 99.96–100%)** |
+| Digital Molecular RCD Board & Q&A — 5 regression checks (n = 100 each): reference discipline, context fidelity, English-only, minimal source, insufficient-data | **100% each (95% CI 96.4–100%)** |
 
 ---
 
