@@ -508,7 +508,7 @@ function showEntity(name) {
   const nReg = e.genes.filter(g => g.role_ds === "REGULATOR").length;
   const dsStats = (nExec + nReg > 0) ? ` · <b style="color:#FF9800;">${nExec}</b> <span style="color:#FF9800;">executors</span> · <b style="color:#FF9800;">${nReg}</b> <span style="color:#FF9800;">regulators</span> <span style="color:#a8a29e;">(DeepSeek)</span>` : "";
   document.getElementById("entityMeta").innerHTML =
-    `<span class="pill" style="background:${LEVEL_COLORS[e.level]}33;color:${LEVEL_TEXT_COLORS[e.level]}">${LEVEL_NAMES[e.level]}</span> · <b style="color:#FFD700;">${e.n.toLocaleString('en-US')}</b> <span style="color:#FFD700;">associated genes</span>${dsStats}`;
+    `<span class="pill" style="background:${LEVEL_COLORS[e.level]}33;color:${LEVEL_COLORS[e.level]}">${LEVEL_NAMES[e.level]}</span> · <b style="color:#FFD700;">${e.n.toLocaleString('en-US')}</b> <span style="color:#FFD700;">associated genes</span>${dsStats}`;
   document.getElementById("entityDef").textContent = e.definition || "No operational definition recorded in the matrix.";
   document.getElementById("entityKey").textContent = e.key ? ("Key molecules: " + e.key) : "";
   curGenes = e.genes;
