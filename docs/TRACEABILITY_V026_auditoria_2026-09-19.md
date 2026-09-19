@@ -60,3 +60,9 @@ Current §9 state: L1=16, L2=6, L3=2, L4=11, L5=18 (was 16/5/2/11/19).
 - Primary curator (EM-A): read, inspected, approved each of the 53 separately in one curation session.
 - 28 drafted approved after validation; 25 committee definitions LOCKED-VERBATIM.
 - Two additional curators (VdSL + HACN) independently assessed all 53 entity-by-entity; disagreements jointly adjudicated; consensus = final.
+
+## §12/§13 classification cautions — documented proactively
+- §12 (Eryptosis): recorded the principle "cell-type specificity does not, by itself, preclude L1" — entities are classified by mechanism, not cell type. No entity change.
+- §13 (Phagoptosis): recorded the caution "lethal machinery resides partly in the phagocyte/phagolysosome, not exclusively in the target cell" — contextual classification retained pending source-level distinction. No entity change.
+- Also updated the L5 name in the ontology governance note (drop legacy/emerging) for §10 consistency.
+- Place: Supplementary_Note_S1_Terminology_Ontological_Adjudication_Governance.md (section 2).

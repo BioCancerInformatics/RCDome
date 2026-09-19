@@ -23,13 +23,15 @@ A global find-and-replace of "canonical" → "canonicalized" was deliberately pr
 
 Each of the 53 canonicalized RCD-related entities was then assessed against a five-level ontology and a set of hard gates.
 
-**Ontology levels.** L1 (bona fide RCD modality — distinct causal machinery and functional necessity); L2 (subtype — mechanistic subdivision of a parent modality); L3 (trigger — an initiating event that is not itself a complete death mechanism); L4 (functional/contextual — context-dependent programs, morphological outcomes, cell-type-specific and differentiation-associated phenomena); L5 (generic/umbrella/legacy/taxon/emerging).
+**Ontology levels.** L1 (bona fide RCD modality — distinct causal machinery and functional necessity); L2 (subtype — mechanistic subdivision of a parent modality); L3 (trigger — an initiating event that is not itself a complete death mechanism); L4 (functional/contextual — context-dependent programs, morphological outcomes, cell-type-specific and differentiation-associated phenomena); L5 (generic/umbrella/taxon).
 
 **Hard gates G0–G6.** G0 whole-cell death; G1 identifiable causal machinery (obligatory for L1); G2 functional necessity and distinguishability (obligatory for L1); G3 supportive phenotype/trigger; G4 published naming/provenance; G5 independent replication (defines maturity); G6 species scope. Naming alone (G4) is not evidence of mechanistic independence.
 
 **Association vs modality.** Two dimensions are kept separate: (i) whether a gene is associated with an RCD-related entity in the evidence base, and (ii) whether the entity itself qualifies as a bona fide RCD modality. Evidence of the former does not establish the latter. Accordingly, the associated-gene list is not described as a "death signature" or "death machinery" unless the evidence classification supports that statement; the preferred formulation is "genes associated with [entity] in RCDome".
 
 **Uncertainty and provenance.** Entities that fail L1 admission are not deleted. They are retained at an appropriate level (contextual category, morphology, subtype, trigger, umbrella, taxon-specific concept, legacy term, or provisional/emerging entity) with explicit provenance. Database inclusion is never treated as biological endorsement.
+
+**Classification cautions (post-review).** Two additional principles are recorded without changing any entity's level: (i) **cell-type specificity does not, by itself, preclude L1 modality status** — an entity is classified by its mechanism, not by the cell type in which it occurs (eryptosis is L4 because it is a cell-type program, not merely because it is erythrocyte-specific); and (ii) for **death-by-phagocytosis (phagoptosis), the lethal machinery resides partly in the phagocyte and phagolysosome rather than exclusively in the target cell**, so its contextual classification is retained pending a source-level distinction between engulfment-driven death and clearance.
 
 ## 3. The propagation governance gate
 
