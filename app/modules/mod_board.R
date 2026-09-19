@@ -191,7 +191,7 @@ DECODER_DESC <- list(
   founding_pmid = c("Founding PMID", "Founding PMID (the discovery article)"),
   definition_status = c("Definition status", "Definition status (DEFINED_RODRIGUES / DRAFT_SOLID / DRAFT_CANDIDATE / COMPOSITE / PRE_PUBMED)"),
   galluzzi_nccd_definition = c("NCCD verbatim definition", "Verbatim NCCD 2018 Box 1 definition (byte-identical; for invariant entities)"),
-  galluzzi_nccd_status = c("NCCD status", "NCCD status (NCCD_2018_INVARIANT / NOT_IN_NCCD_2018)"),
+  galluzzi_nccd_status = c("NCCD status", "NCCD status (NCCD_2018_INVARIANT / NOT_IN_NCCD_2018 / COMPOSITE)"),
   source_databases = c("Source databases", "Source databases contributing the entity's genes (semicolon-separated)"),
   source_channels = c("Source channels", "Source channels (A = programmatic / B = database / E = AI-screening)"),
   provenance_note = c("Provenance note", "Provenance note (matrix ontology annotation)"),
