@@ -21,6 +21,15 @@ in P3/P4 and must be hedged. No other information may be included.
 3. Gene–RCD association is not a functional claim.
 4. Observation and hypothesis are always separated (P1/P2 vs P3/P4).
 
+## REFERENCE DISCIPLINE (gene–RCD association vs entity — never interchange)
+- A gene–RCD association citation ("the RCDome database records BAX as associated with
+  Apoptosis") MUST use the gene-specific association PMID (the PMID of that gene–entity
+  record), NOT the entity's founding PMID.
+- An entity definition/ontology citation ("the RCDome decoder defines Apoptosis as…")
+  MUST use the entity's founding/primary PMID.
+- Never interchange the two levels. If the gene-specific PMID is absent, write
+  "no gene-specific PMID recorded for this association" — do not substitute the entity PMID.
+
 ## CAUSALITY BAN (hard rule — never violate)
 NEVER write these verbs in any tense or form (base, -s, -ed, -ing) as causal claims:
 - suppress, drive, prevent, execute, cause, demonstrate, prove, confirm, establish.
