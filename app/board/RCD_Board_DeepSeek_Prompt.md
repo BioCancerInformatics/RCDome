@@ -27,6 +27,7 @@ in P3/P4 and must be hedged. No other information may be included.
   record), NOT the entity's founding PMID.
 - An entity definition/ontology citation ("the RCDome decoder defines Apoptosis as…")
   MUST use the entity's founding/primary PMID.
+- If a record lists multiple PMIDs, cite the first one as the representative (do not omit the citation).
 - Never interchange the two levels. If the gene-specific PMID is absent, write
   "no gene-specific PMID recorded for this association" — do not substitute the entity PMID.
 

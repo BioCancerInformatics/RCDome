@@ -59,13 +59,20 @@ build_entity_context <- function(ent, gene = NULL) {
     matrix_txt <- paste0("not recorded (no association for ", gene, " - ", ent, ")")
   } else if (!is.null(gene)) {
     fld <- function(col) ifelse(is.na(col), "NA", as.character(col))
+    trunc_pmids <- function(p) {
+      ps <- strsplit(as.character(p), ";", fixed=TRUE)[[1]]
+      ps <- ps[!is.na(ps) & ps != ""]
+      if (length(ps) == 0) return("NA")
+      if (length(ps) <= 2) return(paste(ps, collapse=";"))
+      paste0(paste(ps[1:2], collapse=";"), "; +", length(ps)-2, " more")
+    }
     pair_txt <- unique(paste0(mrows$gene_symbol, ": role=", fld(mrows$cot_role),
                               " direction=", fld(mrows$cot_direction),
                               " mechanistic=", fld(mrows$mechanistic_class),
                               " evidence_tier=", fld(mrows$evidence_tier),
                               " confidence_tier=", fld(mrows$confidence_tier),
                               " required_for_death=", fld(mrows$required_for_death),
-                              " PMID=", fld(mrows$pmid_list)))
+                              " PMID=", trunc_pmids(mrows$pmid_list)))
     matrix_txt <- paste(pair_txt, collapse = "; ")
   } else {
     gene_hits <- if (nrow(mrows) == 0) character(0) else unique(mrows$gene_symbol)
