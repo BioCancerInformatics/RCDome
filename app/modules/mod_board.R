@@ -64,6 +64,7 @@ build_entity_context <- function(ent, gene = NULL) {
                               " mechanistic=", fld(mrows$mechanistic_class),
                               " evidence_tier=", fld(mrows$evidence_tier),
                               " confidence_tier=", fld(mrows$confidence_tier),
+                              " required_for_death=", fld(mrows$required_for_death),
                               " PMID=", fld(mrows$pmid_list)))
     matrix_txt <- paste(pair_txt, collapse = "; ")
   } else {
