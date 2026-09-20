@@ -19,7 +19,7 @@ lvl_name <- c('L1' = 'L1 Modalities',
               'L2' = 'L2 Subtypes',
               'L3' = 'L3 Triggers',
               'L4' = 'L4 Functional/contextual',
-              'L5' = 'L5 Generic/umbrella/legacy/taxon/emerging')
+              'L5' = 'L5 Generic/umbrella/taxon')
 cols <- unname(lvl[agg$rcdome_level])
 dark <- '#1F2937'
 out <- 'D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript/Figures/Figure_4_entity_coverage'

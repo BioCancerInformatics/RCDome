@@ -44,9 +44,9 @@ totals = ct.pop('_total')
 # concordant RCDome palette + names
 palette = {'L1': '#FCBB18', 'L2': '#5DADE2', 'L3': '#58D68D',
            'L4': '#AF7AC5', 'L5': '#F1948A'}
-lvl_names = {'L1': 'L1 Modalities (16)', 'L2': 'L2 Subtypes (5)',
-             'L3': 'L3 Triggers (2)', 'L4': 'L4 Functional/contextual (12)',
-             'L5': 'L5 Generic/umbrella/legacy/taxon/emerging (18)'}
+lvl_names = {'L1': 'L1 Modalities (19)', 'L2': 'L2 Subtypes (7)',
+             'L3': 'L3 Triggers (2)', 'L4': 'L4 Functional/contextual (13)',
+             'L5': 'L5 Generic/umbrella/taxon (12)'}
 dark = '#1F2937'
 
 OUT = BASE + '/Figures/Figure_S2_source_classification'
