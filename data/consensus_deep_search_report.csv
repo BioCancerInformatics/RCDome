@@ -1,4 +1,4 @@
-entity,coinage,mechanism,pubmed_consensus,score,verdict,founding_pmid
+﻿entity,coinage,mechanism,pubmed_consensus,score,verdict,founding_pmid
 Ammonia-induced cell death,0,1,0,1,PARTIAL,12388179
 Aponecrosis,1,0,1,2,CONSENSUS,10567915
 Apoptosis (extrinsic),0,1,0,1,PARTIAL,15451440
@@ -24,5 +24,5 @@ Programmed cell death,1,1,0,2,CONSENSUS,14287218
 Pyronecrosis,1,1,0,2,CONSENSUS,18005730
 Regulated Necrosis,0,1,0,1,PARTIAL,21894190
 Spectosis,0,1,1,2,CONSENSUS,40499516
-Triaptosis,0,0,1,1,PARTIAL,39638924
+Triaptosis,0,0,1,1,PARTIAL,39446948
 Vacuolar cell death,0,1,0,1,PARTIAL,15358773
