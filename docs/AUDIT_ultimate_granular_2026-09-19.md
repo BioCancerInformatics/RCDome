@@ -1,0 +1,119 @@
+# Ultimate granular audit — every artifact vs truth (2026-09-19)
+
+**Result: 115 checks, 0 FAIL**
+
+- [PASS] decoder 53 rows
+- [PASS] decoder 39 cols
+- [PASS] decoder has RS1-RS6, no C1-C6
+- [PASS] decoder has 'Entotic cell death' (renamed)
+- [PASS] decoder has 'NETotic cell death' (renamed)
+- [PASS] decoder Lysoptosis: SUBTYPE
+- [PASS] decoder Lysozincrosis: SUBTYPE
+- [PASS] decoder Mitoptosis: CELLULAR_PROCESS
+- [PASS] decoder Aponecrosis: UMBRELLA
+- [PASS] decoder Pyronecrosis: SYNONYM
+- [PASS] decoder Floatptosis: CELL_TYPE
+- [PASS] decoder Spectosis: CELL_TYPE
+- [PASS] decoder NECSO: CORE_PENDING
+- [PASS] decoder Mitoxyperilysis: CORE_PENDING
+- [PASS] decoder Triaptosis: CORE_PENDING
+- [PASS] no EMERGING/LEGACY
+- [PASS] Triaptosis PMID 39446948
+- [PASS] decoder XLSX RS1-RS6 header
+- [PASS] matrix 71 cols
+- [PASS] matrix 22,473 rows
+- [PASS] distribution {'L1': 19, 'L4': 13, 'L5': 12, 'L3': 2, 'L2': 7}
+- [PASS] no old Entosis/NETosis canonical
+- [PASS] has Entotic/NETotic cell death
+- [PASS] evidence_tier = ET1-ET4 only
+- [PASS] confidence_tier = CT1-CT4 only
+- [PASS] matrix decoder_operational_definition synced
+- [PASS] matrix decoder_category synced
+- [PASS] INDEX no 'T1-T4'
+- [PASS] INDEX no 'Q1-Q5'
+- [PASS] INDEX no 'C1-C5'
+- [PASS] INDEX no 'C1-C6'
+- [PASS] INDEX no 'G1-G5'
+- [PASS] INDEX no 'legacy/taxon/emerging'
+- [PASS] INDEX no '67 columns'
+- [PASS] INDEX says 71 columns
+- [PASS] S3 level distribution {'L1 Modalities': 19, 'L4 Functional/contextual': 13, 'L2 Subtypes': 7, 'L5 Generic/umbrella/taxon': 12, 'L3 Triggers': 2}
+- [PASS] S3 NECSO=B Triaptosis=C
+- [PASS] S3 has Entotic/NETotic cell death
+- [PASS] S5 MPT-driven-necrosis -> MPT-driven necrosis
+- [PASS] S5 Mitotic-death -> Mitotic death
+- [PASS] S5 Entotic -> Entotic cell death
+- [PASS] S8 QG1-QG5
+- [PASS] S11 RS1-RS6
+- [PASS] S12 MC1-MC5
+- [PASS] S12 Lysoptosis adj=L2
+- [PASS] S12 Lysozincrosis adj=L2
+- [PASS] S12 Mitoptosis adj=L5
+- [PASS] S12 Aponecrosis adj=L5
+- [PASS] S12 Pyronecrosis adj=L5
+- [PASS] S12 Floatptosis adj=L4
+- [PASS] S12 Spectosis adj=L4
+- [PASS] S12 NECSO adj=L1
+- [PASS] S12 Mitoxyperilysis adj=L1
+- [PASS] S12 Triaptosis adj=L1
+- [PASS] S12 pre=L5 for 10 re-derived
+- [PASS] S7 ET1/ET4
+- [PASS] manuscript no 'C1-C6'
+- [PASS] manuscript no 'C1–C6'
+- [PASS] manuscript no 'C1-C5'
+- [PASS] manuscript no 'C1–C5'
+- [PASS] manuscript no 'T1-T4'
+- [PASS] manuscript no 'T1–T4'
+- [PASS] manuscript no 'Q1-Q5'
+- [PASS] manuscript no 'G1-G5'
+- [PASS] manuscript no 'legacy/taxon/emerging'
+- [PASS] manuscript no '16/53'
+- [PASS] manuscript no 'only 16 of the 53'
+- [PASS] manuscript no '64.7%'
+- [PASS] manuscript no '40.5%'
+- [PASS] manuscript no '23.9%'
+- [PASS] manuscript no '31.3%'
+- [PASS] manuscript has 'RS1 extent of research'
+- [PASS] manuscript has '(MC1) possession'
+- [PASS] manuscript has 'evidence tier (ET1'
+- [PASS] manuscript has 'confidence tier (CT1'
+- [PASS] manuscript has '19/53'
+- [PASS] manuscript has '19 RCD modalities'
+- [PASS] manuscript has '7 subtypes'
+- [PASS] manuscript has '13 functional/contextual'
+- [PASS] manuscript has '12 generic/umbrella/taxon'
+- [PASS] manuscript has 'Entotic cell death'
+- [PASS] manuscript has 'NETotic cell death'
+- [PASS] manuscript has '64.6%'
+- [PASS] manuscript has '31.5%'
+- [PASS] supp-info no 'C1-C6'
+- [PASS] supp-info no 'C1–C6'
+- [PASS] supp-info no 'C1-C5'
+- [PASS] supp-info no 'C1–C5'
+- [PASS] supp-info no 'T1-T4'
+- [PASS] supp-info no 'T1–T4'
+- [PASS] supp-info no 'legacy/taxon/emerging'
+- [PASS] supp-info no '(16 entities)'
+- [PASS] supp-info no 'subtypes (5)'
+- [PASS] supp-info no 'contextual (11)'
+- [PASS] supp-info no 'emerging (19)'
+- [PASS] supp-info no '64.7%'
+- [PASS] supp-info no '40.5%'
+- [PASS] supp-info no '23.9%'
+- [PASS] supp-info no '31.3%'
+- [PASS] S6 held-out + 20260919
+- [PASS] S2 legend (19)/(7)/(13)/(12) + generic/umbrella/taxon
+- [PASS] Fig3 pcts 64.6/40.4/33.3/23.6/31.5
+- [PASS] Fig4 L5 name generic/umbrella/taxon
+- [PASS] FigS2 legend counts 19/7/2/13/12 + name
+- [PASS] mod_od.R RS1-RS6
+- [PASS] mod_rcd_grid.R dr$RS1
+- [PASS] mod_board.R RS + ET/CT + MC
+- [PASS] landing L1=19 L5=12 + generic/umbrella/taxon
+- [PASS] explore held-out + home_iframe
+- [PASS] board prompt RS1-RS6
+- [PASS] decoder CSV: identical
+- [PASS] tables: identical
+- [PASS] manuscript: identical
+- [PASS] supp info: identical
+- [PASS] matrix RDS: identical
