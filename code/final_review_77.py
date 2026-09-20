@@ -21,7 +21,7 @@ ck('12-value relationship vocab', set(d.relationship_type.unique()) <= {'is_a','
 ck('5-value evidence_maturity', set(d.evidence_maturity.unique()) == {'established','supported','emerging','legacy','provisional'})
 
 print('=== 3. MANUSCRIPT ===')
-doc = docx.Document(BASE + '/RCDome_manuscript_governance_V026.docx')
+doc = docx.Document(BASE + '/RCDome_manuscript_governance.docx')
 txt = ' '.join(p.text for p in doc.paragraphs)
 ck('version-free (no V0xx)', not re.search(r'V0\d\d', txt))
 ck('hard gates present', 'Hard gates (L1 admission)' in txt)
@@ -31,7 +31,7 @@ ck('Table S12 callout', 'documented in Table S12' in txt)
 ck('380+ paragraphs', len(doc.paragraphs) >= 380, str(len(doc.paragraphs)))
 
 print('=== 4. SUPPLEMENTARY WORKBOOK ===')
-wb = openpyxl.load_workbook(BASE + '/RCDome_manuscript_V026_supplementary_tables.xlsx', read_only=True)
+wb = openpyxl.load_workbook(BASE + '/RCDome_manuscript_supplementary_tables.xlsx', read_only=True)
 ck('sheets S1-S15', all(f'Table S{i}' in wb.sheetnames for i in range(1,16)))
 ws = wb['Table S12']; hdr = [c.value for c in next(ws.iter_rows(max_row=1))]
 ck('S12 26 cols, semantic levels', len(hdr)==26 and 'pre_adjudication_level' in hdr and 'adjudicated_level' in hdr)

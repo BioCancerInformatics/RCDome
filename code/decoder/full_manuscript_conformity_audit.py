@@ -36,7 +36,7 @@ ck('D1 53x26', d1.shape==(53,26), str(d1.shape))
 
 # ── 3. MANUSCRIPT ──
 print('\n[3] MANUSCRIPT')
-doc = docx.Document(B+'/manuscript_V026/RCDome_manuscript_governance_V026.docx')
+doc = docx.Document(B+'/manuscript_V026/RCDome_manuscript_governance.docx')
 paras = [p.text for p in doc.paragraphs]
 txt = ' '.join(paras)
 ck('version-free', not re.search(r'V0\d\d', txt))
@@ -76,7 +76,7 @@ for f in ['Figure_1_pipeline','Figure_2_benchmarks','Figure_3','Figure_4_entity_
 
 # ── 6. SUPPLEMENTARY WORKBOOK ──
 print('\n[6] SUPPLEMENTARY WORKBOOK')
-wb = openpyxl.load_workbook(B+'/manuscript_V026/RCDome_manuscript_V026_supplementary_tables.xlsx', read_only=True)
+wb = openpyxl.load_workbook(B+'/manuscript_V026/RCDome_manuscript_supplementary_tables.xlsx', read_only=True)
 ck('sheets S1-S15', all(f'Table S{i}' in wb.sheetnames for i in range(1,16)))
 ws = wb['Table S12']; hdr=[c.value for c in next(ws.iter_rows(max_row=1))]
 ck('S12 26 cols', len(hdr)==26 and 'adjudicated_level' in hdr)
@@ -88,7 +88,7 @@ ck('INDEX S1-S15 + Database S1', 'S1–S15' in idx and 'Database S1' in idx)
 
 # ── 7. SUPPLEMENTARY INFORMATION ──
 print('\n[7] SUPPLEMENTARY INFORMATION')
-si = docx.Document(B+'/manuscript_V026/RCDome_manuscript_V026_supplementary_information.docx')
+si = docx.Document(B+'/manuscript_V026/RCDome_manuscript_supplementary_information.docx')
 sit = ' '.join(p.text for p in si.paragraphs)
 ck('SI version-free', not re.search(r'V0\d\d', sit))
 ck('SI has Notes S1-S3', all(n in sit for n in ['Note S1','Note S2','Note S3']))

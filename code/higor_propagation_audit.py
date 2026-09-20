@@ -37,7 +37,7 @@ def scan_text(scope, txt):
             GOOD[g] = scope
 
 # 1. manuscript
-d = docx.Document("manuscript_V026/RCDome_manuscript_governance_V026.docx")
+d = docx.Document("manuscript_V026/RCDome_manuscript_governance.docx")
 mt = "\n".join(p.text for p in d.paragraphs)
 for t in d.tables:
     for r in t.rows:
@@ -45,7 +45,7 @@ for t in d.tables:
 scan_text("Manuscript", mt)
 
 # 2. supplementary info
-d2 = docx.Document("manuscript_V026/RCDome_manuscript_V026_supplementary_information.docx")
+d2 = docx.Document("manuscript_V026/RCDome_manuscript_supplementary_information.docx")
 st = "\n".join(p.text for p in d2.paragraphs)
 for t in d2.tables:
     for r in t.rows:
@@ -53,7 +53,7 @@ for t in d2.tables:
 scan_text("Supplementary info", st)
 
 # 3. supplementary tables (all sheets)
-x = pd.ExcelFile("manuscript_V026/RCDome_manuscript_V026_supplementary_tables.xlsx")
+x = pd.ExcelFile("manuscript_V026/RCDome_manuscript_supplementary_tables.xlsx")
 allx = ""
 for sh in x.sheet_names:
     df = x.parse(sh, dtype=str).astype(str)
