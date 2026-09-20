@@ -29,3 +29,13 @@
 - **Supplementary tables xlsx** (context-specific, 7 cells): "C1-C5 logic → MC1-MC5 logic"; "G1 machinery → BG1 machinery"; "G2 necessity → BG2 necessity"; "G0-G6 hard gates → BG0-BG6 hard gates"; "T1-T4 multi-tier → ET1-ET4 multi-tier".
 - Ranking "C1–C6" cells (Variable Descriptor) left untouched (Group B).
 - Verified: supp-info standalone G0-G6 = 0 · BG0-BG6 = 16; all 5 canonical cells confirmed.
+
+## Extension 2 — supp-tables confidence cell + decoder + distribution board/docs (approved)
+- **Supp tables**: "Confidence tier … (T1 strongest)" → "(**CT1** strongest)" (T→CT, confidence context — distinct from T→ET).
+- **Decoder** (`MandM_operational_definitions.md`, `RCDome_Definition_Governance.md`, `GROUP_G_canonical_mapping.md`, `GROUP_C_compliance_declaration.md`): G0–G6→BG0–BG6, C1-C5→MC1-MC5, `~C#`→`~MC#`, `tier_T#`→`tier_ET#`.
+- **Distribution board** (`qa_benchmark_report.json`, `qa_t*.json`, `run_qa_benchmark.py`, `run_board_benchmark.py`, `Example_RCDome_Board_*.html`): T1-T4→ET1-ET4, C1-C5→MC1-MC5.
+- **Distribution docs** (`README_DISTRIBUTION.md`, `CHANGELOG_V026_4.md`): G0–G6→BG0–BG6, C1-C5→MC1-MC5.
+- **Left untouched**: ranking C1–C6 (Group B), gene-symbol "T1/T2/G1" (ribonuclease T2, cyclin G1…), historical/archive files.
+- **Matrix**: already ET1–ET4 + CT1–CT4 — no change.
+- Verified: board JSON "CET"=0, "CT" preserved=45, "ET1"=403; decoder stale G0-G6=0.
+- GitHub commits: `3173bca` + `2d9b2b0`.
