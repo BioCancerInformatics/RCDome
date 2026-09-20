@@ -349,7 +349,7 @@ mod_gene_catalog_server <- function(id) {
       shinyjs::runjs(sprintf(
         "var r = document.querySelector('input[name=\"%s\"][value=\"deepseek\"]'); if(r && !r.checked){ r.checked = true; Shiny.setInputValue('%s', 'deepseek', {priority:'event'}); }",
         session$ns("source_sel_r"), session$ns("source_sel")))
-      updateSelectInput(session, "f_role", selected = "EXECUTOR")
+      updateSelectizeInput(session, "f_role", selected = "EXECUTOR")
     })
 
     # Download the death core (pair-level EXECUTOR rows, all columns)
