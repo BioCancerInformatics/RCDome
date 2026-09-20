@@ -8,7 +8,7 @@
 
 | New | Content | Old | File (base) |
 |-----|---------|-----|-------------|
-| Figure S1 | Evaluation architecture of RCDome V026 (infographic) | *(new)* | `Figure_S1_evaluation_architecture` |
+| Figure S1 | Evaluation architecture of RCDome (infographic) | *(new)* | `Figure_S1_evaluation_architecture` |
 | Figure S2 | Database contribution and multi-database corroboration | was S1 | `Figure_S2_database_contribution` |
 | Figure S3 | Mechanistic associations per source, stacked by ontological level | was S2 | `Figure_S3_source_classification` |
 
