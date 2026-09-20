@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Ocean-deep re-salt audit — every approved change + horizontal/vertical spread, item by item."""
+"""Ocean-deep pré-sal audit — every approved change + horizontal/vertical spread, item by item."""
 import csv, io, os, sys, hashlib, openpyxl, docx
 csv.field_size_limit(10**9)
 sys.stdout.reconfigure(encoding='utf-8')
@@ -104,7 +104,7 @@ ok("mod_board.R RS + ET/CT") if 'RS1 - ' in mb and 'ET1 gold' in mb and 'CT1-CT4
 nfail = sum(1 for s,_ in res if s=="FAIL")
 print("="*78); print(f"RESULT: {len(res)} checks, {nfail} FAIL"); print("="*78)
 with io.open(os.path.join(ROOT,"docs/AUDIT_ocean_deep_2026-09-19.md"),'w',encoding='utf-8') as f:
-    f.write("# Ocean-deep re-salt audit — all approved Victor changes + spread (2026-09-19)\n\n")
+    f.write("# Ocean-deep pré-sal audit — all approved Victor changes + spread (2026-09-19)\n\n")
     f.write(f"**Result: {len(res)} checks, {nfail} FAIL**\n\n")
     for s,m in res: f.write(f"- [{s}] {m}\n")
 print("saved docs/AUDIT_ocean_deep_2026-09-19.md")
