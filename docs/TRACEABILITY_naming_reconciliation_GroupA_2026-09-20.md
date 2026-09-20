@@ -62,3 +62,4 @@ Per curator: the decoder **code/data migration** ("C1–C6" → "RS1–RS6" insi
 ## Group B4 (curator decision: Figure S1 = truth)
 - **EG1–EG5** confirmed as the canonical name (Elicit governance gates). Renamed **QG1–QG5 → EG1–EG5** across: manuscript (¶124 "five Elicit governance gates (EG1–EG5)", ¶170), Table S8 (EG1 input validation … EG5 traceability), Variable Descriptor ("Benchmark gate (EG1-EG5)").
 - Supersedes the earlier B3 "QG1–QG5" naming.
+- B4 fix: "pipeline quality gates" (Figure S1 callout) restored (was wrongly changed); Table S8 note "hard gates G0–G6" → "BG0–BG6" (missed by Group A); note reads "Benchmark gates EG1–EG5 are distinct from the ontology hard gates BG0–BG6".
