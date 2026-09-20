@@ -346,13 +346,24 @@ mod_gene_catalog_server <- function(id) {
 
     # Death core preset: switch to DeepSeek + filter to EXECUTOR pairs (unique gene-entity pairs)
     dedup_flag <- reactiveVal(FALSE)
+    suppress_reset <- reactiveVal(FALSE)
     observeEvent(input$death_core, {
       shinyjs::runjs(sprintf(
         "var r = document.querySelector('input[name=\"%s\"][value=\"deepseek\"]'); if(r && !r.checked){ r.checked = true; Shiny.setInputValue('%s', 'deepseek', {priority:'event'}); }",
         session$ns("source_sel_r"), session$ns("source_sel")))
       dedup_flag(TRUE)
+      suppress_reset(TRUE)
       updateSelectizeInput(session, "f_role", selected = "EXECUTOR")
     })
+
+    # Auto-reset the dedup preset when the user manually changes the Role filter.
+    observeEvent(input$f_role, {
+      if (suppress_reset()) {
+        suppress_reset(FALSE)
+      } else {
+        dedup_flag(FALSE)
+      }
+    }, ignoreInit = TRUE, ignoreNULL = TRUE)
 
     # Download the death core (pair-level EXECUTOR rows, all columns)
     output$download_death_core <- downloadHandler(
