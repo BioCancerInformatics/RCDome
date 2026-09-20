@@ -131,7 +131,7 @@ def build_rag(question, default_entity, max_chars=60000):
     sub = sub.drop_duplicates(subset=['gene_symbol', 'rcd_form_canonical']).reset_index(drop=True)
     sub = sub.assign(
         _mech=(sub['mechanistic_class'] == 'MECHANISTIC').astype(int),
-        _t12=sub['evidence_tier'].isin(['T1', 'T2']).astype(int),
+        _t12=sub['evidence_tier'].isin(['ET1', 'ET2']).astype(int),
         _exec=(sub['cot_role'] == 'EXECUTOR').astype(int),
         _reg=(sub['cot_role'] == 'REGULATOR').astype(int))
     sub = sub.sort_values(['_mech', '_t12', '_exec', '_reg'], ascending=False).reset_index(drop=True)

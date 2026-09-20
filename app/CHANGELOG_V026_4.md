@@ -42,12 +42,12 @@
 ## V026 -> V026 — Victor's biological curation (7/7 groups)
 - **GROUP A**: MPT-driven necrosis -> L1 (modality); MPT -> L3 (trigger, `triggered_by`); Vacuolar cell death -> L4 (cross-species morphology).
 - **GROUP B**: 7 ontological fields added to the decoder (species_scope, evidence_maturity, relationship_type, parent_entity, ontology_curator_verified, independent_replication, primary_discovery_reference) -> decoder 31 -> 39 columns.
-- **GROUP C**: hard gates G0-G6 (addition, not replacement) + `hard_gate_status` column (L1-ELIGIBLE 16 / NOT-L1 37).
-- **GROUP D**: D1 Ontology Adjudication Table (Table S12, 53 x 26, Q1-Q13 + C1-C5) + D2 two-validation separation in Methods.
+- **GROUP C**: hard gates BG0-BG6 (addition, not replacement) + `hard_gate_status` column (L1-ELIGIBLE 16 / NOT-L1 37).
+- **GROUP D**: D1 Ontology Adjudication Table (Table S12, 53 x 26, Q1-Q13 + MC1-MC5) + D2 two-validation separation in Methods.
 - **GROUP E**: ontological recalibration - 23 level changes (L1 12,366 -> 10,300 · L2 2,111 -> 2,354 · L3 172 · L4 1,219 -> 2,684 · L5 6,605 -> 6,963); specific adjudications (Anoikis -> L2 subtype_of Intrinsic apoptosis; Mitotic death -> L4 driven_by Mitotic catastrophe; direction fix).
 - **GROUP F**: Methods/Results/Discussion framing - 5 insertions.
 - **GROUP G**: 9 ontological relationships registered (12-value relationship vocabulary + outcome_of).
-- **Matrix**: V026 (22,473 x 71; levels recalibrated per G0-G6).
+- **Matrix**: V026 (22,473 x 71; levels recalibrated per BG0-BG6).
 - **Decoder**: 39 columns; hard_gate_status 16/37.
 - **Manuscript**: version-free content; matrix named **Database S1**; 381 paragraphs.
 - **Supplementary**: S1-S15 + Database S1.
