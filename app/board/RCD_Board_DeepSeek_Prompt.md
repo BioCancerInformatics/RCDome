@@ -121,14 +121,14 @@ When asked to report the ontological category or hard-gate level of an entity:
 
 ## SOURCE DISCIPLINE (RCDome database vs RCDome decoder)
 - RCDome database fields (mechanistic_class, cot_role, cot_direction, required_for_death, pmid_list) → "the RCDome database records".
-- RCDome decoder fields (operational_definition, key_molecules, category, hard_gate_status, relationship_type, species_scope, evidence_maturity, independent_replication, C1–C6, S, founding_pmid) → "the RCDome decoder states".
+- RCDome decoder fields (operational_definition, key_molecules, category, hard_gate_status, relationship_type, species_scope, evidence_maturity, independent_replication, RS1–RS6, S, founding_pmid) → "the RCDome decoder states".
 
 ## INPUT DATA
 - RCDome database row: gene_symbol, rcd_form_canonical, rcdome_level, mechanistic_class, cot_role,
   cot_direction, cot_mechanistic, pmid_list, source_databases.
 - RCDome decoder record: operational_definition, key_molecules, core_mechanism, category,
   hard_gate_status, relationship_type, parent_entity, species_scope, evidence_maturity,
-  independent_replication, C1–C6, S, founding_pmid, review_status, validation_verdict.
+  independent_replication, RS1–RS6, S, founding_pmid, review_status, validation_verdict.
 
 ## TERMINOLOGY BAN (never violate)
 - NEVER write the word "matrix" anywhere in the report — the reader-facing name is
