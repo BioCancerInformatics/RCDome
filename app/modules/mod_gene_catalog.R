@@ -461,7 +461,7 @@ mod_gene_catalog_server <- function(id) {
       sc <- src_cols()
       cols <- c("gene_symbol", "gene_biotype", "rcd_form_canonical", "rcdome_level_name", "cancer_gene_type", "confidence_tier", "cot_mechanistic", sc$role, sc$dir, "source_databases")
       cols <- intersect(cols, names(df))
-      show <- df[, ..cols]
+      show <- df[, cols, drop = FALSE]
       show$gene_symbol <- sprintf('<em style="color:#1d4ed8;font-weight:700;">%s</em>', show$gene_symbol)
       show$gene_biotype <- rc_pill(show$gene_biotype, biotype_class(show$gene_biotype))
       show$rcd_form_canonical <- rc_pill(show$rcd_form_canonical, level_class(show$rcdome_level_name))
@@ -517,7 +517,7 @@ mod_gene_catalog_server <- function(id) {
         group_by(gene_symbol) %>% mutate(n_transcripts = n()) %>% ungroup()
       cols <- c("gene_symbol", "biotype", "rcd_associations", "transcript_id", "n_transcripts")
       cols <- intersect(cols, names(df))
-      show <- df[, ..cols]
+      show <- df[, cols, drop = FALSE]
       colnames(show) <- c("Gene", "Biotype", "RCD entity", "Transcript ID", "Nº Transcripts")
       datatable(show, rownames = FALSE, selection = "single",
         options = list(pageLength = 15, search = list(regex = TRUE, smart = TRUE),
@@ -589,7 +589,7 @@ mod_gene_catalog_server <- function(id) {
       cols <- c("gene_symbol", "gene_biotype", "rcd_form",
                 "precursor_mirna", "mature_mirna", "mature_arm")
       cols <- intersect(cols, names(df))
-      show <- df[, ..cols]
+      show <- df[, cols, drop = FALSE]
       colnames(show) <- c("Gene", "Biotype", "RCD entity", "Precursor", "Mature", "Arm")
       datatable(show, rownames = FALSE, selection = "single",
         options = list(pageLength = 15, search = list(regex = TRUE, smart = TRUE),
@@ -661,7 +661,7 @@ mod_gene_catalog_server <- function(id) {
       cols <- c("gene_symbol", "protein_symbol", "gene_biotype", "rcd_form",
                 "uniprot_recommended_name", "uniprot_id", "assay_label")
       cols <- intersect(cols, names(df))
-      show <- df[, ..cols]
+      show <- df[, cols, drop = FALSE]
       colnames(show) <- c("Gene", "Protein", "Biotype", "RCD entity", "UniProt Name", "UniProt ID", "Assay")
       datatable(show, rownames = FALSE, selection = "single",
         options = list(pageLength = 15, search = list(regex = TRUE, smart = TRUE),
