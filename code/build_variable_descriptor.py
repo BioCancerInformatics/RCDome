@@ -1,5 +1,5 @@
 # LEGACY (V025): superseded. Do NOT re-run against V026 — it targets the V025 workbook and its S12-S14 descriptor blocks are off-by-one.
-# The V026 Variable Descriptor sheet is maintained directly in RCDome_manuscript_supplementary_tables.xlsx.
+# The V026 Variable Descriptor sheet is maintained directly in RCDome_manuscript_V026_supplementary_tables.xlsx.
 """
 Build a consolidated "Variable Descriptor" sheet covering ALL tables S1-S14,
 following the logic of Rodrigues_et_al_Supplementary_Tables (Variable Name | Short Descriptor).

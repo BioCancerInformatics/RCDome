@@ -8,7 +8,7 @@ import docx, re, shutil, sys
 
 BASE = r"D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript"
 DEC = BASE + r"/RCDome Decoder"
-MAN = BASE + r"/RCDome_manuscript_governance.docx"
+MAN = BASE + r"/RCDome_manuscript_governance_V026.docx"
 
 def parse_md(path):
     """Return list of (text, is_header) from a .md file."""

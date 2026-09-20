@@ -11,7 +11,7 @@ def chk(scope, name, ok, detail=""):
     res.append((scope, name, "PASS" if ok else "FAIL", detail))
 
 # ---- 1. MANUSCRIPT ----
-d = docx.Document("manuscript_V026/RCDome_manuscript_governance.docx")
+d = docx.Document("manuscript_V026/RCDome_manuscript_governance_V026.docx")
 mt = "\n".join(p.text for p in d.paragraphs)
 for t in d.tables:
     for r in t.rows:
@@ -48,7 +48,7 @@ chk(Dc, "definition sources 20/12/19/1/1", dec.operational_definition_source.val
 
 # ---- 4. SUPPLEMENTARY + APP ----
 S = "Supplementary/app"
-sup = docx.Document("manuscript_V026/RCDome_manuscript_supplementary_information.docx")
+sup = docx.Document("manuscript_V026/RCDome_manuscript_V026_supplementary_information.docx")
 st = "\n".join(p.text for p in sup.paragraphs)
 for t in sup.tables:
     for r in t.rows:

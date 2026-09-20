@@ -6,8 +6,8 @@ sys.stdout.reconfigure(encoding='utf-8')
 from docx import Document
 
 BASE = r"D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript/manuscript_V026"
-GOV = f"{BASE}/RCDome_manuscript_governance.docx"
-SUP = f"{BASE}/RCDome_manuscript_supplementary_information.docx"
+GOV = f"{BASE}/RCDome_manuscript_governance_V026.docx"
+SUP = f"{BASE}/RCDome_manuscript_V026_supplementary_information.docx"
 stamp = datetime.datetime.now().strftime('%Y%m%d_%H%M%S')
 
 # backups (no overwrite)

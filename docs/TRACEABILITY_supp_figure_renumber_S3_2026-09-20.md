@@ -15,10 +15,10 @@
 ## Artifacts updated
 
 1. **Figure files** (`Figures/` + `D:/RCDome_github/docs/figures/`): renamed + new S1 copied (PNG/PDF/TIFF, 600 dpi) + data CSVs.
-2. **Main manuscript** `manuscript_V026/RCDome_manuscript_governance.docx`:
+2. **Main manuscript** `manuscript_V026/RCDome_manuscript_governance_V026.docx`:
    - New S1 call-out added at the evaluation-framework sentence ("…documented in Supplementary Note S1; the complete evaluation architecture … is summarized in Supplementary Figure S1").
    - "(Supplementary Figure S1)" → "(Supplementary Figure S2)"; "(Supplementary Figure S2)" → "(Supplementary Figure S3)".
-3. **Supplementary information** `manuscript_V026/RCDome_manuscript_supplementary_information.docx`:
+3. **Supplementary information** `manuscript_V026/RCDome_manuscript_V026_supplementary_information.docx`:
    - New S1 legend inserted; existing S1 legend → S2; existing S2 legend → S3.
 4. **Code** (main + GitHub mirror): `add_supplementary_legends.py`, `merge_supplementary_notes.py`, `make_figure_db_contribution.R`, `make_figure_s2_stacked_by_level.py` → renamed `make_figure_s3_stacked_by_level.py`, `make_figure_source_classification.R`, `final_review_77.py`, `manuscript_v026_deep_audit.py`, `build_github_mirror.py`, `full_manuscript_conformity_audit.py`.
 5. **Docs/changelogs**: `RCDome_distribution/CHANGELOG_V026_6.md`, `docs/TRACEABILITY_V026_auditoria_2026-09-19.md`, `HIGOR_CORRECTIONS_APPLIED.md` (2 copies).

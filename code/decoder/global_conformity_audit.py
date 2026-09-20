@@ -38,7 +38,7 @@ ck('decoder level == matrix level (53/53)', len(mism)==0, f'{len(mism)} mism {mi
 # ---- MANUSCRIPT ----
 print('\n[3] MANUSCRIPT')
 import docx
-doc = docx.Document(B + '/RCDome_manuscript_governance.docx')
+doc = docx.Document(B + '/RCDome_manuscript_governance_V026.docx')
 txt = ' '.join(p.text for p in doc.paragraphs)
 ck('version-free (no V0xx)', not re.search(r'V0\d\d', txt))
 ck('71 columns (not 67)', '71 columns' in txt and '67 columns' not in txt and '67-column' not in txt)
@@ -107,7 +107,7 @@ for l in open(MIR + '/mirror_manifest.txt', encoding='utf-8').read().splitlines(
 ck('manifest hashes match', mism==0, f'{mism}')
 st = subprocess.run(['git','-C',MIR,'status','--porcelain'], capture_output=True, text=True).stdout.strip()
 ck('git clean', st=='', st[:80] if st else '')
-keys = ['data/unified_gene_rcd_matrix_V026.csv','data/RCDome_Decoder_53.csv','data/D1_adjudication_table.csv','docs/manuscript/RCDome_manuscript_governance.docx','docs/supplementary/RCDome_manuscript_supplementary_tables.xlsx','app/www/detail_page_wireframe.html']
+keys = ['data/unified_gene_rcd_matrix_V026.csv','data/RCDome_Decoder_53.csv','data/D1_adjudication_table.csv','docs/manuscript/RCDome_manuscript_governance_V026.docx','docs/supplementary/RCDome_manuscript_V026_supplementary_tables.xlsx','app/www/detail_page_wireframe.html']
 ck('key files present', all(os.path.exists(MIR+'/'+k) for k in keys), '')
 
 print(f'\n===== GLOBAL CONFORMITY: {P} PASS, {F} FAIL =====')

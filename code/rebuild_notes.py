@@ -5,7 +5,7 @@ sys.stdout.reconfigure(encoding='utf-8')
 BASE = "D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript"
 import os; os.chdir(BASE)
 
-f = "manuscript_V026/RCDome_manuscript_supplementary_information.docx"
+f = "manuscript_V026/RCDome_manuscript_V026_supplementary_information.docx"
 d = docx.Document(f)
 paras = d.paragraphs
 

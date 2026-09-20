@@ -11,14 +11,14 @@ BASE = "D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_ma
 import os; os.chdir(BASE)
 
 # ---------- load artifacts ----------
-d = docx.Document("manuscript_V026/RCDome_manuscript_governance.docx")
+d = docx.Document("manuscript_V026/RCDome_manuscript_governance_V026.docx")
 paras = [p.text for p in d.paragraphs]
 mt = "\n".join(paras)
 for t in d.tables:
     for r in t.rows:
         for c in r.cells: mt += "\n" + c.text
 
-sup = docx.Document("manuscript_V026/RCDome_manuscript_supplementary_information.docx")
+sup = docx.Document("manuscript_V026/RCDome_manuscript_V026_supplementary_information.docx")
 st = "\n".join(p.text for p in sup.paragraphs)
 
 m = pd.read_csv("output databases/Phase 2C output/unified_gene_rcd_matrix_V026.csv", dtype=str, low_memory=False)

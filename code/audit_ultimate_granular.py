@@ -62,7 +62,7 @@ ok("matrix decoder_operational_definition synced") if opdrift==0 else bad(f"OP d
 ok("matrix decoder_category synced") if catdrift==0 else bad(f"cat drift={catdrift}")
 
 print("="*78); print("C. SUPPLEMENTARY TABLES — every sheet, row, column"); print("="*78)
-wb = openpyxl.load_workbook(os.path.join(ROOT,"manuscript_V026/RCDome_manuscript_supplementary_tables.xlsx"))
+wb = openpyxl.load_workbook(os.path.join(ROOT,"manuscript_V026/RCDome_manuscript_V026_supplementary_tables.xlsx"))
 # INDEX
 idx_txt = " ".join(str(c.value) for r in wb["INDEX"].iter_rows() for c in r if c.value)
 for badsym in ['T1-T4','Q1-Q5','C1-C5','C1-C6','G1-G5','legacy/taxon/emerging','67 columns']:
@@ -99,7 +99,7 @@ s7=" ".join(str(x) for r in wb["Table S7"].iter_rows(values_only=True) for x in 
 ok("S7 ET1/ET4") if 'ET1 (Gold)' in s7 and 'ET4 (Weak)' in s7 else bad("S7")
 
 print("="*78); print("D. MANUSCRIPT — paragraph by paragraph"); print("="*78)
-md=docx.Document(os.path.join(ROOT,"manuscript_V026/RCDome_manuscript_governance.docx"))
+md=docx.Document(os.path.join(ROOT,"manuscript_V026/RCDome_manuscript_governance_V026.docx"))
 mtxt="\n".join(p.text for p in md.paragraphs)
 for badsym in ['C1-C6','C1–C6','C1-C5','C1–C5','T1-T4','T1–T4','Q1-Q5','G1-G5','legacy/taxon/emerging','16/53','only 16 of the 53','64.7%','40.5%','23.9%','31.3%']:
     ok(f"manuscript no {badsym!r}") if badsym not in mtxt else bad(f"ms {badsym}")
@@ -107,7 +107,7 @@ for good in ['RS1 extent of research','(MC1) possession','evidence tier (ET1','c
     ok(f"manuscript has {good!r}") if good in mtxt else bad(f"ms missing {good}")
 
 print("="*78); print("E. SUPPLEMENTARY INFO — paragraph by paragraph"); print("="*78)
-si=docx.Document(os.path.join(ROOT,"manuscript_V026/RCDome_manuscript_supplementary_information.docx"))
+si=docx.Document(os.path.join(ROOT,"manuscript_V026/RCDome_manuscript_V026_supplementary_information.docx"))
 sitxt="\n".join(p.text for p in si.paragraphs)
 for badsym in ['C1-C6','C1–C6','C1-C5','C1–C5','T1-T4','T1–T4','legacy/taxon/emerging','(16 entities)','subtypes (5)','contextual (11)','emerging (19)','64.7%','40.5%','23.9%','31.3%']:
     ok(f"supp-info no {badsym!r}") if badsym not in sitxt else bad(f"SI {badsym}")
@@ -139,9 +139,9 @@ ok("board prompt RS1-RS6") if 'RS1–RS6' in boardprompt and 'C1–C6' not in bo
 print("="*78); print("H. PROPAGATION (md5) + R parse"); print("="*78)
 pairs=[
  ("decoder CSV", os.path.join(ROOT,"RCDome Decoder/RCDome_Decoder_53.csv"), [os.path.join(ROOT,"RCDome_distribution/data/RCDome_Decoder_53.csv"), os.path.join(GH,"data/RCDome_Decoder_53.csv"), os.path.join(GH,"app/data/RCDome_Decoder_53.csv")]),
- ("tables", os.path.join(ROOT,"manuscript_V026/RCDome_manuscript_supplementary_tables.xlsx"), [os.path.join(GH,"docs/manuscript/RCDome_manuscript_supplementary_tables.xlsx")]),
- ("manuscript", os.path.join(ROOT,"manuscript_V026/RCDome_manuscript_governance.docx"), [os.path.join(GH,"docs/manuscript/RCDome_manuscript_governance.docx")]),
- ("supp info", os.path.join(ROOT,"manuscript_V026/RCDome_manuscript_supplementary_information.docx"), [os.path.join(GH,"docs/manuscript/RCDome_manuscript_supplementary_information.docx")]),
+ ("tables", os.path.join(ROOT,"manuscript_V026/RCDome_manuscript_V026_supplementary_tables.xlsx"), [os.path.join(GH,"docs/manuscript/RCDome_manuscript_V026_supplementary_tables.xlsx")]),
+ ("manuscript", os.path.join(ROOT,"manuscript_V026/RCDome_manuscript_governance_V026.docx"), [os.path.join(GH,"docs/manuscript/RCDome_manuscript_governance_V026.docx")]),
+ ("supp info", os.path.join(ROOT,"manuscript_V026/RCDome_manuscript_V026_supplementary_information.docx"), [os.path.join(GH,"docs/manuscript/RCDome_manuscript_V026_supplementary_information.docx")]),
  ("matrix RDS", os.path.join(ROOT,"output databases/Phase 2C output/unified_gene_rcd_matrix_V026.rds"), [os.path.join(ROOT,"RCDome_distribution/data/unified_gene_rcd_matrix_V026.rds")]),
 ]
 for n,s,ds in pairs:
