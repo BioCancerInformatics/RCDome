@@ -39,3 +39,9 @@
 - **Matrix**: already ET1–ET4 + CT1–CT4 — no change.
 - Verified: board JSON "CET"=0, "CT" preserved=45, "ET1"=403; decoder stale G0-G6=0.
 - GitHub commits: `3173bca` + `2d9b2b0`.
+
+## Group B1 (approved: keep RS1–RS6 text-only) — ranking C→RS
+- Manuscript ¶32: "C1=4/C1=7 → RS1", "C3(impact → RS3", "C6(clinical → RS6" (4 replacements).
+- Supplementary tables (Variable Descriptor): 15 ranking cells "C1…C6" → "RS1…RS6".
+- Verified: ¶32 stale ranking C = 0.
+- Remaining (flagged for decision): the **decoder** code + data still use "C1–C6" (ranking) across 25+ files — same B1 mapping, larger scope.
