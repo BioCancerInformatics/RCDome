@@ -23,3 +23,9 @@
 - Standalone "G0–G6" = 0 · "BG0–BG6" = 32.
 - "MC2 trigger" = 2 · "MC3 morphology" = 2.
 - Ranking "C1/C3/C6" (¶32) intact.
+
+## Extension — supplementary artifacts (same Group A mappings, approved)
+- **Supplementary information docx**: `G0–G6 → BG0–BG6` (14 replacements).
+- **Supplementary tables xlsx** (context-specific, 7 cells): "C1-C5 logic → MC1-MC5 logic"; "G1 machinery → BG1 machinery"; "G2 necessity → BG2 necessity"; "G0-G6 hard gates → BG0-BG6 hard gates"; "T1-T4 multi-tier → ET1-ET4 multi-tier".
+- Ranking "C1–C6" cells (Variable Descriptor) left untouched (Group B).
+- Verified: supp-info standalone G0-G6 = 0 · BG0-BG6 = 16; all 5 canonical cells confirmed.
