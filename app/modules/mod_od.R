@@ -31,7 +31,7 @@ OD_SECTIONS <- list(
   References = c("founding_pmid", "primary_refs_pmids", "secondary_refs_pmids",
                  "reference_pmid", "reference_citation", "primary_discovery_reference"),
   "NCCD 2018" = c("galluzzi_nccd_definition", "galluzzi_nccd_status"),
-  "Adjudication gates" = c("C1", "C2", "C3", "C4", "C5", "C6", "S"),
+  "Adjudication gates" = c("RS1", "RS2", "RS3", "RS4", "RS5", "RS6", "S"),
   Provenance = c("source_databases", "source_channels", "provenance_note",
                  "od_author", "review_status", "validation_verdict",
                  "ontology_curator_verified", "independent_replication")
