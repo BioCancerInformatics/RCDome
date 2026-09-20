@@ -47,6 +47,6 @@ Full assessment of Victor's *Relatório Crítico-Didático* (42 sections), execu
 - §12/§13 cautions recorded in Note S1; reference discipline fixes (NCCD_2018 × NOT_IN_NCCD_2018; composite entity) in V026_6.
 
 ### Figures
-- Figure 3 (panel B percentages), Figure 4 (L5 name), Figure S2 (level counts) regenerated with the corrected distribution.
+- Figure 3 (panel B percentages), Figure 4 (L5 name), Figure S3 (level counts) regenerated with the corrected distribution.
 
 Traceability: `docs/TRACEABILITY_V026_auditoria_2026-09-19.md` · crosswalk · `docs/AUDIT_ultimate_granular_2026-09-19.md` (115/115 PASS).

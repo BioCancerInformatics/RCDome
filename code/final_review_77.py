@@ -46,7 +46,7 @@ ck('INDEX S1-S15 + Adjudication', 'S1–S15' in itxt and 'Adjudication Table' in
 print('=== 5. FIGURES ===')
 fig = BASE + '/Figures/'
 ck('Figure 1-4 present', all(os.path.exists(fig + f'Figure_{i}.png') or os.path.exists(fig + f'Figure_{i}.tiff') for i in range(1,5)))
-ck('Figure S1/S2 present', all(os.path.exists(fig + f'Figure_S{i}_database_contribution.tiff') or os.path.exists(fig + f'Figure_S{i}_source_classification.tiff') for i in [1,2]))
+ck('Figure S2/S3 present', all(os.path.exists(fig + f'Figure_S{i}_database_contribution.tiff') or os.path.exists(fig + f'Figure_S{i}_source_classification.tiff') for i in [1,2]))
 ck('Figure 4 data CSV regenerated', os.path.exists(fig + 'Figure_4_entity_coverage_data.csv'))
 
 print('=== 6. APP ===')

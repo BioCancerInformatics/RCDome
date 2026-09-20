@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Figure S2 (improved): mechanistic associations per source, stacked by
+"""Figure S3 (improved): mechanistic associations per source, stacked by
 RCD entity ontological level (L1-L5), concordant RCDome palette + legend."""
 import pandas as pd
 import matplotlib
@@ -49,7 +49,7 @@ lvl_names = {'L1': 'L1 Modalities (16)', 'L2': 'L2 Subtypes (5)',
              'L5': 'L5 Generic/umbrella/legacy/taxon/emerging (19)'}
 dark = '#1F2937'
 
-OUT = BASE + '/Figures/Figure_S2_source_classification'
+OUT = BASE + '/Figures/Figure_S3_source_classification'
 
 fig, ax = plt.subplots(figsize=(8.27, 11.69))
 left = 0
@@ -111,5 +111,5 @@ if sys.platform == 'win32':
     except Exception:
         pass
 
-print('saved Figure_S2_source_classification (stacked by ontological level)')
+print('saved Figure_S3_source_classification (stacked by ontological level)')
 print(ct)

@@ -17,7 +17,7 @@ After all level re-adjudications are done (§9 Lysoptosis done; §8 NECSO, §10 
 | Artifact | Consumes level | Impact |
 |---|---|---|
 | Figure 4 (entity coverage) | `make_figure_entity_coverage.R` (colors bars by `rcdome_level`) | YES — bar color + legend + proportions |
-| Figure S2 (stacked by level) | `make_figure_s2_stacked_by_level.py` | YES — stacked proportions |
+| Figure S3 (stacked by level) | `make_figure_s2_stacked_by_level.py` | YES — stacked proportions |
 | Figure 3 (death core) | `make_figure3_composite.py` (verify level usage) | possibly |
 | Landing page dome + LEVEL_COUNTS | `www/landing_page.html` | already updated for §9 (L2=6, L5=18) |
 | Manuscript ¶319 + Figure legends | governance docx | already updated for §9 |

@@ -166,9 +166,9 @@ for bad, ev in [("for the first time", "removed per Higor point 10"),
 # ============ 9. num_sources ============
 p, snip = loc("10,009")
 find(p, "10,009 associations rest on a single source, 6,313 are corroborated by two",
-     "Supplementary Fig S1 vs matrix", "matrix num_sources (rows): 1→10,009 · 2→6,313",
+     "Supplementary Fig S2 vs matrix", "matrix num_sources (rows): 1→10,009 · 2→6,313",
      "Concordant", "Single/two-source counts align (row-level)", "Info", "None", "None", "No",
-     "Supplementary Figure S1", "No", "No", "VERIFIED — CONCORDANT", original=snip)
+     "Supplementary Figure S2", "No", "No", "VERIFIED — CONCORDANT", original=snip)
 
 # ============ 10. human/non-human ============
 p, snip = loc("49") if False else (None, "")

@@ -1,4 +1,4 @@
-# RCDome Supplementary Figure S1: database contribution (20 sources) + corroboration
+# RCDome Supplementary Figure S2: database contribution (20 sources) + corroboration
 library(magick)
 
 df <- readRDS('D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript/output databases/Phase 2C output/unified_gene_rcd_matrix_V026.rds')
@@ -18,7 +18,7 @@ ns <- ns[ns >= 1 & ns <= 14]
 nsd <- table(factor(ns, levels = 1:14))
 
 dark <- '#1F2937'
-out <- 'D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript/Figures/Figure_S1_database_contribution'
+out <- 'D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript/Figures/Figure_S2_database_contribution'
 
 ticks <- c(2, 8, 32, 128, 512, 2048, 8192)
 
@@ -73,4 +73,4 @@ image_write(image_convert(img, format = 'png'), path = paste0(out, '.png'))
 file.remove('tmp_db.png')
 
 write.csv(data.frame(source = nms, associations = as.numeric(tab)), paste0(out, '_data.csv'), row.names = FALSE)
-cat('saved Figure_S1_database_contribution (2 panels, 600 DPI)\n')
+cat('saved Figure_S2_database_contribution (2 panels, 600 DPI)\n')
