@@ -58,3 +58,7 @@ Per curator: the decoder **code/data migration** ("C1–C6" → "RS1–RS6" insi
 ## Group B2 + B3 (approved)
 - **B2**: Q1–Q13 (13 evidence-checklist questions) confirmed unchanged (matches Figure S1).
 - **B3**: "five governance gates" → "five quality gates (QG1–QG5)" (¶124, first mention) + "quality gates" (¶170); Excel-book stale cell "Benchmark gate (Q1-Q5)" → "(QG1-QG5)".
+
+## Group B4 (curator decision: Figure S1 = truth)
+- **EG1–EG5** confirmed as the canonical name (Elicit governance gates). Renamed **QG1–QG5 → EG1–EG5** across: manuscript (¶124 "five Elicit governance gates (EG1–EG5)", ¶170), Table S8 (EG1 input validation … EG5 traceability), Variable Descriptor ("Benchmark gate (EG1-EG5)").
+- Supersedes the earlier B3 "QG1–QG5" naming.
