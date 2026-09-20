@@ -45,3 +45,9 @@
 - Supplementary tables (Variable Descriptor): 15 ranking cells "C1…C6" → "RS1…RS6".
 - Verified: ¶32 stale ranking C = 0.
 - Remaining (flagged for decision): the **decoder** code + data still use "C1–C6" (ranking) across 25+ files — same B1 mapping, larger scope.
+
+## Group B1 extension — Excel book (Variable Descriptor)
+- 6 cells "C1-C6" → "RS1-RS6" (Overall Score formula + criterion C1–C5 descriptions).
+- Matrix V026: no C1-C6/RS1-RS6 columns (ranking lives in the decoder) — clean, no action.
+- Decoder final output (RCDome_Decoder_53.csv/.xlsx): already RS1–RS6 columns — no change.
+- Decoder build code + "Rodrigues 2025_Dataset S1.xlsx" (source): keep C1-C6 (intermediate/source naming, invariance).
