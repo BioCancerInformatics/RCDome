@@ -38,7 +38,7 @@ mod_od_compare_server <- function(id) {
     observe({
       req(exists("decoder_df", inherits = TRUE))
       updateSelectizeInput(session, "cmp_entities",
-                           choices = sort(unique(decoder_df$rcd_form)), server = TRUE)
+                           choices = sort(unique(decoder_df$rcd_form)), server = FALSE)
     })
 
     render_field <- function(r, f) {
