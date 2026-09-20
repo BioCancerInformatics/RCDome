@@ -1,0 +1,63 @@
+# Ocean-deep re-salt audit — all approved Victor changes + spread (2026-09-19)
+
+**Result: 59 checks, 0 FAIL**
+
+- [PASS] Lysoptosis: decoder=SUBTYPE, matrix=L2
+- [PASS] Lysoptosis: S3=L2 Subtypes
+- [PASS] Lysoptosis: S12 level=L2
+- [PASS] Lysozincrosis: decoder=SUBTYPE, matrix=L2
+- [PASS] Lysozincrosis: S3=L2 Subtypes
+- [PASS] Lysozincrosis: S12 level=L2
+- [PASS] Mitoptosis: decoder=CELLULAR_PROCESS, matrix=L5
+- [PASS] Mitoptosis: S3=L5 Generic/umbrella/taxon
+- [PASS] Mitoptosis: S12 level=L5
+- [PASS] Aponecrosis: decoder=UMBRELLA, matrix=L5
+- [PASS] Aponecrosis: S3=L5 Generic/umbrella/taxon
+- [PASS] Aponecrosis: S12 level=L5
+- [PASS] Pyronecrosis: decoder=SYNONYM, matrix=L5
+- [PASS] Pyronecrosis: S3=L5 Generic/umbrella/taxon
+- [PASS] Pyronecrosis: S12 level=L5
+- [PASS] Floatptosis: decoder=CELL_TYPE, matrix=L4
+- [PASS] Floatptosis: S3=L4 Functional/contextual
+- [PASS] Floatptosis: S12 level=L4
+- [PASS] Spectosis: decoder=CELL_TYPE, matrix=L4
+- [PASS] Spectosis: S3=L4 Functional/contextual
+- [PASS] Spectosis: S12 level=L4
+- [PASS] NECSO: decoder=CORE_PENDING, matrix=L1
+- [PASS] NECSO: S3=L1 Modalities
+- [PASS] NECSO: S12 level=L1
+- [PASS] Mitoxyperilysis: decoder=CORE_PENDING, matrix=L1
+- [PASS] Mitoxyperilysis: S3=L1 Modalities
+- [PASS] Mitoxyperilysis: S12 level=L1
+- [PASS] Triaptosis: decoder=CORE_PENDING, matrix=L1
+- [PASS] Triaptosis: S3=L1 Modalities
+- [PASS] Triaptosis: S12 level=L1
+- [PASS] no EMERGING/LEGACY categories remain
+- [PASS] decoder has 'Entotic cell death'
+- [PASS] matrix Entotic cell death (98 rows)
+- [PASS] decoder has 'NETotic cell death'
+- [PASS] matrix NETotic cell death (41 rows)
+- [PASS] old 'Entosis'/'NETosis' not canonical
+- [PASS] S3 renamed
+- [PASS] distribution = {'L1': 19, 'L4': 13, 'L5': 12, 'L3': 2, 'L2': 7}
+- [PASS] manuscript 19/7/2/13/12 + 19/53
+- [PASS] decoder RS1-RS6, no C1-C6
+- [PASS] S11 RS1-RS6
+- [PASS] S12 MC1-MC5
+- [PASS] S8 QG1-QG5
+- [PASS] matrix ET1-ET4
+- [PASS] matrix CT1-CT4
+- [PASS] manuscript MC/RS/ET/CT
+- [PASS] Triaptosis founding=39446948
+- [PASS] VCD citation Dictyostelium+plant
+- [PASS] S6 held-out
+- [PASS] §25 three curators
+- [PASS] S1 cautions
+- [PASS] decoder CSV: 3 copies identical
+- [PASS] decoder XLSX: 2 copies identical
+- [PASS] matrix RDS: 1 copies identical
+- [PASS] supp tables: 1 copies identical
+- [PASS] manuscript: 1 copies identical
+- [PASS] mod_od.R RS1-RS6
+- [PASS] mod_rcd_grid.R RS1-RS6
+- [PASS] mod_board.R RS + ET/CT
