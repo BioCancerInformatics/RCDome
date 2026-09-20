@@ -1,4 +1,4 @@
-entity,pre_adjudication_level,adjudicated_level,Q1_whole_cell_death,Q2_death_vs_process,Q3_causal_machinery,Q4_perturbation_rescue,Q5_distinguishable,Q6_independent_vs_subtype,Q7_trigger_specific,Q8_morphology_specific,Q9_nature,Q10_name_accuracy,Q11_species,Q12_replication,Q13_maturity,C1,C2,C3,C4,C5,parent,relationship_type,primary_pmid,curator_verified,rationale
+﻿entity,pre_adjudication_level,adjudicated_level,Q1_whole_cell_death,Q2_death_vs_process,Q3_causal_machinery,Q4_perturbation_rescue,Q5_distinguishable,Q6_independent_vs_subtype,Q7_trigger_specific,Q8_morphology_specific,Q9_nature,Q10_name_accuracy,Q11_species,Q12_replication,Q13_maturity,C1,C2,C3,C4,C5,parent,relationship_type,primary_pmid,curator_verified,rationale
 Alkaliptosis,L1,L1,yes,death,yes,yes,yes,independent,,,execution,DEFINED_RODRIGUES,human,pending,established,5,6,6,7,6,,root,29248440,TRUE; Enrique; 2026-09-05,Executioner | L1-ELIGIBLE
 Ammonia-induced cell death,L1,L4,yes,death,no,no,no,context,,,contextual,DRAFT_SOLID,human,pending,supported,4,3,3,4,4,ammonia (inducer),triggered_by,12388179,TRUE; Enrique; 2026-09-05,CONTEXTUAL | NOT-L1
 Anoikis,L1,L2,yes,death,shared,no,no,subtype,,,subtype,DEFINED_RODRIGUES,human,pending,established,6,5,6,6,5,Apoptosis (intrinsic),subtype_of,8106557,TRUE; Enrique; 2026-09-05,SUBTYPE | NOT-L1
@@ -50,5 +50,5 @@ Pyroptosis,L1,L1,yes,death,yes,yes,yes,independent,,,execution,DEFINED_RODRIGUES
 Regulated Necrosis,L1,L5,yes,death,no,no,no,umbrella,,,umbrella,DRAFT_CANDIDATE,human,pending,provisional,6,4,6,5,7,Necroptosis; Pyroptosis; MPT-driven necrosis,umbrella_for,24452471,TRUE; Enrique; 2026-09-05,UMBRELLA | NOT-L1
 Senescence and Autophagy in Cancer,L5,L5,yes,death,no,no,no,composite,,,composite,COMPOSITE,human,pending,provisional,4,3,4,4,4,,associated_with,composite,TRUE; Enrique; 2026-09-05,COMPOSITE | NOT-L1
 Spectosis,L1,L5,yes,death,no,no,no,emerging,,,emerging,DRAFT_SOLID,human,pending,emerging,3,4,3,7,4,,root,40252640,TRUE; Enrique; 2026-09-05,EMERGING | NOT-L1
-Triaptosis,L1,L5,yes,death,no,no,no,emerging,,,emerging,DRAFT_SOLID,human,pending,emerging,3,3,2,7,4,,root,39638924,TRUE; Enrique; 2026-09-05,EMERGING | NOT-L1
+Triaptosis,L1,L5,yes,death,no,no,no,emerging,,,emerging,DRAFT_SOLID,human,pending,emerging,3,3,2,7,4,,root,39446948,TRUE; Enrique; 2026-09-05,EMERGING | NOT-L1
 Vacuolar cell death,L4,L4,yes,death,no,no,no,outcome,,yes,outcome/morphology,DRAFT_CANDIDATE,cross_species,pending,supported,3,3,3,4,4,,associated_with,15358773,TRUE; Enrique; 2026-09-05,MORPHOLOGY | NOT-L1
