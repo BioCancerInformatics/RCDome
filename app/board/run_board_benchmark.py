@@ -3,10 +3,10 @@
 run_board_benchmark.py — Digital Molecular RCD Board benchmark (COMPLETE, 9 tests).
 
 Statistical treatment (per RCD_Board_Benchmark.md):
-  T1 golden accuracy    -> point + Wilson 95% CI + binomial (H0 p=0.95)
-  T2 census accuracy    -> point + Wilson 95% CI + binomial (H0 p=0.95)
-  T3 fact-stability     -> per-FACT X/n_runs + Wilson 95% CI per fact (n=73)
-  T4 governance         -> violations per type (causality/hedge/disclaimer/
+  ET1 golden accuracy    -> point + Wilson 95% CI + binomial (H0 p=0.95)
+  ET2 census accuracy    -> point + Wilson 95% CI + binomial (H0 p=0.95)
+  ET3 fact-stability     -> per-FACT X/n_runs + Wilson 95% CI per fact (n=73)
+  ET4 governance         -> violations per type (causality/hedge/disclaimer/
                            queries/terminology/accuracy) + binomial + Wilson
   T5 anti-hallucination -> traps caught + Wilson + binomial
   T6 articulation       -> conform/total + Wilson (prose, no bold/bullets,
@@ -18,11 +18,11 @@ Statistical treatment (per RCD_Board_Benchmark.md):
 Smoke-test refinements certified:
   input labels "RCDome database:"/"RCDome decoder:" (never Matrix:/Decoder:)
   key fields only · causal-verb ban · hedging · new disclaimer · 3 queries
-  policy bans (matrix/cot_role/mechanistic_class/T1:-T4:/Governance note/
+  policy bans (matrix/cot_role/mechanistic_class/ET1:-ET4:/Governance note/
   Knock Test) · bare database/decoder ban · relationship-term translation
   negatives tested with audit_negative ("not recorded")
 
-Flags (env): RUN_STATISTICAL=1 (T3/T4 n=73, T8 reliability), RUN_MODELS=1 (T8),
+Flags (env): RUN_STATISTICAL=1 (ET3/ET4 n=73, T8 reliability), RUN_MODELS=1 (T8),
              CHAT_N=<n> (default 10, full 73), BENCH_SEED, BENCH_TEMP.
 Run on a machine with DEEPSEEK_KEY in the environment. No key is committed.
 """
@@ -231,7 +231,7 @@ def test1_golden(temp, seed):
         if dr is None:
             rows.append({"pair": f"{gene}-{ent}", "expect": expect, "skipped": 1})
             continue
-        print(f"[T1 {i}/26] {gene}-{ent} ({expect}) ...", flush=True)
+        print(f"[ET1 {i}/26] {gene}-{ent} ({expect}) ...", flush=True)
         try:
             narr, _, _ = call_deepseek(build_prompt(gene, ent, mr, dr), temp, seed,
                                         founding_pmid=dr.get("founding_pmid", "") if dr is not None else None)
@@ -259,7 +259,7 @@ def test2_census(temp, seed):
     rows = []
     for i, (_, dr) in enumerate(d.iterrows(), 1):
         ent = dr.rcd_form
-        print(f"[T2 {i}/53] census {ent} ...", flush=True)
+        print(f"[ET2 {i}/53] census {ent} ...", flush=True)
         try:
             narr, _, _ = call_deepseek(build_census_prompt(ent, dr), temp, seed,
                                         founding_pmid=dr.get("founding_pmid", ""))
@@ -314,7 +314,7 @@ def test34_stability(temp, seed, n_runs):
                 key = f"{gene}-{ent}::{fk}"
                 fact_tally[key] = fact_tally.get(key, 0) + int(fv)
                 fact_denom[key] = fact_denom.get(key, 0) + 1
-        print(f"[T3/4] {gene}-{ent}: {clean_runs}/{n_runs} runs clean, "
+        print(f"[ET3/4] {gene}-{ent}: {clean_runs}/{n_runs} runs clean, "
               f"{pair_checks} checks", flush=True)
     # per-fact stability with Wilson CI
     facts = []
@@ -411,7 +411,7 @@ def articulation_ok(narr, is_census=False):
 def test6_articulation(reports):
     rows = []
     for r in reports:
-        is_census = "entity" in r   # T2 census rows carry 'entity', T1 rows carry 'pair'
+        is_census = "entity" in r   # ET2 census rows carry 'entity', ET1 rows carry 'pair'
         rows.append({"pair": r.get("pair", r.get("entity", "?")),
                      "issues": articulation_issues(r.get("narr", ""), is_census)})
     fails = [r for r in rows if r["issues"]]
@@ -556,7 +556,7 @@ def main():
                                       ["caught", "n", "p", "ci95",
                                        "binomial_p_vs_0.95"]}
 
-    # articulation over all collected narratives (T1 + T2)
+    # articulation over all collected narratives (ET1 + ET2)
     narrs = [r for r in t1["rows"] if "narr" in r] + \
             [r for r in t2["rows"] if "narr" in r]
     report["T6_articulation"] = test6_articulation(narrs)
@@ -568,7 +568,7 @@ def main():
         for r in t1["rows"] + t2["rows"]
         for d in r.get("violation_details", [])]
 
-    # T4 governance: aggregate violation types across all T1 + T2 reports
+    # ET4 governance: aggregate violation types across all ET1 + ET2 reports
     vt_agg = {k: 0 for k in ["causality", "hedge", "disclaimer", "queries",
                               "terminology", "accuracy"]}
     for r in t1["rows"] + t2["rows"]:
@@ -583,7 +583,7 @@ def main():
         "total_checks": total_checks,
         "violation_rate": vr,
         "violation_rate_ci95": wilson_ci(vr, total_checks),
-        "note": "violations across T1 (26) + T2 (53) reports",
+        "note": "violations across ET1 (26) + ET2 (53) reports",
     }
 
     report["T7_version"] = test7_version_compare()

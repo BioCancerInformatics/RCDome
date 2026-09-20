@@ -1,8 +1,8 @@
 # Operational definitions of RCD entities
 
-**Vocabulary and scope.** The RCDome canon comprises 53 canonicalized RCD-related entities,
-derived from the unified gene–RCD evidence matrix (version V026; 22,473 rows;
-21,568 gene–RCD pairs). The canonicalized vocabulary is fixed at V026 and is not
+**Vocabulary and scope.** The RCDome controlled vocabulary comprises 53 canonicalized RCD-related entities,
+derived from the unified gene–RCD evidence matrix (version V025; 22,473 rows;
+21,568 gene–RCD pairs). The controlled vocabulary is fixed at V025 and is not
 modified by downstream definition work.
 
 **Three-tier definition hierarchy.** Each entity's operational definition (OD)
@@ -30,6 +30,8 @@ contributing source databases and channels, the provenance note, the definition
 status, and the source-of-definition flag (NCCD-verbatim, Rodrigues-S1A, or
 RCDome-drafted).
 
+**Evidence maturity.** The evidence_maturity dimension records the consensus status of each entity as established, supported, emerging, legacy, or provisional.
+
 **Quantified scoring.** The six Rodrigues criteria were retained — C1 extent of
 research (25%), C2 direct involvement (25%), C3 impact on cell/tissue
 homeostasis (20%), C4 emerging potential (15%), C5 biological significance
@@ -50,6 +52,8 @@ committee definition the C1–C6 values were drafted from a rubric informed by
 matrix objective inputs (gene count, mechanistic classification ratio,
 evidence-tier distribution, and discovery year) and then subjected to two-call
 human review.
+
+**Hard gates (L1 admission).** Following the biological curation, admission of an entity to the modality level (L1) was governed by hard gates BG0-BG6: BG0 whole-cell death (irreversible), BG1 identifiable causal machinery (obligatory), BG2 functional necessity/distinguishability (obligatory), BG3 supportive phenotype/trigger, BG4 published name (necessary for traceability, not sufficient for mechanism), BG5 independent replication (defines maturity), and BG6 species scope. These gates operationalize the NCCD MC1-MC5 criteria (BG1 ~ MC1 machinery; BG2 ~ MC5 modulation; BG3 ~ MC2/C3 trigger and morphology; BG4 ~ MC4 naming). Entities passing BG1 and BG2 were classified hard_gate_status = L1-ELIGIBLE (16/53); the remainder were NOT-L1 (subtypes, triggers, umbrellas, morphology, contextual, and taxon-specific programs). The Rodrigues C1-C6 scoring remains an orthogonal ranking metric, not an admission gate.
 
 **Governance policy.** Four principles governed definition construction.
 (1) *Invariance*: published committee definitions (NCCD and Rodrigues) are
