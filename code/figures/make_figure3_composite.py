@@ -23,7 +23,7 @@ ax.spines[['top','right']].set_visible(False); ax.tick_params(colors=NAVY, label
 
 # (b) Mechanistic by level
 ax = axes[0,1]
-levels=['L1','L2','L3','L4','L5']; pcts=[64.7,40.5,33.3,23.6,31.4]
+levels=['L1','L2','L3','L4','L5']; pcts=[64.6,40.4,33.3,23.6,31.5]
 lcolors=[GOLD,BLUE,GREEN,PURPLE,ORANGE5]
 bars = ax.bar(levels, pcts, color=lcolors, width=0.62)
 for b,v in zip(bars,pcts):
