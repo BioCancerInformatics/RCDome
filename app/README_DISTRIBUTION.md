@@ -12,6 +12,12 @@ This folder reproduces the **live** RCDome Shiny app (the 9 visible tabs), assem
 - `board/` — Digital Molecular Board (DeepSeek) prompt, governance, benchmarks
 - `data/` — matrix, decoder, HGNC set, RCD modulo (logos/figures/videos/descriptions/references), about (photos/data-sources/see-also), omic (3 lazy sub-tab tables)
 
+## 1b. Included deliverables (V026_7)
+
+- **Ontology**: 53 canonicalized RCD-related entities, final distribution **L1 = 19, L2 = 7, L3 = 2, L4 = 13, L5 = 12** (Victor V026 auditoria, evidence-based G0–G6 re-adjudications).
+- **Nomenclature harmonized**: MC1–MC5 (modality criteria), RS1–RS6 (ranking score), QG1–QG5 (quality gates), ET1–ET4 (evidence tier), CT1–CT4 (confidence tier).
+- **Manuscript package** in `manuscript/`: governance manuscript, supplementary information, supplementary tables (Excel) — the V026_7 versions.
+
 ## 2. Already configured — just run
 
 The DeepSeek API key is already present in `.Renviron`, and the email credentials in `data/email_creds.txt`, so the app runs immediately after unzipping. To use your own key instead, edit `.Renviron` (a template is kept at `.Renviron.example`).
