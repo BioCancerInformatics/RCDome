@@ -1,6 +1,6 @@
 # Manuscript V026 — Deep line-by-line alignment audit (vs matrix, decoder, app, GitHub)
 
-**Method:** every quantitative claim extracted from `RCDome_manuscript_governance_V026.docx` and compared against the truth documents — matrix V026 (`unified_gene_rcd_matrix_V026.csv`, 22,473×71), decoder (`RCDome_Decoder_53.csv`), and the cleaned app (`RCDome_distribution`). Per the governance rule: nothing taken for granted, no placeholder accepted.
+**Method:** every quantitative claim extracted from `RCDome_manuscript_governance.docx` and compared against the truth documents — matrix V026 (`unified_gene_rcd_matrix_V026.csv`, 22,473×71), decoder (`RCDome_Decoder_53.csv`), and the cleaned app (`RCDome_distribution`). Per the governance rule: nothing taken for granted, no placeholder accepted.
 
 ## Summary
 

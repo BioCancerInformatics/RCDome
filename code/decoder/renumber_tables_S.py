@@ -1,8 +1,8 @@
 """
 Renumber supplementary tables S1-S14 by FIRST-CALLOUT order across:
-  - manuscript (RCDome_manuscript_governance_V026.docx)
-  - workbook (RCDome_manuscript_V026_supplementary_tables.xlsx: sheets + INDEX)
-  - supplementary info (RCDome_manuscript_V026_supplementary_information.docx)
+  - manuscript (RCDome_manuscript_governance.docx)
+  - workbook (RCDome_manuscript_supplementary_tables.xlsx: sheets + INDEX)
+  - supplementary info (RCDome_manuscript_supplementary_information.docx)
 
 Mapping (old -> new), by first callout order:
   S1->S1, S12->S2, S2->S3, S3->S4, S13->S5, S4->S6, S5->S7,
@@ -19,7 +19,7 @@ def renum_text(t):
 sys.stdout.reconfigure(encoding="utf-8")
 
 # ---------- 1. manuscript ----------
-man = BASE + "/RCDome_manuscript_governance_V026.docx"
+man = BASE + "/RCDome_manuscript_governance.docx"
 shutil.copy(man, man.replace(".docx", "_backup_preRenumber.docx"))
 doc = docx.Document(man)
 n_changed = 0
@@ -37,7 +37,7 @@ doc.save(man)
 print(f"manuscript: {n_changed} paragraphs renumbered")
 
 # ---------- 2. workbook (sheets + INDEX) ----------
-wb_path = BASE + "/RCDome_manuscript_V026_supplementary_tables.xlsx"
+wb_path = BASE + "/RCDome_manuscript_supplementary_tables.xlsx"
 shutil.copy(wb_path, wb_path.replace(".xlsx", "_backup_preRenumber.xlsx"))
 wb = openpyxl.load_workbook(wb_path)
 # two-phase sheet rename (avoid collisions)
@@ -61,7 +61,7 @@ wb.save(wb_path)
 print("workbook: sheets + INDEX renumbered ->", [ws.title for ws in wb.worksheets if ws.title.startswith("Table S")])
 
 # ---------- 3. supplementary info ----------
-sup = BASE + "/RCDome_manuscript_V026_supplementary_information.docx"
+sup = BASE + "/RCDome_manuscript_supplementary_information.docx"
 if __import__("os").path.exists(sup):
     shutil.copy(sup, sup.replace(".docx", "_backup_preRenumber.docx"))
     d2 = docx.Document(sup)

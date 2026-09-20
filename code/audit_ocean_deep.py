@@ -17,12 +17,12 @@ drows = list(csv.DictReader(io.open(os.path.join(ROOT,"RCDome Decoder/RCDome_Dec
 dec = {r['rcd_form']: r for r in drows}
 with io.open(os.path.join(ROOT,"output databases/Phase 2C output/unified_gene_rcd_matrix_V026.csv"), encoding='utf-8-sig') as f:
     mrows = list(csv.DictReader(f))
-wb = openpyxl.load_workbook(os.path.join(ROOT,"manuscript_V026/RCDome_manuscript_V026_supplementary_tables.xlsx"))
+wb = openpyxl.load_workbook(os.path.join(ROOT,"manuscript_V026/RCDome_manuscript_supplementary_tables.xlsx"))
 s3 = {r[1]: r[2] for r in wb["Table S3"].iter_rows(min_row=3, values_only=True)}
 s11 = wb["Table S11"]; h11=[c.value for c in s11[1]]; j11={x:i for i,x in enumerate(h11)}
 s12 = wb["Table S12"]; h12=[c.value for c in s12[1]]; j12={x:i for i,x in enumerate(h12)}
 s12rows = {r[0]: r for r in s12.iter_rows(min_row=2, values_only=True)}
-md = docx.Document(os.path.join(ROOT,"manuscript_V026/RCDome_manuscript_governance_V026.docx"))
+md = docx.Document(os.path.join(ROOT,"manuscript_V026/RCDome_manuscript_governance.docx"))
 mtxt = "\n".join(p.text for p in md.paragraphs)
 
 print("="*78); print("A. ENTITY RE-DERIVATIONS (§8–§10) — decoder / matrix / S3 / S12"); print("="*78)
@@ -74,7 +74,7 @@ vcd = dec['Vacuolar cell death']
 ok("VCD citation Dictyostelium+plant") if 'Dictyostelium' in vcd['reference_citation'] and '24344187' in vcd['reference_citation'] else bad("VCD")
 
 print("="*78); print("F. GOVERNANCE ARTIFACTS (§23/§25/§12-13)"); print("="*78)
-s6 = docx.Document(os.path.join(ROOT,"manuscript_V026/RCDome_manuscript_V026_supplementary_information.docx"))
+s6 = docx.Document(os.path.join(ROOT,"manuscript_V026/RCDome_manuscript_supplementary_information.docx"))
 s6txt = "\n".join(p.text for p in s6.paragraphs)
 ok("S6 held-out") if 'Held-out validation' in s6txt and '20260919' in s6txt else bad("S6")
 ok("§25 three curators") if 'primary curator (EM-A)' in mtxt and 'VdSL' in mtxt and 'HACN' in mtxt else bad("§25")
@@ -86,8 +86,8 @@ pairs = [
  ("decoder CSV", os.path.join(ROOT,"RCDome Decoder/RCDome_Decoder_53.csv"), [os.path.join(ROOT,"RCDome_distribution/data/RCDome_Decoder_53.csv"), os.path.join(GH,"data/RCDome_Decoder_53.csv"), os.path.join(GH,"app/data/RCDome_Decoder_53.csv")]),
  ("decoder XLSX", os.path.join(ROOT,"RCDome Decoder/RCDome_Decoder_53.xlsx"), [os.path.join(GH,"data/RCDome_Decoder_53.xlsx"), os.path.join(ROOT,"RCDome_distribution/data/RCDome_Decoder_53.xlsx")]),
  ("matrix RDS", os.path.join(ROOT,"output databases/Phase 2C output/unified_gene_rcd_matrix_V026.rds"), [os.path.join(ROOT,"RCDome_distribution/data/unified_gene_rcd_matrix_V026.rds")]),
- ("supp tables", os.path.join(ROOT,"manuscript_V026/RCDome_manuscript_V026_supplementary_tables.xlsx"), [os.path.join(GH,"docs/manuscript/RCDome_manuscript_V026_supplementary_tables.xlsx")]),
- ("manuscript", os.path.join(ROOT,"manuscript_V026/RCDome_manuscript_governance_V026.docx"), [os.path.join(GH,"docs/manuscript/RCDome_manuscript_governance_V026.docx")]),
+ ("supp tables", os.path.join(ROOT,"manuscript_V026/RCDome_manuscript_supplementary_tables.xlsx"), [os.path.join(GH,"docs/manuscript/RCDome_manuscript_supplementary_tables.xlsx")]),
+ ("manuscript", os.path.join(ROOT,"manuscript_V026/RCDome_manuscript_governance.docx"), [os.path.join(GH,"docs/manuscript/RCDome_manuscript_governance.docx")]),
 ]
 for name, src, dests in pairs:
     m0 = md5(src); allok = all(md5(d)==m0 for d in dests)

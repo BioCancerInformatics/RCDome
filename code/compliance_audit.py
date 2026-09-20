@@ -24,7 +24,7 @@ def docx_text(p):
     return t
 
 # ============ 1. MANUSCRIPT (governance docx) ============
-mt = docx_text("manuscript_V026/RCDome_manuscript_governance_V026.docx")
+mt = docx_text("manuscript_V026/RCDome_manuscript_governance.docx")
 ml = mt.lower()
 A = "Manuscript"
 check(A, "11 functional/contextual present", "11 functional/contextual" in mt)
@@ -38,13 +38,13 @@ check(A, "VCD L1->L5 sentence absent", "vacuolar cell death was reclassified fro
 check(A, "VCD cross-species category absent", "vacuolar cell death was reclassified from L4 to L5 as a taxon-specific" in mt)
 
 # ============ 2. SUPPLEMENTARY INFO ============
-st = docx_text("manuscript_V026/RCDome_manuscript_V026_supplementary_information.docx")
+st = docx_text("manuscript_V026/RCDome_manuscript_supplementary_information.docx")
 B = "Supplementary info"
 check(B, "normalized name present", "by normalized name or its" in st)
 check(B, "canonical name absent", "by canonical name or its" not in st)
 
 # ============ 3. SUPPLEMENTARY TABLES (all sheets) ============
-x = pd.ExcelFile("manuscript_V026/RCDome_manuscript_V026_supplementary_tables.xlsx")
+x = pd.ExcelFile("manuscript_V026/RCDome_manuscript_supplementary_tables.xlsx")
 C = "Supp tables"
 idx = x.parse("INDEX", dtype=str).astype(str).apply(lambda c: c.fillna(""))
 check(C, "INDEX canonicalized vocab", idx.apply(lambda c:c.str.contains("Canonicalized RCD-Related Entity Vocabulary", na=False)).any().any())
@@ -149,7 +149,7 @@ check(J, "decoder CSV == app CSV", dec.equals(appd2))
 dxl = pd.read_excel("RCDome Decoder/RCDome_Decoder_53.xlsx", dtype=str)
 cols = [c for c in dec.columns if c in dxl.columns]
 check(J, "decoder CSV == XLSX", dec[cols].equals(dxl[cols]))
-t11b = pd.read_excel("manuscript_V026/RCDome_manuscript_V026_supplementary_tables.xlsx", sheet_name="Table S11", dtype=str)
+t11b = pd.read_excel("manuscript_V026/RCDome_manuscript_supplementary_tables.xlsx", sheet_name="Table S11", dtype=str)
 cols = [c for c in dec.columns if c in t11b.columns]
 a = dec[cols].sort_values("rcd_form").reset_index(drop=True)
 b = t11b[cols].sort_values("rcd_form").reset_index(drop=True)
@@ -185,7 +185,7 @@ check(K, "MS: 167,868 Phase 2B", "167,868 open-access full-text articles" in mt)
 check(K, "MS: 20 de novo", "20 were drafted de novo" in mt)
 check(K, "MS: 20/20 NCCD", "20/20 NCCD terms" in mt)
 check(K, "MS: 28-entities provenance", "were not covered by the previous multi-optosis operational-definition set" in mt)
-t14txt = " ".join(pd.read_excel("manuscript_V026/RCDome_manuscript_V026_supplementary_tables.xlsx", sheet_name="Table S14", dtype=str).fillna("").astype(str).values.ravel())
+t14txt = " ".join(pd.read_excel("manuscript_V026/RCDome_manuscript_supplementary_tables.xlsx", sheet_name="Table S14", dtype=str).fillna("").astype(str).values.ravel())
 check(K, "Table S14: 'EXECUTOR precision' absent", "EXECUTOR precision" not in t14txt)
 check(K, "Table S14: unsupported EXECUTOR claims", "Unsupported EXECUTOR claims remaining: 0" in t14txt)
 
@@ -202,7 +202,7 @@ sr = read_text("code/make_figure_source_classification.R")
 check(L, "FigS2 R legend: (11)/(19)", "Functional/contextual (11)" in sr and "taxon/emerging (19)" in sr)
 check(L, "MS: 23.6% absent", "23.6%" not in mt)
 check(L, "MS: 31.4% absent", "31.4%" not in mt)
-st2 = docx_text("manuscript_V026/RCDome_manuscript_V026_supplementary_information.docx")
+st2 = docx_text("manuscript_V026/RCDome_manuscript_supplementary_information.docx")
 check(L, "SUP legend: (12)/(18) absent", "functional/contextual (12)" not in st2 and "taxon/emerging (18)" not in st2)
 
 # ---- output ----

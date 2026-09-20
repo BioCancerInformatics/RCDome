@@ -42,8 +42,8 @@ log("=" * 78)
 
 # ---- 1. Manuscript + supplementary docx ----
 log("\n## 1. MANUSCRIPT + SUPPLEMENTARY DOCX")
-for f in ["manuscript_V026/RCDome_manuscript_governance_V026.docx",
-          "manuscript_V026/RCDome_manuscript_V026_supplementary_information.docx"]:
+for f in ["manuscript_V026/RCDome_manuscript_governance.docx",
+          "manuscript_V026/RCDome_manuscript_supplementary_information.docx"]:
     d = docx.Document(f)
     txt = "\n".join(p.text for p in d.paragraphs)
     for t in d.tables:
@@ -62,7 +62,7 @@ for f in ["manuscript_V026/RCDome_manuscript_governance_V026.docx",
 
 # ---- 2. Supplementary tables xlsx ----
 log("\n## 2. SUPPLEMENTARY TABLES XLSX")
-x = pd.ExcelFile("manuscript_V026/RCDome_manuscript_V026_supplementary_tables.xlsx")
+x = pd.ExcelFile("manuscript_V026/RCDome_manuscript_supplementary_tables.xlsx")
 for sh in x.sheet_names:
     df = x.parse(sh, dtype=str)
     seen = set()

@@ -14,7 +14,7 @@ lvl = dict(zip(u.rcd_form_canonical, u.rcdome_level))
 # authoritative entity -> category (decoder)
 cat = dict(zip(dec.rcd_form, dec.category))
 
-x = pd.ExcelFile("manuscript_V026/RCDome_manuscript_V026_supplementary_tables.xlsx")
+x = pd.ExcelFile("manuscript_V026/RCDome_manuscript_supplementary_tables.xlsx")
 F = []  # findings
 
 def rec(scope, location, text, artifact, evidence, issue, why, severity, action, amendment, readjud, down, vert, horiz, status):

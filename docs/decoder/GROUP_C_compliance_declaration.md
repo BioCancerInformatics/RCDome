@@ -28,7 +28,7 @@ No hand-editing, no invention. The column reproduces the hard-gate logic exactly
 | `RCDome_Decoder_53.xlsx` (working) | ✅ 39 cols (was 38) |
 | `RCDome_Decoder_53.xlsx` | ✅ 39 cols (was 31 — caught by audit) |
 | `MandM_operational_definitions.md` (source) | ✅ hard-gates paragraph |
-| `RCDome_manuscript_governance_V026.docx` | ✅ hard-gates paragraph |
+| `RCDome_manuscript_governance.docx` | ✅ hard-gates paragraph |
 | `Variable Descriptor` (supplementary workbook) | ✅ +1 entry |
 | GitHub mirror (`data/`, `docs/`) | ✅ commit `45d624a` |
 | Traceability contract | ✅ GROUP C entry |
