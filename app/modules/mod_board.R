@@ -488,25 +488,25 @@ mod_board_server <- function(id, board_reactive) {
       if (exists("canonical_pathways", inherits = TRUE) && length(canonical_pathways) > 0) {
         updateSelectizeInput(session, "board_entity",
                              choices = c("Select an entity" = "", canonical_pathways),
-                             server = TRUE)
+                             server = FALSE)
       }
     })
 
     observeEvent(input$board_entity, {
       ent <- input$board_entity
       if (is.null(ent) || ent == "") {
-        updateSelectizeInput(session, "board_gene", choices = character(0), server = TRUE)
+        updateSelectizeInput(session, "board_gene", choices = character(0), server = FALSE)
         return()
       }
       if (!ent %in% canonical_pathways) {
         showNotification(paste0("Sorry, '", ent, "' is not in the RCDome database (53 RCD-related entities)."), type = "error")
         updateSelectizeInput(session, "board_entity",
-                             choices = c("Select an entity" = "", canonical_pathways), server = TRUE)
-        updateSelectizeInput(session, "board_gene", choices = character(0), server = TRUE)
+                             choices = c("Select an entity" = "", canonical_pathways), server = FALSE)
+        updateSelectizeInput(session, "board_gene", choices = character(0), server = FALSE)
         return()
       }
       g <- unique(trimws(genes_df$gene_symbol[genes_df$rcd_form_canonical == ent]))
-      updateSelectizeInput(session, "board_gene", choices = c("(all genes)" = "", sort(g)), server = TRUE)
+      updateSelectizeInput(session, "board_gene", choices = c("(all genes)" = "", sort(g)), server = FALSE)
     }, ignoreNULL = TRUE)
 
     observeEvent(input$board_gene, {
@@ -517,7 +517,7 @@ mod_board_server <- function(id, board_reactive) {
       g_ok <- unique(trimws(genes_df$gene_symbol[genes_df$rcd_form_canonical == ent]))
       if (!gene %in% g_ok) {
         showNotification(paste0("Sorry, '", gene, "' is not associated with ", ent, " in the RCDome database."), type = "error")
-        updateSelectizeInput(session, "board_gene", choices = c("(all genes)" = "", sort(g_ok)), server = TRUE)
+        updateSelectizeInput(session, "board_gene", choices = c("(all genes)" = "", sort(g_ok)), server = FALSE)
       }
     }, ignoreNULL = TRUE)
 
@@ -633,7 +633,7 @@ mod_board_server <- function(id, board_reactive) {
         updateSelectInput(session, "board_entity", selected = ent)
         updateSelectizeInput(session, "board_gene",
                              choices = c("(all genes)" = "", sort(unique(genes_df$gene_symbol[genes_df$rcd_form_canonical == ent]))),
-                             server = TRUE)
+                             server = FALSE)
         board_reactive(list(
           entity = ent,
           gene = NULL,

@@ -420,7 +420,7 @@ mod_network_server <- function(
           gene_choices,
           sig_choices
         ),
-        server = TRUE,
+        server = FALSE,
         selected = character(0)
       )
     })
@@ -537,7 +537,7 @@ mod_network_server <- function(
           session = session,
           inputId = "rcd_filter",
           choices = character(0),
-          server = TRUE
+          server = FALSE
         )
         
         return()
@@ -551,7 +551,7 @@ mod_network_server <- function(
         session = session,
         inputId = "rcd_filter",
         choices = rcds,
-        server = TRUE
+        server = FALSE
       )
     })
 

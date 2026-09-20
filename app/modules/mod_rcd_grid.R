@@ -212,7 +212,7 @@ mod_rcd_grid_server <- function(id) {
         showNotification(paste0("Sorry, '", input$rcd_search, "' is not in the RCDome database (53 RCD-related entities)."), type = "error")
         updateSelectizeInput(session, "rcd_search",
                              choices = c("Select an RCD entity…" = "", setNames(nm, nm)),
-                             selected = "", server = TRUE)
+                             selected = "", server = FALSE)
         return()
       }
       safe <- gsub("'", "\\\\'", input$rcd_search)
@@ -222,7 +222,7 @@ mod_rcd_grid_server <- function(id) {
       ))
       updateSelectizeInput(session, "rcd_search",
                            choices = c("Select an RCD entity…" = "", setNames(nm, nm)),
-                           selected = "", server = TRUE)
+                           selected = "", server = FALSE)
     })
 
     output$honeycomb <- renderUI({
