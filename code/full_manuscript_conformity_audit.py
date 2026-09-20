@@ -70,7 +70,7 @@ for i in range(355, 370):
 
 # ── 5. FIGURE FILES ──
 print('\n[5] FIGURE FILES')
-for f in ['Figure_1_pipeline','Figure_2_benchmarks','Figure_3','Figure_4_entity_coverage','Figure_S1_database_contribution','Figure_S2_source_classification']:
+for f in ['Figure_1_pipeline','Figure_2_benchmarks','Figure_3','Figure_4_entity_coverage','Figure_S2_database_contribution','Figure_S3_source_classification']:
     tiff = os.path.exists(B+f'/Figures/{f}.tiff')
     ck(f'{f}.tiff', tiff)
 
