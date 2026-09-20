@@ -63,3 +63,8 @@ Per curator: the decoder **code/data migration** ("C1–C6" → "RS1–RS6" insi
 - **EG1–EG5** confirmed as the canonical name (Elicit governance gates). Renamed **QG1–QG5 → EG1–EG5** across: manuscript (¶124 "five Elicit governance gates (EG1–EG5)", ¶170), Table S8 (EG1 input validation … EG5 traceability), Variable Descriptor ("Benchmark gate (EG1-EG5)").
 - Supersedes the earlier B3 "QG1–QG5" naming.
 - B4 fix: "pipeline quality gates" (Figure S1 callout) restored (was wrongly changed); Table S8 note "hard gates G0–G6" → "BG0–BG6" (missed by Group A); note reads "Benchmark gates EG1–EG5 are distinct from the ontology hard gates BG0–BG6".
+
+## Final ocean-deep audit (18/18 PASS) — honest findings + fixes
+- **Audit caught 6 cells my earlier pass MISSED**: Table S11 "G1+G2 passed / G5 replication / G2 by" → BG1+BG2/BG5/BG2 (3 cells); Matrix Descriptor "T1 theoretical" → CT1, "evidence tier (T1-T4)" → ET1-ET4, "T1,T2,T3,T4" → ET1-ET4 (3 cells).
+- Remaining "T/G" in Table S4 are **gene symbols** (ras homolog T1, ribonuclease T2, troponin T2, cyclin G1, G0/G1 switch…) — correctly left untouched.
+- Final audit script: `code/audit_final_compliance_AB.py` → **18/18 checks, 0 FAIL** across manuscript + supp info + supp tables.
