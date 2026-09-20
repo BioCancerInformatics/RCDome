@@ -14,20 +14,8 @@ stamp = datetime.datetime.now().strftime('%Y%m%d_%H%M%S')
 shutil.copy(GOV, f"{GOV.replace('.docx','')}_backup_S3renumber_{stamp}.docx")
 shutil.copy(SUP, f"{SUP.replace('.docx','')}_backup_S3renumber_{stamp}.docx")
 
-NEW_S1_LEGEND = ("Supplementary Figure S1. Evaluation architecture of RCDome. RCDome decomposes its "
-"curation into three objects that answer distinct scientific questions and are therefore assessed independently "
-"and never conflated. (1) The RCD entity \u2014 what kind of cell-death entity is this? \u2014 is classified "
-"biologically and ontologically through modality criteria (MC1\u2013MC5: machinery, trigger, morphology, "
-"nomenclature, distinguishability), an evidence checklist (Q1\u2013Q13), biological gates (BG0\u2013BG6, with G1 "
-"machinery and G2 necessity obligatory), and a final ontological level (L1\u2013L5); complementary descriptors "
-"record evidence maturity, species scope, relationship type, and parent entity. (B) The gene\u2013RCD association "
-"\u2014 is gene X mechanistically linked to this entity? \u2014 is qualified by evidence tier (ET1\u2013ET4) and a "
-"distinct confidence tier (CT1\u2013CT4 or confidence_score), and annotated with mechanistic role and direction "
-"(EXECUTOR, REGULATOR, MARKER; positive/negative/mixed). (3) Pipeline quality \u2014 can the automated extraction "
-"be trusted? \u2014 is assessed through Elicit governance gates (EG1\u2013EG5), input validation (allow-list and "
-"vocabulary compliance), EXECUTOR precision, and traceability. This three-way separation ensures that an "
-"ontological judgment is never mistaken for gene-level evidence, and that an extraction error is never mistaken "
-"for biological signal.")
+NEW_S1_LEGEND = """Supplementary Figure S1. Evaluation architecture of RCDome. RCDome decomposes its curation into three objects that answer distinct scientific questions and are therefore assessed independently and never conflated. (1) For the RCD entity, the question is: “What kind of cell-death entity is this?” The answer is provided by modality criteria (MC1–MC5: machinery, trigger, morphology, nomenclature, distinguishability), an evidence checklist (Q1–Q13), biological gates (BG0–BG6, with G1 machinery and G2 necessity obligatory), and a final ontological level (L1–L5); complementary descriptors record evidence maturity, species scope, relationship type, and parent entity. (2) For the gene–RCD association, the question is: “Is gene X mechanistically linked to this entity?” The answer is provided by evidence tier (ET1–ET4) and a distinct confidence tier (CT1–CT4 or confidence_score), with mechanistic role and direction (EXECUTOR, REGULATOR, MARKER; positive/negative/mixed). (3) For pipeline quality, the question is: “Can the automated extraction be trusted?” The answer is provided by Elicit governance gates (EG1–EG5), input validation (allow-list and vocabulary compliance), EXECUTOR precision, and traceability. This three-way separation ensures that an ontological judgment is never mistaken for gene-level evidence, and that an extraction error is never mistaken for biological signal."""
+
 
 def para_replace(par, old, new):
     full = ''.join(r.text for r in par.runs)
