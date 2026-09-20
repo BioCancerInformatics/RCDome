@@ -181,10 +181,8 @@ mod_gene_catalog_server <- function(id) {
     navigate_to_gene_page <- function(gene_sym) {
       if (is.null(gene_sym) || !nzchar(gene_sym)) return()
       shinyjs::runjs(sprintf(
-        "var f = document.getElementById('home_iframe');
-         f.src = 'detail_page_wireframe.html?type=gene&name=%s';
-         var l = document.querySelectorAll('a[data-toggle=tab]');
-         for(var i=0;i<l.length;i++){ if(l[i].textContent.replace(/\\s+/g,' ').trim().indexOf('Home')===0){ l[i].click(); return; } }",
+        "$('a[data-value=\"Home\"]').tab('show');
+         setTimeout(function(){ document.getElementById('home_iframe').src = 'detail_page_wireframe.html?type=gene&name=%s'; }, 400);",
         utils::URLencode(gene_sym, reserved = TRUE)
       ))
     }
