@@ -11,11 +11,24 @@ ui <- navbarPage(
   # which self-navigates to detail_page_wireframe.html on node/gene click.
   tabPanel(
     title = "Home",
-    tags$iframe(
-      id = "home_iframe",
-      src = "landing_page.html",
-      style = "width:100%; height:calc(100vh - 100px); border:none; display:block;",
-      scrolling = "auto"
+    tags$div(
+      style = "position:relative; width:100%; height:calc(100vh - 100px);",
+      tags$iframe(
+        id = "home_iframe",
+        src = "landing_page.html",
+        style = "width:100%; height:100%; border:none; display:block;",
+        scrolling = "auto"
+      ),
+      tags$div(
+        id = "home_loading_overlay",
+        style = "position:absolute; top:0; left:0; width:100%; height:100%; display:none; align-items:center; justify-content:center; background:#ffffff; z-index:20;",
+        tags$div(
+          style = "text-align:center;",
+          tags$div(class = "spinner-border", role = "status",
+                   style = "width:3rem; height:3rem; color:#FF9800;"),
+          tags$p("Loading gene page…", style = "margin-top:12px; color:#1c1917; font-size:14px;")
+        )
+      )
     )
   ),
 

@@ -182,7 +182,13 @@ mod_gene_catalog_server <- function(id) {
       if (is.null(gene_sym) || !nzchar(gene_sym)) return()
       shinyjs::runjs(sprintf(
         "$('a[data-value=\"Home\"]').tab('show');
-         setTimeout(function(){ document.getElementById('home_iframe').src = 'detail_page_wireframe.html?type=gene&name=%s'; }, 400);",
+         var ov = document.getElementById('home_loading_overlay');
+         if(ov){ ov.style.display = 'flex'; }
+         setTimeout(function(){
+           var f = document.getElementById('home_iframe');
+           f.onload = function(){ var o = document.getElementById('home_loading_overlay'); if(o){ o.style.display = 'none'; } };
+           f.src = 'detail_page_wireframe.html?type=gene&name=%s';
+         }, 50);",
         utils::URLencode(gene_sym, reserved = TRUE)
       ))
     }
