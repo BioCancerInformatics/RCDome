@@ -90,7 +90,7 @@ for name, paths in files.items():
 
 # ───────────────────────── D. SUPPLEMENTARY TABLES ─────────────────────────
 print("="*78); print("D. SUPPLEMENTARY TABLES (Excel)"); print("="*78)
-wb = openpyxl.load_workbook(os.path.join(ROOT,"manuscript_V026/RCDome_manuscript_supplementary_tables.xlsx"))
+wb = openpyxl.load_workbook(os.path.join(ROOT,"manuscript_V026/RCDome_manuscript_V026_supplementary_tables.xlsx"))
 ws3 = wb["Table S3"]; good3=True
 for r in ws3.iter_rows(min_row=3, values_only=True):
     if r[1] in DROP and '29362479' in str(r[6]): good3=False; bad(f"Table S3 {r[1]} still 29362479")
@@ -123,7 +123,7 @@ else:
 # ───────────────────────── F. MANUSCRIPT ─────────────────────────
 print("="*78); print("F. MANUSCRIPT (docx)"); print("="*78)
 import docx
-d = docx.Document(os.path.join(ROOT,"manuscript_V026/RCDome_manuscript_governance.docx"))
+d = docx.Document(os.path.join(ROOT,"manuscript_V026/RCDome_manuscript_governance_V026.docx"))
 paras = [p.text for p in d.paragraphs]
 ok("no 'fixedfixed'") if not any('fixedfixed' in t for t in paras) else bad("still fixedfixed")
 ok("'is fixed and' present (typo fixed)") if any('is fixed and is not modified' in t for t in paras) else bad("typo fix missing")

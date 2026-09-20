@@ -18,7 +18,7 @@ This folder reproduces the **live** RCDome Shiny app (the 9 visible tabs), assem
 - **Nomenclature harmonized**: MC1–MC5 (modality criteria), RS1–RS6 (ranking score), QG1–QG5 (quality gates), ET1–ET4 (evidence tier), CT1–CT4 (confidence tier).
 - **Supplementary Figure S1**: English infographic “Evaluation architecture of RCDome” (600 dpi) — the three evaluation objects (RCD entity, gene–RCD association, pipeline quality) with their gates, tiers, and levels.
 - **Supplementary figures renumbered by first citation**: S1 = evaluation architecture (new) · S2 = database contribution (was S1) · S3 = mechanistic associations per source (was S2).
-- **Manuscript package** in `manuscript/`: governance manuscript, supplementary information, supplementary tables (Excel) — version-free filenames — plus `manuscript/figures/` with the three supplementary figures (PNG/PDF/TIFF + data CSVs).
+- **Manuscript package** in `manuscript/`: governance manuscript, supplementary information, supplementary tables (Excel) — the V026 versions — plus `manuscript/figures/` with the three supplementary figures (PNG/PDF/TIFF + data CSVs).
 
 ## 2. Already configured — just run
 

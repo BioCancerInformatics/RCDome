@@ -34,9 +34,9 @@ _scratch/            temporary fragments + __pycache__
 ## 3. Full move log (source → destination)
 
 ### → manuscript_V026/ (3)
-- RCDome_manuscript_governance.docx
-- RCDome_manuscript_supplementary_tables.xlsx
-- RCDome_manuscript_supplementary_information.docx
+- RCDome_manuscript_governance_V026.docx
+- RCDome_manuscript_V026_supplementary_tables.xlsx
+- RCDome_manuscript_V026_supplementary_information.docx
 
 ### → code/ (31)
 add_front_page.py · add_supplementary_legends.py · build_github_mirror.py ·

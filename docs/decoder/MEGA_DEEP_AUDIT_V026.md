@@ -29,8 +29,8 @@ Every entity's `rcdome_level` equals the GROUP G canonical mapping of its `categ
 `unified_gene_rcd_matrix_V026.rds` = 22,473 × 67; L1 = 10,300; L5 = 7,208 — identical to CSV.
 
 ## Section 6 — Echo spread (PASS 8/8)
-- Manuscript `RCDome_manuscript_governance.docx` — V026, 16/53, recalibration note.
-- Supplementary `RCDome_manuscript_supplementary_tables.xlsx` — Table S11 (39 cols),
+- Manuscript `RCDome_manuscript_governance_V026.docx` — V026, 16/53, recalibration note.
+- Supplementary `RCDome_manuscript_V026_supplementary_tables.xlsx` — Table S11 (39 cols),
   Variable Descriptor, Matrix Descriptor (L4/L5 names updated).
 - Figure 4 regenerated (V026 level colors).
 - App (global.R, mod_omic.R, server.R, data RDS) — V026, no V026 leakage.

@@ -36,14 +36,14 @@ INTEGRATED_PROGRAM · L5 ← CELLULAR_PROCESS, UMBRELLA, LEGACY, TAXON, EMERGING
 | # | Artifact | Path | Where the classification lives | Check |
 |---|---|---|---|---|
 | 3 | D1 adjudication | `RCDome Decoder/D1_adjudication_table.csv/.xlsx` + workbook Table S12 | `pre_adjudication_level`, `adjudicated_level` | 53 rows |
-| 4 | Manuscript ¶31 | `manuscript_V026/RCDome_manuscript_governance.docx` | "16 modalities … 5 subtypes … 2 triggers … 12 functional/contextual … 18 generic/umbrella/…" | grep "16 RCD modalities" |
+| 4 | Manuscript ¶31 | `manuscript_V026/RCDome_manuscript_governance_V026.docx` | "16 modalities … 5 subtypes … 2 triggers … 12 functional/contextual … 18 generic/umbrella/…" | grep "16 RCD modalities" |
 | 5 | Manuscript ¶46 | idem | hard gates G0–G6 + 16/5/2/12/18 | grep "G0-G6" |
 | 6 | Manuscript ¶240 | idem | "16 RCD modalities, 5 subtypes, 2 triggers, 12 functional/contextual…, 18 generic/…" | grep "16 RCD modalities" |
 | 7 | Manuscript ¶334 | idem | "16 bona fide RCD modalities…" | grep "16 bona fide" |
 | 8 | Manuscript ¶364 (Fig 3) | idem | "L4 Functional/contextual…, L5 Generic/umbrella/legacy/taxon/emerging" | grep "Functional/contextual" |
 | 9 | Manuscript ¶367 (Fig 4) | idem | idem | idem |
 | 10 | Figure 4 | `Figures/Figure_4_entity_coverage.pdf/.png/.tiff` | bar colors by `rcdome_level` | regenerate via `make_figure_entity_coverage.R` |
-| 11 | Workbook Matrix Descriptor | `manuscript_V026/RCDome_manuscript_supplementary_tables.xlsx` | L1–L5 level names (rows 7–8) | grep "Functional/contextual" |
+| 11 | Workbook Matrix Descriptor | `manuscript_V026/RCDome_manuscript_V026_supplementary_tables.xlsx` | L1–L5 level names (rows 7–8) | grep "Functional/contextual" |
 | 12 | Workbook Table S4 | idem | 53-form vocabulary with category | 54 rows |
 | 13 | Workbook Variable Descriptor | idem | descriptions of `rcdome_level`, `rcdome_level_name` | grep "L4 Functional/contextual" |
 | 14 | App dome (live) | `Shiny app/RCDome_Atlas/APP/www/landing_page.html` | `LEVEL_COUNTS`, `LEVEL_NAMES`, `DATA.entities` | grep `"L1": 16` |

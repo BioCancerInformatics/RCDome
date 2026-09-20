@@ -59,7 +59,7 @@ Traceability: `docs/TRACEABILITY_V026_auditoria_2026-09-19.md` · crosswalk · `
 
 - **New Supplementary Figure S1**: English infographic "Evaluation architecture of RCDome" (600 dpi PNG/PDF/TIFF) — the three evaluation objects (RCD entity, gene–RCD association, pipeline quality) with their gates, tiers, and levels.
 - **Supplementary figures renumbered by first citation**: the infographic becomes **S1** (cited first, Methods); database contribution **S1 → S2**; mechanistic associations per source **S2 → S3**. Figure files, manuscript call-outs, supplementary legends, code generators, and changelogs updated.
-- **Version-free filenames**: manuscript, supplementary information, and supplementary tables dropped the "V026" suffix (versioning now lives in `manuscript_V026/_archive_backups/`).
+- **Manuscript filenames retain V026 versioning** (governance, supplementary information, supplementary tables).
 - **Figure S1 legend** finalized with reader-facing questions and 1/2/3 column numbering.
 
 Traceability: `docs/TRACEABILITY_supp_figure_renumber_S3_2026-09-20.md`.

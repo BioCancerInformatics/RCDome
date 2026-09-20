@@ -5,7 +5,7 @@ sha256 manifest, and commit. (No secrets, no intermediates — truth snapshot on
 import os, shutil, hashlib, subprocess, sys
 
 DEC = r"D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript/RCDome Decoder"
-MAN = r"D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript/RCDome_manuscript_governance.docx"
+MAN = r"D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript/RCDome_manuscript_governance_V026.docx"
 MIR = r"D:/RCDome_github"
 
 # --- mapping: source file -> mirror relative path ---
@@ -60,7 +60,7 @@ for f in SCRIPTS:
         shutil.copy2(src, dst); copied.append(dst)
 # amended manuscript -> docs/manuscript/
 if os.path.exists(MAN):
-    dst = os.path.join(MIR, "docs", "manuscript", "RCDome_manuscript_governance.docx")
+    dst = os.path.join(MIR, "docs", "manuscript", "RCDome_manuscript_governance_V026.docx")
     shutil.copy2(MAN, dst); copied.append(dst)
 
 # update manifest (sha256)
