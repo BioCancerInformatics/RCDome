@@ -181,8 +181,9 @@ mod_gene_catalog_server <- function(id) {
     navigate_to_gene_page <- function(gene_sym) {
       if (is.null(gene_sym) || !nzchar(gene_sym)) return()
       shinyjs::runjs(sprintf(
-        "$('a[data-value=\"Home\"]').tab('show');
-         setTimeout(function(){ document.getElementById('home_iframe').src = 'detail_page_wireframe.html?type=gene&name=%s'; }, 400);",
+        "var f = document.getElementById('home_iframe');
+         f.src = 'detail_page_wireframe.html?type=gene&name=%s';
+         $('a[data-value=\"Home\"]').tab('show');",
         utils::URLencode(gene_sym, reserved = TRUE)
       ))
     }
