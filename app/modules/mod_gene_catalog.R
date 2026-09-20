@@ -386,18 +386,18 @@ mod_gene_catalog_server <- function(id) {
     observe({
       df <- get_genes()
       if (nrow(df) == 0) return()
-      updateSelectizeInput(session, "f_gene", choices = sort(unique(df$gene_symbol)), server = TRUE)
-      updateSelectizeInput(session, "f_biotype", choices = sort(unique(df$gene_biotype)), server = TRUE)
-      updateSelectizeInput(session, "f_rcd", choices = sort(unique(df$rcd_form_canonical)), server = TRUE)
-      updateSelectizeInput(session, "f_cancer", choices = sort(unique(df$cancer_gene_type[df$cancer_gene_type != ""])), server = TRUE)
-      updateSelectizeInput(session, "f_tier", choices = sort(unique(df$confidence_tier[df$confidence_tier != ""])), server = TRUE)
+      updateSelectizeInput(session, "f_gene", choices = sort(unique(df$gene_symbol)))
+      updateSelectizeInput(session, "f_biotype", choices = sort(unique(df$gene_biotype)))
+      updateSelectizeInput(session, "f_rcd", choices = sort(unique(df$rcd_form_canonical)))
+      updateSelectizeInput(session, "f_cancer", choices = sort(unique(df$cancer_gene_type[df$cancer_gene_type != ""])))
+      updateSelectizeInput(session, "f_tier", choices = sort(unique(df$confidence_tier[df$confidence_tier != ""])))
       db_choices <- sort(unique(unlist(strsplit(df$source_databases, ";"))))
       db_choices <- db_choices[db_choices != "" & !is.na(db_choices)]
-      updateSelectizeInput(session, "f_db", choices = db_choices, server = TRUE)
-      updateSelectizeInput(session, "f_mech", choices = sort(unique(df$cot_mechanistic[df$cot_mechanistic != ""])), server = TRUE)
+      updateSelectizeInput(session, "f_db", choices = db_choices)
+      updateSelectizeInput(session, "f_mech", choices = sort(unique(df$cot_mechanistic[df$cot_mechanistic != ""])))
       sc <- src_cols()
-      updateSelectizeInput(session, "f_role", choices = sort(unique(df[[sc$role]][df[[sc$role]] != ""])), server = TRUE)
-      updateSelectizeInput(session, "f_dir", choices = sort(unique(df[[sc$dir]][df[[sc$dir]] != ""])), server = TRUE)
+      updateSelectizeInput(session, "f_role", choices = sort(unique(df[[sc$role]][df[[sc$role]] != ""])))
+      updateSelectizeInput(session, "f_dir", choices = sort(unique(df[[sc$dir]][df[[sc$dir]] != ""])))
     })
 
     # ── Not-found guard: a typed value absent from the options triggers a pop-up.
