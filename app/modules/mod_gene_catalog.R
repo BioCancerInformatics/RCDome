@@ -769,7 +769,7 @@ mod_gene_catalog_server <- function(id) {
             if (!is.character(x)) return(x)
             too_long <- nchar(x) > 32767
             too_long[is.na(too_long)] <- FALSE
-            x[too_long] <- paste0(substr(x[too_long], 1, 32760), "...[truncated]")
+            x[too_long] <- paste0(substr(x[too_long], 1, 32700), "...[truncated]")
             x
           })
           writexl::write_xlsx(df, file)
