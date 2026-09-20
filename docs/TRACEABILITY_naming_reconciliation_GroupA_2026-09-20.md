@@ -68,3 +68,8 @@ Per curator: the decoder **code/data migration** ("C1–C6" → "RS1–RS6" insi
 - **Audit caught 6 cells my earlier pass MISSED**: Table S11 "G1+G2 passed / G5 replication / G2 by" → BG1+BG2/BG5/BG2 (3 cells); Matrix Descriptor "T1 theoretical" → CT1, "evidence tier (T1-T4)" → ET1-ET4, "T1,T2,T3,T4" → ET1-ET4 (3 cells).
 - Remaining "T/G" in Table S4 are **gene symbols** (ras homolog T1, ribonuclease T2, troponin T2, cyclin G1, G0/G1 switch…) — correctly left untouched.
 - Final audit script: `code/audit_final_compliance_AB.py` → **18/18 checks, 0 FAIL** across manuscript + supp info + supp tables.
+
+## Decoder↔Matrix reconciliation (approved single-field fix)
+- Matrix V026 `decoder_hard_gate_status` = "L1-ELIGIBLE" for **NECSO, Mitoxyperilysis, Triaptosis** (43 gene rows) — was stale "NOT-L1", now consistent with decoder + matrix's own `rcdome_level=L1` + `decoder_category=CORE_PENDING`.
+- Backup: `output databases/Phase 2C output/_archive/unified_gene_rcd_matrix_V026_backup_20260920_175535.csv`.
+- Verified: 0 remaining "NOT-L1 + L1" inconsistencies.
