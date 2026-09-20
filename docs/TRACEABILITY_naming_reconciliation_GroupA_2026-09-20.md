@@ -54,3 +54,7 @@
 
 ## Decision recorded — decoder C1-C6 → RS1-RS6 DEFERRED
 Per curator: the decoder **code/data migration** ("C1–C6" → "RS1–RS6" inside `build_decoder_53.py`, drafts, and the source `Rodrigues 2025_Dataset S1.xlsx`) is **deferred** until the Group B disambiguation is fully complete. Rationale: the decoder's *final output* already carries RS1–RS6 columns; the remaining C1–C6 are source/intermediate naming. Handled separately later.
+
+## Group B2 + B3 (approved)
+- **B2**: Q1–Q13 (13 evidence-checklist questions) confirmed unchanged (matches Figure S1).
+- **B3**: "five governance gates" → "five quality gates (QG1–QG5)" (¶124, first mention) + "quality gates" (¶170); Excel-book stale cell "Benchmark gate (Q1-Q5)" → "(QG1-QG5)".
