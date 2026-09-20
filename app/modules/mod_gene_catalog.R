@@ -344,11 +344,13 @@ mod_gene_catalog_server <- function(id) {
       }
     })
 
-    # Death core preset: switch to DeepSeek + filter to EXECUTOR pairs
+    # Death core preset: switch to DeepSeek + filter to EXECUTOR pairs (unique gene-entity pairs)
+    dedup_flag <- reactiveVal(FALSE)
     observeEvent(input$death_core, {
       shinyjs::runjs(sprintf(
         "var r = document.querySelector('input[name=\"%s\"][value=\"deepseek\"]'); if(r && !r.checked){ r.checked = true; Shiny.setInputValue('%s', 'deepseek', {priority:'event'}); }",
         session$ns("source_sel_r"), session$ns("source_sel")))
+      dedup_flag(TRUE)
       updateSelectizeInput(session, "f_role", selected = "EXECUTOR")
     })
 
@@ -387,6 +389,7 @@ mod_gene_catalog_server <- function(id) {
 
     filtered_genes <- reactive({
       df <- get_genes()
+      if (dedup_flag()) df <- df[!duplicated(paste(df$gene_symbol, df$rcd_form_canonical)), , drop = FALSE]
       if (!is.null(input$f_gene) && length(input$f_gene) > 0) df <- df[df$gene_symbol %in% input$f_gene, , drop = FALSE]
       if (!is.null(input$f_biotype) && length(input$f_biotype) > 0) df <- df[df$gene_biotype %in% input$f_biotype, , drop = FALSE]
       if (!is.null(input$f_rcd) && length(input$f_rcd) > 0) df <- df[df$rcd_form_canonical %in% input$f_rcd, , drop = FALSE]
