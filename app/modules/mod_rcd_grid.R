@@ -52,8 +52,8 @@ mod_rcd_grid_server <- function(id) {
         paste0("Category: ", p(dr$category), "  ·  Hard gate: ", p(dr$hard_gate_status)),
         paste0("Relationship: ", p(dr$relationship_type), if (p(dr$parent_entity) != "—") paste0(" → ", p(dr$parent_entity)) else ""),
         paste0("Species scope: ", p(dr$species_scope), "  ·  Evidence maturity: ", p(dr$evidence_maturity), "  ·  Replication: ", p(dr$independent_replication)),
-        "## Scoring (Rodrigues C1–C6)",
-        paste0("C1=", p(dr$C1), "  C2=", p(dr$C2), "  C3=", p(dr$C3), "  C4=", p(dr$C4), "  C5=", p(dr$C5), "  C6=", p(dr$C6), "  →  S = ", p(dr$S)),
+        "## Scoring (Rodrigues RS1–RS6)",
+        paste0("RS1=", p(dr$RS1), "  RS2=", p(dr$RS2), "  RS3=", p(dr$RS3), "  RS4=", p(dr$RS4), "  RS5=", p(dr$RS5), "  RS6=", p(dr$RS6), "  →  S = ", p(dr$S)),
         "## Provenance",
         paste0("Founding PMID: ", p(dr$founding_pmid), "  ·  Review: ", p(dr$review_status), "  ·  Verdict: ", p(dr$validation_verdict))
       ), collapse = "\n\n")
