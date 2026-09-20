@@ -51,3 +51,6 @@
 - Matrix V026: no C1-C6/RS1-RS6 columns (ranking lives in the decoder) — clean, no action.
 - Decoder final output (RCDome_Decoder_53.csv/.xlsx): already RS1–RS6 columns — no change.
 - Decoder build code + "Rodrigues 2025_Dataset S1.xlsx" (source): keep C1-C6 (intermediate/source naming, invariance).
+
+## Decision recorded — decoder C1-C6 → RS1-RS6 DEFERRED
+Per curator: the decoder **code/data migration** ("C1–C6" → "RS1–RS6" inside `build_decoder_53.py`, drafts, and the source `Rodrigues 2025_Dataset S1.xlsx`) is **deferred** until the Group B disambiguation is fully complete. Rationale: the decoder's *final output* already carries RS1–RS6 columns; the remaining C1–C6 are source/intermediate naming. Handled separately later.
