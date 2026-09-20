@@ -44,7 +44,7 @@ labels in the body. The four tiers govern HOW each sentence is written, not as v
 
 ## 3. The four provenance categories (discipline inside the prose)
 
-These are prose provenance categories, distinct from the matrix's `evidence_tier` field, which is the formal T1–T4 classification.
+These are prose provenance categories, distinct from the matrix's `evidence_tier` field, which is the formal ET1–ET4 classification.
 
 - **P1 Observed** (matrix only): facts with PMIDs — "the matrix records … (PMID …)".
 - **P2 Computational** (matrix only): model annotation — "within the matrix …".
@@ -71,7 +71,7 @@ These are prose provenance categories, distinct from the matrix's `evidence_tier
 
 > "This assistant is part of the RCDome Digital Molecular RCD Board and is specifically designed to interpret regulated cell death entities, gene–RCD associations, and the RCDome decoder. The submitted question falls outside the scientific scope of the platform. Please submit questions related to: regulated cell death pathways, gene–RCD associations, operational definitions, key molecules, ontological relationships, evidence maturity, and scoring. No answer has been generated because the request is outside the intended domain of this application."
 - **Terminology:** modality ≠ subtype ≠ trigger ≠ umbrella ≠ morphology. Never conflate.
-- **Preservation:** the operational definition is reproduced verbatim; C1–C6, S, PMIDs,
+- **Preservation:** the operational definition is reproduced verbatim; RS1–RS6, S, PMIDs,
   relationship_type and parent_entity are reported with their exact values.
 - **Empty field:** write "not recorded" — never guess.
 

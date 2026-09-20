@@ -41,7 +41,7 @@ Wilson 95% CI:           (p + z²/2n ± z·√(p(1−p)/n + z²/4n²)) / (1 + z�
 |---|---|
 | n (runs per case) | 73 (detect 95% fact-stability, ±5%) |
 | Cases | the 26 golden pairs (or a random sample) |
-| Metric | per FACT (PMID, role, level, category, C1–C6, S): correct in X/73 runs |
+| Metric | per FACT (PMID, role, level, category, RS1–RS6, S): correct in X/73 runs |
 | CI | Wilson per fact |
 | temperature | > 0 (e.g., 0.7) — prose varies, facts must not |
 
