@@ -1,4 +1,4 @@
-# Ocean-deep re-salt audit — all approved Victor changes + spread (2026-09-19)
+# Ocean-deep pré-sal audit — all approved Victor changes + spread (2026-09-19)
 
 **Result: 59 checks, 0 FAIL**
 
