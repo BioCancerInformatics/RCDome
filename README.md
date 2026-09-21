@@ -12,7 +12,7 @@
 
 Every claim is verifiable: each association carries its source provenance, evidence tier, mechanistic classification, functional role, direction, and the verified publication (PMID) that supports it — or is explicitly marked `DATABASE_ONLY` where no supporting PMID was found.
 
-The **dome** is RCDome's visual signature. Its cupola rim carries the 53 canonicalized RCD-related entities as nodes colored by their adjudicated ontological level — L1 modalities (16, gold), L2 subtypes (5, blue), L3 triggers (2, green), L4 Functional/contextual (11, purple), and L5 Generic/umbrella/legacy/taxon/emerging (19, orange) — over a constellation of the 9,265 HGNC-validated genes. The color-coding makes the ontology's core claim visible at a glance: only **16 of the 53** entities are bona fide RCD modalities (L1); the remaining 37 are subtypes, triggers, contextual programs, or umbrella concepts, and their level color encodes that distinction.
+The **dome** is RCDome's visual signature. Its cupola rim carries the 53 canonicalized RCD-related entities as nodes colored by their adjudicated ontological level — L1 modalities (19, gold), L2 subtypes (7, blue), L3 triggers (2, green), L4 Functional/contextual (13, purple), and L5 Generic/umbrella/taxon (12, orange) — over a constellation of the 9,265 HGNC-validated genes. The color-coding makes the ontology's core claim visible at a glance: only **19 of the 53** entities are bona fide RCD modalities (L1); the remaining 34 are subtypes, triggers, contextual programs, or umbrella concepts, and their level color encodes that distinction.
 
 ---
 
@@ -39,7 +39,7 @@ The **dome** is RCDome's visual signature. Its cupola rim carries the 53 canonic
   <img src="docs/figures/Figure_1_pipeline.png" width="1100">
 </p>
 
-The pipeline runs in one top-to-bottom workflow: **20 source databases → four compilation channels (A recall · B precision · C AI screening · D manual curation) → consolidation → three independent validations (DeepSeek, Elicit, Consensus) → the 71-column matrix → the RCDome web application.**
+The pipeline runs in one top-to-bottom workflow: **20 source databases → five compilation channels (A recall · B precision · C AI screening · D manual curation · E Elicit Phase 3) → consolidation → three independent validations (DeepSeek, Elicit, Consensus) → the 71-column matrix → the RCDome web application.**
 
 ---
 
