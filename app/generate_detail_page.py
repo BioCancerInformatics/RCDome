@@ -19,7 +19,7 @@ def _first(s):
 
 def short(l):
     return {'L1 Modalities':'L1','L2 Subtypes':'L2','L3 Triggers':'L3',
-            'L4 Functional/contextual':'L4','L5 Generic/umbrella/legacy/taxon/emerging':'L5'}.get(l,'L5')
+            'L4 Functional/contextual':'L4','L5 Generic/umbrella/taxon':'L5'}.get(l,'L5')
 
 # HGNC + Entrez lookup (for external gene links)
 hgnc_map = {}
@@ -197,7 +197,7 @@ html = """<!DOCTYPE html>
 <div class="frame">
 
   <div class="header">
-    <a class="back" href="#" onclick="(function(){var f=window.parent.document.getElementById('home_iframe');if(f){f.src='landing_page.html';}var l=window.parent.document.querySelectorAll('a[data-toggle=tab]');for(var i=0;i<l.length;i++){if(l[i].textContent.replace(/\s+/g,' ').trim().indexOf('Home')===0){l[i].click();return;}}})();return false;">← Back to the dome</a>
+    <a class="back" href="#" onclick="(function(){var f=window.parent.document.getElementById('home_iframe');if(f){f.src='landing_page.html';}var l=window.parent.document.querySelectorAll('a[data-toggle=tab]');for(var i=0;i<l.length;i++){if(l[i].textContent.replace(/\\s+/g,' ').trim().indexOf('Home')===0){l[i].click();return;}}})();return false;">← Back to the dome</a>
     <div class="logo">RCD<span class="rust">ome</span></div>
     <div class="crumb">Home / <span id="crumbName">…</span></div>
   </div>
@@ -281,7 +281,7 @@ html = """<!DOCTYPE html>
       <table>
         <thead><tr>
           <th class="has-tip" data-tip="Canonical RCD form name. Click to open the entity detail page.">RCD entity</th>
-          <th class="has-tip" data-tip="Ontological level of the RCD entity: L1 modality, L2 subtype, L3 trigger, L4 Functional/contextual, L5 Generic/umbrella/legacy/taxon/emerging.">Level</th>
+          <th class="has-tip" data-tip="Ontological level of the RCD entity: L1 modality, L2 subtype, L3 trigger, L4 Functional/contextual, L5 Generic/umbrella/taxon.">Level</th>
           <th id="thGeneDirection" class="has-tip" data-tip="Direction of the gene's effect on this RCD entity, from the selected analysis (DeepSeek = complete; Elicit = original).">Direction (DeepSeek)</th>
           <th class="has-tip" data-tip="Seven-class mechanistic classification: MECHANISTIC = validated by both LLM knowledge and PubMed abstracts; LITERATURE_GAP = LLM training recognizes but abstracts lack explicit statements; CONTEXT_GAP = PubMed confirms but LLM training does not recognize; CO_OCCURRENCE = high paper counts but no mechanistic evidence; INSUFFICIENT_DATA = few papers, LLM cannot determine involvement; DATABASE_ONLY = gene and RCD term never co-occur in PubMed; TECHNICAL_FAILURE = API failure (0 in final run).">Mechanistic class</th>
         </tr></thead>
@@ -308,7 +308,7 @@ const DATA = __DATA__;
 const PMID_TITLES = __PMID_TITLES__;
 const LEVEL_COLORS = {L1:"#FFD700", L2:"#00B0FF", L3:"#00E676", L4:"#E040FB", L5:"#FF6D00"};
 const LEVEL_TEXT_COLORS = {L1:"#8a6d00", L2:"#006f9e", L3:"#007a4d", L4:"#7b1fa2", L5:"#c2410c"};
-const LEVEL_NAMES = {L1:"L1 modality", L2:"L2 subtype", L3:"L3 trigger", L4:"L4 Functional/contextual", L5:"L5 Generic/umbrella/legacy/taxon/emerging"};
+const LEVEL_NAMES = {L1:"L1 modality", L2:"L2 subtype", L3:"L3 trigger", L4:"L4 Functional/contextual", L5:"L5 Generic/umbrella/taxon"};
 const MECH_PILL = {MECHANISTIC:"p-mech", CONTEXT_GAP:"p-context", CO_OCCURRENCE:"p-coocc",
                    LITERATURE_GAP:"p-litgap", INSUFFICIENT_DATA:"p-insuf", DATABASE_ONLY:"p-dbonly"};
 
@@ -637,12 +637,23 @@ if (geneJump) {
   });
 }
 
-// read URL params (from the dome click)
-const params = new URLSearchParams(window.location.search);
-const type = params.get("type");
-const name = params.get("name");
-if (type === "gene" && name) showGene(name);
-else if (type === "entity" && name) showEntity(name);
+// navigation target: sessionStorage (set by the dome) first, then URL params (backward compatible)
+let navType = null, navName = null;
+try {
+  const st = sessionStorage.getItem("rcd_target");
+  if (st) {
+    sessionStorage.removeItem("rcd_target");
+    const t = JSON.parse(st);
+    navType = t.type; navName = t.name;
+  }
+} catch (e) {}
+if (!navType) {
+  const params = new URLSearchParams(window.location.search);
+  navType = params.get("type");
+  navName = params.get("name");
+}
+if (navType === "gene" && navName) showGene(navName);
+else if (navType === "entity" && navName) showEntity(navName);
 else showEntity("Apoptosis");
 </script>
 </body>

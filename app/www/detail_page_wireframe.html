@@ -516,12 +516,23 @@ if (geneJump) {
   });
 }
 
-// read URL params (from the dome click)
-const params = new URLSearchParams(window.location.search);
-const type = params.get("type");
-const name = params.get("name");
-if (type === "gene" && name) showGene(name);
-else if (type === "entity" && name) showEntity(name);
+// navigation target: sessionStorage (set by the dome) first, then URL params (backward compatible)
+let navType = null, navName = null;
+try {
+  const st = sessionStorage.getItem("rcd_target");
+  if (st) {
+    sessionStorage.removeItem("rcd_target");
+    const t = JSON.parse(st);
+    navType = t.type; navName = t.name;
+  }
+} catch (e) {}
+if (!navType) {
+  const params = new URLSearchParams(window.location.search);
+  navType = params.get("type");
+  navName = params.get("name");
+}
+if (navType === "gene" && navName) showGene(navName);
+else if (navType === "entity" && navName) showEntity(navName);
 else showEntity("Apoptosis");
 </script>
 </body>

@@ -1,7 +1,35 @@
 # ─── UI ──────────────────────────────────────────────────────────────────────
 if (!exists("genes_df", inherits = TRUE) || !exists("fingerprint_df", inherits = TRUE)) source("global.R")
 
-ui <- navbarPage(
+ui <- tagList(
+  tags$div(
+    id = "busy_overlay",
+    style = "position:fixed; top:0; left:0; width:100%; height:100%; display:none; align-items:center; justify-content:center; background:rgba(255,255,255,0.88); z-index:9999;",
+    tags$div(
+      style = "text-align:center;",
+      tags$div(class = "spinner-border", role = "status",
+               style = "width:3rem; height:3rem; color:#FF9800;"),
+      tags$p("Retrieving and rendering RCDome data…",
+             style = "margin-top:12px; color:#1c1917; font-size:14px;")
+    )
+  ),
+  tags$script(HTML("
+    $(function() {
+      var rcd_busy_timer = null;
+      $(document).on('shiny:busy', function() {
+        rcd_busy_timer = setTimeout(function() {
+          var o = document.getElementById('busy_overlay');
+          if (o) o.style.display = 'flex';
+        }, 200);
+      });
+      $(document).on('shiny:idle', function() {
+        if (rcd_busy_timer) clearTimeout(rcd_busy_timer);
+        var o = document.getElementById('busy_overlay');
+        if (o) o.style.display = 'none';
+      });
+    });
+  ")),
+  navbarPage(
   title = HTML(rcdome_span()),
   id    = "main_nav",
 
@@ -26,7 +54,7 @@ ui <- navbarPage(
           style = "text-align:center;",
           tags$div(class = "spinner-border", role = "status",
                    style = "width:3rem; height:3rem; color:#FF9800;"),
-          tags$p("Loading gene page…", style = "margin-top:12px; color:#1c1917; font-size:14px;")
+          tags$p("Retrieving and rendering RCDome data…", style = "margin-top:12px; color:#1c1917; font-size:14px;")
         )
       )
     )
@@ -613,4 +641,5 @@ ui <- navbarPage(
       }
     "))
   )
+)
 )
