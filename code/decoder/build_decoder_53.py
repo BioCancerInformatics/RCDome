@@ -166,8 +166,8 @@ for name, d in s1a.items():
         "secondary_refs_pmids": r.get("secondary_pmids", ""),
         "core_mechanism": r.get("core_mechanism", ""),
         "key_molecules": r.get("key_molecules", ""), "inflammatory": r.get("inflammatory", ""),
-        "overlaps": d["overlaps"], "C1": d["C"][0], "C2": d["C"][1], "C3": d["C"][2],
-        "C4": d["C"][3], "C5": d["C"][4], "C6": d["C"][5], "S": d["S"],
+        "overlaps": d["overlaps"], "RS1": d["C"][0], "RS2": d["C"][1], "RS3": d["C"][2],
+        "RS4": d["C"][3], "RS5": d["C"][4], "RS6": d["C"][5], "S": d["S"],
         "founding_pmid": fpmid,
         "definition_status": "DEFINED_RODRIGUES",
         "galluzzi_nccd_definition": nccd, "galluzzi_nccd_status": nccd_status,
@@ -190,7 +190,7 @@ for name, t in P.items():
         "reference_pmid": ref_pmid, "reference_citation": ref_cit,
         "primary_refs_pmids": str(pmid), "secondary_refs_pmids": "",
         "core_mechanism": "", "key_molecules": mol, "inflammatory": infl, "overlaps": ov,
-        "C1": c1, "C2": c2, "C3": c3, "C4": c4, "C5": c5, "C6": c6, "S": S,
+        "RS1": c1, "RS2": c2, "RS3": c3, "RS4": c4, "RS5": c5, "RS6": c6, "S": S,
         "founding_pmid": pmid, "definition_status": st,
         "galluzzi_nccd_definition": nccd, "galluzzi_nccd_status": nccd_status,
     })
@@ -200,7 +200,7 @@ FIELDS = ["rcd_form", "category", "year", "operational_definition",
           "operational_definition_complement", "operational_definition_source",
           "reference_pmid", "reference_citation", "primary_refs_pmids", "secondary_refs_pmids",
           "core_mechanism",
-          "key_molecules", "inflammatory", "overlaps", "C1", "C2", "C3", "C4", "C5", "C6",
+          "key_molecules", "inflammatory", "overlaps", "RS1", "RS2", "RS3", "RS4", "RS5", "RS6",
           "S", "founding_pmid", "definition_status", "galluzzi_nccd_definition",
           "galluzzi_nccd_status"]
 with open(DEC + "/RCDome_Decoder_53.csv", "w", newline="", encoding="utf-8") as f:
