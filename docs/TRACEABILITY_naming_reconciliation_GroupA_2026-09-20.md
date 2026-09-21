@@ -116,3 +116,8 @@ Per curator: the decoder **code/data migration** ("C1–C6" → "RS1–RS6" insi
 ## X5 + X9 — resolved
 - X5: ¶178 "…430 unknown, 70 context-dependent, and one row without a recorded direction" (matrix deep_best_direction = 1,382 vs 1,383 rows).
 - X9: eryptosis founding_pmid 16910766 + od_author Rodrigues (RCDome) verified in decoder — consistent, no fix.
+
+## X6 — corrected (verified)
+- ¶180: "921→1,013 deep papers · 9,145→9,146 DOIs · 18,300→10,138 unique (deduplicated) · 19→21 overlap".
+- ¶178 "167,868 processed" confirmed still present (correct).
+- X4 resolved (roles in matrix rcd_gene_type match ¶177 exactly: 3,347/323/119/10/3 + 1 empty).
