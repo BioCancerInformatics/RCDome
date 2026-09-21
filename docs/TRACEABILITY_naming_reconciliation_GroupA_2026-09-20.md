@@ -107,3 +107,8 @@ Per curator: the decoder **code/data migration** ("C1–C6" → "RS1–RS6" insi
 
 ## Prose cluster (F1–F7) — applied
 - F1 "recomputed bitwise"→"deterministically" · F2 closed FerrDB parenthesis · F3a/b missing spaces · F4 "the the … from." fixed · F5 "an entity" · F6 seven classes separated by "; " · F7 "47% to 100%".
+
+## X1 + X3 + X10 — resolved
+- X1: ¶132 Gene Catalog "Genes, Isoforms, miRNA, and Proteins views" → "a Genes view" (vestigial views removed from app).
+- X3: ¶140 "protein-coding (20,643)" → "(20,642)" (matrix truth: 20,642 + 1,177 + 509 + 81 + 48 + 16 = 22,473).
+- X10: "21 channel_*.py scripts" — verified exactly 21 in `extraction code snippets/` → no fix (false positive).
