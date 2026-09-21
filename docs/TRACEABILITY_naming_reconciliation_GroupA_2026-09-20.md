@@ -100,3 +100,7 @@ Per curator: the decoder **code/data migration** ("C1–C6" → "RS1–RS6" insi
 
 ## L5 (ground-truth ambiguity) — resolved
 - ¶130 + ¶212 + Figure 2A/2C legend: "26-pair ground-truth set" → "26-pair benchmark set"; "17-pair ground truth" → "17-association accuracy ground truth". The 17-association accuracy set and the 26-pair benchmark set are now clearly distinct.
+
+## S2 (Phase 2B/2C labelling) — resolved
+- ¶111 clarifying sentence: "Phase 2C is distinct from Phase 2B (the deep RAG step): 2C recovers PMIDs, whereas 2B extracts deep evidence sentences."
+- Supplementary tables (Table S9/S10, Matrix Descriptor) already use "Phase 2B deep evidence" / "Phase 2C recovery" consistently — no spread needed.
