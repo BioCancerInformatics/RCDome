@@ -78,3 +78,10 @@ Per curator: the decoder **code/data migration** ("C1–C6" → "RS1–RS6" insi
 - Output keys + `FIELDS` in `build_decoder_53.py` renamed "C1…C6" → "RS1…RS6" (3 edits). Source `d["C"]` + raw `c1..c6` values kept (Rodrigues invariance). NOT re-run.
 - Backup: `RCDome Decoder/_archive/build_decoder_53_C_backup_20260920.py`.
 - Reproducibility gap closed: the build code now emits RS1–RS6, matching the shipped decoder.
+
+## Hallucination-risk cluster — fixes applied (approved)
+- **U3/Channel E**: Figure 1 generator updated to "Five compilation channels … E: Elicit Phase 3 systematic review" + Figure 1 regenerated; ¶40 "four→five … Channel E".
+- **S1**: ¶60 adds "Three further forms … (Floatptosis L4, Lysozincrosis L2, Metalloptosis umbrella)".
+- **U1**: ¶113 XDeathDB rewording → "identified as an additional source by the external audit" (accurate + traceable).
+- **H2**: ¶13 clarifies NCCD = 20 entities (15 + anoikis/autosis/efferocytosis/mitotic death/programmed cell death).
+- **No-fix verdicts**: U2/H1 deepseek-v4-pro (real model), H2 20 (confirmed), H3 NCCD terms (in list).
