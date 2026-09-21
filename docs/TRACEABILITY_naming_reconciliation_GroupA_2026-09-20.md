@@ -97,3 +97,6 @@ Per curator: the decoder **code/data migration** ("C1–C6" → "RS1–RS6" insi
 - Supplementary info: "16 bona fide RCD modalities" → "19" (matches decoder/matrix = 19 L1).
 - Supplementary tables (Table S3) already lists Floatptosis/Lysozincrosis/Metalloptosis ✓; Table S6 (Phase-2 additions) correctly holds only the 4 ¶60 entities ✓; Table S2 already has XDeathDB ✓.
 - Decoder = 19 L1-ELIGIBLE ✓ · Matrix = 19 L1 entities ✓ — no further spread needed.
+
+## L5 (ground-truth ambiguity) — resolved
+- ¶130 + ¶212 + Figure 2A/2C legend: "26-pair ground-truth set" → "26-pair benchmark set"; "17-pair ground truth" → "17-association accuracy ground truth". The 17-association accuracy set and the 26-pair benchmark set are now clearly distinct.
