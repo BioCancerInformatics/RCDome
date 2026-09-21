@@ -121,3 +121,8 @@ Per curator: the decoder **code/data migration** ("C1–C6" → "RS1–RS6" insi
 - ¶180: "921→1,013 deep papers · 9,145→9,146 DOIs · 18,300→10,138 unique (deduplicated) · 19→21 overlap".
 - ¶178 "167,868 processed" confirmed still present (correct).
 - X4 resolved (roles in matrix rcd_gene_type match ¶177 exactly: 3,347/323/119/10/3 + 1 empty).
+
+## X2 + X7/X8 + X12 — closed
+- X2: ¶168 A–D grades defined inline ("rank support from A, strongest, to D, weakest").
+- X7/X8: no fix (6,229/4,790 entries vs 5,897/4,634 unique genes — both correctly labelled).
+- X12: DEFERRED with note — references are inserted via EndNote and will be completed at a later formatting stage; unformatted inline PMIDs will be resolved then. No manuscript change now.
