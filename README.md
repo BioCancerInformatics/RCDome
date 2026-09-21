@@ -5,7 +5,7 @@
 <p align="center">
   <img src="docs/hero_dome.png" width="1100">
   <br>
-  <sub>Interactive RCD ontology dome: <a href="docs/dome.html">docs/dome.html</a> (cupola only, L1–L5)</sub>
+  <sub>RCD ontology dome (static snapshot): <a href="docs/dome.html">docs/dome.html</a> (cupola only, L1–L5; the dome is interactive in the live app)</sub>
 </p>
 
 **RCDome** is a gene-centric, multi-source knowledge platform that compiles, normalizes and independently validates every human gene–regulated cell death (RCD) association against the published record — integrating 20 source databases into a single, traceable atlas of 53 canonicalized RCD-related entities and 9,265 genes.
