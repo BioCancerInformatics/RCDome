@@ -126,3 +126,8 @@ Per curator: the decoder **code/data migration** ("C1–C6" → "RS1–RS6" insi
 - X2: ¶168 A–D grades defined inline ("rank support from A, strongest, to D, weakest").
 - X7/X8: no fix (6,229/4,790 entries vs 5,897/4,634 unique genes — both correctly labelled).
 - X12: DEFERRED with note — references are inserted via EndNote and will be completed at a later formatting stage; unformatted inline PMIDs will be resolved then. No manuscript change now.
+
+## X2 — final (correct definition)
+- ¶168: "grade D (the lowest of the four A-D evidence grades: A, well-established; B, established; C, emerging; D, proposed)".
+- Supplementary tables INDEX: "Evidence Grade legend (Tables S3, S6): A, well-established (>100 publications); B, established (10–100); C, emerging (2–10); D, proposed (1); N, not yet classified."
+- Source: RCDome_v2_Implementation_Strategy.md §3.3. Grades C/D are "Emerging/Proposed" — distinct from evidence_maturity.
