@@ -85,3 +85,10 @@ Per curator: the decoder **code/data migration** ("C1–C6" → "RS1–RS6" insi
 - **U1**: ¶113 XDeathDB rewording → "identified as an additional source by the external audit" (accurate + traceable).
 - **H2**: ¶13 clarifies NCCD = 20 entities (15 + anoikis/autosis/efferocytosis/mitotic death/programmed cell death).
 - **No-fix verdicts**: U2/H1 deepseek-v4-pro (real model), H2 20 (confirmed), H3 NCCD terms (in list).
+
+## Logic cluster — fixes applied (approved)
+- **L1**: ¶148/¶202 "16 bona fide modalities" → "19" (decoder = 19 L1-ELIGIBLE).
+- **L2**: ¶190 "remaining 37" → "34" (53−19).
+- **L6**: ¶88 "CT1 = 7–10 … CT4 = 1" → "CT1 = 7–9 … CT4 = 0–1" (matches `merge_engine.py`: max 9, T4 = score<2).
+- **L7**: ¶173 percentages labelled "relative" (+33%/+113%/+310%).
+- **L3/L4**: resolved (definition-source vs scoring-anchor are different dimensions).
