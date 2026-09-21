@@ -92,3 +92,8 @@ Per curator: the decoder **code/data migration** ("C1–C6" → "RS1–RS6" insi
 - **L6**: ¶88 "CT1 = 7–10 … CT4 = 1" → "CT1 = 7–9 … CT4 = 0–1" (matches `merge_engine.py`: max 9, T4 = score<2).
 - **L7**: ¶173 percentages labelled "relative" (+33%/+113%/+310%).
 - **L3/L4**: resolved (definition-source vs scoring-anchor are different dimensions).
+
+## Horizontal/vertical spread of logic fixes
+- Supplementary info: "16 bona fide RCD modalities" → "19" (matches decoder/matrix = 19 L1).
+- Supplementary tables (Table S3) already lists Floatptosis/Lysozincrosis/Metalloptosis ✓; Table S6 (Phase-2 additions) correctly holds only the 4 ¶60 entities ✓; Table S2 already has XDeathDB ✓.
+- Decoder = 19 L1-ELIGIBLE ✓ · Matrix = 19 L1 entities ✓ — no further spread needed.
