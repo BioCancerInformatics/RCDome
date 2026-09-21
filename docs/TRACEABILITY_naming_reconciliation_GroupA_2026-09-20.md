@@ -104,3 +104,6 @@ Per curator: the decoder **code/data migration** ("C1–C6" → "RS1–RS6" insi
 ## S2 (Phase 2B/2C labelling) — resolved
 - ¶111 clarifying sentence: "Phase 2C is distinct from Phase 2B (the deep RAG step): 2C recovers PMIDs, whereas 2B extracts deep evidence sentences."
 - Supplementary tables (Table S9/S10, Matrix Descriptor) already use "Phase 2B deep evidence" / "Phase 2C recovery" consistently — no spread needed.
+
+## Prose cluster (F1–F7) — applied
+- F1 "recomputed bitwise"→"deterministically" · F2 closed FerrDB parenthesis · F3a/b missing spaces · F4 "the the … from." fixed · F5 "an entity" · F6 seven classes separated by "; " · F7 "47% to 100%".
