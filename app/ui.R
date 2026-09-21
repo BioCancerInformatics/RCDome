@@ -144,6 +144,7 @@ ui <- navbarPage(
   # ── CSS + Fonts ────────────────────────────────────────────────────────
   header = tags$head(
     shinyjs::useShinyjs(),
+    tags$link(rel = "icon", type = "image/svg+xml", href = "rcdome_logo.svg"),
     tags$script(src = "contact_intercept.js"),
     tags$style(HTML("
       :root {
