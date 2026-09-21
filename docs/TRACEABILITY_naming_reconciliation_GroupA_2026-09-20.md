@@ -131,3 +131,9 @@ Per curator: the decoder **code/data migration** ("C1–C6" → "RS1–RS6" insi
 - ¶168: "grade D (the lowest of the four A-D evidence grades: A, well-established; B, established; C, emerging; D, proposed)".
 - Supplementary tables INDEX: "Evidence Grade legend (Tables S3, S6): A, well-established (>100 publications); B, established (10–100); C, emerging (2–10); D, proposed (1); N, not yet classified."
 - Source: RCDome_v2_Implementation_Strategy.md §3.3. Grades C/D are "Emerging/Proposed" — distinct from evidence_maturity.
+
+## Decoder Tier B — resolved (archive + migrate)
+- Drafts/logs archived: `RCDome Decoder/_archive/C1C6_drafts_20260920/` (definitions_SOLID/CANDIDATE_draft.md, definition_review_worksheet.csv, merge_log.csv, consensus_crossvalidation_report.csv).
+- Active scripts migrated C1-C6→RS1-RS6: scoring_formulas.py, consensus_crossvalidate.py, deep_audit.py, governance_checker.py, make_review_worksheet.py, merge_approved.py, final_ocean_audit.py, final_readiness_audit.py, RCDome_Definition_Governance.md (partial).
+- Source `Rodrigues 2025_Dataset S1.xlsx` + `d["C"]` frozen (untouched).
+- Verified: 0 remaining C1-C6 in migrated scripts.

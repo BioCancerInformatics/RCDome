@@ -1,13 +1,13 @@
 """
-RCDome Definition Governance — consensus cross-validation (V026).
+RCDome Definition Governance — consensus cross-validation (V025).
 
 Each definition field must be corroborated by >=2 independent sources before locking.
 Three checks:
-  C1  NCCD verbatim integrity   (byte-compare decoder vs galluzzi2018_nccd_definitions.json)
-  C2  Founding-PMID title corroboration (PubMed title contains the entity's key token —
+  RS1  NCCD verbatim integrity   (byte-compare decoder vs galluzzi2018_nccd_definitions.json)
+  RS2  Founding-PMID title corroboration (PubMed title contains the entity's key token —
       an independent "consensus search" that the PMID actually coins the entity)
-  C3  C1-C6 objective consistency (draft scores vs deterministic matrix inputs:
-      n_genes -> C1 band, mechanistic_ratio -> C2 band, type/year -> C4 band)
+  RS3  RS1-RS6 objective consistency (draft scores vs deterministic matrix inputs:
+      n_genes -> RS1 band, mechanistic_ratio -> RS2 band, type/year -> RS4 band)
 
 Output: consensus_crossvalidation_report.csv  (PASS / FLAG per field)
 """
@@ -15,7 +15,7 @@ import pandas as pd, json, re, urllib.request, math, csv, sys
 
 BASE = r"D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript/RCDome Decoder"
 df = pd.read_csv(BASE + "/RCDome_Decoder_53.csv")
-ev = pd.read_csv(BASE + "/entity_evidence_V026.csv")
+ev = pd.read_csv(BASE + "/entity_evidence_V025.csv")
 NCCD = json.load(open(BASE + "/galluzzi2018_nccd_definitions.json", encoding="utf-8"))
 
 def pmid_str(p):
@@ -83,7 +83,7 @@ if pmids:
 ev_map = {r["rcd_form_canonical"]: r for _, r in ev.iterrows()}
 
 rows = []
-# ---- C1: NCCD verbatim integrity ----
+# ---- RS1: NCCD verbatim integrity ----
 for _, r in df.iterrows():
     if r["galluzzi_nccd_status"] != "NCCD_2018_INVARIANT":
         continue
@@ -98,7 +98,7 @@ for _, r in df.iterrows():
         "evidence": f"verbatim match to NCCD Box1 ({matches[0] if matches else 'NO MATCH'})",
     })
 
-# ---- C2: founding PMID corroboration (token in title OR abstract) ----
+# ---- RS2: founding PMID corroboration (token in title OR abstract) ----
 for _, r in df.iterrows():
     if r["definition_status"] == "DEFINED_RODRIGUES" or r["definition_status"] == "COMPOSITE":
         continue
@@ -117,7 +117,7 @@ for _, r in df.iterrows():
         "status": status, "evidence": evidence,
     })
 
-# ---- C3: C1-C6 objective inputs (INFORMATIONAL — expert judgment is semantic) ----
+# ---- RS3: RS1-RS6 objective inputs (INFORMATIONAL — expert judgment is semantic) ----
 def expected_c1(n_genes):
     return min(10, max(3, round(4 + 6 * math.log10(1 + n_genes) / math.log10(1 + 5897))))
 
@@ -129,16 +129,16 @@ for _, r in df.iterrows():
     ratio = n_m / (n_m + n_c) if (n_m + n_c) else 0.0
     exp_c1 = expected_c1(n_genes)
     rows.append({
-        "entity": r["rcd_form"], "field": "C1",
+        "entity": r["rcd_form"], "field": "RS1",
         "check": "C3_C1_objective_inputs",
         "status": "INFO",
-        "evidence": f"C1={r['C1']} (draft); n_genes={n_genes}; gene-based reference={exp_c1}",
+        "evidence": f"RS1={r['RS1']} (draft); n_genes={n_genes}; gene-based reference={exp_c1}",
     })
     rows.append({
-        "entity": r["rcd_form"], "field": "C2",
+        "entity": r["rcd_form"], "field": "RS2",
         "check": "C3_C2_objective_inputs",
         "status": "INFO",
-        "evidence": f"C2={r['C2']} (draft); mech_ratio={ratio:.2f} (n_mech={n_m}, n_ctx={n_c})",
+        "evidence": f"RS2={r['RS2']} (draft); mech_ratio={ratio:.2f} (n_mech={n_m}, n_ctx={n_c})",
     })
 
 out = pd.DataFrame(rows)

@@ -1,9 +1,9 @@
 """
-RCDome Definition Governance — checker + statistical benchmark (V026).
+RCDome Definition Governance — checker + statistical benchmark (V025).
 
 Audits RCDome_Decoder_53.csv against the governance rules:
   V1 completeness (10 core fields)
-  V2 C1-C6 in [0,10]
+  V2 RS1-RS6 in [0,10]
   V3 S determinism (recompute = stored, bitwise)
   V4 founding PMID present
   V5 NCCD 2018 invariance (verbatim definitions attached, never altered)
@@ -17,7 +17,7 @@ import pandas as pd, json, re, urllib.request, math, sys, time
 BASE = r"D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript/RCDome Decoder"
 DF = pd.read_csv(BASE + "/RCDome_Decoder_53.csv")
 W = [0.25, 0.25, 0.20, 0.15, 0.10, 0.05]
-CCOLS = ["C1", "C2", "C3", "C4", "C5", "C6"]
+CCOLS = ["RS1", "RS2", "RS3", "RS4", "RS5", "RS6"]
 
 def filled(v):
     s = str(v).strip()
@@ -43,7 +43,7 @@ for f in core:
     v1.append({"field": f, "filled": int(k), "total": len(DF), "pct": round(100*k/len(DF), 1)})
 report["V1_completeness"] = v1
 
-# ---------------- V2 C1-C6 range ----------------
+# ---------------- V2 RS1-RS6 range ----------------
 v2 = []
 for c in CCOLS:
     vals = pd.to_numeric(DF[c], errors="coerce")
@@ -111,7 +111,7 @@ report["PMID_KnockTest"] = {"resolved": resolved, "total": len(pmids),
 # ---------------- print report ----------------
 sys.stdout.reconfigure(encoding="utf-8")
 print("=" * 70)
-print("RCDome Definition Governance — AUDIT REPORT (V026)")
+print("RCDome Definition Governance — AUDIT REPORT (V025)")
 print("=" * 70)
 print(f"\n[V1] Completeness (10 core fields):")
 for x in v1:
@@ -120,7 +120,7 @@ k = sum(x["filled"] for x in v1); n = len(v1) * len(DF)
 lo, hi = wilson(k, n)
 print(f"   OVERALL {k}/{n} = {100*k/n:.1f}%  95% CI [{lo*100:.1f}%, {hi*100:.1f}%]")
 
-print(f"\n[V2] C1-C6 range [0,10]: violations = {sum(x['violations'] for x in v2)} / {len(v2)*len(DF)}")
+print(f"\n[V2] RS1-RS6 range [0,10]: violations = {sum(x['violations'] for x in v2)} / {len(v2)*len(DF)}")
 
 print(f"\n[V3] S determinism (bitwise recompute): {len(DF)-mism}/{len(DF)} match ({report['V3_S_reproducibility']['pct_bitwise']}%)")
 

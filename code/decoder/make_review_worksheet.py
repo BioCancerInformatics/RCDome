@@ -30,8 +30,8 @@ def prov_molecules(r):
     return "founding-paper abstract", f"PMID {r['founding_pmid']}"
 
 def prov_field(r, field):
-    if field in ("C1", "C2", "C3", "C4", "C5", "C6"):
-        return "rubric-informed DRAFT (objective inputs + 25 anchors)", "entity_evidence_V026.csv"
+    if field in ("RS1", "RS2", "RS3", "RS4", "RS5", "RS6"):
+        return "rubric-informed DRAFT (objective inputs + 25 anchors)", "entity_evidence_V025.csv"
     if field == "S":
         return "computed (verified formula 25/25)", "scoring_formulas.py"
     if field == "founding_pmid":
@@ -52,7 +52,7 @@ def prov_field(r, field):
 
 rows = []
 FIELDS = ["operational_definition", "key_molecules", "inflammatory", "overlaps",
-          "C1", "C2", "C3", "C4", "C5", "C6", "S", "founding_pmid"]
+          "RS1", "RS2", "RS3", "RS4", "RS5", "RS6", "S", "founding_pmid"]
 for _, r in df.iterrows():
     if r["definition_status"] == "DEFINED_RODRIGUES":
         continue  # 25 Rodrigues already locked (S1A + Reference Table; NCCD verbatim invariant)

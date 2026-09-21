@@ -9,7 +9,7 @@ import re, json, sys, math, openpyxl, pandas as pd
 BASE = r"D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript"
 DEC = BASE + r"/RCDome Decoder"
 W = [0.25, 0.25, 0.20, 0.15, 0.10, 0.05]
-CCOLS = ["C1", "C2", "C3", "C4", "C5", "C6"]
+CCOLS = ["RS1", "RS2", "RS3", "RS4", "RS5", "RS6"]
 PASS = FAIL = 0
 def check(name, ok, detail=""):
     global PASS, FAIL
@@ -44,13 +44,13 @@ ok = sum(1 for r in ws.iter_rows(min_row=2, values_only=True) if r[1] is not Non
 check("S formula 25/25 anchors (explicit Rodrigues weights)", ok == 25, f"{ok}/25")
 rc = df.apply(lambda r: round(sum(w * float(r[c]) for w, c in zip(W, CCOLS)), 2), axis=1)
 check("S bitwise recompute 53/53", (abs(df["S"] - rc) < 0.005).sum() == 53)
-check("C1-C6 all in [0,10]", all(0 <= float(df[c].iloc[i]) <= 10 for c in CCOLS for i in range(len(df))))
-ev = pd.read_csv(DEC + "/entity_evidence_V026.csv")
+check("RS1-RS6 all in [0,10]", all(0 <= float(df[c].iloc[i]) <= 10 for c in CCOLS for i in range(len(df))))
+ev = pd.read_csv(DEC + "/entity_evidence_V025.csv")
 def genes(e):
     r = ev[ev["rcd_form_canonical"] == e]; return int(r["n_genes"].iloc[0]) if len(r) else 0
-check("C1-C6 semantic (Necrosis 1092 genes C1=4 < Cuproptosis 77 genes C1=7)",
+check("RS1-RS6 semantic (Necrosis 1092 genes RS1=4 < Cuproptosis 77 genes RS1=7)",
       genes("Necrosis") > genes("Cuproptosis") and
-      float(df[df["rcd_form"] == "Necrosis"]["C1"].iloc[0]) < float(df[df["rcd_form"] == "Cuproptosis"]["C1"].iloc[0]))
+      float(df[df["rcd_form"] == "Necrosis"]["RS1"].iloc[0]) < float(df[df["rcd_form"] == "Cuproptosis"]["RS1"].iloc[0]))
 check("three-tier hierarchy (20 NCCD_VERBATIM / 12 RODRIGUES_S1A / 20 RCDome drafts + 1 composite)",
       df["operational_definition_source"].value_counts().to_dict().get("NCCD_2018_VERBATIM", 0) == 20 and
       df["operational_definition_source"].value_counts().to_dict().get("RODRIGUES_S1A", 0) == 12)

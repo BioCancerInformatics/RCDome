@@ -5,10 +5,10 @@ Sections:
   L1  S formula re-derivation (25/25 anchors)
   L2  Census math (Galluzzi vs Rodrigues vs neither)
   L3  Invariance integrity (NCCD verbatim byte-identical)
-  L4  'Necrosis paradox' proof (C1-C6 semantic, not computable)
-  C1  Decoder structural checks (53 unique, S bitwise, C1-C6 range, PMID format)
-  C2  Name-alignment audit (S1A -> Reference Table -> matrix) no misalignment
-  C3  Merge invariance guard (simulated EDIT on NCCD must be refused)
+  L4  'Necrosis paradox' proof (RS1-RS6 semantic, not computable)
+  RS1  Decoder structural checks (53 unique, S bitwise, RS1-RS6 range, PMID format)
+  RS2  Name-alignment audit (S1A -> Reference Table -> matrix) no misalignment
+  RS3  Merge invariance guard (simulated EDIT on NCCD must be refused)
   R1  Audit-report cross-check (JSON vs printed numbers)
   R2  Cross-validation report cross-check (PASS/FLAG/INFO counts)
 """
@@ -18,7 +18,7 @@ import openpyxl
 BASE = r"D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript"
 DEC = BASE + r"/RCDome Decoder"
 W = [0.25, 0.25, 0.20, 0.15, 0.10, 0.05]
-CCOLS = ["C1", "C2", "C3", "C4", "C5", "C6"]
+CCOLS = ["RS1", "RS2", "RS3", "RS4", "RS5", "RS6"]
 PASS = FAIL = 0
 
 def check(name, cond, detail=""):
@@ -79,31 +79,31 @@ for _, row in df[G].iterrows():
 check("all 20 invariant: operational_definition == verbatim NCCD", inv_ok == 20, f"{inv_ok}/20")
 
 # ================= L4: Necrosis paradox (semantic not computable) =================
-print("\n[L4] 'Necrosis paradox' — C1-C6 are semantic, not computable from gene counts")
-ev = pd.read_csv(DEC + "/entity_evidence_V026.csv")
+print("\n[L4] 'Necrosis paradox' — RS1-RS6 are semantic, not computable from gene counts")
+ev = pd.read_csv(DEC + "/entity_evidence_V025.csv")
 def genes_of(ent):
     r = ev[ev["rcd_form_canonical"] == ent]
     return int(r["n_genes"].iloc[0]) if len(r) else None
 nec_genes = genes_of("Necrosis"); cup_genes = genes_of("Cuproptosis")
-nec_c1 = float(df[df["rcd_form"] == "Necrosis"]["C1"].iloc[0])
-cup_c1 = float(df[df["rcd_form"] == "Cuproptosis"]["C1"].iloc[0])
-check("C1 NOT a function of gene count (Necrosis 1092 genes C1=4 < Cuproptosis 77 genes C1=7)",
+nec_c1 = float(df[df["rcd_form"] == "Necrosis"]["RS1"].iloc[0])
+cup_c1 = float(df[df["rcd_form"] == "Cuproptosis"]["RS1"].iloc[0])
+check("RS1 NOT a function of gene count (Necrosis 1092 genes RS1=4 < Cuproptosis 77 genes RS1=7)",
       nec_genes > cup_genes and nec_c1 < cup_c1,
-      f"Necrosis {nec_genes} genes C1={nec_c1}; Cuproptosis {cup_genes} genes C1={cup_c1}")
+      f"Necrosis {nec_genes} genes RS1={nec_c1}; Cuproptosis {cup_genes} genes RS1={cup_c1}")
 
-# ================= C1: Decoder structural checks =================
-print("\n[C1] Decoder structural checks")
+# ================= RS1: Decoder structural checks =================
+print("\n[RS1] Decoder structural checks")
 check("53 unique rcd_form", df["rcd_form"].nunique() == 53)
 check("no duplicate entities", df["rcd_form"].is_unique)
 c_ok = all(0 <= float(df[c].iloc[i]) <= 10 for c in CCOLS for i in range(len(df)))
-check("C1-C6 all in [0,10]", c_ok)
+check("RS1-RS6 all in [0,10]", c_ok)
 rc = df.apply(lambda r: round(sum(w * float(r[c]) for w, c in zip(W, CCOLS)), 2), axis=1)
 check("S bitwise recompute 53/53", (abs(df["S"] - rc) < 0.005).sum() == 53)
 pmids = [str(int(float(p))) for p in df["founding_pmid"] if str(p).strip() not in ("", "nan")]
 check("founding PMIDs all 7-8 digit", all(re.fullmatch(r"\d{7,8}", p) for p in pmids), f"{len(pmids)} pmids")
 
-# ================= C2: Name-alignment audit =================
-print("\n[C2] Name alignment (S1A -> Reference Table -> matrix canonical)")
+# ================= RS2: Name-alignment audit =================
+print("\n[RS2] Name alignment (S1A -> Reference Table -> matrix canonical)")
 CANON_EXPECT = {
     "Mitotic Catastrophe": "Mitotic catastrophe",
     "Immunogenic Cell Death": "Immunogenic cell death",
@@ -116,12 +116,12 @@ for r in ws.iter_rows(min_row=2, values_only=True):
     if r[1] is not None:
         s1a_names.append(str(r[1]).strip())
 aligned = all((CANON_EXPECT.get(n, n)) in set(df["rcd_form"]) for n in s1a_names)
-check("all 25 S1A names resolve to a matrix canonicalized entity", aligned)
+check("all 25 S1A names resolve to a matrix canonical entity", aligned)
 matrix_entities = set(df["rcd_form"])
 check("25 Rodrigues rows present in decoder", int(R.sum()) == 25)
 
-# ================= C3: Merge invariance guard =================
-print("\n[C3] Merge invariance guard (EDIT on NCCD verbatim must be refused)")
+# ================= RS3: Merge invariance guard =================
+print("\n[RS3] Merge invariance guard (EDIT on NCCD verbatim must be refused)")
 nccd_ent = df[G]["rcd_form"].iloc[0]
 row = df[df["rcd_form"] == nccd_ent].iloc[0]
 invariant = row["galluzzi_nccd_status"] == "NCCD_2018_INVARIANT"
@@ -146,11 +146,11 @@ check("PMID KnockTest = 52/52", rep["PMID_KnockTest"]["resolved"] == 52 and rep[
 print("\n[R2] Cross-validation report cross-check")
 cv = pd.read_csv(DEC + "/consensus_crossvalidation_report.csv")
 c = cv["status"].value_counts().to_dict()
-check("C1 NCCD verbatim = 20 PASS", int((cv["check"] == "C1_NCCD_verbatim_integrity").sum()) == 20)
-check("C2 founding PMID: 26 PASS + 1 FLAG",
+check("RS1 NCCD verbatim = 20 PASS", int((cv["check"] == "C1_NCCD_verbatim_integrity").sum()) == 20)
+check("RS2 founding PMID: 26 PASS + 1 FLAG",
       int(((cv["check"] == "C2_founding_PMID_corroboration") & (cv["status"] == "PASS")).sum()) == 26
       and int(((cv["check"] == "C2_founding_PMID_corroboration") & (cv["status"] == "FLAG")).sum()) == 1)
-check("C3 objective inputs = 106 INFO", int((cv["check"].str.startswith("C3_")).sum()) == 106)
+check("RS3 objective inputs = 106 INFO", int((cv["check"].str.startswith("C3_")).sum()) == 106)
 
 print("\n" + "=" * 72)
 print(f"AUDIT RESULT: {PASS} PASS, {FAIL} FAIL")

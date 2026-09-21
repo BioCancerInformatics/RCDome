@@ -1,5 +1,5 @@
 """
-OCEAN-DEEP FINAL AUDIT — RCDome definition pipeline (V026).
+OCEAN-DEEP FINAL AUDIT — RCDome definition pipeline (V025).
 
 Sections:
   L  Logic        — S formula, census, determination hierarchy, semantic-vs-computable proof
@@ -12,7 +12,7 @@ import re, json, sys, math, openpyxl, pandas as pd
 BASE = r"D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript"
 DEC = BASE + r"/RCDome Decoder"
 W = [0.25, 0.25, 0.20, 0.15, 0.10, 0.05]
-CCOLS = ["C1", "C2", "C3", "C4", "C5", "C6"]
+CCOLS = ["RS1", "RS2", "RS3", "RS4", "RS5", "RS6"]
 PASS = FAIL = WARN = 0
 
 def check(name, ok, detail="", warn=False):
@@ -30,7 +30,7 @@ def norm(s):
 sys.stdout.reconfigure(encoding="utf-8")
 df = pd.read_csv(DEC + "/RCDome_Decoder_53.csv")
 print("=" * 74)
-print("RCDome DEFINITION PIPELINE — OCEAN-DEEP FINAL AUDIT (V026)")
+print("RCDome DEFINITION PIPELINE — OCEAN-DEEP FINAL AUDIT (V025)")
 print("=" * 74)
 
 # ================= L: LOGIC =================
@@ -56,15 +56,15 @@ n_draft_src = int((df["operational_definition_source"] == "FOUNDING_DRAFT").sum(
 check(f"sources: 20 NCCD_VERBATIM / 12 RODRIGUES_S1A / 19 FOUNDING_DRAFT / 1 PRE_PUBMED / 1 COMPOSITE",
       n_nccd_src == 20 and n_rodr_src == 12 and n_draft_src == 19)
 
-print("\n[L4] C1-C6 are semantic, not computable (Necrosis paradox)")
-ev = pd.read_csv(DEC + "/entity_evidence_V026.csv")
+print("\n[L4] RS1-RS6 are semantic, not computable (Necrosis paradox)")
+ev = pd.read_csv(DEC + "/entity_evidence_V025.csv")
 def genes(ent):
     r = ev[ev["rcd_form_canonical"] == ent]
     return int(r["n_genes"].iloc[0]) if len(r) else 0
 nec_g, cup_g = genes("Necrosis"), genes("Cuproptosis")
-nec_c1 = float(df[df["rcd_form"] == "Necrosis"]["C1"].iloc[0])
-cup_c1 = float(df[df["rcd_form"] == "Cuproptosis"]["C1"].iloc[0])
-check(f"Necrosis {nec_g} genes C1={nec_c1} < Cuproptosis {cup_g} genes C1={cup_c1} (semantic proof)",
+nec_c1 = float(df[df["rcd_form"] == "Necrosis"]["RS1"].iloc[0])
+cup_c1 = float(df[df["rcd_form"] == "Cuproptosis"]["RS1"].iloc[0])
+check(f"Necrosis {nec_g} genes RS1={nec_c1} < Cuproptosis {cup_g} genes RS1={cup_c1} (semantic proof)",
       nec_g > cup_g and nec_c1 < cup_c1)
 
 # ================= G: GOVERNANCE =================
@@ -93,10 +93,10 @@ print("\n[T1] Decoder structure")
 check("53 unique entities", df["rcd_form"].nunique() == 53 and df["rcd_form"].is_unique)
 check("28 columns", len(df.columns) == 28, f"{len(df.columns)} cols")
 
-print("\n[T2] S determinism + C1-C6 range")
+print("\n[T2] S determinism + RS1-RS6 range")
 rc = df.apply(lambda r: round(sum(w * float(r[c]) for w, c in zip(W, CCOLS)), 2), axis=1)
 check("S bitwise recompute 53/53", (abs(df["S"] - rc) < 0.005).sum() == 53)
-check("C1-C6 all in [0,10]", all(0 <= float(df[c].iloc[i]) <= 10 for c in CCOLS for i in range(len(df))))
+check("RS1-RS6 all in [0,10]", all(0 <= float(df[c].iloc[i]) <= 10 for c in CCOLS for i in range(len(df))))
 
 print("\n[T3] PMID anchoring + format")
 def pmid_ok(v):
@@ -116,17 +116,17 @@ nccd_match = sum(any(norm(v) == norm(r["galluzzi_nccd_definition"]) for v in jso
 check(f"Galluzzi verbatim {nccd_match}/20 match source JSON", nccd_match == 20)
 
 # ================= C: COHERENCE =================
-print("\n[C1] Cross-audit agreement")
+print("\n[RS1] Cross-audit agreement")
 rep = json.load(open(DEC + "/governance_audit_report.json", encoding="utf-8"))
 cv = pd.read_csv(DEC + "/consensus_crossvalidation_report.csv")
 check("governance_checker V5 = 20 NCCD", rep["V5_nccd_invariance"]["nccd_invariant"] == 20)
 check("governance_checker V3 = 100% S", rep["V3_S_reproducibility"]["pct_bitwise"] == 100.0)
 check("governance_checker PMID KnockTest = 52/52", rep["PMID_KnockTest"]["resolved"] == 52)
-check("consensus cross-validation C1 = 20 PASS", int((cv["check"] == "C1_NCCD_verbatim_integrity").sum()) == 20)
-check("consensus cross-validation C2 = 26 PASS + 1 FLAG (resolved)",
+check("consensus cross-validation RS1 = 20 PASS", int((cv["check"] == "C1_NCCD_verbatim_integrity").sum()) == 20)
+check("consensus cross-validation RS2 = 26 PASS + 1 FLAG (resolved)",
       int(((cv["check"] == "C2_founding_PMID_corroboration") & (cv["status"] == "PASS")).sum()) == 26)
 
-print("\n[C2] Logic coherence (no contradictions)")
+print("\n[RS2] Logic coherence (no contradictions)")
 check("census == source-count == decoder status counts",
       n_nccd_src + n_rodr_src + n_draft_src + 2 == 53)
 check("every real entity has a Galluzzi-format reading (verbatim or complement)",

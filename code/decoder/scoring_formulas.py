@@ -1,22 +1,22 @@
 """
-RCDome Definition Governance — deterministic scoring reference (V026).
+RCDome Definition Governance — deterministic scoring reference (V025).
 
-Objective inputs are pure functions of the V026 matrix.
+Objective inputs are pure functions of the V025 matrix.
 Overall Score S is the reverse-engineered Rodrigues weighted formula,
 verified 25/25 exact against Dataset S1A anchors.
 
-C1-C6 are EXPERT JUDGMENTS (two-call). This module provides:
+RS1-RS6 are EXPERT JUDGMENTS (two-call). This module provides:
   1. objective_inputs(entity_evidence)  -> deterministic
   2. overall_score_s(c1..c6)            -> deterministic, verified
   3. verify_s_formula()                 -> re-checks 25/25 against Dataset S1A
 """
 
-WEIGHTS = {"C1": 0.25, "C2": 0.25, "C3": 0.20, "C4": 0.15, "C5": 0.10, "C6": 0.05}
-W_ORDER = ["C1", "C2", "C3", "C4", "C5", "C6"]
+WEIGHTS = {"RS1": 0.25, "RS2": 0.25, "RS3": 0.20, "RS4": 0.15, "RS5": 0.10, "RS6": 0.05}
+W_ORDER = ["RS1", "RS2", "RS3", "RS4", "RS5", "RS6"]
 
 
 def objective_inputs(row: dict) -> dict:
-    """Deterministic inputs computed from one entity's V026 aggregates."""
+    """Deterministic inputs computed from one entity's V025 aggregates."""
     n_m = row["n_mechanistic"]
     n_c = row["n_context_gap"]
     denom = n_m + n_c
@@ -37,7 +37,7 @@ def objective_inputs(row: dict) -> dict:
 
 
 def overall_score_s(c1: float, c2: float, c3: float, c4: float, c5: float, c6: float) -> float:
-    """S = 0.25*C1 + 0.25*C2 + 0.20*C3 + 0.15*C4 + 0.10*C5 + 0.05*C6 (verified)."""
+    """S = 0.25*RS1 + 0.25*RS2 + 0.20*RS3 + 0.15*RS4 + 0.10*RS5 + 0.05*RS6 (verified)."""
     vals = [c1, c2, c3, c4, c5, c6]
     return round(sum(w * v for w, v in zip(WEIGHTS.values(), vals)), 2)
 
