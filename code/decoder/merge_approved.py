@@ -13,13 +13,13 @@ Merge rules:
   PENDING   -> keep draft, mark PENDING_REVIEW
   INVARIANT -> operational_definition of NCCD_2018_INVARIANT entities is NEVER
                altered; any EDIT/REJECT on it is REFUSED and logged.
-  S recompute -> after any C1-C6 edit, S = 0.25C1+0.25C2+0.20C3+0.15C4+0.10C5+0.05C6
+  S recompute -> after any RS1-RS6 edit, S = 0.25C1+0.25C2+0.20C3+0.15C4+0.10C5+0.05C6
 """
 import pandas as pd, csv, sys
 
 BASE = r"D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript/RCDome Decoder"
 W = [0.25, 0.25, 0.20, 0.15, 0.10, 0.05]
-CCOLS = ["C1", "C2", "C3", "C4", "C5", "C6"]
+CCOLS = ["RS1", "RS2", "RS3", "RS4", "RS5", "RS6"]
 
 df = pd.read_csv(BASE + "/RCDome_Decoder_53.csv")
 try:
@@ -69,11 +69,11 @@ def apply(entity, field, current):
 for i, row in df.iterrows():
     ent = row["rcd_form"]
     for field in ["operational_definition", "key_molecules", "inflammatory", "overlaps",
-                  "C1", "C2", "C3", "C4", "C5", "C6", "founding_pmid"]:
+                  "RS1", "RS2", "RS3", "RS4", "RS5", "RS6", "founding_pmid"]:
         if field in df.columns:
             newval, action = apply(ent, field, row[field])
             df.at[i, field] = newval
-    # recompute S from (possibly edited) C1-C6
+    # recompute S from (possibly edited) RS1-RS6
     c = [float(df.at[i, col]) for col in CCOLS]
     df.at[i, "S"] = round(sum(w * x for w, x in zip(W, c)), 2)
 
