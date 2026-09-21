@@ -286,9 +286,9 @@ mod_gene_catalog_server <- function(id) {
     }
     tier_class <- function(x) {
       cls <- rep("pill-gray", length(x))
-      cls[x == "T1"] <- "pill-gold"
-      cls[x == "T2"] <- "pill-green"
-      cls[x == "T3"] <- "pill-blue"
+      cls[x == "CT1"] <- "pill-gold"
+      cls[x == "CT2"] <- "pill-green"
+      cls[x == "CT3"] <- "pill-blue"
       cls
     }
     mech_class <- function(x) {
@@ -427,7 +427,7 @@ mod_gene_catalog_server <- function(id) {
             "function(thead, data, start, end, display){",
             "  var tips = [",
             "    'RCD-related entity (one of 53).',",
-            "    'RCDome ontological level (L1 modality, L2 subtype, L3 trigger, L4 Functional/contextual, L5 Generic/umbrella/legacy/taxon/emerging).',",
+            "    'RCDome ontological level (L1 Modalities, L2 Subtypes, L3 Triggers, L4 Functional/contextual, L5 Generic/umbrella/taxon).',",
             "    'Number of EXECUTOR pairs from the Elicit Phase 2/3 extraction (~20% annotated).',",
             "    'Number of EXECUTOR pairs from DeepSeek (complete, 100% classified).',",
             "    'Number of REGULATOR pairs from Elicit.',",
@@ -476,7 +476,7 @@ mod_gene_catalog_server <- function(id) {
             "    'Gene biotype from HGNC (protein_coding, lncRNA, miRNA, pseudogene, etc.).',",
             "    'The RCD-related entity (one of 53) that this gene is associated with.',",
             "    'Cancer gene classification (oncogene / tumor suppressor) if annotated in the source databases.',",
-            "    'Confidence tier derived from the weighted sum of source channels (T1 strongest, T4 weakest).',",
+            "    'Confidence tier derived from the weighted sum of source channels (CT1 strongest, CT4 weakest).',",
             "    'DeepSeek mechanistic verdict: YES = gene mechanistically participates in this RCD form; NO = association without mechanistic evidence.',",
             "    'DeepSeek role: EXECUTOR = directly executes death; REGULATOR = controls (promotes/inhibits); MARKER = associated but not causal; UNCERTAIN = unresolved.',",
             "    'DeepSeek direction: PROMOTES = favors death; PROTECTS = inhibits death; UNCLEAR = unresolved.',",

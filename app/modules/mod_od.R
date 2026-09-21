@@ -4,16 +4,16 @@
 
 OD_LEVEL_COLORS <- c(L1 = "#FFD700", L2 = "#00B0FF", L3 = "#00E676",
                      L4 = "#E040FB", L5 = "#FF6D00")
-OD_LEVEL_NAMES <- c(L1 = "L1 modality", L2 = "L2 subtype", L3 = "L3 trigger",
+OD_LEVEL_NAMES <- c(L1 = "L1 Modalities", L2 = "L2 Subtypes", L3 = "L3 Triggers",
                     L4 = "L4 Functional/contextual",
                     L5 = "L5 Generic/umbrella/taxon")
 
 OD_LEGEND <- list(
-  L1 = list(label = "L1 modality",
+  L1 = list(label = "L1 Modalities",
             desc = "bona fide cell-death modalities (apoptosis, necroptosis, ferroptosis\u2026)"),
-  L2 = list(label = "L2 subtype",
+  L2 = list(label = "L2 Subtypes",
             desc = "a subtype of a modality (e.g., extrinsic apoptosis)"),
-  L3 = list(label = "L3 trigger",
+  L3 = list(label = "L3 Triggers",
             desc = "a trigger or mechanism (e.g., MPT)"),
   L4 = list(label = "L4 Functional/contextual",
             desc = "context-dependent or functional forms"),

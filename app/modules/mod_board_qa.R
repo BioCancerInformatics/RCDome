@@ -77,13 +77,13 @@ build_rag_records <- function(question, default_entity = NULL, max_chars = 60000
   rows <- genes_df[keep, ]
   rows <- rows[!duplicated(paste(rows$gene_symbol, rows$rcd_form_canonical)), ]
 
-  # 5) Prioritize: explicitly-mentioned genes first, then MECHANISTIC > T1/T2 >
+  # 5) Prioritize: explicitly-mentioned genes first, then MECHANISTIC > ET1/ET2 >
   #    EXECUTOR > REGULATOR, so a queried gene is never pushed out by the budget.
   is_explicit_gene <- rows$gene_symbol %in% matched_genes
   ord <- order(
     is_explicit_gene,
     (rows$mechanistic_class == "MECHANISTIC"),
-    (rows$evidence_tier %in% c("T1", "T2")),
+    (rows$evidence_tier %in% c("ET1", "ET2")),
     (rows$cot_role == "EXECUTOR"),
     (rows$cot_role == "REGULATOR"),
     decreasing = TRUE
