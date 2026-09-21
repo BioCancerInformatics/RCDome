@@ -281,7 +281,7 @@ html = """<!DOCTYPE html>
       <table>
         <thead><tr>
           <th class="has-tip" data-tip="Canonical RCD form name. Click to open the entity detail page.">RCD entity</th>
-          <th class="has-tip" data-tip="Ontological level of the RCD entity: L1 modality, L2 subtype, L3 trigger, L4 Functional/contextual, L5 Generic/umbrella/taxon.">Level</th>
+          <th class="has-tip" data-tip="Ontological level of the RCD entity: L1 Modalities, L2 Subtypes, L3 Triggers, L4 Functional/contextual, L5 Generic/umbrella/taxon.">Level</th>
           <th id="thGeneDirection" class="has-tip" data-tip="Direction of the gene's effect on this RCD entity, from the selected analysis (DeepSeek = complete; Elicit = original).">Direction (DeepSeek)</th>
           <th class="has-tip" data-tip="Seven-class mechanistic classification: MECHANISTIC = validated by both LLM knowledge and PubMed abstracts; LITERATURE_GAP = LLM training recognizes but abstracts lack explicit statements; CONTEXT_GAP = PubMed confirms but LLM training does not recognize; CO_OCCURRENCE = high paper counts but no mechanistic evidence; INSUFFICIENT_DATA = few papers, LLM cannot determine involvement; DATABASE_ONLY = gene and RCD term never co-occur in PubMed; TECHNICAL_FAILURE = API failure (0 in final run).">Mechanistic class</th>
         </tr></thead>
@@ -308,7 +308,7 @@ const DATA = __DATA__;
 const PMID_TITLES = __PMID_TITLES__;
 const LEVEL_COLORS = {L1:"#FFD700", L2:"#00B0FF", L3:"#00E676", L4:"#E040FB", L5:"#FF6D00"};
 const LEVEL_TEXT_COLORS = {L1:"#8a6d00", L2:"#006f9e", L3:"#007a4d", L4:"#7b1fa2", L5:"#c2410c"};
-const LEVEL_NAMES = {L1:"L1 modality", L2:"L2 subtype", L3:"L3 trigger", L4:"L4 Functional/contextual", L5:"L5 Generic/umbrella/taxon"};
+const LEVEL_NAMES = {L1:"L1 Modalities", L2:"L2 Subtypes", L3:"L3 Triggers", L4:"L4 Functional/contextual", L5:"L5 Generic/umbrella/taxon"};
 const MECH_PILL = {MECHANISTIC:"p-mech", CONTEXT_GAP:"p-context", CO_OCCURRENCE:"p-coocc",
                    LITERATURE_GAP:"p-litgap", INSUFFICIENT_DATA:"p-insuf", DATABASE_ONLY:"p-dbonly"};
 

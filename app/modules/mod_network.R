@@ -29,9 +29,9 @@ network_level_colors <- function() {
 
 network_level_names <- function() {
   if (exists("OD_LEVEL_NAMES", inherits = TRUE)) return(OD_LEVEL_NAMES)
-  c(L1 = "L1 modality", L2 = "L2 subtype", L3 = "L3 trigger",
+  c(L1 = "L1 Modalities", L2 = "L2 Subtypes", L3 = "L3 Triggers",
     L4 = "L4 Functional/contextual",
-    L5 = "L5 Generic/umbrella/legacy/taxon/emerging")
+    L5 = "L5 Generic/umbrella/taxon")
 }
 
 # Gene mechanistic role colors (dominant role per gene node).
@@ -250,13 +250,13 @@ mod_network_ui <- function(id) {
         tags$span(
           style = "display: inline-flex; align-items: center; gap: 5px; white-space: nowrap;",
           tags$span(style = "display:inline-block; width:16px; height:0; border-top:3px solid #57534e;"),
-          tags$span("T1", style = "font-size:11px; color:#57534e;"),
+          tags$span("ET1", style = "font-size:11px; color:#57534e;"),
           tags$span(style = "display:inline-block; width:16px; height:0; border-top:2px solid #57534e;"),
-          tags$span("T2", style = "font-size:11px; color:#57534e;"),
+          tags$span("ET2", style = "font-size:11px; color:#57534e;"),
           tags$span(style = "display:inline-block; width:16px; height:0; border-top:1.5px solid #57534e;"),
-          tags$span("T3", style = "font-size:11px; color:#57534e;"),
+          tags$span("ET3", style = "font-size:11px; color:#57534e;"),
           tags$span(style = "display:inline-block; width:16px; height:0; border-top:1px dashed #57534e;"),
-          tags$span("T4", style = "font-size:11px; color:#57534e;")
+          tags$span("ET4", style = "font-size:11px; color:#57534e;")
         ),
         tags$span(
           style = "display: inline-flex; align-items: center; gap: 5px; white-space: nowrap;",
@@ -432,7 +432,7 @@ mod_network_server <- function(
     # original forms are aggregated. The kept row is the one with the
     # strongest role (EXECUTOR > REGULATOR > MARKER > UNCERTAIN), then the
     # strongest direction (PROMOTES/PROTECTS > UNCLEAR), then the strongest
-    # tier (T1 > T2 > T3 > T4). pmid_count counts the unique PMIDs.
+    # tier (ET1 > ET2 > ET3 > ET4). pmid_count counts the unique PMIDs.
     #
     # Vectorized (order + duplicated) instead of split() + lapply(), which
     # took ~35 s over 21,568 groups; this finishes in < 1 s.
@@ -471,7 +471,7 @@ mod_network_server <- function(
       dp <- if (has_dir) dir_pri[as.character(df$cot_direction)] else integer(nrow(df))
       dp[is.na(dp)] <- 0L
       
-      tier_pri <- c(T1 = 4L, T2 = 3L, T3 = 2L, T4 = 1L)
+      tier_pri <- c(ET1 = 4L, ET2 = 3L, ET3 = 2L, ET4 = 1L)
       tp <- if (has_tier) tier_pri[as.character(df$evidence_tier)] else integer(nrow(df))
       tp[is.na(tp)] <- 1L
       
@@ -490,7 +490,7 @@ mod_network_server <- function(
       direction <- as.character(d2$cot_direction[first])
       direction[is.na(direction) | direction == ""] <- "UNCLEAR"
       tier <- as.character(d2$evidence_tier[first])
-      tier[is.na(tier) | tier == ""] <- "T4"
+      tier[is.na(tier) | tier == ""] <- "ET4"
       mech <- if (has_mech) as.character(d2$mechanistic_class[first]) else rep("INSUFFICIENT_DATA", sum(first))
       mech[is.na(mech) | mech == ""] <- "INSUFFICIENT_DATA"
       
@@ -674,12 +674,12 @@ mod_network_server <- function(
       
       # ── Optional display cap (tier-prioritized, never random) ──────────────
       # "All" = no cap. Otherwise keep the strongest-evidence genes per entity
-      # (T1 > T2 > T3 > T4); searched genes always bypass the cap.
+      # (ET1 > ET2 > ET3 > ET4); searched genes always bypass the cap.
       
       cap_value <- suppressWarnings(as.numeric(input$cap_select))
       
       if (!is.na(cap_value)) {
-        tier_pri <- c(T1 = 4, T2 = 3, T3 = 2, T4 = 1)
+        tier_pri <- c(ET1 = 4, ET2 = 3, ET3 = 2, ET4 = 1)
         edges$tp <- tier_pri[edges$tier]
         edges$tp[is.na(edges$tp)] <- 0
         
@@ -706,24 +706,24 @@ mod_network_server <- function(
         entities = length(unique(edges$to)),
         edges = nrow(edges),
         total_edges = total_edges,
-        t1 = sum(edges$tier == "T1"),
-        t4 = sum(edges$tier == "T4")
+        t1 = sum(edges$tier == "ET1"),
+        t4 = sum(edges$tier == "ET4")
       ))
 
       # Edge styling: color = entity level, width = evidence tier,
-      # dashes = T4, direction = arrow (PROMOTES) / bar label (PROTECTS).
+      # dashes = ET4, direction = arrow (PROMOTES) / bar label (PROTECTS).
       edge_lv <- lvl_map[edges$to]
       edge_lv[is.na(edge_lv) | edge_lv == ""] <- "L5"
       edge_col <- network_level_colors()[edge_lv]
       edge_col[is.na(edge_col)] <- "#FF6D00"
       
-      tier_width <- c(T1 = 3, T2 = 2, T3 = 1.5, T4 = 1)
+      tier_width <- c(ET1 = 3, ET2 = 2, ET3 = 1.5, ET4 = 1)
       edge_w <- tier_width[edges$tier]
       edge_w[is.na(edge_w)] <- 1
       
       edges$color  <- edge_col
       edges$width  <- edge_w
-      edges$dashes <- edges$tier == "T4"
+      edges$dashes <- edges$tier == "ET4"
       edges$arrows <- ifelse(edges$direction == "PROMOTES", "to", "")
       edges$label  <- ifelse(edges$direction == "PROTECTS", "\u22a3", "")
       
@@ -1264,9 +1264,9 @@ mod_network_server <- function(
           }
         ),
         tags$span("·", style = "color:#d6d3d1;"),
-        tags$span(paste0("T1: ", s$t1), style = "color:#198754; font-weight:600;"),
+        tags$span(paste0("ET1: ", s$t1), style = "color:#198754; font-weight:600;"),
         tags$span("·", style = "color:#d6d3d1;"),
-        tags$span(paste0("T4: ", s$t4), style = "color:#a8a29e; font-weight:600;")
+        tags$span(paste0("ET4: ", s$t4), style = "color:#a8a29e; font-weight:600;")
       )
     })
     
