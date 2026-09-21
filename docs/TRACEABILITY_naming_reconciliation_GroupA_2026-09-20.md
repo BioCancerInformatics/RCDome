@@ -112,3 +112,7 @@ Per curator: the decoder **code/data migration** ("C1–C6" → "RS1–RS6" insi
 - X1: ¶132 Gene Catalog "Genes, Isoforms, miRNA, and Proteins views" → "a Genes view" (vestigial views removed from app).
 - X3: ¶140 "protein-coding (20,643)" → "(20,642)" (matrix truth: 20,642 + 1,177 + 509 + 81 + 48 + 16 = 22,473).
 - X10: "21 channel_*.py scripts" — verified exactly 21 in `extraction code snippets/` → no fix (false positive).
+
+## X5 + X9 — resolved
+- X5: ¶178 "…430 unknown, 70 context-dependent, and one row without a recorded direction" (matrix deep_best_direction = 1,382 vs 1,383 rows).
+- X9: eryptosis founding_pmid 16910766 + od_author Rodrigues (RCDome) verified in decoder — consistent, no fix.
