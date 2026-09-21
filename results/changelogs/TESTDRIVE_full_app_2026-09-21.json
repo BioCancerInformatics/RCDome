@@ -1,0 +1,228 @@
+{
+  "results": [
+    {
+      "label": "app initial load (networkidle)",
+      "status": "PASS",
+      "time_s": 1.39,
+      "err": null
+    },
+    {
+      "label": "tab: Home",
+      "status": "PASS",
+      "time_s": 5.79,
+      "err": null
+    },
+    {
+      "label": "tab: Explore RCDome",
+      "status": "PASS",
+      "time_s": 1.88,
+      "err": null
+    },
+    {
+      "label": "tab: Operational Definitions",
+      "status": "PASS",
+      "time_s": 1.86,
+      "err": null
+    },
+    {
+      "label": "tab: Compare Definitions",
+      "status": "PASS",
+      "time_s": 1.86,
+      "err": null
+    },
+    {
+      "label": "tab: RCD entities",
+      "status": "PASS",
+      "time_s": 1.85,
+      "err": null
+    },
+    {
+      "label": "tab: Gene Catalog",
+      "status": "PASS",
+      "time_s": 1.88,
+      "err": null
+    },
+    {
+      "label": "tab: RCDome Board",
+      "status": "PASS",
+      "time_s": 1.86,
+      "err": null
+    },
+    {
+      "label": "tab: Network",
+      "status": "PASS",
+      "time_s": 1.87,
+      "err": null
+    },
+    {
+      "label": "tab: About",
+      "status": "PASS",
+      "time_s": 1.85,
+      "err": null
+    },
+    {
+      "label": "OD: entity buttons rendered (53)",
+      "status": "PASS",
+      "time_s": 0.01,
+      "err": null
+    },
+    {
+      "label": "OD: click 'Apoptosis' → detail",
+      "status": "PASS",
+      "time_s": 1.24,
+      "err": null
+    },
+    {
+      "label": "CD: select 3 entities",
+      "status": "PASS",
+      "time_s": 1.55,
+      "err": null
+    },
+    {
+      "label": "CD: switch mode (radio)",
+      "status": "PASS",
+      "time_s": 1.21,
+      "err": null
+    },
+    {
+      "label": "RCDgrid: cells rendered",
+      "status": "PASS",
+      "time_s": 0.01,
+      "err": null
+    },
+    {
+      "label": "RCDgrid: search selectize → 'Ferroptosis'",
+      "status": "PASS",
+      "time_s": 1.22,
+      "err": null
+    },
+    {
+      "label": "RCDgrid: close detail modal",
+      "status": "PASS",
+      "time_s": 0.61,
+      "err": null
+    },
+    {
+      "label": "GC: f_biotype → protein_coding",
+      "status": "PASS",
+      "time_s": 1.42,
+      "err": null
+    },
+    {
+      "label": "GC: f_rcd → Ferroptosis",
+      "status": "PASS",
+      "time_s": 1.41,
+      "err": null
+    },
+    {
+      "label": "GC: f_cancer → suppressor",
+      "status": "PASS",
+      "time_s": 1.42,
+      "err": null
+    },
+    {
+      "label": "GC: f_tier → T1",
+      "status": "PASS",
+      "time_s": 1.42,
+      "err": null
+    },
+    {
+      "label": "GC: f_mech → YES",
+      "status": "PASS",
+      "time_s": 1.42,
+      "err": null
+    },
+    {
+      "label": "GC: f_role → EXECUTOR",
+      "status": "PASS",
+      "time_s": 1.41,
+      "err": null
+    },
+    {
+      "label": "GC: f_dir → PROMOTES",
+      "status": "PASS",
+      "time_s": 1.42,
+      "err": null
+    },
+    {
+      "label": "GC: f_db → (a source DB)",
+      "status": "PASS",
+      "time_s": 1.41,
+      "err": null
+    },
+    {
+      "label": "GC: reset filters (clear all selectize)",
+      "status": "PASS",
+      "time_s": 1.52,
+      "err": null
+    },
+    {
+      "label": "GC: Death core (executors) button",
+      "status": "PASS",
+      "time_s": 1.83,
+      "err": null
+    },
+    {
+      "label": "GC: source radio → Elicit",
+      "status": "PASS",
+      "time_s": 1.52,
+      "err": null
+    },
+    {
+      "label": "GC: gene row click → detail",
+      "status": "PASS",
+      "time_s": 4.65,
+      "err": null
+    },
+    {
+      "label": "Board: entity selectize → Ferroptosis",
+      "status": "PASS",
+      "time_s": 1.53,
+      "err": null
+    },
+    {
+      "label": "Board: example query click",
+      "status": "PASS",
+      "time_s": 1.26,
+      "err": null
+    },
+    {
+      "label": "Network: rcd_filter → Apoptosis",
+      "status": "PASS",
+      "time_s": 2.52,
+      "err": null
+    },
+    {
+      "label": "Network: level_filter → L1",
+      "status": "PASS",
+      "time_s": 1.79,
+      "err": null
+    },
+    {
+      "label": "Network: role_filter → EXECUTOR",
+      "status": "PASS",
+      "time_s": 1.55,
+      "err": null
+    },
+    {
+      "label": "Network: mech_filter → MECHANISTIC",
+      "status": "PASS",
+      "time_s": 2.33,
+      "err": null
+    },
+    {
+      "label": "Network: cap_select → 100",
+      "status": "PASS",
+      "time_s": 2.63,
+      "err": null
+    },
+    {
+      "label": "Network: canvas rendered",
+      "status": "PASS",
+      "time_s": 0.8,
+      "err": null
+    }
+  ],
+  "console_errors": [],
+  "page_errors": []
+}
