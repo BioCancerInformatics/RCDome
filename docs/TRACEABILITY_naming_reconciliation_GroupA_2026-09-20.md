@@ -73,3 +73,8 @@ Per curator: the decoder **code/data migration** ("C1–C6" → "RS1–RS6" insi
 - Matrix V026 `decoder_hard_gate_status` = "L1-ELIGIBLE" for **NECSO, Mitoxyperilysis, Triaptosis** (43 gene rows) — was stale "NOT-L1", now consistent with decoder + matrix's own `rcdome_level=L1` + `decoder_category=CORE_PENDING`.
 - Backup: `output databases/Phase 2C output/_archive/unified_gene_rcd_matrix_V026_backup_20260920_175535.csv`.
 - Verified: 0 remaining "NOT-L1 + L1" inconsistencies.
+
+## Final deferred item RESOLVED — build_decoder_53.py output keys C→RS
+- Output keys + `FIELDS` in `build_decoder_53.py` renamed "C1…C6" → "RS1…RS6" (3 edits). Source `d["C"]` + raw `c1..c6` values kept (Rodrigues invariance). NOT re-run.
+- Backup: `RCDome Decoder/_archive/build_decoder_53_C_backup_20260920.py`.
+- Reproducibility gap closed: the build code now emits RS1–RS6, matching the shipped decoder.
