@@ -167,10 +167,12 @@ star.on("mouseenter", function(ev,d){
   });
 
 node.on("click", (ev, d) => {
-  window.location.href = "detail_page_wireframe.html?type=entity&name=" + encodeURIComponent(d.name);
+  sessionStorage.setItem("rcd_target", JSON.stringify({type:"entity", name:d.name}));
+  window.location.href = "detail_page_wireframe.html";
 });
 star.on("click", (ev, d) => {
-  window.location.href = "detail_page_wireframe.html?type=gene&name=" + encodeURIComponent(d.symbol);
+  sessionStorage.setItem("rcd_target", JSON.stringify({type:"gene", name:d.symbol}));
+  window.location.href = "detail_page_wireframe.html";
 });
 
 svg.attr("opacity",0).transition().duration(1200).attr("opacity",1);

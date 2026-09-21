@@ -133,8 +133,12 @@ mod_gene_catalog_server <- function(id) {
     genes_rv    <- reactiveVal(NULL)
     get_genes <- function() {
       if (is.null(genes_rv())) {
-        genes_rv(tryCatch(readRDS("data/unified_gene_rcd_matrix_V026.rds"),
-                          error = function(e) { message("RCDome load error: unified_gene_rcd_matrix_V026.rds - ", conditionMessage(e)); data.frame(gene_symbol = character(0)) }))
+        genes_rv(if (exists("genes_df", inherits = TRUE) && is.data.frame(genes_df) && nrow(genes_df) > 0) {
+          genes_df
+        } else {
+          tryCatch(readRDS("data/unified_gene_rcd_matrix_V026.rds"),
+                   error = function(e) { message("RCDome load error: unified_gene_rcd_matrix_V026.rds - ", conditionMessage(e)); data.frame(gene_symbol = character(0)) })
+        })
       }
       genes_rv()
     }
@@ -144,17 +148,19 @@ mod_gene_catalog_server <- function(id) {
     # symbol, HGNC/Ensembl/NCBI Gene links, and the RCD distribution.
     navigate_to_gene_page <- function(gene_sym) {
       if (is.null(gene_sym) || !nzchar(gene_sym)) return()
+      js_sym <- gsub("'", "\\'", gene_sym, fixed = TRUE)
       shinyjs::runjs(sprintf(
         "$('a[data-value=\"Home\"]').tab('show');
          var ov = document.getElementById('home_loading_overlay');
-         if(ov){ ov.style.display = 'flex'; }
+         if (ov) ov.style.display = 'flex';
+         var f = document.getElementById('home_iframe');
+         var callShow = function(){ try { f.contentWindow.showGene('%s'); } catch(e){} };
+         var done = function(){ var o = document.getElementById('home_loading_overlay'); if(o){ o.style.display = 'none'; } };
          setTimeout(function(){
-           var f = document.getElementById('home_iframe');
-           f.onload = function(){ var o = document.getElementById('home_loading_overlay'); if(o){ o.style.display = 'none'; } };
-           f.src = 'detail_page_wireframe.html?type=gene&name=%s';
-         }, 50);",
-        utils::URLencode(gene_sym, reserved = TRUE)
-      ))
+           f.onload = function(){ callShow(); done(); };
+           f.src = 'detail_page_wireframe.html';
+         }, 100);", js_sym)
+      )
     }
 
     # ── Shared gene detail modal ───────────────────────────────────────
@@ -323,7 +329,10 @@ mod_gene_catalog_server <- function(id) {
         session$ns("source_sel_r"), session$ns("source_sel")))
       dedup_flag(TRUE)
       suppress_reset(TRUE)
-      updateSelectizeInput(session, "f_role", selected = "EXECUTOR")
+      df <- get_genes()
+      updateSelectizeInput(session, "f_role",
+        choices = sort(unique(df$cot_role[df$cot_role != ""])),
+        selected = "EXECUTOR")
     })
 
     # Auto-reset the dedup preset when the user manually changes the Role filter.
