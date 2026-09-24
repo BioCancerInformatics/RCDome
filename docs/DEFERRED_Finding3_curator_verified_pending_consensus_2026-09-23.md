@@ -1,39 +1,31 @@
 # Deferral Log — Finding 3 (curator_verified vs ontology_curator_verified)
 
-**Date:** 2026-09-23
-**Status:** DEFERRED (pending Consensus phase completion)
+**Date:** 2026-09-23 (deferred) · **updated 2026-09-24**
+**Status:** ¶95 wording fix **APPLIED**; Consensus flag-population still DEFERRED
 
-## Finding (deferred, not edited)
-¶95(v) states: *"every association carries a curator-verification status (the
-ontology_curator_verified field)"*. This is doubly wrong:
-1. the matrix (71 columns) carries **no** `curator_verified` / `ontology_curator_verified` column;
-2. it equates **entity-level** ontology curation (`ontology_curator_verified`, decoder, 53 rows)
-   with **association-level** verification (`curator_verified`, Channel C internal).
+## Finding
+¶95(v) conflated the association-level `curator_verified` flag (Channel C) with the
+entity-level `ontology_curator_verified` flag (decoder), implying all 22,473
+associations were individually curator-verified.
 
-## Reason for deferral
-`curator_verified` is an **association-level flag internal to the Channel C (Consensus)
-extraction script**. The Consensus phase is **incomplete**: 19,443 / 21,568 pairs (90.1%)
-processed; the remaining 2,125 pairs are blocked on the monthly API quota (10,000/10,000
-exhausted) and resume after the **October 1st quota reset**.
+## Resolution applied (2026-09-24)
+¶95(v) now reads:
+"every association carries an association-level curation flag (`curator_verified`, set
+during Channel C extraction), distinct from the entity-level `ontology_curator_verified`
+flag in the decoder, which records that each of the 53 entities, not each association,
+was individually reviewed and approved (logged 2026-09-05)."
 
-The final state and schema of `curator_verified` depend on the completed Consensus run.
-Editing ¶95 now would describe a flag whose final population is not yet fixed.
+¶90 already stated the correct distinction and needed no change.
 
-## Agreed fix (to apply after Consensus completion)
-Rewrite ¶95(v) to:
-> every association carries an association-level curation flag (`curator_verified`, set during
-> Channel C extraction), distinct from the entity-level `ontology_curator_verified` flag in the
-> decoder, which records that each of the 53 entities (not each association) was individually reviewed.
+## Still deferred (data, not wording)
+The `curator_verified` flag VALUES are populated during the Consensus (Channel C) run,
+which is incomplete: 19,443 / 21,568 pairs (90.1%); 2,125 pairs await the October 1st
+monthly API quota reset.
 
-¶90 already states the correct distinction; only ¶95 needs correcting. Non-numeric (wording),
-but the flag names must match the actual Channel C + decoder schema after the run completes.
+Re-open condition: after the Consensus phase completes, verify the final
+`curator_verified` population and confirm the ¶95 wording still matches the actual
+schema (no further prose change expected unless the flag name moves).
 
-## Re-open condition
-After the Consensus phase completes (post Oct 1 quota reset) and `curator_verified` is finalized
-in the matrix, re-open this finding, apply the ¶95(v) fix, and re-verify against the final schema.
-
-## Related pending items (same blocker)
-- Consensus: 2,125 pairs awaiting Oct 1 quota reset.
-- RCD entities module: 4 of 53 descriptions/cartoons missing (Autophagy, Programmed cell death,
-  Hypersensitive response, Eryptosis).
-- Anti-hallucination: 284 NOT_SUPPORTED + 534 UNCERTAIN claims awaiting Emanuell.
+## Related flag values (entity-level, updated 2026-09-24)
+- Decoder `ontology_curator_verified` = "TRUE; EM-A (primary) 2026-09-05; HACN (secondary) 2026-09-10; VdSL (secondary) 2026-09-20" (53 rows)
+- Table S12 `curator_verified` = same three-curator value (53 rows)
