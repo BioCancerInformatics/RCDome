@@ -98,8 +98,16 @@ mod_od_server <- function(id) {
 
     output$od_list <- renderUI({
       e <- filtered()
-      lv <- entity_level()
-      lapply(e, function(x) {
+      q <- tolower(trimws(input$od_search %||% ""))
+      if (nzchar(q) && length(e) == 0) {
+        tags$div(
+          style = "padding:14px 16px; background:#fff7ed; border:1px solid #fdba74; border-radius:8px; color:#9a3412; font-size:14px;",
+          tags$strong("Not found. "),
+          "The RCD form you typed is not among the 53 canonicalized RCDome entities, or it may be misspelled. Check the spelling, or clear the search to browse the full list."
+        )
+      } else {
+        lv <- entity_level()
+        lapply(e, function(x) {
         lvl <- lv[[x]] %||% "L5"
         col <- OD_LEVEL_COLORS[[lvl]] %||% "#FF6D00"
         sel <- identical(x, selected())
@@ -112,6 +120,7 @@ mod_od_server <- function(id) {
           onclick = sprintf("Shiny.setInputValue('%s', '%s', {priority:'event'})", ns("od_select"), x)
         )
       })
+      }
     })
 
     observeEvent(input$od_select, {
