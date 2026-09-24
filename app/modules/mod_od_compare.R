@@ -18,7 +18,11 @@ mod_od_compare_ui <- function(id) {
       column(12,
         selectizeInput(ns("cmp_entities"), "Select 2 to 4 RCD entities to compare",
                        choices = NULL, multiple = TRUE, width = "100%",
-                       options = list(maxItems = 4, placeholder = "Select RCD entities\u2026")),
+                       options = list(
+                         maxItems = 4, placeholder = "Select RCD entities\u2026",
+                         onType = I(sprintf("function(str) { Shiny.setInputValue('%s', str); }", ns("cmp_search")))
+                       )),
+        uiOutput(ns("cmp_notfound")),
         radioButtons(ns("cmp_mode"), "Display",
           choices = c("All fields" = "all",
                       "Differing fields only" = "diff",
@@ -39,6 +43,20 @@ mod_od_compare_server <- function(id) {
       req(exists("decoder_df", inherits = TRUE))
       updateSelectizeInput(session, "cmp_entities",
                            choices = sort(unique(decoder_df$rcd_form)), server = FALSE)
+    })
+
+    output$cmp_notfound <- renderUI({
+      q <- tolower(trimws(input$cmp_search %||% ""))
+      if (nzchar(q)) {
+        ents <- sort(unique(decoder_df$rcd_form))
+        if (!any(grepl(q, tolower(ents), fixed = TRUE))) {
+          tags$div(
+            style = "margin-top:6px; padding:10px 12px; background:#fff7ed; border:1px solid #fdba74; border-radius:8px; color:#9a3412; font-size:14px;",
+            tags$strong("Not found. "),
+            "The RCD form you typed is not among the 53 canonicalized RCDome entities, or it may be misspelled."
+          )
+        }
+      }
     })
 
     render_field <- function(r, f) {
