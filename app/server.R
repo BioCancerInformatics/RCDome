@@ -622,24 +622,25 @@ server <- function(input, output, session) {
       "Reply requested: ", if (reply) "Yes" else "No", "\n\n",
       msg
     )
-    creds <- tryCatch(readLines("data/email_creds.txt", warn = FALSE),
-                      error = function(e) NULL)
-    if (is.null(creds) || length(creds) < 2 || creds[2] == "REPLACE_WITH_APP_PASSWORD") {
-      showNotification("Email not configured. Set your Gmail App Password in data/email_creds.txt",
+    smtp_user <- Sys.getenv("SMTP_USER")
+    smtp_pass <- Sys.getenv("SMTP_PASS")
+    if (smtp_user == "" || smtp_pass == "") {
+      showNotification("Email not configured. Set SMTP_USER and SMTP_PASS in .Renviron.",
                        type = "error", duration = 8)
       return()
     }
-    from_addr <- trimws(creds[1])
-    app_pwd   <- trimws(creds[2])
     result <- tryCatch({
-      email <- emayili::envelope() %>%
-        emayili::from(from_addr) %>%
-        emayili::to("quique@uenf.br") %>%
-        emayili::subject("NEW RCDome") %>%
-        emayili::text(body)
-      smtp <- emayili::server(host = "smtp.gmail.com", port = 587,
-                     username = from_addr, password = app_pwd)
-      smtp(email, verbose = FALSE)
+      blastula::smtp_send(
+        blastula::compose_email(body = blastula::md(body)),
+        to = "quique@uenf.br",
+        from = smtp_user,
+        subject = "NEW RCDome",
+        credentials = blastula::creds_envvar(
+          user = smtp_user,
+          pass_envvar = "SMTP_PASS",
+          provider = "gmail"
+        )
+      )
       TRUE
     }, error = function(e) {
       showNotification(paste0("Failed to send: ", conditionMessage(e)),

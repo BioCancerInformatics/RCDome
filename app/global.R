@@ -8,7 +8,7 @@ library(jsonlite)
 library(visNetwork)
 library(shinycssloaders)
 library(shinyjs)
-library(emayili)
+library(blastula)
 library(tidyr)
 library(plotly)
 
