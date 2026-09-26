@@ -634,7 +634,7 @@ server <- function(input, output, session) {
     result <- tryCatch({
       email <- emayili::envelope() %>%
         emayili::from(from_addr) %>%
-        emayili::to("souza.ers00@gmail.com") %>%
+        emayili::to("quique@uenf.br") %>%
         emayili::subject("NEW RCDome") %>%
         emayili::text(body)
       smtp <- emayili::server(host = "smtp.gmail.com", port = 587,
