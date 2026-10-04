@@ -1,0 +1,1590 @@
+# Floatptosis
+
+## Definition and Classification
+
+Floatptosis is a **newly proposed and still incompletely consolidated form of regulated cell death characterized by pathogen-induced, SLC9A9-dependent fusion and enlargement of late endosomal/lysosomal vacuoles** in macrophages [1-2].
+
+It was described in 2025 in the context of infection with a virulent *Bergeyella cardium* variant and was subsequently discussed among emerging regulated cell-death modalities [1-2].
+
+The currently supported sequence is:
+
+**Bergeyella cardium variant infection or bacterial OMV/β-barrel-protein exposure → uptake/delivery of bacterial cargo → unknown proximal host-sensing step → engagement of SLC9A9-positive endolysosomal compartments → abnormal late endosome/lysosome fusion → formation of giant Rab7⁺/LAMP1⁺ single-membrane vacuoles → progressive occupation and compression of the cytoplasm → disruption of trafficking and membrane/homeostatic control → plasma-membrane permeabilization → death.**
+
+The most important classification caveat is that floatptosis is **not yet an established canonical NCCD modality** [13].
+
+Therefore, the most defensible RCDome classification is:
+
+**Emerging/candidate regulated cell-death modality**
+
+with:
+
+**Evidence status: provisional / early-stage**
+
+and
+
+**Primary biological context: pathogen-induced macrophage death.**
+
+---
+
+# Core Concept
+
+Floatptosis is unusual because its proposed execution logic centers on **pathological organelle fusion** rather than a dedicated proteolytic or pore-forming death executor.
+
+The core concept is:
+
+**bacterial manipulation of host endolysosomal trafficking → uncontrolled fusion of late endosomal/lysosomal compartments → giant vacuoles → loss of cellular architecture and membrane homeostasis → death.**
+
+Thus, in the current model:
+
+SLC9A9 is not merely a biomarker.
+
+It is a functionally required host component.
+
+By contrast, no equivalent of:
+
+caspase-3/7,
+
+BAX/BAK,
+
+MLKL,
+
+GSDMD,
+
+or GPX4 failure
+
+has yet been identified as the dedicated terminal executor.
+
+---
+
+# Biological Context
+
+## Bergeyella cardium Variant
+
+The best-established biological trigger is a pathogenic *Bergeyella cardium* variant [1].
+
+Exposure of macrophages to this bacterium produces extensive cytoplasmic vacuolization followed by loss of plasma-membrane integrity and cell death.
+
+The proposed sequence begins:
+
+**BCV infection → delivery of pathogen-derived vacuolization factors → remodeling of host endolysosomal compartments → floatptosis.**
+
+This makes floatptosis fundamentally different from many cell-autonomous stress pathways.
+
+Its currently established trigger is **microbial**.
+
+---
+
+# Outer Membrane Vesicles
+
+Gram-negative bacteria release outer membrane vesicles, or OMVs.
+
+OMVs can transport:
+
+outer-membrane proteins,
+
+lipids,
+
+enzymes,
+
+virulence factors,
+
+and other bacterial cargo
+
+into host cells [3-5].
+
+In the floatptosis model:
+
+**BCV → OMVs → macrophage uptake → intracellular delivery of bacterial components → vacuolization.**
+
+Purified bacterial vesicle material can reproduce important aspects of the phenotype.
+
+This strongly supports the idea that whole intracellular bacterial replication is not required to generate the death program.
+
+---
+
+# Bacterial β-Barrel Proteins
+
+A particularly important observation is that selected bacterial outer-membrane proteins can reproduce the vacuolization phenotype [1].
+
+The implicated proteins include:
+
+lipocalin-associated components,
+
+β-barrel proteins,
+
+and PorV-associated bacterial membrane proteins.
+
+The functional sequence is:
+
+**bacterial β-barrel/barrel-associated protein → intracellular host-cell activity → endolysosomal remodeling → giant vacuole formation.**
+
+This indicates that specific bacterial proteins are sufficient to engage the host pathway.
+
+However, the direct host binding partners remain unknown.
+
+---
+
+# The Proximal Host Sensor Is Unknown
+
+No dedicated mammalian receptor has yet been established as the floatptosis sensor.
+
+Therefore, the pathway should not currently be written as:
+
+bacterial protein → receptor X → SLC9A9.
+
+The defensible sequence is:
+
+**OMV/bacterial-protein uptake → unknown intracellular sensing or trafficking interaction → SLC9A9-dependent endolysosomal response.**
+
+The missing connection between bacterial cargo and SLC9A9-associated vacuole fusion is one of the principal mechanistic gaps.
+
+---
+
+# OMV Uptake Is Not Sufficient to Define Floatptosis
+
+Bacterial OMVs can induce several different forms of host-cell stress and death.
+
+For example, OMVs from *Neisseria gonorrhoeae* can deliver PorB to host mitochondria and activate intrinsic apoptosis [3-4].
+
+Thus:
+
+**OMV exposure ≠ floatptosis.**
+
+The defining phenotype requires the specific endolysosomal/vacuolar mechanism.
+
+This distinction is particularly important because bacterial vesicles can activate:
+
+apoptosis,
+
+inflammation,
+
+innate immune signaling,
+
+mitochondrial damage,
+
+or vacuolization
+
+depending on the bacterial species and cargo.
+
+---
+
+# SLC9A9 as the Central Host Node
+
+The strongest host factor currently implicated in floatptosis is **SLC9A9**, also known as **NHE9** [1].
+
+SLC9A9 belongs to the intracellular Na⁺/H⁺ exchanger family [6,11].
+
+Its general biochemical activity is:
+
+**luminal H⁺ ↔ cytosolic Na⁺/K⁺ exchange.**
+
+Therefore, SLC9A9 influences:
+
+endosomal pH,
+
+ionic composition,
+
+membrane trafficking,
+
+organelle maturation,
+
+and fusion competence.
+
+This makes it biologically plausible that abnormal SLC9A9 activity could substantially alter endolysosomal dynamics.
+
+---
+
+# SLC9A9 Is Not a Classical Death Receptor
+
+SLC9A9 should not be represented as:
+
+a death receptor,
+
+a protease,
+
+or
+
+a terminal membrane pore.
+
+Its function is better described as:
+
+**an endosomal ion-transport regulator whose activity becomes necessary for pathogen-induced pathological organelle fusion.**
+
+Thus:
+
+**SLC9A9 → permissive endolysosomal physicochemical state → abnormal fusion → vacuolar death phenotype.**
+
+---
+
+# Endosomal Na⁺/H⁺ Exchange
+
+The endosomal lumen is acidified primarily through proton-pumping systems such as V-ATPases.
+
+Na⁺/H⁺ exchangers counterbalance this acidification by exporting luminal protons.
+
+Therefore:
+
+**V-ATPase → luminal acidification**
+
+while
+
+**SLC9A9/NHE9 → proton leakage/counter-ion exchange.**
+
+The balance determines organellar pH.
+
+This matters because vesicular fusion machinery is highly sensitive to membrane composition, luminal state, ion concentrations, and protein recruitment.
+
+---
+
+# Lessons from Nhx1
+
+Mechanistic support for a relationship between Na⁺/H⁺ exchange and vacuole fusion comes from the yeast homolog Nhx1 [7-8].
+
+Nhx1 regulates vacuolar fusion.
+
+Loss of exchanger activity disrupts efficient fusion initiation.
+
+These findings support a general principle:
+
+**endosomal/vacuolar ion exchange → lumenal pH and membrane state → fusion competence.**
+
+However, the exact yeast intermediates should not be automatically assigned to mammalian floatptosis.
+
+They provide biological context rather than direct proof.
+
+---
+
+# SLC9A9 and Macrophage Phagosomal Biology
+
+SLC9A9/NHE9 also regulates macrophage phagosomal maturation [9].
+
+Changes in NHE9 activity can alter:
+
+organelle pH,
+
+vesicle trafficking,
+
+motor recruitment,
+
+lysosomal interactions,
+
+and bactericidal activity.
+
+This reinforces the biological plausibility that pathogenic manipulation of SLC9A9 could reprogram macrophage endolysosomal behavior.
+
+Nevertheless:
+
+normal NHE9-mediated phagosome maturation ≠ floatptosis.
+
+Floatptosis requires pathological, death-associated vacuolar remodeling.
+
+---
+
+# First Defined Intracellular Transition
+
+The earliest host intracellular transition currently supported is therefore not:
+
+caspase cleavage,
+
+mitochondrial outer-membrane permeabilization,
+
+or kinase-driven necroptosis.
+
+Instead, it is:
+
+**SLC9A9-associated alteration of endolysosomal pH/trafficking state → increased pathological fusion competence.**
+
+This makes floatptosis mechanistically unusual among emerging RCDs.
+
+---
+
+# Late Endosome Identity
+
+The vacuoles involved in floatptosis are associated with late endosomal markers.
+
+Rab7 is especially important as a marker of late endosomal identity.
+
+Thus:
+
+**pathogen-induced trafficking perturbation → Rab7⁺ compartment enlargement/fusion.**
+
+Rab7 positivity helps identify the organelle origin.
+
+However:
+
+**Rab7 = compartment marker/regulator**
+
+rather than:
+
+**Rab7 = dedicated floatptosis executor.**
+
+---
+
+# Lysosomal Identity
+
+LAMP1 positivity indicates strong lysosomal or late endolysosomal identity of the expanding compartments [1-2].
+
+Therefore, the characteristic vacuole is:
+
+**Rab7⁺ / LAMP1⁺**
+
+rather than an:
+
+ER-derived,
+
+mitochondrial-derived,
+
+or purely macropinosomal compartment.
+
+This organelle origin is crucial for distinguishing floatptosis from other vacuolization-associated deaths.
+
+---
+
+# Single-Membrane Vacuoles
+
+The large vacuoles are best understood as enlarged/fused components of the endolysosomal system.
+
+They are not described as canonical double-membrane autophagosomes.
+
+Therefore:
+
+**large vacuole ≠ autophagosome by default.**
+
+This prevents the erroneous conclusion that dramatic vacuolization automatically indicates autophagy-dependent cell death.
+
+---
+
+# Pathological Vacuole Fusion
+
+The central structural event is repeated membrane fusion.
+
+A generic vesicular fusion process normally involves:
+
+Rab-dependent identity and tethering,
+
+SNARE complex assembly,
+
+membrane juxtaposition,
+
+and lipid bilayer merger.
+
+Floatptosis appears to exploit or dysregulate this normal machinery.
+
+The proposed transition is:
+
+**many normal-sized endolysosomal compartments → repeated fusion → fewer but much larger vacuoles.**
+
+As this continues, vacuoles occupy an increasing proportion of cytoplasmic volume.
+
+---
+
+# Fusion Rather Than Simple Swelling
+
+This distinction is important.
+
+The phenotype is not best described simply as:
+
+lysosome swelling.
+
+The evidence instead supports:
+
+**fusion-dependent enlargement.**
+
+Thus:
+
+vacuole A + vacuole B → enlarged vacuole
+
+followed by:
+
+enlarged vacuole + additional compartment → giant vacuole.
+
+This repeated fusion gradually produces the characteristic floatptotic morphology.
+
+---
+
+# Cytoplasmic Compression
+
+As giant vacuoles expand, functional cytoplasm becomes displaced and compressed.
+
+The sequence becomes:
+
+**vacuole fusion → increasing vacuolar volume → shrinking effective cytoplasmic space.**
+
+This can interfere with:
+
+organelle positioning,
+
+cytoskeletal organization,
+
+membrane trafficking,
+
+metabolic reactions,
+
+protein synthesis,
+
+and intracellular transport.
+
+The cell can therefore become dysfunctional even before complete membrane permeabilization occurs.
+
+---
+
+# Disruption of Intracellular Trafficking
+
+The endosomal and lysosomal systems normally depend on highly regulated compartment identity.
+
+Pathological fusion undermines that organization.
+
+Thus:
+
+**excessive fusion → loss of normal compartmentalization → trafficking failure.**
+
+Potential consequences include disruption of:
+
+cargo recycling,
+
+receptor degradation,
+
+phagosome maturation,
+
+nutrient sensing,
+
+membrane turnover,
+
+and lysosomal positioning.
+
+These downstream consequences are mechanistically plausible, although not every one has been demonstrated directly in floatptosis.
+
+---
+
+# Lysosome-Associated Homeostatic Collapse
+
+Because the lysosomal system integrates:
+
+degradation,
+
+recycling,
+
+nutrient signaling,
+
+autophagic cargo processing,
+
+and membrane trafficking,
+
+massive structural remodeling can affect whole-cell homeostasis.
+
+The emerging model is therefore:
+
+**pathological lysosomal/endosomal fusion → organelle-network collapse → global cellular dysfunction.**
+
+This provides a mechanistic bridge between vacuole formation and death.
+
+---
+
+# Vacuolization Precedes Plasma-Membrane Damage
+
+One of the most important temporal observations is:
+
+**large-vacuole formation occurs before terminal membrane permeabilization** [1-2].
+
+Therefore, membrane damage should not be placed at the start of the pathway.
+
+The chronology is:
+
+normal macrophage → vacuole appearance → vacuole fusion/enlargement → massive cytoplasmic vacuolization → plasma-membrane permeabilization → death.
+
+This ordering supports a causal role for vacuolar remodeling.
+
+---
+
+# Amiloride Sensitivity
+
+Amiloride provides important pharmacological evidence [1].
+
+Amiloride and related compounds can inhibit Na⁺/H⁺ exchanger activity.
+
+In the floatptosis model:
+
+**amiloride → suppression of SLC9-associated transport → reduction of vacuolization → reduction of cell death.**
+
+This provides functional evidence that the exchanger-associated mechanism occurs upstream of death.
+
+---
+
+# Amiloride Is a Pathway Probe, Not a Specific Biomarker
+
+Amiloride affects several Na⁺/H⁺ exchange processes.
+
+Therefore, sensitivity to amiloride alone is insufficient to classify a death event as floatptosis.
+
+The stronger mechanistic combination is:
+
+pathogen/OMV/β-barrel trigger
+
+*
+
+Rab7⁺/LAMP1⁺ giant vacuoles
+
+*
+
+SLC9A9 requirement
+
+*
+
+amiloride sensitivity
+
+*
+
+vacuolization preceding membrane permeabilization.
+
+---
+
+# Genetic Evidence for SLC9A9
+
+SLC9A9 deficiency suppresses the floatptosis-associated phenotype [1].
+
+This is stronger than simple correlative expression.
+
+The causal logic is:
+
+**BCV/OMV trigger → SLC9A9 present → giant vacuolization → death.**
+
+Versus:
+
+**BCV/OMV trigger → SLC9A9 deficient → reduced vacuole formation → increased cellular/host resistance.**
+
+Thus, SLC9A9 currently represents the strongest genetically supported host node.
+
+---
+
+# SLC9A9 as a Vulnerability Factor
+
+SLC9A9 is probably better described as a required **host susceptibility factor** than as a classical terminal executor.
+
+It allows the pathogen-induced endolysosomal remodeling to proceed.
+
+Therefore:
+
+**SLC9A9 activity → permissive condition for floatptosis.**
+
+Without this permissive state, the vacuolar phenotype and death are substantially reduced.
+
+---
+
+# Potential V-ATPase Interaction
+
+Endosomal pH reflects a balance between proton influx and proton efflux.
+
+V-ATPase pumps protons into compartments.
+
+SLC9A9 counterbalances this process.
+
+Thus, a mechanistically reasonable framework is:
+
+**V-ATPase proton pumping ↔ SLC9A9 proton leakage → optimal endosomal pH range.**
+
+Disruption of this balance could alter membrane-fusion competence.
+
+However, direct evidence proving a specific V-ATPase–SLC9A9 circuit as the floatptosis trigger remains incomplete.
+
+V-ATPase should therefore be treated as **supporting endolysosomal physiology**, not a proven pathway-specific executor.
+
+---
+
+# Candidate Fusion Machinery
+
+General late-endosome/lysosome fusion involves proteins including:
+
+Rab GTPases,
+
+tethering complexes,
+
+and SNAREs.
+
+Because giant vacuoles clearly arise through organelle fusion, these proteins are likely required at some level.
+
+However, the currently supplied evidence does not identify a unique:
+
+Rab,
+
+SNARE,
+
+or tethering complex
+
+as the defining floatptosis transducer.
+
+Therefore, they should not yet be placed into the canonical pathway as specific obligatory molecular nodes.
+
+The correct representation is:
+
+**SLC9A9-dependent endolysosomal state → host membrane-fusion machinery → pathological vacuole enlargement.**
+
+---
+
+# Candidate Commitment Point
+
+No universal molecular point of no return has been established.
+
+Early vacuole formation may remain reversible.
+
+Therefore:
+
+**one enlarged vacuole ≠ commitment to death.**
+
+The strongest operational candidate for commitment is the transition toward:
+
+**widespread fused-vacuole occupation of the cytoplasm + irreversible trafficking/homeostatic failure + subsequent plasma-membrane permeabilization.**
+
+This represents a late structural commitment rather than a discrete biochemical switch.
+
+---
+
+# Distributed Commitment
+
+Floatptosis may therefore resemble other vacuolization-associated death processes in which commitment emerges gradually.
+
+For example:
+
+initial fusion → potentially manageable,
+
+continued fusion → cytoplasmic displacement,
+
+more fusion → trafficking collapse,
+
+giant-vacuole occupation → severe structural dysfunction,
+
+membrane permeabilization → terminal state.
+
+Thus:
+
+**commitment may result from cumulative organelle-system failure rather than one molecular activation event.**
+
+---
+
+# What Physically Kills the Cell?
+
+The precise answer remains unresolved.
+
+The strongest current interpretation is:
+
+**catastrophic endolysosomal remodeling eventually causes failure of global membrane and cellular homeostasis.**
+
+The data do not establish:
+
+a dedicated floatptosis membrane pore,
+
+a floatptosis-specific protease,
+
+a lipid-peroxidative executor,
+
+or a single lysosomal hydrolase that directly kills the cell.
+
+Therefore, the terminal mechanism should not be overstated.
+
+---
+
+# Possible Mechanical Contribution
+
+Giant vacuoles occupy substantial intracellular volume.
+
+This can:
+
+compress the cytosol,
+
+displace organelles,
+
+distort the plasma membrane,
+
+and alter membrane tension.
+
+A plausible sequence is:
+
+**giant vacuole expansion → intracellular mechanical pressure → plasma-membrane stress → permeability failure.**
+
+This is mechanistically reasonable but not yet directly proven as the exclusive terminal lesion.
+
+---
+
+# Possible Osmotic and Ionic Contribution
+
+Large endolysosomal compartments contain ions, protons, solutes, proteins, and water.
+
+Pathological fusion can therefore alter:
+
+intracellular osmotic balance,
+
+ion distribution,
+
+proton gradients,
+
+and membrane potentials.
+
+Thus:
+
+**fusion-driven compartment expansion → ionic/osmotic disequilibrium → energetic demand and membrane instability.**
+
+Again, these processes likely contribute but have not yet been resolved into one terminal causal chain.
+
+---
+
+# Possible Trafficking Failure
+
+An alternative or complementary terminal mechanism is:
+
+**endolysosomal fusion consumes functional vesicle pools → normal membrane trafficking collapses → plasma-membrane maintenance fails.**
+
+Cells continuously require endosomal recycling to maintain plasma-membrane composition.
+
+If this system is pathologically diverted into giant fused vacuoles, the plasma membrane could eventually lose its ability to maintain integrity.
+
+This remains an attractive but incompletely demonstrated mechanism.
+
+---
+
+# Plasma-Membrane Permeabilization
+
+The terminal phenotype includes loss of membrane integrity.
+
+The correct temporal relationship is:
+
+**vacuolization first → membrane permeabilization later.**
+
+This distinguishes the pathway from deaths initiated by direct plasma-membrane pore formation.
+
+Thus:
+
+membrane permeabilization is likely a **downstream terminal consequence** rather than the primary initiating lesion.
+
+---
+
+# No Dedicated Pore-Forming Executor Has Been Identified
+
+At present, no evidence establishes:
+
+gasdermin,
+
+MLKL,
+
+NINJ1,
+
+or another dedicated pore-forming protein
+
+as the central floatptosis executor.
+
+Therefore, the pathway should not be drawn as:
+
+SLC9A9 → pore protein → death.
+
+The defensible sequence remains:
+
+**SLC9A9-dependent vacuolar fusion → organelle/homeostatic collapse → secondary membrane permeabilization.**
+
+---
+
+# Relationship with Bacterial OMV-Induced Apoptosis
+
+Bacterial OMVs can independently induce intrinsic apoptosis [3-5].
+
+For example, *Neisseria gonorrhoeae* OMVs can deliver PorB to mitochondria [3].
+
+A representative pathway is:
+
+**OMV uptake → PorB targeting to mitochondria → mitochondrial dysfunction → intrinsic apoptosis.**
+
+Subsequent studies also identified:
+
+MCL-1 depletion,
+
+BAK-associated mitochondrial damage,
+
+cytochrome c release,
+
+and caspase-3/7 activation [4].
+
+This is not floatptosis.
+
+---
+
+# Parallel Apoptotic Crosstalk
+
+Thus, bacterial OMV exposure can produce at least two conceptually different outcomes.
+
+### Classical OMV-associated intrinsic apoptosis
+
+bacterial cargo → mitochondria → BAK/MCL-1-associated mitochondrial failure → cytochrome c → caspase cascade → apoptosis.
+
+### Floatptosis
+
+BCV-derived cargo → endolysosomal system → SLC9A9-dependent pathological vacuole fusion → giant LAMP1⁺/Rab7⁺ vacuoles → membrane/homeostatic collapse.
+
+These mechanisms should remain separated experimentally.
+
+---
+
+# Distinction from Apoptosis
+
+Canonical apoptosis uses:
+
+intrinsic stress → BAX/BAK → MOMP → cytochrome c → APAF1/caspase-9 → caspase-3/7
+
+or
+
+death receptor → caspase-8 → caspase-3/7.
+
+Floatptosis does not currently have this execution architecture.
+
+The defining structural event is endolysosomal vacuole fusion.
+
+Therefore:
+
+**caspase activation alone would argue for an apoptotic component rather than prove floatptosis.**
+
+---
+
+# Distinction from Pyroptosis
+
+Pyroptosis involves:
+
+inflammatory signaling → gasdermin activation → plasma-membrane pores → osmotic swelling → inflammatory release and eventual membrane rupture.
+
+Floatptosis instead begins intracellularly with:
+
+**pathological late-endosome/lysosome fusion.**
+
+Therefore:
+
+pyroptosis → primary pore-forming execution.
+
+floatptosis → primary vacuolar/endolysosomal remodeling with late secondary membrane permeabilization.
+
+---
+
+# Distinction from Necroptosis
+
+Necroptosis is defined by:
+
+RIPK3 → MLKL → membrane-associated MLKL oligomers → ionic disruption and membrane failure.
+
+No comparable RIPK3–MLKL machinery defines floatptosis.
+
+Thus:
+
+**floatptosis ≠ vacuolated necroptosis.**
+
+---
+
+# Distinction from Ferroptosis
+
+Ferroptosis is driven by:
+
+iron-dependent phospholipid peroxidation → membrane lipid damage → terminal permeability failure.
+
+No defining lipid-peroxidation mechanism has been demonstrated in floatptosis.
+
+Floatptosis is a newly described vacuolization-associated regulated cell death and a differential diagnosis of vacuolizing/lytic cell death [1].
+
+Both involve dramatic cytoplasmic vacuolization.
+
+However, the origin of the vacuoles differs.
+
+### Methuosis
+
+macropinocytosis → dysfunctional macropinosomes/late endosomes → failure of normal maturation/recycling → giant poorly degradative vacuoles → metabolic/homeostatic failure.
+
+### Floatptosis
+
+bacterial trigger → SLC9A9-dependent late-endosome/lysosome fusion → Rab7⁺/LAMP1⁺ fused vacuoles → terminal death.
+
+Methuosis is a type of nonapoptotic cytoplasmic vacuolization cell death marked by the vacuolization of late endosome and lysosome [1,12].
+
+However, paraptotic vacuoles generally arise from:
+
+ER dilation,
+
+and/or
+
+mitochondrial swelling.
+
+Mechanisms can involve:
+
+proteostasis stress,
+
+Ca²⁺ imbalance,
+
+ROS,
+
+MAPK/JNK signaling,
+
+and ER stress,
+
+depending on the model.
+
+Floatptosis instead centers on:
+
+**late endosome/lysosome-derived LAMP1⁺/Rab7⁺ vacuoles.**
+
+Therefore:
+
+**organelle origin is one of the strongest discriminators.**
+
+---
+
+# Distinction from Lysosomal Swelling Induced by Drugs
+
+Other experimental systems can also produce giant lysosomal vacuoles.
+
+For example, abemaciclib has been reported to induce atypical vacuolization-associated death involving lysosomal compartments [10].
+
+Therefore:
+
+**LAMP1-positive vacuoles alone ≠ floatptosis.**
+
+The defining floatptosis context additionally requires:
+
+the pathogen/OMV/β-barrel trigger
+
+and
+
+SLC9A9 dependence.
+
+---
+
+# Morphological Sequence
+
+The characteristic chronological morphology is:
+
+**normal macrophage → appearance of numerous endolysosomal vacuoles → increasing Rab7⁺/LAMP1⁺ vacuoles → repeated vacuole fusion → formation of very large single-membrane vacuoles → displacement and compression of remaining cytoplasm → severe intracellular architectural distortion → plasma-membrane permeabilization → death.**
+
+This morphology is striking but not sufficient by itself.
+
+Vacuolization is a shared phenotype across multiple emerging death mechanisms.
+
+---
+
+# Why Morphology Alone Is Insufficient
+
+Large cytoplasmic vacuoles can be seen in:
+
+floatptosis,
+
+methuosis,
+
+paraptosis,
+
+drug-induced lysosomal injury,
+
+autophagic perturbations,
+
+and infectious cellular stress.
+
+Therefore, a convincing mechanistic assignment requires more than microscopy.
+
+The key question is:
+
+**where do the vacuoles come from, why do they fuse, and which molecular perturbation prevents the death?**
+
+---
+
+# Experimental Validation
+
+The strongest available evidence uses a combination of:
+
+pathogen phenocopy,
+
+purified bacterial material,
+
+specific bacterial-protein expression,
+
+genetic host-factor perturbation,
+
+pharmacological rescue,
+
+organelle markers,
+
+and temporal analysis.
+
+The core causal sequence should be tested at multiple levels.
+
+---
+
+# Trigger Validation
+
+Researchers should demonstrate that:
+
+BCV infection induces the phenotype,
+
+and/or
+
+BCV-derived OMVs reproduce it,
+
+and/or
+
+specific bacterial β-barrel/barrel-associated proteins reproduce it.
+
+This establishes that the bacterial material is sufficient.
+
+---
+
+# Compartment Origin
+
+The vacuoles should be characterized using markers.
+
+The key current phenotype is:
+
+**Rab7 positive**
+
+and
+
+**LAMP1 positive.**
+
+This supports late-endosome/lysosome origin.
+
+Markers of:
+
+ER,
+
+mitochondria,
+
+macropinosomes,
+
+and autophagosomes
+
+can help exclude alternative vacuolar deaths.
+
+---
+
+# SLC9A9 Dependency
+
+The strongest host-mechanism experiment is disruption of SLC9A9.
+
+The causal prediction is:
+
+**SLC9A9 loss → reduced giant-vacuole fusion → reduced floatptotic death.**
+
+This establishes that the exchanger is mechanistically upstream of the lethal phenotype.
+
+---
+
+# Pharmacological Rescue
+
+Amiloride-sensitive inhibition provides complementary evidence.
+
+A mechanistically strong result is:
+
+**amiloride treatment → reduced vacuolization + improved viability.**
+
+Pharmacological results are strongest when they agree with genetic SLC9A9 perturbation.
+
+---
+
+# Temporal Ordering
+
+Time-course imaging should establish:
+
+**vacuole fusion before membrane permeabilization.**
+
+This is essential.
+
+If membrane damage consistently preceded vacuolization, the current causal model would be weakened.
+
+Instead, the existing framework supports:
+
+**vacuolar remodeling → terminal membrane failure.**
+
+---
+
+# Exclusion of Competing RCDs
+
+A rigorous classification should test major alternatives.
+
+For apoptosis:
+
+BAX/BAK,
+
+MOMP,
+
+cytochrome c,
+
+caspases.
+
+For pyroptosis:
+
+inflammasome/caspase activation,
+
+gasdermins.
+
+For necroptosis:
+
+RIPK3,
+
+MLKL.
+
+For ferroptosis:
+
+lipid peroxidation,
+
+GPX4-associated dependence,
+
+iron sensitivity.
+
+For methuosis:
+
+macropinocytic origin and Rab5/Rab7-associated abnormal macropinosome behavior.
+
+For paraptosis:
+
+ER/mitochondrial swelling and its characteristic signaling context.
+
+---
+
+# Point of No Return
+
+No MOMP-like biochemical switch has been defined.
+
+The earliest vacuolar events may be reversible.
+
+A reasonable working model is:
+
+### Early stage
+
+bacterial cargo → SLC9A9-associated endolysosomal perturbation → small or moderate vacuoles.
+
+Potentially reversible.
+
+### Progressive stage
+
+repeated fusion → giant vacuoles → severe displacement of functional cytoplasm.
+
+Increasingly difficult to reverse.
+
+### Candidate commitment stage
+
+widespread endolysosomal remodeling causes irreversible failure of vesicular, ionic, metabolic, and membrane homeostasis.
+
+### Terminal stage
+
+plasma-membrane permeability increases → viability is lost.
+
+Thus, the point of no return is probably a **systems-level threshold**, not a single known protein modification.
+
+---
+
+# Protective Mechanisms
+
+## SLC9A9 Loss
+
+The strongest direct protective intervention is genetic loss or reduction of SLC9A9 [1].
+
+Thus:
+
+**SLC9A9 deficiency → reduced pathological vacuole fusion → resistance.**
+
+---
+
+# Pharmacological Na⁺/H⁺ Exchange Inhibition
+
+Amiloride-associated inhibition similarly suppresses the pathway.
+
+Therefore:
+
+**Na⁺/H⁺ exchanger activity = actionable vulnerability.**
+
+However, because amiloride can affect multiple exchangers, SLC9A9-specific genetic evidence remains particularly important.
+
+---
+
+# Maintenance of Normal Endolysosomal Identity
+
+Conceptually, protective mechanisms should preserve:
+
+correct organellar pH,
+
+controlled Rab identity,
+
+normal fusion specificity,
+
+normal SNARE activity,
+
+and appropriate lysosome encounter frequency.
+
+These are biologically plausible checkpoints.
+
+However, specific floatptosis-protective proteins in these systems remain incompletely defined.
+
+---
+
+# Potential Role of Normal pH Control
+
+Because SLC9A9 regulates proton flux, a balanced endosomal pH likely protects against pathological membrane behavior.
+
+The general principle is:
+
+**normal proton pumping + normal proton leakage → controlled endolysosomal maturation.**
+
+Pathogen-associated distortion of this balance may create:
+
+**fusion-permissive abnormal compartment state → floatptosis.**
+
+The exact pH threshold has not yet been determined.
+
+---
+
+# Relationship to Host Defense
+
+Interestingly, SLC9A9 deficiency not only suppresses vacuolization but can improve host resistance in the reported system [1].
+
+This suggests that the bacterial pathway may exploit a normal macrophage trafficking protein for pathogenic benefit.
+
+Thus:
+
+**bacterial factor → hijacking of host SLC9A9-dependent membrane biology → macrophage death → impaired host defense.**
+
+Floatptosis may therefore represent both:
+
+a regulated host-cell death mechanism,
+
+and
+
+a microbial virulence strategy.
+
+---
+
+# Biological Interpretation
+
+The emerging concept is not simply that bacteria damage lysosomes.
+
+It is that pathogenic proteins actively convert a normal trafficking system into a death mechanism.
+
+The cell's own fusion machinery becomes detrimental.
+
+Therefore:
+
+**normal physiological machinery + pathological upstream instruction → regulated lethal remodeling.**
+
+This is mechanistically similar in principle to other RCDs in which normal proteins acquire lethal functions under defined signals.
+
+---
+
+# Transcriptomic Interpretation Requires Caution
+
+Floatptosis is especially poorly suited to diagnosis from transcription alone.
+
+The defining biology includes:
+
+bacterial exposure,
+
+protein trafficking,
+
+organelle pH,
+
+membrane fusion,
+
+vacuole topology,
+
+and compartment identity.
+
+Expression of:
+
+SLC9A9,
+
+RAB7,
+
+LAMP1,
+
+or lysosomal genes
+
+does not demonstrate active floatptosis.
+
+At most, transcriptomic patterns could indicate:
+
+**floatptosis-associated susceptibility**
+
+or
+
+**endolysosomal states compatible with the pathway.**
+
+Direct evidence of active execution requires morphological and functional data.
+
+---
+
+# Molecular Hierarchy
+
+## Initiating agents
+
+*Bergeyella cardium* variant,
+
+BCV-derived outer membrane vesicles,
+
+selected bacterial β-barrel/barrel-associated proteins.
+
+## Proximal receptor/sensor
+
+Unknown.
+
+## Delivery/transduction context
+
+OMV uptake,
+
+endocytic trafficking,
+
+intracellular bacterial-protein activity.
+
+## First established host dependency
+
+**SLC9A9/NHE9.**
+
+## Core biochemical function
+
+Na⁺/H⁺ exchange regulating endosomal ionic and pH state.
+
+## Core organellar machinery
+
+late endosome/lysosome system.
+
+## Core structural phenotype
+
+Rab7⁺/LAMP1⁺ giant single-membrane fused vacuoles.
+
+## Execution process
+
+pathological repeated endolysosomal fusion.
+
+## Candidate commitment state
+
+massive fused-vacuole occupation causing irreversible trafficking and homeostatic collapse.
+
+## Terminal event
+
+secondary plasma-membrane permeabilization and global loss of cellular homeostasis.
+
+## Dedicated terminal executor
+
+**Not established.**
+
+## Negative/protective interventions
+
+SLC9A9 loss,
+
+amiloride-sensitive exchange inhibition.
+
+---
+
+# Evidence Hierarchy
+
+## Comparatively Strong Within the Current Floatptosis Literature
+
+The following observations form the best-supported mechanistic core:
+
+BCV induces macrophage vacuolization and death.
+
+BCV-derived OMVs can reproduce important aspects of the phenotype.
+
+Specific bacterial barrel-associated proteins can induce vacuolization.
+
+The vacuoles display late endosomal/lysosomal identity.
+
+SLC9A9 is functionally required.
+
+Amiloride suppresses vacuole formation/death.
+
+Vacuolization precedes terminal membrane permeability.
+
+---
+
+# Mechanistically Supported but Not Yet Completely Resolved
+
+SLC9A9-dependent pH changes regulate vacuole fusion competence.
+
+Repeated fusion directly causes the lethal cellular state.
+
+Global trafficking collapse contributes to death.
+
+Large vacuoles generate mechanical/ionic stress contributing to plasma-membrane failure.
+
+These are strongly coherent with known endolysosomal biology but need deeper direct testing in floatptosis.
+
+---
+
+# Unresolved Components
+
+The following should remain explicitly unresolved:
+
+the direct macrophage receptor for BCV factors,
+
+the molecular interaction between bacterial proteins and SLC9A9,
+
+whether SLC9A9 transport activity itself is directly modified,
+
+the precise Rab/tether/SNARE machinery executing pathological fusion,
+
+the exact lumenal pH changes,
+
+the quantitative commitment threshold,
+
+the direct physical mechanism of terminal plasma-membrane permeabilization,
+
+and whether floatptosis occurs outside the original pathogen/macrophage context.
+
+---
+
+# Integrated Canonical Sequence
+
+The most defensible integrated sequence begins with:
+
+**virulent Bergeyella cardium variant infection.**
+
+The bacterium releases or delivers:
+
+**outer membrane vesicles containing bacterial membrane proteins and associated cargo.**
+
+These vesicles are taken up by macrophages:
+
+**BCV OMV → host endocytic entry → intracellular delivery of bacterial factors.**
+
+Alternatively, expression/delivery of specific bacterial β-barrel/barrel-associated proteins can reproduce the vacuolar phenotype.
+
+The next molecular step remains unresolved:
+
+**bacterial cargo → unknown host recognition or trafficking interaction.**
+
+The first clearly defined host node is:
+
+**SLC9A9/NHE9-positive endolysosomal compartments.**
+
+SLC9A9 alters proton/Na⁺ or K⁺ exchange across endosomal membranes:
+
+**SLC9A9 activity → altered lumenal ionic/pH environment → altered membrane-fusion competence.**
+
+Pathogen-induced dysregulation then favors:
+
+**late endosome/lysosome fusion.**
+
+The affected compartments retain:
+
+**Rab7⁺ late-endosomal identity**
+
+and
+
+**LAMP1⁺ lysosomal identity.**
+
+Repeated fusion produces:
+
+small vacuoles → larger vacuoles → giant fused single-membrane compartments.
+
+As the process progresses:
+
+**giant vacuoles occupy increasing cytoplasmic volume → residual cytoplasm becomes compressed/displaced → normal endosomal recycling and lysosomal trafficking become disrupted → intracellular organization progressively fails.**
+
+Continued organelle remodeling likely produces combined:
+
+trafficking stress,
+
+ionic disequilibrium,
+
+osmotic stress,
+
+metabolic inefficiency,
+
+and mechanical distortion.
+
+Eventually:
+
+**endolysosomal burden exceeds the cell's ability to maintain membrane and intracellular homeostasis.**
+
+The pathway then progresses to:
+
+**plasma-membrane permeabilization.**
+
+Once permeability becomes irreversible:
+
+ionic gradients collapse → global homeostasis fails → macrophage viability is lost.
+
+Therefore, the current working pathway is:
+
+**BCV/OMV/β-barrel protein → unknown proximal host sensor → SLC9A9-dependent endolysosomal pH/fusion remodeling → Rab7⁺/LAMP1⁺ vacuole fusion → giant vacuolar occupation of cytoplasm → trafficking/homeostatic collapse → secondary plasma-membrane permeabilization → death.**
+
+---
+
+# Candidate Commitment Sequence
+
+A useful operational model is:
+
+### Trigger stage
+
+BCV/OMV/bacterial proteins engage the macrophage.
+
+### Early reversible stage
+
+SLC9A9-dependent changes begin in endolysosomal compartments.
+
+### Propagation stage
+
+Rab7⁺/LAMP1⁺ compartments repeatedly fuse.
+
+### Pre-commitment stage
+
+large vacuoles occupy increasing intracellular volume.
+
+### Candidate commitment stage
+
+vacuole fusion becomes sufficiently extensive to produce irreversible endolysosomal and whole-cell homeostatic failure.
+
+### Terminal stage
+
+plasma membrane becomes permeable and the cell dies.
+
+No single biochemical transition corresponding to MOMP or MLKL activation has yet been identified.
+
+---
+
+# Final Mechanistic Interpretation
+
+Floatptosis is best understood as an **emerging pathogen-controlled vacuolization-associated regulated cell-death process centered on pathological endolysosomal fusion**.
+
+Its strongest currently supported pathway is:
+
+**Bergeyella cardium variant or its OMVs/β-barrel proteins → intracellular delivery of bacterial cargo → unknown proximal host-sensing step → SLC9A9-dependent alteration of the late endosomal/lysosomal system → repeated fusion of Rab7⁺/LAMP1⁺ compartments → formation of giant vacuoles → displacement and compression of functional cytoplasm → disruption of vesicular and cellular homeostasis → secondary plasma-membrane permeabilization → death.**
+
+The mechanistically distinctive feature is not vacuolization by itself.
+
+It is the combination of:
+
+**pathogen dependence + late endosome/lysosome origin + SLC9A9 requirement + pathological fusion.**
+
+This separates floatptosis from methuosis, in which dysfunctional macropinosomes accumulate without normal lysosomal fusion, and from paraptosis, in which the dominant vacuoles originate largely from ER and mitochondrial swelling.
+
+The principal core host protein currently identified is **SLC9A9/NHE9**, but SLC9A9 is not a terminal executioner.
+
+It regulates the physicochemical environment and trafficking behavior of endolysosomal compartments.
+
+The actual lethal process appears to arise from progressive fusion-driven destruction of intracellular compartmental organization.
+
+The exact bridge from giant-vacuole overload to plasma-membrane permeabilization remains unresolved.
+
+There is currently no demonstrated floatptosis-specific pore-forming protein, protease cascade, or lipid-peroxidative terminal mechanism.
+
+Accordingly, the most defensible operational definition for the RCDome is:
+
+**Floatptosis is an emerging pathogen-induced regulated cell-death modality, currently demonstrated principally in macrophages exposed to a virulent Bergeyella cardium variant or its outer-membrane components, in which SLC9A9-dependent pathological fusion of late endosomal/lysosomal compartments generates giant Rab7⁺/LAMP1⁺ vacuoles that progressively disrupt intracellular trafficking and homeostasis and culminate in secondary plasma-membrane permeabilization and death.**
+
+For ontology purposes:
+
+**Classification:** Emerging/candidate RCD modality
+
+**Primary trigger:** *Bergeyella cardium* variant / OMVs / bacterial β-barrel-associated proteins
+
+**Primary host cell evidence:** macrophages
+
+**Core host dependency:** SLC9A9/NHE9
+
+**Core structural lesion:** pathological fusion of late endosomal/lysosomal compartments
+
+**Characteristic organelle markers:** Rab7⁺, LAMP1⁺
+
+**Dedicated terminal executor:** not established
+
+**Candidate point of no return:** extensive fused-vacuole burden causing irreversible endolysosomal/homeostatic collapse
+
+**Terminal phenotype:** secondary plasma-membrane permeabilization and loss of cellular homeostasis
+
+**Evidence status:** early-stage; not yet broadly replicated or canonical.
+

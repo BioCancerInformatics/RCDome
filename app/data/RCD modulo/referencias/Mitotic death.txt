@@ -1,0 +1,105 @@
+[1] Vitale I, Galluzzi L, Castedo M, Kroemer G. Mitotic catastrophe: a mechanism for avoiding genomic instability. Nature Reviews Molecular Cell Biology. 2011;12:385–392. DOI: **10.1038/nrm3115**.
+
+[2] Galluzzi L, Vitale I, Aaronson SA, et al. Molecular mechanisms of cell death: recommendations of the Nomenclature Committee on Cell Death 2018. Cell Death & Differentiation. 2018;25:486–541. DOI: **10.1038/s41418-017-0012-4**.
+
+[3] Vakifahmetoglu H, Olsson M, Zhivotovsky B. Death through a tragedy: mitotic catastrophe. Cell Death & Differentiation. 2008;15:1153–1162. DOI: **10.1038/cdd.2008.47**.
+
+[4] Bock FJ, Tait SWG. Mitochondria as multifaceted regulators of cell death. Nature Reviews Molecular Cell Biology. 2020;21:85–100. DOI: **10.1038/s41580-019-0173-8**.
+
+[5] Huang HC, Mitchison TJ, Shi J. Stochastic Competition between Mechanistically Independent Slippage and Death Pathways Determines Cell Fate during Mitotic Arrest. PLoS ONE. 2010;5. DOI: **10.1371/journal.pone.0015724**.
+
+[6] Gascoigne KE, Taylor SS. Cancer cells display profound intra- and interline variation following prolonged exposure to antimitotic drugs. Cancer Cell. 2008;14:111–122. DOI: **10.1016/j.ccr.2008.07.002**.
+
+[7] Terrano DT, Upreti M, Chambers TC. Cyclin-Dependent Kinase 1-Mediated Bcl-xL/Bcl-2 Phosphorylation Acts as a Functional Link Coupling Mitotic Arrest and Apoptosis. Molecular and Cellular Biology. 2010;30:640–656. DOI: **10.1128/MCB.00882-09**.
+
+[8] Sloss O, Topham C, Diez M, Taylor SS. Mcl-1 dynamics influence mitotic slippage and death in mitosis. Oncotarget. 2016;7:5176–5192. DOI: **10.18632/oncotarget.6894**.
+
+[9] Czabotar PE, García-Sáez AJ. Mechanisms of BCL-2 family proteins in mitochondrial apoptosis. Nature Reviews Molecular Cell Biology. 2023;24:732–748. DOI: **10.1038/s41580-023-00629-4**.
+
+[10] Tait SWG, Green DR. Mitochondria and cell death: outer membrane permeabilization and beyond. Nature Reviews Molecular Cell Biology. 2010;11:621–632. DOI: **10.1038/nrm2952**.
+
+[11] Kalkavan H, Green DR. MOMP, cell suicide as a BCL-2 family business. Cell Death & Differentiation. 2018;25:46–55. DOI: **10.1038/cdd.2017.179**.
+
+[12] Egorshina A, Zamaraev AV, Kaminskyy VO, et al. Necroptosis as a Novel Facet of Mitotic Catastrophe. International Journal of Molecular Sciences. 2022;23. DOI: **10.3390/ijms23073733**.
+
+[13] Vakifahmetoglu H, Olsson M, Tamm C, et al. DNA damage induces two distinct modes of cell death in ovarian carcinomas. Cell Death & Differentiation. 2008;15:555–566. DOI: **10.1038/sj.cdd.4402286**.
+
+[14] Brito DA, Rieder CL. Mitotic checkpoint slippage in humans occurs via cyclin B destruction in the presence of an active checkpoint. Current Biology. 2006;16:1194–1200. DOI: **10.1016/j.cub.2006.04.043**.
+
+[15] Topham C, Taylor SS. Mitosis and apoptosis: how is the balance set? Current Opinion in Cell Biology. 2013;25:780–785. DOI: **10.1016/j.ceb.2013.07.003**.
+
+[16] Raab M, Krämer A, Hehlgans S, et al. Mitotic arrest and slippage induced by pharmacological inhibition of Polo-like kinase 1. Molecular Oncology. 2015;9. DOI: **10.1016/j.molonc.2014.07.020**.
+
+[17] Henriques AC, Ribeiro D, Pedrosa J, Sarmento B, Silva PMA, Bousbaa H. Mitosis inhibitors in anticancer therapy: When blocking the exit becomes a solution. Cancer Letters. 2019;440–441:64–81. DOI: **10.1016/j.canlet.2018.10.005**.
+
+[18] Wang Y, Zhang Y, Zhang G. Novel regulation on the mitotic checkpoint revealed by knocking out CDC20. Frontiers in Cell and Developmental Biology. 2023;11. DOI: **10.3389/fcell.2023.1276532**.
+
+[19] Partscht P, Simon AM, Chen NP, Erhardt S, Schiebel E. The HIPK2/CDC14B-MeCP2 axis enhances the spindle assembly checkpoint block by promoting cyclin B translation. Science Advances. 2023;9. DOI: **10.1126/sciadv.add6982**.
+
+[20] Tsang MJ, Cheeseman IM. Alternative Cdc20 translational isoforms tune mitotic arrest duration. Nature. 2023;617:154–161. DOI: **10.1038/s41586-023-05943-7**.
+
+[21] Liu S, Opiyo SO, Manthey K, et al. Distinct roles for DNA-PK, ATM and ATR in RPA phosphorylation and checkpoint activation in response to replication stress. Nucleic Acids Research. 2012;40:10780–10794. DOI: **10.1093/nar/gks849**.
+
+[22] Smith HL, Southgate H, Tweddle DA, Curtin NJ. DNA damage checkpoint kinases in cancer. Expert Reviews in Molecular Medicine. 2020;22. DOI: **10.1017/erm.2020.3**.
+
+[23] Lees J. p53-deficient cells rely on ATM- and ATR-mediated checkpoint signaling through the p38MAPK/MK2 pathway for survival after DNA damage. Cancer Cell. 2007;11:175–189. DOI: **10.1016/j.ccr.2006.11.024**.
+
+[24] Niida H, Tsuge S, Katsuno Y, et al. Depletion of Chk1 Leads to Premature Activation of Cdc2-cyclin B and Mitotic Catastrophe. Journal of Biological Chemistry. 2005;280:39246–39252. DOI: **10.1074/jbc.M505009200**.
+
+[25] Di Rorà AGL, Ghetti M, Ledda L, et al. Exploring the ATR-CHK1 pathway in the response of doxorubicin-induced DNA damages in acute lymphoblastic leukemia cells. Cell Biology and Toxicology. 2023;39:795–811. DOI: **10.1007/s10565-021-09640-x**.
+
+[26] Burigotto M, Mattivi A, Migliorati D, et al. Centriolar distal appendages activate the centrosome-PIDDosome-p53 signalling axis via ANKRD26. EMBO Journal. 2021;40. DOI: **10.15252/embj.2020104844**.
+
+[27] Fava LL, Schuler F, Sladky V, et al. The PIDDosome activates p53 in response to supernumerary centrosomes. Genes & Development. 2017;31:34–45. DOI: **10.1101/gad.289728.116**.
+
+[28] Ando K, Parsons MJ, Shah RB, et al. NPM1 directs PIDDosome-dependent caspase-2 activation in the nucleolus. Journal of Cell Biology. 2017;216:1795–1810. DOI: **10.1083/jcb.201608095**.
+
+[29] Zeng M, Wang K, Wu Q, et al. Dissecting caspase-2-mediated cell death: from intrinsic PIDDosome activation to chemical modulation. Protein & Cell. 2024;15:889–905. DOI: **10.1093/procel/pwae020**.
+
+[30] Weiler ES, Szabo T, Garcia-Carpio I, Villunger A. PIDD1 in cell cycle control, sterile inflammation and cell death. Biochemical Society Transactions. 2022;50:813–824. DOI: **10.1042/BST20211186**.
+
+[31] Lok TM, Wang Y, Xu WK, Xie S, Poon RYC. Mitotic slippage is determined by p31comet and the weakening of the spindle-assembly checkpoint. Oncogene. 2020;39:2819–2834. DOI: **10.1038/s41388-020-1187-6**.
+
+[32] Sinha D, Duijf PHG, Khanna KK. Mitotic slippage: an old tale with a new twist. Cell Cycle. 2019;18. DOI: **10.1080/15384101.2018.1559557**.
+
+[33] Sakurikar N, Eichhorn JM, Chambers TC. Cyclin-dependent Kinase-1/Cyclin B1 Dictates Cell Fate after Mitotic Arrest via Phosphoregulation of Antiapoptotic Bcl-2 Proteins. Journal of Biological Chemistry. 2012;287:39193–39204. DOI: **10.1074/jbc.M112.391854**.
+
+[34] Kurokawa M, Kornbluth S. Stalling in mitosis and releasing the apoptotic brake. EMBO Journal. 2010;29. DOI: **10.1038/emboj.2010.150**.
+
+[35] Darweesh O, Al-Shehri E, Falquez H, Lauterwasser J, Edlich F, Patel R. Identification of a novel Bax-Cdk1 signalling complex that links activation of the mitotic checkpoint to apoptosis. Journal of Cell Science. 2021. DOI: **10.1242/jcs.244152**.
+
+[36] Birkinshaw RW, Czabotar PE. The BCL-2 family of proteins and mitochondrial outer membrane permeabilisation. Seminars in Cell & Developmental Biology. 2017;72:152–162. DOI: **10.1016/j.semcdb.2017.04.001**.
+
+[37] Visconti R, Palazzo L, D’Alessio F, et al. The Fcp1-Wee1-Cdk1 axis affects spindle assembly checkpoint robustness and sensitivity to antimicrotubule cancer drugs. Cell Death & Differentiation. 2015;22:1551–1560. DOI: **10.1038/cdd.2015.13**.
+
+[38] Fong CS, Mazo G, Das T, et al. 53BP1 and USP28 mediate p53-dependent cell cycle arrest in response to centrosome loss and prolonged mitosis. eLife. 2016;5. DOI: **10.7554/eLife.16270**.
+
+[39] Huang YF, Chang MD, Shieh SY. TTK/hMps1 Mediates the p53-Dependent Postmitotic Checkpoint by Phosphorylating p53 at Thr18. Molecular and Cellular Biology. 2009;29:2935–2944. DOI: **10.1128/MCB.01837-08**.
+
+[40] Fulcher LJ, Sobajima T, Batley C, Gibbs-Seymour I, Barr FA. MDM2 functions as a timer reporting the length of mitosis. Nature Cell Biology. 2025;27:262–272. DOI: **10.1038/s41556-024-01592-8**.
+
+[41] Andreassen PR, Lohez OD, Lacroix FB, Margolis RL. Tetraploid state induces p53-dependent arrest of nontransformed mammalian cells in G1. Molecular Biology of the Cell. 2001;12:1315–1328. DOI: **10.1091/mbc.12.5.1315**.
+
+[42] Suleimenov M, Bekbayev S, Ten M, et al. Bcl-xL activity influences outcome of the mitotic arrest. Frontiers in Pharmacology. 2022;13. DOI: **10.3389/fphar.2022.933112**.
+
+[43] Cheng B, Crasta K. Consequences of mitotic slippage for antimicrotubule drug therapy. Endocrine-Related Cancer. 2017;24:T97–T106. DOI: **10.1530/ERC-17-0147**.
+
+[44] Bekier ME, Fischbach R, Lee J, Taylor WR. Length of mitotic arrest induced by microtubule-stabilizing drugs determines cell death after mitotic exit. Molecular Cancer Therapeutics. 2009;8:1646–1654. DOI: **10.1158/1535-7163.MCT-08-1084**.
+
+[45] Zeng X, Xu WK, Lok T, Poon RYC. Imbalance of the spindle-assembly checkpoint promotes spindle poison-mediated cytotoxicity with distinct kinetics. Cell Death & Disease. 2019;10. DOI: **10.1038/s41419-019-1539-8**.
+
+[46] Fenech M, Knasmueller S, Bolognesi C, et al. Micronuclei as biomarkers of DNA damage, aneuploidy, inducers of chromosomal hypermutation and as sources of pro-inflammatory DNA in humans. Mutation Research Reviews in Mutation Research. 2020;786:108342. DOI: **10.1016/j.mrrev.2020.108342**.
+
+[47] Hatch EM, Fischer AH, Deerinck TJ, Hetzer MW. Catastrophic nuclear envelope collapse in cancer cell micronuclei. Cell. 2013;154:47–60. DOI: **10.1016/j.cell.2013.06.007**.
+
+[48] Henriques AC, Silva PMA, Sarmento B, Bousbaa H. Antagonizing the spindle assembly checkpoint silencing enhances paclitaxel and Navitoclax-mediated apoptosis with distinct mechanistic. Scientific Reports. 2021;11. DOI: **10.1038/s41598-021-83743-7**.
+
+[49] Kale J, Osterlund E, Andrews D. BCL-2 family proteins: changing partners in the dance towards death. *Cell Death &amp; Differentiation*. 2017;25:65-80. doi: **10.1038/cdd.2017.186**.
+
+[50] Mackenzie K, Carroll P, Martin C, et al. cGAS surveillance of micronuclei links genome instability to innate immunity. *Nature*. 2017;548:461-465. doi: **10.1038/nature23449**.
+
+[51] Ghelli Luserna di Rorà A, Martinelli G, Simonetti G. The balance between mitotic death and mitotic slippage in acute leukemia: a new therapeutic window?. *Journal of Hematology &amp; Oncology*. 2019;12. doi: **10.1186/s13045-019-0808-4**.
+
+[52] Tabe C, Kumar R, Huang Y, et al. Spindle Assembly Checkpoint Competency Determines Sensitivity to KIF18A Inhibition in Small Cell Lung Cancer. *Cancer Research Communications*. 2026;6:2110-2125. doi: **10.1158/2767-9764.crc-26-0560**.
+
+[53] Yasuhira S, Shibazaki M, Nishiya M, et al. Paclitaxel-induced aberrant mitosis and mitotic slippage efficiently lead to proliferative death irrespective of canonical apoptosis and p53. *Cell Cycle*. 2016;15:3268-3277. doi: **10.1080/15384101.2016.1242537**.

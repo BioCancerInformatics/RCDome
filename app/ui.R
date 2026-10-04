@@ -98,6 +98,15 @@ ui <- tagList(
     )
   ),
 
+  # ── RCD Entity Deep Dive (separate sub-module, 53 audited) ───────
+  tabPanel(
+    title = "RCD Entity Deep Dive",
+    div(class = "wrap",
+      style = "max-width: 1100px; margin: 0 auto; padding: 20px;",
+      mod_rcd_entities_ui("rcd_entities")
+    )
+  ),
+
   # ── Gene Catalog ──────────────────────────────────────────────────
   tabPanel(
     title = "Gene Catalog",

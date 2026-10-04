@@ -1,0 +1,127 @@
+**[1] Tang D, Kang R, Berghe TV, Vandenabeele P, Kroemer G. The molecular machinery of regulated cell death. Cell Research. 2019;29:347–364. DOI: 10.1038/s41422-019-0164-5.**
+
+**[2] Galluzzi L, Kepp O, Krautwald S, Kroemer G, Linkermann A. Molecular mechanisms of regulated necrosis. Seminars in Cell & Developmental Biology. 2014;35:24–32. DOI: 10.1016/j.semcdb.2014.02.006.**
+
+**[3] Conrad M, Angeli JPF, Vandenabeele P, Stockwell BR. Regulated necrosis: disease relevance and therapeutic opportunities. Nature Reviews Drug Discovery. 2016;15:348–366. DOI: 10.1038/nrd.2015.6.**
+
+**[4] Lu LQ, Tian J, Luo X, Peng J. Targeting the pathways of regulated necrosis: a potential strategy for alleviation of cardio-cerebrovascular injury. Cellular and Molecular Life Sciences. 2021;78:63–78. DOI: 10.1007/s00018-020-03587-8.**
+
+**[5] Meng Y, Sandow JJ, Czabotar PE, Murphy JM. The regulation of necroptosis by post-translational modifications. Cell Death & Differentiation. 2021;28:861–883. DOI: 10.1038/s41418-020-00722-7.**
+
+**[6] Martínez-Osorio V, Abdelwahab Y, Ros U. The Many Faces of MLKL, the Executor of Necroptosis. International Journal of Molecular Sciences. 2023;24:10108. DOI: 10.3390/ijms241210108.**
+
+**[7] Rodriguez DA, Weinlich R, Brown SA, et al. Characterization of RIPK3-mediated phosphorylation of the activation loop of MLKL during necroptosis. Cell Death & Differentiation. 2016;23:76–88. DOI: 10.1038/cdd.2015.70.**
+
+**[8] Seo J, Nam YW, Kim S, Oh DB, Song J. Necroptosis molecular mechanisms: Recent findings regarding novel necroptosis regulators. Experimental & Molecular Medicine. 2021;53:1007–1017. DOI: 10.1038/s12276-021-00634-7.**
+
+**[9] Shi J, Zhao Y, Wang K, et al. Cleavage of GSDMD by inflammatory caspases determines pyroptotic cell death. Nature. 2015;526:660–665. DOI: 10.1038/nature15514.**
+
+**[10] Liu X, Zhang Z, Ruan J, et al. Inflammasome-activated gasdermin D causes pyroptosis by forming membrane pores. Nature. 2016;535:153–158. DOI: 10.1038/nature18629.**
+
+**[11] Sborgi L, Rühl S, Mulvihill E, et al. GSDMD membrane pore formation constitutes the mechanism of pyroptotic cell death. EMBO Journal. 2016;35:1766–1778. DOI: 10.15252/embj.201694696.**
+
+**[12] Shi J, Gao W, Shao F. Pyroptosis: Gasdermin-Mediated Programmed Necrotic Cell Death. Trends in Biochemical Sciences. 2017;42:245–254. DOI: 10.1016/j.tibs.2016.10.004.**
+
+**[13] Dixon SJ, Olzmann JA. The cell biology of ferroptosis. Nature Reviews Molecular Cell Biology. 2024;25:424–442. DOI: 10.1038/s41580-024-00703-5.**
+
+**[14] Bersuker K, Hendricks JM, Li Z, et al. The CoQ oxidoreductase FSP1 acts in parallel to GPX4 to inhibit ferroptosis. Nature. 2019;575:688–692. DOI: 10.1038/s41586-019-1705-2.**
+
+**[15] Doll S, Freitas FP, Shah R, et al. FSP1 is a glutathione-independent ferroptosis suppressor. Nature. 2019;575:693–698. DOI: 10.1038/s41586-019-1707-0.**
+
+**[16] Liu J, Kang R, Tang D. Signaling pathways and defense mechanisms of ferroptosis. FEBS Journal. 2022;289. DOI: 10.1111/febs.16059.**
+
+**[17] Ursini F, Maiorino M. Lipid peroxidation and ferroptosis: The role of GSH and GPx4. Free Radical Biology and Medicine. 2020. DOI: 10.1016/j.freeradbiomed.2020.02.027.**
+
+**[18] Robichaux DJ, Harata M, Murphy EV, Karch J. Mitochondrial Permeability Transition Pore-Dependent Necrosis. Journal of Molecular and Cellular Cardiology. 2022;174:47–55. DOI: 10.1016/j.yjmcc.2022.11.003.**
+
+**[19] Patel P, Mendoza A, Ramirez D, Robichaux DJ, Molkentin JD, Karch J. The adenine nucleotide translocase family underlies cardiac ischemia-reperfusion injury through the mitochondrial permeability pore independently of cyclophilin D. Science Advances. 2024;10. DOI: 10.1126/sciadv.adp7444.**
+
+**[20] Zhou S, Yu Q, Zhang L, Jiang Z. Cyclophilin D-mediated Mitochondrial Permeability Transition Regulates Mitochondrial Function. Current Pharmaceutical Design. 2023. DOI: 10.2174/1381612829666230313111314.**
+
+**[21] Ai Y, Meng Y, Yan B, Zhou Q, Wang X. The biochemical pathways of apoptotic, necroptotic, pyroptotic, and ferroptotic cell death. Molecular Cell. 2024;84:170–179. DOI: 10.1016/j.molcel.2023.11.040.**
+
+**[22] Dondelinger Y, Darding M, Bertrand MJM, Walczak H. Poly-ubiquitination in TNFR1-mediated necroptosis. Cellular and Molecular Life Sciences. 2016;73:2165–2176. DOI: 10.1007/s00018-016-2191-4.**
+
+**[23] Wegner KW, Saleh D, Degterev A. Complex Pathologic Roles of RIPK1 and RIPK3: Moving Beyond Necroptosis. Trends in Pharmacological Sciences. 2017;38:202–225. DOI: 10.1016/j.tips.2016.12.005.**
+
+**[24] Wang L, Chang X, Feng J, Yu J, Chen G. TRADD Mediates RIPK1-Independent Necroptosis Induced by Tumor Necrosis Factor. Frontiers in Cell and Developmental Biology. 2020;7:393. DOI: 10.3389/fcell.2019.00393.**
+
+**[25] Orning P, Weng D, Starheim K, et al. Pathogen blockade of TAK1 triggers caspase-8 dependent cleavage of Gasdermin D and cell death. Science. 2018;362:1064–1069. DOI: 10.1126/science.aau2818.**
+
+**[26] Wang YP, Gao W, Shi X, et al. Chemotherapy drugs induce pyroptosis through caspase-3 cleavage of a gasdermin. Nature. 2017;547:99–103. DOI: 10.1038/nature22393.**
+
+**[27] Chen X, Zhu R, Zhong J, et al. Mosaic composition of RIP1–RIP3 signalling hub and its role in regulating cell death. Nature Cell Biology. 2022;24:471–482. DOI: 10.1038/s41556-022-00854-7.**
+
+**[28] Li X, Cao Y, Xu F, et al. Decoding necrosome assembly: harmonizing signal amplification and attenuation through optimal RIP3 stoichiometry. Nature Communications. 2025;17. DOI: 10.1038/s41467-025-67098-5.**
+
+**[29] Panel M, Ruiz I, Brillet R, et al. Small-molecule inhibitors of cyclophilins block opening of the mitochondrial permeability transition pore and protect mice from hepatic ischemia-reperfusion injury. Gastroenterology. 2019. DOI: 10.1053/j.gastro.2019.07.026.**
+
+**[30] Gong YN, Guy C, Olauson H, et al. ESCRT-III acts downstream of MLKL to regulate necroptotic cell death and its consequences. Cell. 2017;169:286–300.e16. DOI: 10.1016/j.cell.2017.03.020.**
+
+**[31] Rühl S, Shkarina K, Demarco B, et al. ESCRT-dependent membrane repair negatively regulates pyroptosis downstream of GSDMD activation. Science. 2018;362:956–960. DOI: 10.1126/science.aar7607.**
+
+**[32] Dai E, Meng L, Kang R, Wang X, Tang D. ESCRT-III-Dependent Membrane Repair Blocks Ferroptosis. Biochemical and Biophysical Research Communications. 2020;522:415–421. DOI: 10.1016/j.bbrc.2019.11.110.**
+
+**[33] Liu J, Kang R, Tang D. ESCRT-III-mediated membrane repair in cell death and tumor resistance. Cancer Gene Therapy. 2021;28:1–4. DOI: 10.1038/s41417-020-0200-0.**
+
+**[34] Karlowitz R, Van Wijk SJL. Surviving death: emerging concepts of RIPK3 and MLKL ubiquitination in the regulation of necroptosis. FEBS Journal. 2023;290. DOI: 10.1111/febs.16255.**
+
+**[35] Ros U, Peña-Blanco A, Hänggi K, et al. Necroptosis Execution Is Mediated by Plasma Membrane Nanopores Independent of Calcium. Cell Reports. 2017;19:175–187. DOI: 10.1016/j.celrep.2017.03.024.**
+
+**[36] Li L, Tong A, Zhang Q, Wei Y, Wei X. The molecular mechanisms of MLKL-dependent and MLKL-independent necrosis. Journal of Molecular Cell Biology. 2021;13:3–14. DOI: 10.1093/jmcb/mjaa055.**
+
+**[37] Dondelinger Y, Priem D, Huyghe J, et al. NINJ1 is activated by cell swelling to regulate plasma membrane permeabilization during regulated necrosis. Cell Death & Disease. 2023;14. DOI: 10.1038/s41419-023-06284-z.**
+
+**[38] Ramos S, Hartenian E, Broz P. Programmed cell death: NINJ1 and mechanisms of plasma membrane rupture. Trends in Biochemical Sciences. 2024. DOI: 10.1016/j.tibs.2024.05.007.**
+
+**[39] Noh H, Hashem Z, Boms E, Najafov A. SIGLEC12 mediates plasma membrane rupture during necroptotic cell death. Nature. 2025;649:460–466. DOI: 10.1038/s41586-025-09741-1.**
+
+**[40] Riegman M, Sagie L, Galed C, et al. Ferroptosis occurs through an osmotic mechanism and propagates independently of cell rupture. Nature Cell Biology. 2020;22:1042–1048. DOI: 10.1038/s41556-020-0565-1.**
+
+**[41] Zhang Y, Chen X, Gueydan C, Han J. Plasma membrane changes during programmed cell deaths. Cell Research. 2018;28:9–21. DOI: 10.1038/cr.2017.133.**
+
+**[42] Mendoza A, Patel P, Robichaux DJ, Ramirez D, Karch J. Inhibition of the mPTP and Lipid Peroxidation Is Additively Protective Against I/R Injury. Circulation Research. 2024;134:1292–1305. DOI: 10.1161/CIRCRESAHA.123.323882.**
+
+**[43] Li C, Wang J, Sun J. Ferroptosis in arterial atherosclerosis: mechanistic hypotheses, cell type specific vulnerabilities, translational biomarkers, and therapeutic opportunities. Frontiers in Immunology. 2026;17. DOI: 10.3389/fimmu.2026.1868492.**
+
+**[44] Guo L. Mitochondrial permeability transition in redox homeostasis and ferroptosis. Journal of Biological Chemistry. 2026;302:113244. DOI: 10.1016/j.jbc.2026.113244.**
+
+**[45] He H, Xie X, Zhou L, et al. Caspases and programmed cell death in sepsis: mechanisms, pathophysiology, and therapeutic targets. Frontiers in Immunology. 2026;17. DOI: 10.3389/fimmu.2026.1879033.**
+
+**[46] Zhang H, Tu R, Zhang D, et al. PANoptosis in neurological disorders: from inflammatory cell death mechanisms to neuroprotective strategies. Frontiers in Neuroscience. 2026;20. DOI: 10.3389/fnins.2026.1890903.**
+
+**[47] Li T, Zhang Q, Wu Y, et al. Cell Death in Neurodegenerative Diseases: Molecular Mechanisms and Therapeutic Targets. MedComm. 2026;7. DOI: 10.1002/mco2.70915.**
+
+**[48] Wang Z, Zheng W, Wang H, et al. Ferroptosis as an Emerging Therapeutic Target in Allergic Diseases. Drug Design, Development and Therapy. 2026;Volume 20:1-29. DOI: 10.2147/dddt.s621118.**
+
+**[49] Sinha B. Ferroptosis Resistance: Redundant Antioxidant Networks Are a Barrier to Cancer Therapy. Antioxidants. 2026;15:860. DOI: 10.3390/antiox15070860.**
+
+**[50] Hu Z, Zhou X, Sun Q, et al. To Die or Not to Die: How Sublethal Damage Rewires Cell Fate and Implications for Sepsis. Journal of Inflammation Research. 2026;Volume 19:1-20. DOI: 10.2147/jir.s629930.**
+
+**[51] Gong Y, Liu Y, Li L, et al. Multi-platform evidence of GSDMD-dependent pyroptosis in malaria with a potential role for TLR7. Frontiers in Immunology. 2026;17. DOI: 10.3389/fimmu.2026.1862560.**
+
+**[52] Sendtner N, Seitz R, Brandl N, et al. Reactive Oxygen Species Across Death Pathways: Gatekeepers of Apoptosis, Ferroptosis, Pyroptosis, Paraptosis, and Beyond. International Journal of Molecular Sciences. 2025;26:10240. DOI: 10.3390/ijms262010240.**
+
+**[53] Mocarski E, Guo H. Z-Nucleic Acid-Binding Protein (ZBP)1 (DAI/DLM1) Regulation in Antiviral Cell Death Pathways. Pathogens. 2026;15:972. DOI: 10.3390/pathogens15090972.**
+
+**[54] Burdette B, Esparza A, Zhu H, et al. Gasdermin D in pyroptosis. Acta Pharmaceutica Sinica B. 2021;11:2768-2782. DOI: 10.1016/j.apsb.2021.02.006.**
+
+**[55] Zheng J, Li X, Gong H, et al. Alpha-linolenic acid in cancer: a predictive fate-switch framework for tumor lipid reprogramming. Frontiers in Oncology. 2026;16. DOI: 10.3389/fonc.2026.1928431.**
+
+**[56] Chaouhan H, Vinod C, Mahapatra N, et al. Necroptosis: A Pathogenic Negotiator in Human Diseases. International Journal of Molecular Sciences. 2022;23:12714. DOI: 10.3390/ijms232112714.**
+
+**[57] Ye X, Zhu W, Sun X, et al. Advancing the frontiers of ovarian cancer therapy: a comprehensive synthesis of emerging cell death paradigms. Oncology Reviews. 2026;20. DOI: 10.3389/or.2026.1850292.**
+
+**[58] Demarco B, Grayczyk JP, Bjanes E, et al. Caspase-8-dependent gasdermin D cleavage promotes antimicrobial defense but confers susceptibility to TNF-induced lethality.. . 2020. DOI: 10.1126/sciadv.abc3465.**
+
+**[59] Jiang M, Qi L, Li L, et al. The caspase-3/GSDME signal pathway as a switch between apoptosis and pyroptosis in cancer.. . 2020. DOI: 10.1038/s41420-020-00349-0.**
+
+**[60] Lieberman J, Wu H, Kagan JC.. Gasdermin D activity in inflammation and host defense.. . 2019. DOI: 10.1126/sciimmunol.aav1447.**
+
+**[61] Galluzzi L, Vitale I, Aaronson S, et al. Molecular mechanisms of cell death: recommendations of the Nomenclature Committee on Cell Death 2018. Cell Death &amp; Differentiation. 2018;25:486-541. DOI: 10.1038/s41418-017-0012-4.**
+
+**[62] Evavold CL, Ruan J, Tan Y, et al. The Pore-Forming Protein Gasdermin D Regulates Interleukin-1 Secretion from Living Macrophages.. . 2018. DOI: 10.1016/j.immuni.2017.11.013.**
+
+**[63] Kanokogi T, Komazawa-Sakon S, Murai S, et al. Temporal control of Ninj1 activation determines cell-to-cell heterogeneity in IL-33 release. Communications Biology. 2026;9. DOI: 10.1038/s42003-026-10300-1.**
+
+**[64] Newton K, Wickliffe KE, Dugger DL, et al. Cleavage of RIPK1 by caspase-8 is crucial for limiting apoptosis and necroptosis. Nature. 2019;574:428–431. DOI: 10.1038/s41586-019-1548-x.**

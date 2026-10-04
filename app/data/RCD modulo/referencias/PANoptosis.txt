@@ -1,0 +1,77 @@
+[1] Tweedell RE, Hibler T, Kanneganti T. Defining PANoptosis: Biochemical and Mechanistic Evaluation of Innate Immune Cell Death Activation. Current Protocols. 2024. DOI: **10.1002/cpz1.1112**.
+
+[2] Zengeler KE, Tweedell RE, Kanneganti T. PANoptosis in life and death across cell types: From innate immunity to therapeutic implications. Cell Chemical Biology. 2026. DOI: **10.1016/j.chembiol.2026.06.007**.
+
+[3] Pandeya A, Kanneganti T. Therapeutic potential of PANoptosis: Innate Sensors, Inflammasomes, and RIPKs in PANoptosomes. Trends in Molecular Medicine. 2023. DOI: **10.1016/j.molmed.2023.10.001**.
+
+[4] Chen W, Gullett J, Tweedell RE, et al. Innate immune inflammatory cell death: PANoptosis and PANoptosomes in host defense and disease. European Journal of Immunology. 2023. DOI: **10.1002/eji.202250235**.
+
+[5] Christgen SL, Zheng M, Karki R, et al. Identification of the PANoptosome: A Molecular Platform Triggering Pyroptosis, Apoptosis, and Necroptosis (PANoptosis). Frontiers in Cellular and Infection Microbiology. 2020. DOI: **10.3389/fcimb.2020.00237**.
+
+[6] Pandian N, Kanneganti T. PANoptosis: a unique inflammatory cell death modality. Journal of Immunology. 2022. DOI: **10.4049/jimmunol.2200508**.
+
+[7] Kesavardhana S, Malireddi R, Burton A, et al. The Zα2 domain of ZBP1 is a molecular switch regulating influenza-induced PANoptosis and perinatal lethality during development. Journal of Biological Chemistry. 2020. DOI: **10.1074/jbc.RA120.013752**.
+
+[8] Zheng M, Kanneganti T. The regulation of the ZBP1-NLRP3 inflammasome and its implications in pyroptosis, apoptosis, and necroptosis (PANoptosis). Immunological Reviews. 2020. DOI: **10.1111/imr.12909**.
+
+[9] Hao Y, Yang B, Yang J, et al. ZBP1: A Powerful Innate Immune Sensor and Double-Edged Sword in Host Immunity. International Journal of Molecular Sciences. 2022. DOI: **10.3390/ijms231810224**.
+
+[10] Xie F, Wu D, Huang J, et al. ZBP1 condensate formation synergizes Z-NAs recognition and signal transduction. Cell Death & Disease. 2024. DOI: **10.1038/s41419-024-06889-y**.
+
+[11] Lee S, Karki R, Wang Y, et al. AIM2 forms a complex with Pyrin and ZBP1 to drive PANoptosis and host defense. Nature. 2021. DOI: **10.1038/s41586-021-03875-8**.
+
+[12] Oh S, Lee J, Oh J, et al. Integrated NLRP3, AIM2, NLRC4, Pyrin inflammasome activation and assembly drive PANoptosis. Cellular & Molecular Immunology. 2023. DOI: **10.1038/s41423-023-01107-9**.
+
+[13] Malireddi R, Kesavardhana S, Kanneganti T. ZBP1 and TAK1: Master Regulators of NLRP3 Inflammasome/Pyroptosis, Apoptosis, and Necroptosis (PAN-optosis). Frontiers in Cellular and Infection Microbiology. 2019. DOI: **10.3389/fcimb.2019.00406**.
+
+[14] Sundaram B, Pandian N, Mall R, et al. NLRP12-PANoptosome activates PANoptosis and pathology in response to heme and PAMPs. Cell. 2023. DOI: **10.1016/j.cell.2023.05.005**.
+
+[15] Samir P, Malireddi R, Kanneganti T. The PANoptosome: A Deadly Protein Complex Driving Pyroptosis, Apoptosis, and Necroptosis (PANoptosis). Frontiers in Cellular and Infection Microbiology. 2020. DOI: **10.3389/fcimb.2020.00238**.
+
+[16] Kumar SP, Nadendla E, Haque SA, et al. Evolutionary and Functional Analysis of Caspase-8 and ASC Interactions to Drive Lytic Cell Death, PANoptosis. Molecular Biology and Evolution. 2025. DOI: **10.1093/molbev/msaf096**.
+
+[17] Wang Y, Pandian N, Han JH, et al. Single cell analysis of PANoptosome cell death complexes through an expansion microscopy method. Cellular and Molecular Life Sciences. 2022. DOI: **10.1007/s00018-022-04564-z**.
+
+[18] Place DE, Lee S, Kanneganti T. PANoptosis in microbial infection. Current Opinion in Microbiology. 2020. DOI: **10.1016/j.mib.2020.07.012**.
+
+[19] Cai H, Lv M, Wang T. PANoptosis in cancer, the triangle of cell death. Cancer Medicine. 2023. DOI: **10.1002/cam4.6803**.
+
+[20] Nadella V, Kanneganti T. Inflammasomes and their role in PANoptosomes. Current Opinion in Immunology. 2024. DOI: **10.1016/j.coi.2024.102489**.
+
+[21] Sharma B, Choudhury SM, Abdelaal H, et al. Innate immune sensor NLRP3 drives PANoptosome formation and PANoptosis. Journal of Immunology Author Choice. 2025. DOI: **10.1093/jimmun/vkaf042**.
+
+[22] Sharma B, Karki R, Rajesh Y, et al. Immune regulator IRF1 contributes to ZBP1-, AIM2-, RIPK1-, and NLRP12-PANoptosome activation and inflammatory cell death (PANoptosis). Journal of Biological Chemistry. 2023. DOI: **10.1016/j.jbc.2023.105141**.
+
+[23] Tsuchiya Y, Nakabayashi O, Nakano H. FLIP the Switch: Regulation of Apoptosis and Necroptosis by cFLIP. International Journal of Molecular Sciences. 2015. DOI: **10.3390/ijms161226232**.
+
+[24] Feoktistova M, Geserick P, Kellert B, et al. cIAPs Block Ripoptosome Formation, a RIP1/Caspase-8 Containing Intracellular Cell Death Complex Differentially Regulated by cFLIP Isoforms. Molecular Cell. 2011. DOI: **10.1016/j.molcel.2011.06.011**.
+
+[25] Savcigil DP, Zrilić M, Craxton A, et al. Cleavage of cFLIP restrains cell death during viral infection and tissue injury and favors tissue repair. Science Advances. 2023. DOI: **10.1126/sciadv.adg2829**.
+
+[26] Ai Y, Meng Y, Yan B, et al. The biochemical pathways of apoptotic, necroptotic, pyroptotic, and ferroptotic cell death. Molecular Cell. 2024. DOI: **10.1016/j.molcel.2023.11.040**.
+
+[27] Broz P. Pyroptosis: molecular mechanisms and roles in disease. Cell Research. 2025. DOI: **10.1038/s41422-025-01107-6**.
+
+[28] Wang L, Zhu Y, Zhang L, et al. Mechanisms of PANoptosis and relevant small-molecule compounds for fighting diseases. Cell Death & Disease. 2023. DOI: **10.1038/s41419-023-06370-2**.
+
+[29] Kayagaki N, Kornfeld OS, Lee BL, et al. NINJ1 mediates plasma membrane rupture during lytic cell death. Nature. 2020. DOI: **10.1038/s41586-021-03218-7**.
+
+[30] Degen M, Santos JC, Pluhackova K, et al. Structural basis of NINJ1-mediated plasma membrane rupture in cell death. Nature. 2023. DOI: **10.1038/s41586-023-05991-z**.
+
+[31] David L, Borges JP, Hollingsworth LR, et al. NINJ1 mediates plasma membrane rupture by cutting and releasing membrane disks. Cell. 2024. DOI: **10.1016/j.cell.2024.03.008**.
+
+[32] Han JH, Karki R, Malireddi R, et al. NINJ1 mediates inflammatory cell death, PANoptosis, and lethality during infection conditions and heat stress. Nature Communications. 2024. DOI: **10.1038/s41467-024-45466-x**.
+
+[33] Xu Y, Zheng Y, Liu Y, et al. Ninjurin-1 mediates cell lysis and detrimental inflammation of PANoptosis during influenza A virus infection. Signal Transduction and Targeted Therapy. 2025. DOI: **10.1038/s41392-025-02391-9**.
+
+[34] Banoth B, Tuladhar S, Karki R, et al. ZBP1 promotes fungi-induced inflammasome activation and pyroptosis, apoptosis, and necroptosis (PANoptosis). Journal of Biological Chemistry. 2020. DOI: **10.1074/jbc.RA120.015924**.
+
+[35] Malireddi R, Sharma B, Bynigeri RR, et al. ZBP1 Drives IAV-Induced NLRP3 Inflammasome Activation and Lytic Cell Death, PANoptosis, Independent of the Necroptosis Executioner MLKL. Viruses. 2023. DOI: **10.3390/v15112141**.
+
+[36] Yang Y, Wang Y, Wang Y, et al. RIPK3 sequentially recruits MLKL and RIPK1 to induce PANoptosis and chemokine production. Cell Death and Differentiation. 2026. DOI: **10.1038/s41418-026-01737-2**.
+
+[37] Thalla R, Lamichhane J, Lewis C, et al. <scp>PANoptosis</scp>
+
+[38] Oh S, Lee S. Recent advances in ZBP1-derived PANoptosis against viral infections. *Frontiers in Immunology*. 2023;14. doi: **10.3389/fimmu.2023.1148727**.
+
+[39] Yang CY, Lien CI, Tseng YC, et al. Deciphering DED assembly mechanisms in FADD-procaspase-8-cFLIP complexes regulating apoptosis. Nature Communications. 2024. DOI: **10.1038/s41467-024-47990-2**.

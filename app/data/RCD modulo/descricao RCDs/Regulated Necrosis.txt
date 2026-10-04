@@ -1,0 +1,228 @@
+# Regulated Necrosis
+
+## 1. Definition and Classification
+
+Regulated necrosis is an established RCD-related category encompassing genetically and biochemically controlled cell-death programs that culminate in necrotic loss of cellular homeostasis and plasma-membrane integrity [1-4]. It is not a single molecular pathway and should not be treated as synonymous with necroptosis.
+
+The major established forms represented in the supplied evidence include necroptosis, pyroptosis, ferroptosis, and mitochondrial permeability transition-dependent necrosis [1-4]. These modalities share a necrotic terminal phenotype but are driven by different molecular engines.
+
+Necroptosis is organized around RIPK3-dependent activation of MLKL [5-8]. GSDMD is the direct and final executor of pyroptotic cell death [11]. Ferroptosis results from uncontrolled iron-dependent phospholipid peroxidation when antioxidant defense systems such as GPX4 and FSP1 fail [13-17]. MPT-dependent necrosis originates from sustained pathological opening of the mitochondrial permeability transition pore and consequent mitochondrial energetic collapse [18-20].
+
+Therefore, the defining principle of regulated necrosis is not a common receptor, signaling complex, protease, or executor. Regulated necrosis differs from apoptosis mechanistically rather than merely morphologically. Apoptosis is predominantly characterized by caspase-driven intracellular dismantling while plasma-membrane integrity is retained through much of the process, whereas regulated necrotic routes ultimately produce severe membrane dysfunction, loss of cellular compartmentalization, and frequently release of damage-associated molecular patterns [21].
+
+Morphology alone is therefore insufficient to assign a cell to regulated necrosis or to determine which regulated necrotic modality occurred.
+
+## 2. Initiation and Triggers
+
+Because regulated necrosis encompasses multiple modalities, no universal trigger or molecular sensor exists.
+
+In necroptosis, one major initiating context involves death-receptor signaling. TNF binding to TNFR1 promotes formation of membrane-associated signaling complex I containing components such as TRADD, RIPK1, TRAF proteins, cIAP1/2, and LUBAC-associated machinery [5,22-23]. Under pro-survival conditions, ubiquitination of RIPK1 favors NF-κB and MAPK signaling instead of death.
+
+Necroptotic signaling becomes favored when these survival checkpoints are disrupted, for example through cIAP loss, TAK1 inhibition, or insufficient caspase-8 activity [5,22]. RIPK1 can then acquire kinase activity and engage RIPK3 through RHIM-dependent interactions, allowing formation of a functional necrosome.
+
+Necroptosis can also originate through RIPK1-independent inputs. TRIF, the RHIM adaptor involved in TLR3 and TLR4 induction of type I IFNs via TBK1 and NF-kB, also mediates alternate necroptosis and apoptosis outcomes by recruiting RIPK3 [53]. TRADD was essential for TNF-induced necroptosis in RIPK1-knockdown L929 and HT-22 cells [24].
+
+Pyroptosis begins through a different architecture. Cytosolic pattern-recognition receptors detect pathogen-associated molecular patterns or endogenous danger signals [11]. Alternatively, cytosolic LPS directly activates caspase-4/5 in humans or caspase-11 in mice. Additional routes include caspase-8-dependent GSDMD cleavage and caspase-3-dependent GSDME activation in appropriate cellular contexts [25-26,58-59].
+
+Ferroptosis lacks a classical receptor-like sensor. Its initiating state is metabolic. Cystine deprivation, inhibition of system xc−, depletion of glutathione, direct loss or inhibition of GPX4, accumulation of redox-active iron, and enrichment of oxidizable PUFA-containing phospholipids collectively determine whether lipid peroxidation becomes lethal [13-17,55].
+
+MPT-dependent necrosis is initiated predominantly by severe mitochondrial stress. Ca2+ overload and ROS, particularly during ischemia-reperfusion injury, promote opening of the mitochondrial permeability transition pore [18-20]. Cyclophilin D acts as an important regulatory component, while recent genetic evidence implicates ANT-family proteins in pore formation or regulation [18-19].
+
+Thus, regulated necrosis has no universal trigger → sensor → first-event sequence. Each constituent modality has its own upstream architecture.
+
+## 3. Core Mechanistic Machinery
+
+The core machinery of regulated necrosis is necessarily route specific.
+
+In necroptosis, RIPK3 and MLKL constitute the most conserved core execution axis. RIPK1 frequently participates upstream but is not universally required [5-8,56].
+
+RIPK1 and RIPK3 can assemble through RHIM-dependent interactions into higher-order necrosome structures. RIPK3 is activated by autophosphorylation and then phosphorylates MLKL, inducing the conformational change required for MLKL oligomer assembly and translocation to the membrane, where the oligomers mediate plasma membrane permeabilization and cell lysis from osmotic imbalance [6]. Recent structural and imaging work indicates that productive signaling depends on the organization and stoichiometry of RIPK1/RIPK3 assemblies rather than simple nonspecific aggregation [27-28].
+
+Activated RIPK3 phosphorylates MLKL. In human MLKL, phosphorylation of Thr357 and Ser358 is associated with activation, whereas Ser345 serves the analogous critical function in mouse MLKL [7]. This phosphorylation induces conformational changes that expose the membrane-active N-terminal four-helix bundle, promote MLKL oligomerization, and enable membrane translocation.
+
+Pyroptosis employs fundamentally different machinery. Inflammatory caspases or other context-specific proteases cleave gasdermins and liberate their pore-forming N-terminal domains [9-12]. These fragments bind membrane phospholipids, oligomerize, and directly generate transmembrane pores.
+
+Ferroptosis does not use a necrosome or dedicated proteinaceous execution pore. Instead, its core biochemical machinery consists of iron-dependent propagation of phospholipid peroxidation combined with failure of lipid-peroxide-detoxifying systems [13-17]. GPX4, glutathione availability, system xc−, FSP1/CoQ10, iron metabolism, and PUFA-phospholipid composition determine susceptibility.
+
+MPT-dependent necrosis is centered on mitochondrial permeability transition. Sustained opening of the mPTP collapses the mitochondrial electrochemical gradient, impairs oxidative phosphorylation, perturbs Ca2+ homeostasis, and promotes mitochondrial swelling and energetic failure [18-20].
+
+Therefore, regulated necrosis has no universal core executor. RIPK3–MLKL, gasdermins, phospholipid-peroxidation chemistry, and mPTP-dependent mitochondrial failure represent distinct execution modules within the broader category.
+
+## 4. Propagation and Amplification
+
+Each regulated necrotic route contains self-reinforcing mechanisms that amplify the original insult.
+
+In necroptosis, assembly of RIPK1/RIPK3 signaling complexes promotes additional RIPK3 activation and MLKL phosphorylation [5,27-28]. Activated MLKL accumulates at cellular membranes, associates with anionic phospholipids, and promotes membrane permeability. Resulting ionic disturbances and osmotic stress amplify cellular swelling and membrane injury.
+
+In pyroptosis, gasdermin pores rapidly dissipate ion gradients. K+ loss, Ca2+ entry, water influx, cellular swelling, and organelle injury follow membrane permeabilization [9-12,57]. Gasdermin-mediated ionic changes can also reinforce inflammatory signaling.
+
+Ferroptotic amplification is chemical rather than supramolecular. Iron-dependent conversion of lipid hydroperoxides into reactive lipid radicals propagates oxidative damage through neighboring PUFA-containing phospholipids [13-17]. Once lipid-radical production exceeds the capacity of GPX4-, FSP1-, and related antioxidant systems, damage becomes progressively self-reinforcing.
+
+Autophagic turnover of ferritin can increase the available iron pool and thereby sensitize cells to ferroptotic propagation [16].
+
+In MPT-dependent necrosis, mitochondrial permeability transition collapses membrane potential and oxidative phosphorylation, leading to ATP depletion. Loss of mitochondrial Ca2+ control, swelling, and ROS-associated mitochondrial dysfunction further exacerbate energetic failure [18-20].
+
+Thus, regulated necrosis can amplify through kinase-dependent supramolecular signaling, proteinaceous pore formation, lipid-radical chemistry, or catastrophic mitochondrial permeability transition.
+
+## 5. Protective/Negative Regulators
+
+Regulated necrosis contains multiple route-specific protective checkpoints.
+
+In TNFR1-associated necroptosis, ubiquitination of RIPK1 by cIAP1/2- and LUBAC-associated machinery favors survival signaling and limits conversion of receptor-associated complex I into cytosolic death-inducing assemblies [22-23].
+
+Caspase-8 together with cFLIPL represents a major anti-necroptotic checkpoint. Proteolytic cleavage of RIPK1 by caspase-8 and of RIPK3 by caspase-8 limits RIPK3 activation and necrosome formation, thereby restricting necroptosis [45,64]. RIPK1 cleavage is therefore an important mechanism preventing aberrant necroptosis.
+
+In ferroptosis, the system xc− → glutathione → GPX4 axis is a major protective circuit. GPX4 reduces phospholipid hydroperoxides before they propagate into lethal lipid-radical chains [43].
+
+FSP1 provides a parallel GPX4-independent defense by maintaining reduced CoQ10 and suppressing lipid-radical propagation at membranes [14-15,49].
+
+For MPT-dependent necrosis, mechanisms limiting mitochondrial Ca2+ overload, oxidative stress, or mPTP opening act protectively. Cyclophilin D inhibition can reduce pore opening in experimental ischemia-reperfusion models [18-20,29].
+
+A particularly important cross-modal protective mechanism is ESCRT-III-dependent membrane repair. ESCRT-associated repair acts downstream of MLKL-mediated membrane injury in necroptosis, downstream of gasdermin pores in pyroptosis, and has also been implicated in limiting ferroptotic membrane failure [30-33].
+
+Therefore, membrane damage does not necessarily equal immediate irreversible death. Cells may survive early regulated necrotic execution events if repair and homeostatic restoration remain sufficient.
+
+## 6. Commitment / Point of No Return
+
+There is no universal molecular point of no return for regulated necrosis.
+
+In necroptosis, MLKL phosphorylation is a critical execution step but does not invariably indicate irreversible death. Activated MLKL-associated membrane injury can still be counteracted by ESCRT-III-dependent repair and other mechanisms that remove or neutralize damaged membrane [30,34].
+
+Accordingly, the strongest operational commitment boundary in necroptosis is reached when MLKL-associated membrane injury exceeds the capacity of membrane repair and ionic homeostasis can no longer be restored.
+
+In pyroptosis, the same general principle applies. Gasdermin pore formation can precede terminal rupture and can sometimes be temporarily compensated by membrane-repair machinery [31,60]. The irreversible state occurs when pore-mediated injury exceeds repair capacity and progresses to terminal membrane failure.
+
+Ferroptosis does not possess a known universal discrete protein switch equivalent to gasdermin cleavage or MLKL phosphorylation. When accumulated lipid peroxide burden exceeds the reducing capacity of the GPX4-GSH and FSP1-CoQ10 defense systems, irreversible membrane disruption occurs and ferroptotic cell death is executed [48].
+
+In MPT-dependent necrosis, sustained permeability transition becomes irreversible when mitochondrial depolarization, ATP depletion, Ca2+ dysregulation, and organellar swelling exceed recovery capacity [18-20].
+
+Thus, the common conceptual point of no return across regulated necrosis is failure of repair and homeostatic restoration rather than activation of one universal molecular marker.
+
+## 7. Execution and Terminal Cause of Death
+
+There is no single terminal molecular executor shared by all regulated necrosis.
+
+In necroptosis, phosphorylated MLKL is the established execution protein. Upon activation by RIPK3, MLKL forms oligomers and translocates to the plasma membrane, causing cell death [6].
+
+However, the exact physical mechanism remains incompletely resolved. MLKL may directly generate nanopore- or channel-like lesions, alter membrane organization, activate endogenous ion-conducting systems, or combine these mechanisms depending on context [6,35-36].
+
+Recent evidence further separates membrane permeabilization from terminal macroscopic rupture. NINJ1 can respond to cell swelling and promote plasma-membrane rupture across regulated necrotic settings [37-38]. In human necroptosis, SIGLEC12 has also been implicated as a mediator of plasma-membrane rupture [39]. These findings suggest that terminal rupture may involve downstream membrane-destruction modules in addition to route-specific primary executors.
+
+In pyroptosis, the execution mechanism is more directly established. Gasdermin N-terminal fragments oligomerize into membrane pores that collapse ionic gradients and drive osmotic injury .
+
+In ferroptosis, there is no established universal pore-forming protein equivalent to MLKL or gasdermins. The lethal process is uncontrolled phospholipid peroxidation that progressively compromises membrane biophysical properties, ion handling, and membrane integrity [13-17]. Osmotic swelling and pore-like membrane lesions can develop, but the identity of a universal terminal membrane executor remains unresolved [40].
+
+In MPT-dependent necrosis, sustained mPTP opening destroys mitochondrial membrane potential, oxidative phosphorylation, ATP production, and Ca2+ homeostasis [18-20]. The immediate lethal lesion is catastrophic mitochondrial energetic failure that subsequently produces global failure of cellular homeostasis.
+
+The shared terminal principle is therefore irreversible loss of cellular compartmentalization or energetic homeostasis, not a single common protein executor.
+
+## 8. Morphological Sequence
+
+Regulated necrosis classically culminates in necrotic morphology, but the sequence preceding rupture varies among modalities.
+
+Necroptotic cells can progress from relatively normal morphology to phosphatidylserine exposure and localized membrane alterations, followed by organelle swelling, whole-cell swelling, loss of membrane integrity, and abrupt rupture [30,41,63].
+
+Prominent plasma membrane ballooning and cellular swelling characteristic of pyroptosis were observed exclusively in L16-treated cells [51].
+
+Ferroptotic cells show oxidative membrane damage together with characteristic mitochondrial alterations, including condensation and loss or remodeling of cristae in many experimental systems . Plasma-membrane dysfunction develops downstream of accumulating phospholipid damage.
+
+Across the category, the broad morphological sequence can therefore be summarized as:
+
+route-specific molecular activation → progressive organelle and/or membrane dysfunction → failure of ion, redox, or energetic homeostasis → cellular and/or organellar swelling → loss of plasma-membrane integrity → release of intracellular contents.
+
+These features are not diagnostic by themselves. Cell swelling, membrane rupture, DAMP release, and even TUNEL positivity can occur in multiple death programs.
+
+## 9. Crosstalk and Differential Diagnosis
+
+The first essential distinction is between regulated necrosis and accidental necrosis.
+
+Accidental necrosis results from overwhelming physical or chemical injury that exceeds cellular tolerance without requiring a defined regulated execution program. Regulated necrosis, by contrast, can be altered by targeted genetic or pharmacological manipulation of pathway-specific machinery [1-4].
+
+The second distinction is between regulated necrosis and apoptosis. Necrotic morphology alone is insufficient because apoptotic cells can undergo secondary membrane rupture if not cleared. Mechanistic analysis must establish whether death was executed by apoptotic caspase-mediated dismantling or by a regulated necrotic pathway.
+
+Within regulated necrosis, individual modalities must also be distinguished causally.
+
+The necroptosis signaling pathway is primarily modulated by activation of receptor-interacting protein kinase 3 (RIPK3), which phosphorylates mixed-lineage kinase domain-like protein (MLKL), mediating MLKL oligomerization [8].
+
+Pyroptosis requires gasdermin-dependent pore formation. Inflammasome activation, IL-1β production, or membrane rupture alone is insufficient [9-12,61-62].
+
+Ferroptosis requires evidence for iron-dependent phospholipid peroxidation and appropriate pharmacological or genetic rescue rather than nonspecific oxidative stress alone [13-17].
+
+MPT-dependent necrosis requires causal evidence implicating pathological mitochondrial permeability transition [18-20].
+
+Crosstalk between modalities is biologically important. TAK1 blockade can promote RIPK1-dependent apoptosis and, when caspase-8 is inhibited or absent, RIPK1-dependent necroptosis, and it can also drive gasdermin D-dependent pyroptosis, thereby linking RIPK1-caspase-8 signaling to gasdermin-dependent death [46]. Caspase-3 can convert an apoptotic upstream program into GSDME-mediated pyroptotic membrane execution [26].
+
+Ischemia-reperfusion injury can simultaneously engage different regulated necrotic mechanisms. Experimental protection obtained by targeting both mitochondrial permeability transition and lipid peroxidation illustrates that multiple pathways may contribute in parallel rather than being mutually exclusive [42].
+
+Therefore, classification should follow the experimentally demonstrated execution mechanism rather than the stimulus, tissue context, morphology, or inflammatory output alone.
+
+## 10. Experimental Validation
+
+Regulated necrosis should be demonstrated by pathway-specific causal perturbation.
+
+For necroptosis, strong evidence includes RIPK3 or MLKL loss, inhibition of relevant upstream RIPK1 kinase signaling where applicable, detection of activated/phosphorylated MLKL, demonstration of MLKL membrane redistribution, and functional rescue of membrane injury [5-8,30].
+
+Detection of phospho-MLKL is substantially more informative than total expression of RIPK3 or MLKL, but even phospho-MLKL should ideally be combined with genetic or pharmacological dependency experiments.
+
+For pyroptosis, validation requires demonstration of appropriate gasdermin cleavage and gasdermin dependency. Mutating the aspartic acid in the GsdmD linker prevents cleavage, keeps GsdmD inactive, and blocks pyroptotic pore formation [54].
+
+For ferroptosis, strong evidence includes GPX4 loss or inhibition, dependence on iron and phospholipid peroxidation, rescue with ferroptosis-suppressing radical-trapping agents such as ferrostatin- or liproxstatin-class compounds, and direct measurement of oxidized phospholipids [13-17]. General ROS measurements alone are insufficient.
+
+For MPT-dependent necrosis, validation requires direct assessment of mitochondrial permeability transition. Live-cell imaging is valuable across modalities because it reveals temporal order: pathway activation → membrane or organelle injury → attempts at repair → irreversible collapse.
+
+ESCRT manipulation can further distinguish initial membrane injury from terminal commitment in membrane-damaging forms of regulated necrosis [30-33,60].
+
+No transcriptomic signature alone can demonstrate active regulated necrosis. Expression of RIPK3, MLKL, gasdermins, GPX4, ACSL4, PPIF, inflammatory genes, or related pathway components can identify pathway competence or a regulated-necrosis-associated transcriptional state, but it cannot establish that the corresponding death mechanism was executed.
+
+## 11. Molecular Hierarchy
+
+Because regulated necrosis is a category, the molecular hierarchy must be represented as parallel branches.
+
+Necroptosis:
+initiators/sensors = TNFR1 and other death receptors, TLR3/4–TRIF, ZBP1, and context-dependent upstream signals → transducers = RIPK1 where required and RIPK3 → core execution machinery = RIPK3-dependent MLKL phosphorylation and oligomerization → executor = membrane-associated activated MLKL → negative regulators = RIPK1 ubiquitination/survival signaling, cIAP1/2, LUBAC-associated machinery, TAK1, caspase-8/cFLIPL, and ESCRT-mediated membrane repair → biomarkers = phospho-MLKL, necrosome-associated signaling, membrane translocation and necrotic membrane injury.
+
+Pyroptosis:
+initiators/sensors = inflammasome sensors or cytosolic LPS-sensing inflammatory caspases → transducers = inflammasome adaptors and inflammatory caspases → core execution machinery = activated gasdermins → executor = membrane-inserted gasdermin N-terminal oligomers → negative regulators = gasdermin autoinhibition and membrane-repair systems → biomarkers = cleaved gasdermins, membrane pores, cytokine release, swelling and membrane-dye uptake.
+
+Ferroptosis:
+initiating state = cystine/GSH/GPX4 failure, iron accumulation and oxidizable PUFA-phospholipid availability → propagation machinery = iron-driven phospholipid-radical chemistry → core lethal mechanism = uncontrolled phospholipid peroxidation → universal dedicated protein executor = not established → negative regulators = system xc−/GSH/GPX4 and FSP1/CoQ10/NAD(P)H → biomarkers = oxidized phospholipids and pathway-specific lipid-peroxidation readouts.
+
+MPT-dependent necrosis:
+initiators = severe Ca2+ and ROS stress → mitochondrial regulatory machinery = CypD, ANT-family proteins and associated mPTP components → core execution machinery = sustained mPTP opening → terminal lesion = mitochondrial depolarization, swelling and ATP collapse → negative regulators = mechanisms limiting mPTP opening and mitochondrial stress → biomarkers = reduced mitochondrial Ca2+-retention capacity, depolarization and mitochondrial swelling.
+
+NINJ1 was previously identified as an executioner of plasma membrane rupture during secondary necrosis, pyroptosis and necroptosis of BMDMs, but its contribution to plasma membrane permeabilization is cell- and trigger-dependent [37].
+
+## 12. Integrated Canonical Sequence
+
+Because regulated necrosis does not possess one canonical molecular route, its shared architecture is:
+
+cellular stress, ligand exposure, infection, metabolic failure, oxidative injury, or organelle dysfunction → activation of a route-specific sensor or loss of a route-specific protective system → assembly or activation of dedicated execution machinery → amplification through kinase signaling, protein pore formation, lipid-radical propagation, or mitochondrial permeability transition → progressive membrane, ionic, redox, or energetic dysfunction → engagement of cellular repair mechanisms where available → injury exceeding repair capacity → irreversible loss of homeostatic compartmentalization → necrotic membrane failure and cell death.
+
+The major established branch of regulated necrosis is necroptosis: TNF/death-receptor, TRIF, ZBP1, or related input leads to RIPK1-dependent or RIPK1-independent activation of RIPK3, forming the necrosome; RIPK3 then phosphorylates MLKL, causing MLKL oligomerization and membrane translocation, membrane permeabilization, ionic imbalance and swelling, membrane injury exceeding ESCRT repair, and terminal membrane rupture with DAMP release [47].
+
+Pyroptosis:
+PAMP/DAMP sensing or cytosolic LPS → inflammatory caspase activation → gasdermin cleavage → gasdermin N-terminal pore formation → ionic disequilibrium and swelling → membrane damage exceeding repair → terminal lytic death [9-12,31].
+
+Ferroptosis:
+cystine/GSH/GPX4 defense failure plus available iron and PUFA-phospholipids → phospholipid hydroperoxide accumulation → iron-dependent lipid-radical propagation → membrane oxidative damage → osmotic and membrane dysfunction → irreversible ferroptotic death [13-17,40].
+
+MPT-dependent necrosis: Ca2+ and ROS overload promote pathological mPTP opening, leading to mitochondrial depolarization, mitochondrial swelling, and oxidative-phosphorylation failure, which cause ATP collapse and Ca2+ dysregulation, resulting in irreversible energetic failure and necrotic cell death [44].
+
+## 13. Final Mechanistic Interpretation
+
+For RCDome, regulated necrosis should be operationally defined as an established RCD-related category encompassing mechanistically regulated cell-death modalities that terminate in necrotic loss of cellular homeostasis and plasma-membrane integrity [1-4].
+
+It should not be described as a single pathway and should not be equated with necroptosis.
+
+Necroptosis, pyroptosis, ferroptosis, and MPT-dependent necrosis illustrate the fundamental mechanistic diversity contained within this category. Ferroptosis is an iron-dependent form of cell death characterized by lipid peroxidation, pyroptosis is mediated by gasdermin-induced membrane pore formation, and necroptosis is a regulated necrotic process involving RIPK3 and MLKL [52].
+
+The common denominator is therefore not the upstream trigger or executor but regulated progression toward irreversible homeostatic collapse.
+
+A second important conceptual point is that regulated necrotic execution can remain reversible after relatively late biochemical events. Membrane injury can trigger calcium influx that recruits ESCRT-III to the damage site, promoting membrane repair and shedding of the injured part to restore membrane integrity [50]. The strongest shared commitment criterion is reached when damage exceeds cellular repair capacity.
+
+The final necrotic phenotype often includes cellular swelling, membrane permeabilization or rupture, release of intracellular DAMPs, and inflammatory consequences. None of these features alone identifies the specific regulated necrotic modality.
+
+For RCDome analyses based on RNA expression, regulated necrosis should therefore be represented as a regulated-necrosis-associated transcriptional state or pathway competence unless pathway-specific execution has been demonstrated experimentally. Expression of RIPK3/MLKL, gasdermins, ferroptosis genes, or mPTP-associated genes cannot establish active regulated necrosis.
+
+The major unresolved question is whether terminal plasma-membrane rupture across different regulated necrotic modalities is controlled entirely by route-specific executors or whether broader shared rupture machinery participates downstream. Whether SIGLEC12 is the sole mediator of plasma membrane rupture during necroptosis or whether NINJ1 also contributes, possibly in a tissue-specific, cell-type-specific, or necroptosis-inducing trigger-specific manner, remains to be determined [39].
+

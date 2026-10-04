@@ -29,6 +29,9 @@ server <- function(input, output, session) {
   # ── RCD Grid module (Aba RCD Pathways) ──────────────────────────────
   mod_rcd_grid_server("rcd_grid")
 
+  # ── RCD Entity Definitions (separate sub-module) ─────────────────
+  mod_rcd_entities_server("rcd_entities")
+
   # ── Operational Definitions module ──────────────────────────────
   mod_od_server("od")
 
@@ -38,7 +41,7 @@ server <- function(input, output, session) {
   # ── Omic module (Aba Omic) ──────────────────────────────────────
   mod_gene_catalog_server("gene_catalog")
 
-  # ── Chat module (RCDchat tab) — standalone (context wired to V026 later) ──
+  # ── Chat module (RCDchat tab) — standalone (context wired to V027 later) ──
   # ── Digital Molecular RCD Board (synthesis) + nested RCDome Q&A AI submodule ──
   board_reactive <- reactiveVal(NULL)
   mod_board_server("board", board_reactive)
@@ -634,7 +637,7 @@ server <- function(input, output, session) {
         blastula::compose_email(body = blastula::md(body)),
         to = "quique@uenf.br",
         from = smtp_user,
-        subject = "NEW RCDome",
+        subject = if (name != "") paste0("New comment from ", name, " (RCDome)") else "New comment from RCDome",
         credentials = blastula::creds_envvar(
           user = smtp_user,
           pass_envvar = "SMTP_PASS",

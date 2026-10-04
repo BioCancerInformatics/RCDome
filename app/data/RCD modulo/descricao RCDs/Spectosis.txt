@@ -1,0 +1,352 @@
+# Spectosis
+
+## 1. Definition and Classification
+
+Spectosis is a proposed, emerging form of regulated lytic death of mature red blood cells associated with complement-mediated hemolysis. Activated complement mediates intracellular assembly of a miniNLRP3-ASC-caspase-8 complex in human mature red blood cells, leading to proteolysis of β-spectrin and breakdown of cytoskeletal structures [2].
+
+At present, spectosis should not be considered a consensus-established regulated cell death modality. Its defining upstream machinery remains actively disputed. In particular, subsequent studies of primary human paroxysmal nocturnal hemoglobinuria erythrocytes have challenged the requirement for NLRP3 and caspase-8 and instead support a mechanism in which complement membrane attack complex formation causes Ca²⁺ influx, activation of calpain, and proteolysis of β-spectrin and associated membrane-skeletal components [4-5].
+
+Thus, the most defensible classification for RCDome is emerging/provisional RBC-restricted regulated cell death modality.
+
+The most mechanistically stable feature across the competing models is not NLRP3 itself but complement-triggered destruction of the erythrocyte membrane skeleton. Spectrin, together with ankyrin, band 3, actin, protein 4.1R, adducin, and associated proteins, mechanically couples the plasma membrane to the underlying cytoskeletal network and is essential for erythrocyte deformability and membrane cohesion [6-11,35]. Proteolytic disruption of this network therefore provides a plausible direct route from membrane injury to catastrophic hemolysis.
+
+Spectosis must also be distinguished from eryptosis. Eryptosis is generally characterized by Ca²⁺-associated phosphatidylserine exposure, membrane scrambling, and cell shrinkage and can facilitate erythrocyte clearance without immediate intravascular lysis [12-13]. Spectosis, by contrast, has been proposed to explain rapid complement-associated destruction of the erythrocyte membrane skeleton and frank hemolysis.
+
+Spectosis is also mechanistically distinct from pyroptosis because no gasdermin pore-forming executor has been demonstrated in the proposed RBC pathway, and from classical apoptosis because mature erythrocytes lack the mitochondrial apoptotic machinery required for canonical intrinsic apoptosis despite retaining selected caspases [14].
+
+## 2. Initiation and Triggers
+
+The best-supported initiating event is activation of the terminal complement pathway on the erythrocyte surface.
+
+Complement activation leads to sequential assembly of C5b, C6, C7, C8, and C9 into the C5b-9 membrane attack complex, or MAC [15-19]. C5b-7 associates with the membrane, C8 promotes deeper membrane insertion, and C9 polymerization completes a transmembrane pore-forming structure.
+
+Structural analyses indicate that MAC forms an irregular β-barrel-like lesion within the lipid bilayer [17-19]. Formation of the first membrane-inserted C9 unit represents an important kinetic step in productive pore assembly [18].
+
+The most secure initiating sequence can therefore be expressed as:
+
+complement activation → C5b-9 assembly → MAC insertion into the erythrocyte membrane → membrane permeability change → Na⁺, K⁺, Ca²⁺, water, and osmotic disturbances.
+
+At this point, the mechanistic models diverge.
+
+In the original spectosis model, complement-associated membrane injury produces K⁺ efflux, which is proposed to activate an erythrocyte-associated miniNLRP3 system. miniNLRP3 then interacts with ASC and caspase-8, forming multiple intracellular signaling assemblies rather than a conventional large inflammasome-associated ASC speck [1-3].
+
+The proposed sequence is:
+
+MAC-associated ionic disturbance → K⁺ efflux → miniNLRP3 activation → ASC recruitment → caspase-8 activation.
+
+ASC is proposed to serve as an adaptor between NLRP3 and caspase-8 [22]. However, extrapolation from nucleated cells cannot by itself establish that the same machinery executes erythrocyte death.
+
+The competing model removes NLRP3 from the causal chain:
+
+MAC formation → Ca²⁺ influx → activation of membrane-associated calpain → proteolysis of β-spectrin and additional membrane-skeletal proteins [4].
+
+This alternative is consistent with older complement biology demonstrating that sublytic C5b-9 produces transient erythrocyte membrane permeability, ionic fluxes, and Ca²⁺-dependent responses [23-24,36].
+
+Therefore, complement/MAC is currently the most firmly supported upstream trigger, whereas the identity of the intracellular sensor and protease pathway remains unresolved.
+
+## 3. Core Mechanistic Machinery
+
+The central structural substrate of spectosis is the erythrocyte membrane skeleton.
+
+Mature erythrocytes depend on a spectrin-based lattice positioned immediately beneath the plasma membrane. Spectrin heterodimers self-associate into tetramers at the spectrin-actin junctional complex to form a hexagonal lattice [32].
+
+This lattice is vertically coupled to the membrane through protein complexes containing ankyrin, band 3, protein 4.1R, adducin, and other interaction partners [7-11].
+
+These associations serve several essential functions: they preserve the characteristic biconcave erythrocyte shape, maintain membrane surface area, distribute mechanical forces, permit extreme deformation during microvascular transit, and prevent uncontrolled membrane fragmentation.
+
+Genetic disruption of spectrin or its membrane attachments causes loss of membrane cohesion, vesiculation, spherocytic deformation, reduced mechanical stability, and hemolysis [6,9,25]. This provides strong independent evidence that severe spectrin-network disruption can itself be mechanically catastrophic.
+
+The original spectosis model adds an intracellular signaling module upstream of this structural machinery:
+
+miniNLRP3 → ASC → caspase-8 → β-spectrin cleavage [1-3].
+
+In this model, caspase-8 functions not primarily as an apoptotic protease but as the direct proteolytic executor responsible for dismantling the spectrin cytoskeleton.
+
+However, the competing human PNH model instead identifies calpain as the relevant protease downstream of MAC-mediated Ca²⁺ influx [4].
+
+The alternative sequence is:
+
+MAC pore → increased intracellular Ca²⁺ → calpain activation and membrane recruitment → β-spectrin and associated skeletal-protein proteolysis.
+
+Therefore, the membrane-skeleton target is substantially better supported than the identity of the upstream protease.
+
+## 4. Propagation and Amplification
+
+Spectosis appears to propagate through coupling between membrane-pore injury, ionic imbalance, protease activation, and progressive mechanical destabilization.
+
+MAC initially creates a membrane permeability defect. Depending on pore abundance and cellular responses, this defect may remain sublytic or progress toward terminal hemolysis [15,23-24,33].
+
+Na⁺ entry and K⁺ loss alter osmotic and electrochemical homeostasis, while Ca²⁺ entry provides an especially important regulatory signal [23-24,36].
+
+Under the proposed miniNLRP3 model, K⁺ depletion promotes NLRP3-associated signaling and activation of caspase-8 [1-3].
+
+Under the competing model, elevated cytosolic Ca²⁺ directly activates calpain [4].
+
+Both models converge on proteolytic damage to the spectrin-associated membrane skeleton.
+
+Once spectrin linkages are disrupted, membrane deformation becomes progressively harder to distribute across the cell surface. Local bilayer stress therefore increases, which should favor additional deformation, membrane loss, vesiculation, and fragmentation.
+
+Loss of band 3–ankyrin–spectrin coupling further decreases membrane-skeleton cohesion [7-11,34].
+
+This produces a potential positive-feedback architecture:
+
+MAC injury → ionic disturbance → protease activation → spectrin-network damage → reduced membrane mechanical resistance → increased susceptibility to osmotic/shear deformation → additional membrane failure.
+
+The amplification process is therefore fundamentally mechanical as well as biochemical.
+
+## 5. Protective/Negative Regulators
+
+Protection can operate before MAC formation and after sublytic pore formation.
+
+CD59 and other surface complement regulators limit terminal complement assembly. Loss of effective complement regulation markedly increases erythrocyte susceptibility to MAC-mediated injury, as illustrated by complement-sensitive erythrocytes in PNH .
+
+Once MAC has inserted, erythrocytes are not necessarily committed to death.
+
+Sublytic C5b-9 can trigger Ca²⁺-dependent membrane responses that enable cells to remove damaged membrane regions and survive [23-24,26].
+
+A particularly important erythrocyte defense is membrane vesiculation. C5b-9-enriched membrane domains can be released in extracellular vesicles, thereby physically removing complement lesions from the plasma membrane [26].
+
+This process provides direct evidence that initial MAC formation is not synonymous with irreversible hemolysis.
+
+More generally, membrane pore injury can activate phospholipid scrambling, blebbing, vesicle release, and membrane-repair responses involving proteins such as TMEM16F [27]. Whether the complete TMEM16F-associated repair architecture operates specifically during spectosis remains insufficiently established.
+
+In the calpain model, endogenous restriction of Ca²⁺-dependent proteolysis would also be expected to influence susceptibility. The supplied synthesis identifies calpastatin as a potential negative regulator of calpain-dependent execution, but its specific role in spectosis has not yet been established sufficiently to consider it a defining pathway component.
+
+Thus, the best-supported negative regulatory hierarchy is:
+
+complement regulation → restriction of MAC formation → Ca²⁺-dependent membrane adaptation/vesiculation → removal of membrane lesions → survival.
+
+## 6. Commitment / Point of No Return
+
+No experimentally established universal point of no return has yet been defined for spectosis.
+
+MAC formation alone is insufficient because erythrocytes can survive sublytic complement attack [23,26,36].
+
+Early membrane permeabilization and ionic flux should therefore be regarded as potentially reversible.
+
+A more defensible commitment model is based on competition between membrane damage and membrane repair.
+
+At low or intermediate MAC burden:
+
+MAC insertion → ionic disturbance → Ca²⁺-dependent adaptive responses → vesiculation and removal of C5b-9-containing membrane → restoration of membrane integrity → survival.
+
+At higher damage burden:
+
+persistent pore injury → sustained ionic disturbance → protease activation → progressive cleavage of spectrin-associated structures → failure of membrane-skeleton cohesion → irreversible hemolysis.
+
+The likely point of no return is therefore not NLRP3 activation, caspase-8 activation, Ca²⁺ entry, or initial β-spectrin cleavage individually.
+
+Instead, commitment is most plausibly reached when membrane-skeletal damage exceeds the level at which the lipid bilayer can remain mechanically coupled to the underlying spectrin network.
+
+Once a sufficient fraction of spectrin–ankyrin–band 3-associated linkages is destroyed, the erythrocyte can no longer withstand osmotic or mechanical forces required to retain hemoglobin within the membrane.
+
+This remains an operational model rather than an experimentally fixed molecular threshold.
+
+## 7. Execution and Terminal Cause of Death
+
+The physical execution mechanism of spectosis is most defensibly described as complement pore injury followed by protease-dependent destruction of the erythrocyte membrane skeleton.
+
+The identity of the executional protease remains disputed.
+
+In the original model, active caspase-8 directly cleaves β-spectrin downstream of miniNLRP3–ASC signaling [1-3]. In this interpretation, caspase-8 is the immediate molecular executor and β-spectrin is the critical structural substrate.
+
+The sequence is:
+
+miniNLRP3–ASC assembly → caspase-8 activation → β-spectrin cleavage → disruption of the spectrin–actin lattice → loss of membrane mechanical stability → hemolysis.
+
+The alternative sequence is:
+
+MAC → Ca²⁺ influx → calpain activation → proteolysis of spectrin and associated skeletal proteins → membrane-skeleton collapse → hemolysis.
+
+These mechanisms should not currently be collapsed into a single established pathway.
+
+Importantly, MAC itself also produces a physical membrane lesion. The available evidence therefore supports a two-component concept of terminal injury:
+
+primary membrane pore formation plus secondary structural collapse of the supporting cytoskeleton.
+
+The immediate terminal event is loss of sufficient membrane cohesion to retain intracellular hemoglobin.
+
+Once the membrane and underlying skeleton can no longer withstand osmotic and mechanical stress, hemoglobin escapes and a membrane ghost remains.
+
+Ghost formation is therefore a terminal consequence of erythrocyte lysis rather than the molecular executor itself.
+
+## 8. Morphological Sequence
+
+The inferred morphological progression begins with a normal biconcave erythrocyte supported by an intact spectrin-based membrane skeleton.
+
+Following complement activation, C5b-9 accumulates within the plasma membrane and creates localized membrane permeability defects.
+
+Early sublytic injury may occur without gross destruction and may instead be accompanied by vesiculation and shedding of membrane domains [23,26].
+
+If damage progresses, ionic disequilibrium and protease activity promote disruption of the spectrin network and its membrane attachments.
+
+The erythrocyte progressively loses its ability to maintain the normal distribution of mechanical tension across the membrane.
+
+This is expected to produce membrane deformation, altered shape, local fragmentation, loss of membrane surface, and increasing mechanical instability.
+
+Terminally:
+
+membrane-skeleton failure → catastrophic membrane disruption → bulk hemoglobin release → residual erythrocyte ghost.
+
+Experimental analyses of erythrocyte hemolysis support rapid bulk hemoglobin expulsion during terminal membrane failure [28].
+
+These changes should not be confused with the canonical morphology of eryptosis.
+
+Similarly, erythrocyte ghost formation demonstrates lysis but does not specify whether the upstream protease was caspase-8, calpain, or another mechanism.
+
+## 9. Crosstalk and Differential Diagnosis
+
+Spectosis must first be distinguished from direct complement-mediated osmotic lysis.
+
+The traditional interpretation of complement-associated hemolysis emphasizes physical MAC pore formation as sufficient for erythrocyte rupture.
+
+The spectosis model proposes that, after pore formation in the plasma membrane, intracellular events including proteolytic degradation of the spectrin cytoskeleton contribute to terminal cell lysis [2].
+
+The competing calpain model does not necessarily reject this broader concept. Thus, the current controversy is not simply “regulated death versus MAC.” It concerns which post-MAC intracellular events are necessary for hemolysis.
+
+Spectosis must also be distinguished from eryptosis.
+
+Eryptosis commonly involves Ca²⁺-dependent activation of membrane scrambling, phosphatidylserine externalization, K⁺ loss, cell shrinkage, and subsequent erythrocyte clearance [12-13]. Spectosis is proposed as rapid complement-associated lysis involving membrane-skeleton destruction.
+
+Spectosis should not be classified as pyroptosis merely because NLRP3 appears in the original model. No gasdermin-mediated execution mechanism has been demonstrated.
+
+Similarly, the participation of caspase-8 would not make spectosis classical apoptosis. Mature erythrocytes lack nuclei and the mitochondrial regulatory machinery required for conventional intrinsic apoptosis [14].
+
+No evidence in the supplied material establishes MLKL as a spectosis executor, excluding a conventional necroptotic mechanism.
+
+NLRP3-associated biology nevertheless provides mechanistic context. In nucleated cells, NLRP3 can interact with caspase-8-containing signaling systems, and complement-dependent ionic flux can activate NLRP3 pathways [20-22,29]. These observations establish plausibility but not proof of the erythrocyte-specific mechanism.
+
+## 10. Experimental Validation
+
+Because spectosis remains controversial, validation must distinguish complement-dependent hemolysis from the proposed intracellular execution pathway.
+
+The first requirement is demonstration of complement dependency.
+
+This can include detection of C5b-9 deposition, manipulation of terminal complement components, pharmacological or genetic complement inhibition, and measurement of hemoglobin release or erythrocyte lysis [4,15,30].
+
+The second requirement is demonstration of membrane-skeleton destruction.
+
+β-spectrin fragmentation should be detected biochemically, ideally together with analysis of ankyrin, band 3, or other associated membrane-skeletal components.
+
+However, β-spectrin fragmentation alone does not identify the protease responsible.
+
+Testing the original spectosis model requires demonstration that NLRP3 and caspase-8 are present and functionally activated in mature RBCs under the relevant experimental conditions.
+
+Evidence should include:
+
+NLRP3 detection → ASC association → caspase-8 recruitment/activation → β-spectrin cleavage → hemolysis.
+
+Causal perturbation should show that selective inhibition or loss of NLRP3, ASC, or caspase-8 prevents β-spectrin cleavage and reduces hemolysis without simply blocking upstream complement deposition.
+
+The original 2025 study reported protection by NLRP3- and caspase-8-targeting interventions in experimental systems and identified the proposed pathway in complement-associated hemolytic contexts [1-3].
+
+However, primary human PNH erythrocytes generated contradictory results. In these experiments, complement inhibition protected cells, whereas NLRP3 inhibition, pan-caspase inhibition, and caspase-8 inhibition did not prevent hemolysis; NLRP3 protein and functional caspase-8 activation were also not detected [4-5].
+
+Testing the alternative model requires:
+
+MAC deposition → Ca²⁺ influx → calpain activation → β-spectrin fragmentation → hemolysis.
+
+Ca²⁺ manipulation and calpain-selective inhibition should suppress skeletal proteolysis and hemolysis without preventing MAC deposition if calpain acts downstream.
+
+Proteolytic-fragment analysis may further distinguish caspase-dominated from calpain-dominated spectrin processing because different proteases can generate characteristic spectrin breakdown products [31].
+
+The strongest future evidence would therefore involve side-by-side testing of both mechanisms in the same primary human erythrocyte preparations.
+
+## 11. Molecular Hierarchy
+
+Current evidence supports a hierarchy with established, emerging, and disputed components.
+
+Established upstream initiator:
+complement activation.
+
+Established membrane effector:
+C5b-9 membrane attack complex.
+
+Established first cellular consequences:
+plasma-membrane permeabilization and ionic flux involving Na⁺, K⁺, and Ca²⁺.
+
+Proposed sensor:
+miniNLRP3 sensing of MAC-associated ionic disturbance.
+
+Proposed scaffold:
+ASC.
+
+Proposed protease transducer/executor:
+caspase-8.
+
+Competing protease executor:
+Ca²⁺-activated calpain.
+
+Core structural target:
+β-spectrin-centered membrane skeleton.
+
+Associated structural components:
+α-spectrin, actin junctions, ankyrin, band 3, protein 4.1R, adducin, and related membrane-cytoskeleton linkages.
+
+Physical execution mechanism:
+progressive loss of membrane-skeleton cohesion following proteolytic degradation.
+
+Protective regulators:
+surface complement regulators such as CD59, Ca²⁺-dependent vesiculation, shedding of C5b-9-containing membrane, and potentially broader pore-repair mechanisms.
+
+Terminal outcome:
+loss of erythrocyte membrane integrity, hemoglobin release, and ghost formation.
+
+Biomarkers:
+C5b-9 deposition, β-spectrin cleavage products, hemoglobin release, and ghost formation.
+
+None of these biomarkers alone proves the miniNLRP3–caspase-8 mechanism.
+
+## 12. Integrated Canonical Sequence
+
+Because the upstream intracellular executor remains disputed, spectosis should not currently be represented with one uncontested canonical sequence.
+
+The most defensible shared sequence is:
+
+complement activation on the erythrocyte surface → terminal complement assembly → C5b-9 MAC insertion → membrane permeability → Na⁺/K⁺/Ca²⁺ disequilibrium → competition between membrane repair and persistent injury.
+
+If membrane repair succeeds:
+
+sublytic MAC injury → Ca²⁺-dependent adaptive signaling → vesiculation and shedding of MAC-containing membrane → preservation of membrane-skeleton integrity → erythrocyte survival.
+
+If injury exceeds repair capacity:
+
+persistent MAC injury → downstream protease activation → β-spectrin-centered membrane-skeleton proteolysis → disruption of spectrin–ankyrin–band 3 mechanical coupling → loss of deformability and membrane cohesion → inability to withstand osmotic/mechanical forces → hemoglobin escape → erythrocyte ghost formation → irreversible hemolysis.
+
+In human mature red blood cells, complement activation forms MAC and activates intracellular miniNLRP3, leading to assembly of apoptosis-associated speck-like protein and caspase-8, and active caspase-8 hydrolyses β-spectrin, compromising the cytoskeleton and inducing haemoglobin release and cellular ghost formation, a process termed spectosis [2].
+
+The competing human PNH branch is:
+
+complement → MAC → Ca²⁺ influx → calpain activation → β-spectrin and associated skeletal-protein cleavage → membrane-skeleton collapse → hemolysis [4].
+
+At present, the first sequence should be labeled proposed rather than canonical, whereas the second represents a competing mechanistic explanation supported in primary human PNH erythrocytes.
+
+## 13. Final Mechanistic Interpretation
+
+For RCDome, spectosis should be presented as an emerging/provisional erythrocyte-restricted regulated lytic death mechanism proposed in 2025.
+
+Its defining biological context is complement-associated red blood cell destruction.
+
+The strongest mechanistic sequence begins with complement activation and C5b-9 membrane attack complex formation. Terminal death appears to require progression beyond this repairable state.
+
+The most robust downstream concept is proteolytic destabilization of the erythrocyte membrane skeleton, particularly β-spectrin-associated mechanical architecture. Destruction of this network uncouples the lipid bilayer from its structural support, compromises deformability and membrane cohesion, and ultimately prevents the erythrocyte from retaining hemoglobin under osmotic and mechanical stress.
+
+The identity of the protease connecting MAC injury to skeletal collapse remains unresolved.
+
+The original spectosis model proposes:
+
+K⁺ loss → miniNLRP3–ASC complex → caspase-8 → β-spectrin cleavage.
+
+However, this pathway cannot currently be considered universal because primary human PNH studies failed to demonstrate functional dependence on NLRP3 or caspase-8 and instead support:
+
+Ca²⁺ influx → calpain → β-spectrin cleavage.
+
+Accordingly, caspase-8 should be described as the proposed spectosis executor, whereas calpain represents a competing executor with direct support in human PNH erythrocytes.
+
+The point of no return is also not established molecularly. A defensible operational boundary is reached when MAC-associated injury and proteolytic destruction overwhelm vesiculation/repair and sever sufficient membrane-skeletal connections to produce irreversible mechanical failure.
+
+The terminal physical cause of death is therefore loss of erythrocyte membrane-skeleton integrity followed by hemoglobin release and hemolysis, rather than NLRP3 activation itself.
+
+For RCDome, β-spectrin fragmentation and erythrocyte ghost formation should be considered mechanistically relevant readouts but not independently diagnostic biomarkers of the miniNLRP3–caspase-8 pathway.
+
+The central unresolved question is whether spectosis ultimately becomes validated as a distinct miniNLRP3–ASC–caspase-8 regulated cell death pathway or whether the observed phenotype is better explained, at least in major human disease contexts, by MAC-triggered Ca²⁺–calpain-dependent cytoskeletal destruction.

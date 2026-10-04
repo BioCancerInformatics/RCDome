@@ -1,0 +1,37 @@
+[1] Wang Y, Lu J, Carisey AF, et al. Innate immune and metabolic signals induce mitochondria-dependent membrane lysis via mitoxyperiosis. Cell. 2025;188:7155–7174.e25. DOI: **10.1016/j.cell.2025.11.002**.
+
+[2] Lefkopoulos S. Mitoxyperilysis as a distinct cell death type. Nature Cell Biology. 2026;28:1. DOI: **10.1038/s41556-025-01861-0**.
+
+[3] Chen Z, Xu D. Mitochondria at the membrane provide a route to inflammatory cell death. Cell Metabolism. 2026;38:260–262. DOI: **10.1016/j.cmet.2025.12.019**.
+
+[4] Wen CY, Wu MY, Tsai AP, Yong SB, Li CJ. Mitoxyperilysis: Rethinking oxidative stress as a spatially constrained lethal signal. International Journal of Biological Sciences. 2026;22:4139–4143. DOI: **10.7150/ijbs.130535**.
+
+[5] Li M, Niu Y, Jiao P. Mitoxyperilysis: A Milestone Discovery in the Field of Cell Death. MedComm – Future Medicine. 2026. DOI: **10.1002/mef2.70048**.
+
+[6] Wang Y, Lu J, Carisey AF, et al. Discovery of a novel innate immune cell death pathway, mitoxyperilysis. Journal of Immunology. 2026. DOI: **10.1093/jimmun/vkag141.200**.
+
+[7] Im S, Yang D, Kim W, Kim JW. Mitoxyperiosis: A Novel Mitochondria-Driven Cell Death Mechanism in Immunometabolic Stress. Cell Biology International. 2026;50. DOI: **10.1002/cbin.70200**.
+
+[8] Al-Zidan R, Gautam M, Man S. Mitoxyperilysis: fasting-induced cell death in immunometabolism and disease. Trends in Biochemical Sciences. 2026. DOI: **10.1016/j.tibs.2026.01.005**.
+
+[9] Dixon SJ, Olzmann JA. The cell biology of ferroptosis. Nature Reviews Molecular Cell Biology. 2024;25:424–442. DOI: **10.1038/s41580-024-00703-5**.
+
+[10] Fearnhead HO, Vandenabeele P, Vanden Berghe T. How do we fit ferroptosis in the family of regulated cell death? Cell Death & Differentiation. 2017;24:1991–1998. DOI: **10.1038/cdd.2017.149**.
+
+[11] Ai Y, Meng Y, Yan B, Zhou Q, Wang X. The biochemical pathways of apoptotic, necroptotic, pyroptotic, and ferroptotic cell death. Molecular Cell. 2024;84:170–179. DOI: **10.1016/j.molcel.2023.11.040**.
+
+[12] Robichaux DJ, Harata M, Murphy EV, Karch J. Mitochondrial Permeability Transition Pore-Dependent Necrosis. Journal of Molecular and Cellular Cardiology. 2022;174:47–55. DOI: **10.1016/j.yjmcc.2022.11.003**.
+
+[13] Bonora M, Patergnani S, Ramaccini D, et al. Physiopathology of the Permeability Transition Pore: Molecular Mechanisms in Human Pathology. Biomolecules. 2020;10. DOI: **10.3390/biom10070998**.
+
+[14] Zhong Y, Peng J, Peng Q. Autophagy–Ferroptosis Crosstalk in Dry Eye Disease: Context-Dependent Regulation of Ocular Surface Homeostasis. *Cells*. 2026;15:1542. doi: **10.3390/cells15171542**.
+
+[15] Zhong H, Pan R, Ouyang Y, et al. Targeting mitochondrial homeostasis as a cancer treatment strategy: current status and future prospects. *Molecular Cancer*. 2026;25. doi: **10.1186/s12943-026-02571-3**.
+
+[16] Sinha B. Ferroptosis Resistance: Redundant Antioxidant Networks Are a Barrier to Cancer Therapy. *Antioxidants*. 2026;15:860. doi: **10.3390/antiox15070860**.
+
+[17] Ding X, Ji C, Chen G, et al. Regulated Cell Death in Calcium Oxalate Stone Disease: From Tubular Epithelial Injury to Inflammatory Amplification. *Journal of Inflammation Research*. 2026;Volume 19:1-14. doi: **10.2147/jir.s616472**.
+
+[18] Zhou Y, Fang J, Fei L, et al. A Mitoxyperilysis-Related Single-Cell and Machine-Learning Framework Defines an Immune-Cold Melanoma Phenotype and a Robust Prognostic Signature. Human Mutation. 2026. DOI: **10.1155/humu/9909803**.
+
+[19] Lv T, Fan X, He C, et al. SLC7A11-ROS/αKG-AMPK axis regulates liver inflammation through mitophagy and impairs liver fibrosis and NASH progression. Redox Biology. 2024;72. DOI: **10.1016/j.redox.2024.103159**.

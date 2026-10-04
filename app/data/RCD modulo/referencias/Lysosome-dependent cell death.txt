@@ -1,1 +1,89 @@
-Morte celular dependente de lisossomos: morte celular dependente da permeabilização dos lisossomos e da liberação de catepsinas. Envolve enzimas lisossomais e se sobrepõe à autofagia e à apoptose. A permeabilização lisossomal vem sendo investigada como uma vulnerabilidade potencial em células tumorais com regulação lisossomal alterada.
+[1] Wang F, Gómez-Sintes R, Boya P. Lysosomal membrane permeabilization and cell death. Traffic. 2018;19:918–931. DOI: **10.1111/tra.12613**.
+
+[2] Serrano-Puebla A, Boya P. Lysosomal membrane permeabilization as a cell death mechanism in cancer cells. Biochemical Society Transactions. 2018;46:207–215. DOI: **10.1042/BST20170130**.
+
+[3] Repnik U, Česen HM, Turk B. Lysosomal membrane permeabilization in cell death: concepts and challenges. Mitochondrion. 2014;19:49–57. DOI: **10.1016/j.mito.2014.06.006**.
+
+[4] Tang D, Kang R, Berghe TV, Vandenabeele P, Kroemer G. The molecular machinery of regulated cell death. Cell Research. 2019;29:347–364. DOI: **10.1038/s41422-019-0164-5**.
+
+[5] Giraldo AVM, Appelqvist H, Ederth T, Öllinger K. Lysosomotropic agents: impact on lysosomal membrane permeabilization and cell death. Biochemical Society Transactions. 2014;42:1460–1464. DOI: **10.1042/BST20140145**.
+
+[6] Johansson A, Appelqvist H, Nilsson C, Kågedal K, Roberg K. Regulation of apoptosis-associated lysosomal membrane permeabilization. Apoptosis. 2010;15:527–540. DOI: **10.1007/s10495-009-0452-5**.
+
+[7] Liu S, Perez P, Sun X, et al. MLKL polymerization-induced lysosomal membrane permeabilization promotes necroptosis. Cell Death & Differentiation. 2023;31:40–52. DOI: **10.1038/s41418-023-01237-7**.
+
+[8] Boya P, Andréau K, Poncet D, et al. Lysosomal membrane permeabilization induces cell death in a mitochondrion-dependent fashion. Journal of Experimental Medicine. 2003;197:1323–1334. DOI: **10.1084/jem.20021952**.
+
+[9] Chen X, He W, Hu L, et al. Pyroptosis is driven by non-selective gasdermin-D pore and its morphology is different from MLKL channel-mediated necroptosis. Cell Research. 2016;26:1007–1020. DOI: **10.1038/cr.2016.100**.
+
+[10] Brunk UT, Zhang H, Roberg K. Lethal hydrogen peroxide toxicity involves lysosomal iron-catalyzed reactions with membrane damage. Redox Report. 1995;1:267–277. DOI: **10.1080/13510002.1995.11746997**.
+
+[11] Yu Z, Persson L, Eaton JW, Brunk UT. Intralysosomal iron: a major determinant of oxidant-induced cell death. Free Radical Biology and Medicine. 2003;34:1243–1252. DOI: **10.1016/S0891-5849(03)00109-6**.
+
+[12] Lin Y, Epstein DL, Liton PB. Intralysosomal iron induces lysosomal membrane permeabilization and cathepsin D-mediated cell death in trabecular meshwork cells exposed to oxidative stress. Investigative Ophthalmology & Visual Science. 2010;51:6483–6495. DOI: **10.1167/iovs.10-5410**.
+
+[13] Terman A, Kurz T. Lysosomal iron, iron chelation, and cell death. Antioxidants & Redox Signaling. 2013;18:888–898. DOI: **10.1089/ars.2012.4885**.
+
+[14] Ullio C, Casas J, Brunk UT, et al. Sphingosine mediates TNFα-induced lysosomal membrane permeabilization and ensuing programmed cell death in hepatoma cells. Journal of Lipid Research. 2012;53:1134–1143. DOI: **10.1194/jlr.M022384**.
+
+[15] Sahara S, Yamashima T. Calpain-mediated Hsp70.1 cleavage in hippocampal CA1 neuronal death. Biochemical and Biophysical Research Communications. 2010;393:806–811. DOI: **10.1016/j.bbrc.2010.02.087**.
+
+[16] Yamashima T. Hsp70.1 and related lysosomal factors for necrotic neuronal death. Journal of Neurochemistry. 2012;120. DOI: **10.1111/j.1471-4159.2011.07596.x**.
+
+[17] Zhu H, Yoshimoto T, Yamashima T. Heat Shock Protein 70.1 affects neuronal cell fate by regulating lysosomal acid sphingomyelinase. Journal of Biological Chemistry. 2014;289:27432–27443. DOI: **10.1074/jbc.M114.560334**.
+
+[18] Karch J, Schips TG, Maliken BD, et al. Autophagic cell death is dependent on lysosomal membrane permeability through Bax and Bak. eLife. 2017;6. DOI: **10.7554/eLife.30543**.
+
+[19] Liu X, Li Z-T, Hu Y, Li T, Wang H. Pathogen-induced lysosomal membrane permeabilization: a critical interface between host defense and cell death. International Journal of Molecular Sciences. 2026;27. DOI: **10.3390/ijms27031515**.
+
+[20] Cirman T, Oresić K, Mazovec G, et al. Selective disruption of lysosomes in HeLa cells triggers apoptosis mediated by cleavage of Bid by multiple papain-like lysosomal cathepsins. Journal of Biological Chemistry. 2004;279:3578–3587. DOI: **10.1074/jbc.M308347200**.
+
+[21] Droga-Mazovec G, Bojič L, Petelin A, et al. Cysteine cathepsins trigger caspase-dependent cell death through cleavage of Bid and antiapoptotic Bcl-2 homologues. Journal of Biological Chemistry. 2008;283:19140–19150. DOI: **10.1074/jbc.M802513200**.
+
+[22] De Castro M, Bunt G, Wouters F. Cathepsin B launches an apoptotic exit effort upon cell death-associated disruption of lysosomes. Cell Death Discovery. 2016;2. DOI: **10.1038/cddiscovery.2016.12**.
+
+[23] Appelqvist H, Johansson A, Linderoth E, et al. Lysosome-mediated apoptosis is associated with cathepsin D-specific processing of Bid at Phe24, Trp48, and Phe183. Annals of Clinical and Laboratory Science. 2012;42:231–242. PMID: 22964611.
+
+[24] Oberle C, Huai J, Reinheckel T, et al. Lysosomal membrane permeabilization and cathepsin release is a Bax/Bak-dependent, amplifying event of apoptosis in fibroblasts and monocytes. Cell Death & Differentiation. 2010;17:1167–1178. DOI: **10.1038/cdd.2009.214**.
+
+[25] Xie Z, Zhao M, Yan C, et al. Cathepsin B in programmed cell death machinery: mechanisms of execution and regulatory pathways. Cell Death & Disease. 2023;14. DOI: **10.1038/s41419-023-05786-0**.
+
+[26] Kirkegaard T, Roth AG, Petersen NHT, et al. Hsp70 stabilizes lysosomes and reverts Niemann–Pick disease-associated lysosomal pathology. Nature. 2010;463:549–553. DOI: **10.1038/nature08710**.
+
+[27] Stahl-Meyer K, Bilgin M, Holland LK, et al. Galactosyl- and glucosylsphingosine induce lysosomal membrane permeabilization and cell death in cancer cells. PLOS ONE. 2022;17. DOI: **10.1371/journal.pone.0277058**.
+
+[28] Luke C, Markovina S, Good M, et al. Lysoptosis is an evolutionarily conserved cell death pathway moderated by intracellular serpins. Communications Biology. 2022;5. DOI: **10.1038/s42003-021-02953-x**.
+
+[29] Eriksson I, Wäster P, Öllinger K. Restoration of lysosomal function after damage is accompanied by recycling of lysosomal membrane proteins. Cell Death & Disease. 2020;11. DOI: **10.1038/s41419-020-2527-8**.
+
+[30] Niekamp P, Scharte F, Sokoya T, et al. Ca2+-activated sphingomyelin scrambling and turnover mediate ESCRT-independent lysosomal repair. Nature Communications. 2022;13. DOI: **10.1038/s41467-022-29481-4**.
+
+[31] Jia J, Claude-Taupin A, Gu Y, et al. Galectin-3 coordinates a cellular system for lysosomal repair and removal. Developmental Cell. 2019;52:69–87.e8. DOI: **10.1016/j.devcel.2019.10.025**.
+
+[32] Jia J, Abudu YP, Claude-Taupin A, et al. Galectins control mTOR in response to endomembrane damage. Molecular Cell. 2018;70:120–135.e8. DOI: **10.1016/j.molcel.2018.03.009**.
+
+[33] Chauhan S, Kumar S, Jain A, et al. TRIMs and galectins globally cooperate and TRIM16 and Galectin-3 co-direct autophagy in endomembrane damage homeostasis. Developmental Cell. 2016;39:13–27. DOI: **10.1016/j.devcel.2016.08.003**.
+
+[34] Kumar S, Chauhan S, Jain A, et al. Galectins and TRIMs directly interact and orchestrate autophagic response to endomembrane damage. Autophagy. 2017;13:1086–1087. DOI: **10.1080/15548627.2017.1307487**.
+
+[35] Settembre C, Zoncu R, Medina DL, et al. A lysosome-to-nucleus signalling mechanism senses and regulates the lysosome via mTOR and TFEB. EMBO Journal. 2012;31:1095–1108. DOI: **10.1038/emboj.2012.32**.
+
+[36] Roczniak-Ferguson A, Petit CS, Froehlich F, et al. The transcription factor TFEB links mTORC1 signaling to transcriptional control of lysosome homeostasis. Science Signaling. 2012;5:ra42. DOI: **10.1126/scisignal.2002790**.
+
+[37] Eriksson I. Dealing with damaged lysosomes: impact of lysosomal membrane stability in health and disease. Linköping University Medical Dissertations. 2022. DOI: **10.3384/9789179291792**.
+
+[38] Saimoto Y, Kusakabe D, Morimoto K, et al. Lysosomal lipid peroxidation contributes to ferroptosis induction via lysosomal membrane permeabilization. Nature Communications. 2025;16. DOI: **10.1038/s41467-025-58909-w**.
+
+[39] Cañeque T, Baron L, Carmona A, et al. Activation of lysosomal iron triggers ferroptosis in cancer. Nature. 2025;642:492–500. DOI: **10.1038/s41586-025-08974-4**.
+
+[40] Das J, Hombalkar SK, Klein AD, et al. Ferroptosis induces heterogeneous death profiles that are controlled by lysosome rupture. Developmental Cell. 2026;61:760–772.e4. DOI: **10.1016/j.devcel.2026.01.014**.
+
+[41] Tiffee PJJ, Sivasailam A, Kumar KS, et al. Time-resolved simultaneous imaging of mitochondrial reactive oxygen species and lysosomal permeabilization to determine organelle-centred cell death. Redox Report. 2026;31. DOI: **10.1080/13510002.2026.2621497**.
+
+[42] Eriksson I, Vainikka L, Persson H, et al. Real-Time Monitoring of Lysosomal Membrane Permeabilization Using Acridine Orange. *Methods and Protocols*. 2023;6:72. doi: **10.3390/mps6040072**.
+
+[43] Somodji E, Gowrishankar S. “Micro-managing” immune activation and protein turnover: microglial lysosomes in the context of health and disease. *npj Dementia*. 2026;2. doi: **10.1038/s44400-026-00086-8**.
+
+[44] Alu A, Han X, Ma X, et al. The role of lysosome in regulated necrosis. *Acta Pharmaceutica Sinica B*. 2020;10:1880-1903. doi: **10.1016/j.apsb.2020.07.003**.
+
+[45] Galluzzi L, Vitale I, Aaronson S, et al. Molecular mechanisms of cell death: recommendations of the Nomenclature Committee on Cell Death 2018. *Cell Death &amp; Differentiation*. 2018;25:486-541. doi: **10.1038/s41418-017-0012-4**.

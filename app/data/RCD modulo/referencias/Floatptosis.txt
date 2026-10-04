@@ -1,0 +1,25 @@
+1. Mao R, Pan H, Yang L, et al. **Bergeyella cardium variant induces a unique cytoplasmic vacuolization cell death floatptosis in macrophage.** *Cell Discovery*. 2025;11. **DOI: 10.1038/s41421-025-00840-x**
+
+2. Tang D, Melino G, Kroemer G. **Beyond the canon: emerging modalities of regulated cell death.** *Cell Death & Differentiation*. 2026. **DOI: 10.1038/s41418-026-01686-w**
+
+3. Deo P, Chow SH, Hay ID, et al. **Outer membrane vesicles from Neisseria gonorrhoeae target PorB to mitochondria and induce apoptosis.** *PLoS Pathogens*. 2018;14. **DOI: 10.1371/journal.ppat.1006945**
+
+4. Deo P, Chow SH, Han ML, et al. **Mitochondrial dysfunction caused by outer membrane vesicles from Gram-negative bacteria activates intrinsic apoptosis and inflammation.** *Nature Microbiology*. 2020;5:1418–1427. **DOI: 10.1038/s41564-020-0773-2**
+
+5. Dhital S, Deo P, Stuart I, Naderer T. **Bacterial outer membrane vesicles and host cell death signaling.** *Trends in Microbiology*. 2021. **DOI: 10.1016/j.tim.2021.04.003**
+
+6. Pedersen SF, Counillon L. **The SLC9A-C Mammalian Na⁺/H⁺ Exchanger Family: Molecules, Mechanisms, and Physiology.** *Physiological Reviews*. 2019;99:2015–2113. **DOI: 10.1152/physrev.00028.2018**
+
+7. Karim MA, Brett CL. **The Na⁺(K⁺)/H⁺ exchanger Nhx1 controls multivesicular body–vacuolar lysosome fusion.** *Molecular Biology of the Cell*. 2018;29:317–325. **DOI: 10.1091/mbc.e17-08-0496**
+
+8. Qiu QS, Fratti RA. **The Na⁺/H⁺ exchanger Nhx1p regulates the initiation of Saccharomyces cerevisiae vacuole fusion.** *Journal of Cell Science*. 2010;123:3266–3275. **DOI: 10.1242/jcs.067637**
+
+9. Shamroukh HS, Lone N, Akhtar M, et al. **The sodium proton exchanger NHE9 regulates phagosome maturation and bactericidal activity in macrophages.** *Journal of Biological Chemistry*. 2022;298. **DOI: 10.1016/j.jbc.2022.102150**
+
+10. Hino H, Iriyama N, Kokuba H, et al. **Abemaciclib induces atypical cell death in cancer cells characterized by formation of cytoplasmic vacuoles derived from lysosomes.** *Cancer Science*. 2020;111:2132–2145. **DOI: 10.1111/cas.14419**
+
+11. Okochi R, Nihei Y, Ito D. **NDPACX: a newly defined X-linked Parkinsonian syndrome associated with
+
+12. Maltese WA, Overmeyer JH. **Methuosis: nonapoptotic cell death associated with vacuolization of macropinosome and endosome compartments.** *American Journal of Pathology*. 2014;184:1630–1642. **DOI: 10.1016/j.ajpath.2014.02.028**
+
+13. Galluzzi L, Vitale I, Aaronson SA, et al. **Molecular mechanisms of cell death: recommendations of the Nomenclature Committee on Cell Death 2018.** *Cell Death & Differentiation*. 2018;25:486–541. **DOI: 10.1038/s41418-017-0012-4**

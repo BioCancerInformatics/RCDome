@@ -1,1 +1,73 @@
-Paraptose: morte celular não apoptótica caracterizada por vacuolização citoplasmática, distinta da apoptose. Oferece potenciais mecanismos anticâncer por meio da indução de estresse do retículo endoplasmático. Vem sendo explorada como uma forma de superar a resistência à apoptose em certos tipos de câncer.
+[1] Sperandio S, Belle I, Bredesen DE. An alternative, nonapoptotic form of programmed cell death. Proceedings of the National Academy of Sciences of the United States of America. 2000. DOI: **10.1073/pnas.97.26.14376**.
+
+[2] Sperandio S, Sperandio S, Poksay K, et al. Paraptosis: mediation by MAP kinases and inhibition by AIP-1/Alix. Cell Death and Differentiation. 2004. DOI: **10.1038/sj.cdd.4401465**.
+
+[3] Galvan V, Logvinova A, Sperandio S, et al. Type 1 Insulin-like Growth Factor Receptor (IGF-IR) Signaling Inhibits Apoptosis Signal-regulating Kinase 1. Journal of Biological Chemistry. 2003. DOI: **10.1074/jbc.M211398200**.
+
+[4] Fontana F, Raimondi M, Marzagalli M, et al. The emerging role of paraptosis in tumor cell biology: Perspectives for cancer prevention and therapy with natural compounds. Biochimica et Biophysica Acta - Reviews on Cancer. 2020. DOI: **10.1016/j.bbcan.2020.188338**.
+
+[5] Kunst C, Tümen D, Ernst M, et al. Paraptosis—A Distinct Pathway to Cell Death. International Journal of Molecular Sciences. 2024. DOI: **10.3390/ijms252111478**.
+
+[6] Xu CC, Lin YF, Huang MY, et al. Paraptosis: a non-classical paradigm of cell death for cancer therapy. Acta Pharmacologica Sinica. 2023. DOI: **10.1038/s41401-023-01159-7**.
+
+[7] Chen F, Tang H, Cai X, et al. Targeting paraptosis in cancer: opportunities and challenges. Cancer Gene Therapy. 2024. DOI: **10.1038/s41417-023-00722-y**.
+
+[8] Chang LC, Chiang SK, Chen SE, et al. Exploring paraptosis as a therapeutic approach in cancer treatment. Journal of Biomedical Science. 2024. DOI: **10.1186/s12929-024-01089-4**.
+
+[9] Kim E, Seo M, Lee H, et al. Intracellular Ca2+ Imbalance Critically Contributes to Paraptosis. Frontiers in Cell and Developmental Biology. 2021. DOI: **10.3389/fcell.2020.607844**.
+
+[10] Raimondi M, Fontana F, Marzagalli M, et al. Ca2+ overload- and ROS-associated mitochondrial dysfunction contributes to δ-tocotrienol-mediated paraptosis in melanoma cells. Apoptosis. 2021. DOI: **10.1007/s10495-021-01668-y**.
+
+[11] De La Harpe A, Beukes N, Frost C. Mitochondrial calcium overload contributes to cannabinoid-induced paraptosis in hormone-responsive breast cancer cells. Cell Proliferation. 2024. DOI: **10.1111/cpr.13650**.
+
+[12] Yokoi K, Yamaguchi K, Umezawa M, et al. Induction of Paraptosis by Cyclometalated Iridium Complex-Peptide Hybrids and CGP37157 via a Mitochondrial Ca2+ Overload Triggered by Membrane Fusion between Mitochondria and the Endoplasmic Reticulum. Biochemistry. 2022. DOI: **10.1021/acs.biochem.2c00061**.
+
+[13] Zheng Y, Fan H, Du Y, et al. Paraptosis: A methuosis-distinct vacuolar cell death. Cell Death. 2026. DOI: **10.1016/j.celld.2026.100017**.
+
+[14] Sperandio S, Poksay K, Schilling B, et al. Identification of New Modulators and Protein Alterations in Non-Apoptotic Programmed Cell Death. Journal of Cellular Biochemistry. 2010. DOI: **10.1002/jcb.22870**.
+
+[15] Wang Y, Li XT, Wang L, et al. An alternative form of paraptosis-like cell death, triggered by TAJ/TROY and enhanced by PDCD5 overexpression. Journal of Cell Science. 2004. DOI: **10.1242/jcs.00994**.
+
+[16] Nedungadi D, Binoy A, Pandurangan N, et al. Proteasomal dysfunction and ER stress triggers 2′-hydroxy-retrochalcone-induced paraptosis in cancer cells. Cell Biology International. 2020. DOI: **10.1002/cbin.11480**.
+
+[17] Seo M, Kim I, Choi M, et al. Gambogic acid triggers vacuolization-associated cell death in cancer cells via disruption of thiol proteostasis. Cell Death & Disease. 2019. DOI: **10.1038/s41419-019-1360-4**.
+
+[18] Seo M, Kim I, Lee DM, et al. Dual inhibition of thioredoxin reductase and proteasome is required for auranofin-induced paraptosis in breast cancer cells. Cell Death & Disease. 2023. DOI: **10.1038/s41419-023-05586-6**.
+
+[19] Nguyen P, Lee C, Lee H, et al. Induction of Paraptotic Cell Death in Breast Cancer Cells by a Novel Pyrazolo[3,4-h]quinoline Derivative through ROS Production and Endoplasmic Reticulum Stress. Antioxidants. 2022. DOI: **10.3390/antiox11010117**.
+
+[20] Ghosh K, De S, Das S, et al. Withaferin A Induces ROS-Mediated Paraptosis in Human Breast Cancer Cell-Lines MCF-7 and MDA-MB-231. PLOS ONE. 2016. DOI: **10.1371/journal.pone.0168488**.
+
+[21] Wang S, Guo Y, Yang C, et al. Swainsonine Triggers Paraptosis via ER Stress and MAPK Signaling Pathway in Rat Primary Renal Tubular Epithelial Cells. Frontiers in Pharmacology. 2021. DOI: **10.3389/fphar.2021.715285**.
+
+[22] Sun Q, Chen T, Wang X, et al. Taxol induces paraptosis independent of both protein synthesis and MAPK pathway. Journal of Cellular Physiology. 2010. DOI: **10.1002/jcp.21982**.
+
+[23] Kessel D. Paraptosis and Photodynamic Therapy: A Progress Report. Photochemistry and Photobiology. 2020. DOI: **10.1111/php.13242**.
+
+[24] Kessel D. Pathways to Paraptosis After ER Photodamage in OVCAR-5 Cells. Photochemistry and Photobiology. 2019. DOI: **10.1111/php.13103**.
+
+[25] Chiang SK, Chang WC, Chen SE, et al. CDK7/CDK9 mediates transcriptional activation to prime paraptosis in cancer cells. Cell & Bioscience. 2024. DOI: **10.1186/s13578-024-01260-2**.
+
+[26] Chang LC, Chiang SK, Chen SE. CHAC1 regulates paraptosis by promoting glutathione degradation in cancer cells. Cancer Research. 2025. DOI: **10.1158/1538-7445.AM2025-2823**.
+
+[27] Cui X, Yang L, Zhang H, et al. Golgi disintegration and functional disruption during paraptosis. Journal of Cell Science. 2026. DOI: **10.1242/jcs.264772**.
+
+[28] Zhong R, Kang L, Geng W, et al. APEX1 attenuates ERS-induced paraptosis by inhibiting the P53 pathway in LECs. Experimental Eye Research. 2025. DOI: **10.1016/j.exer.2025.110393**.
+
+[29] Hanson S, Murugan D, Jinsha PV, et al. Crosstalk Between Autophagy and Paraptosis: A New Frontier in Cancer Therapy. International Journal of Molecular Sciences. 2026. DOI: **10.3390/ijms27052234**.
+
+[30] Hoa N, Myers M, Douglass T, et al. Molecular Mechanisms of Paraptosis Induction: Implications for a Non-Genetically Modified Tumor Vaccine. PLOS ONE. 2009. DOI: **10.1371/journal.pone.0004631**.
+
+[31] Cui X, Zheng H, Li H, et al. Paraptosome: A Novel Pathological Feature in Paraptotic Cell Death. bioRxiv. 2024. DOI: **10.1101/2024.08.07.606501**.
+
+[32] Lin H, Wei J, Yao W, et al. A cyclometalated iridium(III) complex induces paraptotic cell death via mitochondrial dysfunction and ER stress in triple-negative breast cancer cells. Frontiers in Pharmacology. 2026. DOI: **10.3389/fphar.2026.1739226**.
+
+[33] Huang P, Chen G, Jin W, et al. Molecular Mechanisms of Parthanatos and Its Role in Diverse Diseases. International Journal of Molecular Sciences. 2022. DOI: **10.3390/ijms23137292**.
+
+[34] Hanson S, Dharan A, P. V. J, et al. Paraptosis: a unique cell death mode for targeting cancer. *Frontiers in Pharmacology*. 2023;14. doi: **10.3389/fphar.2023.1159409**.
+
+[35] Mi X, Zhou X, Zhu S, et al. Nigericin Induces Paraptosis‐Like Cell Death Instead of Pyroptosis in Corneal Keratocytes. *The FASEB Journal*. 2025;39. doi: **10.1096/fj.202500502r**.
+
+[36] Indari O, Giri P, Tweedell R, et al. Systematic genetic analysis of GSDMD, GSDME, and MLKL in PANoptosis. *Journal of Biological Chemistry*. 2026;302:113370. doi: **10.1016/j.jbc.2026.113370**.
+
+[37] Yuan J, Ofengeim D. A guide to cell death pathways. Nature Reviews Molecular Cell Biology. 2023. DOI: **10.1038/s41580-023-00689-6**.

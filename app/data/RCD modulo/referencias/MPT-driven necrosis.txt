@@ -1,0 +1,99 @@
+[1] Galluzzi L, Vitale I, Aaronson SA, et al. Molecular mechanisms of cell death: recommendations of the Nomenclature Committee on Cell Death 2018. Cell Death & Differentiation. 2018;25:486–541. DOI: **10.1038/s41418-017-0012-4**.
+
+[2] Robichaux DJ, Harata M, Murphy EV, Karch J. Mitochondrial permeability transition pore-dependent necrosis. Journal of Molecular and Cellular Cardiology. 2022;174:47–55. DOI: **10.1016/j.yjmcc.2022.11.003**.
+
+[3] Bonora M, Wieckowski MR, Chinopoulos C, et al. Molecular mechanisms of cell death: central implication of ATP synthase in mitochondrial permeability transition. Oncogene. 2014;34:1475–1486. DOI: **10.1038/onc.2014.96**.
+
+[4] Bernardi P, Gerle C, Halestrap A, et al. Identity, structure, and function of the mitochondrial permeability transition pore: controversies, consensus, recent advances, and future directions. Cell Death & Differentiation. 2023;30:1869–1885. DOI: **10.1038/s41418-023-01187-0**.
+
+[5] Lemasters JJ, Qian T, He L, et al. Role of mitochondrial inner membrane permeabilization in necrotic cell death, apoptosis, and autophagy. Antioxidants & Redox Signaling. 2002;4:769–781. DOI: **10.1089/152308602760598918**.
+
+[6] Javadov S, Kuznetsov A. Mitochondrial permeability transition and cell death: the role of Cyclophilin D. Frontiers in Physiology. 2013;4. DOI: **10.3389/fphys.2013.00076**.
+
+[7] Berghe TV, Vanlangenakker N, Parthoens E, et al. Necroptosis, necrosis and secondary necrosis converge on similar cellular disintegration features. Cell Death & Differentiation. 2010;17:922–930. DOI: **10.1038/cdd.2009.184**.
+
+[8] Dondelinger Y, Priem D, Huyghe J, et al. NINJ1 is activated by cell swelling to regulate plasma membrane permeabilization during regulated necrosis. Cell Death & Disease. 2023;14. DOI: **10.1038/s41419-023-06284-z**.
+
+[9] Kayagaki N, Kornfeld OS, Lee BL, et al. NINJ1 mediates plasma membrane rupture during lytic cell death. Nature. 2021;591:131–136. DOI: **10.1038/s41586-021-03218-7**.
+
+[10] Guo J, Yang WT, Mai FY, et al. Unravelling oncosis: morphological and molecular insights into a unique cell death pathway. Frontiers in Immunology. 2024;15. DOI: **10.3389/fimmu.2024.1450998**.
+
+[11] Halestrap AP, Richardson AP. The mitochondrial permeability transition: a current perspective on its identity and role in ischaemia/reperfusion injury. Journal of Molecular and Cellular Cardiology. 2014;78:129–141. DOI: **10.1016/j.yjmcc.2014.08.018**.
+
+[12] Juricic S, Klać J, Stojković S, et al. Molecular and cellular mechanisms of myocardial ischemia and reperfusion injury: a narrative review. Cells. 2026;15. DOI: **10.3390/cells15030265**.
+
+[13] Andrienko TN, Pasdois P, Pereira GC, Ovens M, Halestrap AP. The role of succinate and ROS in reperfusion injury – A critical appraisal. Journal of Molecular and Cellular Cardiology. 2017;110:1–14. DOI: **10.1016/j.yjmcc.2017.06.016**.
+
+[14] Chapoy Villanueva H, Sung JH, Stevens JA, et al. Distinct effects of cardiac mitochondrial calcium uniporter inactivation via EMRE deletion in the short and long term. Journal of Molecular and Cellular Cardiology. 2023;181:33–45. DOI: **10.1016/j.yjmcc.2023.05.007**.
+
+[15] Hasan P, Berezhnaya E, Rodríguez-Prados M, et al. MICU1 and MICU2 control mitochondrial calcium signaling in the mammalian heart. Proceedings of the National Academy of Sciences USA. 2024;121. DOI: **10.1073/pnas.2402491121**.
+
+[16] Petersen CE, Sun J, Silva K, Kosmach A, Balaban RS, Murphy E. Increased mitochondrial free Ca2+ during ischemia is suppressed, but not eliminated by, germline deletion of the mitochondrial Ca2+ uniporter. Cell Reports. 2023;42:112735. DOI: **10.1016/j.celrep.2023.112735**.
+
+[17] Bround M, Abay E, Huo J, et al. MCU-independent Ca2+ uptake mediates mitochondrial Ca2+ overload and necrotic cell death in a mouse model of Duchenne muscular dystrophy. Scientific Reports. 2024;14. DOI: **10.1038/s41598-024-57340-3**.
+
+[18] Chouchani ET, Pell VR, Gaude E, et al. Ischaemic accumulation of succinate controls reperfusion injury through mitochondrial ROS. Nature. 2014;515:431–435. DOI: **10.1038/nature13909**.
+
+[19] Fukushima CT, Dancil IS, Clary H, Shah N, Nadtochiy S, Brookes PS. Reactive oxygen species generation by reverse electron transfer at mitochondrial complex I under simulated early reperfusion conditions. Redox Biology. 2024;70. DOI: **10.1016/j.redox.2024.103047**.
+
+[20] Milliken AS, Nadtochiy S, Brookes PS. Inhibiting succinate release worsens cardiac reperfusion injury by enhancing mitochondrial reactive oxygen species generation. Journal of the American Heart Association. 2022;11. DOI: **10.1161/JAHA.122.026135**.
+
+[21] Alano CC, Ying W, Swanson RA. Poly(ADP-ribose) polymerase-1-mediated cell death in astrocytes requires NAD+ depletion and mitochondrial permeability transition. Journal of Biological Chemistry. 2004;279:18895–18902. DOI: **10.1074/jbc.M313329200**.
+
+[22] Alano CC, Garnier P, Ying W, Higashi Y, Kauppinen TM, Swanson RA. NAD+ depletion is necessary and sufficient for PARP-1-mediated neuronal death. Journal of Neuroscience. 2010;30:2967–2978. DOI: **10.1523/JNEUROSCI.5552-09.2010**.
+
+[23] Lemasters JJ, Theruvath TP, Zhong Z, Nieminen AL. Mitochondrial calcium and the permeability transition in cell death. Biochimica et Biophysica Acta. 2009;1787:1395–1401. DOI: **10.1016/j.bbabio.2009.06.009**.
+
+[24] Li Y, Johnson N, Capano M, Edwards M, Crompton M. Cyclophilin-D promotes the mitochondrial permeability transition but has opposite effects on apoptosis and necrosis. Biochemical Journal. 2004;383:101–109. DOI: **10.1042/BJ20040669**.
+
+[25] Makarov V, Khmelinskii I, Javadov S. Computational modeling of in vitro swelling of mitochondria: a biophysical approach. Molecules. 2018;23. DOI: **10.3390/molecules23040783**.
+
+[26] Kaiser RA, Osińska H, Robbins J. Loss of cyclophilin D reveals a critical role for mitochondrial permeability transition in cell death. Nature. 2005;434:658–662. DOI: **10.1038/nature03434**.
+
+[27] Nakagawa T, Shimizu S, Watanabe T, et al. Cyclophilin D-dependent mitochondrial permeability transition regulates some necrotic but not apoptotic cell death. Nature. 2005;434:652–658. DOI: **10.1038/nature03317**.
+
+[28] Karch J, Bround M, Khalil H, et al. Inhibition of mitochondrial permeability transition by deletion of the ANT family and CypD. Science Advances. 2019;5. DOI: **10.1126/sciadv.aaw4597**.
+
+[29] Giorgio V, Von Stockum S, Antoniel M, et al. Dimers of mitochondrial ATP synthase form the permeability transition pore. Proceedings of the National Academy of Sciences USA. 2013;110:5887–5892. DOI: **10.1073/pnas.1217823110**.
+
+[30] Carrer A, Tommasin L, Šileikytė J, et al. Defining the molecular mechanisms of the mitochondrial permeability transition through genetic manipulation of F-ATP synthase. Nature Communications. 2021;12. DOI: **10.1038/s41467-021-25161-x**.
+
+[31] Carroll J, He J, Ding S, Fearnley IM, Walker JE. Persistence of the permeability transition pore in human mitochondria devoid of an assembled ATP synthase. Proceedings of the National Academy of Sciences USA. 2019;116:12816–12821. DOI: **10.1073/pnas.1904005116**.
+
+[32] Pekson R, Liang FG, Axelrod JL, et al. The mitochondrial ATP synthase is a negative regulator of the mitochondrial permeability transition pore. Proceedings of the National Academy of Sciences USA. 2023;120. DOI: **10.1073/pnas.2303713120**.
+
+[33] Karch J, Kwong JQ, Burr AR, et al. Bax and Bak function as the outer membrane component of the mitochondrial permeability pore in regulating necrotic cell death in mice. eLife. 2013;2. DOI: **10.7554/eLife.00772**.
+
+[34] Kinnally KW, Peixoto PM, Ryu SY, Dejean LM. Is mPTP the gatekeeper for necrosis, apoptosis, or both? Biochimica et Biophysica Acta. 2011;1813:616–622. DOI: **10.1016/j.bbamcr.2010.09.013**.
+
+[35] Lemasters JJ, Qian T, Elmore SP, et al. The mitochondrial permeability transition in cell death: a common mechanism in necrosis, apoptosis and autophagy. Biochimica et Biophysica Acta. 1998;1366:177–196. DOI: **10.1016/S0005-2728(98)00112-1**.
+
+[36] Kim JS, Jin Y, Lemasters JJ. Reactive oxygen species, but not Ca2+ overloading, trigger pH- and mitochondrial permeability transition-dependent death of adult rat myocytes after ischemia-reperfusion. American Journal of Physiology-Heart and Circulatory Physiology. 2006;290:H2024–H2034. DOI: **10.1152/ajpheart.00683.2005**.
+
+[37] Waldmeier PC, Feldtrauer JJ, Qian T, Lemasters JJ. Inhibition of the mitochondrial permeability transition by the nonimmunosuppressive cyclosporin derivative NIM811. Molecular Pharmacology. 2002;62:22–29. DOI: **10.1124/mol.62.1.22**.
+
+[38] Kritskaya KA, Stelmashchuk O, Abramov AY. Point of no return—what is the threshold of mitochondria with permeability transition in cells to trigger cell death. Journal of Cellular Physiology. 2025;240. DOI: **10.1002/jcp.31521**.
+
+[39] Degen M, Santos JC, Pluhackova K, et al. Structural basis of NINJ1-mediated plasma membrane rupture in cell death. Nature. 2023;618:1065–1071. DOI: **10.1038/s41586-023-05991-z**.
+
+[40] David L, Borges JP, Hollingsworth LR, et al. NINJ1 mediates plasma membrane rupture by cutting and releasing membrane disks. Cell. 2024;187:2224–2235.e16. DOI: **10.1016/j.cell.2024.03.008**.
+
+[41] Zhu P, Hu S, Jin Q, et al. RIPK3 promotes ER stress-induced necroptosis in cardiac IR injury: a mechanism involving calcium overload/XO/ROS/mPTP pathway. Redox Biology. 2018;16:157–168. DOI: **10.1016/j.redox.2018.02.019**.
+
+[42] Wang Y, Kim NS, Haince JF, et al. Poly(ADP-ribose) binding to apoptosis-inducing factor is critical for PAR polymerase-1-dependent cell death (parthanatos). Science Signaling. 2011;4:ra20. DOI: **10.1126/scisignal.2000902**.
+
+[43] Mendoza A, Patel P, Robichaux DJ, Ramirez D, Karch J. Inhibition of the mPTP and lipid peroxidation is additively protective against ischemia/reperfusion injury. Circulation Research. 2024;134:1292–1305. DOI: **10.1161/CIRCRESAHA.123.323882**.
+
+[44] Bonora M, Patergnani S, Ramaccini D, et al. Physiopathology of the Permeability Transition Pore: Molecular Mechanisms in Human Pathology. *Biomolecules*. 2020;10:998. doi: **10.3390/biom10070998**.
+
+[45] Sun J, Yang Y, Long S, et al. Mitochondrial dysfunction in sepsis-induced immunoparalysis: from immune-cell metabolic reprogramming to clinical biomarkers. *Frontiers in Immunology*. 2026;17. doi: **10.3389/fimmu.2026.1904513**.
+
+[46] Lauria G, Genchi G, Curcio R. Mitochondrial Toxicology of Heavy Metals and Pesticides: Transport Systems, Mitochondrial Dysfunction and Permeability Transition. *International Journal of Molecular Sciences*. 2026;27:6347. doi: **10.3390/ijms27146347**.
+
+[47] Chowdhury M, Jeong G, Lee I. Mitochondrial Dysfunction as a Driver of Meta-Inflammation in Aging: The Emerging Role of PDK4 in Bioenergetic Reprogramming and Inflammatory Amplification. *Cells*. 2026;15:1404. doi: **10.3390/cells15151404**.
+
+[48] Baines CP.. The mitochondrial permeability transition pore and ischemia-reperfusion injury.. **. 2009. doi: **10.1007/s00395-009-0004-8**.
+
+[49] Tsujimoto Y, Shimizu S. Role of the mitochondrial membrane permeability transition in cell death. Apoptosis. 2007;12:835–840. DOI: **10.1007/s10495-006-0525-7**.
+
+[50] Nesci S. The mitochondrial permeability transition pore in cell death: a promising drug binding bioarchitecture. Medicinal Research Reviews. 2020;40:811–817. DOI: **10.1002/med.21635**.

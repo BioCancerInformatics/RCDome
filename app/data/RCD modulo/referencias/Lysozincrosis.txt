@@ -1,0 +1,81 @@
+[1] Du W, Gu M, Hu M, et al. Lysosomal Zn2+ release triggers rapid, mitochondria-mediated, non-apoptotic cell death in metastatic melanoma. Cell Reports. 2021;37:109848. DOI: **10.1016/j.celrep.2021.109848**.
+
+[2] Mao C, Wang M, Li Z, Gan B. Metabolic cell death in cancer: ferroptosis, cuproptosis, disulfidptosis, and beyond. Protein & Cell. 2024;15:642–660. DOI: **10.1093/procel/pwae003**.
+
+[3] Yuan J, Ofengeim D. A guide to cell death pathways. Nature Reviews Molecular Cell Biology. 2023;25:379–395. DOI: **10.1038/s41580-023-00689-6**.
+
+[4] Galluzzi L, Vitale I, Aaronson SA, et al. Molecular mechanisms of cell death: recommendations of the Nomenclature Committee on Cell Death 2018. Cell Death & Differentiation. 2018;25:486–541. DOI: **10.1038/s41418-017-0012-4**.
+
+[5] Lee SJ, Koh JY. Roles of zinc and metallothionein-3 in oxidative stress-induced lysosomal dysfunction, cell death, and autophagy in neurons and astrocytes. Molecular Brain. 2010;3:30. DOI: **10.1186/1756-6606-3-30**.
+
+[6] Lee SJ, Koh JY. Oxidative injury triggers autophagy in astrocytes: the role of endogenous zinc. Glia. 2009;57. DOI: **10.1002/glia.20854**.
+
+[7] Hennigar SR, Seo Y, Sharma S, Soybel DI, Kelleher SL. ZnT2 is a critical mediator of lysosomal-mediated cell death during early mammary gland involution. Scientific Reports. 2015;5. DOI: **10.1038/srep08033**.
+
+[8] Chen PH, Wu J, Xu Y, et al. Zinc transporter ZIP7 is a novel determinant of ferroptosis. Cell Death & Disease. 2021;12. DOI: **10.1038/s41419-021-03482-5**.
+
+[9] Kim B, Kim G, Jeon S, et al. Zinc oxide nanoparticles trigger autophagy-mediated cell death through activating lysosomal TRPML1 in normal kidney cells. Toxicology Reports. 2023;10:529–536. DOI: **10.1016/j.toxrep.2023.04.012**.
+
+[10] Zhang C, Liu Z, Zhang Y, et al. “Iron free” zinc oxide nanoparticles with ion-leaking properties disrupt intracellular ROS and iron homeostasis to induce ferroptosis. Cell Death & Disease. 2020;11. DOI: **10.1038/s41419-020-2384-5**.
+
+[11] Cuajungco MP, Kiselyov K. The Mucolipin-1 (TRPML1) ion channel, Transmembrane-163 protein, and lysosomal zinc handling. Frontiers in Bioscience. 2017;22:1330–1343. DOI: **10.2741/4546**.
+
+[12] Hwang J, Lee SJ, Kim TY, Cho J, Koh JY. Zinc and 4-hydroxy-2-nonenal mediate lysosomal membrane permeabilization induced by H2O2 in cultured hippocampal neurons. Journal of Neuroscience. 2008;28:3114–3122. DOI: **10.1523/JNEUROSCI.0199-08.2008**.
+
+[13] Zhu H, Fan J, Zhang S, et al. Ratiometric fluorescence imaging of lysosomal Zn2+ release under oxidative stress in neural stem cells. Biomaterials Science. 2014;2:89–97. DOI: **10.1039/C3BM60186B**.
+
+[14] Lee HS, Kang S, Eom JW, et al. Zinc-mediated lysosomal destabilization links mitochondrial damage to neuronal death in a cellular MPP+ model of Parkinson's disease. Journal of Neurochemistry. 2026;170. DOI: **10.1111/jnc.70363**.
+
+[15] Kim YH, Eom JW, Koh JY. Mechanism of zinc excitotoxicity: a focus on AMPK. Frontiers in Neuroscience. 2020;14. DOI: **10.3389/fnins.2020.577958**.
+
+[16] Liu HY, Gale J, Reynolds IJ, Weiss JH, Aizenman E. The multifaceted roles of zinc in neuronal mitochondrial dysfunction. Biomedicines. 2021;9. DOI: **10.3390/biomedicines9050489**.
+
+[17] Hennigar SR, Kelleher SL. TNFα post-translationally targets ZnT2 to accumulate zinc in lysosomes. Journal of Cellular Physiology. 2015;230. DOI: **10.1002/jcp.24992**.
+
+[18] Rivera OC, Hennigar SR, Kelleher SL. ZnT2 is critical for lysosome acidification and biogenesis during mammary gland involution. American Journal of Physiology-Regulatory, Integrative and Comparative Physiology. 2018;315:R323–R335. DOI: **10.1152/ajpregu.00444.2017**.
+
+[19] Zhang J, Qin X, Wang B, et al. Zinc oxide nanoparticles harness autophagy to induce cell death in lung epithelial cells. Cell Death & Disease. 2017;8. DOI: **10.1038/cddis.2017.337**.
+
+[20] Yu H, Zhou Y, Lind SE, Ding WQ. Clioquinol targets zinc to lysosomes in human cancer cells. Biochemical Journal. 2008;417:133–139. DOI: **10.1042/BJ20081421**.
+
+[21] Stacy AE, Palanimuthu D, Bernhardt PV, et al. Zinc(II)-thiosemicarbazone complexes are localized to the lysosomal compartment where they transmetallate with copper ions to induce cytotoxicity. Journal of Medicinal Chemistry. 2016;59:4965–4984. DOI: **10.1021/acs.jmedchem.6b00238**.
+
+[22] Liu Z, Lv X, Xu L, et al. Zinc oxide nanoparticles effectively regulate autophagic cell death by activating autophagosome formation and interfering with their maturation. Particle and Fibre Toxicology. 2020;17. DOI: **10.1186/s12989-020-00379-7**.
+
+[23] Kim KR, Park SE, Hong J, et al. Zinc enhances autophagic flux and lysosomal function through transcription factor EB activation and V-ATPase assembly. Frontiers in Cellular Neuroscience. 2022;16. DOI: **10.3389/fncel.2022.895750**.
+
+[24] Boya P, Kroemer G. Lysosomal membrane permeabilization in cell death. Oncogene. 2008;27:6434–6451. DOI: **10.1038/onc.2008.310**.
+
+[25] Johansson A, Appelqvist H, Nilsson C, Kågedal K, Roberg K. Regulation of apoptosis-associated lysosomal membrane permeabilization. Apoptosis. 2010;15:527–540. DOI: **10.1007/s10495-009-0452-5**.
+
+[26] Kavčič N, Pegan K, Turk B. Lysosomes in programmed cell death pathways: from initiators to amplifiers. Biological Chemistry. 2017;398:289–301. DOI: **10.1515/hsz-2016-0252**.
+
+[27] Wang F, Gómez-Sintes R, Boya P. Lysosomal membrane permeabilization and cell death. Traffic. 2018;19:918–931. DOI: **10.1111/tra.12613**.
+
+[28] Alu A, Han X, Wu M, Wei Y, Wei X. The role of lysosome in regulated necrosis. Acta Pharmaceutica Sinica B. 2020;10:1880–1903. DOI: **10.1016/j.apsb.2020.07.003**.
+
+[29] Kukic I, Kelleher SL, Kiselyov K. Zn2+ efflux through lysosomal exocytosis prevents Zn2+-induced toxicity. Journal of Cell Science. 2014;127:3094–3103. DOI: **10.1242/jcs.145318**.
+
+[30] Eom JW, Lee JY, Kwon Y, Kim YH. An increase of lysosomes through EGF-triggered endocytosis attenuated zinc-mediated lysosomal membrane permeabilization and neuronal cell death. Cell Death & Disease. 2024;15. DOI: **10.1038/s41419-024-07192-6**.
+
+[31] Qin X, Zhang J, Wang B, Xu G, Zou Z. LAMP-2 mediates oxidative stress-dependent cell death in Zn2+-treated lung epithelium cells. Biochemical and Biophysical Research Communications. 2017;488:177–181. DOI: **10.1016/j.bbrc.2017.05.030**.
+
+[32] Mahapatra KK, Mishra S, Behera BP, et al. The lysosome as an imperative regulator of autophagy and cell death. Cellular and Molecular Life Sciences. 2021;78:7435–7449. DOI: **10.1007/s00018-021-03988-3**.
+
+[33] Yang Q, Fang Y, Zhang C, et al. Exposure to zinc induces lysosomal-mitochondrial axis-mediated apoptosis in PK-15 cells. Ecotoxicology and Environmental Safety. 2022;241:113716. DOI: **10.1016/j.ecoenv.2022.113716**.
+
+[34] Ai Y, Meng Y, Yan B, Zhou Q, Wang X. The biochemical pathways of apoptotic, necroptotic, pyroptotic, and ferroptotic cell death. Molecular Cell. 2024;84:170–179. DOI: **10.1016/j.molcel.2023.11.040**.
+
+[35] Rudolf E, Červinka M. Zinc pyrithione induces cellular stress signaling and apoptosis in Hep-2 cervical tumor cells: the role of mitochondria and lysosomes. BioMetals. 2010;23:339–354. DOI: **10.1007/s10534-010-9302-8**.
+
+[36] Qi J, Xing Y, Liu Y, et al. MCOLN1/TRPML1 finely controls oncogenic autophagy in cancer by mediating zinc influx. Autophagy. 2021;17:4401–4422. DOI: **10.1080/15548627.2021.1917132**.
+
+[37] Das J, Hombalkar SK, Klein AD, et al. Ferroptosis induces heterogeneous death profiles that are controlled by lysosome rupture. Developmental Cell. 2026;61:760–772.e4. DOI: **10.1016/j.devcel.2026.01.014**.
+
+[38] Verma R, Aggarwal P, Bischoff ME, et al. Microtubule-associated protein MAP1LC3C regulates lysosomal exocytosis and induces zinc reprogramming in renal cancer cells. Journal of Biological Chemistry. 2023;299. DOI: **10.1016/j.jbc.2023.104663**.
+
+[39] Wang Z, Zhang F, Cao S, et al. Different forms of cardiomyocyte death in post-myocardial infarction ventricular remodeling: mechanisms and therapeutic strategies. *Frontiers in Cardiovascular Medicine*. 2026;13. doi: **10.3389/fcvm.2026.1797182**.
+
+[40] Albrecht J, Zielińska M, Norenberg M. Glutamine as a mediator of ammonia neurotoxicity: A critical appraisal. *Biochemical Pharmacology*. 2010;80:1303-1308. doi: **10.1016/j.bcp.2010.07.024**.
+
+[41] Niknahad H, Jamshidzadeh A, Heidari R, et al. Ammonia-induced mitochondrial dysfunction and energy metabolism disturbances in isolated brain and liver mitochondria, and the effect of taurine administration: relevance to hepatic encephalopathy treatment. *Clinical and Experimental Hepatology*. 2017;3:141-151. doi: **10.5114/ceh.2017.68833**.

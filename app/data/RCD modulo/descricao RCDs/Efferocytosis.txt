@@ -1,1 +1,1642 @@
-Eferocitose: processo de remoção pelo qual células apoptóticas ou mortas são reconhecidas e eliminadas por células fagocíticas, prevenindo o extravasamento de conteúdos inflamatórios. Embora não seja propriamente um mecanismo executor de morte celular, representa a etapa terminal do ciclo da morte celular regulada. No microambiente tumoral, a eferocitose suprime a inflamação, mas também pode prejudicar a imunidade antitumoral ao remover silenciosamente células em morte imunogênica antes que elas ativem respostas imunes.
+## Efferocytosis: Clearance Pathway, Not a Cell-Death Execution Modality
+
+Efferocytosis is the regulated recognition, engulfment, intracellular processing, and immunological handling of dying or dead cells by professional or non-professional phagocytes [1-5].
+
+It is **not an autonomous regulated cell-death modality**.
+
+In canonical efferocytosis, the target cell is generally already committed to death, most commonly through apoptosis, before the phagocyte begins engulfment [1-4].
+
+Therefore, the fundamental sequence is:
+
+death stimulus → target-cell death program → acquisition of a clearance-recognition state → recruitment and recognition by a phagocyte → engulfment → efferosome maturation → lysosomal degradation of the corpse → metabolic and immunological adaptation of the phagocyte.
+
+The key distinction is:
+
+**apoptosis or another RCD mechanism kills the target cell; efferocytosis removes and digests the resulting dying cell or corpse.**
+
+Consequently, molecules such as caspases can generate the signals that make an apoptotic cell recognizable, but they belong primarily to the upstream death program.
+
+Conversely, Rac1, MerTK, TIM4, LC3-associated phagocytosis machinery, Rab proteins, TRPM7, and V-ATPase regulate corpse uptake and processing but do not constitute a death-execution machinery for the original target.
+
+The physiological purpose of efferocytosis is not simply waste removal.
+
+Efficient efferocytosis prevents accumulation and secondary lysis of apoptotic corpses, limits release of intracellular danger signals, regulates macrophage metabolism, promotes resolution of inflammation, and contributes to tissue homeostasis and repair [1-5,56].
+
+---
+
+## Mechanistic Definition
+
+The most useful mechanistic framework contains four consecutive stages:
+
+**1. Find-me signaling**
+
+The dying cell releases soluble signals that attract potential phagocytes.
+
+**2. Eat-me signaling**
+
+The dying cell changes its surface composition, particularly by exposing phosphatidylserine.
+
+**3. Recognition and engulfment**
+
+Phagocyte receptors recognize the target directly or through bridging molecules and activate Rac1-dependent cytoskeletal remodeling.
+
+**4. Efferosome maturation and degradation**
+
+The engulfed corpse enters a single-membrane compartment that undergoes Rab-, LC3-associated phagocytosis-, Ca²⁺-, V-ATPase-, and lysosome-dependent maturation.
+
+Thus:
+
+dying cell → find-me cues + eat-me signals → phagocyte recruitment → receptor engagement → Rac1-dependent phagocytic cup → efferosome → acidifying phagolysosome → corpse degradation.
+
+These are **clearance criteria**, not criteria demonstrating how the target originally died.
+
+---
+
+## Upstream Cell Death Precedes Canonical Efferocytosis
+
+In the best-characterized setting, apoptosis occurs first.
+
+The apoptotic machinery causes characteristic changes including:
+
+caspase activation → cytoskeletal remodeling → cell shrinkage → membrane blebbing → nuclear condensation/fragmentation → phosphatidylserine exposure → release of soluble recruitment signals.
+
+Several of these changes subsequently facilitate efferocytosis.
+
+However, they should not be mechanistically reassigned to the clearance program.
+
+For example:
+
+caspase-3 → ROCK1 cleavage → actomyosin contraction → apoptotic blebbing
+
+belongs to apoptotic execution [6-8].
+
+The resulting apoptotic bodies may then become substrates for efferocytosis.
+
+Thus:
+
+**apoptotic body formation ≠ efferocytosis.**
+
+It is a target-cell phenotype that facilitates subsequent clearance.
+
+---
+
+## Generation of the Eat-Me Signal: Phosphatidylserine
+
+Phosphatidylserine, or PS, represents the dominant canonical eat-me signal.
+
+In viable cells, PS is largely restricted to the cytoplasmic leaflet of the plasma membrane.
+
+This asymmetry is actively maintained by ATP-dependent phospholipid flippases [9-12].
+
+During apoptosis, executioner caspases remodel this system.
+
+A major sequence is:
+
+caspase-3/7 activation → activation of XKR8-mediated phospholipid scrambling + inactivation of ATP11C-mediated inward phospholipid transport → stable PS exposure on the extracellular surface [9-13,53].
+
+This converts the membrane from:
+
+PS predominantly inside
+
+to
+
+PS prominently exposed outside.
+
+Extracellular PS then becomes accessible to phagocytic receptors and bridging proteins.
+
+Caspase-dependent activation of XKR8 enables rapid loss of membrane phospholipid asymmetry.
+
+Thus:
+
+apoptotic caspases → XKR8 activation → bidirectional phospholipid scrambling → PS externalization.
+
+XKR8 therefore helps generate the clearance-competent surface of the dying cell.
+
+It is not an efferocytosis death executor.
+
+Its function occurs downstream of apoptotic commitment and upstream of phagocyte recognition.
+
+---
+
+## ATP11C
+
+ATP11C normally contributes to active inward transport of PS, thereby maintaining its enrichment on the cytoplasmic leaflet [10-11].
+
+During apoptosis, caspase-dependent ATP11C inactivation prevents restoration of normal membrane asymmetry.
+
+The coordinated logic is therefore:
+
+XKR8 activation → PS moved outward,
+
+while
+
+ATP11C inactivation → PS no longer efficiently returned inward.
+
+Together:
+
+caspases → XKR8 ON + ATP11C OFF → persistent extracellular PS.
+
+This produces a stable eat-me signal.
+
+---
+
+## PS Exposure Is Not Equivalent to Cell Death
+
+PS externalization is highly useful for identifying apoptotic cells but should not be considered independently diagnostic of irreversible cell death.
+
+PS can also be exposed in non-apoptotic contexts.
+
+Other scrambling mechanisms, including Ca²⁺-responsive systems such as TMEM16F, can promote PS exposure without reproducing the canonical XKR8-dependent apoptotic program [9,14].
+
+Therefore:
+
+Annexin V positivity ≠ proof of apoptosis,
+
+and
+
+PS exposure ≠ proof of efferocytosis.
+
+For efferocytosis, PS exposure must actually be followed by receptor-dependent recognition and engulfment.
+
+---
+
+## Find-Me Signaling
+
+Before physical contact, dying cells can release soluble chemoattractant signals that increase the probability of encountering phagocytes [15-18].
+
+These are traditionally called **find-me signals**.
+
+Important examples include:
+
+ATP and UTP,
+
+lysophosphatidylcholine,
+
+sphingosine-1-phosphate,
+
+and CX3CL1-associated signals.
+
+These signals are partially context dependent and should not be presented as universally required in every tissue.
+
+Among them, extracellular nucleotides have particularly strong causal evidence.
+
+---
+
+## Pannexin-1–ATP/UTP–P2Y2 Axis
+
+During apoptosis, executioner caspase activity can activate pannexin-1 channels.
+
+This permits release of intracellular nucleotides into the extracellular environment.
+
+The canonical sequence is:
+
+apoptosis → caspase-3/7 activity → pannexin-1 channel activation → ATP/UTP release → extracellular nucleotide gradient → P2Y2 receptor activation on responding phagocytes → migration toward the dying cell [16].
+
+Therefore, ATP and UTP serve as directional recruitment signals.
+
+They should not be confused with the eat-me signal.
+
+Their main role is:
+
+**find the target**, rather than **recognize the target surface for engulfment**.
+
+---
+
+## Lysophosphatidylcholine–G2A Signaling
+
+Another context-dependent find-me pathway involves lysophosphatidylcholine.
+
+Apoptotic signaling can engage phospholipase activity and generate extracellular lysophosphatidylcholine.
+
+Monocytes and macrophages can respond through G2A-dependent signaling [17].
+
+Thus:
+
+apoptosis → phospholipase-associated LPC generation → LPC release → G2A-associated phagocyte migration.
+
+This pathway contributes to recruitment but is not universally dominant in all efferocytic systems.
+
+---
+
+## Sphingosine-1-Phosphate
+
+Sphingosine-1-phosphate can also function as an apoptosis-associated recruitment and macrophage-regulatory signal.
+
+The conceptual sequence is:
+
+dying cell → sphingosine kinase-associated S1P production/release → S1P receptor signaling on nearby cells → phagocyte recruitment and/or acquisition of a pro-efferocytic state.
+
+S1P signaling can additionally influence macrophage transcriptional and metabolic responses after corpse recognition.
+
+Again, S1P should be treated as one component of a context-dependent find-me network rather than a universal mandatory initiator.
+
+---
+
+## CX3CL1
+
+Apoptotic cells can release CX3CL1-associated signals.
+
+CX3CR1-expressing macrophages or microglia can respond to this signal.
+
+CX3CL1 signaling can also promote expression of molecules that increase efferocytic competence, including MFG-E8 in selected settings.
+
+Thus:
+
+apoptotic cell → CX3CL1 → CX3CR1-positive phagocyte → recruitment/priming → enhanced corpse recognition.
+
+---
+
+## Recognition of Phosphatidylserine
+
+After a phagocyte reaches the dying cell, exposed PS provides a major surface-recognition signal.
+
+Recognition occurs through two broad strategies:
+
+**direct recognition**
+
+or
+
+**bridging-molecule-dependent recognition** [19-22].
+
+Direct PS-recognition systems include receptors such as:
+
+TIM4,
+
+BAI1,
+
+stabilins,
+
+selected CD300-family proteins,
+
+and other PS-sensitive receptor systems.
+
+Indirect recognition uses soluble bridging molecules.
+
+Important examples include:
+
+Gas6,
+
+Protein S,
+
+and MFG-E8.
+
+These molecules bind PS on the dying cell and simultaneously engage receptors on the phagocyte.
+
+---
+
+## TIM4
+
+TIM4 is a high-affinity PS-binding receptor expressed on selected macrophage populations.
+
+Its principal role is often described as tethering or capturing PS-positive cells.
+
+Thus:
+
+PS-positive dying cell → TIM4 engagement → physical stabilization of corpse–phagocyte contact.
+
+TIM4 alone does not necessarily provide the strongest intracellular engulfment signal.
+
+TIM4 binds phosphatidylserine on apoptotic cells and can cooperate with other receptors, such as MerTK, to promote efficient internalization and clearance of apoptotic cells [19].
+
+This illustrates an important principle:
+
+**recognition and engulfment signaling can be divided among different receptors.**
+
+---
+
+## MerTK
+
+MerTK is a member of the TAM receptor tyrosine kinase family.
+
+Rather than directly recognizing PS, MerTK commonly engages PS through bridging molecules including Gas6 and Protein S [19-23].
+
+The sequence is:
+
+PS on dying cell → Gas6/Protein S binding → MerTK engagement on phagocyte → receptor tyrosine kinase signaling → cytoskeletal engulfment machinery.
+
+MerTK therefore provides strong internalization signaling.
+
+TIM4 and MerTK can cooperate:
+
+TIM4 → target tethering,
+
+MerTK → signaling toward engulfment.
+
+Experimental evidence demonstrates that these receptors can participate in distinct yet complementary signaling programs [23,55].
+
+---
+
+## TAM Receptors
+
+The TAM family contains:
+
+TYRO3,
+
+AXL,
+
+and MerTK.
+
+Their relative contributions depend on the phagocyte type, tissue environment, inflammatory state, and available bridging proteins [24].
+
+For canonical macrophage efferocytosis, MerTK is especially prominent.
+
+TAM-receptor signaling also has strong immunoregulatory effects and can promote anti-inflammatory or tissue-repair-associated cellular states.
+
+This becomes particularly relevant in tumors, where the same mechanisms that normally support tissue homeostasis can contribute to immune suppression.
+
+---
+
+## MFG-E8 and Integrins
+
+MFG-E8 provides another bridging system.
+
+MFG-E8 binds phosphatidylserine on apoptotic cells and integrins on the phagocyte, particularly αv-family integrins.
+
+Thus:
+
+PS → MFG-E8 → αvβ3/αvβ5-associated recognition → Rac1-dependent engulfment.
+
+Integrins therefore provide an alternative route connecting the same eat-me ligand to cytoskeletal uptake machinery.
+
+MerTK and αvβ5 signaling can also cooperate [25].
+
+---
+
+## BAI1
+
+BAI1 can directly recognize PS and couple recognition to intracellular machinery that activates Rac1-dependent engulfment.
+
+The BAI1 pathway reinforces a general convergence principle:
+
+multiple upstream recognition receptors → shared Rac1-dependent actin remodeling.
+
+Thus, receptor diversity does not imply the existence of completely separate terminal engulfment mechanisms.
+
+---
+
+## Receptor Redundancy
+
+A defining characteristic of efferocytosis is receptor redundancy.
+
+A phagocyte can express multiple PS-recognition receptors simultaneously.
+
+Different tissues use different combinations.
+
+Consequently, genetic deletion or pharmacological inhibition of a single receptor often reduces efferocytosis without completely abolishing it [24].
+
+Therefore, it is usually incorrect to describe:
+
+PS → one universal efferocytosis receptor.
+
+A more accurate model is:
+
+PS + tissue-specific bridging molecules → combinatorial receptor network → convergent cytoskeletal signaling.
+
+---
+
+## CD47–SIRPα as a Don't-Eat-Me Checkpoint
+
+Healthy cells actively resist inappropriate engulfment.
+
+One of the best-characterized inhibitory systems is:
+
+CD47 on the potential target → SIRPα on the phagocyte [26].
+
+SIRPα contains inhibitory cytoplasmic motifs that become phosphorylated and recruit phosphatases such as SHP1 and SHP2.
+
+The resulting signal suppresses engulfment.
+
+Thus:
+
+CD47 → SIRPα → SHP1/SHP2-associated inhibitory signaling → reduced phagocytic uptake.
+
+The final decision therefore depends on a balance:
+
+eat-me signals versus don't-eat-me signals.
+
+Strong PS recognition combined with reduction of inhibitory signaling favors efferocytosis.
+
+Persistent CD47–SIRPα signaling opposes it.
+
+---
+
+## Recognition Is Not Yet Engulfment
+
+Binding of a phagocyte to a PS-positive cell does not automatically mean the cell has been internalized.
+
+Recognition and internalization are experimentally separable steps.
+
+This distinction is particularly clear for receptors such as TIM4, which can tether targets efficiently but require cooperation with signaling receptors for robust internalization.
+
+Therefore, efferocytosis assays should distinguish:
+
+target binding,
+
+internalization,
+
+efferosome formation,
+
+and final acidification/degradation.
+
+A simple count of macrophages associated with apoptotic cells does not necessarily demonstrate successful efferocytosis.
+
+---
+
+## Cytoskeletal Signaling Converges on Rac1
+
+Despite the diversity of recognition receptors, a major common downstream event is activation of Rac1 [1,27-28].
+
+Rac1 coordinates actin polymerization required for membrane extension around the dying cell.
+
+Thus:
+
+corpse recognition → intracellular signaling → Rac1 activation → actin rearrangement → phagocytic cup formation → corpse internalization.
+
+Rac1 therefore represents one of the central execution molecules of the **engulfment process**.
+
+However:
+
+Rac1 executes phagocytosis,
+
+not death of the target.
+
+---
+
+## TRIO–RhoG–ELMO–DOCK180 Pathway
+
+One of the best-characterized signaling routes connecting recognition to Rac1 involves TRIO, RhoG, ELMO, and DOCK180 [1,27].
+
+The sequence is:
+
+receptor signaling → TRIO activation → RhoG-GTP → ELMO recruitment → ELMO–DOCK180 complex → Rac1 activation → actin polymerization.
+
+DOCK180 functions as a Rac guanine nucleotide exchange factor when associated with ELMO.
+
+The pathway therefore converts receptor occupancy into a localized actin-remodeling response.
+
+The resulting polymerization pushes the phagocyte membrane around the apoptotic cell.
+
+---
+
+## ELMO–DOCK180–Rac1 Module
+
+The ELMO–DOCK180 system is evolutionarily conserved and represents a central engulfment module [1].
+
+Its functional output is:
+
+GDP-bound Rac1 → GTP-loaded Rac1.
+
+Activated Rac1 promotes actin remodeling at the phagocytic cup.
+
+Thus:
+
+ELMO/DOCK180 → Rac1-GTP → actin polymerization → membrane extension.
+
+Loss of this pathway impairs apoptotic-cell engulfment without reversing the upstream death of the target.
+
+This again illustrates the conceptual separation between killing and clearance.
+
+---
+
+## LRP1–GULP Pathway
+
+A second engulfment-signaling route involves LRP1 and GULP.
+
+LRP1-mediated recognition can activate a cytoskeletal program converging toward Rac1.
+
+However, the biochemical steps connecting the LRP1–GULP system to Rac activation are less completely defined than the ELMO–DOCK180 pathway.
+
+Therefore, it is most accurate to represent:
+
+LRP1 → GULP → downstream cytoskeletal signaling → Rac1-associated engulfment,
+
+with the intermediate molecular connection remaining incompletely resolved.
+
+---
+
+## MerTK–FAK–p130CAS–CrkII–DOCK180 Signaling
+
+MerTK can also connect to Rac1 through a signaling network involving Src-family activity, focal adhesion kinase, p130CAS, CrkII, and DOCK180 [25].
+
+A representative sequence is:
+
+MerTK activation → Src/FAK signaling → p130CAS → CrkII → DOCK180 → Rac1 → actin remodeling.
+
+This signaling can cooperate with αvβ5 integrins.
+
+Thus, multiple receptor architectures converge on the same final engulfment machinery.
+
+---
+
+## Calcium During Engulfment
+
+Calcium signaling contributes directly to internalization.
+
+MerTK-dependent Ca²⁺ influx has been shown to regulate extension and closure of the phagocytic cup [29].
+
+The pathway includes:
+
+MerTK engagement → Ca²⁺ influx → calmodulin activation → MLCK regulation → myosin light-chain phosphorylation → coordinated F-actin remodeling → cup extension and closure.
+
+Importantly, actin must not only polymerize.
+
+Specific regions of F-actin also need to disassemble or reorganize as the membrane closes around the corpse.
+
+Therefore, successful engulfment requires temporally coordinated polymerization and depolymerization rather than indiscriminate actin accumulation.
+
+---
+
+## Formation of the Phagocytic Cup
+
+After Rac1 activation, the phagocyte plasma membrane progressively extends around the target.
+
+The sequence is:
+
+target attachment → localized Rac1 activation → actin polymerization → pseudopod extension → membrane enclosure of target → cup closure.
+
+The resulting structure separates the corpse from the extracellular environment.
+
+Once sealing is complete, the corpse resides within a single-membrane intracellular compartment commonly referred to as an efferosome or apoptotic-cell-containing phagosome.
+
+This represents a major transition in the clearance process.
+
+It is not the point at which the target originally dies.
+
+---
+
+## Efferosome Formation
+
+After phagocytic-cup closure:
+
+extracellular corpse → internalized efferosome.
+
+The phagocyte must now convert this newly formed compartment into a degradative organelle.
+
+This requires membrane trafficking, phosphoinositide remodeling, Rab GTPase transitions, ion transport, lysosomal fusion, and hydrolase activation [30-33].
+
+Failure at this stage can result in incomplete corpse digestion despite successful uptake.
+
+Thus, engulfment and digestion must also be treated as separable stages.
+
+---
+
+## VPS34 and Phosphatidylinositol-3-Phosphate
+
+Class III PI3K/VPS34 contributes to phosphatidylinositol-3-phosphate generation on phagosomal membranes.
+
+This lipid creates docking sites for proteins involved in vesicular trafficking and maturation.
+
+A simplified sequence is:
+
+new efferosome → VPS34 activation → PI3P generation → recruitment of maturation machinery.
+
+This helps establish the identity of the early intracellular corpse-containing compartment.
+
+---
+
+## Rab5-to-Rab7 Transition
+
+Phagosome maturation involves sequential Rab GTPase recruitment.
+
+Rab5 is associated predominantly with early stages.
+
+As maturation proceeds, the compartment acquires Rab7-associated late endosomal characteristics.
+
+Thus:
+
+new efferosome → Rab5-positive early stage → Rab conversion → Rab7-positive late stage → lysosomal fusion.
+
+This transition progressively shifts the compartment from uptake toward degradation.
+
+---
+
+## LC3-Associated Phagocytosis
+
+LC3-associated phagocytosis, or LAP, represents an important non-canonical autophagy-related pathway involved in processing engulfed corpses [30,34-35].
+
+LAP should not be confused with canonical macroautophagy.
+
+In canonical autophagy:
+
+cytoplasmic material → double-membrane autophagosome → lysosomal degradation.
+
+In LAP:
+
+extracellular cargo is first engulfed into a **single-membrane phagosome**, after which LC3 is conjugated to that phagosomal membrane.
+
+Thus:
+
+efferocytosis → single-membrane efferosome → LAP machinery → LC3 decoration → enhanced maturation/degradation.
+
+LAP therefore contributes to clearance rather than independently killing the apoptotic cell.
+
+---
+
+## Rubicon
+
+Rubicon is an important component of LAP [34].
+
+Within this pathway, Rubicon helps organize the non-canonical LC3-associated processing of the corpse-containing phagosome.
+
+The general sequence is:
+
+corpse engulfment → LAP signaling → Rubicon-associated PI3KC3 activity → LC3 conjugation to phagosomal membrane → accelerated maturation.
+
+Loss of Rubicon can impair efficient processing of engulfed apoptotic material.
+
+However, recognition and initial uptake may still occur.
+
+Thus:
+
+Rubicon deficiency → defective intracellular corpse processing,
+
+not
+
+rescue of the upstream dying target.
+
+---
+
+## ATG5 and ATG7
+
+LAP uses components of the canonical autophagy conjugation machinery, including ATG5 and ATG7.
+
+These proteins facilitate LC3 lipidation on the phagosomal membrane.
+
+Thus:
+
+LAP activation → ATG5/ATG7-dependent LC3 conjugation → LC3-positive efferosome → efficient maturation.
+
+Because LAP shares machinery with autophagy, experimental interpretation requires care.
+
+LC3 recruitment around an apoptotic corpse does not mean that the corpse died through autophagy-dependent cell death.
+
+It means autophagy-related proteins are helping the phagocyte digest extracellular cargo.
+
+---
+
+## TRPM7-Dependent Periphagosomal Ca²⁺ Signaling
+
+TRPM7 provides an additional regulatory layer after engulfment.
+
+Periphagosomal Ca²⁺ signaling mediated by TRPM7 is required for efficient efferosome maturation and acidification [36].
+
+Therefore:
+
+sealed efferosome → TRPM7-associated Ca²⁺ signaling → maturation machinery → efficient acidification and cargo degradation.
+
+This identifies ion flux as a mechanistically important component of the intracellular digestive phase.
+
+TRPM7 is not a death receptor or target-cell executor.
+
+Its function belongs entirely to the phagocyte after engulfment.
+
+---
+
+## V-ATPase and Acidification
+
+Mature phagolysosomal degradation requires strong acidification.
+
+Vacuolar ATPases transport protons across the phagosomal/lysosomal membrane.
+
+Thus:
+
+V-ATPase activity → H⁺ accumulation within efferosome/phagolysosome → low luminal pH → activation of acid-dependent degradative enzymes.
+
+Different V-ATPase subunits can contribute to different maturation stages [37].
+
+Acidification is therefore one of the clearest biochemical indicators that uptake has progressed into effective corpse processing.
+
+---
+
+## Lysosomal Fusion
+
+Rab7-associated late efferosomes ultimately interact and fuse with lysosomal compartments.
+
+This delivers lysosomal hydrolases to the corpse.
+
+The sequence becomes:
+
+Rab7-positive efferosome → lysosomal fusion → acidic phagolysosomal compartment → proteases, nucleases, lipases and other hydrolases degrade corpse macromolecules.
+
+At this stage the cellular remains are physically destroyed.
+
+Importantly, this is **corpse destruction after death**, not the original lethal execution event.
+
+---
+
+## Physical Destruction of the Corpse
+
+Once contained inside the acidic phagolysosome:
+
+proteins → lysosomal proteolysis,
+
+DNA/RNA → nuclease-dependent degradation,
+
+membranes/lipids → lipolytic processing,
+
+other macromolecules → enzymatic catabolism.
+
+The target's structural remnants are therefore dismantled inside the phagocyte.
+
+This creates an important semantic distinction:
+
+**death execution** = irreversible loss of target-cell viability.
+
+**corpse execution/digestion** = physical destruction of remains after engulfment.
+
+Only the first defines RCD.
+
+---
+
+## Metabolic Processing of Corpse-Derived Material
+
+Engulfing an entire cell places a substantial metabolic burden on a phagocyte.
+
+Efferocytes therefore reprogram their metabolism to process imported proteins, lipids, nucleotides, cholesterol, and other molecules [38-40].
+
+Corpse-derived nutrients can also act as metabolic signals.
+
+For example, metabolism of apoptotic-cell-derived arginine supports continued efferocytic capacity and inflammation resolution [39].
+
+Apoptotic-cell-derived methionine can influence macrophage epigenetic regulation through DNMT3A-associated mechanisms [40].
+
+Thus:
+
+corpse digestion → liberation of metabolites → metabolic and epigenetic reprogramming of efferocyte → altered inflammatory/tissue-repair phenotype.
+
+This demonstrates that efferocytosis is substantially more than physical phagocytosis.
+
+---
+
+## Continual Efferocytosis
+
+Professional phagocytes often need to consume multiple apoptotic cells sequentially.
+
+This process is termed continual efferocytosis.
+
+Successful digestion and metabolic handling of one corpse can influence whether the macrophage remains capable of taking up additional targets.
+
+Therefore:
+
+first corpse → intracellular digestion/metabolic adaptation → restoration or enhancement of phagocytic capacity → subsequent corpse uptake.
+
+Disruption of this adaptation can result in corpse accumulation even if initial recognition machinery remains intact.
+
+---
+
+## Anti-Inflammatory and Pro-Resolving Signaling
+
+One of the defining biological consequences of canonical efferocytosis is suppression of excessive inflammatory signaling.
+
+Recognition and processing of apoptotic cells can shift macrophages toward programs that favor:
+
+resolution,
+
+tissue repair,
+
+clearance of additional corpses,
+
+and limitation of inflammatory mediator production [3,5,41].
+
+This is one major difference between efficient efferocytosis and uncontrolled release of intracellular material after necrotic rupture.
+
+Therefore:
+
+prompt apoptotic-cell clearance → intracellular containment of potentially inflammatory cargo → pro-resolving efferocyte response.
+
+---
+
+## Why Rapid Clearance Is Important
+
+Apoptotic cells initially maintain substantial plasma-membrane integrity.
+
+This provides a time window during which efferocytosis can remove them without widespread release of intracellular contents [42].
+
+If uptake occurs promptly:
+
+apoptosis → PS exposure → efferocytosis → intracellular lysosomal degradation.
+
+If uptake fails:
+
+apoptosis → persistent uncleared corpse → progressive membrane dysfunction → secondary necrosis → intracellular contents released.
+
+Thus, efferocytosis determines the fate of the **corpse** and the inflammatory environment rather than the original mechanism of target-cell death.
+
+---
+
+## Secondary Necrosis
+
+Secondary necrosis occurs when apoptotic cells remain uncleared for sufficiently long periods.
+
+As the dying cell can no longer maintain membrane homeostasis:
+
+membrane permeability increases → repair becomes inadequate → plasma-membrane integrity is eventually lost → intracellular molecules escape.
+
+The sequence is:
+
+apoptosis completed → failed/delayed efferocytosis → prolonged corpse persistence → secondary membrane failure → secondary necrosis.
+
+Secondary necrosis therefore represents a failure of timely corpse disposal rather than part of canonical efferocytosis.
+
+---
+
+## Membrane Repair Can Delay Secondary Necrosis
+
+Recent evidence indicates that dying cells retain limited mechanisms capable of delaying terminal membrane rupture.
+
+ATG9A supports lysosomal repair and protects the plasma membrane from permeabilization, and autophagy extends sebocyte survival during differentiation [54].
+
+Thus:
+
+Ca²⁺ influx → ATG9A-associated membrane repair → delayed secondary rupture → prolonged opportunity for efferocytic clearance [57].
+
+Disrupting this protective mechanism accelerates secondary necrosis.
+
+This provides a direct mechanistic link between clearance timing and inflammatory outcome.
+
+---
+
+## DAMP Containment
+
+Efficient efferocytosis limits uncontrolled release of damage-associated molecular patterns.
+
+By contrast, secondary necrotic or primary lytic death can release proteins such as HMGB1 and other intracellular components capable of stimulating inflammatory responses [43-44].
+
+Thus:
+
+successful early efferocytosis → intracellular sequestration of corpse → controlled digestion → reduced extracellular DAMP burden.
+
+Failed clearance → secondary rupture → DAMP release → inflammation.
+
+This is one major physiological reason why tissues invest heavily in apoptotic-cell recognition.
+
+---
+
+## Efferocytosis of Necroptotic and Pyroptotic Cells
+
+Efferocytosis is not restricted absolutely to apoptotic cells.
+
+Cells undergoing necroptosis or pyroptosis can also expose PS or other recognizable ligands and can be engulfed under certain conditions [45].
+
+However, the surrounding biological context differs substantially.
+
+Apoptotic cells commonly remain membrane-contained during early clearance.
+
+Necroptotic and pyroptotic cells can generate early membrane permeability, DAMP release, and inflammatory signals.
+
+Therefore:
+
+same phagocytic machinery ≠ same immunological consequence.
+
+The clearance pathway can overlap, while the original RCD execution mechanisms remain distinct.
+
+---
+
+## Phosphatidylserine During Non-Apoptotic Death
+
+PS exposure itself is not exclusively apoptotic.
+
+Non-apoptotic dying cells can transiently or stably externalize PS.
+
+Consequently:
+
+PS-positive target + engulfment
+
+does not prove that the upstream death mechanism was apoptosis.
+
+The upstream RCD must be independently characterized.
+
+This distinction is particularly important when studying necroptosis, pyroptosis, or tumor cells.
+
+---
+
+## Efferocytosis Can Be Pathologically Rewired
+
+Although canonical efferocytosis is largely homeostatic, inflammatory environments can alter the response of the phagocyte.
+
+A striking example occurs under strong TNF signaling, where efferocytosis can become coupled to caspase-8-dependent lytic pyroptotic signaling in the efferocyte [46].
+
+This can be represented as:
+
+inflammatory TNF environment + efferocytic signaling → caspase-8-dependent rewiring → pyroptotic/IL-1β-associated response of the phagocyte.
+
+This does **not** mean that efferocytosis itself is pyroptosis.
+
+Rather:
+
+efferocytosis provides the phagocytic context,
+
+while
+
+a separate death pathway becomes activated in the efferocyte.
+
+---
+
+## Tumor Microenvironment
+
+Efferocytosis has major context-dependent effects in cancer.
+
+Tumors contain abundant dying cells because of hypoxia, nutrient limitation, immune attack, and therapy.
+
+Macrophages that continually engulf apoptotic tumor cells can acquire immunoregulatory and tissue-remodeling phenotypes [24,47-48].
+
+For example:
+
+apoptotic tumor cells → MerTK/TAM-associated efferocytosis → macrophage reprogramming → increased immune tolerance and tissue-remodeling signals.
+
+In some cancers this can facilitate tumor progression.
+
+Therefore, a pathway that is strongly beneficial during wound resolution can become detrimental when exploited by malignant tissue.
+
+---
+
+## MerTK and Tumor Immune Suppression
+
+MerTK-mediated uptake can promote macrophage phenotypes associated with immune tolerance.
+
+In osteosarcoma, MerTK-mediated efferocytosis has been linked to M2-associated polarization and increased PD-L1 expression [47].
+
+Thus:
+
+tumor-cell apoptosis → PS-dependent MerTK signaling → efferocytosis → immunoregulatory macrophage phenotype.
+
+This is a downstream consequence of corpse clearance.
+
+MerTK does not execute tumor-cell apoptosis.
+
+---
+
+## Proangiogenic Reprogramming
+
+Recent work also demonstrates that efferocytosis can alter chromatin and transcriptional states of tumor-associated macrophages and promote proangiogenic functions [48].
+
+This reinforces a broader concept:
+
+corpse uptake → metabolic substrate influx + receptor signaling + epigenetic remodeling → long-term functional reprogramming of the efferocyte.
+
+Therefore, efferocytosis should be understood as an immunometabolic signaling event in addition to a clearance mechanism.
+
+---
+
+## Efferocytosis in Atherosclerosis
+
+Atherosclerotic plaques provide another major physiological and pathological context.
+
+Macrophage apoptosis is common in advanced plaques.
+
+Efficient efferocytosis limits necrotic-core development, whereas defective clearance allows dead-cell accumulation and secondary necrosis [49].
+
+The sequence is:
+
+macrophage apoptosis → efficient efferocytosis → corpse removal → reduced necrotic-core expansion.
+
+Versus:
+
+macrophage apoptosis → defective efferocytosis → corpse accumulation → secondary necrosis → inflammatory plaque progression.
+
+This illustrates why defects in clearance can profoundly influence disease even without altering the upstream frequency of cell death.
+
+---
+
+## Efferocytosis in Tissue Repair
+
+Efferocytosis participates in repair after injury in organs including heart, brain and other tissues [50].
+
+The mechanism is not simply disappearance of dead cells.
+
+Efferocytes integrate:
+
+receptor signaling,
+
+corpse-derived metabolites,
+
+cytokine regulation,
+
+and tissue-remodeling pathways.
+
+Thus:
+
+injury → cell death → efferocytosis → inflammatory resolution + metabolic reprogramming + repair signaling.
+
+The same architecture can produce different outcomes depending on the tissue environment.
+
+---
+
+## Morphological Sequence
+
+For a canonical apoptotic target, the chronology is:
+
+healthy cell with intracellular PS → apoptotic commitment → executioner-caspase activity → cell shrinkage and chromatin condensation → ROCK1/actomyosin-associated blebbing → XKR8 activation and ATP11C inactivation → PS exposure → find-me signal release → phagocyte recruitment → corpse recognition → phagocytic-cup formation → engulfment → efferosome → acidification/digestion.
+
+Two outcomes then diverge.
+
+### Efficient clearance
+
+apoptotic cell → prompt engulfment → intracellular corpse digestion → minimal secondary leakage.
+
+### Failed clearance
+
+apoptotic cell → prolonged extracellular persistence → progressive membrane permeability → secondary necrosis → DAMP release.
+
+---
+
+## What Is the Point of No Return?
+
+There is no meaningful universal **efferocytosis point of no return for cell death**, because the target is generally already irreversibly committed through an upstream death pathway before efferocytosis starts.
+
+For an apoptotic target, the relevant death commitment might be:
+
+widespread MOMP,
+
+or
+
+sufficiently sustained executioner-caspase activity,
+
+depending on the apoptotic pathway.
+
+These events belong to apoptosis.
+
+By contrast:
+
+XKR8-dependent PS exposure marks acquisition of a strong clearance signal.
+
+It is more accurately interpreted as:
+
+**commitment to recognition/removal**
+
+rather than
+
+**commitment to death**.
+
+Likewise, phagocytic-cup closure marks successful internalization of the target, but this is an engulfment checkpoint, not a death checkpoint.
+
+---
+
+## What Physically Kills the Target?
+
+In canonical apoptotic-cell efferocytosis, the target is killed by its apoptotic machinery.
+
+For example:
+
+intrinsic apoptosis → BAX/BAK → MOMP → apoptosome → caspase-9 → caspase-3/7 → cellular demolition.
+
+Or:
+
+extrinsic apoptosis → death receptor → caspase-8 → caspase-3/7 ± mitochondrial amplification → death.
+
+Only afterward:
+
+caspase-mediated PS exposure/find-me signals → phagocyte recognition → efferocytosis.
+
+Thus, it would be mechanistically incorrect to state:
+
+MerTK kills the apoptotic cell,
+
+TIM4 kills the apoptotic cell,
+
+Rac1 kills the apoptotic cell,
+
+or
+
+lysosomal degradation is the original cause of death.
+
+The lysosome destroys the **already dying/dead target after engulfment**.
+
+---
+
+## What Physically Destroys the Corpse?
+
+Once internalized, the answer changes.
+
+Corpse destruction is driven by:
+
+efferosome maturation → acidification → lysosomal fusion → lysosomal hydrolases → degradation of corpse proteins, nucleic acids, lipids and organelles.
+
+Therefore:
+
+apoptosis executes viability loss,
+
+whereas
+
+phagolysosomal digestion executes corpse disposal.
+
+Keeping these two concepts separate is essential.
+
+---
+
+## Protective Checkpoints Against Inappropriate Efferocytosis
+
+Several mechanisms prevent viable cells from being accidentally engulfed.
+
+The major systems include:
+
+maintenance of PS on the inner membrane leaflet by flippases such as ATP11C,
+
+absence of apoptotic find-me signals,
+
+and CD47–SIRPα inhibitory signaling.
+
+Thus:
+
+healthy cell → ATP11C maintains lipid asymmetry + low extracellular PS + CD47–SIRPα inhibitory signal → no engulfment.
+
+During apoptosis:
+
+caspases disable lipid asymmetry + increase PS exposure → eat-me signaling exceeds inhibitory protection → clearance becomes favored.
+
+This is a recognition-state transition rather than a death-execution transition.
+
+---
+
+## Failed LAP Does Not Rescue the Target Cell
+
+Loss of LAP machinery can impair corpse degradation and alter inflammatory responses.
+
+However:
+
+LAP deficiency → defective processing of already engulfed corpses,
+
+not
+
+prevention of upstream apoptosis.
+
+This distinction is particularly important when interpreting ATG-related genes.
+
+Finding ATG5, ATG7, LC3, Rubicon, or VPS34 dependence during efferocytosis does not mean the target underwent autophagy-dependent cell death.
+
+These genes are operating in the **phagocyte** to process an external corpse.
+
+---
+
+## Experimental Validation
+
+A rigorous efferocytosis experiment should separate at least four processes:
+
+target-cell death,
+
+target-cell recognition,
+
+corpse internalization,
+
+and intracellular digestion.
+
+The upstream death program should first be independently validated.
+
+For apoptotic targets this may include caspase activity, apoptotic morphology, mitochondrial changes, and other pathway-specific markers.
+
+Then clearance competence can be tested.
+
+Target-side manipulations include:
+
+XKR8 perturbation,
+
+ATP11C perturbation,
+
+and controlled alteration of PS exposure.
+
+Phagocyte-side manipulations include:
+
+TIM4,
+
+MerTK,
+
+other PS-receptor systems,
+
+ELMO/DOCK180,
+
+Rac1,
+
+LAP components,
+
+TRPM7,
+
+and V-ATPase.
+
+This permits separation of:
+
+death,
+
+recognition,
+
+uptake,
+
+and degradation.
+
+---
+
+## Measuring Engulfment Versus Association
+
+A major experimental problem is distinguishing apoptotic cells attached to phagocytes from apoptotic cells truly internalized.
+
+Microscopy, imaging flow cytometry, fluorescence-quenching strategies, or differential intracellular/extracellular labeling can distinguish these states.
+
+The logic should be:
+
+target bound to outer macrophage membrane ≠ engulfed target.
+
+Target enclosed within phagocyte membrane = internalization.
+
+Internalized target within acidified compartment = successful maturation.
+
+These represent progressively stronger evidence of complete efferocytosis.
+
+---
+
+## Measuring Efferosome Acidification
+
+Tandem-fluorescent probes and pH-sensitive reporters can identify the transition from extracellular or early phagosomal material to acidic intracellular compartments [51-52].
+
+A useful experimental sequence is:
+
+fluorescent apoptotic target → macrophage uptake → pH-dependent reporter shift → quantification of acidified corpse-containing compartments.
+
+This distinguishes mere internalization from productive degradation.
+
+---
+
+## Causal Assignment
+
+The strongest causal design is:
+
+induce a defined death program in the target → confirm death independently → manipulate target-cell PS presentation → measure receptor-dependent recognition → manipulate Rac1 pathway → quantify internalization → manipulate LAP/TRPM7/V-ATPase → quantify acidification and degradation.
+
+For example:
+
+XKR8 loss → reduced PS presentation → impaired recognition.
+
+MerTK/TIM4 disruption → reduced receptor-dependent uptake.
+
+Rac1 inhibition → recognition preserved but engulfment impaired.
+
+TRPM7/V-ATPase/LAP disruption → uptake may occur but maturation/digestion fails.
+
+This stepwise experimental architecture maps molecules to their actual positions in the pathway.
+
+---
+
+## Distinction from Ordinary Phagocytosis
+
+Ordinary phagocytosis is a broad process by which cells internalize extracellular particles, microorganisms or cellular material.
+
+Efferocytosis is a specialized form of phagocytic clearance centered on dying-self recognition.
+
+Its distinguishing features include:
+
+death-associated find-me signaling,
+
+PS-centered eat-me recognition,
+
+specialized efferocytic receptors,
+
+rapid corpse uptake,
+
+and strong immunoregulatory/metabolic consequences.
+
+Therefore:
+
+all efferocytosis is phagocytic,
+
+but not all phagocytosis is efferocytosis.
+
+---
+
+## Distinction from Entosis
+
+Efferocytosis should also be separated conceptually from processes in which living cells become internalized.
+
+During canonical efferocytosis:
+
+the target is already dying/dead.
+
+The phagocyte clears it.
+
+The engulfment process is therefore downstream of death.
+
+This distinguishes efferocytosis from cell-in-cell processes in which internalization itself may contribute causally to the fate of a living target.
+
+---
+
+## Distinction from Apoptosis
+
+The relationship is sequential rather than synonymous.
+
+Apoptosis:
+
+death stimulus → apoptotic machinery → irreversible loss of viability.
+
+Efferocytosis:
+
+apoptotic signaling → PS/find-me signals → recognition → engulfment → degradation.
+
+Apoptosis can occur without immediate efferocytosis.
+
+Efferocytosis generally requires a recognizable dying or dead target but does not create the canonical apoptotic execution program.
+
+Therefore, the two should remain separate entities.
+
+---
+
+## Distinction from Secondary Necrosis
+
+Secondary necrosis is what can happen when apoptotic corpses are not removed efficiently.
+
+Thus:
+
+apoptosis → successful efferocytosis → intracellular corpse degradation.
+
+Versus:
+
+apoptosis → failed clearance → secondary necrosis → membrane rupture.
+
+Efferocytosis therefore acts primarily to **prevent** secondary necrotic progression.
+
+---
+
+## Distinction from Necroptosis
+
+Necroptosis kills through:
+
+RIPK3 → MLKL → plasma-membrane injury.
+
+Efferocytosis does not.
+
+A necroptotic corpse can subsequently become an efferocytic substrate.
+
+Thus:
+
+necroptosis = death mechanism.
+
+Efferocytosis = subsequent clearance mechanism.
+
+Any PS exposure shared between them represents convergence at corpse recognition, not shared execution machinery.
+
+---
+
+## Distinction from Pyroptosis
+
+Pyroptosis kills through gasdermin pore formation and is typically associated with inflammatory mediator release.
+
+Efferocytosis instead internalizes the remaining dying/dead material.
+
+Thus:
+
+gasdermin activation → pyroptotic death,
+
+followed potentially by:
+
+PS recognition → phagocytic clearance.
+
+Again, execution and clearance are different biological levels.
+
+---
+
+## Molecular Hierarchy
+
+The pathway is best divided between **target-cell preparation** and **phagocyte execution of clearance**.
+
+### Upstream death machinery
+
+Depends on the original RCD.
+
+For apoptotic targets:
+
+caspases,
+
+BAX/BAK,
+
+caspase-8,
+
+caspase-9,
+
+caspase-3/7,
+
+and other apoptotic proteins may determine target death.
+
+These are not efferocytosis-specific executors.
+
+### Target-side clearance signals
+
+XKR8,
+
+ATP11C,
+
+pannexin-1,
+
+phosphatidylserine,
+
+ATP/UTP,
+
+LPC,
+
+S1P,
+
+CX3CL1.
+
+### Phagocyte recruitment receptors
+
+P2Y2,
+
+G2A,
+
+S1P receptors,
+
+CX3CR1.
+
+### Corpse-recognition systems
+
+TIM4,
+
+BAI1,
+
+stabilins,
+
+CD300-family receptors,
+
+CD14-associated systems,
+
+MerTK/TAM receptors,
+
+αv integrins.
+
+### Bridging molecules
+
+Gas6,
+
+Protein S,
+
+MFG-E8.
+
+### Engulfment transducers
+
+TRIO,
+
+RhoG,
+
+ELMO,
+
+DOCK180,
+
+Src,
+
+FAK,
+
+p130CAS,
+
+CrkII,
+
+Rac1,
+
+Ca²⁺/calmodulin/MLCK-associated machinery.
+
+### Efferosome-maturation machinery
+
+VPS34,
+
+PI3P,
+
+Rab5,
+
+Rab7,
+
+Rubicon,
+
+ATG5,
+
+ATG7,
+
+LC3,
+
+TRPM7,
+
+V-ATPase,
+
+lysosomes and lysosomal hydrolases.
+
+### Negative regulators
+
+CD47–SIRPα–SHP1/SHP2,
+
+persistent flippase-mediated PS sequestration,
+
+and defects in engulfment or LAP machinery.
+
+There is **no efferocytosis-specific molecule whose primary function is to execute death of the canonical target cell**.
+
+---
+
+## Integrated Canonical Sequence
+
+The complete canonical sequence can be represented as:
+
+upstream apoptotic stimulus → apoptotic commitment and caspase activation.
+
+Then the dying cell acquires a clearance phenotype:
+
+caspase-3/7 → XKR8 activation + ATP11C inactivation → stable PS externalization.
+
+In parallel:
+
+caspase-associated pannexin-1 activation → ATP/UTP release → P2Y2-dependent phagocyte recruitment.
+
+Additional context-dependent signals may include:
+
+LPC → G2A,
+
+S1P → S1PR,
+
+CX3CL1 → CX3CR1.
+
+The phagocyte reaches the dying cell:
+
+externalized PS → direct TIM4/BAI1/stabilin/CD300-type recognition
+
+and/or
+
+PS → Gas6/Protein S → TAM receptors
+
+and/or
+
+PS → MFG-E8 → αv-integrin signaling.
+
+Recognition is balanced against:
+
+CD47 → SIRPα → SHP1/SHP2 → don't-eat-me inhibition.
+
+If pro-engulfment signals dominate:
+
+receptor engagement → TRIO → RhoG → ELMO–DOCK180 → Rac1,
+
+with parallel MerTK/Src/FAK/p130CAS/CrkII/DOCK180 signaling and Ca²⁺-dependent cytoskeletal control.
+
+Then:
+
+Rac1-dependent actin remodeling → phagocytic-cup extension → circumferential membrane enclosure → cup closure → corpse internalization into a single-membrane efferosome.
+
+Post-engulfment:
+
+efferosome → VPS34/PI3P signaling → Rab5-to-Rab7 maturation + LAP/Rubicon/ATG5/ATG7/LC3 recruitment + TRPM7-associated Ca²⁺ signaling → V-ATPase-dependent acidification → lysosomal fusion → lysosomal hydrolase-mediated degradation.
+
+Finally:
+
+corpse-derived metabolites → efferocyte metabolic/epigenetic reprogramming → enhanced clearance capacity + tissue-resolution or context-dependent immunoregulatory signaling.
+
+---
+
+## Efficient Versus Failed Clearance
+
+### Successful pathway
+
+apoptosis → PS/find-me signaling → recognition → Rac1-dependent engulfment → LAP/Rab/V-ATPase-dependent maturation → lysosomal corpse degradation → contained disposal → resolution-associated signaling.
+
+### Failed pathway
+
+apoptosis → PS exposure → ineffective recognition or uptake → extracellular persistence of apoptotic corpse → membrane-repair capacity exhausted → secondary necrosis → membrane rupture → DAMP release → inflammation.
+
+Thus, the critical physiological outcome controlled by efferocytosis is not whether apoptosis occurred.
+
+It is whether the dead cell is removed **before it becomes an inflammatory extracellular corpse**.
+
+---
+
+## Final Mechanistic Interpretation
+
+Efferocytosis is best defined as a **regulated clearance and immunometabolic program downstream of cell-death commitment**, not as an autonomous regulated cell-death modality.
+
+Its canonical target is an apoptotic cell.
+
+The target's death machinery first generates the recognition state:
+
+apoptosis → caspase activation → XKR8-mediated phospholipid scrambling + ATP11C inactivation → phosphatidylserine exposure,
+
+while pannexin-1-dependent nucleotide release and other context-dependent find-me signals recruit phagocytes.
+
+Recognition then occurs through a combinatorial PS-receptor system involving direct receptors such as TIM4 and BAI1 or bridging systems such as Gas6/Protein S–TAM receptors and MFG-E8–integrins.
+
+These pathways converge on:
+
+TRIO/RhoG/ELMO/DOCK180 and related signaling → Rac1 → actin remodeling → phagocytic-cup formation → internalization.
+
+The corpse is then processed through:
+
+VPS34/PI3P → Rab maturation + LC3-associated phagocytosis/Rubicon → TRPM7-associated Ca²⁺ signaling → V-ATPase-dependent acidification → lysosomal degradation.
+
+The principal conceptual distinction is therefore:
+
+**caspases or another RCD-specific machinery cause loss of viability; the efferocytic machinery subsequently causes recognition, engulfment, and destruction of the corpse.**
+
+There is consequently no valid efferocytosis-specific point of no return for target-cell death.
+
+Stable PS exposure may mark commitment to recognition, and complete phagocytic-cup closure marks commitment to intracellular disposal, but neither constitutes the original lethal event.
+
+The most important biological consequence of efficient efferocytosis is prevention of secondary necrosis and inflammatory release of intracellular material.
+
+When clearance fails, apoptotic corpses can progressively lose membrane integrity and undergo secondary necrosis.
+
+When clearance succeeds, the dying cell is removed in a controlled intracellular compartment and its components are metabolically recycled.
+
+Accordingly, within a mechanistic atlas of regulated cell death, efferocytosis should be positioned **after** the execution phase as a downstream fate of dying cells rather than alongside apoptosis, ferroptosis, necroptosis, or other autonomous death modalities.
+
+Its most defensible operational definition is:
+
+**a regulated phagocytic process in which dying-cell-derived find-me and eat-me signals trigger receptor-dependent Rac1-mediated engulfment and phagolysosomal degradation of the corpse, thereby controlling inflammatory consequences and tissue recovery without constituting the original mechanism that kills the target cell.**
+

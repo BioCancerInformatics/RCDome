@@ -8,7 +8,7 @@ The data is embedded inline so the page works from file://.
 import pandas as pd, json, csv
 
 BASE = r"D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript"
-v23 = pd.read_csv(BASE + "/output databases/Phase 2C output/unified_gene_rcd_matrix_V026.csv",
+v23 = pd.read_csv(BASE + "/output databases/Phase 2C output/unified_gene_rcd_matrix_V027.csv",
                   dtype=str, keep_default_na=False)
 
 decoder_df = pd.read_csv(BASE + "/RCDome Decoder/RCDome_Decoder_53.csv", dtype=str, keep_default_na=False)
@@ -75,6 +75,7 @@ for form, grp in v23.groupby('rcd_form_canonical'):
         genes.append({'symbol': r['gene_symbol'], 'direction': r['role_direction'],
                       'role': r['rcd_gene_type'], 'mech': r['mechanistic_class'],
                       'direction_ds': r['cot_direction'], 'role_ds': r['cot_role'],
+                      'direction_cs': r['consensus_direction'], 'role_cs': r['consensus_role'],
                       'n_db': int(r['_ns']), 'pmid': pmid, 'dbs': r['source_databases']})
     pmids = []
     for col in ('pmid_list', 'elicit_pmids'):
@@ -100,7 +101,8 @@ for sym, grp in v23.groupby('gene_symbol'):
     for form, fg in grp.groupby('rcd_form_canonical'):
         ents.append({'name': form, 'level': short(fg['rcdome_level_name'].iloc[0]),
                      'direction': fg['role_direction'].iloc[0], 'direction_ds': fg['cot_direction'].iloc[0],
-                     'role_ds': fg['cot_role'].iloc[0], 'mech': fg['mechanistic_class'].iloc[0]})
+                     'role_ds': fg['cot_role'].iloc[0], 'direction_cs': fg['consensus_direction'].iloc[0],
+                     'role_cs': fg['consensus_role'].iloc[0], 'mech': fg['mechanistic_class'].iloc[0]})
     ents.sort(key=lambda e: (-(e['mech'] == 'MECHANISTIC'), e['name']))
     h = hgnc_map.get(sym, {})
     info = gene_info_map.get(sym, {})
@@ -226,6 +228,7 @@ html = """<!DOCTYPE html>
         <span style="font-weight:600;">Direction/Role source:</span>
         <label style="margin-left:14px;"><input type="radio" name="dirSrc" value="deepseek" checked> DeepSeek</label>
         <label style="margin-left:14px;"><input type="radio" name="dirSrc" value="elicit"> Elicit</label>
+        <label style="margin-left:14px;"><input type="radio" name="dirSrc" value="consensus"> Consensus</label>
       </div>
       <div class="filters">
         <input id="entitySearch" class="search" placeholder="Search genes…">
@@ -253,7 +256,7 @@ html = """<!DOCTYPE html>
         <span id="entityPage"></span>
         <button id="entityNext">Next &rarr;</button>
       </div>
-      <p class="note">Direction/Role source: DeepSeek (complete) vs Elicit (original, ~20% populated). Switch above.</p>
+      <p class="note">Direction/Role source: DeepSeek (complete) vs Elicit (original, ~20% populated) vs Consensus (complete). Switch above.</p>
     </div>
     <div class="section">
       <h2>Literature evidence</h2>
@@ -287,7 +290,7 @@ html = """<!DOCTYPE html>
         </tr></thead>
         <tbody id="geneEntities"></tbody>
       </table>
-      <p class="note">Direction source: DeepSeek (complete) vs Elicit (original).</p>
+      <p class="note">Direction source: DeepSeek (complete) vs Elicit (original) vs Consensus (complete).</p>
     </div>
   </div>
 
@@ -320,10 +323,10 @@ const dirPill = d => d.toLowerCase().startsWith("promote") ? "p-promote"
                  : d.toLowerCase().startsWith("protect") ? "p-protect" : "";
 const uniq = arr => [...new Set(arr.filter(Boolean))];
 let dirSrc = "deepseek";
-const DIR = g => dirSrc === "elicit" ? (g.direction || "") : (g.direction_ds || "");
-const ROLE = g => dirSrc === "elicit" ? (g.role || "") : (g.role_ds || "");
+const DIR = g => dirSrc === "elicit" ? (g.direction || "") : dirSrc === "consensus" ? (g.direction_cs || "") : (g.direction_ds || "");
+const ROLE = g => dirSrc === "elicit" ? (g.role || "") : dirSrc === "consensus" ? (g.role_cs || "") : (g.role_ds || "");
 function updateHeaders() {
-  const lbl = dirSrc === "elicit" ? "Elicit" : "DeepSeek";
+  const lbl = dirSrc === "elicit" ? "Elicit" : dirSrc === "consensus" ? "Consensus" : "DeepSeek";
   const td = document.getElementById("thDirection");
   const tr = document.getElementById("thRole");
   const tg = document.getElementById("thGeneDirection");

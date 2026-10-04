@@ -1,1 +1,258 @@
-Necrose: desfecho morfológico caracterizado por inchaço celular, ruptura da membrana plasmática e liberação do conteúdo celular, causando inflamação. Pode resultar de lesão acidental, não regulada, ou de vias programadas, incluindo necroptose e necrose induzida pela transição de permeabilidade mitocondrial. No câncer, a necrose contribui para a progressão tumoral por meio da remodelação inflamatória do microambiente e da evasão imune.
+Necrosis
+
+1. Definition and Classification
+
+Necrosis is not a single molecular cell-death pathway. In contemporary cell-death nomenclature, necrosis is best understood as a morphological and functional endpoint characterized by cellular and organelle swelling, failure of plasma-membrane integrity, loss of ionic and metabolic homeostasis, and extracellular release of intracellular contents [1-3,46]. Multiple mechanistically distinct regulated cell-death programs can culminate in this necrotic phenotype, including necroptosis, mitochondrial permeability transition pore (mPTP)-dependent necrosis, parthanatos, and lysosome-dependent cell death [1-3].
+
+This distinction is critical. The observation of a swollen, ruptured cell establishes a necrotic morphology but does not identify the molecular pathway responsible for death. Mechanistic classification requires identification of the pathway-specific machinery that produced the phenotype.
+
+Historical pathology literature distinguished “oncosis,” describing the premortem process of swelling caused by ionic and energetic failure, from “necrosis,” referring more strictly to the postmortem morphological appearance [4]. Modern regulated-cell-death nomenclature generally retains necrosis as a broader morphological endpoint while separately defining the molecular mechanisms capable of causing regulated necrotic death [1-3,47].
+
+Necrotic death differs fundamentally from classical apoptosis because terminal viability loss is generally produced by catastrophic failure of membrane, ionic, metabolic, mitochondrial, or lysosomal homeostasis rather than orderly caspase-3/7-driven proteolytic dismantling and packaging into apoptotic bodies [5-6].
+
+RIP3 recruits and phosphorylates MLKL, causing MLKL tetramerization and translocation to plasma membrane lipid rafts [43].
+
+mPTP-dependent necrosis: Ca2+ overload + oxidative stress + energetic stress → cyclophilin D-regulated mitochondrial permeability transition → mitochondrial depolarization, swelling, ATP collapse, and necrotic death [8-11].
+
+Parthanatos: severe DNA damage or oxidative stress → PARP1 hyperactivation → PAR accumulation and NAD+ consumption → energetic failure + AIF-associated nuclear destruction [12-15].
+
+Lysosomes can trigger distinct cell death pathways through controlled lysosomal permeabilization that releases proteases such as cathepsins into the cytoplasm [42].
+
+Thus, for RCDome, necrosis should not be represented as a mechanistically unitary RCD modality. It is most defensibly classified as a broad necrotic phenotype or RCD-related concept encompassing several distinct molecular execution programs.
+
+2. Initiation and Triggers
+
+Because necrosis is an endpoint rather than a single pathway, there is no universal upstream trigger, sensor, or first intracellular event.
+
+In ischemic or oncotic injury, the initiating event is usually severe energetic insufficiency. Oxygen and glucose deprivation reduce oxidative phosphorylation and cellular ATP availability. ATP-dependent ion transport, particularly Na+/K+-ATPase activity and Ca2+ homeostasis, progressively fails [7,20-21]. Intracellular Na+ accumulation draws water into the cell, while cytosolic Ca2+ rises because Ca2+ extrusion and sequestration systems become impaired.
+
+The resulting Ca2+ overload activates proteases, phospholipases, and other damaging enzymes and simultaneously promotes mitochondrial Ca2+ uptake [7,20]. During reperfusion, restoration of oxygen can generate a burst of reactive oxygen species that further damages membranes, proteins, and mitochondria and sensitizes the mPTP to opening [8-11].
+
+In mPTP-dependent necrosis, therefore, the relevant initiating combination is commonly:
+
+Ischemia/reperfusion, Ca2+ overload, ROS, and declining ATP → mitochondrial matrix Ca2+ accumulation and oxidative stress → cyclophilin D-facilitated mPTP opening [8-11].
+
+Necroptosis uses a mechanistically different initiation logic. Death receptors and innate immune receptors can activate RIPK1/RIPK3 or directly engage RIPK3 when caspase-8-dependent restriction fails. RIPK3 subsequently phosphorylates MLKL, which becomes the membrane-directed executor [3,22-23].
+
+Parthanatos begins primarily with severe DNA damage. Oxidative stress, excitotoxic injury, and other genotoxic insults activate PARP1 beyond its physiological DNA-repair range [12-15]. Excessive PARP1 activity synthesizes large amounts of poly(ADP-ribose) while rapidly consuming cellular NAD+.
+
+Lysosome-dependent death begins with lysosomal destabilization. ROS, lysosomotropic compounds, damaging lipid species, and other membrane stresses can induce lysosomal membrane permeabilization, allowing cathepsins and other lysosomal hydrolases to escape into the cytosol [16-19].
+
+The upstream initiating event must therefore be assigned according to the molecular route rather than inferred from necrotic morphology.
+
+3. Core Mechanistic Machinery
+
+Necrosis has no single core machinery shared by every necrotic cell. Instead, several mechanistically independent execution modules can converge on the same broad morphology.
+
+In ischemic/oncotic injury, the core disturbance is energetic and ionic failure. ATP depletion compromises ATP-dependent ion pumps, producing Na+ accumulation, Ca2+ dysregulation, intracellular water entry, cellular swelling, and progressive organelle dysfunction [7,20-21].
+
+Mitochondria become both targets and amplifiers of this process. Excess mitochondrial Ca2+, oxidative stress, and energetic failure favor opening of the mitochondrial permeability transition pore [8-11].
+
+In mPTP-dependent necrosis, cyclophilin D is a central regulator of permeability transition. Sustained high-conductance mPTP opening collapses the mitochondrial membrane potential, uncouples oxidative phosphorylation, inhibits ATP production, permits osmotic entry of water into the mitochondrial matrix, and causes extensive mitochondrial swelling [8-11].
+
+Genetic evidence strongly supports this mechanism. Loss of cyclophilin D protects cells and tissues from several forms of Ca2+- and oxidative-stress-induced necrotic injury, including ischemic injury [10-11].
+
+In necroptosis, the defining machinery is instead RIPK3 and MLKL. RIPK3 phosphorylates MLKL, leading to MLKL oligomerization, membrane trafficking, and formation or induction of a plasma-membrane permeability lesion [22-25].
+
+In parthanatos, PARP1 is the initiating enzymatic machinery. Excessive PARP1 activity consumes NAD+ and produces PAR [12-15]. PAR also functions as a signaling molecule rather than merely a biomarker. PAR binding to apoptosis-inducing factor (AIF) contributes to AIF release from mitochondria and its subsequent movement to the nucleus [14].
+
+Within the nucleus, AIF-associated mechanisms drive large-scale DNA damage. Recent neuronal evidence further implicates SARM1 downstream of PARP1 in mitochondrial depolarization, AIF translocation, and excitotoxic parthanatos [15]. This should presently be considered a context-dependent extension of the established PARP1-PAR-AIF machinery rather than a universal parthanatos requirement.
+
+In lysosome-dependent death, the core machinery is lysosomal membrane permeabilization followed by cytosolic activity of released cathepsins [16-19,40]. Extensive lysosomal leakage permits proteases to digest essential cellular substrates and can simultaneously damage mitochondria and other organelles.
+
+Thus, there is no biologically defensible universal “necrosis machinery.” The commonality appears at the level of terminal homeostatic collapse rather than at the level of one conserved signaling complex.
+
+4. Propagation and Amplification
+
+Necrotic injury frequently contains positive-feedback loops in which energetic, ionic, oxidative, mitochondrial, and proteolytic disturbances reinforce one another.
+
+During ischemic or oncotic injury, ATP depletion inhibits ion pumps → intracellular Na+ rises → water enters osmotically → cellular swelling increases. Simultaneously, Ca2+ accumulation activates phospholipases and proteases that damage membranes and structural proteins [7,20-21].
+
+Mitochondrial Ca2+ overload and ROS production further compromise oxidative phosphorylation. Decreased ATP production causes additional ion-pump failure, creating a bioenergetic feedback loop.
+
+During reperfusion, ROS provide another major amplifier. Oxidative injury damages proteins, lipids, DNA, and mitochondrial respiratory functions while sensitizing the mPTP [8-11].
+
+Once the mPTP opens persistently, mitochondrial depolarization suppresses ATP production still further. Water enters the mitochondrial matrix, mitochondria swell, and severe swelling can rupture the outer mitochondrial membrane [8-11]. The energetic deficit then accelerates whole-cell ionic collapse.
+
+In necroptosis, amplification occurs through RIPK3 activation and subsequent accumulation of active MLKL at membrane sites. Importantly, MLKL phosphorylation is temporally separated from terminal lysis, indicating additional downstream checkpoints [24-25]. Recent evidence suggests that MLKL can also target lysosomal membranes and induce lysosomal membrane permeabilization in particular cell systems, providing an additional amplification route rather than a universal necroptotic mechanism [26].
+
+Parthanatos contains a different amplification system. PARP1 hyperactivation rapidly consumes NAD+, compromising glycolysis and energy production [12-13]. Bioenergetic failure contributes to mitochondrial dysfunction, while PAR-dependent AIF mobilization drives nuclear destruction [14]. These energetic and nuclear processes reinforce one another until recovery becomes impossible.
+
+During lysosomal death, limited lysosomal leakage may initially be tolerated. Activated calpains cause lysosomal permeabilization, releasing proapoptotic cathepsins and leading to Bax activation and mitochondrial destabilization .
+
+ROS and Ca2+ are therefore frequent cross-pathway amplifiers of necrotic injury, but neither represents a universal defining mechanism of necrosis.
+
+5. Protective/Negative Regulators
+
+Protective mechanisms are pathway specific.
+
+In ischemic and oncotic injury, the principal protective systems are those preserving cellular energy production, membrane integrity, antioxidant capacity, and ion gradients. For mPTP-dependent necrosis, resistance to sustained permeability transition represents a major checkpoint. Cyclophilin D strongly regulates susceptibility to pore opening, and its genetic loss markedly protects against several forms of necrotic injury [10-11]. Regulation of cyclophilin D phosphorylation can also alter the threshold for pore opening during ischemia-reperfusion [27].
+
+For necroptosis, protective checkpoints include RIPK1 ubiquitination and phosphorylation, FADD-caspase-8 activity, cFLIP-associated control, and other mechanisms that prevent formation of productive RIPK3-MLKL signaling complexes [28-31]. Caspase-8-mediated cleavage of RIPK1 is especially important in preventing pathological necroptotic signaling [29].
+
+For lysosome-dependent death, lysosomal membrane stability and mechanisms capable of limiting or clearing damaged lysosomes act upstream of catastrophic cathepsin release [16-19,45]. When only limited lysosomal injury occurs, cellular repair mechanisms can prevent transition to lethal lysosomal proteolysis.
+
+In parthanatos, maintenance of NAD+ availability and restriction of PARP1 activation to physiological DNA-repair levels oppose progression toward death [12-13]. Experimental rescue by PARP1 inhibition, interference with PAR-AIF signaling, or preservation of metabolic function demonstrates that early stages are not necessarily irreversible.
+
+At the final lytic stage, plasma-membrane repair mechanisms can delay complete rupture. Glycine can inhibit NINJ1 clustering and reduce plasma-membrane rupture under certain death conditions [32]. Thus, permeability and complete membrane disintegration are separable events.
+
+6. Commitment / Point of No Return
+
+Necrosis has no universal molecular point of no return because each regulated necrotic route reaches irreversibility through different machinery.
+
+In ischemic/oncotic injury, early ATP decline, ion accumulation, and cellular swelling may remain reversible if metabolism is restored before extensive membrane and organelle damage develops. Commitment to necrosis emerges when energetic failure becomes sufficiently severe that ion gradients and membrane integrity can no longer be restored, while mitochondrial function is often already compromised or lost [39].
+
+In mPTP-dependent necrosis, transient mPTP opening can occur physiologically or reversibly. The most defensible commitment event is sustained high-conductance permeability transition that produces persistent mitochondrial depolarization, uncoupling, ATP collapse, and mitochondrial swelling [8-11].
+
+In necroptosis, RIPK3 activation and early MLKL phosphorylation precede irreversible death. The commitment transition occurs later, when sufficient activated MLKL accumulates at membranes and membrane damage exceeds cellular repair capacity [24-25].
+
+In parthanatos, physiological PARP1 activity supports DNA repair. Commitment occurs only after PARP1 activity becomes excessive enough to produce severe NAD+ depletion together with PAR-AIF-dependent execution signaling [12-14].
+
+In lysosome-dependent cell death, limited lysosomal membrane permeabilization can be nonlethal or serve as an amplifier of another pathway. In some models, extensive lysosomal membrane permeabilization with massive cathepsin release and uncontrolled proteolysis has been proposed as the strongest candidate point of no return [49-50].
+
+Therefore, no single commitment marker should be assigned to necrosis as a whole.
+
+7. Execution and Terminal Cause of Death
+
+The physical cause of death differs among necrotic pathways, but the common terminal principle is irreversible failure of plasma-membrane, ionic, metabolic, or organelle homeostasis [1-3,46].
+
+In ischemic/oncotic necrosis, the cell is physically killed by catastrophic ionic and bioenergetic collapse. ATP depletion prevents maintenance of Na+, K+, Ca2+, and water gradients. Na+ and water accumulation cause cellular swelling, Ca2+-activated enzymes damage cellular structures, mitochondrial function deteriorates, and membrane integrity eventually fails [7,20-21].
+
+In mPTP-dependent necrosis, sustained permeability transition destroys mitochondrial electrochemical potential and ATP production. Mitochondrial swelling and bioenergetic collapse make maintenance of whole-cell ionic homeostasis impossible [8-11].
+
+In parthanatos, the lethal process combines severe NAD+ depletion and energetic failure with PAR-AIF-associated nuclear destruction [12-15]. Thus, no membrane pore equivalent to MLKL is established as its universal executor.
+
+In lysosome-dependent death, massive lysosomal membrane permeabilization releases cathepsins into the cytosol. These enzymes degrade essential cellular components and can amplify mitochondrial and membrane injury [16-19,50].
+
+In necroptosis, MLKL-dependent membrane permeabilization directly creates the ionic defect leading to osmotic swelling and lysis [22-25].
+
+A particularly important recent development is that complete plasma-membrane rupture is not always purely passive. NINJ1 can mediate terminal plasma-membrane rupture during several forms of lytic cell death [33-36].
+
+NINJ1 oligomerization reorganizes the plasma membrane into amphipathic filamentous or ring/disk-like structures capable of disrupting, cutting, or releasing membrane regions [34-35]. Cell swelling can function upstream of this process and promote NINJ1 activation [36].
+
+Consequently, terminal necrotic morphology can involve at least two separable events:
+
+Initial pathway-specific loss of viability or membrane permeability → swelling and membrane stress → NINJ1-associated large-scale plasma-membrane rupture and DAMP release.
+
+NINJ1 is nevertheless not established as the universal cause of death across every necrotic pathway. Cells can become metabolically dead and markedly swollen without complete NINJ1-dependent rupture, demonstrating that death and final membrane disintegration are related but distinct processes [33,36].
+
+Recent evidence identifying SIGLEC12 as a mediator of plasma-membrane rupture during necroptosis further indicates that terminal rupture mechanisms may be cell-type- or species-dependent rather than governed by one universal rupture protein [37].
+
+8. Morphological Sequence
+
+The classical necrotic morphological sequence is:
+
+Viable cell → energetic or pathway-specific injury → failure of ion homeostasis → intracellular Na+ and/or Ca2+ accumulation → osmotic water influx → cytoplasmic swelling → organelle swelling → mitochondrial swelling and vacuolization → progressive plasma-membrane permeability → large-scale membrane rupture → extracellular release of LDH, HMGB1, nucleic acids, metabolites, and other intracellular components [7,20-21,33].
+
+The nucleus generally lacks the highly ordered condensation and fragmentation characteristic of classical apoptosis. Instead, intracellular architecture deteriorates in parallel with osmotic and metabolic collapse.
+
+In oncotic injury, cell swelling is especially prominent and may occur well before complete rupture [4,48].
+
+The morphology is not identical across all regulated necrotic mechanisms. Necroptosis produces MLKL-dependent permeability followed by swelling and rupture [22-25]. mPTP-dependent necrosis is dominated initially by mitochondrial depolarization, ATP failure, and profound mitochondrial swelling [8-11]. Parthanatos includes prominent large-scale nuclear DNA injury associated with AIF [12-15]. Lysosomal death may initially show lysosomal disruption before generalized necrotic deterioration [16-19,46,49].
+
+NINJ1-deficient cells provide an important mechanistic distinction: cells can reach a metabolically dead, ballooned or swollen state while retaining a partially intact plasma-membrane shell, showing that cell death and final macroscopic membrane rupture are not necessarily simultaneous [33,36].
+
+9. Crosstalk and Differential Diagnosis
+
+The most important diagnostic principle is that necrotic morphology cannot identify its own mechanism.
+
+Necroptosis should only be assigned when RIPK3-MLKL dependence is demonstrated [22-25]. A swollen or ruptured cell without evidence of RIPK3-MLKL activation should not automatically be described as necroptotic.
+
+mPTP-dependent necrosis requires evidence linking death to permeability transition and cyclophilin D, particularly through genetic or mechanistic perturbation [8-11].
+
+Parthanatos requires evidence of pathological PARP1 activation, NAD+ depletion, PAR signaling, and AIF-associated execution [12-15]. DNA damage alone does not establish parthanatos.
+
+Lysosome-dependent cell death requires evidence that lysosomal membrane permeabilization is upstream and causal rather than a secondary consequence of another death program [16-19].
+
+Necrosis must also be differentiated from apoptosis. Apoptosis typically features cell shrinkage, chromatin condensation, caspase-dependent dismantling, apoptotic bodies, and initially maintained plasma-membrane integrity, whereas necrotic morphology is dominated by swelling and membrane failure [4-6].
+
+Ferroptosis can ultimately develop membrane rupture and DAMP release, but its defining mechanism is iron-dependent phospholipid peroxidation rather than general necrotic morphology. NINJ1-mediated rupture has also been demonstrated downstream of ferroptotic injury, emphasizing that a shared terminal rupture mechanism does not make the upstream death modalities equivalent [38].
+
+Similarly, pyroptosis, necroptosis, and other lytic RCDs can all converge on swelling and membrane rupture. The pathway must therefore be defined by upstream causal machinery rather than by LDH release, propidium iodide uptake, swelling, or DAMP release alone.
+
+Oncosis should be used cautiously. Historical and pathological literature uses the term to describe swelling-dominant premortem cellular injury, while necrosis describes the resulting dead-cell morphology [4]. It is therefore better regarded as a morphological process than as proof of a unique molecular pathway unless a distinct mechanism is experimentally demonstrated.
+
+10. Experimental Validation
+
+Experimental validation of “necrosis” requires two levels of evidence: confirmation of the necrotic phenotype and identification of the molecular route producing it.
+
+The necrotic phenotype can be established through live-cell imaging or microscopy demonstrating cell and organelle swelling, progressive loss of membrane integrity, and terminal rupture [6]. Plasma-membrane permeability assays, propidium iodide or related dyes, LDH release, HMGB1 release, and loss of cellular ATP can support the phenotype.
+
+However, these measurements cannot identify the underlying pathway.
+
+For mPTP-dependent necrosis, causal validation requires direct or indirect measurement of mitochondrial permeability transition together with perturbation of cyclophilin D. Inhibition of CypD has been reported to reduce infarct size in preclinical studies but failed to translate in human clinics [27].
+
+For necroptosis, experiments should demonstrate RIPK3 and MLKL dependence, phospho-RIPK3/phospho-MLKL formation, MLKL trafficking, and rescue by genetic or appropriate pharmacological pathway inhibition [22-25].
+
+For parthanatos, the strongest evidence includes PARP1 hyperactivation, NAD+ depletion, PAR accumulation, AIF release and nuclear translocation, together with rescue by PARP1 inhibition, preservation/restoration of NAD+ metabolism, disruption of PAR-AIF signaling, or suppression of downstream execution components [12-15].
+
+For lysosome-dependent death, lysosomal membrane permeabilization must precede terminal death, and lysosomal stabilization or cathepsin inhibition should improve survival [16-19,46,49]. If lysosomal permeabilization occurs only after another pathway has already committed the cell to death, it should be interpreted as an amplifier rather than the primary execution mechanism.
+
+NINJ1 involvement can be tested genetically or pharmacologically by determining whether inhibition preserves the final plasma-membrane shell and reduces large-molecule DAMP release despite persistence of upstream cell death [32-36].
+
+Critically, transcriptomic signatures associated with necrosis cannot demonstrate active necrotic death. Expression profiles may indicate ischemic stress, necroptotic competence, lysosomal dysfunction, oxidative injury, or susceptibility to regulated necrosis, but necrosis is fundamentally a functional and morphological endpoint that requires direct evidence of cell death and pathway-specific validation.
+
+11. Molecular Hierarchy
+
+Because necrosis is an endpoint, there is no single universal molecular hierarchy. Instead, route-specific hierarchies should be maintained.
+
+Ischemic/oncotic route:
+
+Initiating stress: oxygen/glucose deprivation, severe metabolic failure → signal/transduction state: ATP depletion, Na+/K+ pump failure, Ca2+ dysregulation, ROS → core machinery: ion transport failure + mitochondrial dysfunction ± mPTP → executor/terminal lesion: irreversible ionic and bioenergetic collapse → biomarkers: swelling, ATP loss, LDH/HMGB1 release [7,20-21].
+
+mPTP-dependent route:
+
+Initiators: Ca2+ overload, ROS, low ATP → sensor/regulator: cyclophilin D-regulated mitochondrial permeability transition → core machinery: sustained mPTP opening → executor: mitochondrial depolarization and oxidative-phosphorylation collapse → terminal lesion: ATP failure + mitochondrial swelling + whole-cell homeostatic collapse [8-11].
+
+Necroptotic route:
+
+Initiators: death/innate immune receptors and nucleic-acid sensing → signal transducers: RIPK1 and/or TRIF/ZBP1 → RIPK3 → core machinery: RIPK3-MLKL → executor: activated membrane-localized MLKL → terminal lesion: membrane permeability + osmotic imbalance → terminal rupture, potentially involving NINJ1 in relevant contexts [22-25,33-36].
+
+Parthanatos route:
+
+Initiator: severe DNA damage/oxidative injury → sensor/enzyme: PARP1 → transducers: excessive PAR synthesis + NAD+ consumption → core machinery: PAR-AIF signaling ± context-dependent SARM1 → executors: energetic collapse plus AIF-associated nuclear destruction → terminal loss of viability [12-15].
+
+NFX* and CPX cause lysosomes to release cathepsins B and D into the cytosol [41].
+
+Late rupture machinery:
+
+Cell swelling/membrane stress → NINJ1 clustering and oligomerization in relevant lytic contexts → membrane excision/disintegration → large-scale DAMP release [32-36].
+
+Biomarkers such as swelling, LDH release, HMGB1 release, propidium iodide uptake, ATP loss, or membrane rupture belong mainly to the terminal phenotype and cannot determine which upstream regulated pathway was responsible.
+
+12. Integrated Canonical Sequence
+
+Because necrosis is not a single pathway, the most defensible integrated sequence is a convergence model:
+
+Severe extracellular or intracellular injury such as ischemia, metabolic failure, oxidative stress, Ca2+ overload, DNA damage, infection, death-receptor signaling, toxins, or lysosomal injury → activation of one or more mechanistically distinct modules:
+
+energetic failure → ion-pump collapse → Na+/Ca2+ dysregulation and water influx;
+
+or Ca2+/ROS/low ATP → cyclophilin D-facilitated sustained mPTP opening → mitochondrial depolarization and ATP collapse;
+
+or death/innate immune signaling → RIPK3 activation → MLKL phosphorylation/oligomerization → plasma-membrane permeabilization;
+
+or DNA damage → PARP1 hyperactivation → PAR synthesis + NAD+ depletion → metabolic failure + PAR-AIF-dependent nuclear injury;
+
+or lysosomal stress → lysosomal membrane permeabilization → cytosolic cathepsin release;
+
+→ amplification through ROS, Ca2+ overload, mitochondrial dysfunction, proteolysis, lipid/membrane damage, and declining ATP → pathway-specific commitment after sustained mPTP opening, excessive MLKL membrane accumulation, catastrophic NAD+ depletion, massive lysosomal membrane permeabilization, or irreversible energetic collapse → failure of ionic and metabolic homeostasis → osmotic swelling and organelle dysfunction → plasma-membrane permeability → in many lytic contexts NINJ1-associated terminal membrane disintegration → extracellular release of intracellular contents and DAMPs → necrotic morphology [1-3,7-19,22-36].
+
+This integrated sequence describes convergence toward necrosis as an endpoint; it does not imply that every necrotic cell activates all of these molecular modules.
+
+13. Final Mechanistic Interpretation
+
+For RCDome, the most defensible operational definition is:
+
+Necrosis is a broad morphological and functional endpoint of cell death characterized by loss of ionic and bioenergetic homeostasis, cellular and organelle swelling, plasma-membrane failure, and release of intracellular material. It is not a single molecular RCD pathway. Distinct regulated death programs, including necroptosis, mPTP-dependent necrosis, parthanatos, and lysosome-dependent cell death, can converge on a necrotic phenotype through different core machinery and different commitment events [1-3].
+
+The defining terminal problem is irreversible failure of cellular homeostasis. Depending on context, this can originate from MLKL-mediated membrane permeabilization, sustained mitochondrial permeability transition and ATP collapse, PARP1-driven NAD+ depletion with AIF-associated nuclear destruction, massive lysosomal membrane permeabilization and cathepsin release, or profound ischemic ionic/energetic failure.
+
+Complete plasma-membrane rupture should be distinguished from the earlier event that actually makes the cell nonviable. NINJ1 can actively mediate late membrane rupture and DAMP release in several lytic death contexts, but its inhibition can preserve the gross plasma-membrane shell after upstream viability has already been lost [32-36]. Thus, NINJ1-associated rupture is an important late execution module but cannot currently serve as a universal definition of necrotic death.
+
+The evidence status is therefore mixed by design: regulated necrotic mechanisms themselves are well established, but “necrosis” remains an endpoint shared by several mechanistically different pathways. A single universal necrosis sensor, signaling cascade, or executor does not exist in the supplied evidence.
+
+The major unresolved question is which mechanisms of terminal plasma-membrane rupture are universal versus pathway-, species-, or cell-type-specific. SIGLEC12 is an alternative plasma membrane rupture executor in necroptosis that can operate independently of NINJ1 [44].
+
+Accordingly, RCDome should not infer active necrosis from transcriptional signatures alone. Such signatures can identify necrosis-associated stress states or susceptibility to specific regulated necrotic programs, but demonstration of necrotic death requires functional evidence of viability loss and mechanistic evidence identifying the responsible route whenever possible.
+

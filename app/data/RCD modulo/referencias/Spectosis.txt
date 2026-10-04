@@ -1,0 +1,71 @@
+**[1] Chen Y, Chen S, Liu Z, et al. Red blood cells undergo lytic programmed cell death involving NLRP3. Cell. 2025. DOI: 10.1016/j.cell.2025.03.039.**
+
+**[2] Chen Y, Zhang J, Hu X. Spectosis: One small step for NLRP3 but a giant leap for human mature red blood cells. Clinical and Translational Medicine. 2025;15. DOI: 10.1002/ctm2.70457.**
+
+**[3] Tweedell RE, Kanneganti TD. ExSPECKt the unexpected: NLRP3–caspase-8–dependent cell death in RBCs. Cell. 2025;188:2833–2835. DOI: 10.1016/j.cell.2025.04.033.**
+
+**[4] Ranjan N, Cole M, Gerber G, Flores-Guerrero D, Chaturvedi S, Brodsky RA. Complement drives PNH red cell hemolysis independently of inflammasome activation. 2026. DOI: 10.64898/2026.07.20.26358486.**
+
+**[5] Ranjan N, Cole M, Gerber G, Flores-Guerrero D, Chaturvedi S, Brodsky RA. NLRP3 inflammasome inhibition fails to prevent red blood cell lysis in PNH. Blood. 2025. DOI: 10.1182/blood-2025-2895.**
+
+**[6] Lux SE. Anatomy of the red cell membrane skeleton: unanswered questions. Blood. 2016;127:187–199. DOI: 10.1182/blood-2014-12-512772.**
+
+**[7] Bennett V, Stenbuck PJ. The membrane attachment protein for spectrin is associated with band 3 in human erythrocyte membranes. Nature. 1979;280:468–473. DOI: 10.1038/280468a0.**
+
+**[8] Bennett V. Proteins involved in membrane–cytoskeleton association in human erythrocytes: spectrin, ankyrin, and band 3. Methods in Enzymology. 1983;96:313–324. DOI: 10.1016/S0076-6879(83)96029-9.**
+
+**[9] Anong WA, Franco T, Chu H, et al. Adducin forms a bridge between the erythrocyte membrane and its cytoskeleton and regulates membrane cohesion. Blood. 2009;114:1904–1912. DOI: 10.1182/blood-2009-02-203216.**
+
+**[10] Li N, Chen S, Xu K, et al. Structural basis of membrane skeleton organization in red blood cells. Cell. 2023. DOI: 10.1016/j.cell.2023.03.017.**
+
+**[11] Vallese F, Kim K, Yen LY, et al. Architecture of the human erythrocyte ankyrin-1 complex. Nature Structural & Molecular Biology. 2022;29:706–718. DOI: 10.1038/s41594-022-00792-w.**
+
+**[12] Alghareeb SA, Alfhili MA, Fatima S. Molecular Mechanisms and Pathophysiological Significance of Eryptosis. International Journal of Molecular Sciences. 2023;24:5079. DOI: 10.3390/ijms24065079.**
+
+**[13] Tkachenko A, Alfhili MA, Alsughayyir J, et al. Current understanding of eryptosis: mechanisms, physiological functions, role in disease, pharmacological applications, and nomenclature recommendations. Cell Death & Disease. 2025;16. DOI: 10.1038/s41419-025-07784-w.**
+
+**[14] Berg CP, Engels IH, Rothbart A, et al. Human mature red blood cells express caspase-3 and caspase-8, but are devoid of mitochondrial regulators of apoptosis. Cell Death & Differentiation. 2001;8:1197–1206. DOI: 10.1038/sj.cdd.4400905.**
+
+**[15] Morgan BP. The membrane attack complex as an inflammatory trigger. Immunobiology. 2016;221:747–751. DOI: 10.1016/j.imbio.2015.04.006.**
+
+**[16] Morgan BP, Boyd CM, Bubeck D. Molecular cell biology of complement membrane attack. Seminars in Cell & Developmental Biology. 2017;72:124–132. DOI: 10.1016/j.semcdb.2017.06.009.**
+
+**[17] Serna M, Giles JL, Morgan BP, Bubeck D. Structural basis of complement membrane attack complex formation. Nature Communications. 2016;7. DOI: 10.1038/ncomms10587.**
+
+**[18] Parsons ES, Stanley G, Pyne ALB, et al. Single-molecule kinetics of pore assembly by the membrane attack complex. Nature Communications. 2019;10. DOI: 10.1038/s41467-019-10058-7.**
+
+**[19] Menny A, Serna M, Boyd CM, et al. CryoEM reveals how the complement membrane attack complex ruptures lipid bilayers. Nature Communications. 2018;9. DOI: 10.1038/s41467-018-07653-5.**
+
+**[20] Chung H, Vilaysane A, Lau A, et al. NLRP3 regulates a non-canonical platform for caspase-8 activation during epithelial cell apoptosis. Cell Death & Differentiation. 2016;23:1331–1346. DOI: 10.1038/cdd.2016.14.**
+
+**[21] Feltham R, Vince JE, Lawlor KE. Caspase-8: not so silently deadly. Clinical & Translational Immunology. 2017;6. DOI: 10.1038/cti.2016.83.**
+
+**[22] Gan YQ, Cai YW, Liang XW, et al. Impaired NLRP3 inflammasome signaling diverts pyroptotic to apoptotic caspase activation in macrophages. Frontiers in Immunology. 2025;16. DOI: 10.3389/fimmu.2025.1631152.**
+
+**[23] Halperin JA, Taratuska A, Rynkiewicz M, Nicholson-Weller A. Transient changes in erythrocyte membrane permeability are induced by sublytic amounts of the complement membrane attack complex C5b-9. Blood. 1993;81:200–205. DOI: 10.1182/blood.v81.1.200.bloodjournal811200.**
+
+**[24] Morgan BP, Luzio JP, Campbell AK. Intracellular Ca2+ and cell injury: a paradoxical role of Ca2+ in complement membrane attack. Cell Calcium. 1986;7:399–411. DOI: 10.1016/0143-4160(86)90042-4.**
+
+**[25] Peters LL, Shivdasani RA, Liu SC, et al. Anion exchanger 1 band 3 is required to prevent erythrocyte membrane surface loss but not to form the membrane skeleton. Cell. 1996;86:917–927. DOI: 10.1016/S0092-8674(00)80167-1.**
+
+**[26] Iida K, Whitlow M, Nussenzweig V. Membrane vesiculation protects erythrocytes from destruction by complement. Journal of Immunology. 1991;147:2638–2642. DOI: 10.4049/jimmunol.147.8.2638.**
+
+**[27] Wu N, Černyšiov V, Davidson D, et al. Critical Role of Lipid Scramblase TMEM16F in Phosphatidylserine Exposure and Repair of Plasma Membrane after Pore Formation. Cell Reports. 2020;30:1129–1140.e5. DOI: 10.1016/j.celrep.2019.12.066.**
+
+**[28] Shirakashi R, Sisario D, Taban D, et al. Contraction of the rigor actomyosin complex drives bulk hemoglobin expulsion from hemolyzing erythrocytes. Biomechanics and Modeling in Mechanobiology. 2023;22:417–432. DOI: 10.1007/s10237-022-01654-6.**
+
+**[29] Triantafilou K, Hughes TR, Triantafilou M, Morgan BP. The complement membrane attack complex triggers intracellular Ca2+ fluxes leading to NLRP3 inflammasome activation. Journal of Cell Science. 2013;126:2903–2913. DOI: 10.1242/jcs.124388.**
+
+**[30] Fu XY, Ju J, Lin ZJ, et al. Target deletion of complement component 9 attenuates antibody-mediated hemolysis and lipopolysaccharide-induced acute shock in mice. Scientific Reports. 2016;6. DOI: 10.1038/srep30239.**
+
+**[31] Zhang Z, Larner SF, Liu MC, Zheng W, Hayes RL, Wang KKW. Multiple alphaII-spectrin breakdown products distinguish calpain and caspase dominated necrotic and apoptotic cell death pathways. Apoptosis. 2009;14:1289–1298. DOI: 10.1007/s10495-009-0405-z.**
+
+**[32] Garoufis M, Kostara C, Sakkou S, et al. Hemorheological Alterations as a Driver of Microangiopathy in Diabetic Kidney Disease—The Role of Erythrocyte. International Journal of Molecular Sciences. 2026;27:3592. DOI: 10.3390/ijms27083592.**
+
+**[33] Bayly-Jones C, Bubeck D, Dunstone M. The mystery behind membrane insertion: a review of the complement membrane attack complex. Philosophical Transactions of the Royal Society B: Biological Sciences. 2017;372:20160221. DOI: 10.1098/rstb.2016.0221.**
+
+**[34] Miyazono K, Tomihari M, Arashiki N, et al. Red cell shape regulation by band 3–ankyrin–spectrin linkage: implications for clinical severity of bovine hereditary spherocytosis. Blood Red Cells &amp; Iron. 2025;1:100003. DOI: 10.1016/j.brci.2025.100003.**
+
+**[35] Barshtein G, Pajić-Lijaković I, Gural A. Temperature as a Regulator of Red Blood Cell Fate: From Membrane Dynamics to Cellular Clearance. Medical Sciences. 2026;14:503. DOI: 10.3390/medsci14040503.**
+
+**[36] Tegla CA, Cudrici C, Patel S, et al. Membrane attack by complement: the assembly and biology of terminal complement complexes.. . 2011. DOI: 10.1007/s12026-011-8239-5.**

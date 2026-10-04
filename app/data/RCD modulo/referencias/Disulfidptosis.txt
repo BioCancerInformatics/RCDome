@@ -1,1 +1,87 @@
-Disulfidoptose: condição na qual a expressão anormal de SLC7A11 sob privação de glicose causa acúmulo de dissulfetos e estresse celular, levando à morte celular. É desencadeada pelo acúmulo de dissulfetos e se sobrepõe às vias de estresse oxidativo. Representa uma área emergente voltada para explorar vulnerabilidades metabólicas de células cancerosas sob estresse nutricional.
+1. Liu X, Nie L, Zhang Y, et al. **Actin cytoskeleton vulnerability to disulfide stress mediates disulfidptosis.** *Nature Cell Biology*. 2023;25:404–414. **DOI: 10.1038/s41556-023-01091-2**
+
+2. Liu X, Olszewski KL, Zhang Y, et al. **Cystine transporter regulation of pentose phosphate pathway dependency and disulfide stress exposes a targetable metabolic vulnerability in cancer.** *Nature Cell Biology*. 2020;22:476–486. **DOI: 10.1038/s41556-020-0496-x**
+
+3. Liu X, Li Z, Gan B. **Disulfidptosis: disulfide stress-induced cell death.** *Trends in Cell Biology*. 2023. **DOI: 10.1016/j.tcb.2023.07.009**
+
+4. Li R, Wang J, Li W, Qian L. **Disulfidptosis: Mechanisms, evidence boundaries, and translational opportunities.** *Redox Biology*. 2026;95. **DOI: 10.1016/j.redox.2026.104306**
+
+5. Wu Z, Tang R, Xu J, et al. **The emerging role of disulfidptosis in metabolic synergistic death and cancer immunotherapy.** *Oncogenesis*. 2026;15. **DOI: 10.1038/s41389-026-00633-1**
+
+6. Li T, Song Y, Wei LJ, Song X, Duan R. **Disulfidptosis: a novel cell death modality induced by actin cytoskeleton collapse and a promising target for cancer therapeutics.** *Cell Communication and Signaling*. 2024;22. **DOI: 10.1186/s12964-024-01871-9**
+
+7. Wang X, Zheng C, Yao H, et al. **Disulfidptosis: Six Riddles Necessitating Solutions.** *International Journal of Biological Sciences*. 2024;20:1042–1044. **DOI: 10.7150/ijbs.90606**
+
+8. Huang H, He Y, Chen J, et al. **RRx-001 inhibits G6PD to deplete NADPH and trigger disulfidptosis coupled with DAMP-mediated immunogenic cell death in hepatocellular carcinoma.** *Cell Death Discovery*. 2026;12. **DOI: 10.1038/s41420-026-03032-y**
+
+9. Li S, He J, Kuang H, et al. **Rab11a-dependent recycling of Glut3 inhibits seizure-induced neuronal disulfidptosis by alleviating glucose deficiency.** *Cell & Bioscience*. 2025;15. **DOI: 10.1186/s13578-025-01396-9**
+
+10. Yan Y, Teng H, Hang Q, et al. **SLC7A11 expression level dictates differential responses to oxidative stress in cancer cells.** *Nature Communications*. 2023;14. **DOI: 10.1038/s41467-023-39401-9**
+
+11. Tang M, Dirks K, Kim SY, et al. **Inhibition of thioredoxin reductase 1 sensitizes glucose-starved glioblastoma cells to disulfidptosis.** *Cell Death & Differentiation*. 2024;32:598–612. **DOI: 10.1038/s41418-024-01440-0**
+
+12. Wu S, Wang J, Wang M, et al. **Glucose deprivation-induced disulfidptosis in human nucleus pulposus cells: a novel pathological mechanism of intervertebral disc degeneration.** *Biology Direct*. 2024;19. **DOI: 10.1186/s13062-024-00528-4**
+
+13. Bieling P, Rottner K. **From WRC to Arp2/3: Collective molecular mechanisms of branched actin network assembly.** *Current Opinion in Cell Biology*. 2023;80:102156. **DOI: 10.1016/j.ceb.2023.102156**
+
+14. Ding B, Yang S, Schaks M, et al. **Structures reveal a key mechanism of WAVE regulatory complex activation by Rac1 GTPase.** *Nature Communications*. 2022;13. **DOI: 10.1038/s41467-022-33174-3**
+
+15. Chen Z, Borek D, Padrick SB, et al. **Structure and Control of the Actin Regulatory WAVE Complex.** *Nature*. 2010;468:533–538. **DOI: 10.1038/nature09623**
+
+16. Rottner K, Stradal TEB, Chen B. **WAVE Regulatory Complex.** *Current Biology*. 2021;31:R512–R517. **DOI: 10.1016/j.cub.2021.01.086**
+
+17. Schaks M, Singh SP, Kage F, et al. **Distinct Interaction Sites of Rac GTPase with WAVE Regulatory Complex Have Non-redundant Functions In Vivo.** *Current Biology*. 2018;28:3674–3684.e6. **DOI: 10.1016/j.cub.2018.10.002**
+
+18. Song Z, Yao Q, Huang L, et al. **Glucose Deprivation-Induced Disulfidptosis via the SLC7A11-INF2 Axis: Pan-Cancer Prognostic Exploration and Therapeutic Validation.** *Advanced Science*. 2025;12. **DOI: 10.1002/advs.202408556**
+
+19. Lin J, Yang X, Jiang C, Liu X, Shi J. **Enhancing cancer susceptibility to disulfidptosis by inducing cell cycle arrest and impairing DNA repair.** *Theranostics*. 2026;16:637–650. **DOI: 10.7150/thno.122956**
+
+20. Li D, S. **Beyond biochemical cascades: the biophysical execution of disulfidptosis via actin network collapse.** *Molecular Biology Reports*. 2026;53. **DOI: 10.1007/s11033-026-12413-6**
+
+21. Wang J, Wang M, Wu S, et al. **Tumor suppressor BAP1 suppresses disulfidptosis through the regulation of SLC7A11 and NADPH levels.** *Oncogenesis*. 2024;13. **DOI: 10.1038/s41389-024-00535-0**
+
+22. Wang J, Chen J, Fan K, et al. **Inhibition of Endoplasmic Reticulum Stress Cooperates with SLC7A11 to Promote Disulfidptosis and Suppress Tumor Growth upon Glucose Limitation.** *Advanced Science*. 2024/2025;12. **DOI: 10.1002/advs.202408789**
+
+23. Yamaguchi I, Katoh H. **Merlin/NF2 regulates SLC7A11/xCT expression and cell viability under glucose deprivation at high cell density in glioblastoma cells.** *Journal of Biochemistry*. 2023. **DOI: 10.1093/jb/mvad105**
+
+24. Yao H, Ge J, Chen J, et al. **CASC8 activates the pentose phosphate pathway to inhibit disulfidptosis in pancreatic ductal adenocarcinoma through the c-Myc-GLUT1 axis.** *Journal of Experimental & Clinical Cancer Research*. 2025;44. **DOI: 10.1186/s13046-025-03295-w**
+
+25. Shi M, Li X, Guo Y, et al. **Gaudichaudione H Enhances the Sensitivity of Hepatocellular Carcinoma Cells to Disulfidptosis via Regulating NRF2-SLC7A11 Signaling Pathway.** *Advanced Science*. 2025;12. **DOI: 10.1002/advs.202411131**
+
+26. Qiu H, Liu J, Shao N, et al. **SLC7A11 as a bridge between ferroptosis and disulfidptosis: a promising target for tumor treatment.** *Cell Communication and Signaling*. 2025;23. **DOI: 10.1186/s12964-025-02447-x**
+
+27. Zhang M, Zheng H, Jin H, et al. **Regulating SLC7A11/GSH/GPX4 axis by glucose dyshomeostasis to simultaneously promote disulfidptosis, cuproptosis and ferroptosis.** *Bioactive Materials*. 2025;54:744–758. **DOI: 10.1016/j.bioactmat.2025.09.003**
+
+28. Zhang M, Zheng H, Zhu X, et al. **Synchronously Evoking Disulfidptosis and Ferroptosis via Systematical Glucose Deprivation Targeting SLC7A11/GSH/GPX4 Antioxidant Axis.** *ACS Nano*. 2025. **DOI: 10.1021/acsnano.5c00730**
+
+29. Shao D, Chen D, Wang X, et al. **SLC7A11-mediated cystine accumulation and Rac1-WRC-Arp2/3-driven actin cytoskeletal folding synergistically induce disulfidptosis in acute myocardial infarction.** *Communications Biology*. 2026;9. **DOI: 10.1038/s42003-026-10361-2**
+
+30. Han T, Li R, Wang J, et al. **Experimental Detection Methods and Clinical Translational Challenges of Disulfidptosis in Cancer.** *Cells*. 2026;15:1451. **DOI: 10.3390/cells15161451**
+
+31. Wang C, Zhou J, Jin B, et al. **Disulfidptosis: molecular mechanisms and therapeutic targets.** *Signal Transduction and Targeted Therapy*. 2026;11. **DOI: 10.1038/s41392-026-03001-y**
+
+32. Strózik T, Rutkowska A, Wasiak T, et al. **Metabolic and Post-Translational Vulnerabilities of Glioblastoma: Disulfidptosis, Glycosylation, and Implications for CAR-T Therapy.** *Cells*. 2026;15:1087. **DOI: 10.3390/cells15121087**
+
+33. Lo M, Ling V, Wang Y, et al. **The xc− cystine/glutamate antiporter: a mediator of pancreatic cancer growth with a role in drug resistance.** *British Journal of Cancer*. 2008;99:464-472. **DOI: 10.1038/sj.bjc.6604485**
+
+34. Lee D, Xu IM, Chiu DK, et al. **Induction of Oxidative Stress Through Inhibition of Thioredoxin Reductase 1 Is an Effective Therapeutic Approach for Hepatocellular Carcinoma..** **. 2019. **DOI: 10.1002/hep.30467**
+
+35. Zheng T, Liu Q, Xing F, Zeng C, Wang W. **Disulfidptosis: a new form of programmed cell death.** *Journal of Experimental & Clinical Cancer Research*. 2023;42. **DOI: 10.1186/s13046-023-02712-2**
+
+36. Gu Q, An YW, Xu M, et al. **Disulfidptosis, A Novel Cell Death Pathway: Molecular Landscape and Therapeutic Implications.** *Aging and Disease*. 2024/2025;16:917–945. **DOI: 10.14336/ad.2024.0083**
+
+37. Chen J, Yang Y, Wang B, Hao J, Zhou X. **Disulfidptosis decoded: a journey through cell death mysteries, regulatory networks, disease paradigms and future directions.** *Biomarker Research*. 2024;12. **DOI: 10.1186/s40364-024-00593-x**
+
+38. Li Y, Zhang H, Yang F, et al. **Mechanisms and therapeutic potential of disulphidptosis in cancer.** *Cell Proliferation*. 2024/2025;58. **DOI: 10.1111/cpr.13752**
+
+39. Shuai Y, Z, Yuan P. **Disulfidptosis: disulfide stress-induced novel cell death pathway.** *MedComm*. 2024;5. **DOI: 10.1002/mco2.579**
+
+40. Xiao F, Li H, Yang B, et al. **Disulfidptosis: A new type of cell death.** *Apoptosis*. 2024;29:1309–1329. **DOI: 10.1007/s10495-024-01989-8**
+
+41. Zheng P, Ding YL, Duan S. **Disulfidptosis: a new target for metabolic cancer therapy.** *Journal of Experimental & Clinical Cancer Research*. 2023;42. **DOI: 10.1186/s13046-023-02675-4**
+
+42. Liu Y, Li S, Wu Y, et al. **Molecular signatures of disulfidptosis: interplay with programmed cell death pathways and therapeutic implications in oncology.** *Cellular & Molecular Biology Letters*. 2025;30. **DOI: 10.1186/s11658-025-00743-5**
+
+43. Zhao W, Wang Q, Zhang J. **Disulfidptosis: A Metabolic Cell Death Mechanism with Therapeutic Potential in Cancer.** *Oncology Research*. 2026;34. **DOI: 10.32604/or.2026.076406**
+
+44. Qian S, Pan L, Chen G, et al. **Disulfidptosis: A novel cell death mechanism with pathological significance and therapeutic potential in diseases.** *Pharmacological Reviews*. 2026;78:100127. **DOI: 10.1016/j.pharmr.2026.100127**

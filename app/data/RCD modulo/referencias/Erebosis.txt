@@ -1,1 +1,51 @@
-Erebose: forma nova de morte celular descrita durante a renovação natural dos enterócitos intestinais. Trata-se de um processo recentemente identificado, com potencial relevância na biologia do câncer, especialmente em tumores associados ao intestino e em contextos nos quais a renovação celular é elevada.
+1. Ciesielski HM, Nishida H, Takano T, et al. **Erebosis, a new cell death mechanism during homeostatic turnover of gut enterocytes.** *PLoS Biology*. 2022;20. **DOI: 10.1371/journal.pbio.3001586**
+
+2. Bergmann A. **Erebosis is a new type of cell death for tissue homeostasis in the Drosophila intestine.** *PLoS Biology*. 2022;20. **DOI: 10.1371/journal.pbio.3001614**
+
+3. Morikawa M, Yoo S. **A non-lytic membrane permeabilization program drives epithelial cell turnover in vivo.** *bioRxiv*. 2026. **DOI: 10.64898/2026.07.06.736761**
+
+4. Adell T, Cebrià F, Abril JF, et al. **Cell death in regeneration and cell turnover: Lessons from planarians and Drosophila.** *Seminars in Cell & Developmental Biology*. 2025;169:103605. **DOI: 10.1016/j.semcdb.2025.103605**
+
+5. Kayagaki N, Kornfeld OS, Lee BL, et al. **NINJ1 mediates plasma membrane rupture during lytic cell death.** *Nature*. 2021;591:131–136. **DOI: 10.1038/s41586-021-03218-7**
+
+6. Degen M, Santos JC, Pluhackova K, et al. **Structural basis of NINJ1-mediated plasma membrane rupture in cell death.** *Nature*. 2023;618:1065–1071. **DOI: 10.1038/s41586-023-05991-z**
+
+7. David L, Borges JP, Hollingsworth LR, et al. **NINJ1 mediates plasma membrane rupture by cutting and releasing membrane disks.** *Cell*. 2024;187:2224–2235.e16. **DOI: 10.1016/j.cell.2024.03.008**
+
+8. Pourmal S, Truong ME, Johnson MC, et al. **Autoinhibition of dimeric NINJ1 prevents plasma membrane rupture.** *Nature*. 2025;637:446–452. **DOI: 10.1038/s41586-024-08273-4**
+
+9. Sahoo B, Mou Z, Liu W, Dubyak GR, Dai X. **How NINJ1 mediates plasma membrane rupture and why NINJ2 cannot.** *Cell*. 2025;188:292–302.e11. **DOI: 10.1101/2023.05.31.543175**
+
+10. Ramos S, Hartenian E, Santos JC, Walch P, Broz P. **NINJ1 induces plasma membrane rupture and release of damage-associated molecular pattern molecules during ferroptosis.** *EMBO Journal*. 2024;43. **DOI: 10.1038/s44318-024-00055-y**
+
+11. Hartenian E, Bernard EM, Ammirati GEM, et al. **Membrane Tension Drives Opening of NINJ1 Lesions in Dying Cells.** *bioRxiv*. 2026. **DOI: 10.1101/2024.10.29.620849**
+
+12. Jimenez AJ, Maiuri P, Lafaurie-Janvore J, Divoux S, Piel M, Perez F. **ESCRT Machinery Is Required for Plasma Membrane Repair.** *Science*. 2014;343. **DOI: 10.1126/science.1247136**
+
+13. Gatta AT, Carlton JG. **The ESCRT-machinery: closing holes and expanding roles.** *Current Opinion in Cell Biology*. 2019;59:121–132. **DOI: 10.1016/j.ceb.2019.04.005**
+
+14. Gong YN, Guy C, Olauson H, et al. **ESCRT-III acts downstream of MLKL to regulate necroptotic cell death and its consequences.** *Cell*. 2017;169:286–300.e16. **DOI: 10.1016/j.cell.2017.03.020**
+
+15. Rühl S, Shkarina K, Demarco B, Heilig R, Santos JC, Brož P. **ESCRT-dependent membrane repair negatively regulates pyroptosis downstream of GSDMD activation.** *Science*. 2018;362:956–960. **DOI: 10.1126/science.aar7607**
+
+16. Pedrera L, Espiritu RA, Ros U, et al. **Ferroptotic pores induce Ca²⁺ fluxes and ESCRT-III activation to modulate cell death kinetics.** *Cell Death & Differentiation*. 2021;28:1644–1657. **DOI: 10.1038/s41418-020-00691-x**
+
+17. Burigotto M, Carlton J. **ESCRT-III function in membrane fission and repair.** *Nature Reviews Molecular Cell Biology*. 2026;27:297–315. **DOI: 10.1038/s41580-025-00909-1**
+
+18. Broz P. **Pyroptosis: molecular mechanisms and roles in disease.** *Cell Research*. 2025;35:334–344. **DOI: 10.1038/s41422-025-01107-6**
+
+19. Schachter J, Guijarro A, Angosto-Bazarra D, et al. **Gasdermin D mediates a fast transient release of ATP after NLRP3 inflammasome activation before ninjurin 1-induced lytic cell death.** *Cell Reports*. 2025;44:115233. **DOI: 10.1016/j.celrep.2025.115233**
+
+20. Wang C, Dreyer B, Teran E, Ruan J. **From pores to rupture: Structural basis and regulation of lytic cell death by gasdermins and NINJ1.** *Journal of Biological Chemistry*. 2025;301. **DOI: 10.1016/j.jbc.2025.110698**
+
+21. Li J, Zuo Z. **Erebosis of Neurons May Exist in the Brain with Alzheimer’s Disease.** *Cells*. 2025;14:1546. **DOI: 10.3390/cells14191546**
+
+22. Kim J, Jin W. **Necroptosis: The Regulation Between EGFR and TNFR in Cancer.** *Cells*. 2026;15:1310. **DOI: 10.3390/cells15141310**
+
+23. Gregor L, Stock S, Kobold S. **ESCRT machinery: role of membrane repair mechanisms in escaping cell death.** *Signal Transduction and Targeted Therapy*. 2022;7. **DOI: 10.1038/s41392-022-01108-6**
+
+24. Yang Y, Wang M, Zhang Y, Zhao S, Gu S. **The endosomal sorting complex required for transport repairs the membrane to delay cell death.** *Frontiers in Oncology*. 2022;12. **DOI: 10.3389/fonc.2022.1007446**
+
+25. Zhu L, Xu Y. **Multifaceted roles of ninjurin1 in immunity, cell death, and disease.** *Frontiers in Immunology*. 2025;16. **DOI: 10.3389/fimmu.2025.1519519**
+
+26. Bao S, Chen F, Guo Z, Ding W, Gao F, Guo J. **The role of NINJ1 in diseases.** *Cell Death Discovery*. 2026;12. **DOI: 10.1038/s41420-026-03064-4**

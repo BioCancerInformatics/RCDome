@@ -1,0 +1,1110 @@
+## Cornification
+
+Cornification is a specialized form of regulated cell death associated with the terminal differentiation of keratinocytes in the epidermis and other cornifying epithelia. Unlike apoptosis, in which the dying cell is fragmented and removed, cornification converts a living differentiated keratinocyte into a dead but mechanically functional corneocyte that remains incorporated into the tissue as part of the permeability barrier [1-3].
+
+The defining feature of cornification is therefore not simple elimination of a cell.
+
+Its biological endpoint is transformation:
+
+living granular keratinocyte → terminal ionic and biochemical transition → intracellular remodeling → loss of nucleus and metabolic organelles → extensive protein cross-linking and keratin compaction → lipid-envelope formation → metabolically inert anuclear corneocyte.
+
+The resulting corneocyte no longer maintains conventional cellular metabolism or organellar homeostasis but retains a highly resistant structural scaffold that contributes directly to the physical and chemical barrier of the skin [1-2].
+
+Cornification is mechanistically distinct from classical apoptosis.
+
+Normal epidermal cornification does not require the canonical apoptotic executioner caspases-3, -6, and -7 as its principal execution machinery [4-5].
+
+It has been proposed that this form of cell death is also distinct from necroptosis and pyroptosis, in that terminal viability loss is not normally achieved through MLKL-mediated or gasdermin-mediated plasma-membrane permeabilization in some models [52].
+
+Instead, the cell is dismantled internally while its peripheral architecture is simultaneously reinforced.
+
+The most useful mechanistic framework is therefore:
+
+terminal differentiation → ionic commitment → envelope construction + keratin compaction + organelle elimination + nuclear destruction + lipid remodeling → conversion into a corneocyte.
+
+No single molecular executor is presently sufficient to represent this entire process.
+
+---
+
+## Terminal Differentiation as the Initiating Context
+
+Cornification is inseparable from keratinocyte differentiation.
+
+Basal epidermal keratinocytes proliferate while attached to the basement membrane.
+
+As daughter cells leave the basal layer and move toward the surface, they progressively exit the cell cycle and activate a differentiation program that prepares them for eventual cornification [8,49].
+
+Thus, cornification does not normally begin as an acute damage response.
+
+It emerges from a tissue-position-dependent differentiation trajectory.
+
+The broad sequence is:
+
+basal keratinocyte proliferation → suprabasal displacement → cell-cycle exit → spinous differentiation → granular differentiation → terminal SG1 state → cornification → corneocyte.
+
+Multiple signaling systems contribute to this differentiation transition.
+
+Important upstream inputs include extracellular calcium, cell-cell contact, Notch signaling, p63 regulation, barrier demand, and tissue-specific signaling pathways [8-11].
+
+These signals should not be treated as equivalent to death receptors.
+
+Their primary function is to establish the differentiated keratinocyte state from which the cornification machinery becomes competent.
+
+---
+
+## Calcium as a Major Differentiation Signal
+
+A calcium gradient exists across the epidermal differentiation axis, and calcium signaling is a major regulator of keratinocyte maturation [9].
+
+Extracellular calcium can be sensed through calcium-sensitive signaling systems, including the calcium-sensing receptor.
+
+This promotes intracellular calcium signaling and activates downstream pathways involving phospholipases, protein kinase C, junctional organization, differentiation-associated transcription, and expression of proteins required for the epidermal barrier.
+
+The upstream sequence can therefore be represented as:
+
+increasing extracellular differentiation signals → calcium sensing → increased intracellular Ca²⁺ signaling → activation of differentiation programs → acquisition of granular-cell competence.
+
+Calcium subsequently becomes important again during the terminal execution phase because several cornification enzymes, particularly epidermal transglutaminases, are calcium dependent.
+
+Thus, calcium has at least two conceptually distinct roles:
+
+early calcium signaling supports keratinocyte differentiation,
+
+whereas the later sustained Ca²⁺ state participates in terminal SG1 commitment and biochemical execution.
+
+---
+
+## Notch–p63 Differentiation Axis
+
+Notch signaling represents another important upstream regulator.
+
+Engagement of Notch receptors by ligands such as Jagged-1 promotes keratinocyte differentiation [10].
+
+Activated Notch signaling can engage transcriptional programs involving IKKα, NF-κB, PPARγ, and related differentiation regulators.
+
+The sequence can be represented as:
+
+Jagged-1 → Notch activation → Notch intracellular signaling → IKKα/NF-κB-associated differentiation program → keratinocyte maturation.
+
+Notch also interacts functionally with p63.
+
+p63 supports basal and epithelial progenitor programs, whereas Notch-mediated signaling can suppress aspects of p63 activity during commitment to differentiation [11].
+
+Thus:
+
+high progenitor-associated p63 activity → maintenance of less differentiated keratinocyte state.
+
+Notch activation → attenuation/reorganization of p63-associated programs → commitment toward terminal differentiation.
+
+This Notch–p63 relationship participates in acquisition of cornification competence but should not be interpreted as the immediate terminal execution mechanism.
+
+---
+
+## Barrier Damage as a Context-Dependent Accelerator
+
+Cornification can be dynamically regulated by barrier requirements.
+
+Experimental disruption of the epidermal permeability barrier can rapidly modify cornification in the outer granular layer [12].
+
+Protease-activated receptor 2, or PAR2, and serine-protease-associated signaling participate in this adaptive response.
+
+Caspase-14 processing also changes during barrier recovery.
+
+A context-dependent sequence can therefore be represented as:
+
+acute barrier disruption → extracellular/protease signaling → PAR2-associated response → accelerated outer granular differentiation/cornification → barrier restoration.
+
+This pathway illustrates that terminal differentiation is responsive to tissue-level requirements rather than being simply a fixed autonomous timer.
+
+Nevertheless, PAR2 is not a universal cornification receptor.
+
+It is better classified as a context-dependent regulator of barrier-associated cornification.
+
+---
+
+## TRAIL as an Experimental Differentiation Route
+
+TRAIL can promote keratinocyte differentiation under selected experimental conditions through signaling involving caspase-8, caspase-3, and p63 [13].
+
+This should be interpreted carefully.
+
+TRAIL-induced differentiation does not establish the Fas/TRAIL extrinsic-apoptosis machinery as the canonical executor of normal epidermal cornification.
+
+Instead, it demonstrates that death-receptor-associated signaling can intersect with differentiation programs in particular experimental settings.
+
+Therefore:
+
+TRAIL signaling → context-dependent caspase/p63 signaling → keratinocyte differentiation
+
+is an auxiliary route rather than the defining physiological pathway.
+
+---
+
+## SG1 Cells and the Terminal Ionic Transition
+
+The most important recent mechanistic advance is direct visualization of a terminal ionic transition in the outermost granular keratinocytes, often designated SG1 cells [14-15].
+
+Immediately before conversion into corneocytes, these cells undergo a characteristic intracellular Ca²⁺ increase.
+
+This is followed by rapid intracellular acidification.
+
+The temporal sequence is:
+
+living SG1 keratinocyte → sustained intracellular Ca²⁺ elevation → rapid intracellular acidification → terminal intracellular degradation and corneocyte formation.
+
+Unlike transient calcium signaling occurring during earlier differentiation, the SG1 calcium state is prolonged and associated with terminal conversion.
+
+The subsequent acidification represents one of the strongest experimentally supported events associated with irreversible cornification.
+
+TRPV3 is involved in the terminal differentiation of keratinocytes [51].
+
+TRPV3 should not yet be presented as the unique cornification sensor.
+
+However, it represents one of the strongest currently supported upstream regulators of the SG1 ionic transition.
+
+A working sequence is:
+
+terminal differentiation state → TRPV3-dependent regulation of Ca²⁺ dynamics → sustained SG1 Ca²⁺ elevation → intracellular acidification → terminal remodeling.
+
+The precise molecular mechanism connecting TRPV3-dependent ionic regulation to acidification remains incompletely defined.
+
+Therefore, TRPV3 is best described as a gatekeeper or regulator of terminal commitment rather than a proven single death receptor.
+
+---
+
+## Intracellular Acidification
+
+Rapid intracellular acidification is one of the most distinctive biochemical events in terminal epidermal cornification [14-15].
+
+The cytoplasmic environment of the terminal granular cell becomes markedly more acidic during conversion into the corneocyte.
+
+This acidic transition is functionally important.
+
+Preventing appropriate acidification interferes with terminal intracellular degradation and normal corneocyte formation.
+
+Thus:
+
+sustained Ca²⁺ transition → intracellular acidification → activation/permissive environment for terminal degradation processes → cornification.
+
+Acidification appears to facilitate degradation of keratohyalin components and contributes to nuclear and cytoplasmic remodeling.
+
+However, the molecular mechanism that directly generates this rapid acidification has not been completely resolved.
+
+No single proton transporter or organelle event has yet been established as the universal upstream cause.
+
+Consequently, the pathway should retain:
+
+intracellular acidification = strongly supported commitment/execution-associated event,
+
+molecular generator of acidification = unresolved.
+
+---
+
+## Commitment and Point of No Return
+
+Cornification does not currently possess a molecular point of no return equivalent to BAX/BAK-mediated widespread MOMP in intrinsic apoptosis.
+
+Nevertheless, live-cell studies support a highly ordered transition in SG1 cells.
+
+Before the terminal ionic transition, keratinocytes remain metabolically active and maintain recognizable organelles.
+
+After sustained Ca²⁺ elevation and acidification begin, intracellular degradation progresses rapidly toward corneocyte conversion [14-15].
+
+The strongest candidate commitment sequence is therefore:
+
+terminally differentiated SG1 state → sustained Ca²⁺ rise → rapid intracellular acidification → irreversible intracellular dismantling.
+
+The acidification-associated transition is currently the best experimentally supported operational commitment point.
+
+However, it remains unclear whether acidification itself is the primary irreversible event or whether an upstream molecular switch has already committed the cell before the measurable pH change occurs.
+
+This distinction remains one of the major unresolved questions in cornification biology.
+
+---
+
+## Transglutaminase-Dependent Cornified Envelope Formation
+
+A major biochemical execution module is calcium-dependent protein cross-linking.
+
+Transglutaminases catalyze the formation of covalent ε-(γ-glutamyl)lysine isopeptide bonds that exhibit high resistance to proteolytic degradation [46].
+
+TGM1, TGM3, and TGM5 are important components of this system.
+
+Their combined activity progressively transforms soluble and partially organized proteins into an insoluble cornified envelope.
+
+The general reaction is:
+
+protein glutamine residue + protein lysine residue → transglutaminase-dependent ε-(γ-glutamyl)lysine cross-link → mechanically resistant protein network.
+
+This chemistry fundamentally differs from apoptotic proteolysis.
+
+Apoptosis dismantles the cell largely by cleaving proteins.
+
+Cornification simultaneously degrades selected cellular structures while covalently stabilizing others.
+
+---
+
+## TGM1 and the Initial Envelope Scaffold
+
+TGM1 occupies a particularly important position at the inner surface of the plasma membrane.
+
+Early cornified-envelope assembly involves cross-linking of proteins such as involucrin near the membrane [1,16,18,45,54].
+
+This produces an initial scaffold.
+
+The sequence can be represented as:
+
+increased terminal Ca²⁺ → TGM1 activation → membrane-associated involucrin cross-linking → formation of early cornified-envelope scaffold.
+
+Other proteins are subsequently incorporated.
+
+Loricrin, small proline-rich proteins and numerous additional substrates become covalently cross-linked into the developing structure [53].
+
+TGM1 continues to participate as envelope maturation progresses.
+
+Thus, the cornified envelope is built sequentially rather than appearing as one preassembled structure.
+
+---
+
+## TGM3 and TGM5
+
+TGM3 and TGM5 contribute additional cross-linking reactions.
+
+TGM5 can cross-link loricrin, involucrin and SPR proteins and therefore contributes to expansion and reinforcement of the insoluble network [17].
+
+The cooperative model is therefore:
+
+TGM1 + TGM3 + TGM5 → progressive cross-linking of multiple structural substrates → maturation of cornified envelope.
+
+These enzymes should be considered core structural machinery rather than individually sufficient death executors.
+
+Loss of one component can produce major barrier abnormalities, but the envelope itself contains a broad and partially redundant protein network.
+
+---
+
+## The Cornified Envelope Is a Complex Insoluble Proteome
+
+Proteomic analysis demonstrates that mature cornified envelopes contain a broad range of cross-linked proteins rather than simply involucrin and loricrin [19].
+
+Keratin proteins constitute a substantial component.
+
+Loricrin and other classical envelope proteins are highly enriched, but many additional proteins are incorporated.
+
+This biochemical redundancy explains why deletion of an individual structural protein does not necessarily eliminate cornification.
+
+Thus, the final envelope should be understood as:
+
+multicomponent structural proteome → extensive transglutaminase cross-linking → insoluble mechanically resistant scaffold.
+
+Cornification therefore depends more strongly on the integrity of the overall structural network than on one universal substrate.
+
+---
+
+## Calpain and Proteolysis–Cross-Linking Coupling
+
+Calpain activity has been associated with terminal cornification and TGM1-dependent transglutamination [20].
+
+This suggests that limited proteolysis and covalent protein stabilization occur in coordination.
+
+Proteases can expose or generate appropriate protein substrates, while transglutaminases subsequently stabilize selected components.
+
+Therefore, cornification should not be conceptualized as either purely proteolytic or purely cross-linking.
+
+Its execution involves selective destruction combined with selective preservation.
+
+---
+
+## Profilaggrin and Keratohyalin Granules
+
+Profilaggrin represents another major structural component of granular keratinocytes.
+
+It accumulates in keratohyalin granules during late differentiation.
+
+Profilaggrin subsequently undergoes dephosphorylation and extensive proteolytic processing to produce filaggrin monomers [21-23].
+
+Thus:
+
+profilaggrin-rich keratohyalin granules → dephosphorylation/proteolysis → filaggrin monomers.
+
+This conversion is essential for structural remodeling of the cytoplasm.
+
+---
+
+## Filaggrin-Mediated Keratin Compaction
+
+Filaggrin binds keratin intermediate filaments.
+
+These interactions promote collapse and aggregation of the keratin cytoskeleton into densely packed bundles [21,24].
+
+The sequence is:
+
+profilaggrin processing → filaggrin → binding to keratin intermediate filaments → filament aggregation → dense keratin bundles → cytoplasmic compaction.
+
+This represents a fundamental change in cellular architecture.
+
+A living keratinocyte contains an organized cytoskeletal network capable of dynamic remodeling.
+
+A mature corneocyte instead contains densely compacted keratin enclosed within a mechanically reinforced envelope.
+
+Thus, filaggrin does not simply serve as a marker of differentiation.
+
+Its processing materially contributes to conversion of the living cytoplasm into the corneocyte matrix.
+
+---
+
+## Filaggrin–Actin Coordination
+
+Keratohyalin granule organization is also linked to the actin cytoskeleton [24].
+
+Super-resolution and functional studies indicate that actin scaffolds participate in organization of filaggrin-containing structures.
+
+AKT1/HspB1-associated changes accompany release and processing of filaggrin.
+
+Actin disruption can accelerate aspects of cornification.
+
+Thus, cytoskeletal remodeling is coordinated across multiple filament systems:
+
+actin-associated keratohyalin organization → filaggrin processing → keratin filament compaction → transition from dynamic cytoskeleton to stable corneocyte matrix.
+
+---
+
+## Caspase-14
+
+Caspase-14 is strongly associated with epidermal terminal differentiation [4,25-26].
+
+However, it should not be interpreted as a classical apoptotic caspase.
+
+Normal cornification is associated with caspase-14 processing while the canonical apoptotic executioner caspases are not comparably activated [4-5].
+
+Caspase-14 contributes particularly to late filaggrin processing and formation of natural moisturizing factors [25].
+
+Therefore:
+
+caspase-14 ≠ caspase-3-like universal death executor.
+
+Instead:
+
+caspase-14 → specialized terminal differentiation/filaggrin-processing function.
+
+This is an important classification distinction.
+
+Detecting caspase-14 does not imply that cornification is a form of apoptosis.
+
+---
+
+## SASPase and Filaggrin Processing
+
+SASPase also participates in conversion of profilaggrin into filaggrin [22].
+
+SASPase deficiency disrupts normal filaggrin processing and stratum-corneum hydration.
+
+The late filaggrin pathway therefore involves multiple processing enzymes rather than one unique protease.
+
+A simplified sequence is:
+
+profilaggrin → SASPase and additional proteolytic processing → filaggrin monomers → keratin compaction → subsequent filaggrin breakdown products contributing to stratum-corneum hydration.
+
+Therefore, filaggrin metabolism has both structural and barrier-hydration functions.
+
+---
+
+## Organelle Elimination
+
+A defining feature of cornification is extensive removal of intracellular organelles.
+
+The mature corneocyte lacks a conventional nucleus, mitochondria, ER, Golgi apparatus, and most other metabolically active structures.
+
+This removal is not simply random degeneration.
+
+Evidence increasingly supports active, regulated organelle-remodeling mechanisms involving autophagy-related processes [27].
+
+Thus:
+
+terminal differentiation → selective organelle remodeling and clearance → progressive loss of metabolic capacity → corneocyte formation.
+
+Autophagy in this context should not automatically be classified as autophagy-dependent cell death.
+
+It participates in cellular remodeling required for terminal differentiation.
+
+---
+
+## Mitochondrial Elimination
+
+Mitochondria undergo pronounced changes during upper epidermal differentiation.
+
+NIX/BNIP3L increases during this process and contributes to mitochondrial fragmentation [28].
+
+NIX promotes DRP1-dependent mitochondrial remodeling.
+
+The sequence can be represented as:
+
+terminal differentiation → NIX induction → DRP1-dependent mitochondrial fragmentation → mitochondrial remodeling/clearance → loss of the mitochondrial network.
+
+NIX is also a well-established selective autophagy receptor capable of binding LC3/GABARAP-family proteins through an LC3-interacting region [29].
+
+Thus, epidermal NIX activity is mechanistically consistent with selective mitochondrial autophagy.
+
+However, mitochondrial elimination during cornification should not be reduced to one canonical mitophagy pathway.
+
+The available evidence supports a major NIX/DRP1 contribution but does not establish NIX as the sole mechanism eliminating all mitochondria.
+
+---
+
+## Why Mitochondrial Loss Matters for Death
+
+Loss of mitochondria has a fundamentally different meaning during cornification than during transient mitochondrial quality control.
+
+In ordinary mitophagy, damaged mitochondria are selectively removed while a viable mitochondrial population remains.
+
+During terminal cornification, mitochondrial removal contributes to elimination of the cellular metabolic machinery itself.
+
+Thus:
+
+partial mitophagy → quality control compatible with survival.
+
+Terminal mitochondrial elimination → progressive loss of oxidative metabolic competence → contribution to permanent loss of viability.
+
+Mitochondrial removal is therefore one component of death execution, but it is not sufficient by itself to define the terminal lethal event.
+
+---
+
+## Endoplasmic Reticulum Removal
+
+The endoplasmic reticulum is also actively remodeled.
+
+Recent evidence implicates the ER-phagy receptor TEX264 in epidermal differentiation [30].
+
+TEX264 expression increases under differentiation-associated conditions.
+
+Experimental elevation of TEX264 promotes ER fragmentation and removal, whereas loss of TEX264 disrupts aspects of epidermal maturation.
+
+A working sequence is:
+
+terminal differentiation/ER remodeling signals → TEX264-associated reticulophagy → ER fragmentation and clearance → loss of ER network.
+
+This provides additional support for the concept that organelle disappearance is actively regulated rather than merely passive decomposition.
+
+However, TEX264 evidence remains newer and should not yet be treated as equivalent in maturity to transglutaminase or DNase mechanisms.
+
+---
+
+## Golgi and Other Organelles
+
+The Golgi apparatus and lysosomal compartments are also remodeled during terminal differentiation [27].
+
+Lamellar-body formation links Golgi-associated secretory pathways to barrier construction.
+
+The precise ultrastructural route by which all Golgi components are finally eliminated remains less clearly defined.
+
+Therefore:
+
+mitochondrial elimination = increasingly mechanistically resolved,
+
+ER elimination = emerging selective-autophagy mechanism,
+
+Golgi elimination = biologically evident but molecularly less complete.
+
+This distinction should be retained rather than forcing every organelle into one identical autophagic route.
+
+---
+
+## Nuclear Dismantling
+
+Loss of the nucleus is essential for formation of a normal corneocyte.
+
+Persistent nuclei within the stratum corneum produce parakeratosis, an abnormal differentiation phenotype.
+
+Nuclear removal requires at least two mechanistically separable processes:
+
+destruction of nuclear architecture,
+
+followed by degradation of nuclear DNA.
+
+Thus:
+
+nuclear lamina breakdown → chromatin accessibility → nuclease-mediated DNA degradation → anuclear corneocyte.
+
+---
+
+## AKT1 and Lamin A/C Degradation
+
+The nuclear lamina normally protects and organizes chromatin.
+
+AKT1-dependent regulation of Lamin A/C contributes to dismantling this barrier during cornification [31].
+
+AKT1 phosphorylates Lamin A/C in the terminal differentiation context, promoting its degradation.
+
+Experimental disruption of this step causes retention of nuclear-lamina material and interferes with normal nuclear removal even when relevant nucleases remain present.
+
+Thus:
+
+AKT1 signaling → Lamin A/C phosphorylation/degradation → disruption of nuclear architecture → access of downstream degradation machinery to nuclear material.
+
+This is an important mechanistic insight because nuclease expression alone is not sufficient.
+
+DNA must first become physically accessible.
+
+In human in vitro skin models, the keratinocyte-specific enzyme DNase1L2 is required for nuclear DNA degradation during stratum corneum formation [34,55].
+
+Thus:
+
+nuclear structural dismantling → DNase1L2 access to chromatin → nuclear DNA degradation.
+
+This supports a conserved role for this nuclease in keratinocyte cornification beyond interfollicular epidermis.
+
+---
+
+## DNase2 and Nuclease Redundancy
+
+DNase2 also contributes to epidermal DNA degradation [33].
+
+Importantly, genetic evidence demonstrates functional redundancy.
+
+Loss of DNase1L2 alone disrupts DNA clearance, but combined loss of DNase1L2 and DNase2 produces particularly strong retention of nuclear DNA and constitutive parakeratosis [34].
+
+Therefore:
+
+DNase1L2 + DNase2 → cooperative nuclear DNA elimination.
+
+This explains why cornification should not be represented as:
+
+one nuclease → complete nuclear destruction.
+
+Instead, nuclear removal is a multipart pathway involving nuclear-envelope dismantling and partially redundant nucleases.
+
+This suggests that profilaggrin-derived components may contribute to nuclear remodeling [56].
+
+However, the causal mechanism is substantially less established than the AKT1–Lamin A/C and DNase1L2/DNase2 pathways.
+
+Therefore, this should remain a context-dependent or candidate nuclear regulator rather than part of the minimal core machinery.
+
+---
+
+## Lamellar Bodies and Barrier Lipid Export
+
+While the interior of the keratinocyte is being dismantled, the cell simultaneously constructs the extracellular lipid barrier.
+
+Lamellar bodies are specialized secretory organelles of differentiated keratinocytes [35-36].
+
+They transport lipids, enzymes, proteases, protease inhibitors and antimicrobial components toward the extracellular space at the granular–cornified interface.
+
+Their contents include precursors of ceramides and other barrier lipids.
+
+The sequence is:
+
+late granular differentiation → lamellar-body loading → lamellar-body trafficking → fusion with plasma membrane → extracellular release of lipid precursors and enzymes.
+
+Thus, secretion occurs before the cell loses the secretory machinery required to perform it.
+
+---
+
+## Extracellular Lipid Processing
+
+After secretion, lipid precursors undergo enzymatic processing.
+
+Glucosylceramides and sphingomyelin contribute to formation of ceramide-rich extracellular lipid structures [36-37,47].
+
+These lipids organize into lamellar phases between corneocytes.
+
+The resulting extracellular matrix restricts transepidermal water loss and penetration of environmental molecules.
+
+Thus:
+
+lamellar-body secretion → extracellular lipid processing → ceramide-rich lamellae → permeability barrier.
+
+Cornification therefore produces two cooperating structural systems:
+
+protein-rich corneocytes,
+
+and
+
+lipid-rich extracellular lamellae.
+
+---
+
+## Corneocyte Lipid Envelope
+
+Lipids also become covalently associated with the cornified protein envelope.
+
+The linoleate moiety of ω-O-acylceramides is essential for binding to corneocyte proteins, forming the corneocyte lipid envelope, and assembling barrier lipid precursors in lamellar bodies and free stratum corneum lipids into the lamellar lipid-protein structure [38].
+
+The protein and lipid systems are therefore physically linked.
+
+The sequence can be represented as:
+
+transglutaminase-built protein envelope → covalent attachment/organization of specialized lipids → cornified lipid envelope → integration with extracellular lamellar barrier.
+
+Thus, envelope construction and lipid export are not independent side processes.
+
+Together they transform the former plasma-membrane region into a specialized barrier interface.
+
+---
+
+## Does the Plasma Membrane Rupture?
+
+Cornification should not be modeled as a pore-forming lytic process.
+
+Unlike pyroptosis and necroptosis, there is no established GSDMD- or MLKL-like terminal membrane executor [6-7].
+
+Instead, the plasma-membrane-associated region is progressively remodeled and reinforced by protein cross-linking and lipid-envelope formation.
+
+The original living membrane can no longer function as a conventional metabolically regulated plasma membrane, but terminal viability loss does not appear to require an acute catastrophic rupture event.
+
+Thus:
+
+cornification ≠ membrane pore → osmotic lysis.
+
+The better representation is:
+
+membrane-associated scaffold construction + intracellular dismantling → conversion into corneocyte boundary.
+
+---
+
+## The Proximate Cause of Death
+
+No single enzyme currently provides a complete molecular explanation for the instant at which a keratinocyte becomes dead.
+
+TGM1 does not independently kill the cell.
+
+Filaggrin does not independently kill the cell.
+
+DNase1L2 does not independently kill the cell.
+
+NIX does not independently kill the cell.
+
+Caspase-14 does not independently kill the cell.
+
+Instead, viability disappears as several essential systems are dismantled in a coordinated terminal state.
+
+The most defensible mechanistic interpretation is:
+
+sustained terminal ionic transition → intracellular acidification → progressive elimination of mitochondria and other metabolic organelles + nuclear destruction + loss of normal soluble cytoplasmic organization → simultaneous irreversible cross-linking and compaction of cellular structural proteins → inability to sustain metabolism, gene expression, protein synthesis, ion homeostasis, or organellar repair → dead corneocyte.
+
+Thus, the terminal lesion is distributed across the entire cellular architecture.
+
+Cornification is a conversion process rather than a single-hit execution reaction.
+
+---
+
+## Cornification Versus Apoptosis
+
+Cornification and apoptosis share several superficial features.
+
+Both are regulated.
+
+Both can involve proteolysis.
+
+Both remove nuclei.
+
+Both produce non-viable cells.
+
+However, their core molecular logic differs.
+
+Intrinsic apoptosis:
+
+BAX/BAK → MOMP → cytochrome c → APAF1 → caspase-9 → caspase-3/7 → cellular demolition.
+
+Extrinsic apoptosis:
+
+death receptor → FADD → caspase-8 → caspase-3/7 ± mitochondrial amplification.
+
+Cornification:
+
+terminal keratinocyte differentiation → ionic transition/acidification → transglutamination + keratin compaction + selective organelle elimination + nuclease-dependent nuclear loss + lipid-barrier construction → corneocyte.
+
+Normal epidermal differentiation lacks the widespread activation of canonical apoptotic executioner caspases seen during apoptosis [4] .
+
+Therefore, apoptotic markers should not be imported automatically into cornification mechanisms.
+
+---
+
+## Caspase-14 Does Not Make Cornification Apoptotic
+
+Caspase-14 is particularly important for avoiding this conceptual error.
+
+It belongs to the caspase family, but its physiological function in epidermis differs markedly from caspase-3, caspase-7, caspase-8 or caspase-9.
+
+Caspase-14 is associated with filaggrin processing, epidermal differentiation, hydration and barrier function [25-26].
+
+Therefore:
+
+caspase-14 activity during cornification ≠ canonical apoptotic caspase cascade.
+
+Normal epidermal cornification should remain classified as a non-apoptotic terminal differentiation-associated death program.
+
+---
+
+## Cornification Versus Necroptosis
+
+Necroptosis culminates in RIPK3-dependent phosphorylation and activation of MLKL.
+
+Activated MLKL damages the plasma membrane, causing lytic cell death.
+
+Cornification lacks this terminal execution mechanism.
+
+Indeed, RIPK1 signaling in epidermis helps protect keratinocytes from inappropriate apoptosis and necroptosis [39].
+
+Loss of epidermal RIPK1 can generate severe inflammatory death that is mechanistically distinct from physiological cornification.
+
+Thus:
+
+normal RIPK1-supported epithelial homeostasis → suppression of inappropriate RIPK3/MLKL death.
+
+Loss of this control → pathological necroptosis/inflammation.
+
+This should not be considered normal cornification.
+
+---
+
+## RIPK1–ZBP1 Checkpoint
+
+RIPK1 also counteracts ZBP1-driven activation of RIPK3 in epithelial tissues [40].
+
+This provides an additional protective mechanism preventing inappropriate necroptosis during epidermal homeostasis.
+
+The relationship can therefore be represented as:
+
+RIPK1 scaffolding/checkpoint activity → restriction of ZBP1–RIPK3 signaling → prevention of MLKL-mediated necroptosis → preservation of controlled epidermal differentiation.
+
+This is an example of crosstalk being primarily preventive rather than representing shared execution machinery.
+
+---
+
+## Cornification Versus Pyroptosis
+
+Pyroptosis uses gasdermin pores to produce inflammatory membrane permeabilization.
+
+Normal cornification does not.
+
+Interestingly, differentiating keratinocytes alter expression of multiple pyroptosis-related genes before cornification [41].
+
+The pattern includes increased expression of regulatory components while inflammatory mediators such as IL1A, IL1B and GSDMD can be reduced during differentiation.
+
+This supports the idea that terminal keratinocyte differentiation actively suppresses uncontrolled inflammatory signaling while the cell undergoes extensive intracellular destruction.
+
+The protective logic is:
+
+terminal differentiation → induction of anti-inflammatory/death-regulatory program → suppression of inappropriate IL-1/gasdermin-associated lytic signaling → non-lytic cornification.
+
+Thus, prevention of inflammatory death is itself part of safe cornification.
+
+---
+
+## Danger-Signal Containment
+
+Cornification is potentially hazardous because nuclear breakdown, organelle destruction and intracellular degradation could release damage-associated molecules.
+
+Nevertheless, physiological epidermal cornification generally proceeds without the strong inflammatory response expected after uncontrolled necrotic cell lysis [42].
+
+The tissue therefore appears to coordinate death with containment of danger signals.
+
+This is biologically important because millions of keratinocytes undergo terminal differentiation continuously.
+
+If each event triggered pyroptotic or necrotic inflammation, the epidermis would remain chronically inflamed.
+
+Thus, controlled danger-signal management is an essential functional distinction between physiological cornification and pathological keratinocyte death.
+
+---
+
+## NF-κB and Survival During Differentiation
+
+NF-κB-associated signaling contributes to differentiation and survival programs in suprabasal keratinocytes [10,43,50].
+
+This may seem paradoxical because the cells are ultimately destined to die.
+
+However, premature apoptosis would interrupt the complex biosynthetic processes required for formation of the barrier.
+
+The keratinocyte must remain alive long enough to synthesize loricrin, involucrin, profilaggrin, transglutaminases, lipids, lamellar-body contents and other structural components.
+
+Therefore, survival signaling during differentiation is necessary for successful programmed death.
+
+The logic is:
+
+differentiation begins → temporary maintenance of cellular viability → production and organization of cornification machinery → terminal commitment → controlled loss of viability.
+
+Cornification therefore requires precise temporal coordination between survival and death.
+
+---
+
+## Why Premature Apoptosis Is Harmful
+
+If apoptosis occurs before the cornification machinery is assembled, the keratinocyte is eliminated rather than converted into an effective barrier unit.
+
+This would compromise epidermal structure.
+
+Thus, physiological cornification actively separates:
+
+pre-terminal differentiation phase, during which premature apoptotic/necroptotic death must be restrained,
+
+from
+
+terminal SG1 phase, during which irreversible corneocyte conversion becomes appropriate.
+
+The death program is therefore inseparable from tissue architecture.
+
+---
+
+## Autophagy as Remodeling Rather Than a Universal Executor
+
+Autophagy-related mechanisms contribute strongly to removal of organelles during epidermal differentiation [27-30].
+
+However, the presence of autophagy does not establish autophagy-dependent cell death.
+
+For autophagy-dependent cell death, autophagic machinery itself must causally execute the lethal process.
+
+In cornification, autophagy is more appropriately interpreted as one component of terminal remodeling.
+
+NIX-associated mitochondrial removal and TEX264-associated ER clearance contribute to construction of the terminal corneocyte state.
+
+Thus:
+
+autophagy-dependent remodeling → organelle elimination → supports cornification.
+
+This should not automatically be rewritten as:
+
+autophagy machinery → independent lethal executor.
+
+---
+
+## Temporal Morphology
+
+Live imaging reveals that cornification occurs as an ordered transition rather than gradual passive decay [44].
+
+Upper granular keratinocytes undergo changes in organelles and intracellular dynamics before becoming flattened corneocytes.
+
+Mitochondrial depolarization and remodeling precede complete organelle disappearance.
+
+Vesicular dynamics decline.
+
+Cells transiently alter volume and morphology.
+
+The cytoplasm then flattens and compacts.
+
+Nuclear material is degraded.
+
+The terminal cell becomes thin, anuclear and structurally integrated into the stratum corneum.
+
+The morphological sequence can therefore be represented as:
+
+granular keratinocyte → mitochondrial/vesicular remodeling → terminal ionic transition → intracellular degradation → flattening and compaction → nuclear disappearance → anuclear corneocyte.
+
+---
+
+## Experimental Evidence for Transglutaminase Machinery
+
+Mechanistic demonstration of cornification should not rely solely on expression of involucrin, loricrin or filaggrin.
+
+These are differentiation-associated proteins but are not sufficient to prove functional execution.
+
+Transglutaminase perturbation provides stronger causal evidence.
+
+Loss or inhibition of TGM activity interferes with cornified-envelope assembly and barrier formation.
+
+Biochemical assays can directly quantify formation of ε-(γ-glutamyl)lysine cross-links.
+
+Proteomic approaches can identify the cross-linked envelope substrate network.
+
+Thus, strong evidence for the structural execution module includes:
+
+TGM activity + insoluble envelope formation + cross-link identification + functional barrier consequences.
+
+---
+
+## Experimental Evidence for Filaggrin Remodeling
+
+Filaggrin-associated execution can be evaluated by measuring:
+
+profilaggrin processing,
+
+appearance of filaggrin monomers,
+
+keratin-filaggrin association,
+
+keratin bundle compaction,
+
+and downstream filaggrin degradation products.
+
+Genetic or biochemical disruption of processing enzymes can distinguish normal filaggrin remodeling from simple accumulation of the precursor.
+
+Again, filaggrin expression alone is not sufficient to prove complete cornification.
+
+---
+
+## Experimental Evidence for Organelle Elimination
+
+Organelle removal can be studied through live imaging, electron microscopy, mitochondrial markers, ER markers and autophagy-related reporters.
+
+For mitochondria, NIX and DRP1 perturbation can test the causal contribution of the mitochondrial remodeling machinery [28].
+
+Importantly, reduced organelle abundance should be distinguished from decreased expression of organelle-associated genes.
+
+Cornification is a physical cell-remodeling process, so direct structural or functional measurements are stronger than transcript abundance alone.
+
+---
+
+## Experimental Evidence for Nuclear Elimination
+
+Nuclear loss provides another causal module.
+
+Lamin A/C degradation can be examined before disappearance of nuclear material.
+
+DNase1L2 and DNase2 perturbation can establish whether nuclear DNA degradation is impaired [32,34].
+
+Persistence of nuclear DNA in the cornified layer produces parakeratosis.
+
+Therefore:
+
+normal nuclear loss → anuclear corneocytes.
+
+Failed nuclease-dependent DNA clearance → retained nuclear material/parakeratosis.
+
+This provides a powerful phenotypic readout of incomplete cornification.
+
+---
+
+## Experimental Evidence for Ionic Commitment
+
+The ionic transition should ideally be examined dynamically.
+
+Live-cell calcium reporters can identify the sustained SG1 Ca²⁺ rise.
+
+pH-sensitive probes can detect intracellular acidification [14,48].
+
+Temporal imaging can then determine whether the cell completes cornification after these changes.
+
+Perturbation of TRPV3 can test its contribution to the frequency and timing of transition.
+
+Because the upstream cause of acidification remains incompletely defined, experiments should avoid assuming one specific proton transporter without direct evidence.
+
+---
+
+## No Single Marker Proves Cornification
+
+Several commonly used markers are informative but insufficient alone.
+
+Involucrin indicates differentiation-associated envelope competence.
+
+Loricrin indicates late differentiation.
+
+Filaggrin indicates granular/terminal differentiation.
+
+Caspase-14 indicates specialized epidermal proteolysis.
+
+Loss of mitochondrial markers suggests organelle removal.
+
+Loss of nuclear DNA indicates terminal maturation.
+
+Transglutaminase activity indicates envelope construction.
+
+A convincing mechanistic demonstration instead requires coordinated evidence that multiple modules progress toward corneocyte formation.
+
+The strongest signature is:
+
+terminal keratinocyte differentiation + ionic terminal transition + transglutaminase-dependent envelope formation + keratin/filaggrin compaction + organelle elimination + nuclear destruction + barrier-lipid deposition → anuclear metabolically inert corneocyte.
+
+---
+
+## Molecular Hierarchy
+
+The upstream differentiation regulators include calcium-sensing mechanisms, Notch, p63-associated programs, cell-contact signals and barrier-responsive pathways.
+
+TRPV3 represents an important regulator of terminal SG1 Ca²⁺ behavior.
+
+The strongest candidate commitment events are sustained intracellular Ca²⁺ elevation and rapid intracellular acidification.
+
+The structural execution machinery includes TGM1, TGM3 and TGM5.
+
+Major structural substrates include involucrin, loricrin, SPR proteins, keratins and filaggrin-associated components.
+
+Profilaggrin-processing systems, including SASPase and caspase-14-associated pathways, generate filaggrin and downstream products.
+
+Filaggrin drives keratin bundling and cytoplasmic compaction.
+
+NIX and DRP1 contribute to mitochondrial remodeling.
+
+TEX264 contributes to ER clearance.
+
+AKT1-mediated Lamin A/C degradation facilitates nuclear dismantling.
+
+DNase1L2 and DNase2 execute major portions of nuclear DNA degradation.
+
+Lamellar bodies export lipids and enzymes necessary for extracellular barrier construction.
+
+Specialized ceramide metabolism organizes the corneocyte lipid envelope and extracellular lamellae.
+
+RIPK1, NF-κB-associated survival programs and suppression of pyroptosis-related inflammatory machinery protect differentiating keratinocytes from premature alternative death.
+
+No one of these molecules should be designated the universal cornification executor.
+
+---
+
+## Integrated Canonical Sequence
+
+The most defensible mechanistic sequence is:
+
+basal keratinocyte → exit from proliferative compartment → suprabasal differentiation → calcium-, contact- and Notch-associated differentiation signaling → reorganization of p63 and survival programs → expression and accumulation of cornification machinery including involucrin, loricrin, SPR proteins, profilaggrin, transglutaminases, lipid-processing enzymes and organelle-remodeling systems → transition into the outer SG1 granular-cell state.
+
+Then:
+
+SG1 terminal state → prolonged intracellular Ca²⁺ elevation under TRPV3-associated regulation → activation of calcium-dependent transglutaminase and proteolytic machinery → rapid intracellular acidification → transition toward irreversible terminal remodeling.
+
+Structural branch:
+
+Ca²⁺ → TGM1/TGM3/TGM5 activity → cross-linking of involucrin, loricrin, SPR proteins, keratins and other substrates through ε-(γ-glutamyl)lysine bonds → formation and maturation of insoluble cornified protein envelope.
+
+Cytoplasmic-compaction branch:
+
+keratohyalin granule remodeling → profilaggrin dephosphorylation/proteolysis → filaggrin generation → filaggrin binding to keratin intermediate filaments → collapse and compaction of keratin cytoskeleton → dense structural corneocyte matrix.
+
+Organelle branch:
+
+terminal differentiation → NIX induction → DRP1-associated mitochondrial fragmentation → selective mitochondrial clearance + TEX264-associated ER remodeling/reticulophagy + elimination of additional intracellular organelles → progressive loss of metabolic organelle function.
+
+Nuclear branch:
+
+terminal signaling → AKT1-dependent Lamin A/C degradation → nuclear-lamina dismantling → increased access to chromatin → DNase1L2 + DNase2-dependent DNA degradation → disappearance of functional nucleus.
+
+Barrier-lipid branch:
+
+late granular cell → lamellar-body trafficking → secretion of glucosylceramides, sphingomyelin, cholesterol, phospholipids, enzymes and barrier-associated proteins → extracellular enzymatic processing → formation of ceramide-rich lipid lamellae → specialized lipid attachment to cornified envelope → mature corneocyte lipid envelope.
+
+These branches converge on:
+
+loss of functional nucleus + loss of mitochondria/ER and other metabolic organelles + loss of conventional soluble cytoplasmic organization + irreversible keratin compaction + extensive covalent cross-linking + formation of protein/lipid barrier structures → metabolically inactive anuclear corneocyte → incorporation into stratum corneum.
+
+---
+
+## Final Mechanistic Interpretation
+
+Cornification is best understood as a terminal differentiation-coupled regulated cell-death program that sacrifices conventional cellular viability while preserving and transforming the cell into a functional tissue structure.
+
+Its defining mechanism is fundamentally different from the classical destruction programs of apoptosis, pyroptosis and necroptosis.
+
+There is no currently established universal cornification pore, caspase cascade or single protease that kills the cell.
+
+Instead, several coordinated modules collectively make recovery impossible.
+
+The strongest mechanistic framework is:
+
+terminal differentiation competence → sustained SG1 Ca²⁺ transition → intracellular acidification → transglutaminase-dependent envelope hardening + filaggrin-mediated keratin compaction + selective organelle removal + nuclear-lamina dismantling and nuclease-dependent DNA degradation + lamellar-body-dependent lipid-barrier construction → irreversible conversion into an anuclear metabolically inert corneocyte.
+
+The key physical principle is simultaneous intracellular destruction and extracellular/peripheral construction.
+
+Mitochondria, ER and the nucleus are eliminated because they are no longer required in the final product.
+
+The cytoskeleton is not simply degraded; keratin is reorganized into a dense load-bearing matrix.
+
+The plasma-membrane region is not simply ruptured; it is replaced functionally by a heavily cross-linked protein envelope associated with specialized lipids.
+
+The dead cell is therefore retained rather than cleared.
+
+The best current candidate for commitment is the sustained Ca²⁺–acidification transition in SG1 keratinocytes.
+
+However, the upstream molecular switch that initiates this transition remains incompletely defined.
+
+Likewise, intracellular acidification is clearly required for efficient terminal conversion, but the exact molecular machinery responsible for producing the rapid pH change remains unresolved.
+
+Thus, the major unanswered question is not which single molecule executes cornification.
+
+The deeper unresolved problem is how the terminally differentiated SG1 keratinocyte integrates tissue position, calcium signaling, TRPV3 activity and differentiation status to initiate the irreversible ionic transition that synchronizes protein cross-linking, intracellular acidification, organelle destruction, nuclear loss and barrier construction.
+

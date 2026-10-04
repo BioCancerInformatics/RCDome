@@ -1,1 +1,252 @@
-Piroptose: morte celular programada envolvendo caspase-1 e lise celular mediada por gasderminas, associada à inflamação. Sobrepõe-se à apoptose por compartilhar a maquinaria de caspases iniciadoras e à necroptose por meio da sinalização inflamatória. No câncer, a piroptose promove a imunidade antitumoral pela liberação de citocinas inflamatórias, mas sua natureza pró-inflamatória também pode favorecer a progressão tumoral.
+# Pyroptosis
+
+## 1. Definition and Classification
+
+Pyroptosis is an established regulated cell death modality defined mechanistically by proteolytic activation of a gasdermin-family pore-forming protein, followed by gasdermin-dependent membrane permeabilization, disruption of ionic and osmotic homeostasis, and progression toward lytic cell death [1-5].
+
+The best-established mammalian mechanism is inflammatory-caspase-dependent GSDMD pyroptosis. In this canonical framework, cytosolic danger or pathogen sensors assemble inflammasomes, inflammatory caspases become activated, GSDMD is proteolytically released from C-terminal autoinhibition, and the liberated GSDMD N-terminal domain oligomerizes within cellular membranes to form pores [1-5].
+
+The modern mechanistic definition is broader than the historical concept of caspase-1-dependent inflammatory death. In the non-canonical pathway, LPS activates caspase-4/5/11, which triggers pyroptosis by cleaving GSDMD [1]. What unifies these routes is not a particular upstream sensor or caspase but execution through a proteolytically activated gasdermin pore-forming domain.
+
+This criterion distinguishes pyroptosis from apoptosis, where caspases predominantly execute intracellular dismantling without gasdermin-dependent membrane destruction, and from necroptosis, whose core execution machinery is based on RIPK3–MLKL rather than gasdermin pores [9-10].
+
+An important refinement in the current model is that membrane permeabilization and terminal plasma-membrane rupture are mechanistically separable. Gasdermins create the initial pore-mediated permeabilized state, whereas NINJ1 participates in the subsequent large-scale plasma-membrane rupture that permits efficient release of large intracellular molecules [11-12]. Thus, pyroptosis should be operationally defined by gasdermin-dependent execution rather than by inflammation, IL-1β secretion, cellular swelling, or membrane rupture alone.
+
+## 2. Initiation and Triggers
+
+No single upstream trigger initiates all forms of pyroptosis. Instead, several distinct sensing systems converge on proteases capable of activating gasdermins.
+
+In canonical inflammasome-dependent pyroptosis, cytosolic pattern-recognition receptors detect pathogen-associated molecules, endogenous danger signals, or disturbances of intracellular homeostasis. Major inflammasome sensors include NLRP1, NLRP3, AIM2, NAIP–NLRC4, and pyrin [1,15-16].
+
+AIM2 recognizes cytosolic double-stranded DNA and oligomerizes in response to DNA binding. NAIP proteins recognize bacterial components such as flagellin or type III secretion system rod and needle proteins and activate NLRC4. Pyrin responds indirectly to bacterial toxins and other insults that modify or disrupt Rho-family GTPase signaling. NLRP1 can be activated by specific microbial or cellular perturbations depending on species and context [44].
+
+NLRP3 differs substantially from these sensors because it does not generally recognize one universal molecular ligand. Extracellular ATP, crystalline material, pore-forming toxins, lysosomal damage, mitochondrial dysfunction, ROS-generating stress, and other cellular disturbances converge on alterations in intracellular physiology, particularly ion flux [16-18].
+
+A major NLRP3 activation route involves K+ efflux. Decreased cytosolic K+ permits functional interaction between NLRP3 and NEK7, which licenses NLRP3 assembly and activation [17-18]. Chloride flux, mitochondrial signals, lysosomal disturbance, and other context-dependent inputs can additionally modulate NLRP3 competence.
+
+NLRP3 signaling often involves an upstream priming phase in which inflammatory transcriptional signaling increases expression of NLRP3 and pro-IL-1β, followed by an activation phase in which cellular stress promotes assembly of the inflammasome. This two-stage logic is especially relevant to NLRP3 but is not a universal requirement for all pyroptotic sensors.
+
+The noncanonical pathway has a fundamentally different initiating mechanism. Cytosolic lipopolysaccharide from Gram-negative bacteria is directly sensed by the CARD domains of human caspase-4 and caspase-5 or mouse caspase-11 [19-21]. LPS binding promotes inflammatory-caspase oligomerization and activation without requiring an upstream canonical inflammasome receptor.
+
+Alternative gasdermin-dependent pyroptosis can begin still further downstream. Apoptotic activation of caspase-3 can cleave GSDME in GSDME-expressing cells and convert what would otherwise be apoptotic execution into a pore-forming lytic phenotype [6-7]. Caspase-8 can activate gasdermins under selected infectious or signaling conditions, while cytotoxic lymphocyte-derived granzymes can activate GSDME or GSDMB in susceptible target cells [1,8].
+
+Therefore, the earliest initiating event is route specific. The conserved mechanistic convergence point is proteolytic liberation of a cytotoxic gasdermin N-terminal pore-forming domain.
+
+## 3. Core Mechanistic Machinery
+
+In canonical pyroptosis, activation of a cytosolic sensor initiates assembly of a supramolecular inflammasome complex.
+
+For many inflammasomes, activated sensors recruit ASC through pyrin-domain interactions. Sensor oligomerization nucleates ASC polymerization into filamentous or speck-like assemblies [22-23]. ASC subsequently clusters CARD domains and recruits pro-caspase-1 through CARD–CARD interactions, creating a high-avidity platform that concentrates caspase-1 molecules.
+
+Pro-caspase-1 activation is driven primarily by proximity-induced dimerization followed by autocatalytic processing and generation of proteolytically active caspase species [15,22-23]. Active caspase-1 processes both inflammatory cytokine precursors and GSDMD.
+
+The critical execution reaction is cleavage of GSDMD within its interdomain linker [2-5]. Full-length GSDMD is autoinhibited because its C-terminal domain restrains the intrinsic pore-forming activity of the N-terminal domain. Proteolytic cleavage separates these domains and releases GSDMD-NT.
+
+GSDMD-NT is the direct membrane pore-forming executor of canonical and noncanonical GSDMD pyroptosis [2-5]. Expression of the isolated N-terminal fragment is sufficient to induce membrane permeabilization and cell death, demonstrating that it is not merely a biomarker downstream of caspase activation.
+
+Following liberation, GSDMD-NT preferentially interacts with acidic phospholipids of the cytoplasmic membrane leaflet, including phosphoinositides and phosphatidylserine [3-5]. It can also interact with cardiolipin-rich mitochondrial membranes [24,47].
+
+Membrane binding induces conformational rearrangement, oligomerization, membrane insertion, and progressive formation of arcs, slits, prepores, and ring-like transmembrane pores [3-5,25]. Structural and biochemical studies indicate pores on the order of approximately 10–21 nm, although exact dimensions vary according to experimental method and assembly state.
+
+The pore is therefore not a nonspecific membrane defect. It is a proteinaceous gasdermin oligomer that creates a nonselective conduit through the lipid bilayer.
+
+Post-translational regulation adds an additional layer. S-palmitoylation of the conserved residue Cys191 in human GSDMD promotes GSDMD-mediated pyroptosis and cytokine release [28]. Thus, proteolytic cleavage licenses GSDMD, while membrane targeting and lipid-dependent oligomerization determine effective pore formation.
+
+## 4. Propagation and Amplification
+
+Gasdermin pore formation initiates a series of biochemical and biophysical changes that amplify pyroptotic injury.
+
+GSDMD pores permit rapid movement of inorganic ions and small molecules across the plasma membrane. K+ is lost from the cytosol, Ca2+ and other ions can enter, membrane potential dissipates, and osmotic balance is progressively disrupted [3-5].
+
+Water follows the altered ionic gradients, promoting cellular swelling. Continued pore accumulation increasingly challenges the cell's ability to maintain volume, membrane potential, ATP-dependent transport, and normal organelle function.
+
+GSDMD pores also provide conduits through which mature inflammatory cytokines can leave the cell. IL-1β can pass through GSDMD pores before terminal plasma-membrane rupture [29-30,51]. Thus, cytokine secretion can occur during a sublytic phase and does not necessarily require complete cellular disintegration.
+
+The noncanonical pathway contains a particularly clear positive-feedback mechanism. Caspase-4/5/11 activation by cytosolic LPS produces GSDMD pores, which cause K+ efflux and related ionic stress. This secondarily activates the NLRP3 inflammasome and caspase-1, thereby linking direct cytosolic LPS sensing to IL-1 family cytokine processing and broader inflammatory amplification [19-21].
+
+Mitochondria can also become direct gasdermin targets. GSDMD-NT can bind cardiolipin and permeabilize both outer and inner mitochondrial membranes [24]. Consequences include mitochondrial membrane-potential loss, impaired oxidative phosphorylation, ROS production, release of mitochondrial DNA and proteins, and induction of mitophagy.
+
+These mitochondrial lesions can occur before terminal plasma-membrane rupture and amplify the pyroptotic response [24] . However, mitochondrial dysfunction should be regarded as an amplification mechanism rather than the universally defining terminal lesion of standard GSDMD pyroptosis.
+
+During oxidative stress, elevated palmitoyltransferase expression and mitochondrial ROS production promote GSDMD acylation and membrane translocation in its full-length form [48].
+
+ASC polymerization provides another amplification layer upstream. A relatively small number of activated sensor complexes can nucleate extensive ASC filament formation and concentrate large numbers of caspase molecules [22-23].
+
+Thus, amplification can occur at multiple levels: supramolecular inflammasome assembly, caspase activation, gasdermin oligomerization, ion flux, mitochondrial damage, ROS production, secondary NLRP3 activation, and progressive inability of membrane-repair systems to compensate for accumulating pores.
+
+## 5. Protective/Negative Regulators
+
+Pyroptosis is counteracted by regulatory mechanisms operating before inflammasome assembly, at the level of gasdermin activation, and after pores have formed.
+
+At the gasdermin level, full-length GSDMD is intrinsically autoinhibited. Its C-terminal domain prevents the N-terminal pore-forming domain from constitutively attacking membranes [4,25]. Proteolytic removal of this constraint is therefore a primary activation checkpoint.
+
+Post-translational modifications further influence execution. GSDMD palmitoylation enhances membrane association and pore formation, whereas processes that limit this modification reduce effective pyroptotic execution [26-28]. The supplied literature also identifies ubiquitin-mediated regulation of gasdermins as an additional mechanism capable of limiting pyroptotic activity [31].
+
+The most important downstream protective mechanism is active membrane repair.
+
+Ca2+ entering through gasdermin pores recruits ESCRT-associated membrane-repair machinery [13,45]. ESCRT-III can remove, shed, or repair pore-containing membrane regions and thereby delay or prevent progression from membrane permeabilization to complete lysis.
+
+ALIX provides an additional repair mechanism. ALIX-dependent endosomal trafficking can remove activated N-terminal GSDMD from the plasma membrane and restore membrane integrity when the pyroptotic stimulus is sufficiently limited or transient [14].
+
+These observations establish that gasdermin pore formation is not automatically synonymous with irreversible cell death. A cell may enter a sublytic gasdermin-permeabilized state and recover if pore burden is controlled and membrane repair succeeds.
+
+Conversely, inhibition of ESCRT-dependent repair sensitizes cells to gasdermin-mediated death [13,32]. Membrane repair therefore determines whether pore formation remains reversible or progresses toward terminal destruction.
+
+Upstream inflammasome regulatory mechanisms also modify susceptibility. Priming, ionic flux (K+, Ca2+, Na+, Cl−), mitochondrial dysfunction/ROS, lysosomal damage, and post-translational modifications regulate NLRP3 inflammasome activation, with NLRP3-Nek7 interaction mentioned in the context of Cl− efflux [49].
+
+## 6. Commitment / Point of No Return
+
+The point of no return in pyroptosis requires a distinction between molecular activation, membrane permeabilization, and terminal lysis.
+
+GSDMD cleavage is the central biochemical commitment reaction because it releases an autonomous cytotoxic pore-forming domain [1-5]. Nevertheless, cleavage itself is not necessarily equivalent to irreversible cellular death.
+
+Even after pores appear in the plasma membrane, cells can transiently maintain viability. Gasdermin pores can behave dynamically, and active ESCRT-III- and ALIX-dependent repair can remove pore-containing membrane or activated GSDMD and restore membrane integrity [13-14,33].
+
+Therefore, the older model in which GSDMD cleavage or the first plasma-membrane pore constitutes an absolute irreversible commitment point is incomplete.
+
+The strongest operational commitment boundary is reached when the rate and extent of pore formation exceed the cell's capacity for membrane repair and ionic restoration. At this stage, persistent ion flux, osmotic imbalance, organelle dysfunction, and membrane injury become self-sustaining.
+
+Terminal activation of NINJ1-associated membrane rupture represents a still later and clearly irreversible state [11-12]. Once large-scale plasma-membrane rupture occurs and cytoplasmic macromolecules such as LDH and HMGB1 are released, recovery is no longer plausible.
+
+Thus, pyroptotic commitment is best represented as a progression:
+
+gasdermin cleavage and activation → potentially repairable pore formation → increasing pore burden and ionic collapse → failure of ESCRT/ALIX-mediated repair → terminal membrane rupture.
+
+The exact molecular trigger that converts repairable gasdermin permeabilization into irreversible terminal rupture remains incompletely resolved and may vary between cell types and gasdermin family members.
+
+A 2026 preprint proposes a Ca2+–calpain–ALIX mechanism in which pore-mediated Ca2+ influx activates calpains, ALIX is cleaved, CHMP4B recruitment is impaired, and ESCRT-mediated repair fails [34]. This provides a plausible mechanism connecting gasdermin pores to irreversible damage but remains provisional rather than established consensus.
+
+## 7. Execution and Terminal Cause of Death
+
+What physically kills the cell in pyroptosis?
+
+The direct molecular executors are membrane-inserted gasdermin N-terminal oligomers [2-5].
+
+These oligomers form transmembrane pores that destroy selective permeability of the plasma membrane. The resulting nonselective ionic movement dissipates electrochemical gradients, causes K+ loss and Ca2+ entry, promotes water influx, disrupts membrane potential, and progressively compromises cellular volume and metabolic homeostasis.
+
+This gasdermin-mediated permeabilization is the defining execution mechanism.
+
+However, pore formation and final macroscopic rupture are distinct processes. NINJ1 functions downstream of the initial gasdermin-permeabilized state to promote large-scale plasma-membrane rupture [11-12].
+
+NINJ1 transitions from a relatively inactive membrane configuration into higher-order oligomeric and filamentous assemblies. Structural studies indicate that these amphipathic filamentous structures interact directly with membrane edges and destabilize the lipid bilayer, providing a physical mechanism for catastrophic membrane rupture [12].
+
+Therefore, GSDMD and NINJ1 should not be assigned the same molecular role.
+
+GSDMD-NT is the direct pyroptotic pore-forming executor that establishes membrane permeabilization and ionic collapse.
+
+NINJ1 is a downstream terminal rupture effector that converts the injured but potentially sublytic plasma membrane into large-scale membrane disintegration and enables efficient release of large cytosolic DAMPs [11-12].
+
+The proximate lethal process is consequently persistent gasdermin-mediated loss of osmotic and electrochemical homeostasis combined, when repair fails, with irreversible plasma-membrane destruction. Mitochondrial permeabilization can accelerate this process but is not established as the universal terminal cause of standard pyroptotic death [24].
+
+## 8. Morphological Sequence
+
+The morphological sequence begins with a cell that can appear structurally normal despite activation of an upstream inflammasome.
+
+Following inflammatory-caspase activation and gasdermin cleavage, GSDMD-NT begins associating with the plasma membrane and forming pores. As pore burden increases, the cell loses K+, accumulates Ca2+, and takes up water. Cellular volume increases and characteristic swelling or ballooning develops [39].
+
+During this phase, mitochondrial dysfunction and other organellar changes may already be occurring [24]. Blebs or pyroptosis-associated bodies can appear in some experimental systems.
+
+Importantly, the nucleus does not necessarily undergo the orderly fragmentation typical of apoptosis. The terminal phase involves large-scale plasma-membrane disruption. NINJ1-dependent rupture permits release of large cytosolic proteins and DAMPs that could not efficiently pass through intact or sublytic gasdermin pores [11-12].
+
+The sequence can therefore be summarized as:
+
+initially intact cell → gasdermin activation → submicroscopic pore formation → ion flux and small-molecule release → swelling and ballooning → increasing organelle and membrane injury → failure of membrane repair → NINJ1-associated terminal rupture → discharge of cytoplasmic contents and irreversible cell death.
+
+Swelling, membrane-dye uptake, LDH release, or HMGB1 release are supportive morphological or biochemical features but are not specific enough to establish pyroptosis without demonstrating gasdermin-dependent execution.
+
+## 9. Crosstalk and Differential Diagnosis
+
+The key differential diagnosis is apoptosis.
+
+Apoptosis is predominantly executed through caspase-mediated intracellular substrate cleavage and orderly cellular dismantling, whereas pyroptosis is defined by gasdermin-mediated membrane pore formation [9]. However, these pathways can intersect directly.
+
+Caspase-3 can cleave GSDME. In cells with sufficient GSDME expression, an apoptotic caspase cascade can therefore be converted into a gasdermin-dependent lytic phenotype [6-7,55]. In this setting, caspase-3 activation alone cannot determine whether terminal execution is apoptotic or pyroptotic; the decisive question is whether GSDME pore formation becomes the mechanism responsible for membrane destruction.
+
+Necroptosis is also lytic but has a different core executor. Necroptosis depends on RIPK3-dependent MLKL activation and membrane association, whereas pyroptosis depends on proteolytically activated gasdermins [10]. Similar morphology therefore cannot establish the pathway.
+
+Canonical pyroptosis must also be distinguished from noncanonical pyroptosis. In the canonical pathway, upstream inflammasome sensors activate caspase-1. In the noncanonical pathway, cytosolic LPS directly activates caspase-4/5 in humans or caspase-11 in mice, which then cleave GSDMD [19-21]. Both converge on the same major executor and therefore remain pyroptotic despite distinct initiation mechanisms.
+
+PANoptosis represents another important source of overlap. Under selected infectious and inflammatory conditions, higher-order signaling platforms can simultaneously engage pyroptotic, apoptotic, and necroptotic machinery [35-37]. Detection of ASC specks, caspase activation, or inflammatory lysis in such systems does not by itself prove that pyroptosis is the sole operative mechanism.
+
+Pyroptosis should therefore be distinguished mechanistically by demonstrating that a gasdermin pore-forming fragment is required for the terminal membrane-permeabilizing phenotype.
+
+NINJ1 is not specific to pyroptosis. It can mediate terminal rupture downstream of other lytic death programs as well [11,38]. Thus, NINJ1 activation or rupture alone cannot diagnose pyroptosis.
+
+Likewise, IL-1β, IL-18, HMGB1, LDH, ASC specks, membrane-dye uptake, and cellular swelling are supportive but non-specific features. They must not substitute for direct evidence of gasdermin-dependent execution.
+
+## 10. Experimental Validation
+
+The strongest evidence for pyroptosis comes from causal perturbation of the gasdermin execution machinery.
+
+For canonical and noncanonical GSDMD pyroptosis, genetic deletion or depletion of GSDMD should strongly suppress membrane permeabilization and lytic death [2-5]. Cytokine maturation and pyroptotic execution should be measured separately because caspase activation can process inflammatory cytokines even when GSDMD-dependent release or cell lysis is prevented.
+
+Gain-of-function experiments provide complementary evidence. The N-terminal fragment of GSDMD is sufficient to induce cell death with the morphological features of pyroptosis [4].
+
+Proteolytic processing should be demonstrated biochemically by detecting the appropriate active gasdermin fragment rather than relying on total gasdermin abundance.
+
+Inflammasome-dependent experiments should establish the upstream dependency appropriate to the pathway. For example, NLRP3-associated pyroptosis can be tested through genetic or pharmacological disruption of NLRP3, ASC, NEK7, or caspase-1 depending on the mechanistic question [16-18].
+
+For noncanonical pyroptosis, experiments should establish cytosolic LPS-dependent activation of caspase-4/5 or caspase-11 and downstream GSDMD cleavage [41].
+
+For alternative GSDME pyroptosis, the critical causal chain is upstream caspase-3 activation → GSDME cleavage → GSDME-dependent membrane permeabilization. GSDME loss should shift the same upstream apoptotic stimulus away from gasdermin-mediated lytic execution [6-7,42].
+
+Functional assays should directly measure membrane permeabilization and ionic consequences. These can include plasma-membrane dye uptake, electrophysiological or ion-flux measurements, K+ loss, Ca2+ influx, water-associated swelling, and release of molecules of different sizes.
+
+Imaging should distinguish early gasdermin pore formation from terminal membrane rupture. Live-cell imaging is particularly valuable because it can establish the temporal sequence of permeabilization, swelling, repair attempts, and final lysis.
+
+Membrane-repair experiments provide an additional mechanistic test. Manipulating ESCRT-III or ALIX can determine whether early pore formation remains reversible or progresses toward terminal injury [13-14].
+
+NINJ1 depletion provides a way to separate gasdermin-mediated permeabilization from final plasma-membrane rupture. Persistence of gasdermin pores and ionic flux while release of large intracellular proteins and catastrophic plasma membrane rupture are delayed supports a sequential model in which GSDMD pore formation precedes NINJ1-mediated plasma membrane rupture [43].
+
+Mitochondrial membrane potential, mitochondrial ROS, oxidative phosphorylation, mtDNA release, and organellar permeabilization can be measured as amplification events but should not replace direct demonstration of plasma-membrane gasdermin activity [24,52-53].
+
+Transcriptomic expression of inflammasome genes, GSDMD, GSDME, IL1B, CASP1, or related inflammatory markers cannot demonstrate active pyroptosis. These measurements identify pathway competence or a pyroptosis-associated transcriptional state, not gasdermin cleavage, pore assembly, or execution.
+
+## 11. Molecular Hierarchy
+
+Initiators/sensors: NLRP1, NLRP3, AIM2, NAIP–NLRC4, pyrin, and cytosolic LPS-sensing caspase-4/5/11; alternative upstream routes include apoptotic caspase-3, context-dependent caspase-8, and cytotoxic-lymphocyte granzymes [1,15,19-21].
+
+NEK7 is an NLRP3-binding protein that acts downstream of potassium efflux to regulate NLRP3 oligomerization and activation [17].
+
+Core proteases in pyroptosis include caspase-1 in canonical inflammasome-dependent pyroptosis, caspase-4 and caspase-5 in human noncanonical pyroptosis, caspase-11 in mouse noncanonical pyroptosis, and caspase-3, caspase-8, or granzymes in specific alternative gasdermin-mediated routes [40].
+
+Core execution machinery: proteolytically activated gasdermins, especially GSDMD in the canonical and noncanonical pathways [1-5].
+
+Direct executor: membrane-inserted oligomeric gasdermin N-terminal domains that generate transmembrane pores [2-5].
+
+Amplifiers: K+ loss, Ca2+ influx, osmotic water movement, mitochondrial permeabilization, mitochondrial ROS, secondary NLRP3 activation, and additional gasdermin recruitment [19-21,24].
+
+Terminal rupture effector: NINJ1, which acts downstream of gasdermin-mediated permeabilization to promote large-scale plasma-membrane rupture and release of large DAMPs [11-12].
+
+Negative regulators: gasdermin C-terminal autoinhibition, ESCRT-III-mediated membrane repair, ALIX-dependent removal of activated GSDMD, and other upstream or post-translational inhibitory checkpoints [13-14,25].
+
+Biomarkers/supportive features: cleaved gasdermin fragments, IL-1β, IL-18, ASC specks, ATP release, LDH, HMGB1, membrane-dye uptake, swelling, and lysis [54]. Only gasdermin activation and causal dependency directly establish the execution mechanism.
+
+## 12. Integrated Canonical Sequence
+
+Pathogen-associated or danger-associated stimulus → activation of a cytosolic sensor such as NLRP1, NLRP3, AIM2, NAIP–NLRC4, or pyrin → sensor oligomerization → ASC recruitment and polymerization where required → clustering of pro-caspase-1 → proximity-driven caspase-1 activation → cleavage of GSDMD and inflammatory cytokine precursors → release of GSDMD-NT from C-terminal autoinhibition → lipid binding and context-dependent palmitoylation → GSDMD-NT membrane recruitment → oligomerization and transmembrane pore formation → K+ efflux, Ca2+ influx, membrane depolarization and water movement → cytokine and small-molecule release → cellular swelling → mitochondrial permeabilization and ROS amplification in relevant contexts → attempted repair by ESCRT-III and ALIX → continued pore burden exceeding repair capacity → persistent ionic and osmotic collapse → downstream NINJ1 oligomerization and large-scale membrane rupture → release of LDH, HMGB1 and other large intracellular contents → irreversible loss of plasma-membrane integrity and cell death [1-5,11-14,24].
+
+The corresponding noncanonical sequence is:
+
+cytosolic LPS → direct binding and activation of human caspase-4/5 or mouse caspase-11 → GSDMD cleavage → GSDMD pore formation → K+ efflux and membrane stress → secondary NLRP3/caspase-1 activation in appropriate cells → inflammatory amplification → failure of membrane repair → terminal rupture and death [19-21].
+
+A major alternative route is:
+
+apoptotic stimulus → caspase-3 activation → GSDME cleavage in GSDME-expressing cells → GSDME N-terminal pore formation → membrane permeabilization → lytic pyroptotic execution [6-7].
+
+## 13. Pyroptotic cell death involves the formation of a plasma membrane pore, cell swelling, and rupture of the plasma membrane [4].
+
+The canonical mammalian pathway is most clearly represented by inflammasome-dependent caspase-1 activation followed by GSDMD cleavage. Four principal signaling pathways execute pyroptosis: the canonical, noncanonical, apoptotic caspase-mediated, and granzyme-mediated pathways [46].
+
+The defining core machinery is therefore the activated gasdermin rather than a particular upstream receptor or protease.
+
+The direct molecular executor is the gasdermin N-terminal pore-forming oligomer. These pores collapse plasma-membrane selectivity and initiate ionic, osmotic, inflammatory, and organellar consequences [2-5].
+
+An important modern refinement is that this permeabilized state does not automatically equal terminal membrane rupture. Terminal plasma-membrane rupture constitutes a later step and is strongly associated with NINJ1 oligomerization [11-12]. Accordingly, gasdermin and NINJ1 occupy different levels of the execution hierarchy: gasdermins establish the pyroptotic pore-dependent death program, whereas NINJ1 mediates catastrophic terminal membrane rupture.
+
+The terminal lesion is persistent loss of plasma-membrane electrochemical and osmotic integrity that overwhelms repair capacity and progresses to irreversible membrane destruction. Mitochondrial permeabilization, ROS generation, cytokine release, and inflammatory amplification contribute importantly but are not, individually, the defining terminal execution mechanism [24,50].
+
+The major unresolved mechanistic question is what molecular event determines the transition from a sublytic, potentially repairable gasdermin-permeabilized state to irreversible NINJ1-associated rupture across different cell types and gasdermin family members. The proposed Ca2+–calpain–ALIX transition provides one emerging explanation but remains provisional [34].
+
+For transcriptomic applications in RCDome, increased expression of inflammasome components, inflammatory caspases, gasdermins, or IL1B should therefore be described as a pyroptosis-associated transcriptional state or pathway competence. Active pyroptotic execution cannot be inferred without evidence of gasdermin activation and functional membrane permeabilization.
+

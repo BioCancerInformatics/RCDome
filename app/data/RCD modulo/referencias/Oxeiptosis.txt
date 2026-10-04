@@ -1,1 +1,67 @@
-Oxeiptose: forma regulada de morte celular impulsionada pelo estresse oxidativo, caracterizada pelo envolvimento de KEAP1 e NRF2. É semelhante à apoptose e à necroptose por ser desencadeada pelo estresse oxidativo. Sua modulação vem sendo investigada por sua potencial relevância em abordagens terapêuticas contra o câncer voltadas ao estresse oxidativo.
+[1] Holze C, Michaudel C, Mackowiak C, et al. Oxeiptosis – a ROS induced caspase-independent apoptosis-like cell death pathway. Nature Immunology. 2017. DOI: **10.1038/s41590-017-0013-y**.
+
+[2] Scaturro P, Pichlmair A. Oxeiptosis—a cell death pathway to mitigate damage caused by radicals. Cell Death & Differentiation. 2018. DOI: **10.1038/s41418-018-0134-3**.
+
+[3] Bhuvaneshwari K, Harithpriya K, Ganesan K, et al. Role of oxeiptosis in disease mechanisms and therapeutic opportunities. Apoptosis. 2025. DOI: **10.1007/s10495-025-02087-z**.
+
+[4] An X, Yu W, Liu J, et al. Oxidative cell death in cancer: mechanisms and therapeutic opportunities. Cell Death & Disease. 2024. DOI: **10.1038/s41419-024-06939-5**.
+
+[5] Lee E, Song C, Bae SJ, et al. Regulated cell death pathways and their roles in homeostasis, infection, inflammation, and tumorigenesis. Experimental & Molecular Medicine. 2023. DOI: **10.1038/s12276-023-01069-y**.
+
+[6] Pallichankandy S, Thayyullathil FT, Cheratta AR, et al. Targeting oxeiptosis-mediated tumor suppression: a novel approach to treat colorectal cancers by sanguinarine. Cell Death Discovery. 2023. DOI: **10.1038/s41420-023-01376-3**.
+
+[7] Nasirzadeh M, Hajipirloo SA, Aziz SGG, et al. Alantolactone triggers oxeiptosis in human ovarian cancer cells via Nrf2 signaling pathway. Biochemistry and Biophysics Reports. 2023. DOI: **10.1016/j.bbrep.2023.101537**.
+
+[8] Kang P, Chen J, Zhang W, et al. Oxeiptosis: a novel pathway of melanocytes death in response to oxidative stress in vitiligo. Cell Death Discovery. 2022. DOI: **10.1038/s41420-022-00863-3**.
+
+[9] Baird L, Yamamoto M. The Molecular Mechanisms Regulating the KEAP1-NRF2 Pathway. Molecular and Cellular Biology. 2020. DOI: **10.1128/MCB.00099-20**.
+
+[10] Dinkova-Kostova AT, Kostov RV, Canning P. Keap1, the cysteine-based mammalian intracellular sensor for electrophiles and oxidants. Archives of Biochemistry and Biophysics. 2017. DOI: **10.1016/j.abb.2016.08.005**.
+
+[11] Yamamoto M, Kensler TW, Motohashi H. The KEAP1-NRF2 System: a Thiol-Based Sensor-Effector Apparatus for Maintaining Redox Homeostasis. Physiological Reviews. 2018. DOI: **10.1152/physrev.00023.2017**.
+
+[12] Suzuki T, Takahashi J, Yamamoto M. Molecular Basis of the KEAP1-NRF2 Signaling Pathway. Molecules and Cells. 2023. DOI: **10.14348/molcells.2023.0028**.
+
+[13] Cuadrado A, Rojo AI, Wells G, et al. Therapeutic targeting of the NRF2 and KEAP1 partnership in chronic diseases. Nature Reviews Drug Discovery. 2019. DOI: **10.1038/s41573-018-0008-x**.
+
+[14] Suzuki T, Muramatsu A, Saito R, et al. Molecular Mechanism of Cellular Oxidative Stress Sensing by Keap1. Cell Reports. 2019. DOI: **10.1016/j.celrep.2019.06.047**.
+
+[15] Saito R, Suzuki T, Hiramoto K, et al. Characterizations of Three Major Cysteine Sensors of Keap1 in Stress Response. Molecular and Cellular Biology. 2015. DOI: **10.1128/MCB.00868-15**.
+
+[16] Fourquet S, Guérois R, Biard D, et al. Activation of NRF2 by Nitrosative Agents and H2O2 Involves KEAP1 Disulfide Formation. Journal of Biological Chemistry. 2010. DOI: **10.1074/jbc.M109.051714**.
+
+[17] Sato M, Yaguchi N, Iijima T, et al. Sensor systems of KEAP1 uniquely detecting oxidative and electrophilic stresses separately In vivo. Redox Biology. 2024. DOI: **10.1016/j.redox.2024.103355**.
+
+[18] Wischhof L, Scifo E, Ehninger D, et al. AIFM1 beyond cell death: An overview of this OXPHOS-inducing factor in mitochondrial diseases. eBioMedicine. 2022. DOI: **10.1016/j.ebiom.2022.104231**.
+
+[19] Nguyen TNA, Lai H, Fernandes R, et al. Apoptosis-inducing factor (AIF) at the crossroad of cell survival and cell death: implications for cancer and mitochondrial diseases. Cell Communication and Signaling. 2025. DOI: **10.1186/s12964-025-02272-2**.
+
+[20] Ghezzi D, Sevrioukova I, Invernizzi F, et al. Severe X-linked mitochondrial encephalomyopathy associated with a mutation in apoptosis-inducing factor. American Journal of Human Genetics. 2010. DOI: **10.1016/j.ajhg.2010.03.002**.
+
+[21] Moss T, May M, Flanagan-Steet H, et al. Severe multisystem pathology, metabolic acidosis, mitochondrial dysfunction, and early death associated with an X-linked AIFM1 variant. Cold Spring Harbor Molecular Case Studies. 2021. DOI: **10.1101/mcs.a006081**.
+
+[22] Oikawa D, Gi M, Kosako H, et al. OTUD1 deubiquitinase regulates NF-κB- and KEAP1-mediated inflammatory responses and reactive oxygen species-associated cell death pathways. Cell Death & Disease. 2022. DOI: **10.1038/s41419-022-05145-5**.
+
+[23] Oikawa D, Shimizu K, Tokunaga F. Pleiotropic Roles of a KEAP1-Associated Deubiquitinase, OTUD1. Antioxidants. 2023. DOI: **10.3390/antiox12020350**.
+
+[24] Hu C, Geng J, Shan P, et al. Deacetylation of nuclear AIF provides a braking mechanism for caspase-independent chromatinolysis and necrotic brain injury. Communications Biology. 2025. DOI: **10.1038/s42003-025-08255-w**.
+
+[25] Tang D, Chen X, Kang R, et al. Ferroptosis: molecular mechanisms and health implications. Cell Research. 2020. DOI: **10.1038/s41422-020-00441-1**.
+
+[26] Endale H, Tesfaye W, Mengstie TA. ROS induced lipid peroxidation and their role in ferroptosis. Frontiers in Cell and Developmental Biology. 2023. DOI: **10.3389/fcell.2023.1226044**.
+
+[27] Jin X, Tang J, Qiu X, et al. Ferroptosis: Emerging mechanisms, biological function, and therapeutic potential in cancer and inflammation. Cell Death Discovery. 2024. DOI: **10.1038/s41420-024-01825-7**.
+
+[28] Kuang F, Liu J, Tang D, et al. Oxidative Damage and Antioxidant Defense in Ferroptosis. Frontiers in Cell and Developmental Biology. 2020. DOI: **10.3389/fcell.2020.586578**.
+
+[29] Fatokun AA, Dawson VL, Dawson TM. Parthanatos: mitochondrial-linked mechanisms and therapeutic opportunities. British Journal of Pharmacology. 2014. DOI: **10.1111/bph.12416**.
+
+[30] Shilovsky GA, Dibrova DV.. Regulation of Cell Proliferation and Nrf2-Mediated Antioxidant Defense: Conservation of Keap1 Cysteines and Nrf2 Binding Site in the Context of the Evolution of KLHL Family.. **. 2023. doi: **10.3390/life13041045**.
+
+[31] Galluzzi L, Vitale I, Aaronson S, et al. Molecular mechanisms of cell death: recommendations of the Nomenclature Committee on Cell Death 2018. *Cell Death &amp; Differentiation*. 2018;25:486-541. doi: **10.1038/s41418-017-0012-4**.
+
+[32] Yuan J, Ofengeim D. A guide to cell death pathways. Nature Reviews Molecular Cell Biology. 2023. DOI: **10.1038/s41580-023-00689-6**.
+
+[33] Sendtner N, Seitz R, Brandl N, et al. Reactive Oxygen Species Across Death Pathways: Gatekeepers of Apoptosis, Ferroptosis, Pyroptosis, Paraptosis, and Beyond. International Journal of Molecular Sciences. 2025. DOI: **10.3390/ijms262010240**.
+
+[34] Villalpando-Rodriguez GE, Gibson SB. Reactive Oxygen Species (ROS) Regulates Different Types of Cell Death by Acting as a Rheostat. Oxidative Medicine and Cellular Longevity. 2021. DOI: **10.1155/2021/9912436**.

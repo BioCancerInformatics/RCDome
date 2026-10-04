@@ -1,1 +1,370 @@
-Oxeiptose: forma regulada de morte celular impulsionada pelo estresse oxidativo, caracterizada pelo envolvimento de KEAP1 e NRF2. É semelhante à apoptose e à necroptose por ser desencadeada pelo estresse oxidativo. Sua modulação vem sendo investigada por sua potencial relevância em abordagens terapêuticas contra o câncer voltadas ao estresse oxidativo.
+Oxeiptosis
+
+1. Definition and Classification
+
+Oxeiptosis is a ROS-triggered, caspase-independent, apoptosis-like regulated cell-death pathway defined mechanistically by signaling through the KEAP1–PGAM5–AIFM1 axis [1-4]. It was originally identified in experimental systems exposed to severe oxidative stress, including H2O2-treated cells, ozone-exposed mice, and influenza-infected cells, in which death persisted despite inhibition or genetic disruption of several canonical cell-death mechanisms [1-2].
+
+Its defining feature is therefore not oxidative stress or apoptosis-like morphology alone. Reactive oxygen species can trigger apoptosis, ferroptosis, pyroptosis, necroptosis, and several other death programs [32-34]. Oxeiptosis requires evidence connecting ROS to KEAP1, PGAM5, and AIFM1, particularly PGAM5-dependent dephosphorylation of AIFM1 at Ser116 [1,3-4].
+
+The strongest experimentally supported sequence is:
+
+Pathological ROS accumulation → KEAP1 oxidative sensing → disruption of the KEAP1–PGAM5 complex → PGAM5-dependent AIFM1 Ser116 dephosphorylation → AIFM1-dependent caspase-independent death [1].
+
+Oxeiptosis has been proposed to be mechanistically supported by primary evidence, and in some models it may be regarded as an emerging, mechanistically specified RCD modality rather than as a universally standardized consensus class equivalent in maturity to apoptosis, necroptosis, or ferroptosis [1,31]. Its upstream signaling machinery is relatively well defined, whereas its terminal execution mechanism remains incompletely resolved.
+
+The founding evidence also suggests that oxeiptosis can provide a relatively non-inflammatory response to excessive oxidative stress. In vivo loss of PGAM5 during ozone exposure or influenza infection increased inflammatory tissue injury and cytokine responses, suggesting that oxeiptotic removal of oxidatively damaged cells may restrict more inflammatory forms of death [1-2].
+
+2. Initiation and Triggers
+
+The principal initiating signal is pathological accumulation of intracellular reactive oxygen species [1-4].
+
+H2O2 represents the best-characterized experimental trigger. Other ROS-generating conditions associated with oxeiptosis include ozone exposure, influenza A infection, oxidative stress in melanocytes, and treatment with ROS-generating anticancer or toxic compounds such as sanguinarine and alantolactone [1,6-8].
+
+The critical concept is ROS intensity.
+
+Low or moderate oxidative stress normally activates an adaptive KEAP1–NRF2 response. Under basal conditions, KEAP1 functions as an adaptor for a CUL3-containing ubiquitin ligase complex that promotes NRF2 ubiquitination and degradation [9-12].
+
+Oxidative or electrophilic modification of KEAP1 reduces its ability to promote NRF2 degradation. NRF2 consequently accumulates, enters the nucleus, and induces antioxidant and detoxification programs that restore redox homeostasis [9-13].
+
+Oxeiptosis appears to emerge when oxidative stress exceeds this adaptive capacity.
+
+The proposed transition is:
+
+Low/moderate ROS → KEAP1 modification → NRF2 stabilization → antioxidant adaptation and survival.
+
+High/pathological ROS → stronger or qualitatively different KEAP1 redox modification → disruption of KEAP1–PGAM5 organization → PGAM5–AIFM1 death signaling [1-2].
+
+KEAP1 is particularly suited to this function because it contains multiple reactive cysteine residues capable of sensing chemically distinct oxidative and electrophilic stresses [10-15].
+
+KEAP1 has a cysteine code involving residues such as C151, C273, and C288, and H2O2 sensing may involve cysteine/disulfide chemistry [1,30]. However, no single universal cysteine has been demonstrated to serve as the specific molecular switch between NRF2-mediated adaptation and oxeiptotic death.
+
+Therefore, the precise KEAP1 redox code that commits the protein specifically to oxeiptotic signaling remains unresolved.
+
+The most defensible trigger-to-first-event sequence is:
+
+Excessive ROS → oxidative modification of the KEAP1 sensor system → weakening/disruption of KEAP1–PGAM5 association [1-2].
+
+3. Core Mechanistic Machinery
+
+The molecular core of oxeiptosis is KEAP1–PGAM5–AIFM1 [1-4].
+
+Under basal conditions, PGAM5 associates with KEAP1 in a mitochondria-associated complex. PGAM5 contributes to localization of KEAP1 near mitochondria, while KEAP1 simultaneously participates in NRF2 regulation [1-2].
+
+Following exposure to toxic concentrations of H2O2, KEAP1–PGAM5 association decreases. KEAP1 loses mitochondrial colocalization while PGAM5 remains associated with the mitochondrial compartment [1].
+
+This oxidative-stress-dependent reorganization represents one of the earliest pathway-specific molecular events.
+
+PGAM5 subsequently functions as the central phosphatase transducer.
+
+Genetic depletion or knockout of PGAM5 markedly protects cells from H2O2-induced death in the founding systems while having comparatively little effect on experimentally induced apoptosis or ferroptosis under the tested conditions [1].
+
+PGAM5 interacts with mitochondrial apoptosis-inducing factor 1, AIFM1. During oxidative stress, the PGAM5–AIFM1 interaction changes in a ROS-dependent manner and can be restored by antioxidant treatment, indicating that this molecular transition lies downstream of oxidative sensing [1].
+
+The most important biochemical reaction currently established in the pathway is:
+
+PGAM5 → dephosphorylation of AIFM1 Ser116 [1].
+
+AIFM1 Ser116 is phosphorylated under basal conditions and becomes dephosphorylated following H2O2 exposure. Recombinant PGAM5 can dephosphorylate this residue, whereas phosphatase-deficient PGAM5 fails to support the same reaction [1].
+
+The functional evidence is especially strong. A non-phosphorylatable AIFM1 S116A mutant is sufficient to induce death when expressed in AIFM1-deficient cells, whereas the phosphomimetic S116D mutant fails to reproduce the same lethal phenotype [1,6].
+
+Thus, AIFM1 Ser116 dephosphorylation is not simply a pathway-associated biomarker. It is currently the strongest demonstrated causal biochemical event downstream of PGAM5.
+
+The core mechanistic sequence can therefore be reduced to:
+
+ROS → KEAP1 → PGAM5 → AIFM1 Ser116 dephosphorylation → AIFM1-dependent death.
+
+4. Propagation and Amplification
+
+Unlike pathways such as necroptosis or ferroptosis, oxeiptosis does not yet have a well-established self-amplifying execution cascade downstream of AIFM1.
+
+The principal amplification mechanism occurs upstream through redox imbalance.
+
+ROS accumulation that remains within the antioxidant buffering capacity of the cell favors NRF2-dependent adaptation. NRF2 induces multiple cytoprotective genes involved in antioxidant defense, glutathione metabolism, thioredoxin systems, and xenobiotic detoxification [9-13].
+
+As ROS generation exceeds antioxidant capacity, oxidative modification of proteins, lipids, mitochondrial components, and KEAP1 itself increases.
+
+This creates a threshold-based competition:
+
+ROS generation ↔ NRF2-dependent antioxidant capacity.
+
+If antioxidant defenses lower ROS sufficiently, the death pathway is avoided.
+
+If ROS production continues to rise, KEAP1 signaling shifts toward the PGAM5–AIFM1 branch [1-4].
+
+Mitochondrial dysfunction may further amplify oxidative stress because AIFM1 is a mitochondrial protein with important physiological roles in mitochondrial respiratory function and redox biology [18-21]. However, the supplied evidence does not establish a universal positive-feedback loop in which activated AIFM1 necessarily generates additional ROS during oxeiptosis.
+
+Therefore, mitochondrial ROS amplification should be considered biologically plausible and context dependent rather than part of the canonical core.
+
+Disease- and compound-specific systems can introduce additional amplification modules. Sanguinarine-induced death in colorectal cancer cells and alantolactone-induced death in ovarian cancer cells have been connected to oxidative stress and the KEAP1–PGAM5–AIFM1 pathway [6-7].
+
+Oxidative stress in melanocytes has similarly been linked to oxeiptosis in vitiligo models [8].
+
+These systems support convergence of different ROS-generating insults on the same pathway but do not yet demonstrate distinct universal downstream amplification branches.
+
+5. Protective/Negative Regulators
+
+The major physiological protective mechanism opposing oxeiptosis is the KEAP1–NRF2 antioxidant response [1-4,9-13].
+
+Under basal conditions, KEAP1 promotes NRF2 degradation.
+
+When moderate oxidative stress modifies KEAP1, NRF2 escapes degradation, accumulates, and activates antioxidant transcriptional programs.
+
+NRF2-responsive systems include enzymes and redox pathways involving NQO1, HO-1, thioredoxin-related components, glutathione synthesis, glutathione peroxidase-associated defenses, and other antioxidant mechanisms [2-4,9-13].
+
+These systems decrease ROS and can prevent oxidative stress from reaching the threshold required for activation of the oxeiptotic branch.
+
+ROS scavengers therefore function as important upstream inhibitors. N-acetylcysteine suppresses oxidative pathway activation in experimental systems and interferes with ROS-dependent changes in KEAP1, PGAM5, and AIFM1 [1].
+
+However, antioxidant sensitivity is not specific for oxeiptosis. Numerous other cell-death pathways are ROS sensitive. Antioxidant rescue must therefore be combined with pathway-specific genetic evidence.
+
+OTUD1 provides another regulatory layer.
+
+OTUD1 is a deubiquitinase that interacts with KEAP1 through an ETGE-containing region and modulates KEAP1 ubiquitination [22-23]. Loss of OTUD1 increases cellular ROS, enhances AIFM1 nuclear accumulation in the studied systems, and increases susceptibility to H2O2-induced death. Re-expression of catalytically active OTUD1 restores resistance [22].
+
+OTUD1 can therefore be considered a negative regulator of ROS-associated KEAP1–AIFM1 death signaling.
+
+The most relevant protective hierarchy is consequently:
+
+Antioxidant buffering + KEAP1–NRF2 signaling + OTUD1-dependent regulation → restriction of ROS and prevention of transition into PGAM5–AIFM1 death signaling.
+
+6. Commitment / Point of No Return
+
+A definitive molecular point of no return has not been experimentally established for oxeiptosis.
+
+ROS accumulation itself cannot define commitment because upstream oxidative stress can be neutralized by antioxidant treatment.
+
+Similarly, KEAP1 oxidation is not necessarily lethal because KEAP1 oxidation commonly activates the protective NRF2 program.
+
+KEAP1–PGAM5 dissociation is more pathway specific, but direct evidence demonstrating that this event alone irreversibly commits cells to death is lacking.
+
+The strongest candidate for the commitment step is AIFM1 Ser116 dephosphorylation and subsequent AIFM1 activation [1].
+
+This interpretation is supported by several observations.
+
+PGAM5 depletion protects cells from oxidative death.
+
+AIFM1 depletion also protects cells.
+
+AIFM1 Ser116 loses phosphorylation during pathway activation.
+
+PGAM5 can directly dephosphorylate this site.
+
+Most importantly, the non-phosphorylatable AIFM1 S116A mutant can itself induce death in AIFM1-deficient cells [1].
+
+These findings place AIFM1 Ser116 dephosphorylation much closer to irreversible execution than upstream ROS accumulation.
+
+Nevertheless, whether the actual point of no return occurs at Ser116 dephosphorylation, a subsequent conformational or localization change in AIFM1, mitochondrial functional collapse, or a later nuclear event is unknown.
+
+Therefore, RCDome should describe AIFM1 Ser116 dephosphorylation as the strongest candidate commitment event, not as a conclusively established irreversible switch.
+
+7. Execution and Terminal Cause of Death
+
+The execution phase is the least resolved component of oxeiptosis.
+
+The founding experimental evidence establishes what does not execute the pathway more clearly than it establishes the final physical lesion.
+
+Oxeiptotic death in the original experimental systems was not prevented by inhibition or disruption of canonical caspase-dependent apoptosis, RIPK3/MLKL-dependent necroptosis, ferroptosis, inflammasome-associated death, or autophagic death mechanisms [1].
+
+AIFM1 is clearly required downstream of PGAM5 and therefore functions as the best-supported execution-associated protein [1].
+
+However, exactly what activated AIFM1 physically does to kill the cell remains unresolved.
+
+This uncertainty is particularly important because AIFM1 has two conceptually distinct biological functions.
+
+Within mitochondria, AIFM1 contributes to mitochondrial respiratory-chain organization and cellular bioenergetics [18-21].
+
+In several caspase-independent death contexts outside oxeiptosis, AIFM1 can be released from mitochondria, translocate to the nucleus, and participate in chromatin condensation and large-scale DNA degradation [19,24].
+
+The oxeiptosis literature contains conflicting interpretations concerning these possibilities.
+
+The original mechanistic framework and early commentary indicate that nuclear translocation of AIFM1 was not required for oxeiptotic execution, suggesting that activated AIFM1 may produce death through a mitochondrial mechanism [1-2].
+
+Dephosphorylated AIFM1 translocates into the nucleus and triggers DNA fragmentation [7].
+
+However, those later interpretations frequently extrapolate from the wider biology of AIFM1 and other AIFM1-dependent death mechanisms rather than demonstrating the complete sequence specifically in oxeiptosis.
+
+Therefore, the terminal cause of death cannot presently be stated as definitive nuclear chromatinolysis.
+
+Two mechanistic models remain compatible with the supplied evidence:
+
+Model 1: mitochondrial execution:
+
+ROS → KEAP1–PGAM5 signaling → AIFM1 Ser116 dephosphorylation → altered mitochondrial AIFM1 function → mitochondrial/bioenergetic failure → ATP decline → irreversible loss of viability.
+
+Model 2: nuclear execution:
+
+ROS → KEAP1–PGAM5 signaling → AIFM1 Ser116 dephosphorylation → AIFM1 activation/release → nuclear translocation → caspase-independent chromatin condensation and DNA fragmentation → death.
+
+The first model is closer to the founding oxeiptosis evidence, whereas the second is supported more indirectly by later studies and broader AIFM1 biology.
+
+Accordingly, the most publication-safe conclusion is:
+
+Activated AIFM1 is the proximal execution-associated protein of oxeiptosis, but the exact physical lesion through which AIFM1 causes irreversible viability loss remains unresolved and may be context dependent.
+
+8. Morphological Sequence
+
+Oxeiptosis has an apoptosis-like morphology despite being caspase independent [1-2].
+
+The cell initially appears viable while intracellular ROS concentrations increase.
+
+As oxidative stress becomes excessive, cells develop rounding and membrane blebbing.
+
+Cellular ATP decreases during execution [1].
+
+The morphology resembles apoptosis more closely than classical lytic necrosis, but the canonical apoptotic machinery is not responsible for the phenotype.
+
+The available evidence does not establish a universal sequence of classical caspase-dependent chromatin condensation, apoptotic-body formation, and phagocytic clearance.
+
+Likewise, catastrophic early plasma-membrane rupture is not established as a defining feature.
+
+The most defensible morphological sequence is therefore:
+
+Viable cell → increasing oxidative stress → KEAP1–PGAM5–AIFM1 pathway activation → cellular rounding → apoptosis-like membrane blebbing → ATP decline → AIFM1-dependent irreversible loss of viability → subsequent structural deterioration.
+
+If nuclear AIFM1 translocation occurs in specific contexts, chromatin condensation and DNA fragmentation may follow. However, these nuclear features should not currently be presented as universally required morphological stages of oxeiptosis.
+
+An additional biological feature is relatively low inflammatory output compared with strongly lytic cell-death pathways. In vivo genetic experiments showing greater inflammation when Pgam5 is absent support this interpretation [1].
+
+9. Crosstalk and Differential Diagnosis
+
+The most important differential diagnosis is oxidative-stress-induced apoptosis.
+
+Both apoptosis and oxeiptosis can produce cellular rounding and membrane blebbing. The distinction is mechanistic.
+
+Canonical apoptosis requires caspase-dependent execution, whereas oxeiptosis persists despite inhibition of the apoptotic machinery and requires KEAP1, PGAM5, and AIFM1 [1].
+
+Thus, apoptosis-like morphology alone cannot diagnose oxeiptosis.
+
+Ferroptosis is another major differential because both pathways can arise under severe oxidative stress.
+
+Ferroptosis is defined by iron-dependent phospholipid peroxidation and vulnerability to the ferroptotic antioxidant systems controlling membrane lipid oxidation [25-28]. Oxeiptosis instead requires KEAP1–PGAM5–AIFM1 signaling and AIFM1 Ser116 dephosphorylation [1].
+
+ROS elevation therefore does not distinguish the two.
+
+Necroptosis is defined by RIPK3-mediated MLKL activation and membrane permeabilization, which is mechanistically distinct from the PGAM5–AIFM1 machinery of oxeiptosis [5].
+
+Pyroptosis is executed by gasdermin-dependent membrane pore formation and generally produces a strongly inflammatory lytic phenotype. This differs from the relatively low-inflammatory, apoptosis-like phenotype described for oxeiptosis.
+
+Parthanatos requires particular caution because AIFM1 can participate in both processes.
+
+In parthanatos, excessive PARP1 activation generates PAR and drives AIF-associated caspase-independent nuclear destruction [29]. Oxeiptosis instead begins with ROS sensing by KEAP1 and PGAM5-dependent AIFM1 Ser116 dephosphorylation [1].
+
+Therefore, AIFM1 nuclear translocation alone cannot distinguish oxeiptosis from parthanatos or other AIF-dependent death mechanisms.
+
+PGAM5 is likewise not a standalone biomarker of oxeiptosis because it participates in several mitochondrial and cell-death signaling contexts.
+
+The strongest differential diagnosis therefore depends on demonstrating the complete upstream logic:
+
+ROS dependence + KEAP1 involvement + PGAM5 dependence + AIFM1 dependence + AIFM1 Ser116 dephosphorylation + exclusion of competing RCD mechanisms.
+
+10. Experimental Validation
+
+The strongest validation strategy remains the causal framework established in the original description of oxeiptosis [1].
+
+First, the death response should be demonstrated to depend on oxidative stress.
+
+ROS should be measured directly, and antioxidant treatment such as N-acetylcysteine should reduce both pathway activation and death.
+
+However, antioxidant rescue alone is insufficient because many RCD pathways depend on ROS.
+
+Second, KEAP1 dependency should be demonstrated.
+
+Experiments should determine whether perturbation of KEAP1 alters ROS-induced death and whether oxidative stress changes the KEAP1–PGAM5 interaction.
+
+Third, PGAM5 dependency should be demonstrated through knockout, knockdown, or equivalent functional perturbation. Suppression of PGAM5 should rescue the proposed oxeiptotic phenotype [1].
+
+Fourth, AIFM1 dependency should be established genetically.
+
+Loss of AIFM1 should suppress death, while appropriate rescue experiments should restore susceptibility.
+
+Fifth, AIFM1 Ser116 phosphorylation status should be measured.
+
+Loss of Ser116 phosphorylation after oxidative stimulation is one of the most pathway-specific biochemical readouts currently available [1].
+
+Ideally, phosphosite causality should also be demonstrated. The S116A dephosphorylation-mimic and S116D phosphomimetic experiments from the founding study provide the strongest current model for this validation [1].
+
+Sixth, competing pathways must be excluded experimentally.
+
+Caspase inhibition or relevant apoptotic genetic perturbation should fail to prevent death.
+
+RIPK3/MLKL inhibition or deletion should exclude necroptosis.
+
+Ferroptosis-specific inhibitors and pathway perturbations should exclude ferroptosis.
+
+Gasdermin/inflammasome-associated assays should exclude pyroptosis where relevant.
+
+Autophagic alterations alone should not be interpreted as proof of autophagy-dependent cell death.
+
+Seventh, the AIFM1 execution mechanism should be investigated directly rather than assumed.
+
+Mitochondrial localization, release, nuclear translocation, chromatin changes, mitochondrial respiratory function, ATP levels, and cellular viability should be followed temporally after Ser116 dephosphorylation.
+
+This is particularly important because whether AIFM1 nuclear translocation is required for bona fide oxeiptosis remains unresolved.
+
+Finally, transcriptomic expression of KEAP1, PGAM5, AIFM1, NRF2 target genes, or an “oxeiptosis signature” cannot demonstrate active oxeiptosis.
+
+Such signatures may identify oxidative stress, oxeiptosis-associated transcriptional states, pathway competence, or susceptibility. Active oxeiptosis requires functional evidence of ROS-dependent KEAP1–PGAM5–AIFM1 signaling and, ideally, AIFM1 Ser116 dephosphorylation.
+
+11. Molecular Hierarchy
+
+Initiator: pathological ROS accumulation generated by H2O2, ozone, infection, mitochondrial oxidative stress, toxic compounds, anticancer agents, or disease-associated redox imbalance [1,6-8].
+
+Sensor: KEAP1 redox-sensing system [1,9-17].
+
+Adaptive branch: KEAP1 modification → NRF2 stabilization → antioxidant gene expression → ROS reduction and survival [9-13].
+
+Death-pathway transition: excessive ROS → oxidative remodeling of KEAP1 → loss or weakening of KEAP1–PGAM5 association [1].
+
+Signal transducer: PGAM5 mitochondrial phosphatase [1].
+
+Core biochemical event: PGAM5-dependent dephosphorylation of AIFM1 Ser116 [1].
+
+Execution-associated protein: activated/dephosphorylated AIFM1 [1].
+
+Proximate terminal lesion: unresolved. Candidate mechanisms include mitochondrial functional collapse and context-dependent AIFM1-associated nuclear chromatinolysis [1-4,19,24].
+
+Negative regulators: NRF2-dependent antioxidant responses, ROS scavengers, and OTUD1-associated KEAP1 regulation [9-13,22-23].
+
+Core biomarkers/readouts: ROS elevation, KEAP1–PGAM5 dissociation, PGAM5 dependency, AIFM1 Ser116 dephosphorylation, AIFM1 dependency, ATP decline, and apoptosis-like blebbing.
+
+Context-dependent findings: AIFM1 nuclear translocation, chromatin condensation, disease-specific redox regulators, viral factors, and tumor-specific signaling.
+
+12. Integrated Canonical Sequence
+
+The strongest evidence-supported canonical sequence is:
+
+ROS-generating injury, infection, ozone, H2O2, mitochondrial oxidative stress, or ROS-generating chemical exposure → intracellular ROS rises → KEAP1 cysteine-based oxidative sensing → at lower ROS, NRF2 stabilization and antioxidant adaptation can restore redox homeostasis → if ROS exceeds the adaptive threshold, KEAP1–PGAM5 association is disrupted → mitochondrial-associated PGAM5 becomes functionally available to AIFM1 → PGAM5 dephosphorylates AIFM1 at Ser116 → dephosphorylated AIFM1 adopts a death-promoting state → caspase-independent execution begins → cellular ATP decreases and apoptosis-like rounding/blebbing develops → irreversible AIFM1-dependent loss of viability → low-inflammatory cell death [1-4].
+
+The terminal branch should currently remain bifurcated:
+
+AIFM1 Ser116 dephosphorylation → mitochondrial AIFM1-dependent bioenergetic/homeostatic collapse → death;
+
+and/or, in particular contexts:
+
+AIFM1 Ser116 dephosphorylation → AIFM1 relocalization/nuclear entry → caspase-independent chromatin injury → death.
+
+The supplied evidence does not justify choosing one of these terminal branches as universally canonical.
+
+13. Final Mechanistic Interpretation
+
+For RCDome, the most defensible operational definition is:
+
+Oxeiptosis is an emerging ROS-triggered, caspase-independent regulated cell-death modality defined by oxidative signaling through the KEAP1–PGAM5–AIFM1 axis. Excessive oxidative stress shifts KEAP1 signaling beyond NRF2-mediated antioxidant adaptation, disrupts the KEAP1–PGAM5 complex, and enables PGAM5-dependent dephosphorylation of mitochondrial AIFM1 at Ser116. Activated AIFM1 subsequently executes an apoptosis-like but caspase-independent death program [1-4].
+
+The strongest mechanistically established core is therefore:
+
+Excessive ROS → KEAP1 → PGAM5 → AIFM1 Ser116 dephosphorylation → AIFM1-dependent death.
+
+The strongest candidate commitment event is AIFM1 Ser116 dephosphorylation because genetic removal of PGAM5 or AIFM1 rescues death and the AIFM1 S116A dephosphorylation mimic is itself lethal [1]. Nevertheless, the exact point of irreversibility has not been experimentally isolated.
+
+The pathway should not be defined by ROS, PGAM5 expression, AIFM1 expression, or apoptosis-like morphology alone. ROS is shared across numerous death programs, PGAM5 is involved in other signaling systems, and AIFM1 participates in several caspase-independent death mechanisms.
+
+The major unresolved issue is the terminal execution mechanism.
+
+It remains unclear whether activated AIFM1 kills primarily through mitochondrial dysfunction and bioenergetic collapse, whether it subsequently translocates to the nucleus and causes caspase-independent chromatinolysis, or whether both mechanisms operate in a context-dependent manner.
+
+Until this question is resolved, RCDome should explicitly designate the terminal lesion of oxeiptosis as unresolved rather than assigning nuclear DNA fragmentation or mitochondrial failure as a universal executor.
+
+Likewise, transcriptomic oxeiptosis signatures should be interpreted as oxeiptosis-associated transcriptional states or susceptibility states, not as evidence of active oxeiptotic death, unless accompanied by functional evidence of ROS-dependent KEAP1–PGAM5–AIFM1 activation.
+

@@ -1,0 +1,59 @@
+**[1] van Doorn WG, Beers EP, Dangl JL, et al. Morphological classification of plant cell deaths. Cell Death & Differentiation. 2011;18:1241–1246. DOI: 10.1038/cdd.2011.36.**
+
+**[2] Minina EA, Filonova LH, Fukada K, et al. Autophagy and metacaspase determine the mode of cell death in plants. Journal of Cell Biology. 2013;203:917–927. DOI: 10.1083/jcb.201307082.**
+
+**[3] Hatsugai N, Yamada K, Goto-Yamada S, Hara-Nishimura I. Vacuolar processing enzyme in plant programmed cell death. Frontiers in Plant Science. 2015;6. DOI: 10.3389/fpls.2015.00234.**
+
+**[4] Hara-Nishimura I, Hatsugai N, Nakaune S, Kuroyanagi M, Nishimura M. Vacuolar processing enzyme: an executor of plant cell death. Current Opinion in Plant Biology. 2005;8:404–408. DOI: 10.1016/j.pbi.2005.05.016.**
+
+**[5] Huai B, Liang M, Lin J, et al. Involvement of Vacuolar Processing Enzyme CgVPE1 in Vacuole Rupture in the Programmed Cell Death during the Development of the Secretory Cavity in Citrus grandis ‘Tomentosa’ Fruits. International Journal of Molecular Sciences. 2023;24. DOI: 10.3390/ijms241411681.**
+
+**[6] Wang J, Bollier N, Buono RA, et al. A developmentally controlled cellular decompartmentalization process executes programmed cell death in the Arabidopsis root cap. Plant Cell. 2024;36:941–962. DOI: 10.1093/plcell/koad308.**
+
+**[7] Bi G, Su M, Li N, et al. The ZAR1 resistosome is a calcium-permeable channel triggering plant immune signaling. Cell. 2021. DOI: 10.1016/j.cell.2021.05.003.**
+
+**[8] Jacob P, Kim NH, Wu F, et al. Plant “helper” immune receptors are Ca2+-permeable nonselective cation channels. Science. 2021;373:420–425. DOI: 10.1126/science.abg7917.**
+
+**[9] Liu F, Yang Z, Wang C, et al. Activation of the helper NRC4 immune receptor forms a hexameric resistosome. Cell. 2024;187:4877–4889.e15. DOI: 10.1016/j.cell.2024.07.013.**
+
+**[10] Li Z, Yue H, Xing D. MAP Kinase 6-mediated activation of vacuolar processing enzyme modulates heat shock-induced programmed cell death in Arabidopsis. New Phytologist. 2012;195:85–96. DOI: 10.1111/j.1469-8137.2012.04131.x.**
+
+**[11] Teper-Bamnolker P, Danieli R, Peled-Zehavi H, et al. Vacuolar processing enzyme translocates to the vacuole through the autophagy pathway to induce programmed cell death. Autophagy. DOI: 10.1080/15548627.2020.1856492.**
+
+**[12] Chen T, Fluhr R. Singlet Oxygen Plays an Essential Role in the Root’s Response to Osmotic Stress. Plant Physiology. 2018;177:1717–1727. DOI: 10.1104/pp.18.00634.**
+
+**[13] Kuroyanagi M, Yamada K, Hatsugai N, et al. Vacuolar Processing Enzyme Is Essential for Mycotoxin-induced Cell Death in Arabidopsis thaliana. Journal of Biological Chemistry. 2005;280:32914–32920. DOI: 10.1074/jbc.M504476200.**
+
+**[14] Wleklik K, Borek S. Vacuolar Processing Enzymes in Plant Programmed Cell Death and Autophagy. International Journal of Molecular Sciences. 2023;24:1198. DOI: 10.3390/ijms24021198.**
+
+**[15] Yamada K, Basak AK, Goto-Yamada S, Tarnawska-Glatt K, Hara-Nishimura I. Vacuolar processing enzymes in the plant life cycle. New Phytologist. 2020. DOI: 10.1111/nph.16306.**
+
+**[16] Hatsugai N, Kuroyanagi M, Yamada K, et al. A Plant Vacuolar Protease, VPE, Mediates Virus-Induced Hypersensitive Cell Death. Science. 2004;305:855–858. DOI: 10.1126/science.1099859.**
+
+**[17] Minina EA, Smertenko AP, Bozhkov PV. Vacuolar cell death in plants. Autophagy. 2014;10. DOI: 10.4161/auto.28236.**
+
+**[18] Wertman JN, Lord CEN, Dauphinee AN, Gunawardena AHLAN. The pathway of cell dismantling during programmed cell death in lace plant leaves. BMC Plant Biology. 2012;12:115. DOI: 10.1186/1471-2229-12-115.**
+
+**[19] Higaki T, Kurusu T, Hasezawa S, Kuchitsu K. Dynamic intracellular reorganization of cytoskeletons and the vacuole in defense responses and hypersensitive cell death in plants. Journal of Plant Research. 2011;124:315–324. DOI: 10.1007/s10265-011-0408-z.**
+
+**[20] Julian J, Gao P, Del Chiaro A, et al. ATG8ylation of vacuolar membrane protects plants against cell wall damage. Nature Plants. 2025;11:321–339. DOI: 10.1038/s41477-025-01907-z.**
+
+**[21] Lampl N, Alkan N, Davydov O, Fluhr R. Set-point control of RD21 protease activity by AtSerpin1 controls cell death in Arabidopsis. Plant Journal. 2013;74:498–510. DOI: 10.1111/tpj.12141.**
+
+**[22] Bhattacharjee L, Singh D, Gautam JK, Nandi AK. Arabidopsis thaliana serpins AtSRP4 and AtSRP5 negatively regulate stress-induced cell death and effector-triggered immunity. Physiologia Plantarum. 2017;159:329–339. DOI: 10.1111/ppl.12516.**
+
+**[23] Bhattacharjee L, Singh PK, Singh S, Nandi AK. Down-regulation of rice serpin gene OsSRP-LRS exaggerates stress-induced cell death. Journal of Plant Biology. 2015;58:327–332. DOI: 10.1007/s12374-015-0283-6.**
+
+**[24] Pitsili E, Phukan UJ, Coll NS. Cell Death in Plant Immunity. Cold Spring Harbor Perspectives in Biology. 2019. DOI: 10.1101/cshperspect.a036483.**
+
+**[25] Zhang H, Dong S, Wang MM, et al. The role of vacuolar processing enzyme from Nicotiana benthamiana in the elicitor-triggered hypersensitive response and stomatal closure. Journal of Experimental Botany. 2010;61:3799–3812. DOI: 10.1093/jxb/erq189.**
+
+**[26] Chen YF, Lin KY, Huang CY, et al. Subcellular calcium dynamics and organelle perturbations in resistosome-mediated cell death. Proceedings of the National Academy of Sciences USA. 2026;123. DOI: 10.1073/pnas.2523470123.**
+
+**[27] Hanson S, Dharan A, P. V. J, et al. Paraptosis: a unique cell death mode for targeting cancer. Frontiers in Pharmacology. 2023;14. DOI: 10.3389/fphar.2023.1159409.**
+
+**[28] Maltese WA, Overmeyer JH. Methuosis: nonapoptotic cell death associated with vacuolization of macropinosome and endosome compartments. American Journal of Pathology. 2014;184:1630–1642. DOI: 10.1016/j.ajpath.2014.02.028.**
+
+**[29] Hatsugai N, Kuroyanagi M, Nishimura M, Hara-Nishimura I. A cellular suicide strategy of plants: vacuole-mediated cell death. Apoptosis. 2006;11:905–911. DOI: 10.1007/s10495-006-6601-1.**
+
+**[30] Zhu D, Hu S, Cao W, et al. Vacuolar sorting receptors coordinate lytic vacuolar and autophagic transport for plant effector-triggered immunity. Nature Plants. 2025;11:1827–1846. DOI: 10.1038/s41477-025-02077-8.**

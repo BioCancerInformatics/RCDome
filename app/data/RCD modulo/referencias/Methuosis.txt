@@ -1,1 +1,61 @@
-Metuose: morte celular não apoptótica caracterizada pelo acúmulo de vacúolos derivados de macropinossomos, distinta dos vacúolos derivados do retículo endoplasmático observados na paraptose. É impulsionada pela sinalização constitutiva de Ras/Rac1 e pela macropinocitose, culminando em ruptura celular. Ainda é menos estudada no câncer, mas seu mecanismo único de vacuolização oferece potencial para direcionar tumores que apresentam altas taxas de macropinocitose.
+[1] Maltese WA, Overmeyer JH. Methuosis: nonapoptotic cell death associated with vacuolization of macropinosome and endosome compartments. American Journal of Pathology. 2014;184:1630–1642. DOI: **10.1016/j.ajpath.2014.02.028**.
+
+[2] Overmeyer JH, Kaul A, Johnson EE, Maltese WA. Active Ras triggers death in glioblastoma cells through hyperstimulation of macropinocytosis. Molecular Cancer Research. 2008;6:965–977. DOI: **10.1158/1541-7786.MCR-07-2036**.
+
+[3] Robinson MW, Overmeyer JH, Young AM, Erhardt PW, Maltese WA. Synthesis and evaluation of indole-based chalcones as inducers of methuosis, a novel type of non-apoptotic cell death. Journal of Medicinal Chemistry. 2012;55:1940–1956. DOI: **10.1021/jm201006x**.
+
+[4] Maltese WA, Overmeyer JH. Non-apoptotic cell death associated with perturbations of macropinocytosis. Frontiers in Physiology. 2015;6. DOI: **10.3389/fphys.2015.00038**.
+
+[5] Ji X, Huang M, Liu Q. Methuosis caused by dysregulated macropinocytosis, a promising tumor therapeutic strategy. Pharmacological Research. 2025:107945. DOI: **10.1016/j.phrs.2025.107945**.
+
+[6] Bielsa N, Casasampere M, Abad J, et al. Methuosis Contributes to Jaspine-B-Induced Cell Death. International Journal of Molecular Sciences. 2022;23. DOI: **10.3390/ijms23137257**.
+
+[7] Zheng Y, Fan H, Du Y, Dong S. Paraptosis: A methuosis-distinct vacuolar cell death. Cell Death. 2026. DOI: **10.1016/j.celld.2026.100017**.
+
+[8] Bhanot H, Young AM, Overmeyer JH, Maltese WA. Induction of non-apoptotic cell death by activated Ras requires inverse regulation of Rac1 and Arf6. Molecular Cancer Research. 2010;8:1358–1374. DOI: **10.1158/1541-7786.MCR-10-0090**.
+
+[9] Fujii M, Kawai K, Egami Y, Araki N. Dissecting the roles of Rac1 activation and deactivation in macropinocytosis using microscopic photo-manipulation. Scientific Reports. 2013;3. DOI: **10.1038/srep02385**.
+
+[10] Yoshida S, Hoppe AD, Araki N, Swanson JA. Sequential signaling in plasma-membrane domains during macropinosome formation in macrophages. Journal of Cell Science. 2009;122:3250–3261. DOI: **10.1242/jcs.053207**.
+
+[11] Manara MC, Terracciano M, Mancarella C, et al. CD99 triggering induces methuosis of Ewing sarcoma cells through IGF-1R/RAS/Rac1 signaling. Oncotarget. 2016;7:79925–79942. DOI: **10.18632/oncotarget.13160**.
+
+[12] Overmeyer JH, Young AM, Bhanot H, Maltese WA. A chalcone-related small molecule that induces methuosis, a novel form of non-apoptotic cell death, in glioblastoma cells. Molecular Cancer. 2011;10:69. DOI: **10.1186/1476-4598-10-69**.
+
+[13] Mbah NE, Overmeyer JH, Maltese WA. Disruption of Endolysosomal Trafficking Pathways in Glioma Cells by Methuosis-Inducing Indole-Based Chalcones. Cell Biology and Toxicology. 2017;33:263–282. DOI: **10.1007/s10565-016-9369-2**.
+
+[14] Cho H, Geno E, Patoor M, et al. Indolyl-Pyridinyl-Propenone-Induced Methuosis through the Inhibition of PIKFYVE. ACS Omega. 2018;3:6097–6103. DOI: **10.1021/acsomega.8b00202**.
+
+[15] Chen Y, Liu S, Wei Y, et al. Discovery of Potent and Selective Phosphatidylinositol 3-Phosphate 5-Kinase (PIKfyve) Inhibitors as Methuosis Inducers. Journal of Medicinal Chemistry. 2023. DOI: **10.1021/acs.jmedchem.3c01039**.
+
+[16] Zheng Y, Xiao J, Wang J, et al. V-ATPase V0 subunit activation mediates maduramicin-induced methuosis through blocking endolysosomal trafficking in vitro and in vivo. Food and Chemical Toxicology. 2023:113922. DOI: **10.1016/j.fct.2023.113922**.
+
+[17] Hua X, Chen P, Zeng W, et al. PI3K/mTOR Inhibitor Induces Context-Dependent Apoptosis and Methuosis in Cancer Cells. Pharmaceuticals. 2025;18. DOI: **10.3390/ph18121849**.
+
+[18] Gan Y, Wang C, Chen YZ, et al. Tubeimoside-2 Triggers Methuosis in Hepatocarcinoma Cells through the MKK4–p38α Axis. Pharmaceutics. 2023;15:1093. DOI: **10.3390/pharmaceutics15041093**.
+
+[19] Wang J, Zhai C, Zhang C, et al. HILPDA Repression Induces Methuosis in Breast and Liver Cancer Cells by Dysregulating Lipid Metabolism. BioFactors. 2026;52. DOI: **10.1002/biof.70142**.
+
+[20] Ramirez C, Hauser AD, Vucic EA, Bar-Sagi D. Plasma membrane V-ATPase controls oncogenic Ras-induced macropinocytosis. Nature. 2019;576:477–481. DOI: **10.1038/s41586-019-1831-x**.
+
+[21] Dong B, Xiao J, Wang J, et al. Cytoskeleton disruption and plasma membrane damage determine methuosis of normal and malignant cells. Cell & Bioscience. 2025;15. DOI: **10.1186/s13578-025-01441-7**.
+
+[22] Yang L, Song L, Zhao S, et al. Isobavachalcone reveals novel characteristics of methuosis-like cell death in leukemia cells. Chemico-Biological Interactions. 2019;304:131–138. DOI: **10.1016/j.cbi.2019.03.011**.
+
+[23] Koivusalo M, Welch C, Hayashi H, et al. Amiloride inhibits macropinocytosis by lowering submembranous pH and preventing Rac1 and Cdc42 signaling. Journal of Cell Biology. 2010;188:547–563. DOI: **10.1083/jcb.200908086**.
+
+[24] Degen M, Santos JC, Pluhackova K, et al. Structural basis of NINJ1-mediated plasma membrane rupture in cell death. Nature. 2023;618:1065–1071. DOI: **10.1038/s41586-023-05991-z**.
+
+[25] Ramos S, Hartenian E, Broz P. Programmed cell death: NINJ1 and mechanisms of plasma membrane rupture. Trends in Biochemical Sciences. 2024. DOI: **10.1016/j.tibs.2024.05.007**.
+
+[26] Zhao M, Zhou L, Zhai Y, et al. Macropinocytosis: Both a Target and a Tool for Cancer Therapy. *Biomolecules*. 2025;15:936. doi: **10.3390/biom15070936**.
+
+[27] Wang X, Sang X, Wen Y, et al. Pictilisib and nutrient stress synergize to induce methuosis via PI(4,5)P2-dependent macropinocytic dysregulation in cancer cells. *Cell Death &amp; Disease*. 2026;17. doi: **10.1038/s41419-026-08994-6**.
+
+[28] Song S, Zhang Y, Ding T, Ji N, Zhao H. The Dual Role of Macropinocytosis in Cancers: Promoting Growth and Inducing Methuosis to Participate in Anticancer Therapies as Targets. Frontiers in Oncology. 2021;10. DOI: **10.3389/fonc.2020.570108**.
+
+[29] Gao X, Ji C, Wang J, et al. Maduramicin induces cardiotoxicity via Rac1 signaling-independent methuosis in H9c2 cells. Journal of Applied Toxicology. 2021;41:1937–1951. DOI: **10.1002/jat.4175**.
+
+[30] Sun L, Li B, Su X, et al. An Ursolic Acid Derived Small Molecule Triggers Cancer Cell Death through Hyperstimulation of Macropinocytosis. Journal of Medicinal Chemistry. 2017;60:6638–6648. DOI: **10.1021/acs.jmedchem.7b00592**.
+
+[31] Salloum G, Bresnick AR, Backer JM. Macropinocytosis: mechanisms and regulation. Biochemical Journal. 2023;480:335–362. DOI: **10.1042/BCJ20210584**.

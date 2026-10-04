@@ -1,0 +1,71 @@
+1. Overholtzer M, Mailleux AA, Mouneimne G, et al. **A nonapoptotic cell death process, entosis, that occurs by cell-in-cell invasion.** *Cell*. 2007;131:966–979. **DOI: 10.1016/j.cell.2007.10.040**
+
+2. Florey O, Kim SE, Sandoval CP, Haynes CM, Overholtzer M. **Autophagy machinery mediates macroendocytic processing and entotic cell death by targeting single membranes.** *Nature Cell Biology*. 2011;13:1335–1343. **DOI: 10.1038/ncb2363**
+
+3. Krishna S, Overholtzer M. **Mechanisms and Consequences of Entosis.** *Cellular and Molecular Life Sciences*. 2016;73:2379–2386. **DOI: 10.1007/s00018-016-2207-0**
+
+4. Kim S, Lee D, Kim S, Overholtzer M. **Entosis: the core mechanism and crosstalk with other cell death programs.** *Experimental & Molecular Medicine*. 2024;56:870–876. **DOI: 10.1038/s12276-024-01227-w**
+
+5. Młynarczuk-Biały I, Dziuba I, Sarnecka A, et al. **Entosis: From Cell Biology to Clinical Cancer Pathology.** *Cancers*. 2020;12:2481. **DOI: 10.3390/cancers12092481**
+
+6. Galluzzi L, Vitale I, Aaronson SA, et al. **Molecular mechanisms of cell death: recommendations of the Nomenclature Committee on Cell Death 2018.** *Cell Death & Differentiation*. 2018;25:486–541. **DOI: 10.1038/s41418-017-0012-4**
+
+7. Wan Q, Liu J, Zheng Z, et al. **Regulation of myosin activation during cell–cell contact formation by Par3-Lgl antagonism: entosis without matrix detachment.** *Molecular Biology of the Cell*. 2012;23:2076–2091. **DOI: 10.1091/mbc.e11-11-0940**
+
+8. Sun Q, Luo T, Ren Y, et al. **Competition between human cells by entosis.** *Cell Research*. 2014;24:1299–1310. **DOI: 10.1038/cr.2014.138**
+
+9. Chen R, Ram A, Albeck JG, Overholtzer M. **Entosis is induced by ultraviolet radiation.** *iScience*. 2021;24. **DOI: 10.1016/j.isci.2021.102902**
+
+10. Durgan J, Tseng YY, Hamann JC, et al. **Mitosis can drive cell cannibalism through entosis.** *eLife*. 2017;6:e27134. **DOI: 10.7554/eLife.27134**
+
+11. Bozkurt E, Düssmann H, Salvucci M, et al. **TRAIL signaling promotes entosis in colorectal cancer.** *Journal of Cell Biology*. 2021;220. **DOI: 10.1083/jcb.202010030**
+
+12. Sun Q, Cibas ES, Huang H, Hodgson L, Overholtzer M. **Induction of entosis by epithelial cadherin expression.** *Cell Research*. 2014;24:1288–1298. **DOI: 10.1038/cr.2014.137**
+
+13. Oi M, Kushibiki R, Kanehira Y, et al. **ROCK signaling is involved in the entosis of both nonepithelial and epithelial tumors, whereas N-cadherin is involved in the entosis of nonepithelial tumors.** *Experimental and Therapeutic Medicine*. 2025;29. **DOI: 10.3892/etm.2025.12840**
+
+14. Purvanov V, Holst M, Khan J, Baarlink C, Grosse R. **G-protein-coupled receptor signaling and polarized actin dynamics drive cell-in-cell invasion.** *eLife*. 2014;3:e02786. **DOI: 10.7554/eLife.02786**
+
+15. Zeng C, Zeng B, Dong C, Liu J, Xing F. **Rho-ROCK signaling mediates entotic cell death in tumor.** *Cell Death Discovery*. 2020;6. **DOI: 10.1038/s41420-020-0238-7**
+
+16. Basbous S, Dif L, Dantzer C, et al. **Loss of RND3/RHOE controls entosis through LAMP1 expression in hepatocellular carcinoma.** *Cell Death & Disease*. 2024;15. **DOI: 10.1038/s41419-024-06420-3**
+
+17. Lee AR, Park CY. **Orai1 is an Entotic Ca²⁺ Channel for Non-Apoptotic Cell Death, Entosis in Cancer Development.** *Advanced Science*. 2023;10. **DOI: 10.1002/advs.202205913**
+
+18. Kianfar M, Balcerak A, Chmielarczyk M, Tarnowski L, Grzybowska EA. **Cell Death by Entosis: Triggers, Molecular Mechanisms and Clinical Significance.** *International Journal of Molecular Sciences*. 2022;23:4985. **DOI: 10.3390/ijms23094985**
+
+19. Wang M, Niu Z, Qin H, et al. **Mechanical Ring Interfaces between Adherens Junction and Contractile Actomyosin to Coordinate Entotic Cell-in-Cell Formation.** *Cell Reports*. 2020;32:108071. **DOI: 10.1016/j.celrep.2020.108071**
+
+20. Huang X, Yan H, Xu Z, Yang B, Luo P, He Q. **The inducible role of autophagy in cell death: emerging evidence and future perspectives.** *Cell Communication and Signaling*. 2025;23. **DOI: 10.1186/s12964-025-02135-w**
+
+21. Su Y, Ren H, Tang M, et al. **Role and dynamics of vacuolar pH during cell-in-cell mediated death.** *Cell Death & Disease*. 2021;12. **DOI: 10.1038/s41419-021-03396-2**
+
+22. Kim SE, Zhang J, Jiang E, Overholtzer M. **Amino acids and mechanistic target of rapamycin regulate the fate of live engulfed cells.** *FASEB Journal*. 2021;35. **DOI: 10.1096/fj.202100870R**
+
+23. Durgan J, Sloan K, Domart M, Collinson L, Florey O. **A distinctive PI(4,5)P2 compartment forms during entosis and related engulfment processes.** *bioRxiv*. 2024. **DOI: 10.1101/2024.10.22.619613**
+
+24. Krajcovic M, Krishna S, Akkari L, Joyce JA, Overholtzer M. **mTOR regulates phagosome and entotic vacuole fission.** *Molecular Biology of the Cell*. 2013;24:3736–3745. **DOI: 10.1091/mbc.e13-07-0408**
+
+25. Krishna S, Palm W, Lee Y, et al. **PIKfyve regulates vacuole maturation and nutrient recovery following engulfment.** *Developmental Cell*. 2016;38:536–547. **DOI: 10.1016/j.devcel.2016.08.001**
+
+26. Wang S, Chen YH, Wang MY, et al. **Rapid reuptake of granzyme B leads to emperitosis: an apoptotic cell-in-cell death of immune killer cells inside tumor cells.** *Cell Death & Disease*. 2013;4. **DOI: 10.1038/cddis.2013.352**
+
+27. Garanina A, Kisurina-Evgenieva O, Erokhina M, et al. **Consecutive entosis stages in human substrate-dependent cultured cells.** *Scientific Reports*. 2017;7. **DOI: 10.1038/s41598-017-12867-6**
+
+28. Levayer R. **Solid stress, competition for space and cancer: The opposing roles of mechanical cell competition in tumour initiation and growth.** *Seminars in Cancer Biology*. 2020;63:69-80. **DOI: 10.1016/j.semcancer.2019.05.004**
+
+29. Yang X, Tu J, Zang X, et al. **A bibliometric and visualization analysis of entosis research from 2007 to 2024.** *Frontiers in Oncology*. 2024;14. **DOI: 10.3389/fonc.2024.1424100**
+
+30. Hamann JC, Surcel A, Chen R, et al. **Entosis Is Induced by Glucose Starvation.** *Cell Reports*. 2017;20:201–210. **DOI: 10.1016/j.celrep.2017.06.037**
+
+31. Prapa S, Bozkurt E, Gandía C, et al. **Plastin-3 membrane recruitment drives cell-in-cell invasion during entosis.** *bioRxiv*. 2026. **DOI: 10.64898/2026.03.17.709257**
+
+32. Bozkurt E, Düssmann H, Prehn JHM. **Fluorescence Time-lapse Imaging of Entosis Using Tetramethylrhodamine Methyl Ester Staining.** *Bio-protocol*. 2022;12. **DOI: 10.21769/bioprotoc.4564**
+
+33. Florey O, Kim SE, Overholtzer M. **Entosis: Cell-in-Cell Formation that Kills Through Entotic Cell Death.** *Current Molecular Medicine*. 2015;15:861–866. **DOI: 10.2174/1566524015666151026100042**
+
+34. Martins I, Raza SQ, Voisin L, et al. **Entosis: The emerging face of non-cell-autonomous type IV programmed death.** *Biomedical Journal*. 2017;40:133–140. **DOI: 10.1016/j.bj.2017.05.001**
+
+35. Das J, Overholtzer M. **Entosis in Health and Disease.** *Advances in Experimental Medicine and Biology*. 2025;1481:293–303. **DOI: 10.1007/978-3-031-92785-0_9**
+
+36. Ruan B, Wang C, Gao X, et al. **ARHGAP36 imposes a bifurcate activation of adherens junction and actomyosin to promote entosis.** *Cell Death & Differentiation*. 2026;33:1552–1569. **DOI: 10.1038/s41418-026-01668-y**

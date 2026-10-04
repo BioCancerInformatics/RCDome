@@ -1,0 +1,270 @@
+Lysoptosis
+
+1. Definition and Classification
+
+Lysoptosis is best classified as an emerging lysosome-centered regulated necrotic death mechanism in which lysosomal membrane permeabilization (LMP) is proposed to function as a primary execution event rather than as a secondary consequence or amplifier of another regulated cell-death pathway [1-4]. The defining mechanistic concept is that damage to the lysosomal limiting membrane permits lysosomal proteases, particularly cysteine cathepsins, to escape into the cytosol, where insufficient neutralization by intracellular protease inhibitors allows proteolytic injury to propagate, promote additional lysosomal destabilization, and ultimately produce irreversible cellular collapse [1-3].
+
+The strongest direct evidence derives from Caenorhabditis elegans lacking the intracellular serpin SRP-6 and from mouse and human epithelial-cell systems involving the functional mammalian counterpart SERPINB3/Serpinb3a [1-3]. In these models, loss of intracellular serpin activity sensitizes cells to diverse stresses, lysosomal disruption precedes terminal plasma-membrane failure, and lysosomal protease activity contributes causally to death [1-3].
+
+The nomenclatural status requires particular caution. Lysosome-dependent cell death (LDCD) and LMP-mediated death are recognized mechanistic concepts in the broader regulated-cell-death literature [4-6,33]. However, lysoptosis as a specifically named subtype has not yet reached the same level of universal nomenclature standardization as apoptosis, necroptosis, or pyroptosis [1,4-6]. Thus, for RCDome, lysoptosis should be classified as an emerging lysosome-centered RCD mechanism or proposed subtype within the broader lysosome-dependent cell-death spectrum.
+
+The mechanistic distinction from other LMP-associated deaths is critical. Lysosomal permeabilization can occur during apoptosis, necroptosis, pyroptosis, and ferroptosis, but this alone does not constitute lysoptosis. In narrow lysoptosis, LMP and subsequent lysosomal protease activity are proposed to occupy the dominant execution axis. A practical mechanistic definition therefore requires four elements: early and functionally important LMP; release of active lysosomal hydrolases into the cytosol; suppression or rescue of death when lysosomal proteolysis or lysosomal destabilization is prevented; and exclusion of a dominant alternative executor in the experimental model [1,8,12]. Vacuolization, lysosomal swelling, cathepsin redistribution, or a necrotic morphology are supportive observations, but none alone establishes lysoptosis.
+
+2. Initiation and Triggers
+
+Lysoptosis does not appear to have one universal extracellular receptor or dedicated proximal sensor. Instead, multiple stresses can converge on lysosomal membrane destabilization [1-2].
+
+In C. elegans models, reported triggers include hypotonic stress, heat shock, hypoxia, hyperoxia, abnormal cation-channel activity, and bacterial toxins [2,13]. These heterogeneous stimuli converge on processes that increase intracellular Ca2+, activate proteases, alter lysosomal membranes, or otherwise compromise lysosomal containment.
+
+Lysoptosis is an evolutionarily conserved cell death pathway involving lysosomal membrane permeabilization, cathepsins, proteolysis, and moderation by intracellular serpins [1].
+
+Genetic studies in C. elegans place intracellular calcium mobilization upstream of necrotic degeneration. Perturbation of the ryanodine receptor, IP3 receptor, or calreticulin can suppress necrotic phenotypes, supporting an important role for ER-derived Ca2+ mobilization [14]. Increased cytosolic Ca2+ can activate calpains, which in turn can associate with lysosomal membranes and promote lysosomal permeabilization [2,7,30].
+
+However, calcium-dependent initiation should not be regarded as the only route. Oxidative injury represents a second important class. Lysosomes contain redox-active iron and are susceptible to membrane lipid oxidation; ROS generation, iron-dependent Fenton chemistry, sphingosine accumulation, and other lysosomotropic or membranolytic stresses can directly destabilize lysosomal membranes [7-9].
+
+A third initiating mechanism involves failure of membrane-stabilizing systems. HSP70 contributes to lysosomal membrane stability through interactions involving bis(monoacylglycero)phosphate (BMP) and acid sphingomyelinase (ASM) [16]. Perturbation of this protective HSP70–BMP–ASM system can increase lysosomal susceptibility to permeabilization. In light-induced retinal degeneration and photoreceptor cell death, activated μ-calpain cleaves LAMP2A and induces lysosomal membrane permeabilization [17].
+
+Additional upstream routes are stimulus-dependent. Certain cationic amphiphilic drugs can engage lysosomal Ca2+- and cAMP-associated signaling, whereas lysosphingolipids can induce LMP through partly distinct mechanisms [18]. Pathogenic membrane injury can also directly compromise lysosomal or related intracellular membranes, generating cathepsin leakage [19].
+
+Accordingly, the most defensible upstream interpretation is that lysoptosis represents convergence on primary lysosomal damage rather than activation of a single universal receptor–sensor module.
+
+3. Core Mechanistic Machinery
+
+The central organelle of lysoptosis is the lysosome, and the central biochemical transition is loss of functional separation between the lysosomal lumen and the cytosol.
+
+Under physiological conditions, lysosomal hydrolases are spatially confined within acidic organelles. Limited lysosomal damage can be repaired or the damaged organelle can be selectively removed. Lysoptotic execution begins when membrane injury becomes sufficiently extensive or propagative that lysosomal hydrolases enter the cytosol and retain enough activity to damage cellular substrates [1,8,12].
+
+Cysteine cathepsins, particularly cathepsin L and cathepsin B in the supplied evidence, represent major execution-linked proteases [1,3,8,32]. Their role must nevertheless be described precisely. Cathepsins are not dedicated lysoptosis-specific executors equivalent to a unique pore-forming protein. They are lysosomal hydrolases whose ectopic cytosolic activity becomes destructive after loss of lysosomal containment.
+
+A central regulatory feature is the intracellular serpin barrier. SRP-6 in C. elegans and SERPINB3 in mammalian epithelial cells suppress lysoptotic susceptibility by limiting inappropriate protease activity [1-3]. Their absence does not necessarily cause spontaneous death, but it strongly lowers the threshold at which lysosomal damage becomes lethal.
+
+SERPINB3 has particularly strong mammalian evidence. It inhibits cathepsin L and protects cervical cancer cells from lysosome-centered death caused by chemoradiation [3]. This provides a mechanistic link between lysosomal injury and the cellular capacity to neutralize proteases after their inappropriate release.
+
+The best-supported core sequence is therefore:
+
+initial lysosomal membrane injury → limited release of lysosomal proteases and ions → insufficient neutralization of escaped proteases → cytosolic proteolysis → additional cellular and lysosomal damage → progressive LMP → widespread lysosomal failure [1-3,8].
+
+The precise substrates that convert limited cathepsin leakage into irreversible lysosomal collapse remain incompletely defined. It has been proposed that escaped cysteine peptidases can damage lysosomal membrane proteins from the cytosolic side, creating a positive-feedback loop in which early leakage promotes additional LMP [1]. This is mechanistically plausible and consistent with the observed propagation of lysosomal damage, but the critical membrane substrates and their relative importance have not been fully resolved.
+
+Calpains constitute an important upstream proteolytic component. Calcium-activated calpains can promote lysosomal membrane injury and therefore facilitate cathepsin release [2,7,15]. In this framework, calpains are primarily upstream propagators of lysosomal destabilization rather than the uniquely defining terminal executor.
+
+Intracellular acidification also appears relevant in C. elegans necrotic models. V-ATPase-dependent acidification contributes to degeneration [20]. Such acidification may help maintain the activity of proteases adapted to acidic environments after lysosomal injury, although the precise contribution of this mechanism to mammalian lysoptosis should not be assumed to be identical.
+
+4. Propagation and Amplification
+
+The defining conceptual feature of lysoptosis is not merely LMP but propagation of lysosomal failure.
+
+An initial membrane lesion may release a limited quantity of hydrolases without causing immediate death. Under normal conditions, the cell can repair the lesion, remove the damaged lysosome, or neutralize escaped proteases. Lysoptotic propagation occurs when damage exceeds these protective systems.
+
+The proposed positive-feedback architecture is:
+
+initial LMP → cathepsin escape → proteolysis of cytosolic and potentially lysosomal-membrane-associated substrates → additional lysosomal destabilization → release of additional cathepsins → further proteolysis [1].
+
+This creates a potentially self-amplifying endolysosomal collapse. The mechanism differs fundamentally from pathways centered on activation of one dedicated terminal pore-forming protein because the destructive process is distributed across organelle rupture, protease release, altered ion handling, pH changes, and structural degradation.
+
+Calcium can reinforce this process. Elevated cytosolic Ca2+ activates calpains, and lysosomal injury can itself disturb intracellular ion homeostasis [2,14-15]. Thus, calcium dysregulation and proteolysis can reinforce each other under appropriate conditions.
+
+Oxidative damage provides another amplification mechanism. Iron-rich lysosomes can promote oxidative chemistry, and lysosomal lipid damage can further destabilize the limiting membrane [7-8,31]. Once membrane integrity begins to fail, lysosomal iron and other contents may amplify redox and organellar stress.
+
+Cytoplasmic acidification constitutes an additional downstream alteration in some models [20]. Together with uncontrolled protease activity, altered pH can compromise metabolic enzymes, cytoskeletal organization, and organellar function.
+
+Lysosomal failure can subsequently propagate beyond the lysosome. Mitochondrial and ER swelling, cytoskeletal disorganization, osmotic disturbance, and progressive plasma-membrane permeability accompany advanced execution [1-2,8].
+
+However, these later abnormalities should be interpreted as consequences and amplifiers of lysosomal collapse rather than as evidence that mitochondria or the plasma membrane necessarily constitute the initiating organelle.
+
+5. Protective / Negative Regulators
+
+Lysoptosis is strongly constrained by cellular systems that repair damaged lysosomes, eliminate irreparable lysosomes, stabilize lysosomal membranes, or neutralize lysosomal proteases after leakage.
+
+The most directly demonstrated anti-lysoptotic regulators are SRP-6 and SERPINB3 [1-3]. SRP-6 protects C. elegans cells from stress-associated lysosomal injury, while SERPINB3 inhibits cathepsin L and protects mammalian epithelial cancer cells from lysoptosis-like death [2-3]. Their major protective role is to limit inappropriate protease activity and thereby prevent propagation after initial lysosomal injury.
+
+HSP70 also stabilizes the lysosomal limiting membrane [16]. Through interactions involving BMP and acid sphingomyelinase, HSP70 supports lysosomal membrane integrity. Loss or functional disruption of this protective system increases susceptibility to LMP.
+
+Cells additionally possess direct membrane-repair machinery. ESCRT-associated components, including ALIX and CHMP4-family proteins, are recruited to small lysosomal membrane lesions and can facilitate rapid membrane repair [21-22]. This defines an important reversible phase of lysosomal damage.
+
+When a lysosome cannot be repaired, lysophagy provides a second protective tier. Damaged lysosomes can be recognized by galectins and other damage-sensing machinery, targeted for autophagic removal, and ultimately replaced [23-24]. Galectin-3 participates in coordination of lysosomal repair and removal, while TFEB-linked lysosomal biogenesis can replenish the functional organelle pool [23-24].
+
+The cellular response to lysosomal damage can be conceptualized as a hierarchy: small lysosomal lesions are repaired by the ESCRT machinery; irreparable lysosomes are recognized as damaged and removed by lysophagy; and loss of lysosomal capacity triggers TFEB-dependent lysosomal biogenesis and replacement [29].
+
+TECPR1-associated unconventional LC3 lipidation provides another repair-related response to damaged lysosomes and can operate before full lysophagic removal [25].
+
+More recent work also identifies SPG20–ITCH-associated recognition of particular forms of lysosomal membrane damage, supporting the broader concept that cells actively sense and eliminate structurally compromised lysosomes before catastrophic rupture [26].
+
+Thus, LMP itself is not synonymous with lysoptosis. A cell can experience measurable lysosomal damage and survive if repair, removal, protease inhibition, and organelle replacement successfully restore lysosomal homeostasis.
+
+6. Commitment / Point of No Return
+
+No single universally demonstrated molecular point of no return has been identified for lysoptosis.
+
+Small lysosomal lesions clearly belong to a potentially reversible phase. Cells can recruit ESCRT machinery to damaged membranes, recycle lysosomal membrane components, remove irreparable lysosomes by lysophagy, and replenish the lysosomal pool [21-24].
+
+Accordingly, detection of galectin recruitment, lysosomal dye loss, limited cathepsin leakage, or early LMP does not automatically demonstrate irreversible commitment.
+
+The strongest current candidate for commitment is a threshold phenomenon: a sufficiently large fraction of the lysosomal compartment undergoes unrepaired and propagating permeabilization such that cytosolic protease inhibitors, membrane repair, and lysophagic removal can no longer contain the damage [1,19,21].
+
+At this stage:
+
+progressive LMP → increasing cytosolic cathepsin activity → additional structural degradation → further LMP
+
+becomes self-reinforcing.
+
+The point of no return is therefore most defensibly defined operationally as widespread, self-amplifying LMP that overwhelms lysosomal repair and cytosolic protease-neutralization capacity.
+
+The exact molecular lesion that establishes this threshold remains unresolved. It is not yet known whether commitment is determined primarily by the number of lysosomes that rupture, the concentration or identity of released cathepsins, destruction of a specific membrane substrate, intracellular acidification, disruption of a critical ion gradient, or a combination of these processes.
+
+This uncertainty should remain explicit in the RCDome definition.
+
+7. Execution and Terminal Cause of Death
+
+What physically kills the cell in lysoptosis?
+
+The strongest supported interpretation is catastrophic loss of lysosomal membrane containment followed by uncontrolled cytosolic proteolysis and progressive collapse of ionic, pH, structural, and organellar homeostasis [1,7-9].
+
+Unlike pyroptosis or necroptosis, no dedicated lysoptotic pore-forming protein analogous to gasdermins or MLKL has been established.
+
+Instead, massive or propagating LMP releases active lysosomal hydrolases into the cytosol. These proteases damage proteins required for cellular architecture and organelle integrity and potentially promote further lysosomal injury [1,8]. Simultaneous release of lysosomal ions and metabolites contributes to disruption of intracellular homeostasis.
+
+The cell subsequently develops increasingly severe proteolysis, intracellular acidification in appropriate models, osmotic and ionic disturbance, cytoskeletal failure, mitochondrial and ER injury, and progressive plasma-membrane permeability [1,8,20].
+
+Terminal death is necrotic in character, with eventual loss of plasma-membrane integrity rather than orderly formation of classical apoptotic bodies [1-2,8].
+
+Thus, the most defensible terminal lesion is not a single molecular cleavage but an irreversible homeostatic catastrophe initiated by uncontrolled lysosomal rupture and protease release.
+
+Cathepsins should be regarded as central execution-linked enzymes, but the current evidence does not justify naming one individual cathepsin as the universal sole executor of lysoptosis. In mammalian lysoptosis models, cathepsin L is the key lysosomal protease regulated by SERPINB3, whereas cathepsin B and other lysosomal proteases contribute to broader lysosomal membrane permeabilization-associated cell death mechanisms [1].
+
+8. Morphological Sequence
+
+Lysoptosis does not have a morphology that is independently diagnostic of mechanism. Nevertheless, the supplied evidence supports a characteristic temporal sequence.
+
+A healthy cell begins with intact acidic lysosomes and punctate localization of lysosomal hydrolases.
+
+Following stress, the first detectable abnormalities can include lysosomal swelling, limited membrane damage, altered lysosomal acidity, or redistribution of lysosomal contents while the plasma membrane remains intact [1,8,12].
+
+As LMP progresses, cathepsins shift from punctate lysosomal localization toward diffuse cytosolic distribution. Vacuolization and intracellular acidification can develop, accompanied by increasing organellar injury.
+
+The plasma membrane is initially relatively preserved, allowing lysosomal rupture to be temporally distinguished from terminal necrosis. Demonstrating this order is experimentally important because late lysosomal rupture occurring only after plasma-membrane failure would not support primary lysosome-centered execution.
+
+Vacuolization, organelle swelling, or necrotic morphology alone cannot diagnose lysoptosis. Similar appearances can occur in multiple forms of cell death.
+
+9. Crosstalk and Differential Diagnosis
+
+The major differential diagnosis is lysosome-dependent apoptosis.
+
+Limited LMP can release cathepsins that cleave BID or alter BCL-2-family signaling, thereby promoting BAX/BAK activation, mitochondrial outer-membrane permeabilization, caspase activation, and apoptosis [7,9,27]. In this situation the lysosome is an upstream initiator or amplifier, but the terminal executor is mitochondrial apoptosis.
+
+Therefore:
+
+LMP → BID/BAX/BAK → MOMP → caspase execution
+
+should not be classified as narrow lysoptosis when mitochondrial apoptosis becomes the dominant lethal machinery.
+
+Lysoptosis must also be distinguished from necroptosis. Necroptotic cells can undergo MLKL-associated lysosomal permeabilization, and cathepsin activity can reinforce necroptotic damage [10]. However, if MLKL polymerization and membrane disruption constitute the essential execution pathway, the correct classification remains necroptosis with lysosomal amplification.
+
+Pyroptosis likewise can involve lysosomal damage, particularly in inflammasome-associated contexts. Nevertheless, pyroptosis is mechanistically defined by gasdermin-mediated membrane permeabilization. Complete lysosomal rupture can also damage or degrade inflammasome-related proteins and generate cathepsin-dependent necrosis that is mechanistically distinct from pyroptosis [28].
+
+Ferroptosis provides another important differential diagnosis. Lysosomal iron and lysosomal lipid peroxidation can contribute to ferroptotic execution, and LMP can amplify iron-dependent oxidative damage [11]. However, if the lethal chemistry remains iron-dependent lipid peroxidation, the process should be classified as ferroptosis with lysosomal involvement rather than lysoptosis.
+
+Thus, the same observable event (LMP) can occupy different positions in different death mechanisms:
+
+primary execution hub in lysoptosis;
+
+upstream amplifier of mitochondrial apoptosis;
+
+downstream component of MLKL-associated necroptosis;
+
+modulator of inflammasome/pyroptotic signaling;
+
+or amplifier of iron-dependent ferroptotic chemistry.
+
+The mechanistic position of LMP, rather than its mere presence, is therefore essential for differential diagnosis.
+
+10. Experimental Validation
+
+A rigorous demonstration of lysoptosis requires temporal, genetic, biochemical, pharmacological, and functional evidence.
+
+First, LMP must occur before terminal plasma-membrane failure. Live-cell imaging should demonstrate early lysosomal disruption while overall plasma-membrane integrity remains sufficiently preserved [1,3,12].
+
+Second, lysosomal hydrolase redistribution should be demonstrated. Cathepsin localization can be monitored by immunofluorescence or related imaging approaches, with transition from punctate lysosomal localization to diffuse cytosolic signal supporting LMP [8,12].
+
+Additional assays can monitor lysosomal membrane integrity using lysosomal dyes, lysosome-loaded fluorescent dextrans, or other validated LMP measurements [12].
+
+Third, genetic evidence should establish dependence on the lysosomal protective machinery. Loss of SRP-6 or SERPINB3 should increase stress sensitivity and lysosomal death, whereas reconstitution with functional protective protein should restore resistance [1-3].
+
+Where experimentally applicable, rescue by wild-type serpin compared with functionally defective protease-inhibitory variants provides particularly strong causal evidence.
+
+Fourth, lysosomal protease activity should be mechanistically tested. Pharmacological or genetic inhibition of the relevant cathepsins should suppress or delay death if cathepsin-dependent cytoplasmic proteolysis is part of the core execution mechanism [1,3,8].
+
+Fifth, lysosome stabilization should rescue the phenotype. Interventions that preserve lysosomal membrane integrity or enhance damage repair should suppress death if LMP is causally upstream rather than merely terminal.
+
+Sixth, repair systems should be interrogated where appropriate. Manipulating ESCRT-mediated repair, lysophagy, or lysosomal replacement can help establish whether death occurs when lysosomal damage exceeds repair capacity [21-25].
+
+Seventh, dominant alternative executors must be excluded. The experimental model should determine whether death remains dependent on obligate caspases, BAX/BAK-mediated mitochondrial apoptosis, MLKL, gasdermins, or ferroptotic lipid-peroxidation machinery. If blockade of one of these alternative executors completely rescues death while LMP persists only as a secondary event, classification as lysoptosis would not be justified.
+
+Eighth, temporal organelle imaging is especially informative. A strong lysoptosis experiment should demonstrate the sequence:
+
+lysosomal damage → cathepsin escape → intracellular deterioration → plasma-membrane failure,
+
+rather than infer lysosomal execution from a single endpoint measurement.
+
+Morphology alone is insufficient. Likewise, transcriptomic expression of cathepsins, SERPINB3, lysosomal genes, TFEB targets, or lysophagy genes does not prove active lysoptosis. Such expression patterns should be described only as lysoptosis-associated, lysosomal-stress-associated, or susceptibility states unless LMP and functional dependence are directly demonstrated.
+
+11. Molecular Hierarchy
+
+Initiating stresses:
+
+osmotic stress, heat shock, hypoxia, hyperoxia, oxidative stress, abnormal ion-channel activity, bacterial toxins, radiation-associated injury, lysosomotropic agents, lysosphingolipid accumulation, or disruption of lysosomal membrane-stabilizing systems [1-2,13,18].
+
+Proximal sensing / early transduction:
+
+ER- or membrane-associated Ca2+ mobilization; increased cytosolic Ca2+; calpain activation; oxidative damage to lysosomal lipids; and context-dependent alterations in lysosomal membrane proteins or lipid-stabilizing machinery [2,7,14-18].
+
+Core machinery:
+
+lysosomal limiting membrane → LMP → release of cathepsins and other lysosomal contents → cathepsin-dependent cytosolic proteolysis → positive-feedback amplification of lysosomal injury [1-3,8].
+
+Execution-linked effectors:
+
+cathepsin L, cathepsin B, other lysosomal hydrolases, calcium-activated calpains, and potentially unidentified cytoplasmic or lysosomal membrane substrates whose destruction promotes further LMP [1-3,8].
+
+Negative regulators:
+
+SRP-6, SERPINB3, HSP70-associated lysosomal stabilization, ESCRT-mediated membrane repair, galectin-associated damage recognition, lysophagy, TECPR1-associated damage responses, and TFEB-driven lysosomal replacement [2-3,16,21-26].
+
+Commitment mechanism:
+
+unrepaired, propagating LMP that exceeds membrane-repair capacity, lysophagic removal, lysosomal replacement, and cytosolic protease inhibition.
+
+Terminal lesion:
+
+uncontrolled lysosomal protease release and irreversible collapse of pH, ionic, structural, cytoskeletal, and organellar homeostasis, culminating in plasma-membrane failure and necrotic death [1,7-8].
+
+Biomarkers and functional readouts:
+
+loss of punctate lysosomal cathepsin localization, diffuse cytosolic cathepsins, lysosomal dye loss, dextran leakage, lysosomal swelling, galectin recruitment, vacuolization, intracellular acidification, and eventual plasma-membrane permeabilization [8,12,21-24].
+
+None of these markers alone proves lysoptosis.
+
+12. Integrated Canonical Sequence
+
+Osmotic, oxidative, hypoxic, thermal, radiation-associated, ion-channel, pathogen-derived, lysosomotropic, or related stress → cytosolic Ca2+ increase and/or direct oxidative/lipid/protein injury to the lysosomal limiting membrane → calpain activation and lysosomal association plus direct membrane destabilization → initial limited LMP → release of cathepsins and other lysosomal contents → competition between damage and protective responses → ESCRT-mediated repair of small lesions and lysophagic removal of irreparable lysosomes versus persistence of injury → inadequate SRP-6/SERPINB3-mediated protease neutralization or failure of other protective systems → sustained cytosolic activity of cathepsin L/B and related hydrolases → proteolysis of cytosolic substrates and probably lysosomal membrane-associated proteins → additional LMP → self-amplifying endolysosomal rupture → widespread cytosolic proteolysis + intracellular acidification + ionic and osmotic imbalance → mitochondrial, ER, cytoskeletal, and membrane homeostatic failure → loss of plasma-membrane integrity → necrotic cell death [1-3,8,14,20-25].
+
+The step linking early limited cathepsin leakage to irreversible self-amplifying lysosomal collapse remains incompletely resolved at the molecular-substrate level.
+
+13. Final Mechanistic Interpretation
+
+For RCDome, lysoptosis should be operationally defined as an emerging lysosome-centered regulated necrotic death mechanism in which lysosomal membrane permeabilization and cytosolic activity of released lysosomal proteases occupy the dominant execution axis rather than serving only as secondary amplifiers of another RCD pathway [1,4-6].
+
+The strongest direct mechanistic evidence comes from C. elegans SRP-6-deficient models and mammalian systems involving SERPINB3/Serpinb3a, supporting conservation of an intracellular-serpin-controlled lysosomal death mechanism across species [1-3]. Nevertheless, the term lysoptosis itself remains less formally standardized than the broader consensus category of lysosome-dependent cell death.
+
+Lysoptosis is an evolutionarily conserved cell death pathway involving lysosomal membrane permeabilization, cathepsins, and proteolysis moderated by intracellular serpins; galectin-3 coordinates a cellular system for lysosomal repair involving ESCRT, lysophagy, and TFEB-related biogenesis after lysosomal damage [1,23]. These routes converge on LMP.
+
+The core execution model is limited LMP followed by release of lysosomal hydrolases, insufficient cytosolic protease neutralization, progressive proteolysis, and positive-feedback amplification of additional lysosomal injury [1-3]. In SERPINB3-knockout cervix tumor cells, knockout of the lysosomal cysteine protease cathepsin L partially protected against radiation-induced death, supporting lysosomal protease inhibition as a mechanism [3].
+
+The protective threshold is determined by the balance between damage and lysosomal quality-control systems. ESCRT-mediated membrane repair can resolve small lesions, lysophagy removes irreparable organelles, and TFEB-associated programs replenish the lysosomal compartment [21-25]. Lysoptotic commitment is therefore most plausibly reached when propagating LMP overwhelms these systems as well as intracellular protease inhibitors.
+
+No universal molecular point of no return has been established. Likewise, no single dedicated lysoptotic pore-forming executor has been identified. The strongest candidate terminal mechanism is catastrophic lysosomal containment failure followed by uncontrolled proteolysis and irreversible collapse of ionic, pH, organellar, cytoskeletal, and plasma-membrane homeostasis.
+
+The major unresolved question is therefore what precise molecular event converts limited and potentially repairable LMP into self-amplifying lysosomal collapse. In particular, the critical cathepsin substrates, lysosomal membrane targets, and quantitative threshold of lysosomal failure that establish irreversible commitment remain incompletely defined.
+
+Accordingly, LMP, vacuolization, lysosomal swelling, SERPINB3 expression, cathepsin expression, or lysosomal transcriptional signatures should not individually be interpreted as proof of lysoptosis. For transcriptomic studies, such signals should be described as lysoptosis-associated or lysosomal-death-susceptibility states unless primary LMP, functional lysosomal protease dependence, temporal ordering, and exclusion of alternative execution mechanisms are experimentally demonstrated.
+

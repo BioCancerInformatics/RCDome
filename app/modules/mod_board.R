@@ -378,7 +378,7 @@ mod_board_ui <- function(id) {
         div(class = "eyebrow", style = "text-transform: none; font-size: 24px;", HTML(paste0(rcdome_span(), " \u00b7 Scientific Module"))),
         h1(HTML(paste0(rcdome_span(), " Digital Molecular Board"))),
         div(class = "lede", HTML(paste0(
-          "A regulated-cell-death interpretation module built for ",
+          "A regulated-cell-death (RCD) interpretation module built for ",
           "<b>educational use and scientific interrogation</b>. It translates the ",
           "<b>RCDome database</b> (22,473 gene\u2013RCD associations across 53 ",
           "RCD-related entities) and the <b>RCDome decoder</b> (curated operational ",

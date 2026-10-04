@@ -1,1 +1,682 @@
-Mitoptose: eliminação seletiva de mitocôndrias danificadas por meio da transição de permeabilidade mitocondrial e do estresse oxidativo, representando um mecanismo de controle de qualidade em nível de organela. Sobrepõe-se à autofagia e à apoptose. Embora seja primariamente um processo em nível mitocondrial, a mitoptose extensa pode contribuir para a morte celular. No câncer, falhas no controle de qualidade mitocondrial podem promover a progressão tumoral por meio da disfunção metabólica.
+Mitoptosis
+
+1. Recent reports describe mitochondrial suicide, termed mitoptosis, and the relocation of mitochondria to the nuclear periphery, called thread-grain transition [2].
+
+The defining target of destruction is the mitochondrion itself.
+
+This distinction is essential because mitochondrial elimination does not necessarily imply death of the host cell.
+
+Limited mitoptosis can function as mitochondrial quality control:
+
+damaged mitochondrion → selective mitochondrial destruction/elimination → preservation of the remaining mitochondrial network → cell survival.
+
+Conversely, extensive mitochondrial destruction can become incompatible with cellular survival:
+
+widespread mitochondrial dysfunction/elimination → loss of oxidative metabolism and/or release of mitochondrial death factors → apoptosis, energetic collapse, or necrotic death.
+
+Thus:
+
+mitoptosis ≠ necessarily cell death;
+
+mitoptosis = mitochondrial self-destruction/elimination that can be cytoprotective or contribute to cellular death depending on its magnitude and mechanistic context.
+
+The concept originated from the proposal that individual dysfunctional mitochondria can undergo a form of organelle-level programmed destruction before the entire cell dies [1,3,36].
+
+Later studies described characteristic mitochondrial fragmentation, clustering, formation of membrane-bound “mitoptotic bodies,” vesiculation, autophagic sequestration, and extrusion of mitochondrial material [3-4].
+
+However, in some modern mitochondrial quality-control frameworks, these processes have been proposed to be more commonly classified under mitophagy, mitochondrial-derived vesicles, mitochondrial extrusion, mitochondrial dynamics, and cell-death-associated mitochondrial remodeling, rather than recognizing mitoptosis as an independent canonical RCD modality [35].
+
+For RCDome, the most defensible classification is therefore:
+
+emerging/proposed mitochondria-centered concept;
+
+primary target: dysfunctional mitochondria;
+
+host-cell death: not obligatory;
+
+universal cell-death executor: none established.
+
+2. Initiation and Triggers
+
+Mitoptosis does not have one universal initiating receptor.
+
+The strongest recurring initiating condition is severe mitochondrial dysfunction.
+
+Major triggers include:
+
+mitochondrial ROS overproduction;
+
+loss of mitochondrial membrane potential;
+
+respiratory-chain dysfunction;
+
+severe oxidative phosphorylation failure;
+
+Ca2+ overload;
+
+mitochondrial permeability transition;
+
+apoptotic BAX/BAK signaling;
+
+and programmed developmental mitochondrial clearance [1-4,8-11].
+
+The original mitochondrial-self-destruction model emphasizes oxidative stress.
+
+Excessive mitochondrial ROS can destabilize the inner mitochondrial membrane and promote permeability transition, causing loss of proton motive force and making the damaged mitochondrion metabolically unsustainable [1,8,40].
+
+Thus:
+
+mtROS accumulation → redox-sensitive mitochondrial permeability changes → Δψm collapse → mitochondrial structural deterioration.
+
+A second route begins directly with mitochondrial depolarization.
+
+The mitochondrial membrane potential is required for electrophoretic import of many nuclear-encoded proteins into the mitochondrial matrix and inner membrane.
+
+Therefore:
+
+Δψm loss → impaired protein import → failure of mitochondrial maintenance → progressive organelle dysfunction → elimination [2].
+
+Respiratory-chain failure can produce a similar state.
+
+This observation is important because it demonstrates that mitochondrial destruction can occur without immediate destruction of the host cell.
+
+Ca2+ overload and ROS can also engage mitochondrial permeability transition:
+
+mitochondrial Ca2+ overload + oxidative stress → sustained mPTP opening → inner-membrane depolarization → swelling → mitochondrial structural collapse [8-9,41].
+
+A mechanistically distinct route occurs during apoptosis.
+
+BH3-only signaling activates BAX and BAK, producing mitochondrial outer-membrane permeabilization [37,42-43]. Release of the intermembrane-space protein DDP/TIMM8a can then promote DRP1 recruitment and mitochondrial fragmentation [10].
+
+Thus:
+
+apoptotic stress → BAX/BAK → MOMP → DDP/TIMM8a release → DRP1 recruitment → mitochondrial fission/destruction.
+
+Finally, mitochondrial elimination can occur developmentally without pathological damage.
+
+These routes are generally better classified as programmed mitophagy or organelle clearance rather than lethal mitoptosis of the cell.
+
+3. Core Mechanistic Machinery
+
+No universal mitoptosis machinery has been established.
+
+At least three mechanistically distinct routes can produce mitochondrial elimination.
+
+The first is an ROS–mPTP-centered route.
+
+Excess mitochondrial ROS and Ca2+ favor inner-membrane permeability transition [1,8-9].
+
+Sustained pore opening causes:
+
+Δψm collapse → solute equilibration → osmotic water entry → matrix swelling → crista disruption → outer-membrane stress or rupture.
+
+This process can directly destroy the mitochondrion.
+
+The PTPC may regulate mitochondrial depolarization and subsequent mitochondrial degradation in autophagosomes, and its opening is altered in models lacking PINK1, Parkin, and DJ1 [8].
+
+The second major route involves BAX/BAK, DDP/TIMM8a, and DRP1 [10].
+
+BAX/BAK-mediated MOMP releases DDP/TIMM8a from the mitochondrial intermembrane space.
+
+DDP/TIMM8a can then facilitate redistribution of DRP1 to mitochondria.
+
+DRP1 is a GTPase that physically constricts mitochondrial membranes during fission.
+
+DRP1 is recruited through outer-membrane adaptors including MFF, Fis1, MiD49, and MiD51, oligomerizes around mitochondrial tubules, and uses GTP hydrolysis to drive membrane constriction and division [17-19].
+
+The resulting fragmentation can facilitate mitochondrial dismantling and subsequent clearance.
+
+However, DRP1-mediated fragmentation alone is not equivalent to mitoptosis.
+
+Mitochondrial fission is also a normal physiological process and occurs during apoptosis, ferroptosis, mitophagy, mitochondrial biogenesis, and stress adaptation [17-20].
+
+Therefore:
+
+DRP1 activation + fragmentation ≠ sufficient evidence of mitoptosis.
+
+A third route is classical selective mitochondrial clearance.
+
+PINK1–Parkin pathways and receptor-mediated mitophagy systems such as NIX/BNIP3L can identify and remove dysfunctional or developmentally unwanted mitochondria [11-16,21-24].
+
+These pathways overlap conceptually with mitoptosis because the mitochondrion is eliminated, but modern terminology generally classifies them as mitophagy rather than as an independent mitoptotic death pathway.
+
+Thus, mitoptosis is better understood as a phenotype/concept encompassing mitochondria-centered destruction than as one invariant molecular cascade.
+
+4. Propagation and Amplification
+
+The most important amplification mechanism is mitochondrial ROS.
+
+Damaged mitochondria can produce additional ROS, which further injure mitochondrial proteins, lipids, respiratory complexes, and membranes [25].
+
+Thus:
+
+mitochondrial dysfunction → increased ROS → additional mitochondrial damage → greater ROS production.
+
+This positive-feedback cycle can transform a localized mitochondrial defect into widespread mitochondrial network failure.
+
+Mitochondrial permeability transition can amplify this process.
+
+Sustained mPTP opening causes loss of membrane potential and respiratory dysfunction, which further destabilize redox homeostasis [8-9].
+
+A second amplification mechanism is fragmentation.
+
+DRP1-mediated fission can isolate damaged mitochondrial regions for elimination.
+
+When controlled, this facilitates mitochondrial quality control.
+
+When excessive, widespread fragmentation can dismantle the mitochondrial network and reduce mitochondrial functional connectivity [31].
+
+Therefore, mitochondrial fission has a context-dependent role:
+
+limited fission → segregation of damaged mitochondria → quality control;
+
+excessive fission → mitochondrial network collapse → death amplification.
+
+A third amplification mechanism involves mitochondrial intermembrane-space protein release.
+
+MOMP or outer-membrane rupture can release cytochrome c and other pro-death factors.
+
+This converts an organelle-level destruction process into a cell-level apoptotic program.
+
+Thus:
+
+mitochondrial destruction → cytochrome c release → APAF1/apoptosome → caspase-9 → caspase-3/7 → apoptosis.
+
+A fourth amplification mechanism involves bioenergetic depletion.
+
+If mitochondrial destruction affects a substantial proportion of the mitochondrial network, oxidative phosphorylation becomes insufficient.
+
+If glycolysis cannot compensate:
+
+mitochondrial loss → ATP decline → ion-pump dysfunction → ionic imbalance → cellular homeostatic failure.
+
+The balance between these amplification routes determines whether mitochondrial elimination remains cytoprotective or becomes lethal.
+
+5. Protective / Negative Regulators
+
+The most important protective mechanism is efficient mitochondrial quality control.
+
+Mitophagy can eliminate damaged mitochondria before they produce sufficient ROS or release sufficient pro-death factors to injure the cell [5-7,21-24].
+
+PINK1–Parkin-mediated mitophagy and receptor-mediated mitophagy therefore constitute major checkpoints against propagation of mitochondrial damage.
+
+The protective sequence is:
+
+mitochondrial damage → recognition/isolation → mitophagic sequestration → lysosomal degradation → preservation of healthy mitochondrial population.
+
+This creates an apparent conceptual paradox:
+
+mitochondrial elimination itself can be protective.
+
+Therefore, elimination of a mitochondrion should not automatically be interpreted as a death mechanism.
+
+Antioxidant systems provide a second protective layer.
+
+Reducing mtROS lowers the probability of oxidative membrane injury, permeability transition, and propagation of mitochondrial damage [25-28].
+
+Mitochondrial uncoupling proteins such as UCP2 and UCP3 can decrease excessive proton motive force and thereby limit mitochondrial ROS generation in some contexts [26-28].
+
+In some models, BCL-2 and BCL-xL have been proposed to provide additional protection by suppressing BAX/BAK-mediated mitochondrial outer-membrane permeabilization and by influencing mitochondrial redox state [33-34,38-39].
+
+Mitochondrial fusion can also oppose excessive fragmentation by maintaining network connectivity and permitting complementation between partially damaged mitochondria.
+
+Conversely, controlled DRP1-dependent fission can be protective by isolating damaged regions for mitophagic clearance.
+
+Therefore, mitochondrial dynamics should not be classified simplistically as pro-death or pro-survival.
+
+The outcome depends on whether quality-control capacity successfully removes damaged mitochondria before mitochondrial injury becomes widespread.
+
+6. Commitment / Point of No Return
+
+There is no universal point of no return for mitoptosis.
+
+This follows directly from its organelle-centered nature.
+
+An individual mitochondrion can become irreversibly damaged while the cell remains viable.
+
+Thus, two distinct commitment levels must be separated.
+
+Organelle-level commitment:
+
+irreversible loss of mitochondrial function and structural integrity leading to sequestration, fragmentation, degradation, or extrusion.
+
+Cell-level commitment:
+
+loss of sufficient mitochondrial mass/function or release of sufficient mitochondrial death signals to make host-cell recovery impossible.
+
+At the organelle level, sustained Δψm loss, severe respiratory failure, irreversible membrane permeabilization, and extensive structural destruction can mark commitment to mitochondrial elimination [1-3,8].
+
+At the cell level, the threshold is context-dependent.
+
+If mitochondrial destruction becomes widespread, cell-level commitment can occur through at least two routes.
+
+Apoptotic commitment:
+
+massive MOMP/intermembrane-space factor release → apoptosome formation → irreversible caspase amplification.
+
+Necrotic/bioenergetic commitment:
+
+widespread sustained MPT or mitochondrial depletion → ATP production falls below cellular demand → irreversible ion-homeostasis failure.
+
+Therefore, no unique “mitoptosis commitment protein” has been identified.
+
+The decisive variable is whether mitochondrial destruction remains contained at the organelle level or crosses a quantitative threshold into global cellular failure.
+
+7. Execution and Terminal Cause of Death
+
+What physically kills the cell in mitoptosis?
+
+There is no universal mitoptosis-specific mechanism that physically kills the host cell.
+
+This is the central mechanistic limitation of treating mitoptosis as a standalone RCD modality.
+
+At the organelle level, the execution target is clear:
+
+the mitochondrion itself.
+
+Mitoptosis can occur as inner membrane mitoptosis, in which only the internal matrix and cristae are degraded while the external mitochondrial envelope remains unaltered, or as outer membrane mitoptosis, in which only swollen internal cristae are detected as remnants [2].
+
+However, none of these events necessarily kills the cell.
+
+When host-cell death occurs, the proximate terminal mechanism depends on the downstream pathway.
+
+Apoptotic route:
+
+mitochondrial destruction/MOMP → cytochrome c release → APAF1 apoptosome → caspase-9 → caspase-3/7 → apoptotic dismantling.
+
+Necrotic route:
+
+widespread MPT or mitochondrial destruction → profound ATP depletion → failure of ATP-dependent ion pumps → osmotic and ionic collapse → plasma-membrane failure.
+
+Survival route:
+
+limited mitochondrial destruction → removal/extrusion of dysfunctional mitochondria → preservation of cell viability.
+
+Thus:
+
+there is no established mitoptosis-specific plasma-membrane executor.
+
+There is no established mitoptosis-specific protease.
+
+There is no established mitoptosis-specific pore that directly kills the host cell.
+
+The best-supported conclusion is that mitoptosis destroys mitochondria; if the host cell subsequently dies, the physical death is executed through established downstream apoptotic or necrotic mechanisms.
+
+8. Morphological Sequence
+
+Mitoptosis is primarily recognized through mitochondrial structural changes rather than a universal whole-cell morphology.
+
+The starting state is typically an interconnected tubular mitochondrial network.
+
+Depending on the experimental model, early changes can include transient condensation, altered membrane potential, rounding, or local swelling [2-4].
+
+As dysfunction progresses:
+
+Δψm loss → crista disruption → mitochondrial rounding/swelling → fragmentation.
+
+Damaged mitochondria can then cluster, frequently in perinuclear regions [3-4,32].
+
+Degraded mitochondria may become autophagosomes or mitoptotic bodies that are extruded from the cell .
+
+Thus, a representative morphological sequence is:
+
+healthy tubular network → mitochondrial functional injury → rounding/swelling → crista disorganization → fragmentation → clustering → sequestration/vesiculation → degradation or extrusion.
+
+The host-cell morphology depends on the downstream outcome.
+
+If mitochondrial removal is successful, the cell may remain morphologically intact.
+
+If apoptosis follows:
+
+cell shrinkage → chromatin condensation → membrane blebbing → apoptotic fragmentation.
+
+If catastrophic energetic failure follows:
+
+cellular swelling → organelle disorganization → plasma-membrane rupture.
+
+Therefore, there is no unique terminal whole-cell morphology specific to mitoptosis.
+
+9. Crosstalk and Differential Diagnosis
+
+The most important differential diagnosis is mitophagy.
+
+Mitophagy is a well-established mitochondrial quality-control process in which mitochondria are selectively delivered to lysosomes through autophagic mechanisms [5-7,21-24].
+
+Mitophagy generally functions to preserve cellular viability, although excessive or context-specific mitochondrial clearance can influence death.
+
+Mitoptosis is a broader and historically proposed concept describing mitochondrial self-destruction, sequestration, fragmentation, or extrusion.
+
+The two concepts can overlap substantially.
+
+Thus:
+
+mitophagy = defined autophagic clearance mechanism;
+
+mitoptosis = proposed mitochondria-destruction concept that may include but is not restricted to mitophagic elimination.
+
+Apoptosis must also be distinguished.
+
+During intrinsic apoptosis:
+
+BAX/BAK-mediated MOMP → cytochrome c release → apoptosome/caspases → cell death.
+
+Mitochondrial fragmentation can accompany this process but does not create a separate mitoptotic modality [10,17-19].
+
+The BAX/BAK–DDP/TIMM8a–DRP1 pathway provides evidence that mitochondrial fragmentation/elimination can occur as a distinct subprogram during programmed cell death [10].
+
+However, host-cell death in these circumstances can still be fundamentally apoptotic.
+
+MPT-driven necrosis is another major overlap.
+
+ROS/Ca2+-driven permeability transition can destroy mitochondria and therefore appear “mitoptotic.”
+
+However, when sustained MPT causes catastrophic ATP collapse and necrotic host-cell death, the established lethal mechanism is MPT-driven necrosis [8-9,29].
+
+Therefore:
+
+mitochondrial destruction during MPT ≠ evidence for an independent mitoptotic host-cell death pathway.
+
+Ferroptosis can also cause mitochondrial fragmentation and dysfunction [20,30].
+
+These mitochondrial changes remain downstream or modulatory features unless mitochondrial self-elimination itself is shown to be the defining causal process.
+
+Developmental mitochondrial clearance should similarly be distinguished from pathological cell death.
+
+These processes provide strong evidence for regulated mitochondrial elimination but weak evidence for mitoptosis as a distinct form of host-cell death.
+
+10. Experimental Validation
+
+Experimental validation of mitoptosis must first establish that mitochondria themselves are being selectively destroyed or eliminated.
+
+The strongest evidence combines live-cell imaging and ultrastructural analysis [3-4].
+
+Live imaging should demonstrate the temporal sequence of mitochondrial dysfunction, fragmentation, clustering, sequestration, disappearance, or extrusion.
+
+Mitochondrial membrane potential should be measured to determine whether depolarization precedes mitochondrial destruction.
+
+Respiratory measurements should assess whether OXPHOS failure precedes elimination.
+
+ROS measurements should establish whether mitochondrial oxidative stress is an upstream driver.
+
+Antioxidant rescue can strengthen causal interpretation when ROS blockade suppresses mitochondrial destruction.
+
+Electron microscopy or comparable ultrastructural methods can demonstrate:
+
+crista degradation;
+
+matrix swelling;
+
+membrane disruption;
+
+vesiculation;
+
+mitochondrial sequestration;
+
+mitoptotic bodies;
+
+or mitochondrial extrusion.
+
+For the BAX/BAK–DRP1 route, causal validation can include:
+
+BAX/BAK perturbation;
+
+DDP/TIMM8a manipulation;
+
+DRP1 inhibition or genetic perturbation;
+
+and demonstration that these interventions alter mitochondrial fragmentation/elimination [10].
+
+For mPTP-associated mitochondrial destruction, appropriate assays include:
+
+mPTP opening;
+
+Δψm;
+
+mitochondrial swelling;
+
+PPIF/Cyclophilin D dependence;
+
+respiration;
+
+ATP;
+
+and causal rescue of mitochondrial integrity.
+
+The experiment must also determine host-cell fate.
+
+This is essential because mitochondrial elimination alone does not establish cell death.
+
+Investigators should explicitly determine whether the cell:
+
+survives after mitochondrial elimination;
+
+dies through apoptosis;
+
+dies through bioenergetic/necrotic collapse;
+
+or undergoes another defined RCD modality.
+
+Mitophagy should be assessed independently using appropriate autophagic/lysosomal flux measurements.
+
+Mitochondrial fragmentation alone is insufficient because DRP1-driven fission occurs in multiple physiological and pathological contexts.
+
+Likewise, transcriptomics cannot demonstrate active mitoptosis.
+
+Expression of PPIF, DNM1L/DRP1, BAX, BAK1, PINK1, PRKN, BNIP3, BNIP3L/NIX, mitochondrial respiratory genes, ROS-defense genes, or mitochondrial dynamics genes can indicate a mitochondrial-stress or mitochondrial-quality-control state.
+
+It cannot establish physical mitochondrial destruction, mitoptotic-body formation, extrusion, or host-cell death.
+
+11. Molecular Hierarchy
+
+Initiators / upstream states:
+
+mitochondrial ROS;
+
+Ca2+ overload;
+
+respiratory-chain failure;
+
+Δψm loss;
+
+severe OXPHOS dysfunction;
+
+mitochondrial permeability transition;
+
+apoptotic stress;
+
+developmental mitochondrial-selection signals.
+
+Organelle sensors / early events:
+
+redox-sensitive mitochondrial machinery;
+
+mPTP-associated systems;
+
+loss of mitochondrial protein-import competence;
+
+PINK1-like depolarization sensing;
+
+BH3-only/BAX/BAK signaling in apoptotic contexts.
+
+Signal transducers:
+
+BAX;
+
+BAK;
+
+DDP/TIMM8a;
+
+DRP1/DNM1L;
+
+MFF;
+
+Fis1;
+
+MiD49;
+
+MiD51;
+
+MAPL/MUL1;
+
+mitochondrial quality-control machinery.
+
+Core organelle-destruction processes:
+
+sustained mPTP opening;
+
+MOMP in selected routes;
+
+DRP1-mediated fragmentation;
+
+crista remodeling;
+
+mitochondrial swelling;
+
+vesiculation;
+
+mitophagic sequestration;
+
+mitochondrial extrusion.
+
+Protective mechanisms:
+
+PINK1–Parkin mitophagy;
+
+receptor-mediated mitophagy;
+
+antioxidant defenses;
+
+BCL-2/BCL-xL;
+
+UCP2/UCP3;
+
+controlled mitochondrial dynamics;
+
+healthy mitochondrial reserve.
+
+Organelle-level executor:
+
+context-dependent mitochondrial membrane destruction/fission/clearance machinery.
+
+Universal host-cell executor:
+
+none.
+
+Host-cell terminal routes:
+
+apoptosome/caspases if apoptosis predominates;
+
+bioenergetic and ionic collapse if MPT/mitochondrial depletion predominates;
+
+survival if mitochondrial damage remains limited and clearance is successful.
+
+12. Integrated Canonical Sequence
+
+Damage-associated route:
+
+mitochondrial metabolic or oxidative stress → excessive mtROS and/or Ca2+ accumulation → Δψm instability → mPTP sensitization.
+
+If stress is controlled:
+
+transient mitochondrial dysfunction → mitophagy or mitochondrial repair → removal of damaged mitochondria → cell survival.
+
+If stress persists:
+
+sustained mPTP opening → inner-membrane permeability → Δψm collapse → osmotic matrix swelling → crista disruption → outer-membrane injury → mitochondrial fragmentation/destruction.
+
+Damaged mitochondria can then undergo:
+
+fragmentation → sequestration → autophagic digestion;
+
+or:
+
+fragmentation/clustering → mitoptotic-body formation → mitochondrial extrusion.
+
+Apoptotic fragmentation route:
+
+cellular death signal → BH3-only proteins → BAX/BAK activation → MOMP → DDP/TIMM8a release → DRP1 recruitment → mitochondrial fission → extensive mitochondrial fragmentation.
+
+The downstream cellular outcome then branches.
+
+Survival branch:
+
+limited mitochondrial damage → selective clearance/extrusion → remaining mitochondrial network maintains energetic demand → cell survives.
+
+Apoptosis branch:
+
+widespread MOMP/IMS release → cytochrome c → APAF1/procaspase-9 apoptosome → caspase-9 → caspase-3/7 → apoptotic death.
+
+Necrotic branch:
+
+widespread mPTP opening or catastrophic mitochondrial elimination → OXPHOS failure → ATP depletion → ion-homeostasis failure → cellular swelling → plasma-membrane failure → necrotic death.
+
+The integrated logic is therefore:
+
+mitochondrial stress → mitochondria-centered destruction → mitochondrial elimination → either quality control and survival or transition into an established cellular death mechanism.
+
+13. Final Mechanistic Interpretation
+
+For RCDome, Mitoptosis should not be presented as a fully established standalone regulated cell-death modality.
+
+The supplied evidence supports a more precise classification:
+
+Mitoptosis is an emerging mitochondria-centered concept describing programmed destruction or elimination of dysfunctional mitochondria.
+
+Its central biological unit is the organelle, not necessarily the host cell.
+
+The strongest evidence includes mitochondrial depolarization, respiratory failure, ROS-dependent mitochondrial destruction, mPTP-associated swelling, BAX/BAK–DDP/TIMM8a–DRP1-dependent fragmentation, mitochondrial sequestration, mitoptotic-body formation, mitophagic degradation, and extrusion.
+
+However, these phenomena do not converge on one universal molecular pathway.
+
+Likewise, they do not converge on one universal host-cell executor.
+
+This makes Mitoptosis fundamentally different from canonical RCD modalities in which a defined execution mechanism directly explains host-cell death.
+
+A useful operational definition for RCDome is:
+
+programmed or regulated destruction/elimination of dysfunctional mitochondria through permeability-transition-, fragmentation-, sequestration-, degradation-, or extrusion-associated mechanisms, which can either preserve cellular viability or contribute to host-cell death when sufficiently extensive.
+
+The most important differential is mitophagy.
+
+Mitophagy is a defined mitochondrial quality-control mechanism.
+
+Mitoptosis is a broader historical/conceptual framework for mitochondrial self-destruction and elimination.
+
+Where mitoptosis culminates in host-cell death, the actual terminal execution generally appears to be delegated to another established mechanism:
+
+MOMP/apoptosome/caspases → apoptosis;
+
+sustained MPT and ATP failure → regulated necrotic collapse.
+
+Therefore, the most defensible answer to “what physically kills the cell?” is:
+
+Mitoptosis itself has no demonstrated universal host-cell-killing lesion.
+
+It physically destroys mitochondria.
+
+The host cell dies only when mitochondrial destruction crosses a threshold that activates apoptosis or causes catastrophic energetic/homeostatic failure.
+
+For RCDome, the recommended annotation is:
+
+classification: emerging concept/process;
+
+primary target: mitochondrion;
+
+core shared event: regulated mitochondrial destruction/elimination;
+
+universal core pathway: none;
+
+host-cell death required: no;
+
+universal terminal executor: none;
+
+possible outcomes: mitochondrial quality control and survival, apoptosis, or necrotic energetic collapse;
+
+strongest mechanistic routes: ROS–mPTP-associated mitochondrial destruction and BAX/BAK–DDP/TIMM8a–DRP1-associated fragmentation;
+
+major conceptual overlap: mitophagy and mitochondrial quality control;
+
+transcriptomic interpretation: mitoptosis-associated mitochondrial stress/quality-control state only, not evidence of active organelle destruction.
+
+The principal unresolved question is therefore not whether mitochondria can be selectively and actively eliminated (they clearly can) but whether there exists a unique molecular transition through which “massive mitoptosis” kills the host cell independently of already established apoptotic or necrotic mechanisms.
+

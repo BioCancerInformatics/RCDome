@@ -1,8 +1,8 @@
-## Cuproptosis — Mechanistic Pathway
+## Cuproptosis
 
-Cuproptosis is a copper-dependent, mitochondria-centered form of regulated cell death in which excessive bioavailable copper interacts with the lipoylated mitochondrial metabolic proteome, producing abnormal aggregation of lipoylated enzymes, destabilization of iron–sulfur proteins, severe proteotoxic stress, and ultimately failure of respiration-dependent cellular homeostasis [1–6]. Unlike apoptosis, necroptosis, pyroptosis, or ferroptosis, cuproptosis is not currently defined by a dedicated protease cascade, membrane-pore-forming protein, or lipid-peroxidation executor. Instead, its defining molecular dependence lies in mitochondrial copper exposure, FDX1 activity, the mitochondrial protein-lipoylation pathway, and the presence of lipoylated tricarboxylic-acid-cycle-associated enzymes that can become toxic copper-binding substrates [1–6].
+Cuproptosis is a copper-dependent, mitochondria-centered form of regulated cell death in which excessive bioavailable copper interacts with the lipoylated mitochondrial metabolic proteome, producing abnormal aggregation of lipoylated enzymes, destabilization of iron–sulfur proteins, severe proteotoxic stress, and ultimately failure of respiration-dependent cellular homeostasis [1-6]. Unlike apoptosis, necroptosis, pyroptosis, or ferroptosis, cuproptosis is not currently defined by a dedicated protease cascade, membrane-pore-forming protein, or lipid-peroxidation executor. Instead, its defining molecular dependence lies in mitochondrial copper exposure, FDX1 activity, the mitochondrial protein-lipoylation pathway, and the presence of lipoylated tricarboxylic-acid-cycle-associated enzymes that can become toxic copper-binding substrates [1-6].
 
-The central conceptual distinction is therefore between generic copper toxicity and cuproptosis. Copper can damage cells through numerous biochemical routes, including oxidative stress, proteasomal dysfunction, lysosomal injury, and interactions with multiple macromolecules. Cuproptosis refers specifically to the mitochondrial pathway in which copper toxicity depends on FDX1 and protein lipoylation and is associated with aggregation of lipoylated mitochondrial proteins and loss of Fe–S proteins [1–6]. Copper-induced death occurring through another dominant mechanism should not automatically be classified as cuproptosis.
+The central conceptual distinction is therefore between generic copper toxicity and cuproptosis. Copper can damage cells through numerous biochemical routes, including oxidative stress, proteasomal dysfunction, lysosomal injury, and interactions with multiple macromolecules. Cuproptosis refers specifically to the mitochondrial pathway in which copper toxicity depends on FDX1 and protein lipoylation and is associated with aggregation of lipoylated mitochondrial proteins and loss of Fe–S proteins [1-6]. Copper-induced death occurring through another dominant mechanism should not automatically be classified as cuproptosis.
 
 Copper is an essential transition metal required for enzymes involved in mitochondrial respiration, antioxidant defense, connective-tissue biology, neurotransmitter synthesis, iron metabolism, and many other processes. Its chemical reactivity, however, means that free intracellular copper must be tightly controlled [1,7]. Mammalian cells therefore maintain copper homeostasis through coordinated uptake, intracellular transport, sequestration, and export.
 
@@ -10,9 +10,9 @@ SLC31A1, also known as CTR1, is one of the principal high-affinity copper-import
 
 Conversely, ATP7A and ATP7B contribute to copper export and intracellular copper redistribution. Their activity reduces the accumulation of potentially toxic copper, whereas impaired copper export can increase the intracellular copper burden and promote susceptibility to copper-associated cell death [1,4,7].
 
-The initiating condition for canonical experimental cuproptosis is therefore an increase in intracellular and especially mitochondrial copper exposure. This can occur through failure of copper homeostasis, excessive environmental copper, altered copper transport, or most experimentally, through copper ionophores that deliver copper into cells and mitochondria [1–6].
+The initiating condition for canonical experimental cuproptosis is therefore an increase in intracellular and especially mitochondrial copper exposure. This can occur through failure of copper homeostasis, excessive environmental copper, altered copper transport, or most experimentally, through copper ionophores that deliver copper into cells and mitochondria [1-6].
 
-Elesclomol is one of the best-characterized experimental agents used to trigger this pathway. Elesclomol binds copper and facilitates its intracellular and mitochondrial delivery, thereby increasing the pool of copper capable of interacting with mitochondrial targets [1–4].
+Elesclomol is one of the best-characterized experimental agents used to trigger this pathway. Elesclomol binds copper and facilitates its intracellular and mitochondrial delivery, thereby increasing the pool of copper capable of interacting with mitochondrial targets [1-4].
 
 The initiating sequence can consequently be represented as increased extracellular or intracellular copper availability → copper uptake and/or ionophore-mediated copper delivery → increased mitochondrial copper exposure → engagement of FDX1 and the lipoylated mitochondrial proteome.
 
@@ -20,31 +20,31 @@ FDX1, ferredoxin 1, occupies a central position in cuproptosis. It is a mitochon
 
 FDX1 should not be considered a receptor in the conventional signaling sense. Instead, it functions as an intracellular metabolic determinant that allows copper exposure to become coupled to the lipoylated protein machinery required for cuproptosis.
 
-The available mechanistic model places FDX1 upstream of both the copper chemistry and the lipoylation state of the relevant mitochondrial substrates. FDX1 contributes to reduction of Cu2+ toward the more reactive Cu+ state and simultaneously supports the metabolic machinery required to maintain lipoylated mitochondrial proteins [2–4,8].
+The available mechanistic model places FDX1 upstream of both the copper chemistry and the lipoylation state of the relevant mitochondrial substrates. FDX1 contributes to reduction of Cu2+ toward the more reactive Cu+ state and simultaneously supports the metabolic machinery required to maintain lipoylated mitochondrial proteins [2-4,8].
 
-Recent mutational analysis of FDX1 further supports its central mechanistic role by demonstrating that specific structural determinants of FDX1 control mitochondrial protein lipoylation and susceptibility to cuproptosis [3]. Thus, FDX1 abundance alone is not the entire mechanism; the functional integrity of FDX1-dependent mitochondrial processes is required.
+Recent mutational analysis of FDX1 further supports its central mechanistic role by demonstrating that specific structural determinants of FDX1 control mitochondrial protein lipoylation and susceptibility to cuproptosis [3,19]. Thus, FDX1 abundance alone is not the entire mechanism; the functional integrity of FDX1-dependent mitochondrial processes is required.
 
 The next essential mechanistic layer is protein lipoylation.
 
 Lipoic acid is a covalently attached cofactor required by a restricted group of mitochondrial enzyme complexes involved principally in oxidative carbon metabolism. The lipoyl group is attached to specific lysine residues of selected mitochondrial proteins and functions as a mobile redox and acyl-group carrier.
 
-Major lipoylated mitochondrial substrates include components of the pyruvate dehydrogenase complex and related α-ketoacid dehydrogenase complexes. DLAT, the E2 component of pyruvate dehydrogenase, is one of the most mechanistically important cuproptosis targets. DLST, the corresponding E2 component of α-ketoglutarate dehydrogenase, represents another important lipoylated substrate [2–6].
+Major lipoylated mitochondrial substrates include components of the pyruvate dehydrogenase complex and related α-ketoacid dehydrogenase complexes. DLAT, the E2 component of pyruvate dehydrogenase, is one of the most mechanistically important cuproptosis targets. DLST, the corresponding E2 component of α-ketoglutarate dehydrogenase, represents another important lipoylated substrate [2-6].
 
-The mitochondrial lipoylation system involves proteins including LIAS and LIPT1, with additional dependence on the mitochondrial metabolic network containing DLD and the corresponding dehydrogenase complexes [2,5,6].
+The mitochondrial lipoylation system involves proteins including LIAS and LIPT1, with additional dependence on the mitochondrial metabolic network containing DLD and the corresponding dehydrogenase complexes [2,5-6].
 
-LIAS catalyzes formation of the lipoyl cofactor, whereas LIPT1 participates in transfer of the lipoyl group to target proteins. Functional FDX1 supports this lipoylation network [2,3,5].
+LIAS catalyzes formation of the lipoyl cofactor, whereas LIPT1 participates in transfer of the lipoyl group to target proteins. Functional FDX1 supports this lipoylation network [2-3,5].
 
 This produces a critical principle: copper alone is insufficient to generate canonical cuproptosis with maximum efficiency. The cell must also contain an adequate pool of lipoylated mitochondrial proteins capable of binding copper.
 
-Consequently, genetic loss or substantial suppression of FDX1, LIAS, LIPT1, or other components required for formation of lipoylated targets can markedly reduce sensitivity to copper-ionophore-induced death [2,3,5].
+Consequently, genetic loss or substantial suppression of FDX1, LIAS, LIPT1, or other components required for formation of lipoylated targets can markedly reduce sensitivity to copper-ionophore-induced death [2-3,5].
 
 This does not mean that loss of protein lipoylation is intrinsically cytotoxic through cuproptosis. Rather, loss of the lipoylated substrate pool removes the molecular structures through which excessive copper produces the characteristic toxic protein aggregation.
 
 The sequence therefore proceeds as mitochondrial copper accumulation → functional FDX1/lipoylation system → presence of lipoylated DLAT, DLST, and related mitochondrial metabolic proteins → direct copper engagement of the lipoylated proteome.
 
-The chemical interaction between copper and the lipoyl groups constitutes one of the defining molecular events in cuproptosis. Cu+ interacts strongly with lipoylated mitochondrial proteins, particularly lipoylated DLAT and DLST [2–6].
+The chemical interaction between copper and the lipoyl groups constitutes one of the defining molecular events in cuproptosis. Cu+ interacts strongly with lipoylated mitochondrial proteins, particularly lipoylated DLAT and DLST [2-6].
 
-This interaction alters their normal biochemical behavior and promotes abnormal oligomerization and aggregation. DLAT progressively accumulates in higher-order or detergent-insoluble protein assemblies rather than remaining exclusively within normally functioning pyruvate dehydrogenase complexes [2,4–6].
+This interaction alters their normal biochemical behavior and promotes abnormal oligomerization and aggregation. DLAT progressively accumulates in higher-order or detergent-insoluble protein assemblies rather than remaining exclusively within normally functioning pyruvate dehydrogenase complexes [2,4-6].
 
 These abnormal assemblies can include disulfide-linked higher-order structures and generate a severe protein-homeostasis burden within mitochondria.
 
@@ -52,7 +52,7 @@ Thus, the lipoyl modification has two opposing biological functions depending on
 
 The resulting sequence is functional mitochondrial lipoylation → copper binding to lipoylated DLAT/DLST → abnormal conformational interactions and oligomerization → insoluble aggregation of mitochondrial metabolic proteins → mitochondrial proteotoxic stress.
 
-In parallel with lipoylated-protein aggregation, cuproptosis is associated with loss or destabilization of iron–sulfur proteins [1,2,5,6].
+In parallel with lipoylated-protein aggregation, cuproptosis is associated with loss or destabilization of iron–sulfur proteins [1-2,5-6].
 
 Fe–S clusters are essential prosthetic groups present in numerous mitochondrial proteins, including proteins involved in electron transfer, respiratory metabolism, redox reactions, and biosynthetic processes.
 
@@ -70,17 +70,17 @@ At the same time, Fe–S protein loss impairs mitochondrial biochemical reaction
 
 The combined effect is therefore not simply “copper-induced ROS.” The central event is structural and metabolic disruption of the mitochondrial protein machinery.
 
-This distinction is particularly important because oxidative stress is frequently observed during metal toxicity but is not considered sufficient to define cuproptosis. Cuproptosis persists mechanistically as a distinct process because its strongest causal dependencies are FDX1, protein lipoylation, copper binding to lipoylated proteins, their aggregation, and Fe–S destabilization [1–6].
+This distinction is particularly important because oxidative stress is frequently observed during metal toxicity but is not considered sufficient to define cuproptosis. Cuproptosis persists mechanistically as a distinct process because its strongest causal dependencies are FDX1, protein lipoylation, copper binding to lipoylated proteins, their aggregation, and Fe–S destabilization [1-6].
 
 The mitochondrial metabolic state strongly determines susceptibility.
 
-Cells that rely heavily on oxidative phosphorylation and mitochondrial carbon metabolism generally contain a larger functionally engaged pool of lipoylated mitochondrial enzymes and are therefore more susceptible to cuproptosis [5,9–11].
+Cells that rely heavily on oxidative phosphorylation and mitochondrial carbon metabolism generally contain a larger functionally engaged pool of lipoylated mitochondrial enzymes and are therefore more susceptible to cuproptosis [5,9-11].
 
 By contrast, cells that rely predominantly on glycolysis can be comparatively resistant.
 
 This produces a metabolic vulnerability principle: the more dependent a cell is on mitochondrial oxidative metabolism and lipoylated TCA-associated enzyme complexes, the larger the biochemical target space available for copper-induced proteotoxicity.
 
-Experimentally, suppression of mitochondrial respiration or interruption of mitochondrial pyruvate metabolism can reduce sensitivity to copper-ionophore-induced death [5,6].
+Experimentally, suppression of mitochondrial respiration or interruption of mitochondrial pyruvate metabolism can reduce sensitivity to copper-ionophore-induced death [5-6].
 
 Thus, mitochondrial respiration is not merely damaged after cuproptosis begins; the respiratory metabolic state helps determine whether the cell possesses the susceptible molecular architecture required for cuproptosis.
 
@@ -122,13 +122,13 @@ If iron-dependent phospholipid peroxidation subsequently becomes the dominant le
 
 The terminal execution stage of cuproptosis remains less precisely resolved than its upstream molecular chemistry.
 
-No dedicated cuproptosis-specific pore-forming protein has been identified. There is currently no equivalent of MLKL in necroptosis or gasdermins in pyroptosis [1,4–6].
+No dedicated cuproptosis-specific pore-forming protein has been identified. Cuproptosis is mechanistically distinct from necroptosis and pyroptosis, which are executed by MLKL and gasdermins, respectively, and no dedicated executioner protein equivalent to MLKL or gasdermins has been identified for cuproptosis [6].
 
 Cuproptosis is also not defined by activation of the canonical apoptotic caspase cascade.
 
 Similarly, catastrophic lipid peroxidation and GPX4 failure are not the defining execution machinery as they are in ferroptosis.
 
-The most strongly supported model is therefore that the cell dies after mitochondrial protein aggregation and Fe–S failure reach a level that can no longer be compensated by mitochondrial protein quality control, metabolic rerouting, copper buffering, or energetic adaptation [5,6,13].
+The most strongly supported model is therefore that the cell dies after mitochondrial protein aggregation and Fe–S failure reach a level that can no longer be compensated by mitochondrial protein quality control, metabolic rerouting, copper buffering, or energetic adaptation [5-6,13,18].
 
 The proximal lethal process can be conceptualized as irreversible mitochondrial proteotoxic and metabolic collapse.
 
@@ -146,9 +146,9 @@ For example, it is not yet established whether one specific aggregated protein c
 
 There is therefore no universally demonstrated point of no return.
 
-Early copper exposure remains reversible because removal or chelation of copper can suppress toxicity [1,4–6].
+Early copper exposure remains reversible because removal or chelation of copper can suppress toxicity [1,4-6].
 
-Likewise, interventions that decrease mitochondrial substrate use or oxidative metabolism can reduce cuproptosis before catastrophic mitochondrial failure becomes established [5,6].
+Likewise, interventions that decrease mitochondrial substrate use or oxidative metabolism can reduce cuproptosis before catastrophic mitochondrial failure becomes established [5-6].
 
 The most plausible commitment transition occurs when copper-induced lipoylated-protein aggregation and Fe–S destabilization cross a threshold beyond which mitochondrial proteostasis and metabolic function cannot be restored.
 
@@ -162,11 +162,11 @@ The terminal phase can then be represented as irreversible mitochondrial dysfunc
 
 Copper chelation is consequently one of the most direct mechanistic rescue approaches.
 
-Chelators decrease bioavailable copper before it can continue interacting with lipoylated proteins and can protect cells from copper-ionophore-associated toxicity [1,4–6].
+Chelators decrease bioavailable copper before it can continue interacting with lipoylated proteins and can protect cells from copper-ionophore-associated toxicity [1,4-6].
 
-Genetic disruption of FDX1 provides an even stronger mechanistic test because it interrupts the molecular bridge between mitochondrial copper exposure and the lipoylated substrate system [2,3].
+Genetic disruption of FDX1 provides an even stronger mechanistic test because it interrupts the molecular bridge between mitochondrial copper exposure and the lipoylated substrate system [2-3].
 
-Loss of LIAS or LIPT1 similarly reduces formation of the lipoylated target pool and protects against canonical cuproptosis [5,6,12].
+Loss of LIAS or LIPT1 similarly reduces formation of the lipoylated target pool and protects against canonical cuproptosis [5-6,12].
 
 These genetic relationships establish a hierarchy in which copper exposure is the trigger but FDX1 and lipoylation are necessary biochemical licensing mechanisms.
 
@@ -180,21 +180,21 @@ Nevertheless, FDX1 abundance should not be treated as a standalone diagnostic bi
 
 Cuproptosis is therefore produced by a network rather than one marker.
 
-p53 has also been proposed as a regulator of cuproptosis through its effects on mitochondrial metabolism and copper-associated pathways [14].
+p53 has also been proposed as a regulator of cuproptosis through its effects on mitochondrial metabolism and copper-associated pathways [11].
 
 However, p53 is not required as part of the canonical cuproptosis core in the same way as FDX1 or protein lipoylation.
 
-Its effects appear to be context dependent and can involve metabolic reprogramming, mitochondrial function, redox control, and regulation of genes that indirectly influence cuproptosis sensitivity [14].
+Its effects appear to be context dependent and can involve metabolic reprogramming, mitochondrial function, redox control, and regulation of genes that indirectly influence cuproptosis sensitivity [11].
 
 p53 should therefore be placed in the regulatory layer rather than the defining execution machinery.
 
-Similarly, genes such as MTF1, GLS, and CDKN2A have been associated with cuproptosis-related genetic signatures and sensitivity patterns [2,5,6]. These associations should not automatically be converted into canonical cuproptosis executors.
+Similarly, genes such as MTF1, GLS, and CDKN2A have been associated with cuproptosis-related genetic signatures and sensitivity patterns [2,5-6]. These associations should not automatically be converted into canonical cuproptosis executors.
 
 The strongest mechanistic genes remain those directly tied to copper homeostasis, FDX1, mitochondrial lipoylation, lipoylated TCA-associated proteins, and Fe–S biology.
 
 A separate copper-dependent proteotoxic mechanism involves disulfiram–copper.
 
-Disulfiram-derived copper complexes can interact with the p97/VCP–NPL4 protein-quality-control machinery and induce NPL4 aggregation, disrupting proteostasis [4,6,15].
+Disulfiram-derived copper complexes can interact with the p97/VCP–NPL4 protein-quality-control machinery and induce NPL4 aggregation, disrupting proteostasis [4,6,14].
 
 This pathway is mechanistically interesting because it also represents copper-dependent proteotoxic stress.
 
@@ -208,15 +208,11 @@ The distinction matters when constructing an RCD pathway because otherwise multi
 
 Cuproptosis can also interact with antitumor immunity.
 
-Recent evidence indicates that immune signaling can modify tumor-cell cuproptosis sensitivity. CD8+ T-cell-derived IFN-γ can activate STAT1–IRF1 signaling in tumor cells and increase FDX1 transcription [16].
+Recent evidence indicates that immune signaling can modify tumor-cell cuproptosis sensitivity. This represents regulation of the cuproptosis threshold rather than replacement of the core mitochondrial mechanism.
 
-The corresponding immune-regulatory sequence is activated CD8+ T cell → IFN-γ release → IFN-γ receptor signaling in tumor cell → STAT1 activation → IRF1-associated transcriptional response → increased FDX1 expression → increased susceptibility of mitochondrial lipoylated proteins to copper-induced cuproptosis [16].
+Cuproptotic tumor cells can also exhibit immunogenic properties and release damage-associated signals capable of stimulating immune responses [15-16].
 
-This represents regulation of the cuproptosis threshold rather than replacement of the core mitochondrial mechanism.
-
-Cuproptotic tumor cells can also exhibit immunogenic properties and release damage-associated signals capable of stimulating immune responses [16,17].
-
-Nanomaterial-based approaches have attempted to exploit this principle by increasing tumor copper exposure, triggering cuproptosis, and simultaneously promoting immunogenic cell-death-associated signaling [17].
+Nanomaterial-based approaches have attempted to exploit this principle by increasing tumor copper exposure, triggering cuproptosis, and simultaneously promoting immunogenic cell-death-associated signaling [16].
 
 However, immunogenicity should not be considered part of the universal core execution mechanism. DAMP release and immune activation occur downstream or in parallel depending on cellular and therapeutic context.
 
@@ -230,7 +226,7 @@ Unlike necroptosis, there is no established MLKL-dependent membrane rupture mech
 
 And unlike ferroptosis, there is no validated morphology linked specifically to phospholipid-peroxidation-mediated membrane nanolesions.
 
-Published copper-exposure models can display mitochondrial abnormalities, cytoplasmic vacuolization, cell swelling, nuclear condensation, tissue injury, and eventually loss of membrane integrity [4,18,19].
+Copper-exposure models can display ultrastructural mitochondrial abnormalities including intramitochondrial vacuoles, disruptions of the mitochondrial outer membrane, and enlargement of the intermembrane space [17].
 
 These morphological observations are not sufficiently specific to define cuproptosis.
 
@@ -242,11 +238,11 @@ Copper ionophore treatment should induce death, and copper chelation should supp
 
 The second requirement is FDX1 dependence.
 
-CRISPR-mediated deletion, knockdown, or functionally disruptive alteration of FDX1 should decrease copper-ionophore-induced death and reduce the downstream lipoylated-protein abnormalities [2,3].
+CRISPR-mediated deletion, knockdown, or functionally disruptive alteration of FDX1 should decrease copper-ionophore-induced death and reduce the downstream lipoylated-protein abnormalities [2-3].
 
 The third requirement is dependence on mitochondrial protein lipoylation.
 
-Loss of LIAS, LIPT1, or related machinery should reduce the abundance of lipoylated mitochondrial substrates and confer protection against canonical cuproptosis [5,6,12].
+Loss of LIAS, LIPT1, or related machinery should reduce the abundance of lipoylated mitochondrial substrates and confer protection against canonical cuproptosis [5-6,12].
 
 Direct demonstration of DLAT or DLST modification provides an important biochemical layer.
 
@@ -326,8 +322,6 @@ A metabolic resistance branch can be represented as hypoxia or glycolytic reprog
 
 A sensitization branch can be represented as inhibition of cystine uptake or GSH synthesis → reduced copper buffering → increased bioavailable copper → increased FDX1/lipoylated-protein engagement → enhanced cuproptosis.
 
-An immune-sensitization branch can be represented as CD8+ T-cell IFN-γ → STAT1–IRF1 signaling → increased FDX1 transcription → increased copper-sensitive lipoylated mitochondrial target state → enhanced cuproptosis [16].
-
 The most integrated sequence is therefore copper overload, produced by increased uptake, reduced export, ionophore-mediated transport, or failure of intracellular buffering → increased mitochondrial copper exposure → FDX1-mediated establishment of the appropriate copper redox environment together with maintenance of mitochondrial protein lipoylation → direct Cu+ engagement of lipoylated DLAT/DLST and related mitochondrial metabolic proteins → lipoylation-dependent protein oligomerization and insoluble aggregation → simultaneous destabilization of Fe–S-containing proteins → escalating mitochondrial proteotoxic stress → collapse of TCA-associated metabolic organization, electron-transfer capacity, and respiration-dependent homeostasis → inability of copper-buffering, protein-quality-control, and metabolic adaptive systems to restore mitochondrial function → irreversible mitochondrial proteostatic and bioenergetic failure → cuproptotic cell death.
 
 Thus, cuproptosis is best understood as an FDX1- and lipoylation-dependent copper poisoning of the mitochondrial metabolic proteome.
@@ -339,5 +333,4 @@ The lipoylated-protein aggregation step provides the most specific biochemical l
 The final execution mechanism remains unresolved at molecular resolution. No dedicated cuproptosis-specific protease, pore, phospholipid lesion, or membrane-disrupting protein has yet been established. The best-supported current interpretation is that a threshold of lipoylated-protein aggregation and Fe–S network disruption drives mitochondrial proteotoxic and metabolic dysfunction beyond the cell's capacity for recovery.
 
 Accordingly, the principal unresolved question is what precise event converts reversible copper-induced mitochondrial stress into irreversible cellular death. Whether this transition is defined by aggregate burden, loss of one or more critical Fe–S functions, energetic collapse, failure of mitochondrial proteostasis, or a combination of these events remains an active mechanistic problem.
-
 

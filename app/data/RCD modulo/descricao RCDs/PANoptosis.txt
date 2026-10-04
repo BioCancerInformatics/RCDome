@@ -1,0 +1,440 @@
+PANoptosis
+
+1. Definition and Classification
+
+PANoptosis is an integrative, lytic, inflammatory regulated cell-death modality in which innate immune sensing promotes assembly of a multiprotein PANoptosome that coordinates molecular machinery classically associated with pyroptosis, apoptosis, and necroptosis within a single death process [1-6].
+
+PANoptosis should not be defined simply as simultaneous detection of pyroptotic, apoptotic, and necroptotic biomarkers. Its central mechanistic criterion is assembly of an integrated death-inducing platform in which components from these pathways interact physically and functionally [1-5].
+
+The defining concept is therefore:
+
+Innate immune or homeostatic danger sensing → PANoptosome assembly → integrated caspase and RIPK signaling → coordinated pyroptotic, apoptotic, and necroptotic execution machinery → lytic inflammatory death.
+
+PANoptosome composition is not universal. Different triggers recruit partially different sensors, adaptors, caspases, RIPKs, and inflammasome components. Thus, PANoptosis represents a common organizational principle rather than one invariant protein complex [1-5].
+
+Four PANoptosome complexes have been molecularly characterized: the ZBP1-PANoptosome, AIM2-PANoptosome, RIPK1-PANoptosome, and NLRP12-PANoptosome [22].
+
+PANoptosis is biologically inflammatory and usually lytic. Morphological features can include cellular swelling, membrane blebbing, chromatin condensation, nuclear fragmentation, osmotic distortion, and eventual plasma-membrane rupture. However, none of these morphological features alone establishes PANoptosis because each overlaps with one or more component death programs [1-2,6].
+
+Therefore, for RCDome, PANoptosis is best classified as an established integrative regulated cell-death modality whose defining feature is sensor-driven PANoptosome assembly and coordinated engagement of otherwise interconnected pyroptotic, apoptotic, and necroptotic machinery.
+
+2. Initiation and Triggers
+
+PANoptosis can be initiated by several innate immune sensors, and there is no single universal trigger.
+
+The best-characterized initiating system is ZBP1-dependent PANoptosis.
+
+During influenza A virus infection and other appropriate contexts, viral or endogenous Z-form nucleic acids engage ZBP1 [7-10].
+
+The Zα domains of ZBP1 recognize Z-form nucleic-acid structures. The Zα2 domain is particularly important for influenza-associated PANoptosis [7,38].
+
+The initial sequence can be represented as:
+
+Viral or endogenous Z-nucleic acids → ZBP1 activation → ZBP1 dimerization/condensation → RHIM-dependent recruitment of RIPK3 and RIPK1 → PANoptosome assembly [7-10].
+
+ZBP1 activation is facilitated by interferon-dependent transcriptional programs because ZBP1 itself is interferon inducible. During viral infection, RIG-I–MAVS signaling, type I interferons, and IRF1 can therefore increase the abundance of pathway components and lower the threshold for PANoptosome formation [2,9].
+
+Z-form nucleic acids can additionally promote ZBP1 condensation. These higher-order structures spatially concentrate ZBP1 and RHIM-containing signaling proteins, providing a physical mechanism that favors recruitment and polymerization of RIPK3 and RIPK1 [10].
+
+A second well-supported initiation route is AIM2-dependent PANoptosis.
+
+Microbial dsDNA from pathogens such as HSV-1 or Francisella can activate AIM2. AIM2 can participate in a PANoptosome together with Pyrin, ZBP1, ASC, caspase-1, caspase-8, RIPK1, RIPK3, and FADD [11].
+
+This demonstrates that PANoptosome nucleation does not necessarily involve one isolated sensor. Multiple innate immune sensors can cooperate within the same signaling architecture.
+
+A third route is RIPK1-centered PANoptosis.
+
+Loss or inhibition of TAK1-dependent survival signaling, including during Yersinia-mediated interference with host signaling, can permit activation of RIPK1 and assembly of complexes containing RIPK1, FADD, caspase-8, NLRP3, ASC, and RIPK3 [5,13].
+
+A fourth well-defined system is NLRP12-dependent PANoptosis.
+
+Heme combined with PAMPs or inflammatory signals such as TNF can induce NLRP12 through TLR2/TLR4-IRF1-dependent signaling. NLRP12 subsequently participates in a PANoptosome that engages inflammasome machinery, caspase-8, and RIPK3 [14].
+
+More recent evidence also supports direct NLRP3-centered PANoptosome formation in prolonged inflammatory stimulation [21].
+
+Therefore, PANoptosis has several initiating routes, but their common feature is sensor-dependent recruitment of interacting inflammatory and death machinery into a higher-order signaling platform.
+
+3. Core Mechanistic Machinery
+
+The molecular core of PANoptosis is the PANoptosome rather than any single caspase, kinase, or pore-forming protein.
+
+PANoptosome assembly depends strongly on protein-interaction domains.
+
+RHIM-RHIM interactions connect ZBP1, RIPK1, and RIPK3.
+
+Death-domain interactions connect RIPK1 with FADD-containing death machinery.
+
+Death-effector-domain interactions enable FADD-dependent recruitment and activation of procaspase-8 [39].
+
+PYD and CARD interactions permit ASC and inflammasome-associated proteins to connect sensors to caspase-1 and related components [15-16].
+
+This produces an integrated molecular platform containing variable combinations of:
+
+ZBP1 or another initiating sensor;
+
+RIPK1;
+
+RIPK3;
+
+FADD;
+
+caspase-8;
+
+inflammasome sensors such as NLRP3 or AIM2;
+
+ASC;
+
+caspase-1;
+
+and downstream execution machinery [5,11-12,15].
+
+Physical assembly is experimentally supported by co-immunoprecipitation of these proteins and microscopy demonstrating colocalization of proteins representing different death pathways within the same individual cells [5,11-12,17].
+
+This distinction is crucial. Detection of cleaved caspase-3, phospho-MLKL, and cleaved GSDMD in a tissue is not sufficient by itself to prove PANoptosis. The stronger mechanistic interpretation requires evidence that upstream signaling integrates these pathways through a common PANoptosome architecture.
+
+Once assembled, the PANoptosome functions as a combined protease and kinase signaling platform.
+
+Caspase-8 is a major organizing node. FADD-mediated proximity enables caspase-8 activation, which can initiate apoptotic substrate cleavage while also interacting functionally with inflammasome and necroptotic machinery [15,18].
+
+RIPK3 functions both as a kinase and as a signaling scaffold. Activation of RIPK3 leads to the phosphorylation of MLKL, the executioner of necroptosis [5].
+
+Inflammasome-associated modules recruit caspase-1, allowing processing of inflammatory cytokines and gasdermins [4,20-21].
+
+Thus, the core machinery of PANoptosis is not three independent death pathways operating side by side. It is an integrated interaction network that permits one branch to compensate for, reinforce, or redirect another.
+
+4. Propagation and Amplification
+
+After PANoptosome assembly, signaling propagates through interacting protease and kinase modules.
+
+The pyroptotic-associated branch commonly involves inflammasome-associated activation of caspase-1.
+
+Caspase-1 was previously identified as the IL-1-converting enzyme that cleaves pro-IL-1β and pro-IL-18 to their mature secreted forms [27].
+
+Depending on the cellular context, caspase-8 can also contribute directly or indirectly to gasdermin processing [13,18].
+
+The apoptotic-associated branch involves caspase-8-mediated activation of downstream caspases, particularly caspase-3 and caspase-7 [18,26].
+
+These proteases cleave multiple structural and regulatory substrates, producing chromatin condensation, nuclear fragmentation, cytoskeletal remodeling, and other apoptosis-associated changes.
+
+The necroptotic-associated branch is organized primarily around RIPK3.
+
+Activated RIPK3 phosphorylates MLKL, enabling MLKL oligomerization and membrane-directed activity [19,26].
+
+These branches do not function independently.
+
+Caspase-8 simultaneously promotes apoptotic signaling and restrains excessive RIPK1/RIPK3-driven necroptosis. Inhibition or loss of caspase-8 can therefore redirect signaling toward RIPK3-MLKL-dependent execution [13,18].
+
+Conversely, impairment of inflammasome-associated execution does not necessarily rescue the cell because apoptotic and necroptotic machinery can maintain lethality [20-21].
+
+This redundancy is one of the defining characteristics of PANoptosis.
+
+Recent evidence further suggests that RIPK3 itself can organize progressive signaling assemblies. RIPK3 polymers may recruit MLKL and subsequently RIPK1-containing machinery, thereby connecting necroptotic membrane damage with broader caspase-dependent PANoptotic signaling [36]. This architecture is important but comparatively recent and should not yet be presented as the universal structure of every PANoptosome.
+
+At the membrane level, amplification becomes particularly strong.
+
+Gasdermin pores in the plasma membrane disrupt the electrochemical gradient, leading to water influx and cell swelling [27].
+
+Activated MLKL produces additional membrane permeability and ionic disequilibrium [26].
+
+Meanwhile, apoptotic caspases dismantle intracellular structural systems.
+
+Thus, PANoptosis progressively converts an upstream immune-signaling event into simultaneous membrane, nuclear, cytoskeletal, and organelle dysfunction.
+
+5. Protective/Negative Regulators
+
+Several checkpoints restrain PANoptosome formation or determine which execution branch predominates.
+
+TAK1 is an important upstream protective regulator.
+
+Normal TAK1-dependent signaling maintains pro-survival and inflammatory responses while suppressing inappropriate RIPK1-dependent death-complex formation. Loss or inhibition of TAK1 permits RIPK1 activation and can facilitate PANoptosis [13].
+
+cFLIP is another major checkpoint.
+
+cFLIP interacts with FADD/caspase-8-containing complexes and regulates the magnitude and quality of caspase-8 activation [23].
+
+Depending on isoform abundance, cleavage state, stoichiometry, and cellular context, cFLIP can restrict full apoptotic execution while simultaneously suppressing uncontrolled conversion toward necroptosis.
+
+This means cFLIP should not be represented as a simple universal inhibitor. It is better regarded as a branch-selection and signaling-threshold regulator.
+
+cIAP proteins provide additional control through ubiquitin-dependent regulation of RIPK1-associated signaling platforms. Loss of cIAP activity can permit formation of RIPK1-FADD-caspase-8 death complexes [24].
+
+Processing of cFLIP during viral infection can also limit excessive tissue damage and favor tissue repair, illustrating that regulation of this checkpoint has physiological consequences beyond individual-cell survival [25].
+
+IRF1 plays a different role.
+
+Rather than acting primarily as a negative regulator, IRF1 provides transcriptional licensing of several PANoptotic systems. Loss of IRF1 reduces activation of ZBP1-, AIM2-, RIPK1-, and NLRP12-associated PANoptosomes [22].
+
+Thus, protective and regulatory control occurs at several levels:
+
+sensor availability;
+
+transcriptional priming;
+
+ubiquitination of RIPK1-containing complexes;
+
+FADD/caspase-8/cFLIP stoichiometry;
+
+inflammasome activation;
+
+and competition among downstream death branches.
+
+6. Commitment / Point of No Return
+
+No universal molecular point of no return has been established for PANoptosis.
+
+Innate immune sensing alone is not sufficient to define commitment.
+
+Transcriptional induction of ZBP1 or other sensors is also not equivalent to irreversible death.
+
+Early PANoptosome assembly can be pharmacologically or genetically suppressed before extensive downstream execution [37].
+
+The strongest general model is that commitment emerges when the integrated execution machinery creates sustained, self-reinforcing cellular damage that can no longer be compensated by inhibition of one individual branch.
+
+This includes combinations of:
+
+gasdermin-dependent membrane pores;
+
+RIPK3-MLKL-dependent membrane injury;
+
+caspase-mediated intracellular proteolysis;
+
+irreversible ion-gradient collapse;
+
+and progressive membrane failure.
+
+An important feature of PANoptosis is therefore redundancy.
+
+The point of no return cannot generally be assigned to caspase-1 activation, GSDMD cleavage, caspase-8 activation, caspase-3 cleavage, RIPK3 activation, or MLKL phosphorylation individually because elimination of one branch may leave alternative PANoptotic execution machinery operational [5,18,20-21].
+
+The most defensible commitment concept is consequently:
+
+PANoptosome-dependent activation of sufficient parallel execution machinery to generate sustained cellular and membrane damage that cannot be rescued by blockade of an individual pyroptotic, apoptotic, or necroptotic branch.
+
+Terminal NINJ1-mediated rupture occurs later and should not itself be equated with commitment because NINJ1 loss can prevent full membrane rupture while upstream death processes continue [32-33].
+
+7. Execution and Terminal Cause of Death
+
+PANoptotic execution is multimodal.
+
+The cell is not killed by one universal biochemical lesion operating independently of the other branches.
+
+Gasdermins represent one membrane-damaging system.
+
+Caspase-1 cleaves GSDMD, and caspase-8 can contribute to gasdermin activation in some contexts. Caspase-3/7 can additionally activate GSDME where this protein is expressed [13,18,26-28].
+
+Activated gasdermin N-terminal fragments insert into membranes and generate pores.
+
+These pores permit ion movement, water influx, cytokine release, cellular swelling, and progressive loss of membrane homeostasis [27].
+
+MLKL provides a second membrane-disruptive system.
+
+RIPK3 phosphorylation of MLKL promotes MLKL oligomerization and membrane association, producing additional ionic disequilibrium and permeability [19,26].
+
+In parallel, caspase-3 and caspase-7 execute apoptotic-like intracellular destruction through proteolysis of structural and nuclear substrates [26].
+
+Therefore, PANoptotic cells can experience simultaneous:
+
+gasdermin-dependent permeability;
+
+MLKL-dependent membrane injury;
+
+caspase-mediated intracellular dismantling;
+
+inflammatory cytokine maturation;
+
+ionic collapse;
+
+and organelle dysfunction.
+
+The proximate terminal cause of lytic PANoptotic death is best described as irreversible plasma-membrane failure with catastrophic loss of ionic and metabolic compartmentalization.
+
+Importantly, membrane permeabilization and complete plasma-membrane rupture are separable events.
+
+Gasdermins and MLKL can establish a severely permeabilized dying state before the membrane undergoes macroscopic rupture.
+
+NINJ1 provides the best-supported terminal rupture machinery [29-33].
+
+NINJ1 forms higher-polymeric assemblies that promote membrane rupture by capping membrane edges, stabilizing membrane lesions of variable size and morphology through which LDH, large danger-associated molecular patterns, and other cellular content are released into the extracellular milieu [30].
+
+PANoptosis-associated experiments demonstrate that NINJ1 loss reduces terminal cell lysis and inflammatory release during infection and heat stress while not completely preventing upstream death progression [32-33].
+
+Therefore:
+
+Gasdermins/MLKL → membrane permeabilization and ionic collapse.
+
+NINJ1 → terminal large-scale membrane rupture and release of large intracellular DAMPs.
+
+NINJ1 should thus be classified as a late rupture effector rather than the universal upstream executioner or commitment switch of PANoptosis.
+
+8. Morphological Sequence
+
+PANoptosis does not have one invariant morphology because the relative contribution of pyroptotic, apoptotic, and necroptotic execution differs among triggers and cell types.
+
+The general chronological sequence is:
+
+Initially viable cell → innate immune sensor activation and PANoptosome assembly with little visible morphological change → activation of caspases and RIPKs → mixed apoptotic and lytic morphology → chromatin condensation and nuclear alterations → membrane blebbing → gasdermin/MLKL-dependent permeability → Na+ and water entry → cellular swelling and osmotic distortion → membrane herniations or balloon-like structures → terminal NINJ1-associated plasma-membrane rupture → release of inflammatory mediators and DAMPs [26-33].
+
+Apoptotic features include chromatin condensation, nuclear fragmentation, and cytoskeletal dismantling.
+
+Pyroptotic-like features include rapid membrane permeability, cell swelling, membrane ballooning, and inflammatory mediator release.
+
+Necroptotic-like features include MLKL-associated ionic imbalance, swelling, and lytic membrane failure.
+
+The relative weight of these morphological features can differ considerably.
+
+Therefore, PANoptosis should not be diagnosed from the presence of “mixed morphology” alone.
+
+The morphology reflects the integrated execution process; it does not define it.
+
+9. Crosstalk and Differential Diagnosis
+
+Crosstalk is not incidental to PANoptosis. It is the fundamental biological principle underlying the pathway.
+
+The first major distinction is from pure pyroptosis.
+
+Classical pyroptosis can be explained by inflammasome/caspase activation followed by gasdermin-dependent membrane permeabilization [27].
+
+PANoptosis requires additional integrated signaling involving apoptotic and necroptotic machinery. If loss of caspase-1 or GSDMD eliminates death completely and no broader PANoptotic complex is demonstrated, the process is better described as pyroptosis.
+
+The second distinction is from apoptosis.
+
+Caspase-8 and caspase-3/7 activation can occur during PANoptosis, but their presence does not make the entire process apoptosis because inflammasome and RIPK3/MLKL machinery can simultaneously participate.
+
+The third distinction is from necroptosis.
+
+RIPK3 activation and MLKL phosphorylation may contribute strongly to PANoptosis, but a pure necroptotic mechanism does not require integrated inflammasome and apoptotic machinery.
+
+Indeed, influenza-associated ZBP1-dependent PANoptosis can remain strongly lytic even when MLKL-dependent necroptotic execution is removed, demonstrating that MLKL is not universally required for total PANoptotic lethality [35].
+
+This redundancy is one of the strongest diagnostic differences between PANoptosis and isolated execution pathways.
+
+Caspase-8 occupies a central crosstalk position.
+
+It promotes apoptotic signaling, can contribute to gasdermin processing, and suppresses unrestricted necroptotic signaling [13,18].
+
+When caspase-8 signaling changes, the relative contribution of pyroptotic, apoptotic, and necroptotic branches changes with it.
+
+NLRP3 likewise participates beyond classical pyroptosis. It can serve as both an inflammasome sensor and a component of broader PANoptosome architecture [20-21].
+
+PANoptosis should therefore be diagnosed from network organization and genetic redundancy, not simply from a checklist of phospho-MLKL, cleaved caspase-3, and GSDMD.
+
+10. Experimental Validation
+
+The strongest experimental demonstration of PANoptosis requires integration of biochemical, genetic, and spatial evidence.
+
+First, a relevant upstream trigger and sensor should be established.
+
+Examples include Z-nucleic acid/ZBP1, cytosolic DNA/AIM2, TAK1 inhibition/RIPK1, or heme/PAMP-dependent NLRP12 activation [7-14].
+
+Second, PANoptosome formation should be demonstrated.
+
+Co-immunoprecipitation can show physical association among proteins belonging to different death modules, such as RIPK1, RIPK3, FADD, caspase-8, ASC, NLRP3, ZBP1, AIM2, or Pyrin [5,11-12].
+
+Microscopy or expansion microscopy can provide stronger spatial evidence that proteins representing different pathways occupy a common complex in individual cells rather than arising from different cell populations [17].
+
+Third, downstream branches should be demonstrated biochemically.
+
+Relevant measurements include:
+
+caspase-1 activation;
+
+GSDMD cleavage;
+
+IL-1β/IL-18 maturation;
+
+caspase-8 activation;
+
+caspase-3/7 cleavage;
+
+RIPK3 activation;
+
+MLKL phosphorylation;
+
+and membrane permeability/lysis [1,5,21,28].
+
+Fourth, combinatorial loss-of-function is particularly important.
+
+Deletion or inhibition of a single pathway component often produces incomplete protection because another execution branch remains available.
+
+In contrast, combined disruption of caspase-1/11-, RIPK3-, and caspase-8-associated machinery can provide substantially stronger protection against pathogen-induced PANoptotic death [5].
+
+This genetic redundancy is among the strongest pieces of evidence distinguishing PANoptosis from isolated pyroptosis, apoptosis, or necroptosis.
+
+Fifth, terminal lysis can be investigated through NINJ1 perturbation.
+
+NINJ1 loss should reduce large-scale plasma-membrane rupture and DAMP release while allowing evaluation of whether upstream caspase/gasdermin/MLKL-dependent death signaling continues [32-33].
+
+Finally, bulk or single-cell transcriptomic co-expression of PANoptosis-related genes cannot establish active PANoptosis.
+
+Expression of ZBP1, RIPK1, RIPK3, CASP8, CASP1, NLRP3, GSDMD, MLKL, or related genes can identify PANoptosis-associated transcriptional states, inflammatory competence, or susceptibility.
+
+Active PANoptosis requires functional evidence of integrated pathway activation, ideally including physical PANoptosome assembly and combinatorial genetic dependency.
+
+11. Molecular Hierarchy
+
+Initiators/sensors: ZBP1, AIM2, NLRP12, NLRP3, RIPK1-centered danger signaling, and other stimulus-specific innate immune sensors [3,7-14,21].
+
+IAV infection upregulates ZBP1 expression through activated RIG-I-MAVS signaling and IRF1, and induces TRIM34-mediated K63-linked polyubiquitination of ZBP1 at K17 [9].
+
+Scaffolds/adaptors: RIPK1, RIPK3, FADD, ASC, ZBP1, Pyrin, and stimulus-dependent PANoptosome components [5,11-12,15].
+
+Core enzymatic machinery: caspase-8, caspase-1, RIPK1, RIPK3, and downstream caspase-3/7 activation [5,15,18-21].
+
+Pyroptotic-associated executors: GSDMD and, in appropriate contexts, other gasdermins such as GSDME [26-28].
+
+Apoptotic-associated executors: caspase-3/7 and their structural/nuclear substrates [26].
+
+Necroptotic-associated executor: activated MLKL downstream of RIPK3 [19,26].
+
+Terminal rupture effector: NINJ1 in demonstrated lytic PANoptotic contexts [29-33].
+
+Negative regulators/checkpoints: TAK1, cFLIP, cIAP proteins, ubiquitin-dependent RIPK1 regulation, and additional context-dependent mechanisms controlling death-complex formation [13,23-25].
+
+Biomarkers/readouts: cleaved caspase-1, cleaved GSDMD, cleaved caspase-8, cleaved caspase-3/7, phospho-MLKL, IL-1β/IL-18 processing, membrane permeability, LDH/DAMP release, and NINJ1-dependent rupture.
+
+No individual marker is sufficient to define PANoptosis.
+
+12. Integrated Canonical Sequence
+
+The best-supported generalized sequence is:
+
+Pathogen-associated signal, Z-form nucleic acid, cytosolic DNA, heme/PAMP combination, inflammatory cytokine, TAK1 disruption, or other appropriate homeostatic danger signal → stimulus-specific innate sensor activation → transcriptional licensing where required → domain-mediated PANoptosome assembly around ZBP1, AIM2, RIPK1, NLRP12, NLRP3, or related sensor hubs → recruitment of RIPK1/RIPK3 plus FADD/caspase-8 and ASC/inflammasome machinery → proximity-dependent activation of caspases and RIPK kinases → simultaneous cross-regulation and shunting among pyroptotic, apoptotic, and necroptotic branches → caspase-1 activation and GSDMD cleavage + caspase-8/caspase-3/7 activation + RIPK3-dependent MLKL phosphorylation → inflammatory cytokine maturation + gasdermin pore formation + apoptotic substrate proteolysis + MLKL-dependent membrane injury → ion-gradient disruption → water influx and swelling → cytoskeletal, nuclear, mitochondrial, and membrane dysfunction → sustained plasma-membrane permeability → NINJ1 oligomerization in relevant contexts → catastrophic plasma-membrane rupture → release of LDH, HMGB1, cytokines, and other intracellular molecules → irreversible loss of compartmentalization and inflammatory cell death [1-6,15-21,26-33].
+
+Major route-specific examples are:
+
+IAV or fungal Z-nucleic acids → ZBP1 → RIPK3/RIPK1/caspase-8/NLRP3-containing PANoptosome → gasdermin, apoptotic caspase, and RIPK3-associated execution [7-8,34-35].
+
+HSV-1 or Francisella dsDNA → AIM2 + Pyrin + ZBP1 → ASC/FADD/caspase-1/caspase-8/RIPK1/RIPK3 → integrated PANoptotic execution [11].
+
+TAK1 inhibition or Yersinia-mediated survival-signaling blockade → RIPK1-centered PANoptosome → FADD/caspase-8 + NLRP3 + RIPK3 branches [5,13].
+
+Heme + PAMPs/TNF → IRF1-dependent NLRP12 induction → NLRP12 PANoptosome → inflammasome + caspase-8/RIPK3 signaling → PANoptosis [14].
+
+Not every route requires equal activation of all three execution branches, and no requirement exists that pyroptotic, apoptotic, and necroptotic outputs contribute in identical proportions.
+
+13. Final Mechanistic Interpretation
+
+For RCDome, the most defensible operational definition is:
+
+PANoptosis is an integrative, inflammatory, usually lytic regulated cell-death modality in which innate immune or danger sensors assemble a stimulus-specific PANoptosome that physically and functionally integrates pyroptotic, apoptotic, and necroptotic machinery. PANoptosome-associated caspases, RIPKs, inflammasome components, and adaptors activate overlapping execution branches involving gasdermins, apoptotic caspases, and RIPK3-MLKL signaling, producing a death response that cannot be explained by any single component pathway alone [1-6].
+
+Its defining event is therefore PANoptosome assembly, not simultaneous positivity for three sets of biomarkers.
+
+The best-established sensor systems include ZBP1, AIM2, RIPK1-associated complexes, NLRP12, and NLRP3 [5,7-14,21].
+
+The molecular architecture is stimulus dependent. There is no single invariant PANoptosome containing every known PANoptotic protein in every cell type.
+
+Its strongest mechanistic feature is redundancy and branch plasticity. Removal of one execution pathway can redirect signaling through the remaining branches, explaining why individual inhibition of pyroptotic, apoptotic, or necroptotic components frequently fails to prevent death completely.
+
+No universal point of no return has been identified. The strongest functional commitment model is activation of sufficient parallel execution machinery that membrane and intracellular damage become irreversible despite loss of any single pathway branch.
+
+The terminal physical lesion in lytic PANoptosis is irreversible plasma-membrane failure.
+
+Gasdermins and MLKL contribute to earlier membrane permeability and ionic collapse, whereas NINJ1 mediates large-scale terminal membrane rupture and DAMP release in experimentally demonstrated contexts [29-33].
+
+NINJ1 should therefore be considered a terminal lysis effector rather than the defining initiator of PANoptosis.
+
+The major unresolved question is how different PANoptosome architectures determine the precise commitment threshold and relative contribution of gasdermin-, caspase-, and MLKL-dependent execution in individual cells.
+
+For transcriptomic applications in RCDome, expression-based patterns should be termed PANoptosis-associated transcriptional states or PANoptotic susceptibility/competence states. Gene expression alone cannot demonstrate PANoptosome assembly or active PANoptotic execution.
+

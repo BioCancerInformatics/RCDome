@@ -1,24 +1,24 @@
-## Cellular Senescence — Mechanistic State Pathway
+## Cellular Senescence
 
-Cellular senescence is a stress-induced cell-fate program characterized by stable or essentially irreversible withdrawal from the cell cycle while cellular viability and metabolic activity are maintained. Unlike canonical regulated cell-death modalities, senescence does not culminate in activation of a dedicated molecular executor that directly destroys the cell. Instead, senescent cells remain alive, undergo extensive transcriptional, chromatin, metabolic, mitochondrial, lysosomal, and secretory remodeling, and frequently acquire increased resistance to apoptosis [1–5]. Thus, the terminal outcome of the senescence program is persistent proliferative arrest rather than intrinsic cellular death.
+Cellular senescence is a stress-induced cell-fate program characterized by stable or essentially irreversible withdrawal from the cell cycle while cellular viability and metabolic activity are maintained. Unlike canonical regulated cell-death modalities, senescence does not culminate in activation of a dedicated molecular executor that directly destroys the cell. Instead, senescent cells remain alive, undergo extensive transcriptional, chromatin, metabolic, mitochondrial, lysosomal, and secretory remodeling, and frequently acquire increased resistance to apoptosis [1-5]. Thus, the terminal outcome of the senescence program is persistent proliferative arrest rather than intrinsic cellular death.
 
-This distinction separates senescence mechanistically from apoptosis, necroptosis, pyroptosis, ferroptosis, and other forms of regulated cell death. Apoptosis terminates through caspase-dependent cellular dismantling, necroptosis through RIPK3–MLKL-dependent membrane disruption, and pyroptosis through gasdermin-dependent membrane permeabilization. No equivalent senescence-specific executioner has been established [4–6]. Molecules such as p53, p21, p16, RB, ATM, cGAS, STING, NF-κB, and components of the SASP regulate the establishment or maintenance of the senescent state rather than directly executing cellular death.
+This distinction separates senescence mechanistically from apoptosis, necroptosis, pyroptosis, ferroptosis, and other forms of regulated cell death. Apoptosis terminates through caspase-dependent cellular dismantling, necroptosis through RIPK3–MLKL-dependent membrane disruption, and pyroptosis through gasdermin-dependent membrane permeabilization. No equivalent senescence-specific executioner has been established [4-6]. Molecules such as p53, p21, p16, RB, ATM, cGAS, STING, NF-κB, and components of the SASP regulate the establishment or maintenance of the senescent state rather than directly executing cellular death.
 
-Senescence can arise from multiple biological contexts, including progressive telomere shortening, persistent DNA damage, oncogene activation, oxidative stress, mitochondrial dysfunction, impaired autophagy or lysosomal function, inflammatory signaling, developmental programs, tissue injury, and exposure to genotoxic anticancer therapies [1–3,7]. Despite the heterogeneity of initiating stimuli, these pathways frequently converge on inhibition of cyclin-dependent kinase activity and activation of the p53–p21 and/or p16–RB tumor-suppressor networks.
+Senescence can arise from multiple biological contexts, including progressive telomere shortening, persistent DNA damage, oncogene activation, oxidative stress, mitochondrial dysfunction, impaired autophagy or lysosomal function, inflammatory signaling, developmental programs, tissue injury, and exposure to genotoxic anticancer therapies [1-3,7]. Despite the heterogeneity of initiating stimuli, these pathways frequently converge on inhibition of cyclin-dependent kinase activity and activation of the p53–p21 and/or p16–RB tumor-suppressor networks.
 
-One of the best-established routes is replicative senescence initiated by telomere attrition. During repeated cell division, progressive telomere shortening eventually produces critically short or dysfunctional telomeres that can no longer be adequately protected by the shelterin complex [8,9].
+One of the best-established routes is replicative senescence initiated by telomere attrition. During repeated cell division, progressive telomere shortening eventually produces critically short or dysfunctional telomeres that can no longer be adequately protected by the shelterin complex [8-9].
 
 In functional telomeres, shelterin proteins suppress inappropriate DNA-damage signaling at chromosome ends. TRF2 principally restrains ATM activation, whereas POT1 restrains ATR signaling [9]. Loss of adequate telomere protection therefore allows chromosome ends to be interpreted as persistent DNA lesions.
 
-The canonical replicative sequence can consequently be represented as progressive telomere shortening or telomere deprotection → loss of sufficient shelterin-mediated suppression → ATM and/or ATR activation → DNA-damage checkpoint signaling → p53 activation → p21 induction → inhibition of cyclin-dependent kinases → stable cell-cycle arrest [8–10].
+The canonical replicative sequence can consequently be represented as progressive telomere shortening or telomere deprotection → loss of sufficient shelterin-mediated suppression → ATM and/or ATR activation → DNA-damage checkpoint signaling → p53 activation → p21 induction → inhibition of cyclin-dependent kinases → stable cell-cycle arrest [8-10].
 
-ATM and ATR operate as central DNA-damage sensors. ATM responds particularly strongly to double-strand-break-associated structures, whereas ATR responds to replication-associated single-stranded DNA and related abnormalities. Activated checkpoint signaling promotes phosphorylation of downstream substrates including H2AX and checkpoint kinases such as CHK1 and CHK2, generating persistent DNA-damage foci [10,11].
+ATM and ATR operate as central DNA-damage sensors [51]. ATM responds particularly strongly to double-strand-break-associated structures, whereas ATR responds to replication-associated single-stranded DNA and related abnormalities. ATM phosphorylates H2AX and CHK2, and phosphorylated H2AX and 53BP1 rapidly localize to DNA double-strand breaks to form characteristic foci [46].
 
-Senescence can also arise from telomeric damage without substantial telomere shortening. Oxidative formation of 8-oxo-guanine specifically at telomeres can create replication stress, activate ATM/ATR signaling, stimulate p53, and induce premature senescence [12]. Thus, telomere dysfunction rather than absolute telomere length is the critical upstream variable.
+Senescence can also arise from telomeric damage without substantial telomere shortening. Oxidative formation of 8-oxo-guanine specifically at telomeres can create replication stress, activate ATM/ATR signaling, stimulate p53, and induce premature senescence [11]. Thus, telomere dysfunction rather than absolute telomere length is the critical upstream variable.
 
 Persistent non-telomeric DNA damage can produce a similar sequence. Genotoxic drugs, radiation, replication stress, oxidative injury, and other lesions activate the DNA damage response, which converges on ATM/ATR–CHK signaling and p53-dependent transcription.
 
-Activated p53 induces CDKN1A, encoding p21CIP1. p21 binds and inhibits cyclin-dependent kinase complexes, reducing phosphorylation of retinoblastoma protein and restricting progression through the cell cycle [1,2,13].
+Activated p53 induces CDKN1A, encoding p21CIP1. p21 binds and inhibits cyclin-dependent kinase complexes, reducing phosphorylation of retinoblastoma protein and restricting progression through the cell cycle [1-2,12].
 
 The p53–p21 pathway is particularly important during the initial establishment of senescence. By suppressing CDK activity, p21 prevents efficient phosphorylation and inactivation of RB-family proteins, allowing RB-dependent repression of E2F target genes.
 
@@ -26,7 +26,7 @@ The resulting sequence is persistent DNA damage → ATM/ATR → CHK1/CHK2 → p5
 
 However, p21-dependent arrest alone does not necessarily constitute irreversible senescence. Early arrest can remain reversible if the inducing stress disappears or if checkpoint signaling is experimentally removed. This distinction separates early senescence-like arrest from fully stabilized senescence.
 
-A second major pathway involving p16INK4A contributes to long-term arrest. p16, encoded by CDKN2A, directly inhibits CDK4 and CDK6. This prevents cyclin D–CDK4/6 complexes from efficiently phosphorylating RB [2,13,14].
+A second major pathway involving p16INK4A contributes to long-term arrest. p16, encoded by CDKN2A, directly inhibits CDK4 and CDK6. This prevents cyclin D–CDK4/6 complexes from efficiently phosphorylating RB [2,12-13].
 
 Hypophosphorylated RB binds E2F-family transcription factors and represses transcription of genes necessary for DNA replication and cell-cycle progression. Persistent p16–RB signaling therefore reinforces a state in which proliferative gene expression remains suppressed even in the presence of extracellular mitogenic signals.
 
@@ -36,31 +36,31 @@ The relative contributions of p53–p21 and p16–RB vary substantially accordin
 
 The two systems nevertheless converge functionally on suppression of CDK activity and repression of proliferation-associated transcription.
 
-RB-mediated transcriptional control extends beyond direct E2F binding. Senescence is associated with broader reorganization of E2F- and DREAM-controlled transcriptional programs, resulting in repression of genes involved in DNA replication, mitosis, chromosome segregation, and DNA repair [13].
+RB-mediated transcriptional control extends beyond direct E2F binding. Senescence is associated with broader reorganization of E2F- and DREAM-controlled transcriptional programs, resulting in repression of genes involved in DNA replication, mitosis, chromosome segregation, and DNA repair [12].
 
 Thus, the central biochemical machinery of senescence is fundamentally an arrest machinery rather than a death machinery: ATM/ATR and associated stress sensors detect persistent damage; p53–p21 and p16–RB inhibit the CDK–cyclin system; RB/E2F/DREAM-dependent transcriptional regulation then suppresses the cellular program required for continued proliferation.
 
-Oncogene-induced senescence represents a second major entry route. In this context, the initiating event is not insufficient mitogenic signaling but excessive mitogenic signaling. Aberrant activation of RAS, RAF, or downstream ERK pathways generates oncogenic stress that can activate a stable tumor-suppressive arrest instead of unrestricted proliferation [15–17].
+Oncogene-induced senescence represents a second major entry route. In this context, the initiating event is not insufficient mitogenic signaling but excessive mitogenic signaling. Aberrant activation of RAS, RAF, or downstream ERK pathways generates oncogenic stress that can activate a stable tumor-suppressive arrest instead of unrestricted proliferation [14-16].
 
 The sequence can be represented as oncogenic RAS/RAF activation → excessive RAF–MEK–ERK signaling → abnormal proliferative and replication stress → activation of p21 and/or p16 → CDK inhibition and RB activation → repression of E2F-dependent proliferation → oncogene-induced senescence.
 
-Oncogenic RAS signaling can also activate negative-feedback networks that suppress growth-factor signaling downstream of the oncogenic stimulus. These feedback systems reinforce the transition from excessive mitogenic drive to stable proliferative arrest [16].
+Oncogenic RAS signaling can also activate negative-feedback networks that suppress growth-factor signaling downstream of the oncogenic stimulus. These feedback systems reinforce the transition from excessive mitogenic drive to stable proliferative arrest [15,49].
 
-The dependence on ERK signaling can be experimentally demonstrated in selected models. Inhibition of MEK or ERK can suppress or reverse components of oncogene-induced arrest, whereas sustained or experimentally increased ERK signaling can promote a senescence-like phenotype [15–17].
+The dependence on ERK signaling can be experimentally demonstrated in selected models. ERK2 knockdown reversed senescence in Ras oncogene-expressing cells, and JNK/ERK inhibitors reversed early senescence induction [48].
 
 This illustrates an important principle: identical signaling modules can produce proliferation or senescence depending on signaling strength, duration, feedback architecture, and cellular context.
 
-Oxidative and metabolic stresses constitute additional routes into senescence. ROS can damage genomic DNA, telomeres, proteins, lipids, and mitochondria, thereby activating checkpoint pathways and reinforcing the senescence program [12,18].
+Oxidative and metabolic stresses constitute additional routes into senescence. ROS can damage genomic DNA, telomeres, proteins, lipids, and mitochondria, thereby activating checkpoint pathways and reinforcing the senescence program [11,17].
 
-Mitochondria subsequently become not only targets of senescence-inducing stress but also important amplifiers of the senescent state. Senescent cells frequently show altered mitochondrial morphology, defective respiratory activity, altered mitochondrial turnover, and changes in ROS production [18,19].
+Mitochondria subsequently become not only targets of senescence-inducing stress but also important amplifiers of the senescent state. Senescent cells frequently show altered mitochondrial morphology, defective respiratory activity, altered mitochondrial turnover, and changes in ROS production [17-18].
 
-Persistent DNA-damage signaling can itself promote mitochondrial dysfunction. This creates a positive-feedback circuit in which DDR signaling alters mitochondrial physiology, dysfunctional mitochondria increase cellular stress, and that stress reinforces persistent DDR and inflammatory signaling [19].
+Persistent DNA-damage signaling can itself promote mitochondrial dysfunction. This creates a positive-feedback circuit in which DDR signaling alters mitochondrial physiology, dysfunctional mitochondria increase cellular stress, and that stress reinforces persistent DDR and inflammatory signaling [18].
 
-A mechanistically defined metabolic branch links ATM signaling directly to mitochondrial metabolism. ATM-dependent phosphorylation of BNIP3 has been associated with increased mitochondrial cristae formation and enhanced fatty-acid oxidation. Increased fatty-acid oxidation raises acetyl-CoA availability, promotes histone acetylation, and contributes to induction of p16 and stabilization of senescence [20].
+A mechanistically defined metabolic branch links ATM signaling directly to mitochondrial metabolism. ATM-dependent phosphorylation of BNIP3 has been associated with increased mitochondrial cristae formation and enhanced fatty-acid oxidation. Increased fatty-acid oxidation raises acetyl-CoA availability, promotes histone acetylation, and contributes to induction of p16 and stabilization of senescence [19].
 
 This route can therefore be represented as DNA damage → ATM → BNIP3-associated mitochondrial remodeling → increased fatty-acid oxidation → increased acetyl-CoA → altered histone acetylation → increased p16 expression → reinforcement of RB-dependent arrest.
 
-Autophagy and lysosomal integrity also regulate entry into senescence. Impaired autophagic flux can cause accumulation of damaged mitochondria and cellular waste, increased oxidative stress, lysosomal dysfunction, and activation of p53-associated senescence signaling [21,22].
+Autophagy and lysosomal integrity also regulate entry into senescence. Impaired autophagic flux can cause accumulation of damaged mitochondria and cellular waste, increased oxidative stress, lysosomal dysfunction, and activation of p53-associated senescence signaling [20-21].
 
 Thus, autophagy impairment generally promotes senescence through failure of cellular quality control rather than through direct execution of death.
 
@@ -68,81 +68,79 @@ The sequence in this context can be represented as defective autophagy or lysoso
 
 Once the initial arrest has formed, additional mechanisms convert a transient checkpoint response into a more persistent cell state. Chromatin remodeling represents one major stabilization mechanism.
 
-Senescent cells can reorganize chromatin into senescence-associated heterochromatin foci, or SAHF, that concentrate silenced proliferation-associated loci within compact chromatin domains [23,24].
+Senescent cells can reorganize chromatin into senescence-associated heterochromatin foci, or SAHF, that concentrate silenced proliferation-associated loci within compact chromatin domains [22-23].
 
-Proteins involved in this process include HIRA, ASF1a, UBN1, and the histone variant macroH2A [23–25]. These factors help reorganize chromatin and reduce accessibility of genes required for proliferation.
+Proteins involved in this process include HIRA, ASF1a, UBN1, and the histone variant macroH2A [22-24]. These factors help reorganize chromatin and reduce accessibility of genes required for proliferation.
 
 A simplified sequence is persistent arrest signaling → HIRA/ASF1a/UBN1-dependent chromatin remodeling → macroH2A incorporation and heterochromatin reorganization → repression of E2F-controlled proliferative loci → stabilization of senescence.
 
-SAHF should nevertheless not be considered a universal defining feature. It is particularly prominent in several models of oncogene-induced senescence but may be absent or organized differently in replicative or other forms of senescence [26].
+SAHF should nevertheless not be considered a universal defining feature. Broader three-dimensional genome reorganization can therefore occur even when classical SAHF are not evident. Loss or redistribution of heterochromatin and changes in chromosomal compartmentalization modify gene expression throughout the senescent genome [25-26].
 
-Broader three-dimensional genome reorganization can therefore occur even when classical SAHF are not evident. Loss or redistribution of heterochromatin and changes in chromosomal compartmentalization modify gene expression throughout the senescent genome [26,27].
+Another recently characterized stabilization mechanism involves MYC degradation. Persistent constitutive degradation of MYC has been proposed as an important mechanism distinguishing irreversible senescence from reversible quiescence [27].
 
-Another recently characterized stabilization mechanism involves MYC degradation. Persistent constitutive degradation of MYC has been proposed as an important mechanism distinguishing irreversible senescence from reversible quiescence [28].
-
-Because MYC drives expression of numerous proliferation-associated genes, sustained MYC loss reduces the ability of senescent cells to restart proliferation even after the original stress is removed. Experimentally maintaining non-degradable MYC can restore proliferative capacity in selected models [28].
+Because MYC drives expression of numerous proliferation-associated genes, sustained MYC loss reduces the ability of senescent cells to restart proliferation even after the original stress is removed. Experimentally maintaining non-degradable MYC can restore proliferative capacity in selected models [27].
 
 This suggests the sequence persistent senescence signaling → constitutive MYC degradation → loss of MYC-dependent proliferative transcription → reduced capacity for cell-cycle re-entry → stabilization of irreversible arrest.
 
-Nevertheless, no single universal molecular point of no return has been established across all forms of senescence. Some early p21-dependent arrest states remain reversible, whereas cells become progressively more resistant to cell-cycle re-entry as RB-mediated repression, chromatin remodeling, metabolic adaptation, and persistent DDR become established [1–3,28].
+Nevertheless, no single universal molecular point of no return has been established across all forms of senescence. Some early p21-dependent arrest states remain reversible, whereas cells become progressively more resistant to cell-cycle re-entry as RB-mediated repression, chromatin remodeling, metabolic adaptation, and persistent DDR become established [1-3,27].
 
 The commitment transition is therefore likely distributed across several mutually reinforcing mechanisms rather than encoded by one universal molecular switch.
 
-In some cells, arrest can also emerge after G2 checkpoint activation rather than exclusively through direct G1 entry. Reciprocal regulation between p21, CHK1, cyclin D1, and RB can permit cells to exit a prolonged G2 state into a stable senescent arrest [29].
+In some cells, arrest can also emerge after G2 checkpoint activation rather than exclusively through direct G1 entry. Reciprocal regulation between p21, CHK1, cyclin D1, and RB can permit cells to exit a prolonged G2 state into a stable senescent arrest [28].
 
 This further emphasizes that senescence is not restricted to one cell-cycle transition but converges on durable suppression of proliferation through RB-centered mechanisms.
 
 A fully developed senescent phenotype also includes substantial inflammatory remodeling. One of the most important pathways connects damaged chromatin to innate immune sensing through cGAS and STING.
 
-During senescence, fragments of chromatin can detach from the nucleus and accumulate within the cytoplasm. These cytoplasmic chromatin fragments are recognized by cyclic GMP-AMP synthase, or cGAS [30–32].
+During senescence, fragments of chromatin can detach from the nucleus and accumulate within the cytoplasm. These cytoplasmic chromatin fragments are recognized by cyclic GMP-AMP synthase, or cGAS [29-31].
 
-Binding of double-stranded DNA activates cGAS and promotes synthesis of the second messenger cGAMP. cGAMP subsequently activates STING, initiating downstream inflammatory signaling that contributes to activation of NF-κB and expression of senescence-associated secretory phenotype genes [30–32].
+Binding of double-stranded DNA activates cGAS and promotes synthesis of the second messenger cGAMP. cGAMP engages STING, leading to the production of inflammatory cytokines, chemokines and type I interferons [30].
 
 The corresponding sequence is nuclear/chromatin instability → cytoplasmic chromatin fragments → cGAS activation → cGAMP production → STING signaling → inflammatory transcription → SASP.
 
 Importantly, the cGAS–STING pathway should generally be interpreted as an amplifier and inflammatory arm of senescence rather than the universal initiating mechanism of arrest. In many models, p53/p21 or p16/RB-dependent arrest is already established before robust SASP formation.
 
-Mitochondrial signaling can promote formation of cytoplasmic chromatin fragments. Mitochondrial dysfunction and ROS-dependent JNK signaling can favor nuclear changes and 53BP1-associated processes leading to chromatin release into the cytoplasm [32].
+Mitochondrial signaling can promote formation of cytoplasmic chromatin fragments. Mitochondrial dysfunction and ROS-dependent JNK signaling can favor nuclear changes and 53BP1-associated processes leading to chromatin release into the cytoplasm [31].
 
 This produces a reinforcing circuit: cellular damage → mitochondrial dysfunction and ROS → chromatin instability and cytoplasmic chromatin fragments → cGAS–STING → inflammatory signaling → reinforcement of the senescent phenotype.
 
-TXNRD1 provides an additional regulatory connection between redox biology and cGAS signaling. TXNRD1 can associate with cytoplasmic chromatin-associated signaling and increase innate immune activity in senescent cells, illustrating that redox-regulatory proteins can participate directly in establishment of the inflammatory phenotype [33].
+TXNRD1 provides an additional regulatory connection between redox biology and cGAS signaling. TXNRD1 can associate with cytoplasmic chromatin-associated signaling and increase innate immune activity in senescent cells, illustrating that redox-regulatory proteins can participate directly in establishment of the inflammatory phenotype [32].
 
-NF-κB is one of the principal transcriptional regulators of the SASP. It can be activated downstream of persistent DNA damage, cGAS–STING signaling, p38 MAPK, cytokine feedback, and additional stress pathways [2,34,35].
+NF-κB is one of the principal transcriptional regulators of the SASP. It can be activated downstream of persistent DNA damage, cGAS–STING signaling, p38 MAPK, cytokine feedback, and additional stress pathways [2,33-34].
 
-The SASP is not one invariant secretome. Its composition depends strongly on the inducing stimulus, tissue type, duration of senescence, and signaling context. Common components include inflammatory cytokines, chemokines, growth factors, matrix-remodeling proteins, and other secreted mediators [3,34–36].
+The SASP is not one invariant secretome. Its composition depends strongly on the inducing stimulus, tissue type, duration of senescence, and signaling context. Common components include inflammatory cytokines, chemokines, growth factors, matrix-remodeling proteins, and other secreted mediators [3,33-35,45].
 
 IL-1α, IL-6, and IL-8 are frequently associated with inflammatory SASP programs. Through autocrine or intracrine signaling, these mediators can help reinforce the senescent phenotype in the same cell.
 
-For example, mTORC1 can promote IL-1α translation, enhancing NF-κB-dependent SASP production [34]. Thus, although mTOR suppression can participate in some stress responses, persistent mTOR-associated signaling can independently support the inflammatory secretory phenotype of already senescent cells.
+For example, mTORC1 can promote IL-1α translation, enhancing NF-κB-dependent SASP production [33]. Thus, although mTOR suppression can participate in some stress responses, persistent mTOR-associated signaling can independently support the inflammatory secretory phenotype of already senescent cells.
 
-IL-6 can also participate in cell-autonomous reinforcement through cGAS–STING–NF-κB-related signaling [37].
+IL-6 can also participate in cell-autonomous reinforcement through cGAS–STING–NF-κB-related signaling [36].
 
-SASP molecules can act on neighboring cells and produce paracrine senescence. In this situation, a senescent cell alters its microenvironment sufficiently to induce stress, inflammatory signaling, or proliferative arrest in nearby non-senescent cells [36,38].
+SASP molecules can act on neighboring cells and produce paracrine senescence. In this situation, a senescent cell alters its microenvironment sufficiently to induce stress, inflammatory signaling, or proliferative arrest in nearby non-senescent cells [35,37].
 
 The paracrine route can therefore be represented as primary senescent cell → SASP cytokine release → receptors and inflammatory pathways in neighboring cells → NF-κB and stress signaling → p21/p16-associated arrest → secondary senescence.
 
 This property gives senescence a non-cell-autonomous dimension that differs fundamentally from most conventional death pathways. A senescent cell remains biologically active and can alter the behavior of surrounding epithelial, stromal, endothelial, immune, or tumor cells.
 
-Depending on context, this can be beneficial or detrimental. Acute senescence can participate in tissue remodeling, development, wound repair, and tumor suppression, whereas chronic accumulation of senescent cells and prolonged SASP signaling can promote tissue dysfunction, inflammation, fibrosis, aging-associated phenotypes, and tumor-supportive microenvironments [3,36].
+Depending on context, this can be beneficial or detrimental. Acute senescence can participate in tissue remodeling, development, wound repair, and tumor suppression, whereas chronic accumulation of senescent cells and prolonged SASP signaling can promote tissue dysfunction, inflammation, fibrosis, aging-associated phenotypes, and tumor-supportive microenvironments [3,35,47].
 
 Senescent cells also undergo marked lysosomal remodeling. Increased lysosomal mass is common and contributes to increased senescence-associated β-galactosidase activity.
 
 SA-β-gal activity is therefore a useful marker but not an executor and not individually diagnostic. It reflects altered lysosomal biology rather than a death mechanism.
 
-Likewise, lipofuscin can accumulate because of incomplete degradation of oxidized or otherwise damaged macromolecules [39]. Lipofuscin accumulation can be useful as an indicator of long-lived senescent states, but it is not a universal defining mechanism.
+Likewise, lipofuscin can accumulate because of incomplete degradation of oxidized or otherwise damaged macromolecules [38,52]. Lipofuscin accumulation can be useful as an indicator of long-lived senescent states, but it is not a universal defining mechanism.
 
 Loss of lamin B1, increased cell size, flattened morphology, increased lysosomal content, persistent DNA-damage foci, altered mitochondrial structure, chromatin remodeling, SAHF, SASP, p16 expression, and SA-β-gal activity are therefore phenotype-associated features rather than individual mechanistic proof of senescence.
 
-The absence of a single universal marker makes experimental classification intrinsically combinatorial. Demonstration of senescence should integrate durable proliferative arrest with several molecular and phenotypic features appropriate to the biological context [1–3,40].
+The absence of a single universal marker makes experimental classification intrinsically combinatorial. Demonstration of senescence should integrate durable proliferative arrest with several molecular and phenotypic features appropriate to the biological context [1-3,39].
 
 Cell-cycle arrest can be demonstrated through decreased DNA synthesis, absence of proliferation markers, persistent CDK inhibition, RB activation, and failure to resume proliferation after removal of mitogenic or transient stress conditions.
 
 The molecular mechanism should then be supported through pathway-specific interventions. For replicative or DNA-damage-associated senescence, interference with ATM, p53, or p21 can test the causal role of the DDR pathway [8].
 
-For oncogene-induced senescence, manipulation of RAS–RAF–MEK–ERK signaling can establish whether excessive mitogenic signaling is responsible for arrest [15–17].
+For oncogene-induced senescence, manipulation of RAS–RAF–MEK–ERK signaling can establish whether excessive mitogenic signaling is responsible for arrest [14-16].
 
-For inflammatory senescence, cGAS or STING disruption can determine whether cytoplasmic DNA sensing contributes to SASP formation [30,31]. Importantly, such interventions may strongly reduce inflammatory remodeling without necessarily eliminating the initial p53/p21- or p16/RB-dependent arrest, reinforcing the distinction between arrest machinery and SASP machinery.
+For inflammatory senescence, cGAS or STING disruption can determine whether cytoplasmic DNA sensing contributes to SASP formation [29-30]. Importantly, such interventions may strongly reduce inflammatory remodeling without necessarily eliminating the initial p53/p21- or p16/RB-dependent arrest, reinforcing the distinction between arrest machinery and SASP machinery.
 
 Similarly, suppression of NF-κB can reduce SASP expression without necessarily restoring cell division. The SASP is therefore not synonymous with senescence itself.
 
@@ -152,7 +150,7 @@ The shelterin complex protects chromosome ends from inappropriate ATM and ATR ac
 
 Antioxidant systems limit oxidative DNA and telomere damage. Mitochondrial quality-control pathways prevent accumulation of dysfunctional mitochondria and associated stress signals.
 
-Autophagy and lysosomal degradation remove damaged cellular components and prevent progressive accumulation of cellular waste [21,22].
+Autophagy and lysosomal degradation remove damaged cellular components and prevent progressive accumulation of cellular waste [20-21].
 
 Failure of these protective systems increases the probability of senescence but should not be interpreted as direct cell killing.
 
@@ -160,21 +158,21 @@ Once stable senescence has formed, the cell usually remains viable. This is the 
 
 Senescent cells can remain metabolically active for prolonged periods, continue transcription and translation, produce SASP components, remodel their organelles, and interact with neighboring cells.
 
-Many senescent cells simultaneously increase dependence on pro-survival mechanisms, particularly anti-apoptotic BCL-2-family proteins [41–44].
+Many senescent cells simultaneously increase dependence on pro-survival mechanisms, particularly anti-apoptotic BCL-2-family proteins [40-43].
 
 BCL-xL is a particularly important survival factor in several senescent-cell models. By suppressing BAX/BAK-dependent mitochondrial apoptosis, BCL-xL allows damaged, metabolically abnormal senescent cells to remain alive despite increased apoptotic stress.
 
-This survival dependence provides the mechanistic basis for senolytic therapies. Navitoclax and related agents inhibit anti-apoptotic BCL-2-family proteins, thereby releasing BAX/BAK from inhibition and allowing senescent cells to undergo mitochondrial apoptosis [41,42].
+This survival dependence provides the mechanistic basis for senolytic therapies. Navitoclax and related agents inhibit anti-apoptotic BCL-2-family proteins, thereby releasing BAX/BAK from inhibition and allowing senescent cells to undergo mitochondrial apoptosis [40-41].
 
 The resulting sequence is senescent cell → increased dependence on BCL-2/BCL-xL survival proteins → pharmacological inhibition of those proteins → BAX/BAK activation → mitochondrial outer membrane permeabilization → caspase activation → apoptosis.
 
 This is not “senescent cell death” as a unique execution mechanism. It is conventional intrinsic apoptosis occurring in a cell whose previous state was senescence.
 
-Likewise, targeted degradation of BCL-xL and BCL-2 can selectively remove senescent tumor cells by lowering their apoptotic threshold [43].
+Likewise, targeted degradation of BCL-xL and BCL-2 can selectively remove senescent tumor cells by lowering their apoptotic threshold [42].
 
-Therapy-induced senescent cancer cells can similarly be eliminated by ABT-263 through disruption of BCL-xL–BAX interactions [42].
+Therapy-induced senescent cancer cells can similarly be eliminated by ABT-263 through disruption of BCL-xL–BAX interactions [41].
 
-Recent analyses of apoptotic priming reinforce the concept that different senescent populations develop distinct mitochondrial survival dependencies, explaining why particular senolytic compounds kill some senescent populations more effectively than others [44].
+The article supports that therapy-induced senescence involves mitochondrial memory altering apoptotic priming, that senescent cells are highly vulnerable to senolytics due to anti-apoptotic dependencies, and that distinct senescence subtypes have unique mitochondrial adaptations and therapeutic vulnerabilities [50].
 
 Thus, the terminal pathway activated by a senolytic is determined by the senolytic target and the death machinery it releases, not by a dedicated senescence executor.
 
@@ -190,13 +188,13 @@ A senescent cell left undisturbed can remain alive rather than progressing oblig
 
 This point also changes how the concept of commitment should be interpreted. In a death pathway, commitment normally describes the transition after which restoration of survival is no longer feasible. In senescence, commitment instead refers to the transition from reversible cell-cycle arrest to a state that no longer resumes proliferation in response to normal mitogenic stimulation.
 
-Early DDR and p21-dependent arrest can remain reversible. Increasing stabilization through persistent DDR, p16–RB signaling, transcriptional repression, chromatin reorganization, metabolic feedback, and sustained MYC degradation progressively reduces the probability of cell-cycle re-entry [13,28].
+Early DDR and p21-dependent arrest can remain reversible. Increasing stabilization through persistent DDR, p16–RB signaling, transcriptional repression, chromatin reorganization, metabolic feedback, and sustained MYC degradation progressively reduces the probability of cell-cycle re-entry [12,27].
 
 Therefore, the closest analogue to a point of no return is durable proliferative locking rather than irreversible loss of viability.
 
-The morphology also reflects continued survival rather than cellular demolition. Senescent cells typically become enlarged and flattened, display increased lysosomal mass, altered mitochondrial morphology, persistent DNA-damage foci, and changes in nuclear and chromatin organization [1–3].
+The morphology also reflects continued survival rather than cellular demolition. Senescent cells typically become enlarged and flattened, display increased lysosomal mass, altered mitochondrial morphology, persistent DNA-damage foci, and changes in nuclear and chromatin organization [1-3].
 
-SAHF can appear as compact chromatin structures in selected contexts, while other senescent cells display broader heterochromatin redistribution without classical SAHF [23–27].
+SAHF can appear as compact chromatin structures in selected contexts, while other senescent cells display broader heterochromatin redistribution without classical SAHF [22-26].
 
 Lamin B1 can decline, nuclear morphology can change, mitochondria may become enlarged or dysfunctional, and lipofuscin can accumulate.
 
@@ -204,11 +202,9 @@ Unlike apoptotic cells, senescent cells do not characteristically progress throu
 
 Likewise, they do not obligatorily undergo primary plasma-membrane rupture.
 
-Rare downstream events can nevertheless create overlap with regulated cell death. Lipofuscin accumulation can under particular experimental conditions promote oxidative stress, lysosomal dysfunction, and pyroptosis-like death [45].
+Rare downstream events can nevertheless create overlap with regulated cell death. However, this represents a secondary death mechanism generated by cellular damage, not a universal execution phase of senescence.
 
-However, this represents a secondary death mechanism generated by cellular damage, not a universal execution phase of senescence.
-
-Inflammatory cell-death pathways can also influence senescence non-cell-autonomously. Pyroptotic macrophages, for example, can release inflammatory mediators that induce senescence in neighboring cells [46].
+Inflammatory cell-death pathways can also influence senescence non-cell-autonomously. Pyroptotic macrophages, for example, can release inflammatory mediators that induce senescence in neighboring cells [44].
 
 The corresponding relationship is pyroptosis in one cell → release of inflammatory factors such as IL-1β and HMGB1-associated signaling → activation of inflammatory pathways in neighboring cells → induction of senescence.
 

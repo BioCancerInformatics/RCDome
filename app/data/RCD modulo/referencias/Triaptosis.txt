@@ -1,0 +1,73 @@
+**[1] Swamynathan MM, Kuang S, Watrud K, et al. Dietary pro-oxidant therapy by a vitamin K precursor targets PI 3-Kinase VPS34 function. Science. 2024;386:eadk9167. DOI: 10.1126/science.adk9167.**
+
+**[2] Tang D, Kang R, Kroemer G. Triaptosis: an endosome-dependent cell death modality. Cell Research. 2024;35:237–238. DOI: 10.1038/s41422-024-01053-9.**
+
+**[3] Li Z, Zhou K, Wu J, et al. Triaptosis and Cancer: Next Hope? Research. 2025;8. DOI: 10.34133/research.0880.**
+
+**[4] Huang J, Xie Y, Xiang FL, Huang J. Editorial: Ferroptosis, cuproptosis, and triaptosis: unveiling pathways and translational prospects. Frontiers in Cell and Developmental Biology. 2026;14. DOI: 10.3389/fcell.2026.1778698.**
+
+**[5] Bertheloot D, Latz E, Franklin BS. Necroptosis, pyroptosis and apoptosis: an intricate game of cell death. Cellular & Molecular Immunology. 2021;18:1106–1121. DOI: 10.1038/s41423-020-00630-3.**
+
+**[6] Yuan J, Ofengeim D. A guide to cell death pathways. Nature Reviews Molecular Cell Biology. 2024;25:379–395. DOI: 10.1038/s41580-023-00689-6.**
+
+**[7] Tang D, Kang R, Vanden Berghe T, Vandenabeele P, Kroemer G. The molecular machinery of regulated cell death. Cell Research. 2019;29:347–364. DOI: 10.1038/s41422-019-0164-5.**
+
+**[8] Loor G, Kondapalli J, Schriewer JM, et al. Menadione triggers cell death through ROS-dependent mechanisms involving PARP activation without requiring apoptosis. Free Radical Biology & Medicine. 2010;49:1925–1936. DOI: 10.1016/j.freeradbiomed.2010.09.021.**
+
+**[9] Caricchio R, Kovalenko D, Kaufmann WK, Cohen PL. Apoptosis provoked by the oxidative stress inducer menadione is mediated by the Fas/Fas ligand system. Clinical Immunology. 1999;93:65–74. DOI: 10.1006/clim.1999.4757.**
+
+**[10] Ren X, Santhosh S, Coppo L, Ogata FT, Lu J, Holmgren A. The combination of ascorbate and menadione causes cancer cell death by oxidative stress and replicative stress. Free Radical Biology & Medicine. 2019;134:350–358. DOI: 10.1016/j.freeradbiomed.2019.01.037.**
+
+**[11] Semkova S, Zhelev Z, Miller T, et al. Menadione/Ascorbate Induces Overproduction of Mitochondrial Superoxide and Impairs Mitochondrial Function in Cancer. Anticancer Research. 2020;40:1963–1972. DOI: 10.21873/anticanres.14151.**
+
+**[12] Verrax J, Vanbever S, Stockis J, Taper H, Calderon PB. Role of glycolysis inhibition and poly(ADP-ribose) polymerase activation in necrotic-like cell death caused by ascorbate/menadione-induced oxidative stress. International Journal of Cancer. 2007;120. DOI: 10.1002/ijc.22439.**
+
+**[13] Meijer AJ, Klionsky DJ. Vps34 is a phosphatidylinositol 3-kinase, not a phosphoinositide 3-kinase. Autophagy. 2011;7:563–564. DOI: 10.4161/auto.7.6.14873.**
+
+**[14] Rostislavleva K, Soler N, Ohashi Y, et al. Structure and flexibility of the endosomal Vps34 complex reveals the basis of its function on membranes. Science. 2015;350:aac7365. DOI: 10.1126/science.aac7365.**
+
+**[15] Ohashi Y, Tremel S, Williams RL. VPS34 complexes from a structural perspective. Journal of Lipid Research. 2019;60:229–241. DOI: 10.1194/jlr.R089490.**
+
+**[16] Cook ASI, Chen M, Nguyen T, et al. Structural pathway for PI 3-kinase regulation by VPS15 in autophagy. Science. 2025;388:eadl3787. DOI: 10.1126/science.adl3787.**
+
+**[17] Gillooly DJ, Morrow IC, Lindsay M, et al. Localization of phosphatidylinositol 3-phosphate in yeast and mammalian cells. EMBO Journal. 2000;19. DOI: 10.1093/emboj/19.17.4577.**
+
+**[18] Gillooly DJ, Raiborg C, Stenmark H. Phosphatidylinositol 3-phosphate is found in microdomains of early endosomes. Histochemistry and Cell Biology. 2003;120:445–453. DOI: 10.1007/s00418-003-0591-7.**
+
+**[19] Gaullier JM, Rønning E, Gillooly DJ, Stenmark H. Interaction of the EEA1 FYVE Finger with Phosphatidylinositol 3-Phosphate and Early Endosomes. Journal of Biological Chemistry. 2000;275:24595–24600. DOI: 10.1074/jbc.M906554199.**
+
+**[20] Patki V, Lawe D, Corvera S, Virbasius JV, Chawla A. A functional PtdIns(3)P-binding motif. Nature. 1998;394:433–434. DOI: 10.1038/28771.**
+
+**[21] Lawe DC, Chawla A, Merithew E, et al. Sequential Roles for Phosphatidylinositol 3-Phosphate and Rab5 in Tethering and Fusion of Early Endosomes via Their Interaction with EEA1. Journal of Biological Chemistry. 2002;277:8611–8617. DOI: 10.1074/jbc.M109239200.**
+
+**[22] Raiborg C, Bache KG, Mehlum A, Stang E, Stenmark H. Hrs recruits clathrin to early endosomes. EMBO Journal. 2001;20. DOI: 10.1093/emboj/20.17.5008.**
+
+**[23] Blondeau F, Laporte J, Bodin S, et al. Myotubularin, a phosphatase deficient in myotubular myopathy, acts on phosphatidylinositol 3-kinase and phosphatidylinositol 3-phosphate pathway. Human Molecular Genetics. 2000;9:2223–2229. DOI: 10.1093/oxfordjournals.hmg.a018913.**
+
+**[24] Cao C, Laporte J, Backer JM, Wandinger-Ness A, Stein MP. Myotubularin Lipid Phosphatase Binds the hVPS15/hVPS34 Lipid Kinase Complex on Endosomes. Traffic. 2007;8. DOI: 10.1111/j.1600-0854.2007.00586.x.**
+
+**[25] Ketel K, Krauss M, Nicot AS, et al. A phosphoinositide conversion mechanism for exit from endosomes. Nature. 2016;529:408–412. DOI: 10.1038/nature16516.**
+
+**[26] Mansat M, Kpotor AO, Mazars A, et al. PI3KC2β depletion rescues endosomal trafficking defects in Mtm1 knockout skeletal muscle cells. Journal of Lipid Research. 2025;66. DOI: 10.1016/j.jlr.2025.100756.**
+
+**[27] Meyer H, Kravić B. The Endo-Lysosomal Damage Response. Annual Review of Biochemistry. 2024. DOI: 10.1146/annurev-biochem-030222-102505.**
+
+**[28] Radulovic M, Yang C, Stenmark H. Lysosomal membrane homeostasis and its importance in physiology and disease. Nature Reviews Molecular Cell Biology. 2025;27:71–87. DOI: 10.1038/s41580-025-00873-w.**
+
+**[29] Repnik U, Česen HM, Turk B. Lysosomal membrane permeabilization in cell death: concepts and challenges. Mitochondrion. 2014;19:49–57. DOI: 10.1016/j.mito.2014.06.006.**
+
+**[30] Wang F, Gómez-Sintes R, Boya P. Lysosomal membrane permeabilization and cell death. Traffic. 2018;19:918–931. DOI: 10.1111/tra.12613.**
+
+**[31] Hanson S, Dharan A, et al. Paraptosis: a unique cell death mode for targeting cancer. Frontiers in Pharmacology. 2023;14. DOI: 10.3389/fphar.2023.1159409.**
+
+**[32] Jung S, Yeo H, Li H, et al. Structure of NHE6 and its lipid-mediated interactions regulating endosomal pH. Nature Communications. 2026;17. DOI: 10.1038/s41467-026-75877-x.**
+
+**[33] Hu Z, Zhou X, Sun Q, et al. To Die or Not to Die: How Sublethal Damage Rewires Cell Fate and Implications for Sepsis. Journal of Inflammation Research. 2026;Volume 19:1-20. DOI: 10.2147/jir.s629930.**
+
+**[34] Liu J, Guan X, Dou M, Shi M, Yuan P. A novel triaptosis-related prognostic signature to assess the clinical value in HER2-low breast cancer: evidence from clinical cohorts and experimental validation. Apoptosis. 2026;31. DOI: 10.1007/s10495-026-02313-2.**
+
+**[35] Jaber N, Mohd-Naim N, Wang Z, et al. Vps34 regulates Rab7 and late endocytic trafficking through recruitment of the GTPase-activating protein Armus. Journal of Cell Science. 2016;129:4424–4435. DOI: 10.1242/jcs.192260.**
+
+**[36] Gencheva R, Coppo L, Arnér ESJ, Ren X. Selenium supplementation protects cancer cells from oxidative stress and cytotoxicity induced by ascorbate and menadione sodium bisulfite. Free Radical Biology & Medicine. 2025. DOI: 10.1016/j.freeradbiomed.2025.03.049.**
+
+**[37] Marcelić M, Lučin HM, Begonja AJ, Zagorac GB, Lučin P. Early Endosomal Vps34-Derived Phosphatidylinositol-3-Phosphate Is Indispensable for the Biogenesis of the Endosomal Recycling Compartment. Cells. 2022;11:962. DOI: 10.3390/cells11060962.**

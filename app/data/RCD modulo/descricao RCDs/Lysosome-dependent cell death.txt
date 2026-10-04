@@ -1,1 +1,382 @@
-Morte celular dependente de lisossomos: morte celular dependente da permeabilização dos lisossomos e da liberação de catepsinas. Envolve enzimas lisossomais e se sobrepõe à autofagia e à apoptose. A permeabilização lisossomal vem sendo investigada como uma vulnerabilidade potencial em células tumorais com regulação lisossomal alterada.
+Lysosome-dependent cell death
+
+1. Definition and Classification
+
+Lysosome-dependent cell death (LDCD) is an established regulated cell-death mechanism centered on lysosomal membrane permeabilization (LMP), followed by the cytosolic escape of lysosomal constituents that either directly damage essential cellular structures or activate downstream death programs [1-4].
+
+The defining feature of LDCD is therefore causal lysosomal membrane failure rather than a unique morphology or a single dedicated terminal executor. LMP must occupy a functionally important position in the death hierarchy, and interference with lysosomal damage, released lysosomal hydrolases, or the relevant upstream lysosomal trigger should modify the death phenotype [1-3,44].
+
+Three mechanistic principles are particularly well supported. First, LMP is the central organelle event. Second, cathepsins frequently act as major proximal effectors or transducers after LMP. Third, the magnitude and kinetics of lysosomal injury influence the eventual mode of execution [1-3,5] .
+
+LMP with cathepsin release is an essential stage in RN, and cathepsins can induce mitochondrial membrane permeabilization and cell death .
+
+LDCD therefore should not be represented as a single invariant terminal morphology. The same lysosome-centered initiating mechanism can feed into different terminal execution systems depending on cellular context.
+
+A further distinction is required from secondary LMP. Lysosomal disruption can occur during apoptosis, necroptosis, pyroptosis, ferroptosis, and other cellular injuries without defining those deaths as LDCD [6-9]. If LMP occurs only after another pathway is already committed, the lysosome acts as an amplifier rather than the origin of the death mechanism.
+
+Thus, for RCDome, LDCD is best operationally classified as an established lysosome-centered RCD mechanism defined by primary, causally relevant LMP and subsequent lysosomal-content-dependent execution or transduction.
+
+2. Initiation and Triggers
+
+LDCD has no single universal extracellular receptor or dedicated pore-forming initiator. Multiple stresses converge on destabilization of lysosomal membrane lipids or proteins.
+
+One of the best-characterized routes involves oxidative stress. Lysosomes contain a labile pool of redox-active Fe2+. Hydrogen peroxide entering this compartment can undergo iron-dependent Fenton chemistry, generating hydroxyl radicals that damage lysosomal lipids and proteins [10-12].
+
+The sequence is:
+
+oxidative stress → H2O2 exposure of iron-rich lysosomes → Fe2+-dependent hydroxyl radical generation → lysosomal lipid and protein oxidation → membrane destabilization → LMP.
+
+Experimental protection by lysosomal iron chelation supports the causal importance of this route [11-13].
+
+A second established route involves TNF-associated sphingolipid metabolism. TNF signaling can promote acid sphingomyelinase-dependent sphingolipid remodeling, followed by ceramide metabolism and sphingosine accumulation [14]. Sphingosine can directly destabilize lysosomal membranes in a detergent-like manner.
+
+The corresponding sequence is:
+
+TNF-associated signaling → lysosomal sphingolipid remodeling → ceramide/sphingosine accumulation → membrane destabilization → LMP.
+
+A third major route involves lysosomotropic compounds and cationic amphiphilic drugs. These agents undergo proton trapping within the acidic lysosomal lumen, where their accumulation can disrupt membrane lipids and generate graded permeability or complete rupture [5].
+
+In these models:
+
+lysosomotropic compound uptake → acidic lysosomal trapping → luminal accumulation → lysosomal membrane perturbation → LMP.
+
+A fourth route involves Ca2+ overload and calpain activation, particularly in ischemic and neuronal stress models. Oxidatively modified Hsp70.1 becomes susceptible to μ-calpain cleavage, weakening the Hsp70.1–BMP–acid sphingomyelinase membrane-stabilizing system [15-17].
+
+The supported sequence is:
+
+ischemia or oxidative injury → Ca2+ dysregulation → μ-calpain activation → cleavage of oxidized Hsp70.1 → loss of lysosomal membrane stabilization → LMP.
+
+Additional context-dependent routes involve BAX/BAK. Under nutrient-deprivation or autophagic-stress conditions, BAX and BAK can increase lysosomal membrane permeability in particular experimental systems [18].
+
+MLKL can also associate with lysosomal membranes during necroptosis and promote LMP [7]. However, this represents necroptotic lysosomal involvement when RIPK3–MLKL activation is the upstream defining pathway rather than an independent LDCD initiation mechanism.
+
+Thus, the most defensible initiating model is convergence of oxidative, lipid, toxic, calcium-associated, protein-mediated, nutrient-associated, or infectious stresses on physical loss of lysosomal membrane integrity.
+
+3. Core Mechanistic Machinery
+
+The defining biochemical event of LDCD is LMP.
+
+LMP is not necessarily an instantaneous all-or-none rupture. In some experimental models, smaller molecules escape damaged lysosomes while larger macromolecules remain confined, demonstrating that early LMP can behave as a graded permeability change [19].
+
+As damage progresses, increasing quantities of soluble lysosomal components enter the cytosol.
+
+Cathepsins B, D, and L represent the best-supported downstream proteolytic effectors [1-3,43]. Their precise contribution varies according to the magnitude of LMP and cellular context.
+
+In apoptosis-linked LDCD, released cathepsins act primarily as signaling proteases. They can cleave BID, degrade anti-apoptotic BCL-2-family proteins, and reduce XIAP-associated protection [20-22].
+
+This produces the sequence:
+
+LMP → cathepsin release → BID cleavage + BCL-2/BCL-xL/MCL-1 degradation + reduced XIAP protection → increased BAX/BAK activity → mitochondrial outer-membrane permeabilization → cytochrome c release → apoptosome and caspase activation.
+
+Cathepsin D-specific BID processing has also been demonstrated in lysosome-mediated apoptotic systems [23].
+
+However, this lysosome-to-mitochondria sequence is not universal. In some conventional apoptotic systems, BAX/BAK activation and apoptosome signaling occur first, while LMP appears later as an amplification mechanism [24]. Such cases should not be interpreted as primary LDCD.
+
+When LMP is extensive, the mechanism becomes more directly destructive. High concentrations of lysosomal hydrolases, protons, iron, and other luminal components enter the cytosol and produce broad proteolytic and chemical injury [1-2,28,45].
+
+Therefore, the core machinery of LDCD can be summarized as:
+
+lysosomal membrane injury → graded or extensive LMP → release of cathepsins, iron, protons, and other lysosomal constituents → either selective activation of downstream death signaling or direct cytoplasmic and organellar destruction.
+
+No universal lysosomal pore-forming protein has been established for LDCD.
+
+4. Propagation and Amplification
+
+After LMP begins, the quantity and identity of released material determine propagation.
+
+In limited LMP, amplification frequently proceeds through mitochondrial apoptosis. Cathepsins cleave BID and reduce anti-apoptotic BCL-2-family protection, shifting the mitochondrial balance toward BAX/BAK-dependent permeabilization [20-22].
+
+Once MOMP occurs, mitochondrial factor release and caspase activation generate a powerful downstream amplification system.
+
+Thus:
+
+partial LMP → cathepsin signaling → mitochondrial sensitization → MOMP → apoptosome/caspase amplification.
+
+In extensive LMP, propagation occurs more directly.
+
+Cathepsins released into the cytosol cleave essential structural and regulatory proteins. These reactions provide a molecular basis for progressive destruction of several cellular compartments simultaneously.
+
+Released lysosomal iron represents another amplification factor. Fe2+ can catalyze additional oxidative chemistry outside the lysosome, increasing lipid and protein oxidation [10-13].
+
+Proton release and lysosomal hydrolase activity have been proposed to alter cytosolic physicochemistry and, in some models, to contribute to intracellular acidification [45].
+
+Damage to mitochondria can generate additional ROS, further destabilizing cellular membranes and potentially reinforcing lysosomal injury.
+
+The overall propagation architecture therefore becomes:
+
+LMP → protease release + iron release + pH disturbance → protein degradation + oxidative damage + mitochondrial dysfunction → additional organelle failure → progressive structural and metabolic collapse.
+
+In some contexts, this can become self-amplifying because destruction of membrane-protective proteins further destabilizes remaining lysosomes.
+
+5. Protective / Negative Regulators
+
+LDCD is opposed by multiple layers of lysosomal protection.
+
+The first layer preserves the lysosomal limiting membrane.
+
+HSP70/Hsp70.1 interacts with lysosomal membrane lipids, particularly bis(monoacylglycero)phosphate (BMP), and supports acid sphingomyelinase activity [26]. This system contributes to appropriate sphingomyelin metabolism and membrane stability.
+
+Disruption of the HSP70–BMP–ASM axis increases susceptibility to LMP [15,17,26].
+
+Lysosomal cholesterol also contributes to membrane stability. Increased cholesterol can reduce susceptibility to some lysosphingolipid- or drug-associated membrane injuries [27].
+
+A second defensive layer neutralizes lysosomal proteases after limited escape. Cytosolic cystatins and intracellular serpins can restrict ectopic cathepsin activity [2,28].
+
+A third layer directly repairs membrane lesions.
+
+ESCRT-associated machinery, including ALIX and CHMP4-related components, is rapidly recruited to damaged lysosomes and can repair limited membrane defects [29].
+
+Ca2+-activated sphingomyelin scrambling and turnover provide an additional membrane-repair route that can operate independently of conventional ESCRT-mediated repair [30].
+
+A fourth layer removes lysosomes that cannot be repaired.
+
+Cytosolic galectins recognize normally luminal glycans exposed after membrane disruption. Galectin-3 coordinates a cellular system for lysosomal repair, involving ESCRT, lysophagy, and TFEB-mediated biogenesis after lysosomal damage [31].
+
+Galectin-8-associated signaling can inhibit Ragulator–Rag–mTOR signaling after endomembrane damage, while galectin-9 can activate AMPK-associated responses [32]. These changes favor autophagic responses and cellular adaptation.
+
+TRIM16 and galectin-3 recruit components of the autophagy machinery to damaged organelles [31,33].
+
+Finally, TFEB and TFE3 contribute to lysosomal recovery by activating transcriptional programs that restore autophagic and lysosomal capacity [35-36].
+
+The protective sequence can therefore be conceptualized as:
+
+lysosomal damage → membrane repair → protease neutralization → selective removal of irreparable lysosomes → lysosomal biogenesis and replacement.
+
+The existence of these systems explains why detectable LMP can remain reversible.
+
+6. Commitment / Point of No Return
+
+No universal molecular point of no return has been established for LDCD.
+
+Early LMP can be reversible. Experimental lysosomal injury can result in recovery when membrane repair, lysophagy, and lysosomal replacement successfully restore organelle function [29,37].
+
+Therefore, individual galectin puncta, partial lysosomal-probe loss, or limited cathepsin leakage should not automatically be interpreted as death commitment.
+
+The strongest supported model is threshold-based.
+
+In some models, commitment has been proposed to occur when a sufficiently large fraction of the lysosomal compartment undergoes sustained or extensive permeabilization, such that membrane repair, lysophagy, lysosomal biogenesis, and cytosolic protease inhibitors can no longer restore functional lysosomal homeostasis or contain the escaped lysosomal contents [31,45].
+
+The precise quantitative threshold is not established.
+
+In apoptosis-coupled LDCD, commitment can subsequently shift from the lysosome to mitochondria. LMP occurs upstream, but cathepsin-mediated BID/BCL-2-family remodeling eventually activates BAX/BAK and MOMP [8,20-22].
+
+Once extensive MOMP occurs, the mitochondrial apoptotic machinery becomes the dominant irreversible checkpoint.
+
+In direct, caspase-independent LDCD, commitment is more closely associated with uncontained LMP itself, followed by cumulative proteolytic, oxidative, ionic, and organellar damage.
+
+Therefore, LDCD does not possess one universal molecular commitment event. The most defensible general definition is the transition from repairable lysosomal injury to uncontainable lysosomal leakage and irreversible downstream homeostatic failure.
+
+7. Execution and Terminal Cause of Death
+
+What physically kills the cell in LDCD?
+
+The terminal cause depends on the downstream route.
+
+In apoptosis-linked LDCD, lysosomal injury initiates the process, but mitochondrial apoptosis becomes the proximate execution mechanism.
+
+The sequence is:
+
+LMP → cathepsin-dependent BID/BCL-2-family remodeling → BAX/BAK activation → MOMP → cytochrome c release → apoptosome formation → caspase activation → cellular dismantling.
+
+In this branch, the lysosome is mechanistically upstream, but MOMP and caspase-mediated destruction are responsible for the terminal apoptotic phenotype.
+
+In direct or caspase-independent LDCD, the lethal mechanism is broader.
+
+Massive or persistent LMP releases sufficient hydrolases, iron, protons, and related luminal components to generate uncontrolled proteolysis, redox stress, pH disturbance, mitochondrial fragmentation, nuclear-envelope damage, cytoskeletal collapse, and progressive organelle dysfunction [1-2,7,25].
+
+The physical terminal sequence is therefore:
+
+uncontained LMP → cumulative proteolytic and physicochemical destruction → failure of mitochondria, nucleus, cytoskeleton, and other organelles → loss of osmotic and metabolic homeostasis → plasma-membrane failure → lytic death.
+
+No single dedicated LDCD pore-forming executor analogous to GSDMD or MLKL has been established.
+
+Cathepsins B, D, and L are major proximal executors or transducers, but their relative importance is context-dependent.
+
+In iron-driven LDCD, redox-active iron can itself become an important execution-linked factor by propagating lethal oxidation after lysosomal release [10-13].
+
+Thus, the most accurate answer is that LDCD has a lysosomal origin but context-dependent terminal execution.
+
+8. Morphological Sequence
+
+LDCD has no unique terminal morphology.
+
+Morphology is strongly influenced by the extent of LMP and the downstream execution branch.
+
+At the earliest stage, lysosomes may become enlarged, lose normal acidity, show reduced retention of lysosomal dyes, or recruit cytosolic galectins to sites of membrane damage.
+
+The initial sequence can therefore be represented as:
+
+intact lysosomal compartment → lysosomal membrane stress → limited membrane damage → LMP → redistribution of lysosomal luminal contents.
+
+When LMP remains partial and initiates mitochondrial apoptosis, subsequent morphology becomes apoptosis-like:
+
+partial LMP → mitochondrial dysfunction → phosphatidylserine exposure → chromatin condensation → cell shrinkage and membrane blebbing → possible apoptotic-body formation.
+
+When LMP is extensive, the phenotype is more lytic:
+
+massive LMP → rapid loss of lysosomal integrity → broad organelle injury → cellular and organellar swelling → cytoskeletal deterioration → loss of plasma-membrane integrity.
+
+Cell death mechanisms can be classified mechanistically, distinguishing essential mechanisms from correlative markers [45].
+
+These morphological patterns remain supportive rather than diagnostic.
+
+Chromatin condensation does not establish lysosome-dependent apoptosis, and lysosomal swelling or necrotic morphology does not establish direct LDCD. The critical evidence is the temporal and causal relationship between LMP and death.
+
+9. Crosstalk and Differential Diagnosis
+
+Apoptosis represents the most important differential diagnosis.
+
+LDCD can initiate apoptosis through:
+
+LMP → cathepsin release → BID cleavage/BCL-2-family degradation → BAX/BAK → MOMP → caspases [20-23].
+
+However, the opposite order is also experimentally documented:
+
+apoptotic signaling → BAX/BAK activation → mitochondrial/apoptosome progression → secondary LMP [24].
+
+Therefore, observing both LMP and mitochondrial apoptosis is insufficient. Temporal ordering and perturbation are required to determine whether the lysosome is upstream or downstream.
+
+Necroptosis presents a similar problem. Activated MLKL can translocate to or polymerize at lysosomal membranes and promote LMP [7]. Cathepsin B can then contribute to cellular dismantling.
+
+When RIPK3–MLKL activation is the defining upstream mechanism, LMP is part of necroptotic execution or amplification rather than an independent LDCD pathway.
+
+Pyroptosis must also be distinguished from LDCD. Lysosomal damage can promote inflammasome activation in certain contexts, but gasdermin-mediated plasma-membrane pores define pyroptotic execution [9]. Lysosomal damage in such systems is therefore generally upstream or modulatory rather than the terminal pore-forming event.
+
+Ferroptosis also intersects extensively with lysosomal biology. Lysosomal iron and lysosomal lipid peroxidation can promote cell-wide lipid oxidation [38-39]. In some ferroptotic systems lysosomal rupture substantially shapes the phenotype [40].
+
+Nevertheless, when the defining lethal chemistry remains iron-dependent phospholipid peroxidation, the appropriate classification is ferroptosis rather than LDCD, even when lysosomes function as major iron and oxidative-stress hubs.
+
+Autophagy-dependent death also intersects with lysosomes. Under some conditions, BAX/BAK-mediated lysosomal permeabilization participates in autophagy-dependent death [18]. Such situations must be classified according to the experimentally demonstrated hierarchy rather than lysosomal involvement alone.
+
+Thus, the general differential-diagnosis rule is:
+
+LMP present + causal upstream dependence = supports LDCD;
+
+LMP present only after another executor is activated = lysosomal amplification of another death modality.
+
+10. Experimental Validation
+
+Rigorous identification of LDCD requires causality testing rather than morphology alone.
+
+First, LMP must be demonstrated directly.
+
+Release of lysosomal contents to the cytosol has been estimated through the analysis of lysosomal enzyme activity in the cytosol and monitored via immunoblotting [42].
+
+Second, temporal ordering must be established.
+
+LMP should precede the downstream event claimed to be caused by lysosomal damage. Time-resolved imaging can determine whether lysosomal permeabilization occurs before mitochondrial ROS, MOMP, caspase activation, or plasma-membrane rupture [41].
+
+Third, lysosomal injury should be functionally necessary.
+
+Depending on the model, death should be reduced by interventions such as lysosomal iron chelation, inhibition of relevant cathepsins, HSP70-dependent lysosomal stabilization, cholesterol-mediated membrane stabilization, or enhancement of lysosomal repair [10-13,26-27].
+
+Fourth, pathway-specific upstream events should be tested.
+
+For oxidative LDCD, lysosomal iron manipulation provides strong mechanistic evidence.
+
+For sphingosine-associated LDCD, perturbation of sphingolipid metabolism is relevant.
+
+For calpain–Hsp70.1-associated neuronal death, calcium/calpain and Hsp70.1 perturbation should modify LMP.
+
+Fifth, the downstream branch must be mapped.
+
+If BAX/BAK or apoptosome perturbation blocks death after LMP, the mechanism is lysosome-initiated mitochondrial apoptosis.
+
+If extensive LMP causes death despite caspase blockade and the phenotype depends on cathepsin activity and direct structural collapse, the evidence supports more direct LDCD.
+
+Sixth, alternative dominant executors must be excluded or correctly placed in the hierarchy.
+
+MLKL dependence indicates necroptotic involvement. Gasdermin dependence indicates pyroptotic execution. Dominant iron-dependent lipid-peroxidation dependence supports ferroptosis.
+
+Seventh, rescue experiments are particularly informative because they distinguish causal machinery from biomarkers.
+
+Galectin puncta, lysosomal swelling, or high cathepsin abundance alone demonstrate lysosomal stress or injury but not LDCD.
+
+Transcriptomics alone cannot demonstrate LMP. Increased CTSB, CTSD, CTSL, TFEB, TFE3, lysophagy-related genes, or lysosomal gene signatures should therefore be interpreted as lysosomal-stress-, lysosomal-homeostasis-, or LDCD-associated states rather than evidence of active LDCD.
+
+11. Molecular Hierarchy
+
+Initiating stresses:
+
+oxidative stress, lysosomal iron chemistry, TNF-associated sphingolipid signaling, lysosomotropic compounds, cationic amphiphilic drugs, nutrient deprivation, autophagic stress, Ca2+ overload, ischemia, oxidative aldehydes, infection, and context-dependent BAX/BAK or MLKL signaling [5,7,10-18].
+
+Proximal chemical or signaling machinery:
+
+lysosomal Fe2+-dependent Fenton chemistry, acid sphingomyelinase, ceramide/sphingosine metabolism, μ-calpain, oxidized Hsp70.1, BAX/BAK, and context-dependent MLKL.
+
+Damage sensors and adaptive machinery:
+
+galectin-3, galectin-8, galectin-9, TRIM16, Ragulator–Rag–mTOR signaling, AMPK, TFEB, TFE3, ESCRT components, and lysophagy machinery [29-36].
+
+Core machinery:
+
+lysosomal limiting membrane and its stabilizing lipid/protein systems, followed by LMP.
+
+Primary released effectors:
+
+cathepsins B, D, and L; redox-active iron; protons; and additional lysosomal hydrolases.
+
+Apoptotic transduction branch:
+
+cathepsins → BID/BCL-2-family/XIAP remodeling → BAX/BAK → MOMP → cytochrome c → apoptosome → caspases.
+
+Direct destructive branch:
+
+cathepsins + iron/ROS + pH disturbance → structural-protein degradation + mitochondrial/nuclear/cytoskeletal injury → organelle failure → plasma-membrane rupture.
+
+Negative regulators:
+
+HSP70/Hsp70.1, BMP, acid sphingomyelinase-dependent membrane organization, lysosomal cholesterol, cystatins, serpins, ESCRT repair, sphingomyelin-repair mechanisms, galectin/TRIM-associated lysophagy, and TFEB/TFE3-driven lysosomal replacement.
+
+Commitment:
+
+failure of membrane repair and lysophagic replacement to contain LMP, followed either by irreversible MOMP or by self-sustaining direct lysosomal collapse.
+
+12. Integrated Canonical Sequence
+
+Oxidative, lipid, receptor-associated, nutrient, toxic, infectious, ischemic, calcium-linked, or context-dependent protein-mediated stress → injury to lysosomal membrane lipids/proteins or failure of membrane-stabilizing systems → limited lysosomal membrane damage.
+
+At this point, damage-sensing systems detect exposed lysosomal luminal glycans and altered lysosomal homeostasis → galectins, TRIM16, mTOR/AMPK-associated responses, ESCRT machinery, lysophagy, and TFEB/TFE3-associated programs attempt repair and organelle replacement.
+
+If repair succeeds → lysosomal integrity is restored → survival.
+
+If damage persists → LMP increases beyond repair capacity → cathepsins B/D/L, iron, protons, and other lysosomal contents enter the cytosol.
+
+From this point, two principal outcomes emerge.
+
+Apoptosis-linked branch:
+
+LMP → cathepsin-dependent BID cleavage + degradation of anti-apoptotic BCL-2-family proteins/XIAP → BAX/BAK activation → MOMP → cytochrome c release → apoptosome formation → caspase activation → apoptotic dismantling.
+
+Direct lysosomal branch:
+
+extensive LMP → broad cathepsin-mediated proteolysis + Fe2+-dependent oxidative propagation + intracellular physicochemical disruption → mitochondrial fragmentation + nuclear-envelope injury + cytoskeletal collapse + further organelle failure → osmotic and metabolic collapse → plasma-membrane rupture → lytic death.
+
+Thus:
+
+stress → lysosomal injury → repair-versus-progression checkpoint → irreversible LMP → lysosome-dependent apoptotic or direct destructive execution.
+
+13. Final Mechanistic Interpretation
+
+For RCDome, lysosome-dependent cell death should be operationally defined as an established regulated cell-death mechanism in which lysosomal membrane permeabilization is a causally important upstream event and escaped lysosomal constituents drive either direct cellular destruction or activation of a downstream lethal program.
+
+The molecular definition depends on causal hierarchy rather than morphology.
+
+LMP is the defining organelle event. Cathepsins B, D, and L represent the best-supported proximal effectors, while lysosomal iron and protons can contribute substantially in oxidative and extensive-rupture contexts.
+
+The amount and duration of LMP strongly influence outcome. Limited LMP frequently promotes mitochondrial apoptosis through BID and BCL-2-family remodeling. Extensive LMP produces broader proteolytic, oxidative, ionic, and structural destruction and can culminate in caspase-independent lytic death.
+
+LDCD has no single universal pore-forming executor and no single terminal morphology.
+
+A major conceptual advance is recognition that lysosomal injury exists within an active damage-response system. ESCRT-mediated membrane repair, sphingolipid repair, galectin-mediated damage sensing, lysophagy, and TFEB/TFE3-driven lysosomal restoration can reverse sublethal LMP.
+
+Therefore, LMP itself is not automatically a point of no return.
+
+The strongest current operational commitment model is threshold-based: death becomes irreversible when lysosomal damage exceeds repair, removal, replacement, and cytosolic protease-buffering capacities. In apoptosis-coupled LDCD, subsequent MOMP can become the dominant irreversible checkpoint.
+
+The central unresolved question is the molecular and quantitative nature of this threshold: what exact combination of membrane lesion size, number of damaged lysosomes, released protease burden, iron release, pH disturbance, and repair-system failure converts recoverable lysosomal injury into irreversible LDCD?
+
+For RCDome, this distinction also prevents inappropriate overlap with other RCD entities. LMP downstream of MLKL should not automatically be called LDCD instead of necroptosis; lysosomal iron participation does not automatically replace ferroptosis classification; and lysosomal inflammasome signaling does not replace gasdermin-defined pyroptosis.
+
+Likewise, transcriptomic evidence alone cannot demonstrate active LDCD. Increased expression of lysosomal hydrolases, lysosome-biogenesis genes, galectins, TFEB/TFE3 targets, or membrane-repair components can identify lysosomal stress, lysosomal vulnerability, or an LDCD-associated transcriptional state, but mechanistic classification requires direct evidence of LMP, causal lysosomal dependence, temporal ordering, and downstream execution.
+

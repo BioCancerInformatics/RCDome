@@ -1,1 +1,1950 @@
-Erebose: forma nova de morte celular descrita durante a renovação natural dos enterócitos intestinais. Trata-se de um processo recentemente identificado, com potencial relevância na biologia do câncer, especialmente em tumores associados ao intestino e em contextos nos quais a renovação celular é elevada.
+# Erebosis
+
+## Definition and Classification
+
+Erebosis is an **emerging and incompletely defined form of regulated cell death** originally described during physiological turnover of enterocytes in the adult *Drosophila* intestine [1-2].
+
+The process is characterized by progressive disappearance of cytoplasmic proteins, organelles, cytoskeletal components, junctional proteins, and nuclear material while the dying enterocyte remains integrated within the intestinal epithelium for much of the process.
+
+The original description distinguished erebosis from canonical apoptosis, overt necrosis, autophagy-dependent death, and infection-associated epithelial shedding [1-2].
+
+However, erebosis should currently be treated more cautiously than well-established RCD modalities.
+
+The existence of the phenotype is experimentally supported.
+
+The molecular execution mechanism remains considerably less mature.
+
+A major mechanistic advance was proposed in 2026, when a preprint identified *Drosophila* Ninjurin A, or **NijA**, as a candidate central execution factor capable of producing transient plasma-membrane pores during erebosis [3].
+
+According to this emerging model:
+
+**physiological enterocyte turnover cue → unknown upstream sensor → NijA accumulation/activation → transient non-lytic membrane pores → bidirectional macromolecular exchange → progressive loss of cytoplasmic proteins and essential cellular material → organelle depletion → loss of metabolic competence → irreversible homeostatic failure → death and epithelial replacement.**
+
+This pathway remains provisional.
+
+The upstream physiological signal remains unknown.
+
+The molecular mechanism activating NijA remains unknown.
+
+The exact commitment point remains unknown.
+
+The terminal biochemical event that converts progressive cellular depletion into irreversible death remains incompletely defined.
+
+Therefore, the most defensible classification is:
+
+**Erebosis = emerging RCD modality / candidate distinct death program, strongly supported in adult *Drosophila* enterocytes but not yet established as a conserved mammalian RCD mechanism.**
+
+---
+
+# Physiological Context
+
+## Epithelial Turnover in the Adult Drosophila Midgut
+
+Erebosis was identified in the adult *Drosophila* midgut, a continuously renewing epithelium in which differentiated enterocytes must be removed while intestinal stem cells and their progeny replace them [1-2,4].
+
+This creates a biological problem.
+
+Old epithelial cells must disappear without opening large gaps in the epithelial barrier.
+
+A highly lytic form of death could transiently disrupt intestinal integrity.
+
+Erebosis was proposed as a mechanism that allows cells to be dismantled gradually while remaining structurally incorporated into the epithelium long enough for replacement cells to occupy their position.
+
+The conceptual sequence is therefore:
+
+**aging or replaceable enterocyte → initiation of erebosis → progressive intracellular depletion while epithelial architecture remains largely intact → neighboring/progenitor-derived cell replacement → disappearance of erebotic cell.**
+
+This tissue-level context is central to understanding the pathway.
+
+Erebosis may not simply be a biochemical mechanism for killing a cell.
+
+It may represent a specialized strategy for **removing a large epithelial cell while minimizing transient barrier disruption**.
+
+---
+
+# Erebosis Is Not Simply Normal Enterocyte Aging
+
+Physiological aging of an enterocyte alone is not sufficient to define erebosis.
+
+The erebotic phenotype includes a coordinated set of cellular changes.
+
+These include:
+
+progressive loss of cytoplasmic proteins,
+
+loss of fluorescent protein signals,
+
+accumulation of Ance protein,
+
+reduction of cytoplasmic volume,
+
+loss of cytoskeletal components,
+
+reduction of junctional proteins,
+
+depletion of mitochondria and other organelles,
+
+nuclear flattening,
+
+weakening of DNA staining,
+
+and eventual disappearance from the epithelial layer [1-2].
+
+Thus, erebosis represents an organized transition rather than simple gradual cellular senescence.
+
+---
+
+# Initiation
+
+## The Upstream Trigger Remains Unknown
+
+The most important unresolved step is the very first one.
+
+No specific ligand-receptor system has been established.
+
+No dedicated intracellular damage sensor has been demonstrated.
+
+No single endocrine, neuronal, microbial, mechanical, or metabolic signal has been shown to select a normal enterocyte for erebosis.
+
+Therefore, the pathway should not begin with an invented receptor.
+
+The current evidence supports only:
+
+**physiological turnover context → unknown upstream signal/sensor → erebosis-associated transition.**
+
+Any more specific upstream mechanism would presently overstate the literature.
+
+---
+
+# Microbial Infection Is Not Required
+
+The original physiological phenotype does not appear to require overt intestinal infection.
+
+Erebosis persists under conditions designed to minimize microbial contribution [1-2].
+
+This argues against a simple model:
+
+microbial infection → inflammatory signaling → epithelial shedding → erebosis.
+
+Instead, erebosis appears capable of occurring during normal homeostatic turnover.
+
+Thus:
+
+**homeostatic epithelial renewal ≠ infection-induced epithelial extrusion.**
+
+This distinction is important because the *Drosophila* intestine has well-characterized JNK-, IMD-, and inflammatory pathways that regulate epithelial responses to infection and damage.
+
+Those pathways should not automatically be assigned as the canonical erebosis trigger.
+
+---
+
+# Relationship with Stem-Cell-Mediated Replacement
+
+Erebotic cells are frequently observed in a tissue environment containing intestinal stem cells or differentiating replacement cells.
+
+This suggests coordination between:
+
+cell loss,
+
+progenitor proliferation,
+
+and epithelial replacement.
+
+However, the available evidence does not yet establish a simple causal pathway such as:
+
+stem-cell signal → NijA activation → erebosis.
+
+The safer interpretation is:
+
+**epithelial turnover produces coordinated death and replacement programs, but the molecular signal coupling them remains unresolved.**
+
+This remains an important open question.
+
+---
+
+# Early Erebosis Phenotype
+
+One of the earliest recognizable characteristics is alteration in the abundance and localization of intracellular proteins.
+
+Fluorescently labeled intracellular proteins progressively become weak or disappear in erebotic cells [1,3].
+
+This differs from a classical acute lytic event.
+
+Rather than:
+
+normal cytoplasm → catastrophic membrane rupture → immediate release,
+
+the observed phenotype suggests:
+
+normal cytoplasm → progressive depletion → increasingly empty cellular interior.
+
+This observation forms the basis for the newer membrane-permeabilization model.
+
+---
+
+# Ance as a Characteristic Marker
+
+Angiotensin-converting enzyme-related protein, or **Ance**, accumulates prominently in erebotic enterocytes [1,3].
+
+Ance became one of the most useful markers for identifying these cells.
+
+However, Ance should not be classified as an established executioner.
+
+Current evidence instead suggests that its unusual accumulation may reflect the permeability properties of erebotic cells.
+
+The 2026 model proposes that Ance can move across transient membrane pores.
+
+Thus:
+
+**Ance accumulation = useful marker and mechanistic clue**
+
+rather than:
+
+**Ance = proven lethal effector.**
+
+This distinction is important for pathway annotation.
+
+---
+
+# NijA Emerges as the Candidate Core Execution Machinery
+
+## Drosophila Ninjurin A
+
+The strongest recent mechanistic proposal centers on **Ninjurin A (NijA)** [3].
+
+NijA is a *Drosophila* member of the ninjurin family.
+
+The 2026 preprint proposes that NijA is both necessary and sufficient for major features of erebosis-associated membrane permeabilization.
+
+According to this model:
+
+**unknown erebosis trigger → NijA accumulation/organization at plasma membrane → NijA-dependent transient pore formation → controlled macromolecular exchange.**
+
+This represents the first candidate molecular executor capable of connecting the erebosis phenotype to a direct physical membrane event.
+
+However, this model is recent and has not yet reached the evidence maturity of canonical apoptosis, necroptosis, or ferroptosis pathways.
+
+Therefore, NijA should be labeled:
+
+**candidate/core emerging executor**
+
+rather than:
+
+**universally established executor.**
+
+---
+
+# NijA Membrane Puncta
+
+During the proposed execution phase, NijA accumulates in punctate structures at the plasma membrane [3].
+
+These puncta are interpreted as sites associated with membrane permeabilization.
+
+The sequence is proposed as:
+
+**NijA redistribution/oligomerization → membrane puncta → transient permeability lesions.**
+
+The precise supramolecular architecture of these structures has not yet been solved.
+
+Therefore, the term **pore** is functionally supported by permeability measurements, but the exact structural organization of NijA remains unresolved.
+
+---
+
+# Transient Plasma-Membrane Pores
+
+The most distinctive feature of the new model is that membrane permeabilization appears to be **transient and non-catastrophic**.
+
+Tracer studies suggest that erebotic membranes can allow passage of relatively large molecules.
+
+The estimated permeability corresponds to lesions approximately **16–50 nm** in scale in the proposed model [3].
+
+Molecules up to approximately 150 kDa were reported to traverse the affected membrane.
+
+This is much larger than a conventional ion channel.
+
+Thus:
+
+**NijA-associated lesion → passage of proteins and macromolecules across plasma membrane.**
+
+Importantly, these permeability events apparently do not immediately produce complete plasma-membrane rupture.
+
+This distinction is fundamental.
+
+---
+
+# Bidirectional Molecular Exchange
+
+The membrane lesions proposed during erebosis permit exchange in both directions.
+
+### Outward movement
+
+intracellular proteins and other cytoplasmic components can leave the dying cell.
+
+### Inward movement
+
+extracellular or luminal molecules can enter.
+
+This creates the unusual phenomenon:
+
+**cellular contents progressively disappear while extracellular proteins can accumulate inside the same cell.**
+
+Ance localization provides one important clue supporting this model.
+
+Thus, rather than a conventional secretory process:
+
+intracellular synthesis → vesicular secretion,
+
+the model proposes:
+
+**transient pore-mediated diffusion → redistribution according to concentration gradients and molecular accessibility.**
+
+---
+
+# Progressive Cytoplasmic Emptying
+
+Repeated or sufficiently frequent transient membrane permeabilization would gradually deplete the cell.
+
+The sequence becomes:
+
+**NijA-dependent pore formation → loss of soluble cytoplasmic proteins → altered metabolite concentrations → loss of enzymatic capacity → failure of intracellular biochemical networks.**
+
+This differs sharply from classical pore-forming lytic death.
+
+In pyroptosis, large numbers of gasdermin pores produce major ion fluxes, swelling, and eventual rupture.
+
+In the current erebosis model, permeability appears sufficiently controlled to permit gradual depletion without immediate explosive lysis.
+
+The phenotype is therefore more accurately described as:
+
+**controlled cellular emptying**
+
+rather than:
+
+**acute membrane rupture.**
+
+---
+
+# Intracellular Protein Loss
+
+Loss of fluorescently tagged proteins was one of the observations that suggested disappearance of cellular material during erebosis [1,3].
+
+If the 2026 model is correct, this loss may result in substantial part from diffusion through NijA-generated lesions.
+
+Thus:
+
+**pore opening → soluble-protein efflux → progressive cytoplasmic depletion.**
+
+However, not every disappearing intracellular component has been shown directly to cross NijA pores.
+
+Some may undergo intracellular degradation.
+
+Some may be lost through additional processes.
+
+Therefore, progressive protein efflux is strongly proposed but should not be used to explain every cellular change without direct evidence.
+
+---
+
+# Loss of Small Metabolites
+
+Transient macromolecular permeability would also be expected to disrupt concentrations of smaller metabolites and ions.
+
+Even if individual small molecules were not independently tracked, the biological consequence is clear.
+
+A cell cannot indefinitely preserve:
+
+ATP production,
+
+redox balance,
+
+ion gradients,
+
+biosynthetic precursors,
+
+or signaling metabolites
+
+if its plasma membrane repeatedly becomes freely permeable.
+
+Therefore, membrane permeabilization provides a plausible mechanism for progressive metabolic collapse.
+
+Nevertheless, the exact sequence of metabolite losses has not yet been comprehensively mapped.
+
+---
+
+# Loss of Cytoskeletal Components
+
+Erebotic cells progressively lose cytoskeletal organization [1-2].
+
+This includes reduction of cellular structural proteins and alterations in cell shape.
+
+The sequence may involve:
+
+**progressive depletion/degradation of cytoplasmic proteins → cytoskeletal disassembly → loss of normal cellular architecture.**
+
+This is an execution-associated phenotype.
+
+However, no dedicated cytoskeletal protease has been identified as the universal erebosis executor.
+
+Therefore:
+
+cytoskeletal loss = downstream structural deterioration,
+
+not a proven initiating event.
+
+---
+
+# Loss of Junctional Machinery
+
+Epithelial cells depend on junctional complexes to maintain their position and barrier function.
+
+During erebosis, junctional proteins become depleted or reorganized [1-2].
+
+The cell nevertheless remains within the epithelial sheet for much of its deterioration.
+
+This suggests a carefully timed process.
+
+Too-early junction loss would create a tissue gap.
+
+Too-late removal could prevent replacement.
+
+Thus:
+
+**progressive internal dismantling → controlled weakening of epithelial adhesion → replacement-cell insertion → final disappearance.**
+
+The exact molecular choreography of this junctional transition is not yet defined.
+
+---
+
+# Microvillus Shortening
+
+Enterocytes normally contain a highly developed apical brush border.
+
+Erebotic cells show shortening or loss of normal microvillar architecture [1].
+
+This likely reflects combined loss of:
+
+actin cytoskeleton,
+
+membrane trafficking,
+
+and energetic support.
+
+The sequence can therefore be represented as:
+
+**cytoplasmic/cytoskeletal depletion → microvillar collapse → reduced differentiated enterocyte architecture.**
+
+Microvillar shortening is useful morphologically but is not specific enough to serve as a defining molecular marker.
+
+---
+
+# Mitochondrial Loss
+
+Ultrastructural analyses demonstrate reduction of mitochondria in erebotic cells [1,3].
+
+This is especially important mechanistically.
+
+Mitochondria maintain:
+
+oxidative phosphorylation,
+
+ATP production,
+
+metabolic intermediate generation,
+
+and multiple biosynthetic and signaling functions.
+
+Therefore:
+
+**progressive mitochondrial depletion → declining energetic capacity → reduced ability to maintain ionic and metabolic homeostasis.**
+
+Unlike intrinsic apoptosis, however, current evidence does not establish:
+
+BAX/BAK → MOMP → cytochrome c → apoptosome
+
+as the canonical mechanism.
+
+Thus, mitochondrial disappearance during erebosis should not be interpreted automatically as apoptotic mitochondrial permeabilization.
+
+---
+
+# Endoplasmic Reticulum Loss
+
+Erebotic enterocytes also lose ER-associated structures [1,3].
+
+This compromises:
+
+protein synthesis,
+
+protein folding,
+
+lipid biosynthesis,
+
+and calcium storage.
+
+Thus:
+
+**ER depletion → loss of biosynthetic and homeostatic capacity.**
+
+Again, the mechanism causing ER disappearance is not fully resolved.
+
+It may reflect a combination of membrane permeabilization, intracellular degradation, structural collapse, and progressive loss of biosynthetic maintenance.
+
+---
+
+# Golgi Loss
+
+Golgi structures are similarly depleted during advanced erebosis.
+
+Loss of Golgi function compromises:
+
+protein processing,
+
+vesicular trafficking,
+
+and membrane maintenance.
+
+Therefore:
+
+**Golgi depletion → progressive secretory and trafficking incompetence.**
+
+The coordinated disappearance of:
+
+mitochondria,
+
+ER,
+
+Golgi,
+
+and cytoskeleton
+
+supports the interpretation that erebosis represents whole-cell dismantling rather than damage to one isolated organelle.
+
+---
+
+# Nuclear Changes
+
+## Nuclear Flattening
+
+Erebotic cells can display flattened or morphologically altered nuclei [1-2].
+
+This appears gradually rather than through the stereotypical nuclear fragmentation of classical apoptosis.
+
+Thus:
+
+**normal nucleus → flattening/reduced staining → progressive nuclear deterioration.**
+
+This morphology provides additional evidence distinguishing erebosis from canonical apoptotic execution.
+
+---
+
+# Weak DNA Staining
+
+Advanced erebotic cells often exhibit reduced nuclear DNA staining [1-2].
+
+This suggests:
+
+DNA loss,
+
+DNA degradation,
+
+chromatin depletion,
+
+or severe structural alteration of the nucleus.
+
+However, the nuclease responsible has not been identified.
+
+Therefore:
+
+**DNA disappearance = established phenotype**
+
+while
+
+**specific DNA-degrading enzyme = unresolved.**
+
+---
+
+# TUNEL Positivity
+
+Some late erebotic cells become TUNEL-positive [1].
+
+This is important but potentially misleading.
+
+TUNEL detects DNA strand breaks.
+
+It does not uniquely identify apoptosis.
+
+Thus:
+
+**late DNA fragmentation during erebosis → TUNEL positivity**
+
+does not mean:
+
+**erebosis becomes apoptosis.**
+
+TUNEL should therefore be treated as a late downstream DNA-damage marker.
+
+---
+
+# Nuclear Envelope Loss
+
+Advanced erebosis involves deterioration of nuclear structure.
+
+Whether this arises through:
+
+specific nuclear-envelope proteolysis,
+
+mechanical collapse,
+
+nuclease-associated breakdown,
+
+or general metabolic failure
+
+remains uncertain.
+
+No equivalent of the caspase-mediated lamin cleavage seen in apoptosis has been established as the canonical mechanism.
+
+---
+
+# Apoptosis Is Not Required
+
+A major reason erebosis was proposed as a distinct death mechanism is that inhibition of canonical *Drosophila* apoptosis does not eliminate the phenotype [1-2].
+
+Different experimental strategies targeting the apoptotic machinery were reported to fail to block erebosis.
+
+These include interference with major apoptotic regulators such as:
+
+Reaper,
+
+Hid,
+
+Grim,
+
+Dronc,
+
+and downstream caspase signaling.
+
+Thus:
+
+**canonical apoptosis suppression → erebosis still occurs.**
+
+This strongly argues against the simple interpretation:
+
+erebosis = unusual morphology of apoptosis.
+
+---
+
+# p35 Does Not Block the Canonical Phenotype
+
+The baculoviral caspase inhibitor p35 can inhibit major effector caspase activity in *Drosophila*.
+
+Yet erebotic turnover remains detectable under apoptotic suppression [1-2].
+
+Therefore:
+
+**effector-caspase blockade ≠ elimination of erebosis.**
+
+This places the core pathway outside conventional caspase-dependent execution.
+
+---
+
+# H99 / Reaper-Hid-Grim Axis
+
+The major *Drosophila* pro-apoptotic genes *reaper*, *hid*, and *grim* are central activators of classical apoptosis.
+
+Genetic interventions suppressing this axis do not eliminate erebosis [1].
+
+Thus:
+
+**RHG-dependent apoptosis ≠ required upstream trigger.**
+
+This provides strong genetic evidence for mechanistic separation.
+
+---
+
+# Dronc Independence
+
+Dronc is the major initiator caspase homolog associated with canonical *Drosophila* apoptosis.
+
+Loss of Dronc does not abolish the erebotic phenotype [1].
+
+Therefore:
+
+**Dronc → downstream caspase execution**
+
+is not the central pathway.
+
+---
+
+# DPf / Effector-Caspase Independence
+
+Perturbation of downstream caspase machinery similarly fails to provide complete suppression.
+
+This reinforces:
+
+**erebosis is not simply incomplete apoptosis.**
+
+However, this does not prove that every caspase is biologically irrelevant in every erebotic context.
+
+The defensible claim is that canonical apoptotic execution is not required for the defining phenotype.
+
+---
+
+# Relationship with Necrosis
+
+Erebosis is also different from classical accidental or lytic necrosis.
+
+A key observation is exclusion of membrane-impermeant dyes such as propidium iodide during recognizable erebosis stages [1,3].
+
+Thus:
+
+**erebotic membrane permeabilization does not behave like a sustained catastrophic breach large enough to produce immediate PI entry.**
+
+This creates an apparent paradox:
+
+macromolecules can cross transient pores,
+
+yet the cell remains negative for conventional indicators of complete membrane rupture.
+
+The current NijA model resolves this by proposing:
+
+**short-lived permeability lesions that close before catastrophic membrane failure develops.**
+
+---
+
+# Propidium Iodide Exclusion
+
+Propidium iodide normally enters cells after sustained loss of plasma-membrane integrity.
+
+Erebotic cells can remain PI-negative while showing other signs of intracellular depletion [1,3].
+
+This is one of the strongest reasons to avoid describing the pathway as:
+
+**simple plasma-membrane rupture.**
+
+Instead:
+
+**transient permeabilization ≠ persistent membrane rupture.**
+
+---
+
+# Sytox Exclusion
+
+Similarly, exclusion of other membrane-impermeant nucleic-acid dyes is compatible with preserved gross membrane integrity during substantial portions of erebosis.
+
+This strengthens the concept of controlled permeability.
+
+However, eventual terminal membrane behavior after complete loss of viability remains less well characterized.
+
+---
+
+# NijA Versus Mammalian NINJ1
+
+The similarity between *Drosophila* NijA and mammalian NINJ1 is mechanistically intriguing.
+
+Mammalian NINJ1 is now established as an important mediator of plasma-membrane rupture during several forms of lytic death [5-10,25-26].
+
+NINJ1 can oligomerize and reorganize membranes.
+
+Structural studies show that mammalian NINJ1 can form large supramolecular assemblies capable of membrane disruption [6-7].
+
+However, this literature should be used carefully.
+
+The mammalian pathway is typically associated with:
+
+**terminal plasma-membrane rupture**
+
+whereas the proposed erebosis mechanism involves:
+
+**transient permeabilization without immediate rupture.**
+
+Therefore:
+
+**NINJ1 structural biology supports the plausibility of ninjurin-family membrane remodeling**
+
+but
+
+**does not prove that NijA executes erebosis through the same supramolecular architecture.**
+
+---
+
+# Mammalian NINJ1 and Plasma-Membrane Rupture
+
+In mammalian regulated necrotic death, NINJ1 activation can convert an already permeabilized or swollen cell into a fully ruptured cell [5].
+
+NINJ1 oligomerization can promote large-scale membrane remodeling and release of intracellular macromolecules.
+
+Recent structural and cellular studies demonstrate:
+
+NINJ1 clustering,
+
+oligomer formation,
+
+membrane excision,
+
+nanodisc-like or ring-associated structures,
+
+and terminal plasma-membrane rupture [6-10].
+
+These findings are highly relevant as comparative membrane biology.
+
+But they should not be imported wholesale into erebosis.
+
+---
+
+# Why NijA Cannot Yet Be Equated with NINJ1
+
+The functional outcome differs.
+
+Canonical mammalian NINJ1:
+
+**membrane stress/swelling → NINJ1 oligomerization → membrane rupture → DAMP release.**
+
+Proposed NijA-dependent erebosis:
+
+**unknown signal → NijA-associated transient pores → controlled exchange → membrane resealing → repeated depletion → non-lytic death.**
+
+Thus, a major unresolved question is:
+
+**why does one ninjurin-family membrane-remodeling mechanism culminate in catastrophic rupture whereas the proposed erebosis mechanism apparently remains transient and non-lytic?**
+
+Possible explanations include:
+
+different protein architecture,
+
+different oligomer size,
+
+different membrane tension,
+
+different repair activity,
+
+or different regulation.
+
+These possibilities remain speculative.
+
+---
+
+# Membrane Tension as a Possible Regulator
+
+Recent mammalian NINJ1 studies demonstrate that membrane tension can influence opening of NINJ1-associated membrane lesions [11].
+
+This provides an attractive conceptual model for erebosis.
+
+Changes in epithelial tension might influence NijA lesion formation.
+
+However, direct evidence connecting mechanical tension to NijA activation during *Drosophila* erebosis has not yet been established.
+
+Thus:
+
+**membrane tension → NijA activation**
+
+should remain a hypothesis.
+
+---
+
+# Membrane Repair as the Major Proposed Protective Checkpoint
+
+If NijA forms lesions large enough for proteins to cross, the plasma membrane must be repaired efficiently to avoid immediate lysis.
+
+This creates a central inferred checkpoint:
+
+**pore generation versus pore repair.**
+
+If repair is fast:
+
+transient exchange → cell remains structurally intact.
+
+If repair fails:
+
+persistent permeability → catastrophic rupture/necrosis.
+
+This balancing mechanism is biologically plausible but has not yet been directly demonstrated for canonical erebosis.
+
+---
+
+# ESCRT-III as the Leading Repair Hypothesis
+
+ESCRT-III is one of the best-characterized cellular systems for repairing small plasma-membrane lesions [12-17,23-24].
+
+In multiple death pathways:
+
+membrane damage → Ca²⁺ influx → ESCRT recruitment → membrane budding/shedding or repair → delayed terminal rupture.
+
+This occurs downstream of gasdermin pores, MLKL-associated injury, ferroptotic membrane damage, and other membrane lesions.
+
+Therefore, the most plausible model for erebosis is:
+
+**NijA pore → local Ca²⁺ entry → ESCRT-associated repair → pore removal/closure → restoration of membrane integrity.**
+
+However, this sequence has not been directly demonstrated in erebotic enterocytes.
+
+It must therefore be labeled:
+
+**hypothesized protective mechanism.**
+
+---
+
+# ESCRT Cannot Be Placed in the Canonical Core Yet
+
+Because no direct genetic or imaging demonstration has established:
+
+NijA lesion → ESCRT recruitment → resealing
+
+during erebosis, ESCRT should not appear in the minimal canonical pathway as a proven required protein.
+
+Instead, it belongs in:
+
+**proposed negative regulators / candidate membrane-repair mechanisms.**
+
+This evidence boundary is important for a publication-ready pathway.
+
+---
+
+# Enterocyte Tolerance of Membrane Injury
+
+Intestinal epithelial cells are exposed physiologically to membrane-damaging agents, including bacterial pore-forming toxins.
+
+Enterocytes can activate membrane repair and tissue-level recovery responses.
+
+This provides biological plausibility for a death program involving repeated transient membrane injury without immediate tissue failure.
+
+However, tolerance to toxin-induced membrane damage is not direct evidence of the molecular mechanism of erebosis.
+
+It should therefore be used only as supporting context.
+
+---
+
+# The Point of No Return
+
+No experimentally established universal commitment point exists.
+
+The earliest NijA-mediated pores may be reversible.
+
+Indeed, the defining model assumes rapid closure.
+
+Therefore:
+
+**first membrane pore ≠ necessarily death commitment.**
+
+A cell might theoretically recover if pore formation ceased early enough and lost components were replenished.
+
+The most defensible candidate commitment stage is later:
+
+**cumulative loss of essential cytoplasmic proteins + organelles + metabolic machinery reaches a threshold beyond which the cell cannot reconstruct functional homeostasis.**
+
+This threshold has not yet been quantitatively defined.
+
+---
+
+# A Distributed Commitment Mechanism
+
+Unlike apoptosis, where widespread MOMP provides a relatively clear commitment event, erebosis may have no single molecular switch.
+
+Instead, commitment may emerge gradually.
+
+For example:
+
+first pore → reversible loss,
+
+additional pores → increasing metabolic burden,
+
+mitochondrial depletion → energetic limitation,
+
+ER/Golgi depletion → inability to synthesize and traffic replacement proteins,
+
+cytoskeletal depletion → structural instability,
+
+nuclear/DNA loss → inability to restore gene expression.
+
+At some point:
+
+**remaining cellular capacity < requirement for self-repair.**
+
+That state would constitute irreversible commitment.
+
+This is presently the most coherent mechanistic interpretation.
+
+---
+
+# Progressive Loss of Repair Capacity
+
+The pathway may contain an important positive-feedback logic.
+
+Early membrane damage requires repair.
+
+Repair itself requires:
+
+ATP,
+
+membrane trafficking,
+
+cytoskeletal organization,
+
+protein synthesis,
+
+and intact organelles.
+
+But erebosis progressively removes exactly these systems.
+
+Therefore:
+
+**pore-mediated depletion → reduced repair capacity → increased inability to recover from subsequent pores → accelerated depletion.**
+
+This positive feedback could transform initially reversible permeability events into irreversible death.
+
+The concept is mechanistically plausible but remains to be directly tested.
+
+---
+
+# Execution Phase
+
+## Repeated or Sustained Transient Permeabilization
+
+The proposed execution phase begins when NijA-dependent lesions repeatedly permit exchange between cytoplasm and extracellular/luminal space [3].
+
+Thus:
+
+**NijA pores → loss of intracellular concentration gradients → progressive biochemical depletion.**
+
+This is fundamentally different from instantaneous cell rupture.
+
+The cell is not destroyed in one event.
+
+It is progressively emptied.
+
+---
+
+# Loss of Macromolecular Homeostasis
+
+Cells depend on controlled intracellular concentrations of:
+
+enzymes,
+
+structural proteins,
+
+metabolic regulators,
+
+RNA-binding proteins,
+
+signaling proteins,
+
+and metabolites.
+
+Uncontrolled diffusion of such molecules disrupts biochemical organization.
+
+Therefore:
+
+**repeated macromolecular leakage → declining intracellular protein concentrations → collapse of coordinated biochemical reactions.**
+
+This provides a plausible direct route from membrane permeability to metabolic incompetence.
+
+---
+
+# Loss of Ionic Homeostasis
+
+Even short-lived pores can permit rapid movement of:
+
+Na⁺,
+
+K⁺,
+
+Ca²⁺,
+
+Cl⁻,
+
+and other ions.
+
+Repeated episodes would challenge ATP-dependent pumps.
+
+Thus:
+
+**pore opening → ionic disequilibrium → ATP-dependent repair/pumping demand → energetic stress.**
+
+If mitochondria and ATP-generating systems are simultaneously disappearing:
+
+**ion imbalance becomes progressively harder to correct.**
+
+Although this is mechanistically expected, the exact ionic signature of erebosis remains undercharacterized.
+
+---
+
+# Energetic Collapse
+
+Mitochondrial depletion combined with repeated membrane repair would eventually compromise energy availability.
+
+The trajectory may therefore include:
+
+**progressive mitochondrial loss → declining ATP production → reduced ion-pump function + reduced membrane repair + impaired biosynthesis → terminal metabolic failure.**
+
+No unique ATP threshold has been defined.
+
+Therefore, ATP collapse is a likely consequence rather than an established initiating mechanism.
+
+---
+
+# Loss of Biosynthesis
+
+Loss of:
+
+ribosomal/cytoplasmic machinery,
+
+ER,
+
+Golgi,
+
+and nuclear competence
+
+means that leaked or damaged proteins cannot be effectively replaced.
+
+Thus:
+
+**protein loss + declining protein synthesis → irreversible depletion.**
+
+This may be especially important in distinguishing erebosis from transient membrane injury.
+
+A healthy cell can repair a temporary pore.
+
+An erebotic cell progressively loses the machinery required to rebuild itself.
+
+---
+
+# Nuclear Incompetence
+
+As DNA and nuclear organization decline, the cell loses capacity to produce new RNA.
+
+Thus:
+
+**nuclear deterioration → impaired transcription → reduced replacement of short-lived proteins → acceleration of whole-cell depletion.**
+
+Again, this may contribute to irreversible transition.
+
+The precise nuclease machinery remains unknown.
+
+---
+
+# The Terminal Cause of Death
+
+The evidence currently does not support one discrete terminal executor downstream of NijA.
+
+There is no established equivalent of:
+
+caspase-3/7,
+
+MLKL,
+
+GSDMD,
+
+GPX4 failure,
+
+or BAX/BAK.
+
+The most defensible terminal interpretation is:
+
+**progressive depletion of essential cellular contents and organelles eventually produces irreversible metabolic and homeostatic incompetence.**
+
+The cell can no longer maintain:
+
+ATP,
+
+ion gradients,
+
+membrane repair,
+
+protein synthesis,
+
+vesicular trafficking,
+
+cytoskeletal integrity,
+
+or genomic function.
+
+Death therefore arises through **distributed systems failure**.
+
+---
+
+# Death Without Immediate Plasma-Membrane Rupture
+
+A defining conceptual feature is that the proposed terminal process does not require acute catastrophic rupture.
+
+This distinguishes erebosis from several regulated lytic deaths.
+
+The pathway is better represented as:
+
+**controlled permeability → progressive emptying → metabolic death**
+
+rather than:
+
+**pore → osmotic swelling → rupture → immediate death.**
+
+Whether complete membrane rupture eventually occurs after disappearance of the cell has not been established as the core lethal step.
+
+---
+
+# Comparison with Pyroptosis
+
+Pyroptosis is driven primarily by gasdermin pore formation.
+
+The canonical sequence is:
+
+inflammasome or related protease signaling → gasdermin cleavage → gasdermin pore formation → ion flux → swelling → inflammatory mediator release → NINJ1-associated terminal membrane rupture in many systems [18-20].
+
+Proposed erebosis instead follows:
+
+unknown physiological signal → NijA-dependent transient permeability → repeated macromolecular exchange → progressive depletion → non-lytic loss of viability.
+
+Thus, both involve membrane permeability, but their dynamics differ.
+
+### Pyroptosis
+
+rapid,
+
+inflammatory,
+
+gasdermin-dependent,
+
+often lytic.
+
+### Erebosis
+
+slow/progressive,
+
+homeostatic,
+
+NijA-associated in the emerging model,
+
+apparently non-lytic during the defining phase.
+
+---
+
+# Comparison with Necroptosis
+
+Necroptosis is executed by:
+
+RIPK3 → MLKL phosphorylation/oligomerization → plasma-membrane perturbation → osmotic/ionic failure → eventual rupture.
+
+Erebosis has not been linked to a canonical RIPK3/MLKL system.
+
+Furthermore, the characteristic gradual loss of cellular contents without early PI entry differs from typical regulated necrotic execution.
+
+Therefore:
+
+**NijA-associated progressive permeabilization ≠ MLKL-dependent necroptosis.**
+
+---
+
+# Comparison with Ferroptosis
+
+Ferroptosis is caused by phospholipid peroxidation resulting from failure of anti-ferroptotic defense systems.
+
+The defining sequence involves:
+
+iron-dependent lipid oxidation → membrane lipid damage → permeability defects → terminal death.
+
+Erebosis lacks evidence for a defining lipid-peroxidation cascade.
+
+Therefore:
+
+**membrane permeability during erebosis should not be interpreted as ferroptotic membrane damage.**
+
+---
+
+# Comparison with Apoptosis
+
+Canonical apoptosis involves:
+
+death signaling → BAX/BAK and/or death-receptor pathways → initiator caspases → caspase-3/7 → ordered proteolytic dismantling.
+
+Erebosis differs in several ways.
+
+Canonical apoptotic inhibition does not eliminate the phenotype.
+
+Classical apoptotic bodies are not defining.
+
+The nucleus becomes flattened and depleted rather than undergoing stereotypical rapid apoptotic fragmentation.
+
+The proposed membrane mechanism is NijA-dependent permeabilization rather than caspase-controlled cellular demolition.
+
+Thus:
+
+**erebosis ≠ atypical apoptosis.**
+
+---
+
+# Comparison with Autophagy-Dependent Cell Death
+
+Erebotic cells undergo extensive organelle loss.
+
+This could superficially resemble strong autophagy.
+
+However, autophagy markers have not been demonstrated as the defining execution mechanism.
+
+Therefore:
+
+**organelle disappearance ≠ proof of autophagy-dependent cell death.**
+
+For classification as autophagy-dependent death, causal inhibition of autophagic machinery would need to block death.
+
+That is not currently the defining evidence for erebosis.
+
+---
+
+# Distinction from Infection-Induced Enterocyte Shedding
+
+The *Drosophila* intestine can remove damaged cells through infection-responsive pathways.
+
+These may involve:
+
+JNK signaling,
+
+IMD pathway activation,
+
+cytokine production,
+
+and epithelial shedding.
+
+Erebosis appears distinct from these mechanisms.
+
+The original studies did not identify the expected inflammatory/shedding signatures as defining components.
+
+Thus:
+
+**physiological erebosis ≠ infection-triggered epithelial expulsion.**
+
+---
+
+# Relationship with NINJ1-Dependent Lytic Death
+
+The ninjurin comparison is especially interesting because it potentially connects apparently opposite membrane outcomes.
+
+In mammalian lytic death:
+
+**NINJ1 activation → large membrane rearrangements → terminal rupture.**
+
+In the proposed *Drosophila* model:
+
+**NijA activation → transient pores → resealing → gradual depletion.**
+
+This suggests that ninjurin-family proteins may support a broader spectrum of plasma-membrane remodeling than previously appreciated.
+
+However, this remains an interpretation rather than proven evolutionary conservation of execution mechanism.
+
+---
+
+# Membrane Repair Determines Death Kinetics in Other RCDs
+
+Evidence from other death pathways shows that membrane repair can profoundly change the kinetics of death.
+
+For example:
+
+gasdermin pores → ESCRT-III recruitment → membrane repair → delayed pyroptosis [15].
+
+MLKL-associated membrane damage recruits ESCRT-III machinery, which acts to delay necroptotic plasma membrane rupture [22].
+
+ferroptotic membrane lesions → Ca²⁺ signaling → ESCRT-III activation → altered death kinetics [16].
+
+These systems demonstrate an important general principle:
+
+**pore formation does not automatically equal instantaneous irreversible death.**
+
+This principle makes the proposed erebosis mechanism biologically plausible.
+
+But direct demonstration in erebosis remains necessary.
+
+---
+
+# Possible NijA–Repair Balance
+
+A useful provisional model is:
+
+**NijA lesion formation rate versus membrane repair rate determines cellular fate.**
+
+When repair capacity exceeds lesion formation:
+
+cell survives individual permeabilization episodes.
+
+When lesions recur:
+
+cell progressively loses proteins and organelles.
+
+As metabolic machinery declines:
+
+repair becomes less efficient.
+
+Eventually:
+
+lesion burden > repair capacity → irreversible depletion.
+
+Again, this is a mechanistic hypothesis derived from the observed phenotype and membrane-repair biology.
+
+It is not yet a fully demonstrated molecular cascade.
+
+---
+
+# Morphological Sequence
+
+The most defensible chronological morphology is:
+
+**normal differentiated enterocyte → early erebosis-associated Ance accumulation and reduction of cytoplasmic reporter intensity → progressive cellular flattening → nuclear flattening → cytoskeletal and junctional protein depletion → shortened microvilli → loss of mitochondria/ER/Golgi → increasingly empty cytoplasm → weak DNA staining → late TUNEL positivity → disappearance from epithelial layer as replacement cells occupy the region.**
+
+This morphology differs from:
+
+apoptotic fragmentation,
+
+pyroptotic ballooning,
+
+necroptotic swelling,
+
+and ferroptotic membrane injury.
+
+However, morphology alone cannot establish NijA dependence.
+
+---
+
+# Ance Is a Biomarker, Not an Executor
+
+Ance is particularly useful for identifying erebotic cells.
+
+However:
+
+Ance accumulation does not prove NijA activity.
+
+Ance does not currently define the lethal machinery.
+
+The 2026 model instead proposes that abnormal Ance distribution provides evidence that the plasma membrane permits unusual macromolecular exchange.
+
+Therefore:
+
+**Ance = characteristic marker/mechanistic reporter.**
+
+---
+
+# TUNEL Is a Late Marker, Not a Definition
+
+Late erebotic cells can become TUNEL-positive.
+
+But TUNEL positivity also occurs in many other forms of severe cellular damage.
+
+Thus:
+
+**TUNEL positivity alone cannot diagnose erebosis.**
+
+The same is true for:
+
+nuclear flattening,
+
+organelle loss,
+
+or Ance accumulation.
+
+A mechanistic diagnosis requires multiple convergent observations.
+
+---
+
+# Experimental Identification
+
+A strong experimental framework should first establish that the event occurs within the appropriate biological context.
+
+For canonical erebosis this means:
+
+adult *Drosophila* intestinal enterocytes undergoing physiological turnover.
+
+Next, morphology and intracellular depletion should be documented longitudinally.
+
+Useful approaches include:
+
+live-cell imaging,
+
+fluorescent protein reporters,
+
+organelle markers,
+
+cytoskeletal markers,
+
+junctional markers,
+
+nuclear staining,
+
+and ultrastructural analysis.
+
+The pathway should then be distinguished from major alternative death mechanisms.
+
+---
+
+# Excluding Apoptosis
+
+Strong evidence includes:
+
+genetic or pharmacological suppression of classical apoptotic machinery while erebosis continues.
+
+This is substantially stronger than simply failing to observe cleaved caspases.
+
+Thus:
+
+**apoptosis blocked + erebotic phenotype preserved → supports mechanistic distinction.**
+
+---
+
+# Excluding Overt Necrotic Rupture
+
+Membrane-impermeant dye exclusion provides evidence that recognizable erebotic cells have not undergone sustained catastrophic plasma-membrane rupture.
+
+Therefore:
+
+**PI-negative/Sytox-negative state during cellular depletion → argues against conventional lytic necrosis at that stage.**
+
+---
+
+# Testing NijA
+
+The emerging 2026 model can be tested causally through:
+
+NijA loss-of-function,
+
+NijA overexpression,
+
+localization analysis,
+
+membrane permeability assays,
+
+size-defined molecular tracers,
+
+and time-resolved correlation between NijA puncta and loss of intracellular proteins.
+
+The strongest mechanistic result would be:
+
+**NijA loss → reduced transient permeability + reduced intracellular depletion + reduced erebosis.**
+
+Conversely:
+
+**NijA activation/overexpression → induced permeability and erebosis-associated depletion.**
+
+The supplied literature reports evidence consistent with such necessity/sufficiency, but independent confirmation remains important because the key study is currently a preprint [3].
+
+---
+
+# Testing Membrane Pore Size
+
+Tracer molecules of different molecular weights can define permeability limits.
+
+The proposed erebosis lesions allow passage of molecules substantially larger than ions.
+
+Thus:
+
+small tracer crosses,
+
+larger tracer crosses up to a limit,
+
+very large tracer excluded
+
+→ functional estimate of lesion diameter.
+
+This is the basis for the proposed approximately 16–50 nm pore range.
+
+Structural determination of NijA oligomers will be required to validate the physical architecture directly.
+
+---
+
+# Testing Membrane Repair
+
+A critical unresolved experiment would directly monitor repair machinery after NijA lesion formation.
+
+For example:
+
+NijA punctum formation → local Ca²⁺ influx → ESCRT recruitment → membrane scission/resealing.
+
+If ESCRT disruption converted erebosis from slow depletion into acute PI-positive lysis, this would strongly support the proposed repair model.
+
+At present, this remains a hypothesis.
+
+---
+
+# Testing the Point of No Return
+
+To define commitment experimentally, individual erebotic cells would need to be followed longitudinally.
+
+Investigators could quantify:
+
+intracellular protein abundance,
+
+mitochondrial content,
+
+ATP,
+
+membrane permeability episodes,
+
+repair capacity,
+
+DNA integrity,
+
+and survival/recovery.
+
+The goal would be to identify a threshold after which removal of the upstream trigger no longer allows recovery.
+
+No such universal threshold has yet been demonstrated.
+
+---
+
+# Possible Erebosis-Like Phenomena in Mammals
+
+Evidence for mammalian conservation remains preliminary.
+
+A 2025 study reported an **erebosis-like neuronal phenotype** associated with Alzheimer disease-related contexts [21].
+
+ACE2-positive and TUNEL-positive neuronal populations were described in:
+
+aged mice,
+
+Alzheimer disease model mice,
+
+and human hippocampal tissue.
+
+This observation is intriguing but does not establish that mammalian neurons undergo the same NijA-dependent process described in *Drosophila* enterocytes.
+
+Erebosis has been reported only in Drosophila gut enterocytes, and ACE2 accumulation in cells is a biomarker for erebotic cells [21].
+
+However, no evidence establishes:
+
+ACE2 → NINJ1 activation → transient pores → neuronal erebosis.
+
+Therefore ACE2 should remain:
+
+**context-dependent candidate marker**
+
+rather than:
+
+**core erebosis machinery.**
+
+---
+
+# Species Conservation Remains Unresolved
+
+The strongest evidence hierarchy is currently:
+
+### Strongest
+
+adult *Drosophila* enterocyte phenotype.
+
+### Emerging molecular support
+
+NijA-dependent transient permeabilization in *Drosophila*.
+
+### Preliminary extension
+
+erebosis-like observations in mammalian neuronal disease.
+
+Therefore, one should not yet write:
+
+**erebosis is an established mammalian RCD pathway.**
+
+The correct statement is:
+
+**mammalian conservation remains to be demonstrated.**
+
+---
+
+# Relationship with Physiological Cell Turnover
+
+A major conceptual contribution of erebosis is the idea that epithelial cells may die without undergoing rapid destructive fragmentation.
+
+Instead:
+
+**the dying cell can remain structurally useful while gradually becoming metabolically empty.**
+
+This resembles, at a conceptual level, other tissue-specialized death programs in which preservation of barrier integrity is biologically important.
+
+However, the molecular machinery of erebosis is distinct from cornification.
+
+---
+
+# Erebosis Versus Cornification
+
+Cornification converts keratinocytes into durable extracellular barrier units through:
+
+transglutaminase cross-linking,
+
+keratin-filaggrin compaction,
+
+organelle elimination,
+
+and lipid-envelope construction.
+
+Erebosis does not create a persistent mechanically reinforced corneocyte.
+
+Instead, the enterocyte is eventually removed and replaced.
+
+Thus:
+
+**cornification → dead cell retained as barrier structure.**
+
+**erebosis → cell gradually emptied and ultimately removed during epithelial replacement.**
+
+---
+
+# Potential Advantage of Non-Lytic Death
+
+A gradual non-lytic process could provide several theoretical advantages in an epithelium.
+
+It may:
+
+maintain barrier continuity,
+
+avoid abrupt luminal leakage,
+
+reduce uncontrolled DAMP release,
+
+allow replacement cells time to occupy the vacated position,
+
+and minimize inflammatory activation.
+
+These functional advantages are consistent with the observed tissue context.
+
+However, they should be treated as biological interpretation rather than proven molecular requirements.
+
+---
+
+# Inflammatory Consequences
+
+There is currently limited evidence defining the immunological output of canonical erebosis.
+
+The apparent absence of catastrophic membrane rupture suggests that DAMP release may differ substantially from classical lytic death.
+
+However, direct quantitative analysis of inflammatory mediator release remains limited.
+
+Therefore:
+
+**erebosis is probably less acutely lytic**
+
+does not automatically mean:
+
+**erebosis is completely immunologically silent.**
+
+---
+
+# Molecular Hierarchy
+
+The current molecular hierarchy is unusually sparse.
+
+The **upstream physiological context** is epithelial turnover.
+
+The **initiating signal** remains unknown.
+
+The **sensor or receptor** remains unknown.
+
+The **best current candidate core executor** is NijA.
+
+The **primary biochemical/biophysical event** is transient plasma-membrane permeabilization.
+
+The **immediate consequence** is bidirectional macromolecular exchange.
+
+The **progressive execution phenotype** is depletion of cytoplasmic proteins, cytoskeleton, adhesion machinery, organelles, and nuclear components.
+
+The **candidate protective mechanism** is rapid membrane repair, potentially involving ESCRT-like machinery, although this is not demonstrated directly in erebosis.
+
+The **candidate commitment event** is cumulative intracellular depletion beyond the cell's capacity for repair and biosynthetic recovery.
+
+The **terminal cause** is irreversible failure of metabolic and cellular homeostasis.
+
+Ance is primarily a marker.
+
+Late TUNEL is primarily a downstream readout.
+
+ACE2-associated neuronal findings represent an unconfirmed mammalian extension.
+
+---
+
+# Evidence Strength Hierarchy
+
+## Established Phenotypic Core
+
+The following points are comparatively well supported:
+
+erebosis occurs during physiological adult *Drosophila* intestinal turnover;
+
+erebotic cells progressively lose intracellular material and organelles;
+
+classical apoptotic suppression does not eliminate the process;
+
+the morphology differs from classical apoptotic fragmentation and overt acute necrotic rupture.
+
+## Emerging Molecular Core
+
+Supported primarily by the 2026 NijA study:
+
+NijA is involved in the process;
+
+NijA-associated structures produce transient membrane permeability;
+
+macromolecular exchange may explain progressive cellular depletion;
+
+NijA may represent a central execution factor.
+
+## Hypothetical/Unresolved Components
+
+The following remain unproven or incompletely defined:
+
+the upstream signal,
+
+the receptor/sensor,
+
+the direct activation mechanism of NijA,
+
+the molecular architecture of the NijA pore,
+
+the repair machinery,
+
+the exact point of no return,
+
+the terminal biochemical lesion,
+
+and mammalian conservation.
+
+---
+
+# Integrated Canonical Sequence
+
+The most conservative current mechanistic sequence begins with:
+
+**mature adult Drosophila enterocyte → physiological aging/homeostatic turnover context.**
+
+An unidentified signal then selects the cell:
+
+**homeostatic turnover cue → unknown extracellular or intracellular sensor.**
+
+The pathway subsequently enters the emerging NijA-dependent phase:
+
+**unknown signaling mechanism → NijA accumulation/reorganization at plasma membrane → formation of transient membrane puncta/pores.**
+
+These lesions produce:
+
+**temporary plasma-membrane permeability to proteins and other macromolecules.**
+
+The resulting exchange is bidirectional:
+
+**cytoplasmic proteins/metabolites → extracellular or luminal space**
+
+while:
+
+**extracellular molecules including Ance → erebotic cytoplasm.**
+
+If membrane repair rapidly restores continuity:
+
+**PI/Sytox remain excluded → gross epithelial membrane architecture remains preserved.**
+
+But repeated permeability episodes progressively deplete the cell:
+
+**soluble cytoplasmic protein loss → metabolic enzyme loss → cytoskeletal depletion → adhesion/junctional-protein loss → organelle depletion.**
+
+Mitochondria decrease:
+
+**↓ mitochondrial function → declining ATP-generating capacity.**
+
+ER and Golgi decrease:
+
+**↓ protein/lipid synthesis and trafficking capacity.**
+
+Cytoskeletal elements decrease:
+
+**↓ structural integrity + microvillar shortening.**
+
+Nuclear structure deteriorates:
+
+**nuclear flattening → weak DNA staining → late DNA fragmentation/TUNEL positivity.**
+
+These losses create an increasingly irreversible state:
+
+**less ATP + less biosynthetic machinery + less membrane-trafficking capacity + reduced transcriptional competence → progressively weaker ability to replace lost material or repair subsequent membrane lesions.**
+
+This may create a self-amplifying loop:
+
+**NijA permeability → intracellular depletion → impaired repair/replenishment → greater vulnerability to subsequent permeability → further depletion.**
+
+Eventually:
+
+**cumulative loss of essential cellular systems > remaining compensatory capacity.**
+
+The cell then reaches:
+
+**irreversible metabolic incompetence + failure of ionic, structural, biosynthetic, and genomic homeostasis.**
+
+The terminal phenotype is:
+
+**non-functional depleted enterocyte → disappearance/removal from epithelial layer → replacement by neighboring/progenitor-derived cells.**
+
+---
+
+# Candidate Commitment Sequence
+
+The pathway can be divided operationally into stages.
+
+### Early potentially reversible phase
+
+unknown trigger → initial NijA-associated permeability → limited molecular exchange → successful membrane resealing.
+
+### Progressive execution phase
+
+recurrent permeability → loss of soluble proteins/metabolites → cytoskeletal and organellar depletion.
+
+### Candidate commitment phase
+
+mitochondrial + ER/Golgi + protein + nuclear losses become sufficiently extensive that normal biosynthesis, ATP production, and membrane repair can no longer restore the cell.
+
+### Terminal phase
+
+irreversible homeostatic failure → death → epithelial replacement.
+
+No experimental study has yet established the exact quantitative boundary between these phases.
+
+---
+
+# Final Mechanistic Interpretation
+
+Erebosis is best understood at present as an **emerging epithelial turnover-associated death program characterized by progressive cellular emptying rather than rapid apoptotic dismantling or catastrophic necrotic rupture**.
+
+The original 2022 work establishes the distinctive enterocyte phenotype and demonstrates that canonical apoptosis is not required.
+
+The 2026 NijA study provides the first coherent candidate execution mechanism:
+
+**homeostatic turnover signal → unknown sensor → NijA-dependent transient membrane pore formation → repeated bidirectional macromolecular exchange → progressive depletion of intracellular proteins and organelles → inability to maintain metabolism, membrane repair, biosynthesis, and cellular architecture → irreversible homeostatic failure → death.**
+
+The most important mechanistic advance is the concept that the plasma membrane can participate in death without undergoing immediate terminal rupture.
+
+In this model, NijA creates permeability lesions that are sufficiently large for macromolecular movement but sufficiently transient that the epithelial cell avoids immediate necrotic collapse.
+
+This converts plasma-membrane permeabilization from an acute lytic event into a **slow cellular-depletion mechanism**.
+
+Nevertheless, several essential components remain unresolved.
+
+There is no known dedicated upstream erebosis receptor.
+
+There is no known physiological ligand.
+
+There is no established signaling pathway that activates NijA.
+
+There is no structurally resolved NijA pore.
+
+There is no directly proven membrane-repair system.
+
+There is no universally established molecular point of no return.
+
+And there is no convincing demonstration that the same program operates as a conserved RCD modality in mammals.
+
+Therefore, the most defensible operational definition for the RCDome is:
+
+**Erebosis is an emerging non-classical regulated cell-death process, currently best established in adult Drosophila enterocytes, in which progressive loss of intracellular proteins, organelles, cytoskeletal components, and nuclear material occurs during physiological epithelial turnover; recent evidence proposes that NijA-dependent transient, non-lytic plasma-membrane permeabilization drives this cellular depletion, ultimately causing irreversible metabolic and homeostatic failure.**
+
+For ontology purposes, it should be annotated as:
+
+**Classification: emerging/candidate RCD modality**
+
+**Primary evidence species: Drosophila melanogaster**
+
+**Canonical context: adult intestinal enterocyte turnover**
+
+**Candidate core executor: NijA**
+
+**Candidate execution mechanism: transient macromolecule-permeable plasma-membrane pores**
+
+**Terminal lesion: progressive intracellular depletion and irreversible homeostatic failure**
+
+**Mammalian conservation: unconfirmed**
+
+**Major unresolved step: physiological trigger and NijA activation mechanism.**
+

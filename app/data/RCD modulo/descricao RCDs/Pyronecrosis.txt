@@ -1,0 +1,176 @@
+# Pyronecrosis
+
+## 1. Pyronecrosis is a characteristic programmed necrosis regulated by NLRP3 in which cell lysis and HMGB1 release occur after ASC speckle formation and cell death is inhibited by Z-VAD-fmk [4]. It should not currently be classified as an established core regulated cell death modality on the same mechanistic footing as apoptosis, necroptosis, pyroptosis, or ferroptosis [3,5-6].
+
+NLRP3-regulated programmed necrosis, termed pyronecrosis, involves cell lysis and HMGB1 release after ASC speckle formation and is inhibited by Z-VAD-fmk [4]. Thus, pyronecrosis was proposed specifically to distinguish this form of inflammatory lytic death from what was then understood as caspase-1-dependent pyroptosis.
+
+The subsequent molecular definition of pyroptosis has made this distinction less secure. Pyroptosis is now defined primarily by proteolytic activation of gasdermins, particularly GSDMD, followed by gasdermin pore formation, ionic dysregulation, cellular swelling, and eventual lytic membrane failure [6-8,39]. At the same time, later studies have shown that inflammasome signaling can engage alternative lytic outcomes when the canonical caspase-1–GSDMD pathway is unavailable, including caspase-8/GSDME-dependent death, delayed secondary pyroptosis, apoptosis followed by secondary necrosis, and other gasdermin-independent membrane-rupture programs [16-18].
+
+Accordingly, the most defensible present classification is that pyronecrosis is a provisional or historically useful RCD-related concept describing a subset of NLRP3–ASC-dependent, caspase-1-independent inflammatory necrotic deaths whose dedicated terminal execution machinery has not been established. It remains unresolved whether bona fide pyronecrosis constitutes a molecularly autonomous RCD modality or whether at least some historical cases represent alternative inflammasome-driven lytic programs that would now receive different mechanistic classifications.
+
+## 2. Initiation and Triggers
+
+The experimentally supported contexts for pyronecrosis are relatively narrow. In cryopyrin-associated periodic syndrome-like settings, the initiating lesion can reside in NLRP3 itself. Structural analysis suggested that CAPS variants activate NLRP3 through multiple mechanisms, including enhanced ATP binding, stabilizing the active NLRP3 conformation, destabilizing the inactive NLRP3 complex, and promoting oligomerization of the pyrin domain [9].
+
+In these genetic contexts, there is therefore no requirement for a unique extracellular death receptor: mutant NLRP3 itself functions as the proximal signaling abnormality. Constitutively or hypersensitively activated NLRP3 can engage downstream ASC-dependent signaling without the normal degree of upstream stimulation.
+
+In infection-associated pyronecrosis, the precise proximal sensor-to-NLRP3 sequence is less well defined. The quote demonstrates that caspase-1 was likely not involved in Shigella flexneri-induced cell death, supporting prior findings that caspase-1 knockout macrophages still undergo NLRP3/ASC-dependent death and exacerbated inflammation . This is consistent with the broader biology of NLRP3, which generally responds indirectly to convergent cellular disturbances rather than functioning as a simple direct receptor for each activating ligand [10-11].
+
+Thus, the first defensible conserved intracellular event is NLRP3 activation or pathological lowering of the NLRP3 activation threshold, followed by engagement of ASC-dependent signaling. The exact upstream sensor preceding NLRP3 in many infection-associated contexts remains unresolved.
+
+## 3. The best-supported core machinery consists of NLRP3 and the adaptor ASC [1-2,4,28].
+
+Activated NLRP3 undergoes conformational and oligomeric changes that permit recruitment of ASC. In canonical inflammasome biology, NLRP3 interacts with ASC through pyrin-domain-mediated interactions, and ASC subsequently polymerizes into higher-order filaments or speck-like structures. ASC CARD domains normally provide a platform for recruitment and activation of pro-caspase-1 [10-11].
+
+Pyronecrosis diverges at this point. In pyronecrosis, cell lysis and HMGB1 release occur after ASC speckle formation, and cell death is inhibited by Z-VAD-fmk [4]. Therefore, ASC should be regarded as a core signaling scaffold rather than as evidence that canonical pyroptosis has necessarily occurred.
+
+A lysosomal/cathepsin-sensitive component is also strongly associated with the original pathway. Pharmacological inhibition with CA-074-Me suppressed death in early pyronecrosis studies [1,4,32]. In mutant-NLRP3-driven death, CA-074-Me acted before detectable ASC oligomerization, whereas the pan-caspase inhibitor Z-VAD-fmk could inhibit death after ASC speck formation [4]. These results suggest at least two mechanistically separable stages and indicate that lysosomal/cathepsin-sensitive signaling may contribute upstream of, or during, assembly of the NLRP3–ASC death platform.
+
+However, the precise cathepsin requirement is unresolved. Initial models emphasized cathepsin B, but later studies showed that CA-074-Me is not sufficiently specific to prove an exclusive role for cathepsin B and can suppress multiple forms of lysosome-associated necrotic death [12]. Other cathepsins can also participate in lysosome-mediated cell injury.
+
+Thus, cathepsin B should not be designated the universal pyronecrosis executor. Lysosome activity was necessary in pyronecrosis, but the molecular regulation of cathepsin B on pyronecrosis remains to be studied [15].
+
+The relative temporal ordering of lysosomal disturbance and ASC assembly is likewise not universally established. In the Satoh model, inhibiting cathepsin B with CA074-Me blocks cell death before ASC oligomerization, whereas inhibiting caspases with Z-VAD-fmk blocks cell death after ASC oligomerization [4]. A single rigid ordering should therefore not be imposed across all contexts.
+
+## 4. Propagation and Amplification
+
+Once NLRP3–ASC signaling has been engaged, pyronecrotic progression appears to involve amplification through inflammatory signaling, lysosomal dysfunction, protease release, organelle injury, and progressive loss of cellular homeostasis.
+
+Lysosomal membrane permeabilization is a plausible amplification node. Constitutively active lysosomal hydrolases may contribute directly to cell death and to the broad degradation of cytosolic proteins observed in cells treated with lysosome-disrupting agents [13]. Lysosome-disrupting agents trigger a unique form of programmed necrotic cell death that is distinct from established necrotic pathways [14].
+
+This distinction is important because limited lysosomal perturbation may serve as an upstream signal for inflammasome activation, whereas catastrophic lysosomal rupture can become a destructive process in its own right. The supplied evidence therefore supports a continuum rather than a single lysosomal event with one fixed function.
+
+NLRP3 activation can also intersect with alternative death pathways. When canonical inflammasome execution is compromised, ASC-containing signaling platforms can recruit or activate alternative caspase programs. Caspase-8 can connect inflammasome signaling to apoptosis or to gasdermin-dependent lytic cell death [27].
+
+In caspase-1/11-deficient macrophages, for example, NLRP3 signaling can promote ASC-dependent caspase-8 activation and GSDME processing, generating an alternative inflammatory lytic phenotype described as incomplete pyroptosis [16]. Other conditions can redirect inflammasome signaling toward apoptosis, delayed secondary necrosis, or necroptotic components [17-18].
+
+These later pathways should not automatically be incorporated into the pyronecrosis core. Rather, they demonstrate that inflammasome-associated signaling is highly plastic and provide alternative explanations for lytic death when caspase-1-dependent pyroptosis is unavailable.
+
+## 5. Protective/Negative Regulators
+
+No pyronecrosis-specific endogenous negative regulator has been established in the supplied evidence.
+
+The strongest experimentally demonstrated suppressive interventions operate upstream or during the proposed pathway rather than constituting dedicated physiological pyronecrosis inhibitors.
+
+Preventing the lysosomal/cathepsin-sensitive step with CA-074-Me suppresses death in the original models [1,4]. However, because CA-074-Me is not completely selective for cathepsin B, this rescue establishes a protease-sensitive requirement more securely than it establishes cathepsin B as the unique molecular target [12].
+
+Z-VAD-fmk can suppress mutant-NLRP3-associated programmed necrotic death after ASC oligomerization in the Satoh model [4]. Because the phenotype is caspase-1 independent, this observation implies involvement of another Z-VAD-sensitive proteolytic process or an indirect effect. The relevant target was not conclusively established and therefore should not be assigned without additional evidence.
+
+Pharmacological inhibition of NLRP3 also provides an upstream strategy for testing pathway suppression. MCC950/CRID3 can inhibit wild-type NLRP3 signaling, although disease-associated NLRP3 mutants can display altered sensitivity to this inhibitor [24-25]. These interventions demonstrate regulation of NLRP3 activation but do not establish a unique endogenous negative-regulatory system for pyronecrosis itself.
+
+Thus, the current evidence supports three broad suppressive checkpoints: prevention of NLRP3 activation, interference with the lysosomal/cathepsin-sensitive step, and interruption of downstream protease-dependent signaling. None has yet been demonstrated to constitute a universal endogenous pyronecrosis brake.
+
+## 6. Commitment / Point of No Return
+
+No universal molecular point of no return has been established for pyronecrosis.
+
+The original mutant-NLRP3 experiments suggest that commitment develops progressively. CA-074-Me could prevent death before ASC oligomerization, whereas Z-VAD-fmk retained protective activity after ASC specks had formed [4]. ASC polymerization therefore cannot be treated as the universal irreversible commitment step.
+
+Likewise, activation of NLRP3 itself is insufficient to define irreversibility because NLRP3 signaling can lead to different downstream outcomes depending on the availability of caspase-1, gasdermins, caspase-8, and other death machinery [16-21].
+
+The strongest experimentally defensible point of irreversible commitment is overt loss of plasma-membrane integrity. However, membrane rupture is a terminal event rather than a molecular commitment switch. The upstream molecular step that makes membrane failure inevitable remains unidentified.
+
+Accordingly, RCDome should state that the point of no return is unresolved, with irreversible plasma-membrane disruption representing the strongest empirically recognizable terminal commitment state.
+
+## 7. Execution and Terminal Cause of Death
+
+What physically kills the cell in pyronecrosis?
+
+Pyronecrosis is a form of programmed necrosis regulated by NLRP3 in which cell lysis and HMGB1 release occur after ASC speckle formation and cell death is inhibited by Z-VAD-fmk [4].
+
+Unlike pyroptosis, no dedicated gasdermin-based pore-forming executor has been established for pyronecrosis. Unlike necroptosis, no requirement for the RIPK3–MLKL membrane-disrupting apparatus defines the historical pathway. In some models, no alternative pyronecrosis-specific pore-forming or membrane-remodeling protein has been conclusively identified [1,36].
+
+The original literature supports a relationship between lysosomal perturbation, cathepsin-sensitive signaling, progressive cell swelling, membrane permeability, cell lysis, and HMGB1 release [1-2,4]. Constitutively active hydrolases may contribute directly to cell death and the broad degradation of cytosolic proteins observed in cells treated with lysosome-disrupting agents [13].
+
+However, no specific cathepsin substrate or downstream membrane-rupturing machine has been identified that uniquely explains pyronecrotic lysis. Therefore, cathepsins should be described as proposed upstream or amplifying components rather than established terminal executors.
+
+NINJ1 provides an important modern comparison. NINJ1 activation occurs during almost all forms of necrotic death, including toxin-induced necrosis, ferroptosis, cuproptosis, and secondary necrosis of apoptotic cells, suggesting it senses a universal necrosis signal possibly linked to plasma membrane property changes [33,37]. However, the supplied evidence does not demonstrate that NINJ1 is the canonical terminal executor of the historical pyronecrosis phenotype. It remains a candidate mechanism requiring direct validation in bona fide NLRP3/ASC-dependent, caspase-1-independent pyronecrosis models.
+
+Thus, the physical terminal lesion is known: catastrophic membrane rupture and loss of cellular compartmentalization, but the molecular machine directly producing this rupture remains unresolved.
+
+## 8. Morphological Sequence
+
+Pyronecrosis was originally identified as a necrosis-like rather than apoptotic morphological process.
+
+The sequence begins with an apparently intact monocyte or macrophage exposed to pathological NLRP3 activation, either through disease-associated NLRP3 variants or infection-associated cellular stress [1-2,4].
+
+NLRP3 becomes activated and engages ASC-dependent signaling. ASC oligomerization or speck formation can occur before overt terminal membrane failure in pyronecrosis [4].
+
+Concurrently or at an upstream stage, depending on the experimental system, lysosomal destabilization and cathepsin-sensitive signaling contribute to progression. Cytosolic proteolytic stress and organellar dysfunction are proposed to increase as the response advances.
+
+ATP stimulation induced the co-localization of NLRP3 and ASC speckles and induced cell swelling, leading to necrotic cell death [4]. Ultimately, the plasma membrane fails, intracellular contents are released, and DAMPs including HMGB1 enter the extracellular space [1-2,34].
+
+Unlike classical apoptosis, membrane integrity is not maintained through orderly fragmentation into apoptotic bodies. Unlike canonical pyroptosis, however, the available evidence does not establish that gasdermin pores are responsible for the swelling and lysis.
+
+Morphology therefore supports an inflammatory lytic death but cannot distinguish pyronecrosis from pyroptosis, necroptosis, secondary necrosis, or other inflammatory lytic outcomes.
+
+## 9. Crosstalk and Differential Diagnosis
+
+The principal differential diagnosis is pyroptosis.
+
+Canonical pyroptosis is mechanistically defined by activation of inflammatory caspases followed by gasdermin cleavage and formation of membrane pores, particularly through GSDMD [26]. These pores disturb ionic gradients, permit inflammatory mediator release, cause cellular swelling, and facilitate eventual membrane rupture.
+
+A caspase-1 inhibitor did not inhibit pyronecrosis caused by CAPS-associated mutant NLRP3 expression, and knocking down caspase-1 did not prevent cell death, supporting previous reports that macrophages from caspase-1 knockout mice also showed NLRP3-mediated pyronecrosis induced by Shigella [4].
+
+This distinction must now be extended to gasdermins. Caspase-1 independence alone is insufficient to establish pyronecrosis because inflammasome activation can trigger caspase-8- and GSDME-dependent lytic cell death when canonical caspase-1/GSDMD pyroptosis is blocked [29].
+
+Thus, a modern differential diagnosis should test GSDMD, GSDME, caspase-8, and other alternative inflammasome outputs before assigning pyronecrosis.
+
+Necroptosis is another important differential diagnosis. Necroptosis can also cause cell swelling and lysis, but its defined execution machinery involves RIPK3 and MLKL [22-23]. A genuinely distinct pyronecrotic phenotype should therefore persist despite disruption of the RIPK3–MLKL axis.
+
+Apoptosis must also be excluded. ASC-containing or inflammasome-associated platforms can activate caspase-8 under some conditions, rerouting cells toward apoptotic execution [17-18,20]. Morphological lysis occurring after apoptosis can represent secondary necrosis rather than a primary pyronecrotic mechanism.
+
+PANoptotic or mixed death responses provide an additional complication because inflammasome, apoptotic, and necroptotic components can operate within interconnected signaling platforms [19-21,31]. Such mixed responses should not automatically be labeled pyronecrosis simply because NLRP3 and ASC are involved.
+
+Finally, lysosome-dependent necrotic death should be considered separately. Alum and LLOMe trigger a novel form of necrotic cell death that is distinct from pyroptosis and necroptosis [13]. Demonstrating lysosomal damage therefore does not establish pyronecrosis unless dependence on NLRP3 and ASC is also demonstrated.
+
+The strongest differential definition is consequently based on dependency logic rather than morphology: NLRP3 and ASC are required; caspase-1 is dispensable; canonical gasdermin pyroptosis and RIPK3–MLKL necroptosis must be excluded; and the death retains the lysosomal/cathepsin-sensitive characteristics observed in the original systems.
+
+## 10. Experimental Validation
+
+A rigorous modern demonstration of pyronecrosis requires substantially more than observing inflammatory cell lysis.
+
+First, NLRP3 dependence should be demonstrated genetically. Silencing of the ASC gene by small hairpin RNA treatment inhibited NLRP3 mutant-induced cell death, whereas silencing of the caspase-1 gene did not [4]. Different NLRP3 variants show discrepancies in their response to MCC950-mediated inhibition of inflammasome activation [9].
+
+Second, ASC dependence should be demonstrated independently. ASC loss should prevent or strongly reduce the lytic death response, and ASC oligomerization or speck formation should be examined temporally relative to cell lysis [2,4].
+
+Third, caspase-1 independence must be demonstrated directly. IL-1β release is completely inhibited in Casp1/11−/− macrophages and in Asc−/−Casp1/11−/− macrophages even at a later time point, whereas IL-1α release is detected in Casp1/11−/− macrophages but is canceled in Asc−/−Casp1/11−/− macrophages [16]. Measurements of mature IL-1β or IL-18 should be interpreted separately from cell death because cytokine processing and lytic execution are not identical outputs.
+
+Fourth, canonical gasdermin-mediated pyroptosis must be excluded. GSDMD cleavage and genetic GSDMD dependence should be tested [6-8]. Because loss of canonical pyroptosis can reveal alternative GSDME-dependent pathways, GSDME and caspase-8 should also be interrogated where relevant [16-18].
+
+Fifth, necroptosis should be excluded using genetic or pharmacological perturbation of RIPK3 and MLKL. Persistence of the phenotype after disabling this axis would support separation from canonical necroptosis [22-23].
+
+Sixth, the lysosomal/cathepsin-sensitive component should be validated mechanistically. Lysosomal integrity should be monitored directly, and cathepsin release into the cytosol should be measured. CA-074-Me rescue alone is insufficient to prove cathepsin B specificity because this compound can affect multiple proteolytic and necrotic processes [12,35]. Genetic depletion or selective inhibition of candidate cathepsins would provide stronger evidence.
+
+Seventh, execution should be characterized directly by live-cell imaging of cellular swelling, plasma-membrane permeability, and terminal rupture. NINJ1 is a plasma membrane protein that mediates the terminal rupture of the plasma membrane during lytic cell death, including pyroptosis, and is therefore a candidate terminal rupture mechanism in lytic-death biology [30]. However, NINJ1 dependence should be treated as a hypothesis to test, not assumed as part of the historical pyronecrosis pathway.
+
+The strongest modern experiment would therefore establish NLRP3 dependence + ASC dependence + caspase-1 independence + GSDMD/GSDME-independent execution + RIPK3/MLKL independence + a reproducible lysosomal/cathepsin-sensitive component + direct lytic membrane failure. Without this dependency structure, an inflammatory lytic phenotype should not be called pyronecrosis solely on morphological grounds.
+
+Transcriptomic signatures of NLRP3, ASC, cathepsins, or inflammatory genes cannot demonstrate active pyronecrosis. Such expression patterns can indicate an inflammasome-associated or pyronecrosis-susceptible state but cannot identify the operative execution mechanism.
+
+## 11. Signals activate NLRP3, leading to NLRP3 oligomerization followed by ASC oligomerization and finally the formation of the NLRP3-inflammasome [4].
+
+Pyronecrosis is a characteristic programmed necrosis regulated by NLRP3 in which cell lysis and HMGB1 release occur after ASC speckle formation and cell death is inhibited by Z-VAD-fmk [4].
+
+Context-dependent propagation machinery: lysosomal destabilization, cytosolic cathepsin activity, and broader proteolytic or organellar damage [4,12-15].
+
+Executor: unknown. No dedicated pyronecrosis executor equivalent to GSDMD or MLKL has been established. Terminal plasma-membrane rupture is the physical lethal event in pyronecrosis, and NINJ1 mediates plasma-membrane rupture during inflammatory cell death, including gasdermin-independent rupture, but it is not an established pyronecrosis executor [38].
+
+Negative regulators/interventions: inhibition of NLRP3 activation; cathepsin-sensitive inhibition in the original models; Z-VAD-sensitive blockade after ASC formation in mutant-NLRP3 experiments. Biomarkers/supportive features: ASC specks, cell swelling, membrane permeability, lysis, and HMGB1 release. ## 12. Extracellular ATP, pore-forming toxins, or crystals provide a second signal that activates NLRP3, leading to NLRP3 oligomerization followed by ASC oligomerization and finally the formation of the NLRP3-inflammasome [4].
+
+The molecular step directly linking the NLRP3–ASC/lysosomal phase to terminal membrane rupture remains unidentified.
+
+## 13. Final Mechanistic Interpretation
+
+For RCDome, pyronecrosis should be operationally defined as a provisional/historical RCD-related entity describing NLRP3- and ASC-dependent inflammatory necrotic death originally identified in monocyte/macrophage systems under pathogenic NLRP3 activation or selected bacterial infections, distinguished experimentally from canonical pyroptosis by persistence of death despite caspase-1 loss or inhibition [1-4].
+
+The best-supported core machinery is limited to NLRP3 activation, ASC-dependent signaling, and a reproducible lysosomal/cathepsin-sensitive component in the original experimental systems. The exact position and molecular identity of the cathepsin-dependent step remain unresolved, and cathepsin B should not be designated the universal executor solely on the basis of CA-074-Me sensitivity [4,12].
+
+Pyronecrosis is a programmed necrosis regulated by NLRP3 in which cell lysis and HMGB1 release occur after ASC speckle formation and cell death is inhibited by Z-VAD-fmk [4]. No dedicated molecular executor responsible for this membrane rupture has been established.
+
+This uncertainty is central to classification. ASC-mediated caspase-8 activation and subsequent gasdermin E processing are necessary for caspase-1-independent necrotic cell death [16]. Therefore, some historical observations assigned to pyronecrosis may represent mechanistically distinct death pathways that were not identifiable when the term was introduced.
+
+For RCDome, pyronecrosis should consequently not be presented as equivalent in evidentiary status to pyroptosis, apoptosis, ferroptosis, or necroptosis. It is more defensibly retained as a provisional mechanistic concept with a clearly documented historical phenotype but incompletely resolved execution machinery.
+
+The principal unresolved question is: what molecular machinery actually causes terminal plasma-membrane rupture in bona fide NLRP3/ASC-dependent, caspase-1-independent pyronecrosis, and does such a dedicated mechanism exist independently of alternative gasdermin-dependent, NINJ1-associated, apoptotic, or necroptotic routes?
+

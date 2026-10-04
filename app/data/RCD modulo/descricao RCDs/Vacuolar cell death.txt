@@ -1,0 +1,341 @@
+# Vacuolar Cell Death
+
+## 1. Definition and Classification
+
+Vacuolar cell death is an established plant regulated cell death modality characterized by progressive sequestration and degradation of cytoplasmic material by lytic vacuoles, preservation of the plasma membrane and major cellular compartments through much of the process, and late rupture of the tonoplast followed by release of vacuolar hydrolases and rapid destruction of the residual protoplast [1-3].
+
+Within classical plant-cell-death classifications, vacuolar cell death represents one of the major recurring morphotypes and is distinct from necrosis. Vacuolar cell death occurs in several physiological and pathological settings, including developmental tissue remodeling, embryo suspensor elimination, root-cap turnover, secretory-cavity formation, vascular differentiation, senescence, abiotic stress, and selected pathogen-triggered immune responses [1-5,17].
+
+The modality should not be defined simply by the presence of cytoplasmic vacuoles. Vacuolization occurs in mammalian methuosis, paraptosis, lysosome-dependent cell death, autophagy-associated death, and several stress responses [27-28]. These mechanisms are not equivalent to canonical plant vacuolar cell death.
+
+Tonoplast rupture is followed closely by cessation of Brownian motion, loss of mitochondrial membrane potential, nuclear shrinkage, and plasma membrane collapse, with the interval from tonoplast rupture to plasma membrane collapse being approximately 20 minutes [18].
+
+Accordingly, RCDome should classify vacuolar cell death as an established plant-specific RCD modality.
+
+## 2. Initiation and Triggers
+
+No universal upstream receptor or sensor initiates vacuolar cell death.
+
+Instead, the vacuolar execution program can be recruited by developmental, immune, and abiotic or toxic signals.
+
+During developmental cell death, lineage-specific transcriptional programs can initiate the process. In the Arabidopsis root cap, the NAC-family transcription factor SOMBRERO participates in the differentiation program preceding intracellular Ca²⁺ elevation, acidification, organelle permeabilization, and terminal cellular decompartmentalization [6].
+
+Other NAC-family transcription factors can connect environmental stress to the vacuolar execution apparatus. Stress-responsive NAC30 and NAC81 have been associated with transcriptional activation of vacuolar processing enzyme genes, placing VPE induction downstream of stress sensing and upstream of vacuolar execution [3].
+
+Immune-associated vacuolar death can begin through pathogen recognition by cell-surface pattern-recognition systems or intracellular NLR immune receptors. Activated NLRs can oligomerize into resistosomes that function as Ca²⁺-permeable cation channels [7-9].
+
+Thus, in these immune contexts:
+
+pathogen recognition → NLR/resistosome activation → Ca²⁺ influx → downstream ROS and organelle perturbation → vacuolar destabilization.
+
+However, this route is not universal to all vacuolar cell death.
+
+Abiotic and toxic triggers include heat shock, carbon starvation, ER stress, singlet oxygen, osmotic stress, and mycotoxins [3,10-13].
+
+One experimentally defined heat-shock route proceeds through:
+
+heat stress → ROS production/Ca²⁺ elevation → CaM3 signaling → MPK6 activation → γVPE activation → vacuolar execution [10].
+
+Therefore, vacuolar cell death is best regarded as a common terminal execution architecture reached through several stimulus-specific upstream pathways rather than a receptor-defined linear pathway.
+
+## 3. Core Mechanistic Machinery
+
+The central organelle is the plant lytic vacuole.
+
+Throughout vacuolar cell death, this compartment progressively assumes the role of an intracellular digestive chamber.
+
+A major execution-associated component is vacuolar processing enzyme, or VPE.
+
+VPEs are plant vacuolar cysteine endopeptidases. VPEs, also known as asparaginyl endopeptidases, legumains, or colloquially plant caspases, perform caspase-1-like/YVADase activity and are widespread in the plant kingdom [14,29].
+
+Vacuolar processing enzymes (VPEs) are synthesized as inactive proenzymes that undergo autocatalytic maturation in the acidic vacuolar environment, where they act as cysteine proteases to process vacuolar proteins and contribute to proteolytic machinery during vacuolar cell death [3].
+
+Genetic evidence demonstrates important VPE requirements in several forms of plant cell death. In tobacco mosaic virus-associated hypersensitive death, VPE-silenced plants showed unchanged vacuole morphology while VPE-non-silenced plants showed tonoplast disintegration [14].
+
+VPE should nevertheless not be treated as a universal molecular executor of all vacuolar cell death.
+
+The most defensible role is as a recurrent execution-associated protease that promotes development of the destructive vacuolar state, potentially through maturation or activation of additional vacuolar hydrolases and mechanisms contributing to tonoplast failure [3,14-15].
+
+Autophagy constitutes another important component.
+
+Autophagic machinery can transport cytoplasmic cargo into the lytic vacuole and progressively remove intracellular material before terminal rupture.
+
+In developing spruce suspensor cells, the type II metacaspase mcII-Pa is required for establishment of the vacuolar death phenotype and acts upstream of the autophagic machinery [2,17].
+
+The proposed relationship is:
+
+mcII-Pa activity → relief of autophagy restriction → increased autophagic flux → progressive delivery of cytoplasmic material into the lytic vacuole.
+
+However, neither metacaspases nor autophagy are universal components of all vacuolar cell death contexts.
+
+## 4. Propagation and Amplification
+
+Once the vacuolar program is established, progressive cellular dismantling is driven by increasing interaction between the cytoplasm and the lytic vacuolar compartment.
+
+Autophagic and autophagy-like mechanisms progressively transport cytoplasmic components toward the vacuole.
+
+The tonoplast can undergo invagination, membrane remodeling, and incorporation of intracellular material, while the effective cytoplasmic volume decreases [1,18].
+
+Vacuolar proteolytic capacity simultaneously increases.
+
+VPE activation and other vacuolar hydrolases establish an increasingly destructive lumen capable of degrading sequestered cellular components [3,14-15].
+
+Cytoskeletal remodeling contributes to this process. Actin reorganization and relocation of organelles accompany vacuolar enlargement and progressive cellular dismantling [18-19].
+
+The propagation phase can therefore be reconstructed as:
+
+activation of autophagic/proteolytic machinery → progressive cargo delivery to the lytic vacuole → vacuolar enlargement and increased hydrolytic capacity → cytoplasmic depletion → increasing dependence of cellular survival on preservation of tonoplast integrity.
+
+This last feature is critical.
+
+As the vacuole becomes increasingly enriched in active hydrolases and acidic contents, the tonoplast functions as the barrier separating the remaining viable cytoplasm from a highly destructive compartment.
+
+Consequently, the same vacuolar system that initially performs controlled intracellular degradation becomes the terminal lethal compartment once its membrane integrity is lost.
+
+## 5. Protective/Negative Regulators
+
+Negative regulation of vacuolar cell death operates principally through preservation of vacuolar integrity and restriction of protease activity.
+
+A recently defined protective system involves ATG8 conjugation to the vacuolar membrane, or tonoplast ATG8ylation.
+
+Following cell-wall damage, V-ATPase-dependent signaling and ATG8-conjugation machinery promote vacuolar membrane quality control. Disruption of this pathway leads to increased vacuolar fragmentation and cell death, indicating that ATG8ylation can protect cells by maintaining tonoplast integrity [20].
+
+Protease inhibitors provide another layer of control.
+
+AtSerpin1 inhibits the vacuolar cysteine protease RD21 after membrane permeability changes allow the two proteins to encounter each other [21].
+
+This establishes a protease-buffering mechanism:
+
+vacuolar permeability → release/exposure of active protease → serpin-mediated inhibition → limitation of uncontrolled proteolysis.
+
+Additional plant serpins, including AtSRP4, AtSRP5, and OsSRP-LRS, suppress stress-associated cell death in specific systems [22-23].
+
+Thus, negative regulation can act at several levels:
+
+maintenance of tonoplast integrity → restriction of vacuolar leakage → inhibition of released proteases → reduction of uncontrolled cellular destruction.
+
+Autophagy itself cannot be classified universally as protective or pro-death. Its effect depends on biological context. In developmental vacuolar death it can actively support execution, whereas during immunity it can limit lesion propagation or promote survival in other settings [2,24].
+
+## 6. Commitment / Point of No Return
+
+No single universal molecular point of no return has been defined for all forms of vacuolar cell death.
+
+The clearest irreversible event in the canonical morphology is catastrophic tonoplast rupture.
+
+Before this event, the cell can undergo extensive vacuolar enlargement, autophagic flux, cytoplasmic reduction, and proteolytic activity while maintaining residual compartmentation [1,18].
+
+Once the tonoplast catastrophically ruptures, acidic vacuolar contents and hydrolytic enzymes gain unrestricted access to the remaining cytoplasm.
+
+Therefore, tonoplast rupture is the strongest operational execution boundary.
+
+However, commitment may occur before visible tonoplast disruption in some systems.
+
+Live-cell analysis of developmental root-cap death has shown that nuclear-envelope and ER permeability changes can occur before complete vacuolar collapse, indicating that the cell may enter an irreversible decompartmentalization program before final tonoplast rupture [6].
+
+Furthermore, in spruce suspensor cells, metacaspase activity and autophagic execution have been placed downstream of an earlier commitment step [17].
+
+Thus:
+
+tonoplast rupture = highly reliable irreversible execution event,
+
+but
+
+tonoplast rupture ≠ necessarily the universal molecular point of commitment.
+
+The precise commitment event is likely trigger- and tissue-dependent.
+
+## 7. Execution and Terminal Cause of Death
+
+The defining terminal execution event in canonical vacuolar cell death is catastrophic loss of tonoplast integrity.
+
+Vacuolar collapse is thought to release a cocktail of vacuolar proteins, including hydrolytic enzymes, to accomplish both cell death execution and partial or complete post-mortem corpse clearance [6].
+
+This produces two complementary forms of lethal damage.
+
+First, the physical separation between the lytic vacuole and cytoplasm is abolished.
+
+Second, vacuolar hydrolases gain access to cytoplasmic proteins, membranes, organelles, and nuclear structures.
+
+The terminal sequence is therefore:
+
+tonoplast rupture → vacuolar-content release → cytoplasmic acidification and hydrolytic attack → rapid proteolysis and structural destruction → irreversible loss of cellular homeostasis.
+
+VPE participates in generating this lethal vacuolar state in many experimental systems but should not itself be equated with the terminal executor.
+
+The most defensible executor is the lytic vacuolar system as a whole, with catastrophic tonoplast rupture acting as the direct execution event and released hydrolases acting as downstream destructive agents.
+
+The identity of the molecular mechanism that physically ruptures the tonoplast remains incompletely resolved and may differ across developmental, stress, and immune contexts.
+
+## 8. Morphological Sequence
+
+Canonical vacuolar cell death follows a characteristic chronological progression.
+
+Initially, the cell remains structurally intact while vacuolar and cytoplasmic remodeling begins.
+
+The cytoplasmic volume progressively decreases as the lytic vacuole enlarges and receives intracellular material [1].
+
+Tonoplast invaginations, vesicular structures, autophagic bodies, cytoskeletal rearrangements, and relocation of organelles may appear during this phase [1-2,17-19].
+
+Major organelles and the plasma membrane can remain intact even while extensive intracellular self-clearance is occurring.
+
+The approximate sequence is:
+
+normal plant cell → increasing autophagic/vacuolar activity → progressive cytoplasmic clearance → vacuolar enlargement → extensive intracellular remodeling → late tonoplast destabilization → abrupt tonoplast rupture → rapid destruction of remaining organelles and cytoplasm → protoplast collapse.
+
+Cellular streaming and organelle movement cease around terminal vacuolar collapse [18].
+
+The plasma membrane loses functional integrity during the terminal phase, whereas the extracellular plant cell wall can persist after protoplast destruction.
+
+Neither vacuolation nor autophagic structures alone are diagnostic of the modality.
+
+## 9. Crosstalk and Differential Diagnosis
+
+The principal differential diagnosis is plant necrosis.
+
+In canonical vacuolar cell death, plasma-membrane rupture is late and preceded by organized self-digestion.
+
+In necrosis, membrane failure occurs comparatively early and is accompanied by rapid and disorganized cellular destruction [1-2].
+
+Importantly, the two routes can be mechanistically linked.
+
+In spruce suspensor cells, interference with the metacaspase–autophagy program redirects cells from orderly vacuolar death toward necrotic death, demonstrating that death modality can depend on the integrity of the vacuolar execution machinery [2].
+
+Vacuolar cell death must also be distinguished from autophagy-dependent cell death.
+
+Autophagy can contribute causally to selected developmental vacuolar deaths, but vacuolar cell death is not synonymous with autophagic cell death. Its defining terminal lesion is vacuolar decompartmentalization rather than autophagy alone.
+
+Likewise, it must not be equated with mammalian lysosome-dependent cell death. Hypersensitive response requires particular caution.
+
+VPE deficiency suppresses vacuolar collapse, leading to mycotoxin-induced cell death [25].
+
+However, other HR programs are dominated by NLR/resistosome-dependent ion flux and plasma-membrane injury and can show mixed necrotic and vacuolar characteristics [7-9,26].
+
+Thus:
+
+hypersensitive response ≠ automatically vacuolar cell death.
+
+Only HR contexts demonstrating the appropriate vacuolar execution sequence should be classified as vacuolar cell death.
+
+## 10. Experimental Validation
+
+Strong validation requires both temporal evidence and mechanistic perturbation.
+
+Live-cell imaging should establish the chronology of vacuolar remodeling and membrane failure.
+
+An expected canonical sequence is:
+
+progressive vacuolar enlargement/self-clearance → preservation of plasma-membrane integrity → late tonoplast rupture → rapid protoplast destruction.
+
+Tonoplast integrity should be directly followed using vacuolar membrane markers or compartment-specific fluorescent probes.
+
+During developmental programmed cell death in root cap cells, cellular decompartmentalization is highly ordered, starting with mitochondria, then nuclear envelope and endoplasmic reticulum leakage, with tonoplast rupture and plasma membrane permeabilization variably occurring at later time points [6].
+
+Genetic evidence is particularly important.
+
+VPE-deficient or VPE-suppressed systems have demonstrated reduced tonoplast disruption and death in several experimental contexts, including TMV and fumonisin B1 responses [3,14,16].
+
+Genetic suppression of the metacaspase-autophagy pathway switched cell death from vacuolar to necrotic, causing failure of suspensor differentiation and embryonic arrest [2].
+
+In developmental systems, manipulation of metacaspases can similarly change the mode of execution [2,17].
+
+Evidence for released vacuolar hydrolases or protease activity after tonoplast rupture further strengthens mechanistic assignment.
+
+However, individual features such as VPE expression, DNA fragmentation, autophagosome accumulation, vacuolation, or increased ATG expression are insufficient independently.
+
+For transcriptomic datasets, increased expression of VPE, ATG genes, metacaspases, vacuolar trafficking genes, or stress regulators should be described as a vacuolar-cell-death-associated transcriptional state or pathway competence, not direct evidence that vacuolar death is actively being executed.
+
+## 11. Molecular Hierarchy
+
+Initiators/sensors:
+developmental transcriptional programs, stress-sensing pathways, PRRs, NLR immune receptors, and other context-specific inputs.
+
+Early signal transducers:
+Ca²⁺, ROS, ER-stress signaling, CaM3, MPK6, and immune-associated signaling modules.
+
+Immune-channel machinery:
+NLR resistosomes in selected pathogen-associated contexts.
+
+Core vacuolar machinery:
+lytic vacuole, tonoplast, VPEs, vacuolar hydrolases, vacuolar trafficking systems.
+
+Context-dependent pro-death regulators:
+type II metacaspases, ATG proteins, autophagic machinery, AP-4-associated trafficking, and vacuolar sorting receptors [30].
+
+Negative regulators:
+tonoplast quality-control systems including ATG8ylation, AtSerpin1, AtSRP4, AtSRP5, OsSRP-LRS, and other protease-buffering mechanisms.
+
+Execution-associated protease:
+VPE in multiple, but not all, vacuolar death contexts.
+
+Dedicated universal pore-forming executor:
+none established.
+
+Defining execution event:
+catastrophic tonoplast rupture.
+
+Immediate destructive agents:
+vacuolar hydrolases and acidic vacuolar contents released into the cytoplasm.
+
+Terminal cause of death:
+irreversible intracellular decompartmentalization and hydrolytic destruction of the remaining protoplast.
+
+## 12. Integrated Canonical Sequence
+
+The pathway can be reconstructed as a branched upstream architecture converging on a common vacuolar execution phase.
+
+Developmental route:
+
+developmental cue → lineage-specific transcriptional program → Ca²⁺/acidification and/or metacaspase activation → autophagy and vacuolar remodeling → progressive intracellular self-clearance.
+
+Stress route:
+
+heat, starvation, ER stress, osmotic stress, singlet oxygen, or toxin → ROS/Ca²⁺/stress signaling → kinase and transcriptional responses → VPE/autophagic activation → increasing vacuolar lytic capacity.
+
+Immune route:
+
+pathogen recognition → PRR/NLR activation → resistosome and Ca²⁺ signaling in selected contexts → ROS and organelle remodeling → VPE-dependent or alternative vacuole-associated execution.
+
+These routes converge on:
+
+increased vacuolar proteolytic capacity → autophagic or autophagy-like delivery of cytoplasmic material → enlargement and progressive utilization of the lytic vacuole → extensive cytoplasmic clearance → destabilization of tonoplast integrity.
+
+If vacuolar integrity is preserved:
+
+tonoplast repair/protease control → maintenance of compartmentation → survival or restriction of death.
+
+If destructive signaling predominates:
+
+irreversible tonoplast destabilization → tonoplast rupture → bulk release of vacuolar hydrolases and acidic contents → rapid digestion of cytoplasm and organelles → loss of plasma-membrane function and protoplast integrity → cell death.
+
+Thus, the canonical mechanistic core can be summarized as:
+
+context-specific trigger → Ca²⁺/ROS/transcriptional/proteolytic signaling → activation of vacuolar/autophagic machinery → progressive vacuolar self-digestion → late tonoplast rupture → hydrolase release → catastrophic intracellular decompartmentalization → death.
+
+## 13. Final Mechanistic Interpretation
+
+Vacuolar cell death is an established plant RCD modality centered on conversion of the lytic vacuole from a controlled degradative compartment into the organelle that ultimately destroys the cell.
+
+The pathway does not have a single universal initiating receptor.
+
+Developmental programs, environmental stress, ER stress, toxins, pathogen recognition, Ca²⁺ signals, and ROS can all converge on the vacuolar execution apparatus.
+
+VPE is the strongest recurrent execution-associated protease and is causally required for tonoplast disruption in multiple experimental systems. Nevertheless, VPE dependence is not universal, and VPE should not be presented as a plant equivalent of an animal executioner caspase.
+
+Autophagy is likewise important but context-dependent. During selected developmental deaths it actively drives cellular self-clearance, whereas in other contexts it can be protective or modulate the extent of immune-associated death.
+
+The defining event is instead organelle-level.
+
+During the preterminal phase, the lytic vacuole progressively receives and digests intracellular material while the plasma membrane remains comparatively preserved.
+
+This organization permits gradual removal of the protoplast without immediate cellular rupture.
+
+The decisive terminal transition occurs when tonoplast integrity fails.
+
+Tonoplast rupture releases concentrated hydrolases and acidic vacuolar material into the remaining cytoplasm, abolishing intracellular compartmentation and causing rapid destruction of residual organelles and cellular structures.
+
+Accordingly, the lytic vacuole should be regarded as the central execution compartment, tonoplast rupture as the canonical terminal execution event, and released vacuolar hydrolases as the immediate destructive machinery.
+
+A universal molecular protein that physically causes tonoplast rupture has not yet been established.
+
+The major unresolved mechanistic question is therefore not whether the vacuole is involved, but how different developmental, immune, and stress pathways converge on the physical destabilization of the tonoplast and whether this membrane-breaking mechanism is shared or context-specific.
+

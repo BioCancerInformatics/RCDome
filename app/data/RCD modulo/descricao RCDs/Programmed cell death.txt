@@ -1,0 +1,343 @@
+PROGRAMMED CELL DEATH (PCD)
+RCDome: Final Adjusted Conceptual and Mechanistic Description
+Anti-hallucination audited | References restricted to legally free full text
+
+SCOPE NOTE
+
+Programmed cell death (PCD) is not a single molecular death pathway. In current Nomenclature Committee on Cell Death (NCCD) usage, PCD is a particular physiological context of regulated cell death (RCD): it refers to regulated cellular demise occurring in strictly physiological scenarios, especially development and tissue homeostasis, rather than to stress-driven failure of cellular adaptation [1].
+
+Accordingly, this RCDome entry describes the concept, biological logic, experimental criteria, and possible execution subroutines of PCD. It must not be interpreted as a molecular pathway equivalent to apoptosis, necroptosis, pyroptosis, ferroptosis, or any other individual RCD modality.
+
+1. DEFINITION AND CLASSIFICATION
+
+Programmed cell death is an established biological concept describing physiological instances of regulated cell death that contribute to development, tissue remodeling, cell-number control, differentiation, and homeostasis [1,3,4].
+
+The modern nomenclatural hierarchy is:
+
+ACCIDENTAL CELL DEATH (ACD)
+= cell death caused by overwhelming physical, chemical, or mechanical injury that is essentially immediate and cannot meaningfully be prevented by targeted genetic or pharmacological manipulation [1].
+
+REGULATED CELL DEATH (RCD)
+= cell death produced by activation of genetically encoded signaling and execution machinery and therefore modifiable, at least kinetically and to some extent, by targeted genetic or pharmacological interventions [1,2].
+
+PROGRAMMED CELL DEATH (PCD)
+= the physiological subset of RCD that operates in strictly physiological settings, such as development and tissue homeostasis, rather than as a consequence of failing adaptation to an exogenous or pathological perturbation [1].
+
+Thus:
+
+PCD ⊂ RCD
+
+but:
+
+RCD ≠ PCD in every context.
+
+This distinction is essential. A molecular death mechanism such as apoptosis, necroptosis, or another RCD modality is not automatically “programmed cell death” merely because it is regulated. Its classification as PCD depends on the biological context in which it is deployed [1,2].
+
+PCD is also not synonymous with apoptosis. Apoptosis is historically the best-characterized form of physiological cell deletion, but developmental cell elimination can proceed through mechanisms that are molecularly and morphologically distinct from classical apoptosis [3].
+
+2. INITIATION AND PHYSIOLOGICAL TRIGGERS
+
+There is no universal PCD trigger.
+
+Because PCD is defined by physiological context rather than by one execution mechanism, initiation depends on the developmental or homeostatic program in which the cell is embedded.
+
+Examples of physiological inputs include:
+- developmental lineage and cell-fate programs;
+- morphogenetic remodeling;
+- competition for trophic or survival factors;
+- differentiation-associated elimination;
+- developmental removal of transient structures;
+- physiological control of cell number;
+- immune-cell selection and homeostatic contraction;
+- tissue involution and turnover.
+
+The defining feature is not the identity of one receptor or second messenger, but that the death occurs as part of an organismal physiological program rather than as the terminal consequence of failed adaptation to an exogenous stress [1,3,4].
+
+Caenorhabditis elegans provides the classical genetic paradigm. During normal development, defined cells undergo highly reproducible deaths according to the invariant lineage. Genetic studies established that these deaths require dedicated cell-death machinery rather than occurring through passive degeneration [4].
+
+In this model, developmental specification determines which cells should die, pro-death signaling activates the core apoptotic machinery, and engulfment/removal systems eliminate the corpse. This architecture demonstrates a general principle of PCD:
+
+physiological specification of cell fate
+→ activation of an appropriate death subroutine
+→ execution
+→ corpse clearance.
+
+The molecular identity of each step varies among organisms and tissues.
+
+3. CORE MECHANISTIC MACHINERY
+
+There is no single universal molecular machinery for PCD.
+
+PCD describes why and when a regulated death process is deployed physiologically; the molecular execution machinery is supplied by the context-specific RCD subroutine [1,2].
+
+Apoptosis is a major example. Kerr, Wyllie, and Currie originally described apoptosis as a controlled form of cell deletion that participates in regulation of animal cell populations [5]. Later genetic studies, especially in C. elegans, established dedicated developmental death-control machinery and demonstrated that cell elimination can be genetically required [4].
+
+However, developmental PCD can also be non-apoptotic. Linker cell-type death in C. elegans is a prominent example of reproducible developmental cell elimination that proceeds independently of the canonical apoptotic genes and displays a morphology distinct from classical apoptosis [3].
+
+Therefore, the correct mechanistic representation is:
+
+PCD physiological context
+→ selection/activation of a context-appropriate RCD subroutine
+→ subroutine-specific execution machinery.
+
+It is not:
+
+PCD
+→ one universal executor.
+
+This distinction prevents the historical term “programmed cell death” from being misused as a synonym for the caspase pathway.
+
+4. PROPAGATION AND AMPLIFICATION
+
+PCD has no universal propagation module.
+
+Once a physiological cue selects a death program, signal propagation follows the molecular logic of the recruited RCD modality.
+
+For example:
+- apoptotic execution involves caspase-centered proteolytic cascades;
+- necroptotic execution, when physiologically deployed, depends on the RIPK3–MLKL axis;
+- pyroptotic execution depends on gasdermin pore formation in relevant settings;
+- autophagy-dependent cell death requires functional dependence on autophagic machinery rather than mere accumulation of autophagosomes [1,6–8].
+
+These mechanisms are RCD mechanisms. They become examples of PCD only when they operate in a strictly physiological developmental or homeostatic setting.
+
+This is an important anti-hallucination safeguard because the existence of a regulated pathway does not by itself establish that a particular experiment represents PCD.
+
+Cross-talk between death subroutines is common. Apoptotic, necroptotic, and pyroptotic signaling can share upstream regulators and can compensate for or influence one another [6,7]. Thus, experimentally inhibiting one route can sometimes alter the mode or kinetics of death rather than preventing the physiological elimination event itself.
+
+5. PROTECTIVE AND NEGATIVE REGULATORS
+
+There is no universal PCD suppressor because the survival-versus-death decision is context-specific.
+
+In developmental systems, cells often remain alive because survival programs actively restrain latent death machinery. PCD occurs when developmental cues shift the balance toward the death program.
+
+C. elegans provides a genetically resolved example in which pro-survival and pro-death genes determine whether a developmentally specified cell lives or dies [4]. This demonstrates that a programmed fate is not equivalent to instantaneous or unavoidable destruction; it is produced through regulated molecular control.
+
+In mammalian tissues, trophic signaling, BCL-2-family regulation, death-receptor signaling, caspase control, and other survival/death checkpoints can contribute depending on the physiological setting [1,2,6].
+
+The general principle is:
+
+physiological death competence
+≠ inevitable immediate death.
+
+A programmed outcome can remain dependent on regulatory checkpoints until the selected execution machinery reaches an irreversible stage.
+
+6. COMMITMENT / POINT OF NO RETURN
+
+There is no universal biochemical point of no return for PCD.
+
+PCD can be executed by mechanistically distinct RCD subroutines, and each has its own commitment architecture [1,2].
+
+For apoptosis, mitochondrial outer-membrane permeabilization and/or extensive executioner-caspase activation may function as late commitment events in defined systems, but neither event can serve as a universal PCD commitment marker because non-apoptotic PCD exists.
+
+For other mechanisms, commitment may instead involve pore-forming execution, catastrophic mitochondrial permeability transition, lysosomal permeabilization, autophagy-dependent destruction, or another modality-specific lesion [1,7–9].
+
+Therefore, for RCDome:
+
+PCD has no universal molecular point of no return.
+
+The relevant commitment event must be defined at the level of the specific death subroutine executing the physiological elimination.
+
+At the conceptual level, PCD becomes functionally committed when the selected death machinery produces irreversible loss of cellular viability, but this cannot be reduced to one molecule or organelle across all PCD systems.
+
+7. EXECUTION AND TERMINAL CAUSE OF DEATH
+
+There is no universal answer to “What physically kills the cell during PCD?”
+
+The terminal lesion is mechanism-specific.
+
+Representative examples include:
+- proteolytic dismantling and cellular fragmentation in apoptosis;
+- MLKL-dependent plasma-membrane damage in necroptosis;
+- gasdermin-dependent pore formation in pyroptosis;
+- mitochondrial permeability transition and bioenergetic collapse in MPT-driven necrotic death;
+- autophagy-machinery-dependent cellular elimination in rigorously validated autophagy-dependent cell death [1,6–9].
+
+These examples should not be interpreted as interchangeable or obligatory PCD mechanisms.
+
+The correct general statement is:
+
+PCD physically kills the cell through whichever regulated execution machinery has been physiologically recruited in that developmental or homeostatic context.
+
+Therefore, PCD has:
+- no universal executor;
+- no universal terminal lesion;
+- no universal organelle of execution.
+
+8. MORPHOLOGICAL SEQUENCE
+
+There is no single PCD morphology.
+
+Historically, apoptosis strongly influenced how programmed death was visualized because it produces recognizable features such as cell shrinkage, chromatin condensation, membrane blebbing, fragmentation, and rapid corpse removal [5].
+
+However, morphology alone is not sufficient to define PCD or its molecular mechanism [1,10].
+
+Non-apoptotic developmental PCD can display different ultrastructural features. Linker cell-type death, for example, occurs during normal development while remaining genetically and morphologically distinct from canonical apoptosis [3].
+
+Plant PCD provides an even clearer illustration of morphological diversity. Physiological plant cell elimination can involve vacuolar mechanisms and other morphologies for which the term “apoptosis” is inappropriate [11,12].
+
+Thus, the morphological sequence must be assigned to the specific PCD system under study rather than inferred from the label “programmed cell death.”
+
+9. CROSSTALK AND DIFFERENTIAL DIAGNOSIS
+
+PCD versus RCD:
+PCD is a subset of RCD defined by physiological context. RCD additionally includes regulated deaths triggered by pathological or stress-associated perturbations [1].
+
+PCD versus ACD:
+PCD depends on regulated molecular machinery and physiological biological programming. ACD results from overwhelming injury and lacks meaningful targeted preventability [1].
+
+PCD versus apoptosis:
+Apoptosis is one important execution mechanism for PCD, but PCD is broader than apoptosis. Non-apoptotic developmental PCD is experimentally established [3,4].
+
+PCD versus stress-induced regulated death:
+A cell can undergo mechanistically regulated apoptosis, necroptosis, pyroptosis, ferroptosis, or another RCD after damage or stress without that event qualifying as PCD under strict NCCD terminology [1,2].
+
+PCD versus plant pathogen-triggered death:
+Plant hypersensitive-response death is regulated immune-associated cell death, but because it is triggered by pathogen challenge it should not automatically be used as an example of strictly physiological PCD under the NCCD mammalian nomenclature. Plant literature historically uses “PCD” more broadly, so terminology should be reported with its disciplinary context [11,12].
+
+PCD versus autophagy-dependent cell death:
+ADCD can represent PCD in a physiological developmental model when the death itself requires autophagic machinery. Autophagy occurring alongside cell death is not sufficient [8].
+
+10. EXPERIMENTAL VALIDATION
+
+Because PCD is a contextual concept, experimental validation requires two separate demonstrations:
+
+A. demonstrate that genuine cell death occurs;
+B. demonstrate that the event is regulated and belongs to a physiological developmental/homeostatic program.
+
+Cell death itself should be confirmed with multiple orthogonal assays rather than one morphological or biochemical marker [10,13].
+
+Regulation should be demonstrated by perturbing the causal machinery. Strong evidence includes:
+- loss-of-function genetics;
+- gain-of-function or rescue experiments;
+- pathway-specific pharmacological intervention when validated;
+- biochemical demonstration of the proposed executor;
+- evidence of true cytoprotection rather than a mere delay or morphological conversion [1,10,13].
+
+Physiological programming should be demonstrated by:
+- reproducibility in developmental time or lineage;
+- stereotyped spatial localization;
+- linkage to normal morphogenesis, differentiation, tissue remodeling, or homeostasis;
+- recurrence in the absence of an exogenous damaging stimulus as the primary cause [1,3,4].
+
+The C. elegans developmental system illustrates the value of this standard because specific deaths occur reproducibly and are genetically controlled [4].
+
+For non-apoptotic PCD, blocking apoptosis is not sufficient by itself. The alternative mechanism must be positively demonstrated.
+
+For claims that a regulated death is PCD rather than stress-induced RCD, the biological context must be established explicitly.
+
+11. MOLECULAR HIERARCHY
+
+Because PCD is a contextual umbrella rather than a pathway, its hierarchy is conceptual:
+
+Physiological developmental/homeostatic context
+→ cell-fate or tissue-level specification
+→ survival/death regulatory checkpoint
+→ recruitment of a context-specific RCD modality
+→ modality-specific signal transducers
+→ modality-specific execution machinery
+→ irreversible cellular failure
+→ corpse clearance, lysis, extrusion, or tissue-specific removal.
+
+Examples of modality-specific machinery may include:
+- caspases and mitochondrial/death-receptor regulators in apoptosis;
+- RIPK3–MLKL in necroptosis;
+- gasdermins in pyroptosis;
+- permeability-transition machinery in MPT-driven necrotic death;
+- autophagic machinery in validated ADCD [1,6–9].
+
+These components are not “PCD genes” in a universal sense. They belong to individual execution subroutines that can be physiologically recruited.
+
+12. INTEGRATED CANONICAL SEQUENCE
+
+A single molecular arrow sequence for PCD would be misleading.
+
+The most defensible integrated sequence is:
+
+physiological developmental or homeostatic requirement
+→ specification that a particular cell or cell population should be eliminated
+→ regulation of survival-versus-death competence
+→ activation of a context-specific RCD subroutine
+→ subroutine-specific commitment event
+→ subroutine-specific execution machinery
+→ irreversible loss of cellular viability
+→ organized elimination/clearance or context-appropriate terminal removal
+→ contribution to normal development or tissue homeostasis.
+
+Examples:
+
+Developmental apoptotic route:
+developmental specification
+→ activation of apoptotic machinery
+→ caspase-dependent cellular dismantling
+→ corpse recognition and clearance.
+
+Non-apoptotic developmental route:
+developmental specification
+→ non-apoptotic regulatory machinery
+→ mechanism-specific structural/metabolic failure
+→ elimination.
+
+No one of these routes defines PCD as a whole.
+
+13. FINAL MECHANISTIC INTERPRETATION
+
+For RCDome, Programmed Cell Death can be operationally defined as:
+
+A physiological subset of regulated cell death in which developmentally or homeostatically specified cells are eliminated through genetically and molecularly controlled death machinery. PCD is defined primarily by biological context, not by one universal execution mechanism. The physiological instruction to eliminate a cell recruits a context-specific regulated death subroutine, which then supplies its own commitment event, executor, terminal lesion, morphology, and clearance mechanism.
+
+Classification:
+Established RCD-related concept / physiological category of RCD; not a single RCD modality.
+
+Established core:
+- physiological developmental or homeostatic context;
+- regulated, genetically or pharmacologically modifiable death machinery;
+- reproducible biological function in cell/tissue elimination;
+- mechanism-specific execution.
+
+Not universal:
+- apoptosis;
+- caspase activation;
+- mitochondrial permeabilization;
+- membrane rupture;
+- lysosomal permeabilization;
+- autophagy;
+- any single executor or point of no return.
+
+Major conceptual safeguard:
+
+PROGRAMMED CELL DEATH ≠ APOPTOSIS
+
+and
+
+PROGRAMMED CELL DEATH ≠ ALL REGULATED CELL DEATH.
+
+The major unresolved issue is largely nomenclatural and mechanistic integration: how broadly the historical term PCD should be applied across organisms and disciplines while preserving the modern distinction between physiological PCD and stress-driven RCD.
+
+REFERENCES: ALL VERIFIED AS LEGALLY FREE FULL TEXT
+
+1. Galluzzi L, Vitale I, Aaronson SA, et al. Molecular mechanisms of cell death: recommendations of the Nomenclature Committee on Cell Death 2018. Cell Death & Differentiation. 2018;25:486–541. DOI: 10.1038/s41418-017-0012-4. PMCID: PMC5864239.
+
+2. Tang D, Kang R, Vanden Berghe T, Vandenabeele P, Kroemer G. The molecular machinery of regulated cell death. Cell Research. 2019;29:347–364. DOI: 10.1038/s41422-019-0164-5. PMCID: PMC6796845.
+
+3. Kutscher LM, Shaham S. Non-apoptotic cell death in animal development. Cell Death & Differentiation. 2017;24:1326–1336. DOI: 10.1038/cdd.2017.20. PMCID: PMC5520451.
+
+4. Conradt B, Wu YC, Xue D. Programmed Cell Death During Caenorhabditis elegans Development. Genetics. 2016;203:1533–1562. DOI: 10.1534/genetics.115.186247. PMCID: PMC4981262.
+
+5. Kerr JFR, Wyllie AH, Currie AR. Apoptosis: A Basic Biological Phenomenon with Wide-ranging Implications in Tissue Kinetics. British Journal of Cancer. 1972;26:239–257. DOI: 10.1038/bjc.1972.33. PMCID: PMC2008650.
+
+6. Bertheloot D, Latz E, Franklin BS. Necroptosis, pyroptosis and apoptosis: an intricate game of cell death. Cellular & Molecular Immunology. 2021;18:1106–1121. DOI: 10.1038/s41423-020-00630-3. PMCID: PMC8008022.
+
+7. Kist M, Vucic D. Cell death pathways: intricate connections and disease implications. EMBO Journal. 2021;40:e106700. DOI: 10.15252/embj.2020106700. PMCID: PMC7917554.
+
+8. Denton D, Kumar S. Autophagy-dependent cell death. Cell Death & Differentiation. 2019;26:605–616. DOI: 10.1038/s41418-018-0252-y. PMCID: PMC6460387.
+
+9. Javadov S, Kuznetsov A. Mitochondrial Permeability Transition and Cell Death: The Role of Cyclophilin D. Frontiers in Physiology. 2013;4:76. DOI: 10.3389/fphys.2013.00076. PMCID: PMC3622878.
+
+10. Kroemer G, Galluzzi L, Vandenabeele P, et al. Classification of cell death: recommendations of the Nomenclature Committee on Cell Death 2009. Cell Death & Differentiation. 2009;16:3–11. DOI: 10.1038/cdd.2008.150. PMCID: PMC2744427.
+
+11. van Doorn WG, Beers EP, Dangl JL, et al. Morphological classification of plant cell deaths. Cell Death & Differentiation. 2011;18:1241–1246. DOI: 10.1038/cdd.2011.36. PMCID: PMC3172093.
+
+12. Cubría-Radío M, Nowack MK. Transcriptional networks orchestrating programmed cell death during plant development. Current Topics in Developmental Biology. 2019;131:161–184. DOI: 10.1016/bs.ctdb.2018.10.006. PMCID: PMC7116394.
+
+13. Hu XM, Li ZX, Lin RH, et al. Guidelines for Regulated Cell Death Assays: A Systematic Summary, A Categorical Comparison, A Prospective. Frontiers in Cell and Developmental Biology. 2021;9:634690. DOI: 10.3389/fcell.2021.634690. PMCID: PMC7970050.

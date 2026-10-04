@@ -1,0 +1,636 @@
+Mitochondrial permeability transition
+
+1. Definition and Classification
+
+Mitochondrial permeability transition (MPT) is an established mitochondrial permeability process in which the inner mitochondrial membrane undergoes a sudden increase in permeability to small solutes through activation of the mitochondrial permeability transition pore (mPTP). When pore opening is sustained and reaches a high-conductance state, MPT causes rapid dissipation of the mitochondrial membrane potential, osmotic matrix swelling, failure of oxidative phosphorylation, ATP depletion, loss of cellular ion homeostasis, and predominantly necrotic cell death [1-6].
+
+An important mechanistic distinction must be maintained between MPT itself and MPT-driven necrosis.
+
+MPT describes the mitochondrial permeability event.
+
+MPT-driven necrosis describes the lethal regulated-cell-death outcome produced when this permeability transition becomes sustained, sufficiently extensive, and bioenergetically irreversible.
+
+This distinction is necessary because brief or low-conductance mPTP openings can be reversible and may participate in physiological Ca2+ and redox signaling without committing the cell to death [1,7-8].
+
+Accordingly:
+
+transient/low-conductance MPT → potentially reversible mitochondrial signaling;
+
+sustained/high-conductance MPT → mitochondrial energetic collapse → regulated necrotic death.
+
+The defining lesion occurs at the inner mitochondrial membrane and is therefore mechanistically distinct from BAX/BAK-mediated mitochondrial outer-membrane permeabilization during intrinsic apoptosis [31].
+
+It is also distinct from ferroptosis, whose lethal chemistry is phospholipid peroxidation; necroptosis, whose canonical executor is MLKL; and pyroptosis, whose terminal membrane permeabilization depends on gasdermins [10-13].
+
+For RCDome, because MPT-driven necrosis is already represented as a separate entity, the most internally coherent annotation is to treat Mitochondrial permeability transition primarily as the mechanistic mitochondrial process that can be reversible or lethal, while MPT-driven necrosis represents its sustained death-execution state.
+
+2. Initiation and Triggers
+
+The best-established triggers of pathological MPT are mitochondrial Ca2+ overload and oxidative stress [1-4].
+
+The canonical sequence is:
+
+severe cellular stress → cytosolic and/or ER Ca2+ mobilization → mitochondrial Ca2+ uptake → matrix Ca2+ accumulation + ROS → mPTP sensitization → pore opening.
+
+The ER–mitochondria interface is an important upstream signaling platform.
+
+At mitochondria-associated membrane contact sites, IP3R-mediated ER Ca2+ release can be functionally coupled through GRP75 and VDAC1 to mitochondrial Ca2+ uptake pathways, including MCU [14-15,32].
+
+Thus:
+
+ER Ca2+ release → IP3R–GRP75–VDAC1 signaling → mitochondrial Ca2+ uptake → matrix Ca2+ elevation → increased probability of MPT.
+
+This does not mean that the IP3R–GRP75–VDAC1–MCU axis is universally required. Rather, it is one major route by which diverse cellular signals are translated into mitochondrial Ca2+ loading.
+
+Pathological triggers include ischemia–reperfusion, hypoxia, toxic injury, oxidative stress, DNA damage, nutrient excess, inflammatory stress, and other conditions that impair oxidative phosphorylation or destabilize cellular ion homeostasis [3,5,16].
+
+Ischemia–reperfusion is among the best-established pathological contexts.
+
+During ischemia:
+
+reduced oxygen → impaired oxidative phosphorylation → ATP depletion → ion-pump failure → cytosolic Ca2+ disturbance + acidosis + mitochondrial metabolic stress.
+
+During reperfusion:
+
+oxygen restoration → rapid ROS generation + pH normalization + persistent Ca2+ stress → increased susceptibility to sustained mPTP opening.
+
+Low intracellular pH during ischemia can suppress pore opening, while normalization of pH after reperfusion removes this inhibitory restraint [1,5,17].
+
+ROS acts both as an upstream trigger and as an amplifier.
+
+Oxidative modification of mitochondrial proteins, lipids, and redox-sensitive regulatory systems can lower the threshold for pore opening [1,7].
+
+Therefore, MPT is not triggered by one conventional receptor. The mPTP behaves more like a mitochondrial stress-integration system that responds to the combined state of Ca2+, redox balance, pH, phosphate, adenine nucleotides, membrane potential, and mitochondrial architecture.
+
+3. Core Mechanistic Machinery
+
+The defining biochemical event is increased permeability of the inner mitochondrial membrane through a high-conductance, poorly selective permeability pathway [1,18].
+
+The pore can permit passage of solutes of approximately ≤1.5 kDa, collapsing the normal ionic and proton gradients maintained across the inner mitochondrial membrane [1,18].
+
+The central sequence is:
+
+mPTP opening → proton-gradient dissipation → Δψm loss → oxidative-phosphorylation failure.
+
+Cyclophilin D, encoded by PPIF, is the best-established molecular regulator of MPT [2,19-20].
+
+Cyclophilin D is located in the mitochondrial matrix and facilitates pore opening under Ca2+, oxidative, and metabolic stress.
+
+However:
+
+Cyclophilin D is not established as the pore-forming structure itself.
+
+Its role is regulatory.
+
+Genetic deletion or pharmacological inhibition of Cyclophilin D increases the threshold required for pore opening and protects against several forms of necrotic tissue injury [2,19-20].
+
+The structural identity of the mPTP remains unresolved.
+
+Two major structural concepts dominate the literature.
+
+One involves conformational states of F1FO-ATP synthase [1,21,34].
+
+Another assigns an important role to adenine nucleotide translocase (ANT) proteins [22-23].
+
+Evidence supporting ATP-synthase-associated pore formation is substantial, but a single universal ATP-synthase-derived pore has not been conclusively demonstrated.
+
+Similarly, ANT clearly regulates and can contribute to permeability-transition behavior, but it does not fully account for all mPTP activity [22-23].
+
+The most defensible current interpretation is therefore that more than one high-conductance permeability pathway may exist, or that different protein assemblies contribute depending on tissue, species, metabolic state, or inducing stimulus [1,18,21-23].
+
+Thus:
+
+MPT = established phenomenon;
+
+mPTP high-conductance activity = established;
+
+Cyclophilin D regulation = strongly established;
+
+single universal molecular pore structure = unresolved.
+
+4. Propagation and Amplification
+
+Once a high-conductance pore opens, loss of mitochondrial membrane potential occurs rapidly.
+
+Δψm collapse immediately compromises oxidative phosphorylation because the proton-motive force required for ATP synthesis is lost.
+
+Thus:
+
+mPTP opening → Δψm loss → ATP-synthesis arrest.
+
+ATP synthase may then operate in reverse, hydrolyzing ATP in an attempt to sustain mitochondrial membrane potential [24].
+
+This behavior accelerates rather than corrects energetic collapse.
+
+Therefore:
+
+OXPHOS failure + ATP-synthase reversal → progressively deeper ATP depletion.
+
+A second amplification mechanism is osmotic.
+
+Loss of inner-membrane selectivity allows solute equilibration between the mitochondrial matrix and cytosol.
+
+Water subsequently enters the matrix:
+
+solute equilibration → osmotic water entry → matrix swelling.
+
+Severe matrix swelling distorts cristae, disrupts inner-membrane architecture, and can mechanically compromise the outer mitochondrial membrane [1,3,25].
+
+A third amplification mechanism is ROS-induced ROS release.
+
+Mitochondrial dysfunction can increase ROS generation. ROS can further sensitize mPTP opening in the same or adjacent mitochondria, creating a positive-feedback circuit [7,26].
+
+Thus:
+
+initial MPT → respiratory/redox dysfunction → additional ROS → further MPT sensitization → propagation across the mitochondrial population.
+
+Ca2+ can participate in a similar feedback loop.
+
+Mitochondrial dysfunction alters cellular Ca2+ handling, while continued Ca2+ accumulation increases pore-opening probability.
+
+Context-dependent signaling can enhance this process.
+
+For example, mitochondrial JNK–SAB signaling has been linked to sustained mitochondrial ROS generation and increased vulnerability to MPT-associated injury in liver models [27].
+
+These amplification loops help explain why isolated reversible pore openings can transition into widespread mitochondrial failure.
+
+5. Protective / Negative Regulators
+
+Normal mitochondria maintain a relatively high threshold for sustained permeability transition.
+
+The first protective mechanism is regulation of mitochondrial Ca2+.
+
+Controlled transfer of Ca2+ between the ER, cytosol, and mitochondria prevents excessive matrix accumulation [14-15,33].
+
+Mitochondrial Ca2+ uptake is physiologically important for metabolism, so protection is not achieved by eliminating mitochondrial Ca2+ signaling entirely but by preventing excessive or persistent accumulation.
+
+A second protective mechanism is maintenance of redox homeostasis.
+
+Antioxidant systems reduce oxidative modifications that sensitize the pore.
+
+A third regulatory layer is intracellular pH.
+
+Acidic matrix pH desensitizes the mitochondrial permeability transition pore, whereas high matrix pH sensitizes it [2].
+
+A fourth protective factor is preservation of adenine nucleotides and bioenergetic state.
+
+ATP and ADP availability influences mitochondrial conformation and pore sensitivity.
+
+Severe nucleotide depletion therefore favors transition toward irreversible failure.
+
+Cyclophilin D is a major positive regulator of opening and therefore represents an important therapeutic checkpoint.
+
+Cyclophilin D inhibition or deletion increases resistance to Ca2+- and ROS-triggered MPT [19-20].
+
+Cyclosporine-associated strategies and other Cyclophilin D-directed approaches have consequently been explored as methods for raising the pore-opening threshold.
+
+ANT also regulates permeability-transition sensitivity [22-23].
+
+F1FO-ATP synthase contributes both to normal bioenergetics and potentially to pore behavior, although the exact relationship remains controversial [1,21,24].
+
+Mitochondrial quality-control processes, including mitophagy and maintenance of mitochondrial dynamics, can also influence the amount of damaged mitochondrial mass available to undergo pathological transition [8,28].
+
+Thus, protection occurs primarily by maintaining:
+
+controlled mitochondrial Ca2+;
+
+redox balance;
+
+appropriate pH;
+
+adenine-nucleotide availability;
+
+mitochondrial membrane organization;
+
+normal mitochondrial quality control;
+
+and a high threshold for Cyclophilin D-dependent mPTP opening.
+
+6. Commitment / Point of No Return
+
+MPT is unusual among RCD-related mechanisms because pore opening is not intrinsically equivalent to irreversible death.
+
+Transient pore openings can close.
+
+Mitochondria can repolarize.
+
+Ca2+ and ROS can be released without catastrophic energetic failure [1,7-8].
+
+Thus:
+
+mPTP opening ≠ automatic commitment.
+
+The key distinction is between transient/localized and persistent/widespread permeability transition.
+
+The best-supported commitment state is reached when sustained high-conductance opening affects enough of the mitochondrial population that Δψm cannot be re-established and critical matrix metabolites are lost [7,29].
+
+At this stage:
+
+persistent MPT → irreversible depolarization → failure of respiratory recovery → inability to restore ATP synthesis.
+
+Once ATP availability falls below the level needed to sustain essential ion pumps and metabolic processes, cellular recovery becomes increasingly impossible.
+
+Therefore, the operational point of no return is not one molecular cleavage or phosphorylation event.
+
+It is a systems-level mitochondrial threshold:
+
+sustained high-conductance permeability across sufficient mitochondrial mass → irreversible loss of mitochondrial energetic competence.
+
+The precise quantitative threshold remains unresolved and probably varies between cell types according to mitochondrial reserve capacity, glycolytic capacity, metabolic demand, and mitochondrial abundance.
+
+This remains one of the major open questions in the field.
+
+7. Execution and Terminal Cause of Death
+
+What physically kills the cell after lethal mitochondrial permeability transition?
+
+The immediate molecular event is sustained high-conductance permeabilization of the inner mitochondrial membrane.
+
+However, pore opening itself kills the cell indirectly through catastrophic bioenergetic failure.
+
+The physical sequence is:
+
+sustained mPTP opening → Δψm collapse → oxidative-phosphorylation arrest → ATP-synthesis failure → ATP hydrolysis → severe ATP depletion → ion-pump failure → ionic and osmotic disequilibrium → cellular swelling → loss of membrane integrity → death.
+
+Therefore, the dominant terminal lesion is not a dedicated plasma-membrane protein pore analogous to GSDMD or MLKL.
+
+Instead, the cell loses the energetic capacity required to maintain itself.
+
+Plasma-membrane ion pumps depend on ATP.
+
+When ATP becomes critically depleted:
+
+Na+ and other ions accumulate intracellularly → water follows osmotically → the cell swells → plasma-membrane integrity eventually fails.
+
+At the mitochondrial level, osmotic matrix swelling damages cristae and can cause outer-membrane rupture.
+
+At the cellular level, the resulting energy deficit converts mitochondrial injury into global homeostatic collapse.
+
+The most defensible answer to “what physically kills the cell?” is therefore:
+
+irreversible mitochondrial bioenergetic collapse eliminates ATP-dependent ionic homeostasis, producing osmotic cellular failure and terminal membrane rupture.
+
+This is the lethal execution mechanism when MPT progresses to MPT-driven necrosis.
+
+8. Morphological Sequence
+
+Early MPT may produce minimal visible structural change.
+
+Transient pore flickering can occur in mitochondria that subsequently repolarize [1,7].
+
+As permeability transition becomes sustained, mitochondria lose Δψm and begin to swell.
+
+The morphological progression is:
+
+polarized intact mitochondria → mitochondrial depolarization → matrix swelling → cristae distortion/disorganization → severe mitochondrial swelling → outer-membrane disruption → whole-cell swelling → plasma-membrane rupture.
+
+Similarly, mitochondrial swelling alone cannot establish that mPTP opening caused death.
+
+Terminal cell morphology is predominantly necrotic.
+
+Cells become swollen, organelle architecture deteriorates, and plasma-membrane integrity is lost.
+
+This differs from canonical apoptosis, in which cells typically shrink and undergo ordered caspase-dependent dismantling, chromatin condensation, membrane blebbing, and apoptotic-body formation.
+
+Therefore, morphology supports but does not establish MPT.
+
+Functional pore measurements are required.
+
+9. Crosstalk and Differential Diagnosis
+
+MPT has important crosstalk with apoptosis.
+
+The key distinction lies primarily in the membrane involved and the metabolic consequence.
+
+Intrinsic apoptosis is classically initiated by BAX/BAK-mediated outer mitochondrial membrane permeabilization [9] .
+
+MPT begins with permeability transition of the inner mitochondrial membrane.
+
+However, extensive matrix swelling after MPT can secondarily disrupt the outer mitochondrial membrane and release intermembrane-space proteins.
+
+If ATP remains sufficiently available, cytochrome c release may permit apoptosome assembly and caspase activation.
+
+Thus, under some conditions:
+
+MPT → mitochondrial outer-membrane disruption → cytochrome c release → apoptosis.
+
+Under more severe energetic collapse:
+
+MPT → ATP depletion → inability to sustain apoptotic execution → necrotic death.
+
+Therefore, MPT can contribute to apoptosis in some contexts without being equivalent to intrinsic apoptosis.
+
+Necroptosis must also be distinguished carefully.
+
+Some experimental models connect RIPK3 and CaMKII signaling to mitochondrial permeability transition, especially in cardiovascular injury [30].
+
+Thus:
+
+RIPK3–MLKL-dependent plasma-membrane execution → canonical necroptosis;
+
+sustained inner-membrane permeability transition → mitochondrial energetic collapse → MPT-driven necrosis.
+
+Ferroptosis also shares several upstream features with MPT, including ROS, mitochondrial dysfunction, iron-associated oxidative stress, and metabolic injury.
+
+MPT can therefore occur secondarily during ferroptotic stress without redefining the death modality.
+
+Similarly, secondary mitochondrial depolarization during another RCD modality should not automatically be interpreted as primary MPT-driven death.
+
+The key diagnostic question is:
+
+does sustained MPT causally execute the death, or is it merely a downstream consequence/amplifier?
+
+10. Experimental Validation
+
+Strong evidence for MPT requires direct functional measurement of mitochondrial permeability transition.
+
+A single marker is insufficient.
+
+The strongest experimental design combines multiple orthogonal readouts.
+
+First, demonstrate mitochondrial depolarization.
+
+Δψm-sensitive probes can establish the timing and extent of mitochondrial membrane-potential loss.
+
+Second, directly assess permeability transition.
+
+Calcein-based assays, mitochondrial permeability measurements, and isolated-mitochondria approaches can demonstrate increased inner-membrane permeability.
+
+Third, measure mitochondrial swelling.
+
+Large-amplitude matrix swelling is an important downstream consequence of sustained MPT.
+
+Fourth, assess calcium retention capacity.
+
+The amount of Ca2+ that mitochondria can retain before undergoing permeability transition provides a functional measurement of pore susceptibility.
+
+Fifth, test Cyclophilin D dependence.
+
+PPIF/Cyclophilin D deletion, silencing, or pharmacological inhibition should increase resistance in Cyclophilin D-sensitive MPT models [19-20].
+
+However, Cyclophilin D resistance should not be used as the sole diagnostic criterion because the precise pore architecture and degree of CypD dependence can vary by context.
+
+Sixth, measure the bioenergetic consequences.
+
+These include:
+
+loss of Δψm;
+
+respiratory failure;
+
+ATP depletion;
+
+failure to recover oxidative phosphorylation.
+
+Seventh, establish temporal order.
+
+The most informative sequence is:
+
+stress → mPTP opening → Δψm loss → mitochondrial swelling → ATP depletion → membrane failure → cell death.
+
+Eighth, perform causal rescue.
+
+Interventions that suppress the identified upstream Ca2+/ROS trigger or desensitize mPTP opening should prevent or delay the downstream lethal sequence.
+
+Ninth, distinguish alternative RCD mechanisms experimentally.
+
+Caspase inhibitors can help separate classical apoptosis.
+
+MLKL pathway analysis can distinguish necroptosis.
+
+Lipid-peroxidation assays and ferroptosis rescue agents can distinguish ferroptosis.
+
+Morphology alone cannot establish MPT.
+
+Likewise, transcriptomic profiling cannot directly demonstrate MPT because pore opening is a biophysical event.
+
+Expression changes in PPIF, ANT-family genes, F1FO-ATP synthase components, MCU-related genes, VDAC1, IP3R-associated genes, redox regulators, or mitochondrial-stress pathways can indicate susceptibility to MPT-associated states but cannot prove active permeability transition.
+
+11. Molecular Hierarchy
+
+Initiating stresses:
+
+ischemia;
+
+reperfusion;
+
+hypoxia;
+
+Ca2+ overload;
+
+oxidative stress;
+
+toxic mitochondrial injury;
+
+DNA damage;
+
+metabolic stress;
+
+nutrient excess;
+
+inflammatory injury.
+
+Upstream Ca2+ transfer machinery:
+
+IP3R;
+
+GRP75;
+
+VDAC1;
+
+MCU-associated mitochondrial Ca2+ uptake;
+
+ER–mitochondria contact sites.
+
+Core physicochemical inputs:
+
+matrix Ca2+;
+
+ROS;
+
+pH;
+
+inorganic phosphate;
+
+adenine nucleotides;
+
+membrane potential;
+
+mitochondrial redox status.
+
+Core regulator:
+
+PPIF/Cyclophilin D.
+
+Role of PPIF/Cyclophilin D:
+
+pore sensitization/facilitation;
+
+not established universal pore formation.
+
+Candidate structural components:
+
+F1FO-ATP synthase conformations;
+
+ANT-associated permeability pathways;
+
+potential heterogeneous/context-dependent pore assemblies.
+
+Defining mechanistic event:
+
+high-conductance inner mitochondrial membrane permeability transition.
+
+Immediate consequences:
+
+Δψm collapse;
+
+proton-gradient dissipation;
+
+oxidative-phosphorylation arrest;
+
+solute equilibration;
+
+matrix water influx.
+
+Amplification:
+
+ROS-induced ROS release;
+
+continued Ca2+ dysregulation;
+
+ATP-synthase reversal;
+
+ATP depletion;
+
+propagation of MPT across mitochondrial populations.
+
+Protective mechanisms:
+
+Ca2+ buffering;
+
+redox control;
+
+acidic pH under relevant conditions;
+
+adenine-nucleotide preservation;
+
+mitochondrial quality control;
+
+Cyclophilin D inhibition;
+
+maintenance of mitochondrial architecture.
+
+Commitment:
+
+persistent high-conductance MPT affecting sufficient mitochondrial mass to prevent repolarization and respiratory recovery.
+
+Terminal execution when lethal:
+
+bioenergetic collapse → ion-homeostasis failure → osmotic swelling → plasma-membrane failure.
+
+12. Integrated Canonical Sequence
+
+A representative physiological stress route is:
+
+severe cellular stress → ER/cytosolic Ca2+ mobilization → IP3R/GRP75/VDAC1-associated transfer toward mitochondria → mitochondrial Ca2+ uptake → matrix Ca2+ overload.
+
+Simultaneously:
+
+oxidative/metabolic stress → mitochondrial ROS elevation + ATP/nucleotide disturbances + redox imbalance.
+
+These signals converge:
+
+matrix Ca2+ + ROS + metabolic stress → Cyclophilin D-dependent sensitization of mPTP machinery → permeability-transition opening.
+
+If opening is brief:
+
+transient MPT → limited Ca2+/ROS release → pore closure → mitochondrial repolarization → survival.
+
+If opening becomes sustained:
+
+high-conductance MPT → proton-gradient collapse → Δψm loss → oxidative-phosphorylation arrest.
+
+Then:
+
+ATP synthase may reverse → ATP hydrolysis → accelerated ATP depletion.
+
+Simultaneously:
+
+solute equilibration → osmotic matrix water influx → mitochondrial swelling → cristae disruption → outer-membrane damage.
+
+Propagation follows:
+
+mitochondrial dysfunction → additional ROS/Ca2+ dysregulation → additional pore opening → increasing fraction of mitochondrial network becomes depolarized.
+
+Commitment occurs when:
+
+MPT becomes prolonged and widespread → Δψm cannot recover → matrix metabolites are lost → electron transport and ATP synthesis cannot be re-established.
+
+Terminal progression:
+
+irreversible mitochondrial energetic failure → ATP exhaustion → cellular ion-pump failure → Na+/water accumulation → cellular swelling → loss of plasma-membrane integrity → regulated necrotic death.
+
+13. Final Mechanistic Interpretation
+
+For RCDome, Mitochondrial permeability transition should be separated conceptually from MPT-Driven Necrosis even though the two entities are tightly linked.
+
+Mitochondrial permeability transition is the underlying mitochondrial process:
+
+a stress-sensitive increase in inner mitochondrial membrane permeability mediated by the mPTP.
+
+This process can exist in at least two functional regimes.
+
+Transient MPT:
+
+short-lived or low-conductance opening → potentially reversible Ca2+/ROS signaling and mitochondrial adaptation.
+
+Lethal MPT:
+
+persistent high-conductance opening → irreversible mitochondrial depolarization → oxidative-phosphorylation failure → swelling → ATP collapse → MPT-driven necrosis.
+
+Thus, MPT is not synonymous with cell death in every instance.
+
+The decisive variable is persistence and extent.
+
+Cyclophilin D/PPIF is the strongest established molecular regulator but should not be annotated as the physical pore-forming executor.
+
+The exact structural identity of the pore remains the largest unresolved issue.
+
+F1FO-ATP synthase-associated models and ANT-associated models both have substantial experimental support, and the evidence remains compatible with more than one molecular permeability pathway.
+
+The field is therefore mechanistically asymmetric:
+
+the biological sequence from stress to permeability transition to bioenergetic collapse is well established;
+
+the atomic identity of the pore is not.
+
+When MPT becomes lethal, the actual physical cause of death is mitochondrial bioenergetic collapse.
+
+The central causal chain is:
+
+sustained mPTP opening → Δψm collapse → oxidative-phosphorylation failure → ATP depletion → ion-homeostasis failure → osmotic swelling → plasma-membrane failure.
+
+This sequence should be distinguished from secondary MPT occurring during apoptosis, ferroptosis, necroptosis, or other stresses.
+
+For RCDome annotation, a useful operational distinction is:
+
+entity type: mitochondrial mechanism/process;
+
+core event: inner mitochondrial membrane permeability transition;
+
+major regulator: PPIF/Cyclophilin D;
+
+structural pore identity: unresolved;
+
+reversible state: transient/low-conductance opening;
+
+lethal state: sustained/high-conductance opening;
+
+associated death modality: MPT-driven necrosis;
+
+terminal lesion when lethal: irreversible mitochondrial bioenergetic collapse;
+
+transcriptomic interpretation: MPT-associated mitochondrial stress or susceptibility state only, never evidence of active pore opening.
+
+The main unresolved questions are which molecular structures generate the lethal high-conductance pore, what measurable event precisely defines irreversible commitment in intact cells, and when MPT acts as a primary executor versus a secondary amplifier of another RCD program.
+

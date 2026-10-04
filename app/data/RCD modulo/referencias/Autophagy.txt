@@ -1,75 +1,40 @@
-1. Galluzzi L, Vitale I, Aaronson SA, et al. **Molecular mechanisms of cell death: recommendations of the Nomenclature Committee on Cell Death 2018.** *Cell Death & Differentiation*. 2018;25:486–541. **DOI: 10.1038/s41418-017-0012-4**
 
-2. Shen HM, Codogno P. **Autophagic cell death: Loch Ness monster or endangered species?** *Autophagy*. 2011;7:457–465. **DOI: 10.4161/auto.7.5.14226**
+1. Yamamoto H, Zhang S, Mizushima N. Autophagy genes in biology and disease. Nature Reviews Genetics. 2023;24:382–400. DOI: 10.1038/s41576-022-00562-w. PMCID: PMC9838376.
 
-3. Denton D, Kumar S. **Autophagy-dependent cell death.** *Cell Death & Differentiation*. 2019;26:605–616. **DOI: 10.1038/s41418-018-0252-y**
+2. Yim WWY, Mizushima N. Lysosome biology in autophagy. Cell Discovery. 2020;6:6. DOI: 10.1038/s41421-020-0141-7. PMCID: PMC7010707.
 
-4. Jung S, Jeong H, Yu SW. **Autophagy as a decisive process for cell death.** *Experimental & Molecular Medicine*. 2020;52:921–930. **DOI: 10.1038/s12276-020-0455-4**
+3. Deleyto-Seldas N, Efeyan A. The mTOR–Autophagy Axis and the Control of Metabolism. Frontiers in Cell and Developmental Biology. 2021;9:655731. DOI: 10.3389/fcell.2021.655731. PMCID: PMC8281972.
 
-5. Doherty J, Baehrecke EH. **The complex roles and regulation of autophagy during cell death.** *Nature Cell Biology*. 2018;20:1110–1117. **DOI: 10.1038/s41556-018-0201-5**
+4. Zachari M, Ganley IG. The mammalian ULK1 complex and autophagy initiation. Essays in Biochemistry. 2017;61:585–596. DOI: 10.1042/EBC20170021. PMCID: PMC5869855.
 
-6. Liu Y, Shoji-Kawata S, Sumpter RM, et al. **Autosis is a Na+,K+-ATPase-regulated form of cell death triggered by autophagy-inducing peptides, starvation, and hypoxia-ischemia.** *Proceedings of the National Academy of Sciences USA*. 2013;110:20364–20371. **DOI: 10.1073/pnas.1319661110**
+5. Chen M, Nguyen TN, Ren X, et al. Structure and activation of the human autophagy-initiating ULK1C:PI3KC3-C1 supercomplex. Nature Structural & Molecular Biology. 2025. DOI: 10.1038/s41594-025-01557-x. PMCID: PMC12440827.
 
-7. Liu Y, Levine B. **Autosis and autophagic cell death: the dark side of autophagy.** *Cell Death & Differentiation*. 2015;22:367–376. **DOI: 10.1038/cdd.2014.143**
+6. Ghanbarpour A, Valverde DP, Melia TJ, Reinisch KM. A model for a partnership of lipid transfer proteins and scramblases in membrane expansion and organelle biogenesis. Proceedings of the National Academy of Sciences USA. 2021;118:e2101562118. DOI: 10.1073/pnas.2101562118. PMCID: PMC8072408.
 
-8. Fernández ÁF, Liu Y, Ginet V, et al. **Interaction between the autophagy protein Beclin 1 and Na+,K+-ATPase during starvation, exercise, and ischemia.** *JCI Insight*. 2020;5. **DOI: 10.1172/jci.insight.133282**
+7. Rao S, Skulsuppaisarn M, Strong LM, et al. Three-step docking by WIPI2, ATG16L1, and ATG3 delivers LC3 to the phagophore. Science Advances. 2024;10:eadj8027. DOI: 10.1126/sciadv.adj8027. PMCID: PMC10851258.
 
-9. Depierre P, Ginet V, Truttmann AC, Puyal J. **Neuronal autosis is Na+/K+-ATPase alpha 3-dependent and involved in hypoxic-ischemic neuronal death.** *Cell Death & Disease*. 2024;15. **DOI: 10.1038/s41419-024-06750-2**
+8. Gómez-Virgilio L, Silva-Lucero MDC, Flores-Morelos DS, et al. Autophagy: A Key Regulator of Homeostasis and Disease: An Overview of Molecular Mechanisms and Modulators. Cells. 2022;11:2262. DOI: 10.3390/cells11152262. PMCID: PMC9329718.
 
-10. Nah J, Zhai P, Huang CY, et al. **Upregulation of Rubicon promotes autosis during myocardial ischemia/reperfusion injury.** *Journal of Clinical Investigation*. 2020. **DOI: 10.1172/JCI132366**
+9. Wu MY, Li ZW, Lu JH. Molecular Modulators and Receptors of Selective Autophagy: Disease Implication and Identification Strategies. International Journal of Biological Sciences. 2024;20:751–764. DOI: 10.7150/ijbs.83205. PMCID: PMC10758101.
 
-11. Green DR, Llambi F. **Cell Death Signaling.** *Cold Spring Harbor Perspectives in Biology*. 2015;7. **DOI: 10.1101/cshperspect.a006080**
+10. Truban D, Hou X, Caulfield TR, Fiesel FC, Springer W. PINK1, Parkin, and Mitochondrial Quality Control: What can we Learn about Parkinson’s Disease Pathobiology? Journal of Parkinson's Disease. 2017;7:13–29. DOI: 10.3233/JPD-160989. PMCID: PMC5302033.
 
-12. Wirth M, Joachim J, Tooze SA. **Autophagosome formation—the role of ULK1 and Beclin1-PI3KC3 complexes in setting the stage.** *Seminars in Cancer Biology*. 2013;23:301–309. **DOI: 10.1016/j.semcancer.2013.05.007**
+11. Zhou F, Wu Z, Zhao M, et al. Rab5-dependent autophagosome closure by ESCRT. Journal of Cell Biology. 2019;218:1908–1927. DOI: 10.1083/jcb.201811173. PMCID: PMC6548130.
 
-13. Kim J, Kundu M, Viollet B, Guan KL. **AMPK and mTOR regulate autophagy through direct phosphorylation of Ulk1.** *Nature Cell Biology*. 2011;13:132–141. **DOI: 10.1038/ncb2152**
+12. Diao J, Yip CK, Zhong Q. Molecular structures and function of the autophagosome-lysosome fusion machinery. Autophagy Reports. 2024;3:2305594. DOI: 10.1080/27694127.2024.2305594. PMCID: PMC10852212.
 
-14. Park JM, Jung CH, Seo M, et al. **The ULK1 complex mediates MTORC1 signaling to the autophagy initiation machinery via binding and phosphorylating ATG14.** *Autophagy*. 2016;12:547–564. **DOI: 10.1080/15548627.2016.1140293**
+13. Jian FL, Wang S, Tian R, et al. The STX17-SNAP47-VAMP7/VAMP8 complex is the default SNARE complex mediating autophagosome–lysosome fusion. Cell Research. 2024;34:151–168. DOI: 10.1038/s41422-023-00916-x. PMCID: PMC10837459.
 
-15. Park JM, Lee DH, Kim DH. **Redefining the role of AMPK in autophagy and the energy stress response.** *Nature Communications*. 2023;14. **DOI: 10.1038/s41467-023-38401-z**
+14. Huang H, Ouyang Q, Zhu M, et al. mTOR-mediated phosphorylation of VAMP8 and SCFD1 regulates autophagosome maturation. Nature Communications. 2021;12. DOI: 10.1038/s41467-021-26824-5. PMCID: PMC8595342.
 
-16. Kazyken D, Dame SG, Wang C, Wadley M, Fingar DC. **Unexpected roles for AMPK in the suppression of autophagy and the reactivation of MTORC1 signaling during prolonged amino acid deprivation.** *Autophagy*. 2024;20:2017–2040. **DOI: 10.1080/15548627.2024.2355074**
+15. Gallwitz L, Bleibaum F, Voss M, et al. Cellular depletion of major cathepsin proteases reveals their concerted activities for lysosomal proteolysis. Cellular and Molecular Life Sciences. 2024;81:227. DOI: 10.1007/s00018-024-05274-4. PMCID: PMC11111660.
 
-17. Russell RC, Tian Y, Yuan H, et al. **ULK1 induces autophagy by phosphorylating Beclin-1 and activating Vps34 lipid kinase.** *Nature Cell Biology*. 2013;15:741–750. **DOI: 10.1038/ncb2757**
+16. Yu L, McPhee CK, Zheng L, et al. Autophagy termination and lysosome reformation regulated by mTOR. Nature. 2010;465:942–946. DOI: 10.1038/nature09076. PMCID: PMC2920749.
 
-18. Park JM, Seo M, Jung CH, et al. **ULK1 phosphorylates Ser30 of BECN1 in association with ATG14 to stimulate autophagy induction.** *Autophagy*. 2018;14:584–597. **DOI: 10.1080/15548627.2017.1422851**
+17. Klionsky DJ, Abdel-Aziz AK, Abdelfatah S, et al. Guidelines for the use and interpretation of assays for monitoring autophagy (4th edition). Autophagy. 2021;17:1–382. DOI: 10.1080/15548627.2020.1797280. PMCID: PMC7996087.
 
-19. Funderburk SF, Wang QJ, Yue Z. **The Beclin 1-VPS34 complex – at the crossroads of autophagy and beyond.** *Trends in Cell Biology*. 2010;20:355–362. **DOI: 10.1016/j.tcb.2010.03.002**
+18. Mizushima N. Autophagic flux measurement: Cargo degradation versus generation of degradation products. Current Opinion in Cell Biology. 2025;93:102463. DOI: 10.1016/j.ceb.2025.102463. Open Access.
 
-20. Otomo C, Metlagel Z, Takaesu G, Otomo T. **Structure of the human ATG12–ATG5 conjugate required for LC3 lipidation in autophagy.** *Nature Structural & Molecular Biology*. 2013;20:59–66. **DOI: 10.1038/nsmb.2431**
+19. Galluzzi L, Vitale I, Aaronson SA, et al. Molecular mechanisms of cell death: recommendations of the Nomenclature Committee on Cell Death 2018. Cell Death & Differentiation. 2018;25:486–541. DOI: 10.1038/s41418-017-0012-4. PMCID: PMC5864239.
 
-21. Lystad AH, Carlsson SR, de la Ballina LR, et al. **Distinct functions of ATG16L1 isoforms in membrane binding and LC3B lipidation in autophagy-related processes.** *Nature Cell Biology*. 2019;21:372–383. **DOI: 10.1038/s41556-019-0274-9**
-
-22. Rao S, Skulsuppaisarn M, Strong LM, et al. **Three-step docking by WIPI2, ATG16L1, and ATG3 delivers LC3 to the phagophore.** *Science Advances*. 2024;10. **DOI: 10.1126/sciadv.adj8027**
-
-23. Mohan J, Moparthi S, Girard-Blanc C, et al. **ATG16L1 induces the formation of phagophore-like membrane cups.** *Nature Structural & Molecular Biology*. 2024;31:1448–1459. **DOI: 10.1038/s41594-024-01300-y**
-
-24. Jian F, Wang S, Tian R, et al. **The STX17-SNAP47-VAMP7/VAMP8 complex is the default SNARE complex mediating autophagosome–lysosome fusion.** *Cell Research*. 2024;34:151–168. **DOI: 10.1038/s41422-023-00916-x**
-
-25. Wang Z, Miao G, Xue X, et al. **The Vici Syndrome Protein EPG5 Is a Rab7 Effector that Determines the Fusion Specificity of Autophagosomes with Late Endosomes/Lysosomes.** *Molecular Cell*. 2016;63:781–795. **DOI: 10.1016/j.molcel.2016.08.021**
-
-26. Kang R, Zeh HJ, Lotze MT, Tang D. **The Beclin 1 network regulates autophagy and apoptosis.** *Cell Death & Differentiation*. 2011;18:571–580. **DOI: 10.1038/cdd.2010.191**
-
-27. Martina JA, Chen Y, Gucek M, Puertollano R. **MTORC1 functions as a transcriptional regulator of autophagy by preventing nuclear transport of TFEB.** *Autophagy*. 2012;8:903–914. **DOI: 10.4161/auto.19653**
-
-28. Roczniak-Ferguson A, Petit CS, Froehlich F, et al. **The Transcription Factor TFEB Links mTORC1 Signaling to Transcriptional Control of Lysosome Homeostasis.** *Science Signaling*. 2012;5:ra42. **DOI: 10.1126/scisignal.2002790**
-
-29. González-Polo RA, Boya P, Pauleau AL, et al. **The apoptosis/autophagy paradox: autophagic vacuolization before apoptotic death.** *Journal of Cell Science*. 2005;118:3091–3102. **DOI: 10.1242/jcs.02447**
-
-30. Boya P, González-Polo RA, Casares N, et al. **Inhibition of Macroautophagy Triggers Apoptosis.** *Molecular and Cellular Biology*. 2005;25:1025–1040. **DOI: 10.1128/MCB.25.3.1025-1040.2005**
-
-31. Matsuda N, Sato S, Shiba K, et al. **PINK1 stabilized by mitochondrial depolarization recruits Parkin to damaged mitochondria and activates latent Parkin for mitophagy.** *The Journal of Cell Biology*. 2010;189:211–221. **DOI: 10.1083/jcb.200910140**
-
-32. Lazarou M, Sliter DA, Kane LA, et al. **The ubiquitin kinase PINK1 recruits autophagy receptors to induce mitophagy.** *Nature*. 2015;524:309–314. **DOI: 10.1038/nature14893**
-
-33. Linder B, Kögel D. **Autophagy in Cancer Cell Death.** *Biology*. 2019;8:82. **DOI: 10.3390/biology8040082**
-
-34. Boya P, Kroemer G. **Lysosomal membrane permeabilization in cell death.** *Oncogene*. 2008;27:6434–6451. **DOI: 10.1038/onc.2008.310**
-
-35. Xie Z, Zhao M, Yan C, et al. **Cathepsin B in programmed cell death machinery: mechanisms of execution and regulatory pathways.** *Cell Death & Disease*. 2023;14. **DOI: 10.1038/s41419-023-05786-0**
-
-36. Schwartz LM. **Autophagic Cell Death During Development – Ancient and Mysterious.** *Frontiers in Cell and Developmental Biology*. 2021;9. **DOI: 10.3389/fcell.2021.656370**
-
-37. Mentelová L, Beňová-Liszeková D, Beňo M, Chase B, Farkaš R. **Independent roles of autophagy and apoptosis in post-apocrine-secretion cell death of salivary glands during Drosophila metamorphosis.** *Scientific Reports*. 2026;16. **DOI: 10.1038/s41598-026-46472-3**
-
-38. Zhou B, Liu J, Kang R, Klionsky DJ, Kroemer G, Tang D. **Ferroptosis is a type of autophagy-dependent cell death.** *Seminars in Cancer Biology*. **DOI: 10.1016/j.semcancer.2019.03.002**
+20. Denton D, Kumar S. Autophagy-dependent cell death. Cell Death & Differentiation. 2019;26:605–616. DOI: 10.1038/s41418-018-0252-y. PMCID: PMC6460387.

@@ -1,0 +1,61 @@
+[1] Fu W, Wang J, Li T, et al. Persistent activation of TRPM4 triggers necrotic cell death characterized by sodium overload. Nature Chemical Biology. 2025;21:1238–1249. DOI: **10.1038/s41589-025-01841-3**.
+
+[2] Qiao Y, Wang J, Wang B, et al. Sodium disrupts mitochondrial energy metabolism to execute NECSO. Nature Communications. 2025;17. DOI: **10.1038/s41467-025-67181-x**.
+
+[3] Teixeira-Duarte CM, Fu W, Zeng W, et al. Structural mechanism of Necrocide 1 activation of human TRPM4 that triggers necrosis by sodium overload. Nature Communications. 2026;17. DOI: **10.1038/s41467-026-74814-2**.
+
+[4] He R, Liu Y, Fu W, et al. Mechanisms and cross-talk of regulated cell death and their epigenetic modifications in tumor progression. Molecular Cancer. 2024;23. DOI: **10.1186/s12943-024-02172-y**.
+
+[5] Pan Y, Wu R, Zhu X, et al. NECSO-based classification predicts immunotherapy efficacy and identifies FLAD1 as therapeutic target in kidney renal clear cell carcinoma. Frontiers in Immunology. 2026;17. DOI: **10.3389/fimmu.2026.1914332**.
+
+[6] Hu H, Chen Z, Li Y, et al. Metal-dependent regulated cell death: Molecular architecture and translational frontiers. iMeta. 2026;5. DOI: **10.1002/imt2.70141**.
+
+[7] Simard J, Woo SK, Gerzanich V. Transient receptor potential melastatin 4 and cell death. Pflügers Archiv - European Journal of Physiology. 2012;464:573–582. DOI: **10.1007/s00424-012-1166-z**.
+
+[8] Ghosh S, Yang R, Duraki D, et al. Plasma Membrane Channel TRPM4 Mediates Immunogenic Therapy-induced Necrosis. Cancer Research. 2023;83:3115–3130. DOI: **10.1158/0008-5472.CAN-23-0157**.
+
+[9] Simon F, Leiva-Salcedo E, Armisén R, et al. Hydrogen Peroxide Removes TRPM4 Current Desensitization Conferring Increased Vulnerability to Necrotic Cell Death. Journal of Biological Chemistry. 2010;285:37150–37158. DOI: **10.1074/jbc.M110.155390**.
+
+[10] Rajamanickam G, Hu Z, Liao P. Targeting the TRPM4 Channel for Neurologic Diseases: Opportunity and Challenge. The Neuroscientist. 2025;31:464–482. DOI: **10.1177/10738584251318979**.
+
+[11] Gerzanich V, Woo SK, Vennekens R, et al. De novo expression of Trpm4 initiates secondary hemorrhage in spinal cord injury. Nature Medicine. 2009;15:185–191. DOI: **10.1038/nm.1899**.
+
+[12] Wei S, Low SW, Poore CP, et al. Comparison of Anti-oncotic Effect of TRPM4 Blocking Antibody in Neuron, Astrocyte and Vascular Endothelial Cell Under Hypoxia. Frontiers in Cell and Developmental Biology. 2020;8. DOI: **10.3389/fcell.2020.562584**.
+
+[13] Okada Y, Sato-Numata K, Sabirov R, Numata T. Cell Death Induction and Protection by Activation of Ubiquitously Expressed Anion/Cation Channels. Part 2: Functional and Molecular Properties of ASOR/PAC Channels and Their Roles in Cell Volume Dysregulation and Acidotoxic Cell Death. Frontiers in Cell and Developmental Biology. 2021;9. DOI: **10.3389/fcell.2021.702317**.
+
+[14] Yin Z, Li G, Zhong Q, et al. Cinobufagin overcomes bortezomib resistance in multiple myeloma strains by targeting SEC62/TRPM4-mediated NECSO. Phytomedicine. 2025;147:157171. DOI: **10.1016/j.phymed.2025.157171**.
+
+[15] Song Y, Xia Y, Fu Y, et al. Integrating genetically encoded fluorescent sensors to elucidate the spatiotemporal choreography of necrosis by sodium overload. Acta Biochimica et Biophysica Sinica. 2026. DOI: **10.3724/abbs.2026102**.
+
+[16] Stokum J, Kwon MS, Woo SK, et al. SUR1-TRPM4 and AQP4 form a heteromultimeric complex that amplifies ion/water osmotic coupling and drives astrocyte swelling. Glia. 2017;66:108–125. DOI: **10.1002/glia.23231**.
+
+[17] Stokum J, Shim B, Negoita S, et al. Cation flux through SUR1-TRPM4 and NCX1 in astrocyte endfeet induces water influx through AQP4 and brain swelling after ischemic stroke. Science Signaling. 2023;16:eadd6364. DOI: **10.1126/scisignal.add6364**.
+
+[18] Zhu Y, Guo Y-X, Su Y, et al. Necrosis by sodium overload-associated genes TRPM4 and SLC9A1: biological roles and clinical implications in breast cancer progression. Frontiers in Immunology. 2025;16. DOI: **10.3389/fimmu.2025.1623511**.
+
+[19] Rodriguez DA, Weinlich R, Brown SA, et al. Characterization of RIPK3-mediated phosphorylation of the activation loop of MLKL during necroptosis. Cell Death & Differentiation. 2015;23:76–88. DOI: **10.1038/cdd.2015.70**.
+
+[20] Yuan J, Ofengeim D. A guide to cell death pathways. Nature Reviews Molecular Cell Biology. 2023;25:379–395. DOI: **10.1038/s41580-023-00689-6**.
+
+[21] Boudreau MW, Duraki D, Hergenrother P, et al. OR16-1 How Strong and Sustained Activation of the Estrogen Receptor-mediated Anticipatory Unfolded Protein Response Kills Breast and Ovarian Cancer Cells. Journal of the Endocrine Society. 2022;6:A879. DOI: **10.1210/jendso/bvac150.1820**.
+
+[22] Mizunuma M, Redon CE, Saha L, et al. Acetalax (Oxyphenisatin Acetate, NSC 59687) and Bisacodyl Cause Oncosis in Triple-Negative Breast Cancer Cell Lines by Poisoning the Ion Exchange Membrane Protein TRPM4. Cancer Research Communications. 2024;4:2101–2111. DOI: **10.1158/2767-9764.CRC-24-0093**.
+
+[23] Gorse K, Lantzy MK, Lee ED, Lafrenaye AD. Transient Receptor Potential Melastatin 4 Induces Astrocyte Swelling But Not Death after Diffuse Traumatic Brain Injury. Journal of Neurotrauma. 2018;35:1694–1704. DOI: **10.1089/neu.2017.5275**.
+
+[24] Wirth K, Steinacker J. The potential causes of myasthenia and fasciculations in severely ill ME/CFS patients: the role of disturbed electrophysiology. *Frontiers in Physiology*. 2026;16. doi: **10.3389/fphys.2025.1693589**.
+
+[25] Ye X, Zhu W, Sun X, et al. Advancing the frontiers of ovarian cancer therapy: a comprehensive synthesis of emerging cell death paradigms. *Oncology Reviews*. 2026;20. doi: **10.3389/or.2026.1850292**.
+
+[26] Pan Z, Zhao W, Liu F, et al. Genetic loci responsible for atrioventricular block in children. *Frontiers in Cell and Developmental Biology*. 2026;14. doi: **10.3389/fcell.2026.1845520**.
+
+[27] Ma P, Huang N, Tang J, et al. The TRPM4 channel inhibitor 9-phenanthrol alleviates cerebral edema after traumatic brain injury in rats. *Frontiers in Pharmacology*. 2023;14. doi: **10.3389/fphar.2023.1098228**.
+
+[28] Morris C, Wheeler J, Joos B. The Donnan-dominated resting state of skeletal muscle fibers contributes to resilience and longevity in dystrophic fibers. *Journal of General Physiology*. 2021;154. doi: **10.1085/jgp.202112914**.
+
+[29] Sborgi L, Rühl S, Mulvihill E, et al. GSDMD membrane pore formation constitutes the mechanism of pyroptotic cell death. *The EMBO Journal*. 2016;35:1766-1778. doi: **10.15252/embj.201694696**.
+
+[30] Galluzzi L, Vitale I, Aaronson S, et al. Molecular mechanisms of cell death: recommendations of the Nomenclature Committee on Cell Death 2018. *Cell Death &amp; Differentiation*. 2018;25:486-541. doi: **10.1038/s41418-017-0012-4**.
+
+[31] Fan S, Li Y, Zhang Q, et al. Tspan4+ fibroblasts facilitate the development of NECSO in myocardial ischemia reperfusion through migrasomes-mediated Tnf-α autocrine and cardiomyocytes aldosterone generation. Biochemical Pharmacology. 2026;249:117928. DOI: **10.1016/j.bcp.2026.117928**.

@@ -1,0 +1,91 @@
+[1] Fuchs T, Abed U, Goosmann C, et al. Novel cell death program leads to neutrophil extracellular traps. The Journal of Cell Biology. 2007. DOI: **10.1083/jcb.200606027**.
+
+[2] Vorobjeva N, Chernyak B. NETosis: Molecular Mechanisms, Role in Physiology and Pathology. Biochemistry. 2020. DOI: **10.1134/S0006297920100065**.
+
+[3] Rosazza T, Warner J, Sollberger G. NET formation – mechanisms and how they relate to other cell death pathways. The FEBS Journal. 2020. DOI: **10.1111/febs.15589**.
+
+[4] Dejas L, Santoni K, Meunier E, et al. Regulated cell death in neutrophils: From apoptosis to NETosis and pyroptosis. Seminars in Immunology. 2023. DOI: **10.1016/j.smim.2023.101849**.
+
+[5] Remijsen Q, Berghe T, Wirawan E, et al. Neutrophil extracellular trap cell death requires both autophagy and superoxide generation. Cell Research. 2011. DOI: **10.1038/cr.2010.150**.
+
+[6] Thiam H, Wong SL, Qiu R, et al. NETosis proceeds by cytoskeleton and endomembrane disassembly and PAD4-mediated chromatin decondensation and nuclear envelope rupture. Proceedings of the National Academy of Sciences of the United States of America. 2019. DOI: **10.1073/pnas.1909546117**.
+
+[7] Neubert E, Meyer D, Rocca F, et al. Chromatin swelling drives neutrophil extracellular trap release. Nature Communications. 2018. DOI: **10.1038/s41467-018-06263-5**.
+
+[8] Azzouz D, Palaniyar N. How Do ROS Induce NETosis? Oxidative DNA Damage, DNA Repair, and Chromatin Decondensation. Biomolecules. 2024. DOI: **10.3390/biom14101307**.
+
+[9] Nguyen GT, Green ER, Mecsas J. Neutrophils to the ROScue: Mechanisms of NADPH Oxidase Activation and Bacterial Resistance. Frontiers in Cellular and Infection Microbiology. 2017. DOI: **10.3389/fcimb.2017.00373**.
+
+[10] Awasthi D, Nagarkoti S, Kumar A, et al. Oxidized LDL induced extracellular trap formation in human neutrophils via TLR-PKC-IRAK-MAPK and NADPH-oxidase activation. Free Radical Biology and Medicine. 2016. DOI: **10.1016/j.freeradbiomed.2016.01.004**.
+
+[11] Perdomo J, Leung H, Ahmadi Z, et al. Neutrophil activation and NETosis are the major drivers of thrombosis in heparin-induced thrombocytopenia. Nature Communications. 2019. DOI: **10.1038/s41467-019-09160-7**.
+
+[12] Wu SY, Weng CL, Jheng MJ, et al. Candida albicans triggers NADPH oxidase-independent neutrophil extracellular traps through dectin-2. PLoS Pathogens. 2019. DOI: **10.1371/journal.ppat.1008096**.
+
+[13] Das D, Thacker H, Priya K, et al. Complement component 5a receptor 1 and leukotriene B4 receptor 1 regulate neutrophil extracellular trap (NET) formation through Rap1a/B-Raf/ERK signaling pathway and their deficiency in term low birth weight newborns leads to deficient NETosis. International Immunopharmacology. 2024. DOI: **10.1016/j.intimp.2024.113165**.
+
+[14] Baratchi S, Danish H, Chheang C, et al. Piezo1 expression in neutrophils regulates shear-induced NETosis. Nature Communications. 2024. DOI: **10.1038/s41467-024-51211-1**.
+
+[15] Douda D, Khan M, Grasemann H, et al. SK3 channel and mitochondrial ROS mediate NADPH oxidase-independent NETosis induced by calcium influx. Proceedings of the National Academy of Sciences. 2015. DOI: **10.1073/pnas.1414055112**.
+
+[16] Chen KW, Monteleone M, Boucher D, et al. Noncanonical inflammasome signaling elicits gasdermin D-dependent neutrophil extracellular traps. Science Immunology. 2018. DOI: **10.1126/sciimmunol.aar6676**.
+
+[17] Oh SA, Seol SI, Davaanyam D, et al. Platelet-derived HMGB1 induces NETosis, exacerbating brain damage in the photothrombotic stroke model. Molecular Medicine. 2025. DOI: **10.1186/s10020-025-01107-7**.
+
+[18] Papayannopoulos V, Metzler KD, Hakkim A, et al. Neutrophil elastase and myeloperoxidase regulate the formation of neutrophil extracellular traps. The Journal of Cell Biology. 2010. DOI: **10.1083/jcb.201006052**.
+
+[19] Burn GL, Raisch T, Tacke S, et al. Myeloperoxidase transforms chromatin into neutrophil extracellular traps. Nature. 2025. DOI: **10.1038/s41586-025-09523-9**.
+
+[20] Tatsiy O, McDonald P. Physiological Stimuli Induce PAD4-Dependent, ROS-Independent NETosis, With Early and Late Events Controlled by Discrete Signaling Pathways. Frontiers in Immunology. 2018. DOI: **10.3389/fimmu.2018.02036**.
+
+[21] Azzouz D, Khan M, Palaniyar N. ROS induces NETosis by oxidizing DNA and initiating DNA repair. Cell Death Discovery. 2021. DOI: **10.1038/s41420-021-00491-3**.
+
+[22] Hamam HJ, Khan M, Palaniyar N. Histone Acetylation Promotes Neutrophil Extracellular Trap Formation. Biomolecules. 2019. DOI: **10.3390/biom9010032**.
+
+[23] Tokuhiro T, Ishikawa A, Sato H, et al. Oxidized Phospholipids and Neutrophil Elastase Coordinately Play Critical Roles in NET Formation. Frontiers in Cell and Developmental Biology. 2021. DOI: **10.3389/fcell.2021.718586**.
+
+[24] Ono M, Toyomoto M, Yamauchi M, et al. Platelets accelerate lipid peroxidation and induce pathogenic neutrophil extracellular trap release. Cell Chemical Biology. 2024. DOI: **10.1016/j.chembiol.2024.11.003**.
+
+[25] Vorobjeva N, Galkin I, Pletjushkina O, et al. Mitochondrial permeability transition pore is involved in oxidative burst and NETosis of human neutrophils. Biochimica et Biophysica Acta - Molecular Basis of Disease. 2020. DOI: **10.1016/j.bbadis.2020.165664**.
+
+[26] Stolley J, Zhao P, Cooley J. A SerpinB1 regulatory mechanism is essential for restricting NETosis. Journal of Immunology. 2012. DOI: **10.4049/jimmunol.1201167**.
+
+[27] Zambrano F, Uribe P, Schulz M, et al. Antioxidants as Modulators of NETosis: Mechanisms, Evidence, and Therapeutic Potential. International Journal of Molecular Sciences. 2025. DOI: **10.3390/ijms26115272**.
+
+[28] Gavillet M, Martinod K, Renella R, et al. A key role for Rac and Pak signaling in Neutrophil Extracellular Traps (NETs) formation defines a new potential therapeutic target. American Journal of Hematology. 2017. DOI: **10.1002/ajh.24970**.
+
+[29] Demkow U. Molecular Mechanisms of Neutrophil Extracellular Trap (NETs) Degradation. International Journal of Molecular Sciences. 2023. DOI: **10.3390/ijms24054896**.
+
+[30] Sollberger G, Choidas A, Burn G, et al. Gasdermin D plays a vital role in the generation of neutrophil extracellular traps. Science Immunology. 2018. DOI: **10.1126/sciimmunol.aar6689**.
+
+[31] Silva C, Wanderley C, Veras F, et al. Gasdermin-D activation by SARS-CoV-2 triggers NET and mediate COVID-19 immunopathology. Critical Care. 2022. DOI: **10.1186/s13054-022-04062-5**.
+
+[32] Stojkov D, Claus M, Kozlowski E, et al. NET formation is independent of gasdermin D and pyroptotic cell death. Science Signaling. 2023. DOI: **10.1126/scisignal.abm0517**.
+
+[33] D’Cruz A, Speir M, Bliss-Moreau M, et al. The pseudokinase MLKL activates PAD4-dependent NET formation in necroptotic neutrophils. Science Signaling. 2018. DOI: **10.1126/scisignal.aao1716**.
+
+[34] Pieterse E, Rother N, Yanginlar C, et al. Neutrophils Discriminate between Lipopolysaccharides of Different Bacterial Sources and Selectively Release Neutrophil Extracellular Traps. Frontiers in Immunology. 2016. DOI: **10.3389/fimmu.2016.00484**.
+
+[35] Azzouz D, Khan M, Sweezey N, et al. Two-in-one: UV radiation simultaneously induces apoptosis and NETosis. Cell Death Discovery. 2018. DOI: **10.1038/s41420-018-0048-3**.
+
+[36] Münzer P, Negro R, Fukui S, et al. NLRP3 Inflammasome Assembly in Neutrophils Is Supported by PAD4 and Promotes NETosis Under Sterile Conditions. Frontiers in Immunology. 2021. DOI: **10.3389/fimmu.2021.683803**.
+
+[37] Rinaldi G, Cheng KKW, McCann C, et al. Simplified flow cytometric quantification of human neutrophil extracellular traps (NETs). Journal of Inflammation. 2026. DOI: **10.1186/s12950-026-00490-0**.
+
+[38] Desai J, Foresto-Neto O, Honarpisheh M, et al. Particles of different sizes and shapes induce neutrophil necroptosis followed by the release of neutrophil extracellular trap-like chromatin. *Scientific Reports*. 2017;7. doi: **10.1038/s41598-017-15106-0**.
+
+[39] Wang Y, Li M, Stadler S, et al. Histone hypercitrullination mediates chromatin decondensation and neutrophil extracellular trap formation. *Journal of Cell Biology*. 2009;184:205-213. doi: **10.1083/jcb.200806072**.
+
+[40] Yipp B, Petri B, Salina D, et al. Infection-induced NETosis is a dynamic process involving neutrophil multitasking in vivo. *Nature Medicine*. 2012;18:1386-1393. doi: **10.1038/nm.2847**.
+
+[41] Rusimova G. Static Stretching as a Multilevel Mechanobiological Process: An Integrative Narrative Review and Proposed Framework from Mechanical Loading to Biological Adaptation. *Journal of Functional Morphology and Kinesiology*. 2026;11:365. doi: **10.3390/jfmk11030365**.
+
+[42] Damascena H, Silveira W, Castro M, et al. Neutrophil Activated by the Famous and Potent PMA (Phorbol Myristate Acetate). *Cells*. 2022;11:2889. doi: **10.3390/cells11182889**.
+
+[43] Xu P, Xia F. Mitochondrial reprogramming of neutrophil extracellular traps in chronic obstructive pulmonary disease and asthma: toward a phenotype-driven therapeutic framework. *Frontiers in Immunology*. 2026;17. doi: **10.3389/fimmu.2026.1920684**.
+
+[44] Naffah de Souza C, Breda L, Khan M, et al. Alkaline pH Promotes NADPH Oxidase-Independent Neutrophil Extracellular Trap Formation: A Matter of Mitochondrial Reactive Oxygen Species Generation and Citrullination and Cleavage of Histone. *Frontiers in Immunology*. 2018;8. doi: **10.3389/fimmu.2017.01849**.
+
+[45] Șerban M, Toader C, Covache-Busuioc R. ZBP1 in Neuroinflammation and Neurodegeneration: Z-Nucleic-Acid Sensing, RHIM Signalling and Therapeutic Targeting. *International Journal of Molecular Sciences*. 2026;27:7478. doi: **10.3390/ijms27167478**.
+
+[46] Hakkim A, Fuchs T, Martinez NE, et al. Activation of the Raf-MEK-ERK pathway is required for neutrophil extracellular trap formation. Nature Chemical Biology. 2011. DOI: **10.1038/nchembio.496**.
