@@ -1,1 +1,121 @@
-Necroptose: necrose programada regulada por RIPK1, RIPK3 e MLKL, causando ruptura da membrana plasmática e inflamação, com disfunção mitocondrial secundária. Compartilha vias de sinalização com a apoptose e a piroptose, podendo ser ativada quando a apoptose é inibida. A necroptose pode promover ou inibir o câncer dependendo do contexto — ela pode desencadear respostas imunes antitumorais, mas também favorecer uma inflamação pró-tumoral.
+[1] Ai Y, Meng Y, Yan B, et al. The biochemical pathways of apoptotic, necroptotic, pyroptotic, and ferroptotic cell death. Molecular Cell. 2024. DOI: **10.1016/j.molcel.2023.11.040**.
+
+[2] Grootjans S, Vanden Berghe T, Vandenabeele P. Initiation and execution mechanisms of necroptosis: an overview. Cell Death and Differentiation. 2017. DOI: **10.1038/cdd.2017.65**.
+
+[3] Meng Y, Sandow J, Czabotar P, et al. The regulation of necroptosis by post-translational modifications. Cell Death & Differentiation. 2021. DOI: **10.1038/s41418-020-00722-7**.
+
+[4] Dondelinger Y, Declercq W, Montessuit S, et al. MLKL compromises plasma membrane integrity by binding to phosphatidylinositol phosphates. Cell Reports. 2014. DOI: **10.1016/j.celrep.2014.04.026**.
+
+[5] Samson A, Zhang Y, Geoghegan N, et al. MLKL trafficking and accumulation at the plasma membrane control the kinetics and threshold for necroptosis. Nature Communications. 2020. DOI: **10.1038/s41467-020-16887-1**.
+
+[6] Kaiser WJ, Sridharan H, Huang C, et al. Toll-like Receptor 3-mediated Necrosis via TRIF, RIP3, and MLKL. Journal of Biological Chemistry. 2013. DOI: **10.1074/jbc.M113.462341**.
+
+[7] He SD, Liang Y, Shao F, et al. Toll-like receptors activate programmed necrosis in macrophages through a receptor-interacting kinase-3-mediated pathway. Proceedings of the National Academy of Sciences. 2011. DOI: **10.1073/pnas.1116302108**.
+
+[8] Jiao H, Wachsmuth L, Kumari S, et al. Z-nucleic acid sensing triggers ZBP1-dependent necroptosis and inflammation. Nature. 2020. DOI: **10.1038/s41586-020-2129-8**.
+
+[9] Chen XY, Dai Y, Wan X, et al. ZBP1-Mediated Necroptosis: Mechanisms and Therapeutic Implications. Molecules. 2022. DOI: **10.3390/molecules28010052**.
+
+[10] Zhang Y, Su SS, Zhao S, et al. RIP1 autophosphorylation is promoted by mitochondrial ROS and is essential for RIP3 recruitment into necrosome. Nature Communications. 2017. DOI: **10.1038/ncomms14329**.
+
+[11] Liu S, Perez P, Sun X, et al. MLKL polymerization-induced lysosomal membrane permeabilization promotes necroptosis. Cell Death and Differentiation. 2023. DOI: **10.1038/s41418-023-01237-7**.
+
+[12] Ding Z, Wang R, Li Y, et al. MLKL activates the cGAS-STING pathway by releasing mitochondrial DNA upon necroptosis induction. Molecular Cell. 2025. DOI: **10.1016/j.molcel.2025.06.005**.
+
+[13] Dondelinger Y, Darding M, Bertrand M, et al. Poly-ubiquitination in TNFR1-mediated necroptosis. Cellular and Molecular Life Sciences. 2016. DOI: **10.1007/s00018-016-2191-4**.
+
+[14] Almagro M, Goncharov T, Newton K, et al. Cellular IAP proteins and LUBAC differentially regulate necrosome-associated RIP1 ubiquitination. Cell Death & Disease. 2015. DOI: **10.1038/cddis.2015.158**.
+
+[15] Guo X, Yin H, Chen Y, et al. TAK1 regulates caspase 8 activation and necroptotic signaling via multiple cell death checkpoints. Cell Death & Disease. 2016. DOI: **10.1038/cddis.2016.294**.
+
+[16] Lafont É, Draber P, Rieser E, et al. TBK1 and IKKε prevent TNF-induced cell death by RIPK1 phosphorylation. Nature Cell Biology. 2018. DOI: **10.1038/s41556-018-0229-6**.
+
+[17] Fritsch M, Günther SD, Schwarzer R, et al. Caspase-8 is the molecular switch for apoptosis, necroptosis and pyroptosis. Nature. 2019. DOI: **10.1038/s41586-019-1770-6**.
+
+[18] Newton K, Wickliffe KE, Dugger D, et al. Cleavage of RIPK1 by caspase-8 is crucial for limiting apoptosis and necroptosis. Nature. 2019. DOI: **10.1038/s41586-019-1548-x**.
+
+[19] Yang D, Liang Y, Zhao S, et al. ZBP1 mediates interferon-induced necroptosis. Cellular & Molecular Immunology. 2019. DOI: **10.1038/s41423-019-0237-x**.
+
+[20] Rodriguez D, Quarato G, Liedmann S, et al. Caspase-8 and FADD prevent spontaneous ZBP1 expression and necroptosis. Proceedings of the National Academy of Sciences of the United States of America. 2022. DOI: **10.1073/pnas.2207240119**.
+
+[21] Brault M, Olsen T, Martinez J, et al. Intracellular nucleic acid sensing triggers necroptosis through synergistic type-I interferon and TNF signaling. Journal of Immunology. 2018. DOI: **10.4049/jimmunol.1701492**.
+
+[22] Kelepouras K, Saggau J, Bonasera D, et al. STING induces ZBP1-mediated necroptosis independently of TNFR1 and FADD. Nature. 2025. DOI: **10.1038/s41586-025-09536-4**.
+
+[23] Zhang W, Fan W, Guo J, et al. Osmotic stress activates RIPK3/MLKL-mediated necroptosis by increasing cytosolic pH through a plasma membrane Na+/H+ exchanger. Science Signaling. 2022. DOI: **10.1126/scisignal.abn5881**.
+
+[24] Li S, Li H, Zhou Z, et al. A viral necrosome mediates direct RIPK3 activation to promote inflammatory necroptosis. Proceedings of the National Academy of Sciences of the United States of America. 2025. DOI: **10.1073/pnas.2420245122**.
+
+[25] Hanna-Addams S, Liu S, Liu H, et al. CK1α, CK1δ, and CK1ε are necrosome components which phosphorylate serine 227 of human RIPK3 to activate necroptosis. Proceedings of the National Academy of Sciences. 2020. DOI: **10.1073/pnas.1917112117**.
+
+[26] Rodriguez DA, Weinlich R, Brown SA, et al. Characterization of RIPK3-mediated phosphorylation of the activation loop of MLKL during necroptosis. Cell Death and Differentiation. 2015. DOI: **10.1038/cdd.2015.70**.
+
+[27] Petrie E, Sandow J, Jacobsen AV, et al. Conformational switching of the pseudokinase domain promotes human MLKL tetramerization and cell death by necroptosis. Nature Communications. 2018. DOI: **10.1038/s41467-018-04714-7**.
+
+[28] Meng Y, Garnish SE, Davies K, et al. Phosphorylation-dependent pseudokinase domain dimerization drives full-length MLKL oligomerization. Nature Communications. 2023. DOI: **10.1038/s41467-023-42255-w**.
+
+[29] Petrie E, Birkinshaw R, Koide A, et al. Identification of MLKL membrane translocation as a checkpoint in necroptotic cell death using Monobodies. Proceedings of the National Academy of Sciences. 2020. DOI: **10.1073/pnas.1919960117**.
+
+[30] Quarato G, Guy C, Grace C, et al. Sequential Engagement of Distinct MLKL Phosphatidylinositol-Binding Sites Executes Necroptosis. Molecular Cell. 2016. DOI: **10.1016/j.molcel.2016.01.011**.
+
+[31] Dovey CM, Diep J, Clarke BP, et al. MLKL requires the inositol phosphate code to execute necroptosis. Molecular Cell. 2018. DOI: **10.1016/j.molcel.2018.05.010**.
+
+[32] Sun W, Wu X, Gao H, et al. Cytosolic calcium mediates RIP1/RIP3 complex-dependent necroptosis through JNK activation and mitochondrial ROS production in human colon cancer cells. Free Radical Biology and Medicine. 2017. DOI: **10.1016/j.freeradbiomed.2017.04.010**.
+
+[33] Wang Y, Kanneganti T. From pyroptosis, apoptosis and necroptosis to PANoptosis: A mechanistic compendium of programmed cell death pathways. Computational and Structural Biotechnology Journal. 2021. DOI: **10.1016/j.csbj.2021.07.038**.
+
+[34] Moquin D, McQuade T, Chan F. CYLD Deubiquitinates RIP1 in the TNFα-Induced Necrosome to Facilitate Kinase Activation and Programmed Necrosis. PLoS ONE. 2013. DOI: **10.1371/journal.pone.0076841**.
+
+[35] Jiao H, Wachsmuth L, Wolf S, et al. ADAR1 averts fatal type I interferon induction by ZBP1. Nature. 2022. DOI: **10.1038/s41586-022-04878-9**.
+
+[36] Nagata M, Schäfer YC, Wachsmuth L, et al. A shorter splicing isoform antagonizes ZBP1 to modulate cell death and inflammatory responses. The EMBO Journal. 2024. DOI: **10.1038/s44318-024-00238-7**.
+
+[37] Gong YN, Guy C, Crawford J, et al. Biological events and molecular signaling following MLKL activation during necroptosis. Cell Cycle. 2017. DOI: **10.1080/15384101.2017.1371889**.
+
+[38] Ros U, Peña-Blanco A, Kunzendorf U, et al. Necroptosis Execution Is Mediated by Plasma Membrane Nanopores Independent of Calcium. Cell Reports. 2017. DOI: **10.1016/j.celrep.2017.03.024**.
+
+[39] Xia B, Fang S, Chen X, et al. MLKL forms cation channels. Cell Research. 2016. DOI: **10.1038/cr.2016.26**.
+
+[40] Chen X, He W, Hu L, et al. Pyroptosis is driven by non-selective gasdermin-D pore and its morphology is different from MLKL channel-mediated necroptosis. Cell Research. 2016. DOI: **10.1038/cr.2016.100**.
+
+[41] Vandenabeele P, Bultynck G, Savvides S. Pore-forming proteins as drivers of membrane permeabilization in cell death pathways. Nature Reviews Molecular Cell Biology. 2022. DOI: **10.1038/s41580-022-00564-w**.
+
+[42] Zheng M, Kanneganti T. The regulation of the ZBP1-NLRP3 inflammasome and its implications in pyroptosis, apoptosis, and necroptosis (PANoptosis). Immunological Reviews. 2020. DOI: **10.1111/imr.12909**.
+
+[43] Liu M, Li H, Yang R, et al. GSK872 and necrostatin-1 protect retinal ganglion cells against necroptosis through inhibition of RIP1/RIP3/MLKL pathway in glutamate-induced retinal excitotoxic model of glaucoma. Journal of Neuroinflammation. 2022. DOI: **10.1186/s12974-022-02626-4**.
+
+[44] Pedrera L, Espiritu R, Ros U, et al. Ferroptotic pores induce Ca2+ fluxes and ESCRT-III activation to modulate cell death kinetics. *Cell Death &amp; Differentiation*. 2020;28:1644-1657. doi: **10.1038/s41418-020-00691-x**.
+
+[45] Oberst A, Dillon C, Weinlich R, et al. Catalytic activity of the caspase-8–FLIPL complex inhibits RIPK3-dependent necrosis. *Nature*. 2011;471:363-367. doi: **10.1038/nature09852**.
+
+[46] Chen X, Li W, Ren J, et al. Translocation of mixed lineage kinase domain-like protein to plasma membrane leads to necrotic cell death. *Cell Research*. 2013;24:105-121. doi: **10.1038/cr.2013.171**.
+
+[47] Zhao R, Zhao J, Yin H, et al. Programmed cell death in degenerative skeletal diseases: molecular crosstalk and combinatorial therapeutic strategies. *Frontiers in Cell and Developmental Biology*. 2026;14. doi: **10.3389/fcell.2026.1876124**.
+
+[48] Kim J, Jin W. Necroptosis: The Regulation Between EGFR and TNFR in Cancer. *Cells*. 2026;15:1310. doi: **10.3390/cells15141310**.
+
+[49] Seo J, Nam Y, Kim S, et al. Necroptosis molecular mechanisms: Recent findings regarding novel necroptosis regulators. *Experimental &amp; Molecular Medicine*. 2021;53:1007-1017. doi: **10.1038/s12276-021-00634-7**.
+
+[50] Martinez-Osorio V, Abdelwahab Y, Ros U. The Many Faces of MLKL, the Executor of Necroptosis. *International Journal of Molecular Sciences*. 2023;24:10108. doi: **10.3390/ijms241210108**.
+
+[51] Zhou Y, Xiang Y, Liu S, et al. RIPK3 signaling and its role in regulated cell death and diseases. *Cell Death Discovery*. 2024;10. doi: **10.1038/s41420-024-01957-w**.
+
+[52] Vanden Berghe T, Hassannia B, Vandenabeele P. An outline of necrosome triggers. *Cellular and Molecular Life Sciences*. 2016;73:2137-2152. doi: **10.1007/s00018-016-2189-y**.
+
+[53] Sheibani N. Emerging Roles of Regulated Cell Death-Mediated Inflammation in Pathophysiology of Ocular Diseases. *Journal of Ophthalmic and Vision Research*. 2026;21:1-16. doi: **10.18502/jovr.v21.20210**.
+
+[54] Bian Y, Hu X. Decoding the crosstalk: interplay between macrophage programmed cell death networks and cholesterol efflux. *Frontiers in Cardiovascular Medicine*. 2026;13. doi: **10.3389/fcvm.2026.1895990**.
+
+[55] Engbers P, Nonnekens J, Sabatella M. Cellular responses to targeted radionuclide therapy: rethinking radiobiology under continuous low dose rates. *Frontiers in Oncology*. 2026;16. doi: **10.3389/fonc.2026.1880443**.
+
+[56] He Y, Zhang X, Duan J, et al. The Interplay of Programmed Cell Death Networks in Cardiovascular Diseases: Mechanisms and Therapeutic Opportunities. *Reviews in Cardiovascular Medicine*. 2026;27. doi: **10.31083/rcm50122**.
+
+[57] Conos SA, Chen KW, De Nardo D, et al. Active MLKL triggers the NLRP3 inflammasome in a cell-intrinsic manner.. **. 2017. doi: **10.1073/pnas.1613305114**.
+
+[58] Galluzzi L, Vitale I, Aaronson S, et al. Molecular mechanisms of cell death: recommendations of the Nomenclature Committee on Cell Death 2018. *Cell Death &amp; Differentiation*. 2018;25:486-541. doi: **10.1038/s41418-017-0012-4**.
+
+[59] Chen X, Zhu R, Zhong J, et al. Mosaic composition of RIP1-RIP3 signalling hub and its role in regulating cell death. Nature Cell Biology. 2022. DOI: **10.1038/s41556-022-00854-7**.
+
+[60] Nakano H, Murai S, Moriwaki K. Regulation of the release of damage-associated molecular patterns from necroptotic cells. Biochemical Journal. 2022. DOI: **10.1042/BCJ20210604**.
+
+[61] Schwarzer R, Laurien L, Pasparakis M. New insights into the regulation of apoptosis, necroptosis, and pyroptosis by receptor interacting protein kinase 1 and caspase-8. Current Opinion in Cell Biology. 2020. DOI: **10.1016/j.ceb.2020.02.004**.

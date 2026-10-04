@@ -1,1 +1,1068 @@
-Disulfidoptose: condição na qual a expressão anormal de SLC7A11 sob privação de glicose causa acúmulo de dissulfetos e estresse celular, levando à morte celular. É desencadeada pelo acúmulo de dissulfetos e se sobrepõe às vias de estresse oxidativo. Representa uma área emergente voltada para explorar vulnerabilidades metabólicas de células cancerosas sob estresse nutricional.
+## Disulfidptosis
+
+Disulfidptosis is an emerging form of regulated cell death caused by an imbalance between cystine uptake and cellular reducing capacity that culminates in abnormal disulfide bonding within cytoskeletal proteins, collapse of the actin network, loss of cortical integrity, and cell death [1-4,35,37-40,42,44].
+
+Disulfidptosis was mechanistically defined in 2023 in cells expressing high levels of the cystine transporter SLC7A11 and exposed to glucose deprivation, where it is triggered by NADPH depletion and disulfide stress [4,36,43]. In these cells, continued cystine uptake creates an unusually high requirement for reducing equivalents. When glucose-derived NADPH production becomes insufficient, intracellular disulfides accumulate and form aberrant intermolecular disulfide bonds in actin-associated proteins.
+
+The defining sequence is therefore:
+
+high SLC7A11-mediated cystine uptake → high NADPH requirement for cystine reduction → glucose limitation or equivalent loss of reducing capacity → NADPH insufficiency → intracellular cystine/disulfide accumulation → disulfide stress → abnormal disulfide cross-linking of actin cytoskeletal proteins → F-actin contraction and detachment from the plasma membrane → collapse of cortical mechanics → secondary membrane/homeostatic failure → death.
+
+This distinguishes disulfidptosis from apoptosis, ferroptosis, necroptosis, and pyroptosis.
+
+Its core execution chemistry is not caspase proteolysis, lipid peroxidation, MLKL activation, or gasdermin pore formation.
+
+Instead, disulfidptosis converts a metabolic redox imbalance into catastrophic structural damage of the cytoskeleton [1,3-6].
+
+Because the pathway was identified recently, the SLC7A11–NADPH–actin axis is considerably better established than several downstream details. It is not clear why disulfide stress occurs preferentially in actin cytoskeleton-associated proteins and whether other cytoskeleton-associated proteins such as intermediate filaments, microtubules, or signaling proteins are also involved in disulfidptosis induction [7].
+
+## SLC7A11-High State as the Principal Susceptibility Context
+
+The most important upstream determinant is high activity of system x_c^−.
+
+System xc− consists principally of the transporter light chain SLC7A11/xCT associated with the heavy chain SLC3A2 [33].
+
+The transporter exchanges extracellular cystine for intracellular glutamate.
+
+Thus:
+
+extracellular cystine → SLC7A11/SLC3A2-mediated uptake → intracellular cystine.
+
+This activity has an important metabolic consequence.
+
+Cystine contains a disulfide bond and must be reduced intracellularly to generate cysteine.
+
+The reaction therefore imposes reducing-equivalent demand.
+
+Under nutrient-replete conditions:
+
+cystine uptake → cystine reduction → cysteine → maintenance of cellular thiol metabolism and support of glutathione synthesis.
+
+This ordinarily contributes to antioxidant defense and cellular survival.
+
+However, very high SLC7A11 activity creates a metabolic liability.
+
+The more cystine imported, the more reducing power is required to process it.
+
+Thus:
+
+high SLC7A11 → increased cystine influx → increased NADPH consumption → increased dependence on pathways supplying reducing equivalents.
+
+This explains why SLC7A11 can be protective under some conditions yet strongly sensitize cells to disulfidptosis when glucose availability becomes limiting [1-2].
+
+SLC7A11 is therefore not a death receptor or executioner.
+
+It is a conditional metabolic susceptibility factor.
+
+## Glucose Dependence
+
+The canonical initiating condition is glucose deprivation.
+
+Glucose is important because the pentose phosphate pathway provides a major source of cytosolic NADPH.
+
+Under glucose-replete conditions:
+
+glucose → pentose phosphate pathway → NADPH production → cystine reduction supported → thiol/disulfide homeostasis maintained.
+
+Under glucose starvation:
+
+↓ glucose availability → ↓ PPP-derived NADPH → insufficient reducing capacity while SLC7A11-mediated cystine import continues.
+
+Consequently:
+
+continued cystine influx + declining NADPH → failure of efficient cystine reduction → accumulation of cystine and related disulfide species.
+
+Disulfidptosis is triggered by glucose starvation-induced NADPH depletion, which causes abnormal disulfide bond accumulation and actin cytoskeleton collapse in SLC7A11-high cancer cells [4].
+
+Therefore, glucose deprivation is not intrinsically the executor of disulfidptosis.
+
+Its role is to remove the reducing capacity required to safely process a continuing cystine load.
+
+## The Central Metabolic Mismatch
+
+The core initiating principle can be expressed more generally as:
+
+cystine influx > cellular reducing capacity.
+
+This formulation is more accurate than defining the pathway simply as “glucose starvation-induced death.”
+
+Any perturbation that preserves substantial cystine influx while sufficiently reducing NADPH or thiol-buffering capacity can potentially converge on the same biochemical state [4-5].
+
+Thus, the pathway consists of two interacting variables:
+
+high disulfide substrate burden,
+
+and
+
+insufficient capacity to reduce that burden.
+
+Neither component alone necessarily produces the canonical phenotype.
+
+High SLC7A11 under adequate nutrient conditions can be tolerated.
+
+Likewise, glucose deprivation in cells with low cystine uptake does not necessarily generate comparable disulfide stress.
+
+The strongest vulnerability therefore appears when:
+
+high SLC7A11 + restricted glucose/reducing power → severe intracellular disulfide stress.
+
+## NADPH as a Central Protective Metabolite
+
+NADPH is one of the principal reducing currencies protecting cells against disulfide accumulation.
+
+When sufficient NADPH is present, imported cystine can be reduced and thiol homeostasis maintained.
+
+When NADPH availability collapses, disulfide-containing metabolites accumulate.
+
+Thus:
+
+adequate NADPH → disulfide reduction → survival.
+
+NADPH insufficiency → disulfide accumulation → cytoskeletal cross-linking → disulfidptosis.
+
+The NADP⁺/NADPH ratio therefore changes markedly under disulfidptosis-inducing conditions and provides a useful measure of the metabolic redox state.
+
+However, an elevated NADP⁺/NADPH ratio alone does not establish disulfidptosis.
+
+It must be linked causally to cystine burden and cytoskeletal disulfide damage.
+
+## Pentose Phosphate Pathway
+
+The pentose phosphate pathway is particularly important because glucose metabolism through this route regenerates NADPH.
+
+SLC7A11-high cells consequently become unusually dependent on PPP function [2].
+
+The relationship can be represented as:
+
+SLC7A11-high state → elevated cystine-reduction demand → increased dependence on PPP-derived NADPH.
+
+Interference with glucose delivery or PPP activity lowers the capacity to maintain the reduced intracellular environment.
+
+Thus:
+
+glucose deprivation or appropriate glucose-metabolic blockade → decreased PPP-derived reducing power → NADPH depletion → disulfide stress.
+
+Direct perturbation of G6PD, a major NADPH-generating PPP enzyme, can similarly promote disulfidptosis in appropriate cellular contexts [8].
+
+This supports the broader principle that the critical upstream lesion is reducing-equivalent insufficiency rather than glucose absence itself.
+
+## G6PD-Dependent Regulation
+
+G6PD controls the oxidative branch of the pentose phosphate pathway and contributes substantially to NADPH generation.
+
+Recent experimental work in hepatocellular carcinoma demonstrates that inhibition of G6PD can lower NADPH and induce a disulfidptosis-associated phenotype [8].
+
+The pathway in such a setting becomes:
+
+G6PD inhibition → reduced PPP NADPH output → impaired disulfide reduction → disulfide accumulation → actin cytoskeletal damage → death.
+
+G6PD is therefore a metabolic regulator of susceptibility rather than a universal disulfidptosis-specific executor.
+
+## Glucose Transport as an Upstream Vulnerability
+
+Because intracellular glucose availability sustains PPP activity, glucose-transporter function influences disulfidptosis sensitivity [41].
+
+Reduced glucose uptake can mimic metabolic glucose starvation.
+
+The conceptual sequence is:
+
+GLUT inhibition or insufficient glucose transport → reduced intracellular glucose availability → reduced NADPH-generating capacity → cystine reduction failure → disulfide stress.
+
+Conversely, maintenance of glucose transport can protect cells by sustaining reducing metabolism.
+
+In neuronal models, Rab11a-dependent recycling of GLUT3 reduces glucose deficiency and suppresses disulfidptosis-associated neuronal death [9].
+
+Thus:
+
+Rab11a → GLUT3 recycling → improved glucose uptake → preservation of reducing metabolism → protection from disulfidptosis.
+
+This illustrates that glucose availability can be regulated at the transporter-trafficking level as well as at the extracellular nutrient level.
+
+## Additional Initiating Contexts
+
+Although glucose deprivation is the canonical experimental trigger, other perturbations can converge on the same metabolic imbalance.
+
+These include severe oxidative challenges in highly SLC7A11-expressing cells, thioredoxin reductase inhibition, G6PD inhibition, oxygen-glucose deprivation, and other tissue-specific conditions that combine cystine accumulation with loss of reducing capacity [8,10-12].
+
+Thus, a broader initiating framework is:
+
+continued cystine uptake + inadequate reducing-equivalent supply → disulfide stress.
+
+The cause of the reducing defect may differ between tissues.
+
+## Oxidative Stress as a Context-Dependent Trigger
+
+Very high SLC7A11 expression can alter cellular responses to oxidative stress.
+
+Under selected conditions, hydrogen peroxide exposure drives cystine/disulfide accumulation and NADPH depletion in SLC7A11-high cells [10].
+
+However, this does not mean disulfidptosis is fundamentally a generic ROS-dependent death pathway.
+
+ROS is better understood as one context capable of increasing redox burden.
+
+The central requirement remains:
+
+disulfide burden + insufficient reducing capacity → cytoskeletal disulfide damage.
+
+This distinction becomes especially important experimentally because broad ROS scavenging does not reproduce the robust rescue expected when the disulfide burden itself is reduced.
+
+## Thioredoxin System
+
+The thioredoxin system provides another major component of cellular disulfide-buffering capacity.
+
+Thioredoxin reductase 1, or TrxR1, contributes to maintaining thioredoxin in a reduced state and therefore supports cellular thiol homeostasis.
+
+In glucose-starved glioblastoma cells, TrxR1 (thioredoxin reductase 1) activity protects against disulfidptosis, whereas pharmacological inhibition or genetic loss of TrxR1 increases vulnerability to disulfidptosis [32].
+
+The sequence is:
+
+glucose starvation → increased disulfide stress → adaptive TrxR1 activity → partial maintenance of thiol reduction.
+
+If TrxR1 is inhibited:
+
+glucose starvation + impaired thioredoxin recycling → enhanced disulfide burden → increased actin disulfide damage → accelerated disulfidptosis.
+
+Thus, TrxR1 is a protective redox-buffering system rather than part of the lethal execution machinery.
+
+## Glutathione System
+
+The glutathione system also contributes to cellular thiol/disulfide homeostasis.
+
+Cysteine generated from imported cystine supports glutathione synthesis.
+
+In normal conditions this connection is beneficial:
+
+SLC7A11 → cystine uptake → cysteine → GSH synthesis → redox protection.
+
+However, during severe glucose restriction, the upstream requirement to reduce cystine itself creates a metabolic burden.
+
+Therefore, the same SLC7A11–cystine pathway that supports GSH-dependent antioxidant defense under nutrient-replete conditions can become harmful when NADPH is insufficient.
+
+This paradox is central to understanding disulfidptosis.
+
+## Intracellular Disulfide Accumulation
+
+Once reducing capacity becomes insufficient, intracellular disulfide species accumulate.
+
+This state is usually described as disulfide stress.
+
+It differs conceptually from generalized oxidative stress.
+
+The most important chemical problem is inappropriate maintenance or formation of disulfide bonds in intracellular proteins that normally require reduced cysteine residues.
+
+Thus:
+
+NADPH depletion → insufficient reduction of cystine/disulfides → altered intracellular thiol/disulfide balance → abnormal protein disulfide formation.
+
+The cytoskeleton is particularly vulnerable to this state [1].
+
+## Actin as the Defining Molecular Target
+
+The defining biochemical lesion of disulfidptosis is aberrant disulfide bonding within proteins associated with the actin cytoskeleton [1].
+
+Chemical proteomic analyses, non-reducing electrophoresis and related approaches demonstrate increased intermolecular disulfide bonds involving cytoskeletal proteins during disulfidptosis.
+
+Thus:
+
+disulfide stress → inappropriate cysteine–cysteine intermolecular bonding among actin-associated proteins → abnormal cross-linked cytoskeletal complexes.
+
+This transforms a soluble metabolic redox disturbance into a physical lesion.
+
+The crucial conceptual transition is therefore:
+
+metabolic failure → covalent structural damage.
+
+## Why the Actin Cytoskeleton Is Vulnerable
+
+The actin cytoskeleton is highly dynamic.
+
+Actin filaments continuously polymerize, depolymerize, branch, connect to adhesion complexes and support the plasma membrane.
+
+These dynamic interactions require precise protein conformation and reversible molecular interactions.
+
+Aberrant disulfide cross-links constrain this flexibility.
+
+Thus:
+
+abnormal intermolecular disulfides → restricted conformational mobility and inappropriate protein coupling → defective actin remodeling → contraction and collapse of the network.
+
+Rather than being progressively cleaved by a dedicated protease, the cytoskeleton becomes chemically cross-linked into a mechanically dysfunctional state.
+
+## Rac1–WAVE Regulatory Complex Axis
+
+The strongest identified cytoskeletal regulatory pathway associated with disulfidptosis is the Rac1–WAVE regulatory complex–Arp2/3 axis [1,4].
+
+Rac1 is a small GTPase that normally regulates actin polymerization and membrane protrusion.
+
+One major downstream target is the WAVE regulatory complex, or WRC.
+
+Activated WRC stimulates Arp2/3-dependent branched actin assembly [13-17].
+
+The normal pathway is:
+
+Rac1 activation → WRC activation → exposure of WAVE regulatory output → Arp2/3 activation → branched actin polymerization → lamellipodial/cortical actin network formation.
+
+This normally supports migration, membrane protrusion and cell shape.
+
+During disulfidptosis, the same actin architecture becomes a vulnerability.
+
+The WAVE regulatory complex (WRC) is a ~400 kDa pentamer in which WAVE proteins are constitutively associated with four additional proteins: Sra1/Cyfip1, Nap1/Hem-2, Abi and HSPC300 [15].
+
+In the inactive state, the actin-nucleation-promoting region of WAVE is restrained within the complex.
+
+Rac1 binding causes conformational changes that increase WRC activity and promote Arp2/3-dependent branched actin formation [14].
+
+Thus:
+
+Rac1-GTP → WRC activation → Arp2/3 engagement → branched F-actin.
+
+Disulfidptosis appears particularly efficient in this actively organized actin environment.
+
+Genome-wide CRISPR screening identified NCKAP1 as a key determinant of disulfidptosis [31].
+
+NCKAP1 is a core component of the WRC.
+
+NCKAP1 loss reduces glucose-starvation-induced F-actin contraction and cytoskeletal disulfide formation.
+
+Loss of NCKAP1 does not prevent cystine uptake or restore the NADP+/NADPH balance; instead, NCKAP1 loss promotes disulfidptosis by disrupting actin cytoskeleton dynamics and increasing disulfide stress under glucose starvation [5].
+
+This establishes its position downstream of the metabolic lesion.
+
+The hierarchy is therefore:
+
+SLC7A11-mediated cystine uptake → NADPH depletion/disulfide stress → NCKAP1-containing WRC-dependent cytoskeletal susceptibility → actin collapse.
+
+NCKAP1 does not generate the disulfide stress.
+
+It helps determine how that chemical stress is translated into structural damage.
+
+Nckap1 encodes Nck-associated protein 1, a core constituent of the WAVE regulatory complex that regulates the actin cytoskeleton and shows marked upregulation in MI tissues [29].
+
+This observation is important.
+
+If the WRC were the only structural target or execution machinery, complete suppression would be expected.
+
+Instead:
+
+NCKAP1/WRC loss → reduced actin disulfide damage and reduced death, but incomplete rescue.
+
+This implies that other actin structures, WRC-independent actin assemblies or additional cytoskeletal proteins contribute.
+
+Therefore, the WRC should be considered a major permissive/transducing module rather than the entire execution machinery.
+
+## Rac1
+
+Rac1 activity enhances WRC-mediated branched actin organization.
+
+Knockdown of Nckap1, a core component of the Rac1-WRC-Arp2/3 pathway, suppressed disulfidptosis, whereas overexpression of Rac1, Nckap1, or Wave2 promoted it [29].
+
+The leading model is:
+
+Rac1 → active branched actin architecture → increased structural substrate available for pathological disulfide cross-linking.
+
+Thus, Rac1 does not appear to generate the upstream NADPH deficit.
+
+Its role is downstream at the level of actin organization.
+
+This distinction prevents an incorrect model such as:
+
+Rac1 → NADPH depletion → disulfidptosis.
+
+The evidence instead favors:
+
+NADPH depletion/disulfide stress → pathological damage of Rac1/WRC-organized actin networks.
+
+## Arp2/3 Complex
+
+Arp2/3 nucleates branched actin filaments downstream of WRC activity [13,15].
+
+These branched structures are major components of cortical actin and lamellipodial networks.
+
+In the disulfidptosis model, Arp2/3-associated actin structures provide a mechanically important network that becomes highly vulnerable to abnormal disulfide bonding.
+
+Therefore:
+
+Rac1 → WRC → Arp2/3 → branched F-actin
+
+defines an important structural context for execution.
+
+Arp2/3 itself should not be described as a death-specific executor.
+
+Its normal biological function is cytoskeletal organization.
+
+Disulfidptosis exploits that architecture as a vulnerability.
+
+## Other Actin Regulatory Pathways
+
+WRC-dependent actin regulation is complex and can be modified by additional proteins, membrane signals, GTPases and kinase pathways [13-17].
+
+Moreover, WRC-independent actin structures can exist.
+
+This provides a mechanistic explanation for why loss of one WRC component does not completely eliminate disulfidptosis.
+
+Therefore, the minimal model should avoid claiming:
+
+all disulfidptosis = one unique Rac1–WRC–Arp2/3 complex.
+
+The better formulation is:
+
+Rac1–WRC–Arp2/3 represents the best-defined actin-remodeling module that creates a cytoskeletal state susceptible to disulfide-induced collapse.
+
+## INF2 as an Emerging Cytoskeletal Regulator
+
+Recent evidence has implicated the SLC7A11–INF2 axis in glucose-deprivation-induced disulfidptosis [18].
+
+INF2 regulates actin dynamics through mechanisms distinct from canonical WRC–Arp2/3 branching.
+
+This observation further supports the idea that multiple cytoskeletal architectures may participate in the death process.
+
+However, the original and most extensively validated mechanistic framework remains centered on disulfide damage of actin proteins and Rac1–WRC-associated actin structures.
+
+INF2 should therefore be treated as an emerging additional regulator rather than replacing the canonical model.
+
+## Possible Microtubule Involvement
+
+More recent studies suggest that disulfide-dependent cytoskeletal disruption can extend beyond actin to tubulin or microtubule-associated structures in selected contexts [19].
+
+This is biologically plausible because disulfide stress is not chemically restricted to actin.
+
+Nevertheless, actin remains the defining structural target of disulfidptosis.
+
+Therefore:
+
+actin disulfide damage = core defining lesion.
+
+Microtubule/tubulin damage = emerging context-dependent extension.
+
+Until stronger causal evidence is established across models, microtubule disruption should not be presented as equally defining.
+
+In disulfidptosis, disulfide stress causes actin cytoskeletal contraction and F-actin depolymerization, leading to cell death [30].
+
+The normally distributed cortical F-actin network collapses toward abnormal contracted structures.
+
+The sequence is:
+
+actin disulfide cross-links accumulate → normal filament remodeling becomes impossible → F-actin network contracts → cell shape changes → membrane–cytoskeleton coupling deteriorates.
+
+This cytoskeletal contraction is one of the most characteristic morphological and mechanistic features of disulfidptosis.
+
+## Detachment of F-Actin from the Plasma Membrane
+
+The actin cortex provides mechanical support directly beneath the plasma membrane.
+
+During disulfidptosis, collapsed F-actin becomes detached from the plasma membrane [1,29].
+
+This is likely a critical transition toward terminal loss of homeostasis.
+
+The sequence is:
+
+disulfide-cross-linked actin → contraction → cortical disorganization → loss of membrane–actin attachment → reduction of plasma-membrane mechanical support.
+
+The cell therefore loses the structural system that normally distributes membrane tension and maintains shape.
+
+## Redox-to-Mechanics Conversion
+
+Disulfidptosis is unusual because its execution mechanism is best conceptualized as a redox-to-mechanics conversion [4,20].
+
+The pathway begins as metabolic chemistry:
+
+insufficient NADPH.
+
+It propagates through covalent chemistry:
+
+abnormal disulfide formation.
+
+It terminates through biophysical failure:
+
+cytoskeletal collapse.
+
+Thus:
+
+metabolic defect → chemical protein damage → mechanical structural failure → death.
+
+This architecture distinguishes disulfidptosis from many other regulated death modalities that use dedicated proteases or membrane-pore-forming proteins.
+
+## Plasma-Membrane Failure
+
+The exact terminal relationship between actin collapse and plasma-membrane failure remains incompletely defined.
+
+Experimental observations indicate membrane detachment and, in some systems, small membrane gaps or defects during advanced disulfidptosis [11].
+
+A plausible sequence is:
+
+cortical actin collapse → loss of mechanical membrane support → membrane deformation/permeability defects → inability to maintain ionic and osmotic homeostasis → death.
+
+However, the available evidence does not establish one dedicated membrane pore.
+
+Therefore:
+
+disulfidptosis ≠ primary pore-forming death.
+
+There is no established GSDMD-, GSDME-, or MLKL-like terminal pore-forming executor.
+
+Membrane damage appears secondary to catastrophic cytoskeletal failure.
+
+## Proximate Cause of Death
+
+The most defensible current interpretation is that the proximate lethal lesion is catastrophic failure of the actin cortex.
+
+When extensive abnormal disulfide cross-links develop:
+
+F-actin loses dynamic organization → cortical network contracts → membrane attachment fails → cell mechanics collapse → membrane and homeostatic control deteriorate → viability becomes irrecoverable.
+
+Thus, the direct execution machinery consists principally of structural cytoskeletal proteins undergoing pathological covalent cross-linking rather than a specialized enzyme designed to kill the cell.
+
+The precise final event remains unresolved.
+
+Possible terminal consequences include mechanically driven membrane permeabilization, eventual membrane rupture and secondary energetic/homeostatic collapse.
+
+No one of these has yet been universally established as the final lethal event [4,7].
+
+## Point of No Return
+
+No universally accepted biochemical point of no return has been defined.
+
+Early redox failure is reversible.
+
+Reducing cystine influx or restoring reducing capacity before extensive structural damage can rescue cells.
+
+Therefore:
+
+NADPH depletion alone ≠ irreversible commitment.
+
+Disulfide accumulation alone may also remain reversible if reducing conditions are restored sufficiently early.
+
+The strongest current candidate for commitment is the transition to large-scale pathological actin cross-linking accompanied by extensive F-actin contraction and membrane detachment.
+
+Thus:
+
+reversible stage:
+
+cystine burden → NADPH decline → early disulfide stress.
+
+Candidate commitment stage:
+
+widespread actin intermolecular disulfide cross-links → cortical actin contraction → membrane detachment.
+
+Post-commitment stage:
+
+mechanical/homeostatic collapse → death.
+
+Whether a quantitative level of actin cross-linking defines an absolute threshold remains unknown.
+
+## Limiting Cystine Influx as Protection
+
+The most direct protective strategy is prevention of excessive cystine uptake.
+
+SLC7A11 inhibition or loss reduces the initiating substrate burden [1-2,21].
+
+Cystine withdrawal similarly suppresses death.
+
+The protective sequence is:
+
+↓ SLC7A11 activity or ↓ extracellular cystine → ↓ cystine influx → ↓ requirement for NADPH-dependent reduction → ↓ disulfide accumulation → preserved actin cytoskeleton → survival.
+
+This rescue is mechanistically strong because it acts upstream of the entire cascade.
+
+## Restoring Reducing Capacity
+
+Interventions that restore thiol/disulfide balance can also suppress disulfidptosis.
+
+Chemical reducing agents and thiol-supporting compounds can reduce accumulated disulfide stress and prevent cytoskeletal cross-linking in experimental models [1-2,4].
+
+The protective logic is:
+
+increased disulfide-reducing capacity → reversal/prevention of pathological intermolecular disulfides → preservation of actin dynamics → survival.
+
+This is strong evidence that abnormal disulfide chemistry is causally upstream of structural collapse.
+
+## Generic ROS Scavenging Is Not Equivalent
+
+A critical discriminator is that conventional broad ROS scavenging does not necessarily rescue canonical disulfidptosis [3-5].
+
+This means:
+
+ROS elevation ≠ defining execution chemistry.
+
+The defining chemical lesion is disulfide imbalance.
+
+Therefore, experimental observations such as elevated ROS should not be sufficient to classify death as disulfidptosis.
+
+The stronger test is whether interventions that specifically reduce cystine/disulfide burden suppress actin cross-linking and death.
+
+## Thioredoxin and GSH as Protective Networks
+
+Thioredoxin and glutathione-related systems contribute to maintaining intracellular cysteine residues in appropriate redox states.
+
+Their activity buffers the transition toward pathological disulfide formation.
+
+Thus:
+
+functional thioredoxin/GSH buffering → maintenance of reduced protein thiols → resistance.
+
+Insufficient buffering → abnormal protein disulfides → increased vulnerability.
+
+These systems act upstream of structural commitment and are therefore protective regulators rather than executioners.
+
+## Adaptive ER Stress
+
+Glucose starvation-associated disulfidptosis can occur alongside ER stress.
+
+Interestingly, available evidence indicates that the ER-stress response can function protectively rather than simply promoting death [22].
+
+Experimental suppression of ER-stress signaling can enhance disulfidptosis, whereas induction of adaptive ER stress can reduce susceptibility.
+
+Therefore:
+
+disulfidptosis-associated metabolic stress → ER-stress response → adaptive protection.
+
+The presence of ER-stress markers during death should consequently not be interpreted automatically as evidence that ER stress executes disulfidptosis.
+
+## BAP1
+
+BAP1 has been identified as a regulator of disulfidptosis susceptibility through effects on SLC7A11 and NADPH metabolism [21].
+
+The important mechanistic point is that BAP1 acts upstream by modifying the metabolic conditions controlling cystine burden and reducing capacity.
+
+It should not be treated as a cytoskeletal executor.
+
+Thus:
+
+BAP1-associated regulation → changes in SLC7A11/NADPH state → altered disulfidptosis susceptibility.
+
+## Merlin/NF2
+
+Merlin/NF2 also regulates SLC7A11/xCT expression and cell viability during glucose deprivation in glioblastoma cells [23].
+
+This provides another mechanism by which signaling and cell-density-related states can alter cystine uptake.
+
+Thus:
+
+NF2/Merlin signaling → regulation of SLC7A11 abundance/activity → altered cystine burden → altered vulnerability under glucose limitation.
+
+Again, this is an upstream susceptibility mechanism rather than the execution machinery.
+
+## CASC8–c-Myc–GLUT1–PPP Axis
+
+In pancreatic ductal adenocarcinoma, CASC8 has been reported to activate a c-Myc–GLUT1-associated metabolic program that supports PPP activity and inhibits disulfidptosis [24].
+
+The protective sequence can be represented as:
+
+CASC8 → c-Myc/GLUT1-associated glucose metabolism → increased PPP support → preserved NADPH → reduced disulfide stress → resistance.
+
+This illustrates that resistance can arise not only by decreasing cystine uptake but also by increasing the metabolic capacity to process imported cystine.
+
+## NRF2-Associated Protection
+
+NRF2-associated redox responses can influence disulfidptosis susceptibility.
+
+For example, NRF2-dependent enhancement of antioxidant/redox systems such as TrxR1 can buffer disulfide stress [11,34].
+
+Other studies identify NRF2–SLC7A11 regulation as a determinant of sensitivity in tumor models [25].
+
+This relationship is context dependent because increasing SLC7A11 can have opposite consequences depending on whether sufficient glucose-derived reducing power exists.
+
+Thus:
+
+NRF2 → improved redox defense may protect,
+
+but
+
+NRF2 → increased SLC7A11 can increase cystine burden under severe glucose restriction.
+
+Therefore, the outcome depends on the balance between transport and reducing capacity.
+
+## Relationship with Ferroptosis
+
+Disulfidptosis has particularly important crosstalk with ferroptosis because both pathways involve SLC7A11, cystine/cysteine metabolism, glutathione and cellular redox state [5,26].
+
+However, their execution mechanisms diverge sharply.
+
+Ferroptosis:
+
+SLC7A11/GSH/GPX4 failure → phospholipid peroxidation → membrane lipid damage → ferroptotic death.
+
+Disulfidptosis:
+
+SLC7A11-driven cystine load + NADPH insufficiency → protein disulfide stress → actin cross-linking → cytoskeletal collapse → death.
+
+Thus, high SLC7A11 can have opposite relationships to the two pathways.
+
+Reduced SLC7A11 can sensitize cells to ferroptosis because cysteine/GSH supply falls.
+
+By contrast, reduced SLC7A11 can protect against disulfidptosis because cystine burden decreases.
+
+This reciprocal relationship makes SLC7A11 an important mechanistic bridge between the two modalities.
+
+## Concurrent Ferroptosis and Disulfidptosis
+
+Under sufficiently severe metabolic perturbation, the two pathways can coexist.
+
+Glucose dyshomeostasis can reduce NADPH while simultaneously weakening GSH/GPX4-associated antioxidant defense [27-28].
+
+Thus:
+
+glucose disruption → NADPH insufficiency → actin disulfide stress,
+
+while simultaneously:
+
+glucose/redox disruption → impaired GSH/GPX4 protection → lipid peroxidation.
+
+The resulting cell population may contain concurrent or sequential disulfidptotic and ferroptotic mechanisms.
+
+Therefore, detection of SLC7A11 dependence alone cannot distinguish the pathways.
+
+Direct measurement of the terminal lesion is required.
+
+## Relationship with Cuproptosis
+
+Some therapeutic models attempt to induce disulfidptosis together with other metabolic death pathways, including cuproptosis [27].
+
+This does not establish shared core execution machinery.
+
+Cuproptosis centers on copper-dependent toxicity toward lipoylated mitochondrial proteins.
+
+Disulfidptosis centers on cytoskeletal disulfide damage.
+
+Any coexistence should therefore be described as metabolic crosstalk or combined induction rather than a single shared execution cascade.
+
+## Distinction from Apoptosis
+
+Canonical apoptosis depends on BAX/BAK-mediated MOMP and/or death-receptor-associated caspase signaling followed by executioner caspase activation.
+
+Disulfidptosis does not require this machinery in the original models [1] .
+
+Genetic loss of BAX or BAK does not prevent canonical disulfidptosis.
+
+Likewise, inhibition of apoptotic machinery does not provide the characteristic rescue obtained by reducing cystine/disulfide stress.
+
+Thus:
+
+actin disulfide cross-linking + BAX/BAK-independent death → supports disulfidptosis.
+
+Caspase activation observed secondarily in a particular system should not automatically redefine the core pathway.
+
+## Distinction from Necroptosis
+
+Necroptosis is defined by RIPK3-dependent activation of MLKL and subsequent MLKL-mediated membrane injury.
+
+Canonical disulfidptosis does not depend on this machinery [1,3] .
+
+Therefore:
+
+RIPK3 → MLKL → membrane disruption = necroptosis.
+
+NADPH failure → actin disulfide cross-linking → cortical collapse = disulfidptosis.
+
+Both may ultimately compromise plasma-membrane integrity, but the upstream execution mechanisms are fundamentally different.
+
+Disulfidptosis has not been shown to require ATGs, and its proximal effector is actin disulfide crosslinking coupled with the loss of lamellipodial dynamics .
+
+Therefore, autophagic changes observed during nutrient starvation should not be confused with the lethal mechanism.
+
+This distinction is particularly important because glucose starvation itself can strongly alter autophagy.
+
+The correct assignment requires showing that death remains linked specifically to cystine/disulfide stress and actin collapse.
+
+## Distinction from Nonspecific Oxidative Death
+
+Disulfidptosis is also distinct from nonspecific oxidative toxicity.
+
+A cell exposed to oxidative stress may accumulate ROS, lose ATP and die without developing the characteristic SLC7A11–disulfide–actin mechanism.
+
+Therefore, elevated ROS, altered NADPH or glucose starvation alone are insufficient.
+
+The strongest defining lesion is direct cytoskeletal disulfide damage.
+
+## Morphological Progression
+
+The morphology of disulfidptosis reflects cytoskeletal rather than classical apoptotic execution.
+
+The most characteristic sequence is:
+
+normal spread cell → glucose/reducing stress → abnormal F-actin organization → progressive contraction of the actin network → retraction of cellular processes → F-actin detachment from plasma membrane → cell shrinkage/collapse → membrane defects and loss of viability.
+
+This differs from the canonical morphology of apoptosis, in which caspase-driven blebbing and apoptotic-body formation dominate.
+
+It also differs from primary osmotic swelling characteristic of several lytic death pathways.
+
+However, morphology alone cannot establish disulfidptosis.
+
+## Experimental Definition
+
+The strongest experimental assignment requires several convergent observations.
+
+First, the initiating metabolic context should be established:
+
+high SLC7A11 activity or expression + glucose limitation or another defined reducing-capacity defect.
+
+Second, the redox consequence should be demonstrated:
+
+NADPH depletion/increased NADP⁺:NADPH ratio + accumulation of cystine or other disulfide species.
+
+Third, the defining structural lesion should be directly demonstrated:
+
+aberrant intermolecular disulfide bonding in actin/cytoskeletal proteins + F-actin contraction/collapse.
+
+Fourth, causal rescue should be shown:
+
+cystine withdrawal, SLC7A11 suppression, restoration of reducing capacity, or thiol/disulfide-reducing intervention → suppression of actin collapse and death.
+
+Finally, competing death pathways should be excluded mechanistically.
+
+The strongest evidence therefore follows:
+
+trigger → metabolic imbalance → disulfide chemistry → actin structural lesion → causal rescue → exclusion of alternatives.
+
+## Why SLC7A11 Expression Alone Is Insufficient
+
+High SLC7A11 is a susceptibility marker, not proof of active disulfidptosis.
+
+Many viable cancer cells express high SLC7A11 while glucose and reducing equivalents remain abundant.
+
+Thus:
+
+SLC7A11-high ≠ disulfidptosis.
+
+Similarly:
+
+low NADPH ≠ disulfidptosis.
+
+F-actin contraction alone ≠ disulfidptosis.
+
+The assignment becomes convincing only when these events are mechanistically linked.
+
+## Why Transcriptomic Signatures Require Caution
+
+Because the defining event is a post-translational chemical modification of cytoskeletal proteins, disulfidptosis cannot be demonstrated directly from mRNA abundance alone.
+
+Expression of SLC7A11, SLC3A2, NCKAP1 or other associated genes may indicate susceptibility or a transcriptional state related to the pathway.
+
+However, the lethal lesion itself is:
+
+aberrant protein disulfide cross-linking.
+
+Therefore, transcriptomic signatures should be described as disulfidptosis-associated transcriptional states or susceptibility signatures unless biochemical or functional evidence of execution is also available.
+
+## Evidence in Cancer
+
+The strongest mechanistic evidence comes from cancer models, especially tumors with high SLC7A11 expression and strong glucose dependence [1-2].
+
+This creates an attractive metabolic vulnerability:
+
+tumor cells increase SLC7A11 to defend against oxidative stress and ferroptosis,
+
+but
+
+high SLC7A11 creates dependence on glucose/NADPH for cystine reduction.
+
+Thus:
+
+adaptation against one redox vulnerability → creation of another metabolic vulnerability.
+
+This tradeoff is one of the most important biological implications of disulfidptosis.
+
+## Evidence Outside Cancer
+
+Evidence has begun to extend beyond cancer.
+
+Glucose-deprivation-induced disulfidptosis has been reported in human nucleus pulposus cells [12].
+
+SLC7A11-associated cystine accumulation and Rac1–WRC–Arp2/3-related actin collapse have been implicated in cardiomyocytes during acute myocardial infarction [29].
+
+Glucose-deficiency-associated neuronal disulfidptosis has also been investigated in seizure-related models [9].
+
+These observations suggest that the mechanism may extend to non-malignant tissues experiencing severe metabolic stress.
+
+However, the evidence outside cancer is newer and more heterogeneous.
+
+The most mature mechanistic framework remains derived from SLC7A11-high cancer cells.
+
+## Immunogenic Consequences
+
+Some recent therapeutic models report DAMP release or immunogenic consequences after induction of disulfidptosis [8].
+
+Such effects may become biologically important after terminal membrane failure.
+
+However, immunogenicity should not be incorporated into the minimal execution definition.
+
+DAMP release is a downstream consequence whose magnitude likely depends on tissue and terminal membrane behavior.
+
+Thus:
+
+actin collapse → terminal membrane/homeostatic failure → possible DAMP release.
+
+DAMP release ≠ defining executor.
+
+## Molecular Hierarchy
+
+The most defensible hierarchy begins with metabolic susceptibility.
+
+Upstream susceptibility factors:
+
+SLC7A11/SLC3A2-mediated cystine uptake,
+
+high extracellular cystine availability,
+
+glucose dependence,
+
+PPP dependence,
+
+and other factors controlling glucose uptake or NADPH production.
+
+Canonical initiating stresses:
+
+glucose deprivation,
+
+glucose-transport limitation,
+
+PPP/G6PD impairment,
+
+TrxR1 inhibition,
+
+and context-dependent oxidative or ischemic metabolic stress.
+
+Primary biochemical transducers:
+
+NADPH depletion,
+
+elevated NADP⁺/NADPH ratio,
+
+failure of cystine reduction,
+
+intracellular cystine/disulfide accumulation,
+
+and protein disulfide stress.
+
+Major structural susceptibility machinery:
+
+Rac1,
+
+WRC,
+
+NCKAP1,
+
+Arp2/3,
+
+and associated branched actin networks.
+
+Core execution lesion:
+
+aberrant intermolecular disulfide cross-linking of actin/cytoskeletal proteins.
+
+Structural execution:
+
+F-actin contraction,
+
+cortical network collapse,
+
+actin–plasma-membrane detachment,
+
+loss of cellular mechanics.
+
+Terminal outcome:
+
+secondary membrane/homeostatic failure and death.
+
+Protective systems:
+
+reduced cystine uptake,
+
+adequate glucose/PPP flux,
+
+NADPH regeneration,
+
+thioredoxin/TrxR1,
+
+glutathione-associated buffering,
+
+and context-dependent regulators maintaining glucose availability or limiting SLC7A11 burden.
+
+## Integrated Canonical Sequence
+
+The best-supported canonical sequence is:
+
+high SLC7A11/SLC3A2 activity → continued cystine uptake in exchange for glutamate → strong requirement for intracellular cystine reduction → dependence on glucose-supported PPP/NADPH production.
+
+Under adequate glucose conditions:
+
+glucose → PPP → NADPH → cystine reduction to cysteine → maintenance of thiol/disulfide balance → preservation of actin structure → survival.
+
+Under glucose deprivation or equivalent NADPH-lowering stress:
+
+↓ glucose/PPP activity → ↓ NADPH → continued SLC7A11-mediated cystine influx exceeds reducing capacity → unreduced cystine and related disulfides accumulate → intracellular disulfide stress.
+
+The chemical stress then propagates toward the cytoskeleton:
+
+disulfide stress → aberrant intermolecular disulfide bond formation among actin-associated proteins → pathological modification of mechanically active branched actin networks.
+
+Rac1/WRC/Arp2/3 provides an important structural context:
+
+Rac1 → NCKAP1-containing WRC → Arp2/3-supported branched actin organization → cytoskeletal substrate susceptible to abnormal disulfide cross-linking.
+
+Then:
+
+progressive actin disulfide cross-linking → loss of normal actin dynamics → F-actin contraction → collapse of cortical architecture → detachment of F-actin from plasma membrane → severe cellular deformation and loss of membrane mechanical support → membrane permeability/homeostatic defects → irreversible death.
+
+No dedicated pore-forming protein has been established.
+
+No canonical caspase cascade is required.
+
+No lipid-peroxidation executor defines the process.
+
+The central execution event is structural failure caused by aberrant disulfide bonding.
+
+## Integrated Alternative Entry Routes
+
+The canonical glucose-starvation route can be generalized to other conditions:
+
+G6PD inhibition → ↓ PPP-derived NADPH → disulfide stress → actin collapse.
+
+TrxR1 inhibition → reduced thiol-buffering capacity → increased disulfide stress → actin collapse.
+
+Severe oxidative burden in highly SLC7A11-expressing cells → increased redox demand + NADPH depletion → cystine/disulfide accumulation → actin damage.
+
+Oxygen-glucose deprivation → limited substrate and reducing metabolism while cystine burden persists → disulfide stress → cytoskeletal collapse.
+
+These routes converge after the reducing-capacity defect.
+
+Therefore, glucose starvation is the prototypical trigger but not necessarily the only valid trigger.
+
+## Final Mechanistic Interpretation
+
+Disulfidptosis is best understood as a metabolic–redox–mechanical form of regulated cell death.
+
+Its defining vulnerability arises when SLC7A11-driven cystine uptake imposes a reducing demand that exceeds the cell's capacity to generate NADPH and maintain intracellular thiols.
+
+The canonical causal chain is:
+
+SLC7A11-high state → cystine loading → glucose/PPP dependence → NADPH insufficiency → failure of cystine/disulfide reduction → disulfide stress → abnormal disulfide cross-linking of actin-associated proteins → Rac1–WRC–Arp2/3-associated F-actin network collapse → cortical detachment → mechanical and membrane homeostasis failure → death.
+
+The principal initiating determinant is not a dedicated receptor.
+
+It is the metabolic mismatch between cystine influx and reducing capacity.
+
+The central biochemical lesion is not generalized ROS production.
+
+It is abnormal disulfide formation.
+
+The principal cellular target is not mitochondrial DNA, membrane phospholipid or a caspase substrate network.
+
+It is the cytoskeleton, particularly actin.
+
+The Rac1–WRC–Arp2/3 pathway is an important structural transduction module, but it is not sufficient to explain the entire process because disruption of WRC provides only partial protection.
+
+The most plausible commitment point is widespread actin disulfide cross-linking followed by large-scale F-actin contraction and loss of membrane–cytoskeleton coupling.
+
+However, no universal quantitative point of no return has yet been defined.
+
+Likewise, the precise terminal event remains unresolved.
+
+Current evidence favors catastrophic failure of the actin cortex with secondary membrane and homeostatic collapse, but whether the final lethal step is membrane permeabilization, membrane rupture, mechanically induced ionic failure, or an associated downstream energetic collapse has not yet been established universally.
+
+The most important conceptual advance provided by disulfidptosis is therefore that metabolic redox failure can kill not primarily through oxidation of lipids or activation of proteases, but through pathological covalent restructuring of the cytoskeleton.
+
+Its most defensible operational definition is:
+
+a regulated cell-death process in which continued cystine loading under insufficient reducing capacity generates intracellular disulfide stress that causes aberrant disulfide cross-linking and collapse of the actin cytoskeleton, leading to irreversible failure of cortical mechanics and cellular homeostasis.
+

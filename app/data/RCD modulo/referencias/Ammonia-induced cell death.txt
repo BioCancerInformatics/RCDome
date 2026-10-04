@@ -1,0 +1,79 @@
+1. Zhang H, Liu J, Yuan W, et al. **Ammonia-induced lysosomal and mitochondrial damage causes cell death of effector CD8+ T cells.** *Nature Cell Biology*. 2024;26:1892–1902. **DOI: 10.1038/s41556-024-01503-x**
+
+2. Shentu J, Xu H, Zhu F. **Ammonia-induced lysosomal and mitochondrial damage: a novel perspective on T cell-based cancer immunotherapy.** *Journal of the National Cancer Center*. 2025;5:105–107. **DOI: 10.1016/j.jncc.2025.01.004**
+
+3. Wang X, Li J, Shu X, et al. **Ammonia-induced cell death: A novel immunometabolic vulnerability for cancer therapy.** *Cancer Plus*. 2025. **DOI: 10.36922/cp025360054**
+
+4. Xu Y, Wang JF, Wu A, Wang M. **Ammonia metabolism and ammonia-induced cell death: role in cancer therapy.** *Cell Communication and Signaling*. 2025;23. **DOI: 10.1186/s12964-025-02504-5**
+
+5. Kerbert A, Engelmann C, Habtesion A, et al. **Hyperammonemia induces programmed liver cell death.** *Science Advances*. 2025;11. **DOI: 10.1126/sciadv.ado1648**
+
+6. Huang Y, Mo S, Jin Y, et al. **Ammonia-induced excess ROS causes impairment and apoptosis in porcine IPEC-J2 intestinal epithelial cells.** *Ecotoxicology and Environmental Safety*. 2022;243:114006. **DOI: 10.1016/j.ecoenv.2022.114006**
+
+7. Huang Z, Liang L, Li N, et al. **Ammonia exposure induces endoplasmic reticulum stress and apoptosis in Chinese striped-necked turtle.** *Aquatic Toxicology*. 2021;237:105903. **DOI: 10.1016/j.aquatox.2021.105903**
+
+8. Eng CH, Yu K, Lucas J, White E, Abraham RT. **Ammonia Derived from Glutaminolysis Is a Diffusible Regulator of Autophagy.** *Science Signaling*. 2010;3:ra31. **DOI: 10.1126/scisignal.2000911**
+
+9. Drews L, Zimmermann M, Westhoff P, et al. **Ammonia inhibits energy metabolism in astrocytes in a rapid and glutamate dehydrogenase 2-dependent manner.** *Disease Models & Mechanisms*. 2020;13. **DOI: 10.1242/dmm.047134**
+
+10. Davuluri G, Allawy A, Thapaliya S, et al. **Hyperammonaemia-induced skeletal muscle mitochondrial dysfunction results in cataplerosis and oxidative stress.** *The Journal of Physiology*. 2016;594. **DOI: 10.1113/JP272796**
+
+11. Murthy CRK, Panickar KS, Norenberg MD. **Ammonia induces the mitochondrial permeability transition in primary cultures of rat astrocytes.** *Journal of Neuroscience Research*. 2001;66. **DOI: 10.1002/jnr.10056**
+
+12. Rao KVR, Jayakumar AR, Norenberg MD. **Role of oxidative stress in the ammonia-induced mitochondrial permeability transition in cultured astrocytes.** *Neurochemistry International*. 2005;47:31–38. **DOI: 10.1016/j.neuint.2005.04.004**
+
+13. Albrecht J, Norenberg MD. **Glutamine: A Trojan horse in ammonia neurotoxicity.** *Hepatology*. 2006;44. **DOI: 10.1002/hep.21357**
+
+14. Albrecht J, Zielińska M, Norenberg MD. **Glutamine as a mediator of ammonia neurotoxicity: a critical appraisal.** *Biochemical Pharmacology*. 2010;80:1303–1308. **DOI: 10.1016/j.bcp.2010.07.024**
+
+15. Rao KVR, Reddy PVB, Tong X, Norenberg MD. **Brain edema in acute liver failure: inhibition by L-histidine.** *The American Journal of Pathology*. 2010;176:1400–1408. **DOI: 10.2353/ajpath.2010.090756**
+
+16. Klejman A, Wegrzynowicz M, Szatmari E, Mioduszewska B, Hetman M, Albrecht J. **Mechanisms of ammonia-induced cell death in rat cortical neurons: roles of NMDA receptors and glutathione.** *Neurochemistry International*. 2005;47:51–57. **DOI: 10.1016/j.neuint.2005.04.006**
+
+17. Llansola M, Rodrigo R, Monfort P, et al. **NMDA receptors in hyperammonemia and hepatic encephalopathy.** *Metabolic Brain Disease*. 2007;22:321–335. **DOI: 10.1007/s11011-007-9067-0**
+
+18. Norenberg MD, Rao KVR, Jayakumar AR. **Signaling factors in the mechanism of ammonia neurotoxicity.** *Metabolic Brain Disease*. 2009;24:103–117. **DOI: 10.1007/s11011-008-9113-6**
+
+19. Thrane VR, Thrane AS, Wang F, et al. **Ammonia triggers neuronal disinhibition and seizures by impairing astrocyte potassium buffering.** *Nature Medicine*. 2013;19:1643–1648. **DOI: 10.1038/nm.3400**
+
+20. Jayakumar AR, Liu M, Moriyama M, et al. **Na-K-Cl Cotransporter-1 in the Mechanism of Ammonia-induced Astrocyte Swelling.** *Journal of Biological Chemistry*. 2008;283:33874–33882. **DOI: 10.1074/jbc.M804016200**
+
+21. Norenberg MD, Jayakumar AR. **Mechanisms of Ammonia-Induced Astrocyte Swelling.** *Metabolic Brain Disease*. 2005;20:303–318. **DOI: 10.1007/s11011-005-7911-7**
+
+22. Zhang YX, Wan H, Shan GY, Gao ZC, Li HJ. **Hyperuricemia increases susceptibility to chronic kidney injury exacerbation via autophagic flux blockade-mediated ammonia death pathway.** *Journal of Advanced Research*. 2025. **DOI: 10.1016/j.jare.2025.11.003**
+
+23. Lu K, Zimmermann M, Görg B, et al. **Hepatic encephalopathy is linked to alterations of autophagic flux in astrocytes.** *EBioMedicine*. 2019;48:539–553. **DOI: 10.1016/j.ebiom.2019.09.058**
+
+24. Li X, Wang S, Zhang M, Li M. **Enhancement of autophagy can alleviate oxidative stress, inflammation, and apoptosis induced by ammonia stress in yellow catfish Pelteobagrus fulvidraco.** *Fish & Shellfish Immunology*. 2024. **DOI: 10.1016/j.fsi.2024.109582**
+
+25. Wang P, Wang X, Li L, et al. **Role of sodium-hydrogen exchanger isoform 1 in regulating hepatocyte apoptosis induced by hyperammonaemia.** *Gastroenterología y Hepatología*. 2018;41:490–497. **DOI: 10.1016/j.gastrohep.2018.05.026**
+
+26. Chen D, Ning F, Zhang J, Tang Y, Teng X. **NF-κB pathway took part in the development of apoptosis mediated by miR-15a and oxidative stress via mitochondrial pathway in ammonia-treated chicken splenic lymphocytes.** *Science of the Total Environment*. 2020;729:139017. **DOI: 10.1016/j.scitotenv.2020.139017**
+
+27. Zhang J, Cui J, Wang Y, Lin X, Teng X, Tang Y. **Complex molecular mechanism of ammonia-induced apoptosis in chicken peripheral blood lymphocytes: miR-27b-3p, heat shock proteins, immunosuppression, death receptor pathway, and mitochondrial pathway.** *Ecotoxicology and Environmental Safety*. 2022;236:113471. **DOI: 10.1016/j.ecoenv.2022.113471**
+
+28. Chen B, Liu X, Wu S, et al. **Inhalation of ammonia promotes apoptosis and induces autophagy in hepatocytes via Bax/Bcl-2 and m-TOR/ATG5/LC-3bII axes.** *Science of the Total Environment*. 2023;912:169036. **DOI: 10.1016/j.scitotenv.2023.169036**
+
+29. Zhang X, Yu Z, Yin L, et al. **BAX-mediated ammonia-driven cell death: a novel prognostic and therapeutic target in clear cell renal cell carcinoma.** *Human Genomics*. 2025;19. **DOI: 10.1186/s40246-025-00764-3**
+
+30. Cheon SY, Kim MY, Kim J, et al. **Hyperammonemia induces microglial NLRP3 inflammasome activation via mitochondrial oxidative stress in hepatic encephalopathy.** *Biomedical Journal*. 2023;46. **DOI: 10.1016/j.bj.2023.04.001**
+
+31. Long X, He K, Zhang M, et al. **Ferroptosis preceded the onset of oxidative stress under acute ammonia exposure and quercetin relieved ammonia-induced ferroptosis of yellow catfish.** *Aquaculture Reports*. 2023. **DOI: 10.1016/j.aqrep.2023.101766**
+
+32. Willard-Mack CL, Koehler RC, Hirata T, et al. **Inhibition of glutamine synthetase reduces ammonia-induced astrocyte swelling in rat.** *Neuroscience*. 1996;71:589–599. **DOI: 10.1016/0306-4522(95)00462-9**
+
+33. Li J. **The role of glutamine metabolism in the pathogenesis of idiopathic pulmonary fibrosis and its therapeutic potential.** *Frontiers in Oncology*. 2026;16. **DOI: 10.3389/fonc.2026.1873614**
+
+34. Zhai C, Li Y, Wang R, et al. **Differential Cell Death Pathways Induced by Oxidative Stress in Multi-Organs of Amur Grayling (Thymallus grubii) Under Gradient Ammonia Stress.** *Antioxidants*. 2025;14:499. **DOI: 10.3390/antiox14040499**
+
+35. Lu K. **Cellular Pathogenesis of Hepatic Encephalopathy: An Update.** *Biomolecules*. 2023;13:396. **DOI: 10.3390/biom13020396**
+
+36. Niknahad H, Jamshidzadeh A, Heidari R, et al. **Ammonia-induced mitochondrial dysfunction and energy metabolism disturbances in isolated brain and liver mitochondria, and the effect of taurine administration: relevance to hepatic encephalopathy treatment.** *Clinical and Experimental Hepatology*. 2017;3:141-151. **DOI: 10.5114/ceh.2017.68833**
+
+37. Tanigami H, Rebel A, Martin LJ, et al. **Effect of glutamine synthetase inhibition on astrocyte swelling and altered astroglial protein expression during hyperammonemia in rats..** **. 2005. **DOI: 10.1016/j.neuroscience.2004.10.045**
+
+38. Galluzzi L, Vitale I, Aaronson S, et al. **Molecular mechanisms of cell death: recommendations of the Nomenclature Committee on Cell Death 2018.** *Cell Death &amp; Differentiation*. 2018;25:486-541. **DOI: 10.1038/s41418-017-0012-4**
+
+39. Han Q, Zhang J, Sun Q, Xu Y, Teng X. **Oxidative stress and mitochondrial dysfunction involved in ammonia-induced nephrocyte necroptosis in chickens.** *Ecotoxicology and Environmental Safety*. 2020;203:110974. **DOI: 10.1016/j.ecoenv.2020.110974**
+
+40. Angelova PR, Kerbert A, Habtesion A, Hall AM, Abramov AY, Jalan R. **Hyperammonaemia induces mitochondrial dysfunction and neuronal cell death.** *JHEP Reports*. 2022;4. **DOI: 10.1016/j.jhepr.2022.100510**

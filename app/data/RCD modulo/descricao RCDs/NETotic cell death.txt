@@ -1,0 +1,200 @@
+NETotic cell death
+
+1. Definition and Classification
+
+NETotic cell death is a stimulus-dependent neutrophil regulated cell-death program characterized by extensive chromatin decondensation, dismantling of nuclear compartmentalization, mixing of chromatin with granular antimicrobial proteins, and, in its lytic form, irreversible plasma-membrane failure followed by extracellular release of neutrophil extracellular traps (NETs) [1-4].
+
+A central nomenclatural distinction is required. Extracellular NET formation is not synonymous with NETotic cell death. The term is most mechanistically defensible when applied to death-associated, lytic NET formation, often termed lytic or suicidal NETotic cell death. By contrast, some neutrophils can externalize DNA through vesicular or other non-lytic mechanisms while temporarily retaining plasma-membrane integrity and cellular functions. Such “vital NET release” represents a related form of chromatin externalization but cannot be classified as a cell-death modality when the neutrophil remains viable [2-4].
+
+Lytic NETotic cell death is mechanistically distinct from classical apoptosis. It is not defined by caspase-dependent execution, cellular shrinkage, apoptotic-body formation, or orderly sequestration of intracellular material. Instead, nuclear lobulation is lost, chromatin progressively expands, nuclear and granular compartments become reorganized, and the plasma membrane eventually fails, releasing decondensed DNA decorated with granular proteins into the extracellular space [1,4-5].
+
+It is also distinct from accidental necrosis because the transition to lysis follows a regulated sequence involving stimulus-dependent receptor signaling, kinase activation, oxidant production and/or Ca2+-dependent signaling, chromatin remodeling, cytoskeletal and endomembrane reorganization, nuclear-envelope failure, and delayed terminal membrane disruption [1,5-6].
+
+Importantly, no single upstream biochemical pathway defines all NETotic cell death. Different stimuli can engage NOX2-dependent, Ca2+/mitochondrial ROS-dependent, PAD4-dependent or relatively PAD4-independent, inflammasome-associated, and other context-specific routes [2-3]. The most defensible shared mechanistic core is therefore not a particular receptor, oxidase, protease, or pore-forming protein, but progressive chromatin decondensation and nuclear architectural collapse leading, in lytic NETotic cell death, to irreversible loss of plasma-membrane integrity and extracellular deployment of chromatin-protein traps [6-7].
+
+Markers such as citrullinated histone H3, MPO-DNA complexes, extracellular elastase, or cell-free DNA support NET formation but cannot independently prove NETotic cell death. These readouts can occur in non-lytic NET release, mixed forms of regulated death, or other states of chromatin externalization [2-3]. Mechanistic classification therefore requires temporal and functional evidence linking neutrophil activation to chromatin decondensation, nuclear-envelope failure, extracellular chromatin release, and, when claiming NETotic cell death as death, actual loss of cell viability.
+
+2. Initiation and Triggers
+
+NETotic cell death has no universal upstream receptor because different physiological, pathological, mechanical, infectious, and pharmacological stimuli enter the program through distinct sensing systems [2-3].
+
+During microbial or immune-complex stimulation, receptors including Fc receptors, Toll-like receptors, complement receptors, integrins, and C-type lectin receptors can initiate intracellular Ca2+ mobilization and kinase signaling that converges on oxidant production or chromatin-remodeling machinery [8-9]. For example, oxidized LDL and oxidized phospholipids can signal through TLR2/TLR6 and engage PKC, IRAK, MAPK pathways, and NADPH oxidase activation [10]. In heparin-induced thrombocytopenia, PF4-heparin-IgG immune complexes engage neutrophil FcγRIIa in association with platelets and promote PAD4-dependent NET formation [11].
+
+Unopsonized Candida albicans represents a mechanistically different route in which dectin-2 activates Syk-dependent Ca2+ signaling, PKCδ, and PAD4, producing NET formation that can occur independently of the canonical NADPH oxidase pathway [12]. C5aR1 and LTB4R1 signaling can activate Rap1a/B-Raf/ERK pathways and promote oxidant production and NET-associated responses [13].
+
+Mechanical forces can also act as initiating stimuli. Hemodynamic shear stress can be detected through Piezo1, leading to Ca2+ entry, calpain activation, and cytoskeletal remodeling that facilitates NETotic cell death [14].
+
+The most widely used pharmacological model is PMA-induced NETotic cell death. NADPH oxidase is activated through the PKC/Raf/MEK/ERK pathway, which also activates PAD4 to modify histones by converting arginine to citrulline [42,46]. This system is experimentally useful but should not be assumed to reproduce all physiological forms of NETotic cell death.
+
+Calcium ionophores such as A23187 and ionomycin instead induce large increases in intracellular Ca2+. These activate Ca2+-sensitive pathways including PAD4 and SK3 and favor mitochondrial ROS production, providing a major NOX-independent or partially NOX-independent route to chromatin decondensation [15].
+
+A further specialized route occurs during cytosolic Gram-negative bacterial sensing. Cytosolic LPS can activate noncanonical inflammasome signaling through caspase-4 in humans or caspase-11 in mice, leading to GSDMD-dependent membrane permeabilization and NET extrusion [16]. This pathway should be regarded as a specific inflammasome-associated NETotic mechanism rather than evidence that GSDMD universally executes NETotic cell death.
+
+Platelet-derived signals also contribute in sterile inflammatory and thrombotic settings. Extracellular HMGB1, particularly platelet-derived HMGB1, activates neutrophils and induces intravascular NETosis via a TLR4-dependent manner [17].
+
+Thus, NETotic cell death is best understood as a convergent cellular outcome reached through multiple stimulus-specific initiation pathways rather than as a receptor-defined linear pathway.
+
+3. Core Mechanistic Machinery
+
+In canonical NOX2-dependent NETotic cell death, receptor- or PKC-mediated signaling promotes assembly of cytosolic and membrane components of the NOX2 NADPH oxidase complex. Active NOX2 transfers electrons from NADPH to molecular oxygen, producing superoxide. Myeloperoxidase catalyzes the oxidation of halides by hydrogen peroxide [18].
+
+ROS are functional components of this route rather than merely terminal oxidative byproducts. Oxidative signaling promotes destabilization of azurophilic granules, release of neutrophil elastase (NE), and relocation of NE from granules toward the nucleus [8,18]. Once liberated, NE can degrade cytoskeletal F-actin and subsequently enter the nucleus, where partial proteolysis of histones weakens chromatin compaction [18].
+
+Myeloperoxidase (MPO) cooperates with NE in chromatin remodeling. Classical work established that NE and MPO promote chromatin decondensation during NET formation [18]. More recent structural evidence extends this mechanism by showing that dimeric MPO can directly interact with nucleosomal DNA and the nucleosome acidic patch, displace DNA from histone cores, and promote nucleosome disassembly [19]. Thus, MPO can function not only as an oxidative enzyme but also as a structural chromatin-remodeling factor.
+
+PAD4 represents another major chromatin-opening mechanism. PAD4 catalyzes conversion of histone arginine residues to citrulline. This removes positive charge from histones, weakens electrostatic interactions between histones and negatively charged DNA, and favors chromatin expansion [39]. PAD4 is strongly implicated in Ca2+-driven NET formation and many physiological NET pathways, but the supplied evidence does not support PAD4 as universally required for all NETotic cell death. The relative contribution of muscle, tendon, connective tissue, neural regulation, sensation, and joint-specific factors varies according to the stretching exposure, outcome, and experimental context [41].
+
+A parallel mechanism links oxidative stress directly to nuclear DNA processing. ROS can generate oxidative DNA lesions that recruit early DNA-repair proteins including APE1, PARP1, ligase-associated machinery, and PCNA-linked repair systems. Nicking and processing of damaged DNA during abortive or incomplete repair can relax chromatin structure, facilitating the transition toward extensive decondensation [21]. Inhibition of early repair steps can suppress NET formation, supporting a causal rather than merely correlative role for this process.
+
+Transcriptional initiation can further contribute to chromatin accessibility. The supplied evidence indicates that transcriptional firing, rather than new protein translation itself, can promote chromatin opening during NET formation [21-22].
+
+These mechanisms converge physically on the nucleus. Nuclear lobulation is lost, chromatin expands, the lamin-supported nuclear architecture becomes progressively disrupted, and the nuclear envelope ultimately becomes permeabilized or ruptures [6-7].
+
+4. Propagation and Amplification
+
+NETotic cell death becomes self-amplifying because several chromatin-remodeling processes occur simultaneously.
+
+In NOX2-dependent NETotic cell death, oxidant generation promotes NE mobilization and MPO-associated chemistry [8,18]. NE degrades F-actin and histones, thereby affecting both cellular architecture and nucleosome stability. MPO contributes oxidative chemistry and can directly remodel nucleosomes [18-19]. ROS-induced DNA damage initiates chromatin-relaxing repair reactions [21]. Together, these processes progressively reduce the physical constraints maintaining condensed nuclear chromatin.
+
+PAD4 can amplify this process through histone citrullination, particularly under conditions of substantial intracellular Ca2+ elevation [20]. Because PAD4 removes positively charged arginine side chains from histones, the resulting reduction in histone-DNA affinity facilitates further chromatin expansion.
+
+The cytoskeleton undergoes coordinated remodeling rather than remaining a passive bystander. Actin disassembly occurs early, followed by remodeling of microtubules, vimentin, and other structural systems. Endoplasmic-reticulum membranes vesiculate, nuclear-envelope integrity progressively decreases, and decondensed chromatin gains access to the cytoplasm [6].
+
+MPO-dependent lipid oxidation may provide an additional amplification mechanism in specific contexts. Oxidized phospholipids generated through MPO-associated chemistry can cooperate with NE to enhance chromatin decondensation, nuclear swelling, and extracellular NET release [23]. Platelet co-stimulation can further enhance lipid peroxide accumulation and pathogenic NET formation [24]. These effects are mechanistically relevant but should not be regarded as universal requirements.
+
+In Ca2+-dominant NETotic cell death, amplification can instead be driven by SK3-dependent mitochondrial ROS production. In NOX-independent NETosis triggered by calcium ionophores, increased intracellular calcium activates PAD4, which citrullinates histones [8]. Opening of the mitochondrial permeability transition pore can support mitochondrial ROS production in ionophore-stimulated neutrophils [25].
+
+Thus, propagation is stimulus dependent, but the different upstream branches converge on a common physical problem: loss of the molecular and structural constraints that normally keep neutrophil chromatin compact and compartmentalized.
+
+5. Protective/Negative Regulators
+
+Multiple mechanisms oppose inappropriate or excessive NETotic cell death.
+
+SerpinB1 is an important intracellular restriction mechanism. It limits protease-dependent chromatin decondensation and thereby restrains excessive NET formation. Loss of SerpinB1 increases susceptibility to NETotic cell death but does not itself constitute a primary NETotic cell death trigger [26].
+
+Antioxidant systems counteract ROS-dependent NETotic cell death by limiting NOX2- and MPO-associated oxidative signaling [8,27]. Antioxidants can therefore increase the threshold required to propagate oxidant-dependent chromatin remodeling. Their absence or impairment should be interpreted as sensitization rather than as an autonomous execution mechanism.
+
+Pharmacological or genetic inhibition of NOX2 suppresses canonical ROS-dependent NETotic cell death, while the historical observation that exogenous H2O2 can bypass defective NADPH oxidase in relevant experimental systems provides functional evidence placing oxidants upstream of chromatin decondensation [1,8].
+
+NE, MPO, PAD4, kinase pathways, Rac/Pak signaling, actin remodeling, and early DNA-repair reactions can also behave as mechanistic checkpoints because their perturbation suppresses particular NET pathways [18,20-21,28]. However, because dependency varies among stimuli, protection by inhibiting one component cannot automatically be generalized to all NETotic cell death.
+
+DNase I, DNase II, and macrophage-mediated clearance function primarily after NET release [29]. They digest or remove extracellular chromatin and therefore restrict the persistence and tissue toxicity of NETs. They do not normally prevent the intracellular commitment to NETotic cell death once chromatin has already undergone terminal decondensation. Failure of NET clearance should therefore be classified as defective removal of NET material rather than increased initiation of neutrophil death.
+
+6. Commitment / Point of No Return
+
+The best-supported candidate for the commitment point in lytic NETotic cell death is extensive chromatin decondensation accompanied by expansive nuclear swelling [7].
+
+Single-cell biophysical analyses indicate that once chromatin reaches a sufficiently decondensed and expanded state, the process becomes effectively irreversible. Entropic expansion of chromatin generates physical forces that contribute first to nuclear-envelope rupture and subsequently to plasma-membrane failure [7].
+
+High-resolution imaging supports this interpretation. Cytoskeletal remodeling, microvesicle shedding, microtubule and vimentin reorganization, and endomembrane changes occur before complete nuclear destruction. These are followed by chromatin decondensation, progressive lamin and nuclear-envelope failure, nuclear rupture, and extensive entry of decondensed DNA into the cytoplasm [6].
+
+Accordingly, the strongest current commitment candidate is not ROS generation, PAD4 activation, histone citrullination, NE translocation, or GSDMD cleavage individually. Each of these can be upstream, stimulus dependent, or dispensable in particular settings. A broadly supported irreversible transition in NETosis is the state in which chromatin has undergone extensive physical expansion sufficient to abolish normal nuclear architecture and drive nuclear-envelope rupture [1].
+
+The precise quantitative threshold of chromatin expansion required for irreversibility remains unresolved.
+
+7. Execution and Terminal Cause of Death
+
+What physically kills the cell in lytic NETotic cell death is irreversible loss of plasma-membrane integrity and cellular homeostasis after extensive chromatin decondensation and destruction of nuclear compartmentalization [6-7,16].
+
+The strongest general physical mechanism is chromatin-driven expansion. Decondensed chromatin occupies progressively greater intracellular volume, disrupts the nuclear envelope, floods the cytoplasm, mixes with granular proteins, and generates forces that contribute to final plasma-membrane failure [6-7].
+
+However, the molecular mechanism of terminal plasma-membrane rupture is not universal or completely resolved.
+
+In some settings, GSDMD participates directly in membrane permeabilization. Neutrophil proteases or noncanonical inflammasome-associated caspase-4/11 can activate GSDMD, and GSDMD can contribute to granule, nuclear, or plasma-membrane permeabilization and facilitate NET extrusion [16,30]. SARS-CoV-2-associated NET formation has likewise been linked to GSDMD activation [31].
+
+Nevertheless, GSDMD cannot be considered the universal NETotic cell death executor. NET formation can precede overt membrane lysis, and GSDMD-deficient neutrophils can still produce NETs under some experimental conditions [32]. Therefore, GSDMD represents a context-dependent terminal amplifier or execution mechanism rather than the defining universal executor of NETotic cell death.
+
+Myeloperoxidase (MPO) can promote neutrophil extracellular trap (NET) formation through its enzymatic activity and reactive oxygen species production, and mixed lineage kinase domain-like pseudokinase (MLKL), a key mediator of necroptosis, can also promote NET release under certain conditions [38]. Neither should be assigned universal executor status.
+
+Thus, the most defensible answer to “What physically kills the cell?” is: in lytic NETotic cell death, terminal death results from irreversible plasma-membrane failure following massive chromatin decondensation, nuclear-envelope rupture, intracellular chromatin expansion, and collapse of membrane homeostasis. Chromatin swelling is the strongest broadly supported physical driver, while GSDMD, MLKL, oxidized lipids, and other membrane-disrupting systems provide stimulus-specific terminal mechanisms.
+
+8. Morphological Sequence
+
+Lytic NETotic cell death begins in an intact, multilobed neutrophil. After stimulation, early signaling and cytoskeletal reorganization occur while the plasma membrane remains intact [1,6].
+
+Actin architecture is progressively dismantled, microvesicle shedding can occur, and microtubule and intermediate-filament systems are reorganized [6]. Granular constituents such as NE and MPO redistribute from their normal compartments.
+
+Nuclear morphology then changes profoundly. Normal neutrophil nuclear lobulation disappears. Histones are modified and/or proteolytically processed, nucleosome organization becomes disrupted, and chromatin progressively decondenses [6,18-20].
+
+As chromatin expands, the nucleus becomes increasingly rounded and swollen. Nuclear lamins and associated structural constraints fail, and the nuclear envelope becomes permeable and ultimately ruptures [6-7].
+
+Decondensed chromatin then enters the cytoplasm and mixes extensively with granular proteins, producing the characteristic DNA-protein material that will form the extracellular trap.
+
+In terminal lytic NETotic cell death, the plasma membrane subsequently becomes permeable and ruptures. Extracellular chromatin expands beyond the former cell boundary as a DNA-rich network carrying histones, MPO, NE, and other neutrophil constituents [1,6].
+
+The chronological morphological sequence is therefore:
+
+Intact multilobed neutrophil → stimulus-dependent signaling → cytoskeletal remodeling and granule reorganization → loss of nuclear lobulation → progressive chromatin decondensation → nuclear swelling → lamin/nuclear-envelope failure → nuclear-envelope rupture → cytoplasmic flooding by decondensed chromatin → association of chromatin with granular proteins → plasma-membrane failure → extracellular NET deployment and irreversible cell death.
+
+This sequence distinguishes lytic NETotic cell death from vital NET release, in which chromatin or DNA can be externalized without the same terminal destruction of plasma-membrane integrity and without obligatory immediate loss of neutrophil viability [34].
+
+9. Crosstalk and Differential Diagnosis
+
+The most important differential diagnosis is between lytic NETotic cell death and non-lytic NET release. Both can generate extracellular DNA decorated with neutrophil proteins. However, vital NET release can occur through vesicular or related export mechanisms while the plasma membrane remains intact and residual cytoplasts retain motility or phagocytic capacity [34,40]. Because cell death is not obligatory, extracellular NET detection alone cannot establish NETotic cell death.
+
+Apoptosis differs morphologically and mechanistically. Classical neutrophil apoptosis involves cellular shrinkage, nuclear condensation and fragmentation, caspase-associated execution, and controlled packaging of cellular material rather than extensive chromatin decondensation and extracellular chromatin deployment [4-5]. However, mixed states exist. UV exposure can produce an “apoNETosis” phenotype with features of both apoptosis and NET formation, illustrating that cell-death programs can overlap rather than remaining completely insulated [35].
+
+Pyroptosis overlaps particularly at the level of GSDMD. Cytosolic LPS can activate caspase-4/11 and GSDMD to generate NETs [16], but this does not establish GSDMD dependence for all NETotic cell death. GSDMD-independent NET formation has also been demonstrated [32]. The presence of GSDMD activity therefore indicates a specific inflammatory route rather than a universal diagnostic criterion.
+
+Necroptosis can converge on NET formation through MLKL. In selected settings, including MRSA-associated responses, MLKL can promote PAD4-dependent NET generation [33]. Such observations demonstrate mechanistic crosstalk, but canonical NETotic cell death should not be reclassified as necroptosis unless RIPK3-MLKL dependency is experimentally demonstrated.
+
+Inflammasome signaling provides another intersection. Noncanonical caspase-4/11-GSDMD signaling can directly promote NET extrusion during cytosolic Gram-negative challenge [16], whereas NLRP3 assembly has been linked to PAD4 activity and nuclear/plasma-membrane disruption in sterile NETotic cell death [36].
+
+Calcium-activated SK3 channel signaling coupled to mitochondrial ROS drives rapid NETosis even when NADPH oxidase is disabled, and PAD4-dependent chromatin decondensation and mPTP–Ca2+ arbitration are described [43]. Because ionophores can impose supraphysiological perturbations, such systems should not automatically be assumed to represent every physiological form of NETotic cell death.
+
+Finally, morphology alone is insufficient for differential diagnosis. Extracellular DNA, citrullinated histones, MPO-DNA complexes, cell-free DNA, and extracellular elastase activity are useful NET-associated readouts but cannot by themselves distinguish lytic NETotic cell death from vital NET release, mixed regulated deaths, or other forms of neutrophil chromatin externalization.
+
+10. Experimental Validation
+
+The strongest demonstration of NETotic cell death requires temporal, genetic, pharmacological, biochemical, and morphological evidence.
+
+First, extracellular chromatin release should be demonstrated by live-cell microscopy or high-resolution imaging rather than inferred exclusively from bulk extracellular DNA. Imaging should document loss of nuclear lobulation, progressive chromatin decondensation, nuclear swelling, nuclear-envelope failure, mixing of chromatin with granular proteins, and, for lytic NETotic cell death, subsequent loss of plasma-membrane integrity [1,6-7].
+
+Second, NET identity should be established by colocalizing extracellular DNA with neutrophil granular or nuclear proteins such as MPO, NE, or histones. MPO-DNA complexes, citrullinated histones, and extracellular DNA can support the conclusion but should not replace morphological and functional validation.
+
+Third, viability must be followed over time. Demonstration of delayed plasma-membrane permeabilization after chromatin decondensation is necessary when the process is classified as lytic NETotic cell death. If extracellular DNA is released while the neutrophil retains membrane integrity and functional activity, the event should instead be considered non-lytic NET release unless subsequent death is demonstrated.
+
+Fourth, pathway dependency should be tested according to the stimulus. In canonical NOX-dependent NETotic cell death, NOX inhibition, genetic oxidase deficiency, or chronic granulomatous disease neutrophils can test ROS dependence, while H2O2 rescue can place oxidants causally upstream [1,8]. NE inhibition or genetic perturbation can test histone proteolysis and cytoskeletal remodeling [18]. Myeloperoxidase (MPO) deficiency or pharmacological inhibition can be used to test the contributions of MPO to neutrophil extracellular trap formation and NETosis [18].
+
+PAD4 dependency should be established using genetic disruption or selective pharmacological inhibition rather than inferred from CitH3 staining alone [20]. Because PAD4 dependence is stimulus dependent, lack of PAD4 requirement does not exclude all forms of NETotic cell death.
+
+Fifth, Ca2+-dependent and mitochondrial pathways should be evaluated separately when ionophores or physiological Ca2+-mobilizing stimuli are used. NOX-independent NETosis involves cytosolic calcium influx, mitochondrial ROS generation, PAD4-mediated histone citrullination, and histone cleavage, with mROS being a key factor [44].
+
+Sixth, membrane-execution mechanisms should be directly tested rather than presumed. Genetic deletion or pharmacological inhibition of GSDMD can determine whether GSDMD is required in a particular system [16,30,32]. RIPK3/MLKL perturbation is required before assigning a necroptotic component [33,45]. Seventh, time-resolved single-cell experiments should determine the ordering of events. ROS production, NE translocation, histone modification, chromatin expansion, nuclear rupture, and plasma-membrane rupture should ideally be followed sequentially. This distinguishes upstream machinery from downstream biomarkers.
+
+Modern flow cytometry can supplement these approaches by distinguishing NET-forming neutrophils from activated, apoptotic, or necrotic cells, but imaging remains important for confirming the spatial organization of chromatin externalization [37].
+
+Finally, transcriptomic signatures must be interpreted conservatively. Expression of genes associated with NET formation can define a NETotic cell death-associated, neutrophil-activation, or NET-susceptibility state, but gene expression alone cannot demonstrate execution of NETotic cell death. Active NETotic cell death requires functional evidence of chromatin decondensation and extracellularization and, for the lytic modality, loss of viability.
+
+11. MLKL activates PAD4-dependent NET formation in response to MRSA [33].
+
+MLKL activates PAD4-dependent NET formation in response to MRSA [33].
+
+Core machinery: In canonical oxidative NETotic cell death, NOX2-derived ROS, NE, and MPO constitute major mechanistic components [8,18-19]. In Ca2+-dominant pathways, PAD4, SK3, mitochondria, and mitochondrial ROS become particularly important [15,20,25]. Cytoskeletal and endomembrane remodeling, DNA-repair-associated chromatin relaxation, nuclear lamina disruption, and chromatin expansion are central structural processes [6-7,21].
+
+Executors: No single universal protein executor is established. The most broadly supported physical executor is extensive decondensed chromatin expansion, which drives loss of nuclear architecture and contributes to terminal plasma-membrane failure [7]. GSDMD, MLKL, oxidized phospholipids, and related mechanisms can assist terminal membrane disruption in stimulus-specific contexts [16,23-24,30,32-33].
+
+Negative regulators: SerpinB1 limits protease/chromatin-dependent progression; antioxidant systems restrain oxidative signaling; inhibition of upstream kinase, oxidase, protease, or chromatin-remodeling pathways can suppress stimulus-specific NETotic cell death [26-27]. DNases and macrophage uptake regulate extracellular NET persistence rather than the intracellular death decision [29].
+
+Biomarkers/readouts: extracellular DNA, MPO-DNA complexes, CitH3, extracellular NE activity, nuclear delobulation, chromatin decondensation, nuclear-envelope rupture, and plasma-membrane permeability are useful readouts. No single one is sufficient to prove NETotic cell death mechanistically.
+
+12. Integrated Canonical Sequence
+
+Stimulus such as pathogen, immune complex, oxLDL, platelet-derived mediator, crystal, PMA, or mechanical stress → stimulus-specific receptor/sensor such as FcγR, TLR, dectin-2, C5aR1/LTB4R1, Piezo1, or direct PKC/Ca2+ activation → proximal signaling through Ca2+, PKC, Syk, IRAK, PI3K/Akt, Raf-MEK-ERK, p38 and/or Rac/Pak → activation of NOX2 and/or mitochondrial oxidant-generating pathways → ROS accumulation → granule destabilization and NE mobilization + MPO activation/relocalization → NE-mediated F-actin and histone proteolysis + MPO-dependent oxidative and structural nucleosome remodeling + stimulus-dependent PAD4-mediated histone citrullination + ROS-induced DNA damage/early DNA-repair-associated chromatin relaxation → progressive chromatin decondensation → loss of nuclear lobulation → cytoskeletal and endomembrane disassembly → expansive nuclear swelling → nuclear-lamina and nuclear-envelope failure → nuclear rupture → decondensed chromatin floods the cytoplasm and mixes with granular proteins → irreversible chromatin expansion/commitment → context-dependent membrane-destabilizing mechanisms including mechanical chromatin pressure ± GSDMD ± MLKL ± oxidized phospholipids → irreversible plasma-membrane failure and homeostatic collapse → neutrophil death with extracellular release of chromatin-protein NETs [1,6-7,16,18-21].
+
+This sequence represents a mechanistic integration rather than a requirement that every NETotic stimulus use every listed component. In particular, NOX2, PAD4, GSDMD, mitochondrial ROS, and MLKL are stimulus dependent and should not be considered universal nodes.
+
+13. Final Mechanistic Interpretation
+
+For RCDome, the most defensible operational definition is:
+
+NETotic cell death is a stimulus-dependent neutrophil regulated cell-death program in which extensive chromatin decondensation, nuclear architectural collapse, nuclear-envelope rupture, and mixing of chromatin with granular proteins culminate, in the lytic modality, in irreversible plasma-membrane failure and extracellular deployment of neutrophil extracellular traps. Multiple upstream routes can initiate this process, including NOX2/ROS-dependent, Ca2+/mitochondrial ROS/PAD4-dependent, inflammasome-associated, receptor-mediated, pharmacological, and mechanical pathways; therefore, no single receptor, ROS source, PAD4 dependency, or pore-forming protein is universal [1-7].
+
+The best-supported common commitment event is extensive chromatin decondensation and expansion sufficient to destroy normal nuclear architecture [6-7]. The most broadly supported physical execution mechanism is subsequent chromatin-driven nuclear and cellular expansion followed by irreversible plasma-membrane failure. GSDMD, MLKL, MPO-dependent lipid oxidation, and other membrane-destabilizing mechanisms can contribute in specific contexts but cannot presently be defined as universal NETotic cell death executors [16,23-24,30,32-33].
+
+The operational definition must explicitly exclude non-lytic vital NET release from NETotic cell death when neutrophil viability is preserved. Extracellular DNA or NET-associated biomarkers alone therefore do not establish regulated cell death [2-3,34].
+
+The strongest mechanistic evidence derives predominantly from human and murine neutrophil experimental systems, and stimulus- and species-dependent differences are substantial. The major unresolved question is which mechanism actually produces terminal plasma-membrane failure across the full spectrum of lytic NETotic cell death: whether chromatin expansion itself is sufficient, whether pore-forming proteins such as GSDMD dominate defined contexts, or whether several mechanistically distinct terminal modules converge on a common NET-releasing phenotype.
+
+Accordingly, RCDome should treat NETotic cell death as a regulated, death-associated form of NET generation with heterogeneous upstream machinery but a shared downstream trajectory of chromatin decondensation, nuclear destruction, and terminal loss of cellular viability. Transcriptomic NETotic cell death signatures should be interpreted only as NETotic cell death-associated or susceptibility states unless supported by functional evidence of chromatin externalization and death.
+

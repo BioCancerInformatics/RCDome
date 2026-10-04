@@ -1,0 +1,388 @@
+Lysozincrosis
+
+1. Definition and Classification
+
+Lysozincrosis is an emerging, non-consensus-standard regulated non-apoptotic death mechanism in which pathological lysosomal Zn2+ handling drives rapid mitochondrial dysfunction, energetic collapse, and necrotic loss of cellular integrity [1-4].
+
+The strongest direct evidence comes from metastatic melanoma cells with high lysosomal TRPML1/MCOLN1 activity. In this model, pharmacological activation of TRPML1 promotes release of Zn2+ from lysosomes, rapidly induces mitochondrial swelling, decreases cellular ATP, and produces non-apoptotic necrotic death [1].
+
+Lysozincrosis should therefore not currently be presented as a universally established core RCD modality equivalent in nomenclatural status to apoptosis, necroptosis, pyroptosis, or ferroptosis. The available evidence supports it more conservatively as an emerging specialized lysosome-dependent, zinc-driven regulated necrotic state [1-4].
+
+Its defining feature is not zinc toxicity alone. Zinc overload can produce apoptosis, ferroptosis, autophagy-associated death, mitochondrial injury, or mixed phenotypes in different systems [5-10]. Likewise, lysosomal membrane permeabilization alone is insufficient because LMP participates in several other regulated-cell-death mechanisms.
+
+The narrow mechanistic definition instead requires a causal lysosome–zinc–mitochondria axis:
+
+pathological lysosomal Zn2+ handling → toxic Zn2+ redistribution → mitochondrial dysfunction → profound ATP depletion → irreversible homeostatic failure → necrotic death.
+
+LMP can participate in this process, particularly in oxidative-stress and lysosomal-zinc-overload models, but complete lysosomal rupture is not necessarily the defining initiating event in the melanoma prototype. There, regulated Zn2+ efflux through the lysosomal channel TRPML1 precedes mitochondrial collapse [1].
+
+This distinction is important for RCDome. 2. Initiation and Triggers
+
+Several different initiating routes can disturb zinc homeostasis and converge on lysosomal Zn2+ accumulation, lysosomal Zn2+ release, or both.
+
+The most direct lysozincrosis prototype begins with TRPML1 hyperactivation.
+
+TRPML1, encoded by MCOLN1, is a lysosomal cation channel involved in lysosomal ion homeostasis, including Zn2+ handling [11]. In metastatic melanoma cells, pharmacological TRPML1 agonism produces lysosomal Zn2+ release and selective death of cells with high TRPML1 activity [1].
+
+The direct sequence is:
+
+TRPML1 activation → lysosomal Zn2+ efflux → cytosolic/mitochondrial Zn2+ redistribution → rapid mitochondrial dysfunction → ATP depletion → necrotic death.
+
+A second route involves oxidative stress.
+
+Reactive oxygen species can oxidize metallothioneins and liberate Zn2+ that is normally protein-bound [5,12-13]. The resulting increase in labile cytosolic Zn2+ can be redistributed into autophagic vacuoles and lysosomes.
+
+Thus:
+
+oxidative stress → metallothionein oxidation → Zn2+ release → cytosolic zinc elevation → lysosomal zinc loading → lysosomal dysfunction/LMP.
+
+A third route originates from mitochondrial injury. In MPP+-associated neuronal models, mitochondrial complex I impairment increases mitochondrial ROS. Oxidative stress then mobilizes intracellular Zn2+, while zinc itself further damages mitochondria, generating a reinforcing Zn2+–ROS cycle [14].
+
+A fourth route involves extracellular zinc entry, particularly in injured neurons. Ca2+-permeable AMPA receptors, voltage-gated calcium channels, and to a lesser extent NMDA receptors can permit zinc entry and increase the intracellular labile Zn2+ pool [15-16].
+
+A fifth route involves regulated zinc-transporter trafficking.
+
+In mammary epithelial cells, TNFα signaling promotes post-translational modification and retargeting of ZnT2 toward lysosomes. AP-3-dependent trafficking increases lysosomal zinc accumulation and contributes to lysosome-mediated death during mammary gland involution [7,17-18].
+
+The sequence is:
+
+TNFα signaling → ZnT2 dephosphorylation/trafficking change → AP-3-dependent lysosomal targeting → lysosomal Zn2+ accumulation → lysosomal dysfunction → death.
+
+A sixth route involves exogenous zinc delivery.
+
+ZnO nanoparticles can enter acidic lysosomal compartments and release Zn2+, while zinc ionophores or zinc complexes can concentrate zinc within lysosomes [19-22]. However, these interventions can terminate in autophagy-dependent death or ferroptosis rather than narrow lysozincrosis, depending on the model.
+
+Therefore, the upstream triggers are heterogeneous, but the mechanistic convergence point is abnormal lysosomal zinc handling.
+
+3. Core Mechanistic Machinery
+
+The central machinery of narrow lysozincrosis consists of the lysosomal Zn2+ pool, lysosomal zinc-handling proteins, the lysosomal membrane, and mitochondria.
+
+TRPML1/MCOLN1 occupies the most important position in the best-supported melanoma model [1]. Its activation releases lysosomal Zn2+, generating a rapid signal from lysosome to mitochondrion.
+
+ZnT2 represents a different zinc-handling mechanism. Instead of releasing zinc from lysosomes, ZnT2 can promote lysosomal zinc accumulation when retargeted to the lysosomal compartment [17-18].
+
+Thus, lysozincrosis-related systems can involve two conceptually distinct processes:
+
+lysosomal Zn2+ efflux toward the cytoplasm and mitochondria;
+
+or excessive Zn2+ accumulation within lysosomes until lysosomal homeostasis fails.
+
+These mechanisms are not contradictory. They represent different ways in which the lysosome can become the organizing organelle for pathological zinc redistribution.
+
+Under physiological conditions, lysosomes can buffer zinc and contribute to zinc detoxification. Zinc can enhance lysosomal acidification, V-ATPase assembly, autophagic flux, and adaptive lysosomal responses in some settings [23]. Therefore, lysosomal zinc accumulation itself is not inherently lethal.
+
+The transition to death occurs when zinc handling exceeds lysosomal buffering, export, repair, or degradative capacity.
+
+In oxidative-stress models, excessive lysosomal Zn2+ is associated with LMP and cathepsin redistribution [5,12]. Experiments with isolated lysosomes show that zinc and the lipid-peroxidation product 4-hydroxy-2-nonenal can directly promote lysosomal membrane permeabilization [12].
+
+This supports the sequence:
+
+ROS → intracellular Zn2+ mobilization + lipid peroxidation → lysosomal Zn2+ accumulation → LMP → cathepsin release.
+
+However, LMP is not necessarily the universal core executor of narrow lysozincrosis. In the direct melanoma prototype, toxic Zn2+ release through TRPML1 and subsequent mitochondrial injury are more central than cathepsin-dependent proteolytic execution [1].
+
+The mitochondrial compartment therefore represents the major downstream target.
+
+Intracellular zinc can inhibit mitochondrial energy processes, dissipate the mitochondrial membrane potential, deplete ATP, cause mitochondrial permeability transition, and induce mitochondrial fission and fragmentation [16].
+
+The core machinery can therefore be summarized as:
+
+abnormal lysosomal Zn2+ handling → toxic Zn2+ redistribution → mitochondrial Zn2+-associated injury → respiratory/energetic failure.
+
+4. Propagation and Amplification
+
+The most important amplification mechanism is reciprocal interaction between zinc dyshomeostasis and oxidative stress.
+
+Oxidative stress releases Zn2+ from metallothioneins and other intracellular stores. Increased free Zn2+ then promotes mitochondrial dysfunction and additional ROS production [5,14].
+
+Thus:
+
+ROS → Zn2+ mobilization → mitochondrial dysfunction → additional ROS → additional Zn2+ mobilization.
+
+This positive-feedback loop can progressively increase the labile zinc pool and destabilize both lysosomes and mitochondria.
+
+Antioxidants reduce zinc accumulation and lysosomal cathepsin release in relevant neuronal models, while zinc chelation decreases ROS, supporting bidirectional coupling between zinc and oxidative injury [14].
+
+A second amplification route involves lysosomal membrane damage.
+
+Following exposure to H2O2 or toxic levels of zinc, lysosomal zinc rises rapidly and significantly, and then a substantial fraction of zinc-laden lysosomes undergo membrane disintegration, releasing enzymes such as cathepsins [5]. Released cathepsins and acid hydrolases can then damage cytoplasmic substrates.
+
+In limited LMP, lysosomal cathepsins may cleave BID and activate BAX/BAK-dependent mitochondrial apoptosis [24-27]. This route represents lysosomal-apoptotic crosstalk rather than the narrow necrotic form of lysozincrosis.
+
+With more extensive lysosomal injury, broad hydrolase release can contribute to cytoplasmic damage, intracellular acidification, and further mitochondrial impairment [24,28].
+
+A third amplification mechanism occurs directly within mitochondria.
+
+Zinc-induced disruptions of cellular energy processes decrease mitochondrial membrane potential, increase ROS generation, and cause mitochondrial permeability transition, resulting in the release of pro-apoptotic factors [16].
+
+As ATP declines, energy-dependent homeostatic systems become progressively compromised. Ion pumps, membrane maintenance, organelle quality-control pathways, and recovery mechanisms become increasingly ineffective.
+
+The physical route through which lysosomal Zn2+ reaches mitochondria in the melanoma prototype remains unresolved. Direct lysosome–mitochondria contact-site transfer has been proposed as a plausible mechanism, but it has not been established as the universal route [1].
+
+Therefore, the best-supported propagation architecture is:
+
+pathological Zn2+ redistribution → mitochondrial dysfunction → ROS amplification → further Zn2+ dysregulation and lysosomal stress → progressive mitochondrial energetic failure.
+
+5. Protective / Negative Regulators
+
+The first protective system is intracellular zinc buffering.
+
+Metallothioneins bind labile Zn2+ and can limit toxic increases in free zinc [5,14]. Metallothionein-3 is particularly relevant in neural systems.
+
+However, metallothioneins have a context-dependent dual role. Under normal conditions they buffer Zn2+, whereas oxidative modification can release metallothionein-bound zinc and convert the same buffering reservoir into a source of toxic free Zn2+ [5,14].
+
+A second protective mechanism is lysosomal sequestration.
+
+Functional lysosomes can take up excess intracellular zinc and reduce its cytosolic toxicity. Appropriate lysosomal acidification and V-ATPase function support this detoxifying capacity [23,29].
+
+A third mechanism is lysosomal exocytosis.
+
+VAMP7- and SYT7-associated lysosomal exocytosis allows Zn2+ stored within lysosomes to be expelled from the cell. Blocking this process increases zinc toxicity, whereas functional lysosomal exocytosis protects against excess Zn2+ [29].
+
+Thus:
+
+cytosolic Zn2+ excess → lysosomal sequestration → lysosomal exocytosis → Zn2+ elimination.
+
+A fourth protective mechanism is expansion of lysosomal capacity.
+
+EGF-induced endocytosis can transiently increase lysosomal abundance, increasing the cellular capacity to buffer zinc. LAMP1 overexpression likewise reduces zinc-induced LMP and cell death in neuronal models [30].
+
+LAMP2 contributes to lysosomal quality control and modifies sensitivity to zinc-associated oxidative stress [31].
+
+Lysophagy and ESCRT-associated lysosomal repair represent additional general protective systems capable of preventing limited lysosomal injury from progressing to catastrophic rupture [32].
+
+Autophagy also has a context-dependent role. Increased autophagic flux can initially participate in zinc handling and lysosomal adaptation, but in some models autophagy promotes zinc delivery to lysosomes and contributes to death [6,19].
+
+Therefore, autophagy cannot be classified universally as either protective or pro-death in lysozincrosis-related biology.
+
+The main negative regulators can be summarized as:
+
+metallothionein buffering → lysosomal sequestration → lysosomal acidification → lysosomal exocytosis → lysosomal biogenesis → LAMP1/2-associated stability → lysosomal repair and lysophagy.
+
+6. Commitment / Point of No Return
+
+No universal molecular point of no return has been established for lysozincrosis.
+
+Early zinc redistribution is reversible. Likewise, limited lysosomal membrane injury can potentially be repaired or the damaged organelles removed.
+
+The best-supported commitment model is therefore threshold-based.
+
+The critical transition occurs when zinc sequestration and lysosomal handling fail and toxic Zn2+ redistribution drives sufficiently severe mitochondrial damage that cellular ATP production collapses [1,14,33].
+
+In the narrow melanoma prototype, mitochondrial swelling develops rapidly after TRPML1-dependent lysosomal Zn2+ release and is accompanied by severe ATP depletion [1].
+
+Interventions such as zinc chelation, antioxidant treatment, TRPML1 inhibition, or cathepsin inhibition in relevant LMP-associated systems are most effective before advanced mitochondrial damage [1,12,14].
+
+Once mitochondrial swelling and energetic collapse become extensive, rescue becomes substantially less plausible.
+
+Thus, the strongest operational point of no return is:
+
+irreparable pathological lysosomal Zn2+ redistribution → catastrophic mitochondrial energetic failure → ATP levels insufficient to maintain cellular homeostasis.
+
+This remains an operational rather than universally defined molecular checkpoint.
+
+7. Execution and Terminal Cause of Death
+
+What physically kills the cell in narrow lysozincrosis?
+
+The strongest evidence supports rapid mitochondrial energetic collapse caused by pathological lysosomal Zn2+ release [1].
+
+In the melanoma prototype, TRPML1-mediated lysosomal Zn2+ mobilization rapidly produces mitochondrial swelling and profound ATP depletion. The death is non-apoptotic and necrotic [1].
+
+Thus, the most defensible terminal sequence is:
+
+lysosomal Zn2+ release → toxic mitochondrial Zn2+ exposure → mitochondrial dysfunction/swelling → respiratory failure → severe ATP depletion → failure of ATP-dependent ion gradients and membrane maintenance → irreversible cellular homeostatic collapse → plasma-membrane failure and necrotic death.
+
+This distinction is essential.
+
+Cathepsins can contribute when lysosomal membrane permeabilization accompanies zinc toxicity. They can degrade cellular substrates or engage BID–BAX/BAK signaling [12,24-27].
+
+However, the supplied evidence does not justify defining cathepsins as the universal terminal executors of narrow lysozincrosis.
+
+Likewise, LMP is mechanistically important in several zinc-overload models but is not necessarily the final physical cause of death in the TRPML1-driven melanoma prototype.
+
+The most specific terminal lesion supported by that prototype is mitochondrial energy failure.
+
+Lysozincrosis therefore differs mechanistically from apoptosis, where caspase-dependent cellular dismantling dominates; necroptosis, where RIPK3–MLKL controls execution; pyroptosis, where gasdermin pores drive lysis; and ferroptosis, where uncontrolled phospholipid peroxidation constitutes the central lethal chemistry [2-4,34].
+
+8. Morphological Sequence
+
+No unique morphology has yet been established as diagnostic of lysozincrosis.
+
+The narrow prototype displays a rapid transition from apparently viable cells to mitochondrial swelling and necrotic loss of cellular integrity.
+
+A generalized mechanistic sequence can be represented as:
+
+normal zinc homeostasis → abnormal lysosomal Zn2+ accumulation or release → lysosomal enlargement and/or zinc-positive vesicles → mitochondrial Zn2+-associated stress → mitochondrial swelling and fragmentation → ATP depletion → cellular swelling/homeostatic collapse → plasma-membrane failure.
+
+In metastatic melanoma, mitochondrial swelling can occur rapidly after TRPML1 activation, within a timescale of less than approximately one hour in the supplied mechanistic summary [1].
+
+In ammonia neurotoxicity models, glutamine mediates oxidative stress and astrocyte swelling, and ammonia induces mitochondrial dysfunction and oxidative damage [40-41].
+
+In mammary epithelial cells, ZnT2-associated lysosomal zinc accumulation is accompanied by lysosomal enlargement and cathepsin B release [7,17-18].
+
+The terminal phenotype of narrow lysozincrosis is necrotic rather than classical apoptotic fragmentation. Plasma-membrane integrity is ultimately lost, and apoptotic-body formation is not the defining morphology [1,39].
+
+Nevertheless, mitochondrial swelling, lysosomal enlargement, or Zn2+-positive vesicles are not specific enough to diagnose lysozincrosis in isolation.
+
+9. Crosstalk and Differential Diagnosis
+
+The most important differential diagnosis is lysosome-dependent apoptosis.
+
+Zinc overload can destabilize lysosomes, release cathepsins, activate BID, promote BAX/BAK-dependent mitochondrial permeabilization, release cytochrome c, and trigger caspases [24-27,35].
+
+Such a sequence represents zinc-associated lysosome-to-mitochondria apoptosis rather than narrow lysozincrosis when caspase-dependent apoptotic execution becomes dominant.
+
+The distinction can be summarized as:
+
+lysozincrosis:
+lysosomal Zn2+ dysregulation → mitochondrial energetic collapse → ATP failure → necrotic death;
+
+zinc-associated apoptosis:
+lysosomal dysfunction/LMP → cathepsin–BID/BAX/BAK → MOMP → caspases → apoptotic death.
+
+Autophagy represents another major intersection.
+
+Oxidative injury can induce autophagy before zinc accumulates within autophagic and lysosomal compartments [6]. In some astrocytic systems, inhibition of autophagy decreases zinc accumulation, LMP, and death, suggesting that autophagic trafficking contributes to zinc delivery into lysosomes.
+
+TRPML1-mediated zinc signaling can also interfere with autophagosome–lysosome fusion by affecting STX17–VAMP8-associated machinery in cancer cells [36].
+
+Therefore, autophagy can either facilitate zinc trafficking or become dysfunctional downstream of lysosomal zinc disturbance.
+
+Ferroptosis must also be separated carefully.
+
+Zn2+ participates in some ferroptosis systems, including ZIP7-associated signaling, and lysosomal dysfunction can contribute to ferroptotic execution [8,37]. ZnO nanoparticles can trigger ferroptosis through altered ROS and iron homeostasis [10].
+
+When the terminal mechanism is iron-dependent phospholipid-peroxidation catastrophe, the death should be classified as ferroptosis rather than lysozincrosis.
+
+Pyroptotic signaling can also emerge under conditions of lysosomal zinc overload and oxidative stress. However, gasdermin-dependent membrane permeabilization would indicate pyroptosis or parallel pathway activation rather than core lysozincrosis.
+
+Finally, generic lysosome-dependent cell death must be distinguished from lysozincrosis. LDCD is a broader category in which LMP and lysosomal hydrolases are causally central. Lysozincrosis is narrower and requires pathological zinc handling as the organizing mechanism, with the strongest prototype linking lysosomal Zn2+ release directly to mitochondrial energy collapse.
+
+10. Experimental Validation
+
+A rigorous demonstration of lysozincrosis should begin with direct measurement of zinc dynamics.
+
+Lysosomal Zn2+ should be visualized or quantified using compartment-sensitive zinc probes or equivalent validated methods. Demonstrating movement of Zn2+ from the lysosome toward the cytosolic or mitochondrial compartment is substantially stronger than measuring total cellular zinc alone [1,38].
+
+Second, lysosomal dependence should be demonstrated.
+
+In the melanoma prototype, genetic or pharmacological manipulation of TRPML1 is particularly informative [1]. High TRPML1 activity should correlate with vulnerability, while TRPML1 inhibition should suppress the zinc redistribution and death phenotype.
+
+Third, zinc dependence must be established using chelation or manipulation of zinc transport.
+
+Protection by zinc chelation strongly supports a causal role for Zn2+ rather than nonspecific lysosomal injury.
+
+Fourth, mitochondrial consequences should be measured directly.
+
+Relevant readouts include mitochondrial swelling, fragmentation, membrane-potential loss, respiratory dysfunction, and ATP depletion [1,15-16].
+
+For narrow lysozincrosis, these mitochondrial changes should temporally follow lysosomal Zn2+ mobilization and precede terminal plasma-membrane failure.
+
+Fifth, apoptotic execution should be evaluated.
+
+If caspase inhibition fully rescues death and canonical apoptotic signaling dominates, the phenotype is more appropriately interpreted as zinc-associated apoptosis rather than narrow lysozincrosis.
+
+Sixth, alternative RCD pathways should be tested when biologically plausible.
+
+RIPK3/MLKL dependence would support necroptosis.
+
+Gasdermin dependence would support pyroptosis.
+
+Protection by canonical ferroptosis inhibitors combined with lipid-peroxidation dependence would favor ferroptosis.
+
+Seventh, LMP should be measured when the proposed model includes lysosomal rupture.
+
+Cathepsin redistribution, loss of lysosomal dye retention, galectin recruitment, or direct lysosomal membrane assays can determine whether LMP is part of the mechanism [5,12,24].
+
+However, LMP should not be assumed to be obligatory in every lysozincrosis model because regulated TRPML1-mediated Zn2+ efflux can precede catastrophic lysosomal rupture.
+
+The strongest experimental chain for narrow lysozincrosis is therefore:
+
+lysosomal Zn2+ flux → dependence on TRPML1 or another lysosomal zinc-handling mechanism → rescue by zinc chelation → rapid mitochondrial dysfunction → ATP collapse → caspase-independent necrotic death.
+
+Transcriptomic evidence alone cannot demonstrate lysozincrosis. MCOLN1/TRPML1, SLC30A2/ZnT2, metallothioneins, LAMP genes, zinc transporters, or mitochondrial stress genes may indicate susceptibility or zinc-handling states but cannot prove pathological Zn2+ flux or execution.
+
+11. Molecular Hierarchy
+
+Initiators / sensors:
+
+TRPML1/MCOLN1 hyperactivation; ZnT2 trafficking; redox-sensitive metallothioneins; extracellular zinc entry through neuronal channels; ZnO nanoparticle dissolution; zinc ionophores/complexes; mitochondrial ROS-associated zinc mobilization.
+
+Early transducers:
+
+labile Zn2+; ROS; HNE and related lipid-peroxidation products; AP-3-dependent ZnT2 trafficking; autophagic redistribution of zinc.
+
+Core machinery:
+
+lysosomal Zn2+ pool; lysosomal membrane; TRPML1-mediated Zn2+ release; ZnT2-mediated lysosomal loading; lysosomal buffering/export systems; mitochondria.
+
+Execution-linked factors:
+
+mitochondrial Zn2+ toxicity; loss of membrane potential; mitochondrial swelling; mitochondrial fragmentation; inhibition of energy metabolism; ATP depletion.
+
+Context-dependent secondary effectors:
+
+LMP; cathepsins; BID; BAX/BAK; oxidative amplification; autophagy-associated trafficking.
+
+Protective regulators:
+
+metallothionein-3; lysosomal acidification; V-ATPase function; lysosomal exocytosis involving VAMP7/SYT7; LAMP1; LAMP2; lysosomal biogenesis; lysophagy; ESCRT-associated repair.
+
+Biomarkers:
+
+lysosomal Zn2+-positive vesicles; altered lysosomal zinc probes; lysosomal enlargement; LysoTracker changes; cathepsin redistribution when LMP occurs; mitochondrial swelling; mitochondrial fragmentation; membrane-potential loss; ATP depletion.
+
+None of these individual biomarkers is sufficient to establish lysozincrosis.
+
+Terminal lesion:
+
+irreversible mitochondrial energetic collapse severe enough to prevent maintenance of ion gradients, membrane integrity, and cellular homeostasis, culminating in necrotic death.
+
+12. Integrated Canonical Sequence
+
+The narrow canonical lysozincrosis sequence supported most directly by the melanoma model is:
+
+high TRPML1/MCOLN1 activity → TRPML1 activation → pathological lysosomal Zn2+ efflux → toxic Zn2+ redistribution toward the cytoplasm/mitochondrial compartment → mitochondrial Zn2+-associated dysfunction → mitochondrial swelling + membrane-potential impairment + respiratory failure → rapid ATP depletion → failure of ATP-dependent ion homeostasis and membrane maintenance → irreversible cellular collapse → plasma-membrane failure → necrotic death.
+
+A broader zinc–lysosome route can be represented as:
+
+oxidative stress → metallothionein oxidation → release of bound Zn2+ → cytosolic zinc elevation → autophagic/lysosomal zinc accumulation → zinc/HNE-associated lysosomal destabilization → LMP → cathepsin release + additional zinc redistribution → mitochondrial dysfunction → ATP decline → apoptosis-like or necrotic execution depending on injury magnitude.
+
+A ZnT2-dependent physiological/developmental route is:
+
+TNFα signaling → ZnT2 post-translational modification → AP-3-dependent lysosomal retargeting → lysosomal Zn2+ accumulation → lysosomal enlargement/dysfunction → cathepsin release → lysosome-mediated epithelial cell death.
+
+These pathways share zinc–lysosome biology but should not automatically be collapsed into one identical molecular mechanism.
+
+The most defensible integrated concept is therefore:
+
+pathological stimulus → abnormal labile Zn2+ generation or transport → lysosomal Zn2+ sequestration/release exceeds buffering capacity → zinc–ROS amplification and/or LMP → toxic lysosome-to-mitochondria signaling → mitochondrial energetic collapse → irreversible homeostatic failure → necrotic death.
+
+13. Final Mechanistic Interpretation
+
+For RCDome, lysozincrosis should be classified as an emerging, non-consensus-standard, zinc-driven lysosome-centered regulated necrotic mechanism rather than as a fully established universal RCD modality.
+
+The strongest direct prototype is TRPML1-dependent death in metastatic melanoma. In this system, lysosomal Zn2+ release is upstream, mitochondria are the major lethal target, ATP depletion is profound, and death is rapid and non-apoptotic.
+
+This evidence supports a narrower definition than generic zinc toxicity or generic lysosomal cell death.
+
+The core mechanistic identity is:
+
+pathological lysosomal Zn2+ handling → toxic zinc redistribution → mitochondrial energetic collapse → necrotic death.
+
+Importantly, LMP should not be made obligatorily synonymous with lysozincrosis. LMP is strongly supported in several zinc-overload and oxidative-stress models, but the most specific melanoma prototype relies on controlled TRPML1-mediated lysosomal Zn2+ release before the terminal mitochondrial lesion.
+
+Likewise, cathepsins should not be designated universal lysozincrosis executors. They are mechanistically relevant in zinc-associated LMP models and can redirect death toward lysosome-dependent apoptosis, but the strongest narrow lysozincrosis evidence instead supports mitochondrial ATP failure as the proximate terminal mechanism.
+
+The best current commitment model is the transition from reversible zinc buffering/sequestration to severe mitochondrial dysfunction with irreversible ATP collapse.
+
+The largest mechanistic uncertainty is the physical connection between lysosomal Zn2+ mobilization and mitochondrial injury. It remains unresolved whether Zn2+ reaches mitochondria primarily through bulk cytosolic redistribution, lysosome–mitochondria contact sites, specific transport mechanisms, or a combination of these processes.
+
+A second important uncertainty concerns generalizability. Zinc-dependent lysosomal injury has been demonstrated in several tissues and disease models, but many of these systems terminate through apoptosis, autophagy-dependent death, or ferroptosis. They therefore support individual mechanistic modules but do not establish that narrow lysozincrosis is broadly conserved as a distinct execution program.
+
+For transcriptomic applications, high MCOLN1, zinc-transporter expression, metallothionein expression, lysosomal signatures, or mitochondrial-stress programs should therefore be labeled as lysozincrosis-associated or zinc–lysosome-associated states, not active lysozincrosis.
+
+Direct mechanistic assignment requires evidence of pathological lysosomal Zn2+ flux, zinc dependence, lysosome-to-mitochondria causal ordering, mitochondrial energetic collapse, and exclusion of a better-established alternative execution mechanism.
+

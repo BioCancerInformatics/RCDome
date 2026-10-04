@@ -1,0 +1,150 @@
+## Autophagy-dependent cell death
+
+Autophagy-dependent cell death is a regulated cell-death category in which the autophagic machinery contributes causally to the death of the cell. This definition is essential because macroautophagy is, under most physiological and stress conditions, a cytoprotective pathway that maintains cellular homeostasis by degrading damaged organelles, protein aggregates, and other cytoplasmic material within lysosomes. Therefore, the presence of abundant autophagosomes, LC3 puncta, lysosomal activity, or extensive cytoplasmic vacuolization does not by itself establish autophagy-dependent cell death [1-5]. A cell should be classified as undergoing autophagy-dependent death only when autophagic activity is mechanistically required for death and genetic or pharmacological interference with essential autophagy components prevents or significantly delays the lethal process [1-3].
+
+This causal definition replaced the older morphology-based concept of “type II programmed cell death,” in which cells containing numerous autophagic vacuoles were frequently assumed to have died because of autophagy. Subsequent work demonstrated that extensive autophagy often represents an attempt to survive metabolic or organellar stress rather than the mechanism that kills the cell [1-3,5]. In other situations, autophagy accompanies apoptosis, ferroptosis, lysosome-dependent death, or other regulated cell-death pathways without constituting the terminal execution mechanism. Autophagy-dependent cell death therefore does not represent a single uniform biochemical pathway analogous to caspase-dependent apoptosis or MLKL-dependent necroptosis. Among these mechanisms, autosis is the most clearly defined mammalian form of autophagy-dependent cell death. Autosis has been observed in HeLa cells and cardiomyocytes after Tat-BECN1 treatment or starvation, and in vivo in kidneys of mice after renal ischemia/reperfusion, in the hearts and livers of starved mice, and in the heart after ischemia/reperfusion [9]. Other proposed forms of autophagy-dependent death involve excessive removal of mitochondria, excessive degradation of essential cytoplasmic material, or cooperation between autophagy and lysosomal membrane permeabilization. The molecular events preceding autophagy-dependent death initially resemble ordinary macroautophagy. Cellular stresses such as amino-acid deprivation, glucose limitation, growth-factor withdrawal, energetic stress, oxidative stress, hypoxia, ER stress, mitochondrial damage, infection-associated signaling, and selected cytotoxic drugs alter nutrient- and energy-sensing pathways that control the autophagy machinery [4,11-12].
+
+One of the most important regulatory nodes is mechanistic target of rapamycin complex 1, or mTORC1. Under nutrient-rich conditions, mTORC1 suppresses autophagy by phosphorylating components of the ULK1 initiation machinery and maintaining the autophagic system in a relatively inactive state [11-14]. Consequently, nutrient deprivation or pharmacological inhibition of mTORC1 removes this inhibitory signal and permits activation of the ULK complex.
+
+The mammalian ULK initiation complex consists principally of ULK1 or ULK2, ATG13, FIP200/RB1CC1, and ATG101. ULK1 functions as a serine/threonine kinase that coordinates early autophagosome formation. When inhibitory mTORC1 signaling decreases, the ULK complex becomes activated and is recruited to sites where phagophore formation will begin [12-14].
+
+Energy availability can additionally influence this transition through AMP-activated protein kinase, or AMPK. In the classical energy-stress model, decreased cellular ATP and increased AMP or ADP activate AMPK. AMPK can promote autophagy by inhibiting mTORC1 and by directly phosphorylating ULK1 at activating sites, thereby coupling energetic stress to autophagosome initiation [13].
+
+However, AMPK cannot be described as a universally positive autophagy regulator under all conditions. More recent studies demonstrate that during severe glucose deprivation or prolonged amino-acid starvation AMPK can restrain portions of the ULK1–ATG14–VPS34 pathway, potentially preventing excessive consumption of the autophagic machinery and preserving cellular capacity for recovery [15-16]. Thus, the relationship between energy stress and autophagy is dynamic rather than a simple linear AMPK-on/mTOR-off switch.
+
+Once activated, the ULK complex promotes assembly and activation of the class III phosphatidylinositol 3-kinase complex I. This complex contains VPS34/PIK3C3, VPS15/PIK3R4, Beclin 1/BECN1, ATG14 and additional regulatory components [12,17-19].
+
+ULK1 phosphorylates components including Beclin 1 and ATG14, increasing VPS34 activity. VPS34 is the only class III phosphoinositide 3-kinase in mammals and phosphorylates phosphatidylinositol to produce phosphatidylinositol 3-phosphate (PI3P) [17].
+
+PI3P functions as an essential membrane signal rather than simply as a structural lipid. It recruits PI3P-binding proteins including WIPI-family proteins, which organize downstream autophagy machinery on the developing isolation membrane. WIPI2 is particularly important because it connects PI3P-enriched membranes to the ATG conjugation machinery responsible for LC3/GABARAP lipidation.
+
+Phagophore expansion depends on two ubiquitin-like conjugation systems. In one system, ATG12 is covalently conjugated to ATG5, and the ATG12–ATG5 complex associates with ATG16L1. This complex acts functionally as an E3-like machinery that specifies sites of ATG8-family lipidation [20-21].
+
+In the second system, LC3/GABARAP-family proteins are processed and transferred through the E1-like enzyme ATG7 and the E2-like enzyme ATG3 before being covalently attached to phosphatidylethanolamine in the phagophore membrane. This conversion generates membrane-associated LC3-II and related lipidated ATG8 proteins [20-22].
+
+WIPI2, ATG16L1 and ATG3 coordinate this lipidation reaction so that LC3 is preferentially transferred to the growing phagophore. Consequently, PI3P production, WIPI recruitment and ATG16L1 localization form a sequential molecular bridge between autophagy initiation and membrane expansion [22].
+
+LC3/GABARAP lipidation contributes to phagophore expansion, membrane organization, cargo recruitment and autophagosome maturation. Structural and biochemical studies indicate that ATG16L1, as part of the ATG12-ATG5-ATG16L1 complex, acts as an E3-like enzyme that promotes LC3 lipidation and associates with membranes, and this machinery, together with lipidated LC3, can support membrane remodeling and the formation of cup-shaped phagophore-like structures, indicating that the ATG conjugation machinery contributes directly to autophagosome membrane architecture [39,42].
+
+The isolation membrane subsequently expands around portions of cytoplasm or selected cargo and closes to generate a double-membrane autophagosome. In selective autophagy, cargo receptors connect specific ubiquitinated or otherwise tagged substrates to LC3/GABARAP proteins, allowing preferential degradation of organelles, protein aggregates or other cellular structures.
+
+Autophagosome formation alone does not represent completed autophagic flux. The autophagosome must mature and fuse with late endosomes or lysosomes, where its contents are degraded by lysosomal hydrolases. This late phase is therefore essential when deciding whether apparent autophagosome accumulation represents increased productive autophagy or a block in autophagosome clearance.
+
+Autophagosome–lysosome fusion depends on RAB7, tethering proteins and SNARE machinery. STX17-containing SNARE complexes on the autophagosome cooperate with SNAP proteins and lysosomal VAMP7 or VAMP8 to promote membrane fusion [23,38].
+
+Recent evidence indicates that an STX17–SNAP29–VAMP8 complex can function as a major fusion machinery during both starvation-induced and selective autophagy [37]. EPG5 further increases fusion specificity by functioning as a RAB7 effector capable of coordinating autophagosomal LC3/STX17-containing structures with VAMP7/VAMP8-containing late endosomal and lysosomal membranes [24].
+
+After successful fusion, autophagosomal cargo and the inner autophagosomal membrane are degraded within the acidic lysosomal compartment. Amino acids, lipids, nucleotides and other degradation products can then return to cellular metabolism.
+
+This complete sequence constitutes autophagic flux: stress sensing → ULK-complex activation → Beclin 1–VPS34-dependent PI3P generation → phagophore nucleation → ATG12–ATG5–ATG16L1-dependent LC3/GABARAP lipidation → phagophore expansion and closure → mature autophagosome → RAB7/EPG5/SNARE-dependent lysosomal fusion → lysosomal cargo degradation.
+
+Importantly, none of these events is intrinsically lethal. The same pathway is activated every day in viable cells to preserve homeostasis. The transition from protective autophagy to autophagy-dependent cell death therefore occurs only when the magnitude, selectivity, duration or downstream consequences of autophagic activity create a lethal biochemical lesion.
+
+Several checkpoints normally prevent this transition. One important checkpoint acts at Beclin 1. Anti-apoptotic BCL-2-family proteins, particularly BCL-2 and BCL-xL, can bind the BH3 domain of Beclin 1 and inhibit Beclin 1-dependent autophagy initiation [25,40]. Stress-induced modifications or changes in Beclin 1-containing complexes can weaken this inhibitory interaction and permit activation of VPS34-dependent autophagy.
+
+The PI3K–AKT–mTORC1 pathway provides another major protective regulatory axis. Growth-factor-dependent activation of AKT supports mTORC1 signaling and thereby suppresses excessive autophagy. Changes in AKT, TSC1/TSC2, RHEB and mTORC1 therefore determine whether cells maintain nutrient-supported growth or enter a high-autophagy state.
+
+Autophagy is also regulated transcriptionally. TFEB is a master regulator of lysosomal and autophagic gene expression. When nutrients are abundant, lysosomal mTORC1 phosphorylates TFEB, favoring association with cytoplasmic retention proteins and limiting its nuclear activity. When mTORC1 activity falls or lysosomes experience stress, TFEB can translocate to the nucleus and induce a broad transcriptional program that increases autophagosome and lysosome biogenesis [26-27].
+
+TFEB therefore provides an amplification mechanism by which sustained stress can increase the cellular capacity for autophagic degradation. In ordinary circumstances, this promotes survival. Under selected pathological conditions, however, prolonged amplification of the autophagy–lysosome system may contribute to lethal cellular remodeling.
+
+Late-stage regulation is equally important. Productive autophagy requires a balance between formation and clearance of autophagosomes. Excessive initiation without adequate lysosomal degradation can produce pathological accumulation of autophagic structures rather than effective recycling.
+
+Rubicon is an important endogenous negative regulator of late autophagy. It can suppress autophagosome maturation and autophagosome–lysosome fusion through Beclin 1/UVRAG-containing complexes. This becomes particularly relevant in autosis because Rubicon upregulation during myocardial ischemia/reperfusion promotes accumulation of autophagic structures and enhances autotic cell death [10].
+
+Thus, lethal autophagy cannot be understood simply as “more degradation.” Depending on context, death can arise from excessive autophagic throughput, excessive selective degradation, or a combination of strong upstream autophagy induction with insufficient late-stage clearance.
+
+There is no universal point of no return for autophagy-dependent cell death. Early ULK activation, PI3P production, LC3 lipidation and extensive vacuolization can all remain compatible with survival. Indeed, experimental systems have demonstrated that massive autophagic vacuolization can precede conventional apoptosis or occur as part of an attempted cytoprotective response [28-29].
+
+Therefore, commitment must be defined according to the actual lethal mechanism occurring downstream of autophagy. In autosis, commitment is associated with coupling of autophagic machinery to Na+, K+-ATPase-dependent membrane and ionic remodeling. In excessive mitophagic death, commitment is associated with loss of sufficient mitochondrial mass and respiratory capacity. In autophagy-associated lysosomal membrane permeabilization, commitment occurs when lysosomal destabilization produces uncontrolled release of cathepsins and other lysosomal components.
+
+Autosis provides the clearest example of a dedicated autophagy-dependent lethal mechanism in mammalian cells. It was identified as a form of cell death triggered by strong autophagy-inducing stimuli, including starvation, Tat-Beclin 1-derived peptides and cerebral hypoxia–ischemia [6-7].
+
+Autosis is mechanistically distinct from apoptosis and classical necroptosis. In experimental systems it persists despite inhibition of canonical apoptotic or necroptotic signaling but is strongly suppressed by inhibition of the autophagy machinery [6-7].
+
+A defining feature of autosis is dependence on Na+, K+-ATPase. This plasma-membrane pump hydrolyzes ATP to maintain transmembrane Na+ and K+ gradients and is consequently central to membrane potential, cell volume and ionic homeostasis. Pharmacological inhibition of Na+, K+-ATPase with cardiac glycosides strongly suppresses autotic death, while genetic manipulation of Na+, K+-ATPase subunits can produce similar protection [6-9].
+
+The relationship between autophagy and the ion pump is not merely indirect. Beclin 1 physically interacts with Na+, K+-ATPase under autophagy-inducing conditions. Increased Beclin 1–Na+, K+-ATPase interaction has been detected during starvation, exercise, ischemic stress and human pathological conditions associated with excessive autophagy [8].
+
+This interaction provides a direct molecular connection between the canonical autophagy machinery and a protein responsible for ionic and membrane homeostasis. However, the exact biochemical mechanism by which Beclin 1–Na+, K+-ATPase coupling is converted into irreversible autotic death remains incompletely defined.
+
+The relevant Na+, K+-ATPase isoform can also depend on cell type. In neurons, recent work demonstrates that autosis after hypoxic–ischemic injury depends particularly on the ATP1A3 α3 isoform rather than exclusively on the more widely expressed ATP1A1 isoform [9].
+
+Morphologically, autosis has a distinctive progression. Cells demonstrate extensive autophagosome and autolysosome accumulation, early nuclear convolution and, during later stages, characteristic focal swelling of the perinuclear space [6-7]. These changes differ from the chromatin condensation and apoptotic-body formation typical of apoptosis.
+
+The most conservative mechanistic model for autosis is therefore severe autophagy induction → dependence on core ATG machinery → increased or abnormal coupling between Beclin 1 and Na+, K+-ATPase → progressive disruption of ionic, membrane and organellar homeostasis → nuclear and perinuclear structural remodeling → irreversible autotic cell death.
+
+Rubicon-dependent suppression of late autophagic maturation can further promote autosis during ischemia/reperfusion injury [10]. This observation suggests that autosis may emerge not simply from increased degradation but from a mismatch between strong autophagy initiation and insufficient completion of the autophagic pathway, resulting in pathological accumulation of autophagic structures together with Na+, K+-ATPase-dependent remodeling.
+
+Nevertheless, Na+, K+-ATPase should not automatically be considered the universal executioner of all autophagy-dependent cell death. Its defining role is strongest for autosis. Other ACD contexts appear to kill by different downstream lesions.
+
+One proposed alternative mechanism involves excessive selective mitophagy. Mitophagy normally protects cells by eliminating dysfunctional mitochondria before they generate excessive ROS or release damaging molecules. When mitochondrial removal becomes excessive, however, the same machinery can theoretically reduce mitochondrial mass below the level required to sustain oxidative phosphorylation and ATP production.
+
+The PINK1–Parkin pathway provides a well-characterized mechanism for identifying and removing depolarized mitochondria. In healthy mitochondria, PINK1 is efficiently imported and degraded. Loss of mitochondrial membrane potential prevents this normal processing and causes PINK1 to accumulate on the outer mitochondrial membrane [30].
+
+Accumulated PINK1 recruits and activates the E3 ubiquitin ligase Parkin. PINK1-mediated phosphorylation events involving ubiquitin and Parkin promote amplification of ubiquitin chains on outer-mitochondrial-membrane proteins, creating signals that recruit selective autophagy receptors [30-31].
+
+Receptors including NDP52 and OPTN then connect ubiquitinated mitochondria with the autophagic machinery and recruit upstream autophagy factors, including components of the ULK and WIPI pathways, around the damaged organelle [31]. A mitophagosome subsequently encloses the mitochondrion and delivers it to lysosomes.
+
+Under normal conditions this pathway preserves viability. However, selected anticancer models provide evidence that sustained ATG-dependent mitochondrial removal can contribute directly to death. In these systems, excessive mitophagy is associated with progressive mitochondrial depletion, mitochondrial depolarization, reduced respiration and ATP deficiency, while inhibition of ATG proteins reduces the lethal phenotype [32].
+
+The proposed sequence in mitophagy-dependent ACD is therefore mitochondrial injury → mitochondrial depolarization → PINK1 stabilization → Parkin/ubiquitin signaling → recruitment of mitophagy receptors → ATG-dependent mitochondrial sequestration and degradation → progressive reduction of functional mitochondrial mass → respiratory insufficiency → ATP failure and metabolic collapse → cell death.
+
+This route should nevertheless be interpreted cautiously. PINK1/Parkin-dependent mitophagy itself is normally cytoprotective and its presence does not establish ACD. Only when excessive mitochondrial removal is causally necessary for death should the phenotype be classified as mitophagy-dependent autophagic cell death.
+
+A third proposed route involves cooperation between excessive autophagy and lysosomal membrane permeabilization. Lysosomes are essential for autophagic flux because they degrade the material delivered by autophagosomes. Consequently, sustained autophagic activity can dramatically increase the amount and composition of material entering the lysosomal compartment.
+
+Under particular toxic or lipotoxic conditions, this burden can destabilize lysosomal membranes. Lysosomal lipid accumulation, ceramide accumulation, oxidative stress and other physicochemical disturbances can promote lysosomal membrane permeabilization.
+
+Once lysosomal membrane integrity is lost, cathepsins and other lysosomal hydrolases escape into the cytoplasm [33-34]. Cytosolic cathepsins can cleave numerous cellular proteins and can also engage mitochondrial death pathways, including BID processing and secondary mitochondrial injury.
+
+The resulting sequence can therefore be represented as strong autophagy induction → increased delivery of damaged or lipid-rich material to lysosomes → lysosomal metabolic overload and membrane destabilization → lysosomal membrane permeabilization → cytosolic release of cathepsins → proteolytic damage and mitochondrial amplification → loss of viability.
+
+Mechanistically, this creates an important classification challenge. If autophagy is genetically required to generate the lysosomal injury, the process can reasonably be described as autophagy-dependent. However, once lysosomal membrane permeabilization becomes the immediate execution mechanism, the terminal biochemistry overlaps substantially with lysosome-dependent cell death. Therefore, autophagic dependence and terminal execution mechanism should both be reported rather than assuming that lysosomal rupture represents a universal ACD executor.
+
+Developmental autophagy-dependent death provides another distinct context. In several developmental systems, very high autophagic activity accompanies elimination of entire tissues. Sustained autophagic degradation can remove large quantities of cytoplasm and organelles and thereby contribute directly to tissue destruction [3,35].
+
+However, even developmental examples require careful re-evaluation using modern genetic criteria. Inhibiting autophagy by genetically removing Atg1 or silencing Atg3, Atg5, Atg6, Atg7, or Atg12 does not prevent vesiculation and subsequent SG-cell death [36]. Thus, morphology-based historical classification should not automatically be interpreted as mechanistically demonstrated ACD.
+
+An additional conceptual complication arises because autophagy can promote other established regulated cell-death pathways. Ferritinophagy, for example, can increase the labile iron pool and promote ferroptosis [43]. In such a situation autophagy may be mechanistically required upstream, but the terminal lethal chemistry remains iron-dependent phospholipid peroxidation. The same principle applies whenever autophagy facilitates another identifiable death mechanism. Autophagy may degrade an anti-apoptotic protein, remove mitochondria, alter cellular iron availability, modify immune signaling or destabilize lysosomes, but classification should follow the biochemical process that actually causes irreversible death whenever that process is known.
+
+Autophagy and apoptosis also share several direct regulatory nodes. Beclin 1 interacts with BCL-2 and BCL-xL, allowing anti-apoptotic BCL-2-family proteins to regulate autophagy as well as mitochondrial apoptosis [25,41]. Changes in these complexes can therefore determine whether a stressed cell maintains adaptive autophagy, activates apoptosis or enters a more unusual autophagy-dependent death state.
+
+This crosstalk is one reason why increased autophagy in dying cells cannot be interpreted independently of other death pathways. Autophagy may initially protect a cell by maintaining ATP and removing damaged components and subsequently fail, after which apoptosis or another RCD pathway becomes dominant.
+
+Morphologically, cells undergoing high autophagic activity develop increased numbers of phagophores, autophagosomes, autolysosomes and cytoplasmic vacuoles. Cytoplasmic components including ER, Golgi membranes, ribosomes and damaged organelles may progressively disappear as lysosomal degradation proceeds [28].
+
+These features are not specific for death. Cells undergoing successful adaptive autophagy can display extensive LC3-positive structures and remain viable, whereas defective lysosomal degradation can produce even greater autophagosome accumulation despite reduced flux.
+
+For this reason, LC3-II abundance must always be interpreted in relation to flux. Increased LC3-II can mean either increased autophagosome production or decreased autophagosome degradation. Similarly, an increased number of LC3 puncta cannot independently distinguish productive autophagy from impaired maturation.
+
+Tandem fluorescent LC3 reporters provide a more informative measure by exploiting the differential stability of fluorescent proteins within acidic lysosomes. Combined with lysosomal inhibitors, these approaches can determine whether autophagosomes are actively progressing toward lysosomal degradation.
+
+Genetic experiments provide stronger mechanistic evidence. Knockout or knockdown of ATG5, ATG7, FIP200, ULK-family components, Beclin 1/VPS34-associated machinery or other indispensable autophagy components can determine whether autophagy is actually required for the lethal process.
+
+However, interpretation requires care because individual ATG proteins can possess functions outside canonical autophagy. Ideally, several independent components of the pathway should be perturbed and rescue should correlate with suppression of measured autophagic flux rather than with an unrelated effect of a single gene.
+
+Pharmacological experiments should similarly interfere with different stages of autophagy. Early-stage inhibition can target ULK or VPS34-dependent autophagosome initiation, while late-stage agents alter lysosomal acidification or autophagosome clearance. Concordant protection using mechanistically distinct interventions provides stronger evidence than any single compound.
+
+The strongest experimental definition of ACD therefore combines increased productive autophagic pathway activity, dependence on multiple core autophagy genes, rescue after inhibition of autophagic machinery and exclusion of alternative dominant death mechanisms.
+
+For autosis, additional evidence includes protection by cardiac glycosides or genetic suppression of the relevant Na+, K+-ATPase isoform together with the characteristic morphological phenotype [6-10]. In neuronal autosis, ATP1A3 dependence provides particularly strong mechanistic support [9].
+
+For proposed mitophagy-dependent ACD, evidence should include direct measurement of mitochondrial delivery to lysosomes using approaches such as mito-Keima, demonstration of progressive loss of mitochondrial mass and respiration, and rescue of viability by interruption of the required mitophagy machinery.
+
+For autophagy–lysosomal membrane permeabilization-associated death, evidence should include demonstration of autophagy dependence together with lysosomal membrane destabilization, cytosolic cathepsin release and rescue by interventions directed against the lysosomal execution mechanism.
+
+The molecular hierarchy of ACD therefore differs fundamentally from that of apoptosis or necroptosis. Stress sensors and upstream regulators include mTORC1, AMPK, growth-factor-dependent PI3K–AKT signaling and organelle-specific damage sensors. These regulate the ULK complex, which activates the Beclin 1–VPS34 nucleation machinery. PI3P then recruits WIPI proteins, followed by the ATG12–ATG5–ATG16L1 and ATG7/ATG3 LC3-conjugation systems. Autophagosomes mature through RAB7-, EPG5- and SNARE-dependent fusion with lysosomes.
+
+These molecules constitute the autophagic machinery, but they should not automatically be labeled death executioners. Their function is to generate and complete autophagy. The actual lethal components depend on the downstream ACD subtype.
+
+In autosis, Na+, K+-ATPase isoforms and their interaction with Beclin 1 form the best-defined death-associated machinery. In excessive mitophagy, progressive elimination of functional mitochondria and subsequent energetic collapse constitute the proposed terminal lesion. In autophagy-linked lysosomal membrane permeabilization, escaped cathepsins and secondary organellar damage become the immediate lethal effectors.
+
+The integrated sequence of autophagy-dependent cell death can therefore be represented in two mechanistic layers. The common upstream autophagic layer is cellular stress → nutrient/energy/organellar stress sensing → reduced mTORC1 restraint with context-dependent AMPK regulation → activation of ULK1–ATG13–FIP200–ATG101 → activation of ATG14–Beclin 1–VPS34 complex I → PI3P production → WIPI recruitment → ATG12–ATG5–ATG16L1 and ATG7/ATG3-dependent LC3/GABARAP lipidation → phagophore expansion and closure → mature autophagosome → RAB7/EPG5/SNARE-mediated lysosomal fusion → autophagic degradation.
+
+The second layer is the context-specific lethal conversion. In autosis, excessive or dysregulated autophagic activity → Beclin 1–Na+, K+-ATPase coupling → Na+, K+-ATPase-dependent ionic and membrane remodeling → nuclear convolution and perinuclear swelling → irreversible homeostatic failure → autotic death. In excessive mitophagy, persistent selective mitochondrial removal → progressive depletion of functional mitochondria → respiratory insufficiency → ATP collapse → death. In autophagy-associated lysosomal injury, sustained autophagic delivery → lysosomal overload or lipotoxic destabilization → lysosomal membrane permeabilization → cathepsin release → proteolytic and mitochondrial damage → death.
+
+Thus, the defining feature of autophagy-dependent cell death is not vacuolization, LC3 accumulation or autophagosome formation. It is the causal requirement for the autophagic machinery in generating the lethal lesion. Unlike apoptosis, ferroptosis, pyroptosis or necroptosis, ACD currently has no single universal terminal executor. Autosis is the most mechanistically resolved mammalian example and links the autophagic machinery to Na+, K+-ATPase-dependent cellular collapse. Other ACD phenotypes appear to terminate through excessive organelle degradation, metabolic failure, lysosomal injury or other context-specific mechanisms.
+
+The major conceptual advance in the field has therefore been the transition from a morphology-based idea of “death by self-digestion” to a causal definition based on genetic dependence and autophagic flux. The principal unresolved question is no longer whether autophagy can contribute to cell death, but how excessive or dysregulated autophagic activity is converted into an irreversible biochemical lesion in the many ACD contexts that do not correspond to autosis.
+

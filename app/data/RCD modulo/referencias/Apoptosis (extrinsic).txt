@@ -1,0 +1,101 @@
+1. Tummers B, Green DR. **Caspase-8: regulating life and death.** *Immunological Reviews*. 2017;277:76–89. **DOI: 10.1111/imr.12541**
+
+2. Fritsch M, Günther SD, Schwarzer R, et al. **Caspase-8 is the molecular switch for apoptosis, necroptosis and pyroptosis.** *Nature*. 2019;575:683–687. **DOI: 10.1038/s41586-019-1770-6**
+
+3. Ai Y, Meng Y, Yan B, Zhou Q, Wang X. **The biochemical pathways of apoptotic, necroptotic, pyroptotic, and ferroptotic cell death.** *Molecular Cell*. 2024;84:170–179. **DOI: 10.1016/j.molcel.2023.11.040**
+
+4. Chuntharapai A, Schow P, Kim K, Ashkenazi A. **Apo2L/TRAIL-dependent recruitment of endogenous FADD and caspase-8 to death receptors 4 and 5.** *Immunity*. 2000;12:611–620. **DOI: 10.1016/S1074-7613(00)80212-5**
+
+5. Micheau O, Tschopp J. **Induction of TNF receptor I-mediated apoptosis via two sequential signaling complexes.** *Cell*. 2003;114:181–190. **DOI: 10.1016/S0092-8674(03)00521-X**
+
+6. Fosuah E, Shen Z, Xie J, Wang C, Lin Q, Fu TM. **Assembly and activation of the death-inducing signaling complex.** *Proceedings of the National Academy of Sciences USA*. 2025;122. **DOI: 10.1073/pnas.2504819122**
+
+7. Hillert-Richter LK, Lavrik I. **Measuring Composition of CD95 Death-Inducing Signaling Complex and Processing of Procaspase-8 in this Complex.** *Journal of Visualized Experiments*. 2021;174. **DOI: 10.3791/62842**
+
+8. Dickens LS, Boyd RS, Jukes-Jones R, et al. **A Death Effector Domain Chain DISC Model Reveals a Crucial Role for Caspase-8 Chain Assembly in Mediating Apoptotic Cell Death.** *Molecular Cell*. 2012;47:291–305. **DOI: 10.1016/j.molcel.2012.05.004**
+
+9. Singh N, Hassan A, Bose K. **Molecular basis of death effector domain chain assembly and its role in caspase-8 activation.** *FASEB Journal*. 2016;30:186–200. **DOI: 10.1096/fj.15-272997**
+
+10. Tsuchiya Y, Nakabayashi O, Nakano H. **FLIP the Switch: Regulation of Apoptosis and Necroptosis by cFLIP.** *International Journal of Molecular Sciences*. 2015;16:30321–30341. **DOI: 10.3390/ijms161226232**
+
+11. Pop C, Oberst A, Drăg M, Riedl SJ, Green DR, Salvesen GS. **FLIPL induces caspase-8 activity in the absence of interdomain caspase-8 cleavage and alters substrate specificity.** *Biochemical Journal*. 2011;433:447–457. **DOI: 10.1042/BJ20101738**
+
+12. Suliman A, Lam A, Datta R, Srivastava RK. **Intracellular mechanisms of TRAIL: apoptosis through mitochondrial-dependent and -independent pathways.** *Oncogene*. 2001;20:2122–2133. **DOI: 10.1038/sj.onc.1204282**
+
+13. Ivanisenko NV, Seyrek K, Hillert-Richter LK, et al. **Regulation of extrinsic apoptotic signaling by c-FLIP: towards targeting cancer networks.** *Trends in Cancer*. 2022. **DOI: 10.1016/j.trecan.2021.12.002**
+
+14. Borghi A, Verstrepen L, Beyaert R. **TRAF2 multitasking in TNF receptor-induced signaling to NF-κB, MAP kinases and cell death.** *Biochemical Pharmacology*. 2016;116:1–10. **DOI: 10.1016/j.bcp.2016.03.009**
+
+15. Jaco I, Annibaldi A, Lalaoui N, et al. **MK2 Phosphorylates RIPK1 to Prevent TNF-Induced Cell Death.** *Molecular Cell*. 2017;66:698–710.e5. **DOI: 10.1016/j.molcel.2017.05.003**
+
+16. Chen Y, Huynh V, Lai L, et al. **FADDDED filaments coordinate complex IIa assembly during TNF-induced apoptosis.** *Proceedings of the National Academy of Sciences USA*. 2025;122. **DOI: 10.1073/pnas.2425802122**
+
+17. Newton K, Wickliffe KE, Dugger DL, et al. **Cleavage of RIPK1 by caspase-8 is crucial for limiting apoptosis and necroptosis.** *Nature*. 2019;574:428–431. **DOI: 10.1038/s41586-019-1548-x**
+
+18. Rodriguez DA, Quarato G, Liedmann S, et al. **Caspase-8 and FADD prevent spontaneous ZBP1 expression and necroptosis.** *Proceedings of the National Academy of Sciences USA*. 2022;119. **DOI: 10.1073/pnas.2207240119**
+
+19. Kalkavan H, Green DR. **MOMP, cell suicide as a BCL-2 family business.** *Cell Death & Differentiation*. 2018;25:46–55. **DOI: 10.1038/cdd.2017.179**
+
+20. Kantari C, Walczak H. **Caspase-8 and BID: caught in the act between death receptors and mitochondria.** *Biochimica et Biophysica Acta*. 2011;1813:558–563. **DOI: 10.1016/j.bbamcr.2011.01.026**
+
+21. Shamas-Din A, Bindner S, Zhu W, et al. **tBid Undergoes Multiple Conformational Changes at the Membrane Required for Bax Activation.** *Journal of Biological Chemistry*. 2013;288:22111–22127. **DOI: 10.1074/jbc.M113.482109**
+
+22. Li P, Nijhawan D, Budihardjo I, et al. **Cytochrome c and dATP-dependent formation of Apaf-1/caspase-9 complex initiates an apoptotic protease cascade.** *Cell*. 1997;91:479–489. **DOI: 10.1016/S0092-8674(00)80434-1**
+
+23. Zou H, Li Y, Liu X, Wang X. **An APAF-1·Cytochrome c Multimeric Complex Is a Functional Apoptosome That Activates Procaspase-9.** *Journal of Biological Chemistry*. 1999;274:11549–11556. **DOI: 10.1074/jbc.274.17.11549**
+
+24. Huang Y, Rich RL, Myszka DG, Wu H. **Requirement of Both the Second and Third BIR Domains for the Relief of XIAP-mediated Caspase Inhibition by Smac.** *Journal of Biological Chemistry*. 2003;278:49517–49522. **DOI: 10.1074/jbc.M310061200**
+
+25. Wu G, Chai J, Suber TL, et al. **Structural basis of IAP recognition by Smac/DIABLO.** *Nature*. 2000;408:1008–1012. **DOI: 10.1038/35050012**
+
+26. Abbas R, Larisch S. **Targeting XIAP for Promoting Cancer Cell Death—The Story of ARTS and SMAC.** *Cells*. 2020;9. **DOI: 10.3390/cells9030663**
+
+27. Bock FJ, Tait SWG. **Mitochondria as multifaceted regulators of cell death.** *Nature Reviews Molecular Cell Biology*. 2020;21:85–100. **DOI: 10.1038/s41580-019-0173-8**
+
+28. Flores-Romero H, Hohorst L, John M, et al. **BCL-2-family protein tBID can act as a BAX-like effector of apoptosis.** *EMBO Journal*. 2022;41. **DOI: 10.15252/embj.2021108690**
+
+29. McComb S, Chan PK, Guinot A, et al. **Efficient apoptosis requires feedback amplification of upstream apoptotic signals by effector caspase-3 or -7.** *Science Advances*. 2019;5. **DOI: 10.1126/sciadv.aau9433**
+
+30. Sakahira H, Enari M, Nagata S. **Cleavage of CAD inhibitor in CAD activation and DNA degradation during apoptosis.** *Nature*. 1998;391:96–99. **DOI: 10.1038/34214**
+
+31. Enari M, Sakahira H, Yokoyama H, Okawa K, Iwamatsu A, Nagata S. **A caspase-activated DNase that degrades DNA during apoptosis, and its inhibitor ICAD.** *Nature*. 1998;391:43–50. **DOI: 10.1038/34112**
+
+32. Slee EA, Adrain C, Martin SJ. **Executioner Caspase-3, -6, and -7 Perform Distinct, Non-redundant Roles during the Demolition Phase of Apoptosis.** *Journal of Biological Chemistry*. 2001;276:7320–7326. **DOI: 10.1074/jbc.M008363200**
+
+33. Gadiyar V, Pulica R, Aquib A, et al. **Phospholipid scramblases TMEM16F and Xkr8 mediate distinct features of phosphatidylserine externalization and immune suppression to promote tumor growth.** *Cell Death Discovery*. 2025;11. **DOI: 10.1038/s41420-025-02789-y**
+
+34. Nano M, Mondo JA, Harwood J, Balasanyan V, Montell DJ. **Cell survival following direct executioner-caspase activation.** *Proceedings of the National Academy of Sciences USA*. 2023;120. **DOI: 10.1073/pnas.2216531120**
+
+35. Tait SWG, Parsons MJ, Llambi F, et al. **Resistance to caspase-independent cell death requires persistence of intact mitochondria.** *Developmental Cell*. 2010;18:802–813. **DOI: 10.1016/j.devcel.2010.03.014**
+
+36. Seervi M, Sumi S, Chandrasekharan A, Sharma A, Santhoshkumar TR. **Molecular profiling of anastatic cancer cells: potential role of the nuclear export pathway.** *Cellular Oncology*. 2019;42:645–661. **DOI: 10.1007/s13402-019-00451-1**
+
+37. Hughes SA, Lin M, Weir A, et al. **Caspase-8-driven apoptotic and pyroptotic crosstalk causes cell death and IL-1β release in X-linked inhibitor of apoptosis (XIAP) deficiency.** *EMBO Journal*. 2023;42. **DOI: 10.15252/embj.2021110468**
+
+38. Urbini E, Adamo A, Hu Y, et al. **c-FLIP as a master regulator of immune homeostasis and disease mechanisms.** *Cell Death & Disease*. 2026;17. **DOI: 10.1038/s41419-026-08771-5**
+
+39. Yang W, Wen J, Tang L, et al. **Unraveling the complexity of pyroptosis in esophageal cancer: from underlying mechanisms to targeted therapies.** *Cancer Cell International*. 2026;26. **DOI: 10.1186/s12935-026-04310-6**
+
+40. Liu W, Ping J, Deng L, et al. **Lipid asymmetry disruption by XKR8 orchestrates neutrophil extracellular trap formation and inhibits fungal infection.** *Nature Immunology*. 2026;27:949-960. **DOI: 10.1038/s41590-026-02456-z**
+
+41. Zhou Z, Wen T, Cao C, et al. **Regulated Cell Death Pathways in Chondrocytes During Septic Arthritis: Current Evidence and Future Perspectives.** *Journal of Inflammation Research*. 2026;Volume 19:1-22. **DOI: 10.2147/jir.s623072**
+
+42. Li C, Liu X, Zhu L, et al. **Carbon ion irradiation at a clinically used dose rewires super-enhancers to drive necroptosis and systemic immunity.** *Science Advances*. 2026;12. **DOI: 10.1126/sciadv.aec7590**
+
+43. Siegmund D, Zaitseva O, Wajant H. **Fn14 and TNFR2 as regulators of cytotoxic TNFR1 signaling.** *Frontiers in Cell and Developmental Biology*. 2023;11. **DOI: 10.3389/fcell.2023.1267837**
+
+44. Obexer P, Ausserlechner M. **X-Linked Inhibitor of Apoptosis Protein â€“ A Critical Death Resistance Regulator and Therapeutic Target for Personalized Cancer Therapy.** *Frontiers in Oncology*. 2014;4. **DOI: 10.3389/fonc.2014.00197**
+
+45. Cossu F, Milani M, Mastrangelo E, et al. **Targeting the BIR Domains of Inhibitor of Apoptosis (IAP) Proteins in Cancer Treatment.** *Computational and Structural Biotechnology Journal*. 2019;17:142-150. **DOI: 10.1016/j.csbj.2019.01.009**
+
+46. Galluzzi L, Vitale I, Aaronson S, et al. **Molecular mechanisms of cell death: recommendations of the Nomenclature Committee on Cell Death 2018.** *Cell Death &amp; Differentiation*. 2018;25:486-541. **DOI: 10.1038/s41418-017-0012-4**
+
+47. Scaffidi C, Fulda S, Srinivasan A, et al. **Two CD95 (APO‐1/Fas) signaling pathways.** *The EMBO Journal*. 1998;17:1675-1687. **DOI: 10.1093/emboj/17.6.1675**
+
+48. Kim HE, Du F, Fang M, et al. **Formation of apoptosome is initiated by cytochrome c-induced dATP hydrolysis and subsequent nucleotide exchange on Apaf-1..** **. 2005. **DOI: 10.1073/pnas.0507900102**
+
+49. Stel AJ, ten Cate B, Jacobs S, et al. **Fas Receptor Clustering and Involvement of the Death Receptor Pathway in Rituximab-Mediated Apoptosis with Concomitant Sensitization of Lymphoma B Cells to Fas-Induced Apoptosis.** *Journal of Immunology*. 2007;178:2287–2295. **DOI: 10.4049/jimmunol.178.4.2287**
+
+50. Suzuki J, Denning DP, Imanishi E, Horvitz HR, Nagata S. **Xk-Related Protein 8 and CED-8 Promote Phosphatidylserine Exposure in Apoptotic Cells.** *Science*. 2013;341:403–406. **DOI: 10.1126/science.1236758**
+
+51. Bevers EM, Williamson PL. **Getting to the Outer Leaflet: Physiology of Phosphatidylserine Exposure at the Plasma Membrane.** *Physiological Reviews*. 2016;96:605–645. **DOI: 10.1152/physrev.00020.2015**

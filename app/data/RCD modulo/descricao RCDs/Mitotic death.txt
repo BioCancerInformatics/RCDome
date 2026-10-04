@@ -1,0 +1,766 @@
+Mitotic Death
+
+1. Definition and Classification
+
+Mitotic death is best defined as cell death initiated by aberrant or excessively prolonged mitosis. It most commonly develops after persistent spindle assembly checkpoint activation, premature entry into mitosis with incompletely replicated or damaged DNA, centrosome abnormalities, or cytokinesis failure. However, mitotic death is not supported as a wholly independent terminal regulated cell-death modality with a unique execution apparatus. This distinction separates mitotic death from the broader concept of mitotic catastrophe.
+
+Mitotic catastrophe is an oncosuppressive process arising from defective mitosis that may produce several outcomes:
+
+death during mitosis;
+
+mitotic slippage followed by delayed death;
+
+permanent cell-cycle arrest;
+
+senescence;
+
+or abnormal polyploid/micronucleated survival.
+
+Therefore:
+
+mitotic catastrophe = broader mitosis-linked cell-fate process;
+
+mitotic death/death in mitosis = lethal outcome temporally associated with aberrant or prolonged mitosis.
+
+The dominant mechanistic form is mitochondrial apoptotic mitotic death:
+
+mitotic arrest → sustained cyclin B1–CDK1 signaling → progressive loss of BCL-2-family anti-apoptotic protection → BAX/BAK activation → mitochondrial outer-membrane permeabilization → apoptosome/caspase activation → cellular dismantling [4,7-11].
+
+Alternative necrosis-like and necroptotic outcomes have been described, particularly when apoptotic execution is unavailable [12-13].
+
+For RCDome, Mitotic Death is therefore best classified as a mitosis-associated lethal process whose terminal execution is usually delegated to established RCD machinery, especially intrinsic apoptosis.
+
+2. Initiation and Triggers
+
+Two major initiating routes are strongly supported.
+
+The first begins with persistent spindle dysfunction.
+
+Microtubule poisons such as paclitaxel, nocodazole, vinblastine, epothilones, or other antimitotic agents create unattached or improperly attached kinetochores [6,14-17,53].
+
+These kinetochores activate the spindle assembly checkpoint.
+
+Checkpoint proteins including MAD2, BUBR1, BUB3, and CDC20 assemble into the mitotic checkpoint complex.
+
+The MCC inhibits APC/C–CDC20, preventing normal cyclin B1 destruction and maintaining the mitotic state [14,18-20].
+
+Thus:
+
+spindle defect → unattached kinetochore sensing → SAC/MCC activation → APC/C inhibition → persistent cyclin B1–CDK1 activity → prolonged mitotic arrest.
+
+The second major route originates before mitosis.
+
+Replication stress produces RPA-coated single-stranded DNA and activates ATR–CHK1 signaling, whereas DNA double-strand breaks engage ATM–CHK2-associated checkpoint responses [21-24].
+
+Normally:
+
+DNA damage/replication stress → ATR/ATM signaling → CHK1/CHK2 → inhibition of inappropriate CDK activity → delayed mitotic entry.
+
+A third route involves centrosome amplification or cytokinesis failure.
+
+Extra mature centrosomes can recruit PIDD1 through ANKRD26-dependent centrosomal signaling [26].
+
+PIDD1 then participates in PIDDosome formation with RAIDD and procaspase-2 [26-29].
+
+Activated caspase-2 can:
+
+cleave BID → tBID → mitochondrial apoptosis;
+
+or cleave MDM2 → p53 stabilization → p21-associated arrest or alternative p53-dependent outcomes [27-30].
+
+Thus, there is no single universal initiating sensor.
+
+The relevant upstream sensor depends on the lesion:
+
+kinetochores/SAC for spindle abnormalities;
+
+ATR/ATM-associated pathways for replication or DNA damage;
+
+ANKRD26–PIDD1/PIDDosome for selected centrosomal abnormalities.
+
+3. Core Mechanistic Machinery
+
+The central mechanistic feature of spindle-driven mitotic death is prolonged maintenance of cyclin B1–CDK1 activity.
+
+Persistent SAC signaling delays APC/C-dependent cyclin B1 destruction, maintaining the cell in mitosis [14,18-20].
+
+However, APC/C suppression is not absolute.
+
+Cyclin B1 can continue to decline slowly during checkpoint arrest, creating competition between two cellular processes:
+
+accumulation of death signaling;
+
+and loss of cyclin B1 sufficient to permit mitotic slippage [14,31-32].
+
+This is often described as a race between death and slippage.
+
+If cyclin B1 falls below the mitotic-maintenance threshold first:
+
+mitotic slippage occurs.
+
+If apoptotic signaling reaches its threshold first:
+
+the cell dies during mitosis.
+
+Cyclin B1–CDK1 is not merely a cell-cycle marker in this process.
+
+Persistent CDK1 activity directly modifies the mitochondrial apoptosis network.
+
+CDK1-dependent phosphorylation of BCL-xL and BCL-2 reduces their anti-apoptotic activity during prolonged mitosis [7,33,51].
+
+CDK1 also promotes phosphorylation and progressive degradation of MCL1 [8,34].
+
+Consequently:
+
+persistent CDK1 → BCL-xL/BCL-2 inhibition + MCL1 loss → declining mitochondrial anti-apoptotic buffering.
+
+MCL1 is particularly important as a mitotic survival timer.
+
+As MCL1 abundance declines, pro-apoptotic BH3-family signaling increasingly overcomes mitochondrial protection [8,34].
+
+An additional model connects mitotic CDK1 directly to BAX and BAK.
+
+CDK1 can form complexes with BAX/BAK and facilitate localized phosphorylation of anti-apoptotic BCL-2-family proteins at mitochondria [35].
+
+The decisive execution apparatus in the dominant branch is therefore not a dedicated “mitotic death complex.”
+
+It is the canonical mitochondrial apoptotic machinery:
+
+BAX/BAK → MOMP → cytochrome c/SMAC release → APAF1 apoptosome → caspase-9 → caspase-3/7 [4,9-11,36].
+
+4. Propagation and Amplification
+
+Prolonged mitosis acts as an amplifier because survival and death proteins continue to change while the cell remains arrested.
+
+A key amplification mechanism is progressive loss of anti-apoptotic buffering.
+
+Sustained CDK1 signaling promotes phosphorylation of BCL-2 and BCL-xL and contributes to MCL1 destabilization [7-8,33-34].
+
+Thus:
+
+mitotic duration increases → anti-apoptotic protection decreases → BAX/BAK activation threshold falls.
+
+This relationship explains why mitotic duration itself can influence fate.
+
+A second amplification mechanism is weakening of the spindle assembly checkpoint.
+
+Although the SAC initially prevents mitotic exit, prolonged arrest can be accompanied by residual APC/C activity, loss of kinetochore MAD2, p31comet-mediated checkpoint silencing, altered WEE1/CDK1 regulation, or CDC20-dependent changes [14,31-32,37].
+
+These processes can promote slippage.
+
+Therefore, death signaling and exit signaling progress simultaneously.
+
+A third amplification route arises from DNA damage.
+
+Premature mitotic entry with incompletely replicated DNA converts an initially repairable S/G2 lesion into chromosome condensation, segregation, and structural problems during mitosis [21-25].
+
+This generates:
+
+lagging chromosomes;
+
+bridges;
+
+micronuclei;
+
+tetraploidy;
+
+and further DNA damage.
+
+A fourth amplification mechanism arises after abnormal mitotic exit.
+
+Tetraploid or micronucleated cells can activate p53-associated surveillance systems including 53BP1–USP28, TTK/MPS1-associated signaling, changes in MDM2 stability, and PIDDosome-dependent pathways [27,30,38-41].
+
+These post-mitotic responses may produce arrest, delayed apoptosis, or senescence.
+
+Thus, mitotic death is not always completed during mitosis even when the lethal signal originates there.
+
+5. Protective / Negative Regulators
+
+Several systems oppose mitotic death.
+
+Before mitosis, the ATR–CHK1–WEE1 axis delays mitotic entry in cells with damaged or incompletely replicated DNA by inhibiting CDK1 activity .
+
+ATR–CHK1 signaling delays mitotic entry during replication stress.
+
+WEE1 restrains CDK1.
+
+These systems therefore prevent inappropriate exposure of damaged chromosomes to mitotic machinery.
+
+Their failure is permissive rather than directly lethal:
+
+checkpoint failure → abnormal mitotic entry → increased susceptibility to mitotic death.
+
+The spindle assembly checkpoint provides a second protective system.
+
+SAC activity delays chromosome segregation and creates an opportunity to correct kinetochore–microtubule attachment [14,18-20].
+
+However, this protection is context-dependent.
+
+A short arrest can facilitate correction and survival.
+
+A prolonged arrest can instead increase apoptotic signaling.
+
+Therefore:
+
+SAC activation can be initially protective but become death-promoting when arrest persists.
+
+The principal direct anti-apoptotic proteins are BCL-2, BCL-xL, and MCL-1 [49].
+
+These proteins suppress activation or oligomerization of BAX and BAK and therefore prevent MOMP.
+
+Preservation of MCL1 or BCL-xL can substantially delay or prevent mitotic apoptosis.
+
+Mitotic slippage constitutes an additional escape mechanism.
+
+Processes promoting cyclin B1 decline below the threshold required to maintain mitosis can allow the cell to exit before apoptotic commitment occurs [14,31-32].
+
+However, slippage is not synonymous with successful survival.
+
+Post-slippage cells may undergo:
+
+delayed apoptosis;
+
+p53/p21-mediated arrest;
+
+senescence;
+
+tetraploid survival;
+
+or subsequent abnormal divisions [3,39,43].
+
+Finally, p53-associated post-mitotic surveillance can prevent propagation of mitotically damaged cells without necessarily killing them immediately.
+
+Thus, “protection from mitotic death” can result either in restoration of normal division or diversion toward non-proliferative arrest.
+
+6. The best-supported point of no return in the dominant apoptotic route is mitochondrial outer-membrane permeabilization rather than SAC activation, prolonged mitosis, micronucleation, or CDK1 activity itself [4,9-11].
+
+Before MOMP, several fate changes remain possible.
+
+The cell can:
+
+correct the spindle defect;
+
+undergo mitotic slippage;
+
+retain sufficient MCL1/BCL-xL protection;
+
+respond to CDK1 inhibition;
+
+or escape caspase-2-dependent signaling in relevant contexts.
+
+Thus:
+
+prolonged mitosis ≠ irreversible death.
+
+Likewise:
+
+micronucleation ≠ irreversible death.
+
+In the major apoptotic route:
+
+BAX/BAK activation → widespread MOMP
+
+represents the most defensible lethal commitment state.
+
+After widespread MOMP:
+
+cytochrome c release → apoptosome formation → caspase amplification → irreversible apoptotic dismantling.
+
+There is evidence that a functional commitment to death can accumulate before visible MOMP.
+
+For example, cells maintained in mitotic arrest for prolonged periods may die rapidly even when experimentally forced to exit mitosis, implying that pro-death signals accumulated during arrest can cross a practical threshold before morphological death becomes evident [44].
+
+However, the reported duration is experimental-model dependent and should not be interpreted as a universal temporal threshold.
+
+Therefore, RCDome should distinguish:
+
+mitotic commitment: persistent abnormal/arrested mitosis;
+
+death priming: progressive loss of BCL-2-family survival buffering;
+
+terminal apoptotic commitment: widespread BAX/BAK-mediated MOMP.
+
+7. Execution and Terminal Cause of Death
+
+What physically kills the cell in Mitotic Death?
+
+In the dominant and best-supported route, the physical execution mechanism is mitochondrial apoptosis.
+
+The sequence is:
+
+prolonged or aberrant mitosis → reduced BCL-xL/BCL-2/MCL1 protection → BAX/BAK activation → BAX/BAK oligomerization in the outer mitochondrial membrane → MOMP [4,9-11].
+
+MOMP releases cytochrome c.
+
+Cytochrome c binds APAF1 and promotes apoptosome formation.
+
+The apoptosome activates caspase-9.
+
+Caspase-9 activates caspase-3 and caspase-7.
+
+SMAC release further facilitates execution by antagonizing XIAP-mediated caspase inhibition [4,9-10].
+
+Effector caspases then cleave a broad substrate network.
+
+Consequences include:
+
+cytoskeletal disassembly;
+
+chromatin condensation;
+
+nuclear fragmentation;
+
+membrane blebbing;
+
+loss of organelle integrity;
+
+and destruction of cellular homeostatic systems.
+
+Therefore, in canonical mitotic death:
+
+the cell is physically killed by BAX/BAK-mediated mitochondrial permeabilization followed by caspase-dependent apoptotic dismantling.
+
+There is no evidence in the supplied corpus for a universal mitotic-death-specific pore, protease, or membrane executor.
+
+Caspase-2 can act upstream of MOMP in selected settings.
+
+PIDDosome-activated caspase-2 can cleave BID, generating tBID and promoting BAX/BAK-dependent mitochondrial apoptosis [27-30].
+
+However:
+
+caspase-2 ≠ universal mitotic-death executor.
+
+PIDDosome dependence is also context-specific.
+
+Alternative terminal mechanisms exist.
+
+When apoptotic pathways are suppressed, mitotic catastrophe-associated cells can engage RIP1/RIP3/MLKL-associated necroptotic signaling [12].
+
+In that setting:
+
+RIP1/RIP3 signaling → MLKL phosphorylation/activation → MLKL membrane translocation → membrane permeabilization and swelling.
+
+Thus, the terminal physical cause of death is route-dependent, but mitochondrial apoptosis is the dominant experimentally supported mechanism.
+
+8. Morphological Sequence
+
+The characteristic morphology depends on whether death occurs before or after mitotic exit.
+
+For classical death in mitosis, the sequence begins with mitotic rounding.
+
+Cells then remain in prolonged prometaphase or metaphase because chromosome attachment or segregation cannot be completed [6,14-17,52].
+
+A representative sequence is:
+
+normal interphase cell → mitotic entry → mitotic rounding → prolonged prometaphase/metaphase arrest → persistent chromosome/spindle abnormalities → mitochondrial apoptotic commitment → cell shrinkage and blebbing while still mitotic → chromatin condensation/fragmentation → apoptotic disassembly.
+
+When abnormal mitotic exit occurs before death, the sequence differs:
+
+mitotic arrest → slippage/failed division → tetraploidy, giant-cell formation, lagging chromosomes, micronucleation or multinucleation → delayed apoptosis or arrest [3,39,43-45].
+
+Micronuclei are particularly important markers of chromosome segregation failure.
+
+However:
+
+micronuclei are not mitotic-death executors.
+
+Micronuclear envelopes can collapse, accumulate DNA damage, and release DNA into the cytosolic environment [46-47,50].
+
+These processes can amplify cellular stress but do not constitute the defining physical mechanism of canonical mitotic death.
+
+Similarly:
+
+multinucleation;
+
+macronucleation;
+
+giant-cell formation;
+
+and chromosome bridges
+
+indicate abnormal mitotic progression but do not establish how the cell eventually dies.
+
+9. Crosstalk and Differential Diagnosis
+
+The most important distinction is between Mitotic Death and Mitotic Catastrophe.
+
+Mitotic catastrophe is broader.
+
+It encompasses mitosis-associated cellular outcomes that can include:
+
+death in mitosis;
+
+death after slippage;
+
+senescence;
+
+permanent post-mitotic arrest;
+
+or abnormal survival [1-3].
+
+Mitotic death is specifically the lethal branch.
+
+A particularly narrow term is “death in mitosis,” which should ideally be reserved for cells that die before completing mitotic exit.
+
+This requires temporal demonstration.
+
+A cell treated with an antimitotic drug that later slips into interphase and dies hours later has undergone mitosis-triggered post-slippage death, not strict death in mitosis.
+
+Intrinsic apoptosis is another key differential.
+
+Mechanistically, most mitotic death is executed by intrinsic apoptosis.
+
+Therefore, mitotic death should not be falsely presented as molecularly independent from apoptosis.
+
+The relationship is better expressed as:
+
+mitotic context → apoptosis execution.
+
+Mitotic slippage is a competing outcome rather than a death mechanism.
+
+Slippage occurs when cyclin B1 falls below the threshold required to sustain mitosis despite persistent or incompletely resolved checkpoint signaling [14,31-32].
+
+Necroptosis is an alternative terminal route in selected settings.
+
+If RIP1/RIP3/MLKL causally execute membrane permeabilization, the terminal death modality should be described as necroptotic even if mitotic failure initiated the process [12].
+
+Senescence and p53/p21-mediated arrest must also be distinguished.
+
+These are nonlethal outcomes that can follow prolonged mitosis or tetraploidy [30,38-41,53].
+
+Mitotic death must therefore be classified from temporal and mechanistic evidence, not simply from the presence of abnormal nuclei or elevated mitotic markers.
+
+10. Experimental Validation
+
+The most important experimental requirement is direct demonstration of timing.
+
+Single-cell time-lapse microscopy is essential for distinguishing:
+
+death in mitosis;
+
+mitotic slippage followed by death;
+
+mitotic slippage followed by survival;
+
+and post-mitotic arrest or senescence [5,48].
+
+The investigator should establish:
+
+mitotic entry → duration of mitotic arrest → timing of MOMP/death → whether mitotic exit occurs before loss of viability.
+
+Chromosome and spindle imaging can determine whether persistent spindle defects, chromosome missegregation, or cytokinesis abnormalities precede death.
+
+Checkpoint engagement should be assessed through SAC-associated components, cyclin B1 dynamics, CDK1 activity, APC/C–CDC20 regulation, or related functional measurements.
+
+Causal perturbation is critical.
+
+Informative interventions include:
+
+CDK1 inhibition;
+
+CDC20 perturbation;
+
+p31comet perturbation;
+
+WEE1 modulation;
+
+SAC manipulation;
+
+BAX/BAK loss;
+
+MCL1 stabilization;
+
+BCL-xL manipulation;
+
+caspase-2 inhibition;
+
+PIDDosome disruption [5,31-32,37,42,48].
+
+The dominant apoptotic route should be validated directly through:
+
+BAX/BAK activation;
+
+MOMP;
+
+cytochrome c release;
+
+caspase-9 activation;
+
+caspase-3/7 activation;
+
+and rescue by appropriate apoptotic-pathway perturbation.
+
+Caspase-2 should only be designated causal when inhibition or genetic disruption alters the death phenotype.
+
+Likewise, PIDDosome involvement should not be inferred merely from centrosome abnormalities.
+
+Alternative necroptotic execution requires demonstration of the appropriate RIP1/RIP3/MLKL signaling and causal rescue.
+
+Morphology alone is insufficient.
+
+Micronuclei, multinucleation, mitotic rounding, giant-cell morphology, or phospho-histone signals do not establish death execution.
+
+Transcriptomics alone is also insufficient.
+
+High expression or scoring of CCNB1, CDK1, BUB1B, MAD2L1, CDC20, BIRC5, MCL1, BCL2L1, BAX, BAK1, CASP2, PIDD1, ATR, CHEK1, WEE1, or related genes can indicate a mitotic-stress, checkpoint, or apoptotic-susceptibility state.
+
+It cannot demonstrate:
+
+persistent mitotic arrest;
+
+death before mitotic exit;
+
+MOMP;
+
+or active execution of mitotic death.
+
+For transcriptomic RCDome analyses, the appropriate language is therefore “mitotic-death-associated transcriptional state” or “mitotic stress/death susceptibility state.”
+
+11. Molecular Hierarchy
+
+Initiating lesions:
+
+spindle disruption;
+
+unattached or weakly attached kinetochores;
+
+microtubule poisoning;
+
+DNA damage;
+
+replication stress;
+
+checkpoint failure;
+
+cytokinesis failure;
+
+centrosome amplification.
+
+Sensors:
+
+kinetochore SAC machinery;
+
+ATR;
+
+ATM;
+
+ANKRD26–PIDD1 centrosomal sensing.
+
+Checkpoint / early transducers:
+
+MAD2;
+
+BUBR1;
+
+BUB3;
+
+CDC20;
+
+MCC;
+
+APC/C;
+
+CHK1;
+
+CHK2;
+
+WEE1;
+
+p38–MK2;
+
+cyclin B1–CDK1.
+
+Mitotic fate regulators:
+
+cyclin B1 degradation;
+
+SAC strength;
+
+p31comet;
+
+CDC20 regulation;
+
+WEE1–CDK1 balance;
+
+mitotic duration.
+
+Anti-death regulators:
+
+MCL1;
+
+BCL-xL;
+
+BCL-2.
+
+Context-dependent pro-death transducers:
+
+caspase-2;
+
+PIDD1;
+
+RAIDD;
+
+BID/tBID;
+
+p53;
+
+53BP1–USP28;
+
+TTK/MPS1-associated post-mitotic signaling.
+
+Dominant terminal machinery:
+
+BAX;
+
+BAK;
+
+MOMP;
+
+cytochrome c;
+
+SMAC;
+
+APAF1;
+
+caspase-9;
+
+caspase-3/7.
+
+Alternative terminal machinery:
+
+RIP1;
+
+RIP3;
+
+MLKL.
+
+Biomarkers / phenotypic indicators:
+
+prolonged mitotic duration;
+
+mitotic rounding;
+
+chromosome missegregation;
+
+lagging chromosomes;
+
+micronucleation;
+
+multinucleation;
+
+tetraploidy;
+
+giant-cell formation.
+
+Universal mitotic-death-specific executor:
+
+none established.
+
+12. Integrated Canonical Sequence
+
+Spindle-driven route:
+
+microtubule/spindle defect → unattached kinetochores → SAC activation → MAD2/BUBR1/BUB3/CDC20-containing MCC → APC/C inhibition → sustained cyclin B1–CDK1 → prolonged mitosis.
+
+During prolonged arrest:
+
+persistent CDK1 → phosphorylation/inhibition of BCL-xL and BCL-2 + phosphorylation/degradation of MCL1 → progressive reduction of mitochondrial apoptotic buffering.
+
+Meanwhile:
+
+residual APC/C activity + SAC weakening → gradual cyclin B1 decline.
+
+The cell therefore enters a competition:
+
+death signaling reaches threshold before cyclin B1 loss → death in mitosis;
+
+or:
+
+cyclin B1 falls first → mitotic slippage → delayed apoptosis, arrest, senescence, or abnormal survival.
+
+In the death branch:
+
+loss of BCL-2-family protection ± BH3/caspase-2 signaling → BAX/BAK activation → MOMP → cytochrome c + SMAC release → APAF1 apoptosome → caspase-9 → caspase-3/7 → proteolytic dismantling → irreversible death.
+
+DNA-damage route:
+
+replication stress/DNA damage → ATR–CHK1 or ATM-associated checkpoint signaling.
+
+If checkpoint protection fails:
+
+premature CDK1 activation → entry into mitosis with unrepaired or incompletely replicated DNA → chromosome segregation failure → prolonged/aberrant mitosis → mitochondrial apoptotic priming → BAX/BAK → MOMP → caspase execution.
+
+Centrosome/PIDDosome route:
+
+cytokinesis failure or supernumerary centrosomes → ANKRD26-dependent PIDD1 recruitment → PIDDosome → caspase-2.
+
+Then either:
+
+caspase-2 → BID cleavage → tBID → BAX/BAK → MOMP → apoptosis;
+
+or:
+
+caspase-2 → MDM2 cleavage → p53 stabilization → p21-associated arrest or delayed death.
+
+Alternative necroptotic route:
+
+mitotic failure + suppression/failure of apoptotic execution → RIP1/RIP3/MLKL activation → MLKL-mediated membrane permeabilization → lytic death.
+
+13. Final Mechanistic Interpretation
+
+For RCDome, Mitotic Death should be distinguished from both Mitotic Catastrophe and canonical Apoptosis.
+
+Mitotic Death describes a lethal cell-fate outcome initiated by aberrant or excessively prolonged mitosis.
+
+Its defining upstream context is mitotic dysfunction.
+
+Its dominant terminal execution mechanism is mitochondrial apoptosis.
+
+Therefore, the most defensible operational definition is:
+
+cell death initiated by prolonged or abnormal mitosis in which mitotic checkpoint signaling, sustained or mistimed cyclin B1–CDK1 activity, and progressive loss of anti-apoptotic buffering ultimately engage an established terminal death machinery, most commonly BAX/BAK-dependent mitochondrial apoptosis.
+
+The dominant mechanistic route is:
+
+spindle defect → SAC/MCC → prolonged cyclin B1–CDK1 → BCL-xL/BCL-2 phosphorylation + MCL1 loss → BAX/BAK → MOMP → cytochrome c/APAF1 → caspase-9 → caspase-3/7 → apoptotic destruction.
+
+The central difference from Mitotic Catastrophe is temporal and ontological.
+
+Mitotic catastrophe can culminate in several fates and need not itself be lethal.
+
+Mitotic death is the lethal outcome.
+
+Strict “death in mitosis” further requires that execution occur before mitotic exit.
+
+Accordingly:
+
+classification: mitosis-associated lethal process;
+
+independent canonical terminal RCD modality: no;
+
+defining context: aberrant or excessively prolonged mitosis;
+
+major upstream machinery: SAC–MCC–APC/C and cyclin B1–CDK1;
+
+major survival timer: MCL1/BCL-xL/BCL-2 balance;
+
+context-dependent transducer: PIDDosome–caspase-2;
+
+dominant commitment event: BAX/BAK-mediated MOMP;
+
+dominant terminal executor: apoptosome–caspase-9–caspase-3/7;
+
+alternative terminal route: RIP1/RIP3/MLKL-associated necroptosis in selected settings;
+
+universal mitotic-death-specific executor: none;
+
+transcriptomic interpretation: mitotic-death-associated or mitotic-stress/death-susceptibility state only.
+
+What physically kills the cell?
+
+In the dominant route, BAX and BAK permeabilize the mitochondrial outer membrane, releasing cytochrome c and other apoptogenic factors. The apoptosome subsequently activates effector caspases that destroy cellular structural and homeostatic systems.
+
+Thus, mitosis creates the lethal signal, but mitochondrial apoptosis usually performs the killing.
+
+The most important unresolved mechanistic question is what determines the earliest decisive switch upstream of MOMP that makes one mitotically arrested cell die during mitosis while another undergoes slippage, delayed apoptosis, senescence, or survival despite experiencing a similar initiating defect.
+

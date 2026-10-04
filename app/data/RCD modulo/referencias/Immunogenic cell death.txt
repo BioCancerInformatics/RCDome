@@ -1,0 +1,93 @@
+[1] Fucikova J, Kepp O, Kasikova L, et al. Detection of immunogenic cell death and its relevance for cancer therapy. *Cell Death & Disease*. 2020;11. doi: **10.1038/s41419-020-03221-2**.
+
+[2] Galluzzi L, Guilbaud E, Schmidt D, Kroemer G, Marincola FM. Targeting immunogenic cell stress and death for cancer therapy. *Nature Reviews Drug Discovery*. 2024;23:445–460. doi: **10.1038/s41573-024-00920-9**.
+
+[3] Vanmeerbeek I, Sprooten J, De Ruysscher D, et al. Trial watch: chemotherapy-induced immunogenic cell death in immuno-oncology. *OncoImmunology*. 2020;9. doi: **10.1080/2162402X.2019.1703449**.
+
+[4] Zitvogel L, Kepp O, Senovilla L, Menger L, Chaput N, Kroemer G. Immunogenic tumor cell death for optimal anticancer therapy: the calreticulin exposure pathway. *Clinical Cancer Research*. 2010;16:3100–3104. doi: **10.1158/1078-0432.CCR-09-2891**.
+
+[5] Ahmed A, Tait S. Targeting immunogenic cell death in cancer. *Molecular Oncology*. 2020;14:2994–3006. doi: **10.1002/1878-0261.12851**.
+
+[6] Troitskaya O, Novak D, Richter V, Koval O. Immunogenic cell death in cancer therapy. *Acta Naturae*. 2022;14:40–53. doi: **10.32607/actanaturae.11523**.
+
+[7] Garg AD, Krysko D, Verfaillie T, et al. A novel pathway combining calreticulin exposure and ATP secretion in immunogenic cancer cell death. *The EMBO Journal*. 2012;31. doi: **10.1038/emboj.2011.497**.
+
+[8] Shen S. Restoration of the immunogenicity of cisplatin-induced cancer cell death by endoplasmic reticulum stress. *Oncogene*. 2011;30:1147–1158. doi: **10.1038/onc.2010.500**.
+
+[9] Giglio P, Gagliardi M, Tumino N, et al. PKR and GCN2 stress kinases promote an ER stress-independent eIF2α phosphorylation responsible for calreticulin exposure in melanoma cells. *OncoImmunology*. 2018;7. doi: **10.1080/2162402X.2018.1466765**.
+
+[10] Panaretakis T, Kepp O, Brockmeier U, et al. Mechanisms of pre-apoptotic calreticulin exposure in immunogenic cell death. *The EMBO Journal*. 2009;28. doi: **10.1038/emboj.2009.1**.
+
+[11] Gebremeskel S, Johnston B. Concepts and mechanisms underlying chemotherapy induced immunogenic cell death: impact on clinical studies and considerations for combined therapies. *Oncotarget*. 2015;6:41600–41619. doi: **10.18632/oncotarget.6113**.
+
+[12] Iurlaro R, Muñoz-Pinedo C. Cell death induced by endoplasmic reticulum stress. *The FEBS Journal*. 2016;283. doi: **10.1111/febs.13598**.
+
+[13] Panaretakis T, Joza N, Modjtahedi N, et al. The co-translocation of ERp57 and calreticulin determines the immunogenicity of cell death. *Cell Death & Differentiation*. 2008;15:1499–1509. doi: **10.1038/cdd.2008.67**.
+
+[14] Obeid M. ERP57 membrane translocation dictates the immunogenicity of tumor cell death by controlling the membrane translocation of calreticulin. *Journal of Immunology*. 2008;181:2533–2543. doi: **10.4049/jimmunol.181.4.2533**.
+
+[15] Wang Y, Kroemer G. Molecular mechanisms of ATP secretion during immunogenic cell death. *Cell Death & Differentiation*. 2013;21:79–91. doi: **10.1038/cdd.2013.75**.
+
+[16] Wang Y, Martins I, Kepp O, Galluzzi L, Kroemer G. Autophagy-dependent ATP release from dying cells via lysosomal exocytosis. *Autophagy*. 2013;9:1624–1625. doi: **10.4161/auto.25873**.
+
+[17] Martins I, Michaud M, Sukkurwala AQ, et al. Premortem autophagy determines the immunogenicity of chemotherapy-induced cancer cell death. *Autophagy*. 2012;8. doi: **10.4161/auto.19009**.
+
+[18] Tait SWG, Green DR. Mitochondria and cell death: outer membrane permeabilization and beyond. *Nature Reviews Molecular Cell Biology*. 2010;11:621–632. doi: **10.1038/nrm2952**.
+
+[19] Bock FJ, Tait SWG. Mitochondria as multifaceted regulators of cell death. *Nature Reviews Molecular Cell Biology*. 2019;21:85–100. doi: **10.1038/s41580-019-0173-8**.
+
+[20] Hall-Younger E, Tait S. Mitochondria and cell death signalling. *Current Opinion in Cell Biology*. 2025;94:102510. doi: **10.1016/j.ceb.2025.102510**.
+
+[21] McComb S, Chan PK, Guinot A, et al. Efficient apoptosis requires feedback amplification of upstream apoptotic signals by effector caspase-3 or -7. *Science Advances*. 2019;5. doi: **10.1126/sciadv.aau9433**.
+
+[22] Scaffidi P, Misteli T, Bianchi ME. Release of chromatin protein HMGB1 by necrotic cells triggers inflammation. *Nature*. 2002;418:191–195. doi: **10.1038/nature00858**.
+
+[23] Chen R, Kang R, Tang D. The mechanism of HMGB1 secretion and release. *Experimental & Molecular Medicine*. 2022;54:91–102. doi: **10.1038/s12276-022-00736-w**.
+
+[24] Park JS, Svetkauskaite D, He Q, et al. Involvement of Toll-like receptors 2 and 4 in cellular activation by high mobility group box 1 protein. *Journal of Biological Chemistry*. 2004;279:7370–7377. doi: **10.1074/jbc.M306793200**.
+
+[25] Kielbik M, Szulc-Kielbik I, Klink M. Calreticulin—multifunctional chaperone in immunogenic cell death. *Cells*. 2021;10. doi: **10.3390/cells10010130**.
+
+[26] Liu CC, Leclair P, Pedari F, et al. Integrins and ERp57 coordinate to regulate cell surface calreticulin in immunogenic cell death. *Frontiers in Oncology*. 2019;9. doi: **10.3389/fonc.2019.00411**.
+
+[27] Colangelo T, Polcaro G, Ziccardi P, et al. The miR-27a-calreticulin axis affects drug-induced immunogenic cell death in human colorectal cancer cells. *Cell Death & Disease*. 2016;7. doi: **10.1038/cddis.2016.29**.
+
+[28] Garg AD, Dudek A, Ferreira GB, et al. ROS-induced autophagy in cancer cells assists in evasion from determinants of immunogenic cell death. *Autophagy*. 2013;9:1292–1307. doi: **10.4161/auto.25399**.
+
+[29] Rozpędek W, Pytel D, Mucha B, et al. The role of the PERK/eIF2α/ATF4/CHOP signaling pathway in tumor progression during endoplasmic reticulum stress. *Current Molecular Medicine*. 2016;16:533–544. doi: **10.2174/1566524016666160523143937**.
+
+[30] Mandula J, Chang S, Mohamed E, et al. Ablation of the endoplasmic reticulum stress kinase PERK induces paraptosis and type I interferon to promote anti-tumor T cell responses. *Cancer Cell*. 2022;40:1145–1160.e9. doi: **10.1016/j.ccell.2022.08.016**.
+
+[31] Ai Y, Meng Y, Yan B, Zhou Q, Wang X. The biochemical pathways of apoptotic, necroptotic, pyroptotic, and ferroptotic cell death. *Molecular Cell*. 2024;84:170–179. doi: **10.1016/j.molcel.2023.11.040**.
+
+[32] Lawlor KE, Murphy JM, Vince JE. Gasdermin and MLKL necrotic cell death effectors: signaling and diseases. *Immunity*. 2024;57:429–445. doi: **10.1016/j.immuni.2024.02.011**.
+
+[33] Frank D, Vince JE. Pyroptosis versus necroptosis: similarities, differences, and crosstalk. *Cell Death & Differentiation*. 2018;26:99–114. doi: **10.1038/s41418-018-0212-6**.
+
+[34] Meier P, Legrand A, Adam D, Silke J. Immunogenic cell death in cancer: targeting necroptosis to induce antitumour immunity. *Nature Reviews Cancer*. 2024;24:299–315. doi: **10.1038/s41568-024-00674-x**.
+
+[35] Rucker A, Park CS, Li Q, Moseman EA, Chan FK-M. Necroptosis stimulates interferon-mediated protective anti-tumor immunity. *Cell Death & Disease*. 2024;15. doi: **10.1038/s41419-024-06801-8**.
+
+[36] Zhang Y, Chen X, Gueydan C, Han J. Plasma membrane changes during programmed cell deaths. *Cell Research*. 2018;28:9–21. doi: **10.1038/cr.2017.133**.
+
+[37] Rogers C, Erkes DA, Nardone A, Aplin AE, Fernandes-Alnemri T, Alnemri ES. Gasdermin pores permeabilize mitochondria to augment caspase-3 activation during apoptosis and inflammasome activation. *Nature Communications*. 2019;10:1689. doi: **10.1038/s41467-019-09397-2**.
+
+[38] Redrado M, Gimeno M. Golden immunity: gold complexes as emerging triggers of immunogenic cell death. *Chemical Science*. 2026;17:10789-10803. doi: **10.1039/d6sc02555b**.
+
+[39] Tang R, Xu J, Zhang B, et al. Ferroptosis, necroptosis, and pyroptosis in anticancer immunity. *Journal of Hematology & Oncology*. 2020;13. doi: **10.1186/s13045-020-00946-7**.
+
+[40] Shan Z, Liu F. Targeting ferroptosis, pyroptosis and necroptosis for cancer immunotherapy in melanoma: mechanistic insights and clinical perspectives. *Frontiers in Immunology*. 2025;16. doi: **10.3389/fimmu.2025.1629620**.
+
+[41] Zhang Y, Yan Y, Liu J, et al. An Endoplasmic Reticulum Stress‐Specific Nanoinducer Selectively Evokes Type‐II Immunogenic Cell Death for Pyroptotic Cancer Immunotherapy. *Advanced Materials*. 2025;37. doi: **10.1002/adma.202501953**.
+
+[42] Wang L, Guan R, Xie L, et al. An ER-Targeting Iridium(III) Complex That Induces Immunogenic Cell Death in Non-Small-Cell Lung Cancer. *Angewandte Chemie*. 2020. doi: **10.1002/anie.202013987**.
+
+[43] Bezu L, Sauvat A, Humeau J, et al. eIF2α phosphorylation is pathognomonic for immunogenic cell death. *Cell Death & Differentiation*. 2018;25. doi: **10.1038/s41418-017-0044-9**.
+
+[44] Gu X, Liu Y, Hu Y, et al. Chemotherapeutic and targeted drugs-induced immunogenic cell death in cancer models and antitumor therapy: An update review. *Frontiers in Pharmacology*. 2023;14. doi: **10.3389/fphar.2023.1152934**.
+
+[45] Alzeibak R, Mishchenko T, Shilyagina N, et al. Targeting immunogenic cancer cell death by photodynamic therapy: past, present and future. *Journal for Immunotherapy of Cancer*. 2021;9. doi: **10.1136/jitc-2020-001926**.
+
+[46] García Torres J, Frey N, Rangrez A. Cardiovascular Diseases and Cancer: Convergent Proteostasis Networks at the Crossroads of Mechanisms and Therapeutic Opportunities. *MedComm*. 2026;7. doi: **10.1002/mco2.70892**.
+
+[47] Wickman G, Julian L, Mardilovich K, et al. Blebs produced by actin–myosin contraction during apoptosis release damage-associated molecular pattern proteins before secondary necrosis occurs. *Cell Death &amp; Differentiation*. 2013;20:1293-1305. doi: **10.1038/cdd.2013.69**.

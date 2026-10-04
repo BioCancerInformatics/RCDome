@@ -1,0 +1,85 @@
+**[1] Brown GC. Cell death by phagocytosis. Nature Reviews Immunology. 2024;24:91–102. DOI: 10.1038/s41577-023-00921-6.**
+
+**[2] Brown GC, Neher JJ. Eaten alive! Cell death by primary phagocytosis: 'phagoptosis'. Trends in Biochemical Sciences. 2012;37:325–332. DOI: 10.1016/j.tibs.2012.05.002.**
+
+**[3] Brown GC, Vilalta A, Fricker M, Fricker M. Phagoptosis – Cell Death By Phagocytosis – Plays Central Roles in Physiology, Host Defense and Pathology. Current Molecular Medicine. 2015;15:842–851. DOI: 10.2174/156652401509151105130628.**
+
+**[4] Hornik TC, Vilalta A, Brown GC. Activated microglia cause reversible apoptosis of pheochromocytoma cells, inducing their cell death by phagocytosis. Journal of Cell Science. 2016;129:65–79. DOI: 10.1242/jcs.174631.**
+
+**[5] Anderson SR, Zhang J, Steele MR, et al. Complement Targets Newborn Retinal Ganglion Cells for Phagocytic Elimination by Microglia. Journal of Neuroscience. 2019;39:2025–2040. DOI: 10.1523/JNEUROSCI.1854-18.2018.**
+
+**[6] Zhang Y, Li H, Li X, et al. TMEM16F Aggravates Neuronal Loss by Mediating Microglial Phagocytosis of Neurons in a Rat Experimental Cerebral Ischemia and Reperfusion Model. Frontiers in Immunology. 2020;11. DOI: 10.3389/fimmu.2020.01144.**
+
+**[7] Bevers EM, Williamson PL. Getting to the Outer Leaflet: Physiology of Phosphatidylserine Exposure at the Plasma Membrane. Physiological Reviews. 2016;96:605–645. DOI: 10.1152/physrev.00020.2015.**
+
+**[8] Nagata S, Segawa K. Sensing and clearance of apoptotic cells. Current Opinion in Immunology. 2020;68:1–8. DOI: 10.1016/j.coi.2020.07.007.**
+
+**[9] Gadiyar V, Pulica R, Aquib A, et al. Phospholipid scramblases TMEM16F and Xkr8 mediate distinct features of phosphatidylserine externalization and immune suppression to promote tumor growth. Cell Death Discovery. 2025;11. DOI: 10.1038/s41420-025-02789-y.**
+
+**[10] Suzuki J, Umeda M, Sims PJ, Nagata S. Calcium-dependent phospholipid scrambling by TMEM16F. Nature. 2010;468:834–838. DOI: 10.1038/nature09583.**
+
+**[11] Segawa K, Suzuki J, Nagata S. Constitutive exposure of phosphatidylserine on viable cells. Proceedings of the National Academy of Sciences USA. 2011;108:19246–19251. DOI: 10.1073/pnas.1114799108.**
+
+**[12] Butler CA, Popescu AS, Kitchener EJA, Allendorf DH, Puigdellívol M, Brown GC. Microglial phagocytosis of neurons in neurodegeneration, and its regulation. Journal of Neurochemistry. 2021;158:621–639. DOI: 10.1111/jnc.15327.**
+
+**[13] Medina CB, Ravichandran KS. Do not let death do us part: ‘find-me’ signals in communication between dying cells and the phagocytes. Cell Death and Differentiation. 2016;23:979–989. DOI: 10.1038/cdd.2016.13.**
+
+**[14] Myers KV, Amend SR, Pienta KJ. Targeting Tyro3, Axl and MerTK (TAM receptors): implications for macrophages in the tumor microenvironment. Molecular Cancer. 2019;18. DOI: 10.1186/s12943-019-1022-2.**
+
+**[15] Burstyn-Cohen T, Fresia R. TAM receptors in phagocytosis: Beyond the mere internalization of particles. Immunological Reviews. 2023;319. DOI: 10.1111/imr.13267.**
+
+**[16] Wanke F, Gutbier S, Rümmelin A, et al. Ligand-dependent kinase activity of MERTK drives efferocytosis in human iPSC-derived macrophages. Cell Death & Disease. 2021;12. DOI: 10.1038/s41419-021-03770-0.**
+
+**[17] Hong S, Beja-Glasser VF, Nfonoyim BM, et al. Complement and Microglia Mediate Early Synapse Loss in Alzheimer Mouse Models. Science. 2016;352:712–716. DOI: 10.1126/science.aad8373.**
+
+**[18] Park J, Choi Y, Jung E, Lee SH, Sohn J, Chung WS. Microglial MERTK eliminates phosphatidylserine-displaying inhibitory post-synapses. EMBO Journal. 2021;40. DOI: 10.15252/embj.2020107121.**
+
+**[19] Morrissey MA, Kern N, Vale RD. CD47 ligation repositions the inhibitory receptor SIRPA to suppress integrin activation and phagocytosis. Immunity. 2020;53:290–302.e6. DOI: 10.1016/j.immuni.2020.07.008.**
+
+**[20] Gardai SJ, McPhillips KA, Frasch SC, et al. Cell-surface calreticulin initiates clearance of viable or apoptotic cells through trans-activation of LRP on the phagocyte. Cell. 2005;123:321–334. DOI: 10.1016/j.cell.2005.08.032.**
+
+**[21] Nguyen JA, Yates RM. Better Together: Current Insights Into Phagosome-Lysosome Fusion. Frontiers in Immunology. 2021;12. DOI: 10.3389/fimmu.2021.636078.**
+
+**[22] Riazanski V, Sui Z, Nelson DJ. Kinetic Separation of Oxidative and Non-oxidative Metabolism in Single Phagosomes from Alveolar Macrophages: Impact on Bacterial Killing. iScience. 2020;23. DOI: 10.1016/j.isci.2020.101759.**
+
+**[23] Jubrail J, Morris P, Bewley MA, et al. Inability to sustain intraphagolysosomal killing of Staphylococcus aureus predisposes to bacterial persistence in macrophages. Cellular Microbiology. 2016;18:80–96. DOI: 10.1111/cmi.12485.**
+
+**[24] Qi YT, Gao RX, Chen Y, et al. Nanoelectrochemical Monitoring of pH-Regulated Reactive Oxygen and Nitrogen Species Homeostasis in Macrophages Lysosomes during Phagocytosis. Research. 2025;8. DOI: 10.34133/research.0733.**
+
+**[25] Mondragon AA, Yalonetskaya A, Ortega A, et al. Lysosomal Machinery Drives Extracellular Acidification to Direct Non-apoptotic Cell Death. Cell Reports. 2019;27:11–19.e3. DOI: 10.1016/j.celrep.2019.03.034.**
+
+**[26] Zohar-Fux M, Ben-Hamo-Arad A, Arad T, et al. The phagocytic cyst cells in Drosophila testis eliminate germ cell progenitors via phagoptosis. Science Advances. 2022;8. DOI: 10.1126/sciadv.abm4937.**
+
+**[27] Andoh M, Shinoda N, Taira Y, et al. Nonapoptotic caspase-3 guides C1q-dependent synaptic phagocytosis by microglia. Nature Communications. 2025;16. DOI: 10.1038/s41467-025-56342-7.**
+
+**[28] Elliott MR, Chekeni FB, Trampont PC, et al. Nucleotides released by apoptotic cells act as a find-me signal for phagocytic clearance. Nature. 2009;461:282–286. DOI: 10.1038/nature08296.**
+
+**[29] Kanokogi T, Komazawa-Sakon S, Murai S, et al. Temporal control of Ninj1 activation determines cell-to-cell heterogeneity in IL-33 release. Communications Biology. 2026;9. DOI: 10.1038/s42003-026-10300-1.**
+
+**[30] Purnama CA, Meiliana A, Barliana MI, Lestari K. Update of cellular responses to the efferocytosis of necroptosis and pyroptosis. Cell Division. 2023;18. DOI: 10.1186/s13008-023-00087-6.**
+
+**[31] Allendorf DH, Puigdellívol M, Brown GC. Activated microglia desialylate their surface, stimulating complement receptor 3-mediated phagocytosis of neurons. Glia. 2020;68:989–998. DOI: 10.1002/glia.23757.**
+
+**[32] Zhou J, Wade SD, Graykowski D, et al. The neuronal pentraxin Nptx2 regulates complement activity and restrains microglia-mediated synapse loss in neurodegeneration. Science Translational Medicine. 2023;15:eadf0141. DOI: 10.1126/scitranslmed.adf0141.**
+
+**[33] López NN, Rodríguez YL, Vetter ML. Microglial mechanisms of viable retinal ganglion cell elimination. Frontiers in Cellular Neuroscience. 2025;19. DOI: 10.3389/fncel.2025.1719791.**
+
+**[34] Yousefpour N, Tansley SN, Locke S, et al. Targeting C1q prevents microglia-mediated synaptic removal in neuropathic pain. Nature Communications. 2025;16. DOI: 10.1038/s41467-025-59849-1.**
+
+**[35] Wilton DK, Mastro K, Heller M, et al. Microglia and complement mediate early corticostriatal synapse loss and cognitive dysfunction in Huntington's disease. Nature Medicine. 2023;29:2866–2884. DOI: 10.1038/s41591-023-02566-3.**
+
+**[36] Neniskyte U, Vilalta A, Brown G. Tumour necrosis factor alpha‐induced neuronal loss is mediated by microglial phagocytosis. FEBS Letters. 2014;588:2952-2956. DOI: 10.1016/j.febslet.2014.05.046.**
+
+**[37] Birge R, Boeltz S, Kumar S, et al. Phosphatidylserine is a global immunosuppressive signal in efferocytosis, infectious disease, and cancer. Cell Death &amp; Differentiation. 2016;23:962-978. DOI: 10.1038/cdd.2016.11.**
+
+**[38] Oldenborg P, Gresham H, Lindberg F. Cd47-Signal Regulatory Protein α (Sirpα) Regulates Fcγ and Complement Receptor–Mediated Phagocytosis. The Journal of Experimental Medicine. 2001;193:855-862. DOI: 10.1084/jem.193.7.855.**
+
+**[39] Shlomovitz I, Speir M, Gerlic M. Flipping the dogma – phosphatidylserine in non-apoptotic cell death. Cell Communication and Signaling. 2019;17. DOI: 10.1186/s12964-019-0437-0.**
+
+**[40] Melo Garcia L, Barabé F. Harnessing Macrophages through the Blockage of CD47: Implications for Acute Myeloid Leukemia. Cancers. 2021;13:6258. DOI: 10.3390/cancers13246258.**
+
+**[41] Dejanovic B, Wu T, Tsai M, et al. Complement C1q-dependent excitatory and inhibitory synapse elimination by astrocytes and microglia in Alzheimer’s disease mouse models. Nature Aging. 2022;2:837-850. DOI: 10.1038/s43587-022-00281-1.**
+
+**[42] Neher JJ, Neniskyte U, Hornik T, et al. Inhibition of UDP/P2Y6 purinergic signaling prevents phagocytosis of viable neurons by activated microglia in vitro and in vivo.. . 2014. DOI: 10.1002/glia.22693.**
+
+**[43] Galluzzi L, Vitale I, Aaronson S, et al. Molecular mechanisms of cell death: recommendations of the Nomenclature Committee on Cell Death 2018. Cell Death &amp; Differentiation. 2018;25:486-541. DOI: 10.1038/s41418-017-0012-4.**

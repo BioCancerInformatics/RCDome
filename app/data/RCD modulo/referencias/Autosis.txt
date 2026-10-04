@@ -56,14 +56,18 @@
 
 29. Zhang X, Shan G, Li N, et al. **An autophagy-inducing stapled peptide induces mitochondria dysfunction and triggers autotic cell death in triple-negative breast cancer.** *Cell Death Discovery*. 2023;9. **DOI: 10.1038/s41420-023-01600-0**
 
-30. Jung S, Nah J. **Preserving Nuclear Envelope Integrity Prevents Autosis.** *Circulation Research*. 2025;137(Suppl 1). **DOI: 10.1161/res.137.suppl_1.thu079**
+30. Guerra-Andrés M, Martínez-Rojo I, Piedra-Macías A, Lavado-Fernández E, García-Macia M, Fernández ÁF. **Oxidative Stress in the Regulation of Autosis-Related Proteins.** *Antioxidants*. 2025;14. **DOI: 10.3390/antiox14080958**
 
-31. Guerra-Andrés M, Martínez-Rojo I, Piedra-Macías A, Lavado-Fernández E, García-Macia M, Fernández ÁF. **Oxidative Stress in the Regulation of Autosis-Related Proteins.** *Antioxidants*. 2025;14. **DOI: 10.3390/antiox14080958**
+31. Zhu M, Cao L, Xiong S, et al. **Na+/K+-ATPase-dependent autophagy protects brain against ischemic injury.** *Signal Transduction and Targeted Therapy*. 2020;5. **DOI: 10.1038/s41392-020-0153-7**
 
-32. Zhu M, Cao L, Xiong S, et al. **Na+/K+-ATPase-dependent autophagy protects brain against ischemic injury.** *Signal Transduction and Targeted Therapy*. 2020;5. **DOI: 10.1038/s41392-020-0153-7**
+32. He L, Chu YW, Yang J, et al. **Activation of Autophagic Flux Maintains Mitochondrial Homeostasis during Cardiac Ischemia/Reperfusion Injury.** *Cells*. 2022;11:2111. **DOI: 10.3390/cells11132111**
 
-33. Zhang G, Luk BT, Hamidy M, Zhang L, Spector SA. **Induction of a Na+/K+-ATPase-dependent form of autophagy triggers preferential cell death of human immunodeficiency virus type-1-infected macrophages.** *Autophagy*. 2018;14:1359–1375. **DOI: 10.1080/15548627.2018.1476014**
+33. Costigan A, Hollville E, Martin SJ. **Discriminating Between Apoptosis, Necrosis, Necroptosis, and Ferroptosis by Microscopy and Flow Cytometry.** *Current Protocols*. 2023;3. **DOI: 10.1002/cpz1.951**
 
-34. He L, Chu YW, Yang J, et al. **Activation of Autophagic Flux Maintains Mitochondrial Homeostasis during Cardiac Ischemia/Reperfusion Injury.** *Cells*. 2022;11:2111. **DOI: 10.3390/cells11132111**
+34. Hansen E, Holaska J. **Emerin acts as a mechanosensor linking force transmission and disease.** *Frontiers in Oncology*. 2026;16. **DOI: 10.3389/fonc.2026.1882684**
 
-35. Costigan A, Hollville E, Martin SJ. **Discriminating Between Apoptosis, Necrosis, Necroptosis, and Ferroptosis by Microscopy and Flow Cytometry.** *Current Protocols*. 2023;3. **DOI: 10.1002/cpz1.951**
+35. Alers S, Alers S, Löffler AS, et al. **Atg13 and FIP200 act independently of Ulk1 and Ulk2 in autophagy induction..** **. 2011. **DOI: 10.4161/auto.7.12.18027**
+
+36. Jung S, Nah J. **Preserving Nuclear Envelope Integrity Prevents Autosis.** *Circulation Research*. 2025;137(Suppl 1). **DOI: 10.1161/res.137.suppl_1.thu079**
+
+37. Zhang G, Luk BT, Hamidy M, Zhang L, Spector SA. **Induction of a Na+/K+-ATPase-dependent form of autophagy triggers preferential cell death of human immunodeficiency virus type-1-infected macrophages.** *Autophagy*. 2018;14:1359–1375. **DOI: 10.1080/15548627.2018.1476014**

@@ -1,0 +1,494 @@
+Metalloptosis
+
+1. Definition and Classification
+
+Metalloptosis is best classified as an emerging umbrella concept encompassing regulated cell-death mechanisms in which metal-ion dyshomeostasis is a causal upstream determinant of cellular death. It should not currently be treated as a single independent execution pathway with one universally conserved sensor, signaling cascade, commitment point, executor, or terminal lesion [1-4].
+
+The concept of a "metal death code" dictates cellular fate in response to specific metal stresses, reflecting crosstalk and divergence among death modalities [4].
+
+Within the supplied evidence, the most mechanistically established members are ferroptosis and cuproptosis. Ferroptosis is an iron-dependent regulated cell-death modality driven by phospholipid peroxidation [5-8]. Cuproptosis is a copper-dependent death mechanism centered on mitochondrial copper accumulation, copper binding to lipoylated tricarboxylic-acid-cycle proteins, protein aggregation, Fe–S-protein destabilization, and mitochondrial proteotoxic stress [9-12].
+
+Other metal-associated routes included within the emerging metalloptosis framework are less standardized as members of a unified superfamily. Lysozincrosis describes a lysosome-centered Zn2+-dependent route in which TRPML1-mediated lysosomal Zn2+ release causes rapid mitochondrial dysfunction, ATP depletion, and non-apoptotic death [13]. Ca2+-overload/MPT-driven death involves mitochondrial Ca2+ accumulation, persistent mitochondrial permeability transition, bioenergetic collapse, swelling, and regulated necrosis [14-17].
+
+The critical conceptual distinction is therefore:
+
+metalloptosis ≠ one execution pathway;
+
+metalloptosis = proposed family of metal-dependent regulated death mechanisms.
+
+Accordingly, the term should identify a mechanistic category based on metal dependence rather than imply that iron-, copper-, zinc-, and calcium-associated deaths converge on one common terminal executor.
+
+For RCDome, Metalloptosis is most defensibly represented as an emerging RCD-related category/concept or proposed superfamily rather than an independent modality equivalent to ferroptosis or cuproptosis.
+
+2. Initiation and Triggers
+
+Because metalloptosis encompasses several mechanistically distinct routes, no universal initiating receptor or sensor exists.
+
+The common initiating principle is disruption of physiological metal-ion homeostasis to a degree that activates a metal-specific lethal biochemical reaction.
+
+Iron-associated initiation is best represented by ferroptosis.
+
+Major initiating mechanisms include inhibition of system xc−, cystine deprivation, glutathione depletion, direct inhibition or loss of GPX4, expansion of the labile iron pool, ferritin degradation, and metabolic conditions that increase oxidizable phospholipid substrates [5-8,18].
+
+A canonical ferroptotic initiation route is:
+
+system xc− inhibition → reduced cystine uptake → reduced cysteine availability → reduced glutathione synthesis → impaired GPX4-dependent phospholipid hydroperoxide detoxification → accumulation of oxidized phospholipids.
+
+A second route bypasses cystine metabolism:
+
+direct GPX4 inhibition → failure to reduce phospholipid hydroperoxides → lipid-radical propagation.
+
+Iron contributes by supporting redox chemistry capable of generating and propagating lipid radicals [19-20].
+
+Copper-associated initiation is mechanistically different.
+
+Cuproptosis begins when copper accumulates within mitochondria under conditions in which mitochondrial respiration and protein lipoylation provide susceptible targets [9-12].
+
+FDX1 is an important determinant of this vulnerability and is linked to Cu2+ reduction and the lipoylation-dependent machinery that enables copper to interact with lipoylated mitochondrial proteins [10-12].
+
+Thus:
+
+mitochondrial copper accumulation → FDX1-associated copper chemistry → copper binding to lipoylated TCA-cycle proteins → abnormal protein oligomerization/aggregation.
+
+Zinc-associated initiation can occur through lysosomal zinc mobilization.
+
+In the strongest lysozincrosis prototype:
+
+TRPML1 activation → release of lysosomal Zn2+ → pathological intracellular Zn2+ redistribution → rapid mitochondrial dysfunction [13].
+
+Additional zinc-associated deaths have been proposed to arise from extracellular zinc overload, lysosomal zinc accumulation, nanoparticles, or changes in zinc transport; in some models, these do not necessarily terminate through lysozincrosis and may instead engage ferroptosis, apoptosis, or autophagy-associated death [54].
+
+Ca2+-associated metalloptotic models converge on mitochondrial Ca2+ overload.
+
+A representative sequence is:
+
+increased cytosolic Ca2+ → mitochondrial Ca2+ accumulation + ROS → sensitization of the mitochondrial permeability-transition machinery → sustained high-conductance MPT → energetic collapse [14-17].
+
+Therefore, the shared upstream principle is metal dyshomeostasis, while the immediate molecular sensor differs by route.
+
+3. Core Mechanistic Machinery
+
+Metalloptosis has no single universal core machinery.
+
+Instead, each metal-dependent route is defined by its own biochemical core.
+
+For ferroptosis, the central machinery couples lipid metabolism, iron availability, and antioxidant defense.
+
+ACSL4 promotes activation of polyunsaturated fatty acids, including arachidonic and adrenic acids, to their acyl-CoA derivatives. LPCAT3 facilitates incorporation of these polyunsaturated fatty acids into membrane phospholipids, creating oxidizable substrates [25-27].
+
+The core vulnerable substrate is therefore a PUFA-containing membrane phospholipid.
+
+GPX4 provides a major protective reaction by reducing phospholipid hydroperoxides to their corresponding alcohols using glutathione [6,18,28].
+
+When GPX4-dependent detoxification fails:
+
+PUFA-phospholipid hydroperoxides → lipid radicals → chain-propagating phospholipid oxidation → membrane damage.
+
+Iron supports this chemistry through redox-active Fe2+ and iron-dependent reactions that amplify lipid oxidation [19-20].
+
+For cuproptosis, the core machinery is mitochondrial and proteotoxic.
+
+FDX1-associated copper chemistry facilitates copper interaction with lipoylated mitochondrial proteins, particularly components of the TCA-cycle machinery such as DLAT [9-12].
+
+The mechanistic sequence is:
+
+mitochondrial Cu accumulation → interaction with lipoylated proteins → abnormal lipoylated-protein oligomerization/aggregation → Fe–S-protein destabilization → mitochondrial proteotoxic stress → metabolic collapse.
+
+This is fundamentally different from ferroptosis because membrane lipid oxidation is not the defining initial lesion.
+
+For lysozincrosis, the core machinery is the lysosome–Zn2+–mitochondria axis [13].
+
+TRPML1-mediated lysosomal Zn2+ release produces a rapid zinc-dependent mitochondrial lesion associated with swelling and ATP loss.
+
+For Ca2+/MPT-associated death, the core event is persistent opening of the mitochondrial permeability-transition pore, resulting in inner-membrane depolarization, oxidative-phosphorylation failure, matrix swelling, and bioenergetic collapse [14-17].
+
+Thus, the metalloptosis family contains several distinct biochemical cores:
+
+iron → phospholipid-peroxidation machinery;
+
+copper → lipoylated mitochondrial-protein proteotoxicity;
+
+zinc → lysosomal Zn2+ redistribution and mitochondrial injury;
+
+calcium → mitochondrial permeability transition.
+
+4. Propagation and Amplification
+
+Propagation is route-specific.
+
+In ferroptosis, propagation depends on self-amplifying phospholipid-peroxidation chemistry.
+
+In the presence of labile iron, hydroperoxides undergo reductive cleavage to regenerate alkoxyl radicals that attack neighboring acyl chains, propagating the peroxidative cascade across the lipid bilayer [52].
+
+ACSL4 and LPCAT3 promote susceptibility by ensuring the presence of oxidizable membrane substrates [25-27].
+
+Ferritinophagy can amplify this process. NCOA4-dependent delivery of ferritin to autophagic degradation increases the redox-active intracellular iron pool, thereby favoring lipid-peroxidation chemistry [20,29].
+
+Lipoxygenases can promote lipid oxidation in some systems, but the supplied evidence does not support universal obligate ALOX dependence across ferroptosis [6,25,28].
+
+Therefore, ALOX enzymes should be classified as context-dependent promoters rather than universal ferroptosis executors.
+
+In cuproptosis, propagation occurs primarily through mitochondrial proteotoxicity rather than lipid-radical chain reactions.
+
+Increasing mitochondrial copper–protein interactions promote accumulation of aggregated lipoylated proteins and loss or destabilization of Fe–S proteins [9-12].
+
+These alterations compromise mitochondrial metabolic functions and create an escalating proteotoxic and energetic stress.
+
+In lysozincrosis, propagation is dominated by lysosome-to-mitochondria zinc toxicity.
+
+TRPML1-mediated lysosomal Zn2+ release rapidly causes mitochondrial swelling, dysfunction, and ATP decline [13].
+
+In Ca2+/MPT death, propagation occurs through sustained permeability transition.
+
+Persistent mPTP opening causes mitochondrial depolarization, cessation of oxidative phosphorylation, osmotic matrix swelling, and progressive ATP depletion [14-17].
+
+ROS can amplify several metalloptotic routes, but ROS is not a universal terminal executor.
+
+ROS can enhance iron-dependent lipid peroxidation, promote zinc-associated mitochondrial injury, sensitize the mPTP to Ca2+, and interact with copper-associated metabolic stress [3-4].
+
+Therefore, oxidative stress represents a common amplifier across multiple metal-dependent deaths while remaining mechanistically subordinate to the route-specific lethal chemistry.
+
+5. Protective / Negative Regulators
+
+Because metalloptosis is a family concept, no single protective system antagonizes every route.
+
+In ferroptosis, the best-established defense is the SLC7A11–GSH–GPX4 axis [5-8,18].
+
+SLC7A11 supports cystine uptake through system xc−. Cystine-derived cysteine supports glutathione synthesis, and glutathione enables GPX4 to detoxify phospholipid hydroperoxides.
+
+Thus:
+
+SLC7A11 → cystine/cysteine → GSH → GPX4 → reduction of phospholipid hydroperoxides.
+
+Multiple parallel antioxidant systems can suppress ferroptosis independently of GPX4.
+
+These include FSP1–CoQ10, mitochondrial DHODH–CoQ10, GCH1–BH4, and NRF2-associated antioxidant and iron-homeostasis programs [30-32].
+
+ESCRT-III functions downstream of lipid-peroxidative membrane injury as a membrane-repair system. It can delay plasma-membrane failure and death kinetics but is not part of the initiating ferroptosis machinery [33-35].
+
+Cuproptosis uses different protective chemistry.
+
+Glutathione can bind and buffer copper, thereby limiting copper access to vulnerable mitochondrial proteins [36].
+
+NFE2L2/NRF2 can increase GSH-associated defenses, while SLC25A39 supports mitochondrial glutathione availability [36].
+
+Therefore, although GSH protects both ferroptosis and cuproptosis, its physical role differs:
+
+ferroptosis → GSH supports GPX4-mediated peroxide reduction;
+
+cuproptosis → GSH contributes to copper buffering/chelation.
+
+In lysozincrosis, protective mechanisms include restriction of pathological TRPML1 activation and maintenance of zinc buffering and intracellular zinc homeostasis [13,37].
+
+In Ca2+/MPT death, protective mechanisms include Ca2+ buffering, limitation of mitochondrial Ca2+ accumulation, redox control, and suppression or desensitization of sustained mPTP opening [14-17].
+
+These differences reinforce that Metalloptosis does not possess a single anti-death checkpoint.
+
+6. Commitment / Point of No Return
+
+There is no universal point of no return for Metalloptosis.
+
+Each route reaches commitment through a different irreversible lesion.
+
+Spatial spread of ferroptosis occurs only when the local oxidative burden exceeds the combined redox-buffering and membrane repair capacity of neighboring cells, converting localized damage into expanding tissue injury [50].
+
+Before this threshold, radical-trapping antioxidants, iron chelation, GPX4 activity, parallel antioxidant systems, and ESCRT-mediated repair can interrupt progression.
+
+When oxidative damage to the plasma membrane overwhelms cellular antioxidant and repair defenses, increased membrane permeability, loss of ionic gradients and osmotic balance, and irreversible cell injury can follow [49].
+
+For cuproptosis, commitment is better represented by accumulation of copper-induced lipoylated-protein aggregates together with Fe–S-protein destabilization sufficient to produce irreversible mitochondrial proteotoxic and metabolic dysfunction [9-12].
+
+For lysozincrosis, commitment occurs when pathological lysosomal Zn2+ redistribution produces severe mitochondrial dysfunction and ATP depletion from which the cell cannot recover [13].
+
+For Ca2+/MPT death, commitment corresponds most closely to persistent high-conductance permeability transition affecting sufficient mitochondrial mass to cause irreversible oxidative-phosphorylation failure [14-17,53].
+
+Thus, a family-level statement is possible only at a higher level:
+
+metal-specific damage → failure of metal buffering and route-specific protective systems → self-propagating biochemical or bioenergetic injury → irreversible loss of cellular homeostasis.
+
+7. Execution and Terminal Cause of Death
+
+What physically kills the cell in Metalloptosis?
+
+There is no single answer because Metalloptosis does not have a universal executor.
+
+In ferroptosis, the defining lethal chemistry is uncontrolled phospholipid peroxidation.
+
+As oxidized phospholipids accumulate, membrane permeability increases. Plasma-membrane nanopore-like defects and Ca2+ influx develop, followed by osmotic imbalance, swelling, and eventual plasma-membrane rupture [33,38-39].
+
+Therefore, the physical terminal sequence is:
+
+iron-dependent phospholipid peroxidation → membrane structural failure → ion flux → osmotic swelling → plasma-membrane rupture.
+
+No dedicated protein pore analogous to GSDMD or MLKL has been established as the universal ferroptosis executor.
+
+In cuproptosis, execution is primarily mitochondrial, proteotoxic, and bioenergetic.
+
+Copper binding to lipoylated TCA-cycle proteins promotes abnormal aggregation, while Fe–S-protein loss disrupts mitochondrial function [9-12].
+
+The proximate terminal lesion is therefore best described as irreversible mitochondrial proteotoxic/metabolic collapse.
+
+A dedicated pore-forming cuproptosis executor has not been established.
+
+In lysozincrosis, the strongest supplied evidence supports:
+
+lysosomal Zn2+ release → rapid mitochondrial injury/swelling → ATP depletion → bioenergetic failure → necrotic death [13].
+
+Therefore, energetic collapse is the most defensible proximate lethal mechanism.
+
+In Ca2+/MPT death:
+
+mitochondrial Ca2+ overload → persistent mPTP opening → Δψm collapse → oxidative-phosphorylation arrest → ATP depletion + matrix swelling → ion-homeostasis failure → membrane rupture [14-17].
+
+Thus, the terminal lesion is route-specific:
+
+ferroptosis → lipid-peroxidative membrane catastrophe;
+
+cuproptosis → mitochondrial proteotoxic/metabolic collapse;
+
+lysozincrosis → zinc-driven mitochondrial energetic collapse;
+
+Ca2+/MPT death → irreversible mitochondrial permeability transition and bioenergetic collapse.
+
+This route-specific execution is the strongest reason not to describe Metalloptosis itself as a single independent execution pathway.
+
+8. Morphological Sequence
+
+Metalloptosis has no universal morphology.
+
+Each subtype produces morphology associated with its own biochemical lesion.
+
+Ferroptotic cells can initially remain morphologically intact while lipid peroxidation increases. Mitochondria often become smaller and electron dense, with reduced or altered cristae. As plasma-membrane damage progresses, ion flux and osmotic imbalance produce swelling and terminal membrane rupture without the classical apoptotic sequence of caspase-dependent fragmentation and apoptotic-body formation [7,39-41].
+
+A simplified sequence is:
+
+lipid-peroxidation accumulation → mitochondrial structural alterations → plasma-membrane permeability → cellular swelling → membrane rupture.
+
+Cuproptosis shows a different organellar phenotype. Reported alterations include mitochondrial structural abnormalities, cristae disturbance, endoplasmic-reticulum dilation in some systems, DLAT oligomerization, and loss of Fe–S proteins [10-12].
+
+However, the diagnostically important features are biochemical rather than morphological.
+
+Lysozincrosis produces lysosomal Zn2+ redistribution followed by rapid mitochondrial swelling and dysfunction [13].
+
+Ca2+/MPT death is associated with mitochondrial depolarization, pronounced matrix swelling, outer-membrane failure, cellular swelling, and necrotic membrane rupture [14-17].
+
+Therefore, morphology alone cannot establish Metalloptosis or determine its subtype.
+
+Metal-specific causal evidence is required.
+
+9. Crosstalk and Differential Diagnosis
+
+The major challenge in Metalloptosis is distinguishing true mechanistic convergence from simple overlap in metal biology, ROS production, mitochondrial dysfunction, or terminal lysis.
+
+Copper provides a clear example.
+
+Copper can promote cuproptosis when it accumulates in mitochondria and targets lipoylated proteins.
+
+However, copper can also promote ferroptosis by affecting GPX4. Copper binding to GPX4 has been associated with GPX4 ubiquitination, aggregation, TAX1BP1-dependent autophagic degradation, and increased ferroptotic susceptibility [42].
+
+In that context, copper is an upstream regulator of ferroptosis rather than evidence that ferroptosis and cuproptosis are the same pathway.
+
+Conversely, ferroptosis-inducing conditions can enhance cuproptosis, including through changes in glutathione-dependent copper buffering and increased stress on lipoylated mitochondrial proteins [43].
+
+Again, this represents crosstalk rather than a shared executor.
+
+Zinc provides another example.
+
+Zn2+ toxicity can induce mitochondrial dysfunction, oxidative stress, autophagy-associated death, apoptosis, or ferroptosis depending on the biological context [21-24,44].
+
+Only when lysosomal Zn2+ mobilization and the associated lysosome–mitochondria energetic-collapse mechanism are experimentally demonstrated should a narrow lysozincrosis classification be used.
+
+Calcium is even more broadly involved across RCD mechanisms. Ca2+ elevation can occur during apoptosis, ferroptosis, necroptosis, and other stress responses.
+
+Therefore, Ca2+ elevation alone does not define the Ca2+/MPT metalloptotic route. Persistent mitochondrial permeability transition and causal dependence on the MPT machinery must be demonstrated [14-17].
+
+Disulfidptosis should also remain mechanistically distinct from Metalloptosis in the present framework. Its supplied literature defines death through disulfide stress and actin-cytoskeleton collapse rather than a metal-ion-specific lethal chemistry [45-48].
+
+Thus, shared oxidative stress, mitochondrial injury, GSH metabolism, or cellular lysis does not by itself justify grouping pathways as one execution mechanism.
+
+10. Experimental Validation
+
+Metalloptosis cannot be validated experimentally with one universal biomarker.
+
+The appropriate standard is:
+
+demonstrate metal dependence + identify the metal-specific causal lesion + show rescue through perturbation of the corresponding route.
+
+Lipophilic radical-trapping antioxidants protect against ferroptosis by inhibiting lipid oxidation, supporting a lipid-peroxidation-dependent ferroptosis-associated cell-death process [51].
+
+Additional causal evidence can include perturbation of GPX4, SLC7A11, ACSL4, LPCAT3, NCOA4, FSP1, DHODH, GCH1, or relevant membrane-repair pathways.
+
+Importantly, iron accumulation or ROS production alone is insufficient to diagnose ferroptosis.
+
+For cuproptosis, strong evidence requires copper dependence together with mitochondrial respiration dependence, FDX1-associated susceptibility, aggregation of lipoylated mitochondrial proteins, and Fe–S-protein loss [9-12].
+
+Copper chelation should reduce the phenotype.
+
+Suppression of mitochondrial respiration can provide additional mechanistic discrimination because cuproptosis is closely linked to respiration-dependent mitochondrial metabolism.
+
+Excessive activation of lysosomal ML1/TRPML1 triggers lysosomal Zn2+ release, mitochondrial swelling/dysfunction, ATP depletion, and rapid nonapoptotic necrotic death in metastatic melanoma cells, termed lysozincrosis .
+
+For Ca2+/MPT death, validation should demonstrate mitochondrial Ca2+ loading, persistent permeability transition, mitochondrial depolarization and swelling, ATP collapse, and functional rescue by reducing MPT susceptibility [14-17].
+
+Therefore, merely exposing cells to a metal and observing death is not sufficient evidence for Metalloptosis.
+
+Likewise, a transcriptional signature cannot establish active Metalloptosis.
+
+Expression of iron-handling genes, GPX4/SLC7A11, copper transport genes, FDX1, MCOLN1/TRPML1, zinc transporters, Ca2+-handling genes, or mitochondrial-stress genes can indicate a metal-homeostasis-associated state or susceptibility state.
+
+It cannot establish the execution of ferroptosis, cuproptosis, lysozincrosis, or MPT-driven necrosis without direct biochemical or functional evidence.
+
+11. Molecular Hierarchy
+
+Family-level initiators:
+
+metal overload, metal deprivation when it secondarily disrupts homeostasis, abnormal metal transport, altered metal storage, metal-directed pharmacological agents, oxidative stress, metabolic stress, ionophore exposure, and organelle-specific metal redistribution.
+
+Ferroptosis initiators:
+
+system xc− inhibition, cystine restriction, GSH depletion, GPX4 inhibition, iron accumulation, ferritinophagy, increased oxidizable PUFA-phospholipid availability.
+
+Ferroptosis core machinery:
+
+SLC7A11–GSH–GPX4 axis, labile iron, ACSL4, LPCAT3, PUFA-containing phospholipids.
+
+Ferroptosis execution chemistry:
+
+self-propagating phospholipid peroxidation → membrane permeability → osmotic failure → rupture.
+
+Ferroptosis protective factors:
+
+GPX4, FSP1–CoQ10, DHODH–CoQ10, GCH1–BH4, NRF2-associated defenses, iron buffering, ESCRT-III-mediated membrane repair.
+
+Cuproptosis initiators:
+
+mitochondrial copper accumulation, copper ionophores, copper-transport states favoring mitochondrial Cu availability.
+
+Cuproptosis core machinery:
+
+FDX1-associated copper chemistry, lipoylated TCA-cycle proteins including DLAT, Fe–S proteins.
+
+Cuproptosis execution:
+
+protein aggregation + Fe–S-protein destabilization → mitochondrial proteotoxic/metabolic collapse.
+
+Cuproptosis protective factors:
+
+GSH-mediated copper buffering, NRF2-associated GSH metabolism, SLC25A39-dependent mitochondrial GSH availability.
+
+Lysozincrosis initiator:
+
+TRPML1/MCOLN1-dependent lysosomal Zn2+ release.
+
+Lysozincrosis core machinery:
+
+lysosomal Zn2+ pool → pathological Zn2+ redistribution → mitochondria.
+
+Lysozincrosis execution:
+
+mitochondrial dysfunction → ATP depletion → necrotic homeostatic collapse.
+
+Ca2+/MPT initiators:
+
+cytosolic/mitochondrial Ca2+ overload and ROS.
+
+Ca2+/MPT core machinery:
+
+mitochondrial Ca2+ handling + mPTP.
+
+Ca2+/MPT execution:
+
+persistent MPT → Δψm loss → OXPHOS failure → ATP depletion → mitochondrial/cellular swelling → lysis.
+
+Family-level executor:
+
+none.
+
+Family-level biomarker:
+
+none.
+
+12. Integrated Canonical Sequence
+
+Metalloptosis is best represented as a branching rather than linear pathway.
+
+General entry:
+
+metal dyshomeostasis or metal-directed stress → failure of physiological metal buffering, transport, storage, or compartmentalization → metal-specific intracellular lesion.
+
+Iron branch:
+
+iron-dependent redox imbalance + GPX4-defense failure → ACSL4/LPCAT3-supported PUFA-phospholipid susceptibility → phospholipid hydroperoxide accumulation → self-propagating lipid oxidation → membrane permeability → Ca2+/ion flux → osmotic swelling → plasma-membrane rupture → ferroptosis.
+
+Copper branch:
+
+mitochondrial copper accumulation → FDX1-associated copper chemistry → copper binding to lipoylated TCA-cycle proteins → abnormal protein aggregation + Fe–S-protein destabilization → mitochondrial proteotoxic stress → metabolic collapse → cuproptosis.
+
+Zinc branch:
+
+pathological lysosomal Zn2+ mobilization → TRPML1-mediated Zn2+ release → mitochondrial Zn2+-associated injury → mitochondrial swelling/dysfunction → ATP depletion → homeostatic failure → necrotic death/lysozincrosis.
+
+Calcium branch:
+
+cytosolic Ca2+ elevation → mitochondrial Ca2+ overload + ROS → mPTP sensitization → persistent high-conductance MPT → Δψm collapse → oxidative-phosphorylation arrest → ATP depletion → matrix and cellular swelling → membrane failure → MPT-driven necrosis.
+
+Shared amplifiers can include ROS, glutathione depletion, mitochondrial dysfunction, altered autophagy, failed organelle repair, and metabolic stress.
+
+However:
+
+shared amplifier ≠ shared execution mechanism.
+
+The integrated family model is therefore:
+
+metal dyshomeostasis → compartment-specific accumulation or redistribution → metal-specific biochemical lesion → route-specific amplification → route-specific commitment → route-specific physical execution → cell death.
+
+13. Final Mechanistic Interpretation
+
+For RCDome, Metalloptosis should not be classified as a single independent regulated-cell-death modality with one core molecular pathway.
+
+The supplied evidence supports a more conservative and biologically coherent interpretation: Metalloptosis is an emerging umbrella concept or proposed superfamily grouping mechanistically distinct regulated deaths whose initiating logic depends on metal-ion homeostasis.
+
+Its strongest established members are ferroptosis and cuproptosis.
+
+Ferroptosis is defined by iron-dependent phospholipid peroxidation.
+
+Cuproptosis is defined by copper-dependent mitochondrial lipoylated-protein aggregation and Fe–S-protein destabilization.
+
+Lysozincrosis provides a zinc-centered lysosome-to-mitochondria death mechanism, but the named entity remains less standardized.
+
+Ca2+/MPT-driven necrosis provides a well-established mitochondrial permeability-transition death mechanism, although its inclusion within the broader “metalloptosis” terminology reflects the emerging superfamily concept rather than a reclassification of MPT-driven necrosis itself.
+
+The most important mechanistic principle is therefore that the metal defines the upstream vulnerability, but the physical executor is route-specific.
+
+There is no universal metalloptosis executor.
+
+There is no universal metalloptosis point of no return.
+
+There is no universal metalloptosis morphology.
+
+There is no universal metalloptosis biomarker.
+
+Consequently, an experimental study should not conclude “metalloptosis” solely from altered Fe, Cu, Zn, Ca2+, ROS, mitochondrial dysfunction, or metal-responsive gene expression.
+
+The specific branch must be demonstrated.
+
+The principal unresolved question is conceptual rather than merely molecular: whether Metalloptosis will mature into a standardized RCD superfamily with agreed inclusion criteria and subtype definitions, or remain a useful descriptive umbrella for several independently defined metal-dependent death mechanisms.
+
+For RCDome, the safest operational annotation is therefore:
+
+classification: emerging umbrella concept / proposed metal-dependent RCD superfamily;
+
+core shared principle: lethal metal-ion dyshomeostasis;
+
+universal core machinery: none;
+
+universal executor: none;
+
+terminal cause: subtype-dependent;
+
+strongest established components: ferroptosis and cuproptosis;
+
+additional included/emerging routes: lysozincrosis and Ca2+/MPT-associated death;
+
+transcriptomic interpretation: metalloptosis-associated metal-homeostasis or susceptibility state, never direct evidence of active Metalloptosis.
+

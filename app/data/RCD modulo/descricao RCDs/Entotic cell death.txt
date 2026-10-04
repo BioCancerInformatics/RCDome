@@ -1,0 +1,1802 @@
+# Entotic cell death
+
+## Definition and Classification
+
+Entotic cell death is an established **cell-in-cell form of regulated cell death** in which one living cell actively invades a neighboring living cell and becomes enclosed within a host-cell-derived vacuole [33-35]. The internalized cell can initially remain viable, but in the canonical lethal outcome it is subsequently killed non-cell-autonomously through host-controlled vacuole maturation, lysosomal fusion, acidification, and enzymatic degradation [1-5].
+
+The defining sequence is therefore:
+
+**stress or deadhesion → mechanical asymmetry between neighboring cells → cadherin-mediated cell-cell junction → polarized RhoA–ROCK–actomyosin contractility in the future inner cell → active invasion into the host → complete enclosure inside a single-membrane entotic vacuole → LC3-associated vacuole maturation → lysosomal fusion → vacuolar acidification → hydrolase-mediated degradation of the inner cell → entotic cell death.**
+
+Entotic cell death differs fundamentally from conventional phagocytosis or efferocytosis.
+
+In efferocytosis, the phagocyte engulfs a cell that is already dying or dead.
+
+In canonical entotic cell death, the future inner cell is alive and **actively drives its own internalization** [1,3,6].
+
+This distinction is critical.
+
+The host cell does not simply engulf a passive target.
+
+The invading cell generates polarized cortical forces that push it into its neighbor.
+
+Entotic cell death is also different from apoptosis because the predominant lethal mechanism is not an autonomous caspase cascade within the inner cell.
+
+Instead, the canonical inner cell is destroyed by a lysosomal compartment constructed and controlled by the host [2,4].
+
+However, the term **entotic cell death** describes a broader cell-in-cell process whose outcome is not invariably death.
+
+An internalized cell can:
+
+survive,
+
+escape,
+
+divide within the host,
+
+or die.
+
+Therefore, **cell-in-cell formation alone is not sufficient to establish entotic cell death** [3-5].
+
+---
+
+## Two Mechanistically Distinct Phases
+
+Entotic cell death is most clearly understood as two linked but separable modules.
+
+### Phase I: Cell-in-cell invasion
+
+A living cell actively penetrates a neighboring cell through:
+
+cadherin-dependent adhesion → spatially polarized RhoA signaling → ROCK activation → myosin-II-dependent cortical contraction → active internalization.
+
+### Phase II: Host-mediated execution
+
+After internalization:
+
+single-membrane entotic vacuole → LC3-associated processing → lysosome recruitment/fusion → acidification → lysosomal hydrolases → destruction of the inner cell.
+
+Thus, the machinery that **creates the cell-in-cell structure** is not identical to the machinery that **kills the inner cell**.
+
+This separation is one of the defining mechanistic features of entotic cell death.
+
+---
+
+# Initiation
+
+## Matrix Detachment as the Classical Trigger
+
+Entotic cell death was originally identified when epithelial cells lost attachment to extracellular matrix [1].
+
+Under adherent conditions, integrin-mediated interactions with extracellular matrix provide mechanical and signaling constraints that oppose uncontrolled cell-cell internalization.
+
+Loss of matrix attachment alters this mechanical balance.
+
+The classical sequence is:
+
+**loss of integrin–ECM attachment → cell rounding and altered cortical mechanics → enhanced relative importance of cadherin-mediated cell-cell interactions → polarized RhoA–ROCK–actomyosin contractility → entotic invasion.**
+
+Thus, matrix detachment is an important initiating context.
+
+However, it is not absolutely required.
+
+Entotic cell death can also occur in matrix-attached cells when other signaling or mechanical perturbations create sufficient asymmetry between neighboring cells [7].
+
+Therefore:
+
+**matrix detachment = prototypical trigger**
+
+but
+
+**mechanical asymmetry = broader mechanistic principle.**
+
+---
+
+## Mechanical Asymmetry as the Unifying Principle
+
+Many apparently unrelated entotic cell death triggers converge on a common physical outcome:
+
+**two neighboring cells acquire different cortical tension or mechanical states.**
+
+One cell becomes relatively more contractile and mechanically disadvantaged.
+
+That cell tends to become the **inner/loser cell**.
+
+In entosis, the neighboring cell that engulfs the internalized cell becomes the outer host cell, while the internalized cell is the inner cell [13].
+
+Thus:
+
+stress heterogeneity → unequal RhoA/ROCK/myosin activity → unequal cortical tension → winner/loser specification.
+
+The higher-tension cell often becomes internalized.
+
+This means that entotic cell death is not simply determined by which cell is stronger in a conventional sense.
+
+Instead, excessive contractility can paradoxically promote invasion of that cell into the less contractile neighbor.
+
+Glucose deprivation can induce entotic cell death in some cell types [29-30].
+
+During glucose starvation, metabolic heterogeneity emerges among neighboring cells.
+
+AMPK activation is associated with metabolic stress.
+
+Cells experiencing stronger energetic stress and AMPK activity can acquire the mechanically disadvantaged state associated with entotic internalization.
+
+Thus:
+
+**glucose deprivation → energetic stress → AMPK-associated heterogeneity → altered cortical mechanics → winner/loser asymmetry → entotic cell death.**
+
+This finding broadened the concept of entotic cell death beyond matrix detachment.
+
+It demonstrated that metabolic competition can be converted into physical cell competition.
+
+The host can subsequently derive nutrients from degradation of the internalized cell, linking entotic cell death to nutrient adaptation.
+
+---
+
+# UV Stress
+
+Ultraviolet radiation can also induce entotic cell death [9].
+
+In this context, stress signaling involving JNK and p38 contributes to differentiation between neighboring cells.
+
+Cells displaying greater stress-associated signaling are preferentially internalized.
+
+A working sequence is:
+
+**UV irradiation → heterogeneous stress response → JNK/p38 activation in susceptible cells → altered mechanical state → preferential internalization → entotic cell death.**
+
+UV-induced populations can display both apoptosis and entotic cell death.
+
+Therefore, UV exposure should not be interpreted as an entotic cell death-specific trigger.
+
+It creates a stress environment in which multiple death programs compete.
+
+---
+
+# Mitosis as an Entotic cell death-Promoting State
+
+Mitotic cells naturally detach partially from substrate and undergo cell rounding.
+
+These physical changes can create conditions favorable for entotic cell death [10].
+
+Prolonged or abnormal mitosis can therefore increase cell-in-cell formation.
+
+The sequence can be represented as:
+
+**mitotic deadhesion/rounding → altered polarity and cortical tension → RhoA-associated contractility → interaction with neighboring cell → entotic invasion.**
+
+Perturbation of Cdc42-associated polarity can further increase susceptibility in some settings.
+
+This demonstrates that entotic cell death can emerge from a transient mechanical state even without permanent loss of extracellular matrix adhesion.
+
+---
+
+# TRAIL-Induced Entotic cell death
+
+TRAIL provides an important example of crosstalk between death-receptor signaling and entotic cell death [11].
+
+TRAIL engages:
+
+TRAIL → DR4/DR5.
+
+Normally, these receptors are well known for activating extrinsic apoptosis.
+
+However, colorectal cancer models demonstrate that TRAIL can also promote entotic cell death.
+
+Thus, the same extracellular ligand can generate divergent cellular outcomes:
+
+**TRAIL → DR4/DR5 → apoptotic branch**
+
+or
+
+**TRAIL → DR4/DR5 → entotic cell death-associated branch.**
+
+Caspase-8 participates in this context, but its role should not be interpreted simply as conventional apoptotic execution.
+
+The key point is that TRAIL signaling can alter the state of neighboring cells in a manner that promotes cell-in-cell invasion.
+
+Therefore:
+
+**DR4/DR5 are context-dependent entotic cell death initiators, not universal entotic cell death receptors.**
+
+---
+
+# Cadherins as the Core Cell-Cell Adhesion System
+
+## E-Cadherin
+
+Cadherin-mediated adhesion is central to canonical epithelial entotic cell death.
+
+E-cadherin forms adherens junctions between neighboring epithelial cells.
+
+Experimental introduction of epithelial cadherins into cadherin-deficient cells can promote entotic cell death [12].
+
+Thus:
+
+**E-cadherin engagement → adherens junction formation → mechanical coupling of neighboring cells → spatial organization of RhoA signaling → entotic invasion.**
+
+E-cadherin does not itself generate the contractile force required for internalization.
+
+Instead, it establishes the mechanical interface against which polarized actomyosin forces act.
+
+---
+
+## P-Cadherin and Context-Dependent Cadherins
+
+P-cadherin can also support entotic cell death in appropriate epithelial contexts [12,36].
+
+Non-epithelial tumor cells may use alternative cadherins, including N-cadherin-associated mechanisms [13].
+
+Therefore, the essential concept is not one unique cadherin molecule.
+
+It is:
+
+**stable cadherin–catenin-mediated intercellular adhesion capable of mechanically coupling the two cells.**
+
+The precise cadherin depends on cell lineage and tissue context.
+
+---
+
+# The Cadherin–Catenin Junction Is a Mechanical Organizer
+
+The adherens junction is not simply molecular glue.
+
+It establishes spatial information that polarizes the invading cell.
+
+Cadherin complexes recruit proteins that locally regulate RhoA activity.
+
+A particularly important mechanism involves p190A RhoGAP.
+
+At the cell-cell junction:
+
+**cadherin junction → p190A RhoGAP recruitment → local conversion of RhoA-GTP to RhoA-GDP → suppression of contractility at the contact interface.**
+
+Meanwhile, the opposite cortex can retain or increase RhoA activation.
+
+This spatial separation creates a polarized contractile cell.
+
+Thus:
+
+junction side → low RhoA,
+
+distal/rear cortex → high RhoA.
+
+This polarity is fundamental for directed invasion.
+
+---
+
+# PDZ-RhoGEF
+
+PDZ-RhoGEF contributes to RhoA activation away from the adherens junction [3,14].
+
+The resulting spatial arrangement is:
+
+**p190A RhoGAP at junction → local RhoA inhibition**
+
+plus
+
+**PDZ-RhoGEF at distal cortex → RhoA activation.**
+
+Together these create:
+
+**polarized RhoA signaling → polarized actomyosin contraction → directional force toward the neighboring host cell.**
+
+This provides a mechanistic explanation for how two initially adjacent cells acquire a directional inner-versus-outer relationship.
+
+---
+
+# RhoA as the Central Mechanical Switch
+
+RhoA is one of the most important signal transducers in entotic invasion [3,15].
+
+Active RhoA stimulates ROCK kinases and associated actomyosin machinery.
+
+The canonical sequence is:
+
+**RhoA-GTP → ROCK1/ROCK2 → increased myosin light-chain phosphorylation → actin–myosin II contraction → increased cortical tension.**
+
+Importantly, RhoA activity is not uniform around the invading cell.
+
+It is spatially polarized.
+
+This localized contractility is what converts a symmetric cell-cell interaction into directional invasion.
+
+---
+
+# ROCK1 and ROCK2
+
+ROCK kinases transmit RhoA signaling to the contractile apparatus.
+
+They promote myosin activity by increasing phosphorylation of myosin light chain and by suppressing myosin phosphatase activity.
+
+Thus:
+
+**RhoA → ROCK1/2 → ↑ pMLC → myosin-II activation → cortical contraction.**
+
+ROCK inhibition strongly suppresses entotic internalization in canonical models [15].
+
+This makes RhoA–ROCK signaling one of the strongest experimentally validated parts of the invasion mechanism.
+
+However, ROCK activity primarily drives **entry into the host**.
+
+It does not directly perform the subsequent lysosomal killing.
+
+---
+
+# Myosin II and Cortical Tension
+
+Myosin II interacts with cortical actin to generate contractile forces.
+
+In the future inner cell:
+
+**RhoA/ROCK → myosin light-chain phosphorylation → myosin-II contractility → high cortical tension.**
+
+The pMLC-high cell commonly becomes the loser/internalized cell [8,13].
+
+This mechanical asymmetry creates a striking paradox:
+
+the more contractile cell actively drives itself into its softer neighbor.
+
+Therefore, entotic cell death represents a form of **active invasion**, not passive engulfment.
+
+---
+
+# Winner and Loser Cell Specification
+
+Neighboring cells can acquire distinct roles.
+
+### Loser / future inner cell
+
+typically displays:
+
+higher cortical tension,
+
+stronger polarized RhoA–ROCK–myosin signaling,
+
+increased pMLC,
+
+active invasive behavior.
+
+### Winner / host cell
+
+typically displays:
+
+relatively lower contractility,
+
+greater deformability,
+
+ability to accommodate the invading cell.
+
+Thus, winner/loser status is strongly influenced by relative mechanical state rather than simply by absolute expression of a single marker.
+
+---
+
+# Rac1 and KRAS in Winner-Cell Behavior
+
+Rac1 can counterbalance RhoA-driven contractility.
+
+High Rac1 activity can reduce contractile myosin behavior and favor host-cell status [3,8].
+
+Similarly, oncogenic KRAS has been associated with winner behavior in some entotic cell death models.
+
+Thus:
+
+**Rac1-high / reduced contractility → greater probability of host/winner status.**
+
+Conversely:
+
+**high RhoA–ROCK–myosin tension → greater probability of inner/loser status.**
+
+This illustrates that Rho and Rac signaling contribute to a mechanical competition between neighboring cells.
+
+---
+
+# RND3/RhoE as a Negative Regulator
+
+RND3/RhoE restrains RhoA–ROCK-associated contractility.
+
+Loss of RND3 can therefore enhance entotic cell death [16].
+
+A simplified sequence is:
+
+**RND3 loss → reduced restraint of RhoA/ROCK → increased cortical contractility → increased entotic susceptibility.**
+
+In hepatocellular carcinoma models, RND3 loss is also associated with changes involving LAMP1 and the lysosomal phase of entotic cell death [16].
+
+Thus, RND3 can influence both propensity for invasion and downstream processing depending on context.
+
+---
+
+# LPAR2–G12/13–PDZ-RhoGEF Pathway
+
+G-protein-coupled receptor signaling provides another route toward polarized RhoA activation.
+
+LPAR2 signaling can activate heterotrimeric G proteins of the G12/13 family [14].
+
+The sequence is:
+
+**LPAR2 → G12/13 → PDZ-RhoGEF → RhoA → ROCK → actomyosin contractility.**
+
+This pathway acts primarily in the invading cell.
+
+It demonstrates that extracellular lipid signaling can regulate the mechanical machinery responsible for cell-in-cell invasion.
+
+---
+
+# Orai1-Mediated Ca²⁺ Signaling
+
+Calcium signaling provides an additional invasion mechanism.
+
+Orai1 has been identified as an entotic cell death-associated Ca²⁺ channel [17].
+
+Orai1 localization is spatially organized during cell-in-cell formation.
+
+The proposed sequence is:
+
+**polarized Orai1 activity → localized Ca²⁺ influx → calmodulin activation → MLCK activation → myosin light-chain phosphorylation → enhanced actomyosin contractility → invasion.**
+
+Thus, Ca²⁺ signaling converges on the same mechanical output as RhoA–ROCK signaling:
+
+**myosin activation and cortical force generation.**
+
+---
+
+# Septins and Orai1 Polarization
+
+Septin-associated organization contributes to localization of Orai1-associated calcium signaling [17].
+
+This creates another level of polarity within the invading cell.
+
+The functional principle is:
+
+**spatially restricted ion signaling → spatially restricted contractility.**
+
+This supports the concept that entotic cell death depends not simply on globally increased RhoA or Ca²⁺ but on asymmetric mechanical organization.
+
+---
+
+# Calmodulin and MLCK
+
+Ca²⁺ binds calmodulin.
+
+Activated calmodulin stimulates myosin light-chain kinase.
+
+Therefore:
+
+**Ca²⁺ → calmodulin → MLCK → MLC phosphorylation → actomyosin contraction.**
+
+This pathway can operate alongside RhoA–ROCK.
+
+The two pathways converge on myosin activity and can therefore cooperate to generate the force required for invasion.
+
+---
+
+# Actin Cytoskeleton
+
+Actin provides the structural framework through which entotic force is transmitted.
+
+The invading cell requires dynamic cortical actin organization.
+
+Thus:
+
+RhoA/ROCK signaling + Ca²⁺/MLCK signaling → actin–myosin organization → cortical tension and directional contraction.
+
+Pharmacological interference with actin dynamics disrupts entotic invasion.
+
+However, actin is not the terminal lethal executor.
+
+Its principal role occurs during internalization.
+
+---
+
+# mDia1
+
+Formin-associated actin regulation, including mDia1, contributes to the architecture of the contractile cortex in entotic cell death [3,18].
+
+This supports actin filament organization downstream of Rho-family signaling.
+
+Thus:
+
+**Rho signaling → mDia1-associated actin organization + ROCK-associated myosin activation → polarized contractile apparatus.**
+
+The combined system provides both:
+
+structural actin filaments,
+
+and
+
+myosin-generated contractile force.
+
+---
+
+# Ezrin and Entotic Blebbing
+
+Ezrin contributes to coupling the plasma membrane to cortical actin.
+
+During entotic invasion, the inner cell can display polarized membrane blebbing and a uropod-like rear structure [14].
+
+The sequence can be represented as:
+
+**Rho-dependent cortical remodeling → ezrin-associated membrane–actin coupling → polarized blebs/uropod-like structure → active cell penetration.**
+
+This blebbing should not be confused with apoptotic blebbing.
+
+In entotic cell death, it participates in **invasion mechanics**.
+
+Therefore:
+
+**blebs during entotic cell death ≠ evidence of apoptosis.**
+
+---
+
+# Vinculin-Rich Mechanical Ring
+
+A specialized mechanical interface forms between adherens junctions and the actomyosin cortex [19].
+
+Vinculin-rich structures can couple cadherin-based adhesion to contractile forces.
+
+The functional arrangement is:
+
+**cadherin junction → vinculin-containing mechanical interface → contractile actomyosin network.**
+
+This ring-like organization helps transmit forces between the two cells while maintaining sufficient adhesion for one cell to penetrate the other.
+
+Without such coupling, contractility would not necessarily be converted efficiently into directional invasion.
+
+This represents an emerging mechanistic extension of the invasion machinery.
+
+Because this evidence is newer than the RhoA–ROCK–cadherin framework, Plastin-3 should presently be considered a **context-dependent or emerging invasion regulator**, rather than a universal defining component [31].
+
+---
+
+# Completion of Internalization
+
+As invasion progresses:
+
+cadherin junction stabilizes cell-cell contact → polarized actomyosin force pushes the inner cell inward → host membrane wraps around the invading cell → complete enclosure occurs.
+
+The host cell often undergoes dramatic deformation.
+
+Its nucleus can become crescent- or sickle-shaped as it is displaced around the internalized cell [3-4].
+
+Eventually:
+
+**inner cell completely enclosed → entotic cell-in-cell structure.**
+
+At this point, however, death has **not necessarily occurred**.
+
+This is one of the most important mechanistic distinctions in the pathway.
+
+---
+
+# Internalization Is Not the Commitment to Death
+
+After complete enclosure, the inner cell can remain viable for prolonged periods [4-5].
+
+Possible outcomes include:
+
+escape from the host,
+
+release,
+
+survival,
+
+division inside the host,
+
+or death.
+
+Therefore:
+
+**cell internalization ≠ point of no return.**
+
+This distinguishes entotic cell death from mechanisms in which formation of the characteristic structural lesion itself is immediately lethal.
+
+The internalized cell still has multiple possible fates.
+
+---
+
+# The Entotic Vacuole
+
+After complete internalization, the inner cell is surrounded by a host-cell-derived membrane.
+
+This structure is termed the **entotic vacuole**.
+
+The vacuole originates largely from the plasma membrane of the host as it envelops the invading cell.
+
+Critically, it is a:
+
+**single-membrane compartment.**
+
+It is **not** a canonical double-membrane autophagosome [2,6].
+
+This structural distinction is essential for correct interpretation of the subsequent LC3 recruitment.
+
+---
+
+# Autophagy-Related Machinery Without Canonical Macroautophagy
+
+Autophagy-related proteins participate strongly in entotic killing.
+
+However, the pathway does not require formation of a classical double-membrane autophagosome around the inner cell.
+
+Instead, autophagy machinery is redirected toward the pre-existing single membrane of the entotic vacuole [2].
+
+Therefore:
+
+**entotic vacuole → ATG-dependent LC3 lipidation directly on single membrane.**
+
+This resembles LC3-associated processing rather than canonical macroautophagy.
+
+---
+
+# LC3 Recruitment
+
+LC3 is recruited and lipidated onto the entotic vacuole [2].
+
+This is a central step in progression toward lysosomal killing.
+
+The sequence is:
+
+**internalized viable cell → single-membrane entotic vacuole → LC3 conjugation to vacuolar membrane → increased capacity for lysosomal fusion and degradation.**
+
+LC3 accumulation therefore marks an important transition from simple containment toward active vacuole maturation.
+
+However, LC3 positivity alone should not automatically be equated with completed inner-cell death.
+
+---
+
+# ATG5 and ATG7
+
+LC3 lipidation requires components of the autophagy conjugation machinery, including ATG5 and ATG7 [2].
+
+Thus:
+
+**ATG5/ATG7 → LC3 conjugation to entotic vacuole → maturation toward lysosomal compartment.**
+
+Genetic disruption of these proteins interferes with canonical entotic killing.
+
+They therefore participate directly in the execution phase.
+
+Nevertheless, their function here differs from conventional autophagosome biogenesis.
+
+---
+
+# VPS34
+
+VPS34 also participates in entotic vacuole processing [2].
+
+The combined machinery can be represented as:
+
+**VPS34 + ATG5/ATG7-dependent LC3 conjugation → entotic vacuole maturation → lysosomal fusion.**
+
+VPS34 therefore belongs to the host-controlled execution machinery.
+
+---
+
+# ULK–ATG13–FIP200 Independence
+
+A crucial mechanistic distinction is that entotic LC3 recruitment does not require the full upstream machinery normally used to initiate canonical macroautophagy [2,20].
+
+In particular, the classical:
+
+ULK → ATG13 → FIP200
+
+initiation module is not required in the same way.
+
+Thus:
+
+**canonical autophagy:**
+
+ULK complex → phagophore initiation → double-membrane autophagosome → LC3 lipidation.
+
+**entotic death:**
+
+pre-existing single-membrane entotic vacuole → ATG5/ATG7/VPS34-associated LC3 lipidation → lysosomal maturation.
+
+This distinction prevents incorrect classification of entotic cell death as ordinary autophagy-dependent cell death.
+
+---
+
+# Lysosome Recruitment
+
+LC3-associated processing promotes interaction of the entotic vacuole with lysosomal compartments [2].
+
+LAMP1-positive lysosomes accumulate around or fuse with the entotic vacuole.
+
+Thus:
+
+**LC3-positive entotic vacuole → lysosome recruitment/fusion → LAMP1-positive degradative compartment.**
+
+This marks progression from containment toward active host-mediated killing.
+
+---
+
+# LAMP1
+
+LAMP1 serves as an important marker of lysosomal maturation.
+
+As the entotic vacuole acquires lysosomal characteristics:
+
+**LC3-positive vacuole → LAMP1 acquisition → acidic hydrolase-containing compartment.**
+
+Increased LAMP1-associated processing has also been linked to regulation of entotic cell death in RND3-deficient contexts [16].
+
+However, LAMP1 should be interpreted primarily as evidence of lysosomal identity, not as an independent lethal enzyme.
+
+---
+
+# Vacuolar Acidification
+
+Acidification represents one of the strongest events associated with entotic execution [21].
+
+While the internalized cell remains alive, vacuolar pH can remain relatively moderate.
+
+Near the transition to death, vacuolar pH drops substantially.
+
+Thus:
+
+**viable internalized cell → relatively non-lethal vacuolar environment → lysosomal maturation → sharp pH reduction → strongly acidic entotic vacuole → inner-cell degradation.**
+
+This acidification is particularly important because lysosomal hydrolases require an acidic environment for optimal activity.
+
+---
+
+# Acidification as a Candidate Commitment Event
+
+Because internalization itself is reversible, the most plausible point of commitment lies later.
+
+The strongest candidate is:
+
+**LC3-associated maturation → lysosomal fusion → profound vacuolar acidification.**
+
+Once the inner cell is enclosed within an acidic, hydrolase-rich lysosomal compartment, recovery becomes increasingly unlikely.
+
+Thus:
+
+early internalization → potentially reversible,
+
+mature lysosomal entotic vacuole → probable commitment to death.
+
+No single universally accepted molecular point of no return has yet been established.
+
+Therefore, acidification should be described as the **best-supported candidate commitment transition**, not an absolutely proven universal threshold.
+
+---
+
+# Lysosomal Hydrolases
+
+Once lysosomes fuse with the vacuole, acid hydrolases gain access to the compartment.
+
+These enzymes progressively destroy the internalized cell.
+
+The execution sequence is:
+
+**lysosomal fusion → acidic pH → activation of lysosomal hydrolases → degradation of cellular proteins, membranes, nucleic acids and organelles → loss of structural and metabolic integrity → death.**
+
+Unlike apoptosis, death does not primarily result from an executioner-caspase cascade generated within the inner cell.
+
+Instead, the destructive machinery is largely supplied by the host.
+
+This makes entotic cell death fundamentally **non-cell-autonomous**.
+
+---
+
+# Cathepsins
+
+Cathepsins are candidate lysosomal effectors of terminal entotic destruction.
+
+Cathepsin B has been implicated in some experimental models [4,11].
+
+A context-dependent sequence is:
+
+**lysosome fusion → acidic activation of cathepsin B and other hydrolases → degradation of inner-cell components.**
+
+However, current evidence does not support one single cathepsin as a universal entotic cell death executor.
+
+It is more accurate to consider the terminal machinery as a **lysosomal hydrolase network**.
+
+---
+
+# Proximate Cause of Entotic Death
+
+The most defensible current model is:
+
+**host-controlled conversion of the entotic vacuole into an acidic lysosomal compartment causes progressive enzymatic destruction of the living inner cell.**
+
+Thus, the proximate cause is:
+
+**lysosomal degradation within the host.**
+
+This differs fundamentally from:
+
+apoptosis → caspase-mediated self-destruction,
+
+ferroptosis → lipid-peroxidative membrane damage,
+
+necroptosis → MLKL-mediated membrane disruption,
+
+pyroptosis → gasdermin pore formation.
+
+In entotic cell death:
+
+**another living cell constructs the lethal compartment.**
+
+---
+
+# mTORC1 and Amino-Acid Regulation
+
+The fate of the internalized cell is also regulated by nutrient availability [22].
+
+Amino acids and mTORC1 influence whether the entotic vacuole progresses toward efficient killing.
+
+The supplied experimental framework indicates that amino-acid withdrawal or mTOR inhibition can interfere with LC3-associated entotic killing and shift the fate of internalized cells toward survival or alternative death outcomes.
+
+Thus:
+
+**nutrient availability → mTORC1-associated regulation → entotic vacuole maturation and fate selection.**
+
+This adds a metabolic checkpoint after physical internalization.
+
+---
+
+# Why Engulfment Alone Is Insufficient
+
+Entotic vacuoles mature more slowly than classical phagosomes [22].
+
+This delay is biologically important.
+
+It means:
+
+**inner cell internalized**
+
+does not automatically lead immediately to:
+
+**inner cell degraded.**
+
+Instead, a regulated post-engulfment interval exists during which the fate of the inner cell remains plastic.
+
+This interval helps explain observations of:
+
+survival,
+
+escape,
+
+and division within host cells.
+
+---
+
+# PI(4,5)P2 and Vacuole Identity
+
+Recent work suggests that entotic vacuoles maintain an unusual phosphoinositide identity [23].
+
+PI(4,5)P2 can remain associated with the entotic compartment for prolonged periods.
+
+Its eventual disappearance appears to accompany progression toward lysosomal destruction.
+
+Thus:
+
+**newly formed entotic vacuole → persistent PI(4,5)P2 state → delayed membrane identity transition → PI(4,5)P2 loss → increased permissiveness for lysosomal killing.**
+
+This suggests that commitment is not controlled only by LC3.
+
+A delayed change in vacuolar membrane identity may determine when the host switches from **containment** to **destruction**.
+
+Because this model is relatively recent, it should be regarded as an emerging refinement rather than an established universal checkpoint.
+
+---
+
+# mTORC1-Dependent Vacuolar Processing After Killing
+
+After the inner cell is destroyed, the host must process the large amount of cellular material remaining inside the vacuole.
+
+mTOR contributes to entotic vacuole fission and post-degradative processing [24].
+
+Thus:
+
+**inner-cell degradation → large nutrient-rich entotic vacuole → mTOR-associated vacuole fission/scission → redistribution and utilization of degraded material.**
+
+This allows the host to recover nutrients from the killed cell.
+
+---
+
+# PIKfyve
+
+PIKfyve contributes to vacuole maturation and nutrient recovery after cell engulfment [25].
+
+The pathway involves phosphoinositide remodeling required for processing large degradative compartments.
+
+Thus:
+
+**post-engulfment vacuole → PIKfyve-associated maturation → lysosomal/vacuolar processing → nutrient recovery.**
+
+PIKfyve therefore acts predominantly during or after the lysosomal phase rather than during initial invasion.
+
+---
+
+# TRPML1
+
+PIKfyve-associated lysosomal signaling intersects with TRPML1-dependent processes during maturation and nutrient recovery.
+
+This provides a mechanism by which ion signaling and phosphoinositide remodeling regulate processing of the large entotic vacuole.
+
+Again, this is a host-cell function.
+
+It should not be mistaken for signaling occurring autonomously within the dying inner cell.
+
+---
+
+# Nutrient Recovery by the Host
+
+Entotic cell death can provide a metabolic advantage to host cells.
+
+The killed inner cell represents a large nutrient source.
+
+Following lysosomal degradation:
+
+proteins → amino acids,
+
+membranes → lipids,
+
+other cellular macromolecules → reusable metabolites.
+
+Thus:
+
+**entotic killing → lysosomal digestion → nutrient release → host metabolic benefit.**
+
+This may be particularly advantageous in nutrient-poor environments such as tumors.
+
+Consequently, entotic cell death can function simultaneously as:
+
+cell competition,
+
+regulated death,
+
+and nutrient acquisition.
+
+---
+
+# Early Entotic cell death Is Reversible
+
+One of the most important experimental observations is that an internalized cell can survive [3-5].
+
+Therefore, early entotic cell death should be considered reversible.
+
+Possible trajectory:
+
+**active invasion → enclosure → temporary residence → release/escape → survival.**
+
+Alternative trajectory:
+
+**active invasion → enclosure → division of the inner cell.**
+
+Lethal trajectory:
+
+**active invasion → enclosure → lysosomal maturation → acidification → degradation.**
+
+This fate plasticity makes direct longitudinal observation particularly important.
+
+---
+
+# No Universal Point of No Return
+
+The pathway does not yet have a universally demonstrated irreversible molecular checkpoint.
+
+The strongest candidate is the transition from a relatively stable entotic vacuole to:
+
+**LC3-positive → LAMP1/lysosome-associated → strongly acidic → hydrolase-rich.**
+
+Once this transition is sufficiently advanced, the internalized cell is exposed to destructive lysosomal conditions and recovery appears unlikely.
+
+Nevertheless, the exact event that converts a long-lived non-lethal entotic vacuole into a lethal one remains incompletely understood.
+
+This is one of the major mechanistic gaps in the field.
+
+---
+
+# Negative Regulation Before Internalization
+
+Several mechanisms can suppress entotic cell death by preventing the mechanical asymmetry required for invasion.
+
+Examples include:
+
+reduced RhoA activity,
+
+reduced ROCK activity,
+
+reduced myosin phosphorylation,
+
+loss of appropriate cadherin adhesion,
+
+increased Rac1-associated host-like behavior,
+
+and RND3-mediated restraint of RhoA signaling.
+
+Thus, resistance can occur at the invasion stage:
+
+**insufficient adhesion or insufficient polarized contractility → failure of cell-in-cell formation.**
+
+---
+
+# Negative Regulation After Internalization
+
+A second set of checkpoints operates after the cell is already inside.
+
+These involve:
+
+vacuole membrane identity,
+
+LC3 recruitment,
+
+lysosomal fusion,
+
+acidification,
+
+nutrient/mTOR signaling,
+
+and lysosomal competence.
+
+Therefore, an entotic event can be blocked at two fundamentally different levels:
+
+**invasion failure**
+
+or
+
+**execution failure.**
+
+This distinction is important experimentally.
+
+---
+
+# Crosstalk with Apoptosis
+
+Entotic cell death is classically described as a non-apoptotic form of cell death [1-2].
+
+Canonical entotic killing does not require the characteristic autonomous caspase-execution pathway of apoptosis.
+
+However, entotic cell death and apoptosis can coexist.
+
+An internalized cell may undergo apoptosis instead of lysosomal entotic death.
+
+This becomes particularly evident when normal entotic vacuole processing is perturbed or when the initiating stimulus can engage both pathways [3,9,11].
+
+Thus:
+
+**cell internalization → lysosomal maturation → entotic death**
+
+or
+
+**cell internalization → autonomous apoptotic activation → apoptosis inside host.**
+
+These are mechanistically different outcomes.
+
+---
+
+# TRAIL as an Entotic cell death–Apoptosis Branch Point
+
+TRAIL is particularly informative because it can stimulate both programs [11].
+
+The same ligand/receptor system can produce:
+
+**TRAIL → DR4/DR5 → caspase-associated apoptotic pathway**
+
+and
+
+**TRAIL → DR4/DR5 → entotic cell death-promoting signaling → cell-in-cell invasion.**
+
+The supplied evidence indicates a context-dependent role for caspase-8 and BAX/BAK-associated signaling in determining the relative balance among entotic killing, apoptosis, survival, and release.
+
+Therefore, TRAIL-induced entotic cell death should be described as a specific crosstalk model rather than the canonical homeostatic definition of entotic cell death.
+
+---
+
+# UV-Induced Competition Between Death Modes
+
+UV exposure similarly produces mixed outcomes [9].
+
+Some cells undergo apoptosis.
+
+Others become preferentially internalized through entotic cell death.
+
+Blocking one death mode can alter the frequency of another.
+
+Thus, entotic cell death should not be interpreted as an isolated biochemical pathway operating independently from the cellular stress landscape.
+
+Its initiation frequently depends on **relative differences between neighboring cells**.
+
+---
+
+# Entotic cell death Is Not Canonical Autophagy-Dependent Cell Death
+
+The participation of ATG proteins and LC3 can create confusion with autophagy-dependent cell death.
+
+However, the mechanisms are distinct.
+
+Canonical autophagy:
+
+cytoplasmic cargo → phagophore → double-membrane autophagosome → lysosome.
+
+Entotic cell death:
+
+whole living neighboring cell → active invasion → host-derived single-membrane vacuole → LC3 conjugation directly onto that membrane → lysosome.
+
+Thus, autophagy-related proteins are repurposed for processing a macroendocytic compartment [2].
+
+The pathway should therefore remain classified as **entotic cell death**, not ordinary autophagy-dependent cell death.
+
+---
+
+# Entotic cell death Versus Efferocytosis
+
+The distinction from efferocytosis is fundamental.
+
+### Efferocytosis
+
+dying/dead target → PS/find-me signaling → phagocyte recognizes target → phagocyte actively engulfs it.
+
+### Entotic cell death
+
+living target → cadherin-mediated interaction → **target itself generates RhoA–ROCK–myosin force** → target actively invades neighboring cell.
+
+Thus:
+
+**efferocytosis = eater-driven uptake of a dying cell.**
+
+**entotic cell death = inner-cell-driven invasion of a living cell.**
+
+The subsequent use of LC3 and lysosomal degradation can superficially resemble phagocytic processing, but the initiation logic is entirely different.
+
+---
+
+# Entotic cell death Versus Cell Cannibalism
+
+Cell cannibalism is a broader descriptive term for one cell consuming another.
+
+It does not automatically specify the molecular mechanism.
+
+Entotic cell death is more restrictive.
+
+For an event to be mechanistically assigned as entotic cell death, evidence should support:
+
+living-cell invasion,
+
+cadherin-mediated adhesion,
+
+polarized RhoA–ROCK–actomyosin activity in the future inner cell,
+
+and characteristic host-vacuole maturation.
+
+Therefore:
+
+**cell inside another cell ≠ automatically entotic cell death.**
+
+---
+
+# Entotic cell death Versus Emperipolesis
+
+Emperipolesis describes viable cells located within other cells, often immune cells traversing or temporarily residing within a host.
+
+The internalized cell can remain viable and exit.
+
+Entotic cell death differs because the invading-cell contractility machinery and lysosomal killing program form a characteristic mechanistic sequence.
+
+Nevertheless, morphology alone cannot reliably distinguish these processes.
+
+Live-cell behavior and molecular markers are needed.
+
+---
+
+# Entotic cell death Versus Emperitosis
+
+Emperitosis is particularly important because it also involves cell-in-cell structures but uses different execution machinery [26].
+
+In emperitosis, immune killer cells can become internalized into tumor cells.
+
+Granzyme B is then re-imported or retained in a manner that triggers:
+
+**granzyme B → caspase-dependent apoptosis of the internalized immune cell.**
+
+Thus:
+
+emperitosis → apoptotic execution inside a cell-in-cell structure.
+
+Entotic cell death → host-vacuole lysosomal execution.
+
+This is why identifying an inner cell dying inside another cell is not sufficient to classify the mechanism.
+
+---
+
+# Morphological Sequence
+
+The characteristic temporal sequence is:
+
+normal neighboring epithelial cells → loss of matrix attachment or alternative entotic cell death-promoting stress → cell rounding → cadherin-based contact → polarization of cortical RhoA–ROCK–myosin signaling in one cell → blebbing/uropod-like rear organization → active penetration into the neighboring cell → progressive host-cell wrapping → full enclosure.
+
+After enclosure:
+
+viable inner cell within single-membrane vacuole → delayed vacuole maturation → LC3 recruitment → LAMP1/lysosome acquisition → sharp acidification → progressive inner-cell degradation → disappearance of nucleus and cellular architecture → residual material digested by host.
+
+The host cell may show:
+
+crescent-shaped or displaced nucleus,
+
+large cytoplasmic vacuole,
+
+and subsequent nutrient utilization.
+
+---
+
+# What Physically Kills the Inner Cell?
+
+The strongest mechanistic evidence supports:
+
+**lysosomal destruction inside an acidified entotic vacuole.**
+
+The causal sequence is:
+
+LC3-associated single-membrane processing → lysosome fusion → low vacuolar pH → lysosomal hydrolase activity → progressive degradation of essential cellular structures → irreversible loss of viability.
+
+Thus, unlike apoptosis:
+
+the inner cell does not primarily destroy itself.
+
+The host cell builds the compartment that destroys it.
+
+This is why entotic cell death is described as a **non-cell-autonomous regulated cell death mechanism**.
+
+---
+
+# Experimental Identification
+
+The strongest evidence for entotic cell death combines several approaches.
+
+Time-lapse microscopy was employed to corroborate the entosis staging based on sequential analysis of individual images [27,32].
+
+This directly distinguishes entotic cell death from passive engulfment.
+
+---
+
+## Confocal and Ultrastructural Imaging
+
+Confocal and electron microscopy can confirm:
+
+complete enclosure,
+
+cell-cell junctions,
+
+single-membrane entotic vacuoles,
+
+host nuclear deformation,
+
+and subsequent lysosomal maturation.
+
+However, static microscopy alone is weaker than live imaging for determining which cell actively drove internalization.
+
+---
+
+# Testing the Invasion Machinery
+
+Strong mechanistic perturbations include:
+
+cadherin disruption → prevents appropriate intercellular junctions.
+
+RhoA inhibition → suppresses polarized contractility.
+
+ROCK inhibition → suppresses myosin activation and invasion.
+
+myosin-II inhibition → prevents force generation.
+
+actin disruption → prevents mechanical invasion.
+
+PDZ-RhoGEF disruption → decreases polarized RhoA activation.
+
+Orai1/CaM/MLCK perturbation → reduces Ca²⁺-dependent contractility.
+
+These interventions determine whether a cell-in-cell structure is generated through the canonical entotic invasion machinery.
+
+---
+
+# Testing the Execution Machinery
+
+After internalization has already occurred, a different set of perturbations should be used.
+
+ATG5 or ATG7 loss → impaired LC3 lipidation.
+
+VPS34 perturbation → impaired vacuole processing.
+
+lysosomal disruption → impaired entotic killing.
+
+inhibition of vacuolar acidification → reduced lysosomal degradation.
+
+cathepsin perturbation → tests hydrolase involvement in selected systems.
+
+PIKfyve/mTOR-associated manipulations → test vacuole processing and nutrient recovery.
+
+This allows researchers to distinguish:
+
+**failure to internalize**
+
+from
+
+**failure to kill after internalization.**
+
+---
+
+# Cell-in-Cell Morphology Alone Is Insufficient
+
+Histological cell-in-cell structures occur in many tumors.
+
+However, morphology cannot establish mechanism.
+
+Similar structures may arise through:
+
+entotic cell death,
+
+phagocytosis,
+
+cannibalism,
+
+emperipolesis,
+
+or emperitosis.
+
+Therefore, a mechanistic diagnosis should ideally demonstrate:
+
+**living-cell invasion + entotic contractility machinery + host-derived vacuole + lysosomal execution.**
+
+---
+
+# Transcriptomic Evidence Requires Caution
+
+Entotic cell death is highly dependent on:
+
+cell-cell topology,
+
+relative mechanical state,
+
+subcellular RhoA polarization,
+
+cytoskeletal force,
+
+and host-vacuole maturation.
+
+These features cannot be directly inferred from bulk or single-cell transcript abundance.
+
+Expression of genes such as:
+
+CDH1,
+
+RHOA,
+
+ROCK1/2,
+
+ATG5,
+
+ATG7,
+
+or lysosomal genes
+
+may indicate biological competence or an entotic cell death-associated state.
+
+However:
+
+**an “entotic cell death gene signature” does not demonstrate that entotic cell death is actively occurring.**
+
+Direct spatial, morphological, live-cell, or functional evidence remains necessary to establish the process.
+
+---
+
+# Biological Consequences in Cancer
+
+Entotic cell death is especially prominent in tumors.
+
+Its biological effect can be context dependent.
+
+By killing neighboring cells, entotic cell death can function as a form of cell competition.
+
+The host cell may acquire nutrients from the destroyed inner cell.
+
+Thus:
+
+**entotic cell death → elimination of competitor + nutrient acquisition → potential selective advantage of winner cell.**
+
+Conversely, entotic cell death can remove detached tumor cells and potentially suppress some cellular populations.
+
+Therefore, entotic cell death is not intrinsically tumor-promoting or tumor-suppressive in every context.
+
+Its biological outcome depends on which cells become winners and which become losers.
+
+---
+
+# Host-Cell Genomic Consequences
+
+Large internalized cells can mechanically distort the host.
+
+The host nucleus may become displaced or compressed.
+
+Cell-in-cell structures can also interfere with host-cell division.
+
+These consequences provide additional routes through which entotic cell death may contribute to tumor heterogeneity.
+
+However, such downstream consequences are not defining components of the lethal pathway itself.
+
+One of the most important conceptual interpretations of entotic cell death is **mechanical cell competition** [8,28].
+
+Neighboring cells compare relative mechanical states.
+
+The higher-tension cell often becomes internalized.
+
+The lower-tension cell becomes the host.
+
+Thus:
+
+heterogeneous population → mechanical differences → winner/loser selection → entotic cell death → loser-cell elimination.
+
+This makes entotic cell death fundamentally relational.
+
+Unlike many RCD pathways, susceptibility cannot always be understood from the molecular state of one isolated cell.
+
+Its fate depends on the state of its neighbor.
+
+---
+
+# Protective and Resistance Mechanisms
+
+An inner cell can avoid entotic death at several stages.
+
+Before invasion:
+
+weak cadherin engagement → reduced entotic interaction.
+
+low RhoA/ROCK/myosin activity → reduced invasive force.
+
+higher Rac1/low contractility → increased host/winner probability.
+
+RND3 activity → restraint of RhoA-associated invasion.
+
+After internalization:
+
+failure of LC3 recruitment → impaired vacuole maturation.
+
+failure of lysosomal fusion → delayed killing.
+
+insufficient vacuolar acidification → increased probability of inner-cell survival or alternative fate.
+
+altered amino-acid/mTOR signaling → changes in fate of internalized cell.
+
+Therefore, protection can mean either:
+
+**avoiding internalization**
+
+or
+
+**surviving after internalization.**
+
+---
+
+# Molecular Hierarchy
+
+### Initiating contexts
+
+matrix detachment,
+
+glucose starvation,
+
+UV radiation,
+
+abnormal/prolonged mitosis,
+
+TRAIL signaling,
+
+altered cell polarity,
+
+cadherin-state changes,
+
+heterogeneous mechanical stress.
+
+### Context-specific sensors/regulators
+
+loss of integrin–ECM engagement,
+
+AMPK,
+
+JNK/p38,
+
+DR4/DR5,
+
+cell-polarity systems,
+
+cadherins.
+
+### Cell-cell interface
+
+E-cadherin/P-cadherin or context-specific cadherins,
+
+catenins,
+
+vinculin-containing mechanical interface.
+
+### Polarity machinery
+
+p190A RhoGAP,
+
+PDZ-RhoGEF,
+
+LPAR2,
+
+G12/13,
+
+septins,
+
+Orai1.
+
+### Contractility machinery
+
+RhoA,
+
+ROCK1/2,
+
+Ca²⁺,
+
+calmodulin,
+
+MLCK,
+
+phosphorylated MLC,
+
+myosin II,
+
+actin,
+
+mDia1,
+
+ezrin.
+
+### Physical invasion
+
+polarized cortical contraction,
+
+rear blebbing/uropod-like organization,
+
+host-cell deformation,
+
+complete inner-cell enclosure.
+
+### Execution compartment
+
+single-membrane entotic vacuole.
+
+### Vacuole-maturation machinery
+
+VPS34,
+
+ATG5,
+
+ATG7,
+
+LC3,
+
+LAMP1-positive lysosomes,
+
+vacuolar acidification,
+
+lysosomal hydrolases.
+
+### Context-dependent terminal enzymes
+
+cathepsin B and other lysosomal hydrolases.
+
+### Fate/maturation regulators
+
+amino acids,
+
+mTORC1,
+
+PIKfyve,
+
+TRPML1,
+
+PI(4,5)P2-associated membrane identity.
+
+### Negative regulators or winner-associated factors
+
+Rac1,
+
+context-dependent oncogenic KRAS,
+
+RND3/RhoE,
+
+reduced RhoA–ROCK contractility.
+
+---
+
+# Integrated Canonical Sequence
+
+The most defensible canonical mechanism begins with two neighboring epithelial cells exposed to a condition that generates mechanical asymmetry.
+
+A common route is:
+
+**matrix detachment → loss of integrin–ECM mechanical opposition → increased dependence on cadherin-mediated cell-cell contacts.**
+
+Alternative entry routes include:
+
+glucose starvation → AMPK-associated metabolic heterogeneity,
+
+UV stress → JNK/p38-associated stress heterogeneity,
+
+mitotic rounding/deadhesion,
+
+TRAIL → DR4/DR5-associated signaling,
+
+or altered polarity/adhesion programs.
+
+These different inputs converge on:
+
+**unequal cortical mechanics between neighboring cells.**
+
+Then:
+
+cadherin-mediated junction formation → recruitment of junctional regulatory machinery → p190A RhoGAP suppresses RhoA at the cell-cell contact while PDZ-RhoGEF and related pathways activate RhoA at the opposite cortex.
+
+Additional signaling can reinforce this polarity:
+
+LPAR2 → G12/13 → PDZ-RhoGEF → RhoA,
+
+and, in relevant systems:
+
+septin-associated Orai1 → Ca²⁺ → calmodulin → MLCK.
+
+These signals converge on:
+
+**RhoA → ROCK1/2 → MLC phosphorylation**
+
+plus
+
+**Ca²⁺–CaM–MLCK → MLC phosphorylation**
+
+→ myosin-II activation → polarized actomyosin contractility.
+
+Actin, myosin II, mDia1, ezrin, cadherin-catenin complexes and vinculin-associated mechanical interfaces then generate and transmit the physical forces required for invasion.
+
+The future inner cell develops high cortical tension and active rear contractility.
+
+It pushes itself into the softer neighboring host:
+
+**polarized contraction → rear blebbing/uropod-like force → progressive cell penetration → host membrane wrapping → complete enclosure.**
+
+At this stage:
+
+**entotic cell-in-cell structure exists, but the inner cell may still be alive.**
+
+The host-derived membrane forms a:
+
+**single-membrane entotic vacuole.**
+
+The process then enters the fate-determination phase.
+
+If the vacuole remains non-lethal:
+
+inner cell may survive → divide → or escape.
+
+If lethal maturation begins:
+
+**VPS34 + ATG5/ATG7-associated machinery → LC3 lipidation on single entotic vacuole membrane.**
+
+This is followed by:
+
+**lysosome recruitment/fusion → acquisition of LAMP1-positive lysosomal characteristics → marked vacuolar acidification → activation/delivery of lysosomal hydrolases.**
+
+The acidic lysosomal compartment then progressively destroys:
+
+inner-cell membrane systems,
+
+cytoplasmic proteins,
+
+organelles,
+
+and nuclear structures.
+
+Thus:
+
+**acidic entotic vacuole → hydrolase-mediated degradation → irreversible destruction of the inner cell → entotic cell death.**
+
+After killing:
+
+mTORC1-, PIKfyve- and associated vacuolar processing mechanisms contribute to fission, maturation and nutrient recovery.
+
+The resulting metabolites can subsequently support the host cell.
+
+---
+
+# Candidate Commitment Sequence
+
+A useful temporal model is:
+
+### Reversible stage
+
+neighboring cells → cadherin interaction → active invasion → complete internalization.
+
+At this stage:
+
+survival,
+
+escape,
+
+or division remain possible.
+
+### Transition toward commitment
+
+entotic vacuole begins membrane-identity remodeling → LC3 lipidation → lysosomal recruitment.
+
+### Strongest candidate commitment stage
+
+lysosomal fusion + profound vacuolar acidification → hydrolase-rich compartment.
+
+### Terminal execution
+
+progressive enzymatic degradation → collapse of essential inner-cell structures → irreversible loss of viability.
+
+Thus, **full internalization should not be represented as the point of no return**.
+
+The best current candidate is the onset of mature lysosomal vacuole function.
+
+---
+
+# Final Mechanistic Interpretation
+
+Entotic cell death is best understood as a **two-cell, non-cell-autonomous regulated death system** in which the cell that ultimately dies actively participates in the first half of its own fate but does not execute the final lethal machinery itself.
+
+The first phase is mechanical:
+
+**stress/deadhesion → cadherin coupling → spatial RhoA polarization → ROCK/MLCK-dependent myosin activation → actomyosin contractility → active living-cell invasion.**
+
+The second phase is lysosomal:
+
+**entotic vacuole → ATG5/ATG7/VPS34-dependent LC3 recruitment → lysosomal fusion → vacuolar acidification → hydrolase-mediated degradation → death.**
+
+This distinction explains why entotic cell death is fundamentally different from conventional phagocytosis.
+
+The future inner cell does not wait to be engulfed.
+
+It actively invades.
+
+It also explains why entotic cell death differs from autonomous RCDs such as apoptosis.
+
+The primary lethal compartment is built by another cell.
+
+The defining execution lesion is therefore not:
+
+caspase activation,
+
+MOMP,
+
+lipid peroxidation,
+
+gasdermin pores,
+
+or MLKL-mediated membrane disruption.
+
+It is:
+
+**host-controlled lysosomal destruction of a living internalized cell.**
+
+The pathway also contains an unusually important period of reversibility.
+
+A fully internalized cell can remain alive, escape, or divide.
+
+Therefore, cell-in-cell morphology is not sufficient to diagnose entotic death.
+
+The strongest candidate point of commitment occurs only when the host converts the initially permissive entotic vacuole into an LC3-associated, lysosome-containing, strongly acidic degradative compartment.
+
+Even this transition is not yet represented by one universally established molecular switch.
+
+Recent work on persistent PI(4,5)P2 identity suggests that delayed membrane remodeling may help determine when the vacuole changes from a stable containment compartment to a lethal lysosomal compartment.
+
+Accordingly, the major unresolved question is:
+
+**what molecular signal instructs the host to stop maintaining a potentially reversible entotic vacuole and initiate irreversible lysosomal killing?**
+
+For RCD classification, the most defensible operational definition is:
+
+**Entotic cell death is a non-cell-autonomous regulated cell-death process in which a living cell actively invades a neighboring cell through cadherin-coupled, polarized RhoA–ROCK–actomyosin forces and, in the lethal outcome, is subsequently destroyed inside a host-derived single-membrane vacuole through LC3-associated lysosomal fusion, acidification, and hydrolase-mediated degradation.**
+

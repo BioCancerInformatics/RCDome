@@ -47,6 +47,7 @@ if (!v$ok) {
 source("modules/mod_gene_catalog.R")
 source("modules/mod_network.R")
 source("modules/mod_rcd_grid.R")
+source("modules/mod_rcd_entities.R")
 source("modules/mod_od.R")
 source("modules/mod_od_compare.R")
 source("modules/mod_board_qa.R")
@@ -56,15 +57,15 @@ source("modules/mod_board.R")
 signatures_df <- NULL
 
 # Load gene reference data (from omic directory) — with RDS cache
-# Fingerprint v2: sourced from the V026 matrix (the truth).
-v24_file <- "data/unified_gene_rcd_matrix_V026.rds"
+# Fingerprint v2: sourced from the V027 matrix (the truth).
+v24_file <- "data/unified_gene_rcd_matrix_V027.rds"
 v24_mtime <- file.info(v24_file)$mtime
 fingerprint_cache_file <- "data/omic/fingerprint_cache.rds"
 fingerprint_cache_version <- 7L
 expected_canonical_pathways <- 53L
 
-# ── Gene table (V026 matrix — the truth) ─────────────────────────────────────
-message("Loading genes from V026 matrix...")
+# ── Gene table (V027 matrix — the truth) ─────────────────────────────────────
+message("Loading genes from V027 matrix...")
 genes_df <- tryCatch({
   df <- readRDS(v24_file)
   df$name                   <- as.character(df$gene_symbol)
@@ -74,7 +75,7 @@ genes_df <- tryCatch({
   df$otheraliases           <- NA_character_
   df
 }, error = function(e) {
-  warning("Could not load V026 matrix: ", conditionMessage(e))
+  warning("Could not load V027 matrix: ", conditionMessage(e))
   data.frame(
     name = character(0), Pathway_Categorization = character(0),
     rcd_form_original = character(0), stringsAsFactors = FALSE

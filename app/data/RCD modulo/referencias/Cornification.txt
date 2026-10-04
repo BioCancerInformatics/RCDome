@@ -1,0 +1,111 @@
+1. Eckhart L, Lippens S, Tschachler E, Declercq W. **Cell death by cornification.** *Biochimica et Biophysica Acta*. 2013;1833:3471–3480. **DOI: 10.1016/j.bbamcr.2013.06.010**
+
+2. Candi E, Schmidt R, Melino G. **The cornified envelope: a model of cell death in the skin.** *Nature Reviews Molecular Cell Biology*. 2005;6:328–340. **DOI: 10.1038/nrm1619**
+
+3. Lippens S, Denecker G, Ovaere P, Vandenabeele P, Declercq W. **Death penalty for keratinocytes: apoptosis versus cornification.** *Cell Death & Differentiation*. 2005;12:1497–1508. **DOI: 10.1038/sj.cdd.4401722**
+
+4. Lippens S, Kockx M, Knaapen M, et al. **Epidermal differentiation does not involve the pro-apoptotic executioner caspases, but is associated with caspase-14 induction and processing.** *Cell Death & Differentiation*. 2000;7:1218–1224. **DOI: 10.1038/sj.cdd.4400785**
+
+5. Raymond AA, Méchin MC, Nachat R, et al. **Nine procaspases are expressed in normal human epidermis, but only caspase-14 is fully processed.** *British Journal of Dermatology*. 2007;156. **DOI: 10.1111/j.1365-2133.2006.07656.x**
+
+6. Ai Y, Meng Y, Yan B, Zhou Q, Wang X. **The biochemical pathways of apoptotic, necroptotic, pyroptotic, and ferroptotic cell death.** *Molecular Cell*. 2024;84:170–179. **DOI: 10.1016/j.molcel.2023.11.040**
+
+7. Lawlor KE, Murphy JM, Vince JE. **Gasdermin and MLKL necrotic cell death effectors: Signaling and diseases.** *Immunity*. 2024;57:429–445. **DOI: 10.1016/j.immuni.2024.02.011**
+
+8. Kolly C, Suter MM, Müller EJ. **Proliferation, cell cycle exit, and onset of terminal differentiation in cultured keratinocytes.** *Journal of Investigative Dermatology*. 2005;124:1014–1025. **DOI: 10.1111/j.0022-202X.2005.23655.x**
+
+9. Bikle DD, Xie Z, Tu CL. **Calcium regulation of keratinocyte differentiation.** *Expert Review of Endocrinology & Metabolism*. 2012;7:461–472. **DOI: 10.1586/eem.12.34**
+
+10. Nickoloff BJ, Qin JZ, Chaturvedi V, et al. **Jagged-1 mediated activation of Notch signaling induces complete maturation of human keratinocytes through NF-κB and PPARγ.** *Cell Death & Differentiation*. 2002;9:842–855. **DOI: 10.1038/sj.cdd.4401036**
+
+11. Lefort K, Mandinova A, Antonini D, et al. **Cross-regulation between Notch and p63 in keratinocyte commitment to differentiation.** *Genes & Development*. 2006;20:1028–1042. **DOI: 10.1101/gad.1406006**
+
+12. Demerjian M, Hachem JP, Tschachler E, et al. **Acute modulations in permeability barrier function regulate epidermal cornification: role of caspase-14 and the protease-activated receptor type 2.** *American Journal of Pathology*. 2008;172:86–97. **DOI: 10.2353/ajpath.2008.070161**
+
+13. Wu NL, Lee TA, Tsai TL, Lin WW. **TRAIL-induced keratinocyte differentiation requires caspase activation and p63 expression.** *Journal of Investigative Dermatology*. 2011;131:874–883. **DOI: 10.1038/jid.2010.402**
+
+14. Matsui T, Kadono-Maekubo N, Suzuki Y, et al. **A unique mode of keratinocyte death requires intracellular acidification.** *Proceedings of the National Academy of Sciences USA*. 2021;118. **DOI: 10.1073/pnas.2020722118**
+
+15. Moore J, Greco V. **Functional cell death, corneoptosis, requires temporally controlled intracellular acidification.** *Proceedings of the National Academy of Sciences USA*. 2021;118. **DOI: 10.1073/pnas.2106633118**
+
+16. Candi E, Tarcsa E, Idler WW, et al. **Transglutaminase Cross-linking Properties of the Small Proline-rich 1 Family of Cornified Cell Envelope Proteins.** *Journal of Biological Chemistry*. 1999;274:7226–7237. **DOI: 10.1074/jbc.274.11.7226**
+
+17. Candi E, Oddi S, Terrinoni A, et al. **Transglutaminase 5 Cross-links Loricrin, Involucrin, and Small Proline-rich Proteins In Vitro.** *Journal of Biological Chemistry*. 2001;276:35014–35023. **DOI: 10.1074/jbc.M010157200**
+
+18. Steinert PM, Marekov LN. **The Proteins Elafin, Filaggrin, Keratin Intermediate Filaments, Loricrin, and Small Proline-rich Proteins 1 and 2 Are Isodipeptide Cross-linked Components of the Human Epidermal Cornified Cell Envelope.** *Journal of Biological Chemistry*. 1995;270:17702–17711. **DOI: 10.1074/jbc.270.30.17702**
+
+19. Karim N, Phinney BS, Salemi M, Wu PW, Naeem M, Rice RH. **Human stratum corneum proteomics reveals cross-linking of a broad spectrum of proteins in cornified envelopes.** *Experimental Dermatology*. 2019;28:618–622. **DOI: 10.1111/exd.13925**
+
+20. Šurbek M, Van De Steene T, Sachslehner A, et al. **Cornification of keratinocytes is associated with differential changes in the catalytic activity and immunoreactivity of transglutaminase-1.** *Scientific Reports*. 2023;13. **DOI: 10.1038/s41598-023-48856-1**
+
+21. Hoober JK, Eggink LL. **The Discovery and Function of Filaggrin.** *International Journal of Molecular Sciences*. 2022;23:1455. **DOI: 10.3390/ijms23031455**
+
+22. Matsui T, Miyamoto K, Kubo A, et al. **SASPase regulates stratum corneum hydration through profilaggrin-to-filaggrin processing.** *EMBO Molecular Medicine*. 2011;3:320–333. **DOI: 10.1002/emmm.201100140**
+
+23. Aho S, Harding CR, Lee JM, Meldrum H, Bosko CA. **Regulatory role for the profilaggrin N-terminal domain in epidermal homeostasis.** *Journal of Investigative Dermatology*. 2012;132:2376–2385. **DOI: 10.1038/jid.2012.174**
+
+24. Gutowska-Owsiak D, de La Serna JB, Fritzsche M, et al. **Orchestrated control of filaggrin–actin scaffolds underpins cornification.** *Cell Death & Disease*. 2018;9. **DOI: 10.1038/s41419-018-0407-2**
+
+25. Denecker G, Hoste E, Gilbert B, et al. **Caspase-14 protects against epidermal UVB photodamage and water loss.** *Nature Cell Biology*. 2007;9:666–674. **DOI: 10.1038/ncb1597**
+
+26. Hoste E, Kemperman P, Devos M, et al. **Caspase-14 is required for filaggrin degradation to natural moisturizing factors in the skin.** *Journal of Investigative Dermatology*. 2011;131:2233–2241. **DOI: 10.1038/jid.2011.153**
+
+27. Eckhart L, Gruber F, Sukseree S. **Autophagy-Mediated Cellular Remodeling during Terminal Differentiation of Keratinocytes in the Epidermis and Skin Appendages.** *Cells*. 2024;13:1675. **DOI: 10.3390/cells13201675**
+
+28. Simpson CL, Tokito MK, Uppala R, Sarkar MK, Gudjonsson JE, Holzbaur ELF. **NIX initiates mitochondrial fragmentation via DRP1 to drive epidermal differentiation.** *Cell Reports*. 2021;34:108689. **DOI: 10.1016/j.celrep.2021.108689**
+
+29. Novak I, Kirkin V, McEwan DG, et al. **Nix is a selective autophagy receptor for mitochondrial clearance.** *EMBO Reports*. 2010;11. **DOI: 10.1038/embor.2009.256**
+
+30. Johnson CJ, Tiwaa A, Parihar A, et al. **The endoplasmic reticulum autophagy receptor TEX264 drives epidermal differentiation and is dysregulated in Darier disease.** *bioRxiv*. 2025. **DOI: 10.1101/2025.08.05.668774**
+
+31. Naeem AS, Zhu Y, Di WL, Marmiroli S, O'Shaughnessy RFL. **AKT1-mediated Lamin A/C degradation is required for nuclear degradation and normal epidermal terminal differentiation.** *Cell Death & Differentiation*. 2015;22:2123–2132. **DOI: 10.1038/cdd.2015.62**
+
+32. Fischer H, Eckhart L, Mildner M, et al. **DNase1L2 degrades nuclear DNA during corneocyte formation.** *Journal of Investigative Dermatology*. 2007;127:24–30. **DOI: 10.1038/sj.jid.5700503**
+
+33. Fischer H, Scherz J, Szabo S, et al. **DNase 2 Is the Main DNA-Degrading Enzyme of the Stratum Corneum.** *PLoS ONE*. 2011;6:e17581. **DOI: 10.1371/journal.pone.0017581**
+
+34. Fischer H, Buchberger M, Napirei M, Tschachler E, Eckhart L. **Inactivation of DNase1L2 and DNase2 in keratinocytes suppresses DNA degradation during epidermal cornification and results in constitutive parakeratosis.** *Scientific Reports*. 2017;7. **DOI: 10.1038/s41598-017-06652-8**
+
+35. Leprince C, Simon M. **Epidermal lamellar bodies, essential organelles for the skin barrier.** *Frontiers in Cell and Developmental Biology*. 2025;13. **DOI: 10.3389/fcell.2025.1597884**
+
+36. Feingold KR, Elias PM. **Role of lipids in the formation and maintenance of the cutaneous permeability barrier.** *Biochimica et Biophysica Acta*. 2014;1841:280–294. **DOI: 10.1016/j.bbalip.2013.11.007**
+
+37. Breiden B, Sandhoff K. **The role of sphingolipid metabolism in cutaneous permeability barrier formation.** *Biochimica et Biophysica Acta*. 2014;1841:441–452. **DOI: 10.1016/j.bbalip.2013.08.010**
+
+38. Opálka L, Meyer JM, Ondrejčeková V, et al. **ω-O-Acylceramides but not ω-hydroxy ceramides are required for healthy lamellar phase architecture of skin barrier lipids.** *Journal of Lipid Research*. 2022;63:100226. **DOI: 10.1016/j.jlr.2022.100226**
+
+39. Dannappel M, Vlantis K, Kumari S, et al. **RIPK1 maintains epithelial homeostasis by inhibiting apoptosis and necroptosis.** *Nature*. 2014;513:90–94. **DOI: 10.1038/nature13608**
+
+40. Lin J, Kumari S, Kim C, et al. **RIPK1 counteracts ZBP1-mediated necroptosis to inhibit inflammation.** *Nature*. 2016;540:124–128. **DOI: 10.1038/nature20558**
+
+41. Lachner J, Mlitz V, Tschachler E, Eckhart L. **Epidermal cornification is preceded by the expression of a keratinocyte-specific set of pyroptosis-related genes.** *Scientific Reports*. 2017;7. **DOI: 10.1038/s41598-017-17782-4**
+
+42. Eckhart L, Tschachler E. **Control of cell death-associated danger signals during cornification prevents autoinflammation of the skin.** *Experimental Dermatology*. 2018;27:884–891. **DOI: 10.1111/exd.13700**
+
+43. Lippens S, Hoste E, Vandenabeele P, Agostinis P, Declercq W. **Cell death in the skin.** *Apoptosis*. 2009;14:549–569. **DOI: 10.1007/s10495-009-0324-z**
+
+44. Ipponjima S, Umino Y, Nagayama M, Denda M. **Live imaging of alterations in cellular morphology and organelles during cornification using an epidermal equivalent model.** *Scientific Reports*. 2020;10. **DOI: 10.1038/s41598-020-62240-3**
+
+45. Sevilla L, Nachat R, Groot K, et al. **Mice deficient in involucrin, envoplakin, and periplakin have a defective epidermal barrier.** *The Journal of Cell Biology*. 2007;179:1599-1612. **DOI: 10.1083/jcb.200706187**
+
+46. Serafini-Fracassini D, Del Duca S. **At the core of global bioenergy: polyamines and transglutaminases in chloroplasts.** *Amino Acids*. 2026;58. **DOI: 10.1007/s00726-026-03518-0**
+
+47. Kim H, Park J, Lim C, et al. **Skin Lipid Dysregulation in Atopic Dermatitis and Related Inflammatory Skin Diseases.** *Allergy, Asthma &amp; Immunology Research*. 2026;18:485. **DOI: 10.4168/aair.2026.18.4.485**
+
+48. Zhang M, Tian J, Sun W. **pH sensing and inflammation: linking acidic microenvironments to immune reprogramming.** *Frontiers in Immunology*. 2026;17. **DOI: 10.3389/fimmu.2026.1879529**
+
+49. Denecker G, Ovaere P, Vandenabeele P, et al. **Caspase-14 reveals its secrets.** *The Journal of Cell Biology*. 2008;180:451-458. **DOI: 10.1083/jcb.200709098**
+
+50. Urwyler-Rösselet C, Tanghe G, Devos M, et al. **Functions of the RIP kinase family members in the skin.** *Cellular and Molecular Life Sciences*. 2023;80. **DOI: 10.1007/s00018-023-04917-2**
+
+51. Cheng X, Jin J, Hu L, et al. **TRP channel regulates EGFR signaling in hair morphogenesis and skin barrier formation..** **. 2010. **DOI: 10.1016/j.cell.2010.03.013**
+
+52. Galluzzi L, Vitale I, Aaronson S, et al. **Molecular mechanisms of cell death: recommendations of the Nomenclature Committee on Cell Death 2018.** *Cell Death &amp; Differentiation*. 2018;25:486-541. **DOI: 10.1038/s41418-017-0012-4**
+
+53. Candi E, Melino G, Mei G, et al. **Biochemical, Structural, and Transglutaminase Substrate Properties of Human Loricrin.** *Journal of Biological Chemistry*. 1995;270:26382–26390. **DOI: 10.1074/jbc.270.44.26382**
+
+54. Simon M, Green H. **Enzymatic cross-linking of involucrin and other proteins by keratinocyte particulates in vitro.** *Cell*. 1985;40:677–683. **DOI: 10.1016/0092-8674(85)90216-8**
+
+55. Fischer H, Szabo S, Scherz J, et al. **Essential role of the keratinocyte-specific endonuclease DNase1L2 in the removal of nuclear DNA from hair and nails.** *Journal of Investigative Dermatology*. 2011;131:1208–1215. **DOI: 10.1038/jid.2011.13**
+
+56. Ishida-Yamamoto A, Tanaka H, Nakane H, et al. **Programmed cell death in normal epidermis and loricrin keratoderma: multiple functions of profilaggrin in keratinization.** *Journal of Investigative Dermatology Symposium Proceedings*. 1999;4:145–149. **DOI: 10.1038/sj.jidsp.5640198**

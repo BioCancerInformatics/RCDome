@@ -1,1 +1,109 @@
-Piroptose: morte celular programada envolvendo caspase-1 e lise celular mediada por gasderminas, associada à inflamação. Sobrepõe-se à apoptose por compartilhar a maquinaria de caspases iniciadoras e à necroptose por meio da sinalização inflamatória. No câncer, a piroptose promove a imunidade antitumoral pela liberação de citocinas inflamatórias, mas sua natureza pró-inflamatória também pode favorecer a progressão tumoral.
+**[1] Liu Y, Pan R, Ouyang Y, et al. Pyroptosis in health and disease: mechanisms, regulation and clinical perspective. Signal Transduction and Targeted Therapy. 2024;9. DOI: 10.1038/s41392-024-01958-2.**
+
+**[2] Shi J, Gao W, Shao F. Pyroptosis: Gasdermin-Mediated Programmed Necrotic Cell Death. Trends in Biochemical Sciences. 2017;42:245–254. DOI: 10.1016/j.tibs.2016.10.004.**
+
+**[3] Liu X, Zhang Z, Ruan J, et al. Inflammasome-activated gasdermin D causes pyroptosis by forming membrane pores. Nature. 2016;535:153–158. DOI: 10.1038/nature18629.**
+
+**[4] Sborgi L, Rühl S, Mulvihill E, et al. GSDMD membrane pore formation constitutes the mechanism of pyroptotic cell death. EMBO Journal. 2016;35:1766–1778. DOI: 10.15252/embj.201694696.**
+
+**[5] He WT, Wan H, Hu L, et al. Gasdermin D is an executor of pyroptosis and required for interleukin-1β secretion. Cell Research. 2015;25:1285–1298. DOI: 10.1038/cr.2015.139.**
+
+**[6] Wang YP, Gao W, Shi X, et al. Chemotherapy drugs induce pyroptosis through caspase-3 cleavage of a gasdermin. Nature. 2017;547:99–103. DOI: 10.1038/nature22393.**
+
+**[7] Rogers C, Fernandes-Alnemri T, Mayes L, Alnemri D, Cingolani G, Alnemri ES. Cleavage of DFNA5 by caspase-3 during apoptosis mediates progression to secondary necrotic/pyroptotic cell death. Nature Communications. 2017;8. DOI: 10.1038/ncomms14128.**
+
+**[8] Broz P. Pyroptosis: molecular mechanisms and roles in disease. Cell Research. 2025;35:334–344. DOI: 10.1038/s41422-025-01107-6.**
+
+**[9] Yuan J, Ofengeim D. A guide to cell death pathways. Nature Reviews Molecular Cell Biology. 2024;25:379–395. DOI: 10.1038/s41580-023-00689-6.**
+
+**[10] Frank D, Vince JE. Pyroptosis versus necroptosis: similarities, differences, and crosstalk. Cell Death & Differentiation. 2019;26:99–114. DOI: 10.1038/s41418-018-0212-6.**
+
+**[11] Kayagaki N, Kornfeld OS, Lee BL, et al. NINJ1 mediates plasma membrane rupture during lytic cell death. Nature. 2021;591:131–136. DOI: 10.1038/s41586-021-03218-7.**
+
+**[12] Degen M, Santos JC, Pluhackova K, et al. Structural basis of NINJ1-mediated plasma membrane rupture in cell death. Nature. 2023;618:1065–1071. DOI: 10.1038/s41586-023-05991-z.**
+
+**[13] Rühl S, Shkarina K, Demarco B, et al. ESCRT-dependent membrane repair negatively regulates pyroptosis downstream of GSDMD activation. Science. 2018;362:956–960. DOI: 10.1126/science.aar7607.**
+
+**[14] Otchere S, Shrestha P, Parmar H, et al. ALIX mediates reversible gasdermin-D pore formation via the endosomal pathway to limit pyroptosis by active membrane repair. Cell Death & Disease. 2025;16. DOI: 10.1038/s41419-025-07998-y.**
+
+**[15] Barnett KC, Li S, Liang K, Ting JPY. A 360° view of the inflammasome: mechanisms of activation, cell death, and disease. Cell. 2023;186:2288–2312. DOI: 10.1016/j.cell.2023.04.025.**
+
+**[16] Huang Y, Xu W, Zhou R. NLRP3 inflammasome activation and cell death. Cellular & Molecular Immunology. 2021;18:2114–2127. DOI: 10.1038/s41423-021-00740-6.**
+
+**[17] He Y, Zeng MY, Yang D, Motro B, Núñez G. NEK7 is an essential mediator of NLRP3 activation downstream of potassium efflux. Nature. 2016;530:354–357. DOI: 10.1038/nature16959.**
+
+**[18] Sharif H, Wang L, Wang WL, et al. Structural mechanism for NEK7-licensed NLRP3 inflammasome activation. Nature. 2019;570:338–343. DOI: 10.1038/s41586-019-1295-z.**
+
+**[19] Matikainen S, Nyman TA, Cypryk W. Function and Regulation of Noncanonical Caspase-4/5/11 Inflammasome. Journal of Immunology. 2020;204:3063–3069. DOI: 10.4049/jimmunol.2000373.**
+
+**[20] Wright SS, Vasudevan SO, Rathinam VAK. Mechanisms and Consequences of Noncanonical Inflammasome-Mediated Pyroptosis. Journal of Molecular Biology. 2022;434:167245. DOI: 10.1016/j.jmb.2021.167245.**
+
+**[21] Downs KP, Nguyen H, Dorfleutner A, Stehlik C. An overview of the non-canonical inflammasome. Molecular Aspects of Medicine. 2020;76:100924. DOI: 10.1016/j.mam.2020.100924.**
+
+**[22] Lu A, Magupalli VG, Ruan J, et al. Unified Polymerization Mechanism for the Assembly of ASC-dependent Inflammasomes. Cell. 2014;156:1193–1206. DOI: 10.1016/j.cell.2014.02.008.**
+
+**[23] Dick MS, Sborgi L, Rühl S, Hiller S, Brož P. ASC filament formation serves as a signal amplification mechanism for inflammasomes. Nature Communications. 2016;7. DOI: 10.1038/ncomms11929.**
+
+**[24] Miao R, Jiang C, Chang W, et al. Gasdermin D permeabilization of mitochondrial inner and outer membranes accelerates and enhances pyroptosis. Immunity. 2023;56:2523–2541.e8. DOI: 10.1016/j.immuni.2023.10.004.**
+
+**[25] Ding J, Wang K, Liu W, et al. Pore-forming activity and structural autoinhibition of the gasdermin family. Nature. 2016;535:111–116. DOI: 10.1038/nature18590.**
+
+**[26] Du G, Healy L, David L, et al. ROS-dependent S-palmitoylation activates cleaved and intact gasdermin D. Nature. 2024;630:437–446. DOI: 10.1038/s41586-024-07373-5.**
+
+**[27] Balasubramanian A, Hsu A, Ghimire L, et al. The palmitoylation of gasdermin D directs its membrane translocation and pore formation during pyroptosis. Science Immunology. 2024;9:eadn1452. DOI: 10.1126/sciimmunol.adn1452.**
+
+**[28] Liu Z, Li S, Wang C, et al. Palmitoylation at a conserved cysteine residue facilitates gasdermin D-mediated pyroptosis and cytokine release. Proceedings of the National Academy of Sciences USA. 2024;121. DOI: 10.1073/pnas.2400883121.**
+
+**[29] Heilig R, Dick MS, Sborgi L, Meunier E, Hiller S, Brož P. The Gasdermin-D pore acts as a conduit for IL-1β secretion in mice. European Journal of Immunology. 2018;48. DOI: 10.1002/eji.201747404.**
+
+**[30] Xia S, Zhang Z, Magupalli VG, et al. Gasdermin D pore structure reveals preferential release of mature interleukin-1. Nature. 2021;593:607–611. DOI: 10.1038/s41586-021-03478-3.**
+
+**[31] Gulshan K. NEDD4L ubiquitinates Gasdermin D and Gasdermin E to dampen pyroptosis. Cell Death & Differentiation. 2026;33:696–698. DOI: 10.1038/s41418-025-01626-0.**
+
+**[32] Li Z, Mo F, Wang Y, et al. Enhancing Gasdermin-induced tumor pyroptosis through preventing ESCRT-dependent cell membrane repair augments antitumor immune response. Nature Communications. 2022;13. DOI: 10.1038/s41467-022-34036-8.**
+
+**[33] Cruz Garcia ABS, Schnur KP, Malik A, Mo G. Gasdermin D pores are dynamically regulated by local phosphoinositide circuitry. Nature Communications. 2022;13. DOI: 10.1038/s41467-021-27692-9.**
+
+**[34] Imre G, Otchere S, Parmar H, et al. The Calcium-Calpain-ALIX Axis is the Major Link Between Gasdermin-D Membrane Pores and Terminal Membrane Damage in Pyroptosis. Research Square. 2026. DOI: 10.21203/rs.3.rs-10100112/v1.**
+
+**[35] Wang Y, Kanneganti TD. From pyroptosis, apoptosis and necroptosis to PANoptosis: A mechanistic compendium of programmed cell death pathways. Computational and Structural Biotechnology Journal. 2021;19:4641–4657. DOI: 10.1016/j.csbj.2021.07.038.**
+
+**[36] Oh S, Lee J, Oh J, et al. Integrated NLRP3, AIM2, NLRC4, Pyrin inflammasome activation and assembly drive PANoptosis. Cellular & Molecular Immunology. 2023;20:1513–1526. DOI: 10.1038/s41423-023-01107-9.**
+
+**[37] Bhardwaj M, Upmanyu K, Upadhyay S. PANoptosis as a drug discovery framework: integrating cell death architecture with clinical translation. Genes & Immunity. 2026. DOI: 10.1038/s41435-026-00388-0.**
+
+**[38] Ramos S, Hartenian E, Santos JC, Walch P, Broz P. NINJ1 induces plasma membrane rupture and release of damage-associated molecular pattern molecules during ferroptosis. EMBO Journal. 2024;43. DOI: 10.1038/s44318-024-00055-y.**
+
+**[39] Silbiger J, Patel R, Panday P, et al. Apical ballooning (takotsubo cardiomyopathy) in mid-ventricular obstructive hypertrophic cardiomyopathy. European Heart Journal - Case Reports. 2026;10. DOI: 10.1093/ehjcr/ytag517.**
+
+**[40] Boaru D, De Castro‐Martinez P, Garcia‐Montero C, et al. The Multifaceted Role of Pyroptosis: Molecular Mechanisms, Crosstalk with Other Cell Death Pathways, and Therapeutic Implications. MedComm. 2026;7. DOI: 10.1002/mco2.70844.**
+
+**[41] Nurmi K, Lorey M, Parantainen J, et al. Lipopolysaccharides Drive Proinflammatory Extracellular Vesicle Secretion in Coronary Artery Endothelial Cells via Noncanonical Inflammasome Activation. Cellular and Molecular Life Sciences. 2026;83. DOI: 10.1007/s00018-025-06006-y.**
+
+**[42] Yu J, Li S, Qi J, et al. Cleavage of GSDME by caspase-3 determines lobaplatin-induced pyroptosis in colon cancer cells. Cell Death &amp; Disease. 2019;10. DOI: 10.1038/s41419-019-1441-4.**
+
+**[43] Ran H, Wang X, Liu K, et al. Research Progress on NINJ1-Mediated Plasma Membrane Rupture Regulation of Pathogen Infection Process. International Journal of Molecular Sciences. 2026;27:4395. DOI: 10.3390/ijms27104395.**
+
+**[44] Tsu B, Beierschmitt C, Ryan A, et al. Diverse viral proteases activate the NLRP1 inflammasome. eLife. 2021;10. DOI: 10.7554/elife.60609.**
+
+**[45] Hu Z, Zhou X, Sun Q, et al. To Die or Not to Die: How Sublethal Damage Rewires Cell Fate and Implications for Sepsis. Journal of Inflammation Research. 2026;Volume 19:1-20. DOI: 10.2147/jir.s629930.**
+
+**[46] Wu W, Li N, Deng G, et al. Mechanisms and therapeutic strategies of pyroptosis in sepsis‑induced acute lung injury (Review). International Journal of Molecular Medicine. 2026;58:1-23. DOI: 10.3892/ijmm.2026.5935.**
+
+**[47] Anand P, Aljadeed N. Spatial control of NLRP3 inflammasome assembly by membrane lipid composition. Communications Biology. 2026;9. DOI: 10.1038/s42003-026-10541-0.**
+
+**[48] Rothera E, Horam S, Hu Y, et al. Theme and variations: activation and regulation of gasdermin-mediated inflammation. Biochemical Society Transactions. 2026;54:831-843. DOI: 10.1042/bst20250185.**
+
+**[49] Kelley N, Jeltema D, Duan Y, et al. The NLRP3 Inflammasome: An Overview of Mechanisms of Activation and Regulation. International Journal of Molecular Sciences. 2019;20:3328. DOI: 10.3390/ijms20133328.**
+
+**[50] Zahedi A, Ifejeokwu O, Griffin S, et al. Repurposing mitochondrial-targeting drugs for management of ICANS in CAR T-cell therapy: a novel steroid-sparing approach. Frontiers in Pharmacology. 2026;17. DOI: 10.3389/fphar.2026.1896516.**
+
+**[51] Evavold CL, Ruan J, Tan Y, et al. The Pore-Forming Protein Gasdermin D Regulates Interleukin-1 Secretion from Living Macrophages.. . 2018. DOI: 10.1016/j.immuni.2017.11.013.**
+
+**[52] Lieberman J, Wu H, Kagan JC.. Gasdermin D activity in inflammation and host defense.. . 2019. DOI: 10.1126/sciimmunol.aav1447.**
+
+**[53] de Vasconcelos N, Van Opdenbosch N, Van Gorp H, et al. Single-cell analysis of pyroptosis dynamics reveals conserved GSDMD-mediated subcellular events that precede plasma membrane rupture. Cell Death &amp; Differentiation. 2018;26:146-161. DOI: 10.1038/s41418-018-0106-7.**
+
+**[54] Schachter J, Guijarro A, Angosto-Bazarra D, et al. Gasdermin D mediates a fast transient release of ATP after NLRP3 inflammasome activation before ninjurin 1-induced lytic cell death. Cell Reports. 2025;44:115233. DOI: 10.1016/j.celrep.2025.115233.**
+
+**[55] Taabazuing CY, Okondo MC, Bachovchin DA. Pyroptosis and apoptosis pathways engage in bidirectional crosstalk in monocytes and macrophages. Cell Chemical Biology. 2017;24:507–514.e4. DOI: 10.1016/j.chembiol.2017.03.009.**

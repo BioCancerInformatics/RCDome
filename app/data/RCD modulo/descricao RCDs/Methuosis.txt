@@ -1,1 +1,552 @@
-Metuose: morte celular não apoptótica caracterizada pelo acúmulo de vacúolos derivados de macropinossomos, distinta dos vacúolos derivados do retículo endoplasmático observados na paraptose. É impulsionada pela sinalização constitutiva de Ras/Rac1 e pela macropinocitose, culminando em ruptura celular. Ainda é menos estudada no câncer, mas seu mecanismo único de vacuolização oferece potencial para direcionar tumores que apresentam altas taxas de macropinocitose.
+Methuosis
+
+1. Definition and Classification
+
+Methuosis is an emerging non-apoptotic regulated cell-death phenotype characterized by excessive macropinocytosis and/or defective endosomal trafficking, progressive accumulation of large macropinosome-derived single-membrane vacuoles, disruption of intracellular organization and metabolism, and eventual loss of plasma-membrane integrity [1-5,30-31].
+
+The defining lesion is not simply cytoplasmic vacuolization. Vacuolization occurs in numerous physiological and pathological processes and cannot by itself establish methuosis.
+
+The defining feature is instead a causal trafficking disorder involving macropinosome formation, maturation, recycling, or delivery to functional lysosomes.
+
+The canonical sequence is:
+
+excessive macropinosome formation and/or defective macropinosome clearance → coalescence and enlargement of nonproductive single-membrane vacuoles → progressive cytoplasmic displacement and endolysosomal dysfunction → metabolic and structural deterioration → plasma-membrane rupture → cell death.
+
+The vacuoles are generally derived from macropinosomes or related clathrin-independent endosomal compartments [1-5].
+
+Methuosis vacuoles have a single membrane, whereas autophagosomes have double membranes surrounding luminal cytoplasmic contents [6].
+
+Methuosis should also be distinguished from paraptosis. In methuosis, vacuoles originate predominantly from macropinosomal/endosomal compartments, whereas paraptotic vacuoles are principally associated with dilation of the endoplasmic reticulum and mitochondria [6-7].
+
+It is similarly distinct from oncosis. Both can culminate in swelling and plasma-membrane failure, but methuosis begins with a specific disturbance in macropinocytosis/endosomal trafficking rather than with generalized primary ionic and osmotic collapse.
+
+Its nomenclatural status remains less secure than that of apoptosis, necroptosis, ferroptosis, or pyroptosis. Methuosis is a unique form of cytolytic cell death that is somewhat selective for tumor cells and is distinct from apoptosis and other non-apoptotic cell death pathways such as autosis, paraptosis, and necroptosis [4].
+
+For RCDome, methuosis is therefore most appropriately classified as an emerging regulated non-apoptotic vacuolar cell-death modality/phenotype with well-supported upstream trafficking biology but incompletely resolved terminal execution.
+
+2. Initiation and Triggers
+
+The classic initiation pathway is oncogenic Ras hyperactivation [28].
+
+Constitutively active Ras can strongly stimulate macropinocytosis in glioblastoma cells, resulting in progressive vacuole accumulation and non-apoptotic death [2,8,26].
+
+A major downstream component of this route is Rac1.
+
+Rac1 controls actin remodeling required for plasma-membrane ruffling, formation of macropinocytic cups, and generation of macropinosomes [9-10].
+
+Physiological macropinocytosis requires spatially and temporally regulated Rac1 activation followed by Rac1 deactivation during cup closure and vesicle maturation.
+
+Persistent Rac1 activation disturbs this cycle.
+
+Thus:
+
+oncogenic Ras → persistent Rac1 activation → excessive membrane ruffling/macropinosome formation → abnormal vesicle influx.
+
+In Ras-driven methuosis, Rac1 signaling is functionally connected to Arf6 suppression.
+
+Activated Rac1 can interact with the Arf6 GTPase-activating protein GIT1, reducing the pool of active Arf6-GTP [8].
+
+Arf6 normally supports recycling of clathrin-independent endosomal cargo toward the plasma membrane.
+
+Therefore:
+
+Ras → Rac1 activation → GIT1 engagement → reduced Arf6-GTP → impaired vesicle recycling.
+
+This creates a particularly damaging combination:
+
+increased macropinosome input + decreased macropinosome/endosome output.
+
+A receptor-driven version of the pathway has been described in Ewing sarcoma.
+
+CD99 engagement induces formation and internalization of an IGF-1R/RAS/Rac1-associated signaling complex, promoting excessive vacuolar trafficking and methuosis [11].
+
+Thus:
+
+CD99 engagement → IGF-1R/RAS/Rac1 signaling → abnormal macropinocytic/endocytic uptake → vacuole accumulation.
+
+Methuosis can also be initiated without the canonical Ras/Rac1/Arf6 sequence.
+
+Indole-based compounds such as MIPP and MOMIPP induce rapid formation of macropinocytic vesicles that acquire late-endosomal markers such as Rab7 and LAMP1 but fail to complete normal lysosomal trafficking [12-14].
+
+PIKfyve has emerged as an important target in this chemically induced route [14-15].
+
+PIKfyve is required for normal phosphoinositide regulation and endolysosomal membrane trafficking.
+
+Its inhibition can produce extensive vacuolization and a methuosis-like death state.
+
+Additional initiating routes include:
+
+V-ATPase-dependent disruption of endolysosomal trafficking during maduramicin exposure [16]; [29].
+
+VPS34-associated defects in endosome–lysosome fusion [17];
+
+MKK4–p38α signaling during tubeimoside-2-associated methuosis [18];
+
+and lipid-metabolic dysregulation involving HILPDA repression, decreased triacylglycerol storage, increased diacylglycerol, and stimulation of macropinosome formation [19].
+
+Therefore, methuosis is not defined by one universal upstream receptor.
+
+Its common initiating principle is excessive formation and/or defective clearance of macropinosome-derived compartments.
+
+3. Core Mechanistic Machinery
+
+Methuosis does not possess a single obligate death-signaling complex analogous to the apoptosome, necrosome, inflammasome, or mPTP.
+
+Its best-supported core mechanism is a trafficking-failure state.
+
+The central mechanistic imbalance can be expressed as:
+
+macropinosome generation rate > recycling + maturation + lysosomal disposal capacity.
+
+Several molecular systems contribute to this balance.
+
+Rac1 controls actin-dependent generation of macropinosomes [9-10].
+
+Arf6 supports recycling of clathrin-independent endosomal compartments [8].
+
+Rab5 and Rab7 participate in early-to-late endosomal maturation [12-13].
+
+PIKfyve controls phosphoinositide-dependent endolysosomal membrane identity and trafficking [14-15].
+
+VPS34 supports endosomal maturation and endosome–lysosome fusion [17].
+
+V-ATPase contributes to organelle acidification and, in some methuosis models, vesicular trafficking and vacuole formation [16,20].
+
+The result of disruption is the formation of large, phase-lucent, single-membrane vacuoles.
+
+These vacuoles may acquire some late-endosomal or lysosomal markers but frequently fail to become fully functional degradative lysosomes [12-13].
+
+Consequently:
+
+vesicles continue entering the pathway → recycling is impaired → maturation becomes incomplete → lysosomal delivery fails → vesicles fuse with one another → giant nonproductive vacuoles accumulate.
+
+This trafficking state, rather than any single protein complex, constitutes the best-supported core machinery of methuosis.
+
+4. Propagation and Amplification
+
+The primary amplification mechanism is continued macropinosome production in the presence of defective disposal.
+
+Each new macropinosome increases the membrane and fluid burden entering an already compromised trafficking network.
+
+Fusion among macropinosomes and late endosomal compartments progressively generates larger vacuoles.
+
+Thus:
+
+persistent uptake → increasing vesicle number → vesicle fusion/coalescence → giant-vacuole accumulation.
+
+Vacuoles can progressively occupy a large fraction of the cytoplasmic volume.
+
+This displaces normal organelles and reduces the spatial organization required for physiological intracellular trafficking.
+
+Endolysosomal dysfunction adds a second amplification mechanism.
+
+Impaired maturation can interfere with receptor degradation, lysosomal protease processing, and cargo disposal [13].
+
+Cathepsin maturation can therefore become abnormal without implying that cathepsins are universal methuosis executors.
+
+Autophagic flux can also become compromised because functional autophagy ultimately depends on intact endolysosomal processing.
+
+Thus, autophagic abnormalities occurring during methuosis may represent a downstream consequence of endolysosomal collapse rather than autophagy-dependent execution.
+
+A third amplification mechanism involves metabolic failure.
+
+Progressive vacuolization correlates with declining cellular metabolic activity in several methuosis models [11-13].
+
+The mechanism likely reflects combined disruption of organelle organization, membrane trafficking, nutrient handling, receptor turnover, and energetic homeostasis.
+
+A fourth late amplification mechanism involves cytoskeletal disruption.
+
+Recent evidence indicates alterations in F-actin, tubulins, filamins, and RhoA–ROCK1-associated signaling during progression from extensive vacuolization toward terminal membrane damage [21].
+
+This provides a mechanistic connection between intracellular vacuolar overload and loss of mechanical integrity.
+
+However, the precise sequence linking vacuoles to cytoskeletal collapse remains incompletely defined.
+
+5. Protective / Negative Regulators
+
+The principal protective mechanisms are the physiological processes that prevent macropinosome accumulation.
+
+Arf6-GTP supports recycling of clathrin-independent endosomes and macropinosomal membranes toward the plasma membrane [8].
+
+In Ras-driven methuosis, reduction of Arf6-GTP contributes directly to accumulation of vacuoles.
+
+Therefore, intact Arf6-dependent recycling is an important protective mechanism.
+
+Normal Rac1 cycling is also protective.
+
+Macropinocytosis requires Rac1 activation, but continued Rac1 activation without appropriate deactivation can become pathological [9-10].
+
+Thus, the protective state is not simply “low Rac1,” but tightly regulated spatial and temporal Rac1 activity.
+
+Rab5/Rab7-dependent trafficking protects by supporting orderly progression through endosomal compartments [12-13].
+
+PIKfyve protects by maintaining phosphoinositide-dependent endolysosomal identity and trafficking [14-15].
+
+VPS34 similarly contributes to endosome maturation and fusion with lysosomes [17].
+
+Loss or inhibition of these trafficking systems can be sufficient to create a methuotic state rather than merely sensitizing the cell.
+
+V-ATPase has a more context-dependent role.
+
+In several models, inhibiting V-ATPase reduces vacuolization or death, implying that V-ATPase activity contributes to formation or maintenance of the pathological vacuolar compartment [16,20].
+
+However, other methuosis-like systems contain acidic vacuoles and can respond differently to V-ATPase inhibition [22].
+
+Therefore, V-ATPase should not be assigned a universal protective or pro-death role.
+
+ESCRT-III represents a late protective system.
+
+CHMP3, CHMP5, and related ESCRT components can limit membrane damage produced during advanced methuosis [21].
+
+ESCRT-mediated repair therefore appears to act downstream of vacuole formation by delaying catastrophic plasma-membrane failure.
+
+6. Commitment / Point of No Return
+
+No universal molecular point of no return has been identified for methuosis.
+
+Importantly, vacuolization itself is not necessarily irreversible.
+
+Early vacuolization can regress in some experimental models after removal of the initiating insult or restoration of normal trafficking [16-17].
+
+Therefore:
+
+vacuolization ≠ commitment to death.
+
+Before commitment, rescue can occur by reducing macropinosome formation or restoring endosomal trafficking.
+
+Examples include inhibition of Rac1-dependent macropinocytosis, pharmacological suppression of macropinocytic uptake, restoration of VPS34-associated trafficking, or interference with V-ATPase-dependent vacuolar processes in responsive models [8,16-17,23].
+
+The most defensible commitment model is therefore threshold-based.
+
+Commitment likely occurs when vacuole burden and trafficking failure become sufficiently extensive that cellular architecture, metabolic activity, lysosomal function, cytoskeletal integrity, and membrane-repair capacity can no longer recover.
+
+A conceptual sequence is:
+
+reversible macropinosome accumulation → progressive trafficking collapse → giant vacuolar occupation of the cytoplasm → metabolic decline + cytoskeletal destabilization + membrane stress → irreversible homeostatic failure.
+
+No individual protein has yet been established as the universal molecular switch separating reversible vacuolization from lethal methuosis.
+
+7. Execution and Terminal Cause of Death
+
+What physically kills the cell in methuosis?
+
+The available evidence does not support a dedicated methuosis-specific protease, pore-forming protein, or enzymatic executor.
+
+The best-supported execution model is progressive structural, metabolic, and biomechanical failure caused by uncontrolled vacuole accumulation.
+
+As vacuoles enlarge and occupy increasing cytoplasmic volume, they displace normal organelles, disrupt membrane trafficking, interfere with receptor and cargo processing, compromise endolysosomal function, and are associated with declining metabolic capacity [11-13].
+
+Activated Ras can induce non-apoptotic cell death involving Rac1–GIT1–Arf6 and endosomal trafficking [8].
+
+The final observable lethal event is loss of plasma-membrane integrity.
+
+Thus, the best-supported physical sequence is:
+
+macropinosome/endosomal overload → giant vacuole accumulation → intracellular architecture disruption + metabolic decline + cytoskeletal destabilization → membrane stress exceeding repair capacity → catastrophic plasma-membrane rupture → irreversible ionic and metabolic collapse.
+
+Importantly, the terminal membrane rupture appears independent of MLKL and GSDMD in the models described [21].
+
+Therefore, methuosis does not use the established pore-forming executors of necroptosis or pyroptosis.
+
+Whether NINJ1 contributes to terminal plasma-membrane rupture remains unresolved.
+
+NINJ1 is an established general mediator of terminal membrane rupture in several lytic death pathways [24-25], but the supplied literature does not provide direct evidence establishing NINJ1 as the terminal methuosis executor.
+
+Accordingly:
+
+NINJ1 = plausible candidate for terminal rupture;
+
+not:
+
+NINJ1 = established methuosis executor.
+
+The strongest current answer to “what physically kills the cell?” is therefore catastrophic plasma-membrane failure following vacuole-driven biomechanical and homeostatic collapse.
+
+8. Morphological Sequence
+
+Methuosis has a characteristic chronological morphology.
+
+Early stages begin with pronounced plasma-membrane ruffling and increased fluid-phase uptake.
+
+Small macropinosomes form beneath the plasma membrane.
+
+These vesicles subsequently enlarge and fuse.
+
+The morphological progression can be represented as:
+
+membrane ruffling → small macropinosomes → macropinosome fusion/coalescence → large phase-lucent single-membrane vacuoles → extensive cytoplasmic occupation → displacement/compression of organelles → cell rounding and structural deterioration → plasma-membrane rupture.
+
+The vacuoles typically do not contain cytoplasmic organelles, distinguishing them from canonical autophagosomes [1-3,8].
+
+In many models they acquire markers associated with late endosomes, including Rab7 or LAMP1, but fail to complete normal lysosomal maturation [12-13].
+
+The nucleus typically lacks the classical apoptotic sequence of chromatin condensation, nuclear fragmentation, and apoptotic-body formation [1-3].
+
+Cell shrinkage is also not the dominant terminal morphology.
+
+Instead, death ultimately resembles lytic or necrosis-like structural failure.
+
+However, large cytoplasmic vacuoles alone are insufficient for diagnosis because paraptosis, autophagic abnormalities, lysosomal swelling, ER stress, and several toxic insults can produce superficially similar morphology.
+
+Vacuole origin must therefore be experimentally established.
+
+9. Crosstalk and Differential Diagnosis
+
+The most important differential diagnosis is apoptosis.
+
+Methuosis is typically resistant to broad caspase inhibition and lacks canonical apoptotic nuclear fragmentation [2-3,8].
+
+Therefore, caspase activation observed in a particular model should not automatically be interpreted as the core methuosis executor.
+
+Some experimental systems can show simultaneous apoptosis and methuosis, representing pathway coexistence rather than evidence that methuosis is an apoptotic subtype.
+
+Autophagy must also be distinguished carefully.
+
+Methuosis vacuoles have a single membrane, whereas autophagosomes have double membranes surrounding luminal cytoplasmic contents [6].
+
+ATG5 deficiency does not abolish methuotic death in relevant experimental models [6].
+
+Autophagic flux can become impaired because endolysosomal trafficking is disrupted, but this is not equivalent to autophagy-dependent cell death.
+
+Paraptosis is another important differential diagnosis.
+
+Both produce extensive cytoplasmic vacuolization.
+
+However:
+
+methuosis → macropinosome/endosome-derived vacuoles;
+
+paraptosis → primarily ER/mitochondria-derived vacuoles [7].
+
+Necroptosis is distinguished by RIPK1/RIPK3/MLKL signaling.
+
+Necrostatin-1 fails to rescue CD99-induced methuosis, and terminal methuosis-associated membrane damage does not require MLKL in the supplied evidence [11,21].
+
+Pyroptosis is distinguished by gasdermin-mediated plasma-membrane pores.
+
+Methuosis-associated terminal lysis appears GSDMD-independent [21].
+
+Oncosis overlaps morphologically because both may display cellular swelling and membrane failure.
+
+However, methuosis has a specific upstream macropinocytic/endosomal trafficking lesion, whereas oncosis primarily describes severe ionic/osmotic failure and swelling.
+
+Lysosomal cell death can overlap with methuosis because defective endolysosomal trafficking may disturb lysosomal protease maturation or lysosome function.
+
+However, the supplied evidence does not establish primary lysosomal membrane permeabilization and cathepsin execution as universal methuosis mechanisms.
+
+10. Experimental Validation
+
+A convincing demonstration of methuosis requires showing that the vacuoles originate from macropinocytosis/endosomal trafficking rather than from another organelle.
+
+Live-cell microscopy is particularly important because it can establish the temporal sequence of membrane ruffling, vesicle formation, vacuole fusion, cytoplasmic occupation, and terminal membrane failure.
+
+Fluid-phase tracers such as fluorescent dextran or Lucifer yellow can demonstrate macropinocytic uptake [2,8,27].
+
+Strong evidence therefore includes:
+
+increased fluid-phase uptake → tracer accumulation within vacuoles → progressive vacuole enlargement.
+
+Ultrastructural analysis should demonstrate single-membrane vacuoles rather than classical double-membrane autophagosomes.
+
+Endosomal markers should be examined.
+
+Rab5, Rab7, LAMP1, Arf6, or related trafficking markers can identify the maturation state and origin of the vacuolar compartment [12-13].
+
+The key is not merely marker positivity but demonstration of abnormal progression through the endosomal system.
+
+Lysosomal fusion and acidification should also be tested.
+
+Failure of mature lysosomal fusion or degradation supports the nonproductive trafficking model.
+
+Causal rescue is essential.
+
+Depending on the specific model, this can include perturbation of Rac1, macropinocytosis, PIKfyve, VPS34, V-ATPase, or the identified initiating trigger [8,14-17,23].
+
+A particularly strong causal chain is:
+
+trigger → increased macropinocytosis/trafficking defect → macropinosome-derived vacuolization → intervention blocking the identified upstream mechanism → reduced vacuolization + rescued viability.
+
+Alternative death pathways should be excluded experimentally.
+
+Relevant approaches include caspase inhibition, assessment of BAX/BAK dependence, RIPK1/RIPK3/MLKL perturbation, gasdermin analysis, and autophagy-gene perturbation where appropriate.
+
+Plasma-membrane failure should be measured independently using permeability assays rather than inferred solely from morphology.
+
+Transcriptomics alone cannot establish active methuosis.
+
+Expression of RAS, RAC1, ARF6, RAB5, RAB7, PIKFYVE, VPS34, V-ATPase components, LAMP genes, or macropinocytosis-associated genes may indicate a methuosis-associated trafficking state or susceptibility phenotype.
+
+It cannot prove excessive macropinocytosis, macropinosome-derived vacuole accumulation, or active methuotic execution.
+
+11. Molecular Hierarchy
+
+Initiators / triggers:
+
+oncogenic Ras;
+
+CD99–IGF-1R signaling;
+
+methuosis-inducing indolyl-pyridinyl-propenones;
+
+PIKfyve inhibition;
+
+VPS34 inhibition;
+
+maduramicin;
+
+MKK4–p38α-associated signaling;
+
+HILPDA repression and DAG accumulation;
+
+other context-specific pharmacological or metabolic insults.
+
+Early transducers:
+
+Ras;
+
+Rac1;
+
+GIT1;
+
+Arf6;
+
+actin-remodeling machinery;
+
+IGF-1R in receptor-driven Ewing sarcoma models.
+
+Core trafficking machinery:
+
+macropinosome formation;
+
+Arf6-dependent recycling;
+
+Rab5/Rab7-dependent endosomal maturation;
+
+PIKfyve-dependent endolysosomal trafficking;
+
+VPS34-dependent fusion/maturation;
+
+context-dependent V-ATPase activity.
+
+Core pathological state:
+
+continued macropinosome input + defective recycling/maturation/lysosomal clearance.
+
+Execution-linked changes:
+
+vacuole coalescence;
+
+giant single-membrane vacuole accumulation;
+
+cytoplasmic displacement;
+
+defective cargo degradation;
+
+abnormal cathepsin maturation;
+
+autophagic-flux impairment;
+
+metabolic decline;
+
+cytoskeletal disruption;
+
+plasma-membrane stress.
+
+Protective mechanisms:
+
+physiological Rac1 cycling;
+
+Arf6-GTP-dependent recycling;
+
+normal Rab5/Rab7 maturation;
+
+PIKfyve function;
+
+VPS34 function;
+
+functional endosome–lysosome trafficking;
+
+ESCRT-III-mediated membrane repair.
+
+Established universal terminal executor:
+
+none.
+
+Candidate late lysis factor:
+
+NINJ1, currently unproven specifically for methuosis.
+
+Terminal lesion:
+
+catastrophic loss of plasma-membrane integrity following vacuole-driven structural and homeostatic collapse.
+
+12. Integrated Canonical Sequence
+
+Canonical Ras route:
+
+oncogenic Ras activation → persistent Rac1 signaling → extensive actin-driven membrane ruffling → hyperstimulation of macropinocytosis → Rac1/GIT1-associated reduction of Arf6-GTP → impaired vesicle recycling → macropinosome accumulation → vesicle coalescence → giant vacuoles → progressive trafficking and metabolic dysfunction → cytoskeletal destabilization → membrane stress → terminal rupture.
+
+Receptor-driven route:
+
+CD99 engagement → IGF-1R/RAS/Rac1 complex formation → internalization/macropinocytic trafficking → defective vacuole processing → progressive vacuolization → methuotic death.
+
+PIKfyve/trafficking route:
+
+MIPP/MOMIPP or direct PIKfyve inhibition → abnormal Rab5/Rab7-dependent endosomal progression → late-endosomal vacuoles that fail productive lysosomal fusion → giant vacuolar accumulation → homeostatic failure → terminal rupture.
+
+VPS34 route:
+
+VPS34 dysfunction → defective endosome–lysosome fusion → reversible early vacuolization → persistent trafficking failure → extensive vacuole accumulation → death.
+
+V-ATPase-associated route:
+
+maduramicin-associated trafficking disturbance → altered Rab11/Arf6/Rab7/LAMP1 state + V-ATPase V0-dependent endolysosomal block → extensive vacuolization → structural and metabolic deterioration → terminal death.
+
+Integrated pathway:
+
+triggering lesion → excessive macropinosome formation and/or defective endosomal maturation → failure of Arf6-, Rab5/Rab7-, PIKfyve-, VPS34-, or lysosome-directed trafficking → fusion and expansion of nonproductive single-membrane vacuoles → displacement of cytoplasm and organelles → defective receptor/cargo degradation + impaired lysosomal/autophagic processing → declining metabolic capacity → cytoskeletal destabilization → vacuolar and membrane stress exceed repair capacity → plasma-membrane rupture → irreversible ionic/homeostatic collapse → death.
+
+13. Final Mechanistic Interpretation
+
+For RCDome, methuosis should be classified as an emerging but mechanistically recognizable non-apoptotic vacuolar regulated cell-death phenotype centered on dysregulated macropinocytosis and endosomal trafficking failure.
+
+It is more than simple vacuolization.
+
+Its defining causal architecture is:
+
+excessive macropinosome production and/or failed macropinosome clearance → accumulation of large macropinosome-derived single-membrane vacuoles → intracellular trafficking collapse → structural and metabolic deterioration → terminal lysis.
+
+The strongest canonical signaling model is:
+
+Ras → Rac1 activation → Arf6 suppression → excessive macropinocytosis + defective recycling.
+
+However, this pathway is not universal.
+
+PIKfyve inhibition, VPS34 dysfunction, V-ATPase-associated trafficking abnormalities, CD99–IGF-1R signaling, MKK4–p38α signaling, and metabolic alterations can converge on a similar methuotic phenotype.
+
+Therefore, Ras and Rac1 should not be defined as obligatory universal methuosis components.
+
+Likewise, vacuolization alone should never be considered sufficient evidence.
+
+The macropinosomal/endosomal origin of the vacuoles and a causal trafficking defect must be established.
+
+There is currently no universally established methuosis-specific executor.
+
+MLKL and GSDMD are not required in the best-characterized terminal membrane-damage models, separating methuosis from canonical necroptosis and pyroptosis.
+
+Cathepsins, mitochondrial dysfunction, ER stress, lysosomal permeabilization, and autophagy abnormalities may participate in particular contexts, but none is established as the universal terminal execution machinery.
+
+NINJ1 is a plausible convergent lytic factor but remains unproven specifically in methuosis.
+
+The most defensible terminal cause of death is therefore catastrophic plasma-membrane rupture resulting from progressive vacuole-driven structural, biomechanical, metabolic, and homeostatic failure.
+
+The main unresolved question is consequently very specific:
+
+how does extensive intracellular vacuole accumulation become converted into the final plasma-membrane rupture?
+
+Until this step is molecularly resolved, RCDome should distinguish clearly between the established upstream methuotic state and the unresolved terminal lytic machinery.
+
+For transcriptomic applications, signatures involving macropinocytosis, RAC1, ARF6, RAB proteins, PIKFYVE, VPS34, V-ATPase components, lysosomal trafficking, or cytoskeletal genes should be described as methuosis-associated or macropinocytosis/trafficking-associated states.
+
+They cannot demonstrate active methuosis without direct evidence of macropinosome-derived vacuolization, trafficking collapse, and cell-death execution.
+

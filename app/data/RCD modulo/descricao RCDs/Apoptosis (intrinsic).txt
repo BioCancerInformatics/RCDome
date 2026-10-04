@@ -1,0 +1,928 @@
+## Intrinsic Apoptosis
+
+Intrinsic apoptosis is a canonical form of regulated cell death in which diverse intracellular stresses are integrated by the BCL-2 protein family at mitochondria, culminating in mitochondrial outer membrane permeabilization, release of apoptogenic mitochondrial proteins, apoptosome formation, caspase-9 activation, executioner caspase-3/-7 activation, and ordered cellular demolition [1-5].
+
+The defining mechanistic event is mitochondrial outer membrane permeabilization, or MOMP [54]. Morphological characteristics such as cell shrinkage, membrane blebbing, chromatin condensation, phosphatidylserine exposure, DNA fragmentation, and apoptotic-body formation are characteristic downstream consequences but do not by themselves define intrinsic apoptosis [1-2,5].
+
+The canonical sequence is:
+
+cellular stress → stress-specific signaling → activation or accumulation of BH3-only proteins → neutralization of anti-apoptotic BCL-2-family proteins and/or activation of BAX/BAK → BAX/BAK oligomerization → MOMP → release of cytochrome c, SMAC/DIABLO and other mitochondrial proteins → APAF1 apoptosome → caspase-9 → caspase-3/7 → extensive substrate proteolysis → apoptotic cellular dismantling.
+
+Intrinsic apoptosis is regulated by the BCL-2 protein family, in which anti-apoptotic proteins such as MCL-1 and BCL-XL neutralize pro-apoptotic BAX and BAK, while BH3-only proteins sense cellular stress to either activate BAX/BAK and promote apoptosis or neutralize them [44].
+
+## Initiating Cellular Stresses
+
+Unlike extrinsic apoptosis, intrinsic apoptosis does not require activation of a plasma-membrane death receptor.
+
+Its initiating signals arise from disturbances of intracellular or extracellular homeostasis that are interpreted as sufficiently severe or persistent to activate the mitochondrial apoptotic machinery [1-2].
+
+Important triggers include DNA damage, replication stress, oncogenic stress, oxidative stress, growth-factor withdrawal, nutrient or metabolic stress, endoplasmic-reticulum stress, mitotic or microtubule disruption, loss of appropriate extracellular-matrix attachment, and selected infection-associated or inflammatory stresses [1-2,6].
+
+These stimuli do not necessarily activate one universal upstream sensor.
+
+Instead, different stresses engage distinct signaling systems that converge on BH3-only members of the BCL-2 family.
+
+Therefore, the upstream part of intrinsic apoptosis is highly context dependent, whereas the mitochondrial BCL-2-family checkpoint and downstream caspase cascade are substantially more conserved.
+
+## DNA-Damage-Induced Intrinsic Apoptosis
+
+DNA damage represents one of the best-characterized initiating routes.
+
+Double-strand breaks, replication-associated lesions, and other genotoxic insults activate DNA-damage-response proteins including ATM and ATR.
+
+These kinases activate downstream checkpoint signaling and stabilize or activate transcription factors including p53 [7].
+
+The pathway can be represented as:
+
+DNA damage → ATM/ATR-associated damage response → checkpoint signaling → p53 stabilization/activation → transcription of pro-apoptotic genes.
+
+PUMA frequently represents a dominant mediator of p53-induced mitochondrial apoptosis in several cell types, whereas NOXA can provide additional or context-specific activity [8-9,47-48,51].
+
+p53 can also increase BAX expression in some settings.
+
+Thus:
+
+DNA damage → p53 → PUMA ± NOXA ± BAX → BCL-2-family imbalance → BAX/BAK activation → MOMP.
+
+PUMA is particularly powerful because it can interact with several anti-apoptotic BCL-2-family proteins, thereby releasing multiple restraints on mitochondrial apoptosis.
+
+NOXA displays a more selective binding profile, with strong activity against MCL-1 and A1/BFL-1 [10].
+
+Therefore, the precise death response reflects both which BH3-only proteins are induced and which anti-apoptotic proteins dominate in the particular cell.
+
+p53 is nevertheless not universally required for DNA-damage-induced intrinsic apoptosis.
+
+Alternative transcriptional and post-translational mechanisms can activate the mitochondrial pathway when p53 function is absent or compromised.
+
+Thus, p53 should be considered an important upstream stress-response regulator rather than an obligatory component of the core intrinsic apoptosis machinery.
+
+## ER-Stress-Induced Intrinsic Apoptosis
+
+Endoplasmic-reticulum stress provides another major route toward mitochondrial apoptosis.
+
+Accumulation of unfolded proteins activates the unfolded protein response.
+
+If adaptive ER-stress signaling cannot restore proteostasis, pro-apoptotic signals can become dominant.
+
+One experimentally established mechanism involves BIM [11].
+
+ER stress can increase BIM activity through at least two regulatory mechanisms.
+
+PP2A-dependent dephosphorylation can stabilize BIM by reducing its degradation.
+
+ER-stress-associated transcriptional responses involving CHOP and C/EBPα can also increase BIM expression.
+
+Thus:
+
+persistent ER stress → BIM stabilization and/or transcriptional induction → increased BH3-only activity → neutralization of anti-apoptotic BCL-2 proteins and promotion of BAX/BAK activation → MOMP.
+
+This illustrates an important principle of intrinsic apoptosis: different stress sensors can converge on different BH3-only proteins while ultimately reaching the same mitochondrial checkpoint.
+
+## Oxidative Stress
+
+Reactive oxygen species can also initiate intrinsic apoptosis.
+
+Excessive ROS can damage DNA, proteins, lipids, and mitochondria.
+
+Depending on the cell type and insult, oxidative stress can activate p53, p63, JNK/c-Jun, PUMA, NOXA, BIM, or overlapping combinations of these pathways [12-13].
+
+The sequence can therefore be represented as:
+
+oxidative stress → stress-specific DNA-damage/JNK/p53/p63 signaling → BH3-only protein activation → BCL-2-family imbalance → BAX/BAK → MOMP.
+
+There is no universal ROS-specific BH3-only protein.
+
+For example, different neuronal stress models can engage mutually distinct combinations of PUMA, NOXA, BIM, p53, and JNK signaling [12].
+
+Thus, ROS functions as an upstream stress rather than a defining execution mechanism of intrinsic apoptosis.
+
+## Growth-Factor Withdrawal and Other Intracellular Stresses
+
+Survival signals normally suppress pro-apoptotic BCL-2-family activity through kinase-dependent mechanisms and maintenance of anti-apoptotic proteins.
+
+Growth-factor withdrawal removes these survival inputs.
+
+Consequently, BH3-only proteins can accumulate or become activated, shifting the mitochondrial balance toward BAX/BAK-dependent permeabilization.
+
+Similarly, mitotic catastrophe-associated stress, excessive oncogenic signaling, loss of extracellular-matrix attachment, proteotoxic stress, and several metabolic insults can converge on this mitochondrial decision system.
+
+Intrinsic apoptosis therefore represents a common downstream response to diverse forms of irreparable cellular damage rather than a pathway triggered by one unique ligand or receptor.
+
+## Connection with Extrinsic Apoptosis
+
+Extrinsic death-receptor signaling can also engage the intrinsic pathway.
+
+This occurs particularly in type II extrinsic apoptosis.
+
+Activated caspase-8 cleaves BID.
+
+Cleavage generates truncated BID, or tBID.
+
+tBID translocates to mitochondria and promotes BAX/BAK activation [14,43].
+
+The sequence is:
+
+death receptor → FADD/DISC → caspase-8 → BID cleavage → tBID → BAX/BAK → MOMP.
+
+This does not make intrinsic and extrinsic apoptosis identical.
+
+The initiating event remains extrinsic because the signal originated at a death receptor.
+
+The mitochondrial pathway functions as an amplification module inserted downstream of caspase-8.
+
+Therefore, classification should distinguish:
+
+intrinsic apoptosis initiated directly by intracellular stress,
+
+from
+
+extrinsic type II apoptosis that recruits intrinsic mitochondrial machinery as a secondary amplification step.
+
+## The BCL-2 Family as the Core Decision Network
+
+The BCL-2 family represents the principal molecular integration system controlling MOMP [3-4,15,55].
+
+Its members can be divided functionally into three major groups.
+
+Pro-apoptotic effectors such as BAX and BAK directly participate in permeabilization of the mitochondrial outer membrane [56].
+
+Anti-apoptotic proteins such as BCL-2, BCL-xL, MCL-1, BCL-w, and A1/BFL-1 restrain mitochondrial apoptosis.
+
+BH3-only proteins act primarily as stress-responsive regulators that neutralize anti-apoptotic proteins and, according to some mechanistic models, directly activate BAX or BAK.
+
+The balance between these interacting protein groups determines mitochondrial apoptotic competence.
+
+Thus:
+
+pro-survival BCL-2-family dominance → BAX/BAK restrained → mitochondrial integrity → survival.
+
+BH3-only activity exceeds pro-survival buffering capacity → BAX/BAK activation → MOMP → apoptosis.
+
+The system behaves as a molecular threshold rather than a simple linear switch controlled by one protein.
+
+Anti-apoptotic proteins bind BH3 domains of pore-formers and activator BH3-only proteins in their BH3 domain-binding groove, inhibiting their function by sequestering them [45].
+
+Their relative abundance varies markedly among cell types.
+
+Consequently, two cells exposed to the same apoptotic stress can have different sensitivities because they depend on different anti-apoptotic proteins.
+
+For example:
+
+BCL-2/BCL-xL-dominant survival state → sensitivity to BH3 signals targeting these proteins.
+
+MCL-1-dominant survival state → resistance unless MCL-1 is also neutralized.
+
+This selective dependence is one molecular basis for mitochondrial apoptotic priming.
+
+## BH3-Only Proteins
+
+BH3-only proteins function as stress-responsive initiators of the mitochondrial apoptotic checkpoint.
+
+Important members include BIM, BID, PUMA, NOXA, BAD and others.
+
+They do not all have identical binding properties.
+
+BIM and PUMA interact relatively broadly with several anti-apoptotic family members.
+
+BAD preferentially neutralizes proteins including BCL-2, BCL-xL and BCL-w.
+
+NOXA preferentially targets MCL-1 and A1/BFL-1 [10].
+
+This selective binding architecture produces functional complementarity.
+
+For example:
+
+BAD → inhibition of BCL-2/BCL-xL/BCL-w.
+
+NOXA → inhibition of MCL-1/A1.
+
+BAD + NOXA → broader removal of anti-apoptotic restraints → increased probability of BAX/BAK activation.
+
+Therefore, apoptosis sensitivity cannot be predicted simply from the total expression of BH3-only proteins.
+
+The identity of both BH3-only and anti-apoptotic partners matters.
+
+## Direct-Activation Versus Derepression Models
+
+One major mechanistic question remains incompletely resolved: whether BH3-only proteins must directly activate BAX and BAK.
+
+The classical direct-activation model divides BH3-only proteins into activators and sensitizers.
+
+In this framework, proteins such as BIM, BID and sometimes PUMA directly interact with BAX or BAK and induce the structural changes required for activation.
+
+Sensitizers such as BAD and NOXA do not strongly activate BAX/BAK directly but instead neutralize anti-apoptotic proteins.
+
+The sequence is:
+
+stress → activator BH3-only protein → direct BAX/BAK engagement → conformational activation → mitochondrial insertion/oligomerization.
+
+Sensitizer BH3-only proteins facilitate this process by removing inhibitory anti-apoptotic proteins.
+
+However, genetic reconstitution experiments have challenged the necessity of obligatory direct BH3-only activation [16-17].
+
+These studies show that BAX/BAK activation can occur even in the absence of BID, BIM, PUMA and p53 when major anti-apoptotic restraints are removed.
+
+This supports an alternative derepression model:
+
+stress → BH3-only proteins neutralize BCL-xL/MCL-1 and related survival proteins → BAX/BAK are released from inhibition → membrane-associated BAX/BAK activation proceeds without a mandatory direct BH3-only activator.
+
+In some models, current evidence has been proposed to support anti-apoptotic neutralization as essential, whereas the extent to which direct BH3-only activation is universally required in living physiological cells has been suggested to remain context dependent [47-48].
+
+A rigorous mechanistic description should therefore avoid presenting either model as universally settled.
+
+## BAX Activation
+
+BAX is predominantly cytosolic or only loosely mitochondrial in many unstressed cells.
+
+During apoptosis, BAX undergoes conformational changes and accumulates at the mitochondrial outer membrane.
+
+Activation exposes regions involved in membrane insertion and oligomerization.
+
+Activated BAX molecules associate with one another and with membrane lipids, producing progressively larger oligomeric structures.
+
+The sequence is:
+
+BAX activation → mitochondrial translocation/insertion → conformational rearrangement → dimer formation → higher-order oligomerization → membrane permeabilization.
+
+The exact architecture of the BAX pore remains an active area of investigation.
+
+Rather than forming a conventional rigid protein channel comparable to many ion channels, BAX and BAK are thought to cooperate with the lipid bilayer to create dynamic apoptotic pores [3-4,49].
+
+## BAK Activation
+
+BAK is generally constitutively associated with the mitochondrial outer membrane.
+
+In healthy cells, its activation is restrained by anti-apoptotic BCL-2 proteins.
+
+After apoptotic signaling overcomes this inhibition, BAK undergoes conformational activation, dimerization, and higher-order oligomerization.
+
+Thus:
+
+BH3-dependent derepression/activation → BAK conformational change → BH3-domain-mediated dimerization → oligomerization → outer-membrane pore formation.
+
+BAX and BAK have substantial functional redundancy in many contexts.
+
+Loss of either one alone may therefore produce incomplete protection, whereas combined BAX/BAK loss can strongly suppress conventional MOMP-dependent intrinsic apoptosis.
+
+However, relative dependence varies by cell type and stress.
+
+## BOK and Other MOMP Regulators
+
+BOK is another pro-apoptotic BCL-2-family protein capable of contributing to mitochondrial membrane permeabilization in selected settings [1-2].
+
+It should not generally replace BAX/BAK as the canonical core effector.
+
+The strongest consensus architecture remains centered on BAX and BAK.
+
+BOK can instead be represented as a context-dependent additional mitochondrial effector.
+
+## Mitochondrial Outer Membrane Permeabilization
+
+Once BAX and/or BAK form sufficiently extensive membrane pores, the mitochondrial outer membrane becomes permeable to proteins normally retained within the intermembrane space.
+
+This event is MOMP.
+
+The core sequence is:
+
+activated BAX/BAK → membrane oligomerization → apoptotic pore expansion → MOMP.
+
+MOMP fundamentally changes intracellular compartmentalization.
+
+Proteins whose functions were confined to mitochondria gain access to the cytosol.
+
+Major released factors include cytochrome c, SMAC/DIABLO and OMI/HtrA2 [1-4].
+
+AIF can also become mobilized in specific circumstances but represents a parallel caspase-independent mitochondrial death effector rather than the principal executor of canonical intrinsic apoptosis.
+
+MOMP is consequently both a structural lesion and a signaling event.
+
+## Why MOMP Is the Main Commitment Checkpoint
+
+Widespread MOMP is generally regarded as the major commitment point of intrinsic apoptosis [1-5].
+
+Before MOMP, removal of the initiating stress or restoration of the BCL-2-family balance can frequently preserve viability.
+
+After widespread MOMP, several irreversible or difficult-to-reverse events occur simultaneously.
+
+Cytochrome c leaves mitochondria.
+
+SMAC and additional proteins enter the cytosol.
+
+Mitochondrial respiratory functions deteriorate.
+
+Mitochondrial membrane potential and metabolic organization can become compromised.
+
+Executioner-caspase signaling begins.
+
+Thus, the probability of successful cellular recovery decreases dramatically.
+
+However, MOMP should not be described as universally irreversible in every biological context.
+
+Partial MOMP can occur in only a fraction of mitochondria.
+
+Sublethal mitochondrial permeabilization can generate DNA damage or signaling without immediate cell death.
+
+Rare cells may recover after advanced apoptotic signaling.
+
+Therefore, widespread MOMP is the canonical commitment event, but partial MOMP represents an important exception to the simple all-or-none model [4-5,43].
+
+## MOMP Is Distinct from Mitochondrial Permeability Transition
+
+MOMP should also be distinguished from mitochondrial permeability transition-dependent necrosis.
+
+BAX/BAK-mediated MOMP primarily disrupts the outer mitochondrial membrane and releases intermembrane-space proteins.
+
+Mitochondrial permeability transition involves a major permeability change in the inner mitochondrial membrane and can produce mitochondrial swelling, energetic collapse, and necrotic death.
+
+Although mitochondrial changes can overlap experimentally, these are mechanistically distinct processes.
+
+Therefore:
+
+BAX/BAK → outer-membrane permeabilization → intrinsic apoptosis.
+
+Sustained mitochondrial permeability transition → inner-membrane failure → MPT-driven necrosis.
+
+The presence of mitochondrial dysfunction alone is not sufficient to distinguish the pathways.
+
+## Cristae Architecture and Cytochrome c Mobilization
+
+MOMP does not completely explain cytochrome c release because a substantial fraction of cytochrome c is localized within mitochondrial cristae rather than freely accessible in the peripheral intermembrane space.
+
+Cristae architecture therefore provides an additional layer of regulation [18-21,46].
+
+OPA1 is a major regulator of mitochondrial cristae organization.
+
+OPA1 oligomers help maintain narrow crista junctions that retain cytochrome c within internal mitochondrial compartments [18-19].
+
+During apoptosis, OPA1-containing structures are remodeled.
+
+Crista junctions widen.
+
+Previously sequestered cytochrome c becomes more accessible to the permeabilized outer membrane.
+
+Thus:
+
+apoptotic signaling → OPA1 complex remodeling → crista junction opening → mobilization of cristae-associated cytochrome c → efficient mitochondrial release.
+
+This process helps explain how cells can rapidly release a large fraction of mitochondrial cytochrome c after MOMP.
+
+## Relationship Between MOMP and Cristae Remodeling
+
+The exact temporal relationship between BAX/BAK-mediated MOMP and cristae remodeling is nuanced.
+
+Some experiments indicate that OPA1 complex disassembly and crista junction opening depend on BH3 and BAX/BAK signaling but can be experimentally separated from the physical outer-membrane permeabilization event [20].
+
+Therefore, cristae remodeling should not simply be treated as an automatic passive consequence of MOMP.
+
+It may occur in parallel with, immediately before, or downstream of outer-membrane permeabilization depending on the system.
+
+This distinction matters because complete cytochrome c mobilization requires both access from the cristae compartment and an exit route across the outer membrane.
+
+## DRP1, MiD49/51 and Mitochondrial Remodeling
+
+Mitochondrial dynamics can also participate in apoptotic structural remodeling.
+
+DRP1-dependent mitochondrial fission involving MiD49/51 has been implicated in cristae remodeling and cytochrome c release in selected experimental models [21].
+
+The sequence in these settings can be represented as:
+
+apoptotic signaling → mitochondrial-dynamics remodeling → DRP1/MiD49/51-associated changes → cristae reorganization → facilitated cytochrome c release.
+
+However, DRP1 is not universally required for intrinsic apoptosis.
+
+It should therefore be treated as a context-dependent mitochondrial architecture regulator rather than part of the minimal defining machinery.
+
+## Cytochrome c Release
+
+Cytochrome c normally participates in mitochondrial electron transport.
+
+After MOMP and cristae mobilization, cytosolic cytochrome c acquires a second function as a death signal.
+
+Its release creates the critical molecular link between mitochondrial permeabilization and the caspase cascade.
+
+Thus:
+
+BAX/BAK-dependent MOMP + cristae mobilization → cytosolic cytochrome c → APAF1 activation.
+
+The presence of cytochrome c in the cytosol is therefore a strong biochemical indicator of mitochondrial apoptotic signaling.
+
+However, cytochrome c release alone does not fully determine execution because downstream apoptosome and IAP regulation remain important.
+
+## Apoptosome Formation
+
+APAF1 is maintained in an autoinhibited conformation in healthy cells.
+
+Cytosolic cytochrome c binds APAF1.
+
+ATP or dATP participates in the conformational transition that allows APAF1 oligomerization [22-25].
+
+Multiple activated APAF1 molecules assemble into a heptameric wheel-like complex known as the apoptosome.
+
+The sequence is:
+
+cytochrome c → APAF1 binding → nucleotide-dependent APAF1 activation → APAF1 oligomerization → heptameric apoptosome.
+
+The apoptosome provides a molecular platform for recruitment and activation of procaspase-9 [53].
+
+CARD domains in APAF1 interact with the CARD of procaspase-9.
+
+This concentrates procaspase-9 molecules within the apoptosome and promotes their catalytic activity.
+
+Therefore:
+
+APAF1–cytochrome c apoptosome → procaspase-9 recruitment → caspase-9 activation.
+
+## Caspase-9
+
+Caspase-9 is the principal initiator caspase of canonical intrinsic apoptosis.
+
+Its function is downstream of MOMP and apoptosome formation.
+
+Activated caspase-9 cleaves executioner procaspases, especially procaspase-3 and procaspase-7 [22-23].
+
+Thus:
+
+MOMP → cytochrome c → APAF1 → caspase-9 → caspase-3/7.
+
+Caspase-9 activation is highly regulated.
+
+Its activity depends on apoptosome assembly and remains susceptible to inhibition by XIAP.
+
+Therefore, mitochondrial permeabilization does not simply generate an uncontrolled protease cascade; additional post-mitochondrial checkpoints determine the efficiency of execution.
+
+## XIAP as a Post-Mitochondrial Brake
+
+XIAP is one of the most important endogenous inhibitors of post-mitochondrial caspase signaling.
+
+XIAP can bind and inhibit processed caspase-9 and executioner caspase-3/-7 [26-28].
+
+Thus:
+
+MOMP → apoptosome → caspase activation
+
+can still be restrained by:
+
+XIAP → inhibition of caspase-9 and caspase-3/7.
+
+This creates a second major survival checkpoint downstream of the BCL-2-family-controlled mitochondrial checkpoint.
+
+Cells can therefore resist death either by preventing MOMP or by suppressing the caspase cascade after MOMP.
+
+## SMAC/DIABLO
+
+SMAC/DIABLO is released from mitochondria during MOMP.
+
+Its principal apoptotic function is antagonism of IAP proteins, particularly XIAP [26-28].
+
+SMAC contains an N-terminal IAP-binding motif that interacts with XIAP BIR domains.
+
+This interaction relieves XIAP-mediated suppression of caspases.
+
+The sequence is:
+
+MOMP → SMAC release → SMAC–XIAP interaction → decreased XIAP caspase inhibition → enhanced caspase-9 and caspase-3/7 activity.
+
+Therefore, mitochondrial permeabilization activates apoptosis through two complementary mechanisms:
+
+cytochrome c generates new caspase activity through the apoptosome,
+
+while SMAC removes an inhibitory brake on this caspase activity.
+
+## OMI/HtrA2
+
+OMI/HtrA2 is another mitochondrial protein released during apoptosis [29-31].
+
+Like SMAC, HtrA2 can interact with IAP proteins.
+
+In addition, HtrA2 possesses serine protease activity capable of promoting IAP degradation or cleavage.
+
+Thus:
+
+MOMP → HtrA2 release → IAP binding and proteolytic inactivation → reduced caspase inhibition.
+
+HtrA2 therefore reinforces the post-mitochondrial commitment to caspase activation.
+
+However, it is not the primary canonical executioner of intrinsic apoptosis.
+
+## Regulation of the Apoptosome
+
+Apoptosome signaling is itself subject to regulation.
+
+Cytochrome c can facilitate APAF1 activation not only through direct binding but also by relieving inhibitory interactions involving proteins such as 14-3-3ε [32].
+
+Protein kinase A phosphorylation can inhibit caspase-9 activation [50,52].
+
+Therefore, the post-MOMP pathway is not simply:
+
+cytochrome c → automatic caspase activation.
+
+Instead:
+
+cytochrome c → regulated APAF1 assembly → regulated caspase-9 activity → executioner-caspase threshold.
+
+## Caspase-3 and Caspase-7
+
+Caspase-3 and caspase-7 are the principal executioner proteases.
+
+Once sufficiently activated, they cleave hundreds to more than a thousand cellular substrates [33-34].
+
+These substrates include proteins involved in nuclear architecture, cytoskeletal organization, DNA repair, signaling, metabolism, RNA processing, membrane organization and cell adhesion.
+
+The execution phase can therefore be represented as:
+
+caspase-9 → caspase-3/7 → broad proteolytic substrate cleavage → coordinated destruction of cellular organization.
+
+Caspase-3 is particularly important for several classical apoptotic phenotypes.
+
+However, caspase-3 and caspase-7 have partially distinct substrate preferences and cannot always be treated as completely interchangeable.
+
+## ICAD–CAD and DNA Fragmentation
+
+One important caspase substrate is ICAD, the inhibitor of caspase-activated DNase.
+
+In viable cells, ICAD binds CAD and prevents its nuclease activity.
+
+Executioner caspases cleave ICAD.
+
+CAD is then released and enters or acts within the nucleus.
+
+The sequence is:
+
+caspase-3 → ICAD cleavage → CAD activation → internucleosomal chromosomal DNA fragmentation.
+
+This generates the characteristic nucleosomal DNA fragmentation associated with apoptosis.
+
+Thus, DNA laddering is downstream of executioner-caspase activity rather than the mechanism that initiates mitochondrial apoptosis.
+
+Loss of DNA fragmentation does not necessarily mean that MOMP or other lethal apoptotic processes did not occur.
+
+## Nuclear and Cytoskeletal Dismantling
+
+Executioner caspases also cleave structural proteins that maintain nuclear and cellular architecture.
+
+Nuclear-lamina disruption facilitates nuclear condensation and fragmentation.
+
+Cytoskeletal protein cleavage contributes to cell shrinkage, membrane blebbing, detachment, and eventual formation of apoptotic bodies.
+
+The sequence is:
+
+executioner caspases → cleavage of nuclear/cytoskeletal substrates → loss of structural integrity → chromatin condensation + nuclear fragmentation + membrane blebbing.
+
+These events represent controlled demolition rather than catastrophic primary membrane rupture.
+
+## AIF as a Parallel Mitochondrial Death Effector
+
+Apoptosis-inducing factor, or AIF, is a mitochondrial flavoprotein that can participate in caspase-independent nuclear injury [35-38].
+
+Following appropriate mitochondrial permeabilization and processing, AIF can translocate from mitochondria to the nucleus.
+
+Nuclear AIF contributes to chromatin condensation and large-scale DNA fragmentation.
+
+Thus:
+
+mitochondrial injury/MOMP → AIF mobilization → cytosolic transit → nuclear translocation → chromatin condensation and large-scale DNA damage.
+
+AIF should nevertheless not be described as the principal executor of canonical caspase-dependent intrinsic apoptosis.
+
+The core canonical pathway remains:
+
+MOMP → cytochrome c → APAF1 → caspase-9 → caspase-3/7.
+
+AIF represents a parallel mitochondrial death output that can reinforce death when caspase signaling is limited or operate prominently in selected cellular contexts.
+
+It should also be distinguished from PARP1-dependent parthanatos, where AIF participates in a mechanistically distinct pathway.
+
+## Phosphatidylserine Exposure
+
+Apoptotic cells commonly externalize phosphatidylserine from the inner to the outer leaflet of the plasma membrane.
+
+Externalized phosphatidylserine provides an important signal for recognition and engulfment by phagocytes.
+
+However, the source literature indicates that phosphatidylserine exposure and DNA fragmentation do not necessarily share identical caspase dependence in every cell type [39-40].
+
+Some primary cells retain substantial phosphatidylserine externalization even when caspase activity is suppressed.
+
+Therefore, phosphatidylserine exposure is a characteristic apoptotic phenotype but is not sufficient by itself to diagnose intrinsic apoptosis.
+
+The defining mechanism remains mitochondrial BCL-2-family-dependent permeabilization.
+
+## Apoptotic Morphology
+
+Morphology develops downstream of the molecular execution machinery.
+
+The general sequence is:
+
+intracellular stress → no immediate visible change → MOMP and caspase activation → cell shrinkage → chromatin condensation → membrane blebbing → nuclear fragmentation → formation of membrane-bound apoptotic bodies.
+
+The plasma membrane initially remains largely intact.
+
+This permits apoptotic material to be contained and removed by neighboring cells or professional phagocytes.
+
+The resulting clearance is generally less inflammatory than death pathways characterized by early membrane rupture.
+
+If apoptotic cells are not cleared, secondary necrosis can eventually occur.
+
+That later membrane rupture is not the defining terminal mechanism of intrinsic apoptosis.
+
+## Physical Cause of Death
+
+The proximate cause of canonical intrinsic apoptotic death is not one isolated membrane lesion.
+
+Instead, death results from the combination of widespread MOMP-associated mitochondrial failure and extensive caspase-dependent destruction of essential cellular structures and functions.
+
+After commitment:
+
+MOMP → mitochondrial functional deterioration + release of apoptogenic proteins → caspase cascade → widespread proteolytic dismantling → irreversible loss of integrated cellular organization.
+
+Caspases destroy structural, regulatory, metabolic and repair systems faster than the cell can rebuild them.
+
+The nucleus is fragmented.
+
+Cytoskeletal organization collapses.
+
+Cellular signaling networks are dismantled.
+
+Mitochondrial integrity has already been compromised.
+
+The cell therefore becomes unable to restore homeostasis.
+
+## Partial MOMP and Sublethal Apoptotic Signaling
+
+A major refinement of the classical model is recognition that MOMP is not always perfectly synchronous across every mitochondrion.
+
+In partial or minority MOMP, only a subset of mitochondria becomes permeabilized.
+
+This may generate limited caspase activity insufficient to kill the cell.
+
+Such cells can survive but may accumulate DNA damage or other long-term consequences.
+
+Therefore:
+
+limited stress → partial mitochondrial permeabilization → sublethal caspase activity → survival possible.
+
+By contrast:
+
+strong sustained stress → widespread MOMP → large-scale apoptogenic-factor release → robust caspase activation → apoptosis.
+
+This distinction helps explain why the apoptotic pathway can sometimes generate non-lethal biological effects.
+
+## Anastasis and Reversibility
+
+Cells can occasionally recover from surprisingly advanced stages of apoptotic signaling.
+
+This phenomenon is termed anastasis.
+
+Recovery has been observed after transient caspase activation and in situations where mitochondrial damage is incomplete.
+
+Such observations demonstrate that biochemical markers traditionally considered synonymous with death do not always identify absolute irreversibility in every single cell.
+
+Nevertheless, these situations are exceptions to efficient canonical intrinsic apoptosis.
+
+In most cells, widespread MOMP followed by sustained executioner-caspase activation represents an overwhelmingly lethal transition.
+
+Thus, the most defensible formulation is:
+
+widespread MOMP = principal commitment checkpoint,
+
+sustained caspase-3/7 activity = execution commitment/amplification,
+
+but neither should be described as an absolutely universal irreversible event under every experimental condition.
+
+## Resistance Through BCL-2-Family Proteins
+
+Cancer and other pathological cells can suppress intrinsic apoptosis through increased anti-apoptotic BCL-2-family activity.
+
+Elevated BCL-2 can sequester apoptotic BH3 signals.
+
+Elevated BCL-xL can suppress BAX/BAK activation.
+
+Elevated MCL-1 can provide particularly strong resistance in cells dependent on this protein for survival.
+
+Therefore:
+
+BCL-2/BCL-xL/MCL-1 dominance → increased BH3-buffering capacity → BAX/BAK remain restrained → MOMP prevented → apoptosis resistance.
+
+This mitochondrial blockade is one of the major mechanisms by which damaged cells can evade death.
+
+## Resistance Downstream of MOMP
+
+Resistance can also occur after mitochondrial permeabilization.
+
+High XIAP can inhibit caspase-9 and caspase-3/7.
+
+Reduced SMAC release or ineffective IAP neutralization can further suppress execution.
+
+Altered APAF1 abundance or function can decrease apoptosome assembly.
+
+Regulatory phosphorylation of caspase-9 or components of the apoptosome can modify pathway activity.
+
+Therefore, mitochondrial priming and post-mitochondrial execution competence are separate biological variables.
+
+A cell may undergo MOMP relatively easily but still have a high threshold for efficient caspase execution.
+
+## Experimental Validation
+
+Strong demonstration of intrinsic apoptosis requires establishing mitochondrial pathway dependence rather than relying on morphology alone.
+
+The initiating stress should first be linked temporally to activation of appropriate BH3-only or BCL-2-family changes.
+
+BAX and BAK activation can be evaluated through conformational assays, mitochondrial translocation, oligomerization studies, or genetic perturbation.
+
+MOMP can be measured through release of cytochrome c or other intermembrane-space proteins from mitochondria into the cytosol.
+
+The strongest mechanistic evidence combines these observations with BAX/BAK perturbation.
+
+If BAX/BAK loss prevents cytochrome c release and death, this strongly supports canonical mitochondrial apoptosis.
+
+Downstream evidence can include APAF1 apoptosome formation, caspase-9 activation, caspase-3/7 activation, ICAD cleavage, CAD-mediated DNA fragmentation, and characteristic apoptotic morphology.
+
+However, each individual marker has limitations.
+
+Cleaved caspase-3 alone does not identify the initiating pathway.
+
+TUNEL is not specific for apoptosis.
+
+Annexin V positivity is not sufficient to establish mitochondrial apoptosis.
+
+Cytochrome c release is much closer to the defining mitochondrial event but should ideally be linked to BAX/BAK dependence.
+
+## Testing BH3 Dependence
+
+Genetic deletion or suppression of individual BH3-only proteins can identify the upstream stress-sensing route.
+
+For genotoxic p53-dependent apoptosis, PUMA loss frequently provides substantial protection [8-9,47].
+
+NOXA loss can provide additional protection in selected contexts.
+
+For ER-stress-associated apoptosis, BIM perturbation can test the proposed pathway [11].
+
+However, redundancy among BH3-only proteins must be considered.
+
+Failure of one knockout to abolish apoptosis does not necessarily mean the BCL-2 pathway is not involved.
+
+Multiple BH3-only proteins may collaborate.
+
+## Testing Anti-Apoptotic Dependence
+
+BH3 profiling or selective manipulation of anti-apoptotic proteins can identify the survival proteins restraining MOMP.
+
+Cells strongly dependent on BCL-2, BCL-xL or MCL-1 display distinct patterns of mitochondrial priming.
+
+Removing or pharmacologically neutralizing the relevant anti-apoptotic protein can lower the threshold for BAX/BAK activation.
+
+This provides functional evidence that the BCL-2 network controls commitment.
+
+However, drug-induced death should still be verified through downstream BAX/BAK–MOMP machinery rather than inferred solely from drug sensitivity.
+
+## Testing Mitochondrial Architecture
+
+OPA1-associated cristae remodeling can be assessed through structural imaging, OPA1 oligomer analysis, crista-junction measurements and cytochrome c release.
+
+Preservation or overexpression of OPA1 can suppress or delay cytochrome c mobilization in selected systems [18,41].
+
+Conversely, OPA1 disruption can sensitize cells to mitochondrial apoptosis.
+
+Recent work using OPA1-targeting small molecules further supports the concept that cristae architecture can influence apoptotic sensitivity [42].
+
+Nevertheless, OPA1 manipulation should be interpreted as modulation of mitochondrial release efficiency rather than the universal primary trigger of intrinsic apoptosis.
+
+## Distinction from Extrinsic Apoptosis
+
+Intrinsic and extrinsic apoptosis ultimately converge on executioner caspases but differ primarily in initiation.
+
+Intrinsic:
+
+intracellular stress → BH3-only/BCL-2-family checkpoint → BAX/BAK → MOMP → apoptosome → caspase-9.
+
+Extrinsic:
+
+death ligand → death receptor → DISC/complex II → caspase-8.
+
+The two routes converge at caspase-3/7.
+
+Type II extrinsic apoptosis bridges the systems through:
+
+caspase-8 → BID → BAX/BAK → MOMP.
+
+Thus, the presence of MOMP does not automatically prove that apoptosis was intrinsically initiated.
+
+The upstream trigger must also be established.
+
+## Distinction from MPT-Driven Necrosis
+
+Both intrinsic apoptosis and mitochondrial permeability transition-dependent necrosis involve mitochondria.
+
+However, the defining membrane lesion differs.
+
+Intrinsic apoptosis:
+
+BAX/BAK-mediated outer membrane permeabilization → release of apoptogenic proteins → caspase cascade.
+
+MPT-driven necrosis:
+
+sustained inner mitochondrial membrane permeability transition → membrane-potential collapse → ATP depletion → osmotic and metabolic failure → necrotic death.
+
+Therefore, mitochondrial swelling or depolarization alone cannot classify the pathway.
+
+## Distinction from Parthanatos
+
+AIF release can occur during mitochondrial apoptosis but AIF is also a major component of parthanatos.
+
+In canonical intrinsic apoptosis, the defining route is:
+
+BAX/BAK → MOMP → cytochrome c → apoptosome → caspase cascade.
+
+In parthanatos:
+
+severe DNA damage → PARP1 hyperactivation → PAR signaling/NAD+ disturbance → AIF mobilization → nuclear injury.
+
+Thus, AIF nuclear translocation alone does not establish intrinsic apoptosis.
+
+Its upstream molecular context must be determined.
+
+## Molecular Hierarchy
+
+The initiating stresses include DNA damage, replication stress, oxidative stress, ER stress, growth-factor withdrawal, metabolic perturbation, mitotic disruption, anoikis, and related intracellular injuries.
+
+Stress sensors and transducers are context dependent and include ATM/ATR, p53, JNK/c-Jun, ER-stress regulators and other pathways.
+
+BH3-only proteins such as PUMA, NOXA, BIM, BID and BAD translate these stress signals toward the mitochondrial checkpoint.
+
+BCL-2, BCL-xL, MCL-1, BCL-w and A1/BFL-1 constitute the major anti-apoptotic restraint system.
+
+BAX and BAK are the canonical mitochondrial pore-forming effectors.
+
+MOMP represents the defining mitochondrial execution checkpoint.
+
+OPA1-regulated cristae remodeling controls availability of mitochondrial cytochrome c for release.
+
+Cytochrome c activates APAF1.
+
+APAF1 forms the apoptosome.
+
+Caspase-9 is the intrinsic initiator caspase.
+
+Caspase-3 and caspase-7 are the principal executioner caspases.
+
+SMAC/DIABLO and HtrA2 antagonize IAP-dependent suppression.
+
+XIAP is a major post-mitochondrial inhibitor.
+
+CAD is a downstream nuclease activated after ICAD cleavage.
+
+AIF is a parallel mitochondrial caspase-independent nuclear death effector rather than the principal canonical executor.
+
+## Integrated DNA-Damage Route
+
+The best-supported genotoxic sequence is:
+
+DNA damage → ATM/ATR-associated damage response → p53 activation → PUMA and context-dependent NOXA induction → neutralization of anti-apoptotic BCL-2-family proteins ± direct BAX/BAK activation → BAX/BAK mitochondrial oligomerization → MOMP → OPA1/cristae remodeling facilitates complete cytochrome c mobilization → cytochrome c + APAF1 + ATP/dATP → apoptosome → caspase-9 → caspase-3/7 → extensive substrate cleavage → ICAD cleavage → CAD activation → DNA fragmentation + nuclear and cytoskeletal dismantling → apoptotic death.
+
+## Integrated ER-Stress Route
+
+Persistent ER stress → unfolded-protein-response signaling → BIM stabilization and/or transcriptional induction → anti-apoptotic BCL-2-family neutralization → BAX/BAK activation → MOMP → cytochrome c/SMAC release → apoptosome → caspase-9 → caspase-3/7 → apoptosis.
+
+## Integrated Oxidative-Stress Route
+
+Excessive ROS → DNA/protein/mitochondrial stress → context-dependent p53/p63/JNK signaling → PUMA/NOXA/BIM or related BH3-only activation → BCL-2-family threshold crossed → BAX/BAK → MOMP → apoptosome → executioner caspases → apoptotic dismantling.
+
+## Integrated Type II Crosstalk Route
+
+FasL/TRAIL or another death-receptor stimulus → DISC → caspase-8 → BID cleavage → tBID → mitochondrial BAX/BAK activation → MOMP → cytochrome c + SMAC → apoptosome + XIAP relief → caspase-9 → caspase-3/7 → apoptosis.
+
+This route should still be classified as extrinsically initiated apoptosis with mitochondrial amplification rather than primary intrinsic apoptosis.
+
+## Integrated Core Sequence
+
+The most general mechanism can therefore be represented as:
+
+irreparable intracellular stress → stress-specific sensing and signaling → activation/accumulation of BH3-only proteins → selective neutralization of BCL-2, BCL-xL, MCL-1 and related anti-apoptotic restraints and, in some models, direct BAX/BAK activation → BAX/BAK conformational activation, mitochondrial insertion and oligomerization → formation and expansion of apoptotic outer-membrane pores → widespread MOMP → remodeling of OPA1-regulated cristae and mobilization of sequestered cytochrome c → release of cytochrome c, SMAC/DIABLO, HtrA2 and other mitochondrial factors → cytochrome c–APAF1–ATP/dATP apoptosome assembly → caspase-9 activation → caspase-3/7 activation while SMAC/HtrA2 relieve XIAP-mediated inhibition → broad proteolytic destruction of nuclear, cytoskeletal, repair, signaling and membrane-associated proteins → ICAD cleavage and CAD-dependent DNA fragmentation → chromatin condensation, cell shrinkage, membrane blebbing, nuclear fragmentation and apoptotic-body formation → phosphatidylserine-associated recognition and clearance → irreversible loss of integrated cellular function and death.
+
+## Final Mechanistic Interpretation
+
+Intrinsic apoptosis is best understood as a BCL-2-family-controlled mitochondrial cell-death program whose defining transition is BAX/BAK-dependent mitochondrial outer membrane permeabilization.
+
+Its strongest mechanistic signature is not apoptosis-associated morphology alone.
+
+The most specific causal chain is:
+
+stress-dependent BH3 signaling + BCL-2-family imbalance → BAX/BAK activation → MOMP → cytochrome c release → APAF1 apoptosome → caspase-9 → caspase-3/7.
+
+The mitochondrial decision is shaped by selective interactions among BH3-only proteins and anti-apoptotic BCL-2 proteins.
+
+A major unresolved mechanistic issue remains whether physiological BAX/BAK activation universally requires direct engagement by BH3-only activators or whether removal of anti-apoptotic restraints can itself permit spontaneous membrane-dependent activation.
+
+After BAX/BAK activation, mitochondrial architecture introduces another regulatory layer because OPA1-controlled cristae remodeling influences the efficiency and completeness of cytochrome c release.
+
+Following MOMP, the pathway remains regulated by the balance between apoptosome-generated caspase activity and IAP-mediated inhibition.
+
+SMAC/DIABLO and HtrA2 help shift this balance toward execution.
+
+The principal terminal executors of canonical intrinsic apoptosis are caspase-3 and caspase-7.
+
+AIF represents a parallel mitochondrial death effector rather than the defining executor of the canonical pathway.
+
+Widespread MOMP remains the most defensible physiological commitment checkpoint, although partial MOMP and rare recovery demonstrate that it should not be represented as absolutely irreversible in every single-cell context.
+
+Accordingly, intrinsic apoptosis is not simply a linear sequence from cellular damage to caspases. It is a multilayered mitochondrial decision system in which stress sensing, BH3-only proteins, anti-apoptotic BCL-2 proteins, BAX/BAK pore formation, cristae architecture, apoptosome assembly, IAP regulation, and executioner caspases collectively determine whether mitochondrial stress remains reversible or progresses into apoptotic cell death.
+

@@ -1,0 +1,255 @@
+Linker cell-type death
+
+1. Definition and Classification
+
+Linker cell-type death (LCD) is an established caspase-independent, non-apoptotic developmental cell-death program best characterized in the male linker cell of Caenorhabditis elegans [1-4]. The linker cell is a differentiated migratory cell that undergoes a stereotyped death near the end of larval development after completing its developmental function. Genetic studies demonstrate that initiation of this death does not require the canonical C. elegans apoptotic machinery, including CED-3/caspase, CED-4/Apaf1, CED-9/BCL2, or EGL-1/BH3-only signaling [1,3-4,17].
+
+For RCDome, LCD is therefore most defensibly classified as an established non-apoptotic developmental RCD program in C. elegans rather than as a universally established RCD modality across animals. Morphologically similar cell deaths have been described in other developmental and degenerative contexts, but the supplied evidence does not establish that these events use the same molecular machinery as the C. elegans linker cell [1,5-6]. Consequently, morphological similarity should not be interpreted as mechanistic conservation.
+
+The established mechanistic core of LCD consists of temporally and spatially controlled developmental inputs that converge on a non-canonical death-promoting state of HSF-1, followed by transcriptional induction of ubiquitin–proteasome system (UPS) components required for cell death [2-4]. LET-70/UBE2D2, UBA-1, proteasomal components, E3 ubiquitin-ligase machinery, the polyglutamine-rich protein PQN-41C, and chromatin regulators associated with SET-16 participate in this program [2-3,5].
+
+A major limitation remains at the execution level. Although UPS-dependent proteolysis is required and is currently the strongest candidate biochemical process driving cellular destruction, the specific lethal substrates degraded by the UPS have not been identified [2,4]. Likewise, no single biochemical lesion has been demonstrated to constitute the universal terminal event. LCD is therefore mechanistically established as a developmental death program, but its precise final executor and proximate physical cause of death remain unresolved.
+
+Recent work further indicates that LCD is temporally layered rather than activated only immediately before visible degeneration. MYRF-1-dependent transcriptional priming occurs considerably earlier than death and establishes competence for later execution, while newer evidence implicating EBAX-1-mediated target-directed microRNA degradation and viln-1-associated cytoskeletal remodeling remains emerging [7-8].
+
+Thus, the most defensible classification is: established non-apoptotic developmental cell-death program in the C. elegans male linker cell, with a well-supported HSF-1–UPS regulatory core but an incompletely resolved terminal execution mechanism.
+
+2. Initiation and Triggers
+
+The primary physiological trigger for LCD is developmental progression rather than acute cellular injury. The linker cell survives for approximately 30 hours as a differentiated migratory cell and dies specifically around the L4-to-adult transition after reaching the end of its developmental trajectory [1,3,9].
+
+Developmental timing is controlled in part through the heterochronic pathway. The let-7-associated temporal program ultimately promotes accumulation or activity of LIN-29, which is required for appropriately timed linker-cell death [2-3,9]. The supported temporal sequence can therefore be represented as:
+
+developmental progression → let-7-associated heterochronic signaling → LIN-29 → acquisition of death competence.
+
+The biochemical target through which LIN-29 converts developmental time into an LCD-permissive state has not been identified. LIN-29 should therefore be considered a developmental timing regulator upstream of the death program rather than a demonstrated executor [2-3].
+
+Developmental timing is integrated with spatial information. The migrating linker cell must reach the appropriate posterior position near the cloacal region before death. Distinct Wnt pathways provide opposing spatial inputs. EGL-20/Wnt promotes LCD, whereas a LIN-44/Wnt-dependent pathway delays or suppresses premature death [2-3,6]. These signals are transmitted through Frizzled-centered receptor systems and intracellular Wnt-associated components, allowing the linker cell to couple its spatial position to death competence.
+
+The most defensible spatial sequence is therefore:
+
+positional Wnt ligands → Frizzled-associated signaling → β-catenin/NLK-related intracellular modules → modulation of the transcriptional environment permissive for HSF-1-dependent LCD [3,6].
+
+A third regulatory arm involves TIR-1 and SEK-1 [3,10]. Genetic epistasis places this pathway upstream of, or convergent with, the HSF-1-centered death program and links PQN-41 function to the TIR-1/SEK-1 axis. However, the physiological signal that activates TIR-1 specifically in the linker cell is unknown.
+
+TIR-1 is a C. elegans SARM1-family protein. In other C. elegans tissues, TIR-1 can undergo oligomerization or phase-transition-dependent activation to engage downstream p38-associated signaling [10]. This provides a plausible mechanistic analogy for linker-cell signaling, but the supplied evidence does not demonstrate that TIR-1 oligomerization or phase transition is the initiating event in LCD. It must therefore remain a hypothesis rather than part of the established LCD mechanism.
+
+An additional and temporally much earlier event is MYRF-1-dependent priming. MYRF-1 translocates from a membrane-associated state to the nucleus during the L2-to-L3 migratory transition and binds promoters of LCD-associated genes, including pqn-41 [7]. Its requirement long before overt cell death supports a two-stage model:
+
+early MYRF-1-dependent priming → later developmentally gated HSF-1-centered execution.
+
+Thus, LCD initiation cannot be reduced to a single ligand–receptor interaction. The best-supported model integrates developmental time, spatial Wnt information, TIR-1/SEK-1 signaling, and earlier MYRF-1-dependent transcriptional priming before activation of the core death program [2-3,7].
+
+3. Core Mechanistic Machinery
+
+The central regulatory hub of LCD is HSF-1 [2-4]. This is mechanistically unusual because HSF-1 ordinarily supports proteostasis and survival during cellular stress. In the linker cell, however, HSF-1 adopts a functionally distinct death-promoting state that activates a transcriptional program different from the canonical heat-shock response [2-3].
+
+The available evidence therefore supports at least two functional states of HSF-1: a conventional stress-protective state and an LCD-associated death-promoting state. The upstream developmental pathways appear to alter HSF-1 functional output rather than simply increase HSF-1 abundance [2-3]. The biochemical modifications or cofactors that distinguish these states have not been fully defined.
+
+A major downstream consequence of death-associated HSF-1 activity is activation of the ubiquitin–proteasome system. One of the best-characterized transcriptional targets is let-70, encoding the C. elegans ortholog of UBE2D2 [2]. LCD additionally requires UBA-1, components of the proteasomal 19S regulatory machinery, and ubiquitin-ligase systems involving CUL-3, RBX-1, BTBD-2, and probably SIAH-1 [2,4,6].
+
+The core biochemical sequence supported by these data is:
+
+UBA-1/E1-mediated ubiquitin activation → ubiquitin transfer to LET-70/E2 → substrate recognition through E3-associated machinery including CUL-3–RBX-1–BTBD-2 and related components → polyubiquitylation of selected proteins → proteasomal degradation.
+
+The identity of the crucial substrates remains unknown [2,4]. Therefore, UPS-dependent proteolysis is strongly supported as core machinery, but no individual degraded protein can currently be designated the terminal executor of LCD.
+
+Chromatin regulation is also integrated into this machinery. SET-16 and other components related to the MLL3/4 H3K4 methyltransferase complex are required cell-autonomously for LCD [3]. Loss of SET-16 interferes with expression of LET-70 and UBQ-1-associated reporters, and an HSF-1 gain-of-function state does not bypass SET-16 deficiency [3]. This genetic relationship places SET-16 with or downstream of HSF-1 at the transcriptional activation stage.
+
+The simplest supported model is therefore that HSF-1-dependent activation of the death program requires an appropriate chromatin environment generated by the SET-16-associated methyltransferase complex, enabling efficient transcription of UPS-related LCD genes [2-3]. The precise target loci and chromatin modifications responsible for each step have not been completely resolved.
+
+PQN-41 constitutes another major core component [5]. The death-promoting PQN-41C isoform is induced around death onset, acts cell-autonomously, contains glutamine-rich coiled-coil regions, and forms cytoplasmic aggregates or puncta in the linker cell [5]. Functional domains within PQN-41C are required for death-promoting activity.
+
+Importantly, pqn-41 mutants that survive can lose prominent nuclear crenellation while retaining organelle swelling [5]. This dissociation implies that PQN-41C is not simply a nonspecific toxic protein. Rather, it appears to participate preferentially in a branch controlling nuclear and/or cytoskeletal dismantling.
+
+An emerging downstream mechanism involves EBAX-1 [8]. EBAX-1 functions as a CUL-2-associated substrate receptor and has been proposed to act downstream of HSF-1 together with LET-70 to promote target-directed microRNA degradation. Genetic suppression involving Argonaute proteins, microRNA biogenesis components, and mir-35-family microRNAs links this regulatory pathway to LCD [8].
+
+Within this emerging model, degradation of specific regulatory microRNAs derepresses downstream targets, including viln-1, which is induced during death and required for efficient LCD [8]. This provides a possible mechanistic bridge between ubiquitin-dependent regulation and cytoskeletal remodeling. However, because this evidence is recent and the complete molecular chain has not yet been established, EBAX-1–microRNA–viln-1 signaling should be considered an emerging branch rather than part of the universally established core.
+
+4. Propagation and Amplification
+
+LCD appears to propagate through convergence of several partially redundant developmental inputs on a transcriptional state capable of activating destructive protein-remodeling pathways.
+
+Temporal signaling through LIN-29, spatial Wnt pathways, and TIR-1/SEK-1 signaling each contribute to appropriate activation of the HSF-1-centered program [2-3]. This organization provides developmental robustness: death does not depend exclusively on a single extracellular trigger but instead occurs only when temporal, spatial, and intracellular conditions are sufficiently aligned.
+
+The central amplification step is likely transcriptional. Once HSF-1 adopts its LCD-promoting state, expression of LET-70 and other UPS components increases, expanding the cell's capacity for selective ubiquitylation and proteasomal degradation [2-3]. SET-16-dependent chromatin regulation facilitates this transcriptional switch [3].
+
+In biochemical terms, increased E1/E2/E3/proteasomal activity can potentially convert a limited upstream developmental signal into extensive proteome remodeling. However, because the essential degraded substrates remain unidentified, the precise feedback structure of this amplification system cannot yet be reconstructed.
+
+PQN-41C provides a parallel or convergent destructive branch [5]. Its aggregation or punctate cytoplasmic localization, together with its requirement for normal nuclear crenellation, suggests participation in structural remodeling. Nevertheless, the evidence does not establish whether PQN-41C directly damages nuclear or cytoskeletal structures, recruits additional proteins, alters protein solubility, or operates through another biochemical mechanism.
+
+The emerging EBAX-1 pathway adds another potential amplification layer [8]. Target-directed degradation of regulatory microRNAs could relieve repression of multiple downstream genes, converting a ubiquitin-dependent signal into broader transcriptional or cytoskeletal changes. viln-1-associated remodeling is currently the strongest candidate downstream component of this branch, but its direct physical contribution to death remains incompletely characterized.
+
+Organelle remodeling accompanies these molecular events. Mitochondria and ER become swollen, while the nuclear envelope becomes crenellated and chromatin remains relatively open rather than undergoing the compact condensation characteristic of canonical apoptosis [1,5]. These organelle alterations are robust phenotypic features but should not automatically be interpreted as the initiating biochemical cause of death.
+
+Thus, LCD propagation is best described as coordinated transcriptional activation of UPS-dependent proteolysis together with PQN-41C-dependent and possibly EBAX-1/viln-1-associated structural remodeling, progressively destabilizing cellular organization.
+
+5. Protective / Negative Regulators
+
+LCD is tightly restricted in time and space, indicating the existence of active mechanisms that prevent premature execution.
+
+The clearest protective pathway is the LIN-44/Wnt arm. Transcriptional control of linker-cell death involves SET-16, NHR-67, and Wnt/NOB-1/EOR-1 signaling [3]. This antagonism helps ensure that the linker cell survives while migration remains incomplete and becomes susceptible to death only after reaching its appropriate anatomical position.
+
+NHR-67 also has a temporally complex role [3]. During earlier stages, NHR-67 suppresses premature expression of LET-70 and other UPS-associated components. Loss of this early protective activity can sensitize the cell to premature activation of the destructive transcriptional program. NHR-67 therefore cannot be categorized simply as a constitutive pro-death or anti-death molecule; its function depends on developmental timing.
+
+HPK-1 represents a more provisional protective regulator. Independent C. elegans evidence establishes that HPK-1 can support proteostasis and HSF-1-associated stress responses [11]. Within the LCD model, HPK-1 has been proposed to bias HSF-1 toward its conventional protective state and away from the LCD-specific death-promoting state [3,11]. However, this remains a mechanistic model rather than a fully demonstrated LCD checkpoint.
+
+The existence of distinct PQN-41 isoforms further suggests endogenous antagonism. While PQN-41C promotes death, other PQN-41 isoforms can display protective effects [5]. The biochemical basis of this isoform-specific antagonism remains unresolved.
+
+Together, these observations indicate that LCD is not controlled by a single binary death switch. Instead, survival is maintained through developmental timing controls, spatially inhibitory Wnt signaling, suppression of premature UPS transcription, and possibly regulation of HSF-1 functional state.
+
+6. Commitment / Point of No Return
+
+No universal molecular point of no return has yet been experimentally demonstrated for LCD.
+
+MYRF-1-dependent priming occurs substantially before visible death and is required for the later program [7]. However, this event cannot be considered the commitment point because it does not immediately trigger death. Similarly, early expression of PQN-41C does not by itself necessarily cause precocious killing [5,7].
+
+The strongest current candidate for functional commitment is the transition in which convergent developmental pathways establish the LCD-specific HSF-1 state and activate sufficient downstream UPS and death-associated effectors that the cell can no longer restore homeostasis [2].
+
+This formulation is intentionally functional rather than biochemical. The supplied evidence does not identify a single protein cleavage, pore-forming event, organelle rupture, ion imbalance, or metabolic catastrophe that marks irreversible commitment.
+
+A later candidate lesion is loss of nuclear-envelope barrier function. During late dismantling, nuclear proteins including LMN-1, HIS-24, and NPP-1 lose their normal compartmentalization and become dispersed through the nucleocytoplasmic space [12]. This provides direct evidence that nuclear integrity eventually collapses.
+
+However, it is not known whether nuclear-envelope failure is itself the irreversible event that commits the linker cell to death or whether it is one manifestation of an already irreversible global proteostatic and structural failure. Therefore, it should be described as a strong candidate proximal irreversible lesion, not as a proven universal point of no return.
+
+7. Execution and Terminal Cause of Death
+
+What physically kills the cell in LCD?
+
+The supplied evidence does not yet identify a single molecular executor or terminal biochemical lesion that has been proven to kill the linker cell.
+
+The strongest current mechanistic model is progressive UPS-dependent degradation and remodeling of proteins required to maintain nuclear-envelope integrity, organelle homeostasis, and cytoskeletal architecture [2,4,6,8]. However, the identities of the critical proteasomal substrates whose destruction makes death irreversible remain unknown [2,4,8]. Consequently, neither LET-70 nor HSF-1 nor the proteasome itself should be called the final executor in the same mechanistic sense that MLKL executes necroptosis or gasdermins execute pyroptotic membrane permeabilization. HSF-1 is a transcriptional regulator; LET-70 is a ubiquitin-conjugating enzyme; and the UPS constitutes destructive machinery whose specific lethal targets remain unresolved.
+
+Transcriptional control of non-apoptotic developmental cell death involves SET-16, NHR-67, and Wnt/NOB-1/EOR-1; RAB-35 and ARF-6 GTPases mediate engulfment and clearance of cell corpses [3,13]. Nuclear-envelope crenellation occurs earlier, followed eventually by redistribution of normally nuclear proteins after cellular fragmentation. Mitochondrial and ER swelling occur in parallel [1,5].
+
+It is therefore plausible that cumulative degradation of structural and homeostatic proteins produces irreversible nuclear, organellar, and cytoskeletal failure. Nevertheless, the available evidence does not establish which of these failures physically causes loss of viability first.
+
+The publication-ready mechanistic conclusion is consequently:
+
+the proximate terminal cause of LCD remains unresolved; the strongest evidence supports progressive UPS-centered proteolytic and structural dismantling culminating in loss of nuclear and organellar homeostasis, but neither the decisive UPS substrate nor a unique terminal lethal lesion has been identified.
+
+8. Morphological Sequence
+
+LCD displays a characteristic but non-exclusive morphological sequence [1,5-6].
+
+Before death, the linker cell is a differentiated, elongated, actively migrating cell. Early molecular priming can already have occurred through MYRF-1 before any obvious degenerative morphology is detectable [7].
+
+As overt LCD begins, PQN-41C expression increases and UPS-associated transcriptional programs become active [2,5]. The nucleus subsequently develops pronounced crenellation rather than classical apoptotic chromatin condensation. Chromatin remains comparatively open, while mitochondria and the ER become swollen and membrane-bound cytoplasmic structures accumulate [1,5].
+
+The chronological progression can therefore be represented as:
+
+healthy migratory linker cell → early developmental and MYRF-1-dependent priming → HSF-1/UPS-associated death onset and PQN-41C induction → nuclear-envelope crenellation with relatively open chromatin → mitochondrial and ER swelling plus cytoplasmic membrane remodeling → asymmetric splitting of the dying cell → progressive loss of nuclear compartmentalization → persistence of cellular fragments → engulfment and lysosomal degradation [1,5,7,12-13].
+
+An important distinction is that cell splitting is not identical to death initiation. Neighboring cells participate actively in fragmentation and engulfment of the linker cell [13]. Therefore, the visible generation of cellular fragments should not be interpreted as the initiating execution mechanism.
+
+The characteristic combination of nuclear crenellation, open chromatin, and organelle swelling differs substantially from canonical apoptotic morphology [1]. Nevertheless, these morphological features are not unique to LCD. Similar patterns have been observed in some developmental neuronal deaths and polyglutamine-associated degenerative states [1,5,14]. Morphological resemblance supports the possibility of evolutionary or mechanistic relationships but does not demonstrate that those cells execute the HSF-1–UPS pathway defined in the C. elegans linker cell.
+
+9. Crosstalk and Differential Diagnosis
+
+The principal differential diagnosis is apoptosis.
+
+Canonical developmental apoptosis in C. elegans depends on EGL-1, CED-9, CED-4, and CED-3. In contrast, linker-cell death can initiate when these canonical apoptotic components are disrupted [1-5]. LCD also lacks the characteristic compact chromatin condensation of conventional apoptosis and instead displays nuclear crenellation, relatively open chromatin, and organelle swelling [1,5].
+
+The role of CED-3 requires particular care. Recent evidence indicates that CED-3 is dispensable for the onset of LCD but can participate later in linker-cell dismantling, cellular splitting, engulfment, and nuclear elimination [12]. Thus, detecting CED-3 activity during late linker-cell destruction does not convert LCD into apoptosis. Rather, it illustrates mechanistic crosstalk in which a canonical apoptotic protease is recruited after initiation of a genetically non-apoptotic death program.
+
+LCD should also be distinguished from necroptosis. The supplied evidence does not implicate the RIPK1–RIPK3–MLKL machinery that defines mammalian necroptotic execution [4,15]. Organelle swelling or a necrotic-like appearance therefore cannot justify classification as necroptosis.
+
+Similarly, LCD is not established as pyroptosis. In some models, no inflammasome–gasdermin execution system has been proposed as the linker-cell death machinery [2,18]. The absence of classical apoptotic morphology does not by itself support pyroptotic classification.
+
+LCD also differs from entosis. The linker cell is cleared through a mechanism involving cell-cell adhesions and cell-autonomous control of uptake via linker cell actin [16]. However, engulfment is mechanistically separable from the initiation of LCD. The linker cell exhibits degeneration before clearance, and altering engulfment can modify corpse handling without explaining the upstream HSF-1–UPS death program [2,13,16].
+
+The UPS requirement also distinguishes LCD from death modalities whose terminal lesions are directly defined by membrane pores, lipid peroxidation, or canonical caspase cascades. At the same time, the currently unidentified LCD terminal lesion prevents an executor-based definition comparable to those better-resolved pathways.
+
+Finally, similar nuclear crenellation and organelle swelling have been observed in other developmental and neurodegenerative contexts [1,14] . These similarities should currently be described as LCD-like morphology rather than as proof that bona fide linker cell-type death occurs in mammals or humans.
+
+10. Experimental Validation
+
+A rigorous experimental demonstration of LCD requires convergence of developmental context, genetic dependency, cell autonomy, molecular pathway analysis, and morphological evidence.
+
+The first requirement is genetic exclusion of canonical apoptosis. Mutations or perturbations of ced-3, ced-4, ced-9, and egl-1 should fail to prevent the onset of the characteristic death program [1,3,12]. Because CED-3 can participate in late dismantling, the experimental endpoint must distinguish death initiation from corpse fragmentation and clearance [12].
+
+Second, positive genetic dependency on the LCD machinery should be established. Loss-of-function evidence supports requirements for genes including lin-29, tir-1, sek-1, pqn-41, hsf-1, let-70, cul-3, rbx-1, btbd-2, and set-16 [1-3,5]. Prevention or substantial delay of death after perturbing these components provides stronger mechanistic evidence than morphology alone.
+
+Third, cell-autonomous function should be tested. Cell-specific RNA interference and cell-autonomous rescue experiments have been important for demonstrating that several LCD regulators act within the linker cell rather than solely through surrounding tissues [3,5].
+
+Fourth, genetic epistasis is required to establish pathway order. HSF-1 gain-of-function experiments can place upstream developmental pathways relative to the central transcriptional switch, while failure of activated HSF-1 to bypass SET-16 deficiency supports placement of SET-16 with or downstream of HSF-1 [2-3].
+
+Fifth, the UPS branch should be functionally demonstrated through dependence on LET-70, UBA-1, E3-ligase components, and proteasomal machinery, together with monitoring of LCD-associated transcriptional reporters where appropriate [2-3]. These experiments demonstrate that the UPS is required but do not by themselves reveal the lethal substrates.
+
+Sixth, live imaging and electron microscopy should document degeneration before engulfment and demonstrate the characteristic sequence of nuclear crenellation, open chromatin, mitochondrial/ER swelling, fragmentation, and subsequent clearance [1,5,12-13]. This temporal resolution is essential for distinguishing execution from corpse disposal.
+
+Seventh, PQN-41-dependent phenotypes provide mechanistic discrimination. pqn-41 perturbation can uncouple nuclear crenellation from organelle swelling, supporting the existence of separable structural branches within LCD [5].
+
+Emerging mechanisms such as MYRF-1-dependent priming should be validated temporally by demonstrating early nuclear MYRF-1 function and subsequent competence for pqn-41-associated execution rather than simply measuring MYRF-1 at the moment of death [7]. Likewise, the EBAX-1–microRNA–viln-1 model requires genetic epistasis and functional rescue consistent with target-directed microRNA degradation [8].
+
+The supplied evidence does not establish a specific pharmacological rescue as a defining criterion for LCD. A small-molecule screen for inhibitors of linker-cell death has been reported [9], but the provided mechanistic text does not identify a pharmacological intervention that specifically rescues LCD through a validated molecular target. Such a rescue should therefore not be invented as a diagnostic requirement.
+
+The strongest operational validation is consequently:
+
+correct developmental context + independence from canonical apoptotic initiation + dependence on the HSF-1/UPS-centered genetic program + cell-autonomous and epistatic validation + characteristic pre-engulfment ultrastructure + temporally resolved distinction between killing and clearance.
+
+11. Molecular Hierarchy
+
+Initiators and developmental sensors:
+
+developmental timing and heterochronic signals; positional EGL-20/Wnt and LIN-44/Wnt inputs; Frizzled-centered receptor systems; and an unidentified physiological signal upstream of TIR-1 [2-3,6].
+
+Early priming machinery:
+
+MYRF-1 nuclear activation during the L2-to-L3 migratory transition, including early establishment of pqn-41 competence [7].
+
+HSF-1 activates the ubiquitin-proteasome system to promote non-apoptotic linker-cell death, and SET-16, NHR-67, and Wnt/NOB-1/EOR-1 provide transcriptional control of developmental cell death [2-3].
+
+Central regulatory machinery:
+
+non-canonical death-promoting HSF-1 together with SET-16/MLL3/4-associated chromatin regulation [2-3].
+
+Core destructive machinery:
+
+UBA-1, LET-70/UBE2D2, CUL-3, RBX-1, BTBD-2, probably SIAH-1, proteasomal components, and PQN-41C [2-6].
+
+Emerging execution-linked machinery:
+
+EBAX-1-dependent target-directed microRNA degradation and viln-1-associated cytoskeletal remodeling [8].
+
+Executors:
+
+no unique molecular executor has been identified. The strongest current candidate execution chemistry is UPS-dependent proteolysis of still-unknown critical substrates, accompanied by PQN-41C- and cytoskeleton-associated dismantling [2,4-5,8].
+
+Negative regulators:
+
+LIN-44/Wnt-associated signaling, early NHR-67-mediated suppression of premature UPS activation, protective PQN-41 isoforms, and possibly HPK-1-dependent biasing of HSF-1 toward a proteostatic rather than death-promoting state [3,5-6,11].
+
+Context-dependent dismantling and clearance factors:
+
+CED-3 contributes to late cellular fragmentation, engulfment, and nuclear elimination without being required for LCD initiation [12]. RAB-35/CNT-1, ARF-6 regulation, RAB-5, and RAB-7 control subsequent phagosome maturation and corpse degradation [13].
+
+Biomarkers and morphological indicators:
+
+LET-70-associated transcription, PQN-41C puncta, nuclear crenellation, open chromatin, mitochondrial and ER swelling, and eventual loss of nuclear compartmentalization [1-2,5,12].
+
+None of these biomarkers alone is sufficient to establish the mechanism.
+
+12. Integrated Canonical Sequence
+
+Early developmental progression → MYRF-1 activation and nuclear translocation during the L2-to-L3 transition → transcriptional priming of pqn-41 and other LCD-associated genes → continued linker-cell migration → let-7-associated heterochronic progression → LIN-29-dependent temporal competence + positional EGL-20/LIN-44 Wnt information through Frizzled-associated signaling + TIR-1/SEK-1 input of unknown physiological origin → convergence on a death-promoting HSF-1 state → SET-16-assisted activation of LCD-specific transcription → induction of LET-70 and additional ubiquitin–proteasome machinery → UBA-1/E1-dependent ubiquitin activation → LET-70/E2-mediated ubiquitin transfer → E3-associated substrate recognition involving CUL-3–RBX-1–BTBD-2 and related machinery → polyubiquitylation and proteasomal degradation of unidentified critical proteins + PQN-41C-associated structural remodeling + emerging EBAX-1/miRNA/viln-1-associated remodeling → nuclear-envelope crenellation, open chromatin, mitochondrial and ER swelling → progressive loss of nuclear, organellar, and cytoskeletal homeostasis → asymmetric cellular splitting → loss of nuclear compartmentalization → CED-3-assisted late dismantling and clearance → RAB-35/CNT-1-dependent suppression of ARF-6 on engulfing phagosomes → RAB-5/RAB-7-dependent phagolysosome maturation → degradation of linker-cell remnants [1-3,5-8,12-13].
+
+The sequence from HSF-1/UPS activation to irreversible cellular failure remains incomplete because the essential proteasomal substrates and the immediate lethal lesion have not yet been identified.
+
+13. Final Mechanistic Interpretation
+
+For RCDome, linker cell-type death should be operationally defined as an established, developmentally programmed, caspase-independent and non-apoptotic cell-death process best demonstrated in the male linker cell of Caenorhabditis elegans [1-4].
+
+Its initiation is controlled by developmental time, spatial Wnt information, TIR-1/SEK-1-associated signaling, and earlier MYRF-1-dependent transcriptional priming [2-3,7]. These pathways converge on a non-canonical death-promoting state of HSF-1 rather than on the canonical EGL-1–CED-9–CED-4–CED-3 apoptotic cascade [1-4].
+
+The best-established downstream biochemical machinery is the ubiquitin–proteasome system. HSF-1 and SET-16-associated chromatin regulation promote expression of LET-70 and additional UPS components, while UBA-1, CUL-3–RBX-1–BTBD-2-associated ubiquitin-ligase activity, proteasomal function, and PQN-41C are required for efficient death [2-3,5]. Emerging evidence further implicates EBAX-1-dependent target-directed microRNA degradation and viln-1-associated cytoskeletal remodeling [8].
+
+The characteristic phenotype includes nuclear crenellation with relatively open chromatin, mitochondrial and ER swelling, progressive cellular fragmentation, and later loss of nuclear compartmentalization [1,5,12]. These features are diagnostically informative but are not individually sufficient to establish LCD.
+
+The strongest current candidate commitment transition is activation of the HSF-1-centered destructive transcriptional program to a level at which downstream proteolytic and structural changes can no longer be compensated. However, no single irreversible biochemical switch has been demonstrated [2].
+
+Most importantly, the terminal lesion remains unresolved. The available evidence supports a model in which UPS-dependent degradation of unidentified critical proteins, together with PQN-41C-dependent and possibly cytoskeletal remodeling, progressively destroys nuclear-envelope integrity, organelle homeostasis, and cellular architecture [2,4-5,8]. Loss of nuclear compartmentalization has been proposed as one of the clearest late irreversible abnormalities in some models, but it has not been established as the unique event that physically kills the cell [3,13].
+
+Thus, the major unresolved mechanistic question is the identity of the proteins or regulatory substrates whose degradation or remodeling converts the HSF-1/UPS program from developmental signaling into irreversible cellular collapse.
+
+The evidence for direct conservation of the same molecular program in mammals or humans is insufficient in the supplied material. Accordingly, human or vertebrate cells showing nuclear crenellation, organelle swelling, caspase independence, or similar transcriptional signatures should not be classified as bona fide LCD without demonstrating the defining molecular machinery. Transcriptomic similarity alone should instead be described as an LCD-associated or LCD-like molecular state.

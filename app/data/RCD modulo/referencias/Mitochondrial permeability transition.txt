@@ -1,0 +1,67 @@
+[1] Bernardi P, Gerle C, Halestrap A, et al. Identity, structure, and function of the mitochondrial permeability transition pore: controversies, consensus, recent advances, and future directions. Cell Death & Differentiation. 2023;30:1869–1885. DOI: **10.1038/s41418-023-01187-0**.
+
+[2] Bonora M, Patergnani S, Ramaccini D, et al. Physiopathology of the Permeability Transition Pore: Molecular Mechanisms in Human Pathology. Biomolecules. 2020;10. DOI: **10.3390/biom10070998**.
+
+[3] Dhaouadi N, Vitto VA, Pinton P, Galluzzi L, Marchi S. Ca2+ signaling and cell death. Cell Calcium. 2023;113:102759. DOI: **10.1016/j.ceca.2023.102759**.
+
+[4] Leak LB, Dixon SJ. Surveying the Landscape of Emerging and Understudied Cell Death Mechanisms. Biochimica et Biophysica Acta Molecular Cell Research. 2023;1870:119432. DOI: **10.1016/j.bbamcr.2023.119432**.
+
+[5] Nesci S, Rubattu S. Mitochondrial Permeability Transition Pore: The Cardiovascular Disease’s Molecular Achilles Heel. Biomedicines. 2025;13. DOI: **10.3390/biomedicines13123014**.
+
+[6] Nesci S. The mitochondrial permeability transition pore in cell death: A promising drug binding bioarchitecture. Medicinal Research Reviews. 2020;40:811–817. DOI: **10.1002/med.21635**.
+
+[7] Rottenberg H, Hoek JB. The Mitochondrial Permeability Transition: Nexus of Aging, Disease and Longevity. Cells. 2021;10. DOI: **10.3390/cells10010079**.
+
+[8] Yoon Y, Lee H, Federico M, Sheu SS. Non-Conventional Mitochondrial Permeability Transition: Its Regulation by Mitochondrial Dynamics. Biochimica et Biophysica Acta Bioenergetics. 2023;1864:148914. DOI: **10.1016/j.bbabio.2022.148914**.
+
+[9] Czabotar PE, García-Sáez AJ. Mechanisms of BCL-2 family proteins in mitochondrial apoptosis. Nature Reviews Molecular Cell Biology. 2023;24:732–748. DOI: **10.1038/s41580-023-00629-4**.
+
+[10] Berndt C, Alborzinia H, Amen VS, et al. Ferroptosis in health and disease. Redox Biology. 2024;75. DOI: **10.1016/j.redox.2024.103211**.
+
+[11] Zheng Y, Sun J, Luo Z, Li Y, Huang Y. Emerging mechanisms of lipid peroxidation in regulated cell death and its physiological implications. Cell Death & Disease. 2024;15. DOI: **10.1038/s41419-024-07244-x**.
+
+[12] Flores-Romero H, Ros U, García-Sáez AJ. Pore formation in regulated cell death. EMBO Journal. 2020;39. DOI: **10.15252/embj.2020105753**.
+
+[13] Iranpour S, Arif M, Szegezdi E. Disrupting membranes, controlling cell fate: the role of pore-forming proteins in cell death and therapy. Apoptosis. 2025;30:1961–1988. DOI: **10.1007/s10495-025-02133-w**.
+
+[14] De Ridder I, Kerkhofs M, Lemos F, Loncke J, Bultynck G, Parys JB. The ER-mitochondria interface, where Ca2+ and cell death meet. Cell Calcium. 2023;112:102743. DOI: **10.1016/j.ceca.2023.102743**.
+
+[15] D’Angelo D, Reane DV, Raffaello A. Neither too much nor too little: mitochondrial calcium concentration as a balance between physiological and pathological conditions. Frontiers in Molecular Biosciences. 2023;10. DOI: **10.3389/fmolb.2023.1336416**.
+
+[16] Pellegrino-Coppola D. Regulation of the mitochondrial permeability transition pore and its effects on aging. Microbial Cell. 2020;7:222–233. DOI: **10.15698/mic2020.09.728**.
+
+[17] Pagliaro P, Penna C. Inhibitors of NLRP3 Inflammasome in Ischemic Heart Disease: Focus on Functional and Redox Aspects. Antioxidants. 2023;12. DOI: **10.3390/antiox12071396**.
+
+[18] Neginskaya M, Pavlov E, Sheu SS. Electrophysiological properties of the mitochondrial permeability transition pores: channel diversity and disease implication. Biochimica et Biophysica Acta Bioenergetics. 2021;1862:148357. DOI: **10.1016/j.bbabio.2020.148357**.
+
+[19] Murphy EV. Cyclophilin D regulation of the mitochondrial permeability transition pore. Current Opinion in Physiology. 2022;25. DOI: **10.1016/j.cophys.2022.100486**.
+
+[20] Zhou S, Yu Q, Zhang L, Jiang Z. Cyclophilin D-mediated Mitochondrial Permeability Transition Regulates Mitochondrial Function. Current Pharmaceutical Design. 2023. DOI: **10.2174/1381612829666230313111314**.
+
+[21] Carraro M, Gerle C, Bernardi P. The Mitochondrial Permeability Transition Pore: Past, Present, and Future. Annual Review of Biophysics. 2025. DOI: **10.1146/annurev-biophys-030722-020832**.
+
+[22] Brustovetsky N. The Role of Adenine Nucleotide Translocase in the Mitochondrial Permeability Transition. Cells. 2020;9. DOI: **10.3390/cells9122686**.
+
+[23] Bround MJ, Bers DM, Molkentin JD. A 20/20 view of ANT function in mitochondrial biology and necrotic cell death. Journal of Molecular and Cellular Cardiology. 2020;144:A3–A13. DOI: **10.1016/j.yjmcc.2020.05.012**.
+
+[24] Nesci S. Beyond Bioenergetics: Moonlighting Functions of F1FO-ATPase From ATP Synthesis to an ATP-Wasting Death Switch. Medicinal Research Reviews. 2026. DOI: **10.1002/med.70088**.
+
+[25] Ježek P, Jabůrek M, Holendová B, Engstová H, Dlasková A. Mitochondrial Cristae Morphology Reflecting Metabolism, Superoxide Formation, Redox Homeostasis, and Pathology. Antioxidants & Redox Signaling. 2023;39:635–683. DOI: **10.1089/ars.2022.0173**.
+
+[26] Sendtner N, Seitz R, Brandl N, Müller M, Gülow K. Reactive Oxygen Species Across Death Pathways: Gatekeepers of Apoptosis, Ferroptosis, Pyroptosis, Paraptosis, and Beyond. International Journal of Molecular Sciences. 2025;26. DOI: **10.3390/ijms262010240**.
+
+[27] Win S, Than TA, Kaplowitz N. Mitochondrial P-JNK target, SAB (SH3BP5), in regulation of cell death. Frontiers in Cell and Developmental Biology. 2024;12. DOI: **10.3389/fcell.2024.1359152**.
+
+[28] Yang M, Wei X, Yi X, Jiang D. Mitophagy-related regulated cell death: molecular mechanisms and disease implications. Cell Death & Disease. 2024;15. DOI: **10.1038/s41419-024-06804-5**.
+
+[29] Bertero E, Popoiu T, Maack C. Mitochondrial calcium in cardiac ischemia/reperfusion injury and cardioprotection. Basic Research in Cardiology. 2024;119:569–585. DOI: **10.1007/s00395-024-01060-2**.
+
+[30] Chen S, Guan S, Yan Z, et al. Role of RIPK3-CaMKII-mPTP signaling pathway-mediated necroptosis in cardiovascular diseases. International Journal of Molecular Medicine. 2023;52. DOI: **10.3892/ijmm.2023.5301**.
+
+[31] Bernardi P. The mitochondrial permeability transition pore: a mystery solved?. *Frontiers in Physiology*. 2013;4. doi: **10.3389/fphys.2013.00095**.
+
+[32] Jin Jang E, Lee J, Shin S, et al. Mitochondria-ER contact sites in neurological disorders. *Animal Cells and Systems*. 2026;30:16-38. doi: **10.1080/19768354.2026.2725542**.
+
+[33] Baines CP.. The mitochondrial permeability transition pore and ischemia-reperfusion injury.. **. 2009. doi: **10.1007/s00395-009-0004-8**.
+
+[34] Morciano G, Pinton P. Modulation of mitochondrial permeability transition pores in reperfusion injury: Mechanisms and therapeutic approaches. European Journal of Clinical Investigation. 2025;55. DOI: **10.1111/eci.14331**.

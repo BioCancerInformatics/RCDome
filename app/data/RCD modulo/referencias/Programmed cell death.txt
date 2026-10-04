@@ -1,0 +1,25 @@
+1. Galluzzi L, Vitale I, Aaronson S A. Molecular mechanisms of cell death: recommendations of the Nomenclature Committee on Cell Death 2018. Cell Death & Differentiation. 2018;25:486-541. DOI: 10.1038/s41418-017-0012-4. PMCID: PMC5864239.
+
+2. Tang D, Kang R, Vanden Berghe T, et al. The molecular machinery of regulated cell death. Cell Research. 2019;29:347-364. DOI: 10.1038/s41422-019-0164-5. PMCID: PMC6796845.
+
+3. Kutscher L M, Shaham S. Non-apoptotic cell death in animal development. Cell Death & Differentiation. 2017;24:1326-1336. DOI: 10.1038/cdd.2017.20. PMCID: PMC5520451.
+
+4. Conradt B, Wu Y, Xue D. Programmed Cell Death During Caenorhabditis elegans Development. Genetics. 2016;203:1533-1562. DOI: 10.1534/genetics.115.186247. PMCID: PMC4981262.
+
+5. Kerr J F R, Wyllie A H, Currie A R. Apoptosis: A Basic Biological Phenomenon with Wide-ranging Implications in Tissue Kinetics. British Journal of Cancer. 1972;26:239-257. DOI: 10.1038/bjc.1972.33. PMCID: PMC2008650.
+
+6. Bertheloot D, Latz E, Franklin B S. Necroptosis, pyroptosis and apoptosis: an intricate game of cell death. Cellular & Molecular Immunology. 2021;18:1106-1121. DOI: 10.1038/s41423-020-00630-3. PMCID: PMC8008022.
+
+7. Kist M, Vucic D. Cell death pathways: intricate connections and disease implications. The EMBO Journal. 2021;40:e106700. DOI: 10.15252/embj.2020106700. PMCID: PMC7917554.
+
+8. Denton D, Kumar S. Autophagy-dependent cell death. Cell Death & Differentiation. 2019;26:605-616. DOI: 10.1038/s41418-018-0252-y. PMCID: PMC6460387.
+
+9. Javadov S, Kuznetsov A. Mitochondrial Permeability Transition and Cell Death: The Role of Cyclophilin D. Frontiers in Physiology. 2013;4:76. DOI: 10.3389/fphys.2013.00076. PMCID: PMC3622878.
+
+10. Kroemer G, Galluzzi L, Vandenabeele P. Classification of cell death: recommendations of the Nomenclature Committee on Cell Death 2009. Cell Death & Differentiation. 2009;16:3-11. DOI: 10.1038/cdd.2008.150. PMCID: PMC2744427.
+
+11. van Doorn W G, Beers E P, Dangl J L. Morphological classification of plant cell deaths. Cell Death & Differentiation. 2011;18:1241-1246. DOI: 10.1038/cdd.2011.36. PMCID: PMC3172093.
+
+12. Cubría-Radío M, Nowack M K. Transcriptional networks orchestrating programmed cell death during plant development. Current Topics in Developmental Biology. 2019;131:161-184. DOI: 10.1016/bs.ctdb.2018.10.006. PMCID: PMC7116394.
+
+13. Hu X, Li Z, Lin R. Guidelines for Regulated Cell Death Assays: A Systematic Summary, A Categorical Comparison, A Prospective. Frontiers in Cell and Developmental Biology. 2021;9:634690. DOI: 10.3389/fcell.2021.634690. PMCID: PMC7970050.

@@ -1,0 +1,35 @@
+[1] Abraham MC, Lu Y, Shaham S. A morphologically conserved nonapoptotic program promotes linker cell death in Caenorhabditis elegans. Developmental Cell. 2007;12:73–86. DOI: **10.1016/j.devcel.2006.11.012**.
+
+[2] Kinet MJ, Malin JA, Abraham MC, Blum ES, Silverman MR, Lu Y, Shaham S. HSF-1 activates the ubiquitin proteasome system to promote non-apoptotic developmental cell death in C. elegans. eLife. 2016;5. DOI: **10.7554/eLife.12821**.
+
+[3] Malin JA, Kinet MJ, Abraham MC, Blum ES, Shaham S. Transcriptional control of non-apoptotic developmental cell death in C. elegans. Cell Death & Differentiation. 2016;23:1985–1994. DOI: **10.1038/cdd.2016.77**.
+
+[4] Horowitz LB, Shaham S. Apoptotic and nonapoptotic cell death in Caenorhabditis elegans development. Annual Review of Genetics. 2024. DOI: **10.1146/annurev-genet-111523-102051**.
+
+[5] Blum ES, Abraham MC, Yoshimura S, Lu Y, Shaham S. Control of non-apoptotic developmental cell death in C. elegans by a polyglutamine-repeat protein. Science. 2012;335. DOI: **10.1126/science.1215156**.
+
+[6] Kutscher LM, Shaham S. Non-apoptotic cell death in animal development. Cell Death & Differentiation. 2017;24:1326–1336. DOI: **10.1038/cdd.2017.20**.
+
+[7] Yarychkivska O, Liu S, Horowitz LB, et al. Non-apoptotic death of the C. elegans linker cell is primed by MYRF-1 activation of pqn-41/polyQ. bioRxiv. 2025. DOI: **10.64898/2025.12.08.693091**.
+
+[8] Horowitz LB, Yarychkivska O, Lu Y, Shaham S. C. elegans E3 ubiquitin ligase EBAX-1 promotes non-apoptotic linker cell-type death through target-directed miRNA degradation. bioRxiv. 2026. DOI: **10.64898/2026.01.07.698237**.
+
+[9] Schwendeman AR, Shaham S. A high-throughput small molecule screen for C. elegans linker cell death inhibitors. PLoS ONE. 2016;11. DOI: **10.1371/journal.pone.0164595**.
+
+[10] Peterson ND, Icso J, Rodríguez TC, Thompson P, Pukkila-Worley R. Pathogen infection and cholesterol deficiency activate the C. elegans p38 immune pathway through a TIR-1/SARM1 phase transition. eLife. 2022;11. DOI: **10.7554/eLife.74206**.
+
+[11] Ghosh A, Singh J. Interplay between proteostasis pathways and innate immune responses in
+
+[12] Yarychkivska O, Kutscher L, Bido BO, et al. C. elegans CED-3 caspase promotes non-apoptotic linker cell dismantling but not death onset. bioRxiv. 2025. DOI: **10.1101/2025.10.15.682583**.
+
+[13] Kutscher L, Keil W, Shaham S. RAB-35 and ARF-6 GTPases mediate engulfment and clearance following linker cell-type death. Developmental Cell. 2018;47:222–238.e6. DOI: **10.1016/j.devcel.2018.08.015**.
+
+[14] Blum ES, Schwendeman AR, Shaham S. polyQ disease: misfiring of a developmental cell death program? Trends in Cell Biology. 2012;23:168–174. DOI: **10.1016/j.tcb.2012.11.003**.
+
+[15] Ai Y, Meng Y, Yan B, Zhou Q, Wang X. The biochemical pathways of apoptotic, necroptotic, pyroptotic, and ferroptotic cell death. Molecular Cell. 2024;84:170–179. DOI: **10.1016/j.molcel.2023.11.040**.
+
+[16] Lee Y, Hamann JC, Pellegrino M, et al. Entosis controls a developmental cell clearance in C. elegans. Cell Reports. 2019;26:3212–3220.e4. DOI: **10.1016/j.celrep.2019.02.073**.
+
+[17] Tang D, Kang R, Berghe T, et al. The molecular machinery of regulated cell death. *Cell Research*. 2019;29:347-364. doi: **10.1038/s41422-019-0164-5**.
+
+[18] Galluzzi L, Vitale I, Aaronson S, et al. Molecular mechanisms of cell death: recommendations of the Nomenclature Committee on Cell Death 2018. *Cell Death &amp; Differentiation*. 2018;25:486-541. doi: **10.1038/s41418-017-0012-4**.

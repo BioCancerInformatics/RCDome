@@ -1,1 +1,438 @@
-Paraptose: morte celular não apoptótica caracterizada por vacuolização citoplasmática, distinta da apoptose. Oferece potenciais mecanismos anticâncer por meio da indução de estresse do retículo endoplasmático. Vem sendo explorada como uma forma de superar a resistência à apoptose em certos tipos de câncer.
+Paraptosis
+
+1. Paraptotic cell death is characterized by specific morphologic alterations such as cytoplasmic vacuolation and the dilatation of mitochondria and the endoplasmic reticulum [5].
+
+Paraptosis is a non-apoptotic, caspase-independent form of programmed cell death characterized by extensive cytoplasmic vacuolation derived from the endoplasmic reticulum and mitochondria, originally described as an alternative cell-death process induced by insulin-like growth factor I receptor (IGF-IR) signaling and subsequently associated with mitogen-activated protein kinase (MAPK) signaling and with inhibition by AIP1/Alix [34]. Later studies substantially broadened the mechanistic landscape by demonstrating paraptosis-like or paraptotic death following proteotoxic stress, redox imbalance, calcium dysregulation, photodynamic injury, receptor signaling, proteasome inhibition, and multiple anticancer compounds [4-12].
+
+The current evidence does not support one universal molecular execution machinery comparable to caspases in apoptosis, gasdermins in pyroptosis, or MLKL in necroptosis [4-8,36-37].
+
+Therefore, paraptosis is best classified in RCDome as an emerging regulated cell-death modality/state with a characteristic morphofunctional phenotype and several recurrent mechanistic modules, but without a universally established core executor.
+
+Cytoplasmic vacuoles in paraptosis originate from swelling of the endoplasmic reticulum and mitochondria [8].
+
+Vacuolization is central to the phenotype but is not itself sufficient to define paraptosis. 2. Initiation and Triggers
+
+Paraptosis does not have one universal initiating receptor or sensor.
+
+At least four major initiating classes are supported.
+
+The first is receptor-driven signaling.
+
+The simplified sequence is:
+
+IGF-IR activation → MAPK signaling involving MEK2/JNK1 → transcription/protein-synthesis-dependent cellular stress → ER/mitochondrial vacuolization → paraptotic death.
+
+TAJ/TROY overexpression can also induce a paraptosis-like phenotype, demonstrating that receptor-driven paraptosis is not unique to IGF-IR [15].
+
+The second major trigger class is proteostasis disruption.
+
+Proteasome inhibition, thiol-reactive compounds, protein misfolding, or impaired degradation of ubiquitinated proteins can cause accumulation of abnormal proteins in the ER, activate the unfolded protein response, and progressively overwhelm ER proteostasis [8,16-19].
+
+Examples include gambogic acid, auranofin combined with proteasome inhibition, 2′-hydroxy-retrochalcone, and several other experimental compounds [16-19].
+
+The third major route is calcium dysregulation.
+
+Paraptotic stimuli can alter ER calcium homeostasis and promote transfer of Ca2+ from the ER to mitochondria through ER-mitochondria contact systems involving channels such as IP3R, VDAC, and the mitochondrial calcium uptake machinery [9-12].
+
+Excessive mitochondrial Ca2+ accumulation promotes mitochondrial dysfunction, ROS generation, membrane-potential disturbance, and energetic failure [9-12].
+
+The fourth recurrent initiating mechanism is oxidative or redox stress.
+
+Many paraptosis-inducing compounds produce early ROS accumulation, glutathione depletion, thiol disruption, or impairment of thioredoxin-associated redox buffering [10,17-20].
+
+In several of these models, antioxidant treatment suppresses subsequent ER stress, MAPK activation, vacuolization, and death, indicating that ROS can function upstream rather than merely appearing as a late consequence [10,18,20].
+
+Thus, the general initiating framework is:
+
+receptor hyperactivation, proteotoxic stress, redox stress, calcium disturbance, or direct organelle injury → ER and/or mitochondrial stress → progressive vacuolar remodeling and homeostatic failure.
+
+3. Core Mechanistic Machinery
+
+No single universally conserved protein complex constitutes the core machinery of paraptosis.
+
+Paraptosis can be triggered by IGF-IR-dependent signaling through MAPKs and JNK, ROS-mediated cellular damage, or accumulation of misfolded proteins, leading to ER dilatation, Ca2+ flux from ER to mitochondria via the ER-mitochondrial axis, and mitochondrial swelling from Ca2+ overload [5].
+
+ER stress is particularly prominent.
+
+Accumulation of misfolded or polyubiquitinated proteins increases protein-folding demand within the ER lumen and activates unfolded protein response pathways [8,16-19].
+
+Depending on the stimulus, UPR-related signaling can involve PERK-eIF2α-ATF4-CHOP and IRE1-XBP1-associated responses [8].
+
+Initially, these pathways can be adaptive.
+
+If stress persists, however, protein accumulation and osmotic burden contribute to ER dilation.
+
+ER calcium homeostasis is tightly connected to this process.
+
+Loss of ER Ca2+ can simultaneously worsen ER folding capacity and increase mitochondrial Ca2+ uptake [9-12].
+
+Mitochondrial Ca2+ overload can impair respiratory function, disturb ΔΨm, increase ROS generation, and decrease ATP production [9-12].
+
+MAPKs represent another recurrent signaling component.
+
+MEK/ERK, JNK, and p38 activation have been reported in multiple paraptotic systems [2,21].
+
+However, MAPK signaling should be classified as a context-dependent transducer rather than a universal executor.
+
+This is supported by experimental models in which high-dose taxol or severe ER photodamage produces paraptosis-like death without clear MAPK or protein-synthesis dependence [22-24].
+
+Thus, the strongest shared core is not one pathway but the convergence of:
+
+ER proteostatic overload;
+
+ER-mitochondrial Ca2+ dysregulation;
+
+mitochondrial metabolic dysfunction;
+
+ROS/redox imbalance;
+
+and progressive osmotic organelle swelling.
+
+4. Propagation and Amplification
+
+Paraptotic signaling propagates through positive feedback among proteotoxic, oxidative, calcium, transcriptional, mitochondrial, and osmotic stresses.
+
+Misfolded-protein accumulation increases ER stress.
+
+ER stress disturbs Ca2+ handling.
+
+ER-derived Ca2+ overloads mitochondria.
+
+Mitochondrial Ca2+ overload promotes respiratory dysfunction and ROS production.
+
+ROS further damages proteins and impairs proteostasis.
+
+This produces a self-amplifying cycle:
+
+proteostasis failure → ER stress → Ca2+ redistribution → mitochondrial dysfunction → ROS → additional protein and organelle damage → worsening ER stress.
+
+MAPK pathways can amplify this response.
+
+IGF-IR-induced paraptosis is inhibited by interference with MEK2 and JNK1 [2].
+
+Other chemical models similarly involve ERK, JNK, or p38 activation [21].
+
+Nevertheless, MAPKs should be regarded as amplification/signaling nodes rather than the physical cause of death.
+
+A transcriptional amplification mechanism has also emerged.
+
+CDK7/CDK9-mediated activation of RNA polymerase II can increase stress-associated transcription during paraptosis, potentially creating a feed-forward state in which ongoing transcription and translation increase the burden on already compromised proteostasis systems [25].
+
+This provides a mechanistic explanation for the classical observation that cycloheximide suppresses paraptosis in many canonical models.
+
+CHAC1 provides another proposed amplification module.
+
+By promoting glutathione degradation, CHAC1 can decrease cellular reducing capacity, increase the oxidative state, and thereby enhance ROS, ER stress, ubiquitinated-protein accumulation, and vacuolization [26].
+
+This mechanism remains comparatively recent and should be presented as an emerging amplification pathway rather than a universal component.
+
+Organelle swelling itself eventually becomes another form of amplification.
+
+Increasing ER and mitochondrial volume disrupts organelle architecture, trafficking, contact sites, metabolic competence, and intracellular spatial organization.
+
+Recent evidence of Golgi disintegration and broader secretory-pathway disruption suggests that paraptosis may eventually evolve from localized ER/mitochondrial stress into multi-organelle structural failure [27].
+
+5. Protective/Negative Regulators
+
+Paraptosis is opposed largely by cellular systems that buffer proteotoxic, oxidative, organelle, and metabolic stress.
+
+AIP1/Alix is the best-established endogenous inhibitor from the original mechanistic studies.
+
+AIP1/Alix overexpression suppresses canonical paraptosis and appears to act upstream of extensive vacuolization, potentially through modulation of signaling and membrane-remodeling processes [2,4-5].
+
+PEBP1 was subsequently identified as another candidate negative regulator in proteomic analyses of non-apoptotic programmed cell death [14].
+
+APEX1 can attenuate ER-stress-associated paraptosis in lens epithelial cells by suppressing a p53/ATF6-associated stress pathway [28].
+
+The unfolded protein response also has a dual role.
+
+At early stages, adaptive UPR signaling attempts to reduce protein-folding demand, increase chaperone capacity, and restore ER function.
+
+If successful, this response protects the cell.
+
+If stress exceeds UPR capacity, the same ER stress environment contributes to progression toward paraptosis [7,29].
+
+Autophagy can similarly function as a protective buffering system by removing damaged organelles or misfolded proteins [29].
+
+Suppression or exhaustion of autophagic capacity may therefore increase susceptibility to paraptotic vacuolization.
+
+Redox buffering is another major protective system.
+
+ROS scavengers and thiol antioxidants can rescue several paraptotic models when oxidative stress lies upstream [10,18,20].
+
+Glutathione and thioredoxin-associated systems similarly limit redox amplification [18,26].
+
+Calcium-buffering mechanisms also provide protection.
+
+Interference with ER-to-mitochondria Ca2+ transfer or reduction of mitochondrial calcium loading can suppress paraptotic responses in appropriate systems [9-12].
+
+ER chemical chaperones such as 4-PBA can reduce ER-stress-associated paraptosis in some models.
+
+Thus, protection is achieved primarily by maintaining proteostasis, redox balance, calcium homeostasis, mitochondrial function, and adaptive organelle stress responses rather than by inhibiting one dedicated executioner.
+
+6. Commitment / Point of No Return
+
+No universal molecular point of no return has been established for paraptosis.
+
+Early ROS accumulation is potentially reversible.
+
+Early ER stress can be adaptive.
+
+Moderate mitochondrial Ca2+ loading can be corrected.
+
+Initial vacuoles can also appear before irreversible loss of viability.
+
+Therefore, none of these events alone should automatically be considered commitment.
+
+The strongest current model places commitment at the transition from adaptive organelle stress to self-amplifying multi-organelle failure [4,7].
+
+This state includes some combination of:
+
+persistent unresolved ER stress;
+
+extensive ER dilation;
+
+mitochondrial Ca2+ overload;
+
+severe mitochondrial dysfunction;
+
+ΔΨm disturbance;
+
+ATP decline;
+
+increasing ROS;
+
+progressive osmotic organelle expansion;
+
+and inability to restore ionic or metabolic gradients [9,30-31].
+
+The cell is therefore likely committed when ER and mitochondrial dysfunction become mutually reinforcing to such an extent that energy production and ionic/osmotic regulation can no longer restore cellular homeostasis.
+
+This should be regarded as a commitment zone rather than a specific molecular switch.
+
+Recent reports describing structures termed “paraptosomes” may eventually contribute to defining a more specific commitment marker, but the evidence remains preliminary and does not yet justify considering paraptosomes a universal execution complex [31].
+
+7. Execution and Terminal Cause of Death
+
+The terminal execution mechanism of paraptosis remains incompletely resolved.
+
+In some models, no dedicated pore-forming protein, protease, kinase, or single molecular executor has been proposed as universally responsible for death [5].
+
+The strongest common model is catastrophic collapse of organelle, energetic, ionic, and osmotic homeostasis.
+
+ER accumulation of unfolded or misfolded proteins increases luminal osmotic burden and promotes progressive ER dilation [7-8].
+
+Simultaneously, ER Ca2+ release can increase mitochondrial Ca2+ uptake and worsen mitochondrial dysfunction [9-12].
+
+Mitochondrial function subsequently deteriorates.
+
+Depending on the model, this can involve reduced oxygen consumption, respiratory-chain dysfunction, ΔΨm loss, transient hyperpolarization followed by collapse, ATP depletion, and ROS amplification [9-12,32].
+
+As ATP levels decline, active ion regulation becomes increasingly difficult.
+
+Ion and water movement then further promote organelle and cellular swelling.
+
+The clearest demonstration of this terminal physiology comes from the BK-channel-associated macrophage–glioma model.
+
+In this system:
+
+BK channel activation → K+ efflux → compensatory Na+ influx → water entry → ER and mitochondrial swelling → ATP-consuming attempts to restore ionic gradients → ATP depletion → osmotic lysis [30].
+
+This model provides a direct example of how paraptotic morphology can become physically lethal without requiring a dedicated pore-forming executor.
+
+However, this BK-channel mechanism should not be generalized to all forms of paraptosis.
+
+In many anticancer-compound models, the terminal process is less directly characterized.
+
+The most defensible generalized interpretation is:
+
+progressive multi-organelle swelling + mitochondrial energetic failure + inability to restore ion and osmotic gradients → irreversible homeostatic collapse → loss of viability → late membrane disruption or lytic deterioration in some contexts.
+
+Thus, the physical event that kills the cell is likely failure of cellular homeostasis secondary to irreversible multi-organelle dysfunction rather than vacuole formation itself.
+
+8. Morphological Sequence
+
+Paraptosis has a characteristic morphological progression.
+
+The cell initially appears structurally intact while ER stress, oxidative stress, calcium redistribution, or other initiating mechanisms develop.
+
+ER cisternae begin to dilate.
+
+Mitochondria can subsequently swell.
+
+Small single-membrane vacuoles emerge from enlarged ER and/or mitochondrial compartments.
+
+These vacuoles enlarge and may fuse, progressively occupying a substantial fraction of the cytoplasm.
+
+The cell becomes enlarged and rounded.
+
+Unlike apoptosis, nuclei generally lack the classical sequence of strong chromatin condensation, nuclear fragmentation, and apoptotic-body formation [1-7].
+
+The characteristic sequence can therefore be represented as:
+
+Normal cell → ER/proteotoxic/redox/Ca2+ stress → ER dilation → mitochondrial swelling → formation of cytoplasmic vacuoles → enlargement and fusion of organelle-derived vacuoles → extensive cytoplasmic vacuolization → rounded/swollen cell → multi-organelle dysfunction → late loss of viability and, in some systems, lytic membrane failure.
+
+Recent work indicates that Golgi fragmentation can occur relatively early in some models [27].
+
+These findings suggest that the traditional ER/mitochondrial picture may represent the core morphological phenotype within a broader collapse of the secretory and organelle network.
+
+However, these newer structures are not yet universal diagnostic criteria.
+
+9. Crosstalk and Differential Diagnosis
+
+The most important differential diagnosis is apoptosis.
+
+Paraptosis generally lacks classical apoptotic chromatin condensation, apoptotic-body formation, and dominant caspase-dependent execution [1-7].
+
+Caspase inhibitors typically provide little or incomplete protection in canonical models.
+
+However, some compounds can activate paraptosis and apoptosis simultaneously.
+
+Therefore, detection of cleaved caspases does not automatically exclude a paraptotic component if a distinct caspase-independent vacuolar phenotype is also experimentally demonstrated.
+
+Autophagy is another important differential.
+
+Paraptotic vacuoles primarily originate from swollen ER and mitochondria and are generally single-membrane structures.
+
+Autophagosomes are double-membrane structures generated through the autophagic machinery [29].
+
+Autophagy can accompany paraptosis, but its presence does not mean the vacuoles themselves are autophagosomes.
+
+Methuosis must also be distinguished carefully.
+
+Methuosis produces extensive cytoplasmic vacuolization, but the vacuoles arise primarily from dysfunctional macropinosomes rather than dilation of the ER or mitochondria [13].
+
+Therefore, vacuolar origin is a major diagnostic criterion.
+
+Oncosis can also produce cellular and organelle swelling, but its canonical physiology is dominated by ATP depletion and ion-pump failure producing hydropic swelling.
+
+Paraptosis is more strongly associated with progressive organelle-specific vacuolization linked to proteostasis, ER stress, Ca2+ transfer, and mitochondrial dysfunction.
+
+Parthanatos should not be confused with paraptosis despite the similar terminology.
+
+Parthanatos is defined by PARP1 hyperactivation and PAR/AIFM1-associated death signaling, which is mechanistically distinct from the organelle-vacuolization-centered paraptotic process [33].
+
+Necroptosis similarly requires RIPK3/MLKL signaling, which is not defining for paraptosis.
+
+Thus, morphology alone is insufficient.
+
+The strongest paraptosis diagnosis requires organelle-origin vacuolization, exclusion of dominant apoptosis, and functional rescue consistent with the proposed stress pathway.
+
+10. Experimental Validation
+
+Paraptosis is best demonstrated through convergent morphology, exclusion of competing death mechanisms, and pathway-specific rescue.
+
+Microscopy is essential.
+
+Light microscopy can demonstrate progressive cytoplasmic vacuolization.
+
+Transmission electron microscopy provides stronger evidence by establishing that vacuoles derive from dilated ER and/or swollen mitochondria rather than autophagosomes or macropinosomes [4-7] .
+
+Organelle-specific fluorescence markers can further establish ER or mitochondrial origin.
+
+Apoptosis should be assessed through caspase activation, chromatin morphology, apoptotic-body formation, and pharmacological caspase inhibition.
+
+If pan-caspase inhibition does not rescue death and classical nuclear apoptosis is absent, a non-apoptotic interpretation is strengthened.
+
+However, this alone does not prove paraptosis.
+
+Protein-synthesis dependence should be tested in canonical models.
+
+Inhibiting protein synthesis with cycloheximide significantly reduced nigericin-induced cytotoxicity in keratocytes, suggesting paraptosis involvement because cycloheximide has been reported to inhibit paraptosis [35].
+
+Nevertheless, CHX sensitivity has been proposed to be context-dependent rather than universal, and in some models the lack of CHX rescue has been suggested not to exclude all paraptosis-like mechanisms [5].
+
+MAPK involvement should be tested when relevant.
+
+ER stress should be assessed using UPR markers and functional rescue with ER-stress-modulating interventions where appropriate.
+
+Proteostasis should be examined by quantifying misfolded or polyubiquitinated proteins and proteasome function.
+
+Ca2+ involvement can be tested by measuring ER and mitochondrial calcium dynamics and interfering with IP3R, VDAC, MCU, or other context-relevant calcium-handling mechanisms [9-12].
+
+ROS dependency should be tested through direct ROS measurements and antioxidant rescue [10,18,20].
+
+Mitochondrial function should be assessed using ΔΨm, oxygen consumption, respiratory-chain activity, ATP production, mitochondrial morphology, and ROS.
+
+AIP1/Alix perturbation can provide strong evidence in canonical systems [2].
+
+Other context-specific causal tests can include CHAC1 perturbation, CDK7/CDK9 inhibition, thioredoxin reductase/proteasome modulation, or APEX1/p53-ATF6 manipulation [25-26,28].
+
+Competing vacuolar mechanisms should be excluded.
+
+Autophagic vacuoles should be distinguished structurally.
+
+Macropinosome-derived vacuolation should be excluded when methuosis is plausible.
+
+Finally, gene-expression signatures alone cannot establish active paraptosis.
+
+Expression of ER-stress, MAPK, calcium-handling, ROS, UPR, or mitochondrial genes can indicate paraptosis-associated stress or susceptibility but cannot demonstrate the characteristic organelle-vacuolization death process.
+
+11. Molecular Hierarchy
+
+Initiators/sensors: IGF-IR, TAJ/TROY, protein-folding burden, proteasome dysfunction, thiol/redox disruption, ER stress, ROS-generating insults, ER Ca2+ release, mitochondrial Ca2+ overload, and context-specific ion channels such as BKCa [2,8-12,15-20,30].
+
+Signal transducers: MEK/ERK, JNK, p38, UPR-related pathways, CDK7/CDK9-RNAPII, and context-dependent stress-responsive signaling [2,21,25].
+
+Amplification systems: ROS, glutathione depletion, CHAC1-associated redox deterioration, ongoing transcription/translation, ER-mitochondria Ca2+ transfer, mitochondrial dysfunction, and proteotoxic feedback [9-12,25-26].
+
+Core machinery: unresolved network of proteostasis failure, ER dilation, ER-mitochondria Ca2+ transfer, mitochondrial dysfunction, ROS amplification, and osmotic organelle swelling.
+
+Executioner: no universal dedicated protein executor established.
+
+Functional terminal executors: sustained organelle swelling, mitochondrial metabolic failure, ATP decline, inability to maintain ion/osmotic gradients, and irreversible multi-organelle homeostatic collapse [4,7,30-31].
+
+Negative regulators: AIP1/Alix, PEBP1, APEX1, adaptive UPR, autophagy, antioxidant systems, glutathione/thioredoxin buffering, calcium-homeostasis mechanisms, and other context-dependent protective pathways [2,14,28-29].
+
+Biomarkers/readouts: ER dilation, mitochondrial swelling, extensive single-membrane cytoplasmic vacuolization, ROS accumulation, Ca2+ dysregulation, UPR activation, ubiquitinated-protein accumulation, mitochondrial dysfunction, ATP decline, and lack of dominant caspase-dependent apoptosis.
+
+No individual molecular biomarker is sufficient.
+
+12. Integrated Canonical Sequence
+
+The most defensible generalized sequence is:
+
+Receptor hyperactivation, proteotoxic stress, proteasome dysfunction, thiol/redox injury, calcium disturbance, photodynamic injury, or another appropriate stressor → MAPK activation and/or protein-folding overload and/or ER Ca2+ release → adaptive UPR and stress buffering initially attempt restoration → persistent stress overwhelms proteostasis → misfolded and ubiquitinated proteins accumulate → ER lumen becomes increasingly stressed and osmotically distended → ER Ca2+ homeostasis deteriorates → increased ER-to-mitochondria Ca2+ transfer → mitochondrial Ca2+ overload → mitochondrial dysfunction + ΔΨm disturbance + ROS amplification → ROS further damages proteins and organelles → stress-responsive transcription and translation can further increase proteotoxic burden → ER and mitochondria progressively dilate → large single-membrane cytoplasmic vacuoles form and expand → secretory-pathway and multi-organelle organization deteriorate → mitochondrial ATP production declines → active ion and osmotic homeostasis become increasingly unsustainable → progressive organelle/cellular swelling → irreversible multi-organelle, ionic, metabolic, and osmotic collapse → loss of viability → late membrane disruption or lytic degradation in appropriate contexts [4,7-12,25-27,30-31].
+
+Important alternative routes include:
+
+IGF-IR → MEK2/JNK1 → protein-synthesis-dependent vacuolar death [2].
+
+Proteasome/thiol disruption → misfolded proteins → UPR/ER stress → vacuolization → mitochondrial failure [16-19].
+
+ER Ca2+ release → mitochondrial Ca2+ overload → ROS/ΔΨm disruption → energetic failure and vacuolization [9-12].
+
+BKCa opening → K+ loss + Na+ influx → water influx → organelle swelling → ATP depletion → osmotic lysis [30].
+
+Severe ER photodamage or high-dose taxol → rapid organelle vacuolation without canonical MAPK/protein-synthesis dependence [22-24].
+
+These represent convergent routes, not components that must all operate in every paraptotic cell.
+
+13. Final Mechanistic Interpretation
+
+For RCDome, the most defensible operational definition is:
+
+Paraptosis is an emerging non-apoptotic regulated cell-death modality/state characterized by progressive ER and/or mitochondrial dilation that generates extensive cytoplasmic vacuolization, typically accompanied by proteostasis stress, redox imbalance, calcium dysregulation, mitochondrial dysfunction, and eventual loss of cellular homeostasis. It lacks a universally established dedicated molecular execution complex [1-8].
+
+The strongest mechanistic core is:
+
+proteostasis/redox/Ca2+ disturbance → ER stress → ER-mitochondria dysfunction → organelle swelling and vacuolization → bioenergetic, ionic, and osmotic collapse → death.
+
+MAPK signaling is important in canonical IGF-IR-associated paraptosis but is not universally required.
+
+Protein-synthesis dependence and cycloheximide rescue are similarly characteristic of many canonical models but not universal.
+
+The defining morphological lesion is extensive organelle-derived cytoplasmic vacuolization, particularly from ER and mitochondria.
+
+However, vacuolization should be interpreted as the visible consequence of underlying organelle stress and not as the molecular executor itself.
+
+No single point of no return has been established.
+
+The strongest candidate commitment zone is the transition from reversible stress to self-amplifying multi-organelle dysfunction characterized by unresolved ER stress, mitochondrial Ca2+ overload, severe mitochondrial dysfunction, ATP decline, and inability to restore ion and osmotic homeostasis.
+
+The terminal cause of death is best described as irreversible failure of organelle, energetic, ionic, and osmotic homeostasis rather than a dedicated protein-mediated pore or proteolytic event.
+
+The largest unresolved question is therefore what molecular event, if any, universally converts paraptotic organelle stress and vacuolization into irreversible death across different triggers and cell types.
+
+For RCDome transcriptomic applications, paraptosis-associated gene signatures should be interpreted as paraptosis-associated stress or susceptibility states. They cannot establish active paraptotic death without morphological and functional evidence of organelle-derived vacuolization and pathway-specific rescue.
+

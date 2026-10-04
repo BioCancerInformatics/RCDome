@@ -1,0 +1,61 @@
+1. Balint-Kurti P. The plant hypersensitive response: concepts, control and consequences. Molecular Plant Pathology. 2019;20:1163–1178. DOI: 10.1111/mpp.12821. [Open Access]
+
+2. Pitsili E, Phukan UJ, Coll NS. Cell death in plant immunity. Cold Spring Harbor Perspectives in Biology. 2020;12:a036483. DOI: 10.1101/cshperspect.a036483. [PMC free full text]
+
+3. van Doorn WG, Beers EP, Dangl JL, et al. Morphological classification of plant cell deaths. Cell Death & Differentiation. 2011;18:1241–1246. DOI: 10.1038/cdd.2011.36. [PMC free full text]
+
+4. Förderer A, Li E, Lawson AW, et al. A wheat resistosome defines common principles of immune receptor channels. Nature. 2022;610:532–539. DOI: 10.1038/s41586-022-05231-w. [Open Access]
+
+5. Song W, Liu L, Yu D, et al. Substrate-induced condensation activates plant TIR domain proteins. Nature. 2024;627:847–853. DOI: 10.1038/s41586-024-07183-9. [Open Access]
+
+6. Lapin D, Kováčová V, Sun X, et al. A coevolved EDS1-SAG101-NRG1 module mediates cell death signaling by TIR-domain immune receptors. Plant Cell. 2019;31:2430–2455. DOI: 10.1105/tpc.19.00118. [PMC free full text]
+
+7. Sun X, Lapin D, Feehan JM, et al. Pathogen effector recognition-dependent association of NRG1 with EDS1 and SAG101 in TNL receptor immunity. Nature Communications. 2021. DOI: 10.1038/s41467-021-23614-x. [Open Access / PMC]
+
+8. Jacob P, Kim NH, Wu F, et al. Plant “helper” immune receptors are Ca2+-permeable nonselective cation channels. Science. 2021;373:420–425. DOI: 10.1126/science.abg7917. [PMC author manuscript]
+
+9. Wang J, Sun X, Xiong F, et al. Coordinated actions of NLR-assembled and glutamate receptor-like calcium channels in plant effector-triggered immunity. PNAS. 2025;122:e2508018122. DOI: 10.1073/pnas.2508018122. [PMC / Open Access]
+
+10. Yuan M, Jiang Z, Bi G, et al. Pattern-recognition receptors are required for NLR-mediated plant immunity. Nature. 2021;592:105–109. DOI: 10.1038/s41586-021-03316-6. [PMC author manuscript]
+
+11. Lee HY, Seo YE, Lee JH, et al. Plasma membrane-localized plant immune receptor targets H+-ATPase for membrane depolarization to regulate cell death. New Phytologist. 2022;233:934–947. DOI: 10.1111/nph.17789. [PMC free full text]
+
+12. Marcec MJ, Tanaka K. Crosstalk between calcium and ROS signaling during Flg22-triggered immune response in Arabidopsis leaves. Plants. 2021;11:14. DOI: 10.3390/plants11010014. [PMC / Open Access]
+
+13. Kobayashi M, Ohura I, Kawakita K, et al. Calcium-dependent protein kinases regulate the production of reactive oxygen species by potato NADPH oxidase. Plant Cell. 2007;19:1065–1080. DOI: 10.1105/tpc.106.048884. [PMC / Open Access]
+
+14. Liu Y, Ren D, Pike S, et al. Chloroplast-generated reactive oxygen species are involved in hypersensitive response-like cell death mediated by a mitogen-activated protein kinase cascade. Plant Journal. 2007;51:941–954. DOI: 10.1111/j.1365-313X.2007.03191.x. [Free full text]
+
+15. Wu J, Sun Y, Zhao Y, et al. Deficient plastidic fatty acid synthesis triggers cell death by modulating mitochondrial reactive oxygen species. Cell Research. 2015;25:621–633. DOI: 10.1038/cr.2015.46. [PMC free full text]
+
+16. Zhang H, Dong S, Wang M, et al. The role of vacuolar processing enzyme (VPE) from Nicotiana benthamiana in the elicitor-triggered hypersensitive response and stomatal closure. Journal of Experimental Botany. 2010;61:3799–3812. DOI: 10.1093/jxb/erq189. [PMC free full text]
+
+17. Dietrich RA, Richberg MH, Schmidt R, Dean C, Dangl JL. A novel zinc finger protein is encoded by the Arabidopsis LSD1 gene and functions as a negative regulator of plant cell death. Cell. 1997;88:685–694. DOI: 10.1016/S0092-8674(00)81911-X. [Free article]
+
+18. Lema Asqui S, Vercammen D, Serrano I, et al. AtSERPIN1 is an inhibitor of the metacaspase AtMC1-mediated cell death and autocatalytic processing in planta. New Phytologist. 2018;218:1156–1166. DOI: 10.1111/nph.14446. [Free article]
+
+19. Wang D, Wei L, Liu T, et al. Suppression of ETI by PTI priming to balance plant growth and defense through an MPK3/MPK6-WRKYs-PP2Cs module. Molecular Plant. 2023;16:903–918. DOI: 10.1016/j.molp.2023.04.004. [Open Access]
+
+20. Liu Y, Schiff M, Czymmek K, et al. Autophagy regulates programmed cell death during the plant innate immune response. Cell. 2005;121:567–577. DOI: 10.1016/j.cell.2005.03.007. [Free article]
+
+21. Hofius D, Schultz-Larsen T, Joensen J, et al. Autophagic components contribute to hypersensitive cell death in Arabidopsis. Cell. 2009;137:773–783. DOI: 10.1016/j.cell.2009.02.036. [Free article]
+
+22. Collins ASP, Kurt H, Duggan C, et al. Parallel, continuous monitoring and quantification of programmed cell death in plant tissue. Advanced Science. 2024;11:2400225. DOI: 10.1002/advs.202400225. [Open Access]
+
+23. Ren D, Yang HP, Zhang S. Cell death mediated by MAPK is associated with hydrogen peroxide production in Arabidopsis. Journal of Biological Chemistry. 2002;277:559–565. DOI: 10.1074/jbc.M109495200. [Open Access / free article]
+
+24. Lukan T, Baebler Š, Pompe-Novak M, et al. Cell death is not sufficient for the restriction of potato virus Y spread in hypersensitive response-conferred resistance in potato. Frontiers in Plant Science. 2018;9:168. DOI: 10.3389/fpls.2018.00168. [PMC / Open Access]
+
+25. Salguero-Linares J, Serrano I, Ruiz-Solani N, et al. Robust transcriptional indicators of immune cell death revealed by spatiotemporal transcriptome analyses. Molecular Plant. 2022;15:1059–1075. DOI: 10.1016/j.molp.2022.04.010. [Legally free author manuscript in institutional repository]
+
+26. Chen YF, Lin KY, Huang CY, et al. Subcellular calcium dynamics and organelle perturbations in resistosome-mediated cell death. PNAS. 2026;123:e2523470123. DOI: 10.1073/pnas.2523470123. [PMC / Open Access]
+
+27. Coll NS, Smidler A, Puigvert M, et al. The plant metacaspase AtMC1 in pathogen-triggered programmed cell death and aging: functional linkage with autophagy. Cell Death & Differentiation. 2014;21:1399–1408. DOI: 10.1038/cdd.2014.50. [PMC free full text]
+
+28. Xu G, Moeder W, Yoshioka K, Shan L. A tale of many families: calcium channels in plant immunity. Plant Cell. 2022;34:1551–1567. DOI: 10.1093/plcell/koac033. [PMC free full text]
+
+29. Frederickson Matika DE, Loake GJ. Redox regulation in plant immune function. Antioxidants & Redox Signaling. 2014;21:1373–1388. DOI: 10.1089/ars.2013.5679. [PMC free full text]
+
+30. Fan T, Fahim A, Ma L, et al. Plant caspase-like proteins: from function identification to application in winter rapeseed genetic breeding. Frontiers in Plant Science. 2026;17. DOI: 10.3389/fpls.2026.1858423. [Open Access]
+
+31. Hatsugai N, Yamada K, Goto-Yamada S, et al. Vacuolar processing enzyme in plant programmed cell death. Frontiers in Plant Science. 2015;6. DOI: 10.3389/fpls.2015.00234. [Open Access]

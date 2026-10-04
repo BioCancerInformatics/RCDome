@@ -58,48 +58,64 @@
 
 30. Yamaguchi R, Lartigue L, Perkins G, et al. **OPA1-mediated cristae opening is Bax/Bak- and BH3-dependent, required for apoptosis, and independent of Bak oligomerization.** *Molecular Cell*. 2008;31:557–569. **DOI: 10.1016/j.molcel.2008.07.010**
 
-31. Zhang D, Lu C, Whiteman M, Chance B, Armstrong JS. **The Mitochondrial Permeability Transition Regulates Cytochrome c Release for Apoptosis during Endoplasmic Reticulum Stress by Remodeling the Cristae Junction.** *Journal of Biological Chemistry*. 2008;283:3476–3486. **DOI: 10.1074/jbc.M707528200**
+31. Zou H, Li Y, Liu X, Wang X. **An APAF-1·Cytochrome c Multimeric Complex Is a Functional Apoptosome That Activates Procaspase-9.** *Journal of Biological Chemistry*. 1999;274:11549–11556. **DOI: 10.1074/jbc.274.17.11549**
 
-32. Li P, Nijhawan D, Budihardjo I, et al. **Cytochrome c and dATP-dependent formation of Apaf-1/caspase-9 complex initiates an apoptotic protease cascade.** *Cell*. 1997;91:479–489. **DOI: 10.1016/S0092-8674(00)80434-1**
+32. Abbas R, Larisch S. **Targeting XIAP for Promoting Cancer Cell Death—The Story of ARTS and SMAC.** *Cells*. 2020;9:663. **DOI: 10.3390/cells9030663**
 
-33. Zou H, Li Y, Liu X, Wang X. **An APAF-1·Cytochrome c Multimeric Complex Is a Functional Apoptosome That Activates Procaspase-9.** *Journal of Biological Chemistry*. 1999;274:11549–11556. **DOI: 10.1074/jbc.274.17.11549**
+33. McComb S, Chan PK, Guinot A, et al. **Efficient apoptosis requires feedback amplification of upstream apoptotic signals by effector caspase-3 or -7.** *Science Advances*. 2019;5. **DOI: 10.1126/sciadv.aau9433**
 
-34. Cain K, Bratton SB, Cohen GM. **The Apaf-1 apoptosome: a large caspase-activating complex.** *Biochimie*. 2002;84:203–214. **DOI: 10.1016/S0300-9084(02)01376-7**
+34. Slee EA, Harte MT, Kluck RM, et al. **Ordering the Cytochrome c-initiated Caspase Cascade: Hierarchical Activation of Caspases-2, -3, -6, -7, -8, and -10 in a Caspase-9-dependent Manner.** *The Journal of Cell Biology*. 1999;144:281–292. **DOI: 10.1083/jcb.144.2.281**
 
-35. Abbas R, Larisch S. **Targeting XIAP for Promoting Cancer Cell Death—The Story of ARTS and SMAC.** *Cells*. 2020;9:663. **DOI: 10.3390/cells9030663**
+35. Kalkavan H, Green DR. **MOMP, cell suicide as a BCL-2 family business.** *Cell Death & Differentiation*. 2018;25:46–55. **DOI: 10.1038/cdd.2017.179**
 
-36. McComb S, Chan PK, Guinot A, et al. **Efficient apoptosis requires feedback amplification of upstream apoptotic signals by effector caspase-3 or -7.** *Science Advances*. 2019;5. **DOI: 10.1126/sciadv.aau9433**
+36. Kalkavan H, Chen MJ, Crawford JC, et al. **Sublethal Cytochrome-c release generates drug-tolerant persister cells.** *Cell*. 2022;185:3356–3374.e22. **DOI: 10.1016/j.cell.2022.07.025**
 
-37. Slee EA, Harte MT, Kluck RM, et al. **Ordering the Cytochrome c-initiated Caspase Cascade: Hierarchical Activation of Caspases-2, -3, -6, -7, -8, and -10 in a Caspase-9-dependent Manner.** *The Journal of Cell Biology*. 1999;144:281–292. **DOI: 10.1083/jcb.144.2.281**
+37. Zaitceva V, Kopeina GS, Zhivotovsky B. **Anastasis: Return Journey from Cell Death.** *Cancers*. 2021;13:3671. **DOI: 10.3390/cancers13153671**
 
-38. Kalkavan H, Green DR. **MOMP, cell suicide as a BCL-2 family business.** *Cell Death & Differentiation*. 2018;25:46–55. **DOI: 10.1038/cdd.2017.179**
+38. Seervi M, Sumi S, Chandrasekharan A, Sharma A, Santhoshkumar TR. **Molecular profiling of anastatic cancer cells: potential role of the nuclear export pathway.** *Cellular Oncology*. 2019;42:645–661. **DOI: 10.1007/s13402-019-00451-1**
 
-39. Kalkavan H, Chen MJ, Crawford JC, et al. **Sublethal Cytochrome-c release generates drug-tolerant persister cells.** *Cell*. 2022;185:3356–3374.e22. **DOI: 10.1016/j.cell.2022.07.025**
+39. Slee EA, Adrain C, Martin SJ. **Executioner Caspase-3, -6, and -7 Perform Distinct, Non-redundant Roles during the Demolition Phase of Apoptosis.** *Journal of Biological Chemistry*. 2001;276:7320–7326. **DOI: 10.1074/jbc.M008363200**
 
-40. Zaitceva V, Kopeina GS, Zhivotovsky B. **Anastasis: Return Journey from Cell Death.** *Cancers*. 2021;13:3671. **DOI: 10.3390/cancers13153671**
+40. Sakahira H, Enari M, Nagata S. **Cleavage of CAD inhibitor in CAD activation and DNA degradation during apoptosis.** *Nature*. 1998;391:96–99. **DOI: 10.1038/34214**
 
-41. Seervi M, Sumi S, Chandrasekharan A, Sharma A, Santhoshkumar TR. **Molecular profiling of anastatic cancer cells: potential role of the nuclear export pathway.** *Cellular Oncology*. 2019;42:645–661. **DOI: 10.1007/s13402-019-00451-1**
+41. Nagata S. **Apoptotic DNA fragmentation.** *Experimental Cell Research*. 2000;256:12–18. **DOI: 10.1006/excr.2000.4834**
 
-42. Slee EA, Adrain C, Martin SJ. **Executioner Caspase-3, -6, and -7 Perform Distinct, Non-redundant Roles during the Demolition Phase of Apoptosis.** *Journal of Biological Chemistry*. 2001;276:7320–7326. **DOI: 10.1074/jbc.M008363200**
+42. Coleman ML, Sahai EA, Yeo M, Bosch M, Dewar A, Olson MF. **Membrane blebbing during apoptosis results from caspase-mediated activation of ROCK I.** *Nature Cell Biology*. 2001;3:339–345. **DOI: 10.1038/35070009**
 
-43. Sakahira H, Enari M, Nagata S. **Cleavage of CAD inhibitor in CAD activation and DNA degradation during apoptosis.** *Nature*. 1998;391:96–99. **DOI: 10.1038/34214**
+43. Fritsch M, Günther SD, Schwarzer R, et al. **Caspase-8 is the molecular switch for apoptosis, necroptosis and pyroptosis.** *Nature*. 2019;575:683–687. **DOI: 10.1038/s41586-019-1770-6**
 
-44. Nagata S. **Apoptotic DNA fragmentation.** *Experimental Cell Research*. 2000;256:12–18. **DOI: 10.1006/excr.2000.4834**
+44. Orning P, Lien E. **Multiple roles of caspase-8 in cell death, inflammation, and innate immunity.** *Journal of Leukocyte Biology*. 2021;109:121–141. **DOI: 10.1002/JLB.3MR0420-305R**
 
-45. Coleman ML, Sahai EA, Yeo M, Bosch M, Dewar A, Olson MF. **Membrane blebbing during apoptosis results from caspase-mediated activation of ROCK I.** *Nature Cell Biology*. 2001;3:339–345. **DOI: 10.1038/35070009**
+45. Nadendla EK, Tweedell RE, Kasof G, Kanneganti TD. **Caspases: structural and molecular mechanisms and functions in cell death, innate immunity, and disease.** *Cell Discovery*. 2025;11. **DOI: 10.1038/s41421-025-00791-3**
 
-46. Chen Q, Gong B, Almasan A. **Distinct stages of cytochrome c release from mitochondria: evidence for a feedback amplification loop linking caspase activation to mitochondrial dysfunction in genotoxic stress induced apoptosis.** *Cell Death & Differentiation*. 2000;7:227–233. **DOI: 10.1038/sj.cdd.4400629**
+46. Lorenzo HK, Susin SA, Penninger J, Kroemer G. **Apoptosis-inducing factor: a phylogenetically old, caspase-independent effector of cell death.** *Cell Death & Differentiation*. 1999;6:516–524. **DOI: 10.1038/sj.cdd.4400527**
 
-47. Seo J, Lee EW, Shin J, et al. **K6-linked polyubiquitylation of FADD by CHIP prevents death-inducing signaling complex formation suppressing cell death.** *Oncogene*. 2018;37:4994–5006. **DOI: 10.1038/s41388-018-0323-z**
+47. Norberg E, Orrenius S, Zhivotovsky B. **Mitochondrial regulation of cell death: processing of apoptosis-inducing factor.** *Biochemical and Biophysical Research Communications*. 2010;396:95–100. **DOI: 10.1016/j.bbrc.2010.02.163**
 
-48. Fritsch M, Günther SD, Schwarzer R, et al. **Caspase-8 is the molecular switch for apoptosis, necroptosis and pyroptosis.** *Nature*. 2019;575:683–687. **DOI: 10.1038/s41586-019-1770-6**
+48. Finucane DM, Bossy-Wetzel E, Waterhouse NJ, Cotter TG, Green DR. **Bax-induced Caspase Activation and Apoptosis via Cytochrome c Release from Mitochondria Is Inhibitable by Bcl-xL.** *Journal of Biological Chemistry*. 1999;274:2225–2233. **DOI: 10.1074/jbc.274.4.2225**
 
-49. Orning P, Lien E. **Multiple roles of caspase-8 in cell death, inflammation, and innate immunity.** *Journal of Leukocyte Biology*. 2021;109:121–141. **DOI: 10.1002/JLB.3MR0420-305R**
+49. Galluzzi L, Vitale I, Aaronson SA, et al. Molecular mechanisms of cell death: recommendations of the Nomenclature Committee on Cell Death 2018. Cell Death & Differentiation. 2018;25:486–541. DOI: 10.1038/s41418-017-0012-4
 
-50. Nadendla EK, Tweedell RE, Kasof G, Kanneganti TD. **Caspases: structural and molecular mechanisms and functions in cell death, innate immunity, and disease.** *Cell Discovery*. 2025;11. **DOI: 10.1038/s41421-025-00791-3**
+50. Tan R, Zhao J, Wang R, et al. **Mitochondria as the Hub of Apoptosis: A Comprehensive Insight From Mitochondria to Interactions With Other Organelles.** *MedComm*. 2026;7. **DOI: 10.1002/mco2.70911**
 
-51. Lorenzo HK, Susin SA, Penninger J, Kroemer G. **Apoptosis-inducing factor: a phylogenetically old, caspase-independent effector of cell death.** *Cell Death & Differentiation*. 1999;6:516–524. **DOI: 10.1038/sj.cdd.4400527**
+51. Oberst A, Dillon C, Weinlich R, et al. **Catalytic activity of the caspase-8–FLIPL complex inhibits RIPK3-dependent necrosis.** *Nature*. 2011;471:363-367. **DOI: 10.1038/nature09852**
 
-52. Norberg E, Orrenius S, Zhivotovsky B. **Mitochondrial regulation of cell death: processing of apoptosis-inducing factor.** *Biochemical and Biophysical Research Communications*. 2010;396:95–100. **DOI: 10.1016/j.bbrc.2010.02.163**
+52. Kocharyan M, Sevoyan G, Karapetyan H, et al. **Cytotoxic Effects of Medicinal Plant Extracts on HeLa Cells via Redox Imbalance, L‐Arginine Metabolic Reprogramming, and Glycolytic Suppression.** *Cell Biochemistry and Function*. 2026;44. **DOI: 10.1002/cbf.70307**
 
-53. Finucane DM, Bossy-Wetzel E, Waterhouse NJ, Cotter TG, Green DR. **Bax-induced Caspase Activation and Apoptosis via Cytochrome c Release from Mitochondria Is Inhibitable by Bcl-xL.** *Journal of Biological Chemistry*. 1999;274:2225–2233. **DOI: 10.1074/jbc.274.4.2225**
+53. Reichert C, de Aquino N, de Camargo Callefi V, et al. **Epigenetic plasticity and chemoresistance in cancer: mechanisms, biomarkers, and translational opportunities for real-world evidence.** *Frontiers in Cell and Developmental Biology*. 2026;14. **DOI: 10.3389/fcell.2026.1786398**
+
+54. Bonora M, Patergnani S, Ramaccini D, et al. **Physiopathology of the Permeability Transition Pore: Molecular Mechanisms in Human Pathology.** *Biomolecules*. 2020;10:998. **DOI: 10.3390/biom10070998**
+
+55. McCracken J, Allen L. **Regulation of Human Neutrophil Apoptosis and Lifespan in Health and Disease.** *Journal of Cell Death*. 2014;7:JCD.S11038. **DOI: 10.4137/jcd.s11038**
+
+56. Choi M, Baek K. **Balancing Ubiquitination and Deubiquitination in Apoptotic Protein Stability and Cancer Cell Survival.** *International Journal of Molecular Sciences*. 2026;27:8049. **DOI: 10.3390/ijms27188049**
+
+57. He B, Lu N, Zhou Z.. **Cellular and nuclear degradation during apoptosis..** **. 2009. **DOI: 10.1016/j.ceb.2009.08.008**
+
+58. Kim HE, Du F, Fang M, et al. **Formation of apoptosome is initiated by cytochrome c-induced dATP hydrolysis and subsequent nucleotide exchange on Apaf-1..** **. 2005. **DOI: 10.1073/pnas.0507900102**
+
+59. Scaffidi C, Fulda S, Srinivasan A, et al. **Two CD95 (APO‐1/Fas) signaling pathways.** *The EMBO Journal*. 1998;17:1675-1687. **DOI: 10.1093/emboj/17.6.1675**
+
+60. Zhang D, Lu C, Whiteman M, Chance B, Armstrong JS. **The Mitochondrial Permeability Transition Regulates Cytochrome c Release for Apoptosis during Endoplasmic Reticulum Stress by Remodeling the Cristae Junction.** *Journal of Biological Chemistry*. 2008;283:3476–3486. **DOI: 10.1074/jbc.M707528200**
+
+61. Chen Q, Gong B, Almasan A. **Distinct stages of cytochrome c release from mitochondria: evidence for a feedback amplification loop linking caspase activation to mitochondrial dysfunction in genotoxic stress induced apoptosis.** *Cell Death & Differentiation*. 2000;7:227–233. **DOI: 10.1038/sj.cdd.4400629**

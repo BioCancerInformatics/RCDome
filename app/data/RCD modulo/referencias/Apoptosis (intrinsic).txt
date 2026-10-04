@@ -1,0 +1,111 @@
+1. Galluzzi L, Vitale I, Aaronson SA, et al. **Molecular mechanisms of cell death: recommendations of the Nomenclature Committee on Cell Death 2018.** *Cell Death & Differentiation*. 2018;25:486–541. **DOI: 10.1038/s41418-017-0012-4**
+
+2. Vitale I, Pietrocola F, Guilbaud E, et al. **Apoptotic cell death in disease—Current understanding of the NCCD 2023.** *Cell Death & Differentiation*. 2023;30:1097–1154. **DOI: 10.1038/s41418-023-01153-w**
+
+3. Czabotar PE, García-Sáez AJ. **Mechanisms of BCL-2 family proteins in mitochondrial apoptosis.** *Nature Reviews Molecular Cell Biology*. 2023;24:732–748. **DOI: 10.1038/s41580-023-00629-4**
+
+4. Glover HL, Schreiner A, Dewson G, Tait SWG. **Mitochondria and cell death.** *Nature Cell Biology*. 2024;26:1434–1446. **DOI: 10.1038/s41556-024-01429-4**
+
+5. Lossi L. **The concept of intrinsic versus extrinsic apoptosis.** *Biochemical Journal*. 2022;479:357–384. **DOI: 10.1042/BCJ20210854**
+
+6. Wu CC, Bratton SB. **Regulation of the Intrinsic Apoptosis Pathway by Reactive Oxygen Species.** *Antioxidants & Redox Signaling*. 2013;19:546–558. **DOI: 10.1089/ars.2012.4905**
+
+7. Roos WP, Kaina B. **DNA damage-induced cell death by apoptosis.** *Trends in Molecular Medicine*. 2006;12:440–450. **DOI: 10.1016/j.molmed.2006.07.007**
+
+8. Villunger A, Michalak EM, Coultas L, et al. **p53- and Drug-Induced Apoptotic Responses Mediated by BH3-Only Proteins Puma and Noxa.** *Science*. 2003;302:1036–1038. **DOI: 10.1126/science.1090072**
+
+9. Michalak EM, Villunger A, Adams JM, Strasser A. **In several cell types tumour suppressor p53 induces apoptosis largely via Puma but Noxa can contribute.** *Cell Death & Differentiation*. 2008;15:1019–1029. **DOI: 10.1038/cdd.2008.16**
+
+10. Chen L, Willis SN, Wei A, et al. **Differential targeting of prosurvival Bcl-2 proteins by their BH3-only ligands allows complementary apoptotic function.** *Molecular Cell*. 2005;17:393–403. **DOI: 10.1016/j.molcel.2004.12.030**
+
+11. Puthalakath H, O'Reilly LA, Gunn P, et al. **ER stress triggers apoptosis by activating BH3-only protein Bim.** *Cell*. 2007;129:1337–1349. **DOI: 10.1016/j.cell.2007.04.027**
+
+12. Wang J, Thomas HR, Li Z, et al. **Puma, noxa, p53, and p63 differentially mediate stress pathway induced apoptosis.** *Cell Death & Disease*. 2021;12. **DOI: 10.1038/s41419-021-03902-6**
+
+13. Wong HK, Fricker M, Wyttenbach A, et al. **Mutually Exclusive Subsets of BH3-Only Proteins Are Activated by the p53 and JNK/c-Jun Signaling Pathways during Cortical Neuron Apoptosis Induced by Arsenite.** *Molecular and Cellular Biology*. 2005;25:8732–8747. **DOI: 10.1128/MCB.25.19.8732-8747.2005**
+
+14. Araya LE, Soni IV, Hardy JA, Julien O. **Deorphanizing Caspase-3 and Caspase-9 Substrates In and Out of Apoptosis with Deep Substrate Profiling.** *ACS Chemical Biology*. 2021;16:2280–2296. **DOI: 10.1021/acschembio.1c00456**
+
+15. Shamas-Din A, Kale J, Leber B, Andrews DW. **Mechanisms of action of Bcl-2 family proteins.** *Cold Spring Harbor Perspectives in Biology*. 2013;5:a008714. **DOI: 10.1101/cshperspect.a008714**
+
+16. Huang K, O'Neill KL, Li J, et al. **BH3-only proteins target BCL-xL/MCL-1, not BAX/BAK, to initiate apoptosis.** *Cell Research*. 2019;29:942–952. **DOI: 10.1038/s41422-019-0231-y**
+
+17. Zhang J, Huang K, O'Neill KL, Pang X, Luo X. **Bax/Bak activation in the absence of Bid, Bim, Puma, and p53.** *Cell Death & Disease*. 2016;7. **DOI: 10.1038/cddis.2016.167**
+
+18. Frezza C, Cipolat S, Martins de Brito O, et al. **OPA1 controls apoptotic cristae remodeling independently from mitochondrial fusion.** *Cell*. 2006;126:177–189. **DOI: 10.1016/j.cell.2006.06.025**
+
+19. Arnoult D, Grodet A, Lee YJ, Estaquier J, Blackstone C. **Release of OPA1 during Apoptosis Participates in the Rapid and Complete Release of Cytochrome c and Subsequent Mitochondrial Fragmentation.** *Journal of Biological Chemistry*. 2005;280:35742–35750. **DOI: 10.1074/jbc.M505970200**
+
+20. Yamaguchi R, Lartigue L, Perkins G, et al. **Opa1-mediated cristae opening is Bax/Bak- and BH3-dependent, required for apoptosis, and independent of Bak oligomerization.** *Molecular Cell*. 2008;31:557–569. **DOI: 10.1016/j.molcel.2008.07.010**
+
+21. Otera H, Miyata N, Kuge O, Mihara K. **Drp1-dependent mitochondrial fission via MiD49/51 is essential for apoptotic cristae remodeling.** *Journal of Cell Biology*. 2016;212:531–544. **DOI: 10.1083/jcb.201508099**
+
+22. Li P, Nijhawan D, Budihardjo I, et al. **Cytochrome c and dATP-dependent formation of Apaf-1/caspase-9 complex initiates an apoptotic protease cascade.** *Cell*. 1997;91:479–489. **DOI: 10.1016/S0092-8674(00)80434-1**
+
+23. Zou H, Li Y, Liu X, Wang X. **An APAF-1·Cytochrome c Multimeric Complex Is a Functional Apoptosome That Activates Procaspase-9.** *Journal of Biological Chemistry*. 1999;274:11549–11556. **DOI: 10.1074/jbc.274.17.11549**
+
+24. Zhou M, Li Y, Hu Q, et al. **Atomic structure of the apoptosome: mechanism of cytochrome c- and dATP-mediated activation of Apaf-1.** *Genes & Development*. 2015;29:2349–2361. **DOI: 10.1101/gad.272278.115**
+
+25. Dorstyn L, Akey CW, Kumar S. **New insights into apoptosome structure and function.** *Cell Death & Differentiation*. 2018;25:1194–1208. **DOI: 10.1038/s41418-017-0025-z**
+
+26. Román-Carraro F, Gutiérrez-Kobeh L. **Apoptosis as an evolutionary battleground: pathogen pressure and the shaping of programmed cell death pathways.** *Frontiers in Cell and Developmental Biology*. 2026;14. **DOI: 10.3389/fcell.2026.1800300**
+
+27. Wu G, Chai J, Suber TL, et al. **Structural basis of IAP recognition by Smac/DIABLO.** *Nature*. 2000;408:1008–1012. **DOI: 10.1038/35050012**
+
+28. Abbas R, Larisch S. **Targeting XIAP for Promoting Cancer Cell Death—The Story of ARTS and SMAC.** *Cells*. 2020;9. **DOI: 10.3390/cells9030663**
+
+29. Hegde R, Srinivasula SM, Zhang Z, et al. **Identification of Omi/HtrA2 as a Mitochondrial Apoptotic Serine Protease That Disrupts Inhibitor of Apoptosis Protein-Caspase Interaction.** *Journal of Biological Chemistry*. 2002;277:432–438. **DOI: 10.1074/jbc.M109721200**
+
+30. Iaccarino I, Tenev T, Gschmeissner S, et al. **The Serine Protease Omi/HtrA2 Regulates Apoptosis by Binding XIAP through a Reaper-like Motif.** *Journal of Biological Chemistry*. 2002;277:439–444. **DOI: 10.1074/jbc.M109784200**
+
+31. Yang QH, Church-Hajduk R, Ren J, Newton ML, Du C. **Omi/HtrA2 catalytic cleavage of inhibitor of apoptosis proteins irreversibly inactivates IAPs and facilitates caspase activity in apoptosis.** *Genes & Development*. 2003;17:1487–1496. **DOI: 10.1101/gad.1097903**
+
+32. Elena-Real CA, Díaz-Quintana A, González-Arzola K, et al. **Cytochrome c speeds up caspase cascade activation by blocking 14-3-3ε-dependent Apaf-1 inhibition.** *Cell Death & Disease*. 2018;9. **DOI: 10.1038/s41419-018-0408-1**
+
+33. Slee EA, Adrain C, Martin SJ. **Executioner Caspase-3, -6, and -7 Perform Distinct, Non-redundant Roles during the Demolition Phase of Apoptosis.** *Journal of Biological Chemistry*. 2001;276:7320–7326. **DOI: 10.1074/jbc.M008363200**
+
+34. Lüthi AU, Martin SJ. **The CASBAH: a searchable database of caspase substrates.** *Cell Death & Differentiation*. 2007;14:641–650. **DOI: 10.1038/sj.cdd.4402103**
+
+35. Candé C, Cohen I, Daugas E, et al. **Apoptosis-inducing factor (AIF): a novel caspase-independent death effector released from mitochondria.** *Biochimie*. 2002;84:215–222. **DOI: 10.1016/S0300-9084(02)01374-3**
+
+36. Lorenzo HK, Susin SA, Penninger J, Kroemer G. **Apoptosis inducing factor (AIF): a phylogenetically old, caspase-independent effector of cell death.** *Cell Death & Differentiation*. 1999;6:516–524. **DOI: 10.1038/sj.cdd.4400527**
+
+37. Norberg E, Orrenius S, Zhivotovsky B. **Mitochondrial regulation of cell death: processing of apoptosis-inducing factor (AIF).** *Biochemical and Biophysical Research Communications*. 2010;396:95–100. **DOI: 10.1016/j.bbrc.2010.02.163**
+
+38. Yuste VJ, Sánchez-López I, Solé C, et al. **The Contribution of Apoptosis-inducing Factor, Caspase-activated DNase, and Inhibitor of Caspase-activated DNase to the Nuclear Phenotype and DNA Degradation during Apoptosis.** *Journal of Biological Chemistry*. 2005;280:35670–35683. **DOI: 10.1074/jbc.M504015200**
+
+39. Huigsloot M, Tijdens IB, Mulder GJ, van de Water B. **Differential regulation of phosphatidylserine externalization and DNA fragmentation by caspases in anticancer drug-induced apoptosis.** *Biochemical Pharmacology*. 2001;62:1087–1097. **DOI: 10.1016/S0006-2952(01)00755-9**
+
+40. Ferraro-Peyret C, Quéméneur L, Flacher M, Revillard JP, Genestier L. **Caspase-Independent Phosphatidylserine Exposure During Apoptosis of Primary T Lymphocytes.** *Journal of Immunology*. 2002;169:4805–4810. **DOI: 10.4049/jimmunol.169.9.4805**
+
+41. Wu W, Zhao D, Shah SAA, et al. **OPA1 overexpression ameliorates mitochondrial cristae remodeling, mitochondrial dysfunction, and neuronal apoptosis in prion diseases.** *Cell Death & Disease*. 2019;10. **DOI: 10.1038/s41419-019-1953-y**
+
+42. Pellattiero A, Quirin C, Magrin F, et al. **Small molecule OPA1 inhibitors amplify cytochrome c release and reverse cancer cells resistance to Bcl-2 inhibitors.** *Science Advances*. 2025;11. **DOI: 10.1126/sciadv.adx4562**
+
+43. Kalkavan H, Green D. **MOMP, cell suicide as a BCL-2 family business.** *Cell Death &amp; Differentiation*. 2017;25:46-55. **DOI: 10.1038/cdd.2017.179**
+
+44. Rojas A, Jethi S, Budak-Alpdogan T, et al. **Wired to Survive: How AML Cytogenetics Shape Apoptotic Dependence and Venetoclax Resistance.** *Genes*. 2026;17:1122. **DOI: 10.3390/genes17091122**
+
+45. Kale J, Osterlund E, Andrews D. **BCL-2 family proteins: changing partners in the dance towards death.** *Cell Death &amp; Differentiation*. 2017;25:65-80. **DOI: 10.1038/cdd.2017.186**
+
+46. Cogliati S, Frezza C, Soriano M, et al. **Mitochondrial Cristae Shape Determines Respiratory Chain Supercomplexes Assembly and Respiratory Efficiency.** *Cell*. 2013;155:160-171. **DOI: 10.1016/j.cell.2013.08.032**
+
+47. Yu J, Wang Z, Kinzler KW, et al. **PUMA mediates the apoptotic response to p53 in colorectal cancer cells..** **. 2003. **DOI: 10.1073/pnas.2627984100**
+
+48. Yu J, Zhang L.. **PUMA, a potent killer with or without p53..** **. 2008. **DOI: 10.1038/onc.2009.45**
+
+49. Flores-Romero H, Garcia-Porras M, Basañez G.. **Membrane insertion of the BAX core, but not latch domain, drives apoptotic pore formation..** **. 2017. **DOI: 10.1038/s41598-017-16384-4**
+
+50. Serrano BP, Hardy JA.. **Phosphorylation by protein kinase A disassembles the caspase-9 core..** **. 2018. **DOI: 10.1038/s41418-017-0052-9**
+
+51. Wang P, Yu J, Zhang L. **The nuclear function of p53 is required for PUMA-mediated apoptosis induced by DNA damage.** *Proceedings of the National Academy of Sciences USA*. 2007;104:4054–4059. **DOI: 10.1073/pnas.0700020104**
+
+52. Martin MC, Allan LA, Lickrish M, Sampson C, Morrice N, Clarke PR. **Protein Kinase A Regulates Caspase-9 Activation by Apaf-1 Downstream of Cytochrome c.** *Journal of Biological Chemistry*. 2005;280:15449–15455. **DOI: 10.1074/jbc.M414325200**
+
+53. Zou H, Yang R, Hao J, et al. **Regulation of the Apaf-1/Caspase-9 Apoptosome by Caspase-3 and XIAP.** *Journal of Biological Chemistry*. 2003;278:8091–8098. **DOI: 10.1074/jbc.M204783200**
+
+54. Tait SWG, Green DR. **Mitochondria and cell death: outer membrane permeabilization and beyond.** *Nature Reviews Molecular Cell Biology*. 2010;11:621–632. **DOI: 10.1038/nrm2952**
+
+55. Birkinshaw RW, Czabotar PE. **The BCL-2 family of proteins and mitochondrial outer membrane permeabilisation.** *Seminars in Cell & Developmental Biology*. 2017;72:152–162. **DOI: 10.1016/j.semcdb.2017.04.001**
+
+56. Peña-Blanco A, García-Sáez AJ. **Bax, Bak and beyond — mitochondrial performance in apoptosis.** *FEBS Journal*. 2018;285. **DOI: 10.1111/febs.14186**

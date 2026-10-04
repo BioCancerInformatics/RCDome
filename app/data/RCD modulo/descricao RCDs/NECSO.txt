@@ -1,0 +1,158 @@
+NECSO
+
+1. Definition and Classification
+
+NECSO is an emerging/proposed regulated necrotic cell-death modality defined mechanistically by sustained intracellular Na+ overload that drives mitochondrial energetic failure, collapse of ATP-dependent ion homeostasis, osmotic swelling, and eventual plasma-membrane rupture [1-6]. Within the supplied evidence, NECSO should not yet be presented as an established canonical modality equivalent in consensus status to older, extensively standardized regulated cell-death pathways. The best-supported canonical pathway is TRPM4-dependent: persistent activation of the plasma-membrane channel TRPM4 produces sustained Na+ influx; elevated cytosolic Na+ perturbs mitochondrial Na+/Ca2+ exchange through NCLX, lowers mitochondrial Ca2+, suppresses mitochondrial metabolic activity and ATP production, and ultimately compromises Na+/K+-ATPase-dependent ion homeostasis. Continued accumulation of Na+, accompanying anions, and water then produces progressive swelling and terminal plasma-membrane rupture [1-3].
+
+This mechanistic definition is more informative than morphology alone. Cell swelling, blebbing, oncotic changes, membrane permeability, and lysis have been proposed to be shared features that can also be observed in some other necrotic or lytic processes, rather than being specific to NECSO [2,30]. Therefore, NECSO should be diagnosed by its causal ionic and metabolic sequence rather than by a necrotic appearance. In the canonical experimental system, sustained Na+ accumulation is upstream and necessary, TRPM4 is required, and blockade of major apoptotic, necroptotic, ferroptotic, or pyroptotic machinery does not prevent death [2].
+
+Accordingly, the established mechanistic core within the supplied corpus is sustained Na+ overload → mitochondrial energetic suppression → failure of ATP-dependent ion regulation → uncompensated osmotic swelling → membrane rupture. TRPM4 has been proposed as the best-established upstream channel in canonical NECSO in some models, whereas alternative Na+-loading mechanisms and several disease-associated routes are often regarded as context-dependent extensions rather than universal defining components [2].
+
+2. Initiation and Triggers
+
+The best-defined initiating system is activation of human TRPM4 by Necrocide 1 (NC1) [1,3]. Structural evidence places NC1 within a ligand-binding pocket formed by the S1–S4 region of TRPM4, adjacent to the Ca2+-binding site. NC1 produces local rearrangements involving S3/S4 that favor pore opening. Channel activation nevertheless remains dependent on membrane PI(4,5)P2, which occupies a distinct lipid-binding site and supports the intersubunit coupling required to transmit S1–S4 conformational changes to the pore gate [3].
+
+NC1 therefore behaves as a non-competitive surrogate for the endogenous Ca2+-dependent activation mechanism. Persistent binding produces slowly developing and sustained TRPM4 activity, consistent with a ligand that remains strongly associated with its binding pocket [3]. TRPM4 is a calcium-activated, non-selective monovalent cation channel that preferentially conducts Na+ ions across the sarcolemmal membrane [26].
+
+NC1 is not the only context in which persistent TRPM4 activity may occur. TRPM4 is a voltage-dependent, non-selective cation channel mainly permeable to Na+, activated by elevated cytosolic Ca2+, and modulated by ATP [27]. Oxidative stress provides an additional route: H2O2 can suppress normal TRPM4 current desensitization, converting a normally limited current into a sustained one and thereby increasing susceptibility to necrotic cell death [9].
+
+Therapy-associated activation is also described. Strong activation of the anticipatory unfolded protein response by compounds such as BHPI or ErSO can generate sustained Ca2+ elevations that engage TRPM4, followed by Na+ influx, cellular swelling, and therapy-induced necrosis [8,21]. In ischemic, hypoxic, or ATP-depleted contexts, the combination of elevated Ca2+ and reduced ATP-mediated channel inhibition can similarly favor pathological TRPM4 activity [11-12].
+
+A broader, less firmly established route involves severe acidosis or metabolic stress promoting Na+ loading through NHE1/SLC9A1 [6,13]. Such mechanisms may converge on sodium-overload-mediated osmotic failure, but the supplied evidence does not establish that every NHE1-dependent or pump-inhibition-associated sodium-overload event should automatically be classified as NECSO. Thus, outside the canonical NC1–TRPM4 system, a single universal endogenous trigger or sensor has not yet been established.
+
+3. Core Mechanistic Machinery
+
+The central initiating machine in canonical NECSO is plasma-membrane TRPM4 [1,3]. TRPM4 does not function as a terminal pore-forming death executor analogous to MLKL or gasdermins. Its mechanistic role is upstream: sustained channel opening generates the persistent Na+ influx that initiates ionic and metabolic collapse.
+
+At the structural level, NC1 binding within the S1–S4 region promotes an activation-like conformation, while PI(4,5)P2 supports channel gating through intersubunit coupling involving residues including F910 and F935 [3]. Once the channel remains open, Na+ accumulates in the cytosol. Insufficient Na+/K+-ATPase activity due to dysfunction of its hormonal stimuli, ATP-deficiency, and active inhibition by ROS causes skeletal muscle membrane depolarization [24]. SMFs have a large chloride permeability, and Donnan effectors passively influence the transmembrane distribution of permeant ions and H2O, producing lethal Na+ + Cl− + H2O influxes in neurons [28].
+
+The mechanistic importance of sodium extends well beyond its osmotic effect. A second central component is the mitochondrial Na+/Ca2+ exchanger NCLX [2]. Increased cytosolic Na+ favors Na+ entry into mitochondria through exchange with mitochondrial Ca2+, causing mitochondrial Ca2+ depletion. Because mitochondrial Ca2+ supports metabolic activity, this ionic redistribution suppresses the tricarboxylic acid cycle and oxidative phosphorylation, generating a profound energetic deficit [2,15].
+
+ATP depletion then compromises the Na+/K+-ATPase, which normally removes intracellular Na+ and maintains the transmembrane Na+ and K+ gradients [2,6]. This creates a transition from potentially compensable Na+ entry to self-amplifying ionic failure: Na+ can no longer be effectively extruded, K+ homeostasis cannot be restored, accompanying anions accumulate, and osmotic water influx accelerates.
+
+The canonical core machinery can therefore be assigned specific roles. TRPM4-mediated Na+ entry elevates mitochondrial Na+ and reduces mitochondrial Ca2+ via NCLX, inhibiting oxidative phosphorylation and the TCA cycle, causing severe energy depletion that inactivates Na/K-ATPase, leading to loss of ion gradients, cellular swelling, and lysis [2].
+
+4. Propagation and Amplification
+
+NECSO propagation contains coupled ionic, metabolic, and osmotic components. Persistent TRPM4 activation first increases cytosolic Na+, changes membrane potential, and promotes K+ loss [1-2,7,15]. Anionic movement, particularly Cl− entry through available passive conductances, accompanies cation accumulation, while water follows the resulting osmotic gradient [2,8,10,16].
+
+In parallel, elevated cytosolic Na+ is transmitted to mitochondria through NCLX-dependent Na+/Ca2+ exchange [2]. The resulting depletion of mitochondrial Ca2+ suppresses the TCA cycle and oxidative phosphorylation, thereby reducing ATP production before terminal membrane rupture occurs. This establishes a mechanistic link between ion imbalance and bioenergetic failure rather than treating sodium merely as an extracellular osmotic driver [2,15].
+
+The ATP deficit then amplifies ionic instability by compromising Na+/K+-ATPase activity [2]. Because TRPM4 itself is inhibited by ATP in relevant physiological contexts, falling ATP can also favor sustained TRPM4 activity under stress conditions in which channel gating remains responsive to the endogenous Ca2+/ATP balance [7-8,10]. This amplification should be considered context-dependent rather than a universally demonstrated feedback loop in every NECSO model.
+
+Oxidative stress provides another amplification mechanism by limiting TRPM4 desensitization [9]. Thus, transient channel activation can become prolonged, allowing Na+ influx to exceed cellular compensatory capacity.
+
+Water handling also varies among tissues. AQP4 can facilitate water entry, and SUR1–TRPM4–AQP4 coupling in astrocytes can markedly amplify ion–water coupling during CNS swelling [16-17]. These complexes are biologically important but should not be incorporated into the universal definition of NECSO because their involvement is cell-type- and tissue-dependent. Indeed, TRPM4-dependent astrocytic swelling does not necessarily culminate in cell death in every injury model [23].
+
+Sodium overload may additionally promote secondary Ca2+ abnormalities through other ion-exchange mechanisms, creating potential overlap with broader calcium-mediated organelle injury [6]. Such secondary effects represent crosstalk or amplification rather than the defining initiating mechanism of canonical NECSO.
+
+5. Protective/Negative Regulators
+
+Several homeostatic mechanisms oppose progression toward NECSO.
+
+First, intracellular ATP restrains TRPM4 activity in relevant physiological settings and simultaneously powers the Na+/K+-ATPase, thereby acting at both the channel-regulatory and ion-homeostatic levels [2,7-8,10]. Adequate ATP therefore limits Na+ influx while supporting Na+ extrusion.
+
+Second, intrinsic TRPM4 desensitization restricts the duration of channel activity. Oxidative disruption of this desensitization increases vulnerability to necrotic death, demonstrating that normal channel shutoff is protective [9].
+
+Third, PI(4,5)P2 availability regulates TRPM4 gating. Although PI(4,5)P2 supports the active channel configuration rather than functioning as a classical negative regulator, insufficient PI(4,5)P2-dependent gating can limit sustained channel opening, and mutations affecting this regulatory interface interfere with the NC1 response [3].
+
+Fourth, the Na+/K+-ATPase continuously opposes intracellular Na+ accumulation. Before severe energetic collapse, active Na+ extrusion provides one of the major barriers separating elevated Na+ flux from irreversible osmotic failure [2].
+
+Fifth, TRPM4 abundance itself is subject to proteostatic control. SEC62 promotes TRPM4 ubiquitination and proteasomal degradation; disruption of the SEC62–TRPM4 interaction stabilizes TRPM4 and increases susceptibility to NECSO, indicating that restriction of TRPM4 protein abundance can raise the threshold for sodium-overload-mediated death [14].
+
+Finally, experimental interventions that reduce the initiating Na+ flux are strongly protective. TRPM4-mediated sodium influx disrupts mitochondrial energy metabolism, leading to ATP depletion, Na/K-ATPase dysfunction, cell swelling, and lysis [2].
+
+6. Commitment / Point of No Return
+
+No universal, experimentally defined single point of no return has yet been established for NECSO in the supplied literature.
+
+The strongest current candidate is the transition from reversible or compensable Na+ loading and early swelling to ATP depletion severe enough to disable Na+/K+-ATPase-dependent ion homeostasis [2]. Before this transition, reduction of TRPM4 activity or extracellular Na+ can prevent progression in appropriate experimental systems [1-3,7]. Once ATP production becomes insufficient to sustain Na+ extrusion, however, intracellular Na+ accumulation becomes self-amplifying, osmotic pressure rises, water influx becomes increasingly uncontrolled, and membrane failure follows [2].
+
+Thus, severe energetic collapse coupled to failure of active Na+ extrusion is presently the most defensible mechanistic commitment step. Nevertheless, the supplied evidence does not demonstrate that recovery is universally impossible at one precisely defined ATP concentration, intracellular Na+ concentration, cell-volume threshold, or membrane-potential value. Such a universal threshold should therefore not be asserted.
+
+7. Na/K-ATPase inactivation results in loss of ion gradients, cellular swelling and lysis [2].
+
+This distinction is critical. TRPM4 is an upstream ion channel required for canonical sodium loading; NCLX transduces sodium overload into mitochondrial metabolic failure; and the Na+/K+-ATPase is a homeostatic system whose failure amplifies the ionic imbalance. None of these proteins has been demonstrated in the supplied corpus to function as a dedicated terminal membrane-disrupting executor analogous to MLKL in necroptosis.
+
+Instead, the execution process is sustained sodium ionotoxicity. Persistent intracellular Na+ accumulation is accompanied by counterion and water influx. Once ATP depletion prevents adequate ion extrusion, cell volume increases dramatically. The plasma membrane becomes progressively damaged and ultimately loses integrity, producing necrotic lysis [2,7].
+
+Accordingly, what physically kills the cell is not cleavage or activation of a dedicated protein pore. AQP4 and related water-handling systems can accelerate this process in particular tissues, especially astrocytic systems, but they are not established as universal NECSO executors [16-17,23].
+
+8. Morphological Sequence
+
+The morphological progression begins with a structurally intact cell in which TRPM4 becomes persistently activated. At this early stage, Na+ influx and membrane depolarization occur without immediate plasma-membrane rupture [1-3,9].
+
+As intracellular Na+ and accompanying osmolytes accumulate, water enters and cellular volume increases. The cell develops progressive oncotic swelling rather than the shrinkage typical of classical apoptosis [7-9]. Continued energetic deterioration reduces the ability to maintain transmembrane ion gradients, accelerating volume expansion.
+
+Advanced cells develop pronounced balloon-like swelling, membrane deformation and injury, followed by permeability to normally excluded dyes such as propidium iodide and release of cytosolic components detectable by assays such as LDH release [3,8,15]. The final stage is complete plasma-membrane rupture and necrotic lysis.
+
+The chronological morphological sequence is therefore:
+
+Normal cell → persistent TRPM4 activation and membrane depolarization → intracellular Na+ accumulation → early osmotic swelling → mitochondrial energetic suppression → progressive oncotic/ballooning morphology → loss of plasma-membrane impermeability → terminal membrane rupture and lysis.
+
+Importantly, these morphological features support the diagnosis only when connected to the defining Na+-dependent mechanism. Swelling, PI positivity, LDH release, and lysis have been proposed as features that, in some models, may not by themselves distinguish NECSO from other lytic death processes [2,30].
+
+9. Crosstalk and Differential Diagnosis
+
+NECSO must first be distinguished from the broader morphological concept of oncosis. Both can display Na+-associated swelling, membrane injury, and lysis. However, oncosis describes a morphological and physiological pattern rather than the specific causal sequence required for canonical NECSO. TRPM4-dependent Na+ overload followed by mitochondrial metabolic suppression and energetic collapse provides the mechanistic specificity needed for NECSO [1-3,7]. The distinction is particularly important because TRPM4-dependent swelling can occur without cell death in some experimental settings [23].
+
+NECSO is mechanistically distinct from necroptosis. Necroptosis depends on RIPK3-mediated activation of MLKL, after which activated MLKL accumulates at cellular membranes and directly contributes to membrane permeabilization [19-20,25]. Canonical NC1-induced NECSO does not require this RIPK3–MLKL execution mechanism, and interference with MLKL does not rescue the canonical sodium-overload phenotype [2].
+
+NECSO also differs from pyroptosis, in which inflammatory caspase-dependent gasdermin cleavage generates pore-forming gasdermin fragments that directly permeabilize the plasma membrane [20,29]. In NECSO, membrane failure emerges from uncompensated ionic and osmotic collapse rather than gasdermin pore formation, and GSDMD disruption does not block canonical NC1-induced death [2].
+
+Ferroptosis is distinguished by iron-dependent phospholipid peroxidation rather than persistent Na+ loading as the defining lethal process [5,20]. Interference with ACSL4 does not rescue canonical NC1-induced NECSO, supporting mechanistic separation [2].
+
+Classical apoptosis is likewise distinct. Canonical NECSO lacks the characteristic requirement for BAX/BAK-dependent mitochondrial apoptotic execution and is not defined by caspase proteolysis, apoptotic cell shrinkage, nuclear fragmentation, or apoptotic-body formation [2,18]. Blocking BAX/BAK does not prevent canonical NC1-induced death [2].
+
+These pathways can nevertheless intersect at the level of cellular stress. Sodium overload can produce secondary calcium abnormalities and organelle dysfunction [6], while therapy-induced unfolded-protein stress can use TRPM4-dependent ion influx as part of a lethal program [8,21]. Such overlap should be described as mechanistic crosstalk unless genetic and functional evidence demonstrates that one canonical execution pathway has replaced another.
+
+10. Experimental Validation
+
+A strong experimental demonstration of NECSO requires evidence of causality across the initiating channel, ionic phenotype, mitochondrial metabolic response, and terminal membrane failure. Morphology or gene-expression signatures alone are insufficient.
+
+The first requirement is genetic necessity of the proposed upstream machinery. In the canonical NC1 model, TRPM4 knockout or knockdown should markedly suppress Na+ accumulation and death [1]. Complementation or gain-of-function experiments strengthen causality: expression of human TRPM4 can confer susceptibility, while mutations affecting species-specific NC1 sensitivity, the NC1-binding region, or channel-regulatory interfaces can alter the phenotype [1,3,22].
+
+Second, the defining ionic event should be measured directly. Intracellular Na+ accumulation can be monitored with sodium-sensitive probes such as CoroNa-based imaging or appropriate genetically encoded sensors, while patch-clamp electrophysiology can demonstrate persistent TRPM4 current [3,15]. Manipulation of extracellular Na+ provides an additional functional test: reducing the sodium gradient should suppress a genuinely Na+-dependent death process [1-3].
+
+Third, the mitochondrial arm must be demonstrated rather than inferred from cell swelling. Measurements should connect increased cellular Na+ with altered mitochondrial Na+/Ca2+ handling, loss of mitochondrial Ca2+, suppression of mitochondrial metabolism, changes in NADH-related metabolic readouts, and ATP depletion [2,15]. Because NCLX is positioned as the key coupling mechanism between Na+ excess and mitochondrial Ca2+ loss, perturbation of this step together with direct mitochondrial functional measurements provides the appropriate mechanistic test of this branch [2].
+
+Fourth, failure of cellular energy homeostasis should be established by measuring ATP decline and relating it temporally to loss of effective Na+/K+-ATPase-dependent ion control and accelerated swelling [2]. Ideally, live-cell measurements should establish the sequence rather than relying exclusively on terminal measurements.
+
+Fifth, terminal membrane injury has been proposed to be assessed using complementary functional assays such as PI uptake, LDH release, time-resolved cell-volume imaging, and direct observation of membrane rupture, and in some models these assays are used together to classify the mode of cell death [30]. These endpoints demonstrate lysis but do not independently identify NECSO.
+
+Sixth, alternative regulated cell-death mechanisms must be excluded. In the canonical system, perturbation of BAX/BAK, MLKL, ACSL4, or GSDMD does not rescue death, supporting separation from apoptosis, necroptosis, ferroptosis, and pyroptosis, respectively [2]. Appropriate pathway-specific inhibitors and genetic perturbations should therefore accompany the positive NECSO evidence.
+
+Finally, rescue experiments should operate upstream of irreversible osmotic collapse. Pharmacological TRPM4 inhibition, genetic removal of TRPM4, reduced extracellular Na+, or mutations that prevent productive NC1/TRPM4 activation provide substantially stronger evidence than descriptive association alone [1,3,12].
+
+Transcriptomic datasets require a particularly conservative interpretation. Expression of TRPM4, SLC9A1, or other genes associated with sodium-overload death, or enrichment of a NECSO-related gene signature, can identify a NECSO-associated transcriptional state or potential susceptibility state [5,18]. It cannot establish ongoing NECSO without functional evidence of Na+ overload, pathway dependency, metabolic collapse, and cell death.
+
+11. Molecular Hierarchy
+
+Initiators/sensors: In the canonical experimental pathway, NC1 directly engages human TRPM4. TRPM4 gating by ATP and Ca2+ can lead to cell death by Na+ overload [7].
+
+TRPM4-mediated Na+ entry elevates mitochondrial Na+ and reduces mitochondrial Ca2+ via NCLX, inhibiting oxidative phosphorylation and the TCA cycle, leading to severe energy depletion, Na/K-ATPase inactivation, loss of ion gradients, cellular swelling and lysis [2].
+
+TRPM4-mediated Na+ entry elevates mitochondrial Na+ and reduces mitochondrial Ca2+ via NCLX, inhibiting oxidative phosphorylation and the TCA cycle, leading to severe energy depletion, which results in Na/K-ATPase inactivation, loss of ion gradients, cellular swelling and lysis [2].
+
+Executor: No dedicated protein terminal executor is established. The operative execution process is persistent Na+ overload coupled to counterion and osmotic water accumulation after energetic failure, culminating in catastrophic plasma-membrane rupture [2,7].
+
+TRPM4 is gated by ATP and Ca2+, and its activation causes Na+ overload, mitochondrial dysfunction, ATP decrease, Na+/K+-ATPase dysfunction, swelling, and lysis [2,7].
+
+A 30-min treatment with NC1 is sufficient to elevate intracellular sodium levels, which escalate over time with extended NC1 exposure, indicating that sodium influx is initiated early upon NC1 treatment and persists over time [2,31]. None should be considered independently diagnostic.
+
+12. TRPM4-mediated Na+ entry elevates mitochondrial Na+ and reduces mitochondrial Ca2+ via NCLX, inhibiting oxidative phosphorylation and the TCA cycle, leading to severe energy depletion, which results in Na/K-ATPase inactivation, loss of ion gradients, cellular swelling, and lysis [2].
+
+TRPM4 gating is regulated by ATP and Ca2+, and excessive TRPM4 activity can cause cell death through Na+ overload [7]. These alternative initiation mechanisms converge on the same proposed Na+-overload axis but are not yet demonstrated to represent a universal mechanism in all tissues.
+
+13. Final Mechanistic Interpretation
+
+For RCDome, the most defensible operational definition is:
+
+NECSO is an emerging/proposed regulated necrotic cell-death modality in which persistent intracellular Na+ overload functions as the defining lethal driver. In the best-characterized canonical system, sustained activation of human TRPM4 produces Na+ influx that perturbs mitochondrial Na+/Ca2+ exchange through NCLX, lowers mitochondrial Ca2+, suppresses mitochondrial energy metabolism, and depletes ATP. Loss of sufficient ATP compromises Na+/K+-ATPase-dependent ion homeostasis, causing uncontrollable accumulation of Na+, accompanying anions, and osmotic water. The resulting progressive oncotic swelling culminates in catastrophic plasma-membrane rupture and necrotic lysis [1-3].
+
+The evidence is strongest for experimentally induced TRPM4-dependent NECSO, particularly NC1-driven systems in which structural channel activation, Na+ influx, metabolic collapse, genetic dependency, and terminal lysis can be connected causally [1-3]. Related TRPM4-dependent death or swelling has been proposed in some models of therapy-induced stress, oxidative injury, hypoxic/ischemic settings, cancer models, and other pathological contexts, but these settings should not automatically be assumed to reproduce the complete canonical NECSO mechanism [7].
+
+The central terminal lesion is osmotic plasma-membrane failure secondary to energetic and ionic collapse, not direct membrane perforation by a dedicated protein executor [2,7]. In some models, the strongest candidate commitment event has been proposed to be severe ATP depletion sufficient to prevent restoration of Na+/K+-ATPase-dependent ion gradients, although a universal irreversible threshold has not yet been experimentally established [2].
+
+The major unresolved question is therefore not whether persistent sodium overload can execute necrotic death in the canonical system, but how broadly the complete TRPM4 → Na+ overload → NCLX-dependent mitochondrial dysfunction → ATP collapse → pump failure → osmotic lysis sequence operates in endogenous mammalian disease. Different tissues may use distinct sodium-entry routes, water channels, ion exchangers, and stress signals while converging on similar terminal osmotic failure. Until these relationships are experimentally resolved, noncanonical sodium-overload states and transcriptomic NECSO-associated signatures should be described as mechanistically related or susceptibility states rather than definitive evidence of active NECSO.
+

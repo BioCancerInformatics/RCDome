@@ -1,0 +1,168 @@
+# Immunogenic cell death
+
+## 1. Definition and Classification
+
+Immunogenic cell death is best classified as an established immunological classification of regulated cell death (RCD) rather than as a single, executor-defined biochemical death modality. Its defining property is not a unique morphology or a dedicated terminal execution molecule, but the capacity of dying cells to elicit adaptive immune responses against antigens associated with those cells. This requires the combination of antigenicity with appropriately timed adjuvanticity, including the exposure or release of damage-associated molecular patterns (DAMPs) and immunostimulatory mediators such as cell-surface calreticulin (CALR), extracellular ATP, HMGB1, annexin A1, heat-shock proteins, and type I interferons [1-3].
+
+Accordingly, for RCDome, ICD is most defensibly treated as an established RCD-related immunological concept/classification, not as an independent execution pathway. A cell does not die because an “ICD executor” becomes activated. Instead, an underlying RCD mechanism kills the cell while stress-associated signaling and DAMP trafficking determine whether that death becomes immunogenic [1-2]. The apoptosis that causes the aforementioned effects is known as immunogenic apoptosis [6].
+
+This apoptotic model represents the established canonical core, but it is not universal. More recent evidence supports immunogenic outcomes from necroptosis, pyroptosis, ferroptosis, paraptosis, and lysosome-associated death under particular circumstances [31-39]. These observations broaden the biological scope of ICD but should not be interpreted as evidence for a shared terminal executor. Rather, mechanistically distinct death programs can converge on an immunogenic phenotype if their spatiotemporal pattern of antigen exposure, DAMP emission, cytokine production, and host sensing is sufficient to induce adaptive immunity [1-2,39].
+
+Therefore, inflammation, DAMP release, CALR exposure, or transcriptional activation of ICD-associated genes cannot individually establish ICD. Bona fide ICD is ultimately a functional property of the dying-cell–host interaction, demonstrated by immune recognition and adaptive immune priming rather than by morphology or molecular biomarkers alone [1,5].
+
+## 2. Initiation and Triggers
+
+The best-established ICD-inducing conditions are anticancer interventions that generate unresolved cellular stress, including reactive oxygen species (ROS), endoplasmic reticulum (ER) stress, proteotoxic stress, DNA damage, or broader organelle damage. Experimentally supported triggers in the supplied evidence include anthracyclines, oxaliplatin, photodynamic therapy (PDT), radiotherapy, and selected targeted or nanomaterial-based treatments [1,5-6,44-45].
+
+There is no single universal ICD receptor or proximal sensor. Instead, different initiating insults converge to varying degrees on the integrated stress response (ISR) and unfolded protein response (UPR). In canonical chemotherapy-induced ICD, the most reproducible proximal signaling axis is:
+
+cellular/ER stress → PERK activation → eIF2α phosphorylation [1,6-8,43].
+
+PERK therefore acts as a major stress-responsive signaling node rather than as an ICD-specific receptor or death executor. Evidence for its causal importance comes from the observation that failure to establish appropriate PERK–eIF2α signaling can prevent CALR surface exposure and reduce immunogenicity. Cisplatin, for example, is relatively defective in this component of ICD, whereas experimentally adding ER stress with thapsigargin or tunicamycin can restore immunogenic characteristics [8].
+
+This architecture is nevertheless context-dependent rather than invariant. Hypericin-mediated PDT can generate ecto-CALR and ATP release through a PERK-dependent pathway that does not require the canonical eIF2α- and caspase-8-dependent sequence [7]. In melanoma cells, the stress kinases PKR and GCN2 can substitute for PERK as upstream kinases that phosphorylate eIF2α and promote CALR exposure [9]. Thus, ER/ISR stress is a strong convergence point for classical ICD, but neither PERK nor any single upstream stress sensor can presently be considered universally required across all forms of immunogenic death.
+
+## 3. Core Mechanistic Machinery
+
+The most mechanistically resolved intracellular branch of canonical chemotherapy-induced ICD controls premortem CALR exposure. The supplied evidence supports the sequence:
+
+ER stress → PERK → eIF2α phosphorylation → partial caspase-8 activation → BAP31 cleavage → BAX/BAK engagement → CALR/ERp57 trafficking to the plasma membrane [1,4,6,10].
+
+Caspase-8 in this context functions upstream of mitochondrial commitment and CALR trafficking. One relevant substrate is the ER membrane protein BAP31. Its cleavage generates a pro-apoptotic fragment that promotes BAX/BAK activation and has been linked to ER-to-mitochondrial signaling, probably including alterations in ER Ca²⁺ homeostasis [11-12]. The wording “probably” is important because the supplied evidence does not establish Ca²⁺ leakage as a universal or indispensable ICD event.
+
+CALR exposure itself is an active trafficking process, not passive leakage from damaged ER. CALR associates with the ER oxidoreductase ERp57, and this complex undergoes anterograde trafficking involving the Golgi and SNARE-dependent exocytotic machinery. VAMP1 and either SNAP25 or SNAP23 have been implicated depending on the experimental system [10,13]. ERp57 therefore has a functional role rather than serving only as a biomarker: depletion of ERp57 impairs CALR exposure, reduces dendritic-cell-mediated uptake of dying cells, and compromises immunogenicity, whereas recombinant CALR can rescue at least part of this phenotype [13-14].
+
+A second major branch controls premortem ATP secretion. ATP release in canonical ICD does not simply reflect terminal membrane rupture. In several models, autophagy supports the maintenance or mobilization of ATP-containing lysosomal/autolysosomal compartments. Caspase activity, ROCK1–myosin II-dependent membrane blebbing, LAMP1 translocation, PANX1 activity, and lysosomal exocytosis then contribute to ATP release while the plasma membrane remains sufficiently intact to distinguish this event from passive postmortem leakage [15-16].
+
+The requirement for autophagy in this branch is particularly informative mechanistically. Genetic disruption of ATG3, ATG5, ATG7, or BECN1 can markedly suppress premortem ATP secretion without necessarily preventing apoptotic death [17]. Autophagy is therefore not appropriately classified as the executor of canonical ICD. Rather, in these settings it establishes or maintains an immunogenicity-supporting state that permits ATP release.
+
+These immunogenic branches coexist with the underlying lethal pathway. In canonical apoptotic ICD, BAX and BAK oligomerization at the mitochondrial outer membrane produces mitochondrial outer membrane permeabilization (MOMP). Cytochrome c is subsequently released, the APAF1-containing apoptosome is assembled, initiator caspase-9 is activated, and executioner caspases-3 and -7 dismantle cellular structures and functions [5,18-19].
+
+ICD is therefore mechanistically layered: CALR/ERp57 trafficking and controlled ATP secretion regulate how the cell is perceived immunologically, whereas BAX/BAK-driven mitochondrial apoptosis provides the principal lethal machinery in the canonical setting.
+
+## 4. Propagation and Amplification
+
+Once stress signaling has crossed the adaptive threshold, several partially interconnected processes reinforce both lethality and immunogenicity. ER stress can promote the caspase-8–BAP31–BAX/BAK axis, thereby coupling stress sensing to mitochondrial commitment [10-12]. Once BAX/BAK-mediated MOMP is extensive, mitochondrial dysfunction, cytochrome c release, apoptosome formation, and executioner-caspase activation create a powerful apoptotic amplification system [18-19,21].
+
+In parallel, immunogenic signaling unfolds temporally. CALR/ERp57 exposure and ATP secretion occur early, before complete loss of plasma-membrane integrity [10,15-17]. CALR provides a surface-associated signal linked to efficient phagocytic uptake by antigen-presenting cells, whereas extracellular ATP constitutes a soluble immunostimulatory component of the dying-cell microenvironment [1,13-17].
+
+Late in the process, membrane permeabilization permits the release of intracellular molecules including HMGB1 [22-23]. HMGB1 differs mechanistically from CALR and ATP because canonical ICD generally places its major release after substantial execution or loss of membrane integrity. Its extracellular activity is also context-sensitive: HMGB1 function can vary according to its redox or post-translational state, and receptor interactions have been reported involving TLR4, TLR2, and RAGE [23-24]. ICD can also be considered through a type I/type II conceptual distinction. In type I ICD, the primary molecular target is outside the ER and ER stress develops secondarily. In type II ICD, the ER itself represents a primary target of the inducing intervention [5,41-42]. This distinction provides a mechanistic explanation for why different treatments can converge on immunogenic DAMP emission while differing in their dependence on PERK, eIF2α phosphorylation, caspase-8, autophagy, or CALR-trafficking machinery.
+
+Autophagy represents an especially important context-dependent regulator. Although autophagic competence promotes ATP release in canonical anthracycline-associated ICD [17], ROS-rich PDT models can show the opposite relationship, with autophagy reducing immunogenic signaling through removal of oxidatively damaged material or alteration of ATP handling [28]. Thus, autophagy should not be assigned a fixed pro-ICD or anti-ICD role independently of cellular context and inducing stimulus.
+
+## 5. Protective and Negative Regulators
+
+Several checkpoints can prevent either cellular execution or the acquisition of an immunogenic phenotype.
+
+At the mitochondrial level, anti-apoptotic BCL-2-family activity restrains BAX/BAK activation and consequently delays or prevents MOMP [5,18,29]. These proteins therefore act primarily on the apoptotic execution component rather than directly controlling ICD as an immunological classification.
+
+At the ER level, effective proteostasis and adaptive UPR signaling can restore cellular homeostasis before stress becomes lethal [12,29-30,46]. ER stress is therefore not intrinsically equivalent to ICD; its intensity, persistence, cellular context, and downstream wiring determine whether adaptation or lethal conversion occurs.
+
+At the extracellular level, CD39-mediated ATP degradation can suppress the ATP-dependent immunogenic component even when cell death continues [1,17]. This illustrates the mechanistic separability of lethality and immunogenicity: a cell may undergo regulated death while losing a critical adjuvant signal.
+
+The CALR branch can also be negatively regulated. Integrin signaling has been reported to inhibit surface CALR/ERp57 presentation [26], while miR-27a can suppress CALR translocation pathways linked to PERK and PI3K signaling [27].
+
+Autophagy again represents a bidirectional checkpoint. Depending on the model, it can support premortem ATP secretion or reduce immunogenic signaling [17,28]. Consequently, the simple statement that “autophagy promotes ICD” is not universally defensible.
+
+## 6. Commitment / Point of No Return
+
+ICD has no universal commitment point independent of the underlying death modality, because ICD is an immunological property rather than a single biochemical execution program.
+
+Importantly, neither ecto-CALR nor extracellular ATP should be considered a point of no return. CALR translocation can occur before overt apoptosis, and ATP is released premortem; therefore, these events can identify an immunogenic stress trajectory without themselves proving irreversible death [10,15].
+
+MOMP is a stronger commitment candidate because extensive mitochondrial outer-membrane permeabilization causes profound mitochondrial dysfunction and releases apoptogenic factors. Nevertheless, the commitment should not be portrayed as mathematically absolute. Minority MOMP and rare post-MOMP survival have been documented, indicating that mitochondrial commitment is highly robust but biologically probabilistic at the single-cell level [19-20].
+
+For non-apoptotic forms capable of producing immunogenic outcomes, the relevant commitment point belongs to their respective execution mechanisms and cannot be replaced by a universal “ICD commitment step.”
+
+## 7. Execution and Terminal Cause of Death
+
+What physically kills the cell in ICD?
+
+There is no universal ICD-specific physical lesion.
+
+In canonical apoptotic ICD, death is produced by the underlying mitochondrial apoptotic machinery. BAX/BAK-mediated MOMP causes irreversible or near-irreversible mitochondrial dysfunction and releases cytochrome c, enabling apoptosome-dependent activation of caspase-9 and subsequently caspases-3 and -7 [5,18-19]. Executioner caspases then proteolytically dismantle essential cellular systems, with feedback amplification contributing to efficient apoptotic execution [21].
+
+Thus, CALR, ERp57, ATP, HMGB1, annexin A1, HSPs, and type I interferons are not the physical executors of ICD. They regulate or report the immunological consequences of death.
+
+Following apoptotic execution, cells can undergo secondary necrosis or other forms of post-apoptotic plasma-membrane permeabilization, permitting late release of HMGB1 and other intracellular DAMPs [21-23]. Membrane rupture is therefore an important late immunological event but should not automatically be identified as the primary cause of death in apoptotic ICD.
+
+When ICD-like immunity arises from necroptosis, pyroptosis, or ferroptosis, the terminal lesions are those of the corresponding RCD modality rather than those of apoptosis. The supplied evidence identifies MLKL as the core necroptotic membrane-disruptive effector, gasdermins as pyroptotic pore-forming executors, and iron-dependent lipid peroxidation as central to ferroptotic execution [31-32]. These mechanistic differences must be retained even when all three processes produce immunogenic outputs.
+
+## 8. Morphological Sequence
+
+The supplied evidence supports a temporal cellular sequence but does not provide a sufficiently complete morphology dataset to justify an invariant ultrastructural definition of ICD. Therefore, ICD should not be assigned a unique morphology.
+
+In canonical apoptotic ICD, an initially viable cell exposed to an appropriate stressor first develops ER/ISR stress while retaining sufficient membrane integrity for regulated secretory processes. CALR and ERp57 are actively translocated from the ER-associated compartment to the cell surface. Blebbing, apoptotic body formation, and protein release during early apoptosis depend on ROCK and myosin ATPase activity to drive actomyosin contraction [47]. BAX/BAK-mediated MOMP then establishes mitochondrial commitment, followed by apoptosome formation and executioner-caspase-dependent structural and metabolic dismantling [18-19,21].
+
+Finally, the plasma membrane can lose integrity during secondary necrosis or programmed post-apoptotic permeabilization, allowing late release of HMGB1 and other intracellular DAMPs [22-23].
+
+Therefore, the best-supported chronological sequence is:
+
+viable stressed cell → ER/ISR remodeling → premortem CALR/ERp57 exposure and ATP secretion → mitochondrial apoptotic commitment → caspase-dependent cellular dismantling → late membrane permeabilization/secondary necrosis → postmortem DAMP release.
+
+Morphological appearance alone cannot establish ICD because the immunogenic classification depends on immune function rather than on a unique cell shape or ultrastructural phenotype [1,5].
+
+## 9. Crosstalk and Differential Diagnosis
+
+ICD must first be distinguished from ordinary apoptosis. Both can use BAX/BAK, MOMP, apoptosome formation, and caspase-3/7 execution. The mechanistic distinction is therefore not the apoptotic machinery itself but whether the dying cell develops the required immunogenic stress and DAMP program and whether that program ultimately elicits adaptive immune responses. Classical apoptosis can be immunologically silent or tolerogenic, whereas canonical ICD couples apoptotic execution to coordinated immunogenic signaling [1-5].
+
+ICD should similarly not be equated with necroptosis. Necroptosis uses MLKL-dependent execution and is intrinsically lytic, but lytic or inflammatory death does not automatically imply productive adaptive immunity [31-35]. Necroptosis can produce strong immunogenic outputs in specific tumor contexts, but this represents immunogenic necroptosis rather than evidence that ICD and necroptosis are synonymous.
+
+Pyroptosis is distinguished by gasdermin-mediated membrane permeabilization. Although pyroptotic death can release DAMPs and generate inflammation, immunogenicity remains a functional property that must be demonstrated. Crosstalk is possible: caspase-3 can cleave GSDME in some contexts, converting an apoptotic program toward gasdermin-mediated membrane permeabilization and potentially increasing DAMP release [36-37].
+
+Ferroptosis differs fundamentally because its execution is linked to iron-dependent lipid peroxidation rather than mitochondrial apoptosome/caspase execution, MLKL, or gasdermins [31-32,38-40]. Ferroptotic cells may nevertheless acquire immunogenic characteristics under appropriate conditions.
+
+Therefore, the differential diagnosis should be based on the death executor plus the immune outcome. CALR exposure, extracellular ATP, HMGB1 release, or inflammatory morphology alone does not identify the underlying modality and does not prove bona fide ICD.
+
+## 10. Experimental Validation
+
+A rigorous demonstration of ICD requires evidence at two distinct levels: mechanistic definition of how the cell dies and functional demonstration that the death induces adaptive immunity.
+
+First, the underlying lethal program should be established. For canonical apoptotic ICD, experiments should test dependence on the BAX/BAK–MOMP–cytochrome c–APAF1/caspase-9–caspase-3/7 axis [5,18-19]. Genetic perturbation is particularly important because pharmacological suppression alone may not distinguish direct pathway dependency from nonspecific changes in cellular stress.
+
+Second, immunogenic signaling should be demonstrated temporally. Surface CALR/ERp57 should be measured before terminal membrane disruption; ATP secretion should be quantified during the premortem phase; and HMGB1 should be evaluated as a predominantly later event [1,10,13-17,22]. These markers should be interpreted as mechanistic components or biomarkers rather than as sufficient proof of ICD.
+
+Causality can then be tested by perturbing the proposed immunogenic machinery. Depending on the model, informative targets include PERK, eIF2α phosphorylation, caspase-8, BAP31, BAX/BAK, ERp57, SNARE-associated trafficking components, autophagy genes, PANX1, and host DAMP-sensing pathways [1,10,13-17,43]. The critical experiment is not merely to show that such perturbations reduce cell death, but to determine whether they preferentially reduce immunogenicity relative to lethality.
+
+Rescue experiments provide especially strong evidence. The supplied literature includes restoration of cisplatin-associated immunogenicity by experimentally imposing ER stress with thapsigargin or tunicamycin [8], and rescue of defective CALR-dependent immunogenicity using recombinant CALR [13-14]. The definitive level of validation is functional. Strong evidence includes dendritic-cell phagocytosis and maturation assays, assessment of antigen processing or cross-presentation, host receptor perturbation, and particularly vaccination-type experiments in immunocompetent animals demonstrating protective antitumor immunity [1,5,13].
+
+Competing death programs must also be excluded or explicitly identified. Dependence on MLKL would favor necroptotic execution, gasdermin-dependent membrane permeabilization would support pyroptotic execution, and iron-dependent lipid-peroxidative death would support ferroptosis [31-32]. Importantly, detecting one of these mechanisms does not exclude immunogenicity; it changes the correct mechanistic description to immunogenic necroptosis, pyroptosis, ferroptosis, or another underlying RCD program.
+
+Transcriptomic signatures alone cannot establish ICD. At most, gene-expression profiles can indicate an ICD-associated stress state, immune-interaction state, or susceptibility state. They do not demonstrate DAMP trafficking, execution of a particular RCD mechanism, or generation of adaptive immunity.
+
+## 11. Molecular Hierarchy
+
+The mechanistic hierarchy of canonical apoptotic ICD can therefore be summarized as follows.
+
+Initiating stresses and sensors in immunogenic cell death include therapy-associated reactive oxygen species, proteotoxic stress, endoplasmic reticulum stress, DNA damage, and organelle damage, which converge on endoplasmic reticulum and integrated stress response sensing, most frequently through PERK, but in specific contexts through alternative eIF2α kinases such as PKR or GCN2 [38].
+
+Signal transducers: PERK/PKR/GCN2 → eIF2α phosphorylation and stress remodeling → context-dependent caspase-8 activation → BAP31 cleavage → BAX/BAK engagement [7-12].
+
+Immunogenic machinery: CALR–ERp57 complex formation → Golgi-linked/SNARE-dependent cell-surface trafficking; autophagy-supported ATP availability → caspase/ROCK1–myosin II/LAMP1/PANX1-associated premortem ATP secretion; subsequent HMGB1 release after membrane permeabilization [10,13-17,22].
+
+Core apoptotic machinery: BAX/BAK → MOMP → cytochrome c → APAF1 apoptosome → caspase-9 → caspase-3/7 [5,18-19].
+
+Executors: there is no universal ICD executor. In canonical apoptotic ICD, lethal execution is produced by mitochondrial dysfunction and executioner-caspase-mediated dismantling [18-21]. Other immunogenic RCD contexts retain their own modality-specific executors.
+
+Negative regulators/checkpoints: anti-apoptotic BCL-2-family activity, adaptive ER proteostasis/UPR responses, extracellular ATP degradation by CD39, inhibitory integrin signaling, miR-27a-dependent repression of CALR trafficking, and context-dependent autophagy [1,17,26-30].
+
+Biomarkers/immunogenic signals: ecto-CALR/ERp57, extracellular ATP, late extracellular HMGB1, annexin A1, heat-shock proteins, and type I interferons [1-3]. None is individually sufficient to prove ICD.
+
+## 12. Integrated Canonical Sequence
+
+Therapy-induced ROS, DNA damage, proteotoxic or organelle stress → ER/ISR activation → predominantly PERK, or context-dependently PKR/GCN2 → eIF2α phosphorylation and stress remodeling → partial caspase-8 activation → BAP31 cleavage → BAX/BAK engagement → ER-to-surface trafficking of CALR/ERp57 + parallel autophagy/LAMP1/PANX1-associated premortem ATP secretion → extensive BAX/BAK-mediated MOMP → cytochrome c release → APAF1 apoptosome → caspase-9 → caspase-3/7 execution → cellular structural and metabolic collapse → late plasma-membrane permeabilization/secondary necrosis → HMGB1 and other intracellular DAMP release → dendritic-cell recruitment and uptake → dendritic-cell maturation and appropriate antigen processing/cross-presentation → T-cell priming → adaptive antitumor immunity [1,4-19,22-25].
+
+This sequence represents the canonical apoptotic ICD model, not a universal molecular pathway for every immunogenic form of cell death.
+
+## 13. Final Mechanistic Interpretation
+
+For RCDome, immunogenic cell death should be operationally defined as an established RCD-related immunological classification in which an underlying regulated death program is accompanied by a temporally coordinated stress and DAMP-emission program that enables dead-cell-associated antigens to induce adaptive immunity in an immunocompetent host [1-5].
+
+The best-established biological context is therapy-induced cancer cell death. In the canonical model, ER/ISR signaling, commonly involving PERK-dependent eIF2α phosphorylation, coordinates premortem CALR/ERp57 exposure and contributes to apoptotic signaling, while autophagy- and lysosome-associated processes support premortem ATP secretion [1,7,10,13-17]. The underlying lethal program is usually BAX/BAK-mediated mitochondrial apoptosis, with extensive MOMP representing the strongest candidate commitment point and executioner caspases mediating terminal cellular dismantling [18-21]. Late membrane permeabilization subsequently permits HMGB1 and other intracellular DAMPs to access the extracellular environment [22-25].
+
+The terminal lesion is therefore not “immunogenicity” itself. In canonical ICD it is mitochondrial apoptotic failure and caspase-dependent destruction; in other immunogenic forms of RCD, it is the modality-specific lethal lesion. ICD describes the immunological quality and consequence of that death.
+
+The major unresolved mechanistic question is which combinations, timing, localization, and magnitude of intracellular stress responses and extracellular danger signals are sufficient across different cell types and death programs to convert regulated cell death into bona fide adaptive immunity rather than nonspecific inflammation. This uncertainty prevents establishment of a single universal intracellular ICD pathway or executor.
+
+Accordingly, CALR exposure, ATP secretion, HMGB1 release, inflammatory morphology, or ICD-associated transcriptional signatures should be considered evidence of ICD-associated molecular states unless accompanied by functional demonstration of immunogenicity. The most stringent definition remains mechanistic perturbation of the relevant death and DAMP pathways coupled to functional immune assays in an immunocompetent system [1,5].
+

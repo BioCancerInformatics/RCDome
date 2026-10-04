@@ -1,0 +1,81 @@
+[1] Majno G, Joris I. Apoptosis, oncosis, and necrosis. An overview of cell death. The American Journal of Pathology. 1995;146:3–15. PMID: 7856735.
+
+[2] Van Cruchten S, Van Den Broeck W. Morphological and Biochemical Aspects of Apoptosis, Oncosis and Necrosis. Anatomia, Histologia, Embryologia. 2002. DOI: **10.1046/j.1439-0264.2002.00398.x**.
+
+[3] Guo J, Yang WT, Mai FY, et al. Unravelling oncosis: morphological and molecular insights into a unique cell death pathway. Frontiers in Immunology. 2024. DOI: **10.3389/fimmu.2024.1450998**.
+
+[4] Yuan J, Ofengeim D. A guide to cell death pathways. Nature Reviews Molecular Cell Biology. 2023. DOI: **10.1038/s41580-023-00689-6**.
+
+[5] Lee E, Song C, Bae SJ, et al. Regulated cell death pathways and their roles in homeostasis, infection, inflammation, and tumorigenesis. Experimental & Molecular Medicine. 2023. DOI: **10.1038/s12276-023-01069-y**.
+
+[6] Trump BF, Berezesky IK, Chang SH, et al. The Pathways of Cell Death: Oncosis, Apoptosis, and Necrosis. Toxicologic Pathology. 1997. DOI: **10.1177/019262339702500116**.
+
+[7] Loh KY, Wang Z, Liao P. Oncotic Cell Death in Stroke. Reviews of Physiology, Biochemistry and Pharmacology. 2018. DOI: **10.1007/112_2018_13**.
+
+[8] Song MK, Yu SP. Ionic Regulation of Cell Volume Changes and Cell Death after Ischemic Stroke. Translational Stroke Research. 2013. DOI: **10.1007/s12975-013-0314-x**.
+
+[9] Del Nagro CJ, Xiao Y, Rangell L, et al. Depletion of the Central Metabolite NAD Leads to Oncosis-mediated Cell Death. Journal of Biological Chemistry. 2014. DOI: **10.1074/jbc.M114.580159**.
+
+[10] Dijkstra K, Hofmeijer J, Van Gils SA, et al. A Biophysical Model for Cytotoxic Cell Swelling. Journal of Neuroscience. 2016. DOI: **10.1523/JNEUROSCI.1934-16.2016**.
+
+[11] Gerkau NJ, Rakers C, Petzold GC, et al. Differential effects of energy deprivation on intracellular sodium homeostasis in neurons and astrocytes. Journal of Neuroscience Research. 2017. DOI: **10.1002/jnr.23995**.
+
+[12] Huang S, Dong W, Lin X, et al. Na+/K+-ATPase: ion pump, signal transducer, or cytoprotective protein, and novel biological functions. Neural Regeneration Research. 2024. DOI: **10.4103/nrr.nrr-d-23-01175**.
+
+[13] Lees GJ. Inhibition of sodium-potassium-ATPase: a potentially ubiquitous mechanism contributing to central nervous system neuropathology. Brain Research Reviews. 1991. DOI: **10.1016/0165-0173(91)90011-V**.
+
+[14] Bonora M, Patergnani S, Ramaccini D, et al. Physiopathology of the Permeability Transition Pore: Molecular Mechanisms in Human Pathology. Biomolecules. 2020. DOI: **10.3390/biom10070998**.
+
+[15] Robichaux DJ, Harata M, Murphy EV, et al. Mitochondrial Permeability Transition Pore-Dependent Necrosis. Journal of Molecular and Cellular Cardiology. 2022. DOI: **10.1016/j.yjmcc.2022.11.003**.
+
+[16] Bernardi P, Gerle C, Halestrap A, et al. Identity, structure, and function of the mitochondrial permeability transition pore: controversies, consensus, recent advances, and future directions. Cell Death and Differentiation. 2023. DOI: **10.1038/s41418-023-01187-0**.
+
+[17] Crompton M. The mitochondrial permeability transition pore and its role in cell death. Biochemical Journal. 1999. DOI: **10.1042/bj3410233**.
+
+[18] Bauer TM, Murphy E. Role of Mitochondrial Calcium and the Permeability Transition Pore in Regulating Cell Death. Circulation Research. 2020. DOI: **10.1161/CIRCRESAHA.119.316306**.
+
+[19] Simard JM, Woo SK, Gerzanich V. Transient receptor potential melastatin 4 and cell death. Pflügers Archiv - European Journal of Physiology. 2012. DOI: **10.1007/s00424-012-1166-z**.
+
+[20] Wei S, Low SW, Poore CP, et al. Comparison of Anti-oncotic Effect of TRPM4 Blocking Antibody in Neuron, Astrocyte and Vascular Endothelial Cell Under Hypoxia. Frontiers in Cell and Developmental Biology. 2020. DOI: **10.3389/fcell.2020.562584**.
+
+[21] Liu X, Van Vleet TV, Schnellmann RG. The role of calpain in oncotic cell death. Annual Review of Pharmacology and Toxicology. 2004. DOI: **10.1146/annurev.pharmtox.44.101802.121804**.
+
+[22] Zhang Z, Larner SF, Liu MC, et al. Multiple alphaII-spectrin breakdown products distinguish calpain and caspase dominated necrotic and apoptotic cell death pathways. Apoptosis. 2009. DOI: **10.1007/s10495-009-0405-z**.
+
+[23] Yamashima T. Hsp70.1 and related lysosomal factors for necrotic neuronal death. Journal of Neurochemistry. 2012. DOI: **10.1111/j.1471-4159.2011.07596.x**.
+
+[24] Dondelinger Y, Priem D, Huyghe J, et al. NINJ1 is activated by cell swelling to regulate plasma membrane permeabilization during regulated necrosis. Cell Death & Disease. 2023. DOI: **10.1038/s41419-023-06284-z**.
+
+[25] Degen M, Santos JC, Pluhackova K, et al. Structural basis of NINJ1-mediated plasma membrane rupture in cell death. Nature. 2023. DOI: **10.1038/s41586-023-05991-z**.
+
+[26] Ramos S, Hartenian E, Broz P. Programmed cell death: NINJ1 and mechanisms of plasma membrane rupture. Trends in Biochemical Sciences. 2024. DOI: **10.1016/j.tibs.2024.05.007**.
+
+[27] Lin YS, Sun Z, Shen LS, et al. Arnicolide D induces endoplasmic reticulum stress-mediated oncosis via ATF4 and CHOP in hepatocellular carcinoma cells. Cell Death Discovery. 2024. DOI: **10.1038/s41420-024-01911-w**.
+
+[28] Romashko J, Horowitz S, Franek WR, et al. MAPK pathways mediate hyperoxia-induced oncotic cell death in lung epithelial cells. Free Radical Biology and Medicine. 2003. DOI: **10.1016/S0891-5849(03)00494-5**.
+
+[29] Zhang C, Xu Y, Gu J, et al. A cell surface receptor defined by a mAb mediates a unique type of cell death similar to oncosis. Proceedings of the National Academy of Sciences of the United States of America. 1998. DOI: **10.1073/pnas.95.11.6290**.
+
+[30] Costigan A, Hollville E, Martin SJ. Discriminating Between Apoptosis, Necrosis, Necroptosis, and Ferroptosis by Microscopy and Flow Cytometry. Current Protocols. 2023. DOI: **10.1002/cpz1.951**.
+
+[31] Jaeschke H, Lemasters JJ. Apoptosis versus oncotic necrosis in hepatic ischemia/reperfusion injury. Gastroenterology. 2003. DOI: **10.1016/S0016-5085(03)01209-5**.
+
+[32] Patel P, Mendoza A, Robichaux DJ, et al. Inhibition of the Anti-Apoptotic Bcl-2 Family by BH3 Mimetics Sensitize the Mitochondrial Permeability Transition Pore Through Bax and Bak. Frontiers in Cell and Developmental Biology. 2021. DOI: **10.3389/fcell.2021.765973**.
+
+[33] Zhu M, Cao L, Xiong S, et al. Na+/K+-ATPase-dependent autophagy protects brain against ischemic injury. Signal Transduction and Targeted Therapy. 2020. DOI: **10.1038/s41392-020-0153-7**.
+
+[34] Vossenkamper A, Warnes G. Flow Cytometry Reveals the Nature of Oncotic Cells. International Journal of Molecular Sciences. 2019. DOI: **10.3390/ijms20184379**.
+
+[35] Qiao Y, Wang J, Wang B, et al. Sodium disrupts mitochondrial energy metabolism to execute NECSO. Nature Communications. 2025. DOI: **10.1038/s41467-025-67181-x**.
+
+[36] Dhalla N, Elimban V, Adameova A. Role of Na+-K+ ATPase Alterations in the Development of Heart Failure. *International Journal of Molecular Sciences*. 2024;25:10807. doi: **10.3390/ijms251910807**.
+
+[37] Śledzikowska Z, Żylińska K, Makaruk N, et al. The Inflamed Intestinal Barrier as a Formulation Variable in Oral Nanocarrier Design: Evidence-Informed Principles for Mucus Interaction, Epithelial Access, and Translational Testing. *Pharmaceutics*. 2026;18:1132. doi: **10.3390/pharmaceutics18091132**.
+
+[38] Endlicher R, Drahota Z, Štefková K, et al. The Mitochondrial Permeability Transition Pore—Current Knowledge of Its Structure, Function, and Regulation, and Optimized Methods for Evaluating Its Functional State. *Cells*. 2023;12:1273. doi: **10.3390/cells12091273**.
+
+[39] del Nido P. Myocardial protection during cardiac surgery: Scientific principles and practical recommendations. *JTCVS Structural and Endovascular*. 2026;10:100126. doi: **10.1016/j.xjse.2026.100126**.
+
+[40] Nian H, B. Calpain-calpastatin system and cancer progression. Biological Reviews. 2021. DOI: **10.1111/brv.12686**.
+
+[41] Li C, Liu Y, Mao H, et al. Oncosis is the predominant type of cell death in rhabdomyolysis following exertional heat stroke. PLOS ONE. 2025. DOI: **10.1371/journal.pone.0308586**.

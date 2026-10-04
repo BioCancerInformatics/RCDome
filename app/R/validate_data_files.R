@@ -7,17 +7,17 @@ validate_data_files <- function(data_dir = "data", board_dir = "board", www_dir 
     if (!isTRUE(cond)) issues <<- c(issues, msg)
   }
 
-  # matrix RDS (22,473 x 71)
-  f <- file.path(data_dir, "unified_gene_rcd_matrix_V026.rds")
+  # matrix RDS (22,473 x 82)
+  f <- file.path(data_dir, "unified_gene_rcd_matrix_V027.rds")
   if (file.exists(f)) {
     m <- tryCatch(readRDS(f), error = function(e) NULL)
     if (is.null(m)) {
       chk(FALSE, "matrix RDS failed to load")
     } else {
-      chk(ncol(m) == 71, sprintf("matrix RDS: %d columns (expected 71)", ncol(m)))
+      chk(ncol(m) == 82, sprintf("matrix RDS: %d columns (expected 82)", ncol(m)))
       chk(nrow(m) == 22473, sprintf("matrix RDS: %d rows (expected 22,473)", nrow(m)))
     }
-  } else chk(FALSE, "missing data/unified_gene_rcd_matrix_V026.rds")
+  } else chk(FALSE, "missing data/unified_gene_rcd_matrix_V027.rds")
 
   # decoder CSV (53 x 39)
   f <- file.path(data_dir, "RCDome_Decoder_53.csv")

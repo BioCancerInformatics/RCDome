@@ -1,0 +1,109 @@
+**[1] Kumari R, Jat P. Mechanisms of Cellular Senescence: Cell Cycle Arrest and Senescence Associated Secretory Phenotype. Frontiers in Cell and Developmental Biology. 2021;9. DOI: 10.3389/fcell.2021.645593.**
+
+**[2] Bahar M, Hwang JS, Lai T, Akter KM, Maulidi RF, Kim D. The autophagy-senescence axis as a threshold model of aging and therapeutic targeting. Redox Biology. 2026;91. DOI: 10.1016/j.redox.2026.104079.**
+
+**[3] Jung S, Jeong H, Yu SW. Autophagy as a decisive process for cell death. Experimental & Molecular Medicine. 2020;52:921–930. DOI: 10.1038/s12276-020-0455-4.**
+
+**[4] Cassidy LD, Narita M. Autophagy at the intersection of aging, senescence, and cancer. Molecular Oncology. 2022;16:3259–3275. DOI: 10.1002/1878-0261.13269.**
+
+**[5] Engeland K. Cell cycle regulation: p53-p21-RB signaling. Cell Death & Differentiation. 2022;29:946–960. DOI: 10.1038/s41418-022-00988-z.**
+
+**[6] Ohtani N. The roles and mechanisms of senescence-associated secretory phenotype (SASP): can it be controlled by senolysis? Inflammation and Regeneration. 2022;42. DOI: 10.1186/s41232-022-00197-8.**
+
+**[7] Kallenbach J, Roozbahani GA, Horestani MH, Baniahmad A. Distinct mechanisms mediating therapy-induced cellular senescence in prostate cancer. Cell & Bioscience. 2022;12. DOI: 10.1186/s13578-022-00941-0.**
+
+**[8] Li X, He SK, et al. Autophagy and autophagy-related proteins in cancer. Molecular Cancer. 2020;19. DOI: 10.1186/s12943-020-1138-4.**
+
+**[9] Ke PY. Molecular Mechanism of Autophagosome–Lysosome Fusion in Mammalian Cells. Cells. 2024;13. DOI: 10.3390/cells13060500.**
+
+**[10] Cayo A, Segovia R, Venturini W, et al. mTOR Activity and Autophagy in Senescent Cells, a Complex Partnership. International Journal of Molecular Sciences. 2021;22. DOI: 10.3390/ijms22158149.**
+
+**[11] Karch J, Schips T, Maliken BD, et al. Autophagic cell death is dependent on lysosomal membrane permeability through Bax and Bak. eLife. 2017;6. DOI: 10.7554/eLife.30543.**
+
+**[12] Di Micco R, Fumagalli M, Cicalese A, et al. Oncogene-induced senescence is a DNA damage response triggered by DNA hyper-replication. Nature. 2006;444:638–642. DOI: 10.1038/nature05327.**
+
+**[13] Mallette FA, Gaumont-Leclerc MF, Ferbeyre G. The DNA damage signaling pathway is a critical mediator of oncogene-induced senescence. Genes & Development. 2007;21:43–48. DOI: 10.1101/gad.1487307.**
+
+**[14] Xiao S, Qin D, Hou X, et al. Cellular senescence: a double-edged sword in cancer therapy. Frontiers in Oncology. 2023;13. DOI: 10.3389/fonc.2023.1189015.**
+
+**[15] Guey B, Gulen MF, Wolter K, et al. Innate immune sensing of cytosolic chromatin fragments through cGAS promotes senescence. Nature Cell Biology. 2017;19:1061–1070. DOI: 10.1038/ncb3586.**
+
+**[16] Dou Z, Ghosh K, Vizioli MG, et al. Cytoplasmic chromatin triggers inflammation in senescence and cancer. Nature. 2017;550:402–406. DOI: 10.1038/nature24050.**
+
+**[17] Mackenzie KJ, Carroll P, Martin CA, et al. cGAS surveillance of micronuclei links genome instability to innate immunity. Nature. 2017;548:461–465. DOI: 10.1038/nature23449.**
+
+**[18] Yu L, Liu P. cGAS/STING signalling pathway in senescence and oncogenesis. Seminars in Cancer Biology. 2024;106–107:87–102. DOI: 10.1016/j.semcancer.2024.08.007.**
+
+**[19] Vizioli MG, Liu T, Miller KN, et al. Mitochondria-to-nucleus retrograde signaling drives formation of cytoplasmic chromatin and inflammation in senescence. Genes & Development. 2020;34:428–445. DOI: 10.1101/gad.331272.119.**
+
+**[20] Russell RC, Tian Y, Yuan H, et al. ULK1 induces autophagy by phosphorylating Beclin-1 and activating Vps34 lipid kinase. Nature Cell Biology. 2013;15:741–750. DOI: 10.1038/ncb2757.**
+
+**[21] Aryal P, Kim K, Park PH, Ham S, Cho J, Song K. Baicalein induces autophagic cell death through AMPK/ULK1 activation and downregulation of mTORC1 complex components in human cancer cells. FEBS Journal. 2014;281. DOI: 10.1111/febs.12969.**
+
+**[22] Qi Z, Yang W, Xue B, et al. ROS-mediated lysosomal membrane permeabilization and autophagy inhibition regulate bleomycin-induced cellular senescence. Autophagy. 2024;20:2000–2016. DOI: 10.1080/15548627.2024.2353548.**
+
+**[23] Lee WK, Probst S, Santoyo-Sánchez M, et al. Initial autophagic protection switches to disruption of autophagic flux by lysosomal instability during cadmium stress accrual in renal NRK-52E cells. Archives of Toxicology. 2017;91:3225–3245. DOI: 10.1007/s00204-017-1942-9.**
+
+**[24] Ohtani N, Yamakoshi K, Takahashi A, Hara E. The p16INK4a-RB pathway: molecular link between cellular senescence and tumor suppression. Journal of Medical Investigation. 2004;51:146–153. DOI: 10.2152/jmi.51.146.**
+
+**[25] Schmidt A, Allmann S, Schwarzenbach C, et al. The p21CIP1-CDK4-DREAM axis is a master regulator of genotoxic stress-induced cellular senescence. Nucleic Acids Research. 2024;52:6945–6963. DOI: 10.1093/nar/gkae426.**
+
+**[26] Levine B, Sinha SC, Kroemer G. Bcl-2 family members: Dual regulators of apoptosis and autophagy. Autophagy. 2008;4:600–606. DOI: 10.4161/auto.6260.**
+
+**[27] Maiuri MC, Le Toumelin G, Criollo A, et al. Functional and physical interaction between Bcl-XL and a BH3-like domain in Beclin-1. EMBO Journal. 2007;26. DOI: 10.1038/sj.emboj.7601689.**
+
+**[28] Maiuri MC, Criollo A, Tasdemir E, et al. BH3-Only Proteins and BH3 Mimetics Induce Autophagy by Competitively Disrupting the Interaction between Beclin 1 and Bcl-2/Bcl-XL. Autophagy. 2007;3:374–376. DOI: 10.4161/auto.4237.**
+
+**[29] Kosar M, Bártková J, Hubackova S, et al. Senescence-associated heterochromatin foci are dispensable for cellular senescence, occur in a cell type- and insult-dependent manner and follow expression of p16INK4A. Cell Cycle. 2011;10:457–468. DOI: 10.4161/cc.10.3.14707.**
+
+**[30] Sadaie M, Salama R, Carroll T, et al. Redistribution of the Lamin B1 genomic binding profile affects rearrangement of heterochromatic domains and SAHF formation during senescence. Genes & Development. 2013;27:1800–1808. DOI: 10.1101/gad.217281.113.**
+
+**[31] Olan I, Handa T, Narita M. Beyond SAHF: An integrative view of chromatin compartmentalization during senescence. Current Opinion in Cell Biology. 2023;83:102206. DOI: 10.1016/j.ceb.2023.102206.**
+
+**[32] Narita M, Young ARJ, Arakawa S, et al. Spatial Coupling of mTOR and Autophagy Augments Secretory Phenotypes. Science. 2011;332:966–970. DOI: 10.1126/science.1205407.**
+
+**[33] Young ARJ, Narita M. Spatio-temporal association between mTOR and autophagy during cellular senescence. Autophagy. 2011;7:1387–1388. DOI: 10.4161/auto.7.11.17348.**
+
+**[34] Narita M, Inoki K. Rags connect mTOR and autophagy. Small GTPases. 2012;3:111–114. DOI: 10.4161/sgtp.19422.**
+
+**[35] Patel PL, Suram A, Mirani N, Bischof O, Herbig U. Derepression of hTERT gene expression promotes escape from oncogene-induced cellular senescence. Proceedings of the National Academy of Sciences USA. 2016;113:E5024–E5033. DOI: 10.1073/pnas.1602379113.**
+
+**[36] Fitsiou E, Soto-Gamez A, Demaria M. Biological functions of therapy-induced senescence in cancer. Seminars in Cancer Biology. 2021. DOI: 10.1016/j.semcancer.2021.03.021.**
+
+**[37] Mukhopadhyay S, Panda PK, Sinha N, Das DN, Bhutia SK. Autophagy and apoptosis: where do they meet? Apoptosis. 2014;19:555–566. DOI: 10.1007/s10495-014-0967-2.**
+
+**[38] Kang R, Zeh HJ, Lotze MT, Tang D. The Beclin 1 network regulates autophagy and apoptosis. Cell Death & Differentiation. 2011;18:571–580. DOI: 10.1038/cdd.2010.191.**
+
+**[39] Shin S, Kim M, Kim M, et al. The Relationship Between Immunogenic Cell Death and Cellular Senescence in Cancer Immunotherapy. Life. 2026;16:1536. DOI: 10.3390/life16091536.**
+
+**[40] Li Y, Feng J, Dong X, et al. Targeting lysosome-dependent cell death in cancer: towards therapeutic strategies. Biomarker Research. 2026;14. DOI: 10.1186/s40364-026-00969-1.**
+
+**[41] McHugh D, Gil J. Senescence and aging: Causes, consequences, and therapeutic avenues. Journal of Cell Biology. 2017;217:65-77. DOI: 10.1083/jcb.201708092.**
+
+**[42] Salama R, Sadaie M, Hoare M, et al. Cellular senescence and its effector programs. Genes &amp; Development. 2014;28:99-114. DOI: 10.1101/gad.235184.113.**
+
+**[43] Kurkiewicz M, Moździerz A, Rzepecka-Stojko A, et al. The Role of Autophagy in Cancer Evolution and Prognosis, Highlighting Its Role in PCa and Its Interaction with Apoptosis and Epigenetic Regulation by miRNAs. Medical Sciences. 2026;14:471. DOI: 10.3390/medsci14040471.**
+
+**[44] Han S, Chang Y, Jo J, et al. Autophagy and Mitophagy in Hypertensive Chronic Kidney Disease: Evidence Grading, Cell-Type Divergence, and a Working Lysosomal Hypothesis. Life. 2026;16:1481. DOI: 10.3390/life16091481.**
+
+**[45] Loo T, Miyata K, Tanaka Y, et al. Cellular senescence and senescence‐associated secretory phenotype via the cGAS‐STING signaling pathway in cancer. Cancer Science. 2019;111:304-311. DOI: 10.1111/cas.14266.**
+
+**[46] García‐Aguirre I, Reyes‐Martínez J, Unzueta J, et al. Progerin Hinders Autophagy Flux at Its Final Stages in Hutchinson‐Gilford Progeria Syndrome Cells, Preventing Its Own Autophagic Degradation. Aging Cell. 2026;25. DOI: 10.1111/acel.70649.**
+
+**[47] Herranz N, Gil J.. Mechanisms and functions of cellular senescence.. . 2018. DOI: 10.1172/jci95148.**
+
+**[48] Galluzzi L, Vitale I, Aaronson S, et al. Molecular mechanisms of cell death: recommendations of the Nomenclature Committee on Cell Death 2018. Cell Death &amp; Differentiation. 2018;25:486-541. DOI: 10.1038/s41418-017-0012-4.**
+
+**[49] Kwon Y, Kim JW, Jeoung JA, et al. Autophagy Is Pro-Senescence When Seen in Close-Up, but Anti-Senescence in Long-Shot.. . 2017. DOI: 10.14348/molcells.2017.0151.**
+
+**[50] Wang B, Han J, Elisseeff JH, Demaria M. The senescence-associated secretory phenotype and its physiological and pathological implications. Nature Reviews Molecular Cell Biology. 2024;25:958–978. DOI: 10.1038/s41580-024-00727-x.**
+
+**[51] Herbstein F, Sapochnik M, Attorresi A, et al. The SASP factor IL-6 sustains cell-autonomous senescent cells via a cGAS-STING-NFκB intracrine senescent noncanonical pathway. Aging Cell. 2024;23. DOI: 10.1111/acel.14258.**
+
+**[52] Mahapatra KK, Mishra SR, Behera BP, et al. The lysosome as an imperative regulator of autophagy and cell death. Cellular and Molecular Life Sciences. 2021;78:7435–7449. DOI: 10.1007/s00018-021-03988-3.**
+
+**[53] Shaban H, Gasser SM. Dynamic 3D genome reorganization during senescence: defining cell states through chromatin. Cell Death & Differentiation. 2023. DOI: 10.1038/s41418-023-01197-y.**
+
+**[54] Raha S, Kim S, Lee HJ, et al. Naringin Induces Lysosomal Permeabilization and Autophagy Cell Death in AGS Gastric Cancer Cells. American Journal of Chinese Medicine. 2020. DOI: 10.1142/S0192415X20500342.**
+
+**[55] Prasanna PGS, Citrin DE, Hildesheim J, et al. Therapy-Induced Senescence: Opportunities to Improve Anticancer Therapy. Journal of the National Cancer Institute. 2021;113:1285–1298. DOI: 10.1093/jnci/djab064.**

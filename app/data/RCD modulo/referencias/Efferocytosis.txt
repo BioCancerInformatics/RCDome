@@ -1,1 +1,113 @@
-Eferocitose: processo de remoção pelo qual células apoptóticas ou mortas são reconhecidas e eliminadas por células fagocíticas, prevenindo o extravasamento de conteúdos inflamatórios. Embora não seja propriamente um mecanismo executor de morte celular, representa a etapa terminal do ciclo da morte celular regulada. No microambiente tumoral, a eferocitose suprime a inflamação, mas também pode prejudicar a imunidade antitumoral ao remover silenciosamente células em morte imunogênica antes que elas ativem respostas imunes.
+1. Boada-Romero E, Martinez J, Heckmann BL, Green DR. **Mechanisms and physiology of the clearance of dead cells by efferocytosis.** *Nature Reviews Molecular Cell Biology*. 2020;21:398–414. **DOI: 10.1038/s41580-020-0232-1**
+
+2. Doran AC, Yurdagul A, Tabas I. **Efferocytosis in health and disease.** *Nature Reviews Immunology*. 2020;20:254–267. **DOI: 10.1038/s41577-019-0240-6**
+
+3. Li C, Yang Y, Zhou F, et al. **Efferocytosis in Health and Disease.** *MedComm*. 2025;6. **DOI: 10.1002/mco2.70546**
+
+4. Sheng Y, Hu WT, Chen S, Zhu X. **Efferocytosis by macrophages in physiological and pathological conditions: regulatory pathways and molecular mechanisms.** *Frontiers in Immunology*. 2024;15. **DOI: 10.3389/fimmu.2024.1275203**
+
+5. Elliott MR, Koster KM, Murphy PS. **Efferocytosis signaling in the regulation of macrophage inflammatory responses.** *Journal of Immunology*. 2017;198:1387–1394. **DOI: 10.4049/jimmunol.1601520**
+
+6. Coleman ML, Sahai EA, Yeo M, Bosch M, Dewar A, Olson MF. **Membrane blebbing during apoptosis results from caspase-mediated activation of ROCK I.** *Nature Cell Biology*. 2001;3:339–345. **DOI: 10.1038/35070009**
+
+7. Mills JC, Stone NL, Erhardt J, Pittman RN. **Apoptotic Membrane Blebbing Is Regulated by Myosin Light Chain Phosphorylation.** *Journal of Cell Biology*. 1998;140:627–636. **DOI: 10.1083/jcb.140.3.627**
+
+8. Wickman GR, Julian L, Mardilovich K, et al. **Blebs produced by actin–myosin contraction during apoptosis release damage-associated molecular pattern proteins before secondary necrosis occurs.** *Cell Death & Differentiation*. 2013;20:1293–1305. **DOI: 10.1038/cdd.2013.69**
+
+9. Nagata S, Suzuki J, Segawa K, Fujii T. **Exposure of phosphatidylserine on the cell surface.** *Cell Death & Differentiation*. 2016;23:952–961. **DOI: 10.1038/cdd.2016.7**
+
+10. Segawa K, Kurata S, Yanagihashi Y, et al. **Caspase-mediated cleavage of phospholipid flippase for apoptotic phosphatidylserine exposure.** *Science*. 2014;344:1164–1168. **DOI: 10.1126/science.1252809**
+
+11. Nakanishi H, Nishizawa T, Segawa K, et al. **Transport Cycle of Plasma Membrane Flippase ATP11C by Cryo-EM.** *Cell Reports*. 2020;32:108208. **DOI: 10.1016/j.celrep.2020.108208**
+
+12. Nagata S, Sakuragi T, Segawa K. **Flippase and scramblase for phosphatidylserine exposure.** *Current Opinion in Immunology*. 2020;62:31–38. **DOI: 10.1016/j.coi.2019.11.009**
+
+13. Suzuki J, Denning DP, Imanishi E, Horvitz HR, Nagata S. **Xk-Related Protein 8 and CED-8 Promote Phosphatidylserine Exposure in Apoptotic Cells.** *Science*. 2013;341:403–406. **DOI: 10.1126/science.1236758**
+
+14. Gadiyar V, Pulica R, Aquib A, et al. **Phospholipid scramblases TMEM16F and Xkr8 mediate distinct features of phosphatidylserine externalization and immune suppression to promote tumor growth.** *Cell Death Discovery*. 2025;11. **DOI: 10.1038/s41420-025-02789-y**
+
+15. Ravichandran KS. **Find-me and eat-me signals in apoptotic cell clearance: progress and conundrums.** *Journal of Experimental Medicine*. 2010;207:1807–1817. **DOI: 10.1084/jem.20101157**
+
+16. Elliott MR, Chekeni FB, Trampont PC, et al. **Nucleotides released by apoptotic cells act as a find-me signal for phagocytic clearance.** *Nature*. 2009;461:282–286. **DOI: 10.1038/nature08296**
+
+17. Peter C, Waibel M, Radu CG, et al. **Migration to Apoptotic “Find-me” Signals Is Mediated via the Phagocyte Receptor G2A.** *Journal of Biological Chemistry*. 2008;283:5296–5305. **DOI: 10.1074/jbc.M706586200**
+
+18. Medina CB, Ravichandran KS. **Do not let death do us part: ‘find-me’ signals in communication between dying cells and the phagocytes.** *Cell Death & Differentiation*. 2016;23:979–989. **DOI: 10.1038/cdd.2016.13**
+
+19. Naeini MB, Bianconi V, Pirro M, Sahebkar A. **The role of phosphatidylserine recognition receptors in multiple biological functions.** *Cellular & Molecular Biology Letters*. 2020;25. **DOI: 10.1186/s11658-020-00214-z**
+
+20. Mehrotra P, Ravichandran KS. **Drugging the efferocytosis process: concepts and opportunities.** *Nature Reviews Drug Discovery*. 2022;21:601–620. **DOI: 10.1038/s41573-022-00470-y**
+
+21. Werfel TA, Cook RS. **Efferocytosis in the tumor microenvironment.** *Seminars in Immunopathology*. 2018;40:545–554. **DOI: 10.1007/s00281-018-0698-5**
+
+22. Kim O, Kang GH, Hur J, et al. **Externalized phosphatidylinositides on apoptotic cells are eat-me signals recognized by CD14.** *Cell Death & Differentiation*. 2022;29:1423–1432. **DOI: 10.1038/s41418-022-00931-2**
+
+23. Nishi C, Yanagihashi Y, Segawa K, Nagata S. **MERTK tyrosine kinase receptor together with TIM4 phosphatidylserine receptor mediates distinct signal transduction pathways for efferocytosis and cell proliferation.** *Journal of Biological Chemistry*. 2019;294:7221–7230. **DOI: 10.1074/jbc.RA118.006628**
+
+24. Myers KV, Amend SR, Pienta KJ. **Targeting Tyro3, Axl and MerTK (TAM receptors): implications for macrophages in the tumor microenvironment.** *Molecular Cancer*. 2019;18. **DOI: 10.1186/s12943-019-1022-2**
+
+25. Wu Y, Singh S, Georgescu MM, Birge RB. **A role for Mer tyrosine kinase in αvβ5 integrin-mediated phagocytosis of apoptotic cells.** *Journal of Cell Science*. 2005;118:539–553. **DOI: 10.1242/jcs.01632**
+
+26. Zhang B, Zou Y, Tang Q, et al. **SIRPα modulates microglial efferocytosis and neuroinflammation following experimental subarachnoid hemorrhage via the SHP1/STAT6 axis.** *Journal of Neuroinflammation*. 2025;22. **DOI: 10.1186/s12974-025-03414-6**
+
+27. deBakker CD, Haney LB, Kinchen JM, et al. **Phagocytosis of apoptotic cells is regulated by a UNC-73/TRIO-MIG-2/RhoG signaling module and armadillo repeats of CED-12/ELMO.** *Current Biology*. 2004;14:2208–2216. **DOI: 10.1016/j.cub.2004.12.029**
+
+28. Gumienny TL, Brugnera E, Tosello-Trampont AC, et al. **CED-12/ELMO, a novel member of the CrkII/Dock180/Rac pathway, is required for phagocytosis and cell migration.** *Cell*. 2001;107:27–41. **DOI: 10.1016/S0092-8674(01)00520-7**
+
+29. Yang S, Min C, Moon H, et al. **Internalization of apoptotic cells during efferocytosis requires Mertk-mediated calcium influx.** *Cell Death & Disease*. 2023;14. **DOI: 10.1038/s41419-023-05925-7**
+
+30. Yin C, Heit B. **Cellular Responses to the Efferocytosis of Apoptotic Cells.** *Frontiers in Immunology*. 2021;12. **DOI: 10.3389/fimmu.2021.631714**
+
+31. Pandit R, Hillman H, Williams JW, Yurdagul A. **More than a Cleanup Crew: the Expanding Biology of Efferocytosis.** *Arteriosclerosis, Thrombosis, and Vascular Biology*. 2025/2026;46:e323211. **DOI: 10.1161/ATVBAHA.125.323211**
+
+32. Peña-Martínez C, Rickman AD, Heckmann BL. **Beyond autophagy: LC3-associated phagocytosis and endocytosis.** *Science Advances*. 2022;8. **DOI: 10.1126/sciadv.abn1702**
+
+33. Wong SW, Sil P, Martinez J. **Rubicon: LC3-associated phagocytosis and beyond.** *FEBS Journal*. 2018;285:1379–1388. **DOI: 10.1111/febs.14354**
+
+34. Wu M, Wang EJ, Ye RD, Lu J. **Enhancement of LC3-associated efferocytosis for the alleviation of intestinal inflammation.** *Autophagy*. 2024;20:1442–1443. **DOI: 10.1080/15548627.2024.2311548**
+
+35. Asare P, Tran H, Hurtado P, et al. **Inhibition of LC3-associated phagocytosis in COPD and in response to cigarette smoke.** *Therapeutic Advances in Respiratory Disease*. 2021;15. **DOI: 10.1177/17534666211039769**
+
+36. Schappe MS, Stremska ME, Busey GW, et al. **Efferocytosis requires periphagosomal Ca²⁺-signaling and TRPM7-mediated electrical activity.** *Nature Communications*. 2022;13. **DOI: 10.1038/s41467-022-30959-4**
+
+37. Chen Q, Kou H, Demy DL, et al. **The different roles of V-ATPase a subunits in phagocytosis/endocytosis and autophagy.** *Autophagy*. 2024;20:2297–2313. **DOI: 10.1080/15548627.2024.2366748**
+
+38. Schilperoort M, Ngai D, Sukka SR, et al. **The role of efferocytosis-fueled macrophage metabolism in the resolution of inflammation.** *Immunological Reviews*. 2023;319:65–80. **DOI: 10.1111/imr.13214**
+
+39. Yurdagul A Jr, Subramanian M, Wang X, et al. **Macrophage Metabolism of Apoptotic Cell-Derived Arginine Promotes Continual Efferocytosis and Resolution of Injury.** *Cell Metabolism*. 2020;31:518–533.e10. **DOI: 10.1016/j.cmet.2020.01.001**
+
+40. Ampomah PB, Cai B, Sukka SR, et al. **Macrophages Use Apoptotic Cell-Derived Methionine and DNMT3A During Efferocytosis to Promote Tissue Resolution.** *Nature Metabolism*. 2022;4:444–457. **DOI: 10.1038/s42255-022-00551-7**
+
+41. Kourtzelis I, Hajishengallis G, Chavakis T. **Phagocytosis of Apoptotic Cells in Resolution of Inflammation.** *Frontiers in Immunology*. 2020;11. **DOI: 10.3389/fimmu.2020.00553**
+
+42. Sachet M, Liang YY, Oehler R. **The immune response to secondary necrotic cells.** *Apoptosis*. 2017;22:1189–1204. **DOI: 10.1007/s10495-017-1413-z**
+
+43. Scaffidi P, Misteli T, Bianchi ME. **Release of chromatin protein HMGB1 by necrotic cells triggers inflammation.** *Nature*. 2002;418:191–195. **DOI: 10.1038/nature00858**
+
+44. Murao A, Aziz M, Wang H, Brenner M, Wang P. **Release mechanisms of major DAMPs.** *Apoptosis*. 2021;26:152–162. **DOI: 10.1007/s10495-021-01663-3**
+
+45. Purnama CA, Meiliana A, Barliana MI, Lestari K. **Update of cellular responses to the efferocytosis of necroptosis and pyroptosis.** *Cell Division*. 2023;18. **DOI: 10.1186/s13008-023-00087-6**
+
+46. Muendlein HI, Connolly WM, Leiriao J, et al. **TNF switches homeostatic efferocytosis to lytic caspase-8-dependent pyroptosis and IL-1β maturation.** *Science Immunology*. 2025;10:eadq0043. **DOI: 10.1126/sciimmunol.adq0043**
+
+47. Lin J, Xu A, Jin J, et al. **MerTK-mediated efferocytosis promotes immune tolerance and tumor progression in osteosarcoma through enhancing M2 polarization and PD-L1 expression.** *OncoImmunology*. 2022;11. **DOI: 10.1080/2162402X.2021.2024941**
+
+48. Balaban R, Moskowitz O, Levinson M, et al. **Efferocytosis induces proangiogenic function and chromatin remodeling in tumor-associated macrophages.** *Science Immunology*. 2026;11:eaed1544. **DOI: 10.1126/sciimmunol.aed1544**
+
+49. Adkar SS, Leeper NJ. **Efferocytosis in atherosclerosis.** *Nature Reviews Cardiology*. 2024;21:762–779. **DOI: 10.1038/s41569-024-01037-7**
+
+50. Li Y, Li P, Song J, et al. **Targeting efferocytosis for tissue regeneration: From microenvironment reprogramming to clinical translation.** *Theranostics*. 2026;16:3697–3734. **DOI: 10.7150/thno.126081**
+
+51. Singh S, Bensalem J, Hein LK, et al. **epHero – a tandem-fluorescent probe to track the fate of apoptotic cells during efferocytosis.** *Cell Death Discovery*. 2024;10. **DOI: 10.1038/s41420-024-01952-1**
+
+52. Wu X, Wang Z, Shern TP, Zhang H. **Efferocytosis assay to quantify the engulfment and acidification of apoptotic cells by macrophages using flow cytometry.** *STAR Protocols*. 2024;5. **DOI: 10.1016/j.xpro.2024.103215**
+
+53. Pulica R, Aquib A, Varsanyi C, et al. **Dys-regulated phosphatidylserine externalization as a cell intrinsic immune escape mechanism in cancer.** *Cell Communication and Signaling*. 2025;23. **DOI: 10.1186/s12964-025-02090-6**
+
+54. Eckhart L, Sukseree S, Fischer H. **Cell Death by Holocrine Secretion: The Final Step of Epithelial Differentiation in Sebaceous Glands.** *Cells*. 2026;15:1058. **DOI: 10.3390/cells15121058**
+
+55. Dickson BH, Tasnim T, Nicholson RA, et al. **MERTK coordinates efferocytosis by regulating integrin localization and activation..** **. 2026. **DOI: 10.1242/jcs.264792**
+
+56. Greenlee-Wacker MC. **Clearance of apoptotic neutrophils and resolution of inflammation.** *Immunological Reviews*. 2016;273:357–370. **DOI: 10.1111/imr.12453**
+
+57. Audi O, Ozkocak D, Johnson CJ, et al. **Calcium influx through T-type calcium channels regulates secondary necrosis and inflammation through recruitment of ATG9A-mediated membrane repair.** *Cell Death & Disease*. 2026. **DOI: 10.1038/s41419-026-09070-9**

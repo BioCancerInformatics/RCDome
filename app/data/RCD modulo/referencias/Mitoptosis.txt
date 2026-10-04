@@ -1,1 +1,85 @@
-Mitoptose: eliminação seletiva de mitocôndrias danificadas por meio da transição de permeabilidade mitocondrial e do estresse oxidativo, representando um mecanismo de controle de qualidade em nível de organela. Sobrepõe-se à autofagia e à apoptose. Embora seja primariamente um processo em nível mitocondrial, a mitoptose extensa pode contribuir para a morte celular. No câncer, falhas no controle de qualidade mitocondrial podem promover a progressão tumoral por meio da disfunção metabólica.
+[1] Skulachev VP. Mitochondria in the Programmed Death Phenomena; A Principle of Biology: “It Is Better to Die than to be Wrong”. IUBMB Life. 2000;49. DOI: **10.1080/152165400410209**.
+
+[2] Jangamreddy JR, Los MJ. Mitoptosis, a Novel Mitochondrial Death Mechanism Leading Predominantly to Activation of Autophagy. Hepatitis Monthly. 2012;12. DOI: **10.5812/hepatmon.6159**.
+
+[3] Lyamzaev KG, Nepryakhina OK, Saprunova VB, et al. Novel mechanism of elimination of malfunctioning mitochondria (mitoptosis): formation of mitoptotic bodies and extrusion of mitochondrial material from the cell. Biochimica et Biophysica Acta. 2008;1777:817–825. DOI: **10.1016/j.bbabio.2008.03.027**.
+
+[4] Skulachev VP. Bioenergetic aspects of apoptosis, necrosis and mitoptosis. Apoptosis. 2006;11:473–485. DOI: **10.1007/s10495-006-5881-9**.
+
+[5] Uoselis L, Nguyen TN, Lazarou M. Mitochondrial degradation: Mitophagy and beyond. Molecular Cell. 2023. DOI: **10.1016/j.molcel.2023.08.021**.
+
+[6] Onishi M, Yamano K, Sato M, Matsuda N, Okamoto K. Molecular mechanisms and physiological functions of mitophagy. EMBO Journal. 2021;40. DOI: **10.15252/embj.2020104705**.
+
+[7] Palikaras K, Lionaki E, Tavernarakis N. Mechanisms of mitophagy in cellular homeostasis, physiology and pathology. Nature Cell Biology. 2018;20:1013–1022. DOI: **10.1038/s41556-018-0176-2**.
+
+[8] Bonora M, Patergnani S, Ramaccini D, et al. Physiopathology of the Permeability Transition Pore: Molecular Mechanisms in Human Pathology. Biomolecules. 2020;10. DOI: **10.3390/biom10070998**.
+
+[9] Bernardi P, Gerle C, Halestrap A, et al. Identity, structure, and function of the mitochondrial permeability transition pore: controversies, consensus, recent advances, and future directions. Cell Death & Differentiation. 2023;30:1869–1885. DOI: **10.1038/s41418-023-01187-0**.
+
+[10] Arnoult D, Rismanchi N, Grodet A, et al. Bax/Bak-dependent release of DDP/TIMM8a promotes Drp1-mediated mitochondrial fission and mitoptosis during programmed cell death. Current Biology. 2005;15:2112–2118. DOI: **10.1016/j.cub.2005.10.041**.
+
+[11] Schweers RL, Zhang J, Randall MS, et al. NIX is required for programmed mitochondrial clearance during reticulocyte maturation. Proceedings of the National Academy of Sciences USA. 2007;104:19500–19505. DOI: **10.1073/pnas.0708818104**.
+
+[12] Moras M, Lefevre SD, Ostuni MA. From Erythroblasts to Mature Red Blood Cells: Organelle Clearance in Mammals. Frontiers in Physiology. 2017;8. DOI: **10.3389/fphys.2017.01076**.
+
+[13] Honda S, Arakawa S, Nishida Y, et al. Ulk1-mediated Atg5-independent macroautophagy mediates elimination of mitochondria from embryonic reticulocytes. Nature Communications. 2014;5. DOI: **10.1038/ncomms5004**.
+
+[14] Brennan L, McGreal-Estrada RS, Logan C, et al. BNIP3L/NIX is required for elimination of mitochondria, endoplasmic reticulum and Golgi apparatus during eye lens organelle-free zone formation. Experimental Eye Research. 2018;174:173–184. DOI: **10.1016/j.exer.2018.06.003**.
+
+[15] Palozzi JM, Jeedigunta S, Minenkova AV, et al. Mitochondrial DNA quality control in the female germline requires a unique programmed mitophagy. Cell Metabolism. 2022;34:1809–1823.e6. DOI: **10.1016/j.cmet.2022.10.005**.
+
+[16] Thendral SB, Bacot S, Ryde IT, et al. Programmed mitophagy at the oocyte-to-zygote transition promotes lineage endurance. Nature Cell Biology. 2026;28:268–284. DOI: **10.1038/s41556-025-01854-z**.
+
+[17] Li J, Jia Y, Ding YX, Bai J, Cao F, Li F. The crosstalk between ferroptosis and mitochondrial dynamic regulatory networks. International Journal of Biological Sciences. 2023;19:2756–2771. DOI: **10.7150/ijbs.83348**.
+
+[18] Prudent J, Zunino R, Sugiura A, Mattie S, Shore GC, McBride HM. MAPL SUMOylation of Drp1 Stabilizes an ER/Mitochondrial Platform Required for Cell Death. Molecular Cell. 2015;59:941–955. DOI: **10.1016/j.molcel.2015.08.001**.
+
+[19] Jenner A, Peña-Blanco A, Salvador-Gallego R, et al. DRP1 interacts directly with BAX to induce its activation and apoptosis. EMBO Journal. 2022;41. DOI: **10.15252/embj.2021108587**.
+
+[20] Pedrera L, Clemente LP, Dahlhaus A, et al. Ferroptosis triggers mitochondrial fragmentation via Drp1 activation. Cell Death & Disease. 2025;16. DOI: **10.1038/s41419-024-07312-2**.
+
+[21] Wang S, Long HT, Hou L, et al. The mitophagy pathway and its implications in human diseases. Signal Transduction and Targeted Therapy. 2023;8. DOI: **10.1038/s41392-023-01503-7**.
+
+[22] Iorio R, Celenza G, Petricca S. Mitophagy: Molecular Mechanisms, New Concepts on Parkin Activation and the Emerging Role of AMPK/ULK1 Axis. Cells. 2022;11. DOI: **10.3390/cells11010030**.
+
+[23] Hamacher-Brady A, Brady NR. Mitophagy programs: mechanisms and physiological implications of mitochondrial targeting by autophagy. Cellular and Molecular Life Sciences. 2016;73:775–795. DOI: **10.1007/s00018-015-2087-8**.
+
+[24] Gustafsson ÅB, Dorn GW. Evolving and Expanding the Roles of Mitophagy as a Homeostatic and Pathogenic Process. Physiological Reviews. 2019;99:853–892. DOI: **10.1152/physrev.00005.2018**.
+
+[25] Venditti P, Di Meo S. The Role of Reactive Oxygen Species in the Life Cycle of the Mitochondrion. International Journal of Molecular Sciences. 2020;21. DOI: **10.3390/ijms21062173**.
+
+[26] Cadenas S. Mitochondrial uncoupling, ROS generation and cardioprotection. Biochimica et Biophysica Acta Bioenergetics. 2018;1859:940–950. DOI: **10.1016/j.bbabio.2018.05.019**.
+
+[27] Hass DT, Barnstable CJ. Uncoupling Proteins in the Mitochondrial Defense Against Oxidative Stress. Progress in Retinal and Eye Research. 2021;83:100941. DOI: **10.1016/j.preteyeres.2021.100941**.
+
+[28] Hirschenson J, Melgar-Bermudez E, Mailloux RJ. The Uncoupling Proteins: A Systematic Review on the Mechanism Used in the Prevention of Oxidative Stress. Antioxidants. 2022;11. DOI: **10.3390/antiox11020322**.
+
+[29] Robichaux DJ, Harata M, Murphy EV, Karch J. Mitochondrial Permeability Transition Pore-Dependent Necrosis. Journal of Molecular and Cellular Cardiology. 2022;174:47–55. DOI: **10.1016/j.yjmcc.2022.11.003**.
+
+[30] Gan B. Mitochondrial regulation of ferroptosis. Journal of Cell Biology. 2021;220. DOI: **10.1083/jcb.202105043**.
+
+[31] Yadav A, Lee E, Liu L, et al. Sunitinib induces coordinated mitochondrial, lysosomal, and endoplasmic reticulum disruption, leading to cellular collapse. *Biophotonics Discovery*. 2026;3:1-9. doi: **10.1117/1.bios.3.4.043102**.
+
+[32] Costa V, Giacomello M, Hudec R, et al. Mitochondrial fission and cristae disruption increase the response of cell models of Huntington's disease to apoptotic stimuli. *EMBO Molecular Medicine*. 2010;2:490-503. doi: **10.1002/emmm.201000102**.
+
+[33] Yu J, Zhang L.. PUMA, a potent killer with or without p53.. **. 2008. doi: **10.1038/onc.2009.45**.
+
+[34] Flores-Romero H, Garcia-Porras M, Basañez G.. Membrane insertion of the BAX core, but not latch domain, drives apoptotic pore formation.. **. 2017. doi: **10.1038/s41598-017-16384-4**.
+
+[35] Galluzzi L, Vitale I, Aaronson S, et al. Molecular mechanisms of cell death: recommendations of the Nomenclature Committee on Cell Death 2018. *Cell Death &amp; Differentiation*. 2018;25:486-541. doi: **10.1038/s41418-017-0012-4**.
+
+[36] Lyamzaev KG, Knorre DA, Chernyak BV. Mitoptosis, Twenty Years After. Biochemistry (Moscow). 2020;85:1484–1498. DOI: **10.1134/S0006297920120020**.
+
+[37] Bock FJ, Tait SWG. Mitochondria as multifaceted regulators of cell death. Nature Reviews Molecular Cell Biology. 2020;21:85–100. DOI: **10.1038/s41580-019-0173-8**.
+
+[38] Hockenbery DM, Oltvai ZN, Yin XM, Milliman CL, Korsmeyer SJ. Bcl-2 functions in an antioxidant pathway to prevent apoptosis. Cell. 1993;75:241–251. DOI: **10.1016/0092-8674(93)80066-N**.
+
+[39] Kowaltowski AJ, Fenton RG, Fiskum G. Bcl-2 family proteins regulate mitochondrial reactive oxygen production and protect against oxidative stress. Free Radical Biology and Medicine. 2004;37:1845–1853. DOI: **10.1016/j.freeradbiomed.2004.09.005**.
+
+[40] Lemasters JJ, Qian T, He L, et al. Role of Mitochondrial Inner Membrane Permeabilization in Necrotic Cell Death, Apoptosis, and Autophagy. Antioxidants & Redox Signaling. 2002;4:769–781. DOI: **10.1089/152308602760598918**.
+
+[41] Kinnally KW, Peixoto PM, Ryu SY, Dejean LM. Is mPTP the gatekeeper for necrosis, apoptosis, or both? Biochimica et Biophysica Acta. 2011;1813:616–622. DOI: **10.1016/j.bbamcr.2010.09.013**.
+
+[42] Wanderoy S, Hees JT, Klesse R, Edlich F, Harbauer AB. Kill one or kill the many: interplay between mitophagy and apoptosis. Biological Chemistry. 2021;402:73–88. DOI: **10.1515/hsz-2020-0231**.
+
+[43] Glover HL, Schreiner A, Dewson G, Tait SWG. Mitochondria and cell death. Nature Cell Biology. 2024;26:1434–1446. DOI: **10.1038/s41556-024-01429-4**.

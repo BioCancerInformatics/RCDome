@@ -1,0 +1,301 @@
+Oncosis
+
+1. Definition and Classification
+
+Oncosis is best defined as a pre-mortem cell-death process characterized by progressive cellular swelling caused by failure of ionic, metabolic, and plasma-membrane homeostasis [1-3]. It commonly culminates in necrotic morphology after loss of viability, but oncosis and necrosis are not synonymous. Historically, oncosis describes the swelling-dominant process occurring while the cell is dying, whereas necrosis describes the morphological appearance of the dead cell and tissue after irreversible injury [1-2].
+
+In contemporary regulated-cell-death nomenclature, oncosis occupies an intermediate conceptual position. It remains biologically and morphologically useful, particularly for ischemic, metabolic, toxic, and ion-homeostasis-associated injury, but it is not defined by a universally conserved molecular execution system comparable to RIPK3-MLKL in necroptosis or a dedicated pore-forming executor in pyroptosis [3-5]. Therefore, oncosis is most defensibly classified in RCDome as an RCD-related morphofunctional process or context-dependent death mode rather than as a fully resolved canonical molecular modality.
+
+The strongest conserved mechanistic feature is severe energetic failure leading to disruption of ATP-dependent ion transport. When ATP availability becomes insufficient, Na+/K+-ATPase and other ATP-dependent transport systems progressively fail. Oncosis involves disturbances in ion homeostasis and water movement that produce hydropic swelling [3].
+
+Mitochondrial dysfunction frequently amplifies this process by further lowering ATP availability and promoting ROS and Ca2+-dependent injury. Sustained mitochondrial permeability transition can accelerate energetic collapse in appropriate contexts [14-18].
+
+Terminal plasma-membrane permeabilization and rupture are required for the transition from severe oncotic injury to irreversible lytic death. However, the molecular route producing this terminal lesion is not universal. TRPM4 can drive Na+ loading and swelling in selected neural and vascular cells, porimin can trigger an oncotic phenotype in particular experimental systems, mitochondrial permeability transition can dominate some ischemic injuries, and NINJ1 is a strong candidate mediator of late swelling-associated membrane rupture across several lytic death programs [19-29].
+
+Accordingly, the evidence supports a common physiological trajectory: bioenergetic failure → ionic imbalance → swelling → membrane failure, but not a single universal upstream sensor or protein executor.
+
+2. Initiation and Triggers
+
+Oncosis can be initiated by several forms of severe cellular stress.
+
+The most established initiating route is ischemic or metabolic injury:
+
+Ischemia, anoxia, hypoxia, or metabolic poisoning → impaired oxidative phosphorylation → declining ATP → failure of ATP-dependent ion transport [6-8].
+
+Na+/K+-ATPase normally maintains steep transmembrane Na+ and K+ gradients through ATP-dependent extrusion of intracellular Na+ and uptake of extracellular K+ [12-13]. When ATP production falls below the level required to maintain this transport, intracellular Na+ accumulates, K+ is lost, membrane potential deteriorates, and Cl− and water redistribute across the plasma membrane [6-13,39].
+
+The earliest morphological consequence is hydropic cell swelling.
+
+A second initiating route is direct plasma-membrane injury or abnormal membrane permeability. Severe membrane insults can permit uncontrolled ion entry [3].
+
+Porimin represents a specialized receptor-associated example. Experimental crosslinking of porimin in selected cells produces loss of adhesion, membrane blebbing, permeability changes, LDH release, and a phenotype resembling oncosis [29,41]. However, porimin-mediated oncosis has been demonstrated primarily in restricted experimental systems and should not be presented as the universal receptor for oncosis.
+
+A third major context is oxidative and mitochondrial stress. Excessive ROS, cytosolic and mitochondrial Ca2+ overload, declining mitochondrial membrane potential, and energetic insufficiency can converge on the mitochondrial permeability transition pore [14-18]. Persistent permeability transition further decreases ATP production and promotes mitochondrial swelling.
+
+During ischemia-reperfusion, this process is especially relevant. Hypoxia impairs oxidative phosphorylation and promotes acidosis. Na+/H+ exchange, Na+/Ca2+ exchange, plasma-membrane Ca2+-ATPase, SERCA, and other transport systems become altered by ATP deficiency and ionic disturbances, promoting cytosolic and mitochondrial Ca2+ loading [14,18]. Reoxygenation can then increase oxidative stress and favor permeability transition.
+
+A fourth, more context-dependent route involves regulated stress signaling. Arnicolide D-induced oncosis in hepatocellular carcinoma cells has been associated with ER stress and PERK-eIF2α-ATF4-CHOP signaling, with genetic interference in ATF4 or CHOP suppressing death [27]. Hyperoxia-induced oncotic death in lung epithelial cells has similarly been linked to JNK, p38, and AP-1 signaling [28].
+
+These findings demonstrate that oncosis is not always a purely passive response to physical injury. Specific signaling systems can regulate whether a stressed cell progresses toward an oncotic phenotype.
+
+3. Core Mechanistic Machinery
+
+The strongest core mechanism is failure of cellular energy-dependent ion homeostasis.
+
+Na+/K+-ATPase continuously consumes ATP to extrude three Na+ ions while importing two K+ ions. Severe ATP depletion decreases pump activity, causing intracellular Na+ accumulation, K+ loss, membrane depolarization, and secondary disruption of Na+-dependent transport systems [12-13].
+
+Electroneutrality requires accompanying redistribution of anions, particularly Cl−. Oncosis involves cytoplasmic swelling [3].
+
+At the same time, cytosolic Ca2+ increases because ATP-dependent extrusion and sequestration systems become compromised. Ca2+ overload activates calpains and other Ca2+-responsive enzymes [21-22]. Calpains cleave structural and membrane-associated proteins, including spectrin, weakening cortical cytoskeletal support and increasing susceptibility to blebbing, membrane deformation, and permeability [40].
+
+Mitochondria provide another major mechanistic node. Ca2+ uptake, ROS accumulation, and energetic stress can induce sustained mitochondrial permeability transition [14-18]. Persistent mPTP opening collapses the mitochondrial membrane potential, uncouples oxidative phosphorylation, reduces ATP synthesis, and causes osmotic mitochondrial matrix swelling.
+
+This creates a positive feedback loop:
+
+ATP depletion → ion-pump failure → Na+/Ca2+ overload → mitochondrial dysfunction → further ATP depletion → greater ion-pump failure.
+
+The evidence therefore supports ion-pump failure and bioenergetic collapse as the most general core machinery of classical oncosis.
+
+TRPM4 provides a more specific execution/amplification module in some tissues. TRPM4 is activated by intracellular Ca2+ and favored by ATP depletion. Channel opening promotes monovalent cation influx, particularly Na+, producing depolarization, additional Na+ accumulation, water entry, cellular swelling, blebbing, and membrane injury [19-20].
+
+TRPM4 blockade suppresses hypoxia-associated swelling in selected neurons and vascular endothelial cells, whereas responses differ in astrocytes [20]. Thus, TRPM4 should be considered an important context-dependent ion-channel executor rather than a universal core component of oncosis.
+
+4. Propagation and Amplification
+
+Oncosis is propagated through mutually reinforcing ionic, energetic, mitochondrial, oxidative, and proteolytic disturbances.
+
+ATP loss initially decreases Na+/K+-ATPase activity. Intracellular Na+ then rises, promoting depolarization and osmotic water influx. Elevated intracellular Na+ also affects Na+-dependent exchangers and contributes indirectly to Ca2+ accumulation [6-13,36].
+
+Increased cytosolic Ca2+ activates calpains, which degrade cytoskeletal proteins such as spectrin [21-22]. Loss of cytoskeletal integrity reduces mechanical support for the plasma membrane and facilitates formation of blebs and large organelle-poor membrane protrusions.
+
+Ca2+ loading simultaneously promotes mitochondrial dysfunction. Mitochondria attempt to buffer cytosolic Ca2+, causing matrix Ca2+ accumulation. Together with ROS and low ATP, this favors sustained permeability transition [14-18].
+
+Persistent mPTP opening dissipates ΔΨm and suppresses oxidative phosphorylation, causing additional ATP loss. Mitochondria swell as water enters the matrix and can undergo severe structural disruption.
+
+ROS provide another amplification loop by damaging mitochondrial proteins, membrane lipids, ion transport proteins, and other cellular components. Oxidative injury can therefore simultaneously worsen energy production, membrane integrity, and Ca2+ regulation.
+
+In selected neuronal systems, calpain and oxidative stress can also destabilize lysosomes. Damage to lysosomal membrane-protective mechanisms can release cathepsins into the cytosol, creating an additional proteolytic amplification route [23]. This is supported in specific neural injury contexts but should not be considered obligatory for oncosis in general.
+
+TRPM4 activation can establish another positive feedback loop:
+
+ATP loss + increased intracellular Ca2+ → TRPM4 activation → Na+ entry → depolarization and swelling → increased energetic demand and membrane stress → worsening ion-homeostasis failure [19-20].
+
+Stress-response pathways provide additional amplification in particular models. PERK-eIF2α-ATF4-CHOP signaling participates in Arnicolide D-associated oncosis, while JNK/p38/AP-1 signaling contributes to hyperoxia-associated oncotic death [27-28].
+
+Thus, the conserved feature is not one amplification protein but the progressive coupling of ATP deficiency, ion redistribution, cellular swelling, mitochondrial dysfunction, and structural membrane damage.
+
+5. Protective/Negative Regulators
+
+Protection from oncosis largely depends on preservation of energy metabolism and ionic homeostasis.
+
+The most fundamental protective system is adequate ATP production. Preserved ATP permits continued operation of transport systems that oppose ion and water accumulation [3].
+
+Na+/K+-ATPase itself is therefore a major protective determinant. Preservation of functional plasma-membrane Na+/K+-ATPase helps maintain intracellular ion gradients and delays cytotoxic swelling [12,33].
+
+Antioxidant systems provide another protective layer by restricting ROS-dependent mitochondrial and membrane damage.
+
+Calpastatin is the endogenous inhibitor of calpains [3].
+
+Maintenance of mitochondrial function and resistance to sustained permeability transition also oppose oncotic commitment. Transient mitochondrial stress or transient mPTP opening does not necessarily cause death if mitochondrial polarization and ATP synthesis recover [14-18,38].
+
+TRPM4 inhibition can protect specific cells from oncotic swelling. Pharmacological blockade or anti-TRPM4 antibodies reduce swelling in responsive neural and vascular cells under hypoxic conditions [19-20].
+
+Lysosomal stability and Hsp70.1-related protective mechanisms can limit lysosomal amplification in relevant neuronal systems [23].
+
+Autophagic mechanisms associated with Na+/K+-ATPase signaling have also been reported to protect tissue against ischemic injury [33]. This should be regarded as a protective response to ischemic stress rather than as a universal direct regulator of oncosis.
+
+Together, these observations support a model in which oncosis remains reversible while cellular energy production, ion transport, mitochondrial function, and membrane repair remain above critical functional thresholds.
+
+6. Commitment / Point of No Return
+
+No single universally accepted molecular point of no return has been established for oncosis.
+
+Early ATP decline can be reversible. Mild intracellular Na+ accumulation, moderate swelling, limited Ca2+ disturbance, and even transient mitochondrial permeability transition do not necessarily commit the cell to death if metabolic function is restored quickly [6,14].
+
+The best-supported commitment concept is a bioenergetic and ionic tipping point.
+
+As ATP falls, active ion transport becomes progressively weaker. Once ATP availability becomes too low to restore Na+, K+, Ca2+, and water gradients, ion imbalance becomes self-sustaining [9-10].
+
+Experimental NAD-depletion models provide direct support for this relationship. Profound metabolic depletion produces major ATP loss followed by plasma-membrane permeability and oncotic death [9].
+
+Mitochondrial commitment can contribute to this threshold. If sufficient numbers of mitochondria undergo sustained permeability transition, the remaining mitochondrial population may be unable to support cellular ATP requirements [14-18]. However, the precise proportion of mitochondria that must undergo permeability transition to commit an entire cell remains context dependent and unresolved.
+
+Similarly, TRPM4-driven Na+ entry can accelerate commitment in selected cells but is not universal [19-20].
+
+The most defensible general definition of oncotic commitment is therefore:
+
+ATP production and membrane/ion-regulatory capacity fall below the level required to re-establish ionic gradients, producing self-amplifying Na+/Ca2+ accumulation, osmotic swelling, mitochondrial dysfunction, and progressive membrane damage.
+
+This is a functional threshold rather than a single molecular switch.
+
+7. Execution and Terminal Cause of Death
+
+The proximate terminal event in classical oncosis is irreversible loss of plasma-membrane integrity against a background of catastrophic ionic and bioenergetic failure [1-3,6].
+
+Persistent intracellular Na+ accumulation increases cellular osmotic load. Cl− and water follow, producing progressive expansion of cell volume. Simultaneously, Ca2+-activated proteolysis weakens cytoskeletal support, mitochondrial ATP production collapses, and membrane repair becomes increasingly impaired.
+
+The cell eventually reaches a state in which the plasma membrane can no longer maintain separation between intracellular and extracellular compartments.
+
+What physically kills the cell is therefore irreversible membrane permeabilization combined with loss of ionic and metabolic compartmentalization.
+
+The evidence does not support one universal protein responsible for this event.
+
+TRPM4 can function as an important ion-channel executor in acute CNS and vascular oncosis by accelerating Na+ influx, depolarization, swelling, blebbing, and membrane failure [19-20]. However, its contribution varies strongly among cell types.
+
+Porimin can induce an oncotic phenotype after receptor crosslinking in selected experimental cells [29]. This provides evidence that receptor-directed oncotic death can occur but does not establish porimin as a general execution system.
+
+Mitochondrial permeability transition can dominate execution where severe Ca2+, ROS, and mitochondrial energetic collapse drive the phenotype [14-18]. However, mPTP-dependent necrosis is itself a definable regulated necrotic modality and should not be equated with all oncosis.
+
+NINJ1 provides an important contemporary model for the final membrane rupture step. Cell swelling can activate NINJ1, and NINJ1 oligomers can form membrane-disrupting amphipathic filamentous structures during lytic cell death [24-26].
+
+Nevertheless, direct oncosis-specific evidence establishing NINJ1 as the universal oncotic executor is lacking. NINJ1 is therefore best described as a strong candidate mediator of terminal swelling-associated plasma-membrane rupture rather than as the defining executor of oncosis.
+
+The safest mechanistic interpretation is:
+
+Catastrophic ATP loss and ion-homeostasis failure → osmotic swelling + structural membrane weakening → irreversible plasma-membrane permeabilization → terminal rupture through passive and/or protein-assisted mechanisms depending on cellular context.
+
+8. Morphological Sequence
+
+The characteristic morphological progression of oncosis is dominated by increasing cell volume rather than the cellular shrinkage typical of apoptosis [1-3,6].
+
+An initially viable cell experiences metabolic, ionic, oxidative, or membrane injury.
+
+ATP begins to decline and ion gradients deteriorate.
+
+Na+ and Cl− accumulate intracellularly and water follows, producing early hydropic cytoplasmic swelling.
+
+The endoplasmic reticulum dilates and cytoplasmic volume increases.
+
+Mitochondria progressively swell as ion and water homeostasis deteriorate.
+
+Chromatin can become irregularly clumped rather than undergoing the compact, organized condensation characteristic of apoptosis.
+
+The plasma membrane develops blebs or large organelle-poor blisters as cortical cytoskeletal support deteriorates.
+
+Progressive permeability permits entry of membrane-impermeant dyes and leakage of small intracellular constituents.
+
+With terminal membrane failure, large intracellular molecules and enzymes such as LDH escape.
+
+The nucleus undergoes progressive dissolution or karyolysis after irreversible injury.
+
+The chronological sequence can therefore be summarized as:
+
+Normal cell → metabolic/ionic injury → ATP decline → Na+/K+-ATPase dysfunction → Na+/Cl− accumulation and water influx → hydropic swelling → ER dilation and mitochondrial swelling → Ca2+ accumulation and calpain activation → cytoskeletal weakening → blebs/blisters → progressive plasma-membrane permeability → terminal rupture → karyolysis and post-mortem necrotic degradation [3,6,9].
+
+The final necrotic morphology is therefore the consequence of the preceding oncotic process rather than its synonym.
+
+9. Crosstalk and Differential Diagnosis
+
+Oncosis must first be distinguished from necrosis.
+
+Oncosis describes the pre-mortem swelling process associated with failure of ionic and metabolic homeostasis, whereas necrosis describes the morphological endpoint after irreversible death [1-2]. In practice, the terms have historically overlapped, which is one reason mechanistic classification should rely on functional evidence rather than terminology alone.
+
+The distinction from apoptosis is particularly important. Apoptosis is characterized by cell shrinkage, chromatin condensation, caspase-associated proteolysis, membrane blebbing without early catastrophic membrane leakage, and formation of apoptotic bodies. Oncosis is associated with morphological and molecular features related to morphology, bioenergetics, ions, calpains, and lysis [3].
+
+Severe ATP depletion can influence the balance between these phenotypes. When energy availability becomes insufficient to support orderly apoptotic execution, cells subjected to severe injury can shift toward swelling-dominant oncotic or necrotic deterioration [31].
+
+However, shared molecular components exist. Mitochondrial stress, ROS, Bax/Bak-associated mitochondrial changes, calpains, and DNA-damage responses can participate in both apoptotic and oncotic contexts [21,31-32] . Their presence alone therefore does not define oncosis.
+
+Oncosis must also be distinguished from necroptosis. Necroptosis is mechanistically defined by RIPK3-mediated activation of MLKL, whereas classical oncosis can proceed from metabolic or membrane collapse without RIPK3-MLKL signaling [4-5].
+
+Both processes may nevertheless exhibit cellular swelling, membrane rupture, ROS accumulation, and potentially late NINJ1-associated lysis [24-26]. Consequently, morphology alone cannot distinguish oncosis from necroptosis.
+
+NECSO provides another important differential diagnosis. Both NECSO and classical oncosis can exhibit Na+ accumulation, cellular swelling, ATP failure, and lytic membrane collapse. However, NECSO has a more specific mechanistic definition centered on sustained Na+ overload, frequently involving TRPM4-dependent Na+ influx and subsequent disruption of mitochondrial energy metabolism [35]. Oncosis is broader and can arise through ATP depletion, direct membrane damage, Ca2+ overload, mitochondrial failure, ER stress, or other routes without demonstrating the specific NECSO machinery.
+
+mPTP-dependent necrosis also overlaps substantially with oncosis. Sustained mitochondrial permeability transition can produce a classic oncotic morphology through ATP collapse and swelling [14-18]. When mPTP causality is experimentally established, the mechanistically precise diagnosis is mPTP-dependent necrosis rather than simply oncosis.
+
+Thus, oncosis describes how the dying cell behaves morphologically and physiologically, whereas more specific RCD designations should be preferred whenever a defined execution mechanism can be demonstrated.
+
+10. Experimental Validation
+
+Oncosis is most convincingly demonstrated by combining morphology with functional measurements of metabolism, ion homeostasis, membrane integrity, and mechanistic rescue.
+
+Live-cell or ultrastructural imaging should demonstrate progressive hydropic swelling rather than relying solely on terminal membrane rupture. Electron microscopy can reveal cytoplasmic swelling, ER dilation, swollen mitochondria, membrane blebs or blisters, and subsequent nuclear dissolution [3,6].
+
+Cellular ATP should be measured directly. A substantial ATP decline supports the bioenergetic mechanism, particularly when ATP loss temporally precedes membrane failure [9].
+
+Na+ and Ca2+ measurements strengthen the mechanistic diagnosis by demonstrating ion-homeostasis failure. Intracellular Na+ accumulation is especially informative in ischemic, metabolic, or channel-mediated oncotic models [7-8,10-11].
+
+Na+/K+-ATPase activity, abundance, localization, or functional preservation can be assessed when pump failure is implicated [12,33].
+
+Mitochondrial involvement can be tested through ΔΨm measurements, mitochondrial Ca2+, ROS, swelling, oxygen consumption, and assays of permeability transition [14-18].
+
+Calpain activation can be evaluated through activity probes or characteristic spectrin breakdown products [21-22]. However, calpain activity is not unique to oncosis and must be interpreted together with morphology and energetic collapse.
+
+TRPM4 dependency should be tested directly in systems where channel-mediated Na+ loading is proposed. Pharmacological inhibition, blocking antibodies, or genetic manipulation combined with Na+ and swelling measurements provide much stronger evidence than TRPM4 expression alone [19-20].
+
+Porimin-associated oncosis requires evidence of receptor engagement and subsequent permeability/swelling rather than expression alone [29].
+
+ER-stress-associated oncosis should be validated through perturbation of the relevant pathway. In the Arnicolide D system, rescue after ATF4 or CHOP suppression provides evidence that PERK-eIF2α-ATF4-CHOP signaling is mechanistically upstream [27].
+
+Membrane failure can be assessed through propidium iodide or related impermeant dyes, LDH release, and time-resolved imaging. These endpoints establish permeability but do not distinguish oncosis from other lytic forms of death [30,34,37].
+
+NINJ1 dependency can be investigated by blocking or deleting NINJ1 and determining whether terminal membrane rupture and DAMP release are prevented despite persistence of upstream swelling and loss of viability [24-26]. Because direct evidence for universal NINJ1 dependency in oncosis is not established, these experiments would specifically test whether a given oncotic model uses this rupture mechanism.
+
+Competing RCD pathways must also be excluded. Lack of dominant caspase-dependent execution helps distinguish oncosis from classical apoptosis. RIPK3/MLKL perturbation is necessary before excluding or assigning necroptosis. Lipid-peroxidation rescue is needed when ferroptosis is plausible.
+
+The strongest evidence therefore combines:
+
+Hydropic swelling + ATP depletion + ion dysregulation + mitochondrial dysfunction where relevant + terminal membrane leakage + mechanistic rescue of the implicated upstream process + exclusion of better-defined competing RCD mechanisms.
+
+Transcriptomic signatures alone cannot establish active oncosis. They may identify metabolic stress, ion-homeostasis impairment, oxidative stress, ER stress, mitochondrial dysfunction, or susceptibility to swelling-associated death, but functional measurements are required to demonstrate the oncotic process itself.
+
+11. Molecular Hierarchy
+
+Initiators/sensors: ischemia, hypoxia, anoxia, metabolic poisoning, NAD depletion, membrane injury, toxins, heat, oxidative stress, ER stress, porimin engagement in selected systems, and other insults that critically impair cellular energy or membrane function [6,9,27-29].
+
+Activation of the PERK-eIF2α-ATF4-CHOP pathway during ER stress is a pivotal factor in AD-induced oncosis [27].
+
+Core machinery: collapse of Na+, K+, Cl−, Ca2+, and water homeostasis; mitochondrial depolarization; mPTP in relevant contexts; Ca2+-activated calpains; and context-dependent lysosomal destabilization [14-23].
+
+Executors: no universal molecular executor is established. TRPM4 can execute/amplify Na+-driven swelling in selected cells, while irreversible plasma-membrane lesions constitute the general terminal effector. NINJ1 is a strong candidate mediator of the final rupture phase in swelling-associated lytic contexts [19-20,24-26].
+
+Negative regulators/protective factors include preserved ATP, functional Na+/K+-ATPase, antioxidant systems, calpastatin, mitochondrial resistance to sustained permeability transition, lysosomal protection, and protective stress/autophagy responses [3].
+
+Oncosis is characterized by morphological, bioenergetic, ionic, calpain, and lysis features [3].
+
+No individual biomarker is sufficient to establish oncosis mechanistically.
+
+12. Integrated Canonical Sequence
+
+The best-supported classical sequence is:
+
+Ischemia/anoxia/hypoxia, severe metabolic inhibition, NAD depletion, toxin exposure, oxidative injury, or direct membrane damage → reduced ATP production and/or abnormal membrane permeability → declining Na+/K+-ATPase and other ATP-dependent pump function → intracellular Na+ accumulation + K+ loss + Cl− redistribution → osmotic water entry → early hydropic swelling → membrane depolarization and altered Na+-dependent transport → cytosolic Ca2+ accumulation → activation of calpains and other Ca2+-responsive damaging processes → cytoskeletal degradation and membrane weakening → mitochondrial Ca2+ loading + ROS accumulation → sustained mPTP opening in susceptible contexts → ΔΨm collapse + mitochondrial swelling + further ATP loss → self-amplifying failure of ion transport → progressive cellular and organelle swelling → blebs and organelle-poor membrane blisters → plasma-membrane permeability → terminal inability to maintain ionic and metabolic compartmentalization → passive and/or context-dependent protein-assisted membrane rupture, potentially involving TRPM4 upstream and NINJ1 during terminal rupture → irreversible cell death → subsequent necrotic degradation [3,6-26].
+
+Alternative specialized routes can enter this sequence at different points:
+
+Porimin engagement → abnormal membrane permeability → blebbing/swelling → oncotic lysis [29].
+
+Hypoxia/ATP depletion + Ca2+ rise → TRPM4 activation → Na+ influx → depolarization → swelling → membrane failure in responsive cells [19-20].
+
+ROS/Ca2+/mitochondrial injury → sustained mPTP opening → ATP collapse → ion-pump failure → oncotic swelling and lysis [14-18].
+
+ER stress → PERK-eIF2α-ATF4-CHOP → downstream metabolic/structural failure → oncotic phenotype in the demonstrated hepatocellular carcinoma model [27].
+
+Hyperoxia → JNK/p38/AP-1 signaling → oxidative injury → oncotic cell death in the demonstrated lung epithelial system [28].
+
+These pathways should be regarded as convergent routes rather than universal sequential components.
+
+13. Final Mechanistic Interpretation
+
+For RCDome, the most defensible operational definition is:
+
+Oncosis is a pre-mortem, swelling-dominant cell-death process caused by progressive failure of cellular energy and plasma-membrane ion homeostasis. Reduced intracellular ATP disrupts the Na+-K+-ATPase and Ca2+-ATPase ion pumps on the cell membrane, leading to increased sodium and chloride ion concentrations, water retention, cell swelling, and increased Ca2+ concentration [3].
+
+Oncosis should not be treated as synonymous with necrosis. Oncosis describes the physiological and morphological process occurring before and during loss of viability, whereas necrosis describes the resulting dead-cell morphology.
+
+Its classification remains less mechanistically resolved than canonical modalities such as necroptosis. No universally conserved dedicated oncosis sensor, signaling complex, or protein executor has been established.
+
+The strongest conserved core is:
+
+Bioenergetic failure → ion-pump failure → Na+/Ca2+ disequilibrium → water influx and swelling → mitochondrial and structural deterioration → irreversible membrane failure.
+
+TRPM4 represents a well-supported context-dependent amplifier/executor of Na+-driven oncotic swelling, particularly in selected CNS and vascular systems [19-20]. Porimin provides evidence for receptor-associated oncosis in restricted experimental contexts [29]. Sustained mitochondrial permeability transition can dominate oncotic injury during severe Ca2+/ROS-associated energetic collapse [14-18]. PERK-ATF4-CHOP and MAPK signaling demonstrate that some forms of oncosis contain regulated signaling components rather than representing purely passive physicochemical injury [27-28].
+
+The best-supported commitment concept is a bioenergetic and ionic tipping point at which ATP-dependent transport can no longer restore cellular gradients and swelling/membrane damage become self-amplifying [9-10].
+
+The terminal physical cause of lost viability is irreversible plasma-membrane permeabilization associated with collapse of ionic and metabolic compartmentalization. NINJ1 is a strong candidate mediator of final swelling-associated membrane rupture, but direct evidence that NINJ1 universally executes oncosis is currently insufficient [24-26].
+
+The largest unresolved question is therefore whether oncosis possesses a conserved dedicated execution module or instead represents a convergent swelling-to-lysis process generated by multiple mechanistically distinct injuries.
+
+For RCDome, transcriptomic oncosis signatures should consequently be described as oncosis-associated, metabolic-collapse-associated, or susceptibility states rather than evidence of active oncotic death unless accompanied by functional evidence of ATP loss, ion dysregulation, swelling, and membrane failure.

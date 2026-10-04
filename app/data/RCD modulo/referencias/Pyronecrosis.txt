@@ -1,0 +1,77 @@
+**[1] Willingham SB, Bergstralh DT, O'Connor W, et al. Microbial pathogen-induced necrotic cell death mediated by the inflammasome components CIAS1/cryopyrin/NLRP3 and ASC. Cell Host & Microbe. 2007;2:147–159. DOI: 10.1016/j.chom.2007.07.009.**
+
+**[2] Willingham SB, Allen IC, Bergstralh DT, et al. NLRP3 (NALP3, cryopyrin) facilitates in vivo caspase-1, necrosis, and HMGB1 release via inflammasome-dependent and -independent pathways. Journal of Immunology. 2009;183:2008–2015. DOI: 10.4049/jimmunol.0900138.**
+
+**[3] Khalili M, Radosevich JA. Pyronecrosis. In: Apoptosis and Beyond. 2018. DOI: 10.1002/9781119432463.ch12.**
+
+**[4] Satoh T, Kambe N, Matsue H. NLRP3 activation induces ASC-dependent programmed necrotic cell death, which leads to neutrophilic inflammation. Cell Death & Disease. 2013;4. DOI: 10.1038/cddis.2013.169.**
+
+**[5] Yuan J, Ofengeim D. A guide to cell death pathways. Nature Reviews Molecular Cell Biology. 2024;25:379–395. DOI: 10.1038/s41580-023-00689-6.**
+
+**[6] Shi J, Gao W, Shao F. Pyroptosis: Gasdermin-Mediated Programmed Necrotic Cell Death. Trends in Biochemical Sciences. 2017;42:245–254. DOI: 10.1016/j.tibs.2016.10.004.**
+
+**[7] Ai Y, Meng Y, Yan B, Zhou Q, Wang X. The biochemical pathways of apoptotic, necroptotic, pyroptotic, and ferroptotic cell death. Molecular Cell. 2024;84:170–179. DOI: 10.1016/j.molcel.2023.11.040.**
+
+**[8] de Vasconcelos NM, Van Opdenbosch N, Van Gorp H, Parthoens E, Lamkanfi M. Single-cell analysis of pyroptosis dynamics reveals conserved GSDMD-mediated subcellular events that precede plasma membrane rupture. Cell Death & Differentiation. 2019;26:146–161. DOI: 10.1038/s41418-018-0106-7.**
+
+**[9] Feng S, Wierzbowski MC, Hrovat-Schaale K, et al. Mechanisms of NLRP3 activation and inhibition elucidated by functional analysis of disease-associated variants. Nature Immunology. 2025;26:511–523. DOI: 10.1038/s41590-025-02088-9.**
+
+**[10] Huang Y, Xu W, Zhou R. NLRP3 inflammasome activation and cell death. Cellular & Molecular Immunology. 2021;18:2114–2127. DOI: 10.1038/s41423-021-00740-6.**
+
+**[11] Chevriaux A, Pilot T, Derangère V, et al. Cathepsin B Is Required for NLRP3 Inflammasome Activation in Macrophages, Through NLRP3 Interaction. Frontiers in Cell and Developmental Biology. 2020;8. DOI: 10.3389/fcell.2020.00167.**
+
+**[12] Brojatsch J, Lima H, Palliser D, et al. Distinct cathepsins control necrotic cell death mediated by pyroptosis inducers and lysosome-destabilizing agents. Cell Cycle. 2015;14:964–972. DOI: 10.4161/15384101.2014.991194.**
+
+**[13] Lima H, Jacobson LS, Goldberg MF, et al. Role of lysosome rupture in controlling NLRP3 signaling and necrotic cell death. Cell Cycle. 2013;12:1868–1878. DOI: 10.4161/cc.24903.**
+
+**[14] Reinheckel T. On the road to inflammation: Linking lysosome disruption, lysosomal protease release and necrotic death of immune cells. Cell Cycle. 2013;12:1994. DOI: 10.4161/cc.25316.**
+
+**[15] Xie Z, Zhao M, Yan C, et al. Cathepsin B in programmed cell death machinery: mechanisms of execution and regulatory pathways. Cell Death & Disease. 2023;14. DOI: 10.1038/s41419-023-05786-0.**
+
+**[16] Aizawa E, Karasawa T, Watanabe S, et al. GSDME-Dependent Incomplete Pyroptosis Permits Selective IL-1α Release under Caspase-1 Inhibition. iScience. 2020;23. DOI: 10.1016/j.isci.2020.101070.**
+
+**[17] Schneider KS, Groß CJ, Dreier RF, et al. The Inflammasome Drives GSDMD-Independent Secondary Pyroptosis and IL-1 Release in the Absence of Caspase-1 Protease Activity. Cell Reports. 2017;21:3846–3859. DOI: 10.1016/j.celrep.2017.12.018.**
+
+**[18] Gan YQ, Cai YW, Liang XW, et al. Impaired NLRP3 inflammasome signaling diverts pyroptotic to apoptotic caspase activation in macrophages. Frontiers in Immunology. 2025;16. DOI: 10.3389/fimmu.2025.1631152.**
+
+**[19] Christgen SL, Zheng M, Karki R, et al. Identification of the PANoptosome: A Molecular Platform Triggering Pyroptosis, Apoptosis, and Necroptosis (PANoptosis). Frontiers in Cellular and Infection Microbiology. 2020;10. DOI: 10.3389/fcimb.2020.00237.**
+
+**[20] Lee E, Song C, Bae SJ, Ha KT, Karki R. Regulated cell death pathways and their roles in homeostasis, infection, inflammation, and tumorigenesis. Experimental & Molecular Medicine. 2023;55:1632–1643. DOI: 10.1038/s12276-023-01069-y.**
+
+**[21] Bedoui S, Herold MJ, Strasser A. Emerging connectivity of programmed cell death pathways and its physiological implications. Nature Reviews Molecular Cell Biology. 2020;21:678–695. DOI: 10.1038/s41580-020-0270-8.**
+
+**[22] Frank D, Vince JE. Pyroptosis versus necroptosis: similarities, differences, and crosstalk. Cell Death & Differentiation. 2019;26:99–114. DOI: 10.1038/s41418-018-0212-6.**
+
+**[23] Schwarzer R, Laurien L, Pasparakis M. New insights into the regulation of apoptosis, necroptosis, and pyroptosis by receptor interacting protein kinase 1 and caspase-8. Current Opinion in Cell Biology. 2020;63:186–193. DOI: 10.1016/j.ceb.2020.02.004.**
+
+**[24] Xu Y, Murphy S. Deconstructing the Master Switch: Advances in Direct NLRP3 Inhibition. Pharmaceuticals. 2026;19. DOI: 10.3390/ph19071104.**
+
+**[25] Weber A, Tapia Abellán A, Liu X, et al. Effective ex vivo inhibition of Cryopyrin-Associated Periodic Syndrome (CAPS)-associated mutant NLRP3 inflammasome by MCC950/CRID3. Rheumatology. 2022. DOI: 10.1093/rheumatology/keac273.**
+
+**[26] Sborgi L, Rühl S, Mulvihill E, et al. GSDMD membrane pore formation constitutes the mechanism of pyroptotic cell death. The EMBO Journal. 2016;35:1766-1778. DOI: 10.15252/embj.201694696.**
+
+**[27] Han J, Park J, Kang T, et al. Regulation of Caspase-8 Activity at the Crossroads of Pro-Inflammation and Anti-Inflammation. International Journal of Molecular Sciences. 2021;22:3318. DOI: 10.3390/ijms22073318.**
+
+**[28] Kelley N, Jeltema D, Duan Y, et al. The NLRP3 Inflammasome: An Overview of Mechanisms of Activation and Regulation. International Journal of Molecular Sciences. 2019;20:3328. DOI: 10.3390/ijms20133328.**
+
+**[29] Zhang H, Tu R, Zhang D, et al. PANoptosis in neurological disorders: from inflammatory cell death mechanisms to neuroprotective strategies. Frontiers in Neuroscience. 2026;20. DOI: 10.3389/fnins.2026.1890903.**
+
+**[30] Degen M, Santos J, Pluhackova K, et al. Structural basis of NINJ1-mediated plasma membrane rupture in cell death. Nature. 2023;618:1065-1071. DOI: 10.1038/s41586-023-05991-z.**
+
+**[31] Samir P, Malireddi R, Kanneganti T. The PANoptosome: A Deadly Protein Complex Driving Pyroptosis, Apoptosis, and Necroptosis (PANoptosis). Frontiers in Cellular and Infection Microbiology. 2020;10. DOI: 10.3389/fcimb.2020.00238.**
+
+**[32] Foghsgaard L, Wissing D, Mauch D, et al. Cathepsin B Acts as a Dominant Execution Protease in Tumor Cell Apoptosis Induced by Tumor Necrosis Factor. The Journal of Cell Biology. 2001;153:999-1010. DOI: 10.1083/jcb.153.5.999.**
+
+**[33] Broz P. Pyroptosis: molecular mechanisms and roles in disease. Cell Research. 2025;35:334-344. DOI: 10.1038/s41422-025-01107-6.**
+
+**[34] Feng X, Zhang J, Ma Q, et al. Breaking the cycle of fibrosis: Ferroptosis as a therapeutic target (Review). International Journal of Molecular Medicine. 2026;58:1-18. DOI: 10.3892/ijmm.2026.5969.**
+
+**[35] Brojatsch J, Lima H, Kar AK, et al. A proteolytic cascade controls lysosome rupture and necrotic cell death mediated by lysosome-destabilizing adjuvants.. . 2014. DOI: 10.1371/journal.pone.0095032.**
+
+**[36] Galluzzi L, Vitale I, Aaronson S, et al. Molecular mechanisms of cell death: recommendations of the Nomenclature Committee on Cell Death 2018. Cell Death &amp; Differentiation. 2018;25:486-541. DOI: 10.1038/s41418-017-0012-4.**
+
+**[37] Kayagaki N, Kornfeld OS, Lee BL, et al. NINJ1 mediates plasma membrane rupture during lytic cell death. Nature. 2021;591:131–136. DOI: 10.1038/s41586-021-03218-7.**
+
+**[38] Karasawa T, Aizawa H, Komada T, et al. Inflammasome activation drives gasdermin-independent plasma membrane rupture by clustering ninjurin-1 in macrophages. bioRxiv. 2026. DOI: 10.64898/2026.04.10.717393.**
+
+**[39] Liu Y, Pan R, Ouyang Y, et al. Pyroptosis in health and disease: mechanisms, regulation and clinical perspective. Signal Transduction and Targeted Therapy. 2024;9. DOI: 10.1038/s41392-024-01958-2.**

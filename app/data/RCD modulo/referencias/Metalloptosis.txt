@@ -1,0 +1,107 @@
+[1] Wang J, Tian Q, Liu Y, et al. Targeting metalloptosis in tumor therapy: from molecular mechanisms to application of metal nanoparticles. Molecular Cancer. 2025;24. DOI: **10.1186/s12943-025-02414-7**.
+
+[2] Wang S, R, Hou Y. Metalloptosis: Metal Ions-Induced Programmed Cell Death Based on Nanomaterials for Cancer Therapy. MedMat. 2024. DOI: **10.1097/mm9.0000000000000004**.
+
+[3] Hu H, Chen Z, Li Y, et al. Metal-dependent regulated cell death: Molecular architecture and translational frontiers. iMeta. 2026;5. DOI: **10.1002/imt2.70141**.
+
+[4] Song Q, Yang Y, Yang L. Navigating Transition Metal-Dependent Cell Death: Mechanisms, Crosstalk, and Future Directions. Advanced Science. 2025;12. DOI: **10.1002/advs.202501974**.
+
+[5] Jiang X, Stockwell BR, Conrad M. Ferroptosis: mechanisms, biology and role in disease. Nature Reviews Molecular Cell Biology. 2021;22:266–282. DOI: **10.1038/s41580-020-00324-8**.
+
+[6] Chen X, Li J, Kang R, Klionsky DJ, Tang D. Ferroptosis: machinery and regulation. Autophagy. 2021;17:2054–2081. DOI: **10.1080/15548627.2020.1810918**.
+
+[7] Tang D, Kroemer G. Ferroptosis. Current Biology. 2020;30:R1292–R1297. DOI: **10.1016/j.cub.2020.09.068**.
+
+[8] Dixon SJ, Olzmann JA. The cell biology of ferroptosis. Nature Reviews Molecular Cell Biology. 2024;25:424–442. DOI: **10.1038/s41580-024-00703-5**.
+
+[9] Chen L, Min J, Wang F. Copper homeostasis and cuproptosis in health and disease. Signal Transduction and Targeted Therapy. 2022;7. DOI: **10.1038/s41392-022-01229-y**.
+
+[10] Cobine PA, Brady DC. Cuproptosis: Cellular and molecular mechanisms underlying copper-induced cell death. Molecular Cell. 2022;82:1786–1787. DOI: **10.1016/j.molcel.2022.05.001**.
+
+[11] Wang D, Tian Z, Zhang P, et al. The molecular mechanisms of cuproptosis and its relevance to cardiovascular disease. Biomedicine & Pharmacotherapy. 2023;163:114830. DOI: **10.1016/j.biopha.2023.114830**.
+
+[12] Lv D, Yu Y. Copper-Induced Cell Death in Renal Diseases: Molecular Mechanisms and Therapeutic Implications. Drug Design, Development and Therapy. 2025;19:11849–11861. DOI: **10.2147/DDDT.S562664**.
+
+[13] Du W, Gu M, Hu M, et al. Lysosomal Zn2+ release triggers rapid, mitochondria-mediated, non-apoptotic cell death in metastatic melanoma. Cell Reports. 2021;37:109848. DOI: **10.1016/j.celrep.2021.109848**.
+
+[14] Endlicher R, Drahota Z, Štefková K, Červinková Z, Kučera O. The mitochondrial permeability transition pore—current knowledge of its structure, function, and regulation, and optimized methods for evaluating its functional state. Cells. 2023;12. DOI: **10.3390/cells12091273**.
+
+[15] Belosludtsev K, Dubinin M, Belosludtseva N. Ca2+-Dependent Mitochondrial Permeability Transition Pore: Structure, Properties, and Role in Cellular Pathophysiology. Biochemistry (Moscow). 2025;90:1789–1810. DOI: **10.1134/S0006297925602369**.
+
+[16] Rasola A, Bernardi P. Mitochondrial permeability transition in Ca2+-dependent apoptosis and necrosis. Cell Calcium. 2011;50:222–233. DOI: **10.1016/j.ceca.2011.04.007**.
+
+[17] Robichaux DJ, Harata M, Murphy EV, Karch J. Mitochondrial Permeability Transition Pore-Dependent Necrosis. Journal of Molecular and Cellular Cardiology. 2022;174:47–55. DOI: **10.1016/j.yjmcc.2022.11.003**.
+
+[18] Li FJ, Long HZ, Zhou ZW, Luo HY, Xu S, Gao L. System Xc−/GSH/GPX4 axis: an important antioxidant system for ferroptosis in drug-resistant solid tumor therapy. Frontiers in Pharmacology. 2022;13. DOI: **10.3389/fphar.2022.910292**.
+
+[19] Ursini F, Maiorino M. Lipid peroxidation and ferroptosis: the role of GSH and GPx4. Free Radical Biology and Medicine. 2020. DOI: **10.1016/j.freeradbiomed.2020.02.027**.
+
+[20] Rochette L, Dogon G, Rigal E, Zeller M, Cottin Y, Vergely C. Lipid Peroxidation and Iron Metabolism: Two Corner Stones in the Homeostasis Control of Ferroptosis. International Journal of Molecular Sciences. 2023;24. DOI: **10.3390/ijms24010449**.
+
+[21] Kim YH, Eom JW, Koh JY. Mechanism of Zinc Excitotoxicity: A Focus on AMPK. Frontiers in Neuroscience. 2020;14. DOI: **10.3389/fnins.2020.577958**.
+
+[22] Rudolf E, Rudolf K. Acute Increases in Intracellular Zinc Lead to an Increased Lysosomal and Mitochondrial Autophagy and Subsequent Cell Demise in Malignant Melanoma. International Journal of Molecular Sciences. 2021;22. DOI: **10.3390/ijms22020667**.
+
+[23] Yang Y, Wang P, Guo J, et al. Zinc Overload Induces Damage to H9c2 Cardiomyocyte Through Mitochondrial Dysfunction and ROS-Mediated Mitophagy. Cardiovascular Toxicology. 2023;23:388–405. DOI: **10.1007/s12012-023-09811-8**.
+
+[24] Tkachenko A. Ferroptosis Mediates Zinc Toxicity: Implications for Cancer Therapy. BIOCELL. 2025. DOI: **10.32604/biocell.2025.063301**.
+
+[25] Kagan VE, Mao G, Qu F, et al. Oxidized Arachidonic/Adrenic Phosphatidylethanolamines Navigate Cells to Ferroptosis. Nature Chemical Biology. 2017;13:81–90. DOI: **10.1038/nchembio.2238**.
+
+[26] Lee JY, Kim WK, Bae KH, Lee SC, Lee EW. Lipid Metabolism and Ferroptosis. Biology. 2021;10. DOI: **10.3390/biology10030184**.
+
+[27] Cui J, Wang Y, Tian X, et al. LPCAT3 Is Transcriptionally Regulated by YAP/ZEB/EP300 and Collaborates with ACSL4 and YAP to Determine Ferroptosis Sensitivity. Antioxidants & Redox Signaling. 2023;39:491–511. DOI: **10.1089/ars.2023.0237**.
+
+[28] Maiorino M, Conrad M, Ursini F. GPx4, Lipid Peroxidation, and Cell Death: Discoveries, Rediscoveries, and Open Issues. Antioxidants & Redox Signaling. 2018;29:61–74. DOI: **10.1089/ars.2017.7115**.
+
+[29] Latunde-Dada GO. Ferroptosis: Role of lipid peroxidation, iron and ferritinophagy. Biochimica et Biophysica Acta General Subjects. 2017;1861:1893–1900. DOI: **10.1016/j.bbagen.2017.05.019**.
+
+[30] Liu J, Kang R, Tang D. Signaling pathways and defense mechanisms of ferroptosis. FEBS Journal. 2022;289. DOI: **10.1111/febs.16059**.
+
+[31] Stockwell BR. Ferroptosis turns 10: Emerging Mechanisms, Physiological Functions, and Therapeutic Applications. Cell. 2022;185:2401–2421. DOI: **10.1016/j.cell.2022.06.003**.
+
+[32] Kuang F, Liu J, Tang D, Kang R. Oxidative Damage and Antioxidant Defense in Ferroptosis. Frontiers in Cell and Developmental Biology. 2020;8. DOI: **10.3389/fcell.2020.586578**.
+
+[33] Pedrera L, Espiritu RA, Ros U, et al. Ferroptotic pores induce Ca2+ fluxes and ESCRT-III activation to modulate cell death kinetics. Cell Death & Differentiation. 2021;28:1644–1657. DOI: **10.1038/s41418-020-00691-x**.
+
+[34] Dai E, Meng L, Kang R, Wang X, Tang D. ESCRT-III-dependent membrane repair blocks ferroptosis. Biochemical and Biophysical Research Communications. 2020;522:415–421. DOI: **10.1016/j.bbrc.2019.11.110**.
+
+[35] Yang Y, Wang M, Zhang Y, Zhao S, Gu S. The endosomal sorting complex required for transport repairs the membrane to delay cell death. Frontiers in Oncology. 2022;12. DOI: **10.3389/fonc.2022.1007446**.
+
+[36] Liu J, Tang H, Chen F, et al. NFE2L2 and SLC25A39 drive cuproptosis resistance through GSH metabolism. Scientific Reports. 2024;14. DOI: **10.1038/s41598-024-81317-x**.
+
+[37] Eichelsdoerfer JL, Evans JA, Slaugenhaupt SA, Cuajungco MP. Zinc Dyshomeostasis Is Linked with the Loss of Mucolipidosis IV-associated TRPML1 Ion Channel. Journal of Biological Chemistry. 2010;285:34304–34308. DOI: **10.1074/jbc.C110.165480**.
+
+[38] Riegman M, Sagie L, Galed C, et al. Ferroptosis occurs through an osmotic mechanism and propagates independently of cell rupture. Nature Cell Biology. 2020;22:1042–1048. DOI: **10.1038/s41556-020-0565-1**.
+
+[39] Von Krusenstiern AN, Robson R, Qian N, et al. Identification of essential sites of lipid peroxidation in ferroptosis. Nature Chemical Biology. 2023;19:719–730. DOI: **10.1038/s41589-022-01249-3**.
+
+[40] Hou W. Ferroptosis: process and function. Cell Death & Differentiation. 2016;23:369–379. DOI: **10.1038/cdd.2015.158**.
+
+[41] Ding K, Liu C, Li L, et al. Acyl-CoA synthase ACSL4: an essential target in ferroptosis and fatty acid metabolism. Chinese Medical Journal. 2023;136:2521–2537. DOI: **10.1097/CM9.0000000000002533**.
+
+[42] Xue Q, Yan D, Li X, et al. Copper-dependent autophagic degradation of GPX4 drives ferroptosis. Autophagy. 2023;19:1982–1996. DOI: **10.1080/15548627.2023.2165323**.
+
+[43] Wang W, Lu K, Jiang X, et al. Ferroptosis inducers enhanced cuproptosis induced by copper ionophores in primary liver cancer. Journal of Experimental & Clinical Cancer Research. 2023;42. DOI: **10.1186/s13046-023-02720-2**.
+
+[44] Aschner M, Skalny AV, Martins AC, et al. Ferroptosis as a mechanism of non-ferrous metal toxicity. Archives of Toxicology. 2022;96:2391–2417. DOI: **10.1007/s00204-022-03317-y**.
+
+[45] Liu X, Nie L, Zhang Y, et al. Actin cytoskeleton vulnerability to disulfide stress mediates disulfidptosis. Nature Cell Biology. 2023;25:404–414. DOI: **10.1038/s41556-023-01091-2**.
+
+[46] Li T, Song Y, Wei LJ, Song X, Duan R. Disulfidptosis: a novel cell death modality induced by actin cytoskeleton collapse and a promising target for cancer therapeutics. Cell Communication and Signaling. 2024;22. DOI: **10.1186/s12964-024-01871-9**.
+
+[47] Qian S, Pan L, Chen G, et al. Disulfidptosis: A novel cell death mechanism with pathological significance and therapeutic potential in diseases. Pharmacological Reviews. 2026;78:100127. DOI: **10.1016/j.pharmr.2026.100127**.
+
+[48] Li D, S. Beyond biochemical cascades: the biophysical execution of disulfidptosis via actin network collapse. Molecular Biology Reports. 2026;53. DOI: **10.1007/s11033-026-12413-6**.
+
+[49] Ablaikhanova N, Assan G, Kurbannazarova R, et al. Plant-Derived Natural Products and Selective Apoptosis: A Cancer-Cell Vulnerability-State Framework from Redox Imbalance to Membrane–Ion Dysregulation. *Pharmaceuticals*. 2026;19:1233. doi: **10.3390/ph19081233**.
+
+[50] Tang D, Kang R, Kroemer G. Ferroptotic propagation: from single-cell execution to tissue-scale death programs. *Cell Research*. 2026;36:645-655. doi: **10.1038/s41422-026-01283-z**.
+
+[51] Wiktorowski K, Podsiadło K, Abbasi Gharibkandi N, et al. Three Noble Metal Nanoparticles Demonstrated Distinct Biological Interactions and Cell Death Pathways in Human Hepatocarcinoma Cell Lines [Response to Letter]. *Nanotechnology, Science and Applications*. 2026;Volume 19:1-3. doi: **10.2147/nsa.s650354**.
+
+[52] Wang Z, Zheng W, Wang H, et al. Ferroptosis as an Emerging Therapeutic Target in Allergic Diseases. *Drug Design, Development and Therapy*. 2026;Volume 20:1-29. doi: **10.2147/dddt.s621118**.
+
+[53] Lauria G, Genchi G, Curcio R. Mitochondrial Toxicology of Heavy Metals and Pesticides: Transport Systems, Mitochondrial Dysfunction and Permeability Transition. *International Journal of Molecular Sciences*. 2026;27:6347. doi: **10.3390/ijms27146347**.
+
+[54] Galluzzi L, Vitale I, Aaronson S, et al. Molecular mechanisms of cell death: recommendations of the Nomenclature Committee on Cell Death 2018. *Cell Death &amp; Differentiation*. 2018;25:486-541. doi: **10.1038/s41418-017-0012-4**.

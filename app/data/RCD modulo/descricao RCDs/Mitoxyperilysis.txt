@@ -1,0 +1,730 @@
+Mitoxyperilysis
+
+1. Definition and Classification
+
+Mitoxyperilysis is an emerging lytic regulated cell-death mechanism in which combined innate immune activation and metabolic stress generate oxidatively damaged mitochondria that become abnormally retained near the plasma membrane, where locally delivered mitochondrial reactive oxygen species produce focal membrane oxidative injury and ultimately plasma-membrane rupture [1-5].
+
+The terminology contains an important mechanistic distinction.
+
+Mitoxyperiosis refers to the upstream spatial process in which damaged mitochondria become persistently positioned at or near the plasma membrane.
+
+Mitoxyperilysis refers to the lethal downstream consequence:
+
+mitoxyperiosis → focal oxidative plasma-membrane damage → membrane permeabilization/rupture → lytic cell death.
+
+Thus, mitoxyperiosis is the spatially restricted mitochondrial state, whereas mitoxyperilysis is the terminal cellular outcome [1,3-5].
+
+The defining characteristic is not mitochondrial ROS alone.
+
+It is the combination of:
+
+immunometabolic stress;
+
+mitochondrial oxidative dysfunction;
+
+abnormal mitochondria–plasma membrane proximity;
+
+and spatially restricted oxidative membrane destruction.
+
+This spatial requirement distinguishes the pathway from other oxidative or lytic death modalities.
+
+Current evidence supports Mitoxyperilysis as an emerging RCD modality rather than a fully established Nomenclature Committee on Cell Death category. The mechanistic framework remains heavily anchored to the original 2025 discovery study, while the subsequent 2026 literature has primarily expanded interpretation, terminology, disease associations, and potential applications [1-7].
+
+Therefore, the appropriate RCDome classification is:
+
+emerging lytic RCD modality;
+
+mechanistic evidence: strong within the founding experimental system;
+
+generalization across tissues and diseases: still limited;
+
+defining event: pathological mitochondria–plasma membrane retention followed by localized oxidative plasma-membrane destruction.
+
+2. Initiation and Triggers
+
+The best-supported trigger is a combination of innate immune activation and metabolic deprivation.
+
+Neither signal alone appears sufficient in the founding experimental system.
+
+Thus, the initiating logic is synergistic:
+
+innate immune signal + metabolic insufficiency → mitoxyperilysis susceptibility.
+
+Nutrient deprivation reduces metabolic and antioxidant buffering.
+
+A major early molecular feature is depletion of intracellular glutathione.
+
+Activation of SLC7A11 expression enables cells to restore redox homeostasis and maintain survival under stressful conditions, functioning as the upstream determinant of GPX4-dependent redox capacity [16,19].
+
+Therefore:
+
+carbon starvation + inflammatory signaling → impaired redox buffering → glutathione depletion → mitochondrial oxidative stress.
+
+The innate immune component provides the second arm.
+
+TLR-associated inflammatory signaling primes the pathway, but receptor signaling alone does not produce the characteristic death efficiently when metabolic buffering remains intact [1,5].
+
+Thus, the most defensible trigger model is not:
+
+TLR signaling → death.
+
+Instead:
+
+TLR-associated innate immune activation + metabolic/carbon restriction → antioxidant collapse → mitochondrial oxidative dysfunction.
+
+The available evidence suggests that Mitoxyperilysis is therefore fundamentally an immunometabolic death mechanism.
+
+3. Core Mechanistic Machinery
+
+No single pore-forming protein analogous to GSDMD in pyroptosis or MLKL in necroptosis has been identified as the universal executor of Mitoxyperilysis.
+
+Instead, its defining machinery appears to involve a sequence connecting redox collapse, mitochondrial dysfunction, cytoskeletal positioning, and localized plasma-membrane oxidation.
+
+The upstream redox module involves SLC7A11 and glutathione homeostasis [1,6].
+
+Loss of sufficient antioxidant buffering permits progressive oxidative mitochondrial damage.
+
+BAX, BAK1, and BID are also functionally required in the founding pathway [1,6].
+
+However, their role differs from classical mitochondrial apoptosis.
+
+In canonical intrinsic apoptosis:
+
+BAX/BAK → MOMP → cytochrome c release → APAF1 apoptosome → caspase-9 → caspase-3/7.
+
+In Mitoxyperilysis, BAX/BAK/BID dependency does not culminate in the classical caspase-dependent apoptotic execution sequence.
+
+Instead:
+
+BAX/BAK/BID-linked mitochondrial dysfunction → loss of mitochondrial membrane potential + mitochondrial oxidative stress → damaged mitochondria become a localized ROS source.
+
+The precise biochemical function of BAX, BAK, and BID in this noncanonical context remains incompletely resolved.
+
+Therefore, they should be classified as upstream mitochondrial determinants rather than as proven plasma-membrane executors.
+
+A second essential mechanistic module involves mTOR signaling and cytoskeletal control.
+
+mTORC2 activity is associated with suppression of RhoA-dependent actin remodeling and impaired lamellipodial retraction [1,5,7].
+
+As a consequence:
+
+damaged mitochondria fail to reposition away from the cell periphery.
+
+Instead, they become persistently retained adjacent to the plasma membrane.
+
+This mitochondria–plasma membrane positioning is the core spatial gate of the pathway.
+
+Thus:
+
+oxidatively damaged mitochondrion + pathological peripheral retention = lethal spatial configuration.
+
+4. Propagation and Amplification
+
+The major amplification process is the conversion of mitochondrial ROS from a largely intracellular stress signal into a spatially focused membrane-damaging signal.
+
+ROS are chemically reactive and frequently short-lived.
+
+Consequently, ROS generated deep within the cytoplasm may be detoxified or dissipate before producing catastrophic damage at the plasma membrane.
+
+Mitoxyperiosis changes this geometry.
+
+Persistent mitochondria–plasma membrane proximity places the ROS source directly adjacent to vulnerable membrane lipids.
+
+Thus:
+
+mitochondrial ROS production + close mitochondria–PM contact → locally concentrated oxidative flux → membrane lipid oxidation.
+
+This spatial confinement amplifies otherwise potentially sublethal oxidative stress.
+
+A second amplification mechanism results from continued mitochondrial dysfunction.
+
+Damaged and depolarized mitochondria remain peripheral rather than being effectively repositioned away from the membrane.
+
+Persistent mitochondrial ROS production therefore repeatedly exposes the same membrane region to oxidative stress.
+
+This creates a positive spatial feedback:
+
+mitochondrial dysfunction → local ROS → focal membrane oxidation → increasing membrane instability.
+
+A third amplification mechanism is failure of cytoskeletal repositioning.
+
+mTORC2-associated inhibition of RhoA-dependent remodeling prevents normal lamellipodial retraction and removal of mitochondria from membrane-proximal positions [1,5,7].
+
+Consequently, the cell cannot physically separate the ROS-generating mitochondrion from the vulnerable plasma membrane.
+
+Therefore, pathway amplification is not based only on increasing ROS concentration.
+
+It also depends on maintaining the geometry required for efficient ROS delivery.
+
+5. Protective / Negative Regulators
+
+Protection against Mitoxyperilysis occurs at several levels.
+
+The first is metabolic support.
+
+Restoration of carbon substrates such as glucose, glutamine, or pyruvate suppresses the lethal phenotype in the founding system [1,5].
+
+This indicates that metabolic sufficiency preserves redox and energetic buffering.
+
+The second protective system is glutathione-dependent antioxidant capacity.
+
+SLC7A11 supports cystine uptake and contributes to cellular glutathione maintenance.
+
+Loss of this protection increases susceptibility to oxidative damage [1,6].
+
+Thus:
+
+SLC7A11 → cysteine availability → glutathione maintenance → ROS buffering → protection.
+
+A third protective mechanism is mitochondrial repositioning.
+
+This is especially important because the pathway can apparently be suppressed even without fully eliminating mitochondrial oxidative stress.
+
+mTOR inhibition with Torin-1 restores cytoskeletal dynamics and allows mitochondria to move away from the plasma membrane [1,5,7].
+
+This uncouples mitochondrial ROS production from lethal membrane exposure.
+
+Thus:
+
+mitochondrial ROS without persistent PM proximity → potentially survivable;
+
+mitochondrial ROS + persistent PM proximity → lethal local oxidative injury.
+
+This observation identifies physical separation between mitochondria and the plasma membrane as an unusual protective mechanism.
+
+RhoA-dependent actin remodeling and lamellipodial retraction therefore function as spatial protective processes.
+
+More generally, any mechanism capable of:
+
+maintaining antioxidant buffering;
+
+reducing mitochondrial oxidative stress;
+
+restoring mitochondrial positioning;
+
+or preventing persistent mitochondria–PM contact
+
+could theoretically oppose the pathway, although the supplied evidence does not establish all such mechanisms experimentally.
+
+6. Commitment / Point of No Return
+
+No universally established single molecular point of no return has yet been identified for Mitoxyperilysis.
+
+There is no equivalent currently established to:
+
+widespread MOMP in apoptosis;
+
+GSDMD pore formation in pyroptosis;
+
+or MLKL membrane insertion in necroptosis.
+
+The best-supported commitment model is spatial and progressive.
+
+Early mitochondrial oxidative stress may remain reversible if antioxidant capacity is restored or if damaged mitochondria move away from the plasma membrane.
+
+Likewise, mitochondrial peripheral positioning appears reversible before severe focal membrane injury develops.
+
+The strongest candidate commitment transition is therefore:
+
+persistent mitochondria–plasma membrane docking + continued local ROS delivery + focal membrane oxidation exceeding cellular repair capacity.
+
+Before this stage:
+
+metabolic rescue;
+
+redox restoration;
+
+or physical mitochondrial repositioning
+
+can still suppress death.
+
+Once localized membrane oxidation becomes sufficiently extensive to produce irreversible permeability failure, survival becomes unlikely.
+
+Thus, the most defensible current model is:
+
+reversible oxidative stress → mitoxyperiosis → sustained mitochondria–PM retention → progressive focal lipid oxidation → irreversible membrane destabilization → rupture.
+
+The precise biochemical boundary between reversible and irreversible oxidation remains undefined.
+
+Accordingly, RCDome should not annotate a single protein cleavage, phosphorylation event, or pore as the established point of no return.
+
+7. Execution and Terminal Cause of Death
+
+What physically kills the cell in Mitoxyperilysis?
+
+The strongest available evidence indicates that the cell is physically killed by localized mitochondrial ROS-driven oxidative destruction of the plasma membrane.
+
+The sequence is:
+
+damaged ROS-producing mitochondria → persistent plasma-membrane proximity → localized ROS transfer → oxidation of nearby membrane components → progressive loss of membrane integrity → plasma-membrane permeabilization and rupture → lytic loss of cellular homeostasis.
+
+The terminal lesion is therefore the plasma membrane.
+
+Unlike pyroptosis, the supplied evidence does not identify a gasdermin pore as necessary.
+
+Unlike necroptosis, MLKL is not the required membrane executor.
+
+Unlike canonical apoptosis, caspase-dependent cellular dismantling is not required.
+
+Unlike classical ferroptosis, the defining upstream event is not simply iron-dependent propagation of phospholipid peroxidation under GPX4 failure.
+
+Instead, Mitoxyperilysis requires a spatial gate:
+
+ROS-producing mitochondria must remain abnormally juxtaposed to the plasma membrane [1,3-5].
+
+The precise biochemical substrate of lethal oxidation remains unresolved.
+
+It is not yet established:
+
+which plasma-membrane lipid species are oxidized first;
+
+whether iron-dependent chemistry contributes materially to execution;
+
+whether membrane-repair failure is independently required;
+
+or whether unidentified secondary pore-forming machinery participates.
+
+Therefore, the current execution model is:
+
+focal oxidative plasma-membrane destruction → rupture,
+
+rather than:
+
+specific established protein pore → rupture.
+
+8. Morphological Sequence
+
+The expected morphological sequence begins with immunometabolic stress rather than immediate membrane destruction.
+
+A representative progression is:
+
+normal cell → innate immune activation under metabolic restriction → mitochondrial oxidative dysfunction → mitochondrial depolarization/damage → redistribution or persistence of damaged mitochondria at the cell periphery → prolonged mitochondria–plasma membrane apposition → peripheral oxidative puncta → focal plasma-membrane injury → membrane permeabilization → cellular swelling/lytic rupture.
+
+The spatial localization of events is particularly important.
+
+Live-cell imaging shows oxidative events near the cell periphery rather than a purely diffuse intracellular oxidative collapse [1,5].
+
+Therefore, a characteristic morphological/spatial signature is:
+
+peripheral damaged mitochondria + localized oxidative membrane injury.
+
+The terminal morphology is lytic rather than classically apoptotic.
+
+Expected terminal features include:
+
+loss of plasma-membrane integrity;
+
+cellular swelling;
+
+membrane rupture;
+
+and release of intracellular contents.
+
+However, these final features are not specific by themselves.
+
+Pyroptosis, necroptosis, ferroptosis, and other lytic death mechanisms can also culminate in membrane rupture.
+
+Therefore:
+
+cell swelling + membrane rupture ≠ sufficient evidence of Mitoxyperilysis.
+
+The preceding mitochondria–PM spatial relationship must be demonstrated.
+
+9. Crosstalk and Differential Diagnosis
+
+The most important differential diagnosis is ferroptosis.
+
+Both mechanisms involve:
+
+redox imbalance;
+
+glutathione-associated vulnerability;
+
+oxidative membrane damage;
+
+and lytic loss of viability.
+
+However, their defining logic differs.
+
+Ferroptosis is classically driven by uncontrolled phospholipid peroxidation associated with iron-dependent chemistry and failure of antioxidant systems such as GPX4 [8-10,14].
+
+Mitoxyperilysis instead requires a spatial gate:
+
+damaged mitochondria become retained adjacent to the plasma membrane and directly generate localized oxidative injury [1,3-5].
+
+Therefore:
+
+ferroptosis → distributed phospholipid peroxidation network;
+
+Mitoxyperilysis → spatially constrained mitochondrial ROS assault at mitochondria–PM contact sites.
+
+Inhibition of ferroptotic machinery does not adequately rescue the founding Mitoxyperilysis phenotype [1].
+
+Pyroptosis provides another important differential.
+
+Pyroptosis is typically executed through gasdermin pore formation.
+
+Mitoxyperilysis does not require established gasdermin execution [1,11] .
+
+Necroptosis similarly culminates in lytic membrane disruption but uses RIPK3–MLKL-associated membrane permeabilization.
+
+Mitoxyperilysis is not rescued by canonical necroptotic pathway inhibition in the founding model [1].
+
+Apoptosis is mechanistically distinct despite BAX/BAK/BID involvement.
+
+Mitoxyperilysis does not require the canonical:
+
+MOMP → cytochrome c → apoptosome → effector caspase
+
+sequence [1,15].
+
+Therefore, BAX/BAK involvement should not automatically cause the pathway to be classified as apoptosis.
+
+MPT-driven necrosis also involves mitochondrial dysfunction, ROS, energetic failure, and lysis.
+
+However, its defining lethal mechanism is sustained mitochondrial permeability transition and catastrophic bioenergetic collapse rather than plasma-membrane-proximal mitochondrial ROS delivery [12-13,17].
+
+Mitoxyperilysis is therefore best distinguished by the conjunction:
+
+immunometabolic stress + mitochondrial oxidative damage + pathological mitochondria–PM retention + focal oxidative membrane rupture.
+
+10. Experimental Validation
+
+Experimental validation requires demonstration of the entire spatial causal sequence rather than a generic oxidative or transcriptional phenotype.
+
+The first level is trigger dependency.
+
+A valid model should demonstrate the characteristic interaction between:
+
+innate immune stimulation;
+
+and metabolic/carbon deprivation.
+
+The founding studies show that either component alone is insufficient to reproduce the complete lethal phenotype efficiently [1,5].
+
+Nutrient restoration provides an important rescue experiment.
+
+Glucose, glutamine, or pyruvate supplementation should suppress death in the appropriate experimental context [1,5].
+
+The second level is redox validation.
+
+Relevant measurements include:
+
+glutathione depletion;
+
+SLC7A11 dependence;
+
+mitochondrial ROS;
+
+mitochondrial membrane potential;
+
+and temporal mitochondrial dysfunction.
+
+The third level is genetic dependency.
+
+BAX, BAK1, BID, and SLC7A11 are important functional determinants in the founding system [1,6].
+
+However, their involvement should be interpreted in the specific Mitoxyperilysis context rather than assumed from expression alone.
+
+The fourth and most discriminating level is spatial imaging.
+
+Live-cell imaging should demonstrate:
+
+damaged mitochondria moving to or remaining at the cell periphery;
+
+persistent mitochondria–plasma membrane apposition;
+
+localized peripheral oxidative events;
+
+and subsequent plasma-membrane rupture.
+
+The temporal order is crucial:
+
+mitochondrial peripheral retention → focal oxidative injury → membrane rupture.
+
+The fifth level is spatial rescue.
+
+mTOR inhibition with Torin-1 is particularly informative because rescue occurs through restoration of cytoskeletal dynamics and mitochondrial repositioning rather than necessarily through complete elimination of oxidative stress [1,5,7].
+
+Thus:
+
+Torin-1 → restored actin dynamics/lamellipodial retraction → mitochondria move away from PM → reduced death.
+
+This is strong evidence that spatial proximity is mechanistically causal.
+
+The sixth level is exclusion of established RCD modalities.
+
+Appropriate pharmacological and genetic perturbations should demonstrate lack of rescue by:
+
+caspase inhibition;
+
+canonical necroptosis blockade;
+
+canonical ferroptosis inhibition;
+
+or other candidate pathways.
+
+In some models, combined pathway blockade has been proposed to provide stronger evidence than any single inhibitor alone [1].
+
+Finally, transcriptomic signatures cannot demonstrate active Mitoxyperilysis.
+
+Expression programs involving SLC7A11, BAX, BAK1, BID, mitochondrial stress, mTOR signaling, actin regulation, inflammatory signaling, or oxidative stress indicate only a Mitoxyperilysis-associated or susceptibility state.
+
+They do not establish:
+
+mitoxyperiosis;
+
+mitochondria–plasma membrane docking;
+
+localized ROS transfer;
+
+or oxidative plasma-membrane rupture.
+
+Therefore, disease studies based only on bulk RNA-seq, scRNA-seq, or machine-learning signatures should be described as Mitoxyperilysis-associated transcriptional states, not direct evidence of active Mitoxyperilysis [18].
+
+11. Molecular Hierarchy
+
+Initiating conditions:
+
+innate immune activation;
+
+TLR-associated inflammatory signaling;
+
+carbon/nutrient deprivation.
+
+Metabolic/redox susceptibility factors:
+
+SLC7A11;
+
+glutathione availability;
+
+cellular antioxidant capacity.
+
+Mitochondrial upstream determinants:
+
+BAX;
+
+BAK1;
+
+BID;
+
+mitochondrial depolarization;
+
+mitochondrial ROS production.
+
+Spatial regulatory machinery:
+
+mTORC2-associated signaling;
+
+RhoA;
+
+actin cytoskeleton remodeling;
+
+lamellipodial dynamics;
+
+mitochondrial positioning.
+
+Defining process:
+
+persistent mitochondria–plasma membrane apposition/retention.
+
+Amplifying signal:
+
+localized mitochondrial ROS delivery.
+
+Execution-linked substrate:
+
+plasma-membrane lipids/components exposed to focal oxidative injury.
+
+Terminal lesion:
+
+oxidative plasma-membrane permeabilization and rupture.
+
+Protective factors/processes:
+
+nutrient availability;
+
+glutathione/redox buffering;
+
+SLC7A11-associated protection;
+
+RhoA/actin-dependent mitochondrial repositioning;
+
+physical separation of damaged mitochondria from the plasma membrane.
+
+Not established as universal machinery:
+
+caspases;
+
+GSDMD;
+
+RIPK3/MLKL;
+
+GPX4-dependent ferroptotic execution;
+
+a dedicated Mitoxyperilysis pore-forming protein.
+
+Universal dedicated protein executor:
+
+none currently identified.
+
+12. Integrated Canonical Sequence
+
+The best-supported canonical sequence begins with two cooperating stresses.
+
+Innate immune stimulus:
+
+LPS/PAM3/R848-like inflammatory signaling
+
+plus
+
+metabolic/carbon deprivation
+
+→ failure of metabolic and antioxidant buffering.
+
+This produces:
+
+glutathione depletion + SLC7A11-associated redox vulnerability
+
+→ mitochondrial oxidative stress.
+
+Then:
+
+BAX/BAK/BID-linked mitochondrial dysfunction → mitochondrial depolarization/damage → increased mitochondrial ROS.
+
+If mitochondrial positioning remains dynamic:
+
+damaged mitochondria can move away from the plasma membrane → local membrane exposure decreases → survival remains possible.
+
+If the spatial checkpoint fails:
+
+mTORC2-associated suppression of RhoA/actin remodeling → impaired lamellipodial retraction → damaged mitochondria remain trapped at the cell periphery.
+
+This state constitutes mitoxyperiosis:
+
+damaged ROS-producing mitochondria + sustained plasma-membrane apposition.
+
+Then:
+
+persistent mitochondrial ROS generation at PM contact sites → highly localized oxidative attack on adjacent membrane lipids/components → progressive focal membrane damage.
+
+If damage remains below the repair threshold:
+
+membrane integrity can potentially be preserved.
+
+If damage continues:
+
+focal membrane oxidation exceeds repair capacity → plasma-membrane permeabilization → rupture → ionic and osmotic collapse → release of intracellular contents → lytic cell death.
+
+This terminal phase constitutes Mitoxyperilysis.
+
+Thus, the integrated sequence is:
+
+innate immune activation + metabolic starvation → glutathione/redox failure → BAX/BAK/BID-linked mitochondrial oxidative damage → mTORC2/RhoA/actin-dependent failure of mitochondrial repositioning → mitoxyperiosis → local mitochondrial ROS delivery to the plasma membrane → focal oxidative membrane injury → membrane rupture → Mitoxyperilysis.
+
+13. Final Mechanistic Interpretation
+
+For RCDome, Mitoxyperilysis should be classified as an emerging lytic RCD modality with a distinctive spatial execution principle.
+
+The strongest evidence supports the following operational definition:
+
+Mitoxyperilysis is a regulated lytic cell-death mechanism triggered by combined innate immune and metabolic stress in which oxidatively damaged mitochondria become persistently retained adjacent to the plasma membrane through altered cytoskeletal positioning, allowing locally delivered mitochondrial ROS to generate focal oxidative membrane injury that culminates in plasma-membrane rupture.
+
+The distinction between Mitoxyperiosis and Mitoxyperilysis should be retained.
+
+Mitoxyperiosis:
+
+upstream pathological mitochondria–plasma membrane positioning.
+
+Mitoxyperilysis:
+
+downstream lethal membrane rupture resulting from that spatial configuration.
+
+The major upstream susceptibility axis is:
+
+metabolic restriction → glutathione depletion/SLC7A11-associated redox collapse.
+
+The major mitochondrial axis is:
+
+BAX/BAK/BID-linked mitochondrial dysfunction and ROS production.
+
+The major spatial gate is:
+
+mTORC2-associated disruption of RhoA/actin-dependent mitochondrial repositioning.
+
+The defining execution step is:
+
+localized mitochondrial ROS-mediated plasma-membrane oxidation.
+
+The terminal lesion is:
+
+plasma-membrane permeabilization and rupture.
+
+What physically kills the cell?
+
+The cell is physically killed when focal oxidative injury at mitochondria–plasma membrane contact sites destroys plasma-membrane integrity, producing irreversible permeability failure and lysis.
+
+No universal dedicated proteinaceous pore has yet been established.
+
+Accordingly, the recommended RCDome annotation is:
+
+classification: emerging lytic RCD modality;
+
+status: not yet consensus-established by NCCD;
+
+trigger logic: innate immune activation plus metabolic/carbon deprivation;
+
+major metabolic determinant: SLC7A11/glutathione-dependent redox buffering;
+
+major mitochondrial determinants: BAX, BAK1, BID and mitochondrial ROS;
+
+defining spatial process: mitoxyperiosis;
+
+spatial regulatory axis: mTORC2–RhoA–actin/lamellipodial dynamics;
+
+defining lethal signal: membrane-proximal mitochondrial ROS;
+
+terminal lesion: focal oxidative plasma-membrane destruction and rupture;
+
+caspase dependence: not required in the founding mechanism;
+
+GSDMD dependence: not established/required;
+
+RIPK3–MLKL dependence: not required in the founding mechanism;
+
+ferroptotic execution: not sufficient to explain the phenotype;
+
+universal protein executor: none identified;
+
+transcriptomic interpretation: Mitoxyperilysis-associated immunometabolic/redox susceptibility state only.
+
+Evidence strength should also be annotated explicitly.
+
+Strong:
+
+existence of a distinct lytic phenotype in the founding experimental system;
+
+requirement for pathological mitochondria–PM spatial retention;
+
+rescue through mitochondrial repositioning.
+
+Moderate:
+
+BAX/BAK/BID mechanistic placement;
+
+focal oxidative plasma-membrane rupture as the immediate lethal lesion.
+
+Weak or still emerging:
+
+broad occurrence across human diseases;
+
+exact oxidized lipid substrate;
+
+universal molecular point of no return;
+
+and presence of a dedicated membrane executor.
+
+The largest unresolved mechanistic question is therefore what biochemical event converts focal membrane oxidation into irreversible rupture.
+
+The field still needs to determine the initial oxidized plasma-membrane species, whether iron-dependent chemistry contributes to the terminal reaction, whether membrane-repair failure is obligatory, whether a secondary pore-forming mechanism exists, and how frequently bona fide mitoxyperiosis followed by Mitoxyperilysis occurs in vivo.
+

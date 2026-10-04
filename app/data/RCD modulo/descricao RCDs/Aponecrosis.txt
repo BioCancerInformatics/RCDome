@@ -1,0 +1,684 @@
+## Aponecrosis
+
+Aponecrosis is a historical term used to describe cell-death phenotypes that combine biochemical or morphological features of apoptosis with terminal features of necrotic cellular disintegration [38]. It does not represent a currently established regulated cell-death modality with a unique sensor, signaling cascade, molecular executor, and terminal mechanism. Instead, the term is most useful for describing situations in which apoptotic signaling is initiated but cannot be completed normally, or in which mitochondrial and metabolic injury simultaneously activates apoptotic machinery while driving catastrophic energetic failure [1-6].
+
+The original concept emerged from experiments showing that apoptosis and necrosis are not always completely separate cellular outcomes. Rather, the same damaging stimulus can generate different death phenotypes depending on its intensity and, particularly, on the energetic state of the cell [1-4].
+
+The defining study by Formigli and colleagues examined rat fibroblasts exposed to antimycin A, an inhibitor of mitochondrial respiratory-chain complex III [1]. Increasing the intensity of mitochondrial respiratory inhibition generated a continuum of death phenotypes. Lower injury permitted a relatively classical apoptotic response, severe injury produced predominantly necrotic degeneration, and an intermediate metabolic state generated cells containing characteristics of both processes, which the authors termed aponecrosis.
+
+Thus, the original aponecrosis concept can be represented as:
+
+mitochondrial respiratory-chain injury → progressive ATP depletion → partial engagement of apoptosis → insufficient energetic capacity for orderly apoptotic execution → loss of ionic and metabolic homeostasis → swelling and plasma-membrane disruption → necrotic terminal morphology.
+
+The central variable in this historical model is not a specific aponecrosis protein. It is the energetic state of the dying cell.
+
+Experiments performed independently of the original aponecrosis study demonstrated that intracellular ATP concentration can determine whether identical or closely related death signals culminate in apoptosis or necrosis [2-4].
+
+Apoptosis requires energy for several steps of its execution. Maintenance of ion gradients, cytoskeletal reorganization, apoptosome formation, caspase activation, controlled membrane remodeling, and packaging of cellular material all occur more efficiently when sufficient ATP or related nucleotide resources remain available.
+
+When ATP is preserved above a critical functional range, mitochondrial release of cytochrome c can support formation of the APAF1 apoptosome and activation of caspase-9, followed by caspase-3 and caspase-7 [5,7,36].
+
+The sequence is:
+
+cellular stress → mitochondrial apoptotic signaling → cytochrome c release → APAF1 + ATP/dATP + procaspase-9 → apoptosome → caspase-9 → caspase-3/7 → organized apoptotic dismantling.
+
+When ATP becomes severely depleted during the same period, this organized execution becomes compromised.
+
+The corresponding hybrid sequence is:
+
+cellular stress → apoptotic signaling begins → mitochondrial function deteriorates → ATP progressively falls → ATP-dependent apoptotic execution becomes inefficient or abortive → ion pumps fail → osmotic balance is lost → cellular and organellar swelling → plasma-membrane permeabilization → lytic death.
+
+This energetic switch provides the strongest mechanistic explanation for the original aponecrotic phenotype [1-4].
+
+Aponecrosis should therefore not be interpreted as apoptosis followed automatically by necrosis. At least three mechanistically distinct situations can generate a phenotype historically described as aponecrotic.
+
+The first is the original energy-collapse hybrid.
+
+The second is completed apoptosis followed by secondary necrosis when apoptotic cells are not efficiently removed.
+
+The third consists of non-caspase lytic death pathways, particularly PARP1–AIF-associated death, that can display both apoptosis-like nuclear changes and necrotic energetic collapse.
+
+These routes share morphology but do not share one dedicated execution system.
+
+### Energy-Collapse Hybrid Route
+
+The energy-collapse route most closely corresponds to the original definition of aponecrosis.
+
+The initiating stimuli are typically sufficiently severe to damage mitochondrial function but not so catastrophic that all regulated signaling is immediately abolished. Examples include mitochondrial respiratory inhibitors, ischemia–reperfusion injury, oxidative stress, Ca2+ overload, and death-receptor stimulation under conditions of compromised energy metabolism [1,6,8-11].
+
+In the original model, antimycin A inhibits mitochondrial respiratory complex III.
+
+Complex III inhibition disrupts electron transport and reduces proton-gradient-dependent ATP synthesis.
+
+The immediate sequence is:
+
+antimycin A → complex III inhibition → reduced mitochondrial electron transport → decreased proton-motive force and oxidative phosphorylation → declining ATP availability.
+
+Mitochondrial injury can simultaneously increase ROS production.
+
+Thus, mitochondrial respiratory inhibition generates both a bioenergetic lesion and a stress-signaling environment.
+
+As ATP decreases, the cell approaches a metabolic threshold at which it can still activate parts of the apoptotic program but can no longer complete the entire program effectively [1-4].
+
+This explains the simultaneous presence of apoptotic and necrotic characteristics.
+
+Early apoptotic-associated changes may include phosphatidylserine exposure, chromatin condensation, DNA fragmentation, caspase activity, and membrane blebbing.
+
+However, the cell subsequently develops mitochondrial swelling, cytoplasmic swelling, vacuolization, loss of ion gradients, plasma-membrane permeability, and terminal lysis.
+
+The resulting phenotype is therefore not produced by a novel executor. It reflects a change in how an already initiated death program proceeds when metabolic resources collapse.
+
+### Mitochondria as the Central Decision Hub
+
+Mitochondria occupy a central position in the apoptosis–necrosis transition because they simultaneously regulate apoptotic signaling and cellular energy production [6,8-10].
+
+Mitochondrial membrane permeabilization can have fundamentally different outcomes depending on its magnitude, duration, and localization.
+
+Outer-membrane permeabilization can release cytochrome c and other apoptogenic proteins, promoting apoptosis.
+
+Severe inner-membrane dysfunction or sustained mitochondrial permeability transition can instead collapse membrane potential and oxidative phosphorylation, promoting energetic failure and necrotic degeneration.
+
+The mitochondrial permeability transition is therefore particularly relevant to historical aponecrotic models.
+
+Severe oxidative stress, Ca2+ overload, ischemia, and related insults can induce prolonged permeability transition of the mitochondrial inner membrane [8-11,32].
+
+The sequence is:
+
+Ca2+/ROS/metabolic stress → mitochondrial permeability transition → loss of inner-membrane impermeability → dissipation of mitochondrial membrane potential → uncoupling of oxidative phosphorylation → mitochondrial swelling → ATP synthesis failure.
+
+If permeability transition remains prolonged, ATP depletion becomes severe.
+
+ATP-dependent ion pumps at the plasma membrane and intracellular organelles then fail.
+
+Na+ accumulates intracellularly.
+
+K+ gradients collapse.
+
+Water follows the osmotic gradient.
+
+The cytoplasm and organelles swell.
+
+Ultimately, the plasma membrane can no longer sustain structural and ionic homeostasis.
+
+The terminal event is membrane permeabilization and rupture.
+
+Thus, in the energy-collapse version of aponecrosis, the proximate lethal event is best described as:
+
+irreversible mitochondrial bioenergetic failure → ATP depletion → ion-pump failure → osmotic imbalance → cell swelling → plasma-membrane failure.
+
+DNA fragmentation or chromatin condensation may occur, but they are not the physical event that finally destroys viability.
+
+Historical models of the mitochondrial permeability transition proposed contributions from proteins including ANT, VDAC, and cyclophilin D [8-9,33]. These components should be interpreted cautiously as part of historical permeability-transition models rather than as a uniquely defined aponecrosis complex.
+
+There is no aponecrosis-specific mitochondrial pore.
+
+### Death-Receptor-Initiated Hybrid Death
+
+Aponecrotic phenotypes can also occur when death-receptor signaling begins normally but cellular energy status changes the downstream outcome.
+
+Death ligands can activate receptors such as Fas or TNFR-family receptors.
+
+Adaptor recruitment then initiates caspase-8-associated signaling through complexes involving proteins such as FADD [5,12,31].
+
+The apoptotic branch can be represented as:
+
+death ligand → death receptor → adaptor recruitment → procaspase-8 activation → caspase-8 → executioner caspases and/or BID cleavage → mitochondrial amplification → apoptosis.
+
+Caspase-8 can cleave BID to produce truncated BID, which promotes BAX/BAK-dependent mitochondrial outer-membrane permeabilization.
+
+Cytochrome c is then released.
+
+If sufficient ATP/dATP remains available:
+
+cytochrome c → APAF1 → apoptosome → caspase-9 → caspase-3/7 → apoptosis.
+
+However, if severe mitochondrial dysfunction simultaneously lowers ATP, apoptosome-dependent amplification and organized caspase execution can become inefficient [2-5].
+
+The sequence can then shift toward:
+
+death-receptor signaling → partial caspase/mitochondrial engagement → ATP collapse → failure of orderly apoptotic execution → ionic failure and swelling → necrotic membrane disruption.
+
+Caspase inhibition can produce a similar phenotypic switch in some experimental systems.
+
+Inhibition of caspases does not necessarily restore viability. Instead, when the original damage remains severe, suppression of the apoptotic execution machinery can redirect cells toward necrotic or necroptotic outcomes [13-15].
+
+This is another reason aponecrosis should not be treated as a unique pathway.
+
+An apparently aponecrotic phenotype after caspase inhibition may actually represent activation of a mechanistically identifiable alternative death program.
+
+Where RIPK1, RIPK3, and MLKL are demonstrated to mediate the alternative death, the appropriate modern classification is necroptosis rather than aponecrosis.
+
+### ATP as a Cell-Death Fate Determinant
+
+The relationship between ATP and death phenotype is one of the most reproducible mechanistic concepts underlying aponecrosis.
+
+Studies using ATP depletion and repletion demonstrated that death can be experimentally redirected.
+
+When ATP production remains adequate, cells can complete apoptosis.
+
+When ATP falls below the level necessary for apoptotic execution, necrotic characteristics become increasingly dominant [2-4].
+
+The relationship is not a single absolute ATP concentration applicable to every cell type.
+
+Rather, the relevant variable is whether metabolic ATP production remains sufficient to sustain the biochemical processes required for controlled apoptotic execution.
+
+Glycolysis can therefore strongly influence death phenotype.
+
+Cells capable of maintaining ATP through glycolysis may continue apoptotic execution even when mitochondrial oxidative phosphorylation is impaired.
+
+Cells with inadequate glycolytic compensation undergo more rapid energetic collapse.
+
+The metabolic context can consequently be represented as:
+
+mitochondrial injury + adequate glycolytic ATP → greater probability of apoptotic execution.
+
+Mitochondrial injury + inadequate glycolytic compensation → ATP collapse → greater probability of necrotic execution.
+
+Experimental restoration of glucose or ATP-generating capacity can shift cells away from necrotic degeneration and restore apoptotic characteristics [2-4].
+
+Thus, glycolytic capacity functions as an important protective and fate-modifying checkpoint.
+
+### NAD+ Metabolism and the Apoptosis–Necrosis Switch
+
+NAD+ availability provides another major metabolic checkpoint.
+
+NAD+ is required for glycolysis, mitochondrial metabolism, redox reactions, and ATP generation.
+
+Severe depletion of NAD+ therefore compromises cellular energy production even before ATP reaches its terminally low level.
+
+PARP1 is one of the major mechanisms capable of consuming NAD+ during severe DNA damage.
+
+PARP1 detects DNA strand breaks and uses NAD+ to synthesize poly(ADP-ribose), or PAR, chains during the DNA-damage response [16-20].
+
+Moderate PARP1 activity participates in DNA repair.
+
+Excessive PARP1 activation can instead consume very large amounts of NAD+.
+
+The sequence is:
+
+severe oxidative or alkylating DNA damage → DNA strand breaks → PARP1 hyperactivation → excessive PAR synthesis → NAD+ depletion.
+
+NAD+ depletion compromises glycolysis.
+
+Reduced glycolytic capacity then decreases ATP recovery.
+
+Mitochondrial dysfunction can amplify the energetic defect.
+
+Thus:
+
+PARP1 hyperactivation → NAD+ depletion → glycolytic inhibition → ATP depletion → severe energetic stress.
+
+This provides another route by which a cell can transition from a potentially apoptotic response toward necrotic degeneration.
+
+NAMPT-dependent NAD+ salvage opposes this transition [21].
+
+NAMPT contributes to regeneration of NAD+ and allows cells experiencing moderate oxidative stress to restore their metabolic state.
+
+The protective sequence is:
+
+moderate stress → NAD+ consumption → NAMPT-dependent NAD+ salvage → glycolytic recovery → ATP recovery → maintenance of controlled cellular responses.
+
+When the damage is sufficiently severe that NAD+ cannot be restored:
+
+persistent NAD+ depletion → ATP recovery failure → inability to sustain apoptotic execution → necrotic or PARP-dependent cell death.
+
+Thus, NAD+ recovery constitutes an important upstream fate checkpoint.
+
+### PARP1–AIF Route
+
+Some historical aponecrotic or apoptosis–necrosis hybrid phenotypes are now better explained as PARP-dependent cell death or parthanatos.
+
+This route should not be considered canonical aponecrosis.
+
+It is a separate mechanistic pathway that was historically capable of producing apoptosis-like nuclear changes together with necrotic metabolic collapse.
+
+The pathway begins with severe DNA damage.
+
+DNA strand breaks activate PARP1.
+
+When activation becomes excessive:
+
+PARP1 hyperactivation → massive PAR production → NAD+ consumption → metabolic impairment.
+
+NAD+ depletion reduces glycolytic and mitochondrial energy production and promotes ATP loss [16,19].
+
+PAR signaling can simultaneously participate in mitochondrial release of apoptosis-inducing factor, AIF.
+
+AIF is normally located within mitochondria.
+
+Under specific forms of severe stress, AIF can be mobilized and released into the cytosol before translocating to the nucleus [17-18,22-24].
+
+AIF-associated death is caspase independent.
+
+After nuclear translocation, AIF contributes to chromatin condensation and large-scale DNA fragmentation.
+
+Thus, the pathway can be represented as:
+
+severe DNA damage → PARP1 hyperactivation → PAR accumulation + NAD+ depletion → metabolic/ATP stress → mitochondrial dysfunction → AIF release → AIF nuclear translocation → large-scale DNA fragmentation → lytic cellular death.
+
+Ca2+ signaling can reinforce this pathway.
+
+Oxidative injury can produce intracellular Ca2+ increases that interact reciprocally with PARP1 activation [20,34].
+
+Elevated Ca2+ can activate mitochondrial or cellular calpains.
+
+Calpain activity can facilitate processing of AIF and contribute to its mobilization from mitochondria [22-23].
+
+In some models, BAX contributes to mitochondrial outer-membrane permeabilization required for AIF release [23].
+
+A more detailed branch can therefore be represented as:
+
+ROS/DNA damage → PARP1 activation → NAD+/ATP depletion + intracellular Ca2+ elevation → calpain activation → AIF processing → BAX-associated mitochondrial permeabilization → AIF release → nuclear translocation → chromatin destruction.
+
+This route illustrates why morphology alone cannot define aponecrosis.
+
+The presence of chromatin condensation and DNA fragmentation may resemble apoptosis, yet the underlying mechanism can be caspase independent and PARP1/AIF dependent.
+
+Under current mechanistic classification, this should be annotated as parthanatos or PARP1-associated regulated necrosis when the defining molecular dependencies are demonstrated.
+
+### Caspases and PARP1 as a Molecular Fate Switch
+
+There is also direct mechanistic crosstalk between apoptotic caspases and PARP1.
+
+During conventional apoptosis, executioner caspases cleave PARP1.
+
+This limits PARP1 activity and prevents uncontrolled NAD+ consumption [25].
+
+Therefore, PARP1 cleavage during apoptosis is not merely a convenient biomarker.
+
+It also helps preserve cellular energy during the organized apoptotic process.
+
+The sequence is:
+
+successful caspase activation → PARP1 cleavage → termination of excessive PARP1 activity → reduced NAD+/ATP consumption → continued apoptotic execution.
+
+If caspase activation is absent or insufficient:
+
+PARP1 remains active → NAD+ consumption continues → ATP progressively falls → necrotic energetic failure becomes more likely.
+
+This produces a molecular intersection between apoptosis and necrosis.
+
+Thus, under some conditions, efficient caspase activation actually prevents the dying cell from prematurely collapsing into necrosis.
+
+### Secondary Necrosis Route
+
+A second major phenomenon historically compatible with the term aponecrosis is secondary necrosis.
+
+Secondary necrosis occurs after a cell has already undergone substantial apoptotic execution.
+
+Under physiological conditions, apoptotic cells expose signals such as phosphatidylserine and are efficiently engulfed by phagocytes.
+
+When apoptotic cells are not cleared, their membranes eventually lose integrity.
+
+The sequence is:
+
+apoptotic execution → persistent uncleared apoptotic corpse → progressive membrane deterioration → plasma-membrane permeabilization → cellular swelling and leakage → secondary necrosis.
+
+The important distinction from the original energy-collapse model is temporal.
+
+In the original aponecrotic hybrid, metabolic collapse interferes with completion of apoptosis.
+
+In secondary necrosis, apoptosis has substantially proceeded before the lytic phase begins.
+
+Therefore:
+
+failed apoptosis because of energy collapse and completed apoptosis followed by secondary lysis are mechanistically different processes.
+
+Both can nevertheless produce cells displaying apoptotic and necrotic characteristics.
+
+### GSDME-Dependent Secondary Necrosis
+
+Gasdermin E, historically known as DFNA5, provides a molecular mechanism for accelerated transition from apoptosis to lytic secondary necrosis in some cells [26-28].
+
+During apoptosis, caspase-3 can cleave GSDME.
+
+This cleavage releases the pore-forming N-terminal portion of GSDME.
+
+The GSDME N-terminal fragment interacts with cellular membranes and forms pores.
+
+The sequence is:
+
+apoptotic stimulus → caspase-3 activation → GSDME cleavage → GSDME-N formation → plasma-membrane pore formation → membrane permeabilization → swelling and lysis.
+
+In these settings, a process that begins through apoptosis acquires a rapid lytic terminal phenotype.
+
+Such cells can therefore appear highly “aponecrotic.”
+
+However, GSDME is not a universal mechanism of secondary necrosis.
+
+Secondary necrosis can still occur in cells lacking functional GSDME, and experimental studies indicate that GSDME is dispensable for late apoptotic membrane failure in several contexts [28-29].
+
+Therefore, GSDME must be described as a context-dependent executor of apoptosis-to-lysis conversion rather than a universal aponecrosis executor.
+
+When GSDME cleavage is experimentally demonstrated to drive membrane permeabilization, the terminal mechanism is better described explicitly as GSDME-mediated lytic conversion or secondary necrosis.
+
+### Mitochondrial Permeability Transition-Dependent Necrosis
+
+Another pathway capable of generating historical aponecrotic features is mitochondrial permeability transition-dependent necrosis [37].
+
+Mitochondrial dysfunction, altered autophagy, and apoptosis are common features of ischemia–reperfusion injury, and edaravone-related studies suggest mitochondrial effects including reduced mitochondrial oxidative stress and modulation of permeability-transition pathways [35].
+
+Sustained mitochondrial permeability transition causes rapid loss of mitochondrial membrane potential.
+
+Oxidative phosphorylation stops.
+
+ATP falls.
+
+Mitochondria swell.
+
+The inability to maintain plasma-membrane ATPases and other ionic transport systems generates osmotic failure.
+
+Thus:
+
+severe mitochondrial stress → sustained permeability transition → ΔΨm collapse → oxidative-phosphorylation failure → ATP depletion → ion-pump failure → Na+/Ca2+ accumulation and K+ loss → osmotic swelling → membrane rupture.
+
+When this mechanism is causally demonstrated, the modern classification should favor mitochondrial permeability transition-dependent necrosis rather than aponecrosis.
+
+The mixed apoptotic phenotype can arise because the same damaged mitochondria may also release cytochrome c or other apoptogenic proteins before energy collapse becomes complete.
+
+This explains why apoptosis-associated biochemical signals and necrotic terminal morphology can coexist without requiring a third pathway.
+
+### BCL-2-Family Regulation
+
+BCL-2-family proteins regulate several branch points relevant to aponecrotic phenotypes.
+
+BCL-2 and BCL-xL inhibit BAX/BAK-dependent mitochondrial outer-membrane permeabilization [30].
+
+By preserving mitochondrial membrane integrity, they limit cytochrome c release and reduce apoptotic signaling.
+
+They can also reduce release of AIF and delay mitochondrial dysfunction in several experimental contexts.
+
+The protective sequence is:
+
+BCL-2/BCL-xL activity → inhibition of BAX/BAK → preserved outer mitochondrial membrane → retention of cytochrome c/AIF → reduced apoptotic and caspase-independent mitochondrial death.
+
+Loss of this protection increases susceptibility to mitochondrial death.
+
+However, BCL-2-family signaling does not define aponecrosis.
+
+It regulates mitochondrial commitment shared with established apoptotic and non-apoptotic pathways.
+
+### Calcium as a Context-Dependent Amplifier
+
+Intracellular Ca2+ overload frequently contributes to hybrid apoptotic–necrotic death.
+
+Excessive cytosolic Ca2+ can increase mitochondrial Ca2+ uptake.
+
+High mitochondrial Ca2+ favors permeability transition.
+
+Ca2+ can also activate calpains and other proteases.
+
+Thus:
+
+cellular injury → cytosolic Ca2+ elevation → mitochondrial Ca2+ accumulation → permeability transition + calpain activation → mitochondrial dysfunction and AIF mobilization → energetic and nuclear injury.
+
+Whether Ca2+ favors primarily apoptosis, regulated necrosis, or PARP1–AIF-associated death depends on the magnitude and duration of the signal.
+
+It should therefore be considered a context-dependent amplifier rather than a universal aponecrosis sensor.
+
+### Point of Commitment
+
+There is no single universal point of no return for aponecrosis because aponecrosis does not represent one molecular pathway.
+
+In the original energy-collapse model, the most reasonable commitment transition occurs when mitochondrial dysfunction and ATP loss become sufficiently severe that cellular energy production can no longer recover.
+
+Before this threshold, metabolic restoration can alter the phenotype.
+
+After sustained mitochondrial failure:
+
+ATP recovery fails → ion pumps cannot recover → osmotic balance cannot be restored → membrane failure becomes inevitable.
+
+In apoptosis-initiated branches, BAX/BAK-dependent MOMP can represent an earlier commitment event.
+
+Once extensive mitochondrial permeabilization has occurred, blocking caspases may change the morphology and timing of death without necessarily restoring long-term viability.
+
+The cell can therefore shift from apoptotic execution toward delayed lytic death.
+
+In PARP1-associated branches, commitment is more closely associated with sustained PARP1 activity, severe NAD+ loss, mitochondrial dysfunction, and inability to restore metabolic homeostasis.
+
+Thus, “commitment to aponecrosis” should not be represented as one universal biochemical event.
+
+Instead, each branch has its own irreversible transition.
+
+### Terminal Cause of Death
+
+The terminal cause of death in an aponecrotic phenotype is usually necrotic loss of cellular homeostasis.
+
+In the energy-collapse route:
+
+mitochondrial failure → ATP depletion → ATP-dependent ion-pump failure → osmotic imbalance → cell and organelle swelling → plasma-membrane rupture.
+
+In secondary necrosis:
+
+apoptotic execution → failure of corpse clearance or active lytic conversion → plasma-membrane permeabilization → leakage and lysis.
+
+In GSDME-positive secondary necrosis:
+
+caspase-3 → GSDME cleavage → GSDME-N pores → plasma-membrane permeabilization.
+
+In PARP1/AIF-associated death:
+
+DNA damage → PARP1 hyperactivation → NAD+/ATP collapse + PAR/AIF signaling → nuclear destruction and metabolic failure → lytic death.
+
+Thus, no single terminal executor should be assigned to aponecrosis as a whole.
+
+The most general common denominator is irreversible loss of membrane and metabolic homeostasis following partial, complete, or parallel activation of apoptosis-associated processes.
+
+### Morphological Sequence
+
+The classical aponecrotic morphology reflects this mechanistic mixture.
+
+The early phase can contain features associated with apoptosis.
+
+Cells may display chromatin condensation, partial nuclear fragmentation, membrane blebbing, phosphatidylserine externalization, and some DNA cleavage.
+
+As energetic and ionic control deteriorate, the phenotype changes.
+
+Mitochondria swell.
+
+The cytoplasm becomes increasingly vacuolated.
+
+Cell volume may increase.
+
+Plasma-membrane permeability rises.
+
+Propidium iodide can enter the cell.
+
+Eventually, the plasma membrane ruptures and intracellular contents are released.
+
+Thus, the generalized morphology can be represented as:
+
+apparently healthy cell → metabolic/mitochondrial injury → partial apoptotic morphology → failure of complete apoptotic organization → mitochondrial and cytoplasmic swelling → membrane permeability → terminal lysis.
+
+This chronology is more informative than any single morphological marker.
+
+### Experimental Definition
+
+No individual marker establishes aponecrosis.
+
+Annexin V positivity can indicate phosphatidylserine exposure but does not prove apoptosis or aponecrosis.
+
+Propidium iodide positivity indicates loss of membrane integrity but does not identify the molecular mechanism responsible.
+
+TUNEL or other DNA-fragmentation assays can become positive in multiple types of cell death.
+
+Caspase activation demonstrates engagement of apoptotic machinery but does not prove that caspases execute the terminal death.
+
+Therefore, experimental characterization requires temporal and mechanistic integration.
+
+Time-lapse imaging can establish whether apoptotic-like shrinkage and blebbing precede later swelling and lysis.
+
+Electron microscopy can define mitochondrial swelling, membrane changes, chromatin morphology, and organellar degeneration.
+
+Parallel ATP measurements can determine whether the transition toward necrotic morphology coincides with bioenergetic collapse.
+
+NAD+ measurements can identify PARP1-associated energetic failure.
+
+Caspase activity and inhibition can establish whether apoptotic signaling is initiated and whether inhibition rescues the cell or merely changes its terminal phenotype.
+
+This distinction is crucial.
+
+If a caspase inhibitor prevents death entirely, apoptosis was likely the dominant required mechanism.
+
+If a caspase inhibitor suppresses apoptotic morphology but the cells subsequently die through swelling and rupture, the experiment demonstrates pathway switching rather than true rescue.
+
+PARP1 inhibition or genetic deletion can test PARP-dependent routes.
+
+NAD+ supplementation or enhancement of NAD+ salvage can test whether metabolic depletion is causal.
+
+Ca2+ chelation can determine whether Ca2+ amplification is necessary.
+
+Calpain inhibition can test AIF-processing pathways.
+
+AIF depletion can establish whether nuclear AIF contributes to death.
+
+BAX/BAK perturbation can distinguish mitochondrial outer-membrane-dependent branches.
+
+GSDME knockout can determine whether caspase-3-dependent membrane perforation mediates secondary lysis.
+
+RIPK1/RIPK3/MLKL interventions are necessary when necroptosis is a plausible alternative explanation.
+
+The strongest experimental definition of a historical aponecrotic phenotype is therefore not “Annexin V plus PI positivity.”
+
+It is demonstration that one initiating condition produces temporally linked apoptotic and necrotic features and that energetic, mitochondrial, or execution-pathway perturbations causally redirect the death phenotype.
+
+### Distinction from Necroptosis
+
+Aponecrosis must also be separated from necroptosis.
+
+Necroptosis is a defined regulated necrotic pathway involving RIPK3-dependent phosphorylation of MLKL and subsequent MLKL-mediated membrane injury.
+
+Historical studies of apoptosis-to-necrosis switching predate much of the mechanistic characterization of necroptosis.
+
+Consequently, some older “necrotic” endpoints occurring after caspase inhibition could potentially correspond to regulated necrotic pathways that would now be classified differently.
+
+Therefore:
+
+caspase inhibition → RIPK1/RIPK3 → MLKL → membrane permeabilization
+
+should be annotated as necroptosis, not aponecrosis.
+
+Aponecrosis should be retained only as a historical or phenotypic descriptor when the defining observation is an apoptosis–necrosis continuum or hybrid state rather than an established alternative RCD mechanism.
+
+### Distinction from Secondary Necrosis
+
+Secondary necrosis should likewise remain conceptually separate.
+
+Aponecrosis in the original sense occurs because the cell begins a death program under intermediate energetic failure and cannot maintain an orderly apoptotic phenotype.
+
+Secondary necrosis occurs after substantial apoptotic execution has already taken place.
+
+The two processes converge morphologically on plasma-membrane breakdown but differ in chronology.
+
+Historical aponecrosis:
+
+stress → partial apoptotic engagement + simultaneous energy collapse → necrotic execution.
+
+Secondary necrosis:
+
+apoptosis → apoptotic corpse → inadequate clearance and/or active membrane perforation → lysis.
+
+### Distinction from Parthanatos
+
+PARP1–AIF-associated death can also resemble aponecrosis morphologically, but current mechanistic terminology provides a more precise classification.
+
+When experiments demonstrate:
+
+PARP1 hyperactivation → PAR/NAD+ changes → AIF mobilization → AIF nuclear translocation → large-scale DNA fragmentation,
+
+the pathway should preferentially be annotated as parthanatos or PARP1-dependent cell death.
+
+Aponecrosis may describe the mixed phenotype historically, but it adds less mechanistic information than the experimentally demonstrated PARP1–AIF pathway.
+
+### Protective and Resistance Mechanisms
+
+Several protective systems influence whether a cell develops an aponecrotic phenotype.
+
+Maintenance of ATP production is perhaps the most fundamental.
+
+Functional oxidative phosphorylation and compensatory glycolysis preserve the energetic capacity required for controlled cellular responses.
+
+NAMPT-dependent NAD+ salvage supports NAD+ and ATP recovery after moderate oxidative stress [21].
+
+BCL-2 and BCL-xL protect mitochondrial integrity and reduce cytochrome c and AIF release [30].
+
+Efficient caspase activation can paradoxically protect the dying cell from early necrotic energy collapse by cleaving and inactivating PARP1 [25].
+
+Thus, successful apoptosis can itself function as a mechanism that prevents uncontrolled necrotic disintegration.
+
+These relationships produce an important conceptual inversion:
+
+failure of an apoptotic component does not always mean increased survival.
+
+In some conditions, failure of apoptotic execution merely changes how the cell dies.
+
+### Molecular Hierarchy
+
+A universal aponecrosis molecular hierarchy cannot be constructed because the pathway is intrinsically branch dependent.
+
+The initiating stimuli can include mitochondrial respiratory inhibition, death-receptor activation, DNA damage, ROS, Ca2+ overload, ischemia–reperfusion, or other severe metabolic injuries.
+
+The major transducers include death-receptor adaptors and caspase-8 in apoptotic branches, PARP1 in DNA-damage branches, and mitochondrial permeability regulators in metabolic-collapse branches.
+
+Mitochondria form the principal convergence hub.
+
+BAX/BAK regulate outer-membrane permeabilization in apoptosis-associated routes.
+
+Cytochrome c, APAF1, and caspase-9 constitute the apoptosome pathway when ATP remains adequate.
+
+PARP1, calpains, BAX, and AIF participate in selected caspase-independent nuclear-death branches.
+
+Sustained mitochondrial permeability transition contributes to energetic-collapse routes.
+
+Caspase-3 functions as an executioner when classical apoptosis remains functional.
+
+GSDME can function as a membrane-perforating executor in selected secondary-necrotic branches.
+
+RIPK3 and MLKL are relevant only when a mechanistically distinct necroptotic switch has occurred.
+
+ATP and NAD+ are not execution proteins but are critical fate determinants.
+
+The final lytic lesion in energy-collapse branches is ion-pump failure and plasma-membrane disruption resulting from catastrophic bioenergetic failure.
+
+### Integrated Mechanistic Sequence
+
+The most defensible generalized aponecrotic sequence is:
+
+severe but not immediately catastrophic stress, such as mitochondrial respiratory inhibition, ischemia–reperfusion, death-receptor signaling under metabolically compromised conditions, oxidative DNA damage, or Ca2+ overload → mitochondrial dysfunction and/or PARP1 activation → decline in mitochondrial membrane potential and ATP production and, in PARP1-driven settings, depletion of NAD+ and impaired glycolytic ATP recovery → partial activation of apoptosis-associated machinery, including cytochrome c release, caspases, BAX/BAK, chromatin condensation, or DNA fragmentation → energetic state determines subsequent fate.
+
+If ATP remains sufficiently available:
+
+cytochrome c → APAF1 apoptosome → caspase-9 → caspase-3/7 → organized apoptosis.
+
+If ATP and NAD+ fall sufficiently:
+
+apoptosome/caspase-dependent execution becomes incomplete or metabolically unsustainable → ATP-dependent ion transport fails → mitochondrial and cellular ion gradients collapse → water influx and organelle/cellular swelling → plasma-membrane permeabilization → necrotic lysis.
+
+If PARP1–AIF signaling dominates:
+
+DNA damage → PARP1 hyperactivation → PAR production + NAD+/ATP depletion → Ca2+/calpain and mitochondrial signaling → AIF release → nuclear translocation → large-scale chromatin fragmentation + metabolic collapse → lytic death.
+
+If apoptosis has already substantially completed:
+
+caspase-3-dependent execution → apoptotic corpse → delayed membrane failure or, in selected GSDME-positive cells, caspase-3-mediated GSDME cleavage → GSDME-N membrane pores → secondary necrosis.
+
+If caspase suppression instead activates RIPK3–MLKL signaling:
+
+the correct classification becomes necroptosis rather than aponecrosis.
+
+Thus, aponecrosis is best reconstructed as apoptotic initiation combined with incomplete apoptotic completion and necrotic terminal execution, or more broadly as a historical phenotype describing the convergence of apoptotic and necrotic processes.
+
+The defining mechanistic principle is the apoptosis–necrosis continuum controlled by mitochondrial integrity and cellular energy availability.
+
+The original concept remains biologically valuable because it demonstrated that cell-death morphology is not determined solely by the initiating stimulus. The energetic and metabolic condition of the cell can redirect the same upstream injury toward fundamentally different terminal phenotypes.
+
+However, advances in regulated-cell-death biology now permit many historical aponecrotic states to be decomposed into more precise mechanisms, including mitochondrial permeability transition-dependent necrosis, secondary necrosis, GSDME-mediated lytic conversion, parthanatos, and necroptosis.
+
+For this reason, aponecrosis should not be assigned a universal receptor, core signaling machinery, executor, or point of no return.
+
+Its most defensible operational definition is:
+
+a historical hybrid cell-death phenotype in which apoptosis-associated signaling or morphology is initiated but terminal cellular destruction acquires necrotic characteristics because energetic failure, incomplete apoptotic execution, or a secondary lytic mechanism causes irreversible loss of membrane homeostasis.
+
+The principal unresolved question is consequently not which molecule executes aponecrosis, because the evidence does not establish such a universal executor. The more relevant question is which molecular mechanism produces the apoptosis-to-necrosis transition in each experimental context.
+

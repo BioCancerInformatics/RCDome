@@ -1,1 +1,150 @@
-Partanatose: morte celular programada mediada pela hiperativação da PARP-1, causando fragmentação do DNA e translocação do AIF para o núcleo. É mediada por enzimas PARP e se sobrepõe à apoptose na resposta ao dano ao DNA. A inibição de PARP pode desencadear partanatose em tumores com reparo de DNA deficiente, conectando essa forma de morte celular às vias de resposta ao dano ao DNA.
+# Parthanatos
+
+## 1. Definition and Classification
+
+Parthanatos is an established form of regulated cell death (RCD) defined primarily by excessive activation of poly(ADP-ribose) polymerase 1 (PARP1), pathological accumulation of poly(ADP-ribose) (PAR), mitochondrial release and nuclear translocation of apoptosis-inducing factor (AIF), and, in the best-characterized mammalian models, macrophage migration inhibitory factor (MIF)-dependent large-scale DNA fragmentation [1-3]. Current cell-death nomenclature therefore supports parthanatos as a mechanistically defined RCD modality rather than merely a morphological phenotype or provisional subtype [1-2].
+
+The established core is PARP1-dependent production of a toxic PAR signal and transmission of that signal toward mitochondria and the nucleus [1,3,7,9]. AIF is an essential signal-transducing component of the canonical pathway, whereas MIF provides the best-supported nuclease activity responsible for terminal chromatinolysis in many mammalian systems [9-12]. Importantly, AIF should not itself be described as the DNA nuclease responsible for parthanatotic fragmentation, because the available mechanistic evidence instead identifies MIF as the major downstream nuclease [11-12,18,37].
+
+Several aspects remain context dependent. Mitochondrial permeability transition, calpain activity, Ca2+ overload, NAD+ depletion, glycolytic failure, and specific ROS-generating signaling circuits can strongly contribute in particular cell types but are not universal components of the pathway [13-16,22]. Similarly, AIF-independent forms of PARP1-dependent death have been reported, but these do not invalidate the canonical PAR–AIF–MIF axis and should be regarded as noncanonical or context-specific variants rather than evidence for a universal alternative mechanism [1,22].
+
+## 2. Initiation and Triggers
+
+The most general initiating event in parthanatos is DNA damage of sufficient magnitude or persistence to convert the physiological DNA-repair function of PARP1 into sustained catalytic hyperactivation [1,3-4]. Oxidative and nitrosative stress, peroxynitrite, hydrogen peroxide, DNA-alkylating agents, ischemic or hypoxic injury, excitotoxicity, inflammatory injury, and some infection-associated stresses can converge on this state [1,3-4].
+
+There is no single universal extracellular receptor for parthanatos. Instead, the proximal sensor depends on the initiating context. In excitotoxic neurons, one of the best-characterized sequences begins with excessive glutamate-dependent activation of NMDA receptors. The resulting Ca2+ influx stimulates nitric oxide production and promotes the generation of reactive oxygen and nitrogen species, including peroxynitrite, which damage nuclear DNA. PARP1 subsequently detects these DNA lesions and becomes activated [3].
+
+For direct oxidative or alkylating insults, the relevant proximal sensor is effectively PARP1 itself acting on damaged DNA rather than a dedicated cell-surface death receptor. DNA break binding is mediated by three N-terminal zinc fingers (Zn1, Zn2, and Zn3) and a WGR domain [38]. Thus, the earliest conserved intracellular event is not PAR production per se but the formation of DNA lesions that recruit and activate PARP1.
+
+In infection, inflammatory injury, and some tumor models involving ER-derived Ca2+ signals, upstream receptors and signaling components are more heterogeneous. The article describes parthanatos as converging on DNA damage, PARP1 hyper-activation, PAR accumulation, NAD+/ATP depletion, mitochondrial dysfunction, and AIF nucleus translocation, with PARP1 activated by DNA damage and Ca2+ signaling . Such upstream mechanisms should therefore not be generalized beyond their experimental systems.
+
+## 3. Core Mechanistic Machinery
+
+PARP1 normally functions as a DNA-damage-responsive enzyme. Under reparable damage, PARP1 binds DNA lesions and uses NAD+ as a substrate to synthesize PAR on itself and other chromatin-associated proteins. This PARylation facilitates recruitment and organization of DNA-repair factors and ultimately allows PARP1 to disengage from the lesion [5-6].
+
+Parthanatos arises when this normally protective reaction becomes excessive. Persistent or severe DNA damage produces sustained PARP1 catalytic activity, extensive NAD+ consumption, and formation of abundant PAR chains [1,7]. PAR therefore changes functionally from a transient DNA-repair signal into a toxic intracellular death signal.
+
+The mechanistic transition from nuclear PAR accumulation to mitochondrial signaling represents a defining step. PAR polymers are directly toxic to neurons, PAR binding to AIF induces AIF release from mitochondria leading to parthanatos, and ARH3 hydrolyzes PAR and prevents parthanatos, supporting a causal role for PAR . PAR metabolism is nevertheless more complex than a simple balance between synthesis and degradation. PARG can cleave protein-associated PAR and generate smaller or free PAR species capable of participating in signal propagation, whereas ARH3 degrades PAR and generally limits its toxic accumulation [8].
+
+How PAR physically leaves the nucleus and reaches mitochondrial AIF remains incompletely resolved. One model proposes that smaller PAR species produced after PARG-dependent hydrolysis move from the nucleus to the cytoplasm. Another, more context-specific mechanism involves a PARylated 89-kDa PARP1 cleavage fragment acting as a cytoplasmic PAR carrier, particularly in settings in which apoptotic caspases are simultaneously active [20]. This latter mechanism represents pathway crosstalk rather than a universal requirement for parthanatos.
+
+At mitochondria, PAR binds AIF through a PAR-interacting region. Disruption of this interaction prevents efficient AIF release, nuclear translocation, and death without simply eliminating AIF's mitochondrial respiratory function, providing strong evidence that PAR–AIF binding is mechanistically important [9]. AIF should therefore be considered a death-signal transducer linking PAR accumulation to the downstream nuclear execution machinery.
+
+The exact physical mechanism by which PAR–AIF interaction liberates AIF from mitochondria is unresolved. Proposed contributions include changes in AIF membrane association, mitochondrial depolarization, mitochondrial permeability transition, proteolytic processing, or combinations of these processes. Their relative importance varies between experimental systems [9,14,16]. Consequently, no single mechanism of AIF release should be represented as universally established.
+
+After mitochondrial release, AIF interacts with MIF and facilitates its localization to the nucleus. Nuclear MIF possesses nuclease activity capable of producing large-scale genomic DNA cleavage [11]. Genetic depletion of MIF, catalytic inactivation of its nuclease activity, and pharmacological or molecular disruption of the AIF–MIF interaction suppress chromatinolysis and cell death in multiple models [11-12,18]. MIF is therefore the strongest currently supported downstream nuclease executor of canonical parthanatos.
+
+## 4. Propagation and Amplification
+
+Once PARP1 becomes hyperactivated, several mechanisms can amplify the initial lesion. Continued DNA damage sustains PARP1 activity and further increases PAR accumulation, generating a feed-forward relationship between cellular stress, DNA lesions, PAR production, mitochondrial dysfunction, and additional oxidative stress.
+
+One important parallel branch is metabolic. PAR can interact with and inhibit hexokinase 1 (HK1), suppressing glycolysis and decreasing the supply of metabolic substrates required to sustain mitochondrial function [13]. In some neuronal systems, this glycolytic inhibition explains energetic collapse better than NAD+ depletion alone. Pyruvate or glutamine supplementation can restore mitochondrial function downstream of PARP1 activation in such models, demonstrating that the metabolic component can be functionally important [13].
+
+NAD+ depletion nevertheless remains causally important in other systems. In astrocytes and cardiac myocytes, loss of NAD+ has been associated with impaired cellular energetics, mitochondrial permeability transition, AIF translocation, and death, whereas restoration of NAD+ availability can be protective [14-15]. Thus, NAD+ depletion and HK1-dependent glycolytic failure represent partially overlapping metabolic mechanisms whose relative contribution depends on cell type and metabolic configuration.
+
+Ca2+ and mitochondrial permeability transition provide another context-dependent amplification route. Under conditions involving Ca2+ overload and oxidative stress, mitochondrial permeability transition can promote depolarization, loss of mitochondrial homeostasis, and AIF release [14,34]. However, this mechanism is not universal. Likewise, calpain activation and calpain-dependent processing of AIF are not required in classical neuronal NMDA- or MNNG-associated parthanatos [16].
+
+AIF recruits MIF to the nucleus, where MIF acts as a nuclease causing chromatinolysis in parthanatos, and PARP-dependent energy depletion involves PAR-mediated inhibition of HK1/glycolysis, metabolic collapse, and rescue by pyruvate or glutamine [11,13]. These mechanisms are context-dependent modules rather than defining elements of parthanatos.
+
+PARG itself also requires mechanistic caution. Although degradation of PAR can limit polymer accumulation, recent evidence indicates that residual PARG activity may facilitate formation of PAR species or metabolic conditions necessary for efficient execution in some systems [21]. PARG therefore cannot be classified universally as either a simple protective enzyme or a simple pro-death factor.
+
+## 5. Protective/Negative Regulators
+
+ARH3 is one of the clearest endogenous suppressors of parthanatos. AIF binds PAR [9]. ARH3 deficiency markedly increases sensitivity to PARP1-dependent injury, whereas PARP1 inhibition can reduce damage associated with ARH3 deficiency [23].
+
+RNF146/IDUNA functions as another protective component by binding PAR and decreasing the pool of PAR available to promote AIF release [1,24]. Its activity therefore acts as a buffer against propagation of the PAR death signal.
+
+Efficient DNA repair provides an even earlier protective layer. DNA-repair scaffolds such as XRCC1 help resolve DNA lesions and thereby limit persistent PARP1 stimulation. Metabolic preservation can also delay or prevent execution in susceptible systems. NAD+ restoration or salvage can sustain cellular bioenergetics and suppress mitochondrial permeability transition in models in which energetic collapse is a major component [14-15]. Likewise, provision of metabolic substrates such as pyruvate or glutamine can partially rescue mitochondrial function following PARP1 activation in specific neuronal systems [13].
+
+These protective mechanisms act at distinct levels: preventing persistent DNA damage, degrading or sequestering PAR, preserving NAD+ and metabolic flux, or preventing downstream mitochondrial failure.
+
+## 6. Commitment / Point of No Return
+
+No universally demonstrated point of no return exists for every form of parthanatos.
+
+AIF nuclear translocation was historically considered a plausible commitment point because it marks transmission of the mitochondrial death signal back to the nucleus [3]. However, subsequent experiments showing rescue following MIF depletion or inhibition indicate that cells can remain experimentally rescuable after AIF mobilization in at least some systems [11-12,26].
+
+The strongest current candidate for irreversible commitment is therefore the onset of MIF-dependent large-scale chromatinolysis, or a point immediately preceding irreversible MIF-mediated genomic destruction [11,17,26]. Once extensive genomic cleavage is established, restoration of upstream PAR metabolism or mitochondrial signaling would not be expected to reconstruct genomic integrity.
+
+This commitment threshold may be reached differently in metabolically vulnerable cells. Severe ATP depletion or irreversible mitochondrial failure could theoretically become independently lethal before or alongside extensive chromatinolysis, and the supplied evidence supports substantial cell-type dependence in the metabolic arm [13-15,22]. Thus, nuclear MIF-mediated chromatinolysis is the best-supported canonical commitment point, but it should not be presented as experimentally universal in every PARP1-dependent death model.
+
+## 7. Execution and Terminal Cause of Death
+
+What physically kills the cell in parthanatos?
+
+In the best-supported canonical mammalian pathway, the principal molecular executor is MIF nuclease. AIF enables delivery or recruitment of MIF to the nucleus, where MIF promotes large-scale genomic DNA cleavage and chromatinolysis [11-12]. AIF is therefore mechanistically essential in the canonical signaling axis but should not be designated the terminal nuclease executor. Similarly, PARP1 is the initiating catalytic driver and PAR is the principal death signal, rather than the direct nuclear executor.
+
+A second lethal component is bioenergetic collapse. PAR-dependent HK1 inhibition can suppress glycolysis and ATP production, while extensive PARP1 activity can consume NAD+ and destabilize mitochondrial metabolism [13-15]. This energetic failure can substantially amplify death and may become independently lethal in selected metabolic contexts.
+
+The most defensible interpretation is therefore that canonical parthanatos culminates primarily in irreversible MIF-mediated chromatinolysis accompanied by progressive energetic and mitochondrial failure. Plasma-membrane disintegration occurs terminally but represents the structural endpoint of death rather than the defining molecular executor. The evidence does not support a single universal claim that NAD+ depletion, ATP depletion, mitochondrial permeability transition, or membrane rupture alone is the executor of all parthanatos.
+
+## 8. Morphological Sequence
+
+A cell undergoing parthanatos may initially appear morphologically intact despite accumulating nuclear DNA damage and PAR. PARP1 hyperactivation and PAR accumulation precede overt terminal morphology.
+
+As the pathway progresses, mitochondrial dysfunction and depolarization become detectable, followed by redistribution of AIF from mitochondria toward the cytoplasm and nucleus. Nuclear alterations then become increasingly prominent, including nuclear shrinkage, chromatin condensation, and extensive DNA fragmentation [28-29].
+
+During terminal execution, chromatinolysis becomes severe and cellular energetic and mitochondrial homeostasis deteriorate. Ultimately, plasma-membrane integrity is lost and the cell disintegrates [28-29].
+
+This morphology differs from classical apoptosis because parthanatos does not require the canonical caspase execution program and does not characteristically culminate in classical apoptotic-body formation. It also generally lacks the extreme early cellular swelling associated with accidental necrosis [28-29]. Nevertheless, these morphological differences are supportive rather than diagnostic: nuclear pyknosis, membrane permeability, TUNEL positivity, and DNA fragmentation can occur in multiple forms of cell death.
+
+## 9. Crosstalk and Differential Diagnosis
+
+The most important differential diagnosis is apoptosis. Both pathways may involve mitochondrial alterations, AIF redistribution, nuclear condensation, and DNA fragmentation. However, canonical parthanatos is driven by PARP1 hyperactivation and toxic PAR signaling and remains largely caspase independent [1,3,9,35]. Crosstalk with apoptosis can nevertheless occur. Caspase-mediated PARP1 cleavage can generate an 89-kDa PARP1 fragment that carries PAR from the nucleus to the cytoplasm in some settings [20]. This mechanism demonstrates that caspase activity and parthanatotic signaling are not mutually exclusive, but it should not be interpreted as evidence that caspases form part of the canonical parthanatos execution machinery.
+
+Parthanatos must also be distinguished from necroptosis. RIPK1/RIPK3 signaling and PARP1-associated signaling are mechanistically classified as distinct cell-death mechanisms, with essential mechanisms distinguished from correlative markers [1]. However, RIPK signaling is not part of the universal PARP1–PAR–AIF–MIF core, and the presence of upstream necroptotic signaling does not by itself establish the identity of the terminal death mechanism.
+
+Mitochondrial permeability transition-dependent necrosis represents another important differential. Mitochondrial permeability transition can facilitate mitochondrial depolarization and AIF release in some parthanatos models [14,34], but it is not universally required. A death phenotype driven principally by mitochondrial permeability transition should therefore not be called parthanatos without demonstrating causal dependence on PARP1/PAR signaling and the relevant downstream parthanatotic machinery.
+
+Accidental necrosis is differentiated fundamentally by regulatability. Parthanatos can be prevented or strongly attenuated by targeted genetic or pharmacological interference with PARP1, PAR, AIF–PAR interaction, or MIF nuclease activity [7,9-12]. This causal susceptibility to pathway-specific intervention is incompatible with defining it merely as catastrophic nonspecific necrosis.
+
+Downstream inflammatory signaling must also be distinguished from execution. DNA fragments generated during MIF-dependent chromatinolysis have been proposed to activate innate nucleic-acid sensing systems, including cGAS–STING, AIM2, or TLR9-related responses in some models and specific contexts [11]. These responses are consequences or secondary signaling branches and are not established as the primary parthanatos execution machinery.
+
+## 10. Experimental Validation
+
+A rigorous demonstration of parthanatos requires convergent causal evidence rather than a single biomarker.
+
+First, dependence on PARP1 should be demonstrated genetically or pharmacologically. PARP1 loss, suppression, or catalytic inhibition should reduce both downstream pathway activation and cell death [10,25] . Measurement of PAR accumulation should establish that PARP1 activation has entered a high-output state rather than simply participating in physiological DNA repair.
+
+Second, the toxic role of PAR should be tested directly. Experimental reduction, degradation, sequestration, or neutralization of PAR should reduce downstream AIF mobilization and cell death [7-9,11]. Conversely, the appearance of abundant PAR before terminal death provides temporal evidence for pathway ordering.
+
+Third, mitochondrial-to-nuclear transmission should be demonstrated. Imaging or subcellular fractionation should establish AIF redistribution from mitochondria into cytoplasmic and nuclear compartments. Where experimentally feasible, mutation or disruption of the AIF PAR-binding region provides particularly strong evidence because this intervention can separate AIF's normal mitochondrial function from its role in transmitting the parthanatotic death signal [9].
+
+Fourth, MIF-dependent execution should be tested. MIF depletion, nuclease-dead MIF, or disruption of AIF–MIF interaction should suppress large-scale DNA fragmentation and improve survival [11-12,18]. Demonstrating this rescue is substantially stronger than simply detecting nuclear MIF.
+
+Fifth, functional assays should determine the contribution of the metabolic branch. Appropriate measurements include cellular NAD+, ATP, glycolytic function, mitochondrial membrane potential, and, when relevant, Ca2+ dynamics or mitochondrial permeability transition. Sixth, imaging should document the expected temporal progression: PAR accumulation and mitochondrial perturbation followed by AIF redistribution, nuclear condensation and large-scale DNA fragmentation, and finally loss of membrane integrity [28-29]. Imaging is supportive but cannot replace causal perturbation.
+
+Finally, competing death mechanisms must be excluded experimentally. In particular, persistence of death despite pan-caspase inhibition, together with rescue through the PARP1–PAR–AIF–MIF axis, supports parthanatos over classical apoptosis [26-27]. Where other RCD pathways are suspected, their candidate machinery should be independently perturbed rather than excluded solely on morphological grounds.
+
+TUNEL positivity, γH2AX, PARP1 expression, nuclear pyknosis, AIF nuclear localization, or propidium iodide uptake alone are insufficient to establish parthanatos. Likewise, transcriptomic enrichment of parthanatos-associated genes can indicate a pathway-associated state or susceptibility state but cannot demonstrate that cells are actively undergoing parthanatos.
+
+## 11. Molecular Hierarchy
+
+Initiators/sensors: oxidative or nitrosative DNA damage; excitotoxic NMDA receptor signaling in neurons; other context-specific stresses → DNA lesions → PARP1 recognition and activation [3-6].
+
+Apoptosis-inducing factor is released and carries macrophage migration inhibition factor into the nucleus, inducing Parthanatos [36].
+
+Core machinery: PARP1 → PAR → AIF → MIF [1,7,9,11,39].
+
+Executor: MIF nuclease, producing large-scale genomic DNA fragmentation and chromatinolysis in the canonical pathway [11-12]. PAR-dependent HK1 inhibition and subsequent metabolic failure constitute a parallel execution/amplification arm whose importance is context dependent [13].
+
+Negative regulators: ARH3-mediated PAR degradation; RNF146/IDUNA-mediated PAR buffering; efficient upstream DNA repair including XRCC1-associated repair; and preservation or restoration of NAD+ and metabolic homeostasis [1,8,14-15,23,33].
+
+Context-dependent regulators: mitochondrial permeability transition, Ca2+ overload, calpain, TRPM2/AMPA-related Ca2+ signaling, RIPK1/RIPK3, TAX1BP1, SIRT1, and NOX2 [14,16,30-32,34].
+
+Biomarkers: PAR accumulation, nuclear AIF, nuclear MIF, DNA-damage markers such as γH2AX, large-scale DNA fragmentation, nuclear condensation, mitochondrial depolarization, and late membrane permeability. ## 12. Integrated Canonical Sequence
+
+Severe oxidative, nitrosative, excitotoxic, alkylating, ischemic, inflammatory, or infection-associated stress → DNA strand breaks and oxidative DNA lesions → PARP1 recruitment to damaged DNA → allosteric PARP1 hyperactivation → extensive NAD+ consumption and PAR synthesis → pathological PAR accumulation → generation and/or mobilization of PAR species → PAR binding to mitochondrial AIF → mitochondrial perturbation and AIF release, with Ca2+/mitochondrial permeability transition amplification in some contexts → cytoplasmic AIF association with MIF → AIF–MIF nuclear translocation → MIF-dependent large-scale genomic DNA cleavage → irreversible chromatinolysis, accompanied in some systems by PAR-dependent HK1 inhibition, NAD+ loss, glycolytic failure and ATP depletion → collapse of nuclear, mitochondrial and energetic homeostasis → terminal plasma-membrane failure → cell death [3,7,9,11,13-14].
+
+## 13. Final Mechanistic Interpretation
+
+For RCDome, parthanatos can be operationally defined as an established, PARP1-dependent regulated cell death modality in which excessive DNA-damage-induced PARP1 activity produces pathological PAR accumulation, transforming a physiological DNA-repair response into a toxic nucleus-to-mitochondria-to-nucleus signaling program [1,7].
+
+The canonical mammalian mechanism requires PARP1 hyperactivation and toxic PAR signaling, followed by PAR-dependent mobilization of mitochondrial AIF and AIF-assisted nuclear recruitment of MIF. MIF provides the strongest experimentally supported nuclease execution activity and promotes large-scale genomic DNA fragmentation and irreversible chromatinolysis [9,11-12]. Parallel NAD+ depletion, HK1 inhibition, glycolytic collapse, mitochondrial depolarization, Ca2+ dysregulation, and permeability transition can amplify execution but vary substantially between cell types and experimental contexts [13-16].
+
+The terminal lesion in the best-defined canonical pathway is therefore extensive MIF-dependent chromatinolysis accompanied by progressive bioenergetic and mitochondrial collapse, ultimately resulting in loss of membrane integrity. AIF is an essential transducer in this pathway but is not itself the best-supported nuclease executor.
+
+Parthanatos has been demonstrated principally in mammalian experimental systems encompassing neuronal injury, oxidative stress, ischemia-related models, cardiovascular injury, inflammatory disease, infection-associated stress, and cancer-related contexts [1,3,12,19,22]. These contexts share the central principle of pathological PARP1/PAR signaling but do not necessarily share identical upstream triggers or mitochondrial amplification mechanisms.
+
+The principal unresolved mechanistic question is how PAR physically exits or is transported from the nucleus and how PAR–AIF engagement produces AIF release from mitochondria across different cell types. A second unresolved issue is the extent to which profound metabolic collapse has been proposed to replace the canonical AIF–MIF chromatinolytic route in some PARP1-dependent death states [1,13]. Consequently, experimental classification should prioritize causal dependence on the defining molecular machinery rather than morphology, isolated biomarkers, or transcriptional signatures.
+

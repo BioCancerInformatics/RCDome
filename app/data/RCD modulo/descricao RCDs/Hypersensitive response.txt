@@ -1,0 +1,273 @@
+HYPERSENSITIVE RESPONSE (HR)
+RCDome: Final Adjusted Mechanistic Description
+Anti-hallucination audited | References restricted to legally free full text
+
+1. DEFINITION AND CLASSIFICATION
+
+The hypersensitive response (HR) is an established plant immune-associated regulated cell-death program characterized by rapid, spatially restricted death of cells at or immediately surrounding sites of pathogen recognition [1,2]. HR is most commonly associated with effector-triggered immunity (ETI), in which intracellular nucleotide-binding leucine-rich repeat receptors (NLRs) recognize pathogen effectors or effector-induced perturbations. However, cell-surface immune signaling can reinforce NLR-mediated responses, and HR-like death can also be induced in defined elicitor or receptor systems [1,2,10].
+
+HR should not be classified as plant apoptosis. Plants do not possess the canonical animal apoptotic machinery, including canonical caspases, and metacaspases are not functional equivalents of animal caspases [2,3,27,30]. Although HR can display chromatin condensation, DNA fragmentation, cellular shrinkage, or protease activation, these features are not sufficient to classify the process as apoptosis. Plant immune cell death additionally involves plant-specific processes such as NLR-resistosome activation, Ca2+ signaling, redox amplification, membrane-potential changes, organelle remodeling, and, in some systems, vacuolar disruption [2,3,28].
+
+Mechanistically, HR is best regarded as a heterogeneous immune-associated cell-death program rather than one universally invariant execution pathway. The receptor-proximal mechanisms are now well defined for several NLR systems, especially CNL, TNL, and helper-NLR signaling. By contrast, the downstream transition from immune signaling to irreversible cellular destruction varies among receptors, species, tissues, and experimental systems [2,26,28]. No single protease, ROS species, organelle, or biochemical executor has been demonstrated to universally execute all forms of HR.
+
+
+2. INITIATION AND TRIGGERS
+
+The canonical biological context for HR is pathogen recognition by the plant immune system. Intracellular NLR receptors detect pathogen effectors either directly or indirectly. Two major sensor-NLR classes are coiled-coil NLRs (CNLs) and Toll/interleukin-1 receptor-domain NLRs (TNLs) [1,2].
+
+CNLs can convert effector recognition directly into oligomeric resistosome formation. Structural and functional work on ZAR1 established the paradigm that activated CNLs can oligomerize into membrane-associated complexes whose N-terminal helices form a pore-like structure. Because the original ZAR1 structural and electrophysiological primary papers are not all freely accessible, this specific ZAR1 model is cited here through open-access mechanistic reviews and free comparative primary evidence rather than represented as if the closed papers were directly used [4,28]. The wheat Sr35 resistosome provides open-access primary evidence that a CNL resistosome can form a cation-conducting complex, supporting conservation of this principle beyond ZAR1 [4].
+
+TNLs use a distinct receptor-proximal architecture. Activated TIR domains acquire enzymatic activity and produce nucleotide-derived signaling molecules [5]. These signals are decoded by EDS1-family complexes. A well-supported cell-death branch involves EDS1-SAG101 together with NRG1-family helper NLRs [6,7]. Helper NLRs themselves can oligomerize and form Ca2+-permeable cation channels; this has been demonstrated directly for Arabidopsis NRG1.1 and ADR1 [8]. Thus, TNL signaling does not require the sensor TNL itself to behave as a plasma-membrane Ca2+ channel.
+
+The receptor systems can therefore be represented conservatively as:
+
+CNL recognition → CNL resistosome formation → ion conductance/Ca2+ signaling
+
+and
+
+TNL recognition → TIR enzymatic signaling → nucleotide-derived messengers → EDS1-family complexes → helper-NLR activation → Ca2+ signaling.
+
+Plant cell-surface immunity and NLR immunity also interact. Genetic disruption of pattern-recognition receptor (PRR) signaling can reduce outputs of NLR-mediated immunity, showing that PTI and ETI are not fully independent layers [10]. Accordingly, HR should not be represented as an isolated linear NLR-only pathway in every biological context.
+
+
+3. CORE MECHANISTIC MACHINERY
+
+In NLR-triggered HR systems, the best-defined receptor-proximal death machinery is the resistosome and its downstream helper-NLR network.
+
+For CNL signaling, activated receptors can oligomerize into higher-order complexes with ion-channel activity. Open-access comparative work on the wheat Sr35 resistosome supports a conserved CNL principle in which oligomerization creates a membrane-associated cation-conducting complex [4]. ZAR1 has a pentameric funnel-like architecture and Ca2+-permeable cation-channel function [28].
+
+For TNL signaling, TIR enzymatic activity generates nucleotide-derived products that promote EDS1-family signaling [5]. EDS1-SAG101 forms a coevolved module with NRG1 in TNL-dependent cell-death signaling [6,7]. Direct electrophysiology and Ca2+-imaging experiments show that activated NRG1.1 and ADR1 helper NLRs form Ca2+-permeable nonselective cation channels and that channel-disrupting mutations suppress both Ca2+ influx and cell death [8].
+
+Helper-NLR signaling can be further amplified by canonical plant Ca2+ channels. In a Roq1/EDS1-SAG101-NRG1 TNL system, NRG1 channel activity promotes expression of GLR2.9a and GLR2.9b, which in turn contribute to intracellular Ca2+ accumulation, resistance, and host cell death [9]. Thus, resistosome-associated ion conductance is not necessarily the only source of Ca2+ during ETI.
+
+The strongest mechanistic convergence point is therefore sustained disruption of intracellular Ca2+ homeostasis. What remains less universal is how this early ionic signal is converted into terminal cellular destruction across all HR systems.
+
+
+4. PROPAGATION AND AMPLIFICATION
+
+Ca2+ is a major mechanistic amplifier of plant immunity. Cytosolic Ca2+ elevations activate Ca2+-responsive kinases, membrane transport systems, transcriptional programs, and redox pathways [12,13,28].
+
+Reactive oxygen species (ROS) constitute another major amplification layer, but their role is context-dependent. In PTI, pharmacological and genetic evidence shows reciprocal coupling between cytosolic Ca2+ and RBOH-dependent apoplastic ROS production: Ca2+ is required for robust ROS production, whereas ROS can help sustain the amplitude of the Ca2+ signal [12]. This PTI evidence supports Ca2+-ROS coupling as a general immune-signaling principle but should not by itself be presented as proof of the exact same causal sequence in every HR system.
+
+A more direct mechanistic connection between Ca2+-dependent protein kinases and NADPH oxidase exists in pathogen-associated plant signaling. Potato CDPK4/CDPK5 phosphorylate RBOHB at defined N-terminal residues in a Ca2+-dependent manner, and constitutively active CDPK5 promotes RBOH-dependent ROS production in Nicotiana benthamiana [13]. These data support CDPK→RBOH coupling as a mechanistic route for oxidative amplification without implying that one CDPK-RBOH pair is universal for HR.
+
+ROS production is spatially distributed. Chloroplast-derived ROS contribute to HR-like death downstream of a MAPK cascade, and suppression of chloroplast ROS by darkness delays this death response [14]. Mitochondrial ROS also contribute to plant programmed cell death and intact mitochondrial function is required for full HR in defined Arabidopsis-Pseudomonas experiments [15]. These findings establish organellar ROS as important context-dependent contributors rather than a single universal terminal toxin.
+
+Membrane electrochemical disruption provides another experimentally supported propagation route. In a defined CNL-associated system, an activated immune receptor domain targets plasma-membrane H+-ATPases, causing extracellular alkalinization and membrane depolarization. Genetic and pharmacological manipulation of H+-ATPase activity alters the associated cell-death phenotype [11]. This is strong evidence for an electrochemical contribution to CNL-associated death, but it should not be generalized to all TNL- or elicitor-triggered HR.
+
+MAPK cascades can also drive HR-like death. Constitutive activation of an Arabidopsis MAPK cascade produces H2O2 accumulation and HR-like cell death [23]. Taken together, these data support Ca2+, ROS, MAPK/CDPK signaling, membrane energetics, and organelles as interacting amplification layers whose exact contribution varies by immune receptor and pathosystem.
+
+
+5. PROTECTIVE AND NEGATIVE REGULATORS
+
+HR must be spatially restricted to avoid uncontrolled tissue damage, and several experimentally defined systems limit its initiation or propagation.
+
+LSD1 is a negative regulator of plant cell death. Arabidopsis lsd1 mutants are hyperresponsive to cell-death stimuli and fail to confine lesion spread, supporting a role for LSD1 in restraining a pro-death pathway associated with oxidative signaling [17].
+
+Metacaspase signaling provides another regulatory layer. AtMC1 is a positive regulator of immune-associated HR, and AtMC2 is an antagonist of AtMC1-dependent death [27]. These proteins are metacaspases rather than plant caspases and should not be described as equivalents of animal apoptotic executioner caspases.
+
+AtSERPIN1 negatively regulates AtMC1. AtSERPIN1 inhibits AtMC1 processing and AtMC1-associated cell death, providing direct evidence that HR-associated proteolytic signaling is actively restrained [18].
+
+Redox amplification is also subject to negative feedback. The primary AtRBOHD S-nitrosylation study is not used as a final free reference here; instead, the mechanistic conclusion is supported by an open-access review of plant immune redox regulation. AtRBOHD S-nitrosylation at Cys890 reduces NADPH-oxidase activity and provides a plausible feedback mechanism for limiting ROS accumulation and cell-death spread [29].
+
+MAPK amplitude can be restrained by PP2C-family phosphatases. An open-access study identified an MPK3/MPK6-WRKY-PP2C module in which PTI priming attenuates ETI-associated cell death and immune output [19]. This supports phosphatase-mediated restraint of immune signaling but does not establish one universal PP2C brake for every HR system.
+
+Autophagy is strongly context-dependent. In one classic immune model, autophagy genes restrict spread of HR-associated cell death to infection sites [20]. Autophagic components contribute positively to TNL-associated hypersensitive cell death [21]. Therefore, autophagy cannot be assigned universally as either an executor or a protective pathway in HR.
+
+
+6. COMMITMENT / POINT OF NO RETURN
+
+A universal biochemical or molecular point of no return has not been demonstrated for HR.
+
+NLR activation is not itself a universal commitment event because downstream genetic or biochemical interventions can suppress cell death in defined systems. Similarly, transient Ca2+ elevations, ROS accumulation, MAPK activation, or early organelle changes are signaling events and do not individually prove irreversible death.
+
+Recent live-cell analysis of NRC4-mediated immune cell death provides one of the clearest experimentally resolved execution sequences. NRC4 membrane enrichment coincides with Ca2+ influx, followed by mitochondrial and plastid disruption, endoplasmic-reticulum fragmentation, cytoskeletal depolymerization, and later loss of plasma-membrane integrity, nuclear shrinkage, and vacuolar collapse [26]. This sequence demonstrates that terminal structural collapse occurs downstream of early Ca2+ signaling in this specific system.
+
+For RCDome, the most defensible interpretation is therefore:
+
+There is no proven universal molecular point of no return for HR. Irreversible loss of membrane integrity and intracellular compartmentalization can be used as an operational indicator of terminal commitment, but the precise molecular transition that commits all HR systems to death remains unresolved.
+
+The phrase “self-sustaining ionic failure” should therefore be treated as a mechanistic model, not as an experimentally established universal commitment switch.
+
+
+7. EXECUTION AND TERMINAL CAUSE OF DEATH
+
+The question “what physically kills the cell?” does not currently have one universal molecular answer for HR.
+
+Resistosome or helper-NLR Ca2+ conductance is causally linked to immune signaling and cell death [4,8,9], but channel formation itself should not automatically be labeled the final executor. In the NRC4 system, Ca2+ influx precedes sequential organelle disruption, cytoskeletal depolymerization, loss of plasma-membrane integrity, nuclear shrinkage, and vacuolar collapse [26]. These observations support progressive failure of cellular compartmentalization as part of the execution phase, but they do not prove that the same terminal sequence applies to all HR systems.
+
+A specialized execution route operates through the vacuole in some contexts. In Nicotiana benthamiana, VPE silencing abolishes harpin-triggered HR but does not abolish HR induced by every tested elicitor, showing directly that VPE dependence is stimulus-specific [16]. Therefore, VPE-associated vacuolar disruption is a validated context-specific route rather than a universal HR executor.
+
+Accordingly, the most defensible RCDome statement is:
+
+No single universal HR executor or terminal lesion has been established. In well-resolved NLR systems, death progresses from receptor-dependent Ca2+ dysregulation to organelle and cytoskeletal disruption and ultimately loss of plasma-membrane and compartment integrity. VPE-dependent vacuolar execution occurs in specific HR contexts.
+
+
+8. MORPHOLOGICAL SEQUENCE
+
+HR morphology is heterogeneous and should not be used alone to infer mechanism [2,3].
+
+Early events can include Ca2+ elevation, ROS production, changes in membrane potential, and altered organelle physiology. These are signaling and propagation events rather than definitive evidence that death is irreversible [2,12,26].
+
+In the temporally resolved NRC4 system, Ca2+ influx is followed by mitochondrial and plastid disruption, ER fragmentation, and cytoskeletal depolymerization. Later stages include loss of plasma-membrane integrity, nuclear shrinkage, and vacuolar collapse [26].
+
+Other HR systems may display cytoplasmic shrinkage, chromatin condensation, DNA fragmentation, vacuolization, or mixed necrotic/vacuolar features [2,3]. Because HR does not have one invariant morphology, these events should be reported as observed phenotypes rather than as universal required stages.
+
+Visible lesions, electrolyte leakage, ROS accumulation, DNA fragmentation, and chromatin condensation are therefore readouts of immune-associated cell death, not proof of a particular molecular execution pathway.
+
+
+9. CROSSTALK AND DIFFERENTIAL DIAGNOSIS
+
+HR versus animal apoptosis:
+Plants do not possess the canonical animal apoptotic machinery. Metacaspases differ structurally and biochemically from animal caspases, and plant HR should not be called apoptosis solely because it displays DNA fragmentation, chromatin condensation, or protease activity [2,3,27].
+
+HR versus accidental/generic necrosis:
+Terminal HR can include loss of plasma-membrane integrity and necrotic morphology, but multiple genetically defined immune components act upstream. NLRs, EDS1-family proteins, helper NLRs, metacaspases, MAPK-related modules, and VPE can alter death in defined systems [6-9,16,19,27]. Thus, membrane rupture at the endpoint does not imply that the preceding process was unregulated.
+
+HR versus autophagy-dependent cell death:
+Autophagy can restrict lesion spread in some systems and contribute positively to receptor-mediated death in others [20,21]. Autophagic structures or ATG-gene activation alone are therefore insufficient to classify HR as autophagy-dependent cell death.
+
+HR versus oxidative/ferroptosis-like interpretations:
+ROS and oxidative damage are prominent in many HR models [12-15,29]. No universal ferroptotic execution machinery should be assigned to HR solely from oxidative biomarkers.
+
+Immune resistance versus HR cell death:
+Resistance and visible HR cell death are separable outputs. In potato-PVY resistance, virus restriction and the cell-death zone can be experimentally dissociated, supporting the conclusion that HR cell death is not universally synonymous with successful pathogen restriction [24]. HR should therefore be considered a regulated immune-associated output rather than a synonym for resistance itself.
+
+
+10. EXPERIMENTAL VALIDATION
+
+For RCDome purposes, convincing evidence for HR should integrate multiple orthogonal measurements. The following constitutes a validation framework rather than a claim that every HR paper must use all methods.
+
+Genetic necessity:
+Disrupt the receptor or proposed downstream component and determine whether the death phenotype is reduced in the specific pathosystem. Examples include EDS1-SAG101/NRG1 modules, helper-NLR channels, VPE, metacaspase-associated regulation, or other candidate nodes [6-9,16,27].
+
+Sufficiency or gain of function:
+Use activated receptor variants, activated helper NLRs, or constitutively active signaling modules to determine whether the candidate pathway can induce the predicted sequence of immune signaling and death [8,23,26].
+
+Mechanistic rescue:
+Restore or inhibit the proposed causal process. Examples include manipulation of H+-ATPase activity in a CNL-associated system, channel-disrupting helper-NLR mutations, or pathway complementation [8,11].
+
+Functional readouts:
+Measure cytosolic Ca2+, membrane potential, ion conductance, RBOH/ROS activity, electrolyte leakage, metabolic state, and plasma-membrane integrity. These assays should be interpreted temporally so that early signaling is distinguished from terminal damage [12,22,26].
+
+Live-cell imaging:
+Temporal imaging is particularly important because morphology alone cannot distinguish signaling from execution. The NRC4 imaging study directly demonstrates the value of resolving Ca2+ influx, organelle disruption, cytoskeletal changes, membrane integrity, nuclear morphology, and vacuolar collapse over time [26]. Continuous electrolyte-leakage approaches can complement imaging by providing quantitative kinetics of plant cell death [22].
+
+Transcriptomics:
+HR-associated transcriptional markers can identify cells or states associated with future immune cell death, but gene-expression signatures do not by themselves demonstrate the execution mechanism. Spatiotemporal transcriptomic work has identified robust HR-associated markers and reporter systems, which should be interpreted as predictive or state-associated indicators rather than proof of a specific lethal pathway [25].
+
+Competing mechanisms:
+Claims of apoptosis, ferroptosis, autophagy-dependent death, or VPE-universal execution should be excluded unless the defining mechanism is directly demonstrated.
+
+
+11. MOLECULAR HIERARCHY
+
+Initiators / sensors:
+- Intracellular CNL and TNL immune receptors.
+- Cell-surface PRRs can cooperate with intracellular immunity in defined contexts [1,2,10].
+
+Receptor-proximal signal transducers:
+- CNL resistosomes with cation-channel activity in defined receptor systems [4,28].
+- TIR enzymatic signaling products [5].
+- EDS1-SAG101/NRG1 and EDS1-PAD4/ADR1-associated modules [6-8].
+
+Core ion-signaling machinery:
+- Ca2+-permeable sensor/helper NLR complexes [4,8].
+- Additional canonical Ca2+ channels, including GLR channels, can amplify NLR-triggered Ca2+ signaling [9].
+
+Amplification machinery:
+- CDPK/RBOH and other Ca2+-redox coupling mechanisms [12,13].
+- MAPK cascades [23].
+- Chloroplast and mitochondrial redox contributions in defined systems [14,15].
+- Plasma-membrane electrochemical disruption through H+-ATPase regulation in a defined CNL-associated system [11].
+
+Context-specific execution/regulatory components:
+- VPE in selected elicitor-triggered HR [16,31].
+- AtMC1/AtMC2 and AtSERPIN1-associated proteolytic regulation [18,27].
+- Autophagy, with positive or negative roles depending on receptor/context [20,21].
+
+Negative regulators:
+- LSD1 [17].
+- AtSERPIN1 [18].
+- PP2C-linked MAPK restraint [19].
+- S-nitrosylation-dependent reduction of RBOHD activity as a redox feedback mechanism [29].
+
+Biomarkers/readouts rather than universal executors:
+- ROS accumulation.
+- Electrolyte leakage.
+- Visible lesions.
+- DNA fragmentation.
+- Chromatin condensation.
+- HR-associated transcriptional signatures.
+- Organelle collapse observed without causal perturbation.
+
+
+12. INTEGRATED CANONICAL SEQUENCES
+
+Because HR is mechanistically heterogeneous, one universal linear sequence would be misleading. The best-supported architectures are:
+
+CNL-associated route:
+Pathogen effector / effector-induced perturbation
+→ CNL activation
+→ resistosome oligomerization
+→ cation conductance and Ca2+ influx
+→ Ca2+-dependent kinase/redox and transcriptional amplification
+→ context-dependent membrane, organelle, cytoskeletal, and metabolic disruption
+→ terminal loss of plasma-membrane/compartment integrity
+→ cell death.
+
+TNL-associated route:
+Pathogen effector recognition
+→ TNL activation
+→ TIR enzymatic activity
+→ nucleotide-derived signaling products
+→ EDS1-family complex activation
+→ NRG1/ADR1 helper-NLR activation
+→ Ca2+ influx
+→ secondary Ca2+-channel, transcriptional, redox, and kinase amplification
+→ context-dependent structural and metabolic disruption
+→ terminal loss of cellular integrity
+→ cell death.
+
+Specialized VPE-dependent route in defined elicitor systems:
+immune elicitor
+→ upstream immune signaling
+→ VPE requirement
+→ vacuolar/tonoplast-associated execution
+→ cellular collapse.
+
+These routes should not be collapsed into a single mandatory chain.
+
+
+13. FINAL MECHANISTIC INTERPRETATION
+
+For RCDome, hypersensitive response can be operationally defined as:
+
+An established, rapidly localized, pathogen-associated plant immune cell-death program in which immune-receptor activation, most prominently through intracellular NLRs, initiates genetically controlled signaling that can involve resistosome formation, TIR/EDS1/helper-NLR signaling, Ca2+ dysregulation, redox and kinase amplification, membrane-electrochemical changes, and progressive organelle and structural disruption. The receptor-proximal mechanisms are well defined in multiple NLR systems, whereas the terminal execution phase is heterogeneous and no single universal molecular executor has been established.
+
+Established core:
+- Immune-receptor dependence.
+- CNL/TNL receptor activation.
+- Resistosome/helper-NLR signaling.
+- Ca2+ as a major convergence signal.
+- Genetically regulated and spatially restricted cell death.
+
+Context-dependent components:
+- Exact channel identity and subcellular localization.
+- RBOH/ROS contribution.
+- MAPK and CDPK contribution.
+- Chloroplast and mitochondrial participation.
+- H+-ATPase regulation.
+- Metacaspase regulation.
+- Autophagy.
+- VPE/vacuolar execution.
+
+Unresolved:
+- The universal biochemical point of no return.
+- Whether a common terminal executor exists downstream of diverse NLR and elicitor systems.
+- Which terminal structural events are conserved across species and receptors rather than specific to experimentally resolved systems such as NRC4.
+
+The most defensible answer to “what kills the cell?” is therefore not a single protein. In the best-resolved systems, immune-receptor-driven Ca2+ dysregulation precedes progressive organelle, cytoskeletal, and membrane disruption culminating in loss of cellular compartment integrity. Whether this sequence constitutes a universal HR execution mechanism remains unresolved.
+
+
+

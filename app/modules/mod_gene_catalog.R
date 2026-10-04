@@ -57,6 +57,11 @@ mod_gene_catalog_ui <- function(id) {
         style = "margin:0 0 0 14px; display:inline-flex; align-items:center; gap:5px; cursor:pointer; font-weight:400; font-size:14px;",
         tags$input(type = "radio", name = ns("source_sel_r"), value = "elicit", style = "margin:0;"),
         "Elicit"),
+      tags$label(
+        `data-tip` = "Consensus API classification — complete (100% of 21,568 pairs). Role: EXECUTOR/REGULATOR/MARKER/UNCERTAIN · Direction: PROMOTES/PROTECTS/UNCLEAR · Mechanistic: YES/NO.",
+        style = "margin:0 0 0 14px; display:inline-flex; align-items:center; gap:5px; cursor:pointer; font-weight:400; font-size:14px;",
+        tags$input(type = "radio", name = ns("source_sel_r"), value = "consensus", style = "margin:0;"),
+        "Consensus"),
       actionButton(ns("death_core"), "Death core (executors)",
         `data-tip` = "One-click filter to the 469 EXECUTOR gene-RCD pairs (DeepSeek) — the genes that directly execute cell death.",
         class = "search-evidence-btn", style = "margin-left:auto; height:32px; padding:0 14px; font-size:12.5px;"),
@@ -75,7 +80,7 @@ mod_gene_catalog_ui <- function(id) {
                   selected = "tsv", width = "120px"),
       downloadButton(ns("download_btn"), "Download", class = "search-evidence-btn"),
       downloadButton(ns("download_full"), "Download RCDome matrix (CSV)",
-        `data-tip` = "Export the complete truth matrix — all 22,473 rows x 71 columns (all analyses: Elicit, DeepSeek, and every provenance column).",
+        `data-tip` = "Export the complete truth matrix — all 22,473 rows x 82 columns (all analyses: Elicit, DeepSeek, and every provenance column).",
         class = "search-evidence-btn")
     ),
     tags$p("22,473 rows shown = 21,568 unique gene-RCD pairs + 905 rows of multi-database corroboration (same gene+entity reported by 2+ databases).",
@@ -136,8 +141,8 @@ mod_gene_catalog_server <- function(id) {
         genes_rv(if (exists("genes_df", inherits = TRUE) && is.data.frame(genes_df) && nrow(genes_df) > 0) {
           genes_df
         } else {
-          tryCatch(readRDS("data/unified_gene_rcd_matrix_V026.rds"),
-                   error = function(e) { message("RCDome load error: unified_gene_rcd_matrix_V026.rds - ", conditionMessage(e)); data.frame(gene_symbol = character(0)) })
+          tryCatch(readRDS("data/unified_gene_rcd_matrix_V027.rds"),
+                   error = function(e) { message("RCDome load error: unified_gene_rcd_matrix_V027.rds - ", conditionMessage(e)); data.frame(gene_symbol = character(0)) })
         })
       }
       genes_rv()
@@ -204,7 +209,7 @@ mod_gene_catalog_server <- function(id) {
         ),
         size = "l", easyClose = TRUE, footer = modalButton("Close"),
 
-        # RCD entities (canonical, from V026)
+        # RCD entities (canonical, from V027)
         tags$h5(paste0("RCD entities (", length(rcd_all), ")")),
         tags$p(rcd_str),
 
@@ -241,6 +246,17 @@ mod_gene_catalog_server <- function(id) {
           tags$p(tags$strong("DeepSeek Mechanistic: "), f("cot_mechanistic")),
           tags$p(tags$strong("DeepSeek Role: "), f("cot_role")),
           tags$p(tags$strong("DeepSeek Direction: "), f("cot_direction")),
+          tags$p(tags$strong("Consensus Role: "), f("consensus_role")),
+          tags$p(tags$strong("Consensus Direction: "), f("consensus_direction")),
+          tags$p(tags$strong("Consensus Mechanistic: "), f("consensus_mechanistic")),
+          tags$p(tags$strong("Consensus Role Form: "), f("consensus_role_form")),
+          tags$p(tags$strong("Consensus DOI: "), f("consensus_doi")),
+          tags$p(tags$strong("Consensus Title: "), f("consensus_title")),
+          tags$p(tags$strong("Consensus Takeaway: "), f("consensus_takeaway")),
+          tags$p(tags$strong("Consensus Citation Count: "), f("consensus_citation_count")),
+          tags$p(tags$strong("Consensus SJR: "), f("consensus_sjr")),
+          tags$p(tags$strong("Consensus Year: "), f("consensus_year")),
+          tags$p(tags$strong("Consensus Status: "), f("consensus_status")),
           tags$p(tags$strong("Required for Death: "), f("required_for_death")),
           tags$p(tags$strong("Evidence Type: "), f("evidence_type")),
           tags$p(tags$strong("PMIDs: "), collapse_field("pmid_list")),
@@ -314,9 +330,11 @@ mod_gene_catalog_server <- function(id) {
     # Direction/Role source selector → which analysis's columns to show
     src_cols <- reactive({
       if (identical(input$source_sel, "elicit")) {
-        list(role = "rcd_gene_type", dir = "role_direction", label = "Elicit")
+        list(role = "rcd_gene_type", dir = "role_direction", mech = "cot_mechanistic", label = "Elicit")
+      } else if (identical(input$source_sel, "consensus")) {
+        list(role = "consensus_role", dir = "consensus_direction", mech = "consensus_mechanistic", label = "Consensus")
       } else {
-        list(role = "cot_role", dir = "cot_direction", label = "DeepSeek")
+        list(role = "cot_role", dir = "cot_direction", mech = "cot_mechanistic", label = "DeepSeek")
       }
     })
 
@@ -367,8 +385,8 @@ mod_gene_catalog_server <- function(id) {
       db_choices <- sort(unique(unlist(strsplit(df$source_databases, ";"))))
       db_choices <- db_choices[db_choices != "" & !is.na(db_choices)]
       updateSelectizeInput(session, "f_db", choices = db_choices)
-      updateSelectizeInput(session, "f_mech", choices = sort(unique(df$cot_mechanistic[df$cot_mechanistic != ""])))
       sc <- src_cols()
+      updateSelectizeInput(session, "f_mech", choices = sort(unique(df[[sc$mech]][df[[sc$mech]] != ""])))
       updateSelectizeInput(session, "f_role", choices = sort(unique(df[[sc$role]][df[[sc$role]] != ""])))
       updateSelectizeInput(session, "f_dir", choices = sort(unique(df[[sc$dir]][df[[sc$dir]] != ""])))
     })
@@ -389,8 +407,8 @@ mod_gene_catalog_server <- function(id) {
         keep <- sapply(df$source_databases, function(s) any(vapply(input$f_db, function(d) grepl(d, s, fixed = TRUE), logical(1))))
         df <- df[keep, , drop = FALSE]
       }
-      if (!is.null(input$f_mech) && length(input$f_mech) > 0) df <- df[df$cot_mechanistic %in% input$f_mech, , drop = FALSE]
       sc <- src_cols()
+      if (!is.null(input$f_mech) && length(input$f_mech) > 0) df <- df[df[[sc$mech]] %in% input$f_mech, , drop = FALSE]
       if (!is.null(input$f_role) && length(input$f_role) > 0) df <- df[df[[sc$role]] %in% input$f_role, , drop = FALSE]
       if (!is.null(input$f_dir) && length(input$f_dir) > 0) df <- df[df[[sc$dir]] %in% input$f_dir, , drop = FALSE]
       df
@@ -521,7 +539,7 @@ mod_gene_catalog_server <- function(id) {
       }
     )
 
-    # ── Download the FULL V026 matrix (all rows, all 71 columns) ───────
+    # ── Download the FULL V027 matrix (all rows, all 82 columns) ───────
     output$download_full <- downloadHandler(
       filename = function() { "RCDome_full_matrix.csv" },
       content = function(file) {

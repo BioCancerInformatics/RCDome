@@ -1,1 +1,77 @@
-Partanatose: morte celular programada mediada pela hiperativação da PARP-1, causando fragmentação do DNA e translocação do AIF para o núcleo. É mediada por enzimas PARP e se sobrepõe à apoptose na resposta ao dano ao DNA. A inibição de PARP pode desencadear partanatose em tumores com reparo de DNA deficiente, conectando essa forma de morte celular às vias de resposta ao dano ao DNA.
+**[1]** Galluzzi L, Vitale I, Aaronson SA, et al. Molecular mechanisms of cell death: recommendations of the Nomenclature Committee on Cell Death 2018. Cell Death and Differentiation. 2018;25:486–541. DOI: 10.1038/s41418-017-0012-4.
+
+**[2]** Del Re DP, Amgalan D, Linkermann A, Liu Q, Kitsis RN. Fundamental Mechanisms of Regulated Cell Death and Implications for Heart Disease. Physiological Reviews. 2019;99:1765–1817. DOI: 10.1152/physrev.00022.2018.
+
+**[3]** Wang Y, Dawson VL, Dawson TM. Poly(ADP-ribose) Signals to Mitochondrial AIF: A Key Event in Parthanatos. Experimental Neurology. 2009;218:193–202. DOI: 10.1016/j.expneurol.2009.03.020.
+
+**[4]** Chiu LY, Ho FM, Shiah SG, Chang Y, Lin WW. Oxidative stress initiates DNA damage, MNNG-induced poly(ADP-ribose) polymerase-1-dependent parthanatos cell death. Biochemical Pharmacology. 2011;81:459–470. DOI: 10.1016/j.bcp.2010.10.016.
+
+**[5]** Langelier MF, Planck JL, Roy S, Pascal JM. Structural basis for DNA-dependent poly(ADP-ribosyl)ation by human PARP-1. Science. 2012;336:728–732. DOI: 10.1126/science.1216338.
+
+**[6]** Langelier MF, Pascal JM. PARP-1 mechanism for coupling DNA damage detection to poly(ADP-ribose) synthesis. Current Opinion in Structural Biology. 2013;23:134–143. DOI: 10.1016/j.sbi.2013.01.003.
+
+**[7]** Andrabi SA, Kim NS, Yu SW, et al. Poly(ADP-ribose) (PAR) polymer is a death signal. Proceedings of the National Academy of Sciences USA. 2006;103:18308–18313. DOI: 10.1073/pnas.0606526103.
+
+**[8]** Mashimo M, Kato J, Moss J. ADP-ribosyl-acceptor hydrolase 3 regulates poly(ADP-ribose) degradation and cell death during oxidative stress. Proceedings of the National Academy of Sciences USA. 2013;110:18964–18969. DOI: 10.1073/pnas.1312783110.
+
+**[9]** Wang Y, Kim NS, Haince JF, et al. Poly(ADP-ribose) (PAR) Binding to Apoptosis-Inducing Factor Is Critical for PAR Polymerase-1-Dependent Cell Death (Parthanatos). Science Signaling. 2011;4:ra20. DOI: 10.1126/scisignal.2000902.
+
+**[10]** Yu SW, Wang H, Poitras MF, et al. Mediation of Poly(ADP-Ribose) Polymerase-1-Dependent Cell Death by Apoptosis-Inducing Factor. Science. 2002;297:259–263. DOI: 10.1126/science.1072221.
+
+**[11]** Wang Y, An R, Umanah GKE, et al. A nuclease that mediates cell death induced by DNA damage and poly(ADP-ribose) polymerase-1. Science. 2016;354. DOI: 10.1126/science.aad6872.
+
+**[12]** Park H, Kam TI, Peng HJ, et al. PAAN/MIF nuclease inhibition prevents neurodegeneration in Parkinson's disease. Cell. 2022;185:1943–1959.e21. DOI: 10.1016/j.cell.2022.04.020.
+
+**[13]** Andrabi SA, Umanah GKE, Chang C, et al. Poly(ADP-ribose) polymerase-dependent energy depletion occurs through inhibition of glycolysis. Proceedings of the National Academy of Sciences USA. 2014;111:10209–10214. DOI: 10.1073/pnas.1405158111.
+
+**[14]** Alano CC, Ying W, Swanson RA. Poly(ADP-ribose) Polymerase-1-mediated Cell Death in Astrocytes Requires NAD+ Depletion and Mitochondrial Permeability Transition. Journal of Biological Chemistry. 2004;279:18895–18902. DOI: 10.1074/jbc.m313329200.
+
+**[15]** Pillai JB, Isbatan A, Imai S, Gupta MP. Poly(ADP-ribose) Polymerase-1-dependent Cardiac Myocyte Cell Death during Heart Failure Is Mediated by NAD+ Depletion and Reduced Sir2α Deacetylase Activity. Journal of Biological Chemistry. 2005;280:43121–43130. DOI: 10.1074/jbc.m506162200.
+
+**[16]** Wang Y, Kim NS, Li X, et al. Calpain activation is not required for AIF translocation in PARP-1-dependent cell death (parthanatos). Journal of Neurochemistry. 2009;110:687–696. DOI: 10.1111/j.1471-4159.2009.06167.x.
+
+**[17]** Guttman LC, Yang L, Liu M, Dawson VL, Dawson TM. Targeting PAAN/MIF nuclease activity in parthanatos-associated brain diseases. Advances in Pharmacology. 2025;102:1–26. DOI: 10.1016/bs.apha.2024.12.001.
+
+**[18]** Chen D, Osipyan A, Adriana J, et al. Allosteric Inhibitors of Macrophage Migration Inhibitory Factor (MIF) Interfere with Apoptosis-Inducing Factor (AIF) Co-Localization to Prevent Parthanatos. Journal of Medicinal Chemistry. 2023;66:8767–8781. DOI: 10.1021/acs.jmedchem.3c00397.
+
+**[19]** Mace JW, Gadani SP, Smith MD, et al. Autoimmune neuroinflammation leads to neuronal death via MIF nuclease-mediated parthanatos. Nature Neuroscience. 2026;29:796–809. DOI: 10.1038/s41593-026-02201-7.
+
+**[20]** Mashimo M, Onishi M, Uno A, et al. The 89-kDa PARP1 cleavage fragment serves as a cytoplasmic PAR carrier to induce AIF-mediated apoptosis. Journal of Biological Chemistry. 2020;296. DOI: 10.1074/jbc.RA120.014479.
+
+**[21]** Kopel B, Valente PF, Santos AC, et al. PARG activity is required for cell death by parthanatos. bioRxiv. 2026. DOI: 10.64898/2026.05.12.724507.
+
+**[22]** Moura RD, De Mattos PD, Valente PF, Hoch N. Molecular mechanisms of cell death by parthanatos: More questions than answers. Genetics and Molecular Biology. 2024;47. DOI: 10.1590/1678-4685-GMB-2023-0357.
+
+**[23]** Mashimo M, Bu X, Aoyama K, et al. PARP1 inhibition alleviates injury in ARH3-deficient mice and human cells. JCI Insight. 2019;4. DOI: 10.1172/jci.insight.124519.
+
+**[24]** Tang D, Kang R, Berghe TV, Vandenabeele P, Kroemer G. The molecular machinery of regulated cell death. Cell Research. 2019;29:347–364. DOI: 10.1038/s41422-019-0164-5.
+
+**[25]** Xu L, Qu SY, Qu M, et al. Parthanatos initiated by ROS-induced DNA damage is involved in intestinal epithelial injury during necrotizing enterocolitis. Cell Death Discovery. 2024;10. DOI: 10.1038/s41420-024-02114-z.
+
+**[26]** Yang D, Shu T, Zhao H, Sun Y, Xu W, Tu G. Knockdown of macrophage migration inhibitory factor (MIF), a novel target to protect neurons from parthanatos induced by simulated post-spinal cord injury oxidative stress. Biochemical and Biophysical Research Communications. 2020. DOI: 10.1016/j.bbrc.2019.12.115.
+
+**[27]** Fan C, Tian Y, Zhang Y, Teng J, Zhao X. Ceramide induces macrophage migration inhibitory factor-mediated parthanatos in mouse neurons by increasing ROS levels. Neuroscience Letters. 2022:136862. DOI: 10.1016/j.neulet.2022.136862.
+
+**[28]** Andrabi SA, Dawson TM, Dawson VL. Mitochondrial and Nuclear Cross Talk in Cell Death: Parthanatos. Annals of the New York Academy of Sciences. 2008;1147:233–241. DOI: 10.1196/annals.1427.014.
+
+**[29]** Donizy P, Hałoń A, Surowiak P, et al. Correlation Between PARP-1 Immunoreactivity and Cytomorphological Features of Parthanatos, a Specific Cellular Death in Breast Cancer Cells. European Journal of Histochemistry. 2013;57. DOI: 10.4081/ejh.2013.e35.
+
+**[30]** Liang S, Wang X, Piao M, et al. Activated SIRT1 contributes to DPT-induced glioma cell parthanatos by upregulation of NOX2 and NAT10. Acta Pharmacologica Sinica. 2023;44:2125–2138. DOI: 10.1038/s41401-023-01109-3.
+
+**[31]** Wang X, Liang S, Chen X, et al. TAX1BP1 contributes to deoxypodophyllotoxin-induced glioma cell parthanatos via inducing nuclear translocation of AIF by activation of mitochondrial respiratory chain complex I. Acta Pharmacologica Sinica. 2023;44:1906–1919. DOI: 10.1038/s41401-023-01091-w.
+
+**[32]** Liu S, Luo W, Wang Y. Emerging role of PARP-1 and PARthanatos in ischemic stroke. Journal of Neurochemistry. 2021;160:74–87. DOI: 10.1111/jnc.15464.
+
+**[33]** Lin X, Leung KSK, Wolfe KF, et al. XRCC1 mediates PARP1- and PAR-dependent recruitment of PARP2 to DNA damage sites. Nucleic Acids Research. 2025;53. DOI: 10.1093/nar/gkaf086.
+
+**[34]** Wan H, Chen H, Liu J, et al. PARP1 inhibition prevents oxidative stress in age-related hearing loss via PAR-Ca2+-AIF axis in cochlear strial marginal cells. Free Radical Biology and Medicine. 2024. DOI: 10.1016/j.freeradbiomed.2024.05.020.
+
+**[35]** Taghavi Pourianazar N, Abdullah N. Enhanced Antitumor Response in Breast Cancer via Parthanatos Activation Mediated by the Synergistic Effect of Etoposide and Resveratrol. Current Issues in Molecular Biology. 2026;48:381. DOI: 10.3390/cimb48040381.
+
+**[36]** Li J, Mu D, Li J, et al. PARP inhibitors target cellular energy metabolism: Mechanisms of action and clinical implications. Translational Oncology. 2026;68:102757. DOI: 10.1016/j.tranon.2026.102757.
+
+**[37]** Zhang J, Hu X, Geng Y, et al. Exploring the role of parthanatos in CNS injury: Molecular insights and therapeutic approaches. Journal of Advanced Research. 2025;70:271-286. DOI: 10.1016/j.jare.2024.04.031.
+
+**[38]** Sverzhinsky A, Xue H, Langelier M, et al. PARP1-HPF1 structure and dynamics on nicked DNA suggest a mechanism for acute and localized ADP-ribosylation. Nature Communications. 2026;17. DOI: 10.1038/s41467-026-69375-3.
+
+**[39]** Huang P, Chen G, Jin W, et al. Molecular Mechanisms of Parthanatos and Its Role in Diverse Diseases. International Journal of Molecular Sciences. 2022;23:7292. DOI: 10.3390/ijms23137292.

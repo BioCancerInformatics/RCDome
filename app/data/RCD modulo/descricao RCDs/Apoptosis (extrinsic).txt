@@ -1,0 +1,714 @@
+## Extrinsic Apoptosis
+
+Extrinsic apoptosis is an established subtype of regulated cell death in which an extracellular death signal is detected by plasma-membrane death receptors and converted into activation of the initiator protease caspase-8, followed by executioner caspase-3 and caspase-7 activation and ordered cellular dismantling [1-3]. Its defining feature is therefore receptor-proximal assembly of a caspase-8-activating platform rather than mitochondrial damage as the primary initiating event.
+
+The pathway is mechanistically distinct from necroptosis and pyroptosis. Apoptosis is a caspase-dependent process, necroptosis is mediated principally by RIPK3 and MLKL, and pyroptosis is driven by gasdermin-mediated membrane permeabilization [41]. Nevertheless, these pathways are tightly interconnected because death receptors, RIPK1, FADD, and caspase-8 can participate in molecular switches that determine which death mechanism ultimately becomes dominant.
+
+The canonical extracellular initiators are members of the tumor necrosis factor ligand family. Major ligand–receptor pairs include Fas ligand binding Fas/CD95, TRAIL binding TRAIL-R1/DR4 or TRAIL-R2/DR5, and TNF binding TNFR1 [4-6].
+
+These receptors contain intracellular death domains that allow ligand-induced receptor organization to be translated into recruitment of intracellular adaptor proteins.
+
+The simplest canonical initiating sequences are:
+
+FasL → Fas/CD95 → receptor oligomerization → FADD recruitment → death-inducing signaling complex formation.
+
+TRAIL → DR4 and/or DR5 → receptor oligomerization → FADD recruitment → death-inducing signaling complex formation.
+
+TNF → TNFR1 → membrane-associated complex I → survival-versus-death checkpoint → cytosolic complex II formation when pro-survival signaling fails.
+
+### Fas and TRAIL Receptor Activation
+
+Binding of FasL to Fas/CD95 induces higher-order organization of Fas molecules within the plasma membrane.
+
+The intracellular death domains of clustered Fas receptors recruit the adaptor protein FADD through death-domain interactions [6-7].
+
+FADD contains both a death domain and a death effector domain.
+
+Its death domain connects FADD to the activated receptor, whereas its death effector domain recruits proteins containing compatible death effector domains, principally procaspase-8 and, depending on the cellular context, procaspase-10 and c-FLIP isoforms [7-11].
+
+The resulting receptor-proximal platform is known as the death-inducing signaling complex, or DISC.
+
+The classical representation:
+
+Fas → FADD → procaspase-8
+
+is useful but oversimplified.
+
+Current structural and quantitative evidence indicates that the DISC is not simply a fixed 1:1 receptor:FADD:caspase-8 complex [6,8-9].
+
+Instead, receptor-associated FADD molecules nucleate higher-order assemblies of death effector domains.
+
+FADD and procaspase-8 form DED-containing chains or filaments that concentrate procaspase-8 molecules and promote their activation [8-9].
+
+Thus:
+
+FasL → Fas higher-order clustering → Fas death-domain assembly → FADD recruitment → FADD DED filament nucleation → procaspase-8 recruitment → procaspase-8 proximity and dimerization.
+
+The same fundamental mechanism applies to TRAIL receptor signaling.
+
+TRAIL engages DR4 and/or DR5, causing formation of receptor complexes that recruit FADD and procaspase-8 [4,12].
+
+The resulting DISC can contain DR4, DR5, FADD, procaspase-8, procaspase-10, and c-FLIP proteins in context-dependent stoichiometries [7,12].
+
+Therefore, receptor oligomerization should be understood as a structural activation step.
+
+The extracellular ligand does not directly activate caspase-8 enzymatically. Instead, it reorganizes receptors so that an intracellular protein-assembly platform can form.
+
+Ligand-independent receptor clustering can occasionally produce the same result. Fas can signal through a DISC/caspase-8 pathway, with type I versus type II distinctions in extrinsic apoptosis [47].
+
+Thus, the fundamental initiating requirement is productive receptor organization and signaling-complex assembly rather than ligand binding alone.
+
+### DISC Architecture and Caspase-8 Activation
+
+Procaspase-8 is synthesized as an inactive zymogen containing tandem N-terminal death effector domains followed by the catalytic protease domain.
+
+Recruitment into the DISC concentrates multiple procaspase-8 molecules within a confined molecular structure.
+
+This local increase in concentration favors antiparallel procaspase-8 dimerization, which is the principal initiating activation event [6,8-9].
+
+Proteolytic processing then stabilizes and matures active caspase-8.
+
+The sequence can therefore be represented as:
+
+procaspase-8 recruitment → DED-chain organization → proximity-induced procaspase-8 dimerization → catalytic activation → stepwise autoproteolytic processing → mature active caspase-8.
+
+This distinction is mechanistically important.
+
+Proteolytic cleavage alone should not be considered the initial activation mechanism. Dimerization within the receptor-associated platform occurs first, whereas cleavage contributes to maturation, stabilization, and release of active enzyme [1,6,8].
+
+Active caspase-8 can subsequently leave the receptor-proximal complex and cleave cytosolic substrates.
+
+Its two most important downstream outputs are direct activation of executioner caspases and cleavage of BID.
+
+Thus:
+
+active caspase-8 → procaspase-3/procaspase-7 cleavage
+
+and/or
+
+active caspase-8 → BID cleavage → tBID → mitochondrial amplification.
+
+These two routes correspond broadly to the classical type I and type II modes of death-receptor-induced apoptosis.
+
+### c-FLIP as the Major Receptor-Proximal Checkpoint
+
+c-FLIP is one of the most important endogenous regulators of DISC activity.
+
+c-FLIP proteins contain death effector domains closely related to those of procaspase-8 and can therefore compete or cooperate with procaspase-8 within DED-containing receptor complexes [1,10-11,13].
+
+The principal isoforms include c-FLIP_L and c-FLIP_S.
+
+c-FLIP_S generally inhibits formation of productive procaspase-8 activation assemblies and strongly suppresses death-receptor-induced apoptosis [10,13].
+
+c-FLIP_L is more complex.
+
+c-FLIP_L can heterodimerize with procaspase-8 and generate an enzymatically active but qualitatively restricted caspase-8-containing complex [10-11].
+
+This heterodimer can cleave selected substrates without necessarily generating the robust caspase cascade required for apoptosis.
+
+Consequently, the effect of c-FLIP_L depends on its abundance relative to procaspase-8, receptor-complex composition, stimulus strength, and cellular context.
+
+The receptor-proximal decision can therefore be conceptualized as:
+
+high productive procaspase-8 homodimerization → strong caspase-8 output → apoptosis.
+
+High inhibitory c-FLIP occupancy → restricted caspase-8 activation → survival or alternative signaling.
+
+Intermediate c-FLIP_L–caspase-8 activity → limited substrate cleavage that can suppress alternative death programs without necessarily producing full apoptosis.
+
+Thus, c-FLIP should not simply be described as an “off switch.” It is a quantitative regulator of caspase-8 activity and substrate selection.
+
+### TNFR1 Is Mechanistically Different
+
+TNFR1 requires separate treatment because TNF binding does not normally generate a Fas-like DISC directly.
+
+Recruitment of TRADD and RIPK1 to TNFR1 is required for formation of a TNFR1-associated multiprotein signaling complex at the plasma membrane called complex I [43].
+
+Complex I contains proteins including TNFR1, TRADD, RIPK1, TRAF2, cIAP1/2, and additional ubiquitin-regulatory components.
+
+The dominant early outcome of complex I is frequently activation of survival and inflammatory signaling rather than apoptosis.
+
+RIPK1 and other complex-I proteins undergo extensive ubiquitination and phosphorylation.
+
+These modifications create signaling scaffolds that promote NF-κB and MAPK-associated survival programs.
+
+Thus:
+
+TNF → TNFR1 → complex I → RIPK1 ubiquitination/signaling scaffold → NF-κB and MAPK survival signaling.
+
+TRAF2 and cIAP proteins contribute to maintaining this pro-survival state [14,45].
+
+p38–MK2 signaling also provides an important protective checkpoint by phosphorylating RIPK1 and limiting its ability to promote cytotoxic complex formation [15].
+
+Therefore:
+
+TNFR1 complex I + intact cIAP/NF-κB/MK2 signaling → cellular survival or inflammatory signaling.
+
+Apoptosis becomes favored when these receptor-proximal survival mechanisms are disrupted.
+
+Loss of appropriate RIPK1 ubiquitination, failure of cIAP-dependent regulation, inadequate NF-κB-mediated survival transcription, or loss of inhibitory RIPK1 phosphorylation can permit formation of cytosolic death complexes [5,15].
+
+TRADD and/or RIPK1 then participate in formation of a FADD–caspase-8-containing complex traditionally referred to as complex II.
+
+The sequence becomes:
+
+TNF → TNFR1 → complex I → failure of pro-survival checkpoint → redistribution/assembly of TRADD/RIPK1/FADD-containing cytosolic complex II → procaspase-8 recruitment → caspase-8 activation → apoptosis.
+
+Recent structural work further indicates that FADD DED filament formation participates in assembly of TNF-induced complex II and organization of caspase-8 activation [16].
+
+Thus, higher-order DED assembly appears to be an important organizational principle beyond the canonical Fas DISC.
+
+### Caspase-8 as the Central Molecular Switch
+
+Caspase-8 has a dual role.
+
+It initiates extrinsic apoptosis but also suppresses alternative regulated necrotic pathways [1-2].
+
+When adequately activated at the DISC or complex II, caspase-8 initiates apoptosis by activating executioner caspases and BID.
+
+At the same time, caspase-8 cleaves proteins involved in necroptotic signaling, particularly RIPK1, thereby preventing formation or persistence of necroptotic signaling complexes [17].
+
+Thus:
+
+active caspase-8 → apoptosis initiation + suppression of RIPK1/RIPK3-dependent necroptosis.
+
+When caspase-8 activity is absent, genetically lost, or pharmacologically inhibited, death-receptor stimulation can instead allow RIPK1/RIPK3 signaling to engage MLKL.
+
+The alternative sequence is:
+
+death receptor stimulation → insufficient caspase-8 activity → RIPK1/RIPK3 signaling → MLKL phosphorylation and oligomerization → plasma-membrane permeabilization → necroptosis.
+
+This pathway switch is why inhibition of caspase-8 does not necessarily rescue a death-receptor-stimulated cell.
+
+It may instead redirect the cell from apoptosis to necroptosis [2,17-18,42].
+
+Caspase-8 therefore functions as a molecular gate between several possible death outcomes.
+
+### Type I Extrinsic Apoptosis
+
+After caspase-8 activation, some cells generate sufficiently strong receptor-proximal protease activity to activate executioner caspases directly.
+
+These cells are traditionally classified as type I cells [1,19-20].
+
+The sequence is:
+
+death ligand → death receptor → DISC → caspase-8 → caspase-3/caspase-7 → execution.
+
+Mitochondrial amplification is not essential in this setting.
+
+BID cleavage may occur, and mitochondrial changes can accompany death, but inhibition of BAX/BAK-mediated MOMP does not abolish the core death response if direct caspase-8 output is sufficiently strong.
+
+Thus, the defining feature of type I signaling is functional independence from mitochondrial amplification.
+
+The direct cascade can be represented as:
+
+FasL/TRAIL → Fas or DR4/DR5 → FADD → DED assembly → caspase-8 → caspase-3/7 → cellular demolition.
+
+### Type II Extrinsic Apoptosis
+
+In type II cells, direct activation of caspase-3/7 by caspase-8 is insufficient to overcome downstream inhibitory mechanisms [1,19-20].
+
+These cells require mitochondrial amplification.
+
+Caspase-8 cleaves the BH3-only BCL-2-family protein BID.
+
+Cleavage removes the N-terminal region and generates truncated BID, or tBID.
+
+tBID translocates to mitochondrial membranes and undergoes membrane-associated conformational rearrangements that allow it to promote activation of the pro-apoptotic effectors BAX and BAK [20-21].
+
+Thus:
+
+caspase-8 → BID cleavage → tBID → mitochondrial membrane association → BAX/BAK activation.
+
+Activated BAX and BAK oligomerize within the mitochondrial outer membrane.
+
+This generates mitochondrial outer membrane permeabilization, or MOMP.
+
+MOMP releases mitochondrial intermembrane-space proteins into the cytosol.
+
+Two particularly important products are cytochrome c and Smac/DIABLO.
+
+Therefore:
+
+tBID → BAX/BAK → MOMP → cytochrome c + Smac/DIABLO release.
+
+The mitochondrion in type II extrinsic apoptosis therefore acts as an amplifier inserted between caspase-8 activation and efficient executioner-caspase activity.
+
+### Cytochrome c and Apoptosome Formation
+
+Cytosolic cytochrome c binds APAF1 in the presence of ATP or dATP [22-23].
+
+This promotes conformational activation and oligomerization of APAF1 into the apoptosome.
+
+The apoptosome recruits procaspase-9 through CARD–CARD interactions.
+
+Local concentration of procaspase-9 promotes its activation.
+
+The sequence is:
+
+MOMP → cytochrome c release → cytochrome c + APAF1 + ATP/dATP → apoptosome → procaspase-9 recruitment → caspase-9 activation.
+
+Caspase-9 then cleaves and activates procaspase-3 and procaspase-7.
+
+Thus:
+
+apoptosome → caspase-9 → caspase-3/7 → amplified apoptosis.
+
+The mitochondrial pathway does not replace receptor signaling.
+
+Instead, it amplifies a signal originally initiated by caspase-8.
+
+Therefore, type II extrinsic apoptosis is mechanistically a receptor-initiated pathway with intrinsic mitochondrial amplification.
+
+### Smac/DIABLO and XIAP Relief
+
+One major reason mitochondrial amplification is necessary in type II cells is inhibition of caspases by XIAP.
+
+XIAP's BIR3 domain directly binds and inhibits caspase-9, while the linker region between its BIR1 and BIR2 domains inhibits caspase-3 and caspase-7 [26].
+
+Therefore, limited direct caspase-8-mediated activation of caspase-3/7 may fail to generate sustained execution because XIAP neutralizes the activated enzymes.
+
+MOMP solves this problem partly through release of Smac/DIABLO.
+
+Smac binds XIAP and interferes with its caspase-inhibitory activity [24-26].
+
+The sequence is:
+
+MOMP → Smac release → Smac binding to XIAP → relief of XIAP-mediated caspase inhibition → increased caspase-9 and caspase-3/7 activity.
+
+Thus, mitochondrial amplification has at least two mechanistically important outputs:
+
+cytochrome c → apoptosome → additional caspase activation,
+
+and
+
+Smac → XIAP neutralization → removal of a distal caspase brake.
+
+This explains why mitochondrial amplification can be essential even when some executioner-caspase activation has already occurred directly downstream of caspase-8.
+
+### BCL-2-Family Control of the Type II Route
+
+The mitochondrial amplification step is tightly controlled by anti-apoptotic BCL-2-family proteins.
+
+BCL-2, BCL-xL, MCL-1, and related proteins restrain BAX/BAK activation and MOMP [19,27].
+
+Thus:
+
+anti-apoptotic BCL-2 proteins → inhibition of BAX/BAK → prevention of MOMP → retention of cytochrome c and Smac → resistance to type II extrinsic apoptosis.
+
+This explains why increased BCL-2 or BCL-xL activity can confer resistance to Fas- or TRAIL-induced apoptosis in cells that depend on mitochondrial amplification.
+
+Type I cells are less sensitive to this particular blockade because their receptor-proximal caspase-8 output can directly engage executioner caspases.
+
+Therefore, sensitivity to BCL-2-family inhibition can help experimentally distinguish type II mitochondrial dependence from type I signaling.
+
+### Context-Dependent tBID Activity
+
+The canonical model places BAX and BAK downstream of tBID.
+
+However, the source literature also identifies situations in which tBID itself can acquire BAX-like membrane-permeabilizing properties under particular experimental conditions [28].
+
+This should not replace the canonical model.
+
+The broadly supported sequence remains:
+
+caspase-8 → BID → BAX/BAK → MOMP.
+
+Direct tBID-mediated mitochondrial permeabilization should instead be treated as a context-dependent alternative, particularly where experimentally demonstrated.
+
+### Executioner Caspase Amplification
+
+Caspase-3 and caspase-7 constitute the principal executioner proteases of extrinsic apoptosis [3,29].
+
+Once sufficiently activated, they cleave large numbers of cellular substrates.
+
+Executioner caspases can also create feedback loops that strengthen upstream apoptotic signaling, making the execution phase switch-like rather than simply linear [29].
+
+The resulting proteolytic network dismantles nuclear architecture, cytoskeletal structure, DNA-repair systems, signaling proteins, and membrane-associated machinery.
+
+The proximate mechanism of killing is therefore widespread proteolytic destruction of essential cellular organization.
+
+Primary plasma-membrane rupture is not required to kill the cell.
+
+### DNA Fragmentation Through ICAD–CAD
+
+A major executioner-caspase target is ICAD, also called DFF45.
+
+Under healthy conditions, ICAD binds and inhibits the nuclease CAD/DFF40.
+
+Caspase-3 cleaves ICAD, releasing active CAD [30-31].
+
+The sequence is:
+
+caspase-3 → ICAD cleavage → CAD release → CAD nuclear activity → chromosomal DNA fragmentation.
+
+CAD produces the characteristic internucleosomal DNA fragmentation associated with apoptosis.
+
+However, DNA fragmentation is an execution phenotype rather than the defining initiating event.
+
+Loss of CAD activity can alter DNA fragmentation without necessarily preventing all other lethal consequences of executioner-caspase activation.
+
+### Cytoskeletal and Nuclear Dismantling
+
+Executioner caspases cleave numerous structural substrates, including cytoskeletal proteins and nuclear-lamina components [32].
+
+This causes progressive mechanical failure of cellular architecture.
+
+Cytoskeletal cleavage contributes to cell shrinkage and membrane blebbing.
+
+Nuclear-lamina breakdown allows nuclear deformation and fragmentation.
+
+Combined caspase activity causes:
+
+loss of cytoskeletal integrity → cell shrinkage and blebbing,
+
+nuclear structural collapse → chromatin condensation and nuclear fragmentation,
+
+and cleavage of signaling and repair proteins → progressive loss of functional cellular coordination.
+
+The result is systematic rather than explosive cellular destruction.
+
+### Phosphatidylserine Externalization
+
+Extrinsic apoptosis also triggers controlled remodeling of plasma-membrane lipid asymmetry.
+
+In viable cells, phosphatidylserine is predominantly confined to the inner leaflet of the plasma membrane.
+
+XKR8 is a caspase-3-activated phospholipid scramblase that facilitates phosphatidylserine exposure during apoptosis [40,50-51].
+
+The sequence is:
+
+executioner caspases → XKR8 activation + loss of normal flippase maintenance → phosphatidylserine externalization.
+
+Externalized phosphatidylserine functions as an engulfment signal recognized directly or indirectly by phagocytes.
+
+This promotes efferocytosis.
+
+Therefore, membrane remodeling during canonical apoptosis normally facilitates silent removal rather than immediate membrane rupture.
+
+Caspase-dependent XKR8-mediated phosphatidylserine exposure should also be distinguished from reversible Ca2+-dependent phospholipid scrambling involving proteins such as TMEM16F [33].
+
+Annexin V positivity alone is consequently not sufficient to establish execution of extrinsic apoptosis.
+
+### Morphological Progression
+
+The morphological sequence follows the biochemical cascade.
+
+At the earliest stage, death ligand binding and DISC formation may produce little visible morphological change.
+
+After caspase-8 and executioner-caspase activation, the cell begins to shrink.
+
+Chromatin condenses.
+
+The plasma membrane develops dynamic blebs.
+
+The nucleus becomes fragmented as CAD activity and nuclear structural breakdown progress.
+
+The cytoplasm and nucleus are then partitioned into membrane-bound apoptotic bodies.
+
+The sequence can be represented as:
+
+death-receptor signaling → caspase initiation → cell shrinkage → chromatin condensation → membrane blebbing → nuclear fragmentation → apoptotic-body formation → efferocytic clearance.
+
+During canonical execution, the plasma membrane remains sufficiently intact to retain cellular contents.
+
+This is a major distinction from pyroptosis and necroptosis.
+
+If apoptotic cells are not efficiently cleared, they can later undergo secondary necrosis and lose plasma-membrane integrity.
+
+That late lysis is not the primary execution mechanism of extrinsic apoptosis.
+
+### Proximate Cause of Death
+
+The proximate cause of death is widespread caspase-dependent destruction of integrated cellular organization [3,29,32].
+
+Executioner caspases simultaneously disrupt essential nuclear, cytoskeletal, metabolic, membrane-associated, and signaling functions.
+
+No single substrate cleavage alone defines the moment of death.
+
+Instead, extensive caspase activity creates a self-reinforcing collapse of multiple essential cellular systems.
+
+Thus:
+
+sustained caspase-3/7 activation → extensive substrate proteolysis → loss of nuclear integrity + cytoskeletal organization + repair capacity + signaling coordination → irreversible inability to maintain organized cellular function → apoptotic death.
+
+Primary plasma-membrane rupture is therefore not the terminal killing lesion.
+
+### Commitment in Type I Cells
+
+There is no single experimentally universal point of no return for all forms of extrinsic apoptosis.
+
+In type I cells, sufficiently strong executioner-caspase activation can commit the cell without requiring MOMP.
+
+The approximate sequence is:
+
+DISC → strong caspase-8 activation → sustained caspase-3/7 activation → widespread substrate destruction → commitment.
+
+However, limited executioner-caspase activation does not necessarily guarantee death.
+
+Experimental studies of anastasis demonstrate that some cells can survive transient or sublethal caspase activation [34].
+
+Therefore, detection of cleaved caspase-3 at a single time point should not automatically be interpreted as irreversible commitment.
+
+### Commitment in Type II Cells
+
+In type II cells, widespread MOMP is usually the major commitment transition [19,27,35].
+
+Once most mitochondria undergo BAX/BAK-dependent outer-membrane permeabilization, cytochrome c and Smac are released extensively and mitochondrial physiology becomes severely compromised.
+
+Even when downstream caspases are inhibited, many cells fail to recover after widespread MOMP [35].
+
+Thus:
+
+tBID → extensive BAX/BAK-dependent MOMP → loss of mitochondrial compartmentalization + cytochrome c/Smac release → high probability of irreversible death.
+
+Nevertheless, the concept is not absolute.
+
+Rare cells can survive incomplete or sublethal MOMP, and experimental anastasis indicates that recovery can occur from surprisingly advanced apoptotic states in selected contexts [34-36].
+
+The most accurate formulation is therefore that widespread MOMP is the principal commitment event in classical type II extrinsic apoptosis, but not an immutable universal point of no return.
+
+### TNFR1 Survival Checkpoints
+
+TNFR1 contains additional checkpoints before caspase-8 activation.
+
+cIAPs critically regulate the TNFα/TRADD/TRAF2 signaling complex, an upstream inducer of the NFκB pro-survival pathway [44].
+
+NF-κB activation induces transcription of survival-associated proteins.
+
+MK2-mediated phosphorylation of RIPK1 restrains its cytotoxic potential [15].
+
+Therefore:
+
+TNFR1 → complex I → cIAP/RIPK1/NF-κB/MK2 signaling → survival.
+
+Failure of this layer permits formation of cytosolic death complexes.
+
+Thus:
+
+loss of complex-I survival regulation → FADD/caspase-8-containing complex II → extrinsic apoptosis.
+
+TNFR1 should consequently not be represented as a receptor that automatically triggers apoptosis after ligand binding.
+
+The cellular decision is strongly conditioned by ubiquitination, phosphorylation, survival transcription, and complex transition.
+
+### Distinction from Necroptosis
+
+Caspase-8 is central to the distinction between apoptosis and necroptosis.
+
+Under conditions of competent caspase-8 activity:
+
+death receptor → FADD/caspase-8 → apoptosis.
+
+Under conditions that permit necroptosis to proceed, ligation of TNFR1 activates RIPK1, which binds to RIPK3 via shared RHIM motifs [18].
+
+Caspase-8-mediated cleavage of RIPK1 is an important molecular brake preventing inappropriate necroptotic signaling [17].
+
+Therefore, RIPK1 and RIPK3 may appear within death-receptor signaling experiments without belonging to the execution machinery of extrinsic apoptosis.
+
+Their mechanistic role must be determined experimentally.
+
+### Crosstalk with Pyroptotic Lysis
+
+Caspase signaling can also generate lytic outcomes when appropriate gasdermin substrates are expressed.
+
+Caspase-8 can participate in gasdermin-associated inflammatory death under selected signaling conditions, whereas caspase-3 can cleave GSDME and redirect an otherwise apoptotic signal toward membrane-permeabilizing death [2,37,39].
+
+Thus, the same upstream death receptor can produce different terminal phenotypes depending on the downstream substrate repertoire.
+
+If receptor activation leads to:
+
+caspase-8 → caspase-3 → conventional apoptotic substrates,
+
+the outcome is apoptosis.
+
+If sufficient GSDME is present and caspase-3 cleavage generates pore-forming GSDME-N:
+
+caspase-3 → GSDME cleavage → membrane pores → lytic death.
+
+This should be classified as an apoptosis-to-pyroptotic/secondary-necrotic switch rather than as the canonical terminal mechanism of extrinsic apoptosis.
+
+### Resistance Mechanisms
+
+Several molecular systems can prevent extrinsic apoptosis at different levels.
+
+Reduced Fas, DR4, or DR5 expression decreases receptor sensitivity.
+
+Altered receptor trafficking or membrane organization can reduce productive receptor clustering.
+
+High c-FLIP restrains caspase-8 activation at the DISC [10,13,38,49].
+
+High cIAP activity maintains TNFR1 survival signaling.
+
+MK2-mediated RIPK1 phosphorylation suppresses cytotoxic TNFR1 complex formation [15].
+
+XIAP directly inhibits caspase-3, caspase-7, and caspase-9 [26].
+
+The effector-like function of tBID can be regulated by anti-apoptotic BCL-2 proteins [28].
+
+Therefore, resistance can arise at multiple layers:
+
+receptor availability → DISC assembly → caspase-8 activation → mitochondrial amplification → executioner-caspase activity.
+
+This explains why simply measuring death-receptor abundance is not sufficient to predict functional sensitivity to FasL or TRAIL.
+
+### Experimental Validation
+
+Strong experimental demonstration of extrinsic apoptosis requires evidence linking extracellular receptor stimulation to receptor-proximal caspase activation and downstream apoptotic execution.
+
+The first level is receptor dependence.
+
+FasL-, TRAIL-, or TNF-associated death should be reduced by appropriate receptor blockade or genetic receptor disruption.
+
+For Fas and TRAIL signaling, DISC formation can be tested directly.
+
+Immunoprecipitation of activated receptors can demonstrate recruitment of FADD, procaspase-8, procaspase-10, and c-FLIP [4,7].
+
+The next level is caspase-8 dependence.
+
+Loss or inhibition of caspase-8 should suppress the apoptotic branch.
+
+However, cell survival must be measured separately because caspase-8 inhibition can redirect death toward necroptosis rather than rescue the cell [2,17,46].
+
+Execution can then be demonstrated through caspase-3/7 activation, ICAD cleavage, CAD-dependent DNA fragmentation, structural-protein cleavage, phosphatidylserine exposure, and characteristic apoptotic morphology.
+
+No single assay is sufficient.
+
+Annexin V positivity is not specific.
+
+Caspase-3 cleavage demonstrates executioner-caspase engagement but can occur before cells fully commit to death.
+
+TUNEL detects DNA breaks but does not uniquely identify apoptosis.
+
+Morphology is highly informative but should be paired with causal perturbation.
+
+### Distinguishing Type I and Type II Cells Experimentally
+
+The mitochondrial requirement can be tested directly.
+
+In type I cells, inhibition of BID or BAX/BAK should have limited effect on receptor-driven death because strong caspase-8 activity directly activates executioner caspases.
+
+In type II cells, disrupting BID, BAX/BAK, MOMP, APAF1, or caspase-9 should substantially suppress or delay death [12,19,47-48].
+
+Overexpression of BCL-2 or BCL-xL should preferentially protect cells requiring mitochondrial amplification.
+
+Therefore, the functional distinction is:
+
+type I = receptor-proximal caspase output alone is sufficient.
+
+Type II = mitochondrial amplification is required for efficient execution.
+
+### Molecular Hierarchy
+
+The principal extracellular initiators are FasL, TRAIL, and TNF.
+
+The principal membrane sensors are Fas/CD95, DR4, DR5, and TNFR1.
+
+For Fas and TRAIL receptors, FADD connects receptor death domains to DED-containing procaspase-8 molecules.
+
+The receptor-proximal core machinery is the DISC.
+
+Higher-order FADD/procaspase-8 DED assemblies organize caspase-8 activation.
+
+For TNFR1, TRADD, RIPK1, TRAF2, cIAP proteins, and related factors form complex I, whereas FADD and caspase-8 participate in the downstream cytosolic death complex.
+
+Caspase-8 is the primary initiator protease.
+
+Caspase-3 and caspase-7 are the principal executioner proteases.
+
+BID connects caspase-8 to mitochondrial amplification.
+
+BAX and BAK execute canonical MOMP.
+
+Cytochrome c activates APAF1-dependent apoptosome formation.
+
+Caspase-9 amplifies executioner-caspase activity.
+
+Smac/DIABLO suppresses XIAP-mediated inhibition.
+
+XIAP, c-FLIP, cIAP1/2, anti-apoptotic BCL-2 proteins, and inhibitory RIPK1 phosphorylation constitute major protective checkpoints.
+
+CAD, released after ICAD cleavage, produces apoptotic DNA fragmentation.
+
+XKR8 contributes to caspase-dependent phosphatidylserine externalization.
+
+RIPK1, RIPK3, MLKL, and gasdermins belong to alternative or crosstalking death pathways rather than to the canonical execution machinery of extrinsic apoptosis.
+
+### Integrated Canonical Fas/TRAIL Sequence
+
+The most defensible canonical Fas/TRAIL sequence is:
+
+extracellular FasL or TRAIL → binding to Fas/CD95 or DR4/DR5 → higher-order receptor clustering → death-domain-dependent FADD recruitment → FADD DED filament formation → recruitment and concentration of procaspase-8 → proximity-induced procaspase-8 dimerization → stepwise caspase-8 maturation → active caspase-8.
+
+From this point, two major branches emerge.
+
+Type I:
+
+active caspase-8 → direct procaspase-3 and procaspase-7 activation → executioner-caspase amplification → ICAD cleavage and CAD activation + cytoskeletal/nuclear substrate cleavage + XKR8-dependent phosphatidylserine exposure → cell shrinkage → chromatin condensation → membrane blebbing → nuclear fragmentation → apoptotic-body formation → efferocytic removal → death.
+
+Type II:
+
+active caspase-8 → BID cleavage → tBID → mitochondrial BAX/BAK activation → MOMP → cytochrome c + Smac/DIABLO release → cytochrome c–APAF1 apoptosome → caspase-9 → amplified caspase-3/7 activation while Smac neutralizes XIAP → widespread executioner-caspase activity → ICAD/CAD, structural-protein cleavage, membrane remodeling and phosphatidylserine exposure → apoptotic cellular dismantling → death.
+
+### Integrated TNFR1 Sequence
+
+TNFR1 follows a different upstream architecture:
+
+TNF → TNFR1 → membrane complex I containing TRADD, RIPK1, TRAF2, cIAP-associated proteins and related regulators → RIPK1 ubiquitination/phosphorylation and NF-κB/MAPK-associated survival signaling.
+
+If these protective signals remain intact:
+
+complex I → inflammatory/pro-survival transcription → survival.
+
+If these checkpoints fail:
+
+complex-I destabilization/transition → cytosolic FADD–caspase-8-containing complex II → procaspase-8 dimerization and activation → caspase-8 → caspase-3/7 ± BID–mitochondrial amplification → apoptosis.
+
+If caspase-8 is unavailable and necroptotic machinery is competent:
+
+TNFR1 signaling → RIPK1/RIPK3 → MLKL → necroptosis instead of apoptosis.
+
+Thus, TNFR1 is a survival-versus-death signaling hub rather than a constitutive apoptotic receptor.
+
+### Integrated Execution Sequence
+
+Regardless of whether the upstream signal enters through Fas, TRAIL receptors, or TNFR1 complex II, successful extrinsic apoptosis ultimately converges on sustained executioner-caspase activity.
+
+The terminal pathway is:
+
+sustained caspase-3/7 activity → proteolysis of large numbers of structural, nuclear, signaling, and repair proteins → ICAD cleavage → CAD-mediated chromosomal DNA fragmentation → nuclear-lamina and cytoskeletal disassembly → XKR8-associated phosphatidylserine externalization → cell shrinkage and membrane blebbing → nuclear fragmentation and apoptotic-body formation → irreversible loss of integrated cellular organization.
+
+The defining terminal lesion is therefore protease-driven cellular dismantling.
+
+Plasma-membrane rupture is normally delayed and secondary.
+
+### Final Mechanistic Interpretation
+
+Extrinsic apoptosis is best defined as a death-receptor-initiated, caspase-8-dependent apoptotic program.
+
+Its most specific mechanistic event is formation of a receptor-proximal caspase-8 activation platform.
+
+For Fas and TRAIL receptors, this platform is the DISC.
+
+For TNFR1, apoptosis generally requires conversion from a membrane-associated complex-I state into a cytosolic FADD–caspase-8-containing complex II.
+
+The pathway then divides according to the strength of receptor-proximal caspase signaling.
+
+Type I cells execute death predominantly through:
+
+DISC → caspase-8 → caspase-3/7.
+
+Type II cells require:
+
+DISC → caspase-8 → BID → BAX/BAK → MOMP → cytochrome c/Smac → apoptosome + XIAP relief → caspase-9 → caspase-3/7.
+
+The principal protective checkpoints are c-FLIP at the receptor-proximal caspase-8 platform, TNFR1 complex-I survival signaling, anti-apoptotic BCL-2-family proteins at mitochondria, and XIAP at the executioner-caspase layer.
+
+The principal terminal executioners are caspase-3 and caspase-7.
+
+CAD and XKR8 are important downstream effectors of nuclear fragmentation and phosphatidylserine exposure, respectively, but neither independently defines the death modality.
+
+The most important mechanistic refinement is that the DISC is now understood as a higher-order supramolecular assembly containing FADD- and procaspase-8-associated DED chains rather than a simple stoichiometric receptor–FADD–caspase complex.
+
+The principal unresolved issue is not the identity of the pathway itself but the exact threshold at which activation becomes irreversibly lethal in individual cells. Widespread MOMP is usually the dominant commitment event in type II cells, whereas sufficiently strong executioner-caspase activity can commit type I cells without mitochondrial amplification. However, sublethal MOMP, transient executioner-caspase activation, and anastasis demonstrate that neither event constitutes an absolute universal point of no return in every biological context.
+

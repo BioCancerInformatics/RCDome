@@ -1,1 +1,99 @@
-Necrose: desfecho morfológico caracterizado por inchaço celular, ruptura da membrana plasmática e liberação do conteúdo celular, causando inflamação. Pode resultar de lesão acidental, não regulada, ou de vias programadas, incluindo necroptose e necrose induzida pela transição de permeabilidade mitocondrial. No câncer, a necrose contribui para a progressão tumoral por meio da remodelação inflamatória do microambiente e da evasão imune.
+[1] Vanden Berghe T, Linkermann A, Jouan-Lanhouet S, et al. Regulated necrosis: the expanding network of non-apoptotic cell death pathways. Nature Reviews Molecular Cell Biology. 2014. DOI: **10.1038/nrm3737**.
+
+[2] Galluzzi L, Kepp O, Krautwald S, et al. Molecular mechanisms of regulated necrosis. Seminars in Cell & Developmental Biology. 2014. DOI: **10.1016/j.semcdb.2014.02.006**.
+
+[3] Yuan J, Ofengeim D. A guide to cell death pathways. Nature Reviews Molecular Cell Biology. 2023. DOI: **10.1038/s41580-023-00689-6**.
+
+[4] Van Cruchten S, Van Den Broeck W. Morphological and Biochemical Aspects of Apoptosis, Oncosis and Necrosis. Anatomia, Histologia, Embryologia. 2002. DOI: **10.1046/j.1439-0264.2002.00398.x**.
+
+[5] D'Arcy M. Cell death: a review of the major forms of apoptosis, necrosis and autophagy. Cell Biology International. 2019. DOI: **10.1002/cbin.11137**.
+
+[6] Costigan A, Hollville E, Martin SJ. Discriminating Between Apoptosis, Necrosis, Necroptosis, and Ferroptosis by Microscopy and Flow Cytometry. Current Protocols. 2023. DOI: **10.1002/cpz1.951**.
+
+[7] Vanlangenakker N, Vanden Berghe T, Krysko D, et al. Molecular mechanisms and pathophysiology of necrotic cell death. Current Molecular Medicine. 2008. DOI: **10.2174/156652408784221306**.
+
+[8] Robichaux DJ, Harata M, Murphy EV, et al. Mitochondrial Permeability Transition Pore-Dependent Necrosis. Journal of Molecular and Cellular Cardiology. 2022. DOI: **10.1016/j.yjmcc.2022.11.003**.
+
+[9] Bernardi P, Gerle C, Halestrap A, et al. Identity, structure, and function of the mitochondrial permeability transition pore: controversies, consensus, recent advances, and future directions. Cell Death and Differentiation. 2023. DOI: **10.1038/s41418-023-01187-0**.
+
+[10] Nakagawa T, Shimizu S, Watanabe T, et al. Cyclophilin D-dependent mitochondrial permeability transition regulates some necrotic but not apoptotic cell death. Nature. 2005. DOI: **10.1038/nature03317**.
+
+[11] Kaiser RA, Osińska H, Robbins J. Loss of cyclophilin D reveals a critical role for mitochondrial permeability transition in cell death. Nature. 2005. DOI: **10.1038/nature03434**.
+
+[12] Huang P, Chen G, Jin W, et al. Molecular Mechanisms of Parthanatos and Its Role in Diverse Diseases. International Journal of Molecular Sciences. 2022. DOI: **10.3390/ijms23137292**.
+
+[13] Alano CC, Garnier P, Ying W, et al. NAD+ depletion is necessary and sufficient for PARP-1-mediated neuronal death. Journal of Neuroscience. 2010. DOI: **10.1523/JNEUROSCI.5552-09.2010**.
+
+[14] Wang Y, Kim N, Haince JF, et al. Poly(ADP-ribose) (PAR) Binding to Apoptosis-Inducing Factor Is Critical For PAR Polymerase-1-Dependent Cell Death (Parthanatos). Science Signaling. 2011. DOI: **10.1126/scisignal.2000902**.
+
+[15] Wu T, Yuan L, Sasaki Y, et al. SARM1 executes neuronal parthanatos and promotes excitotoxic cell death. Neuron. 2026. DOI: **10.1016/j.neuron.2026.03.027**.
+
+[16] Boya P, Kroemer G. Lysosomal membrane permeabilization in cell death. Oncogene. 2008. DOI: **10.1038/onc.2008.310**.
+
+[17] Repnik U, Česen MH, Turk B. Lysosomal membrane permeabilization in cell death: concepts and challenges. Mitochondrion. 2014. DOI: **10.1016/j.mito.2014.06.006**.
+
+[18] Wang F, Gómez-Sintes R, Boya P. Lysosomal membrane permeabilization and cell death. Traffic. 2018. DOI: **10.1111/tra.12613**.
+
+[19] Serrano-Puebla A, Boya P. Lysosomal membrane permeabilization as a cell death mechanism in cancer cells. Biochemical Society Transactions. 2018. DOI: **10.1042/BST20170130**.
+
+[20] Kalogeris T, Baines C, Krenz M, et al. Cell Biology of Ischemia/Reperfusion Injury. International Review of Cell and Molecular Biology. 2012. DOI: **10.1016/B978-0-12-394309-5.00006-7**.
+
+[21] Juricic S, Klać J, Stojković S, et al. Molecular and Cellular Mechanisms of Myocardial Ischemia and Reperfusion Injury: A Narrative Review. Cells. 2026. DOI: **10.3390/cells15030265**.
+
+[22] Seo J, Nam YW, Kim S, et al. Necroptosis molecular mechanisms: Recent findings regarding novel necroptosis regulators. Experimental & Molecular Medicine. 2021. DOI: **10.1038/s12276-021-00634-7**.
+
+[23] Rodriguez DA, Weinlich R, Brown SA, et al. Characterization of RIPK3-mediated phosphorylation of the activation loop of MLKL during necroptosis. Cell Death and Differentiation. 2015. DOI: **10.1038/cdd.2015.70**.
+
+[24] Samson A, Zhang Y, Geoghegan N, et al. MLKL trafficking and accumulation at the plasma membrane control the kinetics and threshold for necroptosis. Nature Communications. 2020. DOI: **10.1038/s41467-020-16887-1**.
+
+[25] Ros U, Peña-Blanco A, Kunzendorf U, et al. Necroptosis Execution Is Mediated by Plasma Membrane Nanopores Independent of Calcium. Cell Reports. 2017. DOI: **10.1016/j.celrep.2017.03.024**.
+
+[26] Liu S, Perez P, Sun X, et al. MLKL polymerization-induced lysosomal membrane permeabilization promotes necroptosis. Cell Death and Differentiation. 2023. DOI: **10.1038/s41418-023-01237-7**.
+
+[27] Hurst S, Gonnot F, Dia M, et al. Phosphorylation of cyclophilin D at serine 191 regulates mitochondrial permeability transition pore opening and cell death after ischemia-reperfusion. Cell Death & Disease. 2020. DOI: **10.1038/s41419-020-02864-5**.
+
+[28] Tummers B, Green DR. Caspase-8: regulating life and death. Immunological Reviews. 2017. DOI: **10.1111/imr.12541**.
+
+[29] Newton K, Wickliffe KE, Dugger D, et al. Cleavage of RIPK1 by caspase-8 is crucial for limiting apoptosis and necroptosis. Nature. 2019. DOI: **10.1038/s41586-019-1548-x**.
+
+[30] Almagro M, Goncharov T, Newton K, et al. Cellular IAP proteins and LUBAC differentially regulate necrosome-associated RIP1 ubiquitination. Cell Death & Disease. 2015. DOI: **10.1038/cddis.2015.158**.
+
+[31] Guo X, Yin H, Chen Y, et al. TAK1 regulates caspase 8 activation and necroptotic signaling via multiple cell death checkpoints. Cell Death & Disease. 2016. DOI: **10.1038/cddis.2016.294**.
+
+[32] Borges JP, Sætra RSR, Volchuk A, et al. Glycine inhibits NINJ1 membrane clustering to suppress plasma membrane rupture in cell death. eLife. 2022. DOI: **10.7554/eLife.78609**.
+
+[33] Kayagaki N, Kornfeld OS, Lee BL, et al. NINJ1 mediates plasma membrane rupture during lytic cell death. Nature. 2021. DOI: **10.1038/s41586-021-03218-7**.
+
+[34] Degen M, Santos JC, Pluhackova K, et al. Structural basis of NINJ1-mediated plasma membrane rupture in cell death. Nature. 2023. DOI: **10.1038/s41586-023-05991-z**.
+
+[35] David L, Borges JP, Hollingsworth LR, et al. NINJ1 mediates plasma membrane rupture by cutting and releasing membrane disks. Cell. 2024. DOI: **10.1016/j.cell.2024.03.008**.
+
+[36] Dondelinger Y, Priem D, Huyghe J, et al. NINJ1 is activated by cell swelling to regulate plasma membrane permeabilization during regulated necrosis. Cell Death & Disease. 2023. DOI: **10.1038/s41419-023-06284-z**.
+
+[37] Noh H, Hashem Z, Boms E, et al. SIGLEC12 mediates plasma membrane rupture during necroptotic cell death. Nature. 2025. DOI: **10.1038/s41586-025-09741-1**.
+
+[38] Ramos S, Hartenian E, Santos JC, et al. NINJ1 induces plasma membrane rupture and release of damage-associated molecular pattern molecules during ferroptosis. The EMBO Journal. 2024. DOI: **10.1038/s44318-024-00055-y**.
+
+[39] Pravda J. Dissipation of the mitochondrial proton motive force drives sepsis pathogenesis and explains hyperlactatemia’s predictive value in sepsis mortality. *World Journal of Critical Care Medicine*. 2026;15. doi: **10.5492/wjccm.120314**.
+
+[40] Somodji E, Gowrishankar S. “Micro-managing” immune activation and protein turnover: microglial lysosomes in the context of health and disease. *npj Dementia*. 2026;2. doi: **10.1038/s44400-026-00086-8**.
+
+[41] Boya P, Andreau K, Poncet D, et al. Lysosomal Membrane Permeabilization Induces Cell Death in a Mitochondrion-dependent Fashion. *The Journal of Experimental Medicine*. 2003;197:1323-1334. doi: **10.1084/jem.20021952**.
+
+[42] Jain Tiffee P, Sivasailam A, Kumar K, et al. Time-resolved simultaneous imaging of mitochondrial reactive oxygen species and lysosomal permeabilization to determine organelle-centred cell death. *Redox Report*. 2026;31. doi: **10.1080/13510002.2026.2621497**.
+
+[43] Chen X, Li W, Ren J, et al. Translocation of mixed lineage kinase domain-like protein to plasma membrane leads to necrotic cell death. *Cell Research*. 2013;24:105-121. doi: **10.1038/cr.2013.171**.
+
+[44] Tian M, Zhou M, Li S, et al. Digging deeper into NINJ1: its multifaceted role in central nervous system diseases. *Frontiers in Immunology*. 2026;17. doi: **10.3389/fimmu.2026.1838013**.
+
+[45] De Tito S, Tooze S. Lysosomal homeostasis at the crossroads of neurodegeneration. *Journal of Clinical Investigation*. 2026;136. doi: **10.1172/jci199845**.
+
+[46] Galluzzi L, Vitale I, Aaronson S, et al. Molecular mechanisms of cell death: recommendations of the Nomenclature Committee on Cell Death 2018. *Cell Death &amp; Differentiation*. 2018;25:486-541. doi: **10.1038/s41418-017-0012-4**.
+
+[47] Tkachenko A. Discovery of spectosis supports the key role of caspase-8 in determining the type of cell death in mature erythrocytes and erythrocyte death-driven immunogenicity. *Cell Death Discovery*. 2026;12. doi: **10.1038/s41420-026-02989-0**.
+
+[48] Guo J, Yang W, Mai F, et al. Unravelling oncosis: morphological and molecular insights into a unique cell death pathway. *Frontiers in Immunology*. 2024;15. doi: **10.3389/fimmu.2024.1450998**.
+
+[49] Jia J, Claude-Taupin A, Gu Y, et al. Galectin-3 Coordinates a Cellular System for Lysosomal Repair and Removal. *Developmental Cell*. 2020;52:69-87.e8. doi: **10.1016/j.devcel.2019.10.025**.
+
+[50] Luke C, Markovina S, Good M, et al. Lysoptosis is an evolutionarily conserved cell death pathway moderated by intracellular serpins. *Communications Biology*. 2022;5. doi: **10.1038/s42003-021-02953-x**.
