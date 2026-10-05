@@ -45,6 +45,9 @@ if (!v$ok) {
 
 # Source Shiny modules
 source("modules/mod_gene_catalog.R")
+source("modules/mod_discrepancy.R")
+source("modules/mod_timeline.R")
+source("modules/mod_tour.R")
 source("modules/mod_network.R")
 source("modules/mod_rcd_grid.R")
 source("modules/mod_rcd_entities.R")
@@ -66,6 +69,9 @@ expected_canonical_pathways <- 53L
 
 # ── Gene table (V027 matrix — the truth) ─────────────────────────────────────
 message("Loading genes from V027 matrix...")
+evidence_trail_rv <- shiny::reactiveVal(NULL)
+gene_catalog_entity_rv <- shiny::reactiveVal(NULL)  # Evidence Trail drawer target
+
 genes_df <- tryCatch({
   df <- readRDS(v24_file)
   df$name                   <- as.character(df$gene_symbol)

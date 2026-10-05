@@ -2,6 +2,40 @@
 if (!exists("genes_df", inherits = TRUE) || !exists("fingerprint_df", inherits = TRUE)) source("global.R")
 
 ui <- tagList(
+  # ── Reader Mode (first-visit guided tour trigger) ───────────────────
+  mod_tour_ui("tour"),
+  tags$button(
+    "Start tour",
+    id = "start_tour_btn",
+    onclick = "Shiny.setInputValue('tour-first_visit', Math.random(), {priority:'event'});",
+    style = "display:none; position:fixed; top:100px; right:24px; z-index:9998; background:#FF9800; color:#0b1020; border:none; border-radius:999px; padding:10px 22px; font-size:14px; font-weight:700; cursor:pointer; box-shadow:0 4px 14px rgba(0,0,0,.35);"
+  ),
+  tags$script(HTML("
+    function toggleStartTourBtn() {
+      var btn = document.getElementById('start_tour_btn');
+      if (!btn) return;
+      var homeTab = document.querySelector('a[data-toggle=\"tab\"][data-value=\"Home\"]');
+      var active = homeTab && homeTab.parentElement.classList.contains('active');
+      btn.style.display = active ? 'block' : 'none';
+    }
+    $(document).ready(function(){ setTimeout(toggleStartTourBtn, 400); });
+    $(document).on('shown.bs.tab', 'a[data-toggle=\"tab\"]', function(){ setTimeout(toggleStartTourBtn, 60); });
+  ")),
+  # ── Evidence Trail drawer (global, shared) ──────────────────────────
+  tags$div(
+    id = "evidence_drawer",
+    style = "display:none; position:fixed; top:0; right:0; width:40%; min-width:360px; height:100vh; background:#ffffff; box-shadow:-6px 0 24px rgba(0,0,0,0.22); z-index:9999; overflow-y:auto; padding:20px 22px;",
+    tags$div(
+      style = "display:flex; justify-content:space-between; align-items:center; margin-bottom:14px;",
+      tags$h3("Evidence Trail", style = "margin:0; color:#1c1917; font-weight:700;"),
+      tags$button(
+        "✕",
+        onclick = "document.getElementById('evidence_drawer').style.display='none';",
+        style = "border:none; background:none; font-size:20px; cursor:pointer; color:#78716c;"
+      )
+    ),
+    tags$div(id = "evidence_trail_body")
+  ),
   tags$div(
     id = "busy_overlay",
     style = "position:fixed; top:0; left:0; width:100%; height:100%; display:none; align-items:center; justify-content:center; background:rgba(255,255,255,0.88); z-index:9999;",
@@ -116,6 +150,24 @@ ui <- tagList(
     )
   ),
 
+  # ── Discrepancy Radar ─────────────────────────────────────────────
+  tabPanel(
+    title = "Discrepancy Radar",
+    div(class = "wrap",
+      style = "max-width: 1200px; margin: 0 auto; padding: 20px;",
+      mod_discrepancy_ui("discrepancy")
+    )
+  ),
+
+  # ── Discovery Timeline ────────────────────────────────────────────
+  tabPanel(
+    title = "Discovery Timeline",
+    div(class = "wrap",
+      style = "max-width: 1200px; margin: 0 auto; padding: 20px;",
+      mod_timeline_ui("timeline")
+    )
+  ),
+
   tabPanel(
     title = HTML(paste0(rcdome_span(), " Board")),
     div(class = "wrap",
@@ -133,6 +185,17 @@ ui <- tagList(
     )
   ),
 
+  # ── 3D RCDome ────────────────────────────────────────────────────────
+  tabPanel(
+    title = HTML(paste0("3D ", rcdome_span())),
+    tags$iframe(
+      id = "dome3d_iframe",
+      src = "dome_3d.html",
+      style = "width:100%; height:calc(100vh - 100px); border:none; display:block;",
+      scrolling = "no"
+    )
+  ),
+
   # ── Evidence ─────────────────────────────────────────────────────────────
   # ── RCDchat ───────────────────────────────────────────────────────────
   # ── About ─────────────────────────────────────────────────────────────
@@ -142,7 +205,10 @@ ui <- tagList(
       tags$div(style = "background:#0b1020; color:#e7e5e4; border-radius:12px; padding:28px 26px; margin-bottom:24px;",
         tags$h1("About", style = "font-size:35px; margin:0;"),
         tags$p(HTML(paste0("The ", rcdome_span(), " Atlas — a multi-database human gene atlas of regulated cell death.")),
-               style = "color:#d6d3d1; margin:6px 0 0; font-size:15px;")
+               style = "color:#d6d3d1; margin:6px 0 0; font-size:15px;"),
+        tags$button("Replay tour",
+          onclick = "localStorage.removeItem('rcdome_tour_seen'); Shiny.setInputValue('tour-first_visit', Math.random(), {priority:'event'});",
+          style = "margin-top:14px; background:#FF9800; color:#0b1020; border:none; border-radius:8px; padding:6px 16px; font-size:13px; font-weight:700; cursor:pointer;")
       ),
       h3(HTML(paste0("Who built ", rcdome_span()))),
       uiOutput("dev_cards"),

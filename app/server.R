@@ -41,6 +41,24 @@ server <- function(input, output, session) {
   # ── Omic module (Aba Omic) ──────────────────────────────────────
   mod_gene_catalog_server("gene_catalog")
 
+  # ── Discrepancy Radar (classifier-conflict knowledge frontier) ────
+  mod_discrepancy_server("discrepancy")
+
+  # ── Discovery Timeline (founding year + ontological level) ────────
+  mod_timeline_server("timeline")
+
+  # ── Reader Mode (first-visit guided tour) ──────────────────────────
+  mod_tour_server("tour")
+
+  # ── 3D Dome gene click → Evidence Trail drawer ───────────────────────
+  observeEvent(input$dome3d_gene, {
+    req(input$dome3d_gene)
+    parts <- strsplit(input$dome3d_gene, "|", fixed = TRUE)[[1]]
+    if (length(parts) != 2) return()
+    evidence_trail_rv(list(gene = parts[1], entity = parts[2]))
+    shinyjs::runjs("document.getElementById('evidence_drawer').style.display='block';")
+  })
+
   # ── Chat module (RCDchat tab) — standalone (context wired to V027 later) ──
   # ── Digital Molecular RCD Board (synthesis) + nested RCDome Q&A AI submodule ──
   board_reactive <- reactiveVal(NULL)
@@ -543,6 +561,83 @@ server <- function(input, output, session) {
         .dev-link:hover { color: #c2410c; }
       '))
     )
+  })
+
+
+  # ── Evidence Trail drawer (global, direct HTML injection) ───────────
+  build_evidence_trail_html <- function(g, e, extra = NULL) {
+    r <- genes_df[genes_df$name == g & genes_df$Pathway_Categorization == e, , drop = FALSE]
+    if (nrow(r) == 0) return("<p style='color:#1c1917;'>No matrix row for this pair.</p>")
+    r <- r[1, , drop = FALSE]
+    f <- function(x) { x <- as.character(x); if (length(x) == 0 || is.na(x) || !nzchar(trimws(x))) "—" else trimws(x) }
+
+    ds_sent <- f(r$deep_best_sentence)
+    el_sent <- f(r$elicit_verbatim_sentence)
+    pm <- unique(unlist(strsplit(paste(f(r$pmid_list), f(r$llm_pmids), f(r$epmc_pmids), f(r$elicit_pmids), sep = ";"), ";", fixed = TRUE)))
+    pm <- pm[nzchar(trimws(pm))]
+    pm_links <- if (length(pm) > 0) {
+      paste(vapply(pm, function(x) paste0("<a href='https://pubmed.ncbi.nlm.nih.gov/", x, "/' target='_blank' style='color:#1d4ed8;'>PMID ", x, "</a>"), character(1)), collapse = " · ")
+    } else "—"
+
+    badge <- function(txt, col) sprintf("<span style='display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;font-weight:600;color:#fff;background:%s;margin-right:4px;'>%s</span>", col, txt)
+
+    verdict_row <- function(lbl, role, dir, mech, role_col, dir_col) {
+      role_b <- if (role != "—") badge(role, role_col[[role]]) else "<span style='color:#a8a29e;'>—</span>"
+      dir_b  <- if (dir != "—") badge(dir, dir_col[[dir]]) else "<span style='color:#a8a29e;'>—</span>"
+      mech_b <- if (mech != "—") badge(mech, if (mech == "YES") "#2E7D32" else "#9E9E9E") else "<span style='color:#a8a29e;'>—</span>"
+      sprintf("<div style='display:flex;align-items:center;gap:8px;padding:8px 0;border-bottom:1px solid #f0efed;'><span style='width:88px;font-weight:700;color:#57534e;font-size:13px;'>%s</span>%s%s%s</div>", lbl, role_b, dir_b, mech_b)
+    }
+
+    role_col <- c(EXECUTOR = "#E53935", REGULATOR = "#3949AB", MARKER = "#00897B", UNCERTAIN = "#9E9E9E")
+    dir_col  <- c(PROMOTES = "#2E7D32", PROTECTS = "#1565C0", UNCLEAR = "#757575")
+
+    ds_p <- if (ds_sent != "—") sprintf("<p style='margin:0 0 6px;'><b>DeepSeek:</b> %s</p>", ds_sent) else ""
+    el_p <- if (el_sent != "—") sprintf("<p style='margin:0;'><b>Elicit:</b> %s</p>", el_sent) else ""
+
+    base <- sprintf(
+      "<div><div style='background:#0b1020;color:#e7e5e4;border-radius:10px;padding:14px 16px;margin-bottom:16px;'><h4 style='margin:0;color:#fff;'><i>%s</i> × %s</h4><div style='color:#d6d3d1;font-size:12px;margin-top:4px;'>Evidence tier: %s · sources: %s</div></div><p style='margin:0 0 6px;color:#1c1917;'><strong>Claim (verbatim)</strong></p><div style='background:#fafaf9;border:1px solid #e7e5e4;border-radius:8px;padding:10px 12px;margin-bottom:14px;font-size:13px;color:#1c1917;'>%s%s</div><p style='margin:0 0 6px;color:#1c1917;'><strong>Source</strong></p><div style='font-size:13px;margin-bottom:14px;'>%s</div><p style='margin:0 0 6px;color:#1c1917;'><strong>Classifiers</strong></p>%s%s%s<div style='margin-top:14px;padding:10px 12px;background:#f5f5f4;border-radius:8px;font-size:13px;color:#78716c;'><strong>Human adjudication:</strong> Pending (curator verdicts in progress)</div></div>",
+      g, e, f(r$evidence_tier), f(r$num_sources), ds_p, el_p, pm_links,
+      verdict_row("DeepSeek", f(r$cot_role), f(r$cot_direction), f(r$cot_mechanistic), role_col, dir_col),
+      verdict_row("Elicit", f(r$rcd_gene_type), f(r$role_direction), "—", role_col, dir_col),
+      verdict_row("Consensus", f(r$consensus_role), f(r$consensus_direction), f(r$consensus_mechanistic), role_col, dir_col)
+    )
+
+    if (!is.null(extra) && !is.null(extra$gpt_verdict) && nzchar(extra$gpt_verdict)) {
+      axis_label <- switch(extra$axis, direction = "Direction", role = "Role", mechanistic = "Mechanistic", extra$axis)
+      gpt_col2 <- c(DEEPSEEK = "#3949AB", CONSENSUS = "#00897B", UNCLEAR = "#9E9E9E", OUT_OF_CONTEXT = "#F59E0B", NEITHER = "#E53935", ERROR = "#57534E")
+      gpt_bg <- if (extra$gpt_verdict %in% names(gpt_col2)) gpt_col2[[extra$gpt_verdict]] else "#9E9E9E"
+      reason <- htmltools::htmlEscape(trimws(extra$gpt_reason %||% ""))
+      hv <- trimws(extra$human_verdict %||% "")
+      note <- htmltools::htmlEscape(trimws(extra$note %||% ""))
+      human_line <- if (nzchar(hv)) {
+        paste0("<span style='color:#1c1917;font-weight:700;'>", htmltools::htmlEscape(hv), "</span>",
+               if (nzchar(note)) paste0(" <span style='color:#78716c;'>(", note, ")</span>") else "")
+      } else {
+        "<span style='color:#a8a29e;'>Pending (curator verdicts not yet returned)</span>"
+      }
+      extra_html <- paste0(
+        "<div style='margin-top:14px;padding:10px 12px;background:#fffbeb;border:1px solid #fde68a;border-radius:8px;font-size:13px;color:#1c1917;'><strong>GPT arbitration (",
+        axis_label, "):</strong> ",
+        sprintf("<span style='display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;font-weight:600;color:#fff;background:%s;margin-left:4px;'>%s</span>", gpt_bg, extra$gpt_verdict),
+        "<div style='color:#57534e;margin-top:6px;'>", reason, "</div></div>",
+        "<div style='margin-top:8px;padding:10px 12px;background:#f5f5f4;border-radius:8px;font-size:13px;color:#57534e;'><strong>Human adjudication:</strong> ", human_line, "</div>"
+      )
+      base <- paste0(base, extra_html)
+    }
+
+    base
+  }
+
+  observeEvent(evidence_trail_rv(), {
+    req(evidence_trail_rv())
+    g <- evidence_trail_rv()$gene
+    e <- evidence_trail_rv()$entity
+    extra <- evidence_trail_rv()$extra
+    html <- build_evidence_trail_html(g, e, extra)
+    shinyjs::runjs(sprintf(
+      "document.getElementById('evidence_trail_body').innerHTML = %s; document.getElementById('evidence_drawer').style.display='block';",
+      jsonlite::toJSON(html)
+    ))
   })
 
   # ── Data sources (About tab) ────────────────────────────────────

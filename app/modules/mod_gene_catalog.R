@@ -473,7 +473,9 @@ mod_gene_catalog_server <- function(id) {
       cols <- c("gene_symbol", "gene_biotype", "rcd_form_canonical", "rcdome_level_name", "cancer_gene_type", "confidence_tier", "cot_mechanistic", sc$role, sc$dir, "source_databases")
       cols <- intersect(cols, names(df))
       show <- df[, cols, drop = FALSE]
-      show$gene_symbol <- sprintf('<em style="color:#1d4ed8;font-weight:700;">%s</em>', show$gene_symbol)
+      raw_gene <- df$gene_symbol
+      raw_entity <- df$rcd_form_canonical
+      show$gene_symbol <- sprintf("<a href='#' onclick=\"Shiny.setInputValue('%s', '%s', {priority:'event'}); return false;\" style='color:#1d4ed8;font-weight:700;font-style:italic;'>%s</a>", session$ns("gene_click"), raw_gene, raw_gene)
       show$gene_biotype <- rc_pill(show$gene_biotype, biotype_class(show$gene_biotype))
       show$rcd_form_canonical <- rc_pill(show$rcd_form_canonical, level_class(show$rcdome_level_name))
       show$cancer_gene_type <- rc_pill(show$cancer_gene_type, cancer_class(show$cancer_gene_type))
@@ -482,8 +484,12 @@ mod_gene_catalog_server <- function(id) {
       show[[sc$role]] <- rc_pill(show[[sc$role]], role_class(show[[sc$role]]))
       show[[sc$dir]] <- rc_pill(show[[sc$dir]], direction_class(show[[sc$dir]]))
       show$rcdome_level_name <- NULL
-      colnames(show) <- c("Gene", "Biotype", "RCD entity", "Cancer Gene", "Confidence Tier", "Mechanistic (DeepSeek)", paste0("Role (", sc$label, ")"), paste0("Direction (", sc$label, ")"), "Source DBs")
-      datatable(show, rownames = FALSE, selection = "single", escape = FALSE,
+      show$evidence <- sprintf(
+        "<button type=\"button\" onmousedown=\"event.stopPropagation();\" onclick=\"event.stopPropagation(); Shiny.setInputValue('%s', '%s|%s', {priority:'event'})\" style=\"border:none;background:none;cursor:pointer;font-size:16px;color:#1d4ed8;\" title=\"Evidence Trail\">⧈</button>",
+        session$ns("evidence_click"), raw_gene, raw_entity
+      )
+      colnames(show) <- c("Gene", "Biotype", "RCD entity", "Cancer Gene", "Confidence Tier", "Mechanistic (DeepSeek)", paste0("Role (", sc$label, ")"), paste0("Direction (", sc$label, ")"), "Source DBs", "Evidence")
+      datatable(show, rownames = FALSE, selection = "none", escape = FALSE,
         options = list(
           pageLength = 15, search = list(regex = TRUE, smart = TRUE),
           language = list(search = "Filter:", zeroRecords = "No genes found."),
@@ -507,10 +513,9 @@ mod_gene_catalog_server <- function(id) {
         class = "compact hover row-border")
     })
 
-    observeEvent(input$table_genes_rows_selected, {
-      idx <- input$table_genes_rows_selected
-      if (is.null(idx) || length(idx) == 0) return()
-      navigate_to_gene_page(filtered_genes()$gene_symbol[idx])
+    observeEvent(input$gene_click, {
+      req(input$gene_click)
+      navigate_to_gene_page(input$gene_click)
     })
 
     # ── Download da aba ativa (TSV / XLSX / CSV) ────────────────────
@@ -538,6 +543,21 @@ mod_gene_catalog_server <- function(id) {
         }
       }
     )
+
+    # ── Cross-link from RCD Entity Deep Dive -> filter this entity ─────
+    observeEvent(gene_catalog_entity_rv(), {
+      req(gene_catalog_entity_rv())
+      updateSelectizeInput(session, "f_rcd", selected = gene_catalog_entity_rv())
+    })
+
+    # ── Evidence Trail: the per-row ⧈ button opens the global drawer ──
+    observeEvent(input$evidence_click, {
+      req(input$evidence_click)
+      parts <- strsplit(input$evidence_click, "|", fixed = TRUE)[[1]]
+      if (length(parts) != 2) return()
+      evidence_trail_rv(list(gene = parts[1], entity = parts[2]))
+      shinyjs::runjs("document.getElementById('evidence_drawer').style.display='block';")
+    })
 
     # ── Download the FULL V027 matrix (all rows, all 82 columns) ───────
     output$download_full <- downloadHandler(
