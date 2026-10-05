@@ -100,10 +100,23 @@ mod_rcd_entities_server <- function(id) {
         ")),
         tags$div(style = "background:#f5f5f4; border-left:4px solid #c0392b; padding:16px 18px; border-radius:6px;",
                  desc_to_html(desc)),
+        tags$div(style = "margin-top:16px;",
+          tags$button(
+            "View associated genes",
+            onclick = sprintf("Shiny.setInputValue('%s', '%s', {priority:'event'})", session$ns("view_genes"), gsub("'", "\'", input$entity, fixed = TRUE)),
+            style = "padding:8px 14px; background:#0b1020; color:#fff; border:none; border-radius:8px; cursor:pointer; font-weight:600;"
+          )
+        ),
         tags$h4("References", style = "color:#c0392b; margin-top:16px;"),
         tags$div(style = "background:#fafaf9; border:1px solid #e7e5e4; border-radius:6px; padding:14px 18px; max-height:340px; overflow-y:auto;",
                  if (is.null(ref)) tags$p("No reference list available.") else HTML(ref_to_html(ref)))
       )
     })
+    observeEvent(input$view_genes, {
+      req(input$view_genes)
+      gene_catalog_entity_rv(input$view_genes)
+      shinyjs::runjs("$('a[data-value=\"Gene Catalog\"]').tab('show');")
+    })
+
   })
 }

@@ -91,3 +91,54 @@ artifacts and the GitHub mirror, each passing a **bigger, end-to-end consistency
   mirror matches the tree, verify the ZIP has no V026 leftovers, and log pass/fail.
 
 Full detail in `analysis/benchmark_label_error_n800/PENDING_app_consensus_variables.md` §7.
+
+---
+
+## 8. Reader-experience modules + Evidence Trail fix (2026-10-04)
+
+Status: DONE (reader-experience batch)
+
+### New app modules
+
+- **Discrepancy Radar** (`modules/mod_discrepancy.R`, tab after Gene Catalog) — the 7,892
+  GPT-arbitrated classifier disagreements, faceted by axis (Direction 926 / Role 319 /
+  Mechanistic 6,647), concordance dots (uniform CSS circles), GPT verdict + reason, PENDING
+  human-adjudication slot. Click opens the extended Evidence Trail drawer. Data:
+  `data/discrepancy/` (4 GPT-vote CSVs).
+- **Discovery Timeline** (`modules/mod_timeline.R`) — five lanes (L1-L5), 1859-2026, dome
+  palette + glow. Click opens a discovery card (founding year + paper title/authors/journal +
+  PMID/DOI). The composite entity shows its two parent PMIDs, no fabricated PMID. Data:
+  `data/discovery/founding_papers.csv` (53 founding papers).
+- **Reader Mode** (`modules/mod_tour.R`) — first-visit 8-step modal tour with auto-navigation,
+  a Home-only Start-tour button, and a Replay-tour control in About.
+- **3D RCDome** (`www/dome_3d.html` + `generate_dome_3d.py`, tab after Network) — rotatable
+  three.js sphere: 53 entities on the shell, network lines to top entities, level legend
+  highlight, entity focus view (hoverable/clickable stars), gene click -> Evidence Trail, and
+  a full/sampled toggle (default top 400 genes; full 9,265). three.js + OrbitControls bundled
+  locally in `www/`.
+
+### Fixes
+
+- **Evidence Trail drawer** — direct HTML injection (`build_evidence_trail_html` +
+  `observeEvent`), fixing the blank drawer from the Gene Catalog; one unified route for
+  Network + Gene Catalog.
+- **Gene Catalog** — Evidence column wired to the drawer; gene link and button separated.
+- **Deep Dive** — Option 2: pure narrative + View associated genes; no drawer.
+- **Timeline overlap** — plot shifted right (Necrosis no longer overlaps the L4 label).
+- **DOI encoding** — `doi_href()` percent-encodes URL-hostile characters.
+
+### Manuscript (`RCDome_manuscript_governance_V027.docx`)
+
+- Module list (platform architecture + Web Application section) now includes Discrepancy
+  Radar, Discovery Timeline, and 3D RCDome (ten data modules).
+- Module cards updated on `explore.html` + `landing_page.html`.
+
+### Verification
+
+- Smoke test (`code/test_app_smoke_v027.py`) — ALL PASSED.
+- Link audit — 52 PMID + 50 DOI founding links, 0 broken.
+- 3D constellation mapping audit — 0 mismatches vs the matrix.
+
+### Distribution
+
+- `RCDome_V027_distribution.zip` rebuilt (797.1 MB, 397 files), including `.Renviron`.
