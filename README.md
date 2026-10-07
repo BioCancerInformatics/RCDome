@@ -8,7 +8,7 @@
   <sub>RCD ontology dome: the cupola rim carries the 53 entities colored by ontological level (L1–L5) over a constellation of 9,265 genes — interactive in the live app (3D RCDome module)</sub>
 </p>
 
-**RCDome** is a gene-centric, multi-source knowledge platform that compiles, normalizes and independently validates every human gene–regulated cell death (RCD) association against the published record — integrating 20 source databases into a single, traceable atlas of 53 canonicalized RCD-related entities and 9,265 genes.
+**RCDome** is a gene-centric, multi-source knowledge platform that compiles, normalizes and independently validates every human gene–regulated cell death (RCD) association against the published record — integrating 20 source databases and resources into a single, traceable atlas of 53 canonicalized RCD-related entities and 9,265 genes.
 
 Every claim is verifiable: each association carries its source provenance, evidence tier, mechanistic classification, functional role, direction, and the verified publication (PMID) that supports it — or is explicitly marked `DATABASE_ONLY` where no supporting PMID was found.
 
@@ -27,7 +27,7 @@ The **dome** is RCDome's visual signature. Its cupola rim carries the 53 canonic
 | Unique gene–RCD pairs | **21,568** (+ 905 multi-database corroboration rows) |
 | HGNC-validated genes | **9,265** |
 | Canonicalized RCD-related entities | **53** (from 62 original name strings) |
-| Source databases | **20** |
+| Source databases and resources | **20** |
 | Independent analyses | **3** — DeepSeek · Elicit · Consensus |
 | Executors / regulators / markers / unresolved | 469 / 9,311 / 5 / 11,783 |
 | Direction (promotes / protects) | 5,025 / 4,755 |
@@ -39,7 +39,7 @@ The **dome** is RCDome's visual signature. Its cupola rim carries the 53 canonic
   <img src="docs/figures/Figure_1_pipeline.png" width="1100">
 </p>
 
-The pipeline runs in one top-to-bottom workflow: **20 source databases → five compilation channels (A recall · B precision · C AI screening · D manual curation · E Elicit Phase 3) → consolidation → three independent validations (DeepSeek, Elicit, Consensus) → the 82-column matrix → the RCDome web application.**
+The pipeline runs in one top-to-bottom workflow: **20 source databases and resources → five compilation channels (A recall · B precision · C AI screening · D manual curation · E Elicit Phase 3) → consolidation → three independent validations (DeepSeek, Elicit, Consensus) → the 82-column matrix → the RCDome web application.**
 
 ---
 
