@@ -1,18 +1,18 @@
 # RCDome — Collaborator Distribution (copy-only, intentional files only)
 
-This folder reproduces the **live** RCDome Shiny app (the 9 visible tabs), assembled by **copying** from the developer's reference app. The developer's original app was **not** modified. Vestigial signatures/omics/papers/bodymap leftovers are excluded.
+This folder reproduces the **live** RCDome Shiny app (Home dome, Explore RCDome, Operational Definitions, Compare Definitions, RCD entities, RCD Entity Deep Dive, Gene Catalog, Discrepancy Radar, Discovery Timeline, 3D RCDome, Digital Molecular RCD Board, Network, About), assembled by **copying** from the developer's reference app. The developer's original app was **not** modified. Vestigial signatures/omics/papers/bodymap leftovers are excluded.
 
 ## 1. What you received
 
 - `ui.R`, `server.R`, `global.R`, `run.R` — Shiny entry points
 - `R/` — helpers (utils, pathways, rcd_modal) + `R/validate_data_files.R` (pre-flight validation)
-- `data/gene_info_lookup.json` — 9,264 NCBI Gene summaries for the gene-page "Gene information" block
-- `modules/` — all 13 module files (only 6 are live; the rest are sourced but unrendered)
+- `data/gene_info_lookup.json` — 9,265 NCBI Gene summaries for the gene-page "Gene information" block
+- `modules/` — all 13 module files (all live)
 - `www/` — landing, explore, detail, logos, JS
 - `board/` — Digital Molecular Board (DeepSeek) prompt, governance, benchmarks
 - `data/` — matrix, decoder, HGNC set, RCD modulo (logos/figures/videos/descriptions/references), about (photos/data-sources/see-also), omic (3 lazy sub-tab tables)
 
-## 1b. Included deliverables (V027_8)
+## 1b. Included deliverables
 
 - **Ontology**: 53 canonicalized RCD-related entities, final distribution **L1 = 19, L2 = 7, L3 = 2, L4 = 13, L5 = 12** (Victor V027 auditoria, evidence-based BG0–BG6 re-adjudications).
 - **Nomenclature harmonized**: MC1–MC5 (modality criteria), RS1–RS6 (ranking score), EG1–EG5 (Elicit governance gates), ET1–ET4 (evidence tier), CT1–CT4 (confidence tier).
