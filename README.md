@@ -10,7 +10,7 @@
 
 **RCDome** is a gene-centric, multi-source knowledge platform that compiles, normalizes and independently validates every human gene–regulated cell death (RCD) association against the published record — integrating 20 source databases and resources into a single, traceable atlas of 53 canonicalized RCD-related entities and 9,265 genes.
 
-Every claim is verifiable: each association carries its source provenance, evidence tier, mechanistic classification, functional role, direction, and the verified publication (PMID) that supports it — or is explicitly marked `DATABASE_ONLY` where no supporting PMID was found.
+Every claim is verifiable: each association carries its source provenance, evidence tier, mechanistic classification, functional role, direction, and the verified publication (PMID) that supports it — or is explicitly marked by its mechanistic class — `DATABASE_ONLY` (no PMID), `INSUFFICIENT_DATA` (PMID but no mechanistic evidence), `LITERATURE_GAP`, `CONTEXT_GAP`, or `CO_OCCURRENCE`.
 
 The **dome** is RCDome's visual signature. Its cupola rim carries the 53 canonicalized RCD-related entities as nodes colored by their adjudicated ontological level — L1 modalities (19, gold), L2 subtypes (7, blue), L3 triggers (2, green), L4 Functional/contextual (13, purple), and L5 Generic/umbrella/taxon (12, orange) — over a constellation of the 9,265 HGNC-validated genes. The color-coding makes the ontology's core claim visible at a glance: only **19 of the 53** entities are bona fide RCD modalities (L1); the remaining 34 are subtypes, triggers, contextual programs, or umbrella concepts, and their level color encodes that distinction.
 
@@ -110,7 +110,7 @@ The app loads `data/unified_gene_rcd_matrix_V027.csv` (place a copy in `app/data
 
 ## 🔁 Reproducibility
 
-1. **Secrets** — copy `.env.example` to `.env` and add your own keys (`DEEPSEEK_KEY`, `CONSENSUS_API_KEY`, `ELICIT_API_KEY`, `NCBI_KEY`). **Keys are never committed.**
+1. **Secrets** — the Shiny app reads `.Renviron` (`DEEPSEEK_API_KEY`, `SMTP_USER`, `SMTP_PASS`); the code-level API keys are templated in `.env.example` (`NCBI_KEY`, `DEEPSEEK_KEY`, `ELICIT_API_KEY`, `CONSENSUS_API_KEY`). **Keys are never committed.**
 2. **Execution order** — sources → channels (`code/extraction`) → Phase 2A/D & CoT & Consensus (`code/validation`) → merge (`code/merge`) → benchmarks (`code/benchmarks`) → figures (`code/figures`).
 3. **Benchmarks** — the benchmark families are agnostic (fixed ground-truth sets defined independently of the classifiers): DeepSeek model-selection (26 pairs), Elicit governance (784 records), Consensus query (26 pairs), PMID title validation (10,141 titles), and the Digital Molecular RCD Board & Q&A regression suite (five checks, n = 100 each).
 4. **Smoke tests** —  contains automated checks (run by GitHub Actions on every push) that verify the mechanistic classification mapping, the chain-of-thought governance rules, and the benchmark scoring.
