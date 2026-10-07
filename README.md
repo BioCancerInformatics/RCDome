@@ -5,7 +5,7 @@
 <p align="center">
   <img src="docs/hero_dome.png" width="1100">
   <br>
-  <sub>RCD ontology dome (static snapshot): <a href="docs/dome.html">docs/dome.html</a> (cupola only, L1–L5; the dome is interactive in the live app)</sub>
+  <sub>RCD ontology dome: the cupola rim carries the 53 entities colored by ontological level (L1–L5) over a constellation of 9,265 genes — interactive in the live app (3D RCDome module)</sub>
 </p>
 
 **RCDome** is a gene-centric, multi-source knowledge platform that compiles, normalizes and independently validates every human gene–regulated cell death (RCD) association against the published record — integrating 20 source databases into a single, traceable atlas of 53 canonicalized RCD-related entities and 9,265 genes.
@@ -17,20 +17,20 @@ The **dome** is RCDome's visual signature. Its cupola rim carries the 53 canonic
 ---
 
 
-> 🔒 **Private repository** — truth snapshot V026, not the definitive version; amended versions are pushed as results emerge. Made public at manuscript submission.
+> 🔒 **Private repository** — truth snapshot V027, not the definitive version; amended versions are pushed as results emerge. Made public at manuscript submission.
 
-## 📊 Key numbers (truth matrix V026)
+## 📊 Key numbers (truth matrix V027)
 
 | | |
 |---|---|
-| Matrix | **22,473 rows × 71 columns** |
+| Matrix | **22,473 rows × 82 columns** |
 | Unique gene–RCD pairs | **21,568** (+ 905 multi-database corroboration rows) |
 | HGNC-validated genes | **9,265** |
 | Canonicalized RCD-related entities | **53** (from 62 original name strings) |
 | Source databases | **20** |
 | Independent analyses | **3** — DeepSeek · Elicit · Consensus |
-| Executors / regulators / markers / unresolved | 469 / 9,489 / 5 / 11,605 |
-| Direction (promotes / protects) | 5,070 / 4,755 |
+| Executors / regulators / markers / unresolved | 469 / 9,311 / 5 / 11,783 |
+| Direction (promotes / protects) | 5,025 / 4,755 |
 | PMID titles verified against PubMed | **10,141 / 10,141 (100%)** |
 
 ## 🧭 Conceptual framework
@@ -39,7 +39,7 @@ The **dome** is RCDome's visual signature. Its cupola rim carries the 53 canonic
   <img src="docs/figures/Figure_1_pipeline.png" width="1100">
 </p>
 
-The pipeline runs in one top-to-bottom workflow: **20 source databases → five compilation channels (A recall · B precision · C AI screening · D manual curation · E Elicit Phase 3) → consolidation → three independent validations (DeepSeek, Elicit, Consensus) → the 71-column matrix → the RCDome web application.**
+The pipeline runs in one top-to-bottom workflow: **20 source databases → five compilation channels (A recall · B precision · C AI screening · D manual curation · E Elicit Phase 3) → consolidation → three independent validations (DeepSeek, Elicit, Consensus) → the 82-column matrix → the RCDome web application.**
 
 ---
 
@@ -47,13 +47,13 @@ The pipeline runs in one top-to-bottom workflow: **20 source databases → five 
 
 | Folder | Purpose |
 |---|---|
-| `docs/manuscript` | The manuscript (governance V026) + the OD **M&M** and **Results** subsections |
+| `docs/manuscript` | The manuscript (governance V027) + the OD **M&M** and **Results** subsections |
 | `docs/supplementary` | Supplementary information, tables, and variable dictionary |
-| `docs/figures` | Figures 1–4 and Supplementary Figures S1–S2 (600-DPI TIFF + PNG) |
+| `docs/figures` | Figures 1–4 and Supplementary Figures S1–S3 (600-DPI TIFF + PNG) |
 | `docs/traceability` | The traceability & governance contract |
 | `docs/governance` | Medina's AI Governance Rules + the **RCDome Definition Governance** (invariance, provenance P0–P3, two-call) |
 | `docs/decoder` | OD inventory, draft definitions, review guide, sync tracking |
-| `data/` | The truth matrix (`unified_gene_rcd_matrix_V026.csv`) + 10,141 verified PMID titles + the **53-entity decoder** (`RCDome_Decoder_53*`), review worksheet, merge log, NCCD-verbatim JSON, and validation artifacts |
+| `data/` | The truth matrix (`unified_gene_rcd_matrix_V027.csv`) + 10,141 verified PMID titles + the **53-entity decoder** (`RCDome_Decoder_53*`), review worksheet, merge log, NCCD-verbatim JSON, and validation artifacts |
 | `code/extraction` | Source-database extraction (channels A, B, E) |
 | `code/validation` | Phase 2A/D, DeepSeek CoT, and Consensus validation |
 | `code/decoder` | OD definition pipeline (build, S scoring, audits, merge, full-text RAG validation) |
@@ -104,7 +104,7 @@ setwd("/path/to/RCDome/app")
 shiny::runApp(appDir = ".", port = 8890, launch.browser = TRUE)
 ```
 
-The app loads `data/unified_gene_rcd_matrix_V026.csv` (place a copy in `app/data/`, or point `global.R` to it).
+The app loads `data/unified_gene_rcd_matrix_V027.csv` (place a copy in `app/data/`, or point `global.R` to it).
 
 ---
 
@@ -121,7 +121,7 @@ The app loads `data/unified_gene_rcd_matrix_V026.csv` (place a copy in `app/data
 |---|---|
 | DeepSeek chain-of-thought (26-pair) | **100% accuracy · 0% false positives** |
 | Consensus neutral query (26-pair) | **100% accuracy · 0% false positives** |
-| Elicit post-export governance | 5/5 gates passed (allow-list 75.4→100% · EXECUTOR precision 47→100% · traceability 24→98%) |
+| Elicit post-export governance | 5/5 gates passed (allow-list 75.4→100% · unsupported EXECUTOR rate 53→0% · traceability 24→98%) |
 | PMID title validation | **10,141/10,141 (100%; 95% CI 99.96–100%)** |
 | Digital Molecular RCD Board & Q&A — 5 regression checks (n = 100 each): reference discipline, context fidelity, English-only, minimal source, insufficient-data | **100% each (95% CI 96.4–100%)** |
 
@@ -135,12 +135,12 @@ This project follows **Medina's AI Governance Rules in Writing Scientific Manusc
 
 | Item | Status |
 |---|---|
-| Matrix V026 | ✅ complete |
-| Manuscript, figures, supplementaries | ✅ complete (V026) |
+| Matrix V027 | ✅ complete |
+| Manuscript, figures, supplementaries | ✅ complete (V027) |
 | DeepSeek CoT (full matrix) | ✅ complete (21,568 pairs) |
 | Elicit (Phase 3) | ✅ complete |
-| **Consensus full run** | 🔄 **in progress** (19,443 / 21,569 pairs recorded — token quota reached, resumable; re-run after topping up tokens) |
-| App modules | ✅ complete (9 tabs: Home, Explore RCDome, Operational Definitions, Compare Definitions, RCD entities 53/53, Gene Catalog, RCDome Board + Q&A, Network, About) |
+| **Consensus full run** | ✅ complete (21,568 / 21,568 pairs) |
+| App modules | ✅ complete (Home dome, Explore RCDome, Operational Definitions, Compare Definitions, RCD entities, RCD Entity Deep Dive, Gene Catalog, Discrepancy Radar, Discovery Timeline, 3D RCDome, Digital Molecular RCD Board + Q&A, Network, About) |
 
 ## 📄 How to cite
 
