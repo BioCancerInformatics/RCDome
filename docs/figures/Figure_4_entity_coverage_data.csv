@@ -1,26 +1,26 @@
 "rcd_form_canonical","rcdome_level","genes"
 "Pyronecrosis","L5",1
 "Methuosis","L1",2
-"Spectosis","L5",2
-"Triaptosis","L5",3
+"Spectosis","L4",2
+"Triaptosis","L1",3
 "Cornification","L4",4
 "Paraptosis","L1",5
 "Eryptosis","L4",5
 "Mitoptosis","L5",5
 "Erebosis","L5",6
 "Linker cell-type death","L5",6
-"Lysozincrosis","L5",8
-"Mitoxyperilysis","L5",13
+"Lysozincrosis","L2",8
+"Mitoxyperilysis","L1",13
 "Oncosis","L4",17
 "Oxeiptosis","L1",18
 "Ammonia-induced cell death","L4",20
 "Hypersensitive response","L5",21
 "Alkaliptosis","L1",24
 "Vacuolar cell death","L5",24
-"NECSO","L5",27
-"Floatptosis","L5",28
-"Lysoptosis","L5",33
-"NETosis","L1",36
+"NECSO","L1",27
+"Floatptosis","L4",28
+"Lysoptosis","L2",33
+"NETotic cell death","L1",36
 "Metalloptosis","L5",36
 "Lysosomal cell death","L2",37
 "PANoptosis","L4",41
@@ -29,7 +29,7 @@
 "MPT-driven necrosis","L1",67
 "Phagoptosis","L4",67
 "Cuproptosis","L1",77
-"Entosis","L1",77
+"Entotic cell death","L1",77
 "Efferocytosis","L4",95
 "Disulfidptosis","L1",103
 "Senescence and Autophagy in Cancer","L5",105
