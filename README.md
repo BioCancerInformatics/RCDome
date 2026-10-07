@@ -74,7 +74,7 @@ three-tier hierarchy — **NCCD 2018 verbatim** ([Galluzzi et al. 2018, *Cell De
 **Rodrigues et al. 2025 verbatim** ([Rodrigues de Souza et al. 2025, *Front Bioinform* 5:1630518, our prior study](https://doi.org/10.3389/fbinf.2025.1630518)) →
 **RCDome-drafted** (from the
 founding article) — and scored by the six-criterion Rodrigues rubric with overall
-score **S = 0.25·C1 + 0.25·C2 + 0.20·C3 + 0.15·C4 + 0.10·C5 + 0.05·C6** (verified
+score **S = 0.25·RS1 + 0.25·RS2 + 0.20·RS3 + 0.15·RS4 + 0.10·RS5 + 0.05·RS6** (verified
 25/25 against the multi-optosis anchors, 53/53 bitwise).
 
 | Layer | File |
@@ -86,7 +86,7 @@ score **S = 0.25·C1 + 0.25·C2 + 0.20·C3 + 0.15·C4 + 0.10·C5 + 0.05·C6** (v
 | Validation | DeepSeek full-text RAG (`data/od_validation_deepseek_fulltext.csv`) · Consensus API (`data/od_crossref_consensus.csv`) · Europe PMC recovery · PubMed Knock Test (52/52) |
 | Verbatim source | `data/galluzzi2018_nccd_definitions.json` (NCCD 2018 Box 1, byte-identical) |
 
-The decoder is **fully audited** (final readiness audit 26/26; verbatim audit 19/19
+The decoder is **fully audited** (final readiness audit 26/26; verbatim audit 20/20
 NCCD + 25/25 Rodrigues; S formula 25/25) and every entity is **PMID-anchored** with a
 full provenance chain (source databases → channels → reference PMID → author).
 
