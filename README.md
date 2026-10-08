@@ -140,7 +140,7 @@ This project follows **Medina's AI Governance Rules in Writing Scientific Manusc
 | DeepSeek CoT (full matrix) | ✅ complete (21,568 pairs) |
 | Elicit (Phase 3) | ✅ complete |
 | **Consensus full run** | ✅ complete (21,568 / 21,568 pairs) |
-| App modules | ✅ complete (Home dome, Explore RCDome, Operational Definitions, Compare Definitions, RCD entities, RCD Entity Deep Dive, Gene Catalog, Discrepancy Radar, Discovery Timeline, 3D RCDome, Digital Molecular RCD Board + Q&A, Network, About) |
+| App modules | ✅ complete (Home dome, Explore RCDome, Operational Definitions, Compare Definitions, RCD entities, Gene Catalog, Discrepancy Radar, Discovery Timeline, 3D RCDome, Digital Molecular RCD Board + Q&A, Network, About) |
 
 ## 📄 How to cite
 
