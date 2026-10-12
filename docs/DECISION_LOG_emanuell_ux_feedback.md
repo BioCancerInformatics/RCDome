@@ -65,9 +65,10 @@ Protocol: independent critical assessment; one issue at a time; classification =
 ### 5b — Distribuição temporal desproporcional (1859 stretches the scale)
 
 - **Original comment:** including necrosis (1859) widens the scale and compresses post-2000 entities, especially near 2020.
-- **Fact-check:** linear scale `X <- function(yr) 320 + (yr - min_yr)/(max_yr - min_yr) * 760`, min_yr = 1859, ~167 years over 760 px ≈ 4.5 px/year.
-- **Preliminary classification:** ACTIONABLE (moderate) — but solution (axis break vs zoomed recent inset) must be designed explicitly.
-- **Status:** pending user decision.
+- **Fact-check:** linear scale `X <- function(yr) 320 + (yr - min_yr)/(max_yr - min_yr) * 760`, min_yr = 1859, ~167 years over 760 px ≈ 4.5 px/year; 43 of 52 entities sit in 2000–2024 (~110 px).
+- **Classification:** ACTIONABLE (moderate).
+- **Agreed solution (Option 3, zoomed inset):** keep the full overview (all 53, 1859–2025, unchanged) and add a clearly-labeled second panel below titled "Recent discoveries (2000–2024) — zoomed", same 5 lanes, the recent window stretched to full width (~31.7 px/year). Duplication allowed (recent dots appear in both panels). Window = 2000–2024.
+- **Action:** implement after the review cycle (pending).
 
 ### 5c — Posicionamento de "Senescence and Autophagy in Cancer"
 
@@ -76,3 +77,22 @@ Protocol: independent critical assessment; one issue at a time; classification =
 - **Preliminary classification:** NOT ACTIONABLE (by design — the composite has no single year).
 - **Decision (user):** agreed — NOT ACTIONABLE.
 - **Action:** none. Closed.
+
+---
+
+## Issue #6 — Falha na geração de sínteses no Digital Molecular Board
+
+- **Original comment:** "Generate Synthesis" shows "Error: DeepSeek HTTP 402"; suggests regularizing the API balance, showing a clearer message, and disabling download when no synthesis is generated.
+- **Fact-check:** the code reports the real HTTP status (mod_board.R line 604); the app already shows "⚠ Generation failed — no synthesis produced (DeepSeek API error)" on failure. The DeepSeek key is shipped inside the distribution ZIP via `.Renviron` (real key, no placeholder).
+- **Decision (user):** REJECTED — NOT ACTIONABLE (by design). The 402 occurs when the running copy lacks a valid DeepSeek key (e.g., an older distribution without the key, or no credits). No app change is warranted.
+- **Classification:** NOT ACTIONABLE.
+- **Action:** none. Closed.
+
+---
+
+## Issue #7 — Presença de informações residuais de versões anteriores no módulo Network
+
+- **Original comment:** the Network "Search gene" field still shows "e.g. TP53, UVM-99..."; UVM-99 is a signature from a previous article, no longer in the current scope.
+- **Fact-check:** confirmed — `modules/mod_network.R` line 109 placeholder is "e.g. TP53, UVM-99...". "UVM-99" is not a gene symbol; its origin is the legacy signature table (`_archive/Shiny app_legacy/*/data/signatures.tsv`, "UVM-99.2.1.P.0.0.0.4.4.2" — a uveal-melanoma signature from the earlier signature-based analysis). No other residual "e.g." placeholder exists in the live modules.
+- **Classification:** ACTIONABLE (minor).
+- **Action:** IMPLEMENTED (2026-10-12) — replaced the placeholder with "e.g. TP53, BCL2, BAX, GPX4...". ZIP rebuilt.

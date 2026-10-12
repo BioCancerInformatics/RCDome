@@ -71,7 +71,7 @@ mod_network_ui <- function(id) {
     p(
       paste(
         "Click a gene (circle) for literature evidence.",
-        "Click an RCD logo for entity details."
+        "Click an RCD logo for its top-pair evidence trail."
       )
     ),
     
@@ -106,14 +106,25 @@ mod_network_ui <- function(id) {
           label = "Search gene:",
           choices = NULL,
           options = list(
-            placeholder = "e.g. TP53, UVM-99...",
+            placeholder = "e.g. TP53, BCL2, BAX, GPX4...",
             maxOptions = 30,
             create = rcdome_create_js
           )
         )
       )
     ),
-    
+
+    div(
+      style = "margin-bottom: 12px;",
+      checkboxGroupInput(
+        inputId = ns("edge_sources"),
+        label = "Edge classification sources (1 = single, 2+ = compare):",
+        choices = c("DeepSeek" = "deepseek", "Elicit" = "elicit", "Consensus" = "consensus"),
+        selected = "deepseek",
+        inline = TRUE
+      )
+    ),
+
     # ── Ontology filters (level + gene role) ─────────────────────────────────
     div(
       style = paste(
@@ -275,6 +286,12 @@ mod_network_ui <- function(id) {
       ),
       type = 8,
       color = "#FF9800"
+    ),
+    div(style = "margin-top:8px;",
+      actionButton(ns("export_png"), "Export PNG (300 DPI)",
+                   style = "border:2px solid #FF9800; border-radius:6px; color:#FF9800; background:#ffffff; font-weight:600; padding:4px 12px; cursor:pointer; margin-right:8px;"),
+      actionButton(ns("export_pdf"), "Export PDF",
+                   style = "border:2px solid #FF9800; border-radius:6px; color:#FF9800; background:#ffffff; font-weight:600; padding:4px 12px; cursor:pointer;")
     )
   )
 }
@@ -290,8 +307,37 @@ mod_network_server <- function(
   
   moduleServer(id, function(input, output, session) {
     
+    export_name_rv <- reactiveVal("rcdome_network_all")
+    prov_label_rv <- reactiveVal("all entities \u00b7 all levels \u00b7 all roles")
     
-    # ── Entity → ontological level (from the V026 matrix) ────────────────────
+    # ── Edge classification sources (single or multi) ──────────────────────────
+    src_list <- reactive({
+      s <- input$edge_sources
+      if (is.null(s) || length(s) == 0) s <- "deepseek"
+      lapply(s, function(x) {
+        if (identical(x, "elicit")) list(key = "elicit", label = "Elicit",
+                                          role = "rcd_gene_type", dir = "role_direction")
+        else if (identical(x, "consensus")) list(key = "consensus", label = "Consensus",
+                                                  role = "consensus_role", dir = "consensus_direction")
+        else list(key = "deepseek", label = "DeepSeek",
+                  role = "cot_role", dir = "cot_direction")
+      })
+    })
+
+    src_cols <- reactive({
+      s <- src_list()[[1]]
+      list(role = s$role, dir = s$dir, label = s$label)
+    })
+    
+    # role-filter choices follow the selected edge source
+    observe({
+      sc <- src_cols()
+      vals <- sort(unique(genes_df[[sc$role]]))
+      vals <- vals[!is.na(vals) & vals != ""]
+      updateSelectizeInput(session, "role_filter", choices = vals, server = TRUE)
+    })
+
+    # ── Entity → ontological level (from the V027 matrix) ────────────────────
     entity_level <- reactive({
       df <- genes_df[
         !is.na(genes_df$Pathway_Categorization) &
@@ -455,44 +501,90 @@ mod_network_server <- function(
         ))
       }
       
-      has_role <- "cot_role" %in% names(df)
-      has_dir  <- "cot_direction" %in% names(df)
+      srcs <- src_list()
       has_tier <- "evidence_tier" %in% names(df)
       has_mech <- "mechanistic_class" %in% names(df)
       has_pmid <- "pmid_list" %in% names(df)
-      
-      key <- paste(df$name, df$Pathway_Categorization, sep = "\u0001")
-      
+
+      key <- paste(df$name, df$Pathway_Categorization, sep = "")
+
+      sc <- srcs[[1]]
       role_pri <- c(EXECUTOR = 3L, REGULATOR = 2L, MARKER = 1L, UNCERTAIN = 0L)
-      rp <- if (has_role) role_pri[as.character(df$cot_role)] else integer(nrow(df))
+      rp <- role_pri[as.character(df[[sc$role]])]
       rp[is.na(rp)] <- 0L
-      
+
       dir_pri <- c(PROMOTES = 2L, PROTECTS = 2L, UNCLEAR = 0L)
-      dp <- if (has_dir) dir_pri[as.character(df$cot_direction)] else integer(nrow(df))
+      dp <- dir_pri[as.character(df[[sc$dir]])]
       dp[is.na(dp)] <- 0L
-      
+
       tier_pri <- c(ET1 = 4L, ET2 = 3L, ET3 = 2L, ET4 = 1L)
       tp <- if (has_tier) tier_pri[as.character(df$evidence_tier)] else integer(nrow(df))
       tp[is.na(tp)] <- 1L
-      
+
       mech_pri <- c(MECHANISTIC = 6L, CO_OCCURRENCE = 5L, LITERATURE_GAP = 4L,
                     CONTEXT_GAP = 3L, DATABASE_ONLY = 2L, INSUFFICIENT_DATA = 1L)
       mp <- if (has_mech) mech_pri[as.character(df$mechanistic_class)] else integer(nrow(df))
       mp[is.na(mp)] <- 0L
-      
+
       ord <- order(key, -rp, -dp, -tp, -mp, method = "radix")
       d2 <- df[ord, , drop = FALSE]
       k2 <- key[ord]
       first <- !duplicated(k2)
-      
-      role <- as.character(d2$cot_role[first])
-      role[is.na(role) | role == ""] <- "UNCERTAIN"
-      direction <- as.character(d2$cot_direction[first])
-      direction[is.na(direction) | direction == ""] <- "UNCLEAR"
-      tier <- as.character(d2$evidence_tier[first])
+      d3 <- d2[first, , drop = FALSE]
+
+      tier <- as.character(d3$evidence_tier)
       tier[is.na(tier) | tier == ""] <- "ET4"
-      mech <- if (has_mech) as.character(d2$mechanistic_class[first]) else rep("INSUFFICIENT_DATA", sum(first))
+      mech <- if (has_mech) as.character(d3$mechanistic_class) else rep("INSUFFICIENT_DATA", nrow(d3))
       mech[is.na(mech) | mech == ""] <- "INSUFFICIENT_DATA"
+
+      if (length(srcs) == 1) {
+        role <- as.character(d3[[sc$role]])
+        role[is.na(role) | role == ""] <- "UNCERTAIN"
+        direction <- as.character(d3[[sc$dir]])
+        direction[is.na(direction) | direction == ""] <- "UNCLEAR"
+        edge_color <- rep("#57534e", nrow(d3))
+        edge_dashes <- rep(FALSE, nrow(d3))
+        edge_label <- rep("", nrow(d3))
+        edge_title <- rep("", nrow(d3))
+      } else {
+        dirs <- lapply(srcs, function(s) {
+          v <- as.character(d3[[s$dir]])
+          v[is.na(v) | v == ""] <- "UNCLEAR"
+          v[v %in% c("ASSOCIATED", "BIDIRECTIONAL")] <- "UNCLEAR"
+          v
+        })
+        roles <- lapply(srcs, function(s) {
+          v <- as.character(d3[[s$role]])
+          v[is.na(v) | v == ""] <- "UNCERTAIN"
+          v
+        })
+        agreement <- vapply(seq_len(nrow(d3)), function(i) {
+          length(unique(vapply(dirs, function(d) d[i], character(1))))
+        }, integer(1))
+        edge_color <- ifelse(agreement == 1, "#2E7D32",
+                      ifelse(agreement == 2, "#F9A825", "#C62828"))
+        edge_dashes <- agreement != 1
+        initials <- vapply(srcs, function(s) substr(s$label, 1, 1), character(1))
+        dir_short <- lapply(dirs, function(d) ifelse(d == "PROMOTES", "P",
+                                              ifelse(d == "PROTECTS", "B", "U")))
+        edge_label <- vapply(seq_len(nrow(d3)), function(i) {
+          paste0(initials, ":", vapply(dir_short, function(d) d[i], character(1)), collapse = " ")
+        }, character(1))
+        edge_title <- vapply(seq_len(nrow(d3)), function(i) {
+          parts <- vapply(seq_along(srcs), function(j) {
+            paste0(srcs[[j]]$label, ": ", roles[[j]][i], " / ", dirs[[j]][i])
+          }, character(1))
+          paste(parts, collapse = "<br>")
+        }, character(1))
+        role <- vapply(seq_len(nrow(d3)), function(i) {
+          tab <- sort(table(vapply(roles, function(r) r[i], character(1))), decreasing = TRUE)
+          names(tab)[1]
+        }, character(1))
+        direction <- vapply(seq_len(nrow(d3)), function(i) {
+          tab <- sort(table(vapply(dirs, function(d) d[i], character(1))), decreasing = TRUE)
+          names(tab)[1]
+        }, character(1))
+      }
       
       # Unique PMID count per (gene, entity), computed only over rows with PMIDs.
       pm_count <- integer(sum(first))
@@ -520,6 +612,10 @@ mod_network_server <- function(
         tier = tier,
         mech = mech,
         pmid_count = pm_count,
+        color = edge_color,
+        dashes = edge_dashes,
+        label = edge_label,
+        title = edge_title,
         stringsAsFactors = FALSE
       )
     })
@@ -721,11 +817,13 @@ mod_network_server <- function(
       edge_w <- tier_width[edges$tier]
       edge_w[is.na(edge_w)] <- 1
       
-      edges$color  <- edge_col
       edges$width  <- edge_w
-      edges$dashes <- edges$tier == "ET4"
       edges$arrows <- ifelse(edges$direction == "PROMOTES", "to", "")
-      edges$label  <- ifelse(edges$direction == "PROTECTS", "\u22a3", "")
+      if (length(src_list()) == 1) {
+        edges$color  <- edge_col
+        edges$dashes <- edges$tier == "ET4"
+        edges$label  <- ifelse(edges$direction == "PROTECTS", "⊣", "")
+      }
       
       if (
         is.null(edges) ||
@@ -806,12 +904,12 @@ mod_network_server <- function(
       
       logo_files <- list.files(
         path = logo_dir,
-        pattern = "\\.JPG$",
+        pattern = "\\.(JPG|PNG)$",
         ignore.case = TRUE
       )
       
       logo_names <- gsub(
-        pattern = "\\.JPG$",
+        pattern = "\\.(JPG|PNG)$",
         replacement = "",
         x = logo_files,
         ignore.case = TRUE
@@ -989,14 +1087,16 @@ mod_network_server <- function(
       
       # ── Edge hover titles (role · direction · tier · PMID count) ───────────
       
+      if (length(src_list()) == 1) {
       edges$title <- ifelse(
-        nzchar(edges$role),
-        paste0(
-          edges$role, " \u00b7 ", edges$direction, " \u00b7 ",
-          edges$tier, " \u00b7 ", edges$pmid_count, " PMID"
-        ),
-        "legacy form \u2192 normalized entity"
-      )
+          nzchar(edges$role),
+          paste0(
+            edges$role, " \u00b7 ", edges$direction, " \u00b7 ",
+            edges$tier, " \u00b7 ", edges$pmid_count, " PMID"
+          ),
+          "legacy form \u2192 normalized entity"
+        )
+      }
 
 
       # ── Combine node types ─────────────────────────────────────────────────
@@ -1021,6 +1121,7 @@ mod_network_server <- function(
       } else {
         "all entities \u00b7 all levels \u00b7 all roles"
       }
+      prov_label_rv(prov_label)
       
       prov_caption <- paste0(
         "<span style='font-family:\"Segoe UI\",system-ui,sans-serif;font-size:16px;color:#78716c;'>Selection: ",
@@ -1035,6 +1136,7 @@ mod_network_server <- function(
       if (length(prov_parts) == 0) {
         export_name <- "rcdome_network_all"
       }
+      export_name_rv(export_name)
       
       
       # ── Construct visNetwork ───────────────────────────────────────────────
@@ -1110,14 +1212,16 @@ mod_network_server <- function(
           click = sprintf(
             paste0(
               "function(n) {",
+              "  var nn = (n.nodes && n.nodes.length) ? n.nodes[0] : null;",
+              "  var ne = (n.edges && n.edges.length) ? n.edges[0] : null;",
               "  Shiny.setInputValue(",
               "    '%s',",
-              "    n.nodes[0] || null,",
+              "    nn,",
               "    {priority: 'event'}",
               "  );",
               "  Shiny.setInputValue(",
               "    '%s',",
-              "    n.edges[0] || null,",
+              "    ne,",
               "    {priority: 'event'}",
               "  );",
               "}"
@@ -1213,22 +1317,47 @@ mod_network_server <- function(
           
           hoverWidth = 1.2
         ) %>%
-        
         visExport(
           type = "png",
           name = export_name,
-          label = "Export PNG",
-          float = "right",
-          style = paste0(
-            "border: 2px solid #FF9800;",
-            "border-radius: 6px;",
-            "color: #FF9800;",
-            "background: #ffffff;",
-            "font-weight: 600;",
-            "padding: 4px 12px;",
-            "cursor: pointer;"
-          )
+          label = "",
+          style = "display:none;"
         )
+    })
+    
+    # ── High-resolution network export (PNG 300 DPI + PDF) ───────────────────
+    observeEvent(input$export_png, {
+      nm <- export_name_rv()
+      shinyjs::runjs(sprintf(paste0(
+        "(function(){var g=document.getElementById('graph%s'); if(!g)return; ",
+        "var s=3, ow=g.offsetWidth, oh=g.offsetHeight; ",
+        "g.style.width=(ow*s)+'px'; g.style.height=(oh*s)+'px'; window.dispatchEvent(new Event('resize')); ",
+        "setTimeout(function(){var cv=g.querySelector('canvas'); if(!cv){g.style.width=ow+'px';g.style.height=oh+'px';window.dispatchEvent(new Event('resize'));return;} ",
+        "var cv2=document.createElement('canvas'); cv2.width=cv.width; cv2.height=cv.height; var c=cv2.getContext('2d'); c.fillStyle='#ffffff'; c.fillRect(0,0,cv2.width,cv2.height); c.drawImage(cv,0,0); var cfs=Math.round(cv.width*0.02); c.font='600 '+cfs+'px Segoe UI, sans-serif'; c.fillStyle='#57534e'; c.textAlign='left'; c.textBaseline='top'; c.fillText('Selection: %s',Math.round(cv.width*0.015),Math.round(cv.width*0.02)); var wm='\\u00A9 RCDome Group 2026. Cite us'; ",
+        "var fs=Math.max(11,Math.round(cv.width*0.012)); c.font='600 '+fs+'px Segoe UI, sans-serif'; ",
+        "c.textAlign='right'; c.textBaseline='alphabetic'; var pad=Math.round(cv.width*0.012); var tw=c.measureText(wm).width; ",
+        "c.fillStyle='rgba(0,0,0,0.2)'; c.fillRect(cv.width-tw-pad*2,cv.height-fs-pad*2,tw+pad*2,fs+pad*2); ",
+        "c.fillStyle='#ffffff'; c.fillText(wm,cv.width-pad,cv.height-pad); ",
+        "cv2.toBlob(function(blob){saveAs(blob,'%s.png');},'image/png'); ",
+        "g.style.width=ow+'px'; g.style.height=oh+'px'; window.dispatchEvent(new Event('resize')); }, 900); })();"
+      ), session$ns("network"), prov_label_rv(), nm))
+    })
+    
+    observeEvent(input$export_pdf, {
+      nm <- export_name_rv()
+      shinyjs::runjs(sprintf(paste0(
+        "(function(){var g=document.getElementById('graph%s'); if(!g)return; ",
+        "var s=3, ow=g.offsetWidth, oh=g.offsetHeight; ",
+        "g.style.width=(ow*s)+'px'; g.style.height=(oh*s)+'px'; window.dispatchEvent(new Event('resize')); ",
+        "setTimeout(function(){var cv=g.querySelector('canvas'); if(!cv){g.style.width=ow+'px';g.style.height=oh+'px';window.dispatchEvent(new Event('resize'));return;} ",
+        "var cv2=document.createElement('canvas'); cv2.width=cv.width; cv2.height=cv.height; var c=cv2.getContext('2d'); c.fillStyle='#ffffff'; c.fillRect(0,0,cv2.width,cv2.height); c.drawImage(cv,0,0); var cfs=Math.round(cv.width*0.02); c.font='600 '+cfs+'px Segoe UI, sans-serif'; c.fillStyle='#57534e'; c.textAlign='left'; c.textBaseline='top'; c.fillText('Selection: %s',Math.round(cv.width*0.015),Math.round(cv.width*0.02)); var wm='\\u00A9 RCDome Group 2026. Cite us'; ",
+        "var fs=Math.max(11,Math.round(cv.width*0.012)); c.font='600 '+fs+'px Segoe UI, sans-serif'; ",
+        "c.textAlign='right'; c.textBaseline='alphabetic'; var pad=Math.round(cv.width*0.012); var tw=c.measureText(wm).width; ",
+        "c.fillStyle='rgba(0,0,0,0.2)'; c.fillRect(cv.width-tw-pad*2,cv.height-fs-pad*2,tw+pad*2,fs+pad*2); ",
+        "c.fillStyle='#ffffff'; c.fillText(wm,cv.width-pad,cv.height-pad); ",
+        "var img=cv2.toDataURL('image/png',1.0); var pdf=new jsPDF('l','pt',[cv2.width,cv2.height]); pdf.addImage(img,'PNG',0,0,cv2.width,cv2.height); pdf.save('%s.pdf'); ",
+        "g.style.width=ow+'px'; g.style.height=oh+'px'; window.dispatchEvent(new Event('resize')); }, 900); })();"
+      ), session$ns("network"), prov_label_rv(), nm))
     })
     
     
@@ -1354,30 +1483,7 @@ mod_network_server <- function(
           session = session
         )
         
-        if (node_id %in% edges$to) {
-          
-          # Entity: open the RCD modal + zoom the camera to its gene cluster.
-          show_rcd_modal(
-            node_id,
-            "data/RCD modulo"
-          )
-          
-          session$onFlushed(
-            function() {
-              proxy %>%
-                visFocus(
-                  id = node_id,
-                  scale = 1.5,
-                  animation = list(
-                    duration = 500,
-                    easingFunction = "easeInOutQuad"
-                  )
-                )
-            },
-            once = TRUE
-          )
-          
-        } else if (node_id %in% edges$from) {
+        if (node_id %in% edges$from) {
           
           # Gene: open the gene modal + pin its neighborhood (persistent).
           show_gene_info_modal(
@@ -1424,11 +1530,9 @@ mod_network_server <- function(
           return()
         }
         
-        show_edge_evidence_modal(
-          parts[1],
-          parts[2],
-          genes_df
-        )
+        # Evidence Trail drawer (upgrades the old edge-evidence modal)
+        evidence_trail_rv(list(gene = parts[1], entity = parts[2]))
+        shinyjs::runjs("document.getElementById('evidence_drawer').style.display='block';")
       },
       ignoreNULL = TRUE,
       ignoreInit = TRUE
