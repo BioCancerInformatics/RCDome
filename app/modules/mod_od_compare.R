@@ -146,14 +146,16 @@ mod_od_compare_server <- function(id) {
       if (is.null(ents) || length(ents) < 2) {
         return(tags$p("Select at least two RCD entities to compare.", style = "color:#a8a29e;"))
       }
-      tags$div(style = "overflow-x:auto;", HTML(build_cmp_table(ents, input$cmp_mode %||% "all")))
+      tags$div(id = ns("cmp_table_container"), style = "overflow-x:auto;", HTML(build_cmp_table(ents, input$cmp_mode %||% "all")))
     })
 
     output$cmp_download_ui <- renderUI({
       ents <- input$cmp_entities
       if (is.null(ents) || length(ents) < 2) return(NULL)
-      downloadButton(ns("cmp_download"), "Download Comparison (HTML)",
-                     class = "btn", style = "margin-top:12px;")
+      tags$div(style = "margin-top:12px; display:flex; gap:12px; flex-wrap:wrap;",
+        downloadButton(ns("cmp_download"), "Download Comparison (HTML)", class = "btn"),
+        actionButton(ns("cmp_download_pdf"), "Download Comparison (PDF)", class = "btn")
+      )
     })
 
     output$cmp_download <- downloadHandler(
@@ -187,5 +189,27 @@ mod_od_compare_server <- function(id) {
         writeLines(html, file, useBytes = TRUE)
       }
     )
+
+    observeEvent(input$cmp_download_pdf, {
+      ents <- input$cmp_entities
+      if (is.null(ents) || length(ents) < 2) return()
+      nm <- paste0("RCDome_Compare_", paste(gsub(" ", "_", ents), collapse = "_"))
+      cid <- ns("cmp_table_container")
+      shinyjs::runjs(sprintf(paste0(
+        "(function(){var el=document.getElementById('%s'); if(!el) return; ",
+        "if(typeof html2canvas==='undefined'||typeof jsPDF==='undefined'){alert('PDF export library not loaded. Please reload the app.');return;} ",
+        "html2canvas(el,{background:'#ffffff',useCORS:true}).then(function(canvas){",
+        "var w=canvas.width,h=canvas.height; var cv2=document.createElement('canvas'); cv2.width=w; cv2.height=h; var c=cv2.getContext('2d'); ",
+        "c.fillStyle='#ffffff'; c.fillRect(0,0,w,h); c.drawImage(canvas,0,0); ",
+        "var wm='\\u00A9 RCDome Group 2026. Cite us'; ",
+        "var fs=Math.max(11,Math.round(w*0.012)); c.font='600 '+fs+'px Segoe UI, sans-serif'; ",
+        "c.textAlign='right'; c.textBaseline='alphabetic'; var pad=Math.round(w*0.012); var tw=c.measureText(wm).width; ",
+        "c.fillStyle='rgba(0,0,0,0.2)'; c.fillRect(w-tw-pad*2,h-fs-pad*2,tw+pad*2,fs+pad*2); ",
+        "c.fillStyle='#ffffff'; c.fillText(wm,w-pad,h-pad); ",
+        "var img=cv2.toDataURL('image/png',1.0); ",
+        "var orient=(w>=h)?'l':'p'; var pdf=new jsPDF(orient,'pt',[w,h]); pdf.addImage(img,'PNG',0,0,w,h); pdf.save('%s.pdf'); ",
+        "}).catch(function(e){console.error(e); alert('PDF export failed: '+e.message);}); })();"
+      ), cid, nm))
+    })
   })
 }
