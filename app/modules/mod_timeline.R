@@ -4,6 +4,7 @@
 # NOT the description modal (descriptions have their own module).
 
 RCD_FOUNDING_CSV <- "data/discovery/founding_papers.csv"
+RCD_DISCOVERY_CSV <- "data/discovery/discovery_papers.csv"
 
 mod_timeline_ui <- function(id) {
   ns <- NS(id)
@@ -73,6 +74,10 @@ mod_timeline_server <- function(id) {
       )
       fp <- read.csv(RCD_FOUNDING_CSV, stringsAsFactors = FALSE, check.names = FALSE)
       tl <- merge(tl, fp, by.x = "rcd_form", by.y = "rcd_form", all.x = TRUE)
+      dp <- read.csv(RCD_DISCOVERY_CSV, stringsAsFactors = FALSE, check.names = FALSE)
+      names(dp) <- paste0("disc_", names(dp))
+      names(dp)[names(dp) == "disc_rcd_form"] <- "rcd_form"
+      tl <- merge(tl, dp, by.x = "rcd_form", by.y = "rcd_form", all.x = TRUE)
       tl$yr <- suppressWarnings(as.numeric(tl$year))   # NA = composite
       tl
     })
@@ -85,7 +90,7 @@ mod_timeline_server <- function(id) {
 
       min_yr <- min(tl$yr, na.rm = TRUE)
       max_yr <- max(tl$yr, na.rm = TRUE)
-      X <- function(yr) 240 + (yr - min_yr) / (max_yr - min_yr) * 760
+      X <- function(yr) 320 + (yr - min_yr) / (max_yr - min_yr) * 760
       esc <- function(x) htmltools::htmlEscape(as.character(x))
 
       tl$yoff <- 0
@@ -94,7 +99,7 @@ mod_timeline_server <- function(id) {
         grp <- split(idx, tl$yr[idx])
         for (g in grp) {
           if (length(g) > 1) {
-            tl$yoff[g] <- seq(-(length(g) - 1) * 6, (length(g) - 1) * 6, length.out = length(g))
+            tl$yoff[g] <- seq(-(length(g) - 1) * 12, (length(g) - 1) * 12, length.out = length(g))
           }
         }
       }
@@ -103,7 +108,7 @@ mod_timeline_server <- function(id) {
       ticks <- paste(vapply(decades, function(d) {
         x <- X(d)
         sprintf(
-          "<line x1='%.1f' y1='%d' x2='%.1f' y2='%d' stroke='#334155' stroke-width='1'/><text x='%.1f' y='%d' fill='#94a3b8' font-size='11' text-anchor='middle'>%d</text>",
+          "<line x1='%.1f' y1='%d' x2='%.1f' y2='%d' stroke='#334155' stroke-width='1'/><text x='%.1f' y='%d' fill='#94a3b8' font-size='14' text-anchor='middle'>%d</text>",
           x, 322, x, 330, x, 348, d
         )
       }, character(1)), collapse = "")
@@ -113,17 +118,17 @@ mod_timeline_server <- function(id) {
         col <- level_col[[lv]]
         n <- sum(tl$rcdome_level_name == lv, na.rm = TRUE)
         label <- sprintf(
-          "<text x='12' y='%d' fill='%s' font-size='12' font-weight='700'>%s (%d)</text>",
+          "<text x='12' y='%d' fill='%s' font-size='16' font-weight='700'>%s (%d)</text>",
           y + 4, col, lv, n
         )
-        line <- sprintf("<line x1='240' y1='%d' x2='1000' y2='%d' stroke='#334155' stroke-width='1'/>", y, y)
+        line <- sprintf("<line x1='320' y1='%d' x2='1080' y2='%d' stroke='#334155' stroke-width='1'/>", y, y)
         sub <- tl[tl$rcdome_level_name == lv, , drop = FALSE]
         nodes <- vapply(seq_len(nrow(sub)), function(i) {
           e <- sub$rcd_form[i]
           yr <- sub$yr[i]
           r <- if (level_short[[lv]] == "L1") 8 else 6
           if (is.na(yr)) {
-            x <- 1040; yy <- y
+            x <- 1120; yy <- y
             yr_label <- "composite"
           } else {
             x <- X(yr); yy <- y + sub$yoff[i]
@@ -159,6 +164,27 @@ mod_timeline_server <- function(id) {
     })
 
     # ── Discovery card (founding year + founding paper, not the description) ──
+    ref_block <- function(pmid, title, authors, journal, pubdate, doi) {
+      cite_line <- paste0(trimws(authors), if (nzchar(authors) && (nzchar(journal) || nzchar(pubdate))) ". " else "",
+                          journal, if (nzchar(journal) && nzchar(pubdate)) " " else "", pubdate,
+                          if (nzchar(authors) || nzchar(journal) || nzchar(pubdate)) "." else "")
+      tags$div(
+        if (nzchar(title)) tags$div(HTML(paste0("<i>", title, "</i>")),
+                                    style = "font-size:15px; color:#e7e5e4; font-style:italic; line-height:1.45;") else NULL,
+        if (nzchar(cite_line)) tags$div(cite_line, style = "color:#94a3b8; font-size:13px; margin-top:8px;") else NULL,
+        tags$div(style = "margin-top:12px; display:flex; gap:12px;",
+          if (nzchar(pmid)) tags$a(paste0("PMID ", pmid),
+            href = paste0("https://pubmed.ncbi.nlm.nih.gov/", pmid, "/"),
+            target = "_blank",
+            style = "background:#00B0FF; color:#0b1020; padding:6px 14px; border-radius:999px; font-size:12px; font-weight:700; text-decoration:none;") else NULL,
+          if (nzchar(doi)) tags$a("DOI",
+            href = doi_href(doi),
+            target = "_blank",
+            style = "background:#E040FB; color:#0b1020; padding:6px 14px; border-radius:999px; font-size:12px; font-weight:700; text-decoration:none;") else NULL
+        )
+      )
+    }
+
     observeEvent(input$tl_click, {
       req(input$tl_click)
       tl <- tl_data()
@@ -170,6 +196,8 @@ mod_timeline_server <- function(id) {
       col <- if (lvl %in% names(level_col)) level_col[[lvl]] else "#9E9E9E"
       yr_display <- if (is.na(row$yr[1])) "composite" else as.character(row$yr[1])
       is_composite <- !is.na(row$year[1]) && tolower(trimws(row$year[1])) == "composite"
+      tl_logo_file <- file.path("data/RCD modulo/logo RCDs", paste0(input$tl_click, ".png"))
+      tl_logo_url <- if (file.exists(tl_logo_file)) paste0("rcd_logos/", URLencode(paste0(input$tl_click, ".png"), reserved = TRUE)) else ""
       if (is_composite) {
         cit <- if (!is.na(row$reference_citation[1])) row$reference_citation[1] else ""
         m <- regmatches(cit, gregexpr("[A-Za-z][A-Za-z ]*? \\([^)]*PMID [0-9]+\\)", cit, perl = TRUE))[[1]]
@@ -188,6 +216,7 @@ mod_timeline_server <- function(id) {
           title = NULL, easyClose = TRUE, footer = NULL, size = "m",
           tags$div(style = "background:#0b1020; color:#e7e5e4; border-radius:12px; padding:26px 28px;",
             tags$div(style = "display:flex; align-items:center; gap:22px;",
+              if (nzchar(tl_logo_url)) tags$img(src = tl_logo_url, style = "width:72px; height:72px; object-fit:contain;"),
               tags$div("composite", style = "font-size:38px; font-weight:800; color:#e7e5e4; line-height:1;"),
               tags$div(
                 tags$div(HTML(paste0("<i>", input$tl_click, "</i>")), style = "font-size:22px; font-weight:700; color:#fff; margin-bottom:8px;"),
@@ -203,21 +232,25 @@ mod_timeline_server <- function(id) {
         return()
       }
 
-      pmid <- if (!is.na(row$founding_pmid[1])) row$founding_pmid[1] else ""
-      title <- if (!is.na(row$title[1])) row$title[1] else ""
-      authors <- if (!is.na(row$authors[1])) row$authors[1] else ""
-      journal <- if (!is.na(row$journal[1])) row$journal[1] else ""
-      pubdate <- if (!is.na(row$pubdate[1])) row$pubdate[1] else ""
-      doi <- if (!is.na(row$doi[1])) row$doi[1] else ""
+      disc_pmid <- if (!is.na(row$disc_pmid[1])) row$disc_pmid[1] else ""
+      disc_title <- if (!is.na(row$disc_title[1])) row$disc_title[1] else ""
+      disc_authors <- if (!is.na(row$disc_authors[1])) row$disc_authors[1] else ""
+      disc_journal <- if (!is.na(row$disc_journal[1])) row$disc_journal[1] else ""
+      disc_pubdate <- if (!is.na(row$disc_pubdate[1])) row$disc_pubdate[1] else ""
+      disc_doi <- if (!is.na(row$disc_doi[1])) row$disc_doi[1] else ""
 
-      cite_line <- paste0(trimws(authors), if (nzchar(authors) && (nzchar(journal) || nzchar(pubdate))) ". " else "",
-                          journal, if (nzchar(journal) && nzchar(pubdate)) " " else "", pubdate,
-                          if (nzchar(authors) || nzchar(journal) || nzchar(pubdate)) "." else "")
+      fnd_pmid <- if (!is.na(row$pmid[1])) row$pmid[1] else ""
+      fnd_title <- if (!is.na(row$title[1])) row$title[1] else ""
+      fnd_authors <- if (!is.na(row$authors[1])) row$authors[1] else ""
+      fnd_journal <- if (!is.na(row$journal[1])) row$journal[1] else ""
+      fnd_pubdate <- if (!is.na(row$pubdate[1])) row$pubdate[1] else ""
+      fnd_doi <- if (!is.na(row$doi[1])) row$doi[1] else ""
 
       showModal(modalDialog(
         title = NULL, easyClose = TRUE, footer = NULL, size = "m",
         tags$div(style = "background:#0b1020; color:#e7e5e4; border-radius:12px; padding:26px 28px;",
           tags$div(style = "display:flex; align-items:center; gap:22px;",
+            if (nzchar(tl_logo_url)) tags$img(src = tl_logo_url, style = "width:72px; height:72px; object-fit:contain;"),
             tags$div(yr_display, style = "font-size:58px; font-weight:800; color:#e7e5e4; line-height:1;"),
             tags$div(
               tags$div(HTML(paste0("<i>", input$tl_click, "</i>")),
@@ -226,21 +259,9 @@ mod_timeline_server <- function(id) {
             )
           ),
           tags$div("First described", style = "color:#94a3b8; font-size:11px; letter-spacing:1px; text-transform:uppercase; margin:20px 0 6px;"),
-          tags$div(
-            if (nzchar(title)) tags$div(HTML(paste0("<i>", title, "</i>")),
-                                        style = "font-size:15px; color:#e7e5e4; font-style:italic; line-height:1.45;") else NULL,
-            if (nzchar(cite_line)) tags$div(cite_line, style = "color:#94a3b8; font-size:13px; margin-top:8px;") else NULL
-          ),
-          tags$div(style = "margin-top:18px; display:flex; gap:12px;",
-            if (nzchar(pmid)) tags$a(paste0("PMID ", pmid),
-              href = paste0("https://pubmed.ncbi.nlm.nih.gov/", pmid, "/"),
-              target = "_blank",
-              style = "background:#00B0FF; color:#0b1020; padding:6px 14px; border-radius:999px; font-size:12px; font-weight:700; text-decoration:none;") else NULL,
-            if (nzchar(doi)) tags$a("DOI",
-              href = doi_href(doi),
-              target = "_blank",
-              style = "background:#E040FB; color:#0b1020; padding:6px 14px; border-radius:999px; font-size:12px; font-weight:700; text-decoration:none;") else NULL
-          )
+          ref_block(disc_pmid, disc_title, disc_authors, disc_journal, disc_pubdate, disc_doi),
+          tags$div("Definition anchored to", style = "color:#94a3b8; font-size:11px; letter-spacing:1px; text-transform:uppercase; margin:20px 0 6px;"),
+          ref_block(fnd_pmid, fnd_title, fnd_authors, fnd_journal, fnd_pubdate, fnd_doi)
         )
       ))
     })
