@@ -94,13 +94,33 @@ mod_timeline_server <- function(id) {
       esc <- function(x) htmltools::htmlEscape(as.character(x))
 
       tl$yoff <- 0
+      dot_w <- 16    # horizontal collision threshold (dot diameter, px)
+      step  <- 16    # vertical spacing between stacked dots (px)
+      max_off <- 24  # max vertical offset (stay within the 55px lane)
       for (lv in levels) {
-        idx <- which(tl$rcdome_level_name == lv)
-        grp <- split(idx, tl$yr[idx])
-        for (g in grp) {
-          if (length(g) > 1) {
-            tl$yoff[g] <- seq(-(length(g) - 1) * 12, (length(g) - 1) * 12, length.out = length(g))
+        idx <- which(tl$rcdome_level_name == lv & !is.na(tl$yr))
+        idx <- idx[order(tl$yr[idx])]
+        placed <- list()
+        for (i in idx) {
+          x_i <- X(tl$yr[i])
+          yoff_i <- 0
+          k <- 0
+          repeat {
+            hit <- FALSE
+            for (p in placed) {
+              if (abs(x_i - p$x) < dot_w && abs(yoff_i - p$y) < step) {
+                hit <- TRUE
+                break
+              }
+            }
+            if (!hit) break
+            k <- k + 1
+            mag <- ((k + 1) %/% 2) * step
+            if (mag > max_off) break
+            yoff_i <- if (k %% 2 == 1) mag else -mag
           }
+          tl$yoff[i] <- yoff_i
+          placed[[length(placed) + 1]] <- list(x = x_i, y = yoff_i)
         }
       }
 
