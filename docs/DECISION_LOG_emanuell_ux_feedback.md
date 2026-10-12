@@ -55,12 +55,13 @@ Protocol: independent critical assessment; one issue at a time; classification =
 
 ## Issue #5 — Problemas de visualização e distribuição temporal na Discovery Timeline
 
-### 5a — Sobreposição dos pontos (glow/blur)
+### 5a — Sobreposição dos pontos (coinciding dots)
 
 - **Original comment:** the glow around circles blurs dense regions, making individual entities hard to identify/count; suggests reducing or removing the glow.
-- **Fact-check:** every node renders with `filter='url(#tlglow)'` → `feGaussianBlur stdDeviation='3'` (mod_timeline.R:142, 157–158). A vertical-offset mechanism (`yoff`) already separates same-year points.
-- **Decision (user):** keep the glow — it is the original/intended design; do NOT reduce it. Overlap is handled by the existing vertical offset (`yoff`).
-- **Classification:** NOT ACTIONABLE (no change to the glow; overlap already mitigated by the vertical offset).
+- **Fact-check:** every node renders with `filter='url(#tlglow)'` → `feGaussianBlur stdDeviation='3'`. Same-year + same-level collisions = 7 pairs (14 entities), max group size 2. The vertical-offset (`yoff`) already spreads coinciding dots, but at ±6 px the two dots (radius 6–8 + glow) still overlapped.
+- **Decision (user):** keep the glow (original design); ensure all 53 dots are individually distinguishable by spreading coinciding dots clearly above and below the lane line.
+- **Classification:** ACTIONABLE (minor).
+- **Action:** IMPLEMENTED (2026-10-12) — increased the `yoff` spread from ±6 to ±12 px (24 px center-to-center), so each of the 7 coinciding pairs is clearly separated above/below the lane line; all 53 dots distinguishable. ZIP rebuilt.
 
 ### 5b — Distribuição temporal desproporcional (1859 stretches the scale)
 
