@@ -61,15 +61,15 @@ Protocol: independent critical assessment; one issue at a time; classification =
 - **Fact-check:** every node renders with `filter='url(#tlglow)'` → `feGaussianBlur stdDeviation='3'`. Same-year + same-level collisions = 7 pairs (14 entities), max group size 2. The vertical-offset (`yoff`) already spreads coinciding dots, but at ±6 px the two dots (radius 6–8 + glow) still overlapped.
 - **Decision (user):** keep the glow (original design); ensure all 53 dots are individually distinguishable by spreading coinciding dots clearly above and below the lane line.
 - **Classification:** ACTIONABLE (minor).
-- **Action:** IMPLEMENTED (2026-10-12) — replaced the same-year-only spread with a collision-detection `yoff` assignment (horizontal threshold 16 px = dot diameter, vertical step 16 px, max offset 24 px), so any dots that are too close horizontally are stacked alternately above/below the lane line, not just exact same-year dots. Result: 25 of 52 dots are vertically spread; overlapping pairs drop to 4 (all in the dense L1 lane, which still requires the 5b zoomed inset for full separation). ZIP rebuilt.
+- **Action:** IMPLEMENTED (2026-10-12) — uniform dot size (r = 6 in all lanes, previously L1 = 8), smaller dots, and a collision-detection `yoff` assignment (horizontal threshold 12 px, vertical step 12 px, max offset 24 px = 5 vertical slots per lane), so any dots too close horizontally are stacked above/below the lane line. Result: 19 of 52 dots vertically spread, 0 overlapping pairs remaining — all 53 dots individually distinguishable in the single panel. ZIP rebuilt.
 
 ### 5b — Distribuição temporal desproporcional (1859 stretches the scale)
 
 - **Original comment:** including necrosis (1859) widens the scale and compresses post-2000 entities, especially near 2020.
 - **Fact-check:** linear scale 1859→2025 ≈ 4.58 px/year; the recent 43 entities sit in ~110 px, and the L1 lane alone holds 19 recent dots.
-- **Classification:** ACTIONABLE (moderate).
-- **Agreed solution (Option 3, zoomed inset):** keep the full overview (all 53, 1859–2025) and add a second panel below titled "Recent discoveries (2000–2025) — zoomed" (same 5 lanes, recent window stretched to full width ≈ 30 px/year). Duplication allowed.
-- **Action:** IMPLEMENTED (2026-10-12) — `mod_timeline.R` refactored into a reusable `panel_svg()` helper; the main panel (1859–2025, all 53 + composite) renders above, and the inset panel (2000–2025, 43 recent entities) renders below at full width. Lane spacing increased 55→70 px and SVG height 360→440 px so vertically-spread dots do not collide across ontology lanes. ZIP rebuilt.
+- **Decision (user):** REJECTED the zoomed inset (lower panel) — reverted to the single full timeline. The compression is instead resolved within the single panel by the 5a fix (smaller uniform dots + 5-slot vertical spread), which leaves 0 overlapping pairs.
+- **Classification:** NOT ACTIONABLE as originally proposed (zoomed inset rejected).
+- **Action:** reverted (zoomed inset removed; single panel restored).
 
 ### 5c — Posicionamento de "Senescence and Autophagy in Cancer"
 
