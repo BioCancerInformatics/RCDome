@@ -61,7 +61,7 @@ Protocol: independent critical assessment; one issue at a time; classification =
 - **Fact-check:** every node renders with `filter='url(#tlglow)'` → `feGaussianBlur stdDeviation='3'`. Same-year + same-level collisions = 7 pairs (14 entities), max group size 2. The vertical-offset (`yoff`) already spreads coinciding dots, but at ±6 px the two dots (radius 6–8 + glow) still overlapped.
 - **Decision (user):** keep the glow (original design); ensure all 53 dots are individually distinguishable by spreading coinciding dots clearly above and below the lane line.
 - **Classification:** ACTIONABLE (minor).
-- **Action:** IMPLEMENTED (2026-10-12) — increased the `yoff` spread from ±6 to ±12 px (24 px center-to-center), so each of the 7 coinciding pairs is clearly separated above/below the lane line; all 53 dots distinguishable. ZIP rebuilt.
+- **Action:** IMPLEMENTED (2026-10-12) — replaced the same-year-only spread with a collision-detection `yoff` assignment (horizontal threshold 16 px = dot diameter, vertical step 16 px, max offset 24 px), so any dots that are too close horizontally are stacked alternately above/below the lane line, not just exact same-year dots. Result: 25 of 52 dots are vertically spread; overlapping pairs drop to 4 (all in the dense L1 lane, which still requires the 5b zoomed inset for full separation). ZIP rebuilt.
 
 ### 5b — Distribuição temporal desproporcional (1859 stretches the scale)
 
