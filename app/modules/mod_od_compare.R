@@ -140,6 +140,28 @@ mod_od_compare_server <- function(id) {
       paste0("<div style='font-size:12px; color:#57534e; margin-bottom:8px;'>","<span style='display:inline-block; width:12px; height:12px; border-radius:3px; background:#fffbeb; border:1px solid #f59e0b; margin-right:6px; vertical-align:-1px;'></span> fields that differ · ","<span style='display:inline-block; width:12px; height:12px; border-radius:3px; background:#f5f5f4; border:1px solid #d6d3d1; margin:0 6px 0 12px; vertical-align:-1px;'></span> identical fields","</div>","<table style='width:100%; border-collapse:collapse;'>","<thead><tr>", paste(header_cells, collapse = ""), "</tr></thead>","<tbody>", paste(body_rows, collapse = ""), "</tbody></table>")
     }
 
+    build_cmp_df <- function(ents) {
+      rows <- decoder_df[decoder_df$rcd_form %in% ents, ]
+      rownames(rows) <- rows$rcd_form
+      desc_map <- get0("DECODER_DESC", inherits = TRUE, ifnotfound = list())
+      all_fields <- unlist(unname(OD_SECTIONS), use.names = FALSE)
+      out <- data.frame(
+        Field = vapply(all_fields, function(f) {
+          d <- desc_map[[f]]
+          if (!is.null(d)) d[1] else f
+        }, character(1)),
+        stringsAsFactors = FALSE, check.names = FALSE
+      )
+      for (e in ents) {
+        r <- rows[e, , drop = FALSE]
+        out[[e]] <- vapply(all_fields, function(f) {
+          v <- r[[f]]
+          if (is.null(v) || length(v) == 0 || is.na(v)) "" else as.character(v[1])
+        }, character(1))
+      }
+      out
+    }
+
     output$cmp_table <- renderUI({
       req(exists("decoder_df", inherits = TRUE))
       ents <- input$cmp_entities
@@ -153,8 +175,9 @@ mod_od_compare_server <- function(id) {
       ents <- input$cmp_entities
       if (is.null(ents) || length(ents) < 2) return(NULL)
       tags$div(style = "margin-top:12px; display:flex; gap:12px; flex-wrap:wrap;",
-        downloadButton(ns("cmp_download"), "Download Comparison (HTML)", class = "btn"),
-        actionButton(ns("cmp_download_pdf"), "Download Comparison (PDF)", class = "btn")
+        downloadButton(ns("cmp_download_xlsx"), "Download Comparison (XLSX)", class = "btn"),
+        downloadButton(ns("cmp_download_csv"), "Download Comparison (CSV)", class = "btn"),
+        downloadButton(ns("cmp_download"), "Download Comparison (HTML)", class = "btn")
       )
     })
 
@@ -190,26 +213,34 @@ mod_od_compare_server <- function(id) {
       }
     )
 
-    observeEvent(input$cmp_download_pdf, {
-      ents <- input$cmp_entities
-      if (is.null(ents) || length(ents) < 2) return()
-      nm <- paste0("RCDome_Compare_", paste(gsub(" ", "_", ents), collapse = "_"))
-      cid <- ns("cmp_table_container")
-      shinyjs::runjs(sprintf(paste0(
-        "(function(){var el=document.getElementById('%s'); if(!el) return; ",
-        "if(typeof html2canvas==='undefined'||typeof jsPDF==='undefined'){alert('PDF export library not loaded. Please reload the app.');return;} ",
-        "html2canvas(el,{background:'#ffffff',useCORS:true}).then(function(canvas){",
-        "var w=canvas.width,h=canvas.height; var cv2=document.createElement('canvas'); cv2.width=w; cv2.height=h; var c=cv2.getContext('2d'); ",
-        "c.fillStyle='#ffffff'; c.fillRect(0,0,w,h); c.drawImage(canvas,0,0); ",
-        "var wm='\\u00A9 RCDome Group 2026. Cite us'; ",
-        "var fs=Math.max(11,Math.round(w*0.012)); c.font='600 '+fs+'px Segoe UI, sans-serif'; ",
-        "c.textAlign='right'; c.textBaseline='alphabetic'; var pad=Math.round(w*0.012); var tw=c.measureText(wm).width; ",
-        "c.fillStyle='rgba(0,0,0,0.2)'; c.fillRect(w-tw-pad*2,h-fs-pad*2,tw+pad*2,fs+pad*2); ",
-        "c.fillStyle='#ffffff'; c.fillText(wm,w-pad,h-pad); ",
-        "var img=cv2.toDataURL('image/png',1.0); ",
-        "var orient=(w>=h)?'l':'p'; var pdf=new jsPDF(orient,'pt',[w,h]); pdf.addImage(img,'PNG',0,0,w,h); pdf.save('%s.pdf'); ",
-        "}).catch(function(e){console.error(e); alert('PDF export failed: '+e.message);}); })();"
-      ), cid, nm))
-    })
+    output$cmp_download_xlsx <- downloadHandler(
+      filename = function() {
+        ents <- input$cmp_entities
+        paste0("RCDome_Compare_", paste(gsub(" ", "_", ents), collapse = "_"), ".xlsx")
+      },
+      content = function(file) {
+        ents <- input$cmp_entities
+        df <- build_cmp_df(ents)
+        df[] <- lapply(df, function(x) {
+          if (!is.character(x)) return(x)
+          too_long <- nchar(x) > 32767
+          too_long[is.na(too_long)] <- FALSE
+          x[too_long] <- paste0(substr(x[too_long], 1, 32700), "...[truncated]")
+          x
+        })
+        writexl::write_xlsx(df, file)
+      }
+    )
+
+    output$cmp_download_csv <- downloadHandler(
+      filename = function() {
+        ents <- input$cmp_entities
+        paste0("RCDome_Compare_", paste(gsub(" ", "_", ents), collapse = "_"), ".csv")
+      },
+      content = function(file) {
+        ents <- input$cmp_entities
+        write.csv(build_cmp_df(ents), file, row.names = FALSE)
+      }
+    )
   })
 }

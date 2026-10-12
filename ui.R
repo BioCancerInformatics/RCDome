@@ -2,9 +2,6 @@
 if (!exists("genes_df", inherits = TRUE) || !exists("fingerprint_df", inherits = TRUE)) source("global.R")
 
 ui <- tagList(
-  tags$script(src = "lib/html2canvas.js"),
-  tags$script(src = "lib/jspdf.debug.js"),
-  tags$script(src = "lib/FileSaver.min.js"),
   # ── Reader Mode (first-visit guided tour trigger) ───────────────────
   mod_tour_ui("tour"),
   tags$button(

@@ -17,15 +17,17 @@ Protocol: independent critical assessment; one issue at a time; classification =
 
 ---
 
-## Issue #2 — Inclusão da opção de exportação em PDF no Operational Definition Comparator
+## Issue #2 — Export options in the Operational Definition Comparator (revised)
 
 - **Original comment:** the comparator only offers HTML download; suggests adding PDF export while keeping HTML.
-- **Fact-check:** confirmed — `modules/mod_od_compare.R` line 155 has only "Download Comparison (HTML)"; no PDF option.
-- **Assessment:** feature request, not a defect; legitimate need (print/archive/share); consistent with the existing PDF-export precedent in the Network module; low risk, no data/governance impact.
+- **Fact-check:** confirmed — `modules/mod_od_compare.R` originally had only "Download Comparison (HTML)"; no PDF option.
+- **Assessment:** a genuine export need exists, but a PDF would only capture a snapshot of the visible table, not the complete comparison data — of limited practical value for a scientific application. Users need the full dataset (all fields × all selected entities) in a form they can inspect, filter, sort, and analyze.
+- **Revised decision (replaces the initial PDF idea):** provide a genuine complete-data export.
+  - **Preferred:** Excel (.xlsx) — preserves the comparison table structure, column headings (entity names), and field labels.
+  - **Alternative:** CSV — straightforward, machine-readable.
+  - **Removed:** the snapshot-based PDF button.
 - **Classification:** ACTIONABLE.
-- **Agreed solution:** add a single "Download Comparison (PDF)" button alongside the existing HTML button.
-- **Solution detail (confirmed):** client-side jsPDF + html2canvas, reusing the Network module's PDF-export pattern; white-background canvas; standard watermark "© RCDome Group 2026. Cite us"; saved as `RCDome_Compare_<entities>.pdf`; HTML button unchanged; no new server dependency.
-- **Action:** IMPLEMENTED (2026-10-12) — added `www/lib/{html2canvas.js, jspdf.debug.js, FileSaver.min.js}` (copied from the visNetwork htmlwidgets lib, self-contained); loaded them globally in `ui.R`; added the "Download Comparison (PDF)" button in `mod_od_compare.R` (client-side html2canvas → white canvas → watermark → jsPDF). ZIP rebuilt.
+- **Action:** IMPLEMENTED (2026-10-12) — in `mod_od_compare.R`: added `build_cmp_df()` (exports ALL fields × selected entities from the decoder, independent of the on-screen diff/same filter); added "Download Comparison (XLSX)" (writexl) and "Download Comparison (CSV)" buttons; kept the HTML button; removed the PDF button and its JS handler; removed the `www/lib/` html2canvas/jsPDF/FileSaver files and the global script tags in `ui.R`. ZIP rebuilt.
 
 ---
 
