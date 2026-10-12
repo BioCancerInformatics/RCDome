@@ -88,7 +88,7 @@ mod_timeline_server <- function(id) {
                   "L4 Functional/contextual", "L5 Generic/umbrella/taxon")
       lane_y <- setNames(seq(70, 350, by = 70), levels)
       esc <- function(x) htmltools::htmlEscape(as.character(x))
-      dot_w <- 16; step <- 16; max_off <- 24
+      dot_w <- 12; step <- 12; max_off <- 24
 
       # ── Helper: render one SVG panel for a given year window ──
       panel_svg <- function(sub0, yr_min, yr_max, include_composite, title_label, filter_id) {
@@ -130,7 +130,7 @@ mod_timeline_server <- function(id) {
           s2 <- sub[sub$rcdome_level_name == lv, , drop = FALSE]
           nodes <- vapply(seq_len(nrow(s2)), function(i) {
             e <- s2$rcd_form[i]; yr <- s2$yr[i]
-            r <- if (level_short[[lv]] == "L1") 8 else 6
+            r <- 6
             if (is.na(yr)) { x <- 1120; yy <- y; yr_label <- "composite" }
             else { x <- Xp(yr); yy <- y + s2$yoff[i]; yr_label <- as.character(yr) }
             pmid <- if (!is.na(s2$founding_pmid[i]) && nzchar(s2$founding_pmid[i])) s2$founding_pmid[i] else ""
@@ -160,10 +160,9 @@ mod_timeline_server <- function(id) {
 
       min_yr <- min(tl$yr, na.rm = TRUE)
       max_yr <- max(tl$yr, na.rm = TRUE)
-      main_panel  <- panel_svg(tl, min_yr, max_yr, TRUE, "", "tlglow")
-      inset_panel <- panel_svg(tl, 2000, 2025, FALSE, "Recent discoveries (2000\u20132025) \u2014 zoomed", "tlglow2")
+      main_panel <- panel_svg(tl, min_yr, max_yr, TRUE, "", "tlglow")
 
-      HTML(paste0(main_panel, inset_panel))
+      HTML(main_panel)
     })
 
     # ── Discovery card (founding year + founding paper, not the description) ──
