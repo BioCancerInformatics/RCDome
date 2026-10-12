@@ -86,101 +86,84 @@ mod_timeline_server <- function(id) {
       tl <- tl_data()
       levels <- c("L1 Modalities", "L2 Subtypes", "L3 Triggers",
                   "L4 Functional/contextual", "L5 Generic/umbrella/taxon")
-      lane_y <- setNames(seq(60, 280, by = 55), levels)
+      lane_y <- setNames(seq(70, 350, by = 70), levels)
+      esc <- function(x) htmltools::htmlEscape(as.character(x))
+      dot_w <- 16; step <- 16; max_off <- 24
+
+      # ── Helper: render one SVG panel for a given year window ──
+      panel_svg <- function(sub0, yr_min, yr_max, include_composite, title_label, filter_id) {
+        Xp <- function(yr) 320 + (yr - yr_min) / (yr_max - yr_min) * 760
+        keep <- (!is.na(sub0$yr) & sub0$yr >= yr_min & sub0$yr <= yr_max) |
+                (include_composite & is.na(sub0$yr))
+        sub <- sub0[keep, , drop = FALSE]
+        sub$yoff <- 0
+        for (lv in levels) {
+          idx <- which(sub$rcdome_level_name == lv & !is.na(sub$yr))
+          idx <- idx[order(sub$yr[idx])]
+          placed <- list()
+          for (i in idx) {
+            x_i <- Xp(sub$yr[i]); yoff_i <- 0; k <- 0
+            repeat {
+              hit <- FALSE
+              for (p in placed) if (abs(x_i - p$x) < dot_w && abs(yoff_i - p$y) < step) { hit <- TRUE; break }
+              if (!hit) break
+              k <- k + 1; mag <- ((k + 1) %/% 2) * step
+              if (mag > max_off) break
+              yoff_i <- if (k %% 2 == 1) mag else -mag
+            }
+            sub$yoff[i] <- yoff_i
+            placed[[length(placed) + 1]] <- list(x = x_i, y = yoff_i)
+          }
+        }
+        d0 <- ceiling(yr_min / 10) * 10
+        decades <- seq(d0, floor(yr_max / 10) * 10, by = 10)
+        ticks <- paste(vapply(decades, function(d) {
+          x <- Xp(d)
+          sprintf("<line x1='%.1f' y1='392' x2='%.1f' y2='400' stroke='#334155' stroke-width='1'/><text x='%.1f' y='418' fill='#94a3b8' font-size='14' text-anchor='middle'>%d</text>",
+                  x, x, x, d)
+        }, character(1)), collapse = "")
+        lane_html <- vapply(levels, function(lv) {
+          y <- lane_y[[lv]]; col <- level_col[[lv]]
+          n <- sum(sub$rcdome_level_name == lv, na.rm = TRUE)
+          label <- sprintf("<text x='12' y='%d' fill='%s' font-size='16' font-weight='700'>%s (%d)</text>", y + 4, col, lv, n)
+          line <- sprintf("<line x1='320' y1='%d' x2='1080' y2='%d' stroke='#334155' stroke-width='1'/>", y, y)
+          s2 <- sub[sub$rcdome_level_name == lv, , drop = FALSE]
+          nodes <- vapply(seq_len(nrow(s2)), function(i) {
+            e <- s2$rcd_form[i]; yr <- s2$yr[i]
+            r <- if (level_short[[lv]] == "L1") 8 else 6
+            if (is.na(yr)) { x <- 1120; yy <- y; yr_label <- "composite" }
+            else { x <- Xp(yr); yy <- y + s2$yoff[i]; yr_label <- as.character(yr) }
+            pmid <- if (!is.na(s2$founding_pmid[i]) && nzchar(s2$founding_pmid[i])) s2$founding_pmid[i] else ""
+            cit <- if (!is.na(s2$reference_citation[i])) s2$reference_citation[i] else ""
+            onclick <- sprintf("Shiny.setInputValue('%s', '%s', {priority:'event'})", ns("tl_click"), e)
+            paste0(
+              sprintf("<circle class='tl-node' cx='%.1f' cy='%.1f' r='%d' fill='%s' filter='url(#%s)' data-name='%s' data-year='%s' data-level='%s' data-pmid='%s' data-cit='%s' onmousemove='tlShow(event, this)' onmouseout='tlHide()' onclick=\"%s\" style='cursor:pointer;'/>",
+                      x, yy, r, col, filter_id, esc(e), yr_label, esc(lv), pmid, esc(cit), onclick),
+              if (is.na(yr)) sprintf("<text x='%.1f' y='%.1f' fill='#94a3b8' font-size='9' text-anchor='middle' font-style='italic'>composite</text>", x, yy - 14) else ""
+            )
+          }, character(1))
+          paste0(label, line, paste(nodes, collapse = ""))
+        }, character(1))
+        title_html <- if (nzchar(title_label))
+          sprintf("<text x='580' y='36' fill='#e7e5e4' font-size='15' font-weight='600' text-anchor='middle'>%s</text>", title_label) else ""
+        paste0(
+          "<div style='background:#0b1020; border-radius:12px; padding:18px 12px 8px; box-shadow:0 6px 18px rgba(0,0,0,.35);",
+          if (nzchar(title_label)) " margin-top:22px;" else "", "'>",
+          "<svg viewBox='0 0 1160 440' width='100%' style='display:block;'>",
+          "<defs><filter id='", filter_id, "' x='-50%' y='-50%' width='200%' height='200%'>",
+          "<feGaussianBlur stdDeviation='3' result='blur'/>",
+          "<feMerge><feMergeNode in='blur'/><feMergeNode in='SourceGraphic'/></feMerge></filter></defs>",
+          title_html, ticks, paste(lane_html, collapse = ""),
+          "</svg></div>"
+        )
+      }
 
       min_yr <- min(tl$yr, na.rm = TRUE)
       max_yr <- max(tl$yr, na.rm = TRUE)
-      X <- function(yr) 320 + (yr - min_yr) / (max_yr - min_yr) * 760
-      esc <- function(x) htmltools::htmlEscape(as.character(x))
+      main_panel  <- panel_svg(tl, min_yr, max_yr, TRUE, "", "tlglow")
+      inset_panel <- panel_svg(tl, 2000, 2025, FALSE, "Recent discoveries (2000\u20132025) \u2014 zoomed", "tlglow2")
 
-      tl$yoff <- 0
-      dot_w <- 16    # horizontal collision threshold (dot diameter, px)
-      step  <- 16    # vertical spacing between stacked dots (px)
-      max_off <- 24  # max vertical offset (stay within the 55px lane)
-      for (lv in levels) {
-        idx <- which(tl$rcdome_level_name == lv & !is.na(tl$yr))
-        idx <- idx[order(tl$yr[idx])]
-        placed <- list()
-        for (i in idx) {
-          x_i <- X(tl$yr[i])
-          yoff_i <- 0
-          k <- 0
-          repeat {
-            hit <- FALSE
-            for (p in placed) {
-              if (abs(x_i - p$x) < dot_w && abs(yoff_i - p$y) < step) {
-                hit <- TRUE
-                break
-              }
-            }
-            if (!hit) break
-            k <- k + 1
-            mag <- ((k + 1) %/% 2) * step
-            if (mag > max_off) break
-            yoff_i <- if (k %% 2 == 1) mag else -mag
-          }
-          tl$yoff[i] <- yoff_i
-          placed[[length(placed) + 1]] <- list(x = x_i, y = yoff_i)
-        }
-      }
-
-      decades <- seq(1860, 2020, by = 20)
-      ticks <- paste(vapply(decades, function(d) {
-        x <- X(d)
-        sprintf(
-          "<line x1='%.1f' y1='%d' x2='%.1f' y2='%d' stroke='#334155' stroke-width='1'/><text x='%.1f' y='%d' fill='#94a3b8' font-size='14' text-anchor='middle'>%d</text>",
-          x, 322, x, 330, x, 348, d
-        )
-      }, character(1)), collapse = "")
-
-      lane_html <- vapply(levels, function(lv) {
-        y <- lane_y[[lv]]
-        col <- level_col[[lv]]
-        n <- sum(tl$rcdome_level_name == lv, na.rm = TRUE)
-        label <- sprintf(
-          "<text x='12' y='%d' fill='%s' font-size='16' font-weight='700'>%s (%d)</text>",
-          y + 4, col, lv, n
-        )
-        line <- sprintf("<line x1='320' y1='%d' x2='1080' y2='%d' stroke='#334155' stroke-width='1'/>", y, y)
-        sub <- tl[tl$rcdome_level_name == lv, , drop = FALSE]
-        nodes <- vapply(seq_len(nrow(sub)), function(i) {
-          e <- sub$rcd_form[i]
-          yr <- sub$yr[i]
-          r <- if (level_short[[lv]] == "L1") 8 else 6
-          if (is.na(yr)) {
-            x <- 1120; yy <- y
-            yr_label <- "composite"
-          } else {
-            x <- X(yr); yy <- y + sub$yoff[i]
-            yr_label <- as.character(yr)
-          }
-          pmid <- if (!is.na(sub$founding_pmid[i]) && nzchar(sub$founding_pmid[i])) sub$founding_pmid[i] else ""
-          cit <- if (!is.na(sub$reference_citation[i])) sub$reference_citation[i] else ""
-          onclick <- sprintf("Shiny.setInputValue('%s', '%s', {priority:'event'})", ns("tl_click"), e)
-          paste0(
-            sprintf(
-              "<circle class='tl-node' cx='%.1f' cy='%.1f' r='%d' fill='%s' filter='url(#tlglow)' data-name='%s' data-year='%s' data-level='%s' data-pmid='%s' data-cit='%s' onmousemove='tlShow(event, this)' onmouseout='tlHide()' onclick=\"%s\" style='cursor:pointer;'/>",
-              x, yy, r, col, esc(e), yr_label, esc(lv), pmid, esc(cit), onclick
-            ),
-            if (is.na(yr)) sprintf(
-              "<text x='%.1f' y='%.1f' fill='#94a3b8' font-size='9' text-anchor='middle' font-style='italic'>composite</text>",
-              x, yy - 14
-            ) else ""
-          )
-        }, character(1))
-        paste0(label, line, paste(nodes, collapse = ""))
-      }, character(1))
-
-      HTML(paste0(
-        "<div style='background:#0b1020; border-radius:12px; padding:18px 12px 8px; box-shadow:0 6px 18px rgba(0,0,0,.35);'>",
-        "<svg viewBox='0 0 1160 360' width='100%' style='display:block;'>",
-        "<defs><filter id='tlglow' x='-50%' y='-50%' width='200%' height='200%'>",
-        "<feGaussianBlur stdDeviation='3' result='blur'/>",
-        "<feMerge><feMergeNode in='blur'/><feMergeNode in='SourceGraphic'/></feMerge></filter></defs>",
-        ticks,
-        paste(lane_html, collapse = ""),
-        "</svg></div>"
-      ))
+      HTML(paste0(main_panel, inset_panel))
     })
 
     # ── Discovery card (founding year + founding paper, not the description) ──

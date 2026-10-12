@@ -66,10 +66,10 @@ Protocol: independent critical assessment; one issue at a time; classification =
 ### 5b — Distribuição temporal desproporcional (1859 stretches the scale)
 
 - **Original comment:** including necrosis (1859) widens the scale and compresses post-2000 entities, especially near 2020.
-- **Fact-check:** linear scale `X <- function(yr) 320 + (yr - min_yr)/(max_yr - min_yr) * 760`, min_yr = 1859, ~167 years over 760 px ≈ 4.5 px/year; 43 of 52 entities sit in 2000–2024 (~110 px).
+- **Fact-check:** linear scale 1859→2025 ≈ 4.58 px/year; the recent 43 entities sit in ~110 px, and the L1 lane alone holds 19 recent dots.
 - **Classification:** ACTIONABLE (moderate).
-- **Agreed solution (Option 3, zoomed inset):** keep the full overview (all 53, 1859–2025, unchanged) and add a clearly-labeled second panel below titled "Recent discoveries (2000–2024) — zoomed", same 5 lanes, the recent window stretched to full width (~31.7 px/year). Duplication allowed (recent dots appear in both panels). Window = 2000–2024.
-- **Action:** implement after the review cycle (pending).
+- **Agreed solution (Option 3, zoomed inset):** keep the full overview (all 53, 1859–2025) and add a second panel below titled "Recent discoveries (2000–2025) — zoomed" (same 5 lanes, recent window stretched to full width ≈ 30 px/year). Duplication allowed.
+- **Action:** IMPLEMENTED (2026-10-12) — `mod_timeline.R` refactored into a reusable `panel_svg()` helper; the main panel (1859–2025, all 53 + composite) renders above, and the inset panel (2000–2025, 43 recent entities) renders below at full width. Lane spacing increased 55→70 px and SVG height 360→440 px so vertically-spread dots do not collide across ontology lanes. ZIP rebuilt.
 
 ### 5c — Posicionamento de "Senescence and Autophagy in Cancer"
 
