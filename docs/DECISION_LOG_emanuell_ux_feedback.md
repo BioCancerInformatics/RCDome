@@ -97,3 +97,36 @@ Protocol: independent critical assessment; one issue at a time; classification =
 - **Fact-check:** confirmed — `modules/mod_network.R` line 109 placeholder is "e.g. TP53, UVM-99...". "UVM-99" is not a gene symbol; its origin is the legacy signature table (`_archive/Shiny app_legacy/*/data/signatures.tsv`, "UVM-99.2.1.P.0.0.0.4.4.2" — a uveal-melanoma signature from the earlier signature-based analysis). No other residual "e.g." placeholder exists in the live modules.
 - **Classification:** ACTIONABLE (minor).
 - **Action:** IMPLEMENTED (2026-10-12) — replaced the placeholder with "e.g. TP53, BCL2, BAX, GPX4...". ZIP rebuilt.
+
+---
+
+## Issue #8 — Duplicidade de janelas de informações no módulo Network
+
+- **Original comment:** clicking a gene in Network shows two info surfaces at once (a pop-up over the network + the Evidence Trail drawer); Emanuell considers them redundant and suggests unifying into one (preferring the drawer).
+- **Fact-check:** the two surfaces are different drivers by design — the network pop-up shows the gene's overview/associations, while the Evidence Trail drawer shows the evidence/provenance (verbatim evidence + PMIDs) for the same selection. Complementary, not duplicated.
+- **Decision (user):** REJECTED — NOT ACTIONABLE (by design); the two surfaces are intentional and serve different purposes.
+- **Classification:** NOT ACTIONABLE.
+- **Action:** none. Closed.
+
+---
+
+## Issue #9 — Representação visual das interações inibitórias (⊣) no Network
+
+- **Original comment:** the inhibition symbols (⊣) appear disconnected from the interaction lines; suggests integrating them as line endpoints and adding a legend.
+- **Fact-check:** confirmed — PROMOTES renders as an arrowhead (`arrows = "to"`), while PROTECTS renders as a floating text label (`label = "⊣"`) (mod_network.R:822–825). The apparent disconnection is a symptom of high-density networks.
+- **Decision (user):** REJECTED — NOT ACTIONABLE (by design). The crowding is inherent to the high-density network; the user can reduce density via the gene-pair count selector.
+- **Classification:** NOT ACTIONABLE.
+- **Action:** none. Closed.
+
+---
+
+## Issue #10 — Reorganização do RCD Entity Deep Dive (cartoon + legenda)
+
+- **Original comment:** the cartoon and legend are accessed separately; suggests integrating them, plus a ≤300-word summary, page reordering, and a "Detailed Mechanisms" tab.
+- **Decision (user):**
+  - Cartoon+legend integration: REJECTED (by design) — the legend is large and the cartoon detail-rich, so they stay separate; full-size/zoomed download available.
+  - Summary ≤ 300 words: REJECTED — the description is AI-generated under a governed prompt and validated sentence-by-sentence and reference-by-reference; summarizing it (even as an executive summary) would break provenance.
+  - Reordering: REJECTED (moot — it depends on the already-rejected summary and cartoon/legend integration).
+  - "Detailed Mechanisms" tab: REJECTED — the Deep Dive module is intentionally deep, not a quick overview; the full description stays on the main page by design.
+- **Classification:** NOT ACTIONABLE (all sub-proposals rejected).
+- **Action:** none. Closed (entire Issue #10 rejected).
