@@ -3,8 +3,10 @@
 
 CANONICAL generator: generate_rcdome_flowchart.R (grViz/DiagrammeR), in
   D:/Pré-artigo 5-optosis model/Machine learning CancerRCDShiny_prediction/Enrique version/
-This Python/matplotlib script is a RECREATION used only because R + DiagrammeR
-are not installed on the local machine. It mirrors the R script's nodes,
+DEPRECATED for regeneration (2026-10-14): R + DiagrammeR ARE installed; the
+canonical generator generate_rcdome_flowchart.R (grViz + stri_wrap) is the only
+source of truth and produces uniform boxes + auto-spaced arrows. DO NOT regenerate
+Figure 1 with this Python recreation — it overflows box text and misplaces arrows. It mirrors the R script's nodes,
 colors and layout, with the V027 correction (83 columns).
 When R is available, regenerate with the canonical R script.
 """

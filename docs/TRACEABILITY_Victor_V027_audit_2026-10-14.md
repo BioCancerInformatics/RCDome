@@ -101,3 +101,14 @@ the matrix dynamically or were corrected for stale captions:
 - Figure 4 (make_figure4.py + make_figure4_v3.py): captions corrected "21,569 associations" ->
   "21,568 unique gene–RCD pairs", "Elicit" -> "Compiled gene role", "469 executors" -> "469 executor pairs".
 - Figure S3 (make_figure_s3_stacked_by_level.py): already dynamic (reads the matrix).
+
+
+## Figure 1 formatting fix (canonical generator restored)
+
+- My first "dynamic" pass regenerated Figure 1 with the Python recreation
+  (make_figure1_flowchart.py), which overflowed box text and misplaced arrows.
+- Root cause: the canonical generator is generate_rcdome_flowchart.R (grViz + stri_wrap),
+  which auto-wraps text and auto-spaces arrows. The Python script was a stopgap from when
+  R/DiagrammeR were unavailable.
+- Fix: updated the R script to read the matrix dynamically (rows/genes/entities/columns) and
+  regenerated Figure 1 with it (4961x7016 @600 DPI). Python recreation marked DEPRECATED.
