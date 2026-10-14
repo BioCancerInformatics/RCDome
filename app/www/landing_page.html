@@ -58,7 +58,7 @@
     <div class="title">
       <h1 class="tooltip">RCD<span class="gold">ome</span><span class="tooltiptext">The dome is the visual signature: its cupola rim carries the 53 canonicalized RCD-related entities as nodes colored by their adjudicated ontological level — <span style="color:#E0C04B;font-weight:700;">L1 modalities</span> (19, gold), <span style="color:#00B0FF;font-weight:700;">L2 subtypes</span> (7, blue), <span style="color:#00E676;font-weight:700;">L3 triggers</span> (2, green), <span style="color:#E040FB;font-weight:700;">L4 Functional/contextual</span> (13, purple), and <span style="color:#FF6D00;font-weight:700;">L5 Generic/umbrella/taxon</span> (12, orange) — over a constellation of the 9,265 HGNC-validated genes. Only 19 of the 53 entities are bona fide RCD modalities; the rest are subtypes, triggers, contextual programs, or umbrella concepts, and the level color encodes that distinction.</span></h1>
       <p>A multi-database human gene atlas of regulated cell death</p>
-      <p class="stats">9,265 HGNC-validated genes &middot; 53 canonicalized RCD-related entities &middot; 21,568 associations &middot; 20 resources</p>
+      <p class="stats">9,265 HGNC-validated genes &middot; 53 canonicalized RCD-related entities &middot; 21,568 unique gene–RCD pairs &middot; 20 resources</p>
       <p class="hint">Hover an entity node on the dome border to reveal its genes &middot; hover a gene dot in the constellation beneath to reveal its RCD entities &middot; click a legend level to highlight</p>
     </div>
     <div class="stage"><div id="dome"></div></div>
@@ -70,7 +70,7 @@
     <a class="card" href="#" onclick="(function(){var l=window.parent.document.querySelectorAll('a[data-toggle=tab]');for(var i=0;i<l.length;i++){if(l[i].textContent.replace(/\s+/g,' ').trim().indexOf('Operational Definitions')===0){l[i].click();return;}}})();return false;"><h3>Operational Definitions</h3><p>The 53 canonicalized RCD-related entities with adjudicated definitions.</p></a>
     <a class="card" href="#" onclick="(function(){var l=window.parent.document.querySelectorAll('a[data-toggle=tab]');for(var i=0;i<l.length;i++){if(l[i].textContent.replace(/\s+/g,' ').trim().indexOf('Compare Definitions')===0){l[i].click();return;}}})();return false;"><h3>Compare Definitions</h3><p>Side-by-side comparison of 2–4 entities.</p></a>
     <a class="card" href="#" onclick="(function(){var l=window.parent.document.querySelectorAll('a[data-toggle=tab]');for(var i=0;i<l.length;i++){if(l[i].textContent.replace(/\s+/g,' ').trim().indexOf('RCD entities')===0){l[i].click();return;}}})();return false;"><h3>RCD entities</h3><p>The 53 entities with figures, references and summaries.</p></a>
-    <a class="card" href="#" onclick="(function(){var l=window.parent.document.querySelectorAll('a[data-toggle=tab]');for(var i=0;i<l.length;i++){if(l[i].textContent.replace(/\s+/g,' ').trim().indexOf('RCD Entity Deep Dive')===0){l[i].click();return;}}})();return false;"><h3>RCD Entity Deep Dive</h3><p>Human-curated, anti-hallucination-audited narratives with traceable PMID/DOI citations.</p></a>
+    
     <a class="card" href="#" onclick="(function(){var l=window.parent.document.querySelectorAll('a[data-toggle=tab]');for(var i=0;i<l.length;i++){if(l[i].textContent.replace(/\s+/g,' ').trim().indexOf('Gene Catalog')===0){l[i].click();return;}}})();return false;"><h3>Gene Catalog</h3><p>22,473 gene–RCD associations with full provenance.</p></a>
     <a class="card" href="#" onclick="(function(){var l=window.parent.document.querySelectorAll('a[data-toggle=tab]');for(var i=0;i<l.length;i++){if(l[i].textContent.replace(/\s+/g,' ').trim().indexOf('Discrepancy Radar')===0){l[i].click();return;}}})();return false;"><h3>Discrepancy Radar</h3><p>The 7,892 classifier-disagreement hotspots, with GPT arbitration and human adjudication.</p></a>
     <a class="card" href="#" onclick="(function(){var l=window.parent.document.querySelectorAll('a[data-toggle=tab]');for(var i=0;i<l.length;i++){if(l[i].textContent.replace(/\s+/g,' ').trim().indexOf('Discovery Timeline')===0){l[i].click();return;}}})();return false;"><h3>Discovery Timeline</h3><p>The 53 entities by founding year, 1859 to 2026, one lane per ontological level.</p></a>
@@ -217,11 +217,11 @@ star.on("mouseenter", function(ev,d){
 
 node.on("click", (ev, d) => {
   sessionStorage.setItem("rcd_target", JSON.stringify({type:"entity", name:d.name}));
-  window.location.href = "detail_page_wireframe.html";
+  window.location.href = "detail_page_wireframe.html?v=4";
 });
 star.on("click", (ev, d) => {
   sessionStorage.setItem("rcd_target", JSON.stringify({type:"gene", name:d.symbol}));
-  window.location.href = "detail_page_wireframe.html";
+  window.location.href = "detail_page_wireframe.html?v=4";
 });
 
 svg.attr("opacity",0).transition().duration(1200).attr("opacity",1);
