@@ -191,3 +191,11 @@ the matrix dynamically or were corrected for stale captions:
   values -> "found, manual_n1_vote"; removed the stale "(empty where pending)" from the
   consensus_role/direction/mechanistic/doi rows.
 - Backup: RCDome_manuscript_V027_supplementary_tables_pre_H34_2026-10-14.xlsx.
+
+
+## H35 — Matrix Descriptor source_databases 830 -> 829 (fixed)
+
+- Descriptor said "830 distinct combinations"; the frozen V027 has 829 distinct source_databases
+  values (20 base identifiers). Verified programmatically.
+- Fix: Matrix Descriptor source_databases values -> "829 distinct combinations".
+- Backup: RCDome_manuscript_V027_supplementary_tables_pre_H35_2026-10-14.xlsx.
