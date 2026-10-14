@@ -49,3 +49,10 @@ Verified: rcd_counts = 9,265 genes / 21,568 pairs / 9,785 YES / 469 exec / 9,311
 - Fix applied: Group A (35) cot_direction = UNCLEAR. PROMOTES 5,070 -> 5,035.
   Remaining contradictions: 10 (Group B, for human adjudication).
 - Backups: unified_gene_rcd_matrix_V027_pre_H22_2026-10-14.csv/.rds.
+
+
+## H26 — Discrepancy Radar 7,892 vs 7,895 (ACTIONABLE, MODERADA)
+
+- Fact: card/module comment/changelog said "7,892"; the authoritative benchmark text says
+  "7,895 arbitrated rows" (6,953 DeepSeek-vs-Consensus + 942 from the full Consensus run).
+- Fix: 7,892 -> 7,895 in explore.html, mod_discrepancy.R, CHANGELOG_V027.md.
