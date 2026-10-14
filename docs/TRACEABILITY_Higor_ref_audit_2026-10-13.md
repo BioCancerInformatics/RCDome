@@ -13,7 +13,11 @@ against the truth artifacts (PubMed/Europe PMC full text + DeepSeek RAG), NOT ac
 
 1. Apoptosis (extrinsic)
    - Before: year 2004 · founding/discovery 15451440 (an INTRINSIC-pathway paper).
-   - After: year 1995 · founding/discovery 8521815 (Kischkel et al. 1995, EMBO J — the DISC; full text confirms "DISC" x11).
+   - After: year 1995 · discovery 7533326 (Nagata & Golstein 1995, Science — "The Fas death factor");
+     founding 8521815 (Kischkel et al. 1995, EMBO J — the DISC; full text confirms "DISC" x11).
+   - Correction (2026-10-13, post-certification): "First described" was first set to the DISC, but the
+     card showed the SAME reference twice; the true first-described is Nagata & Golstein 1995 (7533326),
+     making extrinsic a proper Case A (distinct discovery vs definition).
 
 2. Apoptosis (intrinsic)
    - Before: year 2002 · founding/discovery 12186923 (an HIV neuronal model).
@@ -47,3 +51,16 @@ against the truth artifacts (PubMed/Europe PMC full text + DeepSeek RAG), NOT ac
 - Backups: RCDome_Decoder_53_pre_Higor_ref_fix_2026-10-13.csv,
   founding_papers_pre_Higor_ref_fix_2026-10-13.csv, discovery_papers_pre_Higor_ref_fix_2026-10-13.csv.
 - PDFs used for full-text verification: analysis/Revisão Higor APP RCDOme/PDF Higor conflicting/.
+
+
+## Rejected by design: complementary-PMID suggestions
+
+Higor's "associate as complementary" notes (6 entities: intrinsic +Yang 1997, MPT 1979 series,
+Parthanatos 2006, Pyroptosis 11029688, PANoptosis 2020, Phagoptosis Fricker 2012) are REJECTED:
+- NOT appropriate — outside the decoder's OD-anchor scope (discovery + founding).
+- NOT needed — the discovery + founding references are already correct and full-text verified.
+- NOT extensible — universal application to all 53 entities would require ~100-150 more full-text
+  verifications with marginal value, and partial adoption would create inconsistency.
+The decoder's two-reference model (discovery_pmid + founding_pmid) is the correct granularity.
+Source-provenance fields (primary_refs_pmids / primary_discovery_reference) remain byte-identical
+per the "never replace, always add" rule.
