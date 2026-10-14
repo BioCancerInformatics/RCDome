@@ -170,3 +170,13 @@ the matrix dynamically or were corrected for stale captions:
   "1,715 ... at the V013 benchmark snapshot" and noted 1,724 as the current V027 count.
 - Verified V013 Ferroptosis=1,715 / Cuproptosis=77 / Triaptosis=3; V027 Ferroptosis=1,724.
 - Backups: _pre_H33_2026-10-14.docx/.xlsx.
+
+
+## H33 (revision) — align to V027 truth (1,724), no snapshot framing
+
+- Per curator decision, the "preserve the V013 snapshot" framing was rejected as a workaround.
+- Truth = V027: Ferroptosis allow-list is 1,724. Since the benchmark's allow-list enforcement
+  rejected 0 of the 393 raw records (raw = post-governance), widening 1,715 -> 1,724 does not
+  change papers/records/governance — only the allow-list count.
+- Fix: S13 Ferroptosis 1,715 -> 1,724 (Total 1,804), note removed; manuscript ¶237 + ¶336
+  reverted to clean "1,724" (no snapshot note).
