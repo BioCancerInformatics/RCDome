@@ -5,14 +5,25 @@ CANONICAL generator: generate_rcdome_flowchart.R (grViz/DiagrammeR), in
   D:/Pré-artigo 5-optosis model/Machine learning CancerRCDShiny_prediction/Enrique version/
 This Python/matplotlib script is a RECREATION used only because R + DiagrammeR
 are not installed on the local machine. It mirrors the R script's nodes,
-colors and layout, with the V026 correction (71 columns).
+colors and layout, with the V027 correction (83 columns).
 When R is available, regenerate with the canonical R script.
 """
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyBboxPatch, FancyArrowPatch
-import os, sys
+import os, sys, csv as _csv
+
+# ── Read the truth matrix so the consolidation counts never go stale ──
+_MAT = 'D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript/RCDome_distribution/data/unified_gene_rcd_matrix_V027.csv'
+_NROWS = 0; _GENES = set(); _PAIRS = set(); _ENTITIES = set(); _NCOLS = 0
+with open(_MAT, encoding='utf-8-sig', newline='') as _f:
+    _rdr = _csv.DictReader(_f); _NCOLS = len(_rdr.fieldnames)
+    for _r in _rdr:
+        _NROWS += 1
+        _GENES.add(_r['gene_symbol'])
+        _PAIRS.add((_r['gene_symbol'], _r['rcd_form_canonical']))
+        _ENTITIES.add(_r['rcd_form_canonical'])
 
 OUT = r'D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript/Figures/Figure_1_pipeline'
 
@@ -40,14 +51,14 @@ def arrow(x1, y1, x2, y2):
 
 # node layout (top -> bottom)
 box(50, 95, 66, 12, wrap('20 source databases (FerrDB v3, RCDdb, iPCD, LncRCD, iLIR, HADb, HAMdb, ATD, AMT-DB, ncFO, KEGG, Reactome, GO, MSigDB, WikiPathways, NCBI Gene, Rodrigues 2025, XDeathDB, Elicit Phase 3, Elicit Alert)'), '#AED6F1')
-box(50, 80, 66, 12, wrap('Four compilation channels: A: PubMed Boolean (recall), B: curated databases (precision), C: AI-assisted screening, D: manual curation (arbiter)'), '#48C9B0')
-box(50, 65, 66, 11, wrap('Consolidation: 53 canonicalized RCD-related entities (62 name strings), 22,473 rows, 9,265 genes'), '#F9E79F')
+box(50, 80, 66, 12, wrap('Five evidence channels (A-D at compile, E at validation): A PubMed Boolean (recall), B curated databases (precision), C AI-assisted screening, D manual curation (arbiter), E Elicit Phase 3 systematic review'), '#48C9B0')
+box(50, 65, 66, 11, wrap(f'Consolidation: {len(_ENTITIES)} canonicalized RCD-related entities (62 name strings), {_NROWS:,} rows, {len(_GENES):,} genes'), '#F9E79F')
 box(50, 50, 30, 8, 'INDEPENDENT\nVALIDATION', '#EBDEF0', fc_text='#D32F2F', fs=9, bold=True)
 box(18, 35, 27, 14, wrap('DeepSeek (Phases 2A/D, 2B, 2C, 2D/2E, 2F): two-call validation, deep RAG, recovery, CoT full-matrix (cot_role, cot_direction, cot_mechanistic, cot_evidence)'), '#ABEBC6', fs=7)
 box(50, 35, 27, 14, wrap('Elicit (Phase 3): AI-assisted extraction, role + direction'), '#F1948A', fs=8)
 box(82, 35, 27, 14, wrap('Consensus (Phase 2G): evidence-channel classification, neutral query'), '#EB984E', fs=8)
-box(50, 18, 66, 10, 'Consolidated matrix: 22,473 rows x 71 columns', '#FCBB18', fs=10, bold=True)
-box(50, 4, 66, 7, 'RCDome web application (dome, Explore RCDome, Gene Catalog, RCD entities, Network, RCDchat)', '#D32F2F', fc_text='white', fs=8)
+box(50, 18, 66, 10, f'Consolidated matrix: {_NROWS:,} rows x {_NCOLS} columns', '#FCBB18', fs=10, bold=True)
+box(50, 4, 66, 7, wrap('RCDome web application (Home dome, Explore RCDome, Operational Definitions, Compare Definitions, RCD entities, Gene Catalog, Discrepancy Radar, Discovery Timeline, 3D RCDome, Digital Molecular RCD Board, Network)'), '#D32F2F', fc_text='white', fs=8)
 
 # arrows
 arrow(50, 89, 50, 86)
@@ -87,4 +98,4 @@ if sys.platform == 'win32':
                 _k32.CloseHandle(_h)
     except Exception:
         pass
-print('Figure 1 regenerated (V026, 71 columns)')
+print('Figure 1 regenerated (V027, 83 columns)')

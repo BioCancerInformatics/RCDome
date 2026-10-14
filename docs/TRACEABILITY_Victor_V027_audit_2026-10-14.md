@@ -88,3 +88,16 @@ Verified: rcd_counts = 9,265 genes / 21,568 pairs / 9,785 YES / 469 exec / 9,311
   inconsistent with the matrix after H22 (5,035; 10 pending).
 - Fix: all three "5,025" -> "5,035"; Discussion sentence annotated "(10 pairs pending human curator verdicts)".
 - Backup: RCDome_manuscript_governance_V027_pre_5025_2026-10-14.docx.
+
+
+## Dynamic-figure strategy (applied across figures, 2026-10-14)
+
+Following the Figure 3C pattern (single source of truth = the matrix), the other figures now read
+the matrix dynamically or were corrected for stale captions:
+
+- Figure 3 (make_figure3_composite.py): role + direction counts read the matrix (unique pairs);
+  Direction panel has the "10 pending human verdicts" footnote.
+- Figure 1 (make_figure1_flowchart.py): consolidation box now reads the matrix (rows/genes/entities/columns).
+- Figure 4 (make_figure4.py + make_figure4_v3.py): captions corrected "21,569 associations" ->
+  "21,568 unique gene–RCD pairs", "Elicit" -> "Compiled gene role", "469 executors" -> "469 executor pairs".
+- Figure S3 (make_figure_s3_stacked_by_level.py): already dynamic (reads the matrix).
