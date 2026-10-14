@@ -19,3 +19,18 @@ Fix:
 - www/explore.html: "21,569" -> "21,568"; "executors" -> "executor pairs".
 
 Verified: rcd_counts = 9,265 genes / 21,568 pairs / 9,785 YES / 469 exec / 9,311 reg.
+
+
+## H21 — "Elicit vs DeepSeek" mislabeled (ACTIONABLE, ALTA)
+
+- Fact: the "Elicit" role column actually uses `rcd_gene_type`, which is a MULTI-SOURCE field
+  (Traceability Contract: "Functional annotation ... Database extraction + Phase 3"), NOT Elicit-only.
+  295 rows have rcd_gene_type filled with elicit_evidence_status=none (281 MSigDB + XDeathDB, FerrDB, ...).
+- Decision: RENAME, not filter (filtering would discard legitimate multi-source provenance).
+- Fix: relabel "Elicit" -> "Compiled gene role" + hover tooltip explaining the content, across:
+  - mod_gene_catalog.R: header summary, source-selector label + data-tip, the "RCD Entities" table
+    header, entity_compare labels, download data-tip.
+  - mod_network.R: edge-source selector label.
+  - server.R: Evidence Trail "Classifiers" row label.
+- Kept as "Elicit" (genuine Elicit columns, not rcd_gene_type): the verbatim sentence, the ~14% Elicit
+  coverage note, and the full-matrix download tip.

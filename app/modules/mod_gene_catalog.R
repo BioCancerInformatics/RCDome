@@ -23,10 +23,10 @@ mod_gene_catalog_ui <- function(id) {
         style = "color:#d6d3d1; margin:4px 0 0; font-size:14px;"
       ),
       tags$p(
-        tags$span("Elicit:", style = "color:#a8a29e; font-weight:600;"), " ",
-        tags$span("320 executors", style = "color:#FF9800; font-weight:600;"), " · ",
-        tags$span("3,235 regulators", style = "color:#FF9800; font-weight:600;"), " · ",
-        tags$span("20% annotated", style = "color:#a8a29e; font-weight:600;"),
+        tags$span("Compiled gene role:", style = "color:#a8a29e; font-weight:600;"), " ",
+        tags$span("320 executor pairs", style = "color:#FF9800; font-weight:600;"), " · ",
+        tags$span("3,235 regulator pairs", style = "color:#FF9800; font-weight:600;"), " · ",
+        tags$span("source-derived role", style = "color:#a8a29e; font-weight:600;"),
         style = "color:#d6d3d1; margin:2px 0 0; font-size:14px;"
       ),
       tags$p("Click a row to see detailed information for that gene.",
@@ -45,7 +45,7 @@ mod_gene_catalog_ui <- function(id) {
     ),
     tags$div(style = "display:flex; align-items:center; flex-wrap:wrap; margin-bottom:12px;",
       tags$span("Direction/Role source:",
-        `data-tip` = "Choose which analysis's Role/Direction values to show. DeepSeek = complete (100% of 21,568 pairs); Elicit = original (~20% annotated).",
+        `data-tip` = "Choose which analysis's Role/Direction values to show. DeepSeek = complete (100% of 21,568 pairs); Compiled gene role = source-derived functional role (EXECUTOR/REGULATOR/MARKER/UNCERTAIN); Consensus = complete (100% of 21,568 pairs).",
         style = "font-weight:600; color:#1c1917; font-size:14px; margin-right:2px;"),
       tags$label(
         `data-tip` = "DeepSeek chain-of-thought classification — complete (100%). Role: EXECUTOR/REGULATOR/MARKER/UNCERTAIN · Direction: PROMOTES/PROTECTS/UNCLEAR.",
@@ -53,10 +53,10 @@ mod_gene_catalog_ui <- function(id) {
         tags$input(type = "radio", name = ns("source_sel_r"), value = "deepseek", checked = "checked", style = "margin:0;"),
         "DeepSeek"),
       tags$label(
-        `data-tip` = "Original Elicit Phase 2/3 extraction — ~20% annotated. Direction may include ASSOCIATED/BIDIRECTIONAL; Role may include CANDIDATE_MODULE.",
+        `data-tip` = "Source-derived functional role compiled from the source databases and Elicit Phase 3 extraction (not an Elicit-only classification). Role: EXECUTOR/REGULATOR/MARKER/UNCERTAIN · Direction: PROMOTES/PROTECTS/UNCLEAR.",
         style = "margin:0 0 0 14px; display:inline-flex; align-items:center; gap:5px; cursor:pointer; font-weight:400; font-size:14px;",
         tags$input(type = "radio", name = ns("source_sel_r"), value = "elicit", style = "margin:0;"),
-        "Elicit"),
+        "Compiled gene role"),
       tags$label(
         `data-tip` = "Consensus API classification — complete (100% of 21,568 pairs). Role: EXECUTOR/REGULATOR/MARKER/UNCERTAIN · Direction: PROMOTES/PROTECTS/UNCLEAR · Mechanistic: YES/NO.",
         style = "margin:0 0 0 14px; display:inline-flex; align-items:center; gap:5px; cursor:pointer; font-weight:400; font-size:14px;",
@@ -86,9 +86,9 @@ mod_gene_catalog_ui <- function(id) {
     tags$p("22,473 rows shown = 21,568 unique gene-RCD pairs + 905 rows of multi-database corroboration (same gene+entity reported by 2+ databases).",
            style = "color:#a8a29e; font-size:12px; margin-top:6px;"),
     tags$div(style = "margin-top: 28px; display:flex; align-items:center; gap:12px; flex-wrap:wrap;",
-      tags$h4("RCD Entities — Elicit vs DeepSeek (executors / regulators)", style = "margin:0; color:#1c1917;"),
+      tags$h4("RCD Entities — Compiled gene role vs DeepSeek (executors / regulators)", style = "margin:0; color:#1c1917;"),
       downloadButton(ns("download_entities"), "Download comparison table (CSV)",
-        `data-tip` = "Download the 53-entity comparison (Elicit vs DeepSeek executors and regulators) as a CSV file.",
+        `data-tip` = "Download the 53-entity comparison (Compiled gene role vs DeepSeek executors and regulators) as a CSV file.",
         class = "search-evidence-btn")
     ),
     DTOutput(ns("table_entities")),
@@ -343,7 +343,7 @@ mod_gene_catalog_server <- function(id) {
     # Direction/Role source selector → which analysis's columns to show
     src_cols <- reactive({
       if (identical(input$source_sel, "elicit")) {
-        list(role = "rcd_gene_type", dir = "role_direction", mech = "cot_mechanistic", label = "Elicit")
+        list(role = "rcd_gene_type", dir = "role_direction", mech = "cot_mechanistic", label = "Compiled gene role")
       } else if (identical(input$source_sel, "consensus")) {
         list(role = "consensus_role", dir = "consensus_direction", mech = "consensus_mechanistic", label = "Consensus")
       } else {
@@ -427,7 +427,7 @@ mod_gene_catalog_server <- function(id) {
       df
     })
 
-    # ── Per-entity comparison (Elicit vs DeepSeek, pair-level) ─────────
+    # ── Per-entity comparison (Compiled gene role vs DeepSeek, pair-level) ─────
     entity_compare <- reactive({
       df <- get_genes()
       if (nrow(df) == 0) return(data.frame())
@@ -438,9 +438,9 @@ mod_gene_catalog_server <- function(id) {
         data.frame(
           Entity = e,
           Level = g$rcdome_level_name[1],
-          `Elicit executors` = sum(g$rcd_gene_type == "EXECUTOR"),
+          `Compiled executors` = sum(g$rcd_gene_type == "EXECUTOR"),
           `DeepSeek executors` = sum(g$cot_role == "EXECUTOR"),
-          `Elicit regulators` = sum(g$rcd_gene_type == "REGULATOR"),
+          `Compiled regulators` = sum(g$rcd_gene_type == "REGULATOR"),
           `DeepSeek regulators` = sum(g$cot_role == "REGULATOR"),
           check.names = FALSE
         )
@@ -461,7 +461,7 @@ mod_gene_catalog_server <- function(id) {
             "    'RCDome ontological level (L1 Modalities, L2 Subtypes, L3 Triggers, L4 Functional/contextual, L5 Generic/umbrella/taxon).',",
             "    'Number of EXECUTOR pairs from the Elicit Phase 2/3 extraction (~20% annotated).',",
             "    'Number of EXECUTOR pairs from DeepSeek (complete, 100% classified).',",
-            "    'Number of REGULATOR pairs from Elicit.',",
+            "    'Number of REGULATOR pairs from Compiled gene role.',",
             "    'Number of REGULATOR pairs from DeepSeek.'",
             "  ];",
             "  $('th', thead).each(function(i){ if(tips[i]) $(this).attr('data-tip', tips[i]); });",

@@ -119,7 +119,7 @@ mod_network_ui <- function(id) {
       checkboxGroupInput(
         inputId = ns("edge_sources"),
         label = "Edge classification sources (1 = single, 2+ = compare):",
-        choices = c("DeepSeek" = "deepseek", "Elicit" = "elicit", "Consensus" = "consensus"),
+        choices = c("DeepSeek" = "deepseek", "Compiled gene role" = "elicit", "Consensus" = "consensus"),
         selected = "deepseek",
         inline = TRUE
       )
@@ -315,7 +315,7 @@ mod_network_server <- function(
       s <- input$edge_sources
       if (is.null(s) || length(s) == 0) s <- "deepseek"
       lapply(s, function(x) {
-        if (identical(x, "elicit")) list(key = "elicit", label = "Elicit",
+        if (identical(x, "elicit")) list(key = "elicit", label = "Compiled gene role",
                                           role = "rcd_gene_type", dir = "role_direction")
         else if (identical(x, "consensus")) list(key = "consensus", label = "Consensus",
                                                   role = "consensus_role", dir = "consensus_direction")
