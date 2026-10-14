@@ -54,5 +54,10 @@ Verified: rcd_counts = 9,265 genes / 21,568 pairs / 9,785 YES / 469 exec / 9,311
 ## H26 — Discrepancy Radar 7,892 vs 7,895 (ACTIONABLE, MODERADA)
 
 - Fact: card/module comment/changelog said "7,892"; the authoritative benchmark text says
-  "7,895 arbitrated rows" (6,953 DeepSeek-vs-Consensus + 942 from the full Consensus run).
+  "7,895 arbitrated rows" (6,953 DeepSeek-vs-Consensus + 942 from the full Consensus run:
+  866 new + 76 recovered).
+- Curator context: these 7,895 rows are the arbitration universe that Victor and Higor are
+  adjudicating (the human-resolution worksheets). The card count must equal the arbitration
+  total, not a stale earlier figure, so their worksheets and the UI stay in sync.
 - Fix: 7,892 -> 7,895 in explore.html, mod_discrepancy.R, CHANGELOG_V027.md.
+- No arbitration rows were added/removed — this is a display-count synchronization only.
