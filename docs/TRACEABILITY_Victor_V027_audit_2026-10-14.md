@@ -69,3 +69,14 @@ Verified: rcd_counts = 9,265 genes / 21,568 pairs / 9,785 YES / 469 exec / 9,311
   = 62.9% (verified in the matrix: 9,265 genes, 5,826 with >=1 YES).
 - Fix: "64%" -> "62.9%" (one decimal, matching the manuscript's 45.4%/54.6%/4.8%/95.2% convention).
 - Backup: RCDome_manuscript_governance_V027_pre_H27_2026-10-14.docx.
+
+
+## H28 (Figure 3C) — citation + regeneration
+
+- Figure 3C (Direction panel) was hard-coded to 5,025 PROMOTES (the "fully repaired" assumption),
+  inconsistent with the matrix after H22 (5,035; 10 Group-B pending human verdicts).
+- Fix: make_figure3_composite.py now reads the matrix dynamically (unique pairs) for the role and
+  direction counts; the Direction panel shows the live truth and a footnote "10 pairs pending human
+  curator verdicts (PROMOTES vs UNCLEAR)".
+- Regenerated 2026-10-14: Figure_3.pdf/.png/.tiff. Will be regenerated again when the 10 verdicts return.
+- (The ¶398 Figure 3C citation itself is addressed in H28's citation fix next.)
