@@ -211,3 +211,11 @@ the matrix dynamically or were corrected for stale captions:
 - Fix: S9 "23 scripts" -> "43 scripts; full pipeline catalog in Table S10"; manuscript ¶424
   clarified "21 channel_*.py ... (21 of the 43 scripts in the full pipeline catalog, Table S10)".
 - Backups: _pre_H36_2026-10-14.xlsx/.docx.
+
+
+## H37 — Table S2 Elicit Phase 3 snapshot -> final (fixed)
+
+- S2 said Elicit Phase 3 = 14 forms / 346 genes (initial snapshot). Final V027: Elicit_Phase3 rows
+  4,601, 50 forms, 2,006 genes (matches Results "4,601 associations in 50 forms").
+- Fix: S2 Elicit Phase 3 -> 50 forms / 2,006 genes (final state).
+- Backup: RCDome_manuscript_V027_supplementary_tables_pre_H37_2026-10-14.xlsx.
