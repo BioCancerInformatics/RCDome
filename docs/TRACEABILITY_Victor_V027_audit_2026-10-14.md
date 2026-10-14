@@ -228,3 +228,14 @@ the matrix dynamically or were corrected for stale captions:
   V027 has 13 MSigDB-covered entities.
 - Fix: S2 MSigDB -> 13 forms / 2,501 genes + a note explaining the curated final contribution.
 - Backup: RCDome_manuscript_V027_supplementary_tables_pre_H38_2026-10-14.xlsx.
+
+
+## H39 — "20 DATABASES" -> "20 source resources" (fixed)
+
+- The Explore RCDome card label "databases" and the Figure 1 pipeline box "20 source databases"
+  were narrower than the real universe (the 20 include datasets, resources, and Elicit literature
+  channels, not only databases). The manuscript already prefers "databases and resources".
+- Fix: card label -> "resources"; Figure 1 R script + regeneration -> "20 source resources";
+  manuscript Figure 1 legend "Twenty source databases" -> "Twenty source resources".
+- The source_databases matrix column name is unchanged (technical field).
+- Backup: RCDome_manuscript_governance_V027_pre_H39_2026-10-14.docx.
