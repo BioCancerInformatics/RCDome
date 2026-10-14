@@ -150,3 +150,11 @@ the matrix dynamically or were corrected for stale captions:
   RCDome 319,548 distinct PMIDs referenced) and "Unique gene–RCD pairs" (RCDome 21,568, 100% validated).
   Added a header note defining per-row metrics. INDEX dims updated to 16 rows x 4 cols.
 - Backup: RCDome_manuscript_V027_supplementary_tables_pre_H32_2026-10-14.xlsx.
+
+
+## H32 (correction) — publications count not DeepSeek-inflated
+
+- The first H32 fix used "319,548 distinct PMIDs", but that is 81% llm_pmids (258,568) —
+  the DeepSeek abstract-level extraction, not a true "publications indexed" figure.
+- Corrected to "123,188 distinct full-text PMIDs (Europe PMC, Phase 2B)" — the full-text papers
+  RCDome actually retrieved and verified. Curated/verified columns only.
