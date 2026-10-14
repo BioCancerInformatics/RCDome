@@ -61,3 +61,11 @@ Verified: rcd_counts = 9,265 genes / 21,568 pairs / 9,785 YES / 469 exec / 9,311
   total, not a stale earlier figure, so their worksheets and the UI stay in sync.
 - Fix: 7,892 -> 7,895 in explore.html, mod_discrepancy.R, CHANGELOG_V027.md.
 - No arbitration rows were added/removed — this is a display-count synchronization only.
+
+
+## H27 — Discussion rounds 5,826/9,265 to "64%" (ACTIONABLE, MODERADA)
+
+- Fact: manuscript Discussion ¶398 said "64% of the 9,265 genes"; truth = 5,826/9,265 = 62.882%
+  = 62.9% (verified in the matrix: 9,265 genes, 5,826 with >=1 YES).
+- Fix: "64%" -> "62.9%" (one decimal, matching the manuscript's 45.4%/54.6%/4.8%/95.2% convention).
+- Backup: RCDome_manuscript_governance_V027_pre_H27_2026-10-14.docx.
