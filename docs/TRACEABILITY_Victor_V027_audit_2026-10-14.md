@@ -80,3 +80,11 @@ Verified: rcd_counts = 9,265 genes / 21,568 pairs / 9,785 YES / 469 exec / 9,311
   curator verdicts (PROMOTES vs UNCLEAR)".
 - Regenerated 2026-10-14: Figure_3.pdf/.png/.tiff. Will be regenerated again when the 10 verdicts return.
 - (The ¶398 Figure 3C citation itself is addressed in H28's citation fix next.)
+
+
+## H28 (cont.) — manuscript 5,025 -> 5,035 (stale "fully repaired" count)
+
+- The Discussion + Figure 3 legend carried "5,025 promoters/promote" (the fully-repaired assumption),
+  inconsistent with the matrix after H22 (5,035; 10 pending).
+- Fix: all three "5,025" -> "5,035"; Discussion sentence annotated "(10 pairs pending human curator verdicts)".
+- Backup: RCDome_manuscript_governance_V027_pre_5025_2026-10-14.docx.
