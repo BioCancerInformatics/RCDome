@@ -18,7 +18,7 @@ n_entities <- length(unique(mat$rcd_form_canonical))
 n_cols <- ncol(mat)
 
 labels <- list(
-  sources       = wrap_text("20 source resources (FerrDB v3, RCDdb, iPCD, LncRCD, iLIR, HADb, HAMdb, ATD, AMT-DB, ncFO, KEGG, Reactome, GO, MSigDB, WikiPathways, NCBI Gene, Rodrigues 2025, XDeathDB, Elicit Phase 3, Elicit Alert)"),
+  sources       = wrap_text("20 databases and resources (FerrDB v3, RCDdb, iPCD, LncRCD, iLIR, HADb, HAMdb, ATD, AMT-DB, ncFO, KEGG, Reactome, GO, MSigDB, WikiPathways, NCBI Gene, Rodrigues 2025, XDeathDB, Elicit Phase 3, Elicit Alert)"),
   channels      = wrap_text("Five evidence channels (A-D at compile, E at validation): A PubMed Boolean (recall), B curated databases (precision), C AI-assisted screening, D manual curation (arbiter), E Elicit Phase 3 systematic review"),
   consolidation = wrap_text(paste0("Consolidation: ", n_entities, " canonicalized RCD-related entities (62 name strings), ", format(n_rows, big.mark = ","), " rows, ", format(n_genes, big.mark = ","), " genes")),
   validation    = wrap_text("INDEPENDENT VALIDATION"),

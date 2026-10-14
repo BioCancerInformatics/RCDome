@@ -239,3 +239,10 @@ the matrix dynamically or were corrected for stale captions:
   manuscript Figure 1 legend "Twenty source databases" -> "Twenty source resources".
 - The source_databases matrix column name is unchanged (technical field).
 - Backup: RCDome_manuscript_governance_V027_pre_H39_2026-10-14.docx.
+
+
+## H39 (revision) — "20 source resources" -> "20 databases and resources"
+
+- "source resources" was redundant/cacophonous. Per curator decision, aligned to the manuscript's
+  existing phrase "databases and resources": card label "databases & resources", Figure 1 box
+  "20 databases and resources", legend "Twenty databases and resources".
