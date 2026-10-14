@@ -219,3 +219,12 @@ the matrix dynamically or were corrected for stale captions:
   4,601, 50 forms, 2,006 genes (matches Results "4,601 associations in 50 forms").
 - Fix: S2 Elicit Phase 3 -> 50 forms / 2,006 genes (final state).
 - Backup: RCDome_manuscript_V027_supplementary_tables_pre_H37_2026-10-14.xlsx.
+
+
+## H38 — Table S2 MSigDB pre-curation -> final (fixed)
+
+- S2 said MSigDB/GSEA = 6 forms / 1,015 genes (pre-curation GMT download). The Methods' manual
+  curation (360 candidates -> 251 includes) contributed 2,501 genes across 4,550 pairs; the frozen
+  V027 has 13 MSigDB-covered entities.
+- Fix: S2 MSigDB -> 13 forms / 2,501 genes + a note explaining the curated final contribution.
+- Backup: RCDome_manuscript_V027_supplementary_tables_pre_H38_2026-10-14.xlsx.
