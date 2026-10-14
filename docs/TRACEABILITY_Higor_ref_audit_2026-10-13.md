@@ -27,7 +27,9 @@ against the truth artifacts (PubMed/Europe PMC full text + DeepSeek RAG), NOT ac
 
 4. Immunogenic cell death (discovery only)
    - Discovery: 17187072 -> 16365148 (Casares et al. 2005, J Exp Med — first doxorubicin ICD demonstration).
-   - Founding (definition) kept: 17187072 (Obeid et al. 2007, Nat Med — calreticulin hallmark).
+   - Founding: 23157435 (Kroemer 2013 review) -> 16365148 (Casares et al. 2005, J Exp Med) — per DeepSeek + Europe PMC RAG,
+     Casares 2005 is the operational-definition anchor (doxorubicin-induced immunogenic tumor death);
+     Obeid 2007 (17187072, calreticulin) retained in primary_refs_pmids as the mechanism.
 
 ## Rejected / kept (verified, no change)
 - Mitotic catastrophe: KEEP Ayscough 1992 (1316996) — "mitotic catastrophe" x14 in body.
