@@ -11,9 +11,9 @@ CAP_H = 120
 ROW_GAP = 60
 
 captions = {
-    'A': 'Home dome — 53 entities, 9,265 genes, 21,569 associations',
+    'A': 'Home dome — 53 entities, 9,265 genes, 21,568 unique gene–RCD pairs',
     'B': 'Explore RCDome — modules, benchmarks and governance',
-    'C': 'Gene Catalog — DeepSeek/Elicit source selector and Death-core filter (469 executors)',
+    'C': 'Gene Catalog — DeepSeek/Compiled gene role source selector and Death-core filter (469 executor pairs)',
     'D': 'Gene detail page — entity jump, chain-of-thought columns and verified PMIDs',
 }
 
