@@ -34,3 +34,18 @@ Verified: rcd_counts = 9,265 genes / 21,568 pairs / 9,785 YES / 469 exec / 9,311
   - server.R: Evidence Trail "Classifiers" row label.
 - Kept as "Elicit" (genuine Elicit columns, not rcd_gene_type): the verbatim sentence, the ~14% Elicit
   coverage note, and the full-matrix download tip.
+
+
+## H22 — 45 CoT contradictions (NO + UNCERTAIN + PROMOTES) (ACTIONABLE, ALTA)
+
+- Fact: 45 unique pairs have cot_mechanistic=NO + cot_role=UNCERTAIN + cot_direction=PROMOTES
+  (manuscript claims 5,025 PROMOTES = 5,070 - 45, i.e., assumes repair).
+- Provenance: Rule 4 (log_rule4_repair.py) repaired "NO + confident ROLE -> UNCERTAIN/UNCLEAR" for 80
+  pairs, but did NOT cover the "NO + UNCERTAIN role + confident DIRECTION" pattern — those 45 remained.
+- Individual review split them:
+  - Group A (35): consensus UNCLEAR -> clean Rule-4b (direction must be UNCLEAR). FIXED.
+  - Group B (10): consensus confident (6 REGULATOR + 4 EXECUTOR; 8 PROMOTES + 2 PROTECTS) ->
+    genuine DeepSeek-vs-Consensus disagreements -> routed to human curator verdicts (NOT mechanically flattened).
+- Fix applied: Group A (35) cot_direction = UNCLEAR. PROMOTES 5,070 -> 5,035.
+  Remaining contradictions: 10 (Group B, for human adjudication).
+- Backups: unified_gene_rcd_matrix_V027_pre_H22_2026-10-14.csv/.rds.
