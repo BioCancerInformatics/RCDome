@@ -112,3 +112,13 @@ the matrix dynamically or were corrected for stale captions:
   R/DiagrammeR were unavailable.
 - Fix: updated the R script to read the matrix dynamically (rows/genes/entities/columns) and
   regenerated Figure 1 with it (4961x7016 @600 DPI). Python recreation marked DEPRECATED.
+
+
+## H29 — Table S5 source-dependent mappings (fixed)
+
+- Problem: S5 showed simple mappings but hid the source-dependent splits for "Lysosomal cell death"
+  (iPCD -> Lysosome-dependent; XDeathDB -> Lysosomal) and "Mitotic death"
+  (FerrDB -> Mitotic catastrophe; Elicit/XDeathDB -> Mitotic death).
+- Fix: regenerated Table S5 from the frozen matrix; added a "Conditioning Source" column and made
+  the two split mappings explicit (15 data rows). Non-split rows marked "—".
+- Backup: RCDome_manuscript_V027_supplementary_tables_pre_H29_2026-10-14.xlsx.
