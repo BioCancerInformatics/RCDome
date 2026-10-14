@@ -140,3 +140,13 @@ the matrix dynamically or were corrected for stale captions:
   and 21,283 of 21,568 unique pairs. This matches Victor's suggested 22,187/98.7%.
 - Fix: S9 rows "Publications indexed" + "Per-gene PMID traceability" updated to 98.7% / 22,187.
 - Manuscript Results ¶300 already carried the correct 22,187 / 21,283 / 98.7% (no manuscript change).
+
+
+## H32 — Table S9 units mismatch (fixed)
+
+- "Publications indexed" row conflated FerrDB ">20,000" (publications) with RCDome
+  "21,568 unique gene-RCD pairs" (pairs) — methodologically invalid comparison.
+- Fix: split into "Publications / literature records indexed" (FerrDB >20,000; RCDdb not specified;
+  RCDome 319,548 distinct PMIDs referenced) and "Unique gene–RCD pairs" (RCDome 21,568, 100% validated).
+  Added a header note defining per-row metrics. INDEX dims updated to 16 rows x 4 cols.
+- Backup: RCDome_manuscript_V027_supplementary_tables_pre_H32_2026-10-14.xlsx.
