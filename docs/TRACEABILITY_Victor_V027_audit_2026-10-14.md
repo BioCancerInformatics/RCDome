@@ -158,3 +158,15 @@ the matrix dynamically or were corrected for stale captions:
   the DeepSeek abstract-level extraction, not a true "publications indexed" figure.
 - Corrected to "123,188 distinct full-text PMIDs (Europe PMC, Phase 2B)" — the full-text papers
   RCDome actually retrieved and verified. Curated/verified columns only.
+
+
+## H33 — Ferroptosis benchmark denominator (fixed)
+
+- S13 said Ferroptosis allow-list = 1,715; Methods/Table S3 said 1,724. Root cause: the benchmark
+  auto-populated its allow-list from the V013 matrix snapshot (1,715), while the current V027 matrix
+  carries 1,724 (9 genes added after the freeze). Retroactively changing the denominator would be
+  methodologically wrong.
+- Fix: preserved 1,715 in S13 with a note (V013 snapshot); corrected Methods ¶237 + ¶336 to
+  "1,715 ... at the V013 benchmark snapshot" and noted 1,724 as the current V027 count.
+- Verified V013 Ferroptosis=1,715 / Cuproptosis=77 / Triaptosis=3; V027 Ferroptosis=1,724.
+- Backups: _pre_H33_2026-10-14.docx/.xlsx.
