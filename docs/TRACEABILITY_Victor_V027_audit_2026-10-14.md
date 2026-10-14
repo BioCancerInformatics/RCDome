@@ -122,3 +122,12 @@ the matrix dynamically or were corrected for stale captions:
 - Fix: regenerated Table S5 from the frozen matrix; added a "Conditioning Source" column and made
   the two split mappings explicit (15 data rows). Non-split rows marked "—".
 - Backup: RCDome_manuscript_V027_supplementary_tables_pre_H29_2026-10-14.xlsx.
+
+
+## H30 — INDEX "Entosis" -> "Entotic cell death" (fixed)
+
+- The INDEX described Table S5 with the example "both map to 'Entosis'", but the canonical
+  rcd_form_canonical is "Entotic cell death" (Entosis is only an original source name).
+- Fix: INDEX Table S5 entry now says "...both map to 'Entotic cell death'", title "15 mappings",
+  dimensions "16 rows x 4 cols", and mentions the source-dependent splits added in H29.
+- Backup: RCDome_manuscript_V027_supplementary_tables_pre_H30_2026-10-14.xlsx.
