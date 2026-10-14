@@ -246,3 +246,13 @@ the matrix dynamically or were corrected for stale captions:
 - "source resources" was redundant/cacophonous. Per curator decision, aligned to the manuscript's
   existing phrase "databases and resources": card label "databases & resources", Figure 1 box
   "20 databases and resources", legend "Twenty databases and resources".
+
+
+## H40 — "no inference" -> "no unsupported inference" (fixed)
+
+- The Explore RCDome traceability contract claimed "no inference (classifications derive from
+  explicit evidence, not statistical guesswork)" — an absolute that contradicts RCDome's actual
+  design (LLM classifications in Call A / Phase 2F and co-occurrence force are inference).
+- Fix: "no unsupported inference (model-derived classifications are separated from source evidence
+  and provenance-traced)". Both explore.html copies updated. The manuscript's traceability contract
+  (¶115/¶382/¶456) had no such absolute claim, so no manuscript change was needed.
