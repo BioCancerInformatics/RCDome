@@ -256,3 +256,11 @@ the matrix dynamically or were corrected for stale captions:
 - Fix: "no unsupported inference (model-derived classifications are separated from source evidence
   and provenance-traced)". Both explore.html copies updated. The manuscript's traceability contract
   (¶115/¶382/¶456) had no such absolute claim, so no manuscript change was needed.
+
+
+## H41 — "every reported ... association" -> governed-source scope (fixed)
+
+- The "What is RCDome?" section claimed "consolidates every reported human gene–RCD association",
+  an absolute-completeness claim beyond the 20-source universe.
+- Fix: "consolidates human gene–RCD associations captured across its governed source universe into
+  one traceable platform". Both explore.html copies updated. No manuscript "every reported" language.
