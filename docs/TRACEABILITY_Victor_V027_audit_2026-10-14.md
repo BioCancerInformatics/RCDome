@@ -180,3 +180,14 @@ the matrix dynamically or were corrected for stale captions:
   change papers/records/governance — only the allow-list count.
 - Fix: S13 Ferroptosis 1,715 -> 1,724 (Total 1,804), note removed; manuscript ¶237 + ¶336
   reverted to clean "1,724" (no snapshot note).
+
+
+## H34 — Matrix Descriptor Consensus "partial 90.1%" -> full (fixed)
+
+- Descriptor said consensus_status = "partial run: 90.1 percent complete". The frozen V027 has the
+  Consensus run complete: consensus_role/direction/mechanistic/status 100% (22,473/22,473);
+  consensus_status = found (22,472) + manual_n1_vote (1).
+- Fix: consensus_status description -> "full run: 100 percent complete across 22,473 rows",
+  values -> "found, manual_n1_vote"; removed the stale "(empty where pending)" from the
+  consensus_role/direction/mechanistic/doi rows.
+- Backup: RCDome_manuscript_V027_supplementary_tables_pre_H34_2026-10-14.xlsx.
