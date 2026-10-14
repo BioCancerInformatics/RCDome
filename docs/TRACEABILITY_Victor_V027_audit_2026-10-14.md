@@ -131,3 +131,12 @@ the matrix dynamically or were corrected for stale captions:
 - Fix: INDEX Table S5 entry now says "...both map to 'Entotic cell death'", title "15 mappings",
   dimensions "16 rows x 4 cols", and mentions the source-dependent splits added in H29.
 - Backup: RCDome_manuscript_V027_supplementary_tables_pre_H30_2026-10-14.xlsx.
+
+
+## H31 — Table S9 PMID count (fixed)
+
+- S9 said "22,217 of 22,473 with PMIDs (98.8%)" — stale. The frozen matrix has
+  22,187 rows (98.7%) with >=1 traceable PMID (7-8 digit, any of pmid_list/llm_pmids/epmc_pmids/elicit_pmids),
+  and 21,283 of 21,568 unique pairs. This matches Victor's suggested 22,187/98.7%.
+- Fix: S9 rows "Publications indexed" + "Per-gene PMID traceability" updated to 98.7% / 22,187.
+- Manuscript Results ¶300 already carried the correct 22,187 / 21,283 / 98.7% (no manuscript change).
