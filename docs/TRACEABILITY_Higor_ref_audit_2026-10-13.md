@@ -64,3 +64,14 @@ Parthanatos 2006, Pyroptosis 11029688, PANoptosis 2020, Phagoptosis Fricker 2012
 The decoder's two-reference model (discovery_pmid + founding_pmid) is the correct granularity.
 Source-provenance fields (primary_refs_pmids / primary_discovery_reference) remain byte-identical
 per the "never replace, always add" rule.
+
+
+## Post-certification audit (duplication sweep)
+
+A "same reference on both lines" sweep found two further review-as-discovery cases; both were
+REJECTED on review, with one year-fix applied:
+
+- Oncosis: von Recklinghausen 1910 REJECTED as first-described (German book, no PMID); kept Majno & Joris 1995.
+- Regulated Necrosis: Galluzzi 2011 (21894190) REJECTED as first-described (FADD/RIP3 mechanism, not the umbrella definition);
+  kept Vanden Berghe 2014; year corrected 2011 -> 2014 (consistency with the anchor paper).
+- Extrinsic: "First described" corrected to Nagata & Golstein 1995 (7533326), distinct from the DISC (8521815).
