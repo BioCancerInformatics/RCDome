@@ -6,7 +6,7 @@ Higor,
 
 Seu relatório v2 foi avaliado item a item. Cada intervenção foi verificada contra as fontes primárias, incluindo os **PDFs completos** dos artigos em disputa (Cell, Science, EMBO J, Mol Gen Genet, PLoS One, J Exp Med), antes de qualquer alteração. Nenhuma proposta foi aceita apenas por título ou resumo — o termo foi conferido no texto integral.
 
-**Correções aplicadas (4 entidades).**
+**Correções aplicadas.**
 
 1. **Apoptosis (extrinsic).** 15451440 (artigo da via *intrínseca*) → Nagata & Golstein 1995, PMID 7533326 (*The Fas death factor*; "First described") e Kischkel et al. 1995, PMID 8521815 (DISC; "Definition anchored to"). Ano 2004 → 1995. Confirmado nos PDFs completos.
 
@@ -17,6 +17,10 @@ Seu relatório v2 foi avaliado item a item. Cada intervenção foi verificada co
 4. **Immunogenic cell death.** "First described" e âncora → Casares et al. 2005, PMID 16365148 (primeira demonstração de morte imunogênica por doxorrubicina); Obeid et al. 2007 (calreticulina) mantido como referência de mecanismo. Confirmado no PDF completo.
 
 5. **Regulated Necrosis.** Ano 2011 → 2014 (consistência com o artigo-âncora Vanden Berghe et al. 2014). Sem alteração de referência.
+
+6. **Cornification.** "First described" → Eckhart et al. 2000, PMID 11121154 (caspase-14); "Definition anchored to" mantido Candi et al. 2005, PMID 15803139. Ano 2005 → 2000.
+
+7. **Sincronização de anos (8 entidades).** O ano do nó foi alinhado ao ano do artigo de descoberta: Autophagy-dependent cell death (1973), Efferocytosis (2003), Hypersensitive response (1997), Lysosomal cell death (2008), Methuosis (2008), MPT (1979), Mitoptosis (1999), Parthanatos (2008).
 
 **Rejeitadas (com fundamento).**
 
@@ -30,7 +34,7 @@ Seu relatório v2 foi avaliado item a item. Cada intervenção foi verificada co
 
 **Mantidas (já corretas ou confirmadas).**
 
-As demais 18 entidades (Apoptosis, Autophagy, ADCD, Cellular senescence, Cornification, Efferocytosis, Hypersensitive response, Lysosomal cell death, Methuosis, MPT, Mitoptosis, Necroptosis, Necrosis, Parthanatos, Pyroptosis, Regulated Necrosis, PANoptosis, Phagoptosis) foram mantidas: as referências atuais estão corretas ou foram confirmadas pela verificação integral.
+As demais 17 entidades (Apoptosis, Autophagy, ADCD, Cellular senescence, Efferocytosis, Hypersensitive response, Lysosomal cell death, Methuosis, MPT, Mitoptosis, Necroptosis, Necrosis, Parthanatos, Pyroptosis, Regulated Necrosis, PANoptosis, Phagoptosis) foram mantidas: as referências atuais estão corretas ou foram confirmadas pela verificação integral.
 
 O arquivo ZIP de distribuição atualizado está disponível para confirmação das correções: https://drive.google.com/drive/folders/1e5bVmd2iMcDclpws6YO-pFRpDWlHfytc?usp=sharing
 

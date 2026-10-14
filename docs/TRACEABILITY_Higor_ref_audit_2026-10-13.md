@@ -96,3 +96,17 @@ Cornification (Candi 2005, a review) was reviewed and KEPT as-is — same "revie
 as Oncosis, consistent with the Oncosis rejection (no pre-PubMed first-description with a PMID).
 
 Backup: RCDome_Decoder_53_pre_year_sync_2026-10-13.csv.
+
+
+## Cornification split (2026-10-13, post-reexamination)
+
+Reexamined Cornification (previously kept as Case B, Candi 2005 = review). DeepSeek RAG verdict:
+a review cannot serve as the discovery anchor. Split applied:
+
+- First described = Eckhart et al. 2000, PMID 11121154 (caspase-14, J Invest Dermatol).
+- Definition anchored = Candi et al. 2005, PMID 15803139 (kept).
+- year 2005 -> 2000 (node = discovery year).
+
+Backup: RCDome_Decoder_53_pre_cornification_2026-10-13.csv + discovery_papers_pre_cornification_2026-10-13.csv.
+
+Final certification (fresh read): 52 non-composite entities, 0 year/discovery/definition mismatches — PASS.
