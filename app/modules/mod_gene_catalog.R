@@ -9,16 +9,16 @@ mod_gene_catalog_ui <- function(id) {
     tags$div(style = "background:#0b1020; color:#e7e5e4; border-radius:12px; padding:28px 26px; margin-bottom:16px;",
       tags$h1("Gene Catalog", style = "font-size:35px; margin:0;"),
       tags$p(
-        tags$span("9,265 HGNC-validated genes", style = "color:#FFD700; font-weight:600;"), " · ",
+        tags$span(paste0(format(rcd_counts$n_genes, big.mark = ","), " HGNC-validated genes"), style = "color:#FFD700; font-weight:600;"), " · ",
         tags$span("53 RCD-related entities", style = "color:#FFD700; font-weight:600;"), " · ",
-        tags$span("21,568 associations", style = "color:#FFD700; font-weight:600;"),
+        tags$span(paste0(format(rcd_counts$n_pairs, big.mark = ","), " unique gene–RCD pairs"), style = "color:#FFD700; font-weight:600;"),
         style = "color:#d6d3d1; margin:6px 0 0; font-size:15px;"
       ),
       tags$p(
         tags$span("DeepSeek:", style = "color:#a8a29e; font-weight:600;"), " ",
-        tags$span("10,016 mechanistic", style = "color:#FF9800; font-weight:600;"), " · ",
-        tags$span("469 executors", style = "color:#FF9800; font-weight:600;"), " · ",
-        tags$span("9,489 regulators", style = "color:#FF9800; font-weight:600;"), " · ",
+        tags$span(paste0(format(rcd_counts$mech_yes, big.mark = ","), " mechanistic"), style = "color:#FF9800; font-weight:600;"), " · ",
+        tags$span(paste0(format(rcd_counts$role_exec, big.mark = ","), " executor pairs"), style = "color:#FF9800; font-weight:600;"), " · ",
+        tags$span(paste0(format(rcd_counts$role_reg, big.mark = ","), " regulator pairs"), style = "color:#FF9800; font-weight:600;"), " · ",
         tags$span("complete (100% classified)", style = "color:#a8a29e; font-weight:600;"),
         style = "color:#d6d3d1; margin:4px 0 0; font-size:14px;"
       ),
@@ -163,7 +163,7 @@ mod_gene_catalog_server <- function(id) {
          var done = function(){ var o = document.getElementById('home_loading_overlay'); if(o){ o.style.display = 'none'; } };
          setTimeout(function(){
            f.onload = function(){ callShow(); done(); };
-           f.src = 'detail_page_wireframe.html';
+           f.src = 'detail_page_wireframe.html?v=4';
          }, 100);", js_sym)
       )
     }
@@ -211,7 +211,20 @@ mod_gene_catalog_server <- function(id) {
 
         # RCD entities (canonical, from V027)
         tags$h5(paste0("RCD entities (", length(rcd_all), ")")),
-        tags$p(rcd_str),
+        tags$div(
+          style = "display:flex; flex-wrap:wrap; gap:4px;",
+          lapply(rcd_all, function(ent) {
+            logo_file <- file.path("data/RCD modulo/logo RCDs", paste0(ent, ".png"))
+            logo_url <- if (file.exists(logo_file)) paste0("rcd_logos/", URLencode(paste0(ent, ".png"), reserved = TRUE)) else ""
+            if (nzchar(logo_url)) {
+              tags$span(
+                style = "display:inline-flex; align-items:center; gap:5px; margin-right:12px; margin-bottom:6px;",
+                tags$img(src = logo_url, style = "width:22px; height:22px; object-fit:contain;"),
+                tags$span(ent, style = "font-size:13px; color:#1c1917;")
+              )
+            } else tags$span(ent, style = "font-size:13px; color:#1c1917; margin-right:12px;")
+          })
+        ),
 
         # Cross-references
         tags$hr(),
@@ -516,6 +529,7 @@ mod_gene_catalog_server <- function(id) {
     observeEvent(input$gene_click, {
       req(input$gene_click)
       navigate_to_gene_page(input$gene_click)
+      show_gene_modal(input$gene_click)
     })
 
     # ── Download da aba ativa (TSV / XLSX / CSV) ────────────────────
