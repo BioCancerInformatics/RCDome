@@ -199,3 +199,15 @@ the matrix dynamically or were corrected for stale captions:
   values (20 base identifiers). Verified programmatically.
 - Fix: Matrix Descriptor source_databases values -> "829 distinct combinations".
 - Backup: RCDome_manuscript_V027_supplementary_tables_pre_H35_2026-10-14.xlsx.
+
+
+## H36 — script-count universes reconciled (fixed)
+
+- S9 said "23 scripts"; S10 lists 43 scripts; manuscript says 21 channel_*.py. Three different
+  universes without definition.
+- Truth: 43 scripts total in the pipeline catalog (S10: 21 channel_*.py + 2 phase2ad + 4 phase3b
+  + 1 deepseek + 3 merge + 5 governance + 1 master + 1 add + 5 utility); the 21 channel_*.py are
+  the channel extraction subset.
+- Fix: S9 "23 scripts" -> "43 scripts; full pipeline catalog in Table S10"; manuscript ¶424
+  clarified "21 channel_*.py ... (21 of the 43 scripts in the full pipeline catalog, Table S10)".
+- Backups: _pre_H36_2026-10-14.xlsx/.docx.
