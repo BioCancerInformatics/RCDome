@@ -75,3 +75,24 @@ REJECTED on review, with one year-fix applied:
 - Regulated Necrosis: Galluzzi 2011 (21894190) REJECTED as first-described (FADD/RIP3 mechanism, not the umbrella definition);
   kept Vanden Berghe 2014; year corrected 2011 -> 2014 (consistency with the anchor paper).
 - Extrinsic: "First described" corrected to Nagata & Golstein 1995 (7533326), distinct from the DISC (8521815).
+
+
+## Triple-check (year sync, 2026-10-13)
+
+A final sweep of all 53 timeline cards found 8 entities where the node `year` still held the
+old source year instead of the discovery paper's year. Synced `year` (and `discovery_year`) to
+the discovery paper:
+
+- Autophagy-dependent cell death 2009 -> 1973 (Schweichel & Merker)
+- Efferocytosis 1999 -> 2003 (deCathelineau & Henson)
+- Hypersensitive response 1998 -> 1997 (Morel & Dangl)
+- Lysosomal cell death 2004 -> 2008 (Boya & Kroemer)
+- Methuosis 2006 -> 2008 (Overmeyer et al.)
+- MPT 1999 -> 1979 (Hunter & Haworth)
+- Mitoptosis 2001 -> 1999 (Skulachev)
+- Parthanatos 2009 -> 2008 (Andrabi et al.)
+
+Cornification (Candi 2005, a review) was reviewed and KEPT as-is — same "review as anchor" pattern
+as Oncosis, consistent with the Oncosis rejection (no pre-PubMed first-description with a PMID).
+
+Backup: RCDome_Decoder_53_pre_year_sync_2026-10-13.csv.
