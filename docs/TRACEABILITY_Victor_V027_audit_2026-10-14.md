@@ -264,3 +264,13 @@ the matrix dynamically or were corrected for stale captions:
   an absolute-completeness claim beyond the 20-source universe.
 - Fix: "consolidates human gene–RCD associations captured across its governed source universe into
   one traceable platform". Both explore.html copies updated. No manuscript "every reported" language.
+
+
+## H42 — "cross-validated by three" -> complementary layers + explicit coverage (fixed)
+
+- "cross-validated by three independent analyses" implied every pair was validated 3x; coverage
+  differs (DeepSeek 100%, Consensus 100%, Elicit 50 forms / 4,601 associations).
+- Fix: "evaluated through three complementary independent analysis layers"; section text now
+  "Each gene–RCD pair is examined by one or more of three complementary methods", Elicit
+  "50 forms (4,601 associations)", Consensus "100% of pairs" (removed stale "~20%" and
+  "full run in progress"). Both explore.html copies updated.
