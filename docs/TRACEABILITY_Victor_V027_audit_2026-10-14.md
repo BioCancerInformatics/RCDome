@@ -325,3 +325,12 @@ the matrix dynamically or were corrected for stale captions:
   single-prompt per entity, the variation is provenance-faithful).
 - Approved minimal fix: normalize ALL-CAPS section headings to Title Case (no words/content changed).
   38 headings across 3 files (Autophagy, Hypersensitive Response, Programmed cell death).
+
+
+## H51 — duplicated bibliography in Programmed cell death (fixed)
+
+- The narrative body carried "REFERENCES — ALL VERIFIED AS LEGALLY FREE FULL TEXT" (13 full
+  citations) while the App renders a second structured "References" block.
+- Fix: removed the body REFERENCES section (13 entries); kept the 31 in-text [n] markers. The App's
+  structured References component (mod_rcd_entities.R) supplies the full list.
+- Backup: Programmed cell death_pre_H51.txt.
