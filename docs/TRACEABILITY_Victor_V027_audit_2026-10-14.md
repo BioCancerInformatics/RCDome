@@ -285,3 +285,14 @@ the matrix dynamically or were corrected for stale captions:
 - Fix: manuscript ¶186 "319,557" -> "319,548". The app's "316,000" remains labelled as the
   co-occurrence volume (separate metric).
 - Backup: RCDome_manuscript_governance_V027_pre_H43_2026-10-14.docx.
+
+
+## H44 — de novo definition counts reconciled (fixed)
+
+- Methods "20 de novo" (source: 19 FOUNDING_DRAFT + 1 PRE_PUBMED) vs Results "13 fully + 13
+  partially = 26 de novo" did not close. Deep audit: the 26 = status DRAFT_SOLID(15)+CANDIDATE(11)
+  = 19 FOUNDING_DRAFT + 7 NCCD-verbatim (draft complements only).
+- Fix: Results ¶290 now reads "13 fully and 13 partially corroborated drafts — the 19 de novo
+  FOUNDING_DRAFT definitions plus 7 NCCD-verbatim entities with draft complements (...)".
+- Methods "20 de novo" kept (correct source count).
+- Backup: RCDome_manuscript_governance_V027_pre_H44_2026-10-14.docx.
