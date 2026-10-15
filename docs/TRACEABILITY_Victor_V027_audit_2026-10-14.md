@@ -304,3 +304,16 @@ the matrix dynamically or were corrected for stale captions:
   data modules; consistent with ¶251).
 - Fix: "ten" -> "nine".
 - Backup: RCDome_manuscript_governance_V027_pre_H45_2026-10-14.docx.
+
+
+## H47 — 20-sources vs omics/PPI taxonomy (fixed)
+
+- The manuscript mixed "20 source resources/databases" with TCGA/GEO/CPTAC/CCLE/GDSC/DepMap and
+  STRING/BioGRID (annotation/PPI, not gene-extraction).
+- Fix (H39-consistent labels, no "source resources"):
+  - manuscript "20 source resources/databases" -> "20 association databases and resources" (9 spots);
+  - ¶266 -> "the 6 omics annotation resources (TCGA, GEO, CPTAC, CCLE, GDSC, DepMap) and the 2 PPI
+    annotation resources (STRING, BioGRID) are annotation resources, not gene-extraction sources";
+  - Table S2 gains a "Category" column (Association source 20 / Omics annotation 6 / PPI annotation 2).
+- App + Figure 1 already clean (no omics/PPI mixing).
+- Backups: _pre_H47_2026-10-14.docx + xlsx.
