@@ -296,3 +296,11 @@ the matrix dynamically or were corrected for stale captions:
   FOUNDING_DRAFT definitions plus 7 NCCD-verbatim entities with draft complements (...)".
 - Methods "20 de novo" kept (correct source count).
 - Backup: RCDome_manuscript_governance_V027_pre_H44_2026-10-14.docx.
+
+
+## H45 — "ten data modules" -> "nine" (fixed)
+
+- ¶368 said "ten data modules" but enumerated nine (Home + Explore are landing/guide pages, not
+  data modules; consistent with ¶251).
+- Fix: "ten" -> "nine".
+- Backup: RCDome_manuscript_governance_V027_pre_H45_2026-10-14.docx.
