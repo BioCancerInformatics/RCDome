@@ -343,3 +343,13 @@ the matrix dynamically or were corrected for stale captions:
 - Fix: contextualized each broad usage as "historically termed/described as programmed cell death;
   within RCDome/NCCD terminology, a distinct RCD entity". (Autophagy "type II PCD" already marked
   as the older morphology-based concept.)
+
+
+## H54 — merged/heading parsing defects (fixed)
+
+- Audit of 53 source narratives found 3 defects in 2 files:
+  - Lysozincrosis: "2. Initiation and Triggers" fused to previous paragraph.
+  - Paraptosis: "1." attached to a sentence (missing "1. Definition and Classification" heading);
+    "2. Initiation and Triggers" fused to previous paragraph.
+- Fix: split the fused headings onto their own lines; added the missing "1. Definition and
+  Classification" heading in Paraptosis.
