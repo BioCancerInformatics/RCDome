@@ -317,3 +317,11 @@ the matrix dynamically or were corrected for stale captions:
   - Table S2 gains a "Category" column (Association source 20 / Omics annotation 6 / PPI annotation 2).
 - App + Figure 1 already clean (no omics/PPI mixing).
 - Backups: _pre_H47_2026-10-14.docx + xlsx.
+
+
+## H50 (partial, approved) — heading case normalization only
+
+- Template harmonization REJECTED (would fabricate content; per Emanuell rule 5 single-agent/
+  single-prompt per entity, the variation is provenance-faithful).
+- Approved minimal fix: normalize ALL-CAPS section headings to Title Case (no words/content changed).
+  38 headings across 3 files (Autophagy, Hypersensitive Response, Programmed cell death).
