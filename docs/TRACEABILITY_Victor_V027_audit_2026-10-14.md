@@ -353,3 +353,13 @@ the matrix dynamically or were corrected for stale captions:
     "2. Initiation and Triggers" fused to previous paragraph.
 - Fix: split the fused headings onto their own lines; added the missing "1. Definition and
   Classification" heading in Paraptosis.
+
+
+## H55 — Visual overview thumbnail (fixed) — Victor audit COMPLETE
+
+- Entity page showed only "View cartoon" (no preview). Fix (mod_rcd_entities.R):
+  - logo + name + ontological pill UNCHANGED at top;
+  - new "Visual overview" block with a clickable cartoon thumbnail (opens the existing full modal);
+  - buttons renamed "View cartoon" -> "View full schematic", "Read legend" -> "How to read this figure";
+  - "Scientific description" heading added above the unchanged narrative.
+- VICTOR V027 AUDIT COMPLETE: H21-H48 + H50-H55 done; H49 + H52 absent from the report.
