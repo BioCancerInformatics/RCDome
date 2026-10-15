@@ -334,3 +334,12 @@ the matrix dynamically or were corrected for stale captions:
 - Fix: removed the body REFERENCES section (13 entries); kept the 31 in-text [n] markers. The App's
   structured References component (mod_rcd_entities.R) supplies the full list.
 - Backup: Programmed cell death_pre_H51.txt.
+
+
+## H53 — "programmed cell death" contextualized (fixed)
+
+- PCD entity (NCCD) = physiological RCD context, ≠ all RCD; other entities used PCD in the broad/
+  historical sense (Paraptosis, Pyronecrosis, Mitoptosis, Hypersensitive Response, Vacuolar cell death).
+- Fix: contextualized each broad usage as "historically termed/described as programmed cell death;
+  within RCDome/NCCD terminology, a distinct RCD entity". (Autophagy "type II PCD" already marked
+  as the older morphology-based concept.)
