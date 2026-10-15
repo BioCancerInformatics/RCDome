@@ -274,3 +274,14 @@ the matrix dynamically or were corrected for stale captions:
   "Each gene–RCD pair is examined by one or more of three complementary methods", Elicit
   "50 forms (4,601 associations)", Consensus "100% of pairs" (removed stale "~20%" and
   "full run in progress"). Both explore.html copies updated.
+
+
+## H43 — PMID count synchronized to deterministic rule (fixed)
+
+- App said ~316,000 (co-occurrence volume, a distinct metric); manuscript said 319,557 unique
+  PMIDs, which did not match any reproducible rule.
+- Canonical rule (new code/count_pmids_v027.py): distinct 7-8-digit tokens across pmid_list +
+  llm_pmids + epmc_pmids + elicit_pmids = 319,548 unique PMIDs.
+- Fix: manuscript ¶186 "319,557" -> "319,548". The app's "316,000" remains labelled as the
+  co-occurrence volume (separate metric).
+- Backup: RCDome_manuscript_governance_V027_pre_H43_2026-10-14.docx.
