@@ -363,3 +363,20 @@ the matrix dynamically or were corrected for stale captions:
   - buttons renamed "View cartoon" -> "View full schematic", "Read legend" -> "How to read this figure";
   - "Scientific description" heading added above the unchanged narrative.
 - VICTOR V027 AUDIT COMPLETE: H21-H48 + H50-H55 done; H49 + H52 absent from the report.
+
+
+## Pending for submission (2026-10-15 — full inventory)
+
+19 items, 7 blocks. Full detail: docs/PENDING_submission_2026-10-15.md
+
+A. Human adjudication (critical path): Higor 47 empty (emailed) · Victor 6,953 · delta 942 ·
+   three-way vote (argumentative) · kappa · apply majority labels.
+B. Second-order: adjudicated_role/direction/mechanistic layer · G5/BG5 independent replication ·
+   Discrepancy Radar Phase 2.
+C. Regeneration: Figure 3C (drop "pending" note) · matrix CSV+RDS re-sync.
+D. App: human smoke test · artifact spread + GitHub end-to-end audit.
+E. Content: Emanuell videos (Zima) · H46 freeze date + hash.
+F. EndNote: Format Bibliography · 4 missing refs (Cai 2014, Sborgi 2016, Tsvetkov 2022, Yang 2014).
+G. Logistics: rebuild ZIP · GitHub public (verify no secrets).
+
+Longest pole: Victor's verdicts. Deferred-settled: C02 word count, C03 abstract, definition-status flags.
