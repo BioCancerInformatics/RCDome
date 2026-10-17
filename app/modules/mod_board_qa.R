@@ -98,6 +98,8 @@ build_rag_records <- function(question, default_entity = NULL, max_chars = 60000
   ct <- ifelse(is.na(rows$confidence_tier), "NA", as.character(rows$confidence_tier))
   eb <- ifelse(is.na(rows$evidence_basis), "NA", as.character(rows$evidence_basis))
   cs <- ifelse(is.na(rows$confidence_score), "NA", as.character(rows$confidence_score))
+  ef <- ifelse(is.na(rows$final_role), "NA", paste0(as.character(rows$final_role), "/", as.character(rows$final_direction), "/", as.character(rows$final_mechanistic)))
+  ds <- ifelse(is.na(rows$decision_status), "NA", as.character(rows$decision_status))
   pm <- vapply(rows$pmid_list, function(p) {
     ps <- strsplit(as.character(p), ";", fixed=TRUE)[[1]]
     ps <- ps[!is.na(ps) & ps != ""]
@@ -106,7 +108,7 @@ build_rag_records <- function(question, default_entity = NULL, max_chars = 60000
     paste0(paste(ps[1:2], collapse=";"), "; +", length(ps)-2, " more")
   }, character(1))
   lines <- paste0("- ", rows$gene_symbol, " (", rows$rcd_form_canonical, ": ",
-                  mc, " | ", rl, " | ", dr, " | ET:", ti, " | CT:", ct, " | EB:", eb, " | CS:", cs, " | PMID:", pm, ")")
+                  mc, " | ", rl, " | ", dr, " | EF:", ef, " (", ds, ")", " | ET:", ti, " | CT:", ct, " | EB:", eb, " | CS:", cs, " | PMID:", pm, ")")
 
   # 7) Budget cap (most informative records first, within the budget)
   txt <- ""

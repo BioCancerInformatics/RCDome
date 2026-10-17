@@ -69,6 +69,8 @@ build_entity_context <- function(ent, gene = NULL) {
     pair_txt <- unique(paste0(mrows$gene_symbol, ": role=", fld(mrows$cot_role),
                               " direction=", fld(mrows$cot_direction),
                               " mechanistic=", fld(mrows$mechanistic_class),
+                              " evidence-first=", fld(mrows$final_role), "/", fld(mrows$final_direction), "/", fld(mrows$final_mechanistic),
+                              " decision_status=", fld(mrows$decision_status),
                               " evidence_tier=", fld(mrows$evidence_tier),
                               " confidence_tier=", fld(mrows$confidence_tier),
                               " required_for_death=", fld(mrows$required_for_death),
@@ -348,7 +350,7 @@ render_synthesis_html <- function(synth) {
       }), collapse = "")
       body <- paste0(body,
         "<div style='margin-top:18px; padding:14px 16px; background:#f5f5f4; border:1px solid #e7e5e4; border-radius:10px;'>",
-        "<div style='font-family:Segoe UI,system-ui,sans-serif; font-size:12px; letter-spacing:0.06em; color:#c2410c; margin-bottom:10px;'>Suggested Queries</div>",
+        "<div style='font-family:Calibri,sans-serif; font-size:12px; letter-spacing:0.06em; color:#c2410c; margin-bottom:10px;'>Suggested Queries</div>",
         qhtml, "</div>")
     }
   }
@@ -683,9 +685,18 @@ mod_board_server <- function(id, board_reactive) {
     output$download_ui <- renderUI({
       r <- report()
       if (is.null(r)) return(NULL)
-      downloadButton(ns("download_html"), "Download Synthesis (HTML)",
-                     class = "btn",
-                     style = "width:100%; margin-top:10px;")
+      ent <- r$entity
+      logo_file <- file.path("data/RCD modulo/logo RCDs", paste0(ent, ".png"))
+      logo_url <- if (file.exists(logo_file)) paste0("rcd_logos/", URLencode(paste0(ent, ".png"), reserved = TRUE)) else ""
+      tagList(
+        downloadButton(ns("download_html"), "Download Synthesis (HTML)",
+                       class = "btn",
+                       style = "width:100%; margin-top:10px;"),
+        if (nzchar(logo_url)) tags$div(
+          style = "text-align:center; margin-top:14px;",
+          tags$img(src = logo_url, alt = ent, style = "width:240px; height:240px; object-fit:contain;")
+        ) else NULL
+      )
     })
 
     output$download_html <- downloadHandler(
@@ -708,9 +719,20 @@ mod_board_server <- function(id, board_reactive) {
         logo_img <- if (file.exists(logo_file)) {
           b64 <- jsonlite::base64_enc(readBin(logo_file, "raw", file.info(logo_file)$size))
           paste0(
-            "<div style='position:absolute; top:16px; right:16px; width:120px;'>",
+            "<div style='position:absolute; top:16px; right:16px; width:200px;'>",
             "<img src='data:image/svg+xml;base64,", b64, "' alt='RCDome' ",
             "style='width:100%; height:auto; display:block;'></div>"
+          )
+        } else ""
+        
+        # Entity logo (top-left), embedded base64 so the report is standalone.
+        ent_logo_file <- file.path("data/RCD modulo/logo RCDs", paste0(r$entity, ".png"))
+        ent_logo_img <- if (file.exists(ent_logo_file)) {
+          b64e <- jsonlite::base64_enc(readBin(ent_logo_file, "raw", file.info(ent_logo_file)$size))
+          paste0(
+            "<div style='margin-bottom:18px;'>",
+            "<img src='data:image/png;base64,", b64e, "' alt='", r$entity, "' ",
+            "style='width:140px; height:auto; display:block;'></div>"
           )
         } else ""
         
@@ -722,9 +744,10 @@ mod_board_server <- function(id, board_reactive) {
           "⚠ Generation failed — no synthesis produced (DeepSeek API error).</div>"
         )
         html <- paste0(
-          "<!DOCTYPE html><html><head><meta charset='utf-8'><title>RCDome Digital Molecular Board</title></head>",
+          "<!DOCTYPE html><html><head><meta charset='utf-8'><title>RCDome Digital Molecular Board</title></head><body style='font-family:Calibri,sans-serif;'>",
           logo_img,
-          "<div style='font-size:12px; letter-spacing:0.08em; text-transform:uppercase; color:#c2410c;'>RCDome \u00b7 Digital Molecular Synthesis Report</div>",
+          ent_logo_img,
+          "<div style='font-size:28px; letter-spacing:0.08em; text-transform:uppercase; color:#c2410c;'>RCDome \u00b7 Digital Molecular Synthesis Report</div>",
           "<h1 style='font-weight:500; font-size:28px; margin:8px 0 20px;'>RCDome Digital Molecular Board</h1>",
           body,
           gov_box,
