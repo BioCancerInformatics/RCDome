@@ -99,7 +99,7 @@ ui <- tagList(
     title = HTML(paste0("Explore ", rcdome_span())),
     tags$iframe(
       id = "explore_iframe",
-      src = "explore.html",
+      src = "explore.html?v=20261017",
       style = "width:100%; height:calc(100vh - 100px); border:none; display:block;",
       scrolling = "auto"
     )
@@ -126,15 +126,6 @@ ui <- tagList(
   # ── RCD entities ───────────────────────────────────────────────────
   tabPanel(
     title = "RCD entities",
-    div(class = "wrap",
-      style = "max-width: 1100px; margin: 0 auto; padding: 20px;",
-      mod_rcd_grid_ui("rcd_grid")
-    )
-  ),
-
-  # ── RCD Entity Deep Dive (separate sub-module, 53 audited) ───────
-  tabPanel(
-    title = "RCD Entity Deep Dive",
     div(class = "wrap",
       style = "max-width: 1100px; margin: 0 auto; padding: 20px;",
       mod_rcd_entities_ui("rcd_entities")
@@ -266,6 +257,7 @@ ui <- tagList(
         font-family: 'Segoe UI', system-ui, sans-serif;
         -webkit-font-smoothing: antialiased;
       }
+
       .navbar {
         background: #ffffff;
         border-bottom: 1px solid var(--line);
