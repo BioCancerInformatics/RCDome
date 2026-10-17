@@ -186,9 +186,6 @@ mod_discrepancy_server <- function(id) {
           paste0(badge("DEEPSEEK", gpt_col["DEEPSEEK"]), badge("CONSENSUS", gpt_col["CONSENSUS"]),
                  badge("UNCLEAR", gpt_col["UNCLEAR"]), badge("OUT_OF_CONTEXT", gpt_col["OUT_OF_CONTEXT"]),
                  badge("NEITHER", gpt_col["NEITHER"]))
-        )),
-        tags$span("  \u00b7  ", HTML(
-          "<span style='display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;font-weight:700;color:#fff;background:#0b1020;box-shadow:0 0 0 1.5px #0b1020;'>Evidence-first</span> = verbatim-grounded resolution"
         ))
       )
     })
