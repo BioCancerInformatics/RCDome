@@ -10,6 +10,7 @@ mod_discrepancy_ui <- function(id) {
   ns <- NS(id)
   tagList(
     div(style = "max-width:1200px; margin:0 auto; padding:20px;",
+      tags$h2("Discrepancy Radar", style = "margin:0 0 10px; color:#1c1917; font-weight:700; font-size:24px;"),
       p("The knowledge frontier: Where the three classifiers disagree, RCDome shows the conflict instead of hiding it. Each row carries the divergent verdicts, the GPT arbitration, the two curator votes, and the evidence-first verdict that resolved it from the verbatim.",
         style = "color:#78716c; font-size:14px;"),
       uiOutput(ns("summary_bar")),
