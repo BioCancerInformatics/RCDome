@@ -660,10 +660,33 @@ server <- function(input, output, session) {
 
     adj_html <- ""
     if (!has_axis) {
-      # Full 3-dimension resolution (Gene Catalog / Network / 3D Dome)
+      # Full 3-dimension resolution + the seven decisions (Gene Catalog / Network / 3D Dome)
       mech_map3 <- c(YES = "#2E7D32", NO = "#9E9E9E", OUT_OF_CONTEXT = "#F59E0B")
       fcol <- function(v, map) if (v %in% names(map)) map[[v]] else "#9E9E9E"
+      votes_html <- ""
+      if (status == "UNIFORM_PIPELINE") {
+        split3 <- function(concat) {
+          concat <- trimws(as.character(concat))
+          out <- c("—", "—", "—")
+          if (length(concat) == 0 || is.na(concat) || !nzchar(concat)) return(out)
+          parts <- strsplit(concat, "|", fixed = TRUE)[[1]]
+          if (length(parts) >= 1 && nzchar(trimws(parts[1]))) out[1] <- trimws(parts[1])
+          if (length(parts) >= 2 && nzchar(trimws(parts[2]))) out[2] <- trimws(parts[2])
+          if (length(parts) >= 3 && nzchar(trimws(parts[3]))) out[3] <- trimws(parts[3])
+          out
+        }
+        gpt3 <- split3(r$gpt4o_verdict)
+        c13 <- split3(r$higor_verdict)
+        c23 <- split3(r$victor_verdict)
+        votes_html <- paste0(
+          "<p style='margin:14px 0 6px;color:#1c1917;'><strong>Votes</strong></p>",
+          verdict_row("GPT", gpt3[2], gpt3[3], gpt3[1], role_col, dir_col),
+          verdict_row("Curator 1", c13[2], c13[3], c13[1], role_col, dir_col),
+          verdict_row("Curator 2", c23[2], c23[3], c23[1], role_col, dir_col)
+        )
+      }
       adj_html <- paste0(
+        votes_html,
         "<div style='margin-top:14px;padding:12px 14px;background:#0b1020;border-radius:8px;font-size:13px;color:#fff;'><strong style='color:#fbbf24;'>Human adjudication (evidence-first):</strong> ",
         vbadge(f(r$final_mechanistic), fcol(f(r$final_mechanistic), mech_map3)), " <span style='color:#78716c;'>\u00b7</span> ",
         vbadge(f(r$final_role), fcol(f(r$final_role), role_col)), " <span style='color:#78716c;'>\u00b7</span> ",
