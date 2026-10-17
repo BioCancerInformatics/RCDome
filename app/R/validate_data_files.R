@@ -14,7 +14,7 @@ validate_data_files <- function(data_dir = "data", board_dir = "board", www_dir 
     if (is.null(m)) {
       chk(FALSE, "matrix RDS failed to load")
     } else {
-      chk(ncol(m) == 82, sprintf("matrix RDS: %d columns (expected 82)", ncol(m)))
+      chk(ncol(m) == 94, sprintf("matrix RDS: %d columns (expected 94)", ncol(m)))
       chk(nrow(m) == 22473, sprintf("matrix RDS: %d rows (expected 22,473)", nrow(m)))
     }
   } else chk(FALSE, "missing data/unified_gene_rcd_matrix_V027.rds")
