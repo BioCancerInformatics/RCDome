@@ -240,8 +240,7 @@ mod_discrepancy_server <- function(id) {
             }
             return("<span style='color:#a8a29e;'>—</span>")
           }
-          col <- axis_col(axis, v)
-          if (is.null(col)) col <- "#9E9E9E"
+          col <- if (v %in% names(gpt_col)) gpt_col[[v]] else "#9E9E9E"
           sprintf("<span style='display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;font-weight:600;color:#fff;background:%s;margin-right:3px;'>%s</span>", col, v)
         }, character(1))
       }
