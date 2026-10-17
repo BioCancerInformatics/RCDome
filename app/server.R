@@ -617,10 +617,11 @@ server <- function(input, output, session) {
 
     # ── Status-aware adjudication block (all rows) ──────────────────────
     status <- f(r$decision_status)
-    axis_label <- if (!is.null(extra) && !is.null(extra$axis) && nzchar(extra$axis)) {
+    has_axis <- !is.null(extra) && !is.null(extra$axis) && nzchar(extra$axis)
+    axis_label <- if (has_axis) {
       switch(extra$axis, direction = "Direction", role = "Role", mechanistic = "Mechanistic", extra$axis)
     } else "Mechanistic"
-    axis_key <- if (!is.null(extra) && !is.null(extra$axis) && nzchar(extra$axis)) extra$axis else "mechanistic"
+    axis_key <- if (has_axis) extra$axis else "mechanistic"
 
     ext_lab <- function(concat) {
       concat <- trimws(as.character(concat))
@@ -648,7 +649,22 @@ server <- function(input, output, session) {
     cur2 <- ext_lab(r$victor_verdict)
 
     adj_html <- ""
-    if (status == "PENDING_DELTA") {
+    if (!has_axis) {
+      # Full 3-dimension resolution (Gene Catalog / Network / 3D Dome)
+      mech_map3 <- c(YES = "#2E7D32", NO = "#9E9E9E", OUT_OF_CONTEXT = "#F59E0B")
+      fcol <- function(v, map) if (v %in% names(map)) map[[v]] else "#9E9E9E"
+      adj_html <- paste0(
+        "<div style='margin-top:14px;padding:12px 14px;background:#0b1020;border-radius:8px;font-size:13px;color:#fff;'><strong style='color:#fbbf24;'>Human adjudication (evidence-first):</strong> ",
+        vbadge(f(r$final_mechanistic), fcol(f(r$final_mechanistic), mech_map3)),
+        vbadge(f(r$final_role), fcol(f(r$final_role), role_col)),
+        vbadge(f(r$final_direction), fcol(f(r$final_direction), dir_col)),
+        "<div style='color:#d6d3d1;margin-top:6px;font-size:12px;'>", htmltools::htmlEscape(f(r$deciding_evidence)), "</div>",
+        "<div style='color:#a8a29e;margin-top:4px;font-size:11px;'>decision_status: ", htmltools::htmlEscape(status),
+        " · evidence_source: ", htmltools::htmlEscape(f(r$evidence_source)),
+        if (status == "AGREED_LABEL_ABSTRACT") paste0(" · abstract_check: ", htmltools::htmlEscape(f(r$abstract_check))) else "",
+        "</div></div>"
+      )
+    } else if (status == "PENDING_DELTA") {
       adj_html <- "<div style='margin-top:14px;padding:10px 12px;background:#f5f5f4;border-radius:8px;font-size:13px;color:#57534e;'><strong>Adjudication:</strong> Pending (delta round not yet sent)</div>"
     } else if (status == "AGREED_LABEL_ABSTRACT") {
       adj_html <- paste0(
