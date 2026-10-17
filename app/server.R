@@ -655,8 +655,8 @@ server <- function(input, output, session) {
       fcol <- function(v, map) if (v %in% names(map)) map[[v]] else "#9E9E9E"
       adj_html <- paste0(
         "<div style='margin-top:14px;padding:12px 14px;background:#0b1020;border-radius:8px;font-size:13px;color:#fff;'><strong style='color:#fbbf24;'>Human adjudication (evidence-first):</strong> ",
-        vbadge(f(r$final_mechanistic), fcol(f(r$final_mechanistic), mech_map3)), " ",
-        vbadge(f(r$final_role), fcol(f(r$final_role), role_col)), " ",
+        vbadge(f(r$final_mechanistic), fcol(f(r$final_mechanistic), mech_map3)), " <span style='color:#78716c;'>\u00b7</span> ",
+        vbadge(f(r$final_role), fcol(f(r$final_role), role_col)), " <span style='color:#78716c;'>\u00b7</span> ",
         vbadge(f(r$final_direction), fcol(f(r$final_direction), dir_col)),
         "<div style='color:#d6d3d1;margin-top:6px;font-size:12px;'>", htmltools::htmlEscape(f(r$deciding_evidence)), "</div>",
         "<div style='color:#a8a29e;margin-top:4px;font-size:11px;'>decision_status: ", htmltools::htmlEscape(status),
