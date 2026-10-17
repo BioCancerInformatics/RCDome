@@ -49,40 +49,40 @@ mod_gene_catalog_ui <- function(id) {
         `data-tip` = "Choose which analysis's Role/Direction values to show. Evidence-first = the final verbatim-grounded resolution (default). DeepSeek/Consensus/Compiled = the source classifications. GPT/Curator 1/Curator 2 = the arbitration votes (mapped to the source they sided with).",
         style = "font-weight:600; color:#1c1917; font-size:14px; margin-right:2px;"),
       tags$label(
-        `data-tip` = "Evidence-first resolution — the final verbatim-grounded verdict. Role: EXECUTOR/REGULATOR/MARKER/UNCERTAIN · Direction: PROMOTES/PROTECTS/UNCLEAR.",
-        style = "margin:0 0 0 14px; display:inline-flex; align-items:center; gap:5px; cursor:pointer; font-weight:600; font-size:14px;",
-        tags$input(type = "radio", name = ns("source_sel_r"), value = "evidence", checked = "checked", style = "margin:0;"),
-        "Evidence-first"),
-      tags$label(
-        `data-tip` = "Victor's (Curator 2) vote, mapped to the source he sided with (DEEPSEEK → DeepSeek value, CONSENSUS → Consensus value).",
+        `data-tip` = "DeepSeek chain-of-thought classification — complete (100%). Role: EXECUTOR/REGULATOR/MARKER/UNCERTAIN · Direction: PROMOTES/PROTECTS/UNCLEAR.",
         style = "margin:0 0 0 14px; display:inline-flex; align-items:center; gap:5px; cursor:pointer; font-weight:400; font-size:14px;",
-        tags$input(type = "radio", name = ns("source_sel_r"), value = "victor", style = "margin:0;"),
-        "Curator 2"),
-      tags$label(
-        `data-tip` = "Higor's (Curator 1) vote, mapped to the source he sided with (DEEPSEEK → DeepSeek value, CONSENSUS → Consensus value).",
-        style = "margin:0 0 0 14px; display:inline-flex; align-items:center; gap:5px; cursor:pointer; font-weight:400; font-size:14px;",
-        tags$input(type = "radio", name = ns("source_sel_r"), value = "higor", style = "margin:0;"),
-        "Curator 1"),
-      tags$label(
-        `data-tip` = "GPT-4o arbitration vote, mapped to the source it sided with (DEEPSEEK → DeepSeek value, CONSENSUS → Consensus value).",
-        style = "margin:0 0 0 14px; display:inline-flex; align-items:center; gap:5px; cursor:pointer; font-weight:400; font-size:14px;",
-        tags$input(type = "radio", name = ns("source_sel_r"), value = "gpt", style = "margin:0;"),
-        "GPT"),
-      tags$label(
-        `data-tip` = "Consensus API classification — complete (100% of 21,568 pairs). Role: EXECUTOR/REGULATOR/MARKER/UNCERTAIN · Direction: PROMOTES/PROTECTS/UNCLEAR · Mechanistic: YES/NO.",
-        style = "margin:0 0 0 14px; display:inline-flex; align-items:center; gap:5px; cursor:pointer; font-weight:400; font-size:14px;",
-        tags$input(type = "radio", name = ns("source_sel_r"), value = "consensus", style = "margin:0;"),
-        "Consensus"),
+        tags$input(type = "radio", name = ns("source_sel_r"), value = "deepseek", style = "margin:0;"),
+        "DeepSeek"),
       tags$label(
         `data-tip` = "Source-derived functional role compiled from the source databases and Elicit Phase 3 extraction (not an Elicit-only classification). Role: EXECUTOR/REGULATOR/MARKER/UNCERTAIN · Direction: PROMOTES/PROTECTS/UNCLEAR.",
         style = "margin:0 0 0 14px; display:inline-flex; align-items:center; gap:5px; cursor:pointer; font-weight:400; font-size:14px;",
         tags$input(type = "radio", name = ns("source_sel_r"), value = "elicit", style = "margin:0;"),
         "Compiled gene role"),
       tags$label(
-        `data-tip` = "DeepSeek chain-of-thought classification — complete (100%). Role: EXECUTOR/REGULATOR/MARKER/UNCERTAIN · Direction: PROMOTES/PROTECTS/UNCLEAR.",
+        `data-tip` = "Consensus API classification — complete (100% of 21,568 pairs). Role: EXECUTOR/REGULATOR/MARKER/UNCERTAIN · Direction: PROMOTES/PROTECTS/UNCLEAR · Mechanistic: YES/NO.",
         style = "margin:0 0 0 14px; display:inline-flex; align-items:center; gap:5px; cursor:pointer; font-weight:400; font-size:14px;",
-        tags$input(type = "radio", name = ns("source_sel_r"), value = "deepseek", style = "margin:0;"),
-        "DeepSeek"),
+        tags$input(type = "radio", name = ns("source_sel_r"), value = "consensus", style = "margin:0;"),
+        "Consensus"),
+      tags$label(
+        `data-tip` = "GPT-4o arbitration vote, mapped to the source it sided with (DEEPSEEK → DeepSeek value, CONSENSUS → Consensus value).",
+        style = "margin:0 0 0 14px; display:inline-flex; align-items:center; gap:5px; cursor:pointer; font-weight:400; font-size:14px;",
+        tags$input(type = "radio", name = ns("source_sel_r"), value = "gpt", style = "margin:0;"),
+        "GPT"),
+      tags$label(
+        `data-tip` = "Higor's (Curator 1) vote, mapped to the source he sided with (DEEPSEEK → DeepSeek value, CONSENSUS → Consensus value).",
+        style = "margin:0 0 0 14px; display:inline-flex; align-items:center; gap:5px; cursor:pointer; font-weight:400; font-size:14px;",
+        tags$input(type = "radio", name = ns("source_sel_r"), value = "higor", style = "margin:0;"),
+        "Curator 1"),
+      tags$label(
+        `data-tip` = "Victor's (Curator 2) vote, mapped to the source he sided with (DEEPSEEK → DeepSeek value, CONSENSUS → Consensus value).",
+        style = "margin:0 0 0 14px; display:inline-flex; align-items:center; gap:5px; cursor:pointer; font-weight:400; font-size:14px;",
+        tags$input(type = "radio", name = ns("source_sel_r"), value = "victor", style = "margin:0;"),
+        "Curator 2"),
+      tags$label(
+        `data-tip` = "Evidence-first resolution — the final verbatim-grounded verdict. Role: EXECUTOR/REGULATOR/MARKER/UNCERTAIN · Direction: PROMOTES/PROTECTS/UNCLEAR.",
+        style = "margin:0 0 0 14px; display:inline-flex; align-items:center; gap:5px; cursor:pointer; font-weight:600; font-size:14px;",
+        tags$input(type = "radio", name = ns("source_sel_r"), value = "evidence", checked = "checked", style = "margin:0;"),
+        "Evidence-first"),
       actionButton(ns("death_core"), "Death core (executors)",
         `data-tip` = "One-click filter to the 469 EXECUTOR gene-RCD pairs (DeepSeek) — the genes that directly execute cell death.",
         class = "search-evidence-btn", style = "margin-left:auto; height:32px; padding:0 14px; font-size:12.5px;"),
@@ -363,7 +363,7 @@ mod_gene_catalog_server <- function(id) {
 
     # Direction/Role source selector → which analysis's columns to show
     src_cols <- reactive({
-      src <- if (is.null(input$source_sel) || length(input$source_sel) == 0) "evidence" else input$source_sel
+      src <- if (is.null(input$source_sel) || length(input$source_sel) == 0) "evidence" else input$source_sel[1]
       switch(src,
         evidence = list(role = "final_role", dir = "final_direction", mech = "final_mechanistic", label = "Evidence-first"),
         deepseek = list(role = "cot_role", dir = "cot_direction", mech = "cot_mechanistic", label = "DeepSeek"),
