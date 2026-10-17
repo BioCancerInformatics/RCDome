@@ -10,7 +10,7 @@ mod_discrepancy_ui <- function(id) {
   ns <- NS(id)
   tagList(
     div(style = "max-width:1200px; margin:0 auto; padding:20px;",
-      p("The knowledge frontier: Where the three classifiers disagree, RCDome shows the conflict instead of hiding it. Each row carries the divergent verdicts, the GPT arbitration, and the human verdict that resolved it.",
+      p("The knowledge frontier: Where the three classifiers disagree, RCDome shows the conflict instead of hiding it. Each row carries the divergent verdicts, the GPT arbitration, the two curator votes, and the evidence-first verdict that resolved it from the verbatim.",
         style = "color:#78716c; font-size:14px;"),
       uiOutput(ns("summary_bar")),
       tags$div(style = "margin:12px 0 6px;",
@@ -31,6 +31,13 @@ mod_discrepancy_server <- function(id) {
     ns <- session$ns
 
     # ── Load + join the four GPT-vote CSVs with the V027 matrix ─────────
+    extract_label <- function(concat, lab) {
+      if (is.null(concat) || is.na(concat) || !nzchar(trimws(concat))) return(NA_character_)
+      parts <- strsplit(trimws(concat), "|", fixed = TRUE)[[1]]
+      idx <- match(lab, c("mechanistic", "role", "direction"))
+      if (is.na(idx) || length(parts) < idx) return(NA_character_)
+      trimws(parts[idx])
+    }
     disc_df <- reactive({
       files <- list.files(RCD_DISC_DIR, pattern = "\\.csv$", full.names = TRUE)
       if (length(files) == 0) return(data.frame())
@@ -54,6 +61,11 @@ mod_discrepancy_server <- function(id) {
       raw$ds_val <- NA_character_
       raw$cs_val <- NA_character_
       raw$el_val <- NA_character_
+      raw$final_val <- NA_character_
+      raw$cur1_val <- NA_character_
+      raw$cur2_val <- NA_character_
+      raw$decision_status <- NA_character_
+      raw$deciding_evidence <- NA_character_
       lab <- raw$label[ok]
       raw$ds_val[ok] <- ifelse(lab == "role",        as.character(genes_df$cot_role[idx[ok]]),
                         ifelse(lab == "direction",   as.character(genes_df$cot_direction[idx[ok]]),
@@ -62,6 +74,13 @@ mod_discrepancy_server <- function(id) {
                         ifelse(lab == "direction",   as.character(genes_df$consensus_direction[idx[ok]]),
                         ifelse(lab == "mechanistic", as.character(genes_df$consensus_mechanistic[idx[ok]]), NA)))
       raw$el_val[ok] <- ifelse(lab == "direction", as.character(genes_df$role_direction[idx[ok]]), NA_character_)
+      raw$final_val[ok] <- ifelse(lab == "role",        as.character(genes_df$final_role[idx[ok]]),
+                           ifelse(lab == "direction",   as.character(genes_df$final_direction[idx[ok]]),
+                           ifelse(lab == "mechanistic", as.character(genes_df$final_mechanistic[idx[ok]]), NA)))
+      raw$cur1_val[ok] <- vapply(which(ok), function(j) extract_label(genes_df$higor_verdict[idx[j]], lab[j]), character(1))
+      raw$cur2_val[ok] <- vapply(which(ok), function(j) extract_label(genes_df$victor_verdict[idx[j]], lab[j]), character(1))
+      raw$decision_status[ok] <- as.character(genes_df$decision_status[idx[ok]])
+      raw$deciding_evidence[ok] <- as.character(genes_df$deciding_evidence[idx[ok]])
 
       raw[ok, , drop = FALSE]
     })
@@ -144,8 +163,7 @@ mod_discrepancy_server <- function(id) {
       }, character(1))
       tags$div(style = "margin:10px 0 0;",
         HTML(paste0(parts, collapse = "")),
-        tags$span(sprintf("Total %d · all %s (human verdicts pending)",
-                          tot, "PENDING"),
+        tags$span(sprintf("Total %d · evidence-first adjudicated", tot),
                   style = "color:#78716c; font-size:12px; margin-left:4px;")
       )
     })
@@ -165,7 +183,7 @@ mod_discrepancy_server <- function(id) {
                  badge("NEITHER", gpt_col["NEITHER"]))
         )),
         tags$span("  \u00b7  ", HTML(
-          "<span style='display:inline-block;padding:2px 8px;border:1px dashed #a8a29e;border-radius:999px;font-size:12px;color:#a8a29e;'>PENDING</span> = human verdict not yet returned"
+          "<span style='display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;font-weight:700;color:#fff;background:#0b1020;box-shadow:0 0 0 1.5px #0b1020;'>Evidence-first</span> = verbatim-grounded resolution"
         ))
       )
     })
@@ -207,7 +225,27 @@ mod_discrepancy_server <- function(id) {
                 reason, col, v)
       }, character(1))
 
-      adj_cell <- rep("<span style='display:inline-block;padding:2px 8px;border:1px dashed #a8a29e;border-radius:999px;font-size:12px;color:#a8a29e;'>PENDING</span>", n)
+      cur_cell <- function(vals) {
+        vapply(seq_len(n), function(i) {
+          v <- trimws(as.character(vals[i]))
+          if (is.na(v) || !nzchar(v)) return("<span style='color:#a8a29e;'>—</span>")
+          col <- axis_col(axis, v)
+          if (is.null(col)) col <- "#9E9E9E"
+          sprintf("<span style='display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;font-weight:600;color:#fff;background:%s;margin-right:3px;'>%s</span>", col, v)
+        }, character(1))
+      }
+      cur1_cell <- cur_cell(df$cur1_val)
+      cur2_cell <- cur_cell(df$cur2_val)
+
+      fin_cell <- vapply(seq_len(n), function(i) {
+        v <- trimws(as.character(df$final_val[i]))
+        if (is.na(v) || !nzchar(v)) return("<span style='color:#a8a29e;'>—</span>")
+        ev <- htmltools::htmlEscape(df$deciding_evidence[i] %||% "")
+        col <- axis_col(axis, v)
+        if (is.null(col)) col <- "#9E9E9E"
+        sprintf("<span title='%s' style='display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;font-weight:700;color:#fff;background:%s;margin-right:3px;box-shadow:0 0 0 1.5px #0b1020;'>%s</span>",
+                ev, col, v)
+      }, character(1))
 
       out <- data.frame(
         Pair = pair,
@@ -216,7 +254,9 @@ mod_discrepancy_server <- function(id) {
         Consensus = cs_b,
         Concordance = dots_cell,
         GPT = gpt_cell,
-        Adjudication = adj_cell,
+        `Curator 1` = cur1_cell,
+        `Curator 2` = cur2_cell,
+        `Evidence-first` = fin_cell,
         stringsAsFactors = FALSE, check.names = FALSE
       )
 
