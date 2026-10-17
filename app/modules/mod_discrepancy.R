@@ -1,5 +1,5 @@
 # ─── Module: discrepancy (Discrepancy Radar) ────────────────────────────────
-# Phase 1: maps the 7,895 classifier-disagreement hotspots (GPT-arbitrated),
+# Phase 1: maps the 7,905 classifier-disagreement hotspots (GPT-arbitrated),
 # faceted by axis (role / direction / mechanistic), with concordance dots,
 # the GPT arbitration verdict, and a PENDING human-adjudication slot.
 # Phase 2 (after curator verdicts) will fill the human verdict + final value.
