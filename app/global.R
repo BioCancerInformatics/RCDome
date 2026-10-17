@@ -79,29 +79,9 @@ genes_df <- tryCatch({
   df$rcd_form_original      <- trimws(as.character(df$rcd_form))
   df$description            <- NA_character_
   df$otheraliases           <- NA_character_
-  # mapped vote columns (source choice -> vocabulary) for the Gene Catalog source selector
-  if (all(c("gpt4o_verdict", "higor_verdict", "victor_verdict", "cot_role", "consensus_role", "cot_direction", "consensus_direction") %in% names(df))) {
-    map_vote_col <- function(concat, ds, cs) {
-      concat <- trimws(as.character(concat))
-      out <- rep(NA_character_, length(concat))
-      ok <- !is.na(concat) & nzchar(concat)
-      if (any(ok)) {
-        parts <- strsplit(concat[ok], "|", fixed = TRUE)
-        src <- vapply(parts, function(p) {
-          p <- trimws(p); p <- p[nzchar(p)]
-          if (length(p) > 0) p[1] else NA_character_
-        }, character(1))
-        out[ok] <- ifelse(src == "DEEPSEEK", ds[ok], ifelse(src == "CONSENSUS", cs[ok], src))
-      }
-      out
-    }
-    df$gpt_mapped_role    <- map_vote_col(df$gpt4o_verdict,   df$cot_role,         df$consensus_role)
-    df$gpt_mapped_dir     <- map_vote_col(df$gpt4o_verdict,   df$cot_direction,    df$consensus_direction)
-    df$higor_mapped_role  <- map_vote_col(df$higor_verdict,   df$cot_role,         df$consensus_role)
-    df$higor_mapped_dir   <- map_vote_col(df$higor_verdict,   df$cot_direction,    df$consensus_direction)
-    df$victor_mapped_role <- map_vote_col(df$victor_verdict,  df$cot_role,         df$consensus_role)
-    df$victor_mapped_dir  <- map_vote_col(df$victor_verdict,  df$cot_direction,    df$consensus_direction)
-  }
+  # app-only mapped vote helpers (source choice -> vocabulary), kept out of the canonical matrix
+  mv <- tryCatch(readRDS("data/mapped_votes.rds"), error = function(e) NULL)
+  if (!is.null(mv) && nrow(mv) == nrow(df)) df <- cbind(df, mv)
   df
 }, error = function(e) {
   warning("Could not load V027 matrix: ", conditionMessage(e))
