@@ -321,7 +321,10 @@ mod_discrepancy_server <- function(id) {
       datatable(out, rownames = FALSE, escape = FALSE, selection = "none",
         container = header,
         options = list(
-          pageLength = 15, search = list(regex = TRUE, smart = TRUE),
+          pageLength = 100,
+          lengthMenu = list(c(15, 100, 500, 1000, 2000, -1),
+                            c("15", "100", "500", "1000", "2000", "All")),
+          search = list(regex = TRUE, smart = TRUE),
           language = list(search = "Filter:", zeroRecords = "No rows.")
         ),
         class = "compact hover row-border")
