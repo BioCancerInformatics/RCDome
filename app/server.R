@@ -585,13 +585,16 @@ server <- function(input, output, session) {
 
     badge <- function(txt, col) sprintf("<span style='display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;font-weight:600;color:#fff;background:%s;margin-right:4px;'>%s</span>", col, txt)
 
-    verdict_row <- function(lbl, role, dir, mech, role_col, dir_col) {
+    verdict_row <- function(lbl, role, dir, mech, role_col, dir_col, tip = NULL) {
       role_col2 <- if (role %in% names(role_col)) role_col[[role]] else "#9E9E9E"
       dir_col2  <- if (dir %in% names(dir_col)) dir_col[[dir]] else "#757575"
       role_b <- if (role != "—") badge(role, role_col2) else "<span style='color:#a8a29e;'>—</span>"
       dir_b  <- if (dir != "—") badge(dir, dir_col2) else "<span style='color:#a8a29e;'>—</span>"
       mech_b <- if (mech != "—") badge(mech, if (mech == "YES") "#2E7D32" else "#9E9E9E") else "<span style='color:#a8a29e;'>—</span>"
-      sprintf("<div style='display:flex;align-items:center;gap:8px;padding:8px 0;border-bottom:1px solid #f0efed;'><span style='width:88px;font-weight:700;color:#57534e;font-size:13px;'>%s</span>%s%s%s</div>", lbl, role_b, dir_b, mech_b)
+      tip_html <- if (!is.null(tip) && nzchar(tip)) {
+        sprintf("<span class='claim-info' tabindex='0' aria-label='About this row' data-tip='%s'>&#9432;</span>", htmltools::htmlEscape(tip))
+      } else ""
+      sprintf("<div style='display:flex;align-items:center;gap:8px;padding:8px 0;border-bottom:1px solid #f0efed;'><span style='width:88px;font-weight:700;color:#57534e;font-size:13px;'>%s</span>%s%s%s%s</div>", lbl, tip_html, role_b, dir_b, mech_b)
     }
 
     role_col <- c(EXECUTOR = "#E53935", REGULATOR = "#3949AB", MARKER = "#00897B", UNCERTAIN = "#9E9E9E")
@@ -611,7 +614,8 @@ server <- function(input, output, session) {
       "<div><style>.claim-info{position:relative;display:inline-block;cursor:help;color:#92400e;font-size:13px;margin-left:5px;vertical-align:middle;outline:none;}.claim-info::after{content:attr(data-tip);position:absolute;bottom:calc(100%% + 8px);left:50%%;transform:translateX(-50%%);width:280px;background:#fef3c7;color:#92400e;border:1px solid #f59e0b;padding:8px 10px;border-radius:6px;font-size:12px;font-weight:400;line-height:1.4;white-space:normal;z-index:1000;box-shadow:0 2px 8px rgba(0,0,0,.15);text-align:left;opacity:0;visibility:hidden;transition:opacity .15s,visibility .15s;pointer-events:none;}.claim-info:hover::after,.claim-info:focus::after{opacity:1;visibility:visible;}</style><div style='background:#0b1020;color:#e7e5e4;border-radius:10px;padding:14px 16px;margin-bottom:16px;'><h4 style='margin:0;color:#fff;'>%s<i>%s</i> × %s</h4><div style='color:#d6d3d1;font-size:12px;margin-top:4px;'>Evidence tier: %s · sources: %s</div></div><p style='margin:0 0 6px;'><strong style='color:#92400e;'>Claim (verbatim)</strong> <span class='claim-info' tabindex='0' aria-label='About verbatim claims' data-tip='Verbatim claims are displayed only when an exact supporting sentence has been retrieved. Evidence classifications (mechanistic role, regulatory direction, mechanistic classification) are populated independently and do not necessarily indicate that verbatim supporting evidence was retrieved. Coverage: ~6%% DeepSeek, ~14%% Elicit.'>&#9432;</span></p><div style='background:#fafaf9;border:1px solid #e7e5e4;border-radius:8px;padding:10px 12px;margin-bottom:14px;font-size:13px;color:#1c1917;'>%s%s</div><p style='margin:0 0 6px;color:#1c1917;'><strong>Source</strong></p><div style='font-size:13px;margin-bottom:14px;'>%s</div><p style='margin:0 0 6px;color:#1c1917;'><strong>Classifiers</strong></p>%s%s%s</div>",
       logo_html_d, g, e, f(r$evidence_tier), f(r$num_sources), ds_p, el_p, pm_links,
       verdict_row("DeepSeek", f(r$cot_role), f(r$cot_direction), f(r$cot_mechanistic), role_col, dir_col),
-      verdict_row("Compiled gene role", f(r$rcd_gene_type), f(r$role_direction), "—", role_col, dir_col),
+      verdict_row("Compiled gene role", f(r$rcd_gene_type), f(r$role_direction), "—", role_col, dir_col,
+                  tip = "Source-compiled role/direction from the extraction channels (A–D), before the independent validations. Empty (—) = the source databases made no pre-evaluation claim for this pair."),
       verdict_row("Consensus", f(r$consensus_role), f(r$consensus_direction), f(r$consensus_mechanistic), role_col, dir_col)
     )
 
