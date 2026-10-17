@@ -81,23 +81,26 @@ genes_df <- tryCatch({
   df$otheraliases           <- NA_character_
   # mapped vote columns (source choice -> vocabulary) for the Gene Catalog source selector
   if (all(c("gpt4o_verdict", "higor_verdict", "victor_verdict", "cot_role", "consensus_role", "cot_direction", "consensus_direction") %in% names(df))) {
-    map_vote_col <- function(concat, idx, ds, cs) {
+    map_vote_col <- function(concat, ds, cs) {
       concat <- trimws(as.character(concat))
       out <- rep(NA_character_, length(concat))
       ok <- !is.na(concat) & nzchar(concat)
       if (any(ok)) {
         parts <- strsplit(concat[ok], "|", fixed = TRUE)
-        vals <- vapply(parts, function(p) if (length(p) >= idx) trimws(p[idx]) else NA_character_, character(1))
-        out[ok] <- ifelse(vals == "DEEPSEEK", ds[ok], ifelse(vals == "CONSENSUS", cs[ok], vals))
+        src <- vapply(parts, function(p) {
+          p <- trimws(p); p <- p[nzchar(p)]
+          if (length(p) > 0) p[1] else NA_character_
+        }, character(1))
+        out[ok] <- ifelse(src == "DEEPSEEK", ds[ok], ifelse(src == "CONSENSUS", cs[ok], src))
       }
       out
     }
-    df$gpt_mapped_role    <- map_vote_col(df$gpt4o_verdict,   2, df$cot_role,         df$consensus_role)
-    df$gpt_mapped_dir     <- map_vote_col(df$gpt4o_verdict,   3, df$cot_direction,    df$consensus_direction)
-    df$higor_mapped_role  <- map_vote_col(df$higor_verdict,   2, df$cot_role,         df$consensus_role)
-    df$higor_mapped_dir   <- map_vote_col(df$higor_verdict,   3, df$cot_direction,    df$consensus_direction)
-    df$victor_mapped_role <- map_vote_col(df$victor_verdict,  2, df$cot_role,         df$consensus_role)
-    df$victor_mapped_dir  <- map_vote_col(df$victor_verdict,  3, df$cot_direction,    df$consensus_direction)
+    df$gpt_mapped_role    <- map_vote_col(df$gpt4o_verdict,   df$cot_role,         df$consensus_role)
+    df$gpt_mapped_dir     <- map_vote_col(df$gpt4o_verdict,   df$cot_direction,    df$consensus_direction)
+    df$higor_mapped_role  <- map_vote_col(df$higor_verdict,   df$cot_role,         df$consensus_role)
+    df$higor_mapped_dir   <- map_vote_col(df$higor_verdict,   df$cot_direction,    df$consensus_direction)
+    df$victor_mapped_role <- map_vote_col(df$victor_verdict,  df$cot_role,         df$consensus_role)
+    df$victor_mapped_dir  <- map_vote_col(df$victor_verdict,  df$cot_direction,    df$consensus_direction)
   }
   df
 }, error = function(e) {
