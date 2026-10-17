@@ -15,7 +15,7 @@ library(plotly)
 # Garante que .Renviron do projeto seja lido (mesmo sem restart da sessão)
 if (file.exists(".Renviron")) readRenviron(".Renviron")
 if (!nzchar(Sys.getenv("DEEPSEEK_API_KEY"))) {
-  stop("DEEPSEEK_API_KEY não configurada. Crie .Renviron com a chave ou defina no sistema.")
+  warning("DEEPSEEK_API_KEY não configurada. As funcionalidades de IA (Digital Molecular Board, Elicit, Consensus) ficam indisponíveis. O restante do aplicativo funciona normalmente.")
 }
 
 # Ensure data directories exist
@@ -79,6 +79,26 @@ genes_df <- tryCatch({
   df$rcd_form_original      <- trimws(as.character(df$rcd_form))
   df$description            <- NA_character_
   df$otheraliases           <- NA_character_
+  # mapped vote columns (source choice -> vocabulary) for the Gene Catalog source selector
+  if (all(c("gpt4o_verdict", "higor_verdict", "victor_verdict", "cot_role", "consensus_role", "cot_direction", "consensus_direction") %in% names(df))) {
+    map_vote_col <- function(concat, idx, ds, cs) {
+      concat <- trimws(as.character(concat))
+      out <- rep(NA_character_, length(concat))
+      ok <- !is.na(concat) & nzchar(concat)
+      if (any(ok)) {
+        parts <- strsplit(concat[ok], "|", fixed = TRUE)
+        vals <- vapply(parts, function(p) if (length(p) >= idx) trimws(p[idx]) else NA_character_, character(1))
+        out[ok] <- ifelse(vals == "DEEPSEEK", ds[ok], ifelse(vals == "CONSENSUS", cs[ok], vals))
+      }
+      out
+    }
+    df$gpt_mapped_role    <- map_vote_col(df$gpt4o_verdict,   2, df$cot_role,         df$consensus_role)
+    df$gpt_mapped_dir     <- map_vote_col(df$gpt4o_verdict,   3, df$cot_direction,    df$consensus_direction)
+    df$higor_mapped_role  <- map_vote_col(df$higor_verdict,   2, df$cot_role,         df$consensus_role)
+    df$higor_mapped_dir   <- map_vote_col(df$higor_verdict,   3, df$cot_direction,    df$consensus_direction)
+    df$victor_mapped_role <- map_vote_col(df$victor_verdict,  2, df$cot_role,         df$consensus_role)
+    df$victor_mapped_dir  <- map_vote_col(df$victor_verdict,  3, df$cot_direction,    df$consensus_direction)
+  }
   df
 }, error = function(e) {
   warning("Could not load V027 matrix: ", conditionMessage(e))
@@ -97,6 +117,21 @@ decoder_df <- tryCatch({
   data.frame(rcd_form = character(0), stringsAsFactors = FALSE)
 })
 message("Decoder loaded: ", nrow(decoder_df), " entities, ", ncol(decoder_df), " fields.")
+
+# ── Derived summary counts (single source of truth: the matrix, unique pairs) ──
+# Fixes H23/H24/H25/H48: no hard-coded counters in the UI.
+rcd_counts <- tryCatch({
+  g <- genes_df
+  uniq <- !duplicated(paste(g$gene_symbol, g$rcd_form_canonical))
+  g <- g[uniq, , drop = FALSE]
+  list(
+    n_genes = length(unique(g$gene_symbol)),
+    n_pairs = nrow(g),
+    mech_yes = sum(g$cot_mechanistic == "YES", na.rm = TRUE),
+    role_exec = sum(g$cot_role == "EXECUTOR", na.rm = TRUE),
+    role_reg = sum(g$cot_role == "REGULATOR", na.rm = TRUE)
+  )
+}, error = function(e) list(n_genes = 0, n_pairs = 0, mech_yes = 0, role_exec = 0, role_reg = 0))
 
 # ── HGNC gene metadata (name, location, HGNC id, Entrez id) ──────────────────
 # Used by the Network gene pop-up for external links + the gene name summary.

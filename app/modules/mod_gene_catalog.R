@@ -38,30 +38,51 @@ mod_gene_catalog_ui <- function(id) {
       selectizeInput(ns("f_rcd"), "RCD entity", choices = NULL, multiple = TRUE, width = "200px", options = list(create = rcdome_create_js)),
       selectizeInput(ns("f_cancer"), "Cancer Gene", choices = NULL, multiple = TRUE, width = "160px", options = list(create = rcdome_create_js)),
       selectizeInput(ns("f_tier"), "Confidence Tier", choices = NULL, multiple = TRUE, width = "160px", options = list(create = rcdome_create_js)),
-      selectizeInput(ns("f_mech"), "Mechanistic (DeepSeek)", choices = NULL, multiple = TRUE, width = "170px", options = list(create = rcdome_create_js)),
+      selectizeInput(ns("f_mech"), "Mechanistic", choices = NULL, multiple = TRUE, width = "170px", options = list(create = rcdome_create_js)),
       selectizeInput(ns("f_role"), "Role", choices = NULL, multiple = TRUE, width = "150px", options = list(create = rcdome_create_js)),
       selectizeInput(ns("f_dir"), "Direction", choices = NULL, multiple = TRUE, width = "170px", options = list(create = rcdome_create_js)),
+      selectizeInput(ns("f_status"), "Adjudication", choices = c("Disagreement" = "UNIFORM_PIPELINE", "Agreement" = "AGREED_LABEL_ABSTRACT", "Pending" = "PENDING_DELTA"), multiple = TRUE, width = "180px", options = list(placeholder = "All statuses")),
       selectizeInput(ns("f_db"), "Source DBs", choices = NULL, multiple = TRUE, width = "200px", options = list(create = rcdome_create_js))
     ),
     tags$div(style = "display:flex; align-items:center; flex-wrap:wrap; margin-bottom:12px;",
       tags$span("Direction/Role source:",
-        `data-tip` = "Choose which analysis's Role/Direction values to show. DeepSeek = complete (100% of 21,568 pairs); Compiled gene role = source-derived functional role (EXECUTOR/REGULATOR/MARKER/UNCERTAIN); Consensus = complete (100% of 21,568 pairs).",
+        `data-tip` = "Choose which analysis's Role/Direction values to show. Evidence-first = the final verbatim-grounded resolution (default). DeepSeek/Consensus/Compiled = the source classifications. GPT/Curator 1/Curator 2 = the arbitration votes (mapped to the source they sided with).",
         style = "font-weight:600; color:#1c1917; font-size:14px; margin-right:2px;"),
       tags$label(
-        `data-tip` = "DeepSeek chain-of-thought classification — complete (100%). Role: EXECUTOR/REGULATOR/MARKER/UNCERTAIN · Direction: PROMOTES/PROTECTS/UNCLEAR.",
+        `data-tip` = "Evidence-first resolution — the final verbatim-grounded verdict. Role: EXECUTOR/REGULATOR/MARKER/UNCERTAIN · Direction: PROMOTES/PROTECTS/UNCLEAR.",
+        style = "margin:0 0 0 14px; display:inline-flex; align-items:center; gap:5px; cursor:pointer; font-weight:600; font-size:14px;",
+        tags$input(type = "radio", name = ns("source_sel_r"), value = "evidence", checked = "checked", style = "margin:0;"),
+        "Evidence-first"),
+      tags$label(
+        `data-tip` = "Victor's (Curator 2) vote, mapped to the source he sided with (DEEPSEEK → DeepSeek value, CONSENSUS → Consensus value).",
         style = "margin:0 0 0 14px; display:inline-flex; align-items:center; gap:5px; cursor:pointer; font-weight:400; font-size:14px;",
-        tags$input(type = "radio", name = ns("source_sel_r"), value = "deepseek", checked = "checked", style = "margin:0;"),
-        "DeepSeek"),
+        tags$input(type = "radio", name = ns("source_sel_r"), value = "victor", style = "margin:0;"),
+        "Curator 2"),
+      tags$label(
+        `data-tip` = "Higor's (Curator 1) vote, mapped to the source he sided with (DEEPSEEK → DeepSeek value, CONSENSUS → Consensus value).",
+        style = "margin:0 0 0 14px; display:inline-flex; align-items:center; gap:5px; cursor:pointer; font-weight:400; font-size:14px;",
+        tags$input(type = "radio", name = ns("source_sel_r"), value = "higor", style = "margin:0;"),
+        "Curator 1"),
+      tags$label(
+        `data-tip` = "GPT-4o arbitration vote, mapped to the source it sided with (DEEPSEEK → DeepSeek value, CONSENSUS → Consensus value).",
+        style = "margin:0 0 0 14px; display:inline-flex; align-items:center; gap:5px; cursor:pointer; font-weight:400; font-size:14px;",
+        tags$input(type = "radio", name = ns("source_sel_r"), value = "gpt", style = "margin:0;"),
+        "GPT"),
+      tags$label(
+        `data-tip` = "Consensus API classification — complete (100% of 21,568 pairs). Role: EXECUTOR/REGULATOR/MARKER/UNCERTAIN · Direction: PROMOTES/PROTECTS/UNCLEAR · Mechanistic: YES/NO.",
+        style = "margin:0 0 0 14px; display:inline-flex; align-items:center; gap:5px; cursor:pointer; font-weight:400; font-size:14px;",
+        tags$input(type = "radio", name = ns("source_sel_r"), value = "consensus", style = "margin:0;"),
+        "Consensus"),
       tags$label(
         `data-tip` = "Source-derived functional role compiled from the source databases and Elicit Phase 3 extraction (not an Elicit-only classification). Role: EXECUTOR/REGULATOR/MARKER/UNCERTAIN · Direction: PROMOTES/PROTECTS/UNCLEAR.",
         style = "margin:0 0 0 14px; display:inline-flex; align-items:center; gap:5px; cursor:pointer; font-weight:400; font-size:14px;",
         tags$input(type = "radio", name = ns("source_sel_r"), value = "elicit", style = "margin:0;"),
         "Compiled gene role"),
       tags$label(
-        `data-tip` = "Consensus API classification — complete (100% of 21,568 pairs). Role: EXECUTOR/REGULATOR/MARKER/UNCERTAIN · Direction: PROMOTES/PROTECTS/UNCLEAR · Mechanistic: YES/NO.",
+        `data-tip` = "DeepSeek chain-of-thought classification — complete (100%). Role: EXECUTOR/REGULATOR/MARKER/UNCERTAIN · Direction: PROMOTES/PROTECTS/UNCLEAR.",
         style = "margin:0 0 0 14px; display:inline-flex; align-items:center; gap:5px; cursor:pointer; font-weight:400; font-size:14px;",
-        tags$input(type = "radio", name = ns("source_sel_r"), value = "consensus", style = "margin:0;"),
-        "Consensus"),
+        tags$input(type = "radio", name = ns("source_sel_r"), value = "deepseek", style = "margin:0;"),
+        "DeepSeek"),
       actionButton(ns("death_core"), "Death core (executors)",
         `data-tip` = "One-click filter to the 469 EXECUTOR gene-RCD pairs (DeepSeek) — the genes that directly execute cell death.",
         class = "search-evidence-btn", style = "margin-left:auto; height:32px; padding:0 14px; font-size:12.5px;"),
@@ -342,13 +363,16 @@ mod_gene_catalog_server <- function(id) {
 
     # Direction/Role source selector → which analysis's columns to show
     src_cols <- reactive({
-      if (identical(input$source_sel, "elicit")) {
-        list(role = "rcd_gene_type", dir = "role_direction", mech = "cot_mechanistic", label = "Compiled gene role")
-      } else if (identical(input$source_sel, "consensus")) {
-        list(role = "consensus_role", dir = "consensus_direction", mech = "consensus_mechanistic", label = "Consensus")
-      } else {
-        list(role = "cot_role", dir = "cot_direction", mech = "cot_mechanistic", label = "DeepSeek")
-      }
+      switch(input$source_sel,
+        evidence = list(role = "final_role", dir = "final_direction", mech = "final_mechanistic", label = "Evidence-first"),
+        deepseek = list(role = "cot_role", dir = "cot_direction", mech = "cot_mechanistic", label = "DeepSeek"),
+        consensus = list(role = "consensus_role", dir = "consensus_direction", mech = "consensus_mechanistic", label = "Consensus"),
+        elicit = list(role = "rcd_gene_type", dir = "role_direction", mech = "cot_mechanistic", label = "Compiled gene role"),
+        gpt = list(role = "gpt_mapped_role", dir = "gpt_mapped_dir", mech = "cot_mechanistic", label = "GPT"),
+        higor = list(role = "higor_mapped_role", dir = "higor_mapped_dir", mech = "cot_mechanistic", label = "Curator 1"),
+        victor = list(role = "victor_mapped_role", dir = "victor_mapped_dir", mech = "cot_mechanistic", label = "Curator 2"),
+        list(role = "final_role", dir = "final_direction", mech = "final_mechanistic", label = "Evidence-first")
+      )
     })
 
     # Death core preset: switch to DeepSeek + filter to EXECUTOR pairs (unique gene-entity pairs)
@@ -416,6 +440,7 @@ mod_gene_catalog_server <- function(id) {
       if (!is.null(input$f_rcd) && length(input$f_rcd) > 0) df <- df[df$rcd_form_canonical %in% input$f_rcd, , drop = FALSE]
       if (!is.null(input$f_cancer) && length(input$f_cancer) > 0) df <- df[df$cancer_gene_type %in% input$f_cancer, , drop = FALSE]
       if (!is.null(input$f_tier) && length(input$f_tier) > 0) df <- df[df$confidence_tier %in% input$f_tier, , drop = FALSE]
+      if (!is.null(input$f_status) && length(input$f_status) > 0) df <- df[df$decision_status %in% input$f_status, , drop = FALSE]
       if (!is.null(input$f_db) && length(input$f_db) > 0) {
         keep <- sapply(df$source_databases, function(s) any(vapply(input$f_db, function(d) grepl(d, s, fixed = TRUE), logical(1))))
         df <- df[keep, , drop = FALSE]
