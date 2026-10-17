@@ -635,7 +635,7 @@ server <- function(input, output, session) {
     vbadge <- function(txt, col) {
       txt <- trimws(as.character(txt))
       if (length(txt) == 0 || is.na(txt) || !nzchar(txt)) return("<span style='color:#a8a29e;'>—</span>")
-      sprintf("<span style='display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;font-weight:600;color:#fff;background:%s;margin-left:4px;'>%s</span>", col, txt)
+      sprintf("<span style='display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;font-weight:600;color:#fff;background:%s;margin-right:6px;'>%s</span>", col, txt)
     }
 
     fin_val <- switch(axis_key, role = f(r$final_role), direction = f(r$final_direction), f(r$final_mechanistic))
@@ -655,8 +655,8 @@ server <- function(input, output, session) {
       fcol <- function(v, map) if (v %in% names(map)) map[[v]] else "#9E9E9E"
       adj_html <- paste0(
         "<div style='margin-top:14px;padding:12px 14px;background:#0b1020;border-radius:8px;font-size:13px;color:#fff;'><strong style='color:#fbbf24;'>Human adjudication (evidence-first):</strong> ",
-        vbadge(f(r$final_mechanistic), fcol(f(r$final_mechanistic), mech_map3)),
-        vbadge(f(r$final_role), fcol(f(r$final_role), role_col)),
+        vbadge(f(r$final_mechanistic), fcol(f(r$final_mechanistic), mech_map3)), " ",
+        vbadge(f(r$final_role), fcol(f(r$final_role), role_col)), " ",
         vbadge(f(r$final_direction), fcol(f(r$final_direction), dir_col)),
         "<div style='color:#d6d3d1;margin-top:6px;font-size:12px;'>", htmltools::htmlEscape(f(r$deciding_evidence)), "</div>",
         "<div style='color:#a8a29e;margin-top:4px;font-size:11px;'>decision_status: ", htmltools::htmlEscape(status),
