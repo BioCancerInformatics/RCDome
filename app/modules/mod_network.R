@@ -119,7 +119,7 @@ mod_network_ui <- function(id) {
       checkboxGroupInput(
         inputId = ns("edge_sources"),
         label = "Edge classification sources (1 = single, 2+ = compare):",
-        choices = c("Evidence-first" = "evidence", "DeepSeek" = "deepseek", "Compiled gene role" = "elicit", "Consensus" = "consensus", "GPT" = "gpt", "Curator 1" = "higor", "Curator 2" = "victor"),
+        choices = c("Evidence-first" = "evidence", "DeepSeek" = "deepseek", "Compiled gene role" = "elicit", "Consensus" = "consensus", "GPT" = "gpt", "Curator 1" = "curator_1", "Curator 2" = "curator_2"),
         selected = "evidence",
         inline = TRUE
       )
@@ -320,8 +320,8 @@ mod_network_server <- function(
           elicit = list(key = "elicit", label = "Compiled gene role", role = "rcd_gene_type", dir = "role_direction"),
           consensus = list(key = "consensus", label = "Consensus", role = "consensus_role", dir = "consensus_direction"),
           gpt = list(key = "gpt", label = "GPT", role = "gpt_mapped_role", dir = "gpt_mapped_dir"),
-          higor = list(key = "higor", label = "Curator 1", role = "higor_mapped_role", dir = "higor_mapped_dir"),
-          victor = list(key = "victor", label = "Curator 2", role = "victor_mapped_role", dir = "victor_mapped_dir"),
+          curator_1 = list(key = "curator_1", label = "Curator 1", role = "curator_1_mapped_role", dir = "curator_1_mapped_dir"),
+          curator_2 = list(key = "curator_2", label = "Curator 2", role = "curator_2_mapped_role", dir = "curator_2_mapped_dir"),
           list(key = "deepseek", label = "DeepSeek", role = "cot_role", dir = "cot_direction")
         )
       })

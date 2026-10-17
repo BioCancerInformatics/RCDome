@@ -655,8 +655,8 @@ server <- function(input, output, session) {
       c(YES = "#2E7D32", NO = "#9E9E9E", OUT_OF_CONTEXT = "#F59E0B"))
     fin_col <- if (fin_val %in% names(fin_map)) fin_map[[fin_val]] else "#9E9E9E"
 
-    cur1 <- ext_lab(r$higor_verdict)
-    cur2 <- ext_lab(r$victor_verdict)
+    cur1 <- ext_lab(r$curator_1_verdict)
+    cur2 <- ext_lab(r$curator_2_verdict)
 
     ev_txt <- f(r$deciding_evidence)
     if (ev_txt != "—" && nchar(ev_txt) > 380) ev_txt <- paste0(substr(ev_txt, 1, 380), "…")
@@ -690,8 +690,8 @@ server <- function(input, output, session) {
         votes_html <- paste0(
           "<p style='margin:14px 0 6px;color:#1c1917;'><strong>Votes</strong></p>",
           vote_line("GPT", r$gpt4o_verdict),
-          vote_line("Curator 1", r$higor_verdict),
-          vote_line("Curator 2", r$victor_verdict)
+          vote_line("Curator 1", r$curator_1_verdict),
+          vote_line("Curator 2", r$curator_2_verdict)
         )
       }
       adj_html <- paste0(
