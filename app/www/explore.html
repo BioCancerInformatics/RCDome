@@ -87,15 +87,15 @@
     <div class="counter"><div class="n" data-count="9265">0</div><div class="l">genes</div></div>
     <div class="counter"><div class="n" data-count="53">0</div><div class="l">RCD entities</div></div>
     <div class="counter"><div class="n" data-count="21568">0</div><div class="l">unique gene–RCD pairs</div></div>
-    <div class="counter"><div class="n" data-count="20">0</div><div class="l">databases</div></div>
+    <div class="counter"><div class="n" data-count="20">0</div><div class="l">databases &amp; resources</div></div>
     <div class="counter"><div class="n" data-count="3">0</div><div class="l">analyses</div></div>
-    <div class="counter"><div class="n" data-count="469">0</div><div class="l">executor pairs</div></div>
+    <div class="counter"><div class="n" data-count="367">0</div><div class="l">executor pairs</div></div>
   </div>
 
   <div class="section">
     <button class="sec-head open">What is RCDome? <span class="plus">+</span></button>
     <div class="sec-body" style="display:block;">
-      RCDome is a <b>gene-centric atlas</b> that consolidates every reported human gene–RCD association into one traceable platform. It is not a single database — it is a <span class="hl">compendium of 20 independent resources</span>, cross-validated by three independent analyses. The core question it answers: <b>is this gene mechanistically involved in this form of cell death — and how?</b>
+      RCDome is a <b>gene-centric atlas</b> that consolidates human gene–RCD associations captured across its governed source universe into one traceable platform. It is not a single database — it is a <span class="hl">compendium of 20 independent resources</span>, evaluated through three complementary independent analysis layers. The core question it answers: <b>is this gene mechanistically involved in this form of cell death — and how?</b>
     </div>
   </div>
 
@@ -109,18 +109,18 @@
   <div class="section">
     <button class="sec-head">Three independent analyses <span class="plus">+</span></button>
     <div class="sec-body">
-      Every gene–RCD pair is examined by <b>three methods</b>, each kept in its own columns so provenance is never lost:
+      Each gene–RCD pair is examined by <b>one or more of three complementary methods</b>, each kept in its own columns so provenance is never lost:
       <br><br><b>DeepSeek</b> — a chain-of-thought classification of <span class="hl">all 21,568 pairs</span> (100%), giving <b>mechanistic (YES/NO)</b>, <b>role</b>, and <b>direction</b>.<br>
-      <b>Elicit</b> — the original AI-assisted extraction (~20% annotated).<br>
-      <b>Consensus</b> — an independent evidence-channel verdict (full run in progress).<br><br>
+      <b>Elicit</b> — systematic-review extraction across <span class="hl">50 forms (4,601 associations)</span>.<br>
+      <b>Consensus</b> — an independent evidence-channel verdict (100% of pairs).<br><br>
       The <span class="hl">Direction/Role source selector</span> in the Gene Catalog lets you switch between analyses to compare them directly.
     </div>
   </div>
 
   <div class="section">
-    <button class="sec-head">The death core — 469 executors <span class="plus">+</span></button>
+    <button class="sec-head">The death core — 367 executors <span class="plus">+</span></button>
     <div class="sec-body">
-      Only <b>469 of 21,568 pairs (4.8% of mechanistic-YES)</b> are <span class="hl">executors</span> — the genes that <b>directly execute</b> death (pore-forming, cleavage, permeabilization). Everything else is <b>regulation</b> (9,311 regulators). The <b>"Death core"</b> button in the Gene Catalog filters to this machinery in one click.
+      Only <b>367 of 21,568 pairs (7.5% of mechanistic-YES)</b> are <span class="hl">executors</span> — the genes that <b>directly execute</b> death (pore-forming, cleavage, permeabilization). Everything else is <b>regulation</b> (8,369 regulators). The <b>"Death core"</b> button in the Gene Catalog filters to this machinery in one click.
     </div>
   </div>
 
@@ -144,7 +144,7 @@
   <div class="section">
     <button class="sec-head">Governance &amp; policies <span class="plus">+</span></button>
     <div class="sec-body">
-      RCDome is governed by an explicit <b>traceability contract</b>: <b>no speculation</b> (every association traceable to a source database or PMID), <b>no inference</b> (classifications derive from explicit evidence, not statistical guesswork), <b>no overwriting</b> (each analysis writes to its own columns), <b>full traceability</b> (source databases, evidence types, and PMIDs on every row), and <b>HGNC-only</b> gene symbols. Every AI-assisted step follows the project's AI governance rules, with an <span class="hl">anti-hallucination framework</span> that rejects any sentence not found verbatim in its source.
+      RCDome is governed by an explicit <b>traceability contract</b>: <b>no speculation</b> (every association traceable to a source database or PMID), <b>no unsupported inference</b> (model-derived classifications are separated from source evidence and provenance-traced), <b>no overwriting</b> (each analysis writes to its own columns), <b>full traceability</b> (source databases, evidence types, and PMIDs on every row), and <b>HGNC-only</b> gene symbols. Every AI-assisted step follows the project's AI governance rules, with an <span class="hl">anti-hallucination framework</span> that rejects any sentence not found verbatim in its source.
     </div>
   </div>
 
