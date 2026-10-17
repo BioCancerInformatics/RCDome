@@ -525,7 +525,10 @@ mod_gene_catalog_server <- function(id) {
       show$rcdome_level_name <- NULL
       ef_badge <- function(v, col) sprintf("<span style='display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;font-weight:600;color:#fff;background:%s;margin-right:3px;'>%s</span>", col, v)
       show$evidence_first <- vapply(seq_len(nrow(df)), function(i) {
-        m <- df$final_mechanistic[i]; ro <- df$final_role[i]; di <- df$final_direction[i]
+        m <- trimws(as.character(df$final_mechanistic[i])); ro <- trimws(as.character(df$final_role[i])); di <- trimws(as.character(df$final_direction[i]))
+        if (is.na(m) || !nzchar(m)) m <- "—"
+        if (is.na(ro) || !nzchar(ro)) ro <- "—"
+        if (is.na(di) || !nzchar(di)) di <- "—"
         mc <- if (m == "YES") "#2E7D32" else if (m == "OUT_OF_CONTEXT") "#F59E0B" else "#9E9E9E"
         rc <- c(EXECUTOR = "#E53935", REGULATOR = "#3949AB", MARKER = "#00897B", UNCERTAIN = "#9E9E9E")
         dc <- c(PROMOTES = "#2E7D32", PROTECTS = "#1565C0", UNCLEAR = "#757575")
