@@ -23,7 +23,7 @@ The **dome** is RCDome's visual signature. Its cupola rim carries the 53 canonic
 
 | | |
 |---|---|
-| Matrix | **22,473 rows × 83 columns** |
+| Matrix | **22,473 rows × 94 columns** |
 | Unique gene–RCD pairs | **21,568** (+ 905 multi-database corroboration rows) |
 | HGNC-validated genes | **9,265** |
 | Canonicalized RCD-related entities | **53** (from 62 original name strings) |
@@ -39,7 +39,7 @@ The **dome** is RCDome's visual signature. Its cupola rim carries the 53 canonic
   <img src="docs/figures/Figure_1_pipeline.png" width="1100">
 </p>
 
-The pipeline runs in one top-to-bottom workflow: **20 source databases and resources → five compilation channels (A recall · B precision · C AI screening · D manual curation · E Elicit Phase 3) → consolidation → three independent validations (DeepSeek, Elicit, Consensus) → the 83-column matrix → the RCDome web application.**
+The pipeline runs in one top-to-bottom workflow: **20 source databases and resources → five compilation channels (A recall · B precision · C AI screening · D manual curation · E Elicit Phase 3) → consolidation → three independent validations (DeepSeek, Elicit, Consensus) → the 94-column matrix → the RCDome web application.**
 
 ---
 
