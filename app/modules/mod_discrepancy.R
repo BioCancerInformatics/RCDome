@@ -15,7 +15,7 @@ mod_discrepancy_ui <- function(id) {
       uiOutput(ns("summary_bar")),
       tags$div(style = "margin:12px 0 6px;",
         radioButtons(ns("facet"), "Conflict axis", inline = TRUE,
-          choices = c("Direction", "Role", "Mechanistic"),
+          choices = c("Direction", "Role", "Mechanistic", "All"),
           selected = "Direction"),
         textInput(ns("search"), NULL, width = "320px",
                   placeholder = "Filter by gene or RCD entity")
@@ -97,7 +97,9 @@ mod_discrepancy_server <- function(id) {
     facet_df <- reactive({
       df <- disc_df()
       if (nrow(df) == 0) return(df)
-      df <- df[df$label == tolower(input$facet), , drop = FALSE]
+      if (!identical(tolower(input$facet), "all")) {
+        df <- df[df$label == tolower(input$facet), , drop = FALSE]
+      }
       q <- trimws(input$search %||% "")
       if (nzchar(q)) {
         hit <- grepl(tolower(q), tolower(df$gene_symbol), fixed = TRUE) |
@@ -151,7 +153,7 @@ mod_discrepancy_server <- function(id) {
       if (nrow(df) == 0) {
         return(datatable(data.frame(Message = "No disagreement rows."), rownames = FALSE))
       }
-      axis <- tolower(input$facet)
+      axis_vec <- df$label
       n <- nrow(df)
 
       pair <- vapply(seq_len(n), function(i) {
@@ -162,18 +164,18 @@ mod_discrepancy_server <- function(id) {
                 onclick, g, e)
       }, character(1))
 
-      ds_b <- vapply(seq_len(n), function(i) badge(df$ds_val[i], axis_col(axis, df$ds_val[i])), character(1))
+      ds_b <- vapply(seq_len(n), function(i) badge(df$ds_val[i], axis_col(axis_vec[i], df$ds_val[i])), character(1))
       el_b <- vapply(seq_len(n), function(i) {
-        if (axis == "direction") badge(df$el_val[i], axis_col("direction", df$el_val[i]))
+        if (axis_vec[i] == "direction") badge(df$el_val[i], axis_col("direction", df$el_val[i]))
         else "<span style='color:#d6d3d1;'>\u2014</span>"
       }, character(1))
-      cs_b <- vapply(seq_len(n), function(i) badge(df$cs_val[i], axis_col(axis, df$cs_val[i])), character(1))
+      cs_b <- vapply(seq_len(n), function(i) badge(df$cs_val[i], axis_col(axis_vec[i], df$cs_val[i])), character(1))
 
       comp_cell <- vapply(seq_len(n), function(i) {
-        v <- if (axis == "role") df$compiled_role[i] else if (axis == "direction") df$compiled_dir[i] else NA_character_
+        v <- if (axis_vec[i] == "role") df$compiled_role[i] else if (axis_vec[i] == "direction") df$compiled_dir[i] else NA_character_
         v <- trimws(as.character(v))
         if (is.na(v) || !nzchar(v)) return("<span style='color:#a8a29e;'>—</span>")
-        col <- axis_col(axis, v)
+        col <- axis_col(axis_vec[i], v)
         if (is.null(col)) col <- "#9E9E9E"
         sprintf("<span title='Source-compiled role/direction (pre-evaluation, channels A–D)' style='display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;font-weight:600;color:#fff;background:%s;margin-right:3px;'>%s</span>", col, v)
       }, character(1))
@@ -191,7 +193,7 @@ mod_discrepancy_server <- function(id) {
 
       dots_cell <- vapply(seq_len(n), function(i) {
         votes <- trimws(as.character(df$ds_val[i]))
-        if (axis == "direction") votes <- c(votes, trimws(as.character(df$el_val[i])))
+        if (axis_vec[i] == "direction") votes <- c(votes, trimws(as.character(df$el_val[i])))
         votes <- c(votes, trimws(as.character(df$cs_val[i])), gpt_mapped[i], cur1_mapped[i], cur2_mapped[i])
         votes <- votes[!is.na(votes) & nzchar(votes)]
         ref <- trimws(as.character(df$final_val[i]))
@@ -206,7 +208,7 @@ mod_discrepancy_server <- function(id) {
         v <- trimws(as.character(df$gpt4o_verdict[i]))
         v2 <- gpt_mapped[i]
         if (is.na(v2) || !nzchar(v2)) v2 <- "—"
-        col <- axis_col(axis, v2)
+        col <- axis_col(axis_vec[i], v2)
         if (is.null(col)) col <- "#9E9E9E"
         reason <- htmltools::htmlEscape(df$gpt4o_reason[i])
         sprintf("<span title='GPT sided with %s — %s' style='display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;font-weight:600;color:#fff;background:%s;'>%s</span>",
@@ -225,7 +227,7 @@ mod_discrepancy_server <- function(id) {
           }
           v2 <- trimws(as.character(vals_mapped[i]))
           if (is.na(v2) || !nzchar(v2)) v2 <- "—"
-          col <- axis_col(axis, v2)
+          col <- axis_col(axis_vec[i], v2)
           if (is.null(col)) col <- "#9E9E9E"
           sprintf("<span title='Voted with %s' style='display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;font-weight:600;color:#fff;background:%s;margin-right:3px;'>%s</span>", v, col, v2)
         }, character(1))
@@ -243,7 +245,7 @@ mod_discrepancy_server <- function(id) {
           return("<span style='color:#a8a29e;'>—</span>")
         }
         ev <- htmltools::htmlEscape(df$deciding_evidence[i] %||% "")
-        col <- axis_col(axis, v)
+        col <- axis_col(axis_vec[i], v)
         if (is.null(col)) col <- "#9E9E9E"
         sprintf("<span title='%s' style='display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;font-weight:700;color:#fff;background:%s;margin-right:3px;box-shadow:0 0 0 1.5px #0b1020;'>%s</span>",
                 ev, col, v)
