@@ -169,6 +169,15 @@ mod_discrepancy_server <- function(id) {
       }, character(1))
       cs_b <- vapply(seq_len(n), function(i) badge(df$cs_val[i], axis_col(axis, df$cs_val[i])), character(1))
 
+      comp_cell <- vapply(seq_len(n), function(i) {
+        v <- if (axis == "role") df$compiled_role[i] else if (axis == "direction") df$compiled_dir[i] else NA_character_
+        v <- trimws(as.character(v))
+        if (is.na(v) || !nzchar(v)) return("<span style='color:#a8a29e;'>—</span>")
+        col <- axis_col(axis, v)
+        if (is.null(col)) col <- "#9E9E9E"
+        sprintf("<span title='Source-compiled role/direction (pre-evaluation, channels A–D)' style='display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;font-weight:600;color:#fff;background:%s;margin-right:3px;'>%s</span>", col, v)
+      }, character(1))
+
       map_vote <- function(v, ds, cs) {
         v <- trimws(as.character(v))
         if (length(v) == 0 || is.na(v) || !nzchar(v)) return(NA_character_)
@@ -245,6 +254,7 @@ mod_discrepancy_server <- function(id) {
         DeepSeek = ds_b,
         Elicit = el_b,
         Consensus = cs_b,
+        Compiled = comp_cell,
         GPT = gpt_cell,
         `Curator 1` = cur1_cell,
         `Curator 2` = cur2_cell,
@@ -261,6 +271,7 @@ mod_discrepancy_server <- function(id) {
             th("DeepSeek", title = "DeepSeek chain-of-thought classifier verdict (Phases 2A–2F)"),
             th("Elicit", title = "Elicit Phase 3 systematic-review extraction"),
             th("Consensus", title = "Consensus evidence-channel classification (neutral query, Phase 2G)"),
+            th("Compiled", title = "Source-compiled role/direction from the extraction channels (A–D), before the independent validations"),
             th("GPT", title = "GPT-4o arbitration vote on the conflict"),
             th("Curator 1", title = "First human curator vote"),
             th("Curator 2", title = "Second human curator vote"),
