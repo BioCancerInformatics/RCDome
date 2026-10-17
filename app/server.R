@@ -673,7 +673,7 @@ server <- function(input, output, session) {
         if (length(vv) == 0 || is.na(vv) || !nzchar(vv)) {
           return(paste0("<div style='margin-top:8px;padding:10px 12px;background:#f5f5f4;border-radius:8px;font-size:13px;color:#57534e;'><strong>", lbl, ":</strong> Pending (curator verdict not yet returned)</div>"))
         }
-        cmap <- switch(axis_key, role = role_col, direction = dir_col, c(YES = "#2E7D32", NO = "#9E9E9E"))
+        cmap <- c(DEEPSEEK = "#3949AB", CONSENSUS = "#00897B", UNCLEAR = "#9E9E9E", OUT_OF_CONTEXT = "#F59E0B", NEITHER = "#E53935", ERROR = "#57534E")
         col <- if (vv %in% names(cmap)) cmap[[vv]] else "#9E9E9E"
         paste0("<div style='margin-top:8px;padding:10px 12px;background:#fafaf9;border:1px solid #e7e5e4;border-radius:8px;font-size:13px;color:#1c1917;'><strong>", lbl, ":</strong> ", vbadge(vv, col), "</div>")
       }
