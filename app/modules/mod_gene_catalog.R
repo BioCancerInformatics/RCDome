@@ -80,7 +80,7 @@ mod_gene_catalog_ui <- function(id) {
                   selected = "tsv", width = "120px"),
       downloadButton(ns("download_btn"), "Download", class = "search-evidence-btn"),
       downloadButton(ns("download_full"), "Download RCDome matrix (CSV)",
-        `data-tip` = "Export the complete truth matrix — all 22,473 rows x 82 columns (all analyses: Elicit, DeepSeek, and every provenance column).",
+        `data-tip` = "Export the complete truth matrix — all 22,473 rows x 94 columns (all analyses: Elicit, DeepSeek, and every provenance column).",
         class = "search-evidence-btn")
     ),
     tags$p("22,473 rows shown = 21,568 unique gene-RCD pairs + 905 rows of multi-database corroboration (same gene+entity reported by 2+ databases).",
@@ -498,7 +498,7 @@ mod_gene_catalog_server <- function(id) {
       show[[sc$dir]] <- rc_pill(show[[sc$dir]], direction_class(show[[sc$dir]]))
       show$rcdome_level_name <- NULL
       show$evidence <- sprintf(
-        "<button type=\"button\" onmousedown=\"event.stopPropagation();\" onclick=\"event.stopPropagation(); Shiny.setInputValue('%s', '%s|%s', {priority:'event'})\" style=\"border:none;background:none;cursor:pointer;font-size:16px;color:#1d4ed8;\" title=\"Evidence Trail\">⧈</button>",
+        "<button type=\"button\" onmousedown=\"event.stopPropagation();\" onclick=\"event.stopPropagation(); Shiny.setInputValue('%s', '%s|%s', {priority:'event'})\" style=\"border:none;background:#1d4ed8;color:#fff;cursor:pointer;font-size:12px;font-weight:600;padding:3px 10px;border-radius:999px;\" title=\"Open the Evidence Trail\">⧈ Trail</button>",
         session$ns("evidence_click"), raw_gene, raw_entity
       )
       colnames(show) <- c("Gene", "Biotype", "RCD entity", "Cancer Gene", "Confidence Tier", "Mechanistic (DeepSeek)", paste0("Role (", sc$label, ")"), paste0("Direction (", sc$label, ")"), "Source DBs", "Evidence")
@@ -573,7 +573,7 @@ mod_gene_catalog_server <- function(id) {
       shinyjs::runjs("document.getElementById('evidence_drawer').style.display='block';")
     })
 
-    # ── Download the FULL V027 matrix (all rows, all 82 columns) ───────
+    # ── Download the FULL V027 matrix (all rows, all 94 columns) ───────
     output$download_full <- downloadHandler(
       filename = function() { "RCDome_full_matrix.csv" },
       content = function(file) {
