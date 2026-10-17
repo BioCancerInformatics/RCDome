@@ -15,6 +15,14 @@ mod_gene_catalog_ui <- function(id) {
         style = "color:#d6d3d1; margin:6px 0 0; font-size:15px;"
       ),
       tags$p(
+        tags$span("Evidence-first:", style = "color:#a8a29e; font-weight:600;"), " ",
+        tags$span(paste0(format(rcd_counts$ef_exec, big.mark = ","), " executors"), style = "color:#FF9800; font-weight:600;"), " · ",
+        tags$span(paste0(format(rcd_counts$ef_reg, big.mark = ","), " regulators"), style = "color:#FF9800; font-weight:600;"), " · ",
+        tags$span(paste0(format(rcd_counts$ef_mech, big.mark = ","), " mechanistic"), style = "color:#FF9800; font-weight:600;"), " · ",
+        tags$span("verbatim-grounded", style = "color:#a8a29e; font-weight:600;"),
+        style = "color:#d6d3d1; margin:4px 0 0; font-size:14px;"
+      ),
+      tags$p(
         tags$span("DeepSeek:", style = "color:#a8a29e; font-weight:600;"), " ",
         tags$span(paste0(format(rcd_counts$mech_yes, big.mark = ","), " mechanistic"), style = "color:#FF9800; font-weight:600;"), " · ",
         tags$span(paste0(format(rcd_counts$role_exec, big.mark = ","), " executor pairs"), style = "color:#FF9800; font-weight:600;"), " · ",
