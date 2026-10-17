@@ -79,9 +79,6 @@ genes_df <- tryCatch({
   df$rcd_form_original      <- trimws(as.character(df$rcd_form))
   df$description            <- NA_character_
   df$otheraliases           <- NA_character_
-  # app-only mapped vote helpers (source choice -> vocabulary), kept out of the canonical matrix
-  mv <- tryCatch(readRDS("data/mapped_votes.rds"), error = function(e) NULL)
-  if (!is.null(mv) && nrow(mv) == nrow(df)) df <- cbind(df, mv)
   df
 }, error = function(e) {
   warning("Could not load V027 matrix: ", conditionMessage(e))
