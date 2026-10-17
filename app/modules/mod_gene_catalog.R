@@ -84,10 +84,10 @@ mod_gene_catalog_ui <- function(id) {
         tags$input(type = "radio", name = ns("source_sel_r"), value = "evidence", checked = "checked", style = "margin:0;"),
         "Evidence-first"),
       actionButton(ns("death_core"), "Death core (executors)",
-        `data-tip` = "One-click filter to the 469 EXECUTOR gene-RCD pairs (DeepSeek) — the genes that directly execute cell death.",
+        `data-tip` = "One-click filter to the 367 EXECUTOR gene-RCD pairs (evidence-first) — the genes the verbatim grounds as directly executing cell death.",
         class = "search-evidence-btn", style = "margin-left:auto; height:32px; padding:0 14px; font-size:12.5px;"),
       downloadButton(ns("download_death_core"), "Download death core (CSV)",
-        `data-tip` = "Download the 469 EXECUTOR gene-RCD pairs (DeepSeek, pair-level) as a CSV file with all provenance columns.",
+        `data-tip` = "Download the 367 EXECUTOR gene-RCD pairs (evidence-first, pair-level) as a CSV file with all provenance columns.",
         class = "search-evidence-btn", style = "height:32px; padding:0 14px; font-size:12.5px;")
     ),
     tags$script(HTML(sprintf(
@@ -381,13 +381,13 @@ mod_gene_catalog_server <- function(id) {
     suppress_reset <- reactiveVal(FALSE)
     observeEvent(input$death_core, {
       shinyjs::runjs(sprintf(
-        "var r = document.querySelector('input[name=\"%s\"][value=\"deepseek\"]'); if(r && !r.checked){ r.checked = true; Shiny.setInputValue('%s', 'deepseek', {priority:'event'}); }",
+        "var r = document.querySelector('input[name=\"%s\"][value=\"evidence\"]'); if(r && !r.checked){ r.checked = true; Shiny.setInputValue('%s', 'evidence', {priority:'event'}); }",
         session$ns("source_sel_r"), session$ns("source_sel")))
       dedup_flag(TRUE)
       suppress_reset(TRUE)
       df <- get_genes()
       updateSelectizeInput(session, "f_role",
-        choices = sort(unique(df$cot_role[df$cot_role != ""])),
+        choices = sort(unique(df$final_role[df$final_role != ""])),
         selected = "EXECUTOR")
     })
 
@@ -406,7 +406,7 @@ mod_gene_catalog_server <- function(id) {
       content = function(file) {
         df <- get_genes()
         pairs <- df[!duplicated(paste(df$gene_symbol, df$rcd_form_canonical)), , drop = FALSE]
-        ex <- pairs[pairs$cot_role == "EXECUTOR", , drop = FALSE]
+        ex <- pairs[pairs$final_role == "EXECUTOR", , drop = FALSE]
         write.csv(ex, file, row.names = FALSE)
       }
     )
