@@ -673,9 +673,16 @@ server <- function(input, output, session) {
         if (length(vv) == 0 || is.na(vv) || !nzchar(vv)) {
           return(paste0("<div style='margin-top:8px;padding:10px 12px;background:#f5f5f4;border-radius:8px;font-size:13px;color:#57534e;'><strong>", lbl, ":</strong> Pending (curator verdict not yet returned)</div>"))
         }
-        cmap <- c(DEEPSEEK = "#3949AB", CONSENSUS = "#00897B", UNCLEAR = "#757575", OUT_OF_CONTEXT = "#F59E0B", NEITHER = "#E53935", ERROR = "#57534E")
-        col <- if (vv %in% names(cmap)) cmap[[vv]] else "#9E9E9E"
-        paste0("<div style='margin-top:8px;padding:10px 12px;background:#fafaf9;border:1px solid #e7e5e4;border-radius:8px;font-size:13px;color:#1c1917;'><strong>", lbl, ":</strong> ", vbadge(vv, col), "</div>")
+        # map the source-side vote -> the vocabulary value that source declared
+        v2 <- vv
+        if (vv == "DEEPSEEK") {
+          v2 <- switch(axis_key, role = f(r$cot_role), direction = f(r$cot_direction), f(r$cot_mechanistic))
+        } else if (vv == "CONSENSUS") {
+          v2 <- switch(axis_key, role = f(r$consensus_role), direction = f(r$consensus_direction), f(r$consensus_mechanistic))
+        }
+        cmap <- switch(axis_key, role = role_col, direction = dir_col, c(YES = "#2E7D32", NO = "#9E9E9E", OUT_OF_CONTEXT = "#F59E0B"))
+        col <- if (v2 %in% names(cmap)) cmap[[v2]] else "#9E9E9E"
+        paste0("<div style='margin-top:8px;padding:10px 12px;background:#fafaf9;border:1px solid #e7e5e4;border-radius:8px;font-size:13px;color:#1c1917;'><strong>", lbl, " (voted with ", htmltools::htmlEscape(vv), "):</strong> ", vbadge(v2, col), "</div>")
       }
       fin_line <- paste0(
         "<div style='margin-top:10px;padding:12px 14px;background:#0b1020;border-radius:8px;font-size:13px;color:#fff;'><strong style='color:#fbbf24;'>Human adjudication (evidence-first, the resolution):</strong>",

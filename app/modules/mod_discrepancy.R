@@ -237,8 +237,13 @@ mod_discrepancy_server <- function(id) {
             }
             return("<span style='color:#a8a29e;'>—</span>")
           }
-          col <- if (v %in% names(gpt_col)) gpt_col[[v]] else "#9E9E9E"
-          sprintf("<span style='display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;font-weight:600;color:#fff;background:%s;margin-right:3px;'>%s</span>", col, v)
+          # map the source-side vote -> the vocabulary value that source declared
+          v2 <- v
+          if (v == "DEEPSEEK") v2 <- trimws(as.character(df$ds_val[i]))
+          else if (v == "CONSENSUS") v2 <- trimws(as.character(df$cs_val[i]))
+          col <- axis_col(axis, v2)
+          if (is.null(col)) col <- "#9E9E9E"
+          sprintf("<span title='Voted with %s' style='display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;font-weight:600;color:#fff;background:%s;margin-right:3px;'>%s</span>", v, col, v2)
         }, character(1))
       }
       cur1_cell <- cur_cell(df$cur1_val)
