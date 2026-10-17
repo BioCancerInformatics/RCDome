@@ -23,13 +23,13 @@ The **dome** is RCDome's visual signature. Its cupola rim carries the 53 canonic
 
 | | |
 |---|---|
-| Matrix | **22,473 rows × 94 columns** |
+| Matrix | **22,473 rows × 100 columns** |
 | Unique gene–RCD pairs | **21,568** (+ 905 multi-database corroboration rows) |
 | HGNC-validated genes | **9,265** |
 | Canonicalized RCD-related entities | **53** (from 62 original name strings) |
 | Source databases and resources | **20** |
 | Independent analyses | **3** — DeepSeek · Elicit · Consensus |
-| Executors / regulators / markers / unresolved | 469 / 9,311 / 5 / 11,783 |
+| Executors / regulators / markers / unresolved | 367 / 8,369 / 94 / 11,800 |
 | Direction (promotes / protects) | 5,035 / 4,755 |
 | PMID titles verified against PubMed | **10,141 / 10,141 (100%)** |
 
@@ -39,7 +39,7 @@ The **dome** is RCDome's visual signature. Its cupola rim carries the 53 canonic
   <img src="docs/figures/Figure_1_pipeline.png" width="1100">
 </p>
 
-The pipeline runs in one top-to-bottom workflow: **20 source databases and resources → five compilation channels (A recall · B precision · C AI screening · D manual curation · E Elicit Phase 3) → consolidation → three independent validations (DeepSeek, Elicit, Consensus) → the 94-column matrix → the RCDome web application.**
+The pipeline runs in one top-to-bottom workflow: **20 source databases and resources → five compilation channels (A recall · B precision · C AI screening · D manual curation · E Elicit Phase 3) → consolidation → three independent validations (DeepSeek, Elicit, Consensus) → the 100-column matrix → the RCDome web application.**
 
 ---
 
