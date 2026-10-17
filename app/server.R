@@ -658,6 +658,9 @@ server <- function(input, output, session) {
     cur1 <- ext_lab(r$higor_verdict)
     cur2 <- ext_lab(r$victor_verdict)
 
+    ev_txt <- f(r$deciding_evidence)
+    if (ev_txt != "—" && nchar(ev_txt) > 380) ev_txt <- paste0(substr(ev_txt, 1, 380), "…")
+
     adj_html <- ""
     if (!has_axis) {
       # Full 3-dimension resolution + the seven decisions (Gene Catalog / Network / 3D Dome)
@@ -697,7 +700,7 @@ server <- function(input, output, session) {
         vbadge(f(r$final_mechanistic), fcol(f(r$final_mechanistic), mech_map3)), " <span style='color:#78716c;'>\u00b7</span> ",
         vbadge(f(r$final_role), fcol(f(r$final_role), role_col)), " <span style='color:#78716c;'>\u00b7</span> ",
         vbadge(f(r$final_direction), fcol(f(r$final_direction), dir_col)),
-        "<div style='color:#d6d3d1;margin-top:6px;font-size:12px;'>", htmltools::htmlEscape(f(r$deciding_evidence)), "</div>",
+        "<div style='color:#d6d3d1;margin-top:6px;font-size:12px;'>", htmltools::htmlEscape(ev_txt), "</div>",
         "<div style='color:#a8a29e;margin-top:4px;font-size:11px;'>decision_status: ", htmltools::htmlEscape(status),
         " · evidence_source: ", htmltools::htmlEscape(f(r$evidence_source)),
         if (status == "AGREED_LABEL_ABSTRACT") paste0(" · abstract_check: ", htmltools::htmlEscape(f(r$abstract_check))) else "",
@@ -749,7 +752,7 @@ server <- function(input, output, session) {
       fin_line <- paste0(
         "<div style='margin-top:10px;padding:12px 14px;background:#0b1020;border-radius:8px;font-size:13px;color:#fff;'><strong style='color:#fbbf24;'>Human adjudication (evidence-first, the resolution):</strong>",
         vbadge(fin_val, fin_col),
-        "<div style='color:#d6d3d1;margin-top:6px;font-size:12px;'>", htmltools::htmlEscape(f(r$deciding_evidence)), "</div>",
+        "<div style='color:#d6d3d1;margin-top:6px;font-size:12px;'>", htmltools::htmlEscape(ev_txt), "</div>",
         "<div style='color:#a8a29e;margin-top:4px;font-size:11px;'>decision_status: ", htmltools::htmlEscape(status), " · evidence_source: ", htmltools::htmlEscape(f(r$evidence_source)), "</div></div>"
       )
       adj_html <- paste0(gpt_line, cur_line("Curator 1", cur1), cur_line("Curator 2", cur2), fin_line)
