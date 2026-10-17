@@ -665,24 +665,30 @@ server <- function(input, output, session) {
       fcol <- function(v, map) if (v %in% names(map)) map[[v]] else "#9E9E9E"
       votes_html <- ""
       if (status == "UNIFORM_PIPELINE") {
-        split3 <- function(concat) {
+        vote_line <- function(lbl, concat) {
           concat <- trimws(as.character(concat))
-          out <- c("—", "—", "—")
-          if (length(concat) == 0 || is.na(concat) || !nzchar(concat)) return(out)
+          if (length(concat) == 0 || is.na(concat) || !nzchar(concat)) {
+            return(paste0("<div style='margin-top:8px;padding:10px 12px;background:#fafaf9;border:1px solid #e7e5e4;border-radius:8px;font-size:13px;color:#1c1917;'><strong>", lbl, ":</strong> <span style='color:#a8a29e;'>—</span></div>"))
+          }
           parts <- strsplit(concat, "|", fixed = TRUE)[[1]]
-          if (length(parts) >= 1 && nzchar(trimws(parts[1]))) out[1] <- trimws(parts[1])
-          if (length(parts) >= 2 && nzchar(trimws(parts[2]))) out[2] <- trimws(parts[2])
-          if (length(parts) >= 3 && nzchar(trimws(parts[3]))) out[3] <- trimws(parts[3])
-          out
+          ok <- which(nzchar(trimws(parts)))
+          if (length(ok) == 0) {
+            return(paste0("<div style='margin-top:8px;padding:10px 12px;background:#fafaf9;border:1px solid #e7e5e4;border-radius:8px;font-size:13px;color:#1c1917;'><strong>", lbl, ":</strong> <span style='color:#a8a29e;'>—</span></div>"))
+          }
+          axis <- c("mechanistic", "role", "direction")[ok[1]]
+          src <- trimws(parts[ok[1]])
+          val <- src
+          if (src == "DEEPSEEK") val <- switch(axis, role = f(r$cot_role), direction = f(r$cot_direction), f(r$cot_mechanistic))
+          else if (src == "CONSENSUS") val <- switch(axis, role = f(r$consensus_role), direction = f(r$consensus_direction), f(r$consensus_mechanistic))
+          cmap <- switch(axis, role = role_col, direction = dir_col, c(YES = "#2E7D32", NO = "#9E9E9E", OUT_OF_CONTEXT = "#F59E0B"))
+          col <- if (val %in% names(cmap)) cmap[[val]] else "#9E9E9E"
+          paste0("<div style='margin-top:8px;padding:10px 12px;background:#fafaf9;border:1px solid #e7e5e4;border-radius:8px;font-size:13px;color:#1c1917;'><strong>", lbl, " (voted with ", htmltools::htmlEscape(src), "):</strong> ", vbadge(val, col), "</div>")
         }
-        gpt3 <- split3(r$gpt4o_verdict)
-        c13 <- split3(r$higor_verdict)
-        c23 <- split3(r$victor_verdict)
         votes_html <- paste0(
           "<p style='margin:14px 0 6px;color:#1c1917;'><strong>Votes</strong></p>",
-          verdict_row("GPT", gpt3[2], gpt3[3], gpt3[1], role_col, dir_col),
-          verdict_row("Curator 1", c13[2], c13[3], c13[1], role_col, dir_col),
-          verdict_row("Curator 2", c23[2], c23[3], c23[1], role_col, dir_col)
+          vote_line("GPT", r$gpt4o_verdict),
+          vote_line("Curator 1", r$higor_verdict),
+          vote_line("Curator 2", r$victor_verdict)
         )
       }
       adj_html <- paste0(
