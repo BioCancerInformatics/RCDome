@@ -363,7 +363,8 @@ mod_gene_catalog_server <- function(id) {
 
     # Direction/Role source selector → which analysis's columns to show
     src_cols <- reactive({
-      switch(input$source_sel,
+      src <- if (is.null(input$source_sel) || length(input$source_sel) == 0) "evidence" else input$source_sel
+      switch(src,
         evidence = list(role = "final_role", dir = "final_direction", mech = "final_mechanistic", label = "Evidence-first"),
         deepseek = list(role = "cot_role", dir = "cot_direction", mech = "cot_mechanistic", label = "DeepSeek"),
         consensus = list(role = "consensus_role", dir = "consensus_direction", mech = "consensus_mechanistic", label = "Consensus"),
