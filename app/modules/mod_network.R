@@ -119,8 +119,8 @@ mod_network_ui <- function(id) {
       checkboxGroupInput(
         inputId = ns("edge_sources"),
         label = "Edge classification sources (1 = single, 2+ = compare):",
-        choices = c("DeepSeek" = "deepseek", "Compiled gene role" = "elicit", "Consensus" = "consensus"),
-        selected = "deepseek",
+        choices = c("Evidence-first" = "evidence", "DeepSeek" = "deepseek", "Compiled gene role" = "elicit", "Consensus" = "consensus", "GPT" = "gpt", "Curator 1" = "higor", "Curator 2" = "victor"),
+        selected = "evidence",
         inline = TRUE
       )
     ),
@@ -313,14 +313,17 @@ mod_network_server <- function(
     # ── Edge classification sources (single or multi) ──────────────────────────
     src_list <- reactive({
       s <- input$edge_sources
-      if (is.null(s) || length(s) == 0) s <- "deepseek"
+      if (is.null(s) || length(s) == 0) s <- "evidence"
       lapply(s, function(x) {
-        if (identical(x, "elicit")) list(key = "elicit", label = "Compiled gene role",
-                                          role = "rcd_gene_type", dir = "role_direction")
-        else if (identical(x, "consensus")) list(key = "consensus", label = "Consensus",
-                                                  role = "consensus_role", dir = "consensus_direction")
-        else list(key = "deepseek", label = "DeepSeek",
-                  role = "cot_role", dir = "cot_direction")
+        switch(x,
+          evidence = list(key = "evidence", label = "Evidence-first", role = "final_role", dir = "final_direction"),
+          elicit = list(key = "elicit", label = "Compiled gene role", role = "rcd_gene_type", dir = "role_direction"),
+          consensus = list(key = "consensus", label = "Consensus", role = "consensus_role", dir = "consensus_direction"),
+          gpt = list(key = "gpt", label = "GPT", role = "gpt_mapped_role", dir = "gpt_mapped_dir"),
+          higor = list(key = "higor", label = "Curator 1", role = "higor_mapped_role", dir = "higor_mapped_dir"),
+          victor = list(key = "victor", label = "Curator 2", role = "victor_mapped_role", dir = "victor_mapped_dir"),
+          list(key = "deepseek", label = "DeepSeek", role = "cot_role", dir = "cot_direction")
+        )
       })
     })
 
