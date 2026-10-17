@@ -233,7 +233,13 @@ mod_discrepancy_server <- function(id) {
       cur_cell <- function(vals) {
         vapply(seq_len(n), function(i) {
           v <- trimws(as.character(vals[i]))
-          if (is.na(v) || !nzchar(v)) return("<span style='color:#a8a29e;'>—</span>")
+          if (is.na(v) || !nzchar(v)) {
+            st <- trimws(as.character(df$decision_status[i]))
+            if (!is.na(st) && nzchar(st) && st == "PENDING_DELTA") {
+              return("<span title='Delta row — curator round not yet sent' style='color:#d6d3d1;'>·</span>")
+            }
+            return("<span style='color:#a8a29e;'>—</span>")
+          }
           col <- axis_col(axis, v)
           if (is.null(col)) col <- "#9E9E9E"
           sprintf("<span style='display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;font-weight:600;color:#fff;background:%s;margin-right:3px;'>%s</span>", col, v)
@@ -244,7 +250,13 @@ mod_discrepancy_server <- function(id) {
 
       fin_cell <- vapply(seq_len(n), function(i) {
         v <- trimws(as.character(df$final_val[i]))
-        if (is.na(v) || !nzchar(v)) return("<span style='color:#a8a29e;'>—</span>")
+        if (is.na(v) || !nzchar(v)) {
+          st <- trimws(as.character(df$decision_status[i]))
+          if (!is.na(st) && nzchar(st) && st == "PENDING_DELTA") {
+            return("<span title='Disagreement discovered, but the delta round has not been sent to the curators yet' style='display:inline-block;padding:2px 8px;border:1px dashed #f59e0b;border-radius:999px;font-size:12px;font-weight:600;color:#b45309;background:#fef3c7;'>PENDING</span>")
+          }
+          return("<span style='color:#a8a29e;'>—</span>")
+        }
         ev <- htmltools::htmlEscape(df$deciding_evidence[i] %||% "")
         col <- axis_col(axis, v)
         if (is.null(col)) col <- "#9E9E9E"
