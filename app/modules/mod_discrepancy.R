@@ -30,65 +30,11 @@ mod_discrepancy_server <- function(id) {
   moduleServer(id, function(input, output, session) {
     ns <- session$ns
 
-    # ── Read the disagreement rows straight from the truth matrix (Option B, vectorized) ──
-    extract_label <- function(concat, lab) {
-      concat <- trimws(as.character(concat))
-      out <- rep(NA_character_, length(concat))
-      ok <- !is.na(concat) & nzchar(concat)
-      if (any(ok)) {
-        idx <- match(lab, c("mechanistic", "role", "direction"))
-        parts <- strsplit(concat[ok], "|", fixed = TRUE)
-        out[ok] <- vapply(parts, function(p) if (length(p) >= idx && !is.na(idx)) trimws(p[idx]) else NA_character_, character(1))
-      }
-      out
-    }
+    # ── Adjudicated row set (precomputed RDS: 7,905 Track + Delta rows) ──
     disc_df <- reactive({
-      m <- genes_df[genes_df$decision_status %in% c("UNIFORM_PIPELINE", "PENDING_DELTA"), , drop = FALSE]
-      if (nrow(m) == 0) return(data.frame())
-
-      # GPT reason lookup as a named vector (fast, single pass)
-      gpt_reason <- character(0)
-      files <- list.files(RCD_DISC_DIR, pattern = "\\.csv$", full.names = TRUE)
-      for (f in files) {
-        raw <- tryCatch(read.csv(f, stringsAsFactors = FALSE, fileEncoding = "UTF-8-BOM"),
-                        error = function(e) NULL)
-        if (is.null(raw) || nrow(raw) == 0) next
-        k <- paste(trimws(raw$gene_symbol), trimws(raw$rcd_form_canonical), tolower(trimws(raw$label)), sep = "\r")
-        v <- stats::setNames(trimws(as.character(raw$gpt4o_reason)), k)
-        gpt_reason <- c(gpt_reason, v[!duplicated(names(v))])
-      }
-
-      dis_mech <- !is.na(m$cot_mechanistic) & !is.na(m$consensus_mechanistic) & m$cot_mechanistic != m$consensus_mechanistic
-      dis_role <- !is.na(m$cot_role) & !is.na(m$consensus_role) & m$cot_role != m$consensus_role
-      dis_dir  <- !is.na(m$cot_direction) & !is.na(m$consensus_direction) & m$cot_direction != m$consensus_direction
-
-      mk <- function(idx, lab) {
-        if (length(idx) == 0) return(NULL)
-        key <- paste(as.character(m$name[idx]), as.character(m$Pathway_Categorization[idx]), lab, sep = "\r")
-        reason <- unname(gpt_reason[key])
-        reason[is.na(reason)] <- NA_character_
-        data.frame(
-          gene_symbol = as.character(m$name[idx]),
-          rcd_form_canonical = as.character(m$Pathway_Categorization[idx]),
-          label = lab,
-          ds_val = switch(lab, role = as.character(m$cot_role[idx]), direction = as.character(m$cot_direction[idx]), as.character(m$cot_mechanistic[idx])),
-          cs_val = switch(lab, role = as.character(m$consensus_role[idx]), direction = as.character(m$consensus_direction[idx]), as.character(m$consensus_mechanistic[idx])),
-          el_val = if (lab == "direction") as.character(m$role_direction[idx]) else NA_character_,
-          gpt4o_verdict = extract_label(m$gpt4o_verdict[idx], lab),
-          gpt4o_reason = reason,
-          cur1_val = extract_label(m$higor_verdict[idx], lab),
-          cur2_val = extract_label(m$victor_verdict[idx], lab),
-          final_val = switch(lab, role = as.character(m$final_role[idx]), direction = as.character(m$final_direction[idx]), as.character(m$final_mechanistic[idx])),
-          decision_status = as.character(m$decision_status[idx]),
-          deciding_evidence = as.character(m$deciding_evidence[idx]),
-          stringsAsFactors = FALSE
-        )
-      }
-
-      parts <- list(mk(which(dis_mech), "mechanistic"), mk(which(dis_role), "role"), mk(which(dis_dir), "direction"))
-      df <- do.call(rbind, Filter(Negate(is.null), parts))
-      if (is.null(df) || nrow(df) == 0) return(data.frame())
-      df
+      f <- "data/adjudication/disc_df.rds"
+      if (!file.exists(f)) return(data.frame())
+      tryCatch(readRDS(f), error = function(e) data.frame())
     })
 
     # ── Shared color palettes (same as the Evidence Trail drawer) ──────
