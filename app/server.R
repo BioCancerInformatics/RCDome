@@ -659,7 +659,7 @@ server <- function(input, output, session) {
     } else {
       gpt_line <- ""
       if (!is.null(extra) && !is.null(extra$gpt_verdict) && nzchar(extra$gpt_verdict)) {
-        gpt_col2 <- c(DEEPSEEK = "#3949AB", CONSENSUS = "#00897B", UNCLEAR = "#9E9E9E", OUT_OF_CONTEXT = "#F59E0B", NEITHER = "#E53935", ERROR = "#57534E")
+        gpt_col2 <- c(DEEPSEEK = "#3949AB", CONSENSUS = "#00897B", UNCLEAR = "#757575", OUT_OF_CONTEXT = "#F59E0B", NEITHER = "#E53935", ERROR = "#57534E")
         gpt_bg <- if (extra$gpt_verdict %in% names(gpt_col2)) gpt_col2[[extra$gpt_verdict]] else "#9E9E9E"
         gpt_line <- paste0(
           "<div style='margin-top:14px;padding:10px 12px;background:#fffbeb;border:1px solid #fde68a;border-radius:8px;font-size:13px;color:#1c1917;'><strong>GPT arbitration (",
@@ -673,7 +673,7 @@ server <- function(input, output, session) {
         if (length(vv) == 0 || is.na(vv) || !nzchar(vv)) {
           return(paste0("<div style='margin-top:8px;padding:10px 12px;background:#f5f5f4;border-radius:8px;font-size:13px;color:#57534e;'><strong>", lbl, ":</strong> Pending (curator verdict not yet returned)</div>"))
         }
-        cmap <- c(DEEPSEEK = "#3949AB", CONSENSUS = "#00897B", UNCLEAR = "#9E9E9E", OUT_OF_CONTEXT = "#F59E0B", NEITHER = "#E53935", ERROR = "#57534E")
+        cmap <- c(DEEPSEEK = "#3949AB", CONSENSUS = "#00897B", UNCLEAR = "#757575", OUT_OF_CONTEXT = "#F59E0B", NEITHER = "#E53935", ERROR = "#57534E")
         col <- if (vv %in% names(cmap)) cmap[[vv]] else "#9E9E9E"
         paste0("<div style='margin-top:8px;padding:10px 12px;background:#fafaf9;border:1px solid #e7e5e4;border-radius:8px;font-size:13px;color:#1c1917;'><strong>", lbl, ":</strong> ", vbadge(vv, col), "</div>")
       }

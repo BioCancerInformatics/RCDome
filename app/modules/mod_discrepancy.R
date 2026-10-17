@@ -89,8 +89,8 @@ mod_discrepancy_server <- function(id) {
     role_col <- c(EXECUTOR = "#E53935", REGULATOR = "#3949AB", MARKER = "#00897B", UNCERTAIN = "#9E9E9E")
     dir_col  <- c(PROMOTES = "#2E7D32", PROTECTS = "#1565C0", UNCLEAR = "#757575",
                   ASSOCIATED = "#8E24AA", BIDIRECTIONAL = "#8E24AA")
-    mech_col <- c(YES = "#2E7D32", NO = "#9E9E9E")
-    gpt_col  <- c(DEEPSEEK = "#3949AB", CONSENSUS = "#00897B", UNCLEAR = "#9E9E9E",
+    mech_col <- c(YES = "#2E7D32", NO = "#9E9E9E", OUT_OF_CONTEXT = "#F59E0B")
+    gpt_col  <- c(DEEPSEEK = "#3949AB", CONSENSUS = "#00897B", UNCLEAR = "#757575",
                   OUT_OF_CONTEXT = "#F59E0B", NEITHER = "#E53935", ERROR = "#57534E")
 
     badge <- function(txt, col) {
