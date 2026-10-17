@@ -104,10 +104,15 @@ mod_discrepancy_server <- function(id) {
     }
 
     axis_col <- function(axis, txt) {
-      if (axis == "role")        role_col[[txt]]
-      else if (axis == "direction") dir_col[[txt]]
-      else if (axis == "mechanistic") mech_col[[txt]]
-      else "#9E9E9E"
+      txt <- trimws(as.character(txt))
+      if (length(txt) == 0 || is.na(txt) || !nzchar(txt)) return("#9E9E9E")
+      if (axis == "role") {
+        if (txt %in% names(role_col)) return(role_col[[txt]]) else return("#9E9E9E")
+      } else if (axis == "direction") {
+        if (txt %in% names(dir_col)) return(dir_col[[txt]]) else return("#757575")
+      } else if (axis == "mechanistic") {
+        if (txt %in% names(mech_col)) return(mech_col[[txt]]) else return("#9E9E9E")
+      } else "#9E9E9E"
     }
 
     dots <- function(axis, ds, cs, el) {
