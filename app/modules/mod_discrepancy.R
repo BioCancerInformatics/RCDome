@@ -18,8 +18,10 @@ mod_discrepancy_ui <- function(id) {
         radioButtons(ns("facet"), "Conflict axis", inline = TRUE,
           choices = c("Direction", "Role", "Mechanistic", "All"),
           selected = "Direction"),
-        textInput(ns("search"), NULL, width = "320px",
-                  placeholder = "Filter by gene or RCD entity")
+        selectizeInput(ns("f_gene"), "Gene", choices = NULL, multiple = TRUE, width = "240px",
+                       options = list(placeholder = "All genes")),
+        selectizeInput(ns("f_rcd"), "RCD entity", choices = NULL, multiple = TRUE, width = "240px",
+                       options = list(placeholder = "All entities"))
       ),
       uiOutput(ns("legend")),
       DTOutput(ns("table"))
@@ -94,6 +96,14 @@ mod_discrepancy_server <- function(id) {
       paste(c(rep(dot_span_f(col), filled), rep(dot_span_e(col), total - filled)), collapse = "")
     }
 
+    # ── Populate the gene + entity filter dropdowns ────────────────────
+    observe({
+      df <- disc_df()
+      if (nrow(df) == 0) return()
+      updateSelectizeInput(session, "f_gene", choices = sort(unique(df$gene_symbol)), server = TRUE)
+      updateSelectizeInput(session, "f_rcd", choices = sort(unique(df$rcd_form_canonical)), server = TRUE)
+    })
+
     # ── Filtered frame ──────────────────────────────────────────────────
     facet_df <- reactive({
       df <- disc_df()
@@ -101,12 +111,8 @@ mod_discrepancy_server <- function(id) {
       if (!identical(tolower(input$facet), "all")) {
         df <- df[df$label == tolower(input$facet), , drop = FALSE]
       }
-      q <- trimws(input$search %||% "")
-      if (nzchar(q)) {
-        hit <- grepl(tolower(q), tolower(df$gene_symbol), fixed = TRUE) |
-               grepl(tolower(q), tolower(df$rcd_form_canonical), fixed = TRUE)
-        df <- df[hit, , drop = FALSE]
-      }
+      if (!is.null(input$f_gene) && length(input$f_gene) > 0) df <- df[df$gene_symbol %in% input$f_gene, , drop = FALSE]
+      if (!is.null(input$f_rcd) && length(input$f_rcd) > 0) df <- df[df$rcd_form_canonical %in% input$f_rcd, , drop = FALSE]
       df
     })
 
