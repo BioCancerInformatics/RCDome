@@ -260,7 +260,25 @@ mod_discrepancy_server <- function(id) {
         stringsAsFactors = FALSE, check.names = FALSE
       )
 
+      header <- htmltools::withTags(table(
+        class = "display",
+        thead(
+          tr(
+            th("Pair", title = "Gene × RCD entity — click for the Evidence Trail"),
+            th("DeepSeek", title = "DeepSeek chain-of-thought classifier verdict (Phases 2A–2F)"),
+            th("Elicit", title = "Elicit Phase 3 systematic-review extraction"),
+            th("Consensus", title = "Consensus evidence-channel classification (neutral query, Phase 2G)"),
+            th("Concordance", title = "How many of the three classifiers agree — filled = agree, hollow = differ"),
+            th("GPT", title = "GPT-4o arbitration vote on the conflict"),
+            th("Curator 1", title = "First human curator vote"),
+            th("Curator 2", title = "Second human curator vote"),
+            th("Evidence-first", title = "The final verbatim-grounded resolution (the adjudication)")
+          )
+        )
+      ))
+
       datatable(out, rownames = FALSE, escape = FALSE, selection = "none",
+        container = header,
         options = list(
           pageLength = 15, search = list(regex = TRUE, smart = TRUE),
           language = list(search = "Filter:", zeroRecords = "No rows.")
