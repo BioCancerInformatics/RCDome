@@ -501,7 +501,7 @@ mod_gene_catalog_server <- function(id) {
         "<button type=\"button\" onmousedown=\"event.stopPropagation();\" onclick=\"event.stopPropagation(); Shiny.setInputValue('%s', '%s|%s', {priority:'event'})\" style=\"border:none;background:#1d4ed8;color:#fff;cursor:pointer;font-size:12px;font-weight:600;padding:3px 10px;border-radius:999px;\" title=\"Open the Evidence Trail\">⧈ Trail</button>",
         session$ns("evidence_click"), raw_gene, raw_entity
       )
-      colnames(show) <- c("Gene", "Biotype", "RCD entity", "Cancer Gene", "Confidence Tier", "Mechanistic (DeepSeek)", paste0("Role (", sc$label, ")"), paste0("Direction (", sc$label, ")"), "Source DBs", "Evidence")
+      colnames(show) <- c("Gene", "Biotype", "RCD entity", "Cancer Gene", "Confidence Tier", "Mechanistic (DeepSeek)", paste0("Role (", sc$label, ")"), paste0("Direction (", sc$label, ")"), "Source DBs", "Evidence Trail")
       datatable(show, rownames = FALSE, selection = "none", escape = FALSE,
         options = list(
           pageLength = 15, search = list(regex = TRUE, smart = TRUE),
@@ -517,7 +517,8 @@ mod_gene_catalog_server <- function(id) {
             "    'DeepSeek mechanistic verdict: YES = gene mechanistically participates in this RCD form; NO = association without mechanistic evidence.',",
             "    'DeepSeek role: EXECUTOR = directly executes death; REGULATOR = controls (promotes/inhibits); MARKER = associated but not causal; UNCERTAIN = unresolved.',",
             "    'DeepSeek direction: PROMOTES = favors death; PROTECTS = inhibits death; UNCLEAR = unresolved.',",
-            "    'Semicolon-separated source databases that reported this gene-RCD association (joined provenance).'",
+            "    'Semicolon-separated source databases that reported this gene-RCD association (joined provenance).',",
+            "    'Opens the global Evidence Trail drawer: classifiers, curator votes, and the evidence-first adjudication for this gene-RCD pair.'",
             "  ];",
             "  $('th', thead).each(function(i){ if(tips[i]) $(this).attr('data-tip', tips[i]); });",
             "}"
