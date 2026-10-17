@@ -210,9 +210,14 @@ mod_od_server <- function(id) {
       })
       blocks <- Filter(Negate(is.null), blocks)
 
+      logo_file <- file.path("data/RCD modulo/logo RCDs", paste0(x, ".png"))
+      logo_url <- if (file.exists(logo_file)) paste0("rcd_logos/", URLencode(paste0(x, ".png"), reserved = TRUE)) else ""
+      logo_html <- if (nzchar(logo_url)) sprintf("<img src='%s' style='width:46px;height:46px;object-fit:contain;margin-right:12px;vertical-align:middle;'>", logo_url) else ""
+
       tags$div(
         tags$div(style = "background:#0b1020; color:#e7e5e4; border-radius:12px; padding:22px 24px; margin-bottom:14px;",
           tags$div(
+            HTML(logo_html),
             tags$span(style = paste0("display:inline-block; width:12px; height:12px; border-radius:50%; background:", col, "; margin-right:8px;")),
             tags$strong(x, style = "font-size:18px;")
           ),
