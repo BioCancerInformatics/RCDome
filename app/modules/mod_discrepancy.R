@@ -176,11 +176,11 @@ mod_discrepancy_server <- function(id) {
     # ── Legend ──────────────────────────────────────────────────────────
     output$legend <- renderUI({
       tags$div(style = "margin:4px 0 10px; font-size:12px; color:#57534e;",
-        tags$strong("Concordance: "),
+        tags$strong("Concordance with the resolution: "),
         HTML(paste0(
-          dot_spans(3, 3, "#2E7D32"), " agree \u00b7 ",
-          dot_spans(2, 3, "#F59E0B"), " 2-of-3 \u00b7 ",
-          dot_spans(1, 3, "#E53935"), " discordant"
+          dot_spans(4, 6, "#2E7D32"), " 4–6 of 6 \u00b7 ",
+          dot_spans(2, 6, "#F59E0B"), " 2–3 of 6 \u00b7 ",
+          dot_spans(1, 6, "#E53935"), " 0–1 of 6"
         )),
         tags$span("  \u00b7  GPT: ", HTML(
           paste0(badge("DEEPSEEK", gpt_col["DEEPSEEK"]), badge("CONSENSUS", gpt_col["CONSENSUS"]),
@@ -217,16 +217,34 @@ mod_discrepancy_server <- function(id) {
       }, character(1))
       cs_b <- vapply(seq_len(n), function(i) badge(df$cs_val[i], axis_col(axis, df$cs_val[i])), character(1))
 
+      map_vote <- function(v, ds, cs) {
+        v <- trimws(as.character(v))
+        if (length(v) == 0 || is.na(v) || !nzchar(v)) return(NA_character_)
+        if (v == "DEEPSEEK") return(trimws(as.character(ds)))
+        if (v == "CONSENSUS") return(trimws(as.character(cs)))
+        v
+      }
+      gpt_mapped  <- vapply(seq_len(n), function(i) map_vote(df$gpt4o_verdict[i], df$ds_val[i], df$cs_val[i]), character(1))
+      cur1_mapped <- vapply(seq_len(n), function(i) map_vote(df$cur1_val[i], df$ds_val[i], df$cs_val[i]), character(1))
+      cur2_mapped <- vapply(seq_len(n), function(i) map_vote(df$cur2_val[i], df$ds_val[i], df$cs_val[i]), character(1))
+
       dots_cell <- vapply(seq_len(n), function(i) {
-        d <- dots(axis, df$ds_val[i], df$cs_val[i], df$el_val[i])
-        dot_spans(d$filled, d$total, d$col)
+        votes <- trimws(as.character(df$ds_val[i]))
+        if (axis == "direction") votes <- c(votes, trimws(as.character(df$el_val[i])))
+        votes <- c(votes, trimws(as.character(df$cs_val[i])), gpt_mapped[i], cur1_mapped[i], cur2_mapped[i])
+        votes <- votes[!is.na(votes) & nzchar(votes)]
+        ref <- trimws(as.character(df$final_val[i]))
+        if (is.na(ref) || !nzchar(ref)) return("")
+        agree <- sum(votes == ref)
+        total <- length(votes)
+        col <- if (agree >= 4) "#2E7D32" else if (agree >= 2) "#F59E0B" else "#E53935"
+        dot_spans(agree, total, col)
       }, character(1))
 
       gpt_cell <- vapply(seq_len(n), function(i) {
         v <- trimws(as.character(df$gpt4o_verdict[i]))
-        v2 <- v
-        if (v == "DEEPSEEK") v2 <- trimws(as.character(df$ds_val[i]))
-        else if (v == "CONSENSUS") v2 <- trimws(as.character(df$cs_val[i]))
+        v2 <- gpt_mapped[i]
+        if (is.na(v2) || !nzchar(v2)) v2 <- "—"
         col <- axis_col(axis, v2)
         if (is.null(col)) col <- "#9E9E9E"
         reason <- htmltools::htmlEscape(df$gpt4o_reason[i])
@@ -234,9 +252,9 @@ mod_discrepancy_server <- function(id) {
                 v, reason, col, v2)
       }, character(1))
 
-      cur_cell <- function(vals) {
+      cur_cell <- function(vals_mapped, vals_raw) {
         vapply(seq_len(n), function(i) {
-          v <- trimws(as.character(vals[i]))
+          v <- trimws(as.character(vals_raw[i]))
           if (is.na(v) || !nzchar(v)) {
             st <- trimws(as.character(df$decision_status[i]))
             if (!is.na(st) && nzchar(st) && st == "PENDING_DELTA") {
@@ -244,17 +262,15 @@ mod_discrepancy_server <- function(id) {
             }
             return("<span style='color:#a8a29e;'>—</span>")
           }
-          # map the source-side vote -> the vocabulary value that source declared
-          v2 <- v
-          if (v == "DEEPSEEK") v2 <- trimws(as.character(df$ds_val[i]))
-          else if (v == "CONSENSUS") v2 <- trimws(as.character(df$cs_val[i]))
+          v2 <- trimws(as.character(vals_mapped[i]))
+          if (is.na(v2) || !nzchar(v2)) v2 <- "—"
           col <- axis_col(axis, v2)
           if (is.null(col)) col <- "#9E9E9E"
           sprintf("<span title='Voted with %s' style='display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;font-weight:600;color:#fff;background:%s;margin-right:3px;'>%s</span>", v, col, v2)
         }, character(1))
       }
-      cur1_cell <- cur_cell(df$cur1_val)
-      cur2_cell <- cur_cell(df$cur2_val)
+      cur1_cell <- cur_cell(cur1_mapped, df$cur1_val)
+      cur2_cell <- cur_cell(cur2_mapped, df$cur2_val)
 
       fin_cell <- vapply(seq_len(n), function(i) {
         v <- trimws(as.character(df$final_val[i]))
@@ -293,7 +309,7 @@ mod_discrepancy_server <- function(id) {
             th("DeepSeek", title = "DeepSeek chain-of-thought classifier verdict (Phases 2A–2F)"),
             th("Elicit", title = "Elicit Phase 3 systematic-review extraction"),
             th("Consensus", title = "Consensus evidence-channel classification (neutral query, Phase 2G)"),
-            th("Concordance", title = "How many of the three classifiers agree — filled = agree, hollow = differ"),
+            th("Concordance", title = "How many of the six voters (DeepSeek, Elicit, Consensus, GPT, Curator 1, Curator 2) agree with the evidence-first resolution — filled = agree, hollow = differ"),
             th("GPT", title = "GPT-4o arbitration vote on the conflict"),
             th("Curator 1", title = "First human curator vote"),
             th("Curator 2", title = "Second human curator vote"),
