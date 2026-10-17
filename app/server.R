@@ -585,7 +585,7 @@ server <- function(input, output, session) {
 
     badge <- function(txt, col) sprintf("<span style='display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;font-weight:600;color:#fff;background:%s;margin-right:4px;'>%s</span>", col, txt)
 
-    verdict_row <- function(lbl, role, dir, mech, role_col, dir_col, tip = NULL) {
+    verdict_row <- function(lbl, role, dir, mech, role_col, dir_col, tip = NULL, empty_label = NULL) {
       role_col2 <- if (role %in% names(role_col)) role_col[[role]] else "#9E9E9E"
       dir_col2  <- if (dir %in% names(dir_col)) dir_col[[dir]] else "#757575"
       role_b <- if (role != "—") badge(role, role_col2) else "<span style='color:#a8a29e;'>—</span>"
@@ -594,7 +594,12 @@ server <- function(input, output, session) {
       tip_html <- if (!is.null(tip) && nzchar(tip)) {
         sprintf("<span class='claim-info' tabindex='0' aria-label='About this row' data-tip='%s'>&#9432;</span>", htmltools::htmlEscape(tip))
       } else ""
-      sprintf("<div style='display:flex;align-items:center;gap:8px;padding:8px 0;border-bottom:1px solid #f0efed;'><span style='width:88px;font-weight:700;color:#57534e;font-size:13px;'>%s</span>%s%s%s%s</div>", lbl, tip_html, role_b, dir_b, mech_b)
+      body <- if (!is.null(empty_label) && role == "—" && dir == "—" && mech == "—") {
+        sprintf("<span style='color:#a8a29e;font-size:12px;font-weight:500;'>%s</span>", empty_label)
+      } else {
+        paste0(role_b, dir_b, mech_b)
+      }
+      sprintf("<div style='display:flex;align-items:center;gap:8px;padding:8px 0;border-bottom:1px solid #f0efed;'><span style='width:88px;font-weight:700;color:#57534e;font-size:13px;'>%s</span>%s%s</div>", lbl, tip_html, body)
     }
 
     role_col <- c(EXECUTOR = "#E53935", REGULATOR = "#3949AB", MARKER = "#00897B", UNCERTAIN = "#9E9E9E")
@@ -615,7 +620,8 @@ server <- function(input, output, session) {
       logo_html_d, g, e, f(r$evidence_tier), f(r$num_sources), ds_p, el_p, pm_links,
       verdict_row("DeepSeek", f(r$cot_role), f(r$cot_direction), f(r$cot_mechanistic), role_col, dir_col),
       verdict_row("Compiled gene role", f(r$rcd_gene_type), f(r$role_direction), "—", role_col, dir_col,
-                  tip = "Source-compiled role/direction from the extraction channels (A–D), before the independent validations. Empty (—) = the source databases made no pre-evaluation claim for this pair."),
+                  tip = "Source-compiled role/direction from the extraction channels (A–D), before the independent validations. Empty = the source databases made no pre-evaluation claim for this pair.",
+                  empty_label = "NO_SOURCE_ANNOTATION"),
       verdict_row("Consensus", f(r$consensus_role), f(r$consensus_direction), f(r$consensus_mechanistic), role_col, dir_col)
     )
 
