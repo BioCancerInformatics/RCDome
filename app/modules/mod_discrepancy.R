@@ -293,10 +293,10 @@ mod_discrepancy_server <- function(id) {
         DeepSeek = ds_b,
         Elicit = el_b,
         Consensus = cs_b,
-        Concordance = dots_cell,
         GPT = gpt_cell,
         `Curator 1` = cur1_cell,
         `Curator 2` = cur2_cell,
+        Concordance = dots_cell,
         `Evidence-first` = fin_cell,
         stringsAsFactors = FALSE, check.names = FALSE
       )
@@ -309,10 +309,10 @@ mod_discrepancy_server <- function(id) {
             th("DeepSeek", title = "DeepSeek chain-of-thought classifier verdict (Phases 2A–2F)"),
             th("Elicit", title = "Elicit Phase 3 systematic-review extraction"),
             th("Consensus", title = "Consensus evidence-channel classification (neutral query, Phase 2G)"),
-            th("Concordance", title = "How many of the six voters (DeepSeek, Elicit, Consensus, GPT, Curator 1, Curator 2) agree with the evidence-first resolution — filled = agree, hollow = differ"),
             th("GPT", title = "GPT-4o arbitration vote on the conflict"),
             th("Curator 1", title = "First human curator vote"),
             th("Curator 2", title = "Second human curator vote"),
+            th("Concordance", title = "How many of the six voters (DeepSeek, Elicit, Consensus, GPT, Curator 1, Curator 2) agree with the evidence-first resolution — filled = agree, hollow = differ"),
             th("Evidence-first", title = "The final verbatim-grounded resolution (the adjudication)")
           )
         )
