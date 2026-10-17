@@ -30,7 +30,7 @@ The **dome** is RCDome's visual signature. Its cupola rim carries the 53 canonic
 | Source databases and resources | **20** |
 | Independent analyses | **3** — DeepSeek · Elicit · Consensus |
 | Executors / regulators / markers / unresolved | 469 / 9,311 / 5 / 11,783 |
-| Direction (promotes / protects) | 5,070 / 4,755 |
+| Direction (promotes / protects) | 5,035 / 4,755 |
 | PMID titles verified against PubMed | **10,141 / 10,141 (100%)** |
 
 ## 🧭 Conceptual framework
