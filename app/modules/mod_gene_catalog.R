@@ -71,12 +71,12 @@ mod_gene_catalog_ui <- function(id) {
       tags$label(
         `data-tip` = "Higor's (Curator 1) vote, mapped to the source he sided with (DEEPSEEK → DeepSeek value, CONSENSUS → Consensus value).",
         style = "margin:0 0 0 14px; display:inline-flex; align-items:center; gap:5px; cursor:pointer; font-weight:400; font-size:14px;",
-        tags$input(type = "radio", name = ns("source_sel_r"), value = "higor", style = "margin:0;"),
+        tags$input(type = "radio", name = ns("source_sel_r"), value = "curator_1", style = "margin:0;"),
         "Curator 1"),
       tags$label(
         `data-tip` = "Victor's (Curator 2) vote, mapped to the source he sided with (DEEPSEEK → DeepSeek value, CONSENSUS → Consensus value).",
         style = "margin:0 0 0 14px; display:inline-flex; align-items:center; gap:5px; cursor:pointer; font-weight:400; font-size:14px;",
-        tags$input(type = "radio", name = ns("source_sel_r"), value = "victor", style = "margin:0;"),
+        tags$input(type = "radio", name = ns("source_sel_r"), value = "curator_2", style = "margin:0;"),
         "Curator 2"),
       tags$label(
         `data-tip` = "Evidence-first resolution — the final verbatim-grounded verdict. Role: EXECUTOR/REGULATOR/MARKER/UNCERTAIN · Direction: PROMOTES/PROTECTS/UNCLEAR.",
@@ -370,8 +370,8 @@ mod_gene_catalog_server <- function(id) {
         consensus = list(role = "consensus_role", dir = "consensus_direction", mech = "consensus_mechanistic", label = "Consensus"),
         elicit = list(role = "rcd_gene_type", dir = "role_direction", mech = "cot_mechanistic", label = "Compiled gene role"),
         gpt = list(role = "gpt_mapped_role", dir = "gpt_mapped_dir", mech = "cot_mechanistic", label = "GPT"),
-        higor = list(role = "higor_mapped_role", dir = "higor_mapped_dir", mech = "cot_mechanistic", label = "Curator 1"),
-        victor = list(role = "victor_mapped_role", dir = "victor_mapped_dir", mech = "cot_mechanistic", label = "Curator 2"),
+        curator_1 = list(role = "curator_1_mapped_role", dir = "curator_1_mapped_dir", mech = "cot_mechanistic", label = "Curator 1"),
+        curator_2 = list(role = "curator_2_mapped_role", dir = "curator_2_mapped_dir", mech = "cot_mechanistic", label = "Curator 2"),
         list(role = "final_role", dir = "final_direction", mech = "final_mechanistic", label = "Evidence-first")
       )
     })
