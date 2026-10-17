@@ -497,11 +497,21 @@ mod_gene_catalog_server <- function(id) {
       show[[sc$role]] <- rc_pill(show[[sc$role]], role_class(show[[sc$role]]))
       show[[sc$dir]] <- rc_pill(show[[sc$dir]], direction_class(show[[sc$dir]]))
       show$rcdome_level_name <- NULL
+      ef_badge <- function(v, col) sprintf("<span style='display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;font-weight:600;color:#fff;background:%s;margin-right:3px;'>%s</span>", col, v)
+      show$evidence_first <- vapply(seq_len(nrow(df)), function(i) {
+        m <- df$final_mechanistic[i]; ro <- df$final_role[i]; di <- df$final_direction[i]
+        mc <- if (m == "YES") "#2E7D32" else if (m == "OUT_OF_CONTEXT") "#F59E0B" else "#9E9E9E"
+        rc <- c(EXECUTOR = "#E53935", REGULATOR = "#3949AB", MARKER = "#00897B", UNCERTAIN = "#9E9E9E")
+        dc <- c(PROMOTES = "#2E7D32", PROTECTS = "#1565C0", UNCLEAR = "#757575")
+        rcc <- if (ro %in% names(rc)) rc[[ro]] else "#9E9E9E"
+        dcc <- if (di %in% names(dc)) dc[[di]] else "#757575"
+        paste0(ef_badge(m, mc), ef_badge(ro, rcc), ef_badge(di, dcc))
+      }, character(1))
       show$evidence <- sprintf(
         "<button type=\"button\" onmousedown=\"event.stopPropagation();\" onclick=\"event.stopPropagation(); Shiny.setInputValue('%s', '%s|%s', {priority:'event'})\" style=\"border:none;background:#1d4ed8;color:#fff;cursor:pointer;font-size:12px;font-weight:600;padding:3px 10px;border-radius:999px;\" title=\"Open the Evidence Trail\">⧈ Trail</button>",
         session$ns("evidence_click"), raw_gene, raw_entity
       )
-      colnames(show) <- c("Gene", "Biotype", "RCD entity", "Cancer Gene", "Confidence Tier", "Mechanistic (DeepSeek)", paste0("Role (", sc$label, ")"), paste0("Direction (", sc$label, ")"), "Source DBs", "Evidence Trail")
+      colnames(show) <- c("Gene", "Biotype", "RCD entity", "Cancer Gene", "Confidence Tier", "Mechanistic (DeepSeek)", paste0("Role (", sc$label, ")"), paste0("Direction (", sc$label, ")"), "Evidence-first", "Source DBs", "Evidence Trail")
       datatable(show, rownames = FALSE, selection = "none", escape = FALSE,
         options = list(
           pageLength = 15, search = list(regex = TRUE, smart = TRUE),
@@ -518,6 +528,7 @@ mod_gene_catalog_server <- function(id) {
             "    'DeepSeek role: EXECUTOR = directly executes death; REGULATOR = controls (promotes/inhibits); MARKER = associated but not causal; UNCERTAIN = unresolved.',",
             "    'DeepSeek direction: PROMOTES = favors death; PROTECTS = inhibits death; UNCLEAR = unresolved.',",
             "    'Semicolon-separated source databases that reported this gene-RCD association (joined provenance).',",
+            "    'Final three-dimension evidence-first resolution (mechanistic · role · direction), read from the verbatim.',",
             "    'Opens the global Evidence Trail drawer: classifiers, curator votes, and the evidence-first adjudication for this gene-RCD pair.'",
             "  ];",
             "  $('th', thead).each(function(i){ if(tips[i]) $(this).attr('data-tip', tips[i]); });",
