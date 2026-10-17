@@ -223,11 +223,15 @@ mod_discrepancy_server <- function(id) {
       }, character(1))
 
       gpt_cell <- vapply(seq_len(n), function(i) {
-        v <- df$gpt4o_verdict[i]
-        col <- if (v %in% names(gpt_col)) gpt_col[[v]] else "#9E9E9E"
+        v <- trimws(as.character(df$gpt4o_verdict[i]))
+        v2 <- v
+        if (v == "DEEPSEEK") v2 <- trimws(as.character(df$ds_val[i]))
+        else if (v == "CONSENSUS") v2 <- trimws(as.character(df$cs_val[i]))
+        col <- axis_col(axis, v2)
+        if (is.null(col)) col <- "#9E9E9E"
         reason <- htmltools::htmlEscape(df$gpt4o_reason[i])
-        sprintf("<span title='%s' style='display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;font-weight:600;color:#fff;background:%s;'>%s</span>",
-                reason, col, v)
+        sprintf("<span title='GPT sided with %s — %s' style='display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;font-weight:600;color:#fff;background:%s;'>%s</span>",
+                v, reason, col, v2)
       }, character(1))
 
       cur_cell <- function(vals) {

@@ -659,12 +659,19 @@ server <- function(input, output, session) {
     } else {
       gpt_line <- ""
       if (!is.null(extra) && !is.null(extra$gpt_verdict) && nzchar(extra$gpt_verdict)) {
-        gpt_col2 <- c(DEEPSEEK = "#3949AB", CONSENSUS = "#00897B", UNCLEAR = "#757575", OUT_OF_CONTEXT = "#F59E0B", NEITHER = "#E53935", ERROR = "#57534E")
-        gpt_bg <- if (extra$gpt_verdict %in% names(gpt_col2)) gpt_col2[[extra$gpt_verdict]] else "#9E9E9E"
+        gpt_v <- trimws(extra$gpt_verdict)
+        gpt_v2 <- gpt_v
+        if (gpt_v == "DEEPSEEK") {
+          gpt_v2 <- switch(axis_key, role = f(r$cot_role), direction = f(r$cot_direction), f(r$cot_mechanistic))
+        } else if (gpt_v == "CONSENSUS") {
+          gpt_v2 <- switch(axis_key, role = f(r$consensus_role), direction = f(r$consensus_direction), f(r$consensus_mechanistic))
+        }
+        gpt_map <- switch(axis_key, role = role_col, direction = dir_col, c(YES = "#2E7D32", NO = "#9E9E9E", OUT_OF_CONTEXT = "#F59E0B"))
+        gpt_bg <- if (gpt_v2 %in% names(gpt_map)) gpt_map[[gpt_v2]] else "#9E9E9E"
         gpt_line <- paste0(
           "<div style='margin-top:14px;padding:10px 12px;background:#fffbeb;border:1px solid #fde68a;border-radius:8px;font-size:13px;color:#1c1917;'><strong>GPT arbitration (",
-          axis_label, "):</strong> ",
-          sprintf("<span style='display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;font-weight:600;color:#fff;background:%s;margin-left:4px;'>%s</span>", gpt_bg, extra$gpt_verdict),
+          axis_label, " — sided with ", htmltools::htmlEscape(gpt_v), "):</strong> ",
+          sprintf("<span style='display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;font-weight:600;color:#fff;background:%s;margin-left:4px;'>%s</span>", gpt_bg, gpt_v2),
           "<div style='color:#57534e;margin-top:6px;'>", htmltools::htmlEscape(trimws(extra$gpt_reason %||% "")), "</div></div>"
         )
       }
