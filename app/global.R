@@ -109,9 +109,12 @@ rcd_counts <- tryCatch({
     n_pairs = nrow(g),
     mech_yes = sum(g$cot_mechanistic == "YES", na.rm = TRUE),
     role_exec = sum(g$cot_role == "EXECUTOR", na.rm = TRUE),
-    role_reg = sum(g$cot_role == "REGULATOR", na.rm = TRUE)
+    role_reg = sum(g$cot_role == "REGULATOR", na.rm = TRUE),
+    ef_mech = sum(g$final_mechanistic == "YES", na.rm = TRUE),
+    ef_exec = sum(g$final_role == "EXECUTOR", na.rm = TRUE),
+    ef_reg = sum(g$final_role == "REGULATOR", na.rm = TRUE)
   )
-}, error = function(e) list(n_genes = 0, n_pairs = 0, mech_yes = 0, role_exec = 0, role_reg = 0))
+}, error = function(e) list(n_genes = 0, n_pairs = 0, mech_yes = 0, role_exec = 0, role_reg = 0, ef_mech = 0, ef_exec = 0, ef_reg = 0))
 
 # ── HGNC gene metadata (name, location, HGNC id, Entrez id) ──────────────────
 # Used by the Network gene pop-up for external links + the gene name summary.
