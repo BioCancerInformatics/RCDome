@@ -1,7 +1,7 @@
-# RCDome Figure 4: 53-entity coverage — log2 bars + REAL gene count labels (V026)
+# RCDome Figure 4: 53-entity coverage — log2 bars + REAL gene count labels (V027)
 library(magick)
 
-df <- readRDS('D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript/output databases/Phase 2C output/unified_gene_rcd_matrix_V026.rds')
+df <- readRDS('D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript/output databases/Phase 2C output/unified_gene_rcd_matrix_V027.rds')
 
 agg <- aggregate(gene_symbol ~ rcd_form_canonical + rcdome_level, data = df,
                  FUN = function(x) length(unique(x)))
@@ -57,4 +57,4 @@ img <- image_read('tmp_entity.png', density = '600x600')
 image_write(img, path = paste0(out, '.tiff'), format = 'tiff', compression = 'lzw')
 file.copy('tmp_entity.png', paste0(out, '.png'), overwrite = TRUE)
 file.remove('tmp_entity.png')
-cat('Figure 4 regenerated (V026)\n')
+cat('Figure 4 regenerated (V027)\n')
