@@ -7,14 +7,14 @@ validate_data_files <- function(data_dir = "data", board_dir = "board", www_dir 
     if (!isTRUE(cond)) issues <<- c(issues, msg)
   }
 
-  # matrix RDS (22,473 x 82)
+  # matrix RDS (22,473 x 94: 83 original + 11 additive adjudication columns)
   f <- file.path(data_dir, "unified_gene_rcd_matrix_V027.rds")
   if (file.exists(f)) {
     m <- tryCatch(readRDS(f), error = function(e) NULL)
     if (is.null(m)) {
       chk(FALSE, "matrix RDS failed to load")
     } else {
-      chk(ncol(m) == 94, sprintf("matrix RDS: %d columns (expected 94)", ncol(m)))
+      chk(ncol(m) == 100, sprintf("matrix RDS: %d columns (expected 100)", ncol(m)))
       chk(nrow(m) == 22473, sprintf("matrix RDS: %d rows (expected 22,473)", nrow(m)))
     }
   } else chk(FALSE, "missing data/unified_gene_rcd_matrix_V027.rds")
@@ -27,7 +27,7 @@ validate_data_files <- function(data_dir = "data", board_dir = "board", www_dir 
       chk(FALSE, "decoder CSV failed to load")
     } else {
       chk(nrow(d) == 53, sprintf("decoder CSV: %d rows (expected 53)", nrow(d)))
-      chk(ncol(d) == 39, sprintf("decoder CSV: %d columns (expected 39)", ncol(d)))
+      chk(ncol(d) == 42, sprintf("decoder CSV: %d columns (expected 42)", ncol(d)))
     }
   } else chk(FALSE, "missing data/RCDome_Decoder_53.csv")
 
