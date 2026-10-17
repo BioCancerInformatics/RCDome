@@ -30,7 +30,7 @@ mod_discrepancy_server <- function(id) {
   moduleServer(id, function(input, output, session) {
     ns <- session$ns
 
-    # ── Load + join the four GPT-vote CSVs with the V027 matrix ─────────
+    # ── Read the disagreement rows straight from the truth matrix (Option B) ──
     extract_label <- function(concat, lab) {
       if (is.null(concat) || is.na(concat) || !nzchar(trimws(concat))) return(NA_character_)
       parts <- strsplit(trimws(concat), "|", fixed = TRUE)[[1]]
@@ -39,50 +39,55 @@ mod_discrepancy_server <- function(id) {
       trimws(parts[idx])
     }
     disc_df <- reactive({
+      m <- genes_df[genes_df$decision_status %in% c("UNIFORM_PIPELINE", "PENDING_DELTA"), , drop = FALSE]
+      if (nrow(m) == 0) return(data.frame())
+
+      # GPT reason lookup from the CSVs (only the reasoning text, never the row set)
+      gpt_reason_map <- new.env(hash = TRUE, parent = emptyenv())
       files <- list.files(RCD_DISC_DIR, pattern = "\\.csv$", full.names = TRUE)
-      if (length(files) == 0) return(data.frame())
-      raw <- do.call(rbind, lapply(files, function(f) {
-        tryCatch(read.csv(f, stringsAsFactors = FALSE, fileEncoding = "UTF-8-BOM"),
-                 error = function(e) NULL)
-      }))
-      if (is.null(raw) || nrow(raw) == 0) return(data.frame())
+      for (f in files) {
+        raw <- tryCatch(read.csv(f, stringsAsFactors = FALSE, fileEncoding = "UTF-8-BOM"),
+                        error = function(e) NULL)
+        if (is.null(raw) || nrow(raw) == 0) next
+        k <- paste(trimws(raw$gene_symbol), trimws(raw$rcd_form_canonical), tolower(trimws(raw$label)), sep = "\r")
+        v <- trimws(as.character(raw$gpt4o_reason))
+        for (j in seq_along(k)) assign(k[j], v[j], envir = gpt_reason_map)
+      }
 
-      raw$gene_symbol        <- trimws(as.character(raw$gene_symbol))
-      raw$rcd_form_canonical <- trimws(as.character(raw$rcd_form_canonical))
-      raw$label              <- tolower(trimws(as.character(raw$label)))
-      raw$gpt4o_verdict      <- trimws(as.character(raw$gpt4o_verdict))
-      raw$gpt4o_reason       <- trimws(as.character(raw$gpt4o_reason))
-
-      key  <- paste(raw$gene_symbol, raw$rcd_form_canonical, sep = "\r")
-      mkey <- paste(genes_df$name, genes_df$Pathway_Categorization, sep = "\r")
-      idx  <- match(key, mkey)
-      ok   <- !is.na(idx)
-
-      raw$ds_val <- NA_character_
-      raw$cs_val <- NA_character_
-      raw$el_val <- NA_character_
-      raw$final_val <- NA_character_
-      raw$cur1_val <- NA_character_
-      raw$cur2_val <- NA_character_
-      raw$decision_status <- NA_character_
-      raw$deciding_evidence <- NA_character_
-      lab <- raw$label[ok]
-      raw$ds_val[ok] <- ifelse(lab == "role",        as.character(genes_df$cot_role[idx[ok]]),
-                        ifelse(lab == "direction",   as.character(genes_df$cot_direction[idx[ok]]),
-                        ifelse(lab == "mechanistic", as.character(genes_df$cot_mechanistic[idx[ok]]), NA)))
-      raw$cs_val[ok] <- ifelse(lab == "role",        as.character(genes_df$consensus_role[idx[ok]]),
-                        ifelse(lab == "direction",   as.character(genes_df$consensus_direction[idx[ok]]),
-                        ifelse(lab == "mechanistic", as.character(genes_df$consensus_mechanistic[idx[ok]]), NA)))
-      raw$el_val[ok] <- ifelse(lab == "direction", as.character(genes_df$role_direction[idx[ok]]), NA_character_)
-      raw$final_val[ok] <- ifelse(lab == "role",        as.character(genes_df$final_role[idx[ok]]),
-                           ifelse(lab == "direction",   as.character(genes_df$final_direction[idx[ok]]),
-                           ifelse(lab == "mechanistic", as.character(genes_df$final_mechanistic[idx[ok]]), NA)))
-      raw$cur1_val[ok] <- vapply(which(ok), function(j) extract_label(genes_df$higor_verdict[idx[j]], lab[j]), character(1))
-      raw$cur2_val[ok] <- vapply(which(ok), function(j) extract_label(genes_df$victor_verdict[idx[j]], lab[j]), character(1))
-      raw$decision_status[ok] <- as.character(genes_df$decision_status[idx[ok]])
-      raw$deciding_evidence[ok] <- as.character(genes_df$deciding_evidence[idx[ok]])
-
-      raw[ok, , drop = FALSE]
+      labs_ok <- c("mechanistic", "role", "direction")
+      rows <- lapply(seq_len(nrow(m)), function(i) {
+        x <- m[i, , drop = FALSE]
+        dis <- labs_ok[c(
+          !is.na(x$cot_mechanistic) && !is.na(x$consensus_mechanistic) && x$cot_mechanistic != x$consensus_mechanistic,
+          !is.na(x$cot_role) && !is.na(x$consensus_role) && x$cot_role != x$consensus_role,
+          !is.na(x$cot_direction) && !is.na(x$consensus_direction) && x$cot_direction != x$consensus_direction
+        )]
+        if (length(dis) == 0) return(NULL)
+        do.call(rbind, lapply(dis, function(lab) {
+          key <- paste(as.character(x$name), as.character(x$Pathway_Categorization), lab, sep = "\r")
+          reason <- tryCatch(get(key, envir = gpt_reason_map), error = function(e) NA_character_)
+          if (length(reason) == 0 || is.na(reason)) reason <- NA_character_
+          data.frame(
+            gene_symbol = as.character(x$name),
+            rcd_form_canonical = as.character(x$Pathway_Categorization),
+            label = lab,
+            ds_val = switch(lab, role = as.character(x$cot_role), direction = as.character(x$cot_direction), as.character(x$cot_mechanistic)),
+            cs_val = switch(lab, role = as.character(x$consensus_role), direction = as.character(x$consensus_direction), as.character(x$consensus_mechanistic)),
+            el_val = if (lab == "direction") as.character(x$role_direction) else NA_character_,
+            gpt4o_verdict = extract_label(x$gpt4o_verdict, lab),
+            gpt4o_reason = reason,
+            cur1_val = extract_label(x$higor_verdict, lab),
+            cur2_val = extract_label(x$victor_verdict, lab),
+            final_val = switch(lab, role = as.character(x$final_role), direction = as.character(x$final_direction), as.character(x$final_mechanistic)),
+            decision_status = as.character(x$decision_status),
+            deciding_evidence = as.character(x$deciding_evidence),
+            stringsAsFactors = FALSE
+          )
+        }))
+      })
+      df <- do.call(rbind, rows)
+      if (is.null(df) || nrow(df) == 0) return(data.frame())
+      df
     })
 
     # ── Shared color palettes (same as the Evidence Trail drawer) ──────
