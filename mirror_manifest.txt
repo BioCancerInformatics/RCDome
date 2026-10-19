@@ -1,7 +1,7 @@
 # RCDome GitHub mirror manifest — V027 (truth snapshot)
 # sha256  |  size  |  mirror path  <-  source path
 
-5692071e020ba60e8412bd6e23d35320ac2837359a861b59d82bdbd0cb31c1a9      108294  RCDome_manuscript_governance_V027.docx  <-  manuscript_V027\RCDome_manuscript_governance_V027.docx
+476df6032044c07266de4858149dfbe63839a6bd14975c9169cab8f9a5586a9f      103797  RCDome_manuscript_governance_V027.docx  <-  manuscript_V027\RCDome_manuscript_governance_V027.docx
 2e6ff01c19624549769a6d336a7fa2dd94f3be618519437e2e81b1450680e0e6       90910  RCDome_manuscript_V027_supplementary_information.docx  <-  manuscript_V027\RCDome_manuscript_V027_supplementary_information.docx
 6d2f434d2a09f13c8c805f4c09519f02fe2f6d32b9539c2bb24583b627abf785      867883  RCDome_manuscript_V027_supplementary_tables.xlsx  <-  manuscript_V027\RCDome_manuscript_V027_supplementary_tables.xlsx
 4508ec2da7366f0fbf658ae0520b6c3e023f225ed659d680bfe325251e7a5c8f       37744  RCDome_53_canonical_entities.docx  <-  manuscript_V027\RCDome_53_canonical_entities.docx
