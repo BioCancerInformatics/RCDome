@@ -1,28 +1,28 @@
 # RCDome — Collaborator Distribution (copy-only, intentional files only)
 
-This folder reproduces the **live** RCDome Shiny app (the 9 visible tabs), assembled by **copying** from the developer's reference app. The developer's original app was **not** modified. Vestigial signatures/omics/papers/bodymap leftovers are excluded.
+This folder reproduces the **live** RCDome Shiny app (Home dome, Explore RCDome, Operational Definitions, Compare Definitions, RCD entities, Gene Catalog, Discrepancy Radar, Discovery Timeline, 3D RCDome, Digital Molecular RCD Board, Network, About), assembled by **copying** from the developer's reference app. The developer's original app was **not** modified. Vestigial signatures/omics/papers/bodymap leftovers are excluded.
 
 ## 1. What you received
 
 - `ui.R`, `server.R`, `global.R`, `run.R` — Shiny entry points
 - `R/` — helpers (utils, pathways, rcd_modal) + `R/validate_data_files.R` (pre-flight validation)
-- `data/gene_info_lookup.json` — 9,264 NCBI Gene summaries for the gene-page "Gene information" block
-- `modules/` — all 13 module files (only 6 are live; the rest are sourced but unrendered)
+- `data/gene_info_lookup.json` — 9,265 NCBI Gene summaries for the gene-page "Gene information" block
+- `modules/` — all 13 module files (all live)
 - `www/` — landing, explore, detail, logos, JS
 - `board/` — Digital Molecular Board (DeepSeek) prompt, governance, benchmarks
 - `data/` — matrix, decoder, HGNC set, RCD modulo (logos/figures/videos/descriptions/references), about (photos/data-sources/see-also), omic (3 lazy sub-tab tables)
 
-## 1b. Included deliverables (V026_8)
+## 1b. Included deliverables
 
-- **Ontology**: 53 canonicalized RCD-related entities, final distribution **L1 = 19, L2 = 7, L3 = 2, L4 = 13, L5 = 12** (Victor V026 auditoria, evidence-based BG0–BG6 re-adjudications).
-- **Nomenclature harmonized**: MC1–MC5 (modality criteria), RS1–RS6 (ranking score), QG1–QG5 (quality gates), ET1–ET4 (evidence tier), CT1–CT4 (confidence tier).
+- **Ontology**: 53 canonicalized RCD-related entities, final distribution **L1 = 19, L2 = 7, L3 = 2, L4 = 13, L5 = 12** (Victor V027 auditoria, evidence-based BG0–BG6 re-adjudications).
+- **Nomenclature harmonized**: MC1–MC5 (modality criteria), RS1–RS6 (ranking score), EG1–EG5 (Elicit governance gates), ET1–ET4 (evidence tier), CT1–CT4 (confidence tier).
 - **Supplementary Figure S1**: English infographic “Evaluation architecture of RCDome” (600 dpi) — the three evaluation objects (RCD entity, gene–RCD association, pipeline quality) with their gates, tiers, and levels.
 - **Supplementary figures renumbered by first citation**: S1 = evaluation architecture (new) · S2 = database contribution (was S1) · S3 = mechanistic associations per source (was S2).
-- **Manuscript package** in `manuscript/`: governance manuscript, supplementary information, supplementary tables (Excel) — the V026 versions — plus `manuscript/figures/` with the three supplementary figures (PNG/PDF/TIFF + data CSVs).
+- **Manuscript package** in `manuscript/`: governance manuscript, supplementary information, supplementary tables (Excel) — the V027 versions — plus `manuscript/figures/` with the three supplementary figures (PNG/PDF/TIFF + data CSVs).
 
-## 2. Already configured — just run
+## 2. Already configured — just run (no password, no secrets)
 
-The DeepSeek API key is already present in `.Renviron`, and the email credentials in `data/email_creds.txt`, so the app runs immediately after unzipping. To use your own key instead, edit `.Renviron` (a template is kept at `.Renviron.example`).
+The app runs immediately after unzipping. There is no password and no secret file inside the ZIP: the developer API key and email credentials are intentionally NOT shipped to coauthors. The core app (Home dome, Explore RCDome, Operational Definitions, Compare Definitions, RCD entities, Gene Catalog, Discrepancy Radar, Discovery Timeline, 3D RCDome, Digital Molecular RCD Board, Network, About) runs as-is. The AI features that call external services (Digital Molecular Board chat, Elicit, Consensus) will show a notice until you add your own key. To enable them, create `.Renviron` with `DEEPSEEK_API_KEY=...` (template at `.Renviron.example`) and, if email sending is used, `data/email_creds.txt` (template at `data/email_creds.txt.example`).
 
 ## 3. R packages
 
@@ -56,4 +56,4 @@ The app runs `validate_data_files()` at startup — it verifies every bundled as
 
 - Reference: `Shiny app/RCDome_Atlas/APP` (untouched).
 - Audit: `Shiny app/Emanuell versions/RCDome_App_LineByLine_INTENTIONAL_vs_VESTIGIAL.md`.
-- ZIP: `RCDome_V026_distribution.zip`.
+- ZIP: `RCDome_V027_distribution.zip`.

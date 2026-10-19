@@ -12,7 +12,7 @@ from audit_canonical import (scrub_governance_violations, audit_report,
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PROMPT = open(BASE + "/board/RCD_Board_DeepSeek_Prompt.md", encoding="utf-8").read()
-m = pd.read_csv(BASE + "/data/unified_gene_rcd_matrix_V026.csv", low_memory=False)
+m = pd.read_csv(BASE + "/data/unified_gene_rcd_matrix_V027.csv", low_memory=False)
 d = pd.read_csv(BASE + "/data/RCDome_Decoder_53.csv")
 
 gene, entity = "GPX4", "Ferroptosis"

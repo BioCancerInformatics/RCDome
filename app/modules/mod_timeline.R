@@ -30,7 +30,7 @@ mod_timeline_ui <- function(id) {
     ")),
     div(style = "max-width:1200px; margin:0 auto; padding:20px;",
       h2("Discovery Timeline", style = "font-weight:700; color:#1c1917;"),
-      p("From 1859 to 2026: the 53 RCD-related entities plotted by founding year, one lane per ontological level. Hover a point for its founding citation; click it to open the discovery card.",
+      p("From 1859 to 2025: the 53 RCD-related entities plotted by founding year, one lane per ontological level. Hover a point for its founding citation; click it to open the discovery card.",
         style = "color:#78716c; font-size:14px;"),
       uiOutput(ns("timeline"))
     )

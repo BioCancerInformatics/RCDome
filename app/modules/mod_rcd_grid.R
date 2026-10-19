@@ -59,25 +59,40 @@ mod_rcd_grid_server <- function(id) {
       ), collapse = "\n\n")
     }
 
-    # Render **bold** / *italic* markers from reference files as HTML.
+    # Render references as HTML: per-entry anchors + clickable DOI/PMID.
     ref_to_html <- function(x) {
-      x <- gsub("\\*\\*(.*?)\\*\\*", "<strong>\\1</strong>", x, perl = TRUE)
-      x <- gsub("\\*(.*?)\\*", "<em>\\1</em>", x, perl = TRUE)
-      x
+      lines <- strsplit(x, "\n", perl = TRUE)[[1]]
+      lines <- lines[nzchar(trimws(lines))]
+      if (length(lines) == 0) return("")
+      entries <- vapply(lines, function(ln) {
+        n <- sub("^\\*{0,2}\\[?(\\d+)\\]?\\*{0,2}[.)]?.*$", "\\1", ln, perl = TRUE)
+        ln2 <- gsub("\\*\\*(.*?)\\*\\*", "<strong>\\1</strong>", ln, perl = TRUE)
+        ln2 <- gsub("\\*(.*?)\\*", "<em>\\1</em>", ln2, perl = TRUE)
+        ln2 <- gsub("(10\\.\\d{4,9}/\\S+)",
+                    '<a href="https://doi.org/\\1" target="_blank" rel="noopener" class="rcd-ref-link">\\1</a>',
+                    ln2, perl = TRUE)
+        ln2 <- gsub("PMID:\\s*(\\d{7,8})",
+                    '<a href="https://pubmed.ncbi.nlm.nih.gov/\\1" target="_blank" rel="noopener" class="rcd-ref-link">PMID: \\1</a>',
+                    ln2, perl = TRUE)
+        paste0('<div id="rcd-ref-', n, '" class="rcd-ref-entry">', ln2, '</div>')
+      }, character(1), USE.NAMES = FALSE)
+      paste(entries, collapse = "")
     }
 
-    # Split description into paragraphs; "##" line becomes a subheading.
+    # Split description into paragraphs; "##" heading; [n] citations clickable.
     desc_to_html <- function(x) {
       x <- trimws(x)
       blocks <- strsplit(x, "\n[ \t]*\n", perl = TRUE)[[1]]
       blocks <- blocks[nzchar(trimws(blocks))]
       parts <- lapply(blocks, function(b) {
         b <- trimws(gsub("[ \t]*\n[ \t]*", " ", b))
+        b <- gsub("\\[(\\d+)([0-9,\\-\\s]*)\\]",
+                  '<a href="#rcd-ref-\\1" class="rcd-cite">[\\1\\2]</a>', b, perl = TRUE)
         if (grepl("^##\\s+", b, perl = TRUE)) {
-          tags$p(tags$strong(sub("^##\\s+", "", b, perl = TRUE)),
+          tags$p(HTML(paste0("<strong>", sub("^##\\s+", "", b, perl = TRUE), "</strong>")),
                  style = "font-size:15px; font-weight:700; color:#1c1917; margin:0 0 10px;")
         } else {
-          tags$p(b, style = "font-size:15px; line-height:1.75; color:#1c1917; text-align:justify; margin:0 0 12px;")
+          tags$p(HTML(b), style = "font-size:15px; line-height:1.75; color:#1c1917; text-align:justify; margin:0 0 12px;")
         }
       })
       if (length(parts) == 0) {
@@ -108,8 +123,8 @@ mod_rcd_grid_server <- function(id) {
         base_names <- gsub("\\.txt$", "", desc_files)
       }
 
-      logo_files <- list.files(logo_dir, pattern = "\\.JPG$", ignore.case = TRUE)
-      logo_bases <- gsub("\\.JPG$", "", logo_files, ignore.case = TRUE)
+      logo_files <- list.files(logo_dir, pattern = "\\.(JPG|PNG)$", ignore.case = TRUE)
+      logo_bases <- gsub("\\.(JPG|PNG)$", "", logo_files, ignore.case = TRUE)
       logo_norm  <- rcd_normalize(logo_bases)
 
       fig_files <- list.files(fig_dir, pattern = "\\.png$", ignore.case = TRUE)
@@ -140,12 +155,7 @@ mod_rcd_grid_server <- function(id) {
         vid_idx <- which(video_norm == bn_norm)
         video_url <- if (length(vid_idx) > 0) paste0("rcd_videos/", video_files[vid_idx[1]]) else NULL
 
-        decoder_row <- if (exists("decoder_df", envir = .GlobalEnv) && nrow(decoder_df) > 0) {
-          decoder_df[tolower(trimws(decoder_df$rcd_form)) == tolower(trimws(bn)), , drop = FALSE]
-        } else data.frame()
-        desc_text <- if (nrow(decoder_row) == 1) {
-          build_decoder_desc(decoder_row[1, , drop = FALSE])
-        } else {
+        desc_text <- {
           desc_path <- file.path(desc_dir, paste0(bn, ".txt"))
           if (file.exists(desc_path)) {
             txt <- tryCatch(
@@ -355,6 +365,10 @@ mod_rcd_grid_server <- function(id) {
             .honeycomb-cell svg { width: 100px; height: 115px; }
             .honeycomb-column.offset { margin-top: 60px; }
           }
+          .rcd-cite { color:#1d4ed8; text-decoration:none; border-bottom:1px dotted #1d4ed8; cursor:pointer; }
+          .rcd-ref-link { color:#1d4ed8; text-decoration:none; }
+          .rcd-ref-link:hover { text-decoration:underline; }
+          .rcd-ref-entry { margin-bottom:8px; }
         ")),
         tags$div(id = container_id, class = "honeycomb-container",
           tags$div(id = inner_id, class = "honeycomb-inner", columns)
@@ -472,7 +486,7 @@ mod_rcd_grid_server <- function(id) {
             id = "rcd_ref_holder",
             style = "display:none; margin-top:10px; background:#f5f5f4; border:1px solid #e7e5e4; border-radius:6px; padding:14px 18px; max-height:280px; overflow-y:auto;",
             tags$div(
-              style = "white-space: pre-wrap; font-size:13px; line-height:1.7; color:#1c1917;",
+              style = "font-size:13px; line-height:1.7; color:#1c1917;",
               HTML(ref_to_html(p$ref))
             )
           )

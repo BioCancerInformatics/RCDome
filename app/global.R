@@ -32,6 +32,7 @@ addResourcePath("see_also", "data/about/see also")
 source("R/utils.R")
 source("R/pathways.R")     # get_pathways_for_gene() — from the matrix
 source("R/rcd_modal.R")    # show_rcd_modal — shared RCD pop-up
+source("R/disc_html_build.R") # build_disc_html() — Discrepancy Radar pre-render
 source("R/validate_data_files.R")
 
 # Pre-flight data validation — fail fast if any bundled asset is missing/invalid.
@@ -55,9 +56,6 @@ source("modules/mod_od.R")
 source("modules/mod_od_compare.R")
 source("modules/mod_board_qa.R")
 source("modules/mod_board.R")
-
-# Signatures removed (vestigial legacy module).
-signatures_df <- NULL
 
 # Load gene reference data (from omic directory) — with RDS cache
 # Fingerprint v2: sourced from the V027 matrix (the truth).
@@ -118,15 +116,21 @@ rcd_counts <- tryCatch({
 
 # ── HGNC gene metadata (name, location, HGNC id, Entrez id) ──────────────────
 # Used by the Network gene pop-up for external links + the gene name summary.
-hgnc_map <- tryCatch({
-  hf <- read.delim("data/hgnc_complete_set.txt", stringsAsFactors = FALSE,
-                   quote = "", check.names = FALSE)
-  hf[, c("symbol", "name", "location", "hgnc_id", "entrez_id")]
-}, error = function(e) {
-  data.frame(symbol = character(0), name = character(0), location = character(0),
-             hgnc_id = character(0), entrez_id = character(0),
-             stringsAsFactors = FALSE)
-})
+# Lazy-loaded: the 16.9 MB HGNC table is read on first use, not at startup.
+.hgnc_map_cache <- NULL
+get_hgnc_map <- function() {
+  if (!is.null(.hgnc_map_cache)) return(.hgnc_map_cache)
+  .hgnc_map_cache <<- tryCatch({
+    hf <- read.delim("data/hgnc_complete_set.txt", stringsAsFactors = FALSE,
+                     quote = "", check.names = FALSE)
+    hf[, c("symbol", "name", "location", "hgnc_id", "entrez_id")]
+  }, error = function(e) {
+    data.frame(symbol = character(0), name = character(0), location = character(0),
+               hgnc_id = character(0), entrez_id = character(0),
+               stringsAsFactors = FALSE)
+  })
+  .hgnc_map_cache
+}
 
 # Universe used by the Fingerprint. This intentionally comes from the canonical
 # annotation column, not from the subset that happens to have Exclusive genes.

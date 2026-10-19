@@ -7,7 +7,7 @@ CONTENTS
 - board/RCD_Board_Governance.md     : governance v2 (prose + 4 tiers + domain boundary)
 - board/RCD_Board_DeepSeek_Prompt.md: the DeepSeek system prompt
 - board/RCD_Board_Benchmark.md      : benchmark spec (9 tests, n computed, CI 95%)
-- data/unified_gene_rcd_matrix_V026.csv : matrix V026 (22,473 x 71)
+- data/unified_gene_rcd_matrix_V027.csv : matrix V027 (22,473 x 94)
 - data/RCDome_Decoder_53.csv        : decoder (53 x 39)
 
 POLICY (mandatory sequence)

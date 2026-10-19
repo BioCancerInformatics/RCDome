@@ -4,7 +4,6 @@
 rcd_normalize <- function(x) {
   x <- tolower(x)
   x <- gsub("_", " ", x)
-  x <- gsub("\\s*\\([^)]*\\)", "", x, perl = TRUE)
   x <- gsub("\\s+", " ", x, perl = TRUE)
   trimws(x)
 }

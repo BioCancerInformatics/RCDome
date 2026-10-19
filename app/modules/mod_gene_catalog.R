@@ -57,6 +57,11 @@ mod_gene_catalog_ui <- function(id) {
         `data-tip` = "Choose which analysis's Role/Direction values to show. Evidence-first = the final verbatim-grounded resolution (default). DeepSeek/Consensus/Compiled = the source classifications. GPT/Curator 1/Curator 2 = the arbitration votes (mapped to the source they sided with).",
         style = "font-weight:600; color:#1c1917; font-size:14px; margin-right:2px;"),
       tags$label(
+        `data-tip` = "Evidence-first resolution — the final verbatim-grounded verdict. Role: EXECUTOR/REGULATOR/MARKER/UNCERTAIN · Direction: PROMOTES/PROTECTS/UNCLEAR.",
+        style = "margin:0 0 0 14px; display:inline-flex; align-items:center; gap:5px; cursor:pointer; font-weight:600; font-size:14px;",
+        tags$input(type = "radio", name = ns("source_sel_r"), value = "evidence", checked = "checked", style = "margin:0;"),
+        "Evidence-first"),
+      tags$label(
         `data-tip` = "DeepSeek chain-of-thought classification — complete (100%). Role: EXECUTOR/REGULATOR/MARKER/UNCERTAIN · Direction: PROMOTES/PROTECTS/UNCLEAR.",
         style = "margin:0 0 0 14px; display:inline-flex; align-items:center; gap:5px; cursor:pointer; font-weight:400; font-size:14px;",
         tags$input(type = "radio", name = ns("source_sel_r"), value = "deepseek", style = "margin:0;"),
@@ -77,26 +82,24 @@ mod_gene_catalog_ui <- function(id) {
         tags$input(type = "radio", name = ns("source_sel_r"), value = "gpt", style = "margin:0;"),
         "GPT"),
       tags$label(
-        `data-tip` = "Higor's (Curator 1) vote, mapped to the source he sided with (DEEPSEEK → DeepSeek value, CONSENSUS → Consensus value).",
+        `data-tip` = "Curator 1 vote, mapped to the source it sided with (DEEPSEEK → DeepSeek value, CONSENSUS → Consensus value).",
         style = "margin:0 0 0 14px; display:inline-flex; align-items:center; gap:5px; cursor:pointer; font-weight:400; font-size:14px;",
         tags$input(type = "radio", name = ns("source_sel_r"), value = "curator_1", style = "margin:0;"),
         "Curator 1"),
       tags$label(
-        `data-tip` = "Victor's (Curator 2) vote, mapped to the source he sided with (DEEPSEEK → DeepSeek value, CONSENSUS → Consensus value).",
+        `data-tip` = "Curator 2 vote, mapped to the source it sided with (DEEPSEEK → DeepSeek value, CONSENSUS → Consensus value).",
         style = "margin:0 0 0 14px; display:inline-flex; align-items:center; gap:5px; cursor:pointer; font-weight:400; font-size:14px;",
         tags$input(type = "radio", name = ns("source_sel_r"), value = "curator_2", style = "margin:0;"),
         "Curator 2"),
-      tags$label(
-        `data-tip` = "Evidence-first resolution — the final verbatim-grounded verdict. Role: EXECUTOR/REGULATOR/MARKER/UNCERTAIN · Direction: PROMOTES/PROTECTS/UNCLEAR.",
-        style = "margin:0 0 0 14px; display:inline-flex; align-items:center; gap:5px; cursor:pointer; font-weight:600; font-size:14px;",
-        tags$input(type = "radio", name = ns("source_sel_r"), value = "evidence", checked = "checked", style = "margin:0;"),
-        "Evidence-first"),
       actionButton(ns("death_core"), "Death core (executors)",
         `data-tip` = "One-click filter to the 367 EXECUTOR gene-RCD pairs (evidence-first) — the genes the verbatim grounds as directly executing cell death.",
         class = "search-evidence-btn", style = "margin-left:auto; height:32px; padding:0 14px; font-size:12.5px;"),
       downloadButton(ns("download_death_core"), "Download death core (CSV)",
         `data-tip` = "Download the 367 EXECUTOR gene-RCD pairs (evidence-first, pair-level) as a CSV file with all provenance columns.",
-        class = "search-evidence-btn", style = "height:32px; padding:0 14px; font-size:12.5px;")
+        class = "search-evidence-btn", style = "height:32px; padding:0 14px; font-size:12.5px;"),
+      actionButton(ns("reset_filters"), "Reset filters",
+        class = "search-evidence-btn",
+        style = "margin-left:10px; height:32px; padding:0 16px; font-size:12.5px; font-weight:600; background:#FF9800 !important; color:#0b1020 !important; border:none; border-radius:8px; cursor:pointer; box-shadow:0 2px 8px rgba(255,152,0,0.35);")
     ),
     tags$script(HTML(sprintf(
       "document.querySelectorAll('input[name=\"%s\"]').forEach(function(r){ r.addEventListener('change', function(){ Shiny.setInputValue('%s', r.value, {priority:'event'}); }); });",
@@ -405,6 +408,17 @@ mod_gene_catalog_server <- function(id) {
         selected = "EXECUTOR")
     })
 
+    # Reset filters → restore Evidence-first as the default source + clear all filters.
+    observeEvent(input$reset_filters, {
+      shinyjs::runjs(sprintf(
+        "var r = document.querySelector('input[name=\"%s\"][value=\"evidence\"]'); if(r && !r.checked){ r.checked = true; Shiny.setInputValue('%s', 'evidence', {priority:'event'}); }",
+        session$ns("source_sel_r"), session$ns("source_sel")))
+      dedup_flag(FALSE)
+      for (id in c("f_gene", "f_biotype", "f_rcd", "f_cancer", "f_tier", "f_mech", "f_role", "f_dir", "f_status", "f_db")) {
+        updateSelectizeInput(session, id, selected = character(0))
+      }
+    })
+
     # Auto-reset the dedup preset when the user manually changes the Role filter.
     observeEvent(input$f_role, {
       if (suppress_reset()) {
@@ -538,18 +552,14 @@ mod_gene_catalog_server <- function(id) {
       show[[sc$dir]] <- rc_pill(show[[sc$dir]], direction_class(show[[sc$dir]]))
       show$rcdome_level_name <- NULL
       ef_badge <- function(v, col) sprintf("<span style='display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;font-weight:600;color:#fff;background:%s;margin-right:3px;'>%s</span>", col, v)
-      show$evidence_first <- vapply(seq_len(nrow(df)), function(i) {
-        m <- trimws(as.character(df$final_mechanistic[i])); ro <- trimws(as.character(df$final_role[i])); di <- trimws(as.character(df$final_direction[i]))
-        if (is.na(m) || !nzchar(m)) m <- "—"
-        if (is.na(ro) || !nzchar(ro)) ro <- "—"
-        if (is.na(di) || !nzchar(di)) di <- "—"
-        mc <- if (m == "YES") "#2E7D32" else if (m == "OUT_OF_CONTEXT") "#F59E0B" else "#9E9E9E"
-        rc <- c(EXECUTOR = "#E53935", REGULATOR = "#3949AB", MARKER = "#00897B", UNCERTAIN = "#9E9E9E")
-        dc <- c(PROMOTES = "#2E7D32", PROTECTS = "#1565C0", UNCLEAR = "#757575")
-        rcc <- if (ro %in% names(rc)) rc[[ro]] else "#9E9E9E"
-        dcc <- if (di %in% names(dc)) dc[[di]] else "#757575"
-        paste0(ef_badge(m, mc), ef_badge(ro, rcc), ef_badge(di, dcc))
-      }, character(1))
+      m  <- trimws(as.character(df$final_mechanistic)); ro <- trimws(as.character(df$final_role)); di <- trimws(as.character(df$final_direction))
+      m[is.na(m) | !nzchar(m)] <- "—"; ro[is.na(ro) | !nzchar(ro)] <- "—"; di[is.na(di) | !nzchar(di)] <- "—"
+      mc <- ifelse(m == "YES", "#2E7D32", ifelse(m == "OUT_OF_CONTEXT", "#F59E0B", "#9E9E9E"))
+      rc <- c(EXECUTOR = "#E53935", REGULATOR = "#3949AB", MARKER = "#00897B", UNCERTAIN = "#9E9E9E")
+      dc <- c(PROMOTES = "#2E7D32", PROTECTS = "#1565C0", UNCLEAR = "#757575")
+      rcc <- unname(rc[ro]); rcc[is.na(rcc)] <- "#9E9E9E"
+      dcc <- unname(dc[di]); dcc[is.na(dcc)] <- "#757575"
+      show$evidence_first <- paste0(ef_badge(m, mc), ef_badge(ro, rcc), ef_badge(di, dcc))
       show$evidence <- sprintf(
         "<button type=\"button\" onmousedown=\"event.stopPropagation();\" onclick=\"event.stopPropagation(); Shiny.setInputValue('%s', '%s|%s', {priority:'event'})\" style=\"border:none;background:#1d4ed8;color:#fff;cursor:pointer;font-size:12px;font-weight:600;padding:3px 10px;border-radius:999px;\" title=\"Open the Evidence Trail\">⧈ Trail</button>",
         session$ns("evidence_click"), raw_gene, raw_entity
@@ -579,7 +589,7 @@ mod_gene_catalog_server <- function(id) {
           )
         ),
         class = "compact hover row-border")
-    })
+    }, server = TRUE)
 
     observeEvent(input$gene_click, {
       req(input$gene_click)
