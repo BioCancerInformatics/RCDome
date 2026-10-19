@@ -16,12 +16,14 @@ mod_discrepancy_ui <- function(id) {
       uiOutput(ns("summary_bar")),
       tags$div(style = "margin:12px 0 6px;",
         radioButtons(ns("facet"), "Conflict axis", inline = TRUE,
-          choices = c("Direction", "Role", "Mechanistic", "All"),
-          selected = "Direction"),
+          choices = c("All", "Direction", "Role", "Mechanistic"),
+          selected = "All"),
         selectizeInput(ns("f_gene"), "Gene", choices = NULL, multiple = TRUE, width = "240px",
                        options = list(placeholder = "All genes")),
         selectizeInput(ns("f_rcd"), "RCD entity", choices = NULL, multiple = TRUE, width = "240px",
-                       options = list(placeholder = "All entities"))
+                       options = list(placeholder = "All entities")),
+        actionButton(ns("reset_filters"), "Reset filters",
+                   style = "margin-left:10px; height:32px; padding:0 16px; font-size:12.5px; font-weight:600; background:#FF9800; color:#0b1020; border:none; border-radius:8px; cursor:pointer; box-shadow:0 2px 8px rgba(255,152,0,0.35);")
       ),
       uiOutput(ns("legend")),
       DTOutput(ns("table"))
@@ -104,24 +106,41 @@ mod_discrepancy_server <- function(id) {
       updateSelectizeInput(session, "f_rcd", choices = sort(unique(df$rcd_form_canonical)), server = TRUE)
     })
 
-    # ── Filtered frame ──────────────────────────────────────────────────
-    facet_df <- reactive({
+    # ── Row indices for the current view (union dedup for All) ──────────
+    view_idx <- reactive({
       df <- disc_df()
-      if (nrow(df) == 0) return(df)
-      if (!identical(tolower(input$facet), "all")) {
-        df <- df[df$label == tolower(input$facet), , drop = FALSE]
+      if (nrow(df) == 0) return(integer(0))
+      idx <- seq_len(nrow(df))
+      if (identical(tolower(input$facet), "all")) {
+        # All = union of gene–RCD pairs with ≥1 conflict. A pair flagged on
+        # several axes appears once (deduplicated), so totals are not inflated.
+        key <- paste(df$gene_symbol, df$rcd_form_canonical, sep = "\u001f")
+        idx <- idx[!duplicated(key)]
+      } else {
+        idx <- idx[df$label == tolower(input$facet)]
       }
-      if (!is.null(input$f_gene) && length(input$f_gene) > 0) df <- df[df$gene_symbol %in% input$f_gene, , drop = FALSE]
-      if (!is.null(input$f_rcd) && length(input$f_rcd) > 0) df <- df[df$rcd_form_canonical %in% input$f_rcd, , drop = FALSE]
-      df
+      if (!is.null(input$f_gene) && length(input$f_gene) > 0) idx <- idx[df$gene_symbol[idx] %in% input$f_gene]
+      if (!is.null(input$f_rcd) && length(input$f_rcd) > 0) idx <- idx[df$rcd_form_canonical[idx] %in% input$f_rcd]
+      idx
+    })
+
+    # ── Reset filters → restore All as the default conflict axis ───────
+    observeEvent(input$reset_filters, {
+      updateRadioButtons(session, "facet", selected = "All")
+      updateSelectizeInput(session, "f_gene", selected = character(0))
+      updateSelectizeInput(session, "f_rcd", selected = character(0))
     })
 
     # ── Summary bar ─────────────────────────────────────────────────────
     output$summary_bar <- renderUI({
-      df <- disc_df()
-      if (nrow(df) == 0) return(NULL)
-      cnt <- table(df$label)
-      tot <- nrow(df)
+      idx <- view_idx()
+      if (length(idx) == 0) return(NULL)
+      # Per-axis conflict counts from the gene/entity-filtered (pre-dedup) set.
+      base <- disc_df()
+      if (!is.null(input$f_gene) && length(input$f_gene) > 0) base <- base[base$gene_symbol %in% input$f_gene, , drop = FALSE]
+      if (!is.null(input$f_rcd) && length(input$f_rcd) > 0) base <- base[base$rcd_form_canonical %in% input$f_rcd, , drop = FALSE]
+      cnt <- table(base$label)
+      tot <- length(idx)
       parts <- vapply(c("direction", "role", "mechanistic"), function(l) {
         n <- if (l %in% names(cnt)) cnt[[l]] else 0
         lab <- switch(l, direction = "Direction", role = "Role", mechanistic = "Mechanistic")
@@ -155,143 +174,57 @@ mod_discrepancy_server <- function(id) {
     })
 
     # ── Verdict-strip table ─────────────────────────────────────────────
+    # Static column header (built once).
+    table_header <- htmltools::withTags(table(
+      class = "display",
+      thead(
+        tr(
+          th("Pair", title = "Gene × RCD entity — click for the Evidence Trail"),
+          th("Axis", title = "Conflict axes for this pair — filled = the axis shown in this row, outlined = additional conflicts on other axes"),
+          th("DeepSeek", title = "DeepSeek chain-of-thought classifier verdict (Phases 2A–2F)"),
+          th("Elicit", title = "Elicit Phase 3 systematic-review extraction"),
+          th("Consensus", title = "Consensus evidence-channel classification (neutral query, Phase 2G)"),
+          th("Compiled", title = "Source-compiled role/direction from the extraction channels (A–D), before the independent validations"),
+          th("GPT", title = "GPT-4o arbitration vote on the conflict"),
+          th("Curator 1", title = "First human curator vote"),
+          th("Curator 2", title = "Second human curator vote"),
+          th("Concordance", title = "How many of the six voters (DeepSeek, Elicit, Consensus, GPT, Curator 1, Curator 2) agree with the evidence-first resolution — filled = agree, hollow = differ"),
+          th("Evidence-first", title = "The final verbatim-grounded resolution (the adjudication)")
+        )
+      )
+    ))
+
+    # Pre-rendered HTML frame. Served from the precomputed RDS (written by
+    # code/precompute_disc_html.R, ~0.12 s read) so the module opens instantly.
+    # If the cached RDS is missing or older than disc_df.rds, rebuild once via
+    # build_disc_html() (slow, ~27 s) and cache it for the next session.
+    disc_html <- reactive({
+      f_df   <- "data/adjudication/disc_df.rds"
+      f_html <- "data/adjudication/disc_html.rds"
+      if (!file.exists(f_df)) return(data.frame())
+      fresh <- file.exists(f_html) &&
+               file.info(f_html)$mtime >= file.info(f_df)$mtime
+      h <- NULL
+      if (fresh) h <- tryCatch(readRDS(f_html), error = function(e) NULL)
+      if (is.null(h) || nrow(h) == 0) {
+        h <- build_disc_html(disc_df(), "@@NS@@")
+        if (nrow(h) > 0) tryCatch(saveRDS(h, f_html), error = function(e) NULL)
+      }
+      if (nrow(h) > 0 && "Pair" %in% names(h)) {
+        h$Pair <- gsub("@@NS@@", ns("disc_click"), h$Pair, fixed = TRUE)
+      }
+      h
+    })
+
     output$table <- renderDT({
-      df <- facet_df()
-      if (nrow(df) == 0) {
+      html <- disc_html()
+      idx <- view_idx()
+      if (length(idx) == 0 || nrow(html) == 0) {
         return(datatable(data.frame(Message = "No disagreement rows."), rownames = FALSE))
       }
-      axis_vec <- df$label
-      n <- nrow(df)
-
-      pair <- vapply(seq_len(n), function(i) {
-        g <- df$gene_symbol[i]; e <- df$rcd_form_canonical[i]; lab <- df$label[i]
-        onclick <- sprintf("Shiny.setInputValue('%s', '%s|%s|%s', {priority:'event'}); return false;",
-                           ns("disc_click"), g, e, lab)
-        sprintf("<a href='#' onclick=\"%s\" style='color:#1d4ed8; font-weight:700; text-decoration:none;'><i>%s</i> \u00d7 %s</a>",
-                onclick, g, e)
-      }, character(1))
-
-      ds_b <- vapply(seq_len(n), function(i) badge(df$ds_val[i], axis_col(axis_vec[i], df$ds_val[i])), character(1))
-      el_b <- vapply(seq_len(n), function(i) {
-        if (axis_vec[i] == "direction") badge(df$el_val[i], axis_col("direction", df$el_val[i]))
-        else "<span style='color:#d6d3d1;'>\u2014</span>"
-      }, character(1))
-      cs_b <- vapply(seq_len(n), function(i) badge(df$cs_val[i], axis_col(axis_vec[i], df$cs_val[i])), character(1))
-
-      comp_cell <- vapply(seq_len(n), function(i) {
-        v <- if (axis_vec[i] == "role") df$compiled_role[i] else if (axis_vec[i] == "direction") df$compiled_dir[i] else NA_character_
-        v <- trimws(as.character(v))
-        if (is.na(v) || !nzchar(v)) return("<span style='color:#a8a29e;'>—</span>")
-        col <- axis_col(axis_vec[i], v)
-        if (is.null(col)) col <- "#9E9E9E"
-        sprintf("<span title='Source-compiled role/direction (pre-evaluation, channels A–D)' style='display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;font-weight:600;color:#fff;background:%s;margin-right:3px;'>%s</span>", col, v)
-      }, character(1))
-
-      map_vote <- function(v, ds, cs) {
-        v <- trimws(as.character(v))
-        if (length(v) == 0 || is.na(v) || !nzchar(v)) return(NA_character_)
-        if (v == "DEEPSEEK") return(trimws(as.character(ds)))
-        if (v == "CONSENSUS") return(trimws(as.character(cs)))
-        v
-      }
-      gpt_mapped  <- vapply(seq_len(n), function(i) map_vote(df$gpt4o_verdict[i], df$ds_val[i], df$cs_val[i]), character(1))
-      cur1_mapped <- vapply(seq_len(n), function(i) map_vote(df$cur1_val[i], df$ds_val[i], df$cs_val[i]), character(1))
-      cur2_mapped <- vapply(seq_len(n), function(i) map_vote(df$cur2_val[i], df$ds_val[i], df$cs_val[i]), character(1))
-
-      dots_cell <- vapply(seq_len(n), function(i) {
-        votes <- trimws(as.character(df$ds_val[i]))
-        if (axis_vec[i] == "direction") votes <- c(votes, trimws(as.character(df$el_val[i])))
-        votes <- c(votes, trimws(as.character(df$cs_val[i])), gpt_mapped[i], cur1_mapped[i], cur2_mapped[i])
-        votes <- votes[!is.na(votes) & nzchar(votes)]
-        ref <- trimws(as.character(df$final_val[i]))
-        if (is.na(ref) || !nzchar(ref)) return("")
-        agree <- sum(votes == ref)
-        total <- length(votes)
-        col <- if (agree >= 4) "#2E7D32" else if (agree >= 2) "#F59E0B" else "#E53935"
-        dot_spans(agree, total, col)
-      }, character(1))
-
-      gpt_cell <- vapply(seq_len(n), function(i) {
-        v <- trimws(as.character(df$gpt4o_verdict[i]))
-        v2 <- gpt_mapped[i]
-        if (is.na(v2) || !nzchar(v2)) v2 <- "—"
-        col <- axis_col(axis_vec[i], v2)
-        if (is.null(col)) col <- "#9E9E9E"
-        reason <- htmltools::htmlEscape(df$gpt4o_reason[i])
-        sprintf("<span title='GPT sided with %s — %s' style='display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;font-weight:600;color:#fff;background:%s;'>%s</span>",
-                v, reason, col, v2)
-      }, character(1))
-
-      cur_cell <- function(vals_mapped, vals_raw) {
-        vapply(seq_len(n), function(i) {
-          v <- trimws(as.character(vals_raw[i]))
-          if (is.na(v) || !nzchar(v)) {
-            st <- trimws(as.character(df$decision_status[i]))
-            if (!is.na(st) && nzchar(st) && st == "PENDING_DELTA") {
-              return("<span title='Delta row — curator round not yet sent' style='color:#d6d3d1;'>·</span>")
-            }
-            return("<span style='color:#a8a29e;'>—</span>")
-          }
-          v2 <- trimws(as.character(vals_mapped[i]))
-          if (is.na(v2) || !nzchar(v2)) v2 <- "—"
-          col <- axis_col(axis_vec[i], v2)
-          if (is.null(col)) col <- "#9E9E9E"
-          sprintf("<span title='Voted with %s' style='display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;font-weight:600;color:#fff;background:%s;margin-right:3px;'>%s</span>", v, col, v2)
-        }, character(1))
-      }
-      cur1_cell <- cur_cell(cur1_mapped, df$cur1_val)
-      cur2_cell <- cur_cell(cur2_mapped, df$cur2_val)
-
-      fin_cell <- vapply(seq_len(n), function(i) {
-        v <- trimws(as.character(df$final_val[i]))
-        if (is.na(v) || !nzchar(v)) {
-          st <- trimws(as.character(df$decision_status[i]))
-          if (!is.na(st) && nzchar(st) && st == "PENDING_DELTA") {
-            return("<span title='Disagreement discovered, but the delta round has not been sent to the curators yet' style='display:inline-block;padding:2px 8px;border:1px dashed #f59e0b;border-radius:999px;font-size:12px;font-weight:600;color:#b45309;background:#fef3c7;'>PENDING</span>")
-          }
-          return("<span style='color:#a8a29e;'>—</span>")
-        }
-        ev <- htmltools::htmlEscape(df$deciding_evidence[i] %||% "")
-        col <- axis_col(axis_vec[i], v)
-        if (is.null(col)) col <- "#9E9E9E"
-        sprintf("<span title='%s' style='display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;font-weight:700;color:#fff;background:%s;margin-right:3px;box-shadow:0 0 0 1.5px #0b1020;'>%s</span>",
-                ev, col, v)
-      }, character(1))
-
-      out <- data.frame(
-        Pair = pair,
-        DeepSeek = ds_b,
-        Elicit = el_b,
-        Consensus = cs_b,
-        Compiled = comp_cell,
-        GPT = gpt_cell,
-        `Curator 1` = cur1_cell,
-        `Curator 2` = cur2_cell,
-        Concordance = dots_cell,
-        `Evidence-first` = fin_cell,
-        stringsAsFactors = FALSE, check.names = FALSE
-      )
-
-      header <- htmltools::withTags(table(
-        class = "display",
-        thead(
-          tr(
-            th("Pair", title = "Gene × RCD entity — click for the Evidence Trail"),
-            th("DeepSeek", title = "DeepSeek chain-of-thought classifier verdict (Phases 2A–2F)"),
-            th("Elicit", title = "Elicit Phase 3 systematic-review extraction"),
-            th("Consensus", title = "Consensus evidence-channel classification (neutral query, Phase 2G)"),
-            th("Compiled", title = "Source-compiled role/direction from the extraction channels (A–D), before the independent validations"),
-            th("GPT", title = "GPT-4o arbitration vote on the conflict"),
-            th("Curator 1", title = "First human curator vote"),
-            th("Curator 2", title = "Second human curator vote"),
-            th("Concordance", title = "How many of the six voters (DeepSeek, Elicit, Consensus, GPT, Curator 1, Curator 2) agree with the evidence-first resolution — filled = agree, hollow = differ"),
-            th("Evidence-first", title = "The final verbatim-grounded resolution (the adjudication)")
-          )
-        )
-      ))
-
+      out <- html[idx, , drop = FALSE]
       datatable(out, rownames = FALSE, escape = FALSE, selection = "none",
-        container = header,
+        container = table_header,
         options = list(
           pageLength = 100,
           lengthMenu = list(c(15, 100, 500, 1000, 2000, -1),
@@ -300,7 +233,7 @@ mod_discrepancy_server <- function(id) {
           language = list(search = "Filter:", zeroRecords = "No rows.")
         ),
         class = "compact hover row-border")
-    })
+    }, server = TRUE)
 
     # ── Row click → global Evidence Trail drawer (extended) ─────────────
     observeEvent(input$disc_click, {

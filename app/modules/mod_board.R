@@ -361,6 +361,61 @@ render_synthesis_html <- function(synth) {
   body
 }
 
+# Extract completed question–answer pairs from the Q&A chat history
+# (skips the welcome message, typing placeholders, and unanswered questions).
+extract_qa_pairs <- function(msgs) {
+  if (is.null(msgs) || length(msgs) == 0) return(list())
+  pairs <- list()
+  n <- length(msgs)
+  i <- 1
+  while (i <= n) {
+    m <- msgs[[i]]
+    if (identical(m$role, "user") && !identical(m$content, "__typing__")) {
+      q <- m$content
+      a <- NULL
+      j <- i + 1
+      while (j <= n) {
+        if (identical(msgs[[j]]$role, "assistant") && !identical(msgs[[j]]$content, "__typing__")) {
+          a <- msgs[[j]]$content
+          break
+        }
+        j <- j + 1
+      }
+      if (!is.null(a)) pairs[[length(pairs) + 1]] <- list(question = q, answer = a)
+      i <- j
+    } else {
+      i <- i + 1
+    }
+  }
+  pairs
+}
+
+# HTML section for the interactive Q&A consultation (for the downloaded report).
+build_qa_html <- function(msgs) {
+  pairs <- extract_qa_pairs(msgs)
+  if (length(pairs) == 0) return("")
+  items <- vapply(seq_along(pairs), function(k) {
+    p <- pairs[[k]]
+    q <- htmltools::htmlEscape(p$question)
+    a <- gsub("\n", "<br>", p$answer)
+    paste0(
+      "<div style='margin-top:16px; padding:14px 16px; border:1px solid #e7e5e4; border-radius:10px;'>",
+      "<div style='font-weight:600; color:#1d4ed8; font-size:13px; margin-bottom:6px;'>Question ", k, "</div>",
+      "<div style='font-size:14px; color:#1c1917; margin-bottom:10px;'>", q, "</div>",
+      "<div style='font-weight:600; color:#c2410c; font-size:13px; margin-bottom:6px;'>Response</div>",
+      "<div style='font-size:13.5px; line-height:1.6; color:#1c1917;'>", a, "</div>",
+      "</div>"
+    )
+  }, character(1))
+  paste0(
+    "<div style='margin-top:28px;'>",
+    "<div style='font-family:Calibri,sans-serif; font-size:13px; letter-spacing:0.06em; text-transform:uppercase; color:#c2410c; margin-bottom:12px;'>",
+    "Interactive Scientific Consultation \u2014 Questions and Answers</div>",
+    paste(items, collapse = ""),
+    "</div>"
+  )
+}
+
 board_card <- function(title, body) {
   div(
     style = "background:#ffffff; border:1px solid #e7e5e4; border-radius:12px; padding:20px 22px; flex:1; min-width:220px;",
@@ -743,6 +798,7 @@ mod_board_server <- function(id, board_reactive) {
           "<div style='background:#fef3c7; color:#92400e; padding:8px 14px; border-radius:8px; font-size:12.5px; margin-top:16px;'>",
           "⚠ Generation failed — no synthesis produced (DeepSeek API error).</div>"
         )
+        qa_html <- build_qa_html(qa_messages())
         html <- paste0(
           "<!DOCTYPE html><html><head><meta charset='utf-8'><title>RCDome Digital Molecular Board</title></head><body style='font-family:Calibri,sans-serif;'>",
           logo_img,
@@ -751,12 +807,13 @@ mod_board_server <- function(id, board_reactive) {
           "<h1 style='font-weight:500; font-size:28px; margin:8px 0 20px;'>RCDome Digital Molecular Board</h1>",
           body,
           gov_box,
+          qa_html,
           "<details style='margin-top:12px; padding:12px 14px; background:#f5f5f4; border:1px solid #e7e5e4; border-radius:8px;'>",
           "<summary style='font-size:12.5px; color:#FF9800; cursor:pointer; font-weight:600;'>Audit Molecular and Cellular Payload Data (Raw Injection)</summary>",
           build_payload_table_html(r$entity, r$gene, r$ctx),
           "</details>",
           "<div style='font-size:11.5px; color:#57534e; text-align:right; margin-top:14px;'>",
-          "Automatically generated on ", format(Sys.time(), "%d/%m/%Y %H:%M:%S"),
+          "AI model: DeepSeek deepseek-chat \u00b7 Automatically generated on ", format(Sys.time(), "%d/%m/%Y %H:%M:%S"),
           " (Processing Time: ", round(r$elapsed %||% 0, 1), "s)</div>",
           "</body></html>"
         )
@@ -764,8 +821,9 @@ mod_board_server <- function(id, board_reactive) {
       }
     )
 
-    # nested Q&A submodule (receives the pending example query)
-    mod_board_qa_server("qa", board_reactive, pending_query)
+    # nested Q&A submodule (receives the pending example query; returns the
+    # chat history so the downloaded report can include the Q&A consultation)
+    qa_messages <- mod_board_qa_server("qa", board_reactive, pending_query)
 
   })
 }

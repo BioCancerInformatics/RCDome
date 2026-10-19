@@ -71,7 +71,7 @@ def mcnemar_p(b, c):
     return float(_stats.chi2.sf(chi2, 1))
 
 # ── data ────────────────────────────────────────────────────────────────────
-m = pd.read_csv(BASE + "/data/unified_gene_rcd_matrix_V026.csv",
+m = pd.read_csv(BASE + "/data/unified_gene_rcd_matrix_V027.csv",
                 low_memory=False)
 d = pd.read_csv(BASE + "/data/RCDome_Decoder_53.csv")
 

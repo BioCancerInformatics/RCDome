@@ -18,7 +18,7 @@ import pandas as pd
 from scipy import stats as _stats
 
 BASE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-M = pd.read_csv(BASE + "/output databases/Phase 2C output/unified_gene_rcd_matrix_V026.csv", low_memory=False)
+M = pd.read_csv(BASE + "/output databases/Phase 2C output/unified_gene_rcd_matrix_V027.csv", low_memory=False)
 D = pd.read_csv(BASE + "/RCDome Decoder/RCDome_Decoder_53.csv")
 
 def get_key():

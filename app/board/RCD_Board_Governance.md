@@ -2,7 +2,7 @@
 
 **Version:** v2 (2026-09-06) · **Basis:** CancerRCDShiny Digital Tumor Board (multi-layer
 governance), adapted to the RCDome matrix + decoder.
-**Truth:** matrix V026 (22,473 × 71) + decoder (53 × 39).
+**Truth:** matrix V027 (22,473 × 94) + decoder (53 × 39).
 **Approved:** Enrique (human).
 
 ---

@@ -189,6 +189,12 @@ mod_network_ui <- function(id) {
           selected = "1000",
           width = "100%"
         )
+      ),
+
+      div(
+        style = "display: flex; align-items: flex-end;",
+        actionButton(ns("reset_filters"), "Reset filters",
+          style = "background:#FF9800; color:#0b1020; border:none; border-radius:8px; font-weight:600; height:32px; padding:0 16px; font-size:12.5px; cursor:pointer; box-shadow:0 2px 8px rgba(255,152,0,0.35);")
       )
     ),
     
@@ -301,8 +307,7 @@ mod_network_ui <- function(id) {
 
 mod_network_server <- function(
     id,
-    genes_df,
-    signatures_df = NULL
+    genes_df
 ) {
   
   moduleServer(id, function(input, output, session) {
@@ -311,6 +316,17 @@ mod_network_server <- function(
     prov_label_rv <- reactiveVal("all entities \u00b7 all levels \u00b7 all roles")
     
     # ── Edge classification sources (single or multi) ──────────────────────────
+    # ── Reset filters → restore every filter to its default ───────────────
+    observeEvent(input$reset_filters, {
+      updateSelectizeInput(session, "rcd_filter", selected = character(0))
+      updateSelectizeInput(session, "gene_search", selected = character(0))
+      updateCheckboxGroupInput(session, "edge_sources", selected = "evidence")
+      updateSelectizeInput(session, "level_filter", selected = character(0))
+      updateSelectizeInput(session, "role_filter", selected = character(0))
+      updateSelectizeInput(session, "mech_filter", selected = character(0))
+      updateSelectInput(session, "cap_select", selected = "1000")
+    })
+
     src_list <- reactive({
       s <- input$edge_sources
       if (is.null(s) || length(s) == 0) s <- "evidence"
@@ -374,10 +390,8 @@ mod_network_server <- function(
     
     
     # ── Gene → HGNC name (for the gene hover tooltip) ────────────────────────
-    gene_name_map <- if (
-      exists("hgnc_map", inherits = TRUE) &&
-      !is.null(hgnc_map) && nrow(hgnc_map) > 0
-    ) {
+    hgnc_map <- if (exists("get_hgnc_map", inherits = TRUE)) tryCatch(get_hgnc_map(), error = function(e) NULL) else NULL
+    gene_name_map <- if (!is.null(hgnc_map) && nrow(hgnc_map) > 0) {
       setNames(as.character(hgnc_map$name), hgnc_map$symbol)
     } else {
       setNames(character(0), character(0))
@@ -398,36 +412,6 @@ mod_network_server <- function(
           sub("^GENE::", "", term)
         )
         
-      } else if (
-        startsWith(term, "SIG::") &&
-        !is.null(signatures_df)
-      ) {
-        
-        nom <- sub("^SIG::", "", term)
-        
-        sig_row <- signatures_df[
-          signatures_df$Nomenclature == nom,
-          ,
-          drop = FALSE
-        ]
-        
-        if (nrow(sig_row) > 0) {
-          
-          genes_str <- gsub(
-            pattern = "[()]",
-            replacement = "",
-            x = sig_row$Signature[1]
-          )
-          
-          return(
-            trimws(
-              strsplit(
-                genes_str,
-                "\\+"
-              )[[1]]
-            )
-          )
-        }
       }
       
       character(0)
@@ -444,31 +428,10 @@ mod_network_server <- function(
         nm = gene_names
       )
       
-      sig_choices <- if (
-        !is.null(signatures_df) &&
-        nrow(signatures_df) > 0
-      ) {
-        
-        setNames(
-          object = paste0(
-            "SIG::",
-            signatures_df$Nomenclature
-          ),
-          nm = signatures_df$Nomenclature
-        )
-        
-      } else {
-        
-        character(0)
-      }
-      
       updateSelectizeInput(
         session = session,
         inputId = "gene_search",
-        choices = c(
-          gene_choices,
-          sig_choices
-        ),
+        choices = gene_choices,
         server = FALSE,
         selected = character(0)
       )
@@ -1555,7 +1518,8 @@ show_gene_info_modal <- function(gene_name, genes_df) {
   pathways <- get_pathways_for_gene(first_row, genes_df)
   pathways_str <- if (length(pathways) > 0) paste(pathways, collapse = "  ·  ") else "No RCD entities associated"
 
-  hg <- hgnc_map[hgnc_map$symbol == gene_name, , drop = FALSE]
+  hgnc_map <- if (exists("get_hgnc_map", inherits = TRUE)) tryCatch(get_hgnc_map(), error = function(e) NULL) else NULL
+  hg <- if (!is.null(hgnc_map)) hgnc_map[hgnc_map$symbol == gene_name, , drop = FALSE] else data.frame()
   hg <- if (nrow(hg) > 0) hg[1, ] else NULL
   gene_name_desc <- if (!is.null(hg) && !is.na(hg$name) && nzchar(hg$name)) hg$name else ""
   hgnc_id <- if (!is.null(hg)) hg$hgnc_id %||% "" else ""

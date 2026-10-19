@@ -41,13 +41,24 @@ validate_data_files <- function(data_dir = "data", board_dir = "board", www_dir 
       chk(FALSE, paste0("missing data/omic/", xf))
   }
 
-  # NCBI gene summaries (Gene information block)
-  f <- file.path(data_dir, "gene_info_lookup.json")
+  # NCBI gene summaries (Gene information block) — existence only; the 6.7 MB
+  # JSON is loaded lazily where needed, never parsed at app startup.
+  if (!file.exists(file.path(data_dir, "gene_info_lookup.json")))
+    chk(FALSE, "missing data/gene_info_lookup.json")
+
+  # Discrepancy Radar precomputed assets (7,905 rows x 11 HTML columns)
+  f <- file.path(data_dir, "adjudication", "disc_df.rds")
+  if (!file.exists(f)) chk(FALSE, "missing data/adjudication/disc_df.rds")
+  f <- file.path(data_dir, "adjudication", "disc_html.rds")
   if (file.exists(f)) {
-    g <- tryCatch(jsonlite::fromJSON(f), error = function(e) NULL)
-    if (is.null(g)) chk(FALSE, "gene_info_lookup.json failed to parse")
-    else chk(length(g) == 9265, sprintf("gene_info_lookup.json: %d entries (expected 9,265)", length(g)))
-  } else chk(FALSE, "missing data/gene_info_lookup.json")
+    h <- tryCatch(readRDS(f), error = function(e) NULL)
+    if (is.null(h)) {
+      chk(FALSE, "disc_html.rds failed to load")
+    } else {
+      chk(nrow(h) == 7905, sprintf("disc_html.rds: %d rows (expected 7,905)", nrow(h)))
+      chk(ncol(h) == 11, sprintf("disc_html.rds: %d columns (expected 11)", ncol(h)))
+    }
+  } else chk(FALSE, "missing data/adjudication/disc_html.rds")
 
   # board prompt + www pages
   if (!file.exists(file.path(board_dir, "RCD_Board_DeepSeek_Prompt.md")))

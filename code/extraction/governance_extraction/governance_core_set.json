@@ -1,0 +1,1083 @@
+[
+  {
+    "theme": "Evaluation and benchmarking methods",
+    "description": "Methods for evaluating AI systems, including systematic reviews, experimental designs, statistical metrics, and specific benchmarks.",
+    "merged_from": [
+      "AI Evaluation and Validation Methods"
+    ],
+    "supporting_pmids": [
+      "31561111",
+      "31640660",
+      "31886459",
+      "32517634",
+      "32603243",
+      "32638012",
+      "32731082",
+      "32748321",
+      "32762260",
+      "32772114",
+      "33014173",
+      "33950837",
+      "34110859",
+      "34110860",
+      "34149464",
+      "34171324",
+      "34177666",
+      "34185639",
+      "37414860",
+      "37483346",
+      "37716186",
+      "37723265",
+      "37733068",
+      "37747285",
+      "39056919",
+      "39080896",
+      "39083799",
+      "39224909",
+      "39262956",
+      "39296632",
+      "39302805",
+      "39314737",
+      "39315207",
+      "39326035",
+      "39341819",
+      "39362756",
+      "39367045",
+      "39383596",
+      "39413215",
+      "39437572",
+      "39438057",
+      "39438058",
+      "39443664",
+      "39443777",
+      "39472489",
+      "39504121",
+      "39524996",
+      "39527055",
+      "39730641",
+      "39774143",
+      "39975811",
+      "40291826",
+      "40431764",
+      "40431950",
+      "40625466",
+      "40821951",
+      "40825542",
+      "40910027",
+      "40910118",
+      "40991941",
+      "41114380",
+      "41154301",
+      "41168748",
+      "41237199",
+      "41267106",
+      "41269748",
+      "41301175",
+      "41307058",
+      "41329953",
+      "41336506",
+      "41339465",
+      "41458620",
+      "41463600",
+      "41486297",
+      "41554365",
+      "41564802",
+      "41565716",
+      "41567541",
+      "41572533",
+      "41583973",
+      "41584067",
+      "41587186",
+      "41664164",
+      "41699313",
+      "41699969",
+      "41866457",
+      "41866756",
+      "41869924",
+      "41896258",
+      "41909056",
+      "41911379",
+      "41915457",
+      "41975807",
+      "41976837",
+      "41980854",
+      "41982676",
+      "41987787",
+      "41993038",
+      "41994555",
+      "42040517",
+      "42061228",
+      "42072503",
+      "42116933",
+      "42194425",
+      "42195318",
+      "42195515",
+      "42197854",
+      "42205634",
+      "42211230",
+      "42212181",
+      "42213458",
+      "42213673",
+      "42216019",
+      "42220668",
+      "42220854",
+      "42222272",
+      "42226232",
+      "42231938",
+      "42232526",
+      "42239692",
+      "42243165",
+      "42245719",
+      "42247576",
+      "42251377",
+      "42254609",
+      "42255168",
+      "42255283",
+      "42256001",
+      "42258811",
+      "42261463",
+      "42263851",
+      "42268300",
+      "42278710",
+      "42280937",
+      "42288564",
+      "42290934",
+      "42292517",
+      "42292667",
+      "42293758",
+      "42293805",
+      "42293851",
+      "42297857",
+      "42305941",
+      "42305950",
+      "42306668",
+      "42307965",
+      "42312060",
+      "42312286",
+      "42313716",
+      "42318048",
+      "42326256",
+      "42326391",
+      "42328200",
+      "42328293",
+      "42333365",
+      "42334305",
+      "42338518",
+      "42338962",
+      "42341297",
+      "42419495",
+      "42440193",
+      "42462811",
+      "42468440",
+      "42477035",
+      "42478089",
+      "42487578",
+      "42490596",
+      "42493485",
+      "42510428",
+      "42510469",
+      "42512568",
+      "42517506",
+      "42524332"
+    ]
+  },
+  {
+    "theme": "Hallucination mitigation and control",
+    "description": "Techniques to reduce AI hallucinations, including retrieval-augmented generation, chain-of-verification, fine-tuning, and monitoring calibration.",
+    "merged_from": [
+      "Hallucination Mitigation via Training and Architecture",
+      "Mitigation of hallucination"
+    ],
+    "supporting_pmids": [
+      "39083799",
+      "39874574",
+      "39975811",
+      "39992238",
+      "40087477",
+      "40166669",
+      "40302607",
+      "40830185",
+      "40843006",
+      "40910027",
+      "41198241",
+      "41198821",
+      "41463600",
+      "41481915",
+      "41598221",
+      "41606555",
+      "41607871",
+      "41704520",
+      "41708802",
+      "41712648",
+      "41728356",
+      "41738015",
+      "41786996",
+      "41799471",
+      "41872533",
+      "41873533",
+      "41878307",
+      "41890309",
+      "41933417",
+      "41935214",
+      "41944502",
+      "41952677",
+      "41976837",
+      "41980854",
+      "41993038",
+      "42000932",
+      "42135531",
+      "42147713",
+      "42153406",
+      "42160468",
+      "42194425",
+      "42195515",
+      "42197854",
+      "42205634",
+      "42211270",
+      "42213673",
+      "42216019",
+      "42217043",
+      "42226232",
+      "42243165",
+      "42245581",
+      "42251377",
+      "42256001",
+      "42261463",
+      "42263851",
+      "42268300",
+      "42270954",
+      "42278710",
+      "42280937",
+      "42288502",
+      "42288564",
+      "42290934",
+      "42292517",
+      "42292667",
+      "42293758",
+      "42297857",
+      "42305950",
+      "42307965",
+      "42308509",
+      "42312060",
+      "42312286",
+      "42317591",
+      "42318048",
+      "42326256",
+      "42326391",
+      "42328200",
+      "42334305",
+      "42338518",
+      "42338962",
+      "42345660",
+      "42407432",
+      "42440193",
+      "42443108",
+      "42447946",
+      "42462811",
+      "42477035",
+      "42487578",
+      "42496485",
+      "42505088"
+    ]
+  },
+  {
+    "theme": "Human oversight and accountability",
+    "description": "Requirements for human oversight, intervention, and final approval in AI systems, with humans retaining responsibility for outputs.",
+    "merged_from": [],
+    "supporting_pmids": [
+      "37694692",
+      "37700993",
+      "37809168",
+      "37811040",
+      "37910473",
+      "37919840",
+      "40431950",
+      "40615544",
+      "40741285",
+      "41114380",
+      "41148218",
+      "41534067",
+      "41536843",
+      "41613098",
+      "41629956",
+      "41647726",
+      "41682137",
+      "41699313",
+      "41700404",
+      "41744224",
+      "41747768",
+      "41758148",
+      "41777900",
+      "41896258",
+      "41897273",
+      "41899896",
+      "41904204",
+      "41952677",
+      "41957286",
+      "41975807",
+      "41976837",
+      "41977864",
+      "41982676",
+      "41987787",
+      "41993038",
+      "42000932",
+      "42027979",
+      "42040517",
+      "42072503",
+      "42078574",
+      "42080195",
+      "42091170",
+      "42096643",
+      "42097745",
+      "42180464",
+      "42186942",
+      "42194425",
+      "42194456",
+      "42194487",
+      "42205695",
+      "42213673",
+      "42216019",
+      "42217043",
+      "42220970",
+      "42245719",
+      "42255283",
+      "42273786",
+      "42293805",
+      "42293851",
+      "42296285",
+      "42305941",
+      "42305950",
+      "42306668",
+      "42308509",
+      "42326256",
+      "42328293",
+      "42333365",
+      "42341297",
+      "42341346",
+      "42354574",
+      "42359091",
+      "42359444",
+      "42400299",
+      "42440193",
+      "42454403",
+      "42462811",
+      "42472394",
+      "42508637",
+      "42510428"
+    ]
+  },
+  {
+    "theme": "Governance frameworks and regulatory compliance",
+    "description": "Structured governance, ethical frameworks, and alignment with standards like FDA, HIPAA, ISO, NIST, GDPR, and EU AI Act.",
+    "merged_from": [
+      "Regulatory and ethical governance",
+      "AI Governance and Trustworthiness Frameworks",
+      "Ethical, Legal, and Regulatory Compliance"
+    ],
+    "supporting_pmids": [
+      "37747285",
+      "37811040",
+      "37876898",
+      "38325103",
+      "38351036",
+      "38392094",
+      "38472203",
+      "38491544",
+      "38743994",
+      "38776130",
+      "38824450",
+      "38855214",
+      "39224909",
+      "39326035",
+      "39347615",
+      "39383596",
+      "39438057",
+      "39443664",
+      "39443777",
+      "39712811",
+      "39774143",
+      "39777117",
+      "39814462",
+      "39839969",
+      "40258337",
+      "40269244",
+      "40640574",
+      "40735688",
+      "40791106",
+      "40817280",
+      "41148218",
+      "41154301",
+      "41374377",
+      "41375898",
+      "41453976",
+      "41613098",
+      "41654584",
+      "41671216",
+      "41682137",
+      "41699313",
+      "41700404",
+      "41866232",
+      "41869924",
+      "41952677",
+      "41957286",
+      "42040517",
+      "42062453",
+      "42130943",
+      "42194425",
+      "42197889",
+      "42200060",
+      "42211230",
+      "42212181",
+      "42231938",
+      "42247623",
+      "42258811",
+      "42273786",
+      "42288564",
+      "42306668",
+      "42308509",
+      "42328293",
+      "42333365",
+      "42341297",
+      "42450877",
+      "42450985",
+      "42472394",
+      "42488253",
+      "42490596",
+      "42512568",
+      "42591467",
+      "42592494"
+    ]
+  },
+  {
+    "theme": "Explainability and transparency",
+    "description": "Emphasis on interpretable models, explainable AI (XAI), and transparent processes for end users and fact-checking.",
+    "merged_from": [
+      "Transparency and explainability",
+      "Transparency and traceability"
+    ],
+    "supporting_pmids": [
+      "35590827",
+      "37733068",
+      "37747285",
+      "40615544",
+      "40625466",
+      "40741285",
+      "40821951",
+      "40989317",
+      "41148218",
+      "41154301",
+      "41189452",
+      "41194944",
+      "41325406",
+      "41484244",
+      "41486297",
+      "41613098",
+      "41682137",
+      "41897273",
+      "41899795",
+      "41904204",
+      "41909056",
+      "41911379",
+      "41977864",
+      "41978676",
+      "41993038",
+      "41994555",
+      "42061228",
+      "42072503",
+      "42141001",
+      "42147040",
+      "42160468",
+      "42180464",
+      "42187527",
+      "42292667",
+      "42305941",
+      "42305950",
+      "42341346",
+      "42354574",
+      "42394813"
+    ]
+  },
+  {
+    "theme": "Misinformation and deepfake detection",
+    "description": "Methods for detecting deepfakes and misinformation, including optical flow, face extraction, NLP, and media monitoring.",
+    "merged_from": [
+      "Deepfake detection benchmarks and datasets",
+      "Deepfake detection techniques"
+    ],
+    "supporting_pmids": [
+      "34450855",
+      "34969837",
+      "35128371",
+      "35408114",
+      "35528632",
+      "35590827",
+      "35746333",
+      "36286357",
+      "36399238",
+      "36466587",
+      "36662116",
+      "37974653",
+      "37984184",
+      "38026025",
+      "38126058",
+      "38434385",
+      "38660187",
+      "38834812",
+      "38855214",
+      "39080896",
+      "39173196",
+      "39730641",
+      "39943428",
+      "39968137",
+      "40103771",
+      "40137185",
+      "40218502",
+      "40450160",
+      "40632812",
+      "40633045",
+      "41080432",
+      "41486297",
+      "41501543",
+      "42022504",
+      "42031418"
+    ]
+  },
+  {
+    "theme": "Privacy and data governance",
+    "description": "Adherence to data privacy, confidentiality, and regulatory compliance through anonymization, synthetic data, and data minimization.",
+    "merged_from": [
+      "Data privacy and synthetic data"
+    ],
+    "supporting_pmids": [
+      "41771189",
+      "41777900",
+      "41951724",
+      "41952677",
+      "41957286",
+      "41975807",
+      "41978676",
+      "42122554",
+      "42122564",
+      "42123077",
+      "42130943",
+      "42194425",
+      "42194456"
+    ]
+  },
+  {
+    "theme": "Prebunking and misinformation countermeasures",
+    "description": "Using preemptive counter-information, inoculation theory, media literacy, and critical thinking to reduce misinformation influence.",
+    "merged_from": [],
+    "supporting_pmids": [
+      "28475576",
+      "33017160",
+      "36001675",
+      "39774143",
+      "39775334",
+      "39839969",
+      "39986181",
+      "40367148",
+      "40369169",
+      "40568555",
+      "41307058",
+      "42137236"
+    ]
+  },
+  {
+    "theme": "Fact-checking and verification",
+    "description": "Importance of fact-checking AI responses, cross-checking answers, and verifying accuracy and reliability of information.",
+    "merged_from": [
+      "Fact-Checking and Misinformation Detection",
+      "Hallucination and Misinformation Detection"
+    ],
+    "supporting_pmids": [
+      "32409327",
+      "32478708",
+      "32498140",
+      "37700993",
+      "37809168",
+      "37810004",
+      "37811040",
+      "40743535",
+      "41189452",
+      "41866232",
+      "41866457",
+      "41866756"
+    ]
+  },
+  {
+    "theme": "Hallucination Mitigation via Validation and Alignment",
+    "description": "Mitigation strategies include systematic checkpoints, sequential validation, cross-validation, unidirectional alignment, explicit grounding, and data fidelity controls to prevent hallucinations.",
+    "merged_from": [
+      "Hallucination mitigation techniques"
+    ],
+    "supporting_pmids": [
+      "41114380",
+      "41458620",
+      "41463600",
+      "41481915",
+      "41699313",
+      "41699969",
+      "41770981",
+      "41771189",
+      "41904204",
+      "41909056",
+      "41911379"
+    ]
+  },
+  {
+    "theme": "Hallucination rate measurement",
+    "description": "Defining hallucinated papers, calculating hallucination rates, and measuring hallucination rates in reference generation and LLM retrieval.",
+    "merged_from": [
+      "Hallucination as a Key Challenge",
+      "Error and Hallucination Rate Evaluation"
+    ],
+    "supporting_pmids": [
+      "38776130",
+      "40910118",
+      "41404488",
+      "41458620",
+      "41481915",
+      "41534067",
+      "41546380",
+      "41598221",
+      "41675307",
+      "41680456",
+      "42468440"
+    ]
+  },
+  {
+    "theme": "Statistical and experimental benchmarking",
+    "description": "Benchmarking uses statistical tests (Mann-Whitney U, chi-square, ANOVA, Pearson correlation), factorial designs, randomized exposure, and survey experiments to evaluate misinformation effects and detection.",
+    "merged_from": [],
+    "supporting_pmids": [
+      "33623836",
+      "33646021",
+      "33646043",
+      "33731933",
+      "33747252",
+      "36959999",
+      "36992170",
+      "37069194",
+      "37126201"
+    ]
+  },
+  {
+    "theme": "Interdisciplinary and stakeholder collaboration",
+    "description": "Promoting interdisciplinary cooperation, multidisciplinary bodies, and clear stakeholder roles in AI governance and implementation.",
+    "merged_from": [
+      "Coordination and Interdisciplinary Collaboration"
+    ],
+    "supporting_pmids": [
+      "33112247",
+      "40741285",
+      "42096643",
+      "42097745",
+      "42165420",
+      "42170942",
+      "42211230",
+      "42220970",
+      "42258811"
+    ]
+  },
+  {
+    "theme": "Assessment and Measurement Tools",
+    "description": "Items describe the use of specific scales and methods for assessing hallucinations, such as PSAS, PSYRATS, BPRS, Experience Sampling Method, and signal detection tasks, including their reliability and validity.",
+    "merged_from": [
+      "Hallucination Assessment and Measurement Tools"
+    ],
+    "supporting_pmids": [
+      "27905557",
+      "28049081",
+      "28177507",
+      "28250565",
+      "28253093",
+      "28736541",
+      "28844297",
+      "29202885"
+    ]
+  },
+  {
+    "theme": "Transparency and auditability",
+    "description": "Ensuring transparency and auditability of retrieval steps and modular processes, with explicit marking of contested answers and accountability.",
+    "merged_from": [
+      "Transparency and disclosure in AI use"
+    ],
+    "supporting_pmids": [
+      "41132171",
+      "41993038",
+      "41994555",
+      "42000932",
+      "42027979",
+      "42517506",
+      "42521268",
+      "42521272"
+    ]
+  },
+  {
+    "theme": "Bias mitigation and fairness",
+    "description": "Mitigating algorithmic bias, ensuring equity, and avoiding culturally inappropriate or risky outputs.",
+    "merged_from": [],
+    "supporting_pmids": [
+      "41915457",
+      "41993038",
+      "41994555",
+      "42000932",
+      "42027979",
+      "42072503"
+    ]
+  },
+  {
+    "theme": "Cognitive and Human Factors in Misinformation",
+    "description": "Understanding how cognitive ability, personality traits, self-efficacy, and prior knowledge influence susceptibility to misinformation and deepfake belief.",
+    "merged_from": [],
+    "supporting_pmids": [
+      "37810004",
+      "37810833",
+      "38026025",
+      "38098756",
+      "40856446",
+      "40906516"
+    ]
+  },
+  {
+    "theme": "Safeguards and Countermeasures Against Deepfakes",
+    "description": "Implementing societal and scientific safeguards, detection methods, authenticity verification, and countermeasures to protect against AI-generated deepfakes and hallucinations.",
+    "merged_from": [],
+    "supporting_pmids": [
+      "37758893",
+      "37810833",
+      "38392094",
+      "38834812",
+      "40735688"
+    ]
+  },
+  {
+    "theme": "Knowledge Grounding for Hallucination Reduction",
+    "description": "Using external knowledge sources, such as knowledge graphs and retrieval-augmented generation, to ground AI outputs and reduce factual inconsistencies.",
+    "merged_from": [],
+    "supporting_pmids": [
+      "41329953",
+      "41339465",
+      "41463600",
+      "41982676"
+    ]
+  },
+  {
+    "theme": "Human Oversight and Supervised Deployment",
+    "description": "Ensuring human oversight, clear boundaries of autonomy, and supervised deployment of AI systems, particularly in high-stakes settings.",
+    "merged_from": [],
+    "supporting_pmids": [
+      "41458620",
+      "41463600",
+      "41501543",
+      "41534067"
+    ]
+  },
+  {
+    "theme": "Safety, Reliability, and Robustness",
+    "description": "Emphasis on safety-aware frameworks, robustness, reliability, and mitigation of harmful or misleading outputs in AI systems.",
+    "merged_from": [],
+    "supporting_pmids": [
+      "41977864",
+      "41977887",
+      "42194487",
+      "42195318"
+    ]
+  },
+  {
+    "theme": "Audit Logging and Traceability",
+    "description": "Implementing audit logging, traceability mechanisms, and immutable logs to ensure accountability and process transparency.",
+    "merged_from": [],
+    "supporting_pmids": [
+      "41982676",
+      "41987787",
+      "42136930",
+      "42141001"
+    ]
+  },
+  {
+    "theme": "Countering misinformation and false claims",
+    "description": "Identifying, correcting, and neutralizing false or misleading information, including counter-rumours, fact-checking, and direct refutation, while maintaining credibility.",
+    "merged_from": [],
+    "supporting_pmids": [
+      "31561111",
+      "31640660",
+      "34714827",
+      "35164543"
+    ]
+  },
+  {
+    "theme": "Regulatory clarity and enforcement",
+    "description": "Clear norms, enforcement, regulatory clarity, and legal accountability to ensure ethically sustainable AI use and data protection.",
+    "merged_from": [],
+    "supporting_pmids": [
+      "32313360",
+      "32498140",
+      "35099403",
+      "42517516"
+    ]
+  },
+  {
+    "theme": "Study Design and Participant Selection",
+    "description": "Designing robust studies with participant exclusion criteria, preregistration, random assignment, real-world stimuli, and repeated measures to ensure valid benchmarking and experimental outcomes.",
+    "merged_from": [],
+    "supporting_pmids": [
+      "37410765",
+      "37810833",
+      "37929261",
+      "39223110"
+    ]
+  },
+  {
+    "theme": "Misinformation Measurement and Impact",
+    "description": "Measuring misinformation via self-report scales, annotator assessments, and analyzing spread patterns, cascades, and impact on beliefs and behaviors.",
+    "merged_from": [],
+    "supporting_pmids": [
+      "37560816",
+      "37632809",
+      "37944324",
+      "37974653"
+    ]
+  },
+  {
+    "theme": "Monitoring, Auditing, and Accountability",
+    "description": "Continuous monitoring, third-party audits, independent evaluations, and accountability mechanisms to detect performance failures, ensure compliance, and maintain transparency.",
+    "merged_from": [],
+    "supporting_pmids": [
+      "37747285",
+      "37811040",
+      "41154301",
+      "41168748"
+    ]
+  },
+  {
+    "theme": "Awareness of AI Limitations and Uncertainty",
+    "description": "Recognizing AI limitations, hallucinations, and uncertainty, and communicating these to users to prevent over-reliance and misinformation.",
+    "merged_from": [],
+    "supporting_pmids": [
+      "37809168",
+      "37811040",
+      "41382112",
+      "41388782"
+    ]
+  },
+  {
+    "theme": "Evaluation Metrics for Accuracy and Performance",
+    "description": "Evaluation uses metrics such as accuracy, top-k accuracy, weighted F1-score, diagnostic accuracy, faithfulness, context recall, correctness, and relevancy, including RAGAS and LLM-as-judge approaches.",
+    "merged_from": [],
+    "supporting_pmids": [
+      "41481915",
+      "41675307",
+      "41829551",
+      "42135531"
+    ]
+  },
+  {
+    "theme": "Benchmark Pitfalls and Evaluation Methods",
+    "description": "Items reveal pitfalls in out-of-distribution test sets and describe various evaluation methods including meta-analyses, systematic reviews, quality assessment tools, and simulation-based benchmarking.",
+    "merged_from": [],
+    "supporting_pmids": [
+      "41489965",
+      "41507138",
+      "41583973",
+      "41584067"
+    ]
+  },
+  {
+    "theme": "Explainability and Interpretability",
+    "description": "Involves using explainability methods to identify spurious cues, logic checking, complementing black-box learning with explanatory modeling, addressing adversarial manipulation of explanations, and model interpretability to reduce incorrect acceptance.",
+    "merged_from": [],
+    "supporting_pmids": [
+      "41534067",
+      "41584067",
+      "41664164",
+      "41673321"
+    ]
+  },
+  {
+    "theme": "Accountability and Liability Boundaries",
+    "description": "Defines accountability boundaries, institutional policies for liability, clinician responsibility as stewards of AI, and institutional oversight structures like AI Stewardship Committees.",
+    "merged_from": [],
+    "supporting_pmids": [
+      "41534067",
+      "41536843",
+      "41682137",
+      "41700404"
+    ]
+  },
+  {
+    "theme": "Misinformation Correction and Debunking",
+    "description": "Strategies to correct misinformation through algorithmic and social corrections, refutation, debriefing, and detailed debunking messages.",
+    "merged_from": [],
+    "supporting_pmids": [
+      "28475576",
+      "28622038",
+      "28895452"
+    ]
+  },
+  {
+    "theme": "Statistical and Methodological Rigor in Hallucination Research",
+    "description": "Statistical methods such as multiple comparison correction, signal detection theory, and Bayesian model selection to ensure robust analysis.",
+    "merged_from": [],
+    "supporting_pmids": [
+      "28798131",
+      "28940312",
+      "36761865"
+    ]
+  },
+  {
+    "theme": "Traceability and auditability of AI outputs",
+    "description": "Ensuring AI outputs are traceable and auditable through model governance, surveillance systems, and documented override authority.",
+    "merged_from": [],
+    "supporting_pmids": [
+      "42147040",
+      "42147713",
+      "42160468"
+    ]
+  },
+  {
+    "theme": "Managing uncertainty and complexity",
+    "description": "Addressing scientific uncertainty and complexity, avoiding overstating safety, and carefully distilling complex facts while encouraging refusal of false information.",
+    "merged_from": [],
+    "supporting_pmids": [
+      "31561111",
+      "31640660"
+    ]
+  },
+  {
+    "theme": "Reporting and monitoring of hallucinations",
+    "description": "Reporting hallucination incidence in drug trials and monitoring for misinformation, suggesting surveillance and documentation practices.",
+    "merged_from": [],
+    "supporting_pmids": [
+      "31640660",
+      "31920635"
+    ]
+  },
+  {
+    "theme": "Safeguards for AI/ML in global health",
+    "description": "Safeguards for AI/ML use in global health, ensuring ethical and societal values, responsible use in government, and human oversight in decisions.",
+    "merged_from": [],
+    "supporting_pmids": [
+      "32284653",
+      "32313360"
+    ]
+  },
+  {
+    "theme": "Deepfake Awareness and Education",
+    "description": "Educating participants about deepfakes, providing interpretability tools, and raising awareness to improve detection and mitigate misinformation spread.",
+    "merged_from": [],
+    "supporting_pmids": [
+      "37410765",
+      "37531336"
+    ]
+  },
+  {
+    "theme": "Comparative Baselines and Model Comparisons",
+    "description": "Evaluation includes comparative baselines with model and human comparisons, and benchmarking against baseline models for prediction accuracy.",
+    "merged_from": [],
+    "supporting_pmids": [
+      "41481915",
+      "41486297"
+    ]
+  },
+  {
+    "theme": "Workforce Training and AI Literacy",
+    "description": "Emphasizes embedding AI literacy into medical curricula, CME, tiered competency governance, and institutional responsibility for training resources.",
+    "merged_from": [],
+    "supporting_pmids": [
+      "41534067",
+      "41536843"
+    ]
+  },
+  {
+    "theme": "Inter-Annotator Agreement and Reliability",
+    "description": "Emphasizes computing inter-annotator agreement, psychometric reliability targets, and consistency analysis to ensure evaluation reliability.",
+    "merged_from": [],
+    "supporting_pmids": [
+      "41534067",
+      "41554365"
+    ]
+  },
+  {
+    "theme": "Verification as governance requirement",
+    "description": "Verification as a necessary component, including minimum verification requirements, verification layers, and decoupling generation from verification.",
+    "merged_from": [],
+    "supporting_pmids": [
+      "42061228",
+      "42072503"
+    ]
+  },
+  {
+    "theme": "Consent management and transparency",
+    "description": "Consent workflows, transparent consent processes, and compliance with local regulations regarding consent, including pediatric assent and plain-language communication.",
+    "merged_from": [],
+    "supporting_pmids": [
+      "42141001",
+      "42147040"
+    ]
+  },
+  {
+    "theme": "Automation bias awareness",
+    "description": "Awareness of automation bias and avoiding over-reliance on algorithmic evaluation.",
+    "merged_from": [],
+    "supporting_pmids": [
+      "42147713",
+      "42165420"
+    ]
+  },
+  {
+    "theme": "Misinformation detection and risk assessment",
+    "description": "Evaluation of misinformation statements, emotion-aware risk assessment tools, context-sensitive moderation strategies, and network-based detection of emotional manipulation.",
+    "merged_from": [],
+    "supporting_pmids": [
+      "42153406",
+      "42157652"
+    ]
+  },
+  {
+    "theme": "Consent, privacy, and clinical review",
+    "description": "Consent, privacy, and clinical review requirements, and data privacy and institutional governance.",
+    "merged_from": [],
+    "supporting_pmids": [
+      "42160468",
+      "42165420"
+    ]
+  },
+  {
+    "theme": "Integration of domain knowledge",
+    "description": "Integrating verified medical knowledge, knowledge graphs, and retrieval-augmented generation on curated materials to improve AI reliability.",
+    "merged_from": [],
+    "supporting_pmids": [
+      "42251377",
+      "42256001"
+    ]
+  },
+  {
+    "theme": "Ethical and responsible deployment",
+    "description": "Responsible deployment constraints, alignment with values, and addressing ethical concerns, biases, and data privacy.",
+    "merged_from": [],
+    "supporting_pmids": [
+      "42211230",
+      "42222272"
+    ]
+  },
+  {
+    "theme": "Usability and user experience",
+    "description": "Usability assessments like the System Usability Scale (SUS) and evaluations of user engagement, indicating a focus on user-centered design.",
+    "merged_from": [],
+    "supporting_pmids": [
+      "42313716",
+      "42326256"
+    ]
+  },
+  {
+    "theme": "Stakeholder involvement and patient voices",
+    "description": "Meaningful inclusion of patient voices and stakeholder-centered approaches in AI governance and evaluation to build trust and ensure equity.",
+    "merged_from": [],
+    "supporting_pmids": [
+      "42341346",
+      "42444305"
+    ]
+  }
+]

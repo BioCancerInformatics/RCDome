@@ -16,15 +16,22 @@ server <- function(input, output, session) {
     ))
   }, ignoreNULL = TRUE)
 
-  # ── Home tab: always reload the landing page iframe ─────────────────
+  # ── Home tab: reload the landing page iframe only when the user RETURNS to
+  #    Home (skip the initial load — the iframe already has its src in the UI).
+  #    This removes the startup reload that made the page flicker. ────────────
+  home_tab_seen <- FALSE
   observeEvent(input$main_nav, {
     if (isTRUE(input$main_nav == "Home")) {
-      shinyjs::runjs('document.getElementById("home_iframe").src = "landing_page.html";')
+      if (home_tab_seen) {
+        shinyjs::runjs('document.getElementById("home_iframe").src = "landing_page.html";')
+      } else {
+        home_tab_seen <<- TRUE
+      }
     }
-  })
+  }, ignoreNULL = TRUE)
 
   # ── Network module (Aba Network) ────────────────────────────────────
-  mod_network_server("network", genes_df, signatures_df)
+  mod_network_server("network", genes_df)
 
   # ── RCD Entity Definitions (separate sub-module) ─────────────────
   mod_rcd_entities_server("rcd_entities")

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Generate detail_page_wireframe.html with REAL V026 data.
+"""Generate detail_page_wireframe.html with REAL V027 data.
 Entity view: definition + real gene table (mechanistic class, DBs, PMIDs).
 Gene view: real metadata + associated entities.
 The data is embedded inline so the page works from file://.
@@ -335,6 +335,7 @@ function updateHeaders() {
   if (tg) tg.textContent = "Direction (" + lbl + ")";
 }
 const esc = s => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+const logoUrl = n => 'rcd_mod/logo%20RCDs/' + encodeURIComponent(n) + '.png';
 const pmLink = p => {
   const t = PMID_TITLES[p] || '';
   return `<a href="https://pubmed.ncbi.nlm.nih.gov/${p}/" target="_blank" class="has-tip" data-tip="${esc(t)}">PMID ${p}</a>`;
@@ -497,7 +498,7 @@ function showEntity(name) {
   crumb.textContent = name;
   if (entityJump) entityJump.value = name;
   const e = DATA.entities[name];
-  document.getElementById("entityTitle").textContent = name;
+  document.getElementById("entityTitle").innerHTML = `<img src="${logoUrl(name)}" onerror="this.outerHTML='<span style=color:#fca5a5;font-size:0.7em;>logo-not-found</span>'" style="width:56px;height:56px;object-fit:contain;margin-right:12px;vertical-align:middle;" alt="">${esc(name)}`;
   if (!e) {
     document.getElementById("entityMeta").textContent = "No matrix data for this entity.";
     document.getElementById("entityDef").textContent = "";

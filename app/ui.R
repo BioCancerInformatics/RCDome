@@ -54,7 +54,7 @@ ui <- tagList(
         rcd_busy_timer = setTimeout(function() {
           var o = document.getElementById('busy_overlay');
           if (o) o.style.display = 'flex';
-        }, 200);
+        }, 500);
       });
       $(document).on('shiny:idle', function() {
         if (rcd_busy_timer) clearTimeout(rcd_busy_timer);

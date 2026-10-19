@@ -476,5 +476,7 @@ mod_board_qa_server <- function(id, board_reactive, pending_query = NULL) {
       })
     })
 
+    messages
+
   })
 }
