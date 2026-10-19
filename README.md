@@ -50,7 +50,7 @@ The pipeline runs in one top-to-bottom workflow: **20 source databases and resou
 | `docs/manuscript` | The manuscript (governance V027) + the OD **M&M** and **Results** subsections |
 | `docs/supplementary` | Supplementary information, tables, and variable dictionary |
 | `docs/figures` | Figures 1–4 and Supplementary Figures S1–S3 (600-DPI TIFF + PNG) |
-| `docs/traceability` | The traceability & governance contract |
+| `docs/` | The traceability | `docs/traceability` | The traceability & governance contract | governance contract (`RCDome_Traceability_Contract.md`) |
 | `docs/governance` | Medina's AI Governance Rules + the **RCDome Definition Governance** (invariance, provenance P0–P3, two-call) |
 | `docs/decoder` | OD inventory, draft definitions, review guide, sync tracking |
 | `data/` | The truth matrix (`unified_gene_rcd_matrix_V027.csv`) + 10,141 verified PMID titles + the **53-entity decoder** (`RCDome_Decoder_53*`), review worksheet, merge log, NCCD-verbatim JSON, and validation artifacts |
@@ -129,7 +129,7 @@ The app loads `data/unified_gene_rcd_matrix_V027.rds` (place a copy in `app/data
 
 ## 🧾 Governance & traceability
 
-This project follows **Medina's AI Governance Rules in Writing Scientific Manuscripts** (see `docs/governance`): AI assists without replacing the human; every number is verified against the matrix; no placeholders, no make-believe. The full **traceability & governance contract** (versioning, synchronization, forbidden actions) is in `docs/traceability`.
+This project follows **Medina's AI Governance Rules in Writing Scientific Manuscripts** (see `docs/governance`): AI assists without replacing the human; every number is verified against the matrix; no placeholders, no make-believe. The full **traceability & governance contract** (versioning, synchronization, forbidden actions) is in `docs/RCDome_Traceability_Contract.md`.
 
 ## ⏳ Honest status
 
