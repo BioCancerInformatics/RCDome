@@ -8,12 +8,28 @@ import math
 
 NAVY='#0b1020'; GOLD='#FFD700'; ORANGE='#FF9800'; BLUE='#00B0FF'; GREEN='#00E676'; PURPLE='#E040FB'; ORANGE5='#FF6D00'; GREY='#c8c4bf'; TEAL='#14b8a6'
 
+# ── Read the truth matrix (unique pairs) so Figure 3 always matches the frozen data ──
+import csv as _csv
+_UNIQ = set(); _ROLE = {'MARKER':0,'EXECUTOR':0,'REGULATOR':0,'UNCERTAIN':0}; _DIR = {'PROMOTES':0,'PROTECTS':0,'UNCLEAR':0}
+_MAT = 'D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript/RCDome_distribution/data/unified_gene_rcd_matrix_V027.csv'
+with open(_MAT, encoding='utf-8-sig', newline='') as _f:
+    for _r in _csv.DictReader(_f):
+        _k = (_r['gene_symbol'], _r['rcd_form_canonical'])
+        if _k in _UNIQ: continue
+        _UNIQ.add(_k)
+        _r_role = _r.get('final_role','')
+        _r_dir = _r.get('final_direction','')
+        if _r_role in _ROLE: _ROLE[_r_role] += 1
+        if _r_dir in _DIR: _DIR[_r_dir] += 1
+_ROLE_VALS = [_ROLE['MARKER'], _ROLE['EXECUTOR'], _ROLE['REGULATOR'], _ROLE['UNCERTAIN']]
+_DIR_VALS = [_DIR['PROTECTS'], _DIR['PROMOTES']]
+
 fig, axes = plt.subplots(2, 2, figsize=(10.5, 8), dpi=600)
 fig.patch.set_facecolor('white')
 
 # (a) Role distribution
 ax = axes[0,0]
-roles=['Marker','Executor','Regulator','Uncertain']; vals=[5,469,9489,11605]
+roles=['Marker','Executor','Regulator','Uncertain']; vals=_ROLE_VALS
 bars = ax.barh(roles, vals, color=['#e7e5e4', ORANGE, BLUE, GREY])
 for b,v in zip(bars, vals):
     ax.text(b.get_width()+250, b.get_y()+b.get_height()/2, f'{v:,}', va='center', fontsize=9, color=NAVY, fontweight='bold')
@@ -23,7 +39,7 @@ ax.spines[['top','right']].set_visible(False); ax.tick_params(colors=NAVY, label
 
 # (b) Mechanistic by level
 ax = axes[0,1]
-levels=['L1','L2','L3','L4','L5']; pcts=[64.6,40.4,33.3,23.6,31.5]
+levels=['L1','L2','L3','L4','L5']; pcts=[37.3,14.1,14.2,6.3,10.9]
 lcolors=[GOLD,BLUE,GREEN,PURPLE,ORANGE5]
 bars = ax.bar(levels, pcts, color=lcolors, width=0.62)
 for b,v in zip(bars,pcts):
@@ -34,20 +50,21 @@ ax.spines[['top','right']].set_visible(False); ax.tick_params(colors=NAVY, label
 
 # (c) Direction
 ax = axes[1,0]
-dirs=['Protects','Promotes']; dvals=[4755,5070]
+dirs=['Protects','Promotes']; dvals=_DIR_VALS
 bars = ax.barh(dirs, dvals, color=[TEAL, ORANGE])
 for b,v in zip(bars,dvals):
     ax.text(b.get_width()+110, b.get_y()+b.get_height()/2, f'{v:,}', va='center', fontsize=9, color=NAVY, fontweight='bold')
 ax.set_xlim(0,6800); ax.set_title('Direction of regulation', fontsize=11, fontweight='bold', color=NAVY)
 ax.text(-0.14, 1.02, 'C', transform=ax.transAxes, fontsize=15, fontweight='bold', color=NAVY)
+ax.text(0.98, 0.02, '938 pairs pending (delta round not yet sent)', ha='right', va='bottom', transform=ax.transAxes, fontsize=7, color='#78716c', style='italic')
 ax.spines[['top','right']].set_visible(False); ax.tick_params(colors=NAVY, labelsize=8)
 
 # (d) Bullseye — AREA-proportional rings
 ax = axes[1,1]
 TOTAL = 21568
 R3 = 1.0
-R2 = math.sqrt((9489+469)/TOTAL)
-R1 = math.sqrt(469/TOTAL)
+R2 = math.sqrt((8369+367)/TOTAL)
+R1 = math.sqrt(367/TOTAL)
 # outer grey ring (uncertain)
 ax.add_patch(Wedge((0,0), R3, 0, 360, width=R3-R2, facecolor=GREY, alpha=0.9))
 # middle blue ring (regulator)
@@ -55,9 +72,9 @@ ax.add_patch(Wedge((0,0), R2, 0, 360, width=R2-R1, facecolor=BLUE, alpha=0.9))
 # inner orange core (executor)
 ax.add_patch(plt.Circle((0,0), R1, color=ORANGE, alpha=0.95))
 # labels
-ax.text(0, (R2+R3)/2, 'UNCERTAIN\n11,605', ha='center', va='center', fontsize=8, color=NAVY, fontweight='bold')
-ax.text(0, (R1+R2)/2, 'REGULATOR\n9,489', ha='center', va='center', fontsize=8, color='white', fontweight='bold')
-ax.text(0, 0, '469', ha='center', va='center', fontsize=8, color='white', fontweight='bold')
+ax.text(0, (R2+R3)/2, 'UNCERTAIN\n11,800', ha='center', va='center', fontsize=8, color=NAVY, fontweight='bold')
+ax.text(0, (R1+R2)/2, 'REGULATOR\n8,369', ha='center', va='center', fontsize=8, color='white', fontweight='bold')
+ax.text(0, 0, '367', ha='center', va='center', fontsize=8, color='white', fontweight='bold')
 ax.text(0, -0.24, 'EXECUTOR', ha='center', va='center', fontsize=8, color=ORANGE, fontweight='bold')
 ax.set_xlim(-1.15,1.15); ax.set_ylim(-1.15,1.15); ax.set_aspect('equal'); ax.axis('off')
 ax.set_title('The core is small; the network is vast', fontsize=11, fontweight='bold', color=NAVY, pad=6)
@@ -88,4 +105,4 @@ if sys.platform == 'win32':
                 _k32.CloseHandle(_h)
     except Exception:
         pass
-print('Figure 3 regenerated (V026 numbers)')
+print('Figure 3 regenerated (V027 numbers)')
