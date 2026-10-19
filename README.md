@@ -104,7 +104,7 @@ setwd("/path/to/RCDome/app")
 shiny::runApp(appDir = ".", port = 8890, launch.browser = TRUE)
 ```
 
-The app loads `data/unified_gene_rcd_matrix_V027.csv` (place a copy in `app/data/`, or point `global.R` to it).
+The app loads `data/unified_gene_rcd_matrix_V027.rds` (place a copy in `app/data/`, or point `global.R` to it). The CSV (`unified_gene_rcd_matrix_V027.csv`) is the human-readable truth export.
 
 ---
 
