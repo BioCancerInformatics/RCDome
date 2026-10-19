@@ -1,20 +1,5 @@
 # RCDome Traceability & Governance Contract
 
-## Benchmark Statistical Standard (2026-09-18)
-
-Every AI-output benchmark (e.g., the Digital Molecular RCD Board / Q&A) must be reported with a statistically defensible sample size and confidence interval.
-
-- **Minimum sample size: n = 100** per benchmark (random, seed-reproducible sample).
-- **Report the exact binomial 95% CI** (Clopper–Pearson).
-- **Claim standard:** with n = 100 and 100% pass, the CI lower bound is **96.4%**, so the permitted wording is **“100% (100/100), 95% CI [96.4%, 100%]”** — i.e., “≥96% with 95% confidence.”
-- Pilot runs (n < 100) are admissible only as pilots and must be labeled as such.
-- Benchmarks must be reproducible: fixed seed, real model calls, documented prompt + context.
-
-Current benchmark results (2026-09-18, n = 100):
-- Reference discipline (gene vs entity PMID): 100/100, 95% CI 96.4–100%.
-- T06 context fidelity (no payload contradiction): 100/100, 95% CI 96.4–100%.
-
-
 ## Principles
 
 0. **NEVER ASSUME, NEVER IMAGINE, NEVER EXTRAPOLATE, NEVER SPECULATE.** State only what is verified against the data. A relationship, count, or equivalence (e.g., "316 CSV rows = 316 papers") is a claim that must be programmatically verified before it is written or spoken as fact. No projection, no inference-as-fact, no guessed numbers, no speculation about what "should" be true. If a number or relationship has not been checked against the actual data, it is an open question, and it must be labelled as such — never asserted. **External-service status (e.g., "Elicit's servers are recovering", "an outage", "a backlog") is a factual claim that MUST be cited from the provider's own status page or documentation — never asserted from symptoms. A cost figure (e.g., "~$2") MUST be cited from an invoice or usage record — never estimated. An unknown cause MUST be labelled "UNKNOWN", not filled with a guessed explanation.**
@@ -59,22 +44,31 @@ Current benchmark results (2026-09-18, n = 100):
 
 | Attribute | Value |
 |-----------|-------|
-| Current version | V025 |
-| Authoritative file | `output databases/Phase 2C output/unified_gene_rcd_matrix_V025.csv` |
+| Current version | V027 |
+| Authoritative file | `RCDome_distribution/data/unified_gene_rcd_matrix_V027.rds` (app) · `unified_gene_rcd_matrix_V027.csv` (truth export) |
 | Rows | 22,473 |
-| Columns | 67 |
+| Columns | 100 (83 original + 11 evidence-first adjudication + 6 mapped-vote) |
 | Unique genes | 9,265 |
+| Unique gene–RCD pairs | 21,568 (+ 905 corroboration rows) |
 | Canonicalized RCD-related entities | 53 |
 | Raw RCD form names | 62 |
-| MECHANISTIC pairs | 3,063 |
-| Phase 2C MECHANISTIC (phase2c column) | 4,187 |
-| rcd_gene_type populated | 842 |
-| DATABASE_ONLY pairs | 442 |
-| Zero-PMID rows | 274 (1.1%) |
-| PMID coverage | 98.9% |
-| Databases integrated | 20 |
-| Fully populated columns | 23/28 |
-| Truly empty cells (excluding design/deferred) | 0 |
+| Databases and resources | 20 |
+| Seven-class MECHANISTIC (rows) | 3,063 (13.6%) |
+| Seven-class DATABASE_ONLY (rows) | 286 (1.3%) |
+| Evidence-first mechanistic YES (pairs) | 4,881 (22.6%) |
+| Evidence-first executors / regulators | 367 / 8,369 |
+| Unique PMIDs (four columns) | 319,548 (10,141 title-verified) |
+
+## Deprecated Artifact Archiving Protocol
+
+**Effective: V027+**
+
+1. **Active folders hold only the current version.** Deprecated or obsolete artifacts (old matrix versions, old changelogs, retired scripts, superseded documents, scratch files) must not remain in active working folders.
+2. **Archive, never silently delete.** Move deprecated files to a `_archive`/`_archive_*` folder (e.g., `data/_archive_V027_partial/`, `output databases/Phase 2C output/_archive/`). Scratch/temp files may be deleted; versioned artifacts are always archived.
+3. **One canonical location per artifact.** Each artifact has exactly one authoritative location; stale duplicates (old mirrors, backups, legacy-layout copies) are removed once the canonical copy is confirmed. The V027 matrix lives only in `RCDome_distribution/data/`, `output databases/Phase 2C output/`, and the GitHub mirror's `data/` + `app/data/`.
+4. **Stray scripts live in `code/`.** Any one-off or maintenance script is placed in `code/` with a descriptive name — never abandoned at a drive root or inside a data folder.
+5. **Nothing is lost.** Versioned history is preserved in archive folders and in git history; the sweep only relocates files out of the active tree.
+6. **No secrets in the repository or its history.** API keys, SMTP credentials, and tokens live only in the authors' local `.Renviron`. Any key ever committed is purged from history and rotated before the repository is made public.
 
 ## V024 → V025 Amendment Log
 
@@ -121,6 +115,7 @@ Current benchmark results (2026-09-18, n = 100):
 - Manuscript claiming numbers not verified against current matrix
 - Sending manuscript for co-author review without line-by-line matrix audit
 - Changing matrix without creating a new versioned copy (VXX → VXX+1)
+- Committing an API key, password, or credential (NCBI, DeepSeek, Elicit, Consensus, SMTP) to the repository or leaving one in any tracked file
 - **Assuming** a row-to-entity equivalence (e.g., "rows = papers") without programmatic verification
 - **Imagining** values or relationships to fill a data gap and presenting them as observed
 - **Extrapolating** counts, costs, or completion times without computing them from actual data
@@ -346,7 +341,7 @@ Full change cycle for the ontological recalibration (V025 → V026):
 ## Consensus full run — transfer plan (decision, 2026-09-06)
 
 - The Consensus full run is executing on V023 (22,474 rows × 63 cols; 21,569 pairs) — started weeks ago, provenance-OK.
-- Progress: 19,443/21,569 processed; blocked by monthly token cap (resume 1 October 2026).
+- Progress: 21,568/21,568 processed (100%; full run complete).
 - DECISION (Enrique): do NOT change the script's matrix path mid-run. Let the V023 run finish.
 - After completion: merge the Consensus columns into the MOST RECENT matrix version (V026 now; V027+ if newer), by:
   1. Loading the Consensus checkpoint (keyed by gene_symbol × rcd_form_canonical).
@@ -374,3 +369,11 @@ Full change cycle for the ontological recalibration (V025 → V026):
 - **Supplementary tables renumbered to citation order**: S1↔S9 shift (Comparison→S9; 25-Forms→S1 … New Forms→S8), then S6/S7/S8 shift (New Forms→S6, Validation→S7, Five-Gate→S8), plus three off-by-one fixes (benchmark extraction→S13, gate results→S14, search-depth→S15). Workbook sheets + INDEX re-sorted; manuscript citations now monotonic S1→S15 and content-matched to the workbook.
 - **Critical recovery**: restored the accidentally deleted "Validation was performed on all 21,568…" paragraph and the bold on "Phase 2A/D Validation: Scale and Coverage" (recovered verbatim from the GitHub mirror).
 - **GitHub sync**: commits `399568a`…`945e2fb` (hero revert, PMID/hyperlink sweep, orphan fixes, Phase 2A, table renumbering).
+---
+
+## Storage contract (reinforced 2026-10-11)
+
+- **NEVER save any RCDome artifact to drive C:** (project files, ZIPs, data, figures, emails,
+  backups, temp outputs). Everything lives on **D:**.
+- Drive C: is critically low (7.9 GB free, 94% used); drive D: has 208 GB free.
+- Verified: the project is entirely on D:; zero RCDome files on C:.
