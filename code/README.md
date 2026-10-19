@@ -3,7 +3,7 @@
 Every analysis family and its scripts, grouped by folder under `code/`.
 Generated from the actual files in the repository.
 
-## adjudication/  (11 scripts)
+## adjudication/  (10 scripts)
 
 - `add_mapped_vote_columns.R`
 - `adjudication_53.py`
@@ -11,13 +11,12 @@ Generated from the actual files in the repository.
 - `build_matrix_additive_columns.py`
 - `count_pmids_v027.py`
 - `fetch_verbatim_agreement.py`
-- `fix_v025_rds_2rows.R`
 - `fix_vcd_rds.R`
 - `precompute_disc_df.R`
 - `precompute_disc_html.R`
 - `split_mapped_votes.R`
 
-## audits/  (19 scripts)
+## audits/  (18 scripts)
 
 - `audit_final_compliance_AB.py`
 - `audit_groupA_ocean_deep.py`
@@ -34,7 +33,6 @@ Generated from the actual files in the repository.
 - `higor_compliance_audit.py`
 - `higor_propagation_audit.py`
 - `manuscript_conformity_audit.py`
-- `manuscript_v026_deep_audit.py`
 - `reconcile_groupA_decoder_board.py`
 - `resource_claims.py`
 - `supplementary_tables_diff.py`
@@ -107,13 +105,11 @@ Generated from the actual files in the repository.
 - `validate_od_fulltext.py`
 - `verbatim_audit.py`
 
-## distribution/  (5 scripts)
+## distribution/  (3 scripts)
 
 - `build_distribution.py`
 - `build_github_mirror.py`
 - `generate_detail_page.py`
-- `make_v025_zip.py`
-- `make_v026_zip.py`
 
 ## extraction/  (90 scripts)
 
@@ -297,4 +293,4 @@ Generated from the actual files in the repository.
 - `phase2ad_msigdb_1832.py`
 - `phase2ad_residual.py`
 
-**Total: 249 scripts across 15 families.**
+**Total: 245 scripts across 15 families.**
