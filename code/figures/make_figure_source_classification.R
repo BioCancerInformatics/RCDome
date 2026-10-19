@@ -1,13 +1,13 @@
-# RCDome Supplementary Figure S2 (V026): mechanistic associations per source,
+# RCDome Supplementary Figure S3 (V027): mechanistic associations per source,
 # STACKED by RCD entity ontological level (L1-L5), concordant RCDome palette.
 # Note: canonical generator is make_figure_s2_stacked_by_level.py (Python);
 # this R script mirrors it for environments with R + magick.
 library(magick)
 
-df <- readRDS('D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript/output databases/Phase 2C output/unified_gene_rcd_matrix_V026.rds')
+df <- readRDS('D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript/output databases/Phase 2C output/unified_gene_rcd_matrix_V027.rds')
 
 # mechanistic associations only
-mech <- df[df$cot_mechanistic == 'YES', ]
+mech <- df[df$final_mechanistic == 'YES', ]
 
 # explode source_databases (semicolon-separated)
 src <- strsplit(mech$source_databases, ';')
@@ -33,10 +33,10 @@ palette <- c('L1' = '#FCBB18',
 lvl_names <- c('L1' = 'L1 Modalities (16)',
                'L2' = 'L2 Subtypes (5)',
                'L3' = 'L3 Triggers (2)',
-               'L4' = 'L4 Functional/contextual (12)',
-               'L5' = 'L5 Generic/umbrella/legacy/taxon/emerging (18)')
+               'L4' = 'L4 Functional/contextual (11)',
+               'L5' = 'L5 Generic/umbrella/legacy/taxon/emerging (19)')
 dark <- '#1F2937'
-out <- 'D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript/Figures/Figure_S2_source_classification'
+out <- 'D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript/Figures/Figure_S3_source_classification'
 
 draw <- function() {
   par(mar = c(4, 13, 3, 5), family = 'Helvetica', cex = 0.9)
@@ -52,7 +52,7 @@ draw <- function() {
   legend('bottomright', legend = lvl_names, fill = unname(palette),
          border = dark, cex = 0.55, bty = 'n', title = 'Ontological level',
          title.col = dark, text.col = dark)
-  mtext('Mechanistic associations (cot_mechanistic = YES)', side = 1, line = 2.5, col = dark, cex = 0.8)
+  mtext('Mechanistic associations (final_mechanistic = YES)', side = 1, line = 2.5, col = dark, cex = 0.8)
 }
 
 tryCatch({
@@ -68,4 +68,4 @@ image_write(image_convert(img, format = 'png'), path = paste0(out, '.png'))
 file.remove('tmp_src.png')
 
 write.csv(as.data.frame.matrix(mat), paste0(out, '_data.csv'), row.names = TRUE)
-cat('saved Figure_S2_source_classification (stacked by ontological level, V026)\n')
+cat('saved Figure_S3_source_classification (stacked by ontological level, V027)\n')
