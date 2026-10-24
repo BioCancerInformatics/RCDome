@@ -101,6 +101,8 @@ full provenance chain (source databases → channels → reference PMID → auth
 
 ## 🚀 Run the app locally
 
+**Live app:** [https://rcdome.org/](https://rcdome.org/)
+
 ```r
 setwd("/path/to/RCDome/app")
 shiny::runApp(appDir = ".", port = 8890, launch.browser = TRUE)
