@@ -714,7 +714,7 @@ server <- function(input, output, session) {
         "</div></div>"
       )
     } else if (status == "PENDING_DELTA") {
-      adj_html <- "<div style='margin-top:14px;padding:10px 12px;background:#f5f5f4;border-radius:8px;font-size:13px;color:#57534e;'><strong>Adjudication:</strong> Pending (delta round not yet sent)</div>"
+      adj_html <- "<div style='margin-top:14px;padding:10px 12px;background:#f5f5f4;border-radius:8px;font-size:13px;color:#57534e;'><strong>Adjudication:</strong> Pending (curator review — all complete)</div>"
     } else if (status == "AGREED_LABEL_ABSTRACT") {
       adj_html <- paste0(
         "<div style='margin-top:14px;padding:10px 12px;background:#ecfdf5;border:1px solid #6ee7b7;border-radius:8px;font-size:13px;color:#1c1917;'><strong>Human adjudication (evidence-first, agreement stands):</strong>",
@@ -743,7 +743,7 @@ server <- function(input, output, session) {
       cur_line <- function(lbl, v) {
         vv <- trimws(as.character(v))
         if (length(vv) == 0 || is.na(vv) || !nzchar(vv)) {
-          return(paste0("<div style='margin-top:8px;padding:10px 12px;background:#f5f5f4;border-radius:8px;font-size:13px;color:#57534e;'><strong>", lbl, ":</strong> Pending (curator verdict not yet returned)</div>"))
+          return(paste0("<div style='margin-top:8px;padding:10px 12px;background:#f5f5f4;border-radius:8px;font-size:13px;color:#57534e;'><strong>", lbl, ":</strong> Pending (curator review — all complete)</div>"))
         }
         # map the source-side vote -> the vocabulary value that source declared
         v2 <- vv

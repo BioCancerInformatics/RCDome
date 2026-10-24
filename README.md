@@ -28,10 +28,12 @@ The **dome** is RCDome's visual signature. Its cupola rim carries the 53 canonic
 | HGNC-validated genes | **9,265** |
 | Canonicalized RCD-related entities | **53** (from 62 original name strings) |
 | Source databases and resources | **20** |
-| Independent analyses | **3** — DeepSeek · Elicit · Consensus |
-| Executors / regulators / markers / unresolved | 367 / 8,369 / 94 / 11,800 |
-| Direction (promotes / protects) | 4,179 / 4,181 |
+| Independent analyses | **4** — DeepSeek · Elicit · Consensus · **Evidence-first adjudication** |
+| Executors / regulators / markers / unresolved | 225 / 4,606 / 95 / 16,642 |
+| Direction (promotes / protects) | 2,000 / 2,161 |
 | PMID titles verified against PubMed | **10,141 / 10,141 (100%)** |
+
+**Evidence-first adjudication (4th analysis).** Beyond the three independent classifiers, every gene–RCD pair carries a **final verbatim-grounded resolution** (`final_mechanistic` / `final_role` / `final_direction`), arbitrated by **GPT-4o + two human curators (Curator 1 = Higor, Curator 2 = Victor)** and tracked in the **Disagreement Radar** (7,905 label-disagreement rows on 7,831 unique pairs, all adjudicated). This is the evidence-first layer that resolved every classifier disagreement from the verbatim — the authoritative default across the app.
 
 ## 🧭 Conceptual framework
 
@@ -80,10 +82,10 @@ score **S = 0.25·RS1 + 0.25·RS2 + 0.20·RS3 + 0.15·RS4 + 0.10·RS5 + 0.05·RS
 | Layer | File |
 |---|---|
 | Entity records | `data/RCDome_Decoder_53.csv` / `.xlsx` (+ `_FINAL`) |
-| Two-call review | `data/definition_review_worksheet.csv` / `.xlsx` (336 fields) + `data/merge_log.csv` |
+| Two-call review | (intermediate worksheets — available in the GitHub Release) |
 | Governance | `docs/governance/RCDome_Definition_Governance.md` (invariance · provenance P0–P3 · two-call) |
 | Methods / Results | `docs/manuscript/MandM_operational_definitions.md` + `Results_OD_census.md` |
-| Validation | DeepSeek full-text RAG (`data/od_validation_deepseek_fulltext.csv`) · Consensus API (`data/od_crossref_consensus.csv`) · Europe PMC recovery · PubMed Knock Test (52/52) |
+| Validation | DeepSeek full-text RAG · Consensus API · Europe PMC recovery · PubMed Knock Test (52/52) |
 | Verbatim source | `data/galluzzi2018_nccd_definitions.json` (NCCD 2018 Box 1, byte-identical) |
 
 The decoder is **fully audited** (final readiness audit 26/26; verbatim audit 20/20

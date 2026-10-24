@@ -16,9 +16,9 @@ mod_gene_catalog_ui <- function(id) {
       ),
       tags$p(
         tags$span("Evidence-first:", style = "color:#a8a29e; font-weight:600;"), " ",
+        tags$span(paste0(format(rcd_counts$ef_mech, big.mark = ","), " mechanistic"), style = "color:#FF9800; font-weight:600;"), " · ",
         tags$span(paste0(format(rcd_counts$ef_exec, big.mark = ","), " executors"), style = "color:#FF9800; font-weight:600;"), " · ",
         tags$span(paste0(format(rcd_counts$ef_reg, big.mark = ","), " regulators"), style = "color:#FF9800; font-weight:600;"), " · ",
-        tags$span(paste0(format(rcd_counts$ef_mech, big.mark = ","), " mechanistic"), style = "color:#FF9800; font-weight:600;"), " · ",
         tags$span("verbatim-grounded", style = "color:#a8a29e; font-weight:600;"),
         style = "color:#d6d3d1; margin:4px 0 0; font-size:14px;"
       ),
@@ -32,33 +32,22 @@ mod_gene_catalog_ui <- function(id) {
       ),
       tags$p(
         tags$span("Compiled gene role:", style = "color:#a8a29e; font-weight:600;"), " ",
-        tags$span("320 executor pairs", style = "color:#FF9800; font-weight:600;"), " · ",
-        tags$span("3,235 regulator pairs", style = "color:#FF9800; font-weight:600;"), " · ",
+        tags$span(paste0(format(rcd_counts$compiled_exec, big.mark = ","), " executor pairs"), style = "color:#FF9800; font-weight:600;"), " · ",
+        tags$span(paste0(format(rcd_counts$compiled_reg, big.mark = ","), " regulator pairs"), style = "color:#FF9800; font-weight:600;"), " · ",
         tags$span("source-derived role", style = "color:#a8a29e; font-weight:600;"),
         style = "color:#d6d3d1; margin:2px 0 0; font-size:14px;"
       ),
       tags$p("Click a row to see detailed information for that gene.",
              style = "color:#a8a29e; margin:12px 0 0; font-size:14px;")
     ),
-    tags$div(style = "display:flex; gap:10px; flex-wrap:wrap; align-items:flex-end; margin-bottom:12px;",
-      selectizeInput(ns("f_gene"), "Gene", choices = NULL, multiple = TRUE, width = "200px", options = list(placeholder = "All genes", create = rcdome_create_js)),
-      selectizeInput(ns("f_biotype"), "Biotype", choices = NULL, multiple = TRUE, width = "160px", options = list(create = rcdome_create_js)),
-      selectizeInput(ns("f_rcd"), "RCD entity", choices = NULL, multiple = TRUE, width = "200px", options = list(create = rcdome_create_js)),
-      selectizeInput(ns("f_cancer"), "Cancer Gene", choices = NULL, multiple = TRUE, width = "160px", options = list(create = rcdome_create_js)),
-      selectizeInput(ns("f_tier"), "Confidence Tier", choices = NULL, multiple = TRUE, width = "160px", options = list(create = rcdome_create_js)),
-      selectizeInput(ns("f_mech"), "Mechanistic", choices = NULL, multiple = TRUE, width = "170px", options = list(create = rcdome_create_js)),
-      selectizeInput(ns("f_role"), "Role", choices = NULL, multiple = TRUE, width = "150px", options = list(create = rcdome_create_js)),
-      selectizeInput(ns("f_dir"), "Direction", choices = NULL, multiple = TRUE, width = "170px", options = list(create = rcdome_create_js)),
-      selectizeInput(ns("f_status"), "Adjudication", choices = c("Disagreement" = "UNIFORM_PIPELINE", "Agreement" = "AGREED_LABEL_ABSTRACT", "Pending" = "PENDING_DELTA"), multiple = TRUE, width = "180px", options = list(placeholder = "All statuses")),
-      selectizeInput(ns("f_db"), "Source DBs", choices = NULL, multiple = TRUE, width = "200px", options = list(create = rcdome_create_js))
-    ),
-    tags$div(style = "display:flex; align-items:center; flex-wrap:wrap; margin-bottom:12px;",
-      tags$span("Direction/Role source:",
+    tags$div(style = "margin-bottom:12px;",
+      tags$div("Direction/Role source:",
         `data-tip` = "Choose which analysis's Role/Direction values to show. Evidence-first = the final verbatim-grounded resolution (default). DeepSeek/Consensus/Compiled = the source classifications. GPT/Curator 1/Curator 2 = the arbitration votes (mapped to the source they sided with).",
-        style = "font-weight:600; color:#1c1917; font-size:14px; margin-right:2px;"),
+        style = "font-weight:600; color:#1c1917; font-size:14px; margin:0 0 4px 0;"),
+      tags$div(style = "display:flex; align-items:center; flex-wrap:wrap;",
       tags$label(
         `data-tip` = "Evidence-first resolution — the final verbatim-grounded verdict. Role: EXECUTOR/REGULATOR/MARKER/UNCERTAIN · Direction: PROMOTES/PROTECTS/UNCLEAR.",
-        style = "margin:0 0 0 14px; display:inline-flex; align-items:center; gap:5px; cursor:pointer; font-weight:600; font-size:14px;",
+        style = "margin:0 14px 0 0; display:inline-flex; align-items:center; gap:5px; cursor:pointer; font-weight:600; font-size:14px;",
         tags$input(type = "radio", name = ns("source_sel_r"), value = "evidence", checked = "checked", style = "margin:0;"),
         "Evidence-first"),
       tags$label(
@@ -92,14 +81,29 @@ mod_gene_catalog_ui <- function(id) {
         tags$input(type = "radio", name = ns("source_sel_r"), value = "curator_2", style = "margin:0;"),
         "Curator 2"),
       actionButton(ns("death_core"), "Death core (executors)",
-        `data-tip` = "One-click filter to the 367 EXECUTOR gene-RCD pairs (evidence-first) — the genes the verbatim grounds as directly executing cell death.",
+        `data-tip` = "One-click filter to the 225 EXECUTOR gene-RCD pairs (evidence-first) — the genes the verbatim grounds as directly executing cell death.",
         class = "search-evidence-btn", style = "margin-left:auto; height:32px; padding:0 14px; font-size:12.5px;"),
       downloadButton(ns("download_death_core"), "Download death core (CSV)",
-        `data-tip` = "Download the 367 EXECUTOR gene-RCD pairs (evidence-first, pair-level) as a CSV file with all provenance columns.",
+        `data-tip` = "Download the 225 EXECUTOR gene-RCD pairs (evidence-first, pair-level) as a CSV file with all provenance columns.",
         class = "search-evidence-btn", style = "height:32px; padding:0 14px; font-size:12.5px;"),
       actionButton(ns("reset_filters"), "Reset filters",
         class = "search-evidence-btn",
         style = "margin-left:10px; height:32px; padding:0 16px; font-size:12.5px; font-weight:600; background:#FF9800 !important; color:#0b1020 !important; border:none; border-radius:8px; cursor:pointer; box-shadow:0 2px 8px rgba(255,152,0,0.35);")
+      )
+    ),
+    tags$div(style = "display:flex; gap:10px; flex-wrap:wrap; align-items:flex-end; margin-bottom:12px;",
+      selectizeInput(ns("f_gene"), "Gene", choices = NULL, multiple = TRUE, width = "200px", options = list(placeholder = "All genes", create = rcdome_create_js)),
+      selectizeInput(ns("f_rcd"), "RCD entity", choices = NULL, multiple = TRUE, width = "200px", options = list(create = rcdome_create_js)),
+      selectizeInput(ns("f_biotype"), "Biotype", choices = NULL, multiple = TRUE, width = "160px", options = list(create = rcdome_create_js)),
+      selectizeInput(ns("f_cancer"), "Cancer Gene", choices = NULL, multiple = TRUE, width = "160px", options = list(create = rcdome_create_js)),
+      selectizeInput(ns("f_db"), "Source DBs", choices = NULL, multiple = TRUE, width = "200px", options = list(create = rcdome_create_js))
+    ),
+    tags$div(style = "display:flex; gap:10px; flex-wrap:wrap; align-items:flex-end; margin-bottom:12px;",
+      selectizeInput(ns("f_tier"), "Confidence Tier", choices = NULL, multiple = TRUE, width = "160px", options = list(create = rcdome_create_js)),
+      selectizeInput(ns("f_mech"), "Mechanistic", choices = NULL, multiple = TRUE, width = "170px", options = list(create = rcdome_create_js)),
+      selectizeInput(ns("f_role"), "Role", choices = NULL, multiple = TRUE, width = "150px", options = list(create = rcdome_create_js)),
+      selectizeInput(ns("f_dir"), "Direction", choices = NULL, multiple = TRUE, width = "170px", options = list(create = rcdome_create_js)),
+      selectizeInput(ns("f_status"), "Adjudication", choices = c("Disagreement" = "UNIFORM_PIPELINE", "Agreement" = "AGREED_LABEL_ABSTRACT", "Pending" = "PENDING_DELTA"), multiple = TRUE, width = "180px", options = list(placeholder = "All statuses"))
     ),
     tags$script(HTML(sprintf(
       "document.querySelectorAll('input[name=\"%s\"]').forEach(function(r){ r.addEventListener('change', function(){ Shiny.setInputValue('%s', r.value, {priority:'event'}); }); });",
@@ -195,7 +199,7 @@ mod_gene_catalog_server <- function(id) {
          var done = function(){ var o = document.getElementById('home_loading_overlay'); if(o){ o.style.display = 'none'; } };
          setTimeout(function(){
            f.onload = function(){ callShow(); done(); };
-           f.src = 'detail_page_wireframe.html?v=4';
+           f.src = 'detail_page_wireframe.html?v=5';
          }, 100);", js_sym)
       )
     }

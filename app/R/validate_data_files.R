@@ -7,7 +7,7 @@ validate_data_files <- function(data_dir = "data", board_dir = "board", www_dir 
     if (!isTRUE(cond)) issues <<- c(issues, msg)
   }
 
-  # matrix RDS (22,473 x 94: 83 original + 11 additive adjudication columns)
+  # matrix RDS (22,473 x 100: 94 canonical + 6 mapped-vote helpers)
   f <- file.path(data_dir, "unified_gene_rcd_matrix_V027.rds")
   if (file.exists(f)) {
     m <- tryCatch(readRDS(f), error = function(e) NULL)
@@ -35,11 +35,7 @@ validate_data_files <- function(data_dir = "data", board_dir = "board", www_dir 
   if (!file.exists(file.path(data_dir, "hgnc_complete_set.txt")))
     chk(FALSE, "missing data/hgnc_complete_set.txt")
 
-  # omic xlsx (Gene Catalog auxiliary datasets)
-  for (xf in c("ensembl_transcripts.xlsx", "gene_with_mature_miRNA.xlsx", "protein_coding_complete_annotation.xlsx")) {
-    if (!file.exists(file.path(data_dir, "omic", xf)))
-      chk(FALSE, paste0("missing data/omic/", xf))
-  }
+  # omic xlsx — REMOVED (deprecated; the multi-omics sub-tabs are no longer part of the app)
 
   # NCBI gene summaries (Gene information block) — existence only; the 6.7 MB
   # JSON is loaded lazily where needed, never parsed at app startup.
@@ -48,7 +44,22 @@ validate_data_files <- function(data_dir = "data", board_dir = "board", www_dir 
 
   # Discrepancy Radar precomputed assets (7,905 rows x 11 HTML columns)
   f <- file.path(data_dir, "adjudication", "disc_df.rds")
-  if (!file.exists(f)) chk(FALSE, "missing data/adjudication/disc_df.rds")
+  if (!file.exists(f)) {
+    chk(FALSE, "missing data/adjudication/disc_df.rds")
+  } else {
+    dd <- tryCatch(readRDS(f), error = function(e) NULL)
+    if (is.null(dd)) {
+      chk(FALSE, "disc_df.rds failed to load")
+    } else {
+      chk(nrow(dd) == 7905, sprintf("disc_df.rds: %d rows (expected 7,905)", nrow(dd)))
+      src_md5 <- attr(dd, "source_matrix_md5")
+      if (!is.null(src_md5)) {
+        mat_md5 <- unname(tools::md5sum(file.path(data_dir, "unified_gene_rcd_matrix_V027.rds")))
+        chk(identical(src_md5, mat_md5),
+            sprintf("disc_df.rds is STALE (derived from matrix md5 %s, current matrix md5 %s) — re-run code/precompute_disc_df.R", src_md5, mat_md5))
+      }
+    }
+  }
   f <- file.path(data_dir, "adjudication", "disc_html.rds")
   if (file.exists(f)) {
     h <- tryCatch(readRDS(f), error = function(e) NULL)

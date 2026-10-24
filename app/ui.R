@@ -77,7 +77,7 @@ ui <- tagList(
       style = "position:relative; width:100%; height:calc(100vh - 100px);",
       tags$iframe(
         id = "home_iframe",
-        src = "landing_page.html",
+        src = "landing_page.html?v=5",
         style = "width:100%; height:100%; border:none; display:block;",
         scrolling = "auto"
       ),

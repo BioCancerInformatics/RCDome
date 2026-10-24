@@ -217,11 +217,11 @@ star.on("mouseenter", function(ev,d){
 
 node.on("click", (ev, d) => {
   sessionStorage.setItem("rcd_target", JSON.stringify({type:"entity", name:d.name}));
-  window.location.href = "detail_page_wireframe.html?v=4";
+  window.location.href = "detail_page_wireframe.html?v=5";
 });
 star.on("click", (ev, d) => {
   sessionStorage.setItem("rcd_target", JSON.stringify({type:"gene", name:d.symbol}));
-  window.location.href = "detail_page_wireframe.html?v=4";
+  window.location.href = "detail_page_wireframe.html?v=5";
 });
 
 svg.attr("opacity",0).transition().duration(1200).attr("opacity",1);

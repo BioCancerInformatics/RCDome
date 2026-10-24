@@ -86,6 +86,13 @@ genes_df <- tryCatch({
   )
 })
 
+# ── Discrepancy Radar precomputed frames ────────────────────────────────────────
+# Pre-loaded at startup (same lazy-load pattern as genes_df) so the radar opens
+# as fast as the Gene Catalog, with no per-module RDS read. The module still
+# falls back to the on-disk RDS if these globals are absent.
+disc_df_global <- tryCatch(readRDS("data/adjudication/disc_df.rds"), error = function(e) data.frame())
+disc_html_global <- tryCatch(readRDS("data/adjudication/disc_html.rds"), error = function(e) data.frame())
+
 # ── RCDome Decoder (53 operational definitions — the curation truth) ─────────
 decoder_file <- "data/RCDome_Decoder_53.csv"
 decoder_df <- tryCatch({
@@ -110,9 +117,11 @@ rcd_counts <- tryCatch({
     role_reg = sum(g$cot_role == "REGULATOR", na.rm = TRUE),
     ef_mech = sum(g$final_mechanistic == "YES", na.rm = TRUE),
     ef_exec = sum(g$final_role == "EXECUTOR", na.rm = TRUE),
-    ef_reg = sum(g$final_role == "REGULATOR", na.rm = TRUE)
+    ef_reg = sum(g$final_role == "REGULATOR", na.rm = TRUE),
+    compiled_exec = sum(g$rcd_gene_type == "EXECUTOR", na.rm = TRUE),
+    compiled_reg = sum(g$rcd_gene_type == "REGULATOR", na.rm = TRUE)
   )
-}, error = function(e) list(n_genes = 0, n_pairs = 0, mech_yes = 0, role_exec = 0, role_reg = 0, ef_mech = 0, ef_exec = 0, ef_reg = 0))
+}, error = function(e) list(n_genes = 0, n_pairs = 0, mech_yes = 0, role_exec = 0, role_reg = 0, ef_mech = 0, ef_exec = 0, ef_reg = 0, compiled_exec = 0, compiled_reg = 0))
 
 # ── HGNC gene metadata (name, location, HGNC id, Entrez id) ──────────────────
 # Used by the Network gene pop-up for external links + the gene name summary.

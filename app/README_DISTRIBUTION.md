@@ -22,7 +22,7 @@ This folder reproduces the **live** RCDome Shiny app (Home dome, Explore RCDome,
 
 ## 2. Already configured — just run (no password, no secrets)
 
-The app runs immediately after unzipping. There is no password and no secret file inside the ZIP: the developer API key and email credentials are intentionally NOT shipped to coauthors. The core app (Home dome, Explore RCDome, Operational Definitions, Compare Definitions, RCD entities, Gene Catalog, Discrepancy Radar, Discovery Timeline, 3D RCDome, Digital Molecular RCD Board, Network, About) runs as-is. The AI features that call external services (Digital Molecular Board chat, Elicit, Consensus) will show a notice until you add your own key. To enable them, create `.Renviron` with `DEEPSEEK_API_KEY=...` (template at `.Renviron.example`) and, if email sending is used, `data/email_creds.txt` (template at `data/email_creds.txt.example`).
+The app runs immediately after unzipping. The secret file (`.Renviron` with the API keys) and `data/email_creds.txt` ARE shipped to coauthors — by contract, every coauthor receives the full credentials. The core app (Home dome, Explore RCDome, Operational Definitions, Compare Definitions, RCD entities, Gene Catalog, Discrepancy Radar, Discovery Timeline, 3D RCDome, Digital Molecular RCD Board, Network, About) runs as-is. The AI features (Digital Molecular Board chat, Elicit, Consensus) run with the shipped keys. The GitHub repository, by contrast, NEVER contains these secret files or the API keys (excluded via `.gitignore`).
 
 ## 3. R packages
 

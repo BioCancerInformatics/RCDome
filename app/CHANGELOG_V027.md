@@ -6,11 +6,22 @@ Status: propagation in progress
 
 ---
 
+## 0a. Delta round + final evidence-first adjudication (2026-10-22)
+
+- Delta round completed: 945 pairs `DELTA_ADJUDICATED` + 3 `PENDING_DELTA` (PEAR1/Efferocytosis, MAGED1/Apoptosis extrinsic, MIR24-1/Programmed cell death — unadjudicable abstracts).
+- Evidence-first adjudication (unique pairs): YES 5,137 · NO 16,235 · OUT_OF_CONTEXT 193.
+- Roles (unique pairs): EXECUTOR 225 · REGULATOR 4,604 · MARKER 95 · UNCERTAIN 16,641.
+- Direction (role-resolved): PROMOTES 2,000 · PROTECTS 2,161.
+- Genes with >=1 YES: 3,999 (43.2%).
+- Delta rows: `_mapped_role`/`_mapped_dir` derived from curator verdicts; agreement rows: GPT/curator vote + mapped columns filled "NOT_NEEDED".
+- Amendment spread: manuscript (10 paragraphs + Figure 3 legend), figures (3 + S3), app (Gene Catalog, Discrepancy Radar, Explore, Evidence Trail), GitHub (README + code + data).
+
+---
 ## 0. Additive adjudication columns (2026-10-16)
 
 - Matrix dimension: 82 → **94 columns** (11 additive, original columns byte-identical).
 - Added: `final_mechanistic`, `final_role`, `final_direction`, `final_verdict`, `gpt4o_verdict`, `higor_verdict`, `victor_verdict`, `deciding_evidence`, `evidence_source`, `decision_status`, `abstract_check`.
-- `decision_status`: UNIFORM_PIPELINE (7,177) / AGREED_LABEL_ABSTRACT (14,284) / PENDING_DELTA (1,012).
+- `decision_status`: UNIFORM_PIPELINE (7,177) / AGREED_LABEL_ABSTRACT (14,284) / PENDING_DELTA (1,012). *(Historical 2026-10-16 snapshot — see section 0a for the delta-round final state: PENDING_DELTA 3.)*
 - Policy + traceability: `REGRA_agreement_policy_fulltext_vs_abstract.md` + `docs/TRACEABILITY_optionB_execution_and_agreement_policy_2026-10-16.md`.
 
 ---

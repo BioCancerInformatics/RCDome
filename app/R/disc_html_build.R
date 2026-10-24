@@ -149,7 +149,7 @@ build_disc_html <- function(df, ns_id) {
       if (is.na(v) || !nzchar(v)) {
         st <- trimws(as.character(df$decision_status[i]))
         if (!is.na(st) && nzchar(st) && st == "PENDING_DELTA") {
-          return("<span title='Delta row — curator round not yet sent' style='color:#d6d3d1;'>·</span>")
+          return("<span title='Delta row — evidence-first adjudicated' style='color:#d6d3d1;'>·</span>")
         }
         return("<span style='color:#a8a29e;'>—</span>")
       }
