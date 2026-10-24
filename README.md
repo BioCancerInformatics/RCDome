@@ -33,7 +33,7 @@ The **dome** is RCDome's visual signature. Its cupola rim carries the 53 canonic
 | Direction (promotes / protects) | 2,000 / 2,161 |
 | PMID titles verified against PubMed | **10,141 / 10,141 (100%)** |
 
-**Evidence-first adjudication (4th analysis).** Beyond the three independent classifiers, every gene–RCD pair carries a **final verbatim-grounded resolution** (`final_mechanistic` / `final_role` / `final_direction`), arbitrated by **GPT-4o + two human curators (Curator 1 = Higor, Curator 2 = Victor)** and tracked in the **Disagreement Radar** (7,905 label-disagreement rows on 7,831 unique pairs, all adjudicated). This is the evidence-first layer that resolved every classifier disagreement from the verbatim — the authoritative default across the app.
+**Evidence-first adjudication (4th analysis).** Beyond the three independent classifiers, every gene–RCD pair carries a **final verbatim-grounded resolution** (`final_mechanistic` / `final_role` / `final_direction`), arbitrated by **GPT-4o + two human curators (Curator 1, Curator 2)** and tracked in the **Disagreement Radar** (7,905 label-disagreement rows on 7,831 unique pairs, all adjudicated). This is the evidence-first layer that resolved every classifier disagreement from the verbatim — the authoritative default across the app.
 
 ## 🧭 Conceptual framework
 
@@ -52,10 +52,10 @@ The pipeline runs in one top-to-bottom workflow: **20 source databases and resou
 | `docs/manuscript` | The manuscript (governance V027) + the OD **M&M** and **Results** subsections |
 | `docs/supplementary` | Supplementary information, tables, and variable dictionary |
 | `docs/figures` | Figures 1–4 and Supplementary Figures S1–S3 (600-DPI TIFF + PNG) |
-| `docs/` | The traceability | `docs/traceability` | The traceability & governance contract | governance contract (`RCDome_Traceability_Contract.md`) |
+| `docs/` | The traceability & governance contract (`docs/RCDome_Traceability_Contract.md`) |
 | `docs/governance` | Medina's AI Governance Rules + the **RCDome Definition Governance** (invariance, provenance P0–P3, two-call) |
 | `docs/decoder` | OD inventory, draft definitions, review guide, sync tracking |
-| `data/` | The truth matrix (`unified_gene_rcd_matrix_V027.csv`) + 10,141 verified PMID titles + the **53-entity decoder** (`RCDome_Decoder_53*`), review worksheet, merge log, NCCD-verbatim JSON, and validation artifacts |
+| `data/` | The truth matrix (`unified_gene_rcd_matrix_V027.rds` in-repo; the CSV is in the Release) + 10,141 verified PMID titles + the **53-entity decoder** (`RCDome_Decoder_53*`), NCCD-verbatim JSON |
 | `code/extraction` | Source-database extraction (channels A, B, E) |
 | `code/validation` | Phase 2A/D, DeepSeek CoT, and Consensus validation |
 | `code/decoder` | OD definition pipeline (build, S scoring, audits, merge, full-text RAG validation) |
@@ -84,7 +84,7 @@ score **S = 0.25·RS1 + 0.25·RS2 + 0.20·RS3 + 0.15·RS4 + 0.10·RS5 + 0.05·RS
 | Entity records | `data/RCDome_Decoder_53.csv` / `.xlsx` (+ `_FINAL`) |
 | Two-call review | (intermediate worksheets — available in the GitHub Release) |
 | Governance | `docs/governance/RCDome_Definition_Governance.md` (invariance · provenance P0–P3 · two-call) |
-| Methods / Results | `docs/manuscript/MandM_operational_definitions.md` + `Results_OD_census.md` |
+| Methods / Results | `docs/manuscript/MandM_operational_definitions.md` + `docs/manuscript/Results_OD_census.md` |
 | Validation | DeepSeek full-text RAG · Consensus API · Europe PMC recovery · PubMed Knock Test (52/52) |
 | Verbatim source | `data/galluzzi2018_nccd_definitions.json` (NCCD 2018 Box 1, byte-identical) |
 
@@ -108,7 +108,7 @@ setwd("/path/to/RCDome/app")
 shiny::runApp(appDir = ".", port = 8890, launch.browser = TRUE)
 ```
 
-The app loads `data/unified_gene_rcd_matrix_V027.rds` (place a copy in `app/data/`, or point `global.R` to it). The CSV (`unified_gene_rcd_matrix_V027.csv`) is the human-readable truth export.
+The app loads `data/unified_gene_rcd_matrix_V027.rds` (place a copy in `app/data/`, or point `global.R` to it). The CSV (`unified_gene_rcd_matrix_V027.csv`) is the human-readable truth export (in the GitHub Release).
 
 ---
 
