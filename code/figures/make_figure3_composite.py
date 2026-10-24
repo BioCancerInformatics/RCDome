@@ -56,15 +56,14 @@ for b,v in zip(bars,dvals):
     ax.text(b.get_width()+110, b.get_y()+b.get_height()/2, f'{v:,}', va='center', fontsize=9, color=NAVY, fontweight='bold')
 ax.set_xlim(0,6800); ax.set_title('Direction of regulation', fontsize=11, fontweight='bold', color=NAVY)
 ax.text(-0.14, 1.02, 'C', transform=ax.transAxes, fontsize=15, fontweight='bold', color=NAVY)
-ax.text(0.98, 0.02, '938 pairs pending (delta round not yet sent)', ha='right', va='bottom', transform=ax.transAxes, fontsize=7, color='#78716c', style='italic')
 ax.spines[['top','right']].set_visible(False); ax.tick_params(colors=NAVY, labelsize=8)
 
 # (d) Bullseye — AREA-proportional rings
 ax = axes[1,1]
 TOTAL = 21568
 R3 = 1.0
-R2 = math.sqrt((8369+367)/TOTAL)
-R1 = math.sqrt(367/TOTAL)
+R2 = math.sqrt((4604+225)/TOTAL)
+R1 = math.sqrt(225/TOTAL)
 # outer grey ring (uncertain)
 ax.add_patch(Wedge((0,0), R3, 0, 360, width=R3-R2, facecolor=GREY, alpha=0.9))
 # middle blue ring (regulator)
@@ -72,9 +71,9 @@ ax.add_patch(Wedge((0,0), R2, 0, 360, width=R2-R1, facecolor=BLUE, alpha=0.9))
 # inner orange core (executor)
 ax.add_patch(plt.Circle((0,0), R1, color=ORANGE, alpha=0.95))
 # labels
-ax.text(0, (R2+R3)/2, 'UNCERTAIN\n11,800', ha='center', va='center', fontsize=8, color=NAVY, fontweight='bold')
-ax.text(0, (R1+R2)/2, 'REGULATOR\n8,369', ha='center', va='center', fontsize=8, color='white', fontweight='bold')
-ax.text(0, 0, '367', ha='center', va='center', fontsize=8, color='white', fontweight='bold')
+ax.text(0, (R2+R3)/2, 'UNCERTAIN\n16,641', ha='center', va='center', fontsize=8, color=NAVY, fontweight='bold')
+ax.text(0, (R1+R2)/2, 'REGULATOR\n4,604', ha='center', va='center', fontsize=8, color='white', fontweight='bold')
+ax.text(0, 0, '225', ha='center', va='center', fontsize=8, color='white', fontweight='bold')
 ax.text(0, -0.24, 'EXECUTOR', ha='center', va='center', fontsize=8, color=ORANGE, fontweight='bold')
 ax.set_xlim(-1.15,1.15); ax.set_ylim(-1.15,1.15); ax.set_aspect('equal'); ax.axis('off')
 ax.set_title('The core is small; the network is vast', fontsize=11, fontweight='bold', color=NAVY, pad=6)

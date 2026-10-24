@@ -76,6 +76,10 @@ for form, grp in v23.groupby('rcd_form_canonical'):
                       'role': r['rcd_gene_type'], 'mech': r['mechanistic_class'],
                       'direction_ds': r['cot_direction'], 'role_ds': r['cot_role'],
                       'direction_cs': r['consensus_direction'], 'role_cs': r['consensus_role'],
+                      'direction_ef': r['final_direction'], 'role_ef': r['final_role'],
+                      'direction_gpt': r['gpt_mapped_dir'], 'role_gpt': r['gpt_mapped_role'],
+                      'direction_c1': r['curator_1_mapped_dir'], 'role_c1': r['curator_1_mapped_role'],
+                      'direction_c2': r['curator_2_mapped_dir'], 'role_c2': r['curator_2_mapped_role'],
                       'n_db': int(r['_ns']), 'pmid': pmid, 'dbs': r['source_databases']})
     pmids = []
     for col in ('pmid_list', 'elicit_pmids'):
@@ -102,7 +106,12 @@ for sym, grp in v23.groupby('gene_symbol'):
         ents.append({'name': form, 'level': short(fg['rcdome_level_name'].iloc[0]),
                      'direction': fg['role_direction'].iloc[0], 'direction_ds': fg['cot_direction'].iloc[0],
                      'role_ds': fg['cot_role'].iloc[0], 'direction_cs': fg['consensus_direction'].iloc[0],
-                     'role_cs': fg['consensus_role'].iloc[0], 'mech': fg['mechanistic_class'].iloc[0]})
+                     'role_cs': fg['consensus_role'].iloc[0],
+                     'direction_ef': fg['final_direction'].iloc[0], 'role_ef': fg['final_role'].iloc[0],
+                     'direction_gpt': fg['gpt_mapped_dir'].iloc[0], 'role_gpt': fg['gpt_mapped_role'].iloc[0],
+                     'direction_c1': fg['curator_1_mapped_dir'].iloc[0], 'role_c1': fg['curator_1_mapped_role'].iloc[0],
+                     'direction_c2': fg['curator_2_mapped_dir'].iloc[0], 'role_c2': fg['curator_2_mapped_role'].iloc[0],
+                     'mech': fg['mechanistic_class'].iloc[0]})
     ents.sort(key=lambda e: (-(e['mech'] == 'MECHANISTIC'), e['name']))
     h = hgnc_map.get(sym, {})
     info = gene_info_map.get(sym, {})
@@ -226,9 +235,13 @@ html = """<!DOCTYPE html>
       <h2>Associated genes</h2>
       <div style="margin: 8px 0 12px; font-size: 14px; color: #1c1917;">
         <span style="font-weight:600;">Direction/Role source:</span>
-        <label style="margin-left:14px;"><input type="radio" name="dirSrc" value="deepseek" checked> DeepSeek</label>
-        <label style="margin-left:14px;"><input type="radio" name="dirSrc" value="elicit"> Elicit</label>
+        <label style="margin-left:14px;"><input type="radio" name="dirSrc" value="evidence" checked> Evidence-first</label>
+        <label style="margin-left:14px;"><input type="radio" name="dirSrc" value="deepseek"> DeepSeek</label>
+        <label style="margin-left:14px;"><input type="radio" name="dirSrc" value="elicit"> Compiled gene role</label>
         <label style="margin-left:14px;"><input type="radio" name="dirSrc" value="consensus"> Consensus</label>
+        <label style="margin-left:14px;"><input type="radio" name="dirSrc" value="gpt"> GPT</label>
+        <label style="margin-left:14px;"><input type="radio" name="dirSrc" value="curator_1"> Curator 1</label>
+        <label style="margin-left:14px;"><input type="radio" name="dirSrc" value="curator_2"> Curator 2</label>
       </div>
       <div class="filters">
         <input id="entitySearch" class="search" placeholder="Search genes…">
@@ -243,8 +256,8 @@ html = """<!DOCTYPE html>
       <table>
         <thead><tr>
           <th class="has-tip" data-tip="Official HGNC gene symbol (italicized). Click to open the gene detail page.">Gene</th>
-          <th id="thDirection" class="has-tip" data-tip="Direction of the gene's effect on this RCD entity (PROMOTES/PROTECTS/UNCLEAR), from the selected analysis (DeepSeek = complete; Elicit = original).">Direction (DeepSeek)</th>
-          <th id="thRole" class="has-tip" data-tip="Functional role (EXECUTOR/REGULATOR/MARKER/UNCERTAIN), from the selected analysis (DeepSeek = complete; Elicit = original).">Role (DeepSeek)</th>
+          <th id="thDirection" class="has-tip" data-tip="Direction of the gene's effect on this RCD entity (PROMOTES/PROTECTS/UNCLEAR), from the selected analysis (Evidence-first = final resolution; DeepSeek = complete; Consensus = complete; Compiled gene role = source-derived; GPT/Curator 1/Curator 2 = mapped arbitration votes).">Direction (Evidence-first)</th>
+          <th id="thRole" class="has-tip" data-tip="Functional role (EXECUTOR/REGULATOR/MARKER/UNCERTAIN), from the selected analysis (Evidence-first = final resolution; DeepSeek = complete; Consensus = complete; Compiled gene role = source-derived; GPT/Curator 1/Curator 2 = mapped arbitration votes).">Role (Evidence-first)</th>
           <th class="has-tip" data-tip="Seven-class mechanistic classification: MECHANISTIC = validated by both LLM knowledge and PubMed abstracts; LITERATURE_GAP = LLM training recognizes but abstracts lack explicit statements; CONTEXT_GAP = PubMed confirms but LLM training does not recognize; CO_OCCURRENCE = high paper counts but no mechanistic evidence; INSUFFICIENT_DATA = few papers, LLM cannot determine involvement; DATABASE_ONLY = gene and RCD term never co-occur in PubMed; TECHNICAL_FAILURE = API failure (0 in final run).">Mechanistic class</th>
           <th class="has-tip" data-tip="Number of independent source databases supporting this gene-RCD association.">Evidence DBs</th>
           <th class="has-tip" data-tip="First curated PMID (from pmid_list + elicit_pmids) that directly supports the association. One representative PMID per gene — the full list is under Literature evidence.">Association evidence PMID</th>
@@ -256,7 +269,7 @@ html = """<!DOCTYPE html>
         <span id="entityPage"></span>
         <button id="entityNext">Next &rarr;</button>
       </div>
-      <p class="note">Direction/Role source: DeepSeek (complete) vs Elicit (original, ~20% populated) vs Consensus (complete). Switch above.</p>
+      <p class="note">Direction/Role source: Evidence-first (final resolution, default) · DeepSeek (complete) · Compiled gene role (source-derived, ~20%) · Consensus (complete) · GPT / Curator 1 / Curator 2 (mapped arbitration votes). Switch above.</p>
     </div>
     <div class="section">
       <h2>Literature evidence</h2>
@@ -285,12 +298,12 @@ html = """<!DOCTYPE html>
         <thead><tr>
           <th class="has-tip" data-tip="Canonical RCD form name. Click to open the entity detail page.">RCD entity</th>
           <th class="has-tip" data-tip="Ontological level of the RCD entity: L1 Modalities, L2 Subtypes, L3 Triggers, L4 Functional/contextual, L5 Generic/umbrella/taxon.">Level</th>
-          <th id="thGeneDirection" class="has-tip" data-tip="Direction of the gene's effect on this RCD entity, from the selected analysis (DeepSeek = complete; Elicit = original).">Direction (DeepSeek)</th>
+          <th id="thGeneDirection" class="has-tip" data-tip="Direction of the gene's effect on this RCD entity, from the selected analysis (Evidence-first = final resolution; DeepSeek = complete; Consensus = complete; Compiled gene role = source-derived; GPT/Curator 1/Curator 2 = mapped arbitration votes).">Direction (Evidence-first)</th>
           <th class="has-tip" data-tip="Seven-class mechanistic classification: MECHANISTIC = validated by both LLM knowledge and PubMed abstracts; LITERATURE_GAP = LLM training recognizes but abstracts lack explicit statements; CONTEXT_GAP = PubMed confirms but LLM training does not recognize; CO_OCCURRENCE = high paper counts but no mechanistic evidence; INSUFFICIENT_DATA = few papers, LLM cannot determine involvement; DATABASE_ONLY = gene and RCD term never co-occur in PubMed; TECHNICAL_FAILURE = API failure (0 in final run).">Mechanistic class</th>
         </tr></thead>
         <tbody id="geneEntities"></tbody>
       </table>
-      <p class="note">Direction source: DeepSeek (complete) vs Elicit (original) vs Consensus (complete).</p>
+      <p class="note">Direction source: Evidence-first (final resolution, default) · DeepSeek (complete) · Compiled gene role (source-derived) · Consensus (complete) · GPT / Curator 1 / Curator 2 (mapped arbitration votes).</p>
     </div>
   </div>
 
@@ -322,11 +335,14 @@ const crumb = document.getElementById("crumbName");
 const dirPill = d => d.toLowerCase().startsWith("promote") ? "p-promote"
                  : d.toLowerCase().startsWith("protect") ? "p-protect" : "";
 const uniq = arr => [...new Set(arr.filter(Boolean))];
-let dirSrc = "deepseek";
-const DIR = g => dirSrc === "elicit" ? (g.direction || "") : dirSrc === "consensus" ? (g.direction_cs || "") : (g.direction_ds || "");
-const ROLE = g => dirSrc === "elicit" ? (g.role || "") : dirSrc === "consensus" ? (g.role_cs || "") : (g.role_ds || "");
+let dirSrc = "evidence";
+const DIR_FIELD = {evidence:"direction_ef", deepseek:"direction_ds", elicit:"direction", consensus:"direction_cs", gpt:"direction_gpt", curator_1:"direction_c1", curator_2:"direction_c2"};
+const ROLE_FIELD = {evidence:"role_ef", deepseek:"role_ds", elicit:"role", consensus:"role_cs", gpt:"role_gpt", curator_1:"role_c1", curator_2:"role_c2"};
+const SRC_LABEL = {evidence:"Evidence-first", deepseek:"DeepSeek", elicit:"Compiled gene role", consensus:"Consensus", gpt:"GPT", curator_1:"Curator 1", curator_2:"Curator 2"};
+const DIR = g => (g[DIR_FIELD[dirSrc]] || "");
+const ROLE = g => (g[ROLE_FIELD[dirSrc]] || "");
 function updateHeaders() {
-  const lbl = dirSrc === "elicit" ? "Elicit" : dirSrc === "consensus" ? "Consensus" : "DeepSeek";
+  const lbl = SRC_LABEL[dirSrc] || "Evidence-first";
   const td = document.getElementById("thDirection");
   const tr = document.getElementById("thRole");
   const tg = document.getElementById("thGeneDirection");
@@ -508,11 +524,11 @@ function showEntity(name) {
     document.getElementById("entityForceCount").textContent = "";
     return;
   }
-  const nExec = e.genes.filter(g => g.role_ds === "EXECUTOR").length;
-  const nReg = e.genes.filter(g => g.role_ds === "REGULATOR").length;
-  const dsStats = (nExec + nReg > 0) ? ` · <b style="color:#FF9800;">${nExec}</b> <span style="color:#FF9800;">executors</span> · <b style="color:#FF9800;">${nReg}</b> <span style="color:#FF9800;">regulators</span> <span style="color:#a8a29e;">(DeepSeek)</span>` : "";
+  const nExec = e.genes.filter(g => g.role_ef === "EXECUTOR").length;
+  const nReg = e.genes.filter(g => g.role_ef === "REGULATOR").length;
+  const efStats = (nExec + nReg > 0) ? ` · <b style="color:#FF9800;">${nExec}</b> <span style="color:#FF9800;">executors</span> · <b style="color:#FF9800;">${nReg}</b> <span style="color:#FF9800;">regulators</span> <span style="color:#a8a29e;">(Evidence-first)</span>` : "";
   document.getElementById("entityMeta").innerHTML =
-    `<span class="pill" style="background:${LEVEL_COLORS[e.level]}33;color:${LEVEL_COLORS[e.level]}">${LEVEL_NAMES[e.level]}</span> · <b style="color:#FFD700;">${e.n.toLocaleString('en-US')}</b> <span style="color:#FFD700;">associated genes</span>${dsStats}`;
+    `<span class="pill" style="background:${LEVEL_COLORS[e.level]}33;color:${LEVEL_COLORS[e.level]}">${LEVEL_NAMES[e.level]}</span> · <b style="color:#FFD700;">${e.n.toLocaleString('en-US')}</b> <span style="color:#FFD700;">associated genes</span>${efStats}`;
   document.getElementById("entityDef").textContent = e.definition || "No operational definition recorded in the matrix.";
   document.getElementById("entityKey").textContent = e.key ? ("Key molecules: " + e.key) : "";
   curGenes = e.genes;
@@ -665,7 +681,7 @@ else showEntity("Apoptosis");
 """
 
 html = html.replace("__DATA__", DATA_JSON).replace("__PMID_TITLES__", PMID_TITLES_JSON)
-open(BASE + "/RCDome_distribution/detail_page_wireframe.html", "w", encoding="utf-8").write(html)
+open(BASE + "/RCDome_distribution/www/detail_page_wireframe.html", "w", encoding="utf-8").write(html)
 print("generated detail_page_wireframe.html with", len(entities), "entities and", len(gene_data), "genes")
 print("sample entity Apoptosis:", entities.get('Apoptosis', {}).get('definition', '')[:80])
 print("sample gene BAX:", gene_data.get('BAX', {}))

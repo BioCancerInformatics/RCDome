@@ -1,26 +1,26 @@
 # RCDome GitHub mirror manifest — V027 (truth snapshot)
 # sha256  |  size  |  mirror path  <-  source path
 
-476df6032044c07266de4858149dfbe63839a6bd14975c9169cab8f9a5586a9f      103797  RCDome_manuscript_governance_V027.docx  <-  manuscript_V027\RCDome_manuscript_governance_V027.docx
-2e6ff01c19624549769a6d336a7fa2dd94f3be618519437e2e81b1450680e0e6       90910  RCDome_manuscript_V027_supplementary_information.docx  <-  manuscript_V027\RCDome_manuscript_V027_supplementary_information.docx
-6d2f434d2a09f13c8c805f4c09519f02fe2f6d32b9539c2bb24583b627abf785      867883  RCDome_manuscript_V027_supplementary_tables.xlsx  <-  manuscript_V027\RCDome_manuscript_V027_supplementary_tables.xlsx
+4409a2941e2d00001f127d4c1e95b9d2f6b1d475795e530e9ac455c46c00882c      103803  RCDome_manuscript_governance_V027.docx  <-  manuscript_V027\RCDome_manuscript_governance_V027.docx
+0c4cf186123723e20bb22b96df0b827be6c1a8f8c5b25dc151849325a75a9115       96056  RCDome_manuscript_V027_supplementary_information.docx  <-  manuscript_V027\RCDome_manuscript_V027_supplementary_information.docx
+2bdb40c6c6523b04c3c29ca49457942a74b172df734b43f1d4157dad39aecc92      803121  RCDome_manuscript_V027_supplementary_tables.xlsx  <-  manuscript_V027\RCDome_manuscript_V027_supplementary_tables.xlsx
 4508ec2da7366f0fbf658ae0520b6c3e023f225ed659d680bfe325251e7a5c8f       37744  RCDome_53_canonical_entities.docx  <-  manuscript_V027\RCDome_53_canonical_entities.docx
-f188837d436c4950646c3910805de0fa82fc4d3d6d3f78c20de21d353e270c6b       10629  app\global.R  <-  RCDome_distribution\global.R
-e2ffb242edb26f21d194614d9ce3a5ca03fc6d74e56f71e7b225aa0c520bbed1       42736  app\server.R  <-  RCDome_distribution\server.R
-67f0bb449002018bd1283a1bcf19f401ded497fdd68975d56e7bfd43db392a5a       32067  app\ui.R  <-  RCDome_distribution\ui.R
+0672d740f67881a8331d801dd16bd74c0b50652edc9ec61d1f2f49f4d63b928b       11402  app\global.R  <-  RCDome_distribution\global.R
+4ac486f315cae805e62c8fb3ba896e4ec08bf4dce867f726ad25201135000c47       43644  app\server.R  <-  RCDome_distribution\server.R
+c698c9d43d94058d71c72ca62fdf22e9478c0c34e51fe2f65cd4c5c392c55ef4       31359  app\ui.R  <-  RCDome_distribution\ui.R
 cc8bbe63b68df16501ef52965828dc17d1c6aba6b0971255dcda8e2f16772247         338  app\run.R  <-  RCDome_distribution\run.R
-e45762b017660d8f096910d2fdcd282c398156f2b730fb8fcd624bbc7b5acf1d       19566  app\explore.html  <-  RCDome_distribution\explore.html
-2fc37151e850efaac360962cff7550f040e424f6fc6c27c81867f993dc148721    22214052  app\detail_page_wireframe.html  <-  RCDome_distribution\detail_page_wireframe.html
-ac5e59a9d010d4d478e278a514a2ddbc43eec3b7a5e7fef72e52180fdf0ff913       14809  app\CHANGELOG_V027.md  <-  RCDome_distribution\CHANGELOG_V027.md
-e18562c28057627c66e9ab88ea209990bd120820e135fa6ff613ba9ec433caca        4576  app\README_DISTRIBUTION.md  <-  RCDome_distribution\README_DISTRIBUTION.md
-f3354f975ded0a43fbd724aea0e9eb088d373de72b5431650cb434cc2ff33343       39289  app\generate_detail_page.py  <-  RCDome_distribution\generate_detail_page.py
+5623b88b7cf8f666bb86f0b5e3fce7cb8fbfb231778a07ec921336578b352901       19723  app\explore.html  <-  RCDome_distribution\explore.html
+a8bbf74511db59bcad3c8923fc720ea912d74d1d8d4b753c6da9b78bd0e99841    31558260  app\detail_page_wireframe.html  <-  RCDome_distribution\detail_page_wireframe.html
+344f1895b906f8877b5c6240618e27881420af61c47f28a84c0cdf5dd4873c94       15789  app\CHANGELOG_V027.md  <-  RCDome_distribution\CHANGELOG_V027.md
+cea03bb828ba9bdb6af34cd3a5b458b3bd982150863d8b023d9b92b0d393d8d4        4465  app\README_DISTRIBUTION.md  <-  RCDome_distribution\README_DISTRIBUTION.md
+fa5f0244e490f50dc88bdd892d04baee67c3364e53d2483684030c2a4fc3d6d4       41585  app\generate_detail_page.py  <-  RCDome_distribution\generate_detail_page.py
 e6658f80dada59072d612df3295ff02ec296e81f1c0bf3e15de8289c48ca968d       16422  app\generate_dome_3d.py  <-  RCDome_distribution\generate_dome_3d.py
 95442980495966bd2ed08a7314229fbe0fdd67068893f9dd5ffd882b81bc1596        3996  app\extract_pdfs_to_overall.py  <-  RCDome_distribution\extract_pdfs_to_overall.py
 7af8aef4a7cc173485e5b111c88afeb75afeb3b67c1a92a604e8e5e56652c471       43006  app\modules\mod_board.R  <-  RCDome_distribution\modules\mod_board.R
 24b4b3f9d7d9a60715aabc3234f20e5f6fabe879a4c8b674a042980e6665bc31       21418  app\modules\mod_board_qa.R  <-  RCDome_distribution\modules\mod_board_qa.R
 7cd0047e05beb6dd5900c68cc80db1f4c3999145e47bec71559906ce1cd7df1f       12203  app\modules\mod_chat.R  <-  RCDome_distribution\modules\mod_chat.R
-e293aa8b230c9efff110c7cc3207dbdfe6759d1b04823f5f558a381fe456227c       13624  app\modules\mod_discrepancy.R  <-  RCDome_distribution\modules\mod_discrepancy.R
-aae09460fb2b0a93f5c8edfe77e7d3f4ff1b7aadd9dff4c2ee1e036da2318437       39040  app\modules\mod_gene_catalog.R  <-  RCDome_distribution\modules\mod_gene_catalog.R
+f3a5532e2318d56285940c1b358aa018de434011c561f5c0eb7824e39d40d413       20134  app\modules\mod_discrepancy.R  <-  RCDome_distribution\modules\mod_discrepancy.R
+4089065eed3c7cd7e8e39aaf6bef80c45fbe7cbde552ccfac78e0a80bd75f3a0       39292  app\modules\mod_gene_catalog.R  <-  RCDome_distribution\modules\mod_gene_catalog.R
 2ba27ebae0389ba946c5adf91ac1b7f133b430b604021c5d4694f8262143cb6e       54722  app\modules\mod_network.R  <-  RCDome_distribution\modules\mod_network.R
 06e7af0e2b177318e0fa7a79309bc78ca92b384c51499c92af00048af21f698f       11151  app\modules\mod_od.R  <-  RCDome_distribution\modules\mod_od.R
 1fe9cf0db5c26b5e0e305be6d2a6c31a0b2b3d4bb1380e6cbab7412f2383f182       11873  app\modules\mod_od_compare.R  <-  RCDome_distribution\modules\mod_od_compare.R
@@ -28,17 +28,17 @@ b1fa5be7c46bd4772d95bf50c38dcb67cca18288d71c4b0327948fcda7e632f8       14639  ap
 2509c5dcedc3d8ec1e504fa0ecf2f7a39975464106de6cb4fc4252d894ab7810       28288  app\modules\mod_rcd_grid.R  <-  RCDome_distribution\modules\mod_rcd_grid.R
 071890e2dd7e2001dfcda70c211bfb017757212c731a5ef94f5f254ba14098e2       15737  app\modules\mod_timeline.R  <-  RCDome_distribution\modules\mod_timeline.R
 a202cd2d3fe52ea97cded4f32a216a0317a3dec309c5096b7e30897dc6e00f29        5593  app\modules\mod_tour.R  <-  RCDome_distribution\modules\mod_tour.R
-fcb9613390effb5d58173815f41cd373e26b583e7bd0bfd73d2a19e0d629cf21       10106  app\R\disc_html_build.R  <-  RCDome_distribution\R\disc_html_build.R
+a57712f1f72e41ec2bbb6636f90f86a8b4544e6c94eb2bcee191443f78461194       10293  app\R\disc_html_build.R  <-  RCDome_distribution\R\disc_html_build.R
 825195c3a7e0a00113ba596a4a1520ec32e960942ed8bf5b99b7f9ade331a4b7        1164  app\R\pathways.R  <-  RCDome_distribution\R\pathways.R
 a971a6074b6a3686be3bb1dad2ca12ccc74041fddbf0501b5b630e061a00ee8c        2924  app\R\rcd_modal.R  <-  RCDome_distribution\R\rcd_modal.R
 38d075e51a99a15be85d86d94075966f90d14d563dbcc4e1b0b6b828c0ebb084        1573  app\R\utils.R  <-  RCDome_distribution\R\utils.R
-abd18e97a249765c6d58430a399dae2c2cc255e73fa959396d28c10b6a6f2cb0        3203  app\R\validate_data_files.R  <-  RCDome_distribution\R\validate_data_files.R
+b331a410755f0499301d0d1ba97669d8fa2115b71f8c359ba58e955504c57345        3826  app\R\validate_data_files.R  <-  RCDome_distribution\R\validate_data_files.R
 496a1e051cee6976c5094a63b9bb989b992145f10055e649aaa61dc63463b6f2     3898292  app\www\SigPolytope.html  <-  RCDome_distribution\www\SigPolytope.html
-2fc37151e850efaac360962cff7550f040e424f6fc6c27c81867f993dc148721    22214052  app\www\detail_page_wireframe.html  <-  RCDome_distribution\www\detail_page_wireframe.html
+a8bbf74511db59bcad3c8923fc720ea912d74d1d8d4b753c6da9b78bd0e99841    31558260  app\www\detail_page_wireframe.html  <-  RCDome_distribution\www\detail_page_wireframe.html
 8a79a094ed1036fa32a29e734f42d0b08ebee138beb8384330ae9e60bf6a9c1e      720152  app\www\dome_3d.html  <-  RCDome_distribution\www\dome_3d.html
 ed73abb27f24fec452eaba98e2e68a6b975ac52a5db1b542708bef78da1d85fb       93478  app\www\dome_prototype.html  <-  RCDome_distribution\www\dome_prototype.html
-e45762b017660d8f096910d2fdcd282c398156f2b730fb8fcd624bbc7b5acf1d       19566  app\www\explore.html  <-  RCDome_distribution\www\explore.html
-e05130f1ad945dd8a56acfcc7afc2cc32421f6410209bc36433b28f4b2d5c5bf      100614  app\www\landing_page.html  <-  RCDome_distribution\www\landing_page.html
+5623b88b7cf8f666bb86f0b5e3fce7cb8fbfb231778a07ec921336578b352901       19723  app\www\explore.html  <-  RCDome_distribution\www\explore.html
+58b7b106cf9a871ff35b7f24a8f2ece8d5ad9ea396a7015d27547efb0b0454bf      100383  app\www\landing_page.html  <-  RCDome_distribution\www\landing_page.html
 02bb4ade710f3e607329e37a21f098bc3ac70eb6e33daf8a65e79f4db785e7b2       26375  app\www\OrbitControls.js  <-  RCDome_distribution\www\OrbitControls.js
 812e421784ed2e11822d2a4fde794ef499dbd0a5c32376e80803db585f818bad         313  app\www\contact_intercept.js  <-  RCDome_distribution\www\contact_intercept.js
 9274bbcec8d96168626c732b5d31c775aa8cfb7eaa0599bec0c175908a2c1ce2      603445  app\www\three.min.js  <-  RCDome_distribution\www\three.min.js
@@ -60,13 +60,13 @@ d67f2cf7a154f661eb0482958730884f0ab456fb69d77cbb7475e5a3e5130136      308004  ap
 a1d4dc6a1d120f5ef51c9c05274ae0c8e4a6f90e4738dd419669cfb1eabc8400       29196  app\board\run_board_benchmark.py  <-  RCDome_distribution\board\run_board_benchmark.py
 a19632991baa72703368827d1ff4ec5454fc7f3902a049d144c917842be48f00       24310  app\board\run_qa_benchmark.py  <-  RCDome_distribution\board\run_qa_benchmark.py
 03066d30b273eaa89e80d22d7d6a5d8a9f72bf87d478cd50d4858f0ea516dbf5        2210  app\board\smoke_test.py  <-  RCDome_distribution\board\smoke_test.py
-639497c43caaaf31bcd23bd715b4b81a81e28a83c4d3320a9ad64afda565939f    61809934  app\data\unified_gene_rcd_matrix_V027.csv  <-  RCDome_distribution\data\unified_gene_rcd_matrix_V027.csv
-fb7e95bcdacf701c3790cf730ca35365e7fce300920b2111fdd032b51c13bc66    11005278  app\data\unified_gene_rcd_matrix_V027.rds  <-  RCDome_distribution\data\unified_gene_rcd_matrix_V027.rds
-9d7149d375e2412997e005b727efba535a3590ad1792577494d71fd7e42ae9aa       55047  app\data\RCDome_Decoder_53.csv  <-  RCDome_distribution\data\RCDome_Decoder_53.csv
+764051a126415bbff62da2242be041eabdf9efd28f3fc828c18f5fb6c49f8bba    63887004  app\data\unified_gene_rcd_matrix_V027.csv  <-  RCDome_distribution\data\unified_gene_rcd_matrix_V027.csv
+aabbf15edef5648c5e76804df11a2026f9d7c733c4cfbfdd8ebf28bf8ab70b38    11130815  app\data\unified_gene_rcd_matrix_V027.rds  <-  RCDome_distribution\data\unified_gene_rcd_matrix_V027.rds
+6a2f1509e3404632ba1ca225c1ee0bf67d58ec1944c6c6160ac28ae6f252aa65       55043  app\data\RCDome_Decoder_53.csv  <-  RCDome_distribution\data\RCDome_Decoder_53.csv
 d63733c257ffeca6116f6fd401960da8ed113d213463bc0d1a6be26dc87e7f13    16947570  app\data\hgnc_complete_set.txt  <-  RCDome_distribution\data\hgnc_complete_set.txt
 982715b48906acf4da1bf2f2cff2bbafd38e525a61601f3d83252306f6dac280     6723184  app\data\gene_info_lookup.json  <-  RCDome_distribution\data\gene_info_lookup.json
 6c4e32c8b14e35e65698a40c128d11c7727b1c2dea82c1ce0b294ff71265e6af     1286287  app\data\pmid_title_lookup.json  <-  RCDome_distribution\data\pmid_title_lookup.json
-daf9dc8e34e60d09fc92852afec985ad9643092add1cae1078f8e3e46c18d7ef     2575462  app\data\adjudication\disc_df.rds  <-  RCDome_distribution\data\adjudication\disc_df.rds
-09e16bfc601afb19be80c640ab99400e50c084b99701e1ff494d1a2334ff952a     2814168  app\data\adjudication\disc_html.rds  <-  RCDome_distribution\data\adjudication\disc_html.rds
-639497c43caaaf31bcd23bd715b4b81a81e28a83c4d3320a9ad64afda565939f    61809934  data\unified_gene_rcd_matrix_V027.csv  <-  output databases\Phase 2C output\unified_gene_rcd_matrix_V027.csv
-fb7e95bcdacf701c3790cf730ca35365e7fce300920b2111fdd032b51c13bc66    11005278  data\unified_gene_rcd_matrix_V027.rds  <-  output databases\Phase 2C output\unified_gene_rcd_matrix_V027.rds
+e61e8efa464495366005145f48d36484c7fdcc94bde66b9e11cbafaacbd08e65     2625191  app\data\adjudication\disc_df.rds  <-  RCDome_distribution\data\adjudication\disc_df.rds
+dc0542eb0b16dc238433363981f6e52b7f5245c9b9711b38bb6586e1e3d2f7e8     2868668  app\data\adjudication\disc_html.rds  <-  RCDome_distribution\data\adjudication\disc_html.rds
+764051a126415bbff62da2242be041eabdf9efd28f3fc828c18f5fb6c49f8bba    63887004  data\unified_gene_rcd_matrix_V027.csv  <-  output databases\Phase 2C output\unified_gene_rcd_matrix_V027.csv
+aabbf15edef5648c5e76804df11a2026f9d7c733c4cfbfdd8ebf28bf8ab70b38    11130815  data\unified_gene_rcd_matrix_V027.rds  <-  output databases\Phase 2C output\unified_gene_rcd_matrix_V027.rds

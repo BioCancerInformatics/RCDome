@@ -23,7 +23,7 @@ panels = {
 captions = {
     'A': 'Home dome — 53 entities, 9,265 genes, 21,568 unique gene–RCD pairs',
     'B': 'Explore RCDome — modules, benchmarks and governance',
-    'C': 'Gene Catalog — DeepSeek/Compiled gene role source selector and Death-core filter (367 executor pairs)',
+    'C': 'Gene Catalog — DeepSeek/Compiled gene role source selector and Death-core filter (225 executor pairs)',
     'D': 'Gene detail page — entity jump, chain-of-thought columns and verified PMIDs',
 }
 
