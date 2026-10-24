@@ -17,7 +17,7 @@ The **dome** is RCDome's visual signature. Its cupola rim carries the 53 canonic
 ---
 
 
-> 🔒 **Private repository** — truth snapshot V027, not the definitive version; amended versions are pushed as results emerge. Made public at manuscript submission.
+> 📦 **Large assets** (entity figures, the matrix CSV, multi-omics tables) are distributed via the **GitHub Release** — see the release assets to reproduce the full app.
 
 ## 📊 Key numbers (truth matrix V027)
 
