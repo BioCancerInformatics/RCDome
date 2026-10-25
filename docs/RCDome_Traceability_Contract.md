@@ -389,6 +389,8 @@ Full change cycle for the ontological recalibration (V025 → V026):
 
 3. **Sync direction is one-way: `Submission FAI/` → mirrors.** Edits are made in `Submission FAI/` (the truth), then copied out (`cp`) to the mirrors. Never the reverse.
 
+   3a. **Archive-as-we-go (no silent overwrite).** Before replacing any mirror file, the old copy is archived to `_archive_backups/<timestamp>_<reason>/`. Then the truth file replaces it, and md5 verifies mirror == truth. After any manuscript/supplementary/tables change, the distribution ZIP is rebuilt and re-synced to `Submission FAI/`.
+
 4. **Submitted figures live in `Submission FAI/Figures_A4/` (A4, 600 DPI) and `Submission FAI/Figures/` (short names).** The working `Figures/` + `Figures_A4/` are the generation outputs (old names) — NOT the submission.
 
 5. **GitHub is the PUBLIC mirror of code + data + docs only — never the manuscript or supplementary files** (pre-submission embargo). Manuscript files stay purged from the public repo until submission authorization.
