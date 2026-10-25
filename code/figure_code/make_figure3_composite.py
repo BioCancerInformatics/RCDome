@@ -34,7 +34,6 @@ bars = ax.barh(roles, vals, color=['#e7e5e4', ORANGE, BLUE, GREY])
 for b,v in zip(bars, vals):
     ax.text(b.get_width()+250, b.get_y()+b.get_height()/2, f'{v:,}', va='center', fontsize=11, color=NAVY, fontweight='bold')
 ax.set_xlim(0,18000); ax.set_title('Role distribution (21,568 pairs)', fontsize=13, fontweight='bold', color=NAVY)
-ax.text(-0.28, 1.02, '(A)', transform=ax.transAxes, fontsize=15, fontweight='bold', color=NAVY)
 ax.spines[['top','right']].set_visible(False); ax.tick_params(colors=NAVY, labelsize=11)
 
 # (b) Mechanistic by level
@@ -45,7 +44,6 @@ bars = ax.bar(levels, pcts, color=lcolors, width=0.62)
 for b,v in zip(bars,pcts):
     ax.text(b.get_x()+b.get_width()/2, v+1.2, f'{v}%', ha='center', fontsize=11, color=NAVY, fontweight='bold')
 ax.set_ylim(0,70); ax.set_title('Mechanistically involved, by level (%)', fontsize=13, fontweight='bold', color=NAVY)
-ax.text(-0.28, 1.02, '(B)', transform=ax.transAxes, fontsize=15, fontweight='bold', color=NAVY)
 ax.spines[['top','right']].set_visible(False); ax.tick_params(colors=NAVY, labelsize=11)
 
 # (c) Direction
@@ -55,7 +53,6 @@ bars = ax.barh(dirs, dvals, color=[TEAL, ORANGE])
 for b,v in zip(bars,dvals):
     ax.text(b.get_width()+110, b.get_y()+b.get_height()/2, f'{v:,}', va='center', fontsize=11, color=NAVY, fontweight='bold')
 ax.set_xlim(0,6800); ax.set_title('Direction of regulation', fontsize=13, fontweight='bold', color=NAVY)
-ax.text(-0.28, 1.02, '(C)', transform=ax.transAxes, fontsize=15, fontweight='bold', color=NAVY)
 ax.spines[['top','right']].set_visible(False); ax.tick_params(colors=NAVY, labelsize=11)
 
 # (d) Bullseye — AREA-proportional rings
@@ -77,9 +74,16 @@ ax.text(0, 0, '225', ha='center', va='center', fontsize=10, color='white', fontw
 ax.text(0, -0.24, 'EXECUTOR', ha='center', va='center', fontsize=10, color=ORANGE, fontweight='bold')
 ax.set_xlim(-1.4,1.4); ax.set_ylim(-1.4,1.4); ax.set_aspect('equal'); ax.axis('off')
 ax.set_title('The core is small; the network is vast', fontsize=11, fontweight='bold', color=NAVY, pad=6)
-ax.text(-0.28, 1.02, '(D)', transform=ax.transAxes, fontsize=15, fontweight='bold', color=NAVY)
 
 plt.tight_layout()
+
+# Panel labels in FIGURE coordinates so (A)/(C) and (B)/(D) align vertically
+_posA = axes[0,0].get_position(); _posB = axes[0,1].get_position(); _posC = axes[1,0].get_position()
+_labels = [('A', _posA.x0, _posA.y1), ('B', _posB.x0, _posB.y1),
+           ('C', _posC.x0, _posC.y1), ('D', _posB.x0, _posC.y1)]
+for _l, _x, _y in _labels:
+    fig.text(_x - 0.015, _y + 0.008, f'({_l})', fontsize=15, fontweight='bold',
+             color=NAVY, va='bottom', ha='left', transform=fig.transFigure)
 out = 'D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript/Figures_A4/Figure_3_A4'
 plt.savefig(out + '.pdf', facecolor='white')
 plt.savefig(out + '.png', dpi=600, facecolor='white')
