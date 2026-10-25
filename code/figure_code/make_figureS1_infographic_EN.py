@@ -7,10 +7,10 @@ from rapidocr_onnxruntime import RapidOCR
 from PIL import Image, ImageDraw, ImageFont
 from statistics import median
 
-BASE = "Nomeclatura_4K_PT_source.png"
-OUT_PNG = "Figure_S1_evaluation_architecture.png"
-OUT_PDF = "Figure_S1_evaluation_architecture.pdf"
-OUT_TIFF = "Figure_S1_evaluation_architecture.tiff"
+BASE = r'D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript/analysis/Victor_analysis/Auditoria_V26-20260912T123815Z-1-001/Auditoria_V26/Versões do infográfico nomeclatura/Nomeclatura_4K_PT_source.png'
+OUT_PNG = r'D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript/Figures_A4/Figure_S1_evaluation_architecture_A4.png'
+OUT_PDF = r'D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript/Figures_A4/Figure_S1_evaluation_architecture_A4.pdf'
+OUT_TIFF = r'D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript/Figures_A4/Figure_S1_evaluation_architecture_A4.tiff'
 CROP_TOP = 340
 CROP_Y = 3980
 
@@ -140,14 +140,14 @@ for c in CAT:
         ok = True
         f = ImageFont.truetype(F_BOLD if CAT[c]['bold'] else F_REG, size)
         for b in bs:
-            allowed = max(b['w'] + 8, card_width(b['x0']))
+            allowed = card_width(b['x0']) if c == 'COL' else b['w'] + 8
             if draw.textlength(b['en'], font=f) > allowed:
                 ok = False; break
         if ok: break
         size -= 2
     sizes[c] = size
 
-LEFT_TXT = {"Allow-list compliance", "Vocabulary compliance", "EXECUTOR precision", "Traceability"}
+LEFT_TXT = {"Allow-list compliance", "Vocabulary compliance", "Unsupported EXECUTOR rate", "Traceability", "evidence_maturity", "species_scope", "relationship_type", "parent_entity"}
 # horizontal alignment: column headers share one TOP line (glyph tops ~450 in the original)
 COL_TOP = 110
 for b in blocks:
@@ -195,6 +195,14 @@ def _arrow(x, y_end, dashed=False):
 _arrow(1650, 1420, dashed=True)   # left  -> CT
 _arrow(1984, 932,  dashed=False)  # center-> ET
 _arrow(2320, 1900, dashed=True)   # right -> Role
+
+# --- A4 adaptation: fit + center on A4 landscape canvas @ 600 DPI ---
+A4_W, A4_H = 7016, 4962
+_canvas = Image.new("RGB", (A4_W, A4_H), (255, 255, 255))
+_scale = min(A4_W / im.width, A4_H / im.height)
+_im2 = im.resize((int(im.width * _scale), int(im.height * _scale)), Image.LANCZOS)
+_canvas.paste(_im2, ((A4_W - _im2.width) // 2, (A4_H - _im2.height) // 2))
+im = _canvas
 
 im.save(OUT_PNG, "PNG", dpi=(600, 600))
 im.save(OUT_PDF, "PDF", resolution=600.0)

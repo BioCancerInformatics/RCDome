@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
-"""Figure S2 (improved): mechanistic associations per source, stacked by
-RCD entity ontological level (L1-L5), concordant RCDome palette + legend."""
+"""Figure S3: mechanistic associations per source, stacked by
+RCD entity ontological level (L1-L5), concordant RCDome palette + legend.
+Counts final_mechanistic = YES per source, segmented by ontological level."""
 import pandas as pd
 import matplotlib
 matplotlib.use('Agg')
@@ -8,16 +9,16 @@ import matplotlib.pyplot as plt
 from PIL import Image
 
 BASE = r'D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript'
-m = pd.read_csv(BASE + '/output databases/Phase 2C output/unified_gene_rcd_matrix_V026.csv',
+m = pd.read_csv(BASE + '/output databases/Phase 2C output/unified_gene_rcd_matrix_V027.csv',
                 low_memory=False)
 
-# build source x level mechanistic counts
+# build source x level mechanistic counts (final_mechanistic = YES)
 rows = []
 for _, r in m.iterrows():
     ss = str(r.source_databases)
     if not ss or ss == 'nan':
         continue
-    mech = str(r.cot_mechanistic).upper() == 'YES'
+    mech = str(r.final_mechanistic).upper() == 'YES'
     if not mech:
         continue
     lvl = r.rcdome_level
@@ -49,7 +50,7 @@ lvl_names = {'L1': 'L1 Modalities (19)', 'L2': 'L2 Subtypes (7)',
              'L5': 'L5 Generic/umbrella/taxon (12)'}
 dark = '#1F2937'
 
-OUT = BASE + '/Figures/Figure_S2_source_classification'
+OUT = BASE + '/Figures_A4/Figure_S3_source_classification_A4'
 
 fig, ax = plt.subplots(figsize=(8.27, 11.69))
 left = 0
@@ -62,28 +63,28 @@ for lv in levels:
 # total count label on the right
 for i, (src, tot) in enumerate(totals.items()):
     ax.text(tot + 40, i, f'{tot:,}', va='center', ha='left',
-            fontsize=6.5, color=dark)
+            fontsize=8.5, color=dark)
 
 ax.set_xlim(0, totals.max() * 1.16)
-ax.tick_params(axis='y', labelsize=7, colors=dark)
-ax.tick_params(axis='x', labelsize=8, colors=dark)
+ax.tick_params(axis='y', labelsize=9, colors=dark)
+ax.tick_params(axis='x', labelsize=10.5, colors=dark)
 for spine in ['top', 'right']:
     ax.spines[spine].set_visible(False)
 ax.spines['left'].set_color(dark)
 ax.spines['bottom'].set_color(dark)
-ax.set_xlabel('Mechanistic associations (cot_mechanistic = YES)', fontsize=9, color=dark)
-ax.set_title('Mechanistic associations per source, stacked by RCD entity ontological level',
-             fontsize=10.5, color=dark, fontweight='bold', pad=12)
+ax.set_xlabel('Mechanistic associations (final_mechanistic = YES)', fontsize=11.5, color=dark)
+fig.suptitle('Mechanistic associations per source, stacked by RCD entity ontological level',
+             fontsize=12, color=dark, fontweight='bold', y=0.98)
 
 handles = [plt.Rectangle((0, 0), 1, 1, color=palette[lv]) for lv in levels]
 ax.legend(handles, [lvl_names[lv] for lv in levels], loc='lower right',
-          fontsize=7, frameon=False, title='Ontological level', title_fontsize=7.5)
+          fontsize=9, frameon=False, title='Ontological level', title_fontsize=9.5)
 
 plt.tight_layout()
 
 # save PDF + PNG + 600 DPI TIFF
 fig.savefig(OUT + '.pdf', format='pdf')
-fig.savefig(OUT + '.png', dpi=300)
+fig.savefig(OUT + '.png', dpi=600)
 fig.savefig(OUT + '.tiff', dpi=600, format='tiff', pil_kwargs={'compression': 'tiff_lzw'})
 plt.close(fig)
 
@@ -98,7 +99,7 @@ for _e in ['.pdf', '.png', '.tiff']:
 if sys.platform == 'win32':
     try:
         import ctypes
-        _EPOCH_1601 = 116444736000000000  # 100ns intervals since 1601
+        _EPOCH_1601 = 116444736000000000
         _ft = int(_ts * 10_000_000) + _EPOCH_1601
         _k32 = ctypes.windll.kernel32
         for _e in ['.pdf', '.png', '.tiff']:
@@ -111,5 +112,6 @@ if sys.platform == 'win32':
     except Exception:
         pass
 
-print('saved Figure_S2_source_classification (stacked by ontological level)')
+print('saved Figure_S3_source_classification (stacked by ontological level)')
 print(ct)
+print('range: %s (%s) to %s (%s)' % (int(totals.min()), totals.idxmin(), int(totals.max()), totals.idxmax()))

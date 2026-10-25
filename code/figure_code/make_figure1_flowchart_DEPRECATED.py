@@ -27,7 +27,7 @@ with open(_MAT, encoding='utf-8-sig', newline='') as _f:
         _PAIRS.add((_r['gene_symbol'], _r['rcd_form_canonical']))
         _ENTITIES.add(_r['rcd_form_canonical'])
 
-OUT = r'D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript/Figures/Figure_1_pipeline'
+OUT = r'D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript/Figures/Figure_1_pipeline_A4'
 
 fig, ax = plt.subplots(figsize=(8.27, 11.69))
 ax.set_xlim(0, 100)
@@ -75,9 +75,9 @@ arrow(82, 28, 50, 23)
 arrow(50, 13, 50, 7.5)
 
 plt.tight_layout(pad=0.5)
-fig.savefig(OUT + '.pdf', facecolor='white', bbox_inches='tight')
-fig.savefig(OUT + '.png', dpi=600, facecolor='white', bbox_inches='tight')
-fig.savefig(OUT + '.tiff', dpi=600, facecolor='white', bbox_inches='tight',
+fig.savefig(OUT + '.pdf', facecolor='white')
+fig.savefig(OUT + '.png', dpi=600, facecolor='white')
+fig.savefig(OUT + '.tiff', dpi=600, facecolor='white',
             pil_kwargs={'compression': 'tiff_lzw'})
 plt.close(fig)
 

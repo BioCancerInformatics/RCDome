@@ -10,16 +10,23 @@ wrap_text <- function(text, width = 35) {
   stri_wrap(text, width = width) |> paste(collapse = "\n")
 }
 
+# ── Read the truth matrix so the consolidation counts never go stale ──
+mat <- read.csv("D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript/RCDome_distribution/data/unified_gene_rcd_matrix_V027.csv", check.names = FALSE, encoding = "UTF-8")
+n_rows <- nrow(mat)
+n_genes <- length(unique(mat$gene_symbol))
+n_entities <- length(unique(mat$rcd_form_canonical))
+n_cols <- ncol(mat)
+
 labels <- list(
-  sources       = wrap_text("20 source databases (FerrDB v3, RCDdb, iPCD, LncRCD, iLIR, HADb, HAMdb, ATD, AMT-DB, ncFO, KEGG, Reactome, GO, MSigDB, WikiPathways, NCBI Gene, Rodrigues 2025, XDeathDB, Elicit Phase 3, Elicit Alert)"),
-  channels      = wrap_text("Five compilation channels: A: PubMed Boolean (recall), B: curated databases (precision), C: AI-assisted screening, D: manual curation (arbiter), E: Elicit Phase 3 systematic review"),
-  consolidation = wrap_text("Consolidation: 53 canonicalized RCD-related entities (62 name strings), 22,473 rows, 9,265 genes"),
+  sources       = wrap_text("20 databases and resources (FerrDB v3, RCDdb, iPCD, LncRCD, iLIR, HADb, HAMdb, ATD, AMT-DB, ncFO, KEGG, Reactome, GO, MSigDB, WikiPathways, NCBI Gene, Rodrigues 2025, XDeathDB, Elicit Phase 3, Elicit Alert)"),
+  channels      = wrap_text("Five evidence channels (A-D at compile, E at validation): A PubMed Boolean (recall), B curated databases (precision), C AI-assisted screening, D manual curation (arbiter), E Elicit Phase 3 systematic review"),
+  consolidation = wrap_text(paste0("Consolidation: ", n_entities, " canonicalized RCD-related entities (62 name strings), ", format(n_rows, big.mark = ","), " rows, ", format(n_genes, big.mark = ","), " genes")),
   validation    = wrap_text("INDEPENDENT VALIDATION"),
   deepseek      = wrap_text("DeepSeek (Phases 2A/D, 2B, 2C, 2D/2E, 2F): two-call validation, deep RAG, recovery, CoT full-matrix (cot_role, cot_direction, cot_mechanistic, cot_evidence)"),
   elicit        = wrap_text("Elicit (Phase 3): AI-assisted extraction, role + direction"),
   consensus     = wrap_text("Consensus (Phase 2G): evidence-channel classification, neutral query"),
-  matrix        = wrap_text("Consolidated matrix: 22,473 rows × 71 columns"),
-  app           = wrap_text("RCDome web application (dome, Explore RCDome, Operational Definitions, Compare Definitions, Gene Catalog, RCD entities, RCDome Board, Network)")
+  matrix        = wrap_text(paste0("Consolidated matrix: ", format(n_rows, big.mark = ","), " rows × ", n_cols, " columns")),
+  app           = wrap_text("RCDome web application (Home dome, Explore RCDome, Operational Definitions, Compare Definitions, RCD entities, Gene Catalog, Discrepancy Radar, Discovery Timeline, 3D RCDome, Digital Molecular RCD Board, Network)")
 )
 
 diagram <- grViz("
@@ -60,12 +67,12 @@ svg_raw <- charToRaw(svg_code)
 png_file <- "workflow_rcdome_tmp.png"
 rsvg_png(svg_raw, file = png_file, width = 4961, height = 7016)  # A4 portrait @ 600 DPI
 
-out <- "D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript/Figures/Figure_1_pipeline"
+out <- "D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript/Figures_A4/Figure_1_pipeline_A4"
 img <- image_read(png_file, density = "600x600")
 image_write(img, path = paste0(out, ".tiff"), format = "tiff", compression = "lzw")
 rsvg_pdf(svg_raw, file = paste0(out, ".pdf"), width = 8.27, height = 11.69)
 
-# PNG for quick view
-image_write(image_convert(img, format = "png"), path = paste0(out, ".png"))
+# PNG for quick view (explicit 600 DPI — magick would otherwise write only an aspect-ratio hint)
+image_write(img, path = paste0(out, ".png"), format = "png", density = "600x600")
 
 cat("saved Figure_1_pipeline.tiff/.pdf/.png (text wrapped)\n")

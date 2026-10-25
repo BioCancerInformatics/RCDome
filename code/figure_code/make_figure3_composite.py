@@ -24,7 +24,7 @@ with open(_MAT, encoding='utf-8-sig', newline='') as _f:
 _ROLE_VALS = [_ROLE['MARKER'], _ROLE['EXECUTOR'], _ROLE['REGULATOR'], _ROLE['UNCERTAIN']]
 _DIR_VALS = [_DIR['PROTECTS'], _DIR['PROMOTES']]
 
-fig, axes = plt.subplots(2, 2, figsize=(10.5, 8), dpi=600)
+fig, axes = plt.subplots(2, 2, figsize=(11.69, 8.27), dpi=600)
 fig.patch.set_facecolor('white')
 
 # (a) Role distribution
@@ -32,10 +32,10 @@ ax = axes[0,0]
 roles=['Marker','Executor','Regulator','Uncertain']; vals=_ROLE_VALS
 bars = ax.barh(roles, vals, color=['#e7e5e4', ORANGE, BLUE, GREY])
 for b,v in zip(bars, vals):
-    ax.text(b.get_width()+250, b.get_y()+b.get_height()/2, f'{v:,}', va='center', fontsize=9, color=NAVY, fontweight='bold')
-ax.set_xlim(0,13500); ax.set_title('Role distribution (21,568 pairs)', fontsize=11, fontweight='bold', color=NAVY)
-ax.text(-0.14, 1.02, 'A', transform=ax.transAxes, fontsize=15, fontweight='bold', color=NAVY)
-ax.spines[['top','right']].set_visible(False); ax.tick_params(colors=NAVY, labelsize=8)
+    ax.text(b.get_width()+250, b.get_y()+b.get_height()/2, f'{v:,}', va='center', fontsize=11, color=NAVY, fontweight='bold')
+ax.set_xlim(0,18000); ax.set_title('Role distribution (21,568 pairs)', fontsize=13, fontweight='bold', color=NAVY)
+ax.text(-0.28, 1.02, '(A)', transform=ax.transAxes, fontsize=15, fontweight='bold', color=NAVY)
+ax.spines[['top','right']].set_visible(False); ax.tick_params(colors=NAVY, labelsize=11)
 
 # (b) Mechanistic by level
 ax = axes[0,1]
@@ -43,27 +43,27 @@ levels=['L1','L2','L3','L4','L5']; pcts=[37.3,14.1,14.2,6.3,10.9]
 lcolors=[GOLD,BLUE,GREEN,PURPLE,ORANGE5]
 bars = ax.bar(levels, pcts, color=lcolors, width=0.62)
 for b,v in zip(bars,pcts):
-    ax.text(b.get_x()+b.get_width()/2, v+1.2, f'{v}%', ha='center', fontsize=9, color=NAVY, fontweight='bold')
-ax.set_ylim(0,70); ax.set_title('Mechanistically involved, by level (%)', fontsize=11, fontweight='bold', color=NAVY)
-ax.text(-0.14, 1.02, 'B', transform=ax.transAxes, fontsize=15, fontweight='bold', color=NAVY)
-ax.spines[['top','right']].set_visible(False); ax.tick_params(colors=NAVY, labelsize=8)
+    ax.text(b.get_x()+b.get_width()/2, v+1.2, f'{v}%', ha='center', fontsize=11, color=NAVY, fontweight='bold')
+ax.set_ylim(0,70); ax.set_title('Mechanistically involved, by level (%)', fontsize=13, fontweight='bold', color=NAVY)
+ax.text(-0.28, 1.02, '(B)', transform=ax.transAxes, fontsize=15, fontweight='bold', color=NAVY)
+ax.spines[['top','right']].set_visible(False); ax.tick_params(colors=NAVY, labelsize=11)
 
 # (c) Direction
 ax = axes[1,0]
 dirs=['Protects','Promotes']; dvals=_DIR_VALS
 bars = ax.barh(dirs, dvals, color=[TEAL, ORANGE])
 for b,v in zip(bars,dvals):
-    ax.text(b.get_width()+110, b.get_y()+b.get_height()/2, f'{v:,}', va='center', fontsize=9, color=NAVY, fontweight='bold')
-ax.set_xlim(0,6800); ax.set_title('Direction of regulation', fontsize=11, fontweight='bold', color=NAVY)
-ax.text(-0.14, 1.02, 'C', transform=ax.transAxes, fontsize=15, fontweight='bold', color=NAVY)
-ax.spines[['top','right']].set_visible(False); ax.tick_params(colors=NAVY, labelsize=8)
+    ax.text(b.get_width()+110, b.get_y()+b.get_height()/2, f'{v:,}', va='center', fontsize=11, color=NAVY, fontweight='bold')
+ax.set_xlim(0,6800); ax.set_title('Direction of regulation', fontsize=13, fontweight='bold', color=NAVY)
+ax.text(-0.28, 1.02, '(C)', transform=ax.transAxes, fontsize=15, fontweight='bold', color=NAVY)
+ax.spines[['top','right']].set_visible(False); ax.tick_params(colors=NAVY, labelsize=11)
 
 # (d) Bullseye — AREA-proportional rings
 ax = axes[1,1]
 TOTAL = 21568
-R3 = 1.0
-R2 = math.sqrt((4604+225)/TOTAL)
-R1 = math.sqrt(225/TOTAL)
+R3 = 1.35
+R2 = math.sqrt((4604+225)/TOTAL) * 1.35
+R1 = math.sqrt(225/TOTAL) * 1.35
 # outer grey ring (uncertain)
 ax.add_patch(Wedge((0,0), R3, 0, 360, width=R3-R2, facecolor=GREY, alpha=0.9))
 # middle blue ring (regulator)
@@ -71,19 +71,19 @@ ax.add_patch(Wedge((0,0), R2, 0, 360, width=R2-R1, facecolor=BLUE, alpha=0.9))
 # inner orange core (executor)
 ax.add_patch(plt.Circle((0,0), R1, color=ORANGE, alpha=0.95))
 # labels
-ax.text(0, (R2+R3)/2, 'UNCERTAIN\n16,641', ha='center', va='center', fontsize=8, color=NAVY, fontweight='bold')
-ax.text(0, (R1+R2)/2, 'REGULATOR\n4,604', ha='center', va='center', fontsize=8, color='white', fontweight='bold')
-ax.text(0, 0, '225', ha='center', va='center', fontsize=8, color='white', fontweight='bold')
-ax.text(0, -0.24, 'EXECUTOR', ha='center', va='center', fontsize=8, color=ORANGE, fontweight='bold')
-ax.set_xlim(-1.15,1.15); ax.set_ylim(-1.15,1.15); ax.set_aspect('equal'); ax.axis('off')
+ax.text(0, (R2+R3)/2, 'UNCERTAIN\n16,641', ha='center', va='center', fontsize=10, color=NAVY, fontweight='bold')
+ax.text(0, (R1+R2)/2 - 0.06, 'REGULATOR\n4,604', ha='center', va='center', fontsize=10, color='white', fontweight='bold')
+ax.text(0, 0, '225', ha='center', va='center', fontsize=10, color='white', fontweight='bold')
+ax.text(0, -0.24, 'EXECUTOR', ha='center', va='center', fontsize=10, color=ORANGE, fontweight='bold')
+ax.set_xlim(-1.4,1.4); ax.set_ylim(-1.4,1.4); ax.set_aspect('equal'); ax.axis('off')
 ax.set_title('The core is small; the network is vast', fontsize=11, fontweight='bold', color=NAVY, pad=6)
-ax.text(-0.14, 1.02, 'D', transform=ax.transAxes, fontsize=15, fontweight='bold', color=NAVY)
+ax.text(-0.28, 1.02, '(D)', transform=ax.transAxes, fontsize=15, fontweight='bold', color=NAVY)
 
 plt.tight_layout()
-out = 'D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript/Figures/Figure_3'
-plt.savefig(out + '.pdf', facecolor='white', bbox_inches='tight')
-plt.savefig(out + '.png', dpi=600, facecolor='white', bbox_inches='tight')
-plt.savefig(out + '.tiff', dpi=600, facecolor='white', bbox_inches='tight', pil_kwargs={'compression': 'tiff_lzw'})
+out = 'D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript/Figures_A4/Figure_3_A4'
+plt.savefig(out + '.pdf', facecolor='white')
+plt.savefig(out + '.png', dpi=600, facecolor='white')
+plt.savefig(out + '.tiff', dpi=600, facecolor='white', pil_kwargs={'compression': 'tiff_lzw'})
 plt.close()
 
 import os, sys
