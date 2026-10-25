@@ -377,3 +377,20 @@ Full change cycle for the ontological recalibration (V025 → V026):
   backups, temp outputs). Everything lives on **D:**.
 - Drive C: is critically low (7.9 GB free, 94% used); drive D: has 208 GB free.
 - Verified: the project is entirely on D:; zero RCDome files on C:.
+
+
+## Submission Folder Protocol (Submission FAI = truth)
+
+**Effective: V027+**
+
+1. **`Submission FAI/` is the single source of truth for the submission.** It holds the files that will be ACTUALLY submitted (manuscript, supplementary information, supplementary tables, figures, datasets, cover letter, APC waiver, reviewers, preprint). Any claim about "the submission" refers to the files in `Submission FAI/`.
+
+2. **All other copies mirror `Submission FAI/`.** `manuscript_V027/` (working) and `RCDome_distribution/manuscript/` (distribution) are mirrors — byte-identical to `Submission FAI/` after every edit.
+
+3. **Sync direction is one-way: `Submission FAI/` → mirrors.** Edits are made in `Submission FAI/` (the truth), then copied out (`cp`) to the mirrors. Never the reverse.
+
+4. **Submitted figures live in `Submission FAI/Figures_A4/` (A4, 600 DPI) and `Submission FAI/Figures/` (short names).** The working `Figures/` + `Figures_A4/` are the generation outputs (old names) — NOT the submission.
+
+5. **GitHub is the PUBLIC mirror of code + data + docs only — never the manuscript or supplementary files** (pre-submission embargo). Manuscript files stay purged from the public repo until submission authorization.
+
+6. **The distribution ZIP is built from `RCDome_distribution/` and synced to `Submission FAI/`.** It must carry the latest manuscript + supplementary (via the mirror) + data + app.
