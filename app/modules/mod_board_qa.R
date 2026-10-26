@@ -99,6 +99,12 @@ build_rag_records <- function(question, default_entity = NULL, max_chars = 60000
   eb <- ifelse(is.na(rows$evidence_basis), "NA", as.character(rows$evidence_basis))
   cs <- ifelse(is.na(rows$confidence_score), "NA", as.character(rows$confidence_score))
   ef <- ifelse(is.na(rows$final_role), "NA", paste0(as.character(rows$final_role), "/", as.character(rows$final_direction), "/", as.character(rows$final_mechanistic)))
+  cm <- ifelse(is.na(rows$rcd_gene_type) | is.na(rows$role_direction), "NA", paste0(as.character(rows$rcd_gene_type), "/", as.character(rows$role_direction)))
+  cn <- ifelse(is.na(rows$consensus_role) | is.na(rows$consensus_direction), "NA", paste0(as.character(rows$consensus_role), "/", as.character(rows$consensus_direction)))
+  gp <- ifelse(is.na(rows$gpt_mapped_role) | is.na(rows$gpt_mapped_dir), "NA", paste0(as.character(rows$gpt_mapped_role), "/", as.character(rows$gpt_mapped_dir)))
+  c1 <- ifelse(is.na(rows$curator_1_mapped_role) | is.na(rows$curator_1_mapped_dir), "NA", paste0(as.character(rows$curator_1_mapped_role), "/", as.character(rows$curator_1_mapped_dir)))
+  c2 <- ifelse(is.na(rows$curator_2_mapped_role) | is.na(rows$curator_2_mapped_dir), "NA", paste0(as.character(rows$curator_2_mapped_role), "/", as.character(rows$curator_2_mapped_dir)))
+  fv <- ifelse(is.na(rows$final_verdict), "NA", as.character(rows$final_verdict))
   ds <- ifelse(is.na(rows$decision_status), "NA", as.character(rows$decision_status))
   pm <- vapply(rows$pmid_list, function(p) {
     ps <- strsplit(as.character(p), ";", fixed=TRUE)[[1]]
@@ -108,7 +114,10 @@ build_rag_records <- function(question, default_entity = NULL, max_chars = 60000
     paste0(paste(ps[1:2], collapse=";"), "; +", length(ps)-2, " more")
   }, character(1))
   lines <- paste0("- ", rows$gene_symbol, " (", rows$rcd_form_canonical, ": ",
-                  mc, " | ", rl, " | ", dr, " | EF:", ef, " (", ds, ")", " | ET:", ti, " | CT:", ct, " | EB:", eb, " | CS:", cs, " | PMID:", pm, ")")
+                  "mc=", mc, " | DS=", rl, "/", dr,
+                  " | Compiled=", cm, " | Consensus=", cn, " | GPT=", gp,
+                  " | Cur1=", c1, " | Cur2=", c2, " | EF=", ef, " | verdict=", fv,
+                  " | ET=", ti, " | CT=", ct, " | PMID=", pm, ")")
 
   # 7) Budget cap (most informative records first, within the budget)
   txt <- ""
@@ -165,6 +174,16 @@ build_board_qa_prompt <- function(b, question = NULL) {
     "REFERENCE DISCIPLINE: a gene\u2013RCD association citation must use the ",
     "gene-specific association PMID, never the entity founding PMID; an entity ",
     "definition citation must use the entity founding PMID. Never interchange them. If a record lists multiple PMIDs, cite the first one.\n\n",
+    "CLASSIFICATION LAYERS (the labels used in the Gene Catalog):\n",
+    "- \"Evidence-first\" (final resolution) = final_role / final_direction / final_mechanistic\n",
+    "- \"DeepSeek\" = cot_role / cot_direction / cot_mechanistic\n",
+    "- \"Compiled gene role\" = rcd_gene_type / role_direction\n",
+    "- \"Consensus\" = consensus_role / consensus_direction / consensus_mechanistic\n",
+    "- \"GPT\" = gpt_mapped_role / gpt_mapped_dir\n",
+    "- \"Curator 1\" = curator_1_mapped_role / curator_1_mapped_dir\n",
+    "- \"Curator 2\" = curator_2_mapped_role / curator_2_mapped_dir\n",
+    "For general questions and the synthesis, lead with the Evidence-first (final) layer; mention the other layers only when the user asks for them specifically.\n",
+    "When the user asks for a SPECIFIC layer, report THAT layer's values, clearly labeled. When layers diverge, list them in separate rows with labels; never conflate them or present one layer as another.\n\n",
     "STYLE: hedge all interpretations (\u201cmay suggest\u201d, \u201cis consistent ",
     "with\u201d, \u201crequires validation\u201d). Name the source in every factual claim ",
     "(\u201cthe RCDome database records\u2026\u201d, \u201cthe RCDome decoder ",
