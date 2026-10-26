@@ -41,7 +41,7 @@ mod_gene_catalog_ui <- function(id) {
              style = "color:#a8a29e; margin:12px 0 0; font-size:14px;")
     ),
     tags$div(style = "margin-bottom:12px;",
-      tags$div("Direction/Role source:",
+      tags$div("Direction/Role source (applies only to the Role and Direction columns):",
         `data-tip` = "Choose which analysis's Role/Direction values to show. Evidence-first = the final verbatim-grounded resolution (default). DeepSeek/Consensus/Compiled = the source classifications. GPT/Curator 1/Curator 2 = the arbitration votes (mapped to the source they sided with).",
         style = "font-weight:600; color:#1c1917; font-size:14px; margin:0 0 4px 0;"),
       tags$div(style = "display:flex; align-items:center; flex-wrap:wrap;",
@@ -568,6 +568,7 @@ mod_gene_catalog_server <- function(id) {
         "<button type=\"button\" onmousedown=\"event.stopPropagation();\" onclick=\"event.stopPropagation(); Shiny.setInputValue('%s', '%s|%s', {priority:'event'})\" style=\"border:none;background:#1d4ed8;color:#fff;cursor:pointer;font-size:12px;font-weight:600;padding:3px 10px;border-radius:999px;\" title=\"Open the Evidence Trail\">⧈ Trail</button>",
         session$ns("evidence_click"), raw_gene, raw_entity
       )
+      show <- show[, c("gene_symbol","gene_biotype","rcd_form_canonical","cancer_gene_type","confidence_tier","cot_mechanistic", sc$role, sc$dir, "evidence_first","source_databases","evidence")]
       colnames(show) <- c("Gene", "Biotype", "RCD entity", "Cancer Gene", "Confidence Tier", "Mechanistic (DeepSeek)", paste0("Role (", sc$label, ")"), paste0("Direction (", sc$label, ")"), "Evidence-first", "Source DBs", "Evidence Trail")
       datatable(show, rownames = FALSE, selection = "none", escape = FALSE,
         options = list(
@@ -584,8 +585,8 @@ mod_gene_catalog_server <- function(id) {
             "    'Mechanistic verdict of the selected source: YES = gene mechanistically participates in this RCD form; NO = association without mechanistic evidence.',",
             "    'Role of the selected source: EXECUTOR = directly executes death; REGULATOR = controls (promotes/inhibits); MARKER = associated but not causal; UNCERTAIN = unresolved.',",
             "    'Direction of the selected source: PROMOTES = favors death; PROTECTS = inhibits death; UNCLEAR = unresolved.',",
+            "    'Final evidence-first resolution (final_mechanistic · final_role · final_direction), read from the verbatim.',",
             "    'Semicolon-separated source databases that reported this gene-RCD association (joined provenance).',",
-            "    'Final three-dimension evidence-first resolution (mechanistic · role · direction), read from the verbatim.',",
             "    'Opens the global Evidence Trail drawer: classifiers, curator votes, and the evidence-first adjudication for this gene-RCD pair.'",
             "  ];",
             "  $('th', thead).each(function(i){ if(tips[i]) $(this).attr('data-tip', tips[i]); });",
