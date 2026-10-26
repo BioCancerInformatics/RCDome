@@ -119,7 +119,8 @@ mod_gene_catalog_ui <- function(id) {
         `data-tip` = "Export the complete truth matrix — all 22,473 rows x 100 columns (all analyses: Elicit, DeepSeek, and every provenance column).",
         class = "search-evidence-btn")
     ),
-    tags$p("Total corpus: 22,473 rows = 21,568 unique gene-RCD pairs + 905 rows of multi-database corroboration (same gene+entity reported by 2+ databases).",
+    tags$p("Total corpus: 22,473 rows = 21,568 unique gene-RCD pairs + 905 rows of multi-database corroboration (same gene+entity reported by 2+ databases). ",
+           textOutput(ns("shown_count"), inline = TRUE),
            style = "color:#a8a29e; font-size:12px; margin-top:6px;"),
     tags$div(style = "margin-top: 28px; display:flex; align-items:center; gap:12px; flex-wrap:wrap;",
       tags$h4("RCD Entities — Compiled gene role vs DeepSeek (executors / regulators)", style = "margin:0; color:#1c1917;"),
@@ -538,6 +539,13 @@ mod_gene_catalog_server <- function(id) {
     )
 
     # ── Genes table ────────────────────────────────────────────────────
+    output$shown_count <- renderText({
+      n <- nrow(filtered_genes())
+      idx <- input$table_genes_rows_all
+      if (!is.null(idx) && length(idx) > 0) n <- length(idx)
+      paste0("Showing ", n, " rows after filters.")
+    })
+
     output$table_genes <- renderDT({
       df <- filtered_genes()
       if (nrow(df) == 0) return(datatable(data.frame(Message = "No data")))
