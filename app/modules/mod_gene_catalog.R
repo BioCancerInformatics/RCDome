@@ -555,7 +555,7 @@ mod_gene_catalog_server <- function(id) {
       show <- df[, cols, drop = FALSE]
       raw_gene <- df$gene_symbol
       raw_entity <- df$rcd_form_canonical
-      show$gene_symbol <- sprintf("<a href='#' onclick=\"Shiny.setInputValue('%s', '%s', {priority:'event'}); return false;\" style='color:#1d4ed8;font-weight:700;font-style:italic;'>%s</a>", session$ns("gene_click"), raw_gene, raw_gene)
+      show$gene_symbol <- sprintf("<a href='#' onclick=\"Shiny.setInputValue('%s', '%s|%s', {priority:'event'}); return false;\" style='color:#1d4ed8;font-weight:700;font-style:italic;'>%s</a>", session$ns("gene_click"), raw_gene, raw_entity, raw_gene)
       show$gene_biotype <- rc_pill(show$gene_biotype, biotype_class(show$gene_biotype))
       show$rcd_form_canonical <- rc_pill(show$rcd_form_canonical, level_class(show$rcdome_level_name))
       show$cancer_gene_type <- rc_pill(show$cancer_gene_type, cancer_class(show$cancer_gene_type))
@@ -607,8 +607,12 @@ mod_gene_catalog_server <- function(id) {
 
     observeEvent(input$gene_click, {
       req(input$gene_click)
-      navigate_to_gene_page(input$gene_click)
-      show_gene_modal(input$gene_click)
+      parts <- strsplit(input$gene_click, "|", fixed = TRUE)[[1]]
+      gene <- parts[1]
+      entity <- if (length(parts) > 1) parts[2] else ""
+      show_gene_modal(gene)
+      evidence_trail_rv(list(gene = gene, entity = entity))
+      shinyjs::runjs("document.getElementById('evidence_drawer').style.display='block';")
     })
 
     # ── Download da aba ativa (TSV / XLSX / CSV) ────────────────────
