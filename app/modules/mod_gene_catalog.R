@@ -119,7 +119,7 @@ mod_gene_catalog_ui <- function(id) {
         `data-tip` = "Export the complete truth matrix — all 22,473 rows x 100 columns (all analyses: Elicit, DeepSeek, and every provenance column).",
         class = "search-evidence-btn")
     ),
-    tags$p("22,473 rows shown = 21,568 unique gene-RCD pairs + 905 rows of multi-database corroboration (same gene+entity reported by 2+ databases).",
+    tags$p("Total corpus: 22,473 rows = 21,568 unique gene-RCD pairs + 905 rows of multi-database corroboration (same gene+entity reported by 2+ databases).",
            style = "color:#a8a29e; font-size:12px; margin-top:6px;"),
     tags$div(style = "margin-top: 28px; display:flex; align-items:center; gap:12px; flex-wrap:wrap;",
       tags$h4("RCD Entities — Compiled gene role vs DeepSeek (executors / regulators)", style = "margin:0; color:#1c1917;"),
