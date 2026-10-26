@@ -50,7 +50,7 @@ out <- "D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_ma
 
 # ---- vector PDF ----
 pdf(paste0(out, ".pdf"), width = 8.27, height = 11.69, family = "Helvetica")
-par(mfrow = c(3, 1), mar = c(5.2, 4.2, 3.6, 1.5), family = "Helvetica", cex = 1.0)
+par(mfrow = c(3, 1), mar = c(8.5, 4.2, 3.6, 1.5), family = "Helvetica", cex = 1.0)
 draw_panel(arms_a, acc_a, fp_a,
            "DeepSeek model-selection benchmark (26-pair ground truth)",
            "18 positive executor/regulator pairs + 8 form-mismatch negative controls (Supplementary Note S5)",
@@ -67,7 +67,7 @@ dev.off()
 
 # ---- 600-DPI TIFF ----
 png("benchmark_tmp.png", width = 8.27, height = 11.69, units = "in", res = 600)
-par(mfrow = c(3, 1), mar = c(5.2, 4.2, 3.6, 1.5), family = "Helvetica", cex = 1.0)
+par(mfrow = c(3, 1), mar = c(8.5, 4.2, 3.6, 1.5), family = "Helvetica", cex = 1.0)
 draw_panel(arms_a, acc_a, fp_a,
            "DeepSeek model-selection benchmark (26-pair ground truth)",
            "18 positive executor/regulator pairs + 8 form-mismatch negative controls (Supplementary Note S5)",
