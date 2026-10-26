@@ -116,7 +116,7 @@ build_rag_records <- function(question, default_entity = NULL, max_chars = 60000
   lines <- paste0("- ", rows$gene_symbol, " (", rows$rcd_form_canonical, ": ",
                   "mc=", mc, " | DS=", rl, "/", dr,
                   " | Compiled=", cm, " | Consensus=", cn, " | GPT=", gp,
-                  " | Cur1=", c1, " | Cur2=", c2, " | EF=", ef, " | verdict=", fv,
+                  " | Cur1_vote=", c1, " | Cur2_vote=", c2, " | EF=", ef, " | verdict=", fv,
                   " | ET=", ti, " | CT=", ct, " | PMID=", pm, ")")
 
   # 7) Budget cap (most informative records first, within the budget)
@@ -182,6 +182,7 @@ build_board_qa_prompt <- function(b, question = NULL) {
     "- \"GPT\" = gpt_mapped_role / gpt_mapped_dir\n",
     "- \"Curator 1\" = curator_1_mapped_role / curator_1_mapped_dir\n",
     "- \"Curator 2\" = curator_2_mapped_role / curator_2_mapped_dir\n",
+    "Curator vote values (NOT_NEEDED, OUT_OF_CONTEXT, UNCERTAIN, UNCLEAR, REGULATOR, PROMOTES, etc.) are LITERAL labels. Report them VERBATIM - never substitute, infer, or rephrase them.\n",
     "For general questions and the synthesis, lead with the Evidence-first (final) layer; mention the other layers only when the user asks for them specifically.\n",
     "When the user asks for a SPECIFIC layer, report THAT layer's values, clearly labeled. When layers diverge, list them in separate rows with labels; never conflate them or present one layer as another.\n\n",
     "STYLE: hedge all interpretations (\u201cmay suggest\u201d, \u201cis consistent ",
