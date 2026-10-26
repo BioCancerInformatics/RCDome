@@ -585,7 +585,7 @@ server <- function(input, output, session) {
       el_sent <- "—"
     }
     pm <- unique(unlist(strsplit(paste(f(r$pmid_list), f(r$llm_pmids), f(r$epmc_pmids), f(r$elicit_pmids), sep = ";"), ";", fixed = TRUE)))
-    pm <- pm[nzchar(trimws(pm))]
+    pm <- pm[grepl("^\\d+$", pm)]
     pm_links <- if (length(pm) > 0) {
       paste(vapply(pm, function(x) paste0("<a href='https://pubmed.ncbi.nlm.nih.gov/", x, "/' target='_blank' style='color:#1d4ed8;'>PMID ", x, "</a>"), character(1)), collapse = " · ")
     } else "—"
