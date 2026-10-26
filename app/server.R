@@ -844,6 +844,7 @@ server <- function(input, output, session) {
         ),
         textInput("contact_name", "Your name:", placeholder = "e.g. John Doe"),
         textInput("contact_email", "Your email:", placeholder = "e.g. john@example.com"),
+        textInput("contact_email_confirm", "Confirm your email:", placeholder = "e.g. john@example.com"),
         checkboxInput("contact_reply", "I'd like a reply", value = FALSE),
         textAreaInput("contact_msg", "Your message:", rows = 6,
                       placeholder = "Write your feedback, bug report, or suggestion here...")
@@ -856,8 +857,13 @@ server <- function(input, output, session) {
       showNotification("Please write a message first.", type = "warning")
       return()
     }
-    name  <- trimws(input$contact_name %||% "")
     email <- trimws(input$contact_email %||% "")
+    email_confirm <- trimws(input$contact_email_confirm %||% "")
+    if (email != email_confirm) {
+      showNotification("Email addresses do not match. Please re-enter them.", type = "warning")
+      return()
+    }
+    name  <- trimws(input$contact_name %||% "")
     reply <- isTRUE(input$contact_reply)
     body  <- paste0(
       "Name: ", if (name != "") name else "Anonymous", "\n",
@@ -866,25 +872,35 @@ server <- function(input, output, session) {
       msg
     )
     smtp_user <- Sys.getenv("SMTP_USER")
-    smtp_pass <- Sys.getenv("SMTP_PASS")
-    if (smtp_user == "" || smtp_pass == "") {
-      showNotification("Email not configured. Set SMTP_USER and SMTP_PASS in .Renviron.",
+    sendgrid_key <- Sys.getenv("SENDGRID_API_KEY")
+    if (smtp_user == "" || sendgrid_key == "") {
+      showNotification("Email not configured. Set SMTP_USER and SENDGRID_API_KEY in .Renviron.",
                        type = "error", duration = 8)
       return()
     }
+    subject <- if (name != "") paste0("New comment from ", name, " (RCDome)") else "New comment from RCDome"
     result <- tryCatch({
-      blastula::smtp_send(
-        blastula::compose_email(body = blastula::md(body)),
-        to = "quique@uenf.br",
-        from = smtp_user,
-        subject = if (name != "") paste0("New comment from ", name, " (RCDome)") else "New comment from RCDome",
-        credentials = blastula::creds_envvar(
-          user = smtp_user,
-          pass_envvar = "SMTP_PASS",
-          provider = "gmail"
-        )
+      resp <- httr::POST(
+        "https://api.sendgrid.com/v3/mail/send",
+        httr::add_headers(
+          Authorization = paste("Bearer", sendgrid_key),
+          "Content-Type" = "application/json"
+        ),
+        body = jsonlite::toJSON(list(
+          personalizations = list(list(to = list(list(email = "quique@uenf.br")))),
+          from = list(email = smtp_user),
+          subject = subject,
+          content = list(list(type = "text/plain", value = body))
+        ), auto_unbox = TRUE),
+        encode = "raw"
       )
-      TRUE
+      if (httr::status_code(resp) %in% c(200, 201, 202)) {
+        TRUE
+      } else {
+        showNotification(paste0("Failed to send (HTTP ", httr::status_code(resp), ")"),
+                         type = "error", duration = 8)
+        FALSE
+      }
     }, error = function(e) {
       showNotification(paste0("Failed to send: ", conditionMessage(e)),
                        type = "error", duration = 8)
@@ -894,6 +910,7 @@ server <- function(input, output, session) {
       updateTextAreaInput(session, "contact_msg", value = "")
       updateTextInput(session, "contact_name", value = "")
       updateTextInput(session, "contact_email", value = "")
+      updateTextInput(session, "contact_email_confirm", value = "")
       showNotification("Message sent!", type = "message")
     }
   })
