@@ -421,6 +421,7 @@ mod_gene_catalog_server <- function(id) {
       for (id in c("f_gene", "f_biotype", "f_rcd", "f_cancer", "f_tier", "f_mech", "f_role", "f_dir", "f_status", "f_db")) {
         updateSelectizeInput(session, id, selected = character(0))
       }
+      shinyjs::runjs(sprintf("$('#%s input[type=\"search\"]').val('').trigger('input');", session$ns("table_genes")))
     })
 
     # Auto-reset the dedup preset when the user manually changes the Role filter.
@@ -610,6 +611,8 @@ mod_gene_catalog_server <- function(id) {
       content = function(file) {
         fmt <- input$download_format
         df <- filtered_genes()
+        idx <- input$table_genes_rows_all
+        if (!is.null(idx) && length(idx) > 0) df <- df[idx, , drop = FALSE]
         if (fmt == "tsv") {
           write.table(df, file, sep = "\t", row.names = FALSE, quote = FALSE, na = "")
         } else if (fmt == "csv") {
