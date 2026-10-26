@@ -12,9 +12,9 @@ acc_a  <- c(81, 73, 100, 100)
 fp_a   <- c(38, 25, 0, 0)
 
 # ---- Panel B: Elicit post-export governance (784 records, 3 forms) ----
-metrics_b <- c("Allow-list\ncompliance", "Unsupported EXECUTOR\nrate", "Traceability\n(PMID → DOI)")
-before_b  <- c(75.4, 53, 24)
-after_b   <- c(100, 0, 98)
+metrics_b <- c("Allow-list\ncompliance", "Unsupported EXECUTOR\nrate", "Traceability\n(PMID or DOI)")
+before_b  <- c(75.4, 53, 85.3)
+after_b   <- c(100, 0, 98.3)
 
 # ---- Panel C: Consensus query formulation (26-pair ground truth) ----
 arms_c <- c("form-biased query", "neutral query")
