@@ -55,14 +55,14 @@ draw_panel(arms_a, acc_a, fp_a,
            "DeepSeek model-selection benchmark (26-pair ground truth)",
            "18 positive executor/regulator pairs + 8 form-mismatch negative controls (Supplementary Note S5)",
            palegreen, lightsalmon, "Combined accuracy", "False positives", "Metric", "(A)")
-draw_panel(metrics_b, before_b, after_b,
-           "Elicit post-export governance benchmark (784 records, 3 forms)",
-           "192 EXECUTOR\u2192REGULATOR downgrades; all five governance gates passed (Table S14)",
-           lightsalmon, palegreen, "Before governance", "After governance", "Elicit", "(B)")
 draw_panel(arms_c, acc_c, fp_c,
            "Consensus query-formulation benchmark (26-pair ground truth)",
            "Neutral query (\u201cgene cell death\u201d) removes form-name priming (Supplementary Note S3)",
-           palegreen, lightsalmon, "Combined accuracy", "False positives", "Metric", "(C)")
+           palegreen, lightsalmon, "Combined accuracy", "False positives", "Metric", "(B)")
+draw_panel(metrics_b, before_b, after_b,
+           "Elicit post-export governance benchmark (784 records, 3 forms)",
+           "192 EXECUTOR downgrades (to REGULATOR or UNCERTAIN); all five governance gates passed (Table S14)",
+           lightsalmon, palegreen, "Before governance", "After governance", "Elicit", "(C)")
 dev.off()
 
 # ---- 600-DPI TIFF ----
@@ -72,14 +72,14 @@ draw_panel(arms_a, acc_a, fp_a,
            "DeepSeek model-selection benchmark (26-pair ground truth)",
            "18 positive executor/regulator pairs + 8 form-mismatch negative controls (Supplementary Note S5)",
            palegreen, lightsalmon, "Combined accuracy", "False positives", "Metric", "(A)")
-draw_panel(metrics_b, before_b, after_b,
-           "Elicit post-export governance benchmark (784 records, 3 forms)",
-           "192 EXECUTOR\u2192REGULATOR downgrades; all five governance gates passed (Table S14)",
-           lightsalmon, palegreen, "Before governance", "After governance", "Elicit", "(B)")
 draw_panel(arms_c, acc_c, fp_c,
            "Consensus query-formulation benchmark (26-pair ground truth)",
            "Neutral query (\u201cgene cell death\u201d) removes form-name priming (Supplementary Note S3)",
-           palegreen, lightsalmon, "Combined accuracy", "False positives", "Metric", "(C)")
+           palegreen, lightsalmon, "Combined accuracy", "False positives", "Metric", "(B)")
+draw_panel(metrics_b, before_b, after_b,
+           "Elicit post-export governance benchmark (784 records, 3 forms)",
+           "192 EXECUTOR downgrades (to REGULATOR or UNCERTAIN); all five governance gates passed (Table S14)",
+           lightsalmon, palegreen, "Before governance", "After governance", "Elicit", "(C)")
 dev.off()
 
 img <- image_read("benchmark_tmp.png", density = "600x600")
