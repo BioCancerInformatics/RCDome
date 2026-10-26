@@ -49,8 +49,8 @@ draw_panel <- function(arms, s1, s2, title, note, col1, col2, leg1, leg2, leg_ti
 out <- "D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript/Figures_A4/Figure_2_benchmarks_A4"
 
 # ---- vector PDF ----
-pdf(paste0(out, ".pdf"), width = 8.27, height = 11.69, family = "Helvetica")
-par(mfrow = c(3, 1), mar = c(8.5, 4.2, 3.6, 1.5), family = "Helvetica", cex = 1.0)
+pdf(paste0(out, ".pdf"), width = 8.27, height = 12.5, family = "Helvetica")
+par(mfrow = c(3, 1), mar = c(6.5, 4.2, 3.6, 1.5), family = "Helvetica", cex = 1.0)
 draw_panel(arms_a, acc_a, fp_a,
            "DeepSeek model-selection benchmark (26-pair ground truth)",
            "18 positive executor/regulator pairs + 8 form-mismatch negative controls (Supplementary Note S5)",
@@ -66,8 +66,8 @@ draw_panel(metrics_b, before_b, after_b,
 dev.off()
 
 # ---- 600-DPI TIFF ----
-png("benchmark_tmp.png", width = 8.27, height = 11.69, units = "in", res = 600)
-par(mfrow = c(3, 1), mar = c(8.5, 4.2, 3.6, 1.5), family = "Helvetica", cex = 1.0)
+png("benchmark_tmp.png", width = 8.27, height = 12.5, units = "in", res = 600)
+par(mfrow = c(3, 1), mar = c(6.5, 4.2, 3.6, 1.5), family = "Helvetica", cex = 1.0)
 draw_panel(arms_a, acc_a, fp_a,
            "DeepSeek model-selection benchmark (26-pair ground truth)",
            "18 positive executor/regulator pairs + 8 form-mismatch negative controls (Supplementary Note S5)",
