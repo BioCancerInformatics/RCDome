@@ -111,7 +111,7 @@ mod_gene_catalog_ui <- function(id) {
     ))),
     DTOutput(ns("table_genes")),
     div(style = "margin-top: 14px; display: flex; align-items: center; gap: 10px;",
-      selectInput(ns("download_format"), "Format:",
+      selectInput(ns("download_format"), tags$span("Format:", style = "color:#1c1917; font-weight:600;"),
                   choices = c("TSV" = "tsv", "XLSX" = "xlsx", "CSV" = "csv"),
                   selected = "tsv", width = "120px"),
       downloadButton(ns("download_btn"), "Download", class = "search-evidence-btn"),
@@ -121,7 +121,7 @@ mod_gene_catalog_ui <- function(id) {
     ),
     tags$p("Total corpus: 22,473 rows = 21,568 unique gene-RCD pairs + 905 rows of multi-database corroboration (same gene+entity reported by 2+ databases). ",
            textOutput(ns("shown_count"), inline = TRUE),
-           style = "color:#a8a29e; font-size:12px; margin-top:6px;"),
+           style = "color:#44403c; font-size:12.5px; font-weight:600; margin-top:6px;"),
     tags$div(style = "margin-top: 28px; display:flex; align-items:center; gap:12px; flex-wrap:wrap;",
       tags$h4("RCD Entities — Compiled gene role vs DeepSeek (executors / regulators)", style = "margin:0; color:#1c1917;"),
       downloadButton(ns("download_entities"), "Download comparison table (CSV)",
@@ -167,7 +167,7 @@ mod_gene_catalog_ui <- function(id) {
   )
 }
 
-mod_gene_catalog_server <- function(id) {
+mod_gene_catalog_server <- function(id, evidence_trail_rv, gene_catalog_entity_rv) {
   moduleServer(id, function(input, output, session) {
 
 
