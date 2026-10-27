@@ -619,7 +619,7 @@ server <- function(input, output, session) {
     el_p <- if (el_sent != "—") sprintf("<p style='margin:0;'><b>Elicit:</b> %s%s</p>", el_badge, el_sent) else ""
 
     verbatim_body <- if (ds_sent == "—" && el_sent == "—") {
-      "<span style='color:#a8a29e;font-style:italic;'>Verbatim not available \u2014 no exact supporting sentence was retrieved for this pair. Verbatim claims are displayed only when an exact supporting sentence has been retrieved. Evidence classifications (mechanistic role, regulatory direction, mechanistic classification) are populated independently and do not necessarily indicate that verbatim supporting evidence was retrieved. Coverage: ~6% DeepSeek, ~11% Elicit.</span>"
+      "<span style='color:#a8a29e;font-style:italic;'>Verbatim not available \u2014 no exact supporting sentence was retrieved for this pair. This is expected: the role, direction, and mechanistic class below are produced independently by the classification pipeline (LLM knowledge + PubMed abstracts) and do not require a verbatim sentence. Exact-sentence retrieval covers only ~6% of pairs (DeepSeek) and ~11% (Elicit).</span>"
     } else {
       paste0(ds_p, el_p)
     }
