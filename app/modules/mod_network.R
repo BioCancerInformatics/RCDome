@@ -185,8 +185,8 @@ mod_network_ui <- function(id) {
         selectInput(
           inputId = ns("cap_select"),
           label = "Max genes per entity (top by evidence tier):",
-          choices = c("All", "1000", "500", "100", "20"),
-          selected = "1000",
+          choices = c("20", "100", "500", "1000", "All"),
+          selected = "20",
           width = "100%"
         )
       ),
@@ -326,7 +326,7 @@ mod_network_server <- function(
       updateSelectizeInput(session, "level_filter", selected = character(0))
       updateSelectizeInput(session, "role_filter", selected = character(0))
       updateSelectizeInput(session, "mech_filter", selected = character(0))
-      updateSelectInput(session, "cap_select", selected = "1000")
+      updateSelectInput(session, "cap_select", selected = "20")
     })
 
     src_list <- reactive({
