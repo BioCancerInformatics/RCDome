@@ -28,3 +28,5 @@ email_creds.txt
 # internal communications — never commit
 comms/
 docs/decoder/email_resposta_victor_curadoria.*
+app/www/media/
+www/media/
