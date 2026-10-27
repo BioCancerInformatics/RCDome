@@ -528,7 +528,6 @@ mod_network_server <- function(
         })
         dir_mat <- do.call(cbind, dirs)
         role_mat <- do.call(cbind, roles)
-        n_edges <- nrow(dir_mat)
 
         # unique 2-letter source codes (Compiled/Consensus/Curator 1/Curator 2
         # no longer collide on "C")
