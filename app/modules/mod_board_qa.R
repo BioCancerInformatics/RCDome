@@ -248,19 +248,7 @@ mod_board_qa_ui <- function(id) {
       # ── Composer ─────────────────────────────────────────────────────
       div(
         class = "rcdchat-composer",
-        div(
-          class = "rcdchat-input-shell",
-          tags$textarea(
-            id = ns("qa_input"),
-            class = "form-control rcdchat-textarea",
-            rows = "1",
-            placeholder = "Ask about this RCD entity..."
-          ),
-          actionButton(ns("qa_send"), HTML("&#8593;"),
-                       class = "rcdchat-send-btn")
-        ),
-        div(class = "rcdchat-hint",
-            "RCDome Q&A answers from the RCDome database and decoder. Enter to send.")
+        uiOutput(ns("qa_composer"))
       )
     ),
 
@@ -311,6 +299,28 @@ mod_board_qa_server <- function(id, board_reactive, pending_query = NULL) {
     ns <- session$ns
 
     messages <- reactiveVal(list())
+
+    # Composer: disabled until an entity is loaded; shows a hint when empty
+    output$qa_composer <- renderUI({
+      b <- board_reactive()
+      has_entity <- !is.null(b) && length(b) > 0
+      div(
+        class = "rcdchat-input-shell",
+        tags$textarea(
+          id = ns("qa_input"),
+          class = "form-control rcdchat-textarea",
+          rows = "1",
+          placeholder = if (has_entity) "Ask about this RCD entity..." else "Select an RCD entity and generate a synthesis to enable Q&A.",
+          disabled = if (has_entity) NULL else NA
+        ),
+        actionButton(ns("qa_send"), HTML("&#8593;"),
+                     class = "rcdchat-send-btn",
+                     disabled = if (has_entity) NULL else NA),
+        div(class = "rcdchat-hint",
+            if (has_entity) "RCDome Q&A answers from the RCDome database and decoder. Enter to send."
+            else "Select an RCD entity and generate a synthesis to enable Q&A.")
+      )
+    })
 
     # Welcome message when an entity is loaded from the board
     observeEvent(board_reactive(), {
