@@ -924,6 +924,7 @@ server <- function(input, output, session) {
       updateTextInput(session, "contact_email", value = "")
       updateTextInput(session, "contact_email_confirm", value = "")
       showNotification("Message sent!", type = "message")
+      removeModal()
     }
   })
 
