@@ -548,6 +548,11 @@ mod_network_server <- function(
           cnt <- vapply(vals, function(v) rowSums(mat == v), numeric(nrow(mat)))
           vals[max.col(cnt, ties.method = "first")]
         }
+        maj_count_vec <- function(mat) {
+          vals <- sort(unique(c(mat)))
+          cnt <- vapply(vals, function(v) rowSums(mat == v), numeric(nrow(mat)))
+          apply(cnt, 1, max)
+        }
         agreement <- agreement_vec(dir_mat)
         edge_color <- ifelse(agreement == 1, "#2E7D32",
                       ifelse(agreement == 2, "#F9A825", "#C62828"))
@@ -557,11 +562,17 @@ mod_network_server <- function(
         dir_short[] <- "U"
         dir_short[dir_mat == "PROMOTES"] <- "P"
         dir_short[dir_mat == "PROTECTS"] <- "B"
-        edge_label <- paste0(initials[1], ":", dir_short[, 1])
-        if (length(srcs) > 1) {
-          for (j in 2:length(srcs)) {
-            edge_label <- paste(edge_label, paste0(initials[j], ":", dir_short[, j]), sep = " ")
+        if (length(srcs) <= 4) {
+          # letter codes (readable up to 4 sources)
+          edge_label <- paste0(initials[1], ":", dir_short[, 1])
+          if (length(srcs) > 1) {
+            for (j in 2:length(srcs)) {
+              edge_label <- paste(edge_label, paste0(initials[j], ":", dir_short[, j]), sep = " ")
+            }
           }
+        } else {
+          # concordance fraction beyond 4 sources (never overcrowded)
+          edge_label <- paste0(maj_count_vec(dir_mat), "/", length(srcs))
         }
 
         edge_title <- paste0(srcs[[1]]$label, ": ", role_mat[, 1], " / ", dir_mat[, 1])
@@ -807,6 +818,9 @@ mod_network_server <- function(
       tier_width <- c(ET1 = 3, ET2 = 2, ET3 = 1.5, ET4 = 1)
       edge_w <- tier_width[edges$tier]
       edge_w[is.na(edge_w)] <- 1
+      if (length(src_list()) > 1) {
+        edge_w <- edge_w * 0.6  # thinner in compare mode so superimposed edges don't blob
+      }
       
       edges$width  <- edge_w
       edges$arrows <- ifelse(edges$direction == "PROMOTES", "to", "")
