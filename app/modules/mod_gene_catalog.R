@@ -121,7 +121,7 @@ mod_gene_catalog_ui <- function(id) {
     ),
     tags$p("Total corpus: 22,473 rows = 21,568 unique gene-RCD pairs + 905 rows of multi-database corroboration (same gene+entity reported by 2+ databases). ",
            textOutput(ns("shown_count"), inline = TRUE),
-           style = "color:#44403c; font-size:12.5px; font-weight:600; margin-top:6px;"),
+           style = "color:#1c1917; font-size:13px; font-weight:700; margin-top:6px;"),
     tags$div(style = "margin-top: 28px; display:flex; align-items:center; gap:12px; flex-wrap:wrap;",
       tags$h4("RCD Entities — Compiled gene role vs DeepSeek (executors / regulators)", style = "margin:0; color:#1c1917;"),
       downloadButton(ns("download_entities"), "Download comparison table (CSV)",
