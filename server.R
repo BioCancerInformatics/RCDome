@@ -3,6 +3,10 @@ if (!exists("genes_df", inherits = TRUE) || !exists("fingerprint_df", inherits =
 
 server <- function(input, output, session) {
 
+  # Per-session Evidence Trail state (fixes the cross-session leak)
+  evidence_trail_rv <- shiny::reactiveVal(NULL)
+  gene_catalog_entity_rv <- shiny::reactiveVal(NULL)
+
   # ── Global not-found pop-up: a value typed into any scroll-down that matches
   #    no option triggers this centered pop-up (value is never added). ──
   observeEvent(input$rcdome_not_found, {
@@ -31,10 +35,10 @@ server <- function(input, output, session) {
   }, ignoreNULL = TRUE)
 
   # ── Network module (Aba Network) ────────────────────────────────────
-  mod_network_server("network", genes_df)
+  mod_network_server("network", genes_df, evidence_trail_rv)
 
   # ── RCD Entity Definitions (separate sub-module) ─────────────────
-  mod_rcd_entities_server("rcd_entities")
+  mod_rcd_entities_server("rcd_entities", gene_catalog_entity_rv)
 
   # ── Operational Definitions module ──────────────────────────────
   mod_od_server("od")
@@ -43,10 +47,10 @@ server <- function(input, output, session) {
   mod_od_compare_server("od_compare")
 
   # ── Omic module (Aba Omic) ──────────────────────────────────────
-  mod_gene_catalog_server("gene_catalog")
+  mod_gene_catalog_server("gene_catalog", evidence_trail_rv, gene_catalog_entity_rv)
 
   # ── Discrepancy Radar (classifier-conflict knowledge frontier) ────
-  mod_discrepancy_server("discrepancy")
+  mod_discrepancy_server("discrepancy", evidence_trail_rv)
 
   # ── Discovery Timeline (founding year + ontological level) ────────
   mod_timeline_server("timeline")

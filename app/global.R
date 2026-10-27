@@ -61,14 +61,14 @@ source("modules/mod_board.R")
 # Fingerprint v2: sourced from the V027 matrix (the truth).
 v24_file <- "data/unified_gene_rcd_matrix_V027.rds"
 v24_mtime <- file.info(v24_file)$mtime
-fingerprint_cache_file <- "data/omic/fingerprint_cache.rds"
+fingerprint_cache_file <- "data/fingerprint_cache.rds"
 fingerprint_cache_version <- 7L
 expected_canonical_pathways <- 53L
 
 # ── Gene table (V027 matrix — the truth) ─────────────────────────────────────
 message("Loading genes from V027 matrix...")
-evidence_trail_rv <- shiny::reactiveVal(NULL)
-gene_catalog_entity_rv <- shiny::reactiveVal(NULL)  # Evidence Trail drawer target
+# Evidence Trail reactive values are now created PER-SESSION in server.R
+# (fixes the cross-session leak — see INVESTIGATION_evidence_trail_autoopen_2026-10-26.md)
 
 genes_df <- tryCatch({
   df <- readRDS(v24_file)
