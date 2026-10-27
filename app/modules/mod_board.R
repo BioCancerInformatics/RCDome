@@ -629,11 +629,27 @@ mod_board_server <- function(id, board_reactive) {
       else
         "You are the RCDome Digital Molecular RCD Board. Answer from the RCDome database and decoder."
 
+      mode_note <- if (is.null(gene)) {
+        paste0(
+          "Mode: entity-level synthesis. No specific gene was selected, so gene-specific ",
+          "association fields (role, direction, mechanistic class, evidence tier, PMID) are ",
+          "NOT included. State clearly in the synthesis that this is the entity overview ",
+          "(decoder plus the list of associated genes), and that per-gene fields require ",
+          "selecting a specific gene."
+        )
+      } else {
+        paste0(
+          "Mode: gene-RCD association synthesis. Synthesize the specific association for the ",
+          "selected gene (role, direction, mechanistic class, evidence tier, PMID)."
+        )
+      }
+
       prompt <- list(
         list(role = "system", content = sys_prompt),
         list(role = "user", content = paste0(
           "Gene: ", if (is.null(gene)) "(all genes)" else gene, "\n",
           "Entity: ", ent, "\n",
+          mode_note, "\n",
           "RCDome database (genes associated with ", ent, "): ", ctx$matrix_fields, "\n",
           "RCDome decoder (ontology for ", ent, "): ", ctx$decoder_fields
         ))
