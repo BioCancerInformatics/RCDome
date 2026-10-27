@@ -928,5 +928,24 @@ server <- function(input, output, session) {
     }
   })
 
+  # ── Multimedia description modals ────────────────────────────────────
+  observeEvent(input$btn_audio_desc, {
+    showModal(modalDialog(
+      title = "Podcast Description",
+      p("This audio explores how fragmented, heterogeneous, and sometimes contradictory scientific evidence can be transformed into a reliable, traceable atlas of human genes associated with regulated cell death. In a 45-minute two-host conversation, it moves from the expanding landscape of apoptosis, ferroptosis, pyroptosis, necroptosis, and cuproptosis through multi-database harmonization, the complementary AI-assisted research of DeepSeek, Consensus, and Elicit, and the human expert verification and adjudication that distinguish direct mechanistic roles from indirect associations. The discussion emphasizes that provenance matters as much as association counts — AI agreement is not mechanistic proof, and expert adjudication is not experimental validation — and closes with the interactive RCDome Shiny application as an evidence-governed framework for studying regulated cell death."),
+      easyClose = TRUE,
+      footer = modalButton("Close")
+    ))
+  })
+
+  observeEvent(input$btn_video_desc, {
+    showModal(modalDialog(
+      title = "Video Description",
+      p("This video presents the scientific architecture of RCDome, a multi-database human gene atlas of regulated cell death. Opening with the biological landscape of apoptosis, necroptosis, pyroptosis, ferroptosis, and cuproptosis, it explains why fragmented, heterogeneous evidence across 20 databases and resources required a harmonized, evidence-governed framework. It shows how complementary AI-assisted research through DeepSeek, Consensus, and Elicit scaled evidence analysis, why human expert verification and adjudication remained essential, and how the result — 22,473 gene–RCD associations across 53 RCD-related entities, every claim traceable to its source — became an interactive Shiny application. The documentary closes with the message that RCDome is not merely a gene atlas but a framework linking computational discovery, scientific verification, expert judgment, and interactive exploration."),
+      easyClose = TRUE,
+      footer = modalButton("Close")
+    ))
+  })
+
 
 }
