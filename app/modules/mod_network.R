@@ -283,6 +283,8 @@ mod_network_ui <- function(id) {
       )
     ),
     
+    uiOutput(ns("compare_legend")),
+    
     uiOutput(ns("network_stats")),
     
     withSpinner(
@@ -524,32 +526,53 @@ mod_network_server <- function(
           v[is.na(v) | v == ""] <- "UNCERTAIN"
           v
         })
-        agreement <- vapply(seq_len(nrow(d3)), function(i) {
-          length(unique(vapply(dirs, function(d) d[i], character(1))))
-        }, integer(1))
+        dir_mat <- do.call(cbind, dirs)
+        role_mat <- do.call(cbind, roles)
+        n_edges <- nrow(dir_mat)
+
+        # unique 2-letter source codes (Compiled/Consensus/Curator 1/Curator 2
+        # no longer collide on "C")
+        code_map <- c(evidence = "EF", elicit = "CG", consensus = "CN", gpt = "GP",
+                      curator_1 = "C1", curator_2 = "C2", deepseek = "DS")
+        initials <- unname(code_map[vapply(srcs, function(s) s$key, character(1))])
+        initials[is.na(initials)] <- "XX"
+
+        # fully vectorized agreement + majority (rowSums + max.col; ~200x faster
+        # than per-edge unique/table)
+        agreement_vec <- function(mat) {
+          vals <- sort(unique(c(mat)))
+          rowSums(vapply(vals, function(v) rowSums(mat == v) > 0, logical(nrow(mat))))
+        }
+        maj_vec <- function(mat) {
+          vals <- sort(unique(c(mat)))
+          cnt <- vapply(vals, function(v) rowSums(mat == v), numeric(nrow(mat)))
+          vals[max.col(cnt, ties.method = "first")]
+        }
+        agreement <- agreement_vec(dir_mat)
         edge_color <- ifelse(agreement == 1, "#2E7D32",
                       ifelse(agreement == 2, "#F9A825", "#C62828"))
         edge_dashes <- agreement != 1
-        initials <- vapply(srcs, function(s) substr(s$label, 1, 1), character(1))
-        dir_short <- lapply(dirs, function(d) ifelse(d == "PROMOTES", "P",
-                                              ifelse(d == "PROTECTS", "B", "U")))
-        edge_label <- vapply(seq_len(nrow(d3)), function(i) {
-          paste0(initials, ":", vapply(dir_short, function(d) d[i], character(1)), collapse = " ")
-        }, character(1))
-        edge_title <- vapply(seq_len(nrow(d3)), function(i) {
-          parts <- vapply(seq_along(srcs), function(j) {
-            paste0(srcs[[j]]$label, ": ", roles[[j]][i], " / ", dirs[[j]][i])
-          }, character(1))
-          paste(parts, collapse = "<br>")
-        }, character(1))
-        role <- vapply(seq_len(nrow(d3)), function(i) {
-          tab <- sort(table(vapply(roles, function(r) r[i], character(1))), decreasing = TRUE)
-          names(tab)[1]
-        }, character(1))
-        direction <- vapply(seq_len(nrow(d3)), function(i) {
-          tab <- sort(table(vapply(dirs, function(d) d[i], character(1))), decreasing = TRUE)
-          names(tab)[1]
-        }, character(1))
+
+        dir_short <- dir_mat
+        dir_short[] <- "U"
+        dir_short[dir_mat == "PROMOTES"] <- "P"
+        dir_short[dir_mat == "PROTECTS"] <- "B"
+        edge_label <- paste0(initials[1], ":", dir_short[, 1])
+        if (length(srcs) > 1) {
+          for (j in 2:length(srcs)) {
+            edge_label <- paste(edge_label, paste0(initials[j], ":", dir_short[, j]), sep = " ")
+          }
+        }
+
+        edge_title <- paste0(srcs[[1]]$label, ": ", role_mat[, 1], " / ", dir_mat[, 1])
+        if (length(srcs) > 1) {
+          for (j in 2:length(srcs)) {
+            edge_title <- paste(edge_title, paste0(srcs[[j]]$label, ": ", role_mat[, j], " / ", dir_mat[, j]), sep = "<br>")
+          }
+        }
+
+        role <- maj_vec(role_mat)
+        direction <- maj_vec(dir_mat)
       }
       
       # Unique PMID count per (gene, entity), computed only over rows with PMIDs.
@@ -609,11 +632,13 @@ mod_network_server <- function(
         unique(edges$to)
       )
       
+      keep_sel <- intersect(input$rcd_filter, rcds)
       updateSelectizeInput(
         session = session,
         inputId = "rcd_filter",
         choices = rcds,
-        server = FALSE
+        server = FALSE,
+        selected = keep_sel
       )
     })
 
@@ -632,12 +657,12 @@ mod_network_server <- function(
       
       # Require an entity selection: the full unfiltered atlas is not rendered
       # (it would be a ~9,000-node hairball). Select one or more entities.
-      shiny::validate(
-        shiny::need(
-          length(input$rcd_filter) > 0,
-          "Select one or more RCD entities to display their full gene network."
+      if (length(input$rcd_filter) == 0) {
+        stats_rv(NULL)
+        shiny::validate(
+          shiny::need(FALSE, "Select one or more RCD entities to display their full gene network.")
         )
-      )
+      }
       
       edges <- all_edges()
       
@@ -1324,6 +1349,32 @@ mod_network_server <- function(
         "var img=cv2.toDataURL('image/png',1.0); var pdf=new jsPDF('l','pt',[cv2.width,cv2.height]); pdf.addImage(img,'PNG',0,0,cv2.width,cv2.height); pdf.save('%s.pdf'); ",
         "g.style.width=ow+'px'; g.style.height=oh+'px'; window.dispatchEvent(new Event('resize')); }, 900); })();"
       ), session$ns("network"), prov_label_rv(), nm))
+    })
+    
+    
+    # ── Compare legend (only when 2+ sources are active) ────────────────────
+    output$compare_legend <- renderUI({
+      if (is.null(input$edge_sources) || length(input$edge_sources) < 2) return(NULL)
+      tags$div(
+        style = paste(
+          "display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center;",
+          "padding: 8px 14px; margin-bottom: 12px; background: #ffffff;",
+          "border: 1px solid #e7e5e4; border-radius: 10px; font-size: 12px;",
+          "color: #57534e;"
+        ),
+        tags$span("Compare", style = "color:#78716c; font-weight:600;"),
+        tags$span(style = "display:inline-flex; align-items:center; gap:5px;",
+          tags$span(style = "display:inline-block; width:16px; height:0; border-top:3px solid #2E7D32;"),
+          tags$span("agree")),
+        tags$span(style = "display:inline-flex; align-items:center; gap:5px;",
+          tags$span(style = "display:inline-block; width:16px; height:0; border-top:3px dashed #F9A825;"),
+          tags$span("split")),
+        tags$span(style = "display:inline-flex; align-items:center; gap:5px;",
+          tags$span(style = "display:inline-block; width:16px; height:0; border-top:3px dashed #C62828;"),
+          tags$span("disagree")),
+        tags$span("·", style = "color:#d6d3d1;"),
+        tags$span("EF Evidence-first · DS DeepSeek · CG Compiled · CN Consensus · GP GPT · C1 Curator 1 · C2 Curator 2 · P promotes · B protects · U unclear")
+      )
     })
     
     
