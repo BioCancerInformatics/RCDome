@@ -190,39 +190,41 @@ ui <- tagList(
   # ── Multimedia ─────────────────────────────────────────────────────────
   tabPanel(
     title = "Multimedia",
-    div(class = "wrap",
-      style = "max-width: 1200px; margin: 0 auto; padding: 20px;",
-      tags$div(style = "background:#0b1020; color:#e7e5e4; border-radius:12px; padding:28px 26px; margin-bottom:24px;",
-        tags$h1("Multimedia", style = "font-size:35px; margin:0;"),
-        tags$p("Video and audio presentations covering the core concepts and findings of RCDome.",
-               style = "color:#d6d3d1; margin:6px 0 0; font-size:15px;")
-      ),
-      fluidRow(
-        column(6,
-          tags$div(style = "background:#ffffff; border:1px solid #e7e5e4; border-radius:12px; padding:20px; height:100%;",
-            tags$div(style = "display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;",
-              tags$h4(style = "color:#1565C0; margin:0;", "🎧 Podcast"),
-              actionButton("btn_audio_desc", "Description", icon = icon("info-circle"),
-                           class = "btn btn-sm", style = "color:#1565C0; border:1px solid #1565C0;")
-            ),
-            tags$h5("RCDome: Can Artificial Intelligence and Human Expertise Build a Trustworthy Atlas of Cell Death?",
-                    style = "color:#1c1917; margin-bottom:16px; font-weight:600;"),
-            tags$audio(controls = NA, style = "width:100%; outline:none;",
-              tags$source(src = "media/RCDome_Podcast_45min.m4a", type = "audio/mp4")
-            )
-          )
+    div(
+      style = "background:#0b1020; min-height:calc(100vh - 100px); padding: 28px 20px;",
+      div(style = "max-width: 1200px; margin: 0 auto;",
+        tags$div(style = "margin-bottom:24px;",
+          tags$h1("Multimedia", style = "font-size:35px; margin:0; color:#ffffff;"),
+          tags$p("Video and audio presentations covering the core concepts and findings of RCDome.",
+                 style = "color:#a8a29e; margin:6px 0 0; font-size:15px;")
         ),
-        column(6,
-          tags$div(style = "background:#ffffff; border:1px solid #e7e5e4; border-radius:12px; padding:20px; height:100%;",
-            tags$div(style = "display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;",
-              tags$h4(style = "color:#C62828; margin:0;", "🎬 Video Presentation"),
-              actionButton("btn_video_desc", "Description", icon = icon("info-circle"),
-                           class = "btn btn-sm", style = "color:#C62828; border:1px solid #C62828;")
-            ),
-            tags$h5("RCDome: A Multi-Database Human Gene Atlas of Regulated Cell Death",
-                    style = "color:#1c1917; margin-bottom:16px; font-weight:600;"),
-            tags$video(controls = NA, style = "width:100%; border-radius:8px;",
-              tags$source(src = "media/RCDome_Human_RCD_Gene_Atlas.mp4", type = "video/mp4")
+        fluidRow(
+          column(6,
+            tags$div(style = "background:#131a2e; border:1px solid #1e293b; border-radius:12px; padding:20px; height:100%;",
+              tags$div(style = "display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;",
+                tags$h4(style = "color:#60a5fa; margin:0;", "🎧 Podcast"),
+                actionButton("btn_audio_desc", "Description", icon = icon("info-circle"),
+                             class = "btn btn-sm", style = "color:#60a5fa; border:1px solid #60a5fa; background:transparent;")
+              ),
+              tags$h5("RCDome: Can Artificial Intelligence and Human Expertise Build a Trustworthy Atlas of Cell Death?",
+                      style = "color:#cbd5e1; margin-bottom:16px; font-weight:600;"),
+              tags$audio(controls = NA, style = "width:100%; outline:none;",
+                tags$source(src = "media/RCDome_Podcast_45min.m4a", type = "audio/mp4")
+              )
+            )
+          ),
+          column(6,
+            tags$div(style = "background:#131a2e; border:1px solid #1e293b; border-radius:12px; padding:20px; height:100%;",
+              tags$div(style = "display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;",
+                tags$h4(style = "color:#f87171; margin:0;", "🎬 Video Presentation"),
+                actionButton("btn_video_desc", "Description", icon = icon("info-circle"),
+                             class = "btn btn-sm", style = "color:#f87171; border:1px solid #f87171; background:transparent;")
+              ),
+              tags$h5("RCDome: A Multi-Database Human Gene Atlas of Regulated Cell Death",
+                      style = "color:#cbd5e1; margin-bottom:16px; font-weight:600;"),
+              tags$video(controls = NA, style = "width:100%; border-radius:8px;",
+                tags$source(src = "media/RCDome_Human_RCD_Gene_Atlas.mp4", type = "video/mp4")
+              )
             )
           )
         )
