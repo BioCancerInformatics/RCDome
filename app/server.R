@@ -57,6 +57,7 @@ server <- function(input, output, session) {
   # ── 3D Dome gene click → Evidence Trail drawer ───────────────────────
   observeEvent(input$dome3d_gene, {
     req(input$dome3d_gene)
+    message("[TRAIL] dome3d_gene fired: ", input$dome3d_gene)
     parts <- strsplit(input$dome3d_gene, "|", fixed = TRUE)[[1]]
     if (length(parts) != 2) return()
     evidence_trail_rv(list(gene = parts[1], entity = parts[2]))
@@ -776,6 +777,7 @@ server <- function(input, output, session) {
 
   observeEvent(evidence_trail_rv(), {
     req(evidence_trail_rv())
+    message("[TRAIL] evidence_trail_rv fired: gene=", evidence_trail_rv()$gene, " entity=", evidence_trail_rv()$entity)
     g <- evidence_trail_rv()$gene
     e <- evidence_trail_rv()$entity
     extra <- evidence_trail_rv()$extra
@@ -789,7 +791,7 @@ server <- function(input, output, session) {
       "document.getElementById('evidence_trail_body').innerHTML = %s; document.getElementById('evidence_drawer').style.display='block';",
       jsonlite::toJSON(html)
     ))
-  })
+  }, ignoreInit = TRUE)
 
   # ── Data sources (About tab) ────────────────────────────────────
   output$data_sources <- renderUI({
