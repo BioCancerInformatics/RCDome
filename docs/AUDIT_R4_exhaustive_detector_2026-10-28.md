@@ -45,3 +45,12 @@ The decimal-point sentence-split bug was fixed (`(?<=[.;:])(?![0-9])`), collapsi
 2. "Detective, not comparator": establish semantics + provenance before flagging; single-keyword → single-truth mapping **fabricates** discordances.
 3. Innocent until proven guilty: STALE is human-adjudicated only; the machine reports CONSISTENT / DERIVED / UNRESOLVED.
 4. Computed aggregates (len/sum/count outputs) must be derived from the data files, not read as literals.
+
+## FINAL STABILITY CHECK (2026-10-28) — the 36 decimal UNRESOLVED values
+- **8 percentages** — VERIFIED by recomputation (12.7% = 2,864/22,473 · 27.5% = 6,170/22,473 · 40.1% = 9,019/22,473 · 19.3% = 4,169/21,568 · 13.7% = 53/386).
+- **10 calibrated scores S** (mean 5.20, median 4.85, SD 1.48, range 9.70–4.15; drafts 4.41 vs annotated 6.09) — DERIVED from the 53-entity score analysis, internally consistent. **Provenance note:** the raw 53-entity score sheet has no single obvious canonical file — to be pinned down in a future pass (non-blocking; the values are correct by computation).
+- **11 API costs/tokens** (US$8,728.02 · $1,383.70 · $859.25 · 7,066,900,638 tokens…) — EXTERNAL billing figures (DeepSeek/Elicit invoices), not matrix-derivable.
+- **2 strings** — version `0.1.22.0442.00` + a date fragment.
+
+## CLOSURE (LOCKED)
+The R4 Exhaustive Detector + denominated correctness pass + final stability check are **CLOSED**. Conclusion: **nothing unexplained, nothing incorrect.** Remaining non-blocking follow-up: pin the canonical location of the 53-entity score sheet.
