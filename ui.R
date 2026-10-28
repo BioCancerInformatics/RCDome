@@ -234,6 +234,31 @@ ui <- tagList(
 
   # ── Evidence ─────────────────────────────────────────────────────────────
   # ── RCDchat ───────────────────────────────────────────────────────────
+  # ── Infographics ─────────────────────────────────────────────────────────
+  tabPanel(
+    title = "Infographics",
+    div(
+      style = "background:#0b1020; min-height:calc(100vh - 100px); padding: 28px 20px;",
+      div(style = "max-width: 1400px; margin: 0 auto;",
+        tags$div(style = "display:flex; justify-content:space-between; align-items:center; margin-bottom:16px; flex-wrap:wrap; gap:12px;",
+          tags$div(
+            tags$h1("Infographics", style = "font-size:35px; margin:0; color:#ffffff;"),
+            tags$p("Regulated Cell Death Atlas — overview of the information sources behind the RCDome scientific podcast.",
+                   style = "color:#a8a29e; margin:6px 0 0; font-size:15px;")
+          ),
+          tags$button("⛶ Full screen",
+            onclick = "var el = document.getElementById('infograph_img'); if (el.requestFullscreen) { el.requestFullscreen(); } else if (el.webkitRequestFullscreen) { el.webkitRequestFullscreen(); } else if (el.msRequestFullscreen) { el.msRequestFullscreen(); }",
+            style = "background:#FF9800; color:#0b1020; border:none; border-radius:8px; padding:8px 18px; font-size:14px; font-weight:700; cursor:pointer;")
+        ),
+        tags$div(style = "background:#131a2e; border:1px solid #1e293b; border-radius:12px; padding:20px;",
+          tags$img(id = "infograph_img", src = "infographics/003_Infograph_Regulated_Cell_Death_Atlas_Overview.png",
+                   alt = "Regulated Cell Death Atlas Overview infographic",
+                   style = "width:100%; height:auto; display:block; border-radius:8px;")
+        )
+      )
+    )
+  ),
+
   # ── About ─────────────────────────────────────────────────────────────
   tabPanel(
     title = "About",
@@ -319,6 +344,8 @@ ui <- tagList(
       .navbar-nav > li > a { color: #374151 !important; }
       .navbar-nav > li > a:hover { color: #c2410c !important; }
       .navbar-nav > li.active > a { color: #FF9800 !important; border-bottom: 2px solid #FF9800 !important; }
+      #infograph_img:fullscreen { width:100%; height:100%; object-fit:contain; background:#0b1020; }
+      #infograph_img:-webkit-full-screen { width:100%; height:100%; object-fit:contain; background:#0b1020; }
       h3, h4 { font-family: 'Segoe UI', system-ui, sans-serif; color: var(--ink); }
       .rc-pill { display:inline-block; padding:2px 8px; border-radius:10px; font-size:12px; font-weight:600; }
       .pill-gold   { background:#fef3c7; color:#92400e; }
