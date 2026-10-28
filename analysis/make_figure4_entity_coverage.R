@@ -36,7 +36,7 @@ draw <- function() {
   bp <- barplot(lg, horiz = TRUE, names.arg = agg$rcd_form_canonical,
           col = cols, border = dark, las = 1, cex.names = 0.68,
           axes = FALSE, xlim = c(0, 15),
-          main = 'Gene coverage of the 53 canonicalized RCD-related entities', col.main = dark, font.main = 2)
+          main = 'Gene coverage of the 53 canonicalized RCD-related entities', col.main = dark, font.main = 2, adj = 0.3)
   axis(1, at = log2(ticks), labels = ticks, las = 1, col = dark, col.axis = dark)
   text(lg + 0.06, bp, labels = format(agg$genes, big.mark = ','), pos = 4, cex = 0.68, col = dark)
   mtext('Genes associated with the entity  (log2 scale)', side = 1, line = 2.5, col = dark, adj = 0)
