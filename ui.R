@@ -206,10 +206,10 @@ ui <- tagList(
                 actionButton("btn_audio_desc", "Description", icon = icon("info-circle"),
                              class = "btn btn-sm", style = "color:#60a5fa; border:1px solid #60a5fa; background:transparent;")
               ),
-              tags$h5("RCDome: Can Artificial Intelligence and Human Expertise Build a Trustworthy Atlas of Cell Death?",
+              tags$h5("RCDome: How AI Audited Cell Death Databases",
                       style = "color:#cbd5e1; margin-bottom:16px; font-weight:600;"),
               tags$audio(controls = NA, style = "width:100%; outline:none;",
-                tags$source(src = "media/RCDome_Podcast_45min.m4a", type = "audio/mp4")
+                tags$source(src = "media/002_Media_Potscat_How_AI_Audited_Cell_Death_Databases.m4a", type = "audio/mp4")
               )
             )
           ),
@@ -223,7 +223,7 @@ ui <- tagList(
               tags$h5("RCDome: A Multi-Database Human Gene Atlas of Regulated Cell Death",
                       style = "color:#cbd5e1; margin-bottom:16px; font-weight:600;"),
               tags$video(controls = NA, style = "width:100%; border-radius:8px;",
-                tags$source(src = "media/RCDome_Human_RCD_Gene_Atlas.mp4", type = "video/mp4")
+                tags$source(src = "media/001_Media_Video_RCDome.mp4", type = "video/mp4")
               )
             )
           )
