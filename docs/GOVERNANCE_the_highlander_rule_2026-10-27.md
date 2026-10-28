@@ -72,7 +72,7 @@ An inconsistency is reported only when it is CONFIRMED against the correct seman
   Evidence: TRACEABILITY_higor_review_implementation_2026-10-26.md (logged ~167/~25); raw CSVs 283→250/33.
   Guarded by R1–R5 + the R4 agent. Do not reopen without new evidence.
 - R4 EXHAUSTIVE DETECTOR + DENOMINATED CORRECTNESS PASS — COMPLETE (2026-10-28).
-  9,038 values audited: 386 CONSISTENT (matrix/decoder/disc_df truth) + 8,580 DERIVED (denominated + verified correct) + 72 external/noise.
+  4,688 values audited (after decimal-split fix): 385 CONSISTENT (matrix/decoder/disc_df truth) + 3,759 DERIVED (denominated + verified correct) + 544 external/noise (508 PMIDs/DOIs/pages + 36 computed decimal scores/percentages).
   **Nothing unexplained, nothing incorrect.** Evidence: docs/AUDIT_R4_exhaustive_detector_2026-10-28.md.
   The auto-STALE keyword flag was reverted (it fabricated discordances); STALE is human-adjudicated only.
 

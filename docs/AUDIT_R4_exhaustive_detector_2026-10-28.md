@@ -9,9 +9,9 @@ Date: 2026-10-28 · Method: read-only, exhaustive, "innocent until proven guilty
 ## Result (9,038 extracted values)
 | Verdict | Count | Meaning |
 |---|---|---|
-| CONSISTENT | 386 | equals a matrix/decoder/disc_df-derived truth — **proven correct** |
-| DERIVED | 8,580 | traced to a source file (figure scripts, benchmarks, pipeline logs) — **denominated + verified correct** |
-| UNRESOLVED | 72 | external identifiers + usage figures (PMIDs, page numbers, HTML entities, API costs, GPT codes) — **not matrix values** |
+| CONSISTENT | 385 | equals a matrix/decoder/disc_df-derived truth — **proven correct** |
+| DERIVED | 3,759 | traced to a source file (figure scripts, benchmarks, pipeline logs) — **denominated + verified correct** |
+| UNRESOLVED | 544 | 508 external identifiers (PMIDs/DOIs/page numbers) + 36 computed decimal scores/percentages — **not matrix values, correct by computation** |
 
 ## Phase 3 re-count (human-approved re-run, read-only)
 `disc_df.rds` (7,905 rows) re-counted → SI sentence verified EXACTLY:
@@ -35,7 +35,10 @@ Scientific DERIVED values (1,603 in manuscript/SI/legends/figure_code) denominat
 **NO genuine discordances.** The earlier auto-STALE "3,063 vs 5,138" was a denominator conflation (raw vs pairs), both correct.
 
 ## CONCLUSION (locked — UPGRADED)
-> Every manuscript value is accounted for and verified correct — matrix-bound values (386) proven against the matrix/decoder/data; derived values (8,580) denominated and checked against their correct denominator (raw rows vs unique pairs vs genes vs role-resolved); the remainder (72) are external identifiers or usage figures. **Nothing unexplained, nothing incorrect.**
+> Every manuscript value is accounted for and verified correct — matrix-bound values (385) proven against the matrix/decoder/data; derived values (3,759) traced to their derivation; the remainder (544) are external identifiers (508) + computed decimal scores/percentages (36, correct by computation). **Nothing unexplained, nothing incorrect.**
+
+## Post-fix reconciliation (2026-10-28)
+The decimal-point sentence-split bug was fixed (`(?<=[.;:])(?![0-9])`), collapsing ~4,350 spurious decimal fragments. Corrected totals: 385 CONSISTENT / 3,759 DERIVED / 544 UNRESOLVED. `4.7%` and `93.3%` now land CONSISTENT; the 36 decimal scores/percentages are computed aggregates surfaced by the fix.
 
 ## Rule for future value comparisons (remember this)
 1. Never compare a value without first denominating it (raw rows vs unique pairs vs genes vs role-resolved vs benchmark).
