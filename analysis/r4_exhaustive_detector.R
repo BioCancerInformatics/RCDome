@@ -44,6 +44,15 @@ rr <- up[up$final_role %in% c("EXECUTOR", "REGULATOR", "MARKER"), ]
 truth[["role-resolved PROMOTES (non-UNCERTAIN)"]] <- sum(rr$final_direction == "PROMOTES", na.rm = TRUE)
 truth[["role-resolved PROTECTS (non-UNCERTAIN)"]] <- sum(rr$final_direction == "PROTECTS", na.rm = TRUE)
 truth[["role-resolved UNCLEAR (non-UNCERTAIN)"]]  <- sum(rr$final_direction == "UNCLEAR", na.rm = TRUE)
+# computed aggregates from the adjudication dataframe (disc_df.rds) — label-disagreement counts
+if (file.exists(file.path(BASE, "adjudication/disc_df.rds"))) {
+  disc <- readRDS(file.path(BASE, "adjudication/disc_df.rds"))
+  truth[["label-disagreements (rows)"]]      <- nrow(disc)
+  truth[["role label-disagreements"]]        <- sum(disc$label == "role")
+  truth[["direction label-disagreements"]]   <- sum(disc$label == "direction")
+  truth[["mechanistic label-disagreements"]] <- sum(disc$label == "mechanistic")
+  truth[["label-disagreement unique pairs"]] <- nrow(disc[!duplicated(paste(disc$gene_symbol, disc$rcd_form_canonical)), ])
+}
 
 norm <- function(x) gsub("[%,]", "", trimws(x))
 truth_lookup <- list()   # normalized-number -> semantic label(s)
