@@ -259,6 +259,41 @@ ui <- tagList(
     )
   ),
 
+  # ── Cite RCDome ─────────────────────────────────────────────────────────
+  tabPanel(
+    title = "Cite RCDome",
+    div(class = "wrap", style = "max-width: 1100px; margin: 0 auto; padding: 20px;",
+      tags$div(style = "background:#0b1020; color:#e7e5e4; border-radius:12px; padding:28px 26px; margin-bottom:24px;",
+        tags$h1("Cite RCDome", style = "font-size:35px; margin:0;"),
+        tags$p("Bibliographic references for the RCDome manuscript, software, and dataset.",
+               style = "color:#d6d3d1; margin:6px 0 0; font-size:15px;")
+      ),
+      tags$div(style = "background:#ffffff; border:1px solid #e7e5e4; border-radius:12px; padding:22px 24px; margin-bottom:24px;",
+        tags$h3("Manuscript", style = "margin-top:0;"),
+        tags$p("Submitted for publication — not yet published.", style = "color:#c2410c; font-weight:600; font-size:13px; margin-bottom:10px;"),
+        tags$textarea(id = "cite_text", CITATION_MANUSCRIPT, rows = 3, readonly = NA,
+                      style = "width:100%; padding:12px; border:1px solid #e7e5e4; border-radius:8px; font-size:14px; font-family:inherit; background:#f5f5f4; resize:vertical;"),
+        tags$button(id = "cite_copy_btn", "Copy Citation",
+                    onclick = "var t=document.getElementById('cite_text'); t.focus(); t.select(); t.setSelectionRange(0,99999); var done=function(){document.getElementById('cite_copy_btn').textContent='✓ Copied!'; setTimeout(function(){document.getElementById('cite_copy_btn').textContent='Copy Citation';},2000);}; if(navigator.clipboard){navigator.clipboard.writeText(t.value).then(done)}else{document.execCommand('copy'); done();}",
+                    style = "margin-top:10px; background:#FF9800; color:#0b1020; border:none; border-radius:8px; padding:8px 16px; font-size:14px; font-weight:700; cursor:pointer;"),
+        tags$div(style = "margin-top:16px;",
+          downloadButton("dl_bibtex", "BibTeX", class = "btn btn-sm", style = "margin-right:8px;"),
+          downloadButton("dl_ris", "RIS", class = "btn btn-sm")
+        )
+      ),
+      tags$div(style = "background:#ffffff; border:1px solid #e7e5e4; border-radius:12px; padding:22px 24px;",
+        tags$h3("Software & Data", style = "margin-top:0;"),
+        tags$ul(
+          tags$li(tags$strong("RCDome website: "), tags$a(href = CITATION$website, target = "_blank", rel = "noopener", CITATION$website)),
+          tags$li(tags$strong("GitHub repository: "), tags$a(href = CITATION$github, target = "_blank", rel = "noopener", CITATION$github)),
+          tags$li(tags$strong("Dataset: "), CITATION$dataset)
+        ),
+        tags$p("The GitHub repository is a software resource, not a formally published or DOI-registered citation.",
+               style = "color:#57534e; font-size:13px; margin-top:12px;")
+      )
+    )
+  ),
+
   # ── About ─────────────────────────────────────────────────────────────
   tabPanel(
     title = "About",

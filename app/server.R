@@ -947,5 +947,15 @@ server <- function(input, output, session) {
     ))
   })
 
+  # ── Cite RCDome downloads ─────────────────────────────────────────────
+  output$dl_bibtex <- downloadHandler(
+    filename = function() "rcdome_citation.bib",
+    content  = function(file) writeLines(CITATION_BIBTEX, file, useBytes = TRUE)
+  )
+  output$dl_ris <- downloadHandler(
+    filename = function() "rcdome_citation.ris",
+    content  = function(file) writeLines(CITATION_RIS, file, useBytes = TRUE)
+  )
+
 
 }

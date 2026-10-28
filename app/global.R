@@ -266,3 +266,33 @@ if (fingerprint_cache_valid) {
   saveRDS(fingerprint_df, fingerprint_cache_file)
   message("Fingerprint cache saved.")
 }
+
+# ─── Cite RCDome — single source of bibliographic truth ────────────────────
+# Update ONLY here once the manuscript is published (journal, year, volume, pages, DOI).
+CITATION <- list(
+  title     = "RCDome: A Multi-Database Human Gene Atlas of Regulated Cell Death",
+  vancouver = "Rodrigues de Souza E, dos Santos Lopes V, Cordeiro Nogueira HA, Medina-Acosta E",
+  status    = "Manuscript submitted for publication",
+  year      = "2026",   # submission year (verified); replace with publication year when published
+  journal   = "",       # leave empty until published
+  volume    = "",
+  pages     = "",
+  doi       = "",
+  website   = "https://rcdome.org/",
+  github    = "https://github.com/BioCancerInformatics/RCDome",
+  dataset   = "RCDome unified gene\u2013RCD association matrix (Dataset S1)"
+)
+CITATION_MANUSCRIPT <- paste0(CITATION$vancouver, ". ", CITATION$title, ". ", CITATION$status, ".")
+CITATION_BIBTEX <- sprintf(
+  "@unpublished{rodriguesdesouza_rcdome,\n  title   = {%s},\n  author  = {Rodrigues de Souza, Emanuell and dos Santos Lopes, Victor and Cordeiro Nogueira, Higor Almeida and Medina-Acosta, Enrique},\n  year    = {%s},\n  note    = {%s},\n  url     = {%s}\n}",
+  CITATION$title, CITATION$year, CITATION$status, CITATION$website)
+CITATION_RIS <- paste0(
+  "TY  - UNPB\n",
+  "TI  - ", CITATION$title, "\n",
+  "AU  - Rodrigues de Souza, Emanuell\n",
+  "AU  - dos Santos Lopes, Victor\n",
+  "AU  - Cordeiro Nogueira, Higor Almeida\n",
+  "AU  - Medina-Acosta, Enrique\n",
+  "N1  - ", CITATION$status, "\n",
+  "UR  - ", CITATION$website, "\n",
+  "ER  - ")
