@@ -83,8 +83,8 @@ for (sn in names(tbl)) {
 
 fc <- list.files("code/figure_code", pattern = "[.](py|R)$", full.names = TRUE)
 fig_code <- paste(vapply(fc, function(f) paste(readLines(f, warn = FALSE), collapse = " "), ""), collapse = " ")
-leg_sents <- unique(c(trimws(strsplit(si, "(?<=[.;:])", perl = TRUE)[[1]]),
-                      trimws(strsplit(manu, "(?<=[.;:])", perl = TRUE)[[1]])))
+leg_sents <- unique(c(trimws(strsplit(si, "(?<=[.;:])(?![0-9])", perl = TRUE)[[1]]),
+                      trimws(strsplit(manu, "(?<=[.;:])(?![0-9])", perl = TRUE)[[1]])))
 legends <- paste(leg_sents[grepl("Figure|Fig[.]", leg_sents, ignore.case = TRUE)], collapse = " ")
 
 comms <- paste(vapply(list.files("comms", pattern = "[.](md|txt)$", recursive = TRUE, full.names = TRUE),
@@ -97,7 +97,7 @@ artifacts <- list(manuscript = manu, SI = si, tables = tbl_txt,
 noise_pat <- "(orcid|ORCID|doi|DOI|10\\.|Print|Linking|Grant|0000-|@|\\(Print\\)|MA |USA|Japan|Kyoto|Cambridge|Harvard|Broad|Institute|R\\d|D\\d|S\\d)"
 rows <- list()
 for (an in names(artifacts)) {
-  sents <- strsplit(artifacts[[an]], "(?<=[.;:])", perl = TRUE)[[1]]
+  sents <- strsplit(artifacts[[an]], "(?<=[.;:])(?![0-9])", perl = TRUE)[[1]]
   sents <- trimws(sents[nzchar(sents)])
   for (s in sents[grepl("[0-9]", sents)]) {
     if (grepl(noise_pat, s)) next
