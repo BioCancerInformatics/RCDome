@@ -84,7 +84,7 @@ _labels = [('A', _posA.x0, _posA.y1), ('B', _posB.x0, _posB.y1),
 for _l, _x, _y in _labels:
     fig.text(_x - 0.015, _y + 0.008, f'({_l})', fontsize=15, fontweight='bold',
              color=NAVY, va='bottom', ha='left', transform=fig.transFigure)
-out = 'D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript/Figures_A4/Figure_3_A4'
+out = 'D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript/Submission FAI/Figures_A4/Figure_4_A4'
 plt.savefig(out + '.pdf', facecolor='white')
 plt.savefig(out + '.png', dpi=600, facecolor='white')
 plt.savefig(out + '.tiff', dpi=600, facecolor='white', pil_kwargs={'compression': 'tiff_lzw'})

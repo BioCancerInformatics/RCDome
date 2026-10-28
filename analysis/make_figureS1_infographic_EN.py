@@ -8,9 +8,9 @@ from PIL import Image, ImageDraw, ImageFont
 from statistics import median
 
 BASE = r'D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript/analysis/Victor_analysis/Auditoria_V26-20260912T123815Z-1-001/Auditoria_V26/Versões do infográfico nomeclatura/Nomeclatura_4K_PT_source.png'
-OUT_PNG = r'D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript/Figures_A4/Figure_S1_evaluation_architecture_A4.png'
-OUT_PDF = r'D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript/Figures_A4/Figure_S1_evaluation_architecture_A4.pdf'
-OUT_TIFF = r'D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript/Figures_A4/Figure_S1_evaluation_architecture_A4.tiff'
+OUT_PNG = r"D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript/Submission FAI/Figures_A4/Figure_2_evaluation_architecture_A4.png"
+OUT_PDF = r"D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript/Submission FAI/Figures_A4/Figure_2_evaluation_architecture_A4.pdf"
+OUT_TIFF = r"D:/Pré-artigo 5-optosis model/Cellular_Spatial_RCD_manuscript/RCDome_manuscript/Submission FAI/Figures_A4/Figure_2_evaluation_architecture_A4.tiff"
 CROP_TOP = 340
 CROP_Y = 3980
 
@@ -41,7 +41,7 @@ T = {
  "Descritores complementares:": ("Complementary descriptors:", "FIELDB"),
  "(EXECUTOR, REGULATOR, MARKER;": ("(EXECUTOR, REGULATOR, MARKER;", "PAREN"),
  "evidence_maturity": ("evidence_maturity", "FIELD"),
- "PROMOTES/PROTECTS/UNCLEAR)": ("PROMOTES / PROTECTS / UNCLEAR)", "PAREN"),
+ "positive/negative/mixed)": ("PROMOTES / PROTECTS / UNCLEAR)", "PAREN"),
  "species_scope": ("species_scope", "FIELD"),
  "relationship_type": ("relationship_type", "FIELD"),
  "parent_entity": ("parent_entity", "FIELD"),
