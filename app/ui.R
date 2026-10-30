@@ -187,7 +187,7 @@ ui <- tagList(
     )
   ),
 
-            # ── Multimedia ─────────────────────────────────────────────────────────
+              # ── Multimedia ─────────────────────────────────────────────────────────
   tabPanel(
     title = "Multimedia",
     div(
@@ -202,7 +202,7 @@ ui <- tagList(
           column(6,
             tags$div(style = "background:#131a2e; border:1px solid #1e293b; border-radius:12px; padding:20px; height:100%; display:flex; flex-direction:column;",
               tags$div(style = "display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;",
-                tags$h4(style = "color:#60a5fa; margin:0;", "🎧 Podcast"),
+                tags$h4(style = "color:#60a5fa; margin:0;", HTML('🎧 <a href="https://doi.org/10.13140/RG.2.2.33863.25763" target="_blank" rel="noopener" style="color:#60a5fa; text-decoration:none;">Podcast</a>')),
                 actionButton("btn_audio_desc", "Description", icon = icon("info-circle"),
                              class = "btn btn-sm", style = "color:#60a5fa; border:1px solid #60a5fa; background:transparent;")
               ),
@@ -223,7 +223,7 @@ ui <- tagList(
           column(6,
             tags$div(style = "background:#131a2e; border:1px solid #1e293b; border-radius:12px; padding:20px; height:100%; display:flex; flex-direction:column;",
               tags$div(style = "display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;",
-                tags$h4(style = "color:#f87171; margin:0;", "🎬 Video Presentation"),
+                tags$h4(style = "color:#f87171; margin:0;", HTML('🎬 <a href="https://doi.org/10.13140/RG.2.2.10375.15527" target="_blank" rel="noopener" style="color:#f87171; text-decoration:none;">Video</a> Presentation')),
                 actionButton("btn_video_desc", "Description", icon = icon("info-circle"),
                              class = "btn btn-sm", style = "color:#f87171; border:1px solid #f87171; background:transparent;")
               ),
