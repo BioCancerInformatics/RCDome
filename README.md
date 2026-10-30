@@ -29,8 +29,8 @@ The **dome** is RCDome's visual signature. Its cupola rim carries the 53 canonic
 | Canonicalized RCD-related entities | **53** (from 62 original name strings) |
 | Source databases and resources | **20** |
 | Independent analyses | **4** — DeepSeek · Elicit · Consensus · **Evidence-first adjudication** |
-| Executors / regulators / markers / unresolved | 225 / 4,606 / 95 / 16,642 |
-| Direction (promotes / protects) | 2,000 / 2,161 |
+| Executors / regulators / markers / unresolved | 225 / 4,455 / 95 / 16,793 |
+| Direction (promotes / protects) | 2,102 / 2,083 |
 | PMID titles verified against PubMed | **10,141 / 10,141 (100%)** |
 
 **Evidence-first adjudication (4th analysis).** Beyond the three independent classifiers, every gene–RCD pair carries a **final verbatim-grounded resolution** (`final_mechanistic` / `final_role` / `final_direction`), arbitrated by **GPT-4o + two human curators (Curator 1, Curator 2)** and tracked in the **Disagreement Radar** (7,905 label-disagreement rows on 7,831 unique pairs, all adjudicated). This is the evidence-first layer that resolved every classifier disagreement from the verbatim — the authoritative default across the app.
@@ -42,6 +42,14 @@ The **dome** is RCDome's visual signature. Its cupola rim carries the 53 canonic
 </p>
 
 The pipeline runs in one top-to-bottom workflow: **20 source databases and resources → five compilation channels (A recall · B precision · C AI screening · D manual curation · E Elicit Phase 3) → consolidation → three independent validations (DeepSeek, Elicit, Consensus) → the 100-column matrix → the RCDome web application.**
+
+## 🖼️ Overview infographic
+
+<p align="center">
+  <img src="app/www/infographics/003_Infograph_Regulated_Cell_Death_Atlas_Overview.png" width="1100">
+  <br>
+  <sub>Regulated Cell Death Atlas — one-page overview: the 53 canonicalized RCD-related entities colored by ontological level (L1–L5), the 9,265-gene atlas, the five compilation channels, and the evidence-first adjudication that produces the traceable 100-column matrix.</sub>
+</p>
 
 ---
 
