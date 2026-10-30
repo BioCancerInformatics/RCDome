@@ -187,7 +187,7 @@ ui <- tagList(
     )
   ),
 
-  # ── Multimedia ─────────────────────────────────────────────────────────
+      # ── Multimedia ─────────────────────────────────────────────────────────
   tabPanel(
     title = "Multimedia",
     div(
@@ -200,30 +200,44 @@ ui <- tagList(
         ),
         fluidRow(
           column(6,
-            tags$div(style = "background:#131a2e; border:1px solid #1e293b; border-radius:12px; padding:20px; height:100%;",
-              tags$div(style = "display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;",
+            tags$div(style = "background:#131a2e; border:1px solid #1e293b; border-radius:12px; padding:20px; height:100%; display:flex; flex-direction:column;",
+              tags$div(style = "display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;",
                 tags$h4(style = "color:#60a5fa; margin:0;", "🎧 Podcast"),
                 actionButton("btn_audio_desc", "Description", icon = icon("info-circle"),
                              class = "btn btn-sm", style = "color:#60a5fa; border:1px solid #60a5fa; background:transparent;")
               ),
-              tags$h5("RCDome: How AI Audited Cell Death Databases",
-                      style = "color:#cbd5e1; margin-bottom:16px; font-weight:600;"),
-              tags$audio(controls = NA, style = "width:100%; outline:none;",
-                tags$source(src = "media/002_Media_Potscat_How_AI_Audited_Cell_Death_Databases.m4a", type = "audio/mp4")
+              tags$h5("RCDome: How AI Audited Cell Death Databases", style = "color:#cbd5e1; margin:0 0 8px; font-weight:600;"),
+              tags$p(HTML("Emanuell Rodrigues de Souza &middot; Victor dos Santos Lopes &middot; Higor Almeida Cordeiro Nogueira &middot; Enrique Medina-Acosta"), style = "color:#a8a29e; margin:0 0 4px; font-size:12.5px; line-height:1.5;"),
+              tags$p("October 2026 &middot; ResearchGate", style = "color:#a8a29e; margin:0 0 4px; font-size:12.5px;"),
+              tags$p(HTML('DOI: <a href="https://doi.org/podcast" target="_blank" rel="noopener" style="color:#60a5fa;">podcast</a>'),
+                     style = "color:#a8a29e; margin:0 0 12px; font-size:12.5px;"),
+              tags$audio(controls = NA, style = "width:100%; outline:none;", tags$source(src = "media/002_Media_Potscat_How_AI_Audited_Cell_Death_Databases.m4a", type = "audio/mp4")),
+              tags$div(style = "margin-top:14px; border-top:1px solid #1e293b; padding-top:12px;",
+                tags$strong("How to Cite", style = "color:#e7e5e4; font-size:12.5px;"),
+                tags$p(id = "podcast_cite", "Rodrigues de Souza E, dos Santos Lopes V, Cordeiro Nogueira HA, Medina-Acosta E. (2026). RCDome: How AI Audited Cell Death Databases [Audio podcast]. ResearchGate. https://doi.org/10.13140/RG.2.2.33863.25763", style = "color:#cbd5e1; font-size:12px; line-height:1.5; margin:6px 0 8px;"),
+                tags$button("Copy Citation", onclick = "var t=document.getElementById('podcast_cite'); var txt=t.textContent; var done=function(){this.textContent='✓ Copied!'; setTimeout(function(){this.textContent='Copy Citation';}.bind(this),2000);}.bind(this); if(navigator.clipboard){navigator.clipboard.writeText(txt).then(done)}else{var ta=document.createElement('textarea'); ta.value=txt; document.body.appendChild(ta); ta.select(); document.execCommand('copy'); document.body.removeChild(ta); done();}",
+                            style = "background:#FF9800; color:#0b1020; border:none; border-radius:6px; padding:6px 12px; font-size:12px; font-weight:700; cursor:pointer;")
               )
             )
           ),
           column(6,
-            tags$div(style = "background:#131a2e; border:1px solid #1e293b; border-radius:12px; padding:20px; height:100%;",
-              tags$div(style = "display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;",
+            tags$div(style = "background:#131a2e; border:1px solid #1e293b; border-radius:12px; padding:20px; height:100%; display:flex; flex-direction:column;",
+              tags$div(style = "display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;",
                 tags$h4(style = "color:#f87171; margin:0;", "🎬 Video Presentation"),
                 actionButton("btn_video_desc", "Description", icon = icon("info-circle"),
                              class = "btn btn-sm", style = "color:#f87171; border:1px solid #f87171; background:transparent;")
               ),
-              tags$h5("RCDome: A Multi-Database Human Gene Atlas of Regulated Cell Death",
-                      style = "color:#cbd5e1; margin-bottom:16px; font-weight:600;"),
-              tags$video(controls = NA, style = "width:100%; border-radius:8px;",
-                tags$source(src = "media/001_Media_Video_RCDome.mp4", type = "video/mp4")
+              tags$h5("RCDome: A Multi-Database Human Gene Atlas of Regulated Cell Death", style = "color:#cbd5e1; margin:0 0 8px; font-weight:600;"),
+              tags$p(HTML("Emanuell Rodrigues de Souza &middot; Victor dos Santos Lopes &middot; Higor Almeida Cordeiro Nogueira &middot; Enrique Medina-Acosta"), style = "color:#a8a29e; margin:0 0 4px; font-size:12.5px; line-height:1.5;"),
+              tags$p("October 2026 &middot; ResearchGate", style = "color:#a8a29e; margin:0 0 4px; font-size:12.5px;"),
+              tags$p(HTML('DOI: <a href="https://doi.org/video" target="_blank" rel="noopener" style="color:#f87171;">video</a>'),
+                     style = "color:#a8a29e; margin:0 0 12px; font-size:12.5px;"),
+              tags$video(controls = NA, style = "width:100%; border-radius:8px;", tags$source(src = "media/001_Media_Video_RCDome.mp4", type = "video/mp4")),
+              tags$div(style = "margin-top:14px; border-top:1px solid #1e293b; padding-top:12px;",
+                tags$strong("How to Cite", style = "color:#e7e5e4; font-size:12.5px;"),
+                tags$p(id = "video_cite", "Rodrigues de Souza E, dos Santos Lopes V, Cordeiro Nogueira HA, Medina-Acosta E. (2026). RCDome: A Multi-Database Human Gene Atlas of Regulated Cell Death [Scientific video]. ResearchGate. https://doi.org/10.13140/RG.2.2.10375.15527", style = "color:#cbd5e1; font-size:12px; line-height:1.5; margin:6px 0 8px;"),
+                tags$button("Copy Citation", onclick = "var t=document.getElementById('video_cite'); var txt=t.textContent; var done=function(){this.textContent='✓ Copied!'; setTimeout(function(){this.textContent='Copy Citation';}.bind(this),2000);}.bind(this); if(navigator.clipboard){navigator.clipboard.writeText(txt).then(done)}else{var ta=document.createElement('textarea'); ta.value=txt; document.body.appendChild(ta); ta.select(); document.execCommand('copy'); document.body.removeChild(ta); done();}",
+                            style = "background:#FF9800; color:#0b1020; border:none; border-radius:6px; padding:6px 12px; font-size:12px; font-weight:700; cursor:pointer;")
               )
             )
           )
@@ -231,8 +245,7 @@ ui <- tagList(
       )
     )
   ),
-
-  # ── Evidence ─────────────────────────────────────────────────────────────
+# ── Evidence ─────────────────────────────────────────────────────────────
   # ── RCDchat ───────────────────────────────────────────────────────────
   # ── Infographics ─────────────────────────────────────────────────────────
   tabPanel(
@@ -261,18 +274,18 @@ ui <- tagList(
 
   # ── Cite RCDome ─────────────────────────────────────────────────────────
   tabPanel(
-    title = "Cite RCDome",
+    title = HTML(paste0("Cite ", rcdome_span())),
     div(class = "wrap", style = "max-width: 1100px; margin: 0 auto; padding: 20px;",
       tags$div(style = "background:#0b1020; color:#e7e5e4; border-radius:12px; padding:28px 26px; margin-bottom:24px;",
-        tags$h1("Cite RCDome", style = "font-size:35px; margin:0;"),
+        tags$h1(HTML(paste0("Cite ", rcdome_span())), style = "font-size:35px; margin:0;"),
         tags$p("Bibliographic references for the RCDome manuscript, software, and dataset.",
                style = "color:#d6d3d1; margin:6px 0 0; font-size:15px;")
       ),
       tags$div(style = "background:#ffffff; border:1px solid #e7e5e4; border-radius:12px; padding:22px 24px; margin-bottom:24px;",
         tags$h3("Manuscript", style = "margin-top:0;"),
-        tags$p("Submitted for publication — not yet published.", style = "color:#c2410c; font-weight:600; font-size:13px; margin-bottom:10px;"),
+        tags$p("Submitted for publication — not yet published.", style = "color:#c2410c; font-weight:600; font-size:15px; margin-bottom:10px;"),
         tags$textarea(id = "cite_text", CITATION_MANUSCRIPT, rows = 3, readonly = NA,
-                      style = "width:100%; padding:12px; border:1px solid #e7e5e4; border-radius:8px; font-size:14px; font-family:inherit; background:#f5f5f4; resize:vertical;"),
+                      style = "width:100%; padding:14px; border:1px solid #e7e5e4; border-radius:8px; font-size:18px; line-height:1.6; font-family:inherit; background:#f5f5f4; resize:vertical;"),
         tags$button(id = "cite_copy_btn", "Copy Citation",
                     onclick = "var t=document.getElementById('cite_text'); t.focus(); t.select(); t.setSelectionRange(0,99999); var done=function(){document.getElementById('cite_copy_btn').textContent='✓ Copied!'; setTimeout(function(){document.getElementById('cite_copy_btn').textContent='Copy Citation';},2000);}; if(navigator.clipboard){navigator.clipboard.writeText(t.value).then(done)}else{document.execCommand('copy'); done();}",
                     style = "margin-top:10px; background:#FF9800; color:#0b1020; border:none; border-radius:8px; padding:8px 16px; font-size:14px; font-weight:700; cursor:pointer;"),
@@ -283,7 +296,7 @@ ui <- tagList(
       ),
       tags$div(style = "background:#ffffff; border:1px solid #e7e5e4; border-radius:12px; padding:22px 24px;",
         tags$h3("Software & Data", style = "margin-top:0;"),
-        tags$ul(
+        tags$ul(style = "font-size:16px; line-height:1.8;",
           tags$li(tags$strong("RCDome website: "), tags$a(href = CITATION$website, target = "_blank", rel = "noopener", CITATION$website)),
           tags$li(tags$strong("GitHub repository: "), tags$a(href = CITATION$github, target = "_blank", rel = "noopener", CITATION$github)),
           tags$li(tags$strong("Dataset: "), CITATION$dataset)
