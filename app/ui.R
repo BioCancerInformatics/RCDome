@@ -187,7 +187,7 @@ ui <- tagList(
     )
   ),
 
-      # ── Multimedia ─────────────────────────────────────────────────────────
+          # ── Multimedia ─────────────────────────────────────────────────────────
   tabPanel(
     title = "Multimedia",
     div(
@@ -214,7 +214,7 @@ ui <- tagList(
               tags$audio(controls = NA, style = "width:100%; outline:none;", tags$source(src = "media/002_Media_Potscat_How_AI_Audited_Cell_Death_Databases.m4a", type = "audio/mp4")),
               tags$div(style = "margin-top:14px; border-top:1px solid #1e293b; padding-top:12px;",
                 tags$strong("How to Cite", style = "color:#e7e5e4; font-size:12.5px;"),
-                tags$p(id = "podcast_cite", "Rodrigues de Souza E, dos Santos Lopes V, Cordeiro Nogueira HA, Medina-Acosta E. (2026). RCDome: How AI Audited Cell Death Databases [Audio podcast]. ResearchGate. https://doi.org/10.13140/RG.2.2.33863.25763", style = "color:#cbd5e1; font-size:12px; line-height:1.5; margin:6px 0 8px;"),
+                tags$p(id = "podcast_cite", HTML('Rodrigues de Souza E, dos Santos Lopes V, Cordeiro Nogueira HA, Medina-Acosta E. (2026). RCDome: How AI Audited Cell Death Databases [Audio podcast]. ResearchGate. <a href="https://doi.org/10.13140/RG.2.2.33863.25763" target="_blank" rel="noopener" style="color:#60a5fa;">https://doi.org/10.13140/RG.2.2.33863.25763</a>'), style = "color:#cbd5e1; font-size:12px; line-height:1.5; margin:6px 0 8px;"),
                 tags$button("Copy Citation", onclick = "var t=document.getElementById('podcast_cite'); var txt=t.textContent; var done=function(){this.textContent='✓ Copied!'; setTimeout(function(){this.textContent='Copy Citation';}.bind(this),2000);}.bind(this); if(navigator.clipboard){navigator.clipboard.writeText(txt).then(done)}else{var ta=document.createElement('textarea'); ta.value=txt; document.body.appendChild(ta); ta.select(); document.execCommand('copy'); document.body.removeChild(ta); done();}",
                             style = "background:#FF9800; color:#0b1020; border:none; border-radius:6px; padding:6px 12px; font-size:12px; font-weight:700; cursor:pointer;")
               )
@@ -235,7 +235,7 @@ ui <- tagList(
               tags$video(controls = NA, style = "width:100%; border-radius:8px;", tags$source(src = "media/001_Media_Video_RCDome.mp4", type = "video/mp4")),
               tags$div(style = "margin-top:14px; border-top:1px solid #1e293b; padding-top:12px;",
                 tags$strong("How to Cite", style = "color:#e7e5e4; font-size:12.5px;"),
-                tags$p(id = "video_cite", "Rodrigues de Souza E, dos Santos Lopes V, Cordeiro Nogueira HA, Medina-Acosta E. (2026). RCDome: A Multi-Database Human Gene Atlas of Regulated Cell Death [Scientific video]. ResearchGate. https://doi.org/10.13140/RG.2.2.10375.15527", style = "color:#cbd5e1; font-size:12px; line-height:1.5; margin:6px 0 8px;"),
+                tags$p(id = "video_cite", HTML('Rodrigues de Souza E, dos Santos Lopes V, Cordeiro Nogueira HA, Medina-Acosta E. (2026). RCDome: A Multi-Database Human Gene Atlas of Regulated Cell Death [Scientific video]. ResearchGate. <a href="https://doi.org/10.13140/RG.2.2.10375.15527" target="_blank" rel="noopener" style="color:#f87171;">https://doi.org/10.13140/RG.2.2.10375.15527</a>'), style = "color:#cbd5e1; font-size:12px; line-height:1.5; margin:6px 0 8px;"),
                 tags$button("Copy Citation", onclick = "var t=document.getElementById('video_cite'); var txt=t.textContent; var done=function(){this.textContent='✓ Copied!'; setTimeout(function(){this.textContent='Copy Citation';}.bind(this),2000);}.bind(this); if(navigator.clipboard){navigator.clipboard.writeText(txt).then(done)}else{var ta=document.createElement('textarea'); ta.value=txt; document.body.appendChild(ta); ta.select(); document.execCommand('copy'); document.body.removeChild(ta); done();}",
                             style = "background:#FF9800; color:#0b1020; border:none; border-radius:6px; padding:6px 12px; font-size:12px; font-weight:700; cursor:pointer;")
               )
