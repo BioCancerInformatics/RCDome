@@ -187,7 +187,7 @@ ui <- tagList(
     )
   ),
 
-          # ── Multimedia ─────────────────────────────────────────────────────────
+            # ── Multimedia ─────────────────────────────────────────────────────────
   tabPanel(
     title = "Multimedia",
     div(
@@ -209,7 +209,7 @@ ui <- tagList(
               tags$h5("RCDome: How AI Audited Cell Death Databases", style = "color:#cbd5e1; margin:0 0 8px; font-weight:600;"),
               tags$p(HTML("Emanuell Rodrigues de Souza &middot; Victor dos Santos Lopes &middot; Higor Almeida Cordeiro Nogueira &middot; Enrique Medina-Acosta"), style = "color:#a8a29e; margin:0 0 4px; font-size:12.5px; line-height:1.5;"),
               tags$p("October 2026 &middot; ResearchGate", style = "color:#a8a29e; margin:0 0 4px; font-size:12.5px;"),
-              tags$p(HTML('DOI: <a href="https://doi.org/podcast" target="_blank" rel="noopener" style="color:#60a5fa;">podcast</a>'),
+              tags$p(HTML('DOI: <a href="https://doi.org/10.13140/RG.2.2.33863.25763" target="_blank" rel="noopener" style="color:#60a5fa;">https://doi.org/10.13140/RG.2.2.33863.25763</a>'),
                      style = "color:#a8a29e; margin:0 0 12px; font-size:12.5px;"),
               tags$audio(controls = NA, style = "width:100%; outline:none;", tags$source(src = "media/002_Media_Potscat_How_AI_Audited_Cell_Death_Databases.m4a", type = "audio/mp4")),
               tags$div(style = "margin-top:14px; border-top:1px solid #1e293b; padding-top:12px;",
@@ -230,7 +230,7 @@ ui <- tagList(
               tags$h5("RCDome: A Multi-Database Human Gene Atlas of Regulated Cell Death", style = "color:#cbd5e1; margin:0 0 8px; font-weight:600;"),
               tags$p(HTML("Emanuell Rodrigues de Souza &middot; Victor dos Santos Lopes &middot; Higor Almeida Cordeiro Nogueira &middot; Enrique Medina-Acosta"), style = "color:#a8a29e; margin:0 0 4px; font-size:12.5px; line-height:1.5;"),
               tags$p("October 2026 &middot; ResearchGate", style = "color:#a8a29e; margin:0 0 4px; font-size:12.5px;"),
-              tags$p(HTML('DOI: <a href="https://doi.org/video" target="_blank" rel="noopener" style="color:#f87171;">video</a>'),
+              tags$p(HTML('DOI: <a href="https://doi.org/10.13140/RG.2.2.10375.15527" target="_blank" rel="noopener" style="color:#f87171;">https://doi.org/10.13140/RG.2.2.10375.15527</a>'),
                      style = "color:#a8a29e; margin:0 0 12px; font-size:12.5px;"),
               tags$video(controls = NA, style = "width:100%; border-radius:8px;", tags$source(src = "media/001_Media_Video_RCDome.mp4", type = "video/mp4")),
               tags$div(style = "margin-top:14px; border-top:1px solid #1e293b; padding-top:12px;",
