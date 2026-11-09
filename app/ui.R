@@ -214,7 +214,7 @@ ui <- tagList(
               tags$audio(controls = NA, style = "width:100%; outline:none;", tags$source(src = "media/002_Media_Potscat_How_AI_Audited_Cell_Death_Databases.m4a", type = "audio/mp4")),
               tags$div(style = "margin-top:14px; border-top:1px solid #1e293b; padding-top:12px;",
                 tags$strong("How to Cite", style = "color:#e7e5e4; font-size:12.5px;"),
-                tags$p(id = "podcast_cite", HTML('Rodrigues de Souza E, dos Santos Lopes V, Cordeiro Nogueira HA, Medina-Acosta E. (2026). RCDome: How AI Audited Cell Death Databases [Audio podcast]. ResearchGate. <a href="https://doi.org/10.13140/RG.2.2.33863.25763" target="_blank" rel="noopener" style="color:#60a5fa;">https://doi.org/10.13140/RG.2.2.33863.25763</a>'), style = "color:#cbd5e1; font-size:12px; line-height:1.5; margin:6px 0 8px;"),
+                tags$p(id = "podcast_cite", HTML('Rodrigues de Souza E, dos Santos Lopes V, Almeida Cordeiro Nogueira H, Medina-Acosta E. (2026). RCDome: How AI Audited Cell Death Databases [Audio podcast]. ResearchGate. <a href="https://doi.org/10.13140/RG.2.2.33863.25763" target="_blank" rel="noopener" style="color:#60a5fa;">https://doi.org/10.13140/RG.2.2.33863.25763</a>'), style = "color:#cbd5e1; font-size:12px; line-height:1.5; margin:6px 0 8px;"),
                 tags$button("Copy Citation", onclick = "var t=document.getElementById('podcast_cite'); var txt=t.textContent; var done=function(){this.textContent='✓ Copied!'; setTimeout(function(){this.textContent='Copy Citation';}.bind(this),2000);}.bind(this); if(navigator.clipboard){navigator.clipboard.writeText(txt).then(done)}else{var ta=document.createElement('textarea'); ta.value=txt; document.body.appendChild(ta); ta.select(); document.execCommand('copy'); document.body.removeChild(ta); done();}",
                             style = "background:#FF9800; color:#0b1020; border:none; border-radius:6px; padding:6px 12px; font-size:12px; font-weight:700; cursor:pointer;")
               )
@@ -235,7 +235,7 @@ ui <- tagList(
               tags$video(controls = NA, style = "width:100%; border-radius:8px;", tags$source(src = "media/001_Media_Video_RCDome.mp4", type = "video/mp4")),
               tags$div(style = "margin-top:14px; border-top:1px solid #1e293b; padding-top:12px;",
                 tags$strong("How to Cite", style = "color:#e7e5e4; font-size:12.5px;"),
-                tags$p(id = "video_cite", HTML('Rodrigues de Souza E, dos Santos Lopes V, Cordeiro Nogueira HA, Medina-Acosta E. (2026). RCDome: A Multi-Database Human Gene Atlas of Regulated Cell Death [Scientific video]. ResearchGate. <a href="https://doi.org/10.13140/RG.2.2.10375.15527" target="_blank" rel="noopener" style="color:#f87171;">https://doi.org/10.13140/RG.2.2.10375.15527</a>'), style = "color:#cbd5e1; font-size:12px; line-height:1.5; margin:6px 0 8px;"),
+                tags$p(id = "video_cite", HTML('Rodrigues de Souza E, dos Santos Lopes V, Almeida Cordeiro Nogueira H, Medina-Acosta E. (2026). RCDome: A Multi-Database Human Gene Atlas of Regulated Cell Death [Scientific video]. ResearchGate. <a href="https://doi.org/10.13140/RG.2.2.10375.15527" target="_blank" rel="noopener" style="color:#f87171;">https://doi.org/10.13140/RG.2.2.10375.15527</a>'), style = "color:#cbd5e1; font-size:12px; line-height:1.5; margin:6px 0 8px;"),
                 tags$button("Copy Citation", onclick = "var t=document.getElementById('video_cite'); var txt=t.textContent; var done=function(){this.textContent='✓ Copied!'; setTimeout(function(){this.textContent='Copy Citation';}.bind(this),2000);}.bind(this); if(navigator.clipboard){navigator.clipboard.writeText(txt).then(done)}else{var ta=document.createElement('textarea'); ta.value=txt; document.body.appendChild(ta); ta.select(); document.execCommand('copy'); document.body.removeChild(ta); done();}",
                             style = "background:#FF9800; color:#0b1020; border:none; border-radius:6px; padding:6px 12px; font-size:12px; font-weight:700; cursor:pointer;")
               )
@@ -283,15 +283,26 @@ ui <- tagList(
       ),
       tags$div(style = "background:#ffffff; border:1px solid #e7e5e4; border-radius:12px; padding:22px 24px; margin-bottom:24px;",
         tags$h3("Manuscript", style = "margin-top:0;"),
-        tags$p("Submitted for publication — not yet published.", style = "color:#c2410c; font-weight:600; font-size:15px; margin-bottom:10px;"),
-        tags$textarea(id = "cite_text", CITATION_MANUSCRIPT, rows = 3, readonly = NA,
-                      style = "width:100%; padding:14px; border:1px solid #e7e5e4; border-radius:8px; font-size:18px; line-height:1.6; font-family:inherit; background:#f5f5f4; resize:vertical;"),
+        tags$p(HTML(paste0("Preprint — ", CITATION$journal, ". doi: ",
+          '<a href="https://doi.org/', CITATION$doi, '" target="_blank" rel="noopener">', CITATION$doi, '</a>')),
+          style = "color:#c2410c; font-weight:600; font-size:15px; margin-bottom:10px;"),
+        tags$div(id = "cite_text", HTML(CITATION_HTML),
+                 style = "width:100%; padding:14px; border:1px solid #e7e5e4; border-radius:8px; font-size:18px; line-height:1.6; font-family:inherit; background:#f5f5f4; word-wrap:break-word;"),
         tags$button(id = "cite_copy_btn", "Copy Citation",
-                    onclick = "var t=document.getElementById('cite_text'); t.focus(); t.select(); t.setSelectionRange(0,99999); var done=function(){document.getElementById('cite_copy_btn').textContent='✓ Copied!'; setTimeout(function(){document.getElementById('cite_copy_btn').textContent='Copy Citation';},2000);}; if(navigator.clipboard){navigator.clipboard.writeText(t.value).then(done)}else{document.execCommand('copy'); done();}",
+                    onclick = "var t=document.getElementById('cite_text').textContent.trim(); var done=function(){document.getElementById('cite_copy_btn').textContent='✓ Copied!'; setTimeout(function(){document.getElementById('cite_copy_btn').textContent='Copy Citation';},2000);}; if(navigator.clipboard){navigator.clipboard.writeText(t).then(done)}else{var ta=document.createElement('textarea'); ta.value=t; document.body.appendChild(ta); ta.select(); document.execCommand('copy'); document.body.removeChild(ta); done();}",
                     style = "margin-top:10px; background:#FF9800; color:#0b1020; border:none; border-radius:8px; padding:8px 16px; font-size:14px; font-weight:700; cursor:pointer;"),
         tags$div(style = "margin-top:16px;",
           downloadButton("dl_bibtex", "BibTeX", class = "btn btn-sm", style = "margin-right:8px;"),
-          downloadButton("dl_ris", "RIS", class = "btn btn-sm")
+          downloadButton("dl_ris", "RIS", class = "btn btn-sm", style = "margin-right:8px;"),
+          downloadButton("dl_endnote", "EndNote", class = "btn btn-sm")
+        ),
+        tags$div(style = "margin-top:18px;",
+          tags$a(href = CITATION$article_url, target = "_blank", rel = "noopener", title = "Open the preprint on bioRxiv",
+            tags$img(src = "cite/qr_code.png", alt = "QR code to the RCDome preprint",
+                     style = "width:130px; height:auto; border:1px solid #e7e5e4; border-radius:8px; display:block;")),
+          tags$p(style = "font-size:13px; color:#57534e; margin-top:8px;",
+            "Scan to open the preprint — ",
+            tags$a(href = CITATION$article_url, target = "_blank", rel = "noopener", "bioRxiv", style = "color:#c2410c; font-weight:600;"))
         )
       ),
       tags$div(style = "background:#ffffff; border:1px solid #e7e5e4; border-radius:12px; padding:22px 24px;",

@@ -156,7 +156,17 @@ This project follows **Medina's AI Governance Rules in Writing Scientific Manusc
 
 ## 📄 How to cite
 
-Manuscript: *RCDome: a multi-database human gene atlas of regulated cell death.* Emanuell Rodrigues de Souza, Victor dos Santos Lopes, Higor Almeida Cordeiro Nogueira, Enrique Medina-Acosta.
+**Manuscript (preprint):**
+
+> Rodrigues de Souza E, dos Santos Lopes V, Almeida Cordeiro Nogueira H, Medina-Acosta E. *RCDome: A Multi-Database Human Gene Atlas of Regulated Cell Death.* Preprint at bioRxiv. 2026. doi: [10.64898/2026.10.29.761548](https://doi.org/10.64898/2026.10.29.761548). Available at: [https://www.biorxiv.org/content/10.64898/2026.10.29.761548v1](https://www.biorxiv.org/content/10.64898/2026.10.29.761548v1)
+
+<p align="center">
+  <a href="https://www.biorxiv.org/content/10.64898/2026.10.29.761548v1" target="_blank" rel="noopener">
+    <img src="app/www/cite/qr_code.png" alt="RCDome preprint QR code" width="150">
+  </a>
+</p>
+
+*BibTeX, RIS, and EndNote citations are available in the live app → [rcdome.org](https://rcdome.org/) → "Cite RCDome".*
 
 ## 👥 Authors
 

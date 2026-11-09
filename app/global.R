@@ -271,28 +271,38 @@ if (fingerprint_cache_valid) {
 # Update ONLY here once the manuscript is published (journal, year, volume, pages, DOI).
 CITATION <- list(
   title     = "RCDome: A Multi-Database Human Gene Atlas of Regulated Cell Death",
-  vancouver = "Rodrigues de Souza E, dos Santos Lopes V, Cordeiro Nogueira HA, Medina-Acosta E",
-  status    = "Manuscript submitted for publication",
-  year      = "2026",   # submission year (verified); replace with publication year when published
-  journal   = "",       # leave empty until published
+  vancouver = "Rodrigues de Souza E, dos Santos Lopes V, Almeida Cordeiro Nogueira H, Medina-Acosta E",
+  status      = "Preprint at bioRxiv",
+  year        = "2026",
+  journal     = "bioRxiv",
   volume    = "",
   pages     = "",
-  doi       = "",
+  doi         = "10.64898/2026.10.29.761548",
+  article_url = "https://www.biorxiv.org/content/10.64898/2026.10.29.761548v1",
   website   = "https://rcdome.org/",
   github    = "https://github.com/BioCancerInformatics/RCDome",
   dataset   = "RCDome unified gene\u2013RCD association matrix (Dataset S1)"
 )
-CITATION_MANUSCRIPT <- paste0(CITATION$vancouver, ". ", CITATION$title, ". ", CITATION$status, ".")
+CITATION_MANUSCRIPT <- paste0(CITATION$vancouver, ". ", CITATION$title, ". ", CITATION$status, ". ", CITATION$year, ". doi: ", CITATION$doi, ". Available at: ", CITATION$article_url, ".")
+CITATION_HTML <- paste0(
+  CITATION$vancouver, ". ", CITATION$title, ". ", CITATION$status, ". ", CITATION$year, ". doi: ",
+  '<a href="https://doi.org/', CITATION$doi, '" target="_blank" rel="noopener">', CITATION$doi, '</a>',
+  ". Available at: ",
+  '<a href="', CITATION$article_url, '" target="_blank" rel="noopener">', CITATION$article_url, '</a>', "."
+)
 CITATION_BIBTEX <- sprintf(
-  "@unpublished{rodriguesdesouza_rcdome,\n  title   = {%s},\n  author  = {Rodrigues de Souza, Emanuell and dos Santos Lopes, Victor and Cordeiro Nogueira, Higor Almeida and Medina-Acosta, Enrique},\n  year    = {%s},\n  note    = {%s},\n  url     = {%s}\n}",
-  CITATION$title, CITATION$year, CITATION$status, CITATION$website)
+  "@article{rodriguesdesouza_rcdome,\n  title   = {%s},\n  author  = {Rodrigues de Souza, Emanuell and dos Santos Lopes, Victor and Almeida Cordeiro Nogueira, Higor and Medina-Acosta, Enrique},\n  year    = {%s},\n  journal = {%s},\n  doi     = {%s},\n  url     = {%s}\n}",
+  CITATION$title, CITATION$year, CITATION$journal, CITATION$doi, CITATION$article_url)
 CITATION_RIS <- paste0(
-  "TY  - UNPB\n",
+  "TY  - EJOUR\n",
   "TI  - ", CITATION$title, "\n",
   "AU  - Rodrigues de Souza, Emanuell\n",
   "AU  - dos Santos Lopes, Victor\n",
-  "AU  - Cordeiro Nogueira, Higor Almeida\n",
+  "AU  - Almeida Cordeiro Nogueira, Higor\n",
   "AU  - Medina-Acosta, Enrique\n",
+  "JO  - ", CITATION$journal, "\n",
+  "PY  - ", CITATION$year, "\n",
+  "DO  - ", CITATION$doi, "\n",
   "N1  - ", CITATION$status, "\n",
-  "UR  - ", CITATION$website, "\n",
+  "UR  - ", CITATION$article_url, "\n",
   "ER  - ")

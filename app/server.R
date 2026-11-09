@@ -956,6 +956,10 @@ server <- function(input, output, session) {
     filename = function() "rcdome_citation.ris",
     content  = function(file) writeLines(CITATION_RIS, file, useBytes = TRUE)
   )
+  output$dl_endnote <- downloadHandler(
+    filename = function() "rcdome_citation.enw",
+    content  = function(file) file.copy(file.path("www", "cite", "rcdome.enw"), file, overwrite = TRUE)
+  )
 
 
 }
