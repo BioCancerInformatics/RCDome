@@ -279,6 +279,7 @@ CITATION <- list(
   pages     = "",
   doi         = "10.64898/2026.10.29.761548",
   article_url = "https://www.biorxiv.org/content/10.64898/2026.10.29.761548v1",
+  zenodo_doi  = "10.5281/zenodo.24090833",
   website   = "https://rcdome.org/",
   github    = "https://github.com/BioCancerInformatics/RCDome",
   dataset   = "RCDome unified gene\u2013RCD association matrix (Dataset S1)"

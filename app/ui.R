@@ -310,6 +310,7 @@ ui <- tagList(
         tags$ul(style = "font-size:16px; line-height:1.8;",
           tags$li(tags$strong("RCDome website: "), tags$a(href = CITATION$website, target = "_blank", rel = "noopener", CITATION$website)),
           tags$li(tags$strong("GitHub repository: "), tags$a(href = CITATION$github, target = "_blank", rel = "noopener", CITATION$github)),
+          tags$li(tags$strong("Zenodo DOI: "), tags$a(href = paste0("https://doi.org/", CITATION$zenodo_doi), target = "_blank", rel = "noopener", CITATION$zenodo_doi)),
           tags$li(tags$strong("Dataset: "), CITATION$dataset)
         ),
         tags$p("The GitHub repository is a software resource, not a formally published or DOI-registered citation.",

@@ -2,6 +2,8 @@
 
 **A multi-database human gene atlas of regulated cell death**
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24090833.svg)](https://doi.org/10.5281/zenodo.24090833)
+
 <p align="center">
   <img src="docs/hero_dome.png" width="1100">
   <br>
