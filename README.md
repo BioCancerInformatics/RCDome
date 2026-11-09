@@ -162,6 +162,8 @@ This project follows **Medina's AI Governance Rules in Writing Scientific Manusc
 
 > Rodrigues de Souza E, dos Santos Lopes V, Almeida Cordeiro Nogueira H, Medina-Acosta E. *RCDome: A Multi-Database Human Gene Atlas of Regulated Cell Death.* Preprint at bioRxiv. 2026. doi: [10.64898/2026.10.29.761548](https://doi.org/10.64898/2026.10.29.761548). Available at: [https://www.biorxiv.org/content/10.64898/2026.10.29.761548v1](https://www.biorxiv.org/content/10.64898/2026.10.29.761548v1)
 
+**Software (repository):** RCDome source code. Zenodo DOI: [10.5281/zenodo.24090833](https://doi.org/10.5281/zenodo.24090833).
+
 <p align="center">
   <a href="https://www.biorxiv.org/content/10.64898/2026.10.29.761548v1" target="_blank" rel="noopener">
     <img src="app/www/cite/qr_code.png" alt="RCDome preprint QR code" width="150">
