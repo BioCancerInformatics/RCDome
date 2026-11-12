@@ -65,6 +65,7 @@ ui <- tagList(
   ")),
   navbarPage(
   title = HTML(rcdome_span()),
+  windowTitle = "RCDome",
   id    = "main_nav",
 
   # ── Home = FRONT PAGE ─────────────────────────────────────────────────
